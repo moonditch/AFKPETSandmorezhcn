@@ -6657,7 +6657,7 @@ Mods: {
 					'''
 					You feel it start to chage the curve of space towards you.
 					'It will greatly increase your grab range'
-					-Unobtainable-
+					-无法获得-
 					'''
 			}
 
@@ -6851,7 +6851,7 @@ Mods: {
 					'''
 					It seems it's connected with Gensokyo
 					It also 5% chance nullify all projectiles when you take damage
-					-Unobtainable-
+					-无法获得-
 					'''
 			}
 
@@ -19105,7 +19105,7 @@ Mods: {
 			}
 
 			Gemstorm: {
-				DisplayName:宝石风暴
+				DisplayName: 宝石风暴
 				Tooltip:
 					'''
 					'[c/9F5F9F:彩虹]'
@@ -23726,7 +23726,7 @@ Mods: {
 				}
 
 				BossLiteMode: {
-					Tooltip: Activating it will cause any boss and miniboss unspawnable and their spawn items become unobtainable
+					Tooltip: Activating it will cause any boss and miniboss unspawnable and their spawn items become 无法获得
 					Label: "[i:Cog] Disable AFKPets Bosses"
 				}
 
@@ -23736,7 +23736,7 @@ Mods: {
 				}
 
 				LiteMode: {
-					Tooltip: Activating it will cause any content other than pets will become unobtainable
+					Tooltip: Activating it will cause any content other than pets will become 无法获得
 					Label: "[i:Cog] Disable Additional Contents"
 				}
 
