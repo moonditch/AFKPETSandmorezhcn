@@ -1,0 +1,8 @@
+displayName = AFK宠物和更多模组汉化补丁
+author = moon.ditch，nobody
+version = 0.1
+translationMod = true
+side = Client
+hideCode = true
+modReferences = AFKPETS
+sortAfter = AFKPETS
