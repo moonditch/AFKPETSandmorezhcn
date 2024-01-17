@@ -9365,22 +9365,22 @@ Mods: {
 			}
 
 			BaBaPet: {
-				DisplayName: Essence of BABA
+				DisplayName: BABA的精华
 				Tooltip:
 					'''
-					'It's both formed from spiritual and magical power'
-					'Angels are working on it to understand the power of nouns'
+					'它是由精神力和魔法形成的'
+					'天使们正在努力了解名词的力量'
 					召唤baba跟随你
 					'''
 			}
 
 			Baby: {
-				DisplayName: Baby
+				DisplayName: 婴儿
 				Tooltip:
 					'''
-					'Someone may be looking for her.'
+					'可能有人在找他.'
 					召唤Brad跟随你
-					[c/ffff00:Fun mode exclusive item]
+					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
