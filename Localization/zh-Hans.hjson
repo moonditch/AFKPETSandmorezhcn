@@ -135,12 +135,12 @@ Mods: {
 				DisplayName: Assassin
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -150,12 +150,12 @@ Mods: {
 				DisplayName: Assistant
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -165,12 +165,12 @@ Mods: {
 				DisplayName: Holy Knight
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -180,12 +180,12 @@ Mods: {
 				DisplayName: Researcher
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -248,12 +248,12 @@ Mods: {
 				DisplayName: Aquatic Wiseman
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -263,12 +263,12 @@ Mods: {
 				DisplayName: Error Fallen Angel2
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -280,12 +280,12 @@ Mods: {
 				DisplayName: Game Genie
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -295,12 +295,12 @@ Mods: {
 				DisplayName: Ghost Lady
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -310,12 +310,12 @@ Mods: {
 				DisplayName: Hunter Dog
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -335,12 +335,12 @@ Mods: {
 				DisplayName: Royal Guard
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -434,12 +434,12 @@ Mods: {
 				DisplayName: Boss Hunter Merchant
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -449,12 +449,12 @@ Mods: {
 				DisplayName: Fallen Angel
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -464,12 +464,12 @@ Mods: {
 				DisplayName: Guideofthe End
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -479,12 +479,12 @@ Mods: {
 				DisplayName: Yandere
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -494,12 +494,12 @@ Mods: {
 				DisplayName: Bounty Hunter
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -509,12 +509,12 @@ Mods: {
 				DisplayName: Designer
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -524,12 +524,12 @@ Mods: {
 				DisplayName: Elitist
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
@@ -539,12 +539,12 @@ Mods: {
 				DisplayName: Wandering Samurai
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
+					Content: 我很满足.
+					NoHome: 我讨厌没有家.
+					FarFromHome: 我离家太远了.
+					LoveSpace: 我喜欢有这么大的空间.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					HateCrowded: 我讨厌这里这么拥挤.
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
