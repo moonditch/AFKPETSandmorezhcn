@@ -19202,7 +19202,7 @@ Mods: {
 				DisplayName: 雀悠[占位符]
 				Tooltip:
 					'''
-					一次性投掷3个悠悠球 + RC change formation
+					投掷3个悠悠球 + RC change formation
 					打击敌怪有概率释放出锋利的叶子
 					'''
 			}
