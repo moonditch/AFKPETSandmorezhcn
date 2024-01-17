@@ -9269,25 +9269,25 @@ Mods: {
 			}
 
 			AncientBoneKey: {
-				DisplayName: Ancient Bone Key
-				Tooltip: "'Summons an Ancient Baby Skeletron Head'"
+				DisplayName: 远古骨头钥匙
+				Tooltip: "'召唤远古骷髅头宝宝'"
 			}
 
 			AncientCheese: {
-				DisplayName: Ancient Cheese
+				DisplayName: 远古奶酪
 				Tooltip:
 					'''
-					'Used for the best-a pizza in-a town-a'
-					It summons Peppino to follow you
+					'用来做城里最好的披萨'
+					召唤佩皮诺·斯巴盖提跟随你
 					'''
 			}
 
 			AncientCoin: {
-				DisplayName: Ancient Coin
+				DisplayName: 远古硬币
 				Tooltip:
 					'''
-					'It was once used by miners to trade goods'
-					It summons a mimic to follow you
+					'曾经被矿工用来交易货物'
+					召唤宝箱怪跟随你
 					'''
 			}
 
