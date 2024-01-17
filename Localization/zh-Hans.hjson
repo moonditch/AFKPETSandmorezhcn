@@ -18917,71 +18917,71 @@ Mods: {
 			}
 
 			SelfSacrifice: {
-				DisplayName: Self Sacrifice
+				DisplayName: 赤色血刃
 				Tooltip:
 					'''
-					'But what in return?'
-					Each swing will take 10 life and hitting an enemy will return 5 back
-					Critical hits errupt fireball from enemies
-					Killing an enemy will make its life a sacrifice and let the sword swing faster and not drain life for 3 second
+					'但回报是什么呢?'
+					每次挥砍消耗10点生命，击中敌人回复5点生命
+					暴击时，敌人身上会爆发火球
+					杀死一个敌人将使他的生命成为一种牺牲，并让剑摆动得更快，并且在3秒内不消耗生命
 					'''
 			}
 
 			ShinobiKatana: {
-				DisplayName: Kogarasu Maru
+				DisplayName: 小乌丸
 				Tooltip:
 					'''
-					'It have used for exectuion for protecting the kingdom'
-					'When your enemies have less than 10% life you make deathblow to them'
-					'You can't make deathblow to bosses
-					''If their life is above 10% or they are boss your strikes will inflict fear'
+					'它曾被用来执行保护王国的任务'
+					'当你的敌人生命值低于10%时，你会对他们进行致命一击'
+					'无法对boss生效'
+					''如果他们的生命值超过10%或者目标是Boss，你的攻击会造成恐惧减益'
 					'''
 			}
 
 			SolFlamberge: {
-				DisplayName: Sol Khopesh
+				DisplayName: 索尔·霍佩什
 				Tooltip:
 					'''
-					'Hitting enemies will burn them and holding it will emit light from player'
-					Critical hits will form a sword beam that will penetrate 1 enemy and upon either hit enemy or tile it will fade away
+					'击中敌人会造成燃烧减益，持有它会从玩家身上发光'
+					暴击将形成剑束，穿透一个敌人，击中敌人或砖块后剑束会消失
 					'''
 			}
 
 			SparkingJustice: {
-				DisplayName: Sparkling Justice
+				DisplayName: 闪闪发光的正义
 				Tooltip:
 					'''
-					'Justice may come late but it never misses'
-					'Critical hits will form lighting that will strike closest enemy other than the hit one'
-					'If there is no near enemy the lightning will strike to the enemy player hits'
+					'正义从来不会缺席，只会迟到'
+					'暴击将形成闪电，击中距离你最近的敌人，而不是击中一个'
+					'如果附近没有敌人，闪电将击中玩家击中敌方玩家'
 					'''
 			}
 
 			SpookyWoodSword: {
-				DisplayName: Hephaestus�s Renewal
+				DisplayName: 赫菲斯托斯的复兴
 				Tooltip:
 					'''
-					Spread the nightmare before christmas
-					'Enemy hits burts out greek fire and inflicts On Fire!'
-					'Hitting enemies under the Fear Debuff will convert into the Horror Debuff'
+					在圣诞节前散播噩梦
+					'攻击敌人会燃气希腊之火，并向周围扩散造成火灾！'
+					'攻击处于“恐惧”状态的敌人会转化为“恐怖”状态'
 					'''
 			}
 
 			TheFuture: {
-				DisplayName: The Future
+				DisplayName: 未来
 				Tooltip:
 					'''
-					'This book could read the future,but its pages are glued together,so do what you know.'
-					'Hitting enemies have a chance to inflict bleeding and confusion'
+					'这本书可以预知未来，但它的书页是粘在一起的，所以你知道什么就做什么.'
+					'击中敌人有概率造成流血和混乱'
 					'''
 			}
 
 			TheRealKnife: {
-				DisplayName: The Real Knife
+				DisplayName: 血色短匕
 				Tooltip:
 					'''
-					'Here we are! Now things are getting interesting'
-					'Upon hitting any enemy you will inflict fear to then and if that attack is deathblow any close enemy will also get fear debuff'
+					'我们到了!现在事情变得有趣了'
+					'当你击中敌人时，你会对他们造成恐惧减益，如果这个攻击是致命一击，附近的敌人也会受到恐惧减益'
 					'''
 			}
 
