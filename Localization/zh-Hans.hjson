@@ -19005,12 +19005,12 @@ Mods: {
 			}
 
 			Yatagan: {
-				DisplayName: Yatagan
+				DisplayName: 奥斯曼弯刀
 				Tooltip:
 					'''
-					'A special type of sword being both forged and used by Ottoman army'
-					'Players velocity will build momentum which will increase its damage and while being on mount its damage increase by 10%'
-					'Attacks have 10% chance to cause serious bleeding and while enemy is heavy bleeding the blood will make blade much faster'
+					'一种特殊的剑，被奥斯曼军队锻造和使用'
+					'玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%'
+					'攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快'
 					'Due to swords sharpness attacks have 50% chance to also deal internal damage which will bypass enemies both defense and DR'
 					'It's velocity will increase while enemy is under any damaging debuff and it have 5% chance to form slice in air'
 					'With RC the player could do Ottoman slap which will cause the enemy to get dizzy which cause it to lose its ability to attack for 2 second'
@@ -19019,88 +19019,88 @@ Mods: {
 			}
 
 			Apollo: {
-				DisplayName: Apollo
+				DisplayName: 阿波罗
 				Tooltip:
 					'''
-					May Pull unusual objects from the sky...
-					Hits may form a short living charge area
+					可以把天空中不寻常的物体拉过来...
+					命中敌人可以生成短暂存在的电环
 					'''
 			}
 
 			Blockade: {
-				DisplayName: Blockade
+				DisplayName: 封锁
 				Tooltip:
 					'''
-					Increases damage resistance by 5% + hits break enemies defense and cause bleeding
-					This yoyo blocks any projectiles that deal less than 80% of it's true damage
+					增加5%的伤害抗性，命中敌人可击碎护甲并造成流血.
+					这个溜溜球可以阻挡任何造成低于其真实伤害80%的投射物
 					'''
 			}
 
 			BulkBuster: {
-				DisplayName: Bulk Buster
+				DisplayName: 破坏者巴斯特
 				Tooltip:
 					'''
-					Using will shoot spit to nearby enemies. Spit causes a slow effect.
-					Bosses are immune to slowness from spit
-					Hitting an enemy will cause the yoyo to bounce back much less
+					使用时将向附近的敌人喷射唾液。唾液会造成减速效果.
+					无法对boss造成减速效果
+					击中敌人会使溜溜球反弹的更少
 					'''
 			}
 
 			ChainedWashingMachine: {
-				DisplayName: Chained Washing Machine
+				DisplayName: 链式洗衣机
 				Tooltip:
 					'''
-					'Is this supposed to be some sort of surreal art piece?'
-					'According to Lagrangian mechanics it's impossible but maybe M-theory makes this possible'
+					'这是什么超现实主义的艺术作品吗?
+					'根据拉格朗日力学，这是不可能的，但也许M理论使之成为可能.'
 					'''
 			}
 
 			Conductor: {
-				DisplayName: Conductor
+				DisplayName: 快离子导体
 				Tooltip:
 					'''
-					Hitting enemy forms and then empowers electrical ring
-					If there is any enemy inside of the ring while yoyo hit any enemy it will also send charge beam to that enemy
+					攻击敌人时召唤出电环
+					如果有敌人在电环内，悠悠球击中敌人时，它也会向该敌人发送电荷束
 					'''
 			}
 
 			Draconia: {
-				DisplayName: Draconia
+				DisplayName: 烈龙幻形
 				Tooltip:
 					'''
-					'Fueled by ten evil stars'
-					Yoyo spouts flames at nearby enemies!
-					Consecutive Yoyo hits will increase the damage of fire + hits may form remnants of a dragon
+					'由十颗邪恶的星星提供燃料'
+					悠悠球向附近的敌人喷射火焰!
+					悠悠球持续命中敌人会增加焰火伤害，有概率召唤出成龙的残念
 					'''
 			}
 
 			DriedBone: {
-				DisplayName: Dried Bone
+				DisplayName: 枯骨
 				Tooltip:
 					'''
-					'What a lovely snack! For someone else'
-					Attacks cause heavy bleeding
+					'多么美味的点心啊!对他人而言'
+					攻击会造成流血效果
 					'''
 			}
 
 			EngineersParagon: {
-				DisplayName: Engineer's Paragon
+				DisplayName: 工程师的典范
 				Tooltip:
 					'''
-					Should've renamed to Engineer's Champion after the buffs.'
-					Leaves a damaging electric trail around.
-					Electricity can leak through water
+					应该以buffs的名字重新命名为工程师的拥护者.'
+					会留下破坏性的电痕迹.
+					电可以通过水泄漏
 					'''
 			}
 
 			EyeoftheStorm: {
-				DisplayName: Eye of the Storm
+				DisplayName: 暴风之眼
 				Tooltip:
 					'''
-					'There's a light inside your soul...'
-					'ThatOs still shining in the cold.'
-					Forms a hurricane around the yoyo which damages enemies
-					Note: the yoyo itself deals very little damage
+					'你的灵魂里有一束光...'
+					'它仍然在寒冷中闪闪发光.'
+					在溜溜球周围形成风轮刃，伤害敌人
+					注意:溜溜球本身造成的伤害很小
 					'''
 			}
 
