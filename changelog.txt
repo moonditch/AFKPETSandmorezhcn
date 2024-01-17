@@ -1,0 +1,3 @@
+github：https://github.com/moonditch/AFKPETSandmorezhcn
+v0.0.0.1
+重新制作以前的计划afk宠物
