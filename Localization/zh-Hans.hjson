@@ -19105,105 +19105,105 @@ Mods: {
 			}
 
 			Gemstorm: {
-				DisplayName: Gemstorm
+				DisplayName:宝石风暴
 				Tooltip:
 					'''
-					'R A I N B O W S'
-					Constantly forms one of the 7 gemstones to damage enemies
-					If not [c/ffff00:Secret Formula] is being equipped it will lost its true form
+					'[c/9F5F9F:彩虹]'
+					持续形成七种宝石中的一种，对敌人造成伤害
+					如果没有装备[c/ffff00:秘诀]，它将失去真实形态
 					'''
 			}
 
 			HeavySling: {
-				DisplayName: Heavy Sling
+				DisplayName: 重型吊索
 				Tooltip:
 					'''
-					'Cookies and boulders, two arch nemesis... Luckily both are on your side today'
-					After 5 hit yoyo gains ground slam ability which erupts stone pillars and boulders from below
-					Equipping [c/ffff00:Secret Formula] will awoken its true form
+					'饼干和巨石，两个宿敌……幸运的是，今天他们都站在你这边'
+					命中5次后，溜溜球获得碎石技能，从下面喷出石柱和巨石
+					装备[c/ffff00:秘诀]可以唤醒它的真实形态
 					'''
 			}
 
 			HighTide: {
-				DisplayName: High Tide
+				DisplayName: 猪鲨悠悠球
 				Tooltip:
 					'''
-					'It's over Duke, I have the high tide...'
-					Pulls non-boss enemies + projectiles towards the yoyo
-					Hitting enemies may call water droplets from sea
+					'结束了,公爵，我让海洋涨潮了...'
+					将非boss敌人+投射物拉向溜溜球
+					击中敌人可能会召唤海中的水滴
 					'''
 			}
 
 			HolographicYoyo: {
-				DisplayName: Double Phased Yoyo
-				Tooltip: Using will form double phased lines which will damage enemies upon yoyo retraction
+				DisplayName: 双相悠悠球
+				Tooltip: 使用时将形成双相线，悠悠球收回时将对敌人造成伤害
 			}
 
 			NagaFireball: {
-				DisplayName: Naga Fireball
+				DisplayName: 纳迦火球
 				Tooltip:
 					'''
-					Throwing will cause 4 smaller Naga Flames to orbit around the yoyo
-					When Naga Flames hit any enemy they will do 50% of base damage and inflict cursed inferno for a short time
+					投掷时会形成4个较小的纳迦火焰围绕悠悠球旋转
+					当纳迦火焰击中任意单位时，纳迦火焰会造成50%的基础伤害，并在短时间内附加诅咒炼狱
 					'''
 			}
 
 			RoyalStriker: {
-				DisplayName: Royal Striker
+				DisplayName: 皇家前锋
 				Tooltip:
 					'''
-					'Cute, cuddly and soft'
-					Enemy hits may drop golden carrots which heal player upon touch
-					Crits may inflict allergic to cuteness
-					Alergic to cuteness cause true DoT if inflicted enemy gets close to cute npcs
+					'可爱，可爱又柔软'
+					攻击敌人有概率掉落黄金胡萝卜，拾取时将治疗玩家
+					暴击有可能导致可爱过敏
+					对可爱过敏，如果敌人靠近可爱的npc会造成真正的萌过敏
 					'''
 			}
 
 			SunSlicer: {
-				DisplayName: Sun Slicer
+				DisplayName: 太阳耀斑
 				Tooltip:
 					'''
-					'It appears that the core still continues to fuse hydrogene.'
-					Yoyo movements form concentrated flames that will home in on nearby enemies
-					Critical hits will form flames around the yoyo
+					'看来核心仍在继续融合氢.'
+					投掷悠悠球会形成集中的火焰核心，对周围的敌人造成伤害
+					溜溜球暴击将形成炽热爆裂
 					'''
 			}
 
 			TheAsteroid: {
-				DisplayName: The Asteroid
+				DisplayName: 小行星
 				Tooltip:
 					'''
-					'We'll be counting stars over their heads'
-					Rain downs meteorites + Crits may cause explosion
+					'我们将会在他们头顶上数星星'
+					投掷悠悠球时会坠落小型陨石，暴击时会发生爆炸.
 					'''
 			}
 
 			TheSpikeball: {
-				DisplayName: The Spikeball
+				DisplayName: 尖刺球
 				Tooltip:
 					'''
-					'Here comes the big boy'
-					Every fourth hit makes the yoyo shoot short range spikes.
+					'大男孩来啦！！！'
+					每击中四次，溜溜球会向周围释放短距离的尖刺。
 					'''
 			}
 
 			TheTrueEyeofCthulhu: {
-				DisplayName: The True Eye of Cthulhu
+				DisplayName: 克苏鲁真眼
 				Tooltip:
 					'''
-					'A new power is rising, victory is at hand...'
-					Throwing will reveral the location of enemies, traps ,treasures and grant night vision.
-					3 servant eyes orbit the yoyo + strike close enemies
-					Getting close to yoyo cause enemies stats to be drained
+					'一股新的力量正在崛起，胜利就在眼前....'
+					投掷悠悠球可获得狩猎药水，危险感药水，洞穴探索药水效果，并获得夜视能力.
+					召唤3个仆从之眼围绕着悠悠球旋转，并攻击附近的敌人
+					当玩家靠近悠悠球时会导致数据无法统计
 					'''
 			}
 
 			Triyo: {
-				DisplayName: Triyo
+				DisplayName: 雀悠[占位符]
 				Tooltip:
 					'''
-					Throws 3 yoyo at once + RC change formation
-					Hits may release sharp leaves
+					一次性投掷3个悠悠球 + RC change formation
+					打击敌怪有概率释放出锋利的叶子
 					'''
 			}
 
