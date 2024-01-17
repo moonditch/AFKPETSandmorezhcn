@@ -9395,7 +9395,7 @@ Mods: {
 			}
 
 			BakamiteCrystal: {
-				DisplayName: 笨蛋9的冰晶戒指（出自车万，作者原创）
+				DisplayName: 笨蛋9的冰晶之戒（出自车万，作者原创）
 				Tooltip:
 					'''
 					'你不知道发生了什么，但你感到高兴'
@@ -9431,125 +9431,125 @@ Mods: {
 			}
 
 			BigRadCannister: {
-				DisplayName: Big Rad Cannister
+				DisplayName: 巨大的辐射罐（出自废土之王）
 				Tooltip:
 					'''
-					'You are not sure if it's safe to carry or not'
-					召唤Nuclear Throne跟随你
+					'你不确定携带它是否安全'
+					召唤核子王座跟随你
 					'''
 			}
 
 			BlackBell: {
-				DisplayName: Black Bell
+				DisplayName: 黑色铃铛（出自任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'It looks special'
-					召唤Mr Game and Watch跟随你
+					'它看起来很特别'
+					召唤小黑人跟随你
 					'''
 			}
 
 			BlessedBanana2: {
-				DisplayName: Divine Banana
-				Tooltip: "'Even holding it makes you feel you are being consecrated'"
+				DisplayName: 神圣的香蕉（出自外网梗）
+				Tooltip: "'即使拿着它也会让你觉得自己被神圣化了'"
 			}
 
 			BlizzardWand: {
-				DisplayName: Blizzard Wand
+				DisplayName: Blizzard Wand（占位符）
 				Tooltip:
 					'''
-					'It has the potential of stopping global warming'
+					'它有可能阻止全球变暖'
 					召唤Blizzarus跟随你
 					'''
 			}
 
 			Blood: {
-				DisplayName: Blood
+				DisplayName: 血液（出自原版）
 				Tooltip:
 					'''
-					'It attracts another pet'
-					召唤an ice bat跟随你
+					'它吸引了另一只宠物'
+					召唤冰雪蝙蝠跟随你
 					'''
 			}
 
 			BloodCrystal: {
-				DisplayName: Blood Crystal
+				DisplayName: 血色之晶（出自车万）
 				Tooltip:
 					'''
-					'You start to lose your sanity'
-					召唤Flandre Scarlet跟随你
+					'你开始失去理智'
+					召唤芙兰朵露·斯卡雷特跟随你
 					'''
 			}
 
 			BloodCrystalRing: {
-				DisplayName: Scarlet Blood Crystal
+				DisplayName: 猩红血色水晶之戒（出自车万，作者原创）
 				Tooltip:
 					'''
-					'It's as red as cranberry'
-					'You feel happy but you are not sure why'
-					召唤Flandre in bride costume跟随你
+					'它像蔓越莓一样红'
+					'你感到快乐，但你不知道为什么'
+					召唤花嫁芙兰朵露·斯卡雷特跟随你
 					'''
 			}
 
 			BloodDye: {
-				DisplayName: Blood Dye
+				DisplayName: 血染料（出自原版）
 				Tooltip:
 					'''
-					'Maybe it attracts another pet.'
-					召唤a giant bat跟随你
+					'也许会吸引别的宠物.'
+					召唤巨型蝙蝠跟随你
 					'''
 			}
 
 			BloodFlask: {
-				DisplayName: Blood in a Flask
+				DisplayName: 血瓶（出自原版）
 				Tooltip:
 					'''
-					'It attracts another pet.'
-					召唤a vampire bat跟随你
+					'它吸引了另一只宠物.'
+					召唤吸血鬼蝙蝠跟随你
 					'''
 			}
 
 			BloodJar: {
-				DisplayName: Blood in a Jar
+				DisplayName: 瓶装血（出自原版）
 				Tooltip:
 					'''
-					'It attracts another pet.'
-					召唤a lava bat跟随你
+					'它吸引了另一只宠物.'
+					召唤熔岩蝙蝠跟随你
 					'''
 			}
 
 			BloodPotion: {
-				DisplayName: Blood Potion
+				DisplayName: 血药剂（出自原版）
 				Tooltip:
 					'''
-					'It attracts another pet.'
-					召唤a light bat跟随你
+					'它吸引了另一只宠物.'
+					召唤夜明蝙蝠跟随你
 					'''
 			}
 
 			BloodSoup: {
-				DisplayName: Blood Soup
+				DisplayName: 血碟子（出自原版）
 				Tooltip:
 					'''
-					'Maybe it attracts another pet.'
-					召唤a jungle bat跟随你
+					'也许会吸引别的宠物.'
+					召唤巨型飞狐跟随你
 					'''
 			}
 
 			BloodVial: {
-				DisplayName: Blood Vial
+				DisplayName: 采血管（出自凯尔特神话）
 				Tooltip:
 					'''
-					'Someone might like it's taste'
-					召唤Morrigan跟随你
+					'有人可能会喜欢它的味道'
+					召唤苏格兰跟随你
 					'''
 			}
 
 			BloodyBass: {
-				DisplayName: Bloody Bass
+				DisplayName: 血鱼
 				Tooltip:
 					'''
-					'What can I use this for?'
-					召唤a flesh reaver跟随你
+					'我能用这个做什么?'
+					召唤戮血沙鲨跟随你
 					'''
 			}
 
@@ -9559,7 +9559,7 @@ Mods: {
 					'''
 					'Collecting 200 of them may give you another life.'
 					召唤Lilac跟随你
-					[c/ffff00:Fun mode exclusive item]
+					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
