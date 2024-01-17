@@ -4920,7 +4920,7 @@ Mods: {
 			}
 
 			SecretFormula: {
-				DisplayName: Secret Formula
+				DisplayName: 秘诀
 				Tooltip:
 					'''
 					'Ravioli, ravioli. Give me the formuoli'
