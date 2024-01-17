@@ -18986,11 +18986,11 @@ Mods: {
 			}
 
 			Tizona: {
-				DisplayName: Tizona
+				DisplayName: 缇佐纳
 				Tooltip:
 					'''
-					Legends tell its power depend on its wielder
-					'Upon striking enemy it will ignite, burn with shadowflames and seriously bleed them'
+					传说中它的力量取决于持有者
+					'在攻击时，它会点燃敌人，燃烧阴影火焰，并施加重创流血'
 					'''
 			}
 
@@ -18999,7 +18999,7 @@ Mods: {
 				Tooltip:
 					'''
 					'为老妖精王锻造的诅咒之剑'
-					'一旦命中，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益'
+					'在攻击敌人时，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益'
 					'玩家的每一次减益都会增强4%，并且上限为4次减益'
 					'''
 			}
