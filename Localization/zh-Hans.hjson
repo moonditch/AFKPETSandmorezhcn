@@ -9274,7 +9274,7 @@ Mods: {
 			}
 
 			AncientCheese: {
-				DisplayName: 远古的奶酪
+				DisplayName: 远古的奶酪（出自披萨塔）
 				Tooltip:
 					'''
 					'用来做城里最好的披萨'
@@ -9283,7 +9283,7 @@ Mods: {
 			}
 
 			AncientCoin: {
-				DisplayName: 远古的硬币
+				DisplayName: 远古的硬币（出自原版）
 				Tooltip:
 					'''
 					'曾经被矿工用来交易货物'
@@ -9292,7 +9292,7 @@ Mods: {
 			}
 
 			AncientCrown: {
-				DisplayName: 远古的皇冠
+				DisplayName: 远古的皇冠（出自探险活宝）
 				Tooltip:
 					'''
 					'拿着它，你也可以寻找公主了.'
@@ -9301,7 +9301,7 @@ Mods: {
 			}
 
 			AncientGoldRing: {
-				DisplayName: 远古的金色光环
+				DisplayName: 远古的金色光环（出自车万）
 				Tooltip:
 					'''
 					'你的精神力量越来越强大'
@@ -9310,7 +9310,7 @@ Mods: {
 			}
 
 			AncientHelmet: {
-				DisplayName: 远古的头盔
+				DisplayName: 远古的头盔（出自传说之下）
 				Tooltip:
 					'''
 					'它属于真正的女主角'
@@ -9319,7 +9319,7 @@ Mods: {
 			}
 
 			AncientKatana: {
-				DisplayName: 古老的武士刀
+				DisplayName: 古老的武士刀（出自车万）
 				Tooltip:
 					'''
 					'某人最喜欢的剑'
@@ -9328,7 +9328,7 @@ Mods: {
 			}
 
 			AncientMask: {
-				DisplayName: 远古的面具
+				DisplayName: 远古的面具（出自星之卡比）
 				Tooltip:
 					'''
 					'看起来很酷'
@@ -9337,7 +9337,7 @@ Mods: {
 			}
 
 			AngelicMask: {
-				DisplayName: 使徒面具
+				DisplayName: 使徒面具（出自eva）
 				Tooltip:
 					'''
 					'它看起来很呆板'
@@ -9346,7 +9346,7 @@ Mods: {
 			}
 
 			AnimalFeed: {
-				DisplayName: 动物饲料
+				DisplayName: 动物饲料（出自？？没看出来）
 				Tooltip:
 					'''
 					'它可能会吸引某人.'
@@ -9355,7 +9355,7 @@ Mods: {
 			}
 
 			Apple: {
-				DisplayName: 苹果
+				DisplayName: 苹果（出自iwanna）
 				Tooltip:
 					'''
 					'眼睛似乎也喜欢水果.'
@@ -9365,7 +9365,7 @@ Mods: {
 			}
 
 			BaBaPet: {
-				DisplayName: BABA的精华
+				DisplayName: BABA的精华（出自？？没看出来）
 				Tooltip:
 					'''
 					'它是由精神力和魔法形成的'
@@ -9375,7 +9375,7 @@ Mods: {
 			}
 
 			Baby: {
-				DisplayName: 婴儿
+				DisplayName: 婴儿（出自Lisa）
 				Tooltip:
 					'''
 					'可能有人在找他.'
@@ -9385,48 +9385,48 @@ Mods: {
 			}
 
 			BadBubble: {
-				DisplayName: Bad Bubble
+				DisplayName: Bad Bubble（占位符）
 				Tooltip:
 					'''
 					'It looks far more innocent than plasma shooting eldritch creatures that lives in the well
-					But still you feel you shouldn't let your guard down.'
-					召唤bad bubble跟随你
+					但你还是觉得不能放松警惕.'
+					召唤Bad Bubble跟随你
 					'''
 			}
 
 			BakamiteCrystal: {
-				DisplayName: Bakamite Crystal
+				DisplayName: 笨蛋9的冰晶戒指（出自车万，作者原创）
 				Tooltip:
 					'''
-					'You don't know what happened but you feel happy'
-					召唤Cirno跟随你
+					'你不知道发生了什么，但你感到高兴'
+					召唤花嫁琪露诺跟随你
 					'''
 			}
 
 			BaseBallBat: {
-				DisplayName: Baseball Bat
+				DisplayName: 棒球棍（占位符）（出自？？没看出来）
 				Tooltip:
 					'''
-					'It may be good against ghosts and nightmares'
+					'它可能对鬼魂和噩梦有好处'
 					召唤Aki跟随你
 					'''
 			}
 
 			Beef: {
-				DisplayName: Beef
+				DisplayName: 肉（出自星之卡比）
 				Tooltip:
 					'''
-					'It is still warm'
-					召唤kirby跟随你
+					'这是熟的'
+					召唤星之卡比跟随你
 					'''
 			}
 
 			BellHairBand: {
-				DisplayName: Bell Attached Hair Band
+				DisplayName: 铃铛系发带（出自动森）
 				Tooltip:
 					'''
-					'It looks cute'
-					召唤Isabelle跟随你
+					'看起来很可爱'
+					召唤西施惠跟随你
 					'''
 			}
 
