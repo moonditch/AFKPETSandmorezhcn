@@ -1139,7 +1139,7 @@ Mods: {
 
 			Bucket: {
 				DisplayName: Buckets
-				Description: He force you to follow you
+				Description: He force you跟随你
 			}
 
 			Buddy: {
@@ -5594,7 +5594,7 @@ Mods: {
 					When sentry slots are more or equal to 2, player gain an extra minion slot and 5% summon damage'
 					When sentry slots are more or equal to 4, on hit contact based sentries have a chance to send out blue scarabs'
 					When sentry slots are more or equal to 6, all sentries gain bioluminescent aura
-					When sentry slots are more or equal to 8, it summons a guardian to assist you
+					When sentry slots are more or equal to 8, 召唤a guardian to assist you
 					'''
 			}
 
@@ -9264,7 +9264,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems important to someone'
-					It summons Arno to follow you
+					召唤Arno跟随你
 					'''
 			}
 
@@ -9274,7 +9274,7 @@ Mods: {
 			}
 
 			AncientCheese: {
-				DisplayName: 远古奶酪
+				DisplayName: 远古的奶酪
 				Tooltip:
 					'''
 					'用来做城里最好的披萨'
@@ -9283,7 +9283,7 @@ Mods: {
 			}
 
 			AncientCoin: {
-				DisplayName: 远古硬币
+				DisplayName: 远古的硬币
 				Tooltip:
 					'''
 					'曾经被矿工用来交易货物'
@@ -9292,7 +9292,7 @@ Mods: {
 			}
 
 			AncientCrown: {
-				DisplayName: 远古皇冠
+				DisplayName: 远古的皇冠
 				Tooltip:
 					'''
 					'拿着它，你也可以寻找公主了.'
@@ -9301,66 +9301,66 @@ Mods: {
 			}
 
 			AncientGoldRing: {
-				DisplayName: Ancient Gold Ring
+				DisplayName: 远古的金色光环
 				Tooltip:
 					'''
-					'Your spiritual power grows stronger'
-					It summons Ichirin Kumoi to follow you
+					'你的精神力量越来越强大'
+					召唤云居一轮跟随你
 					'''
 			}
 
 			AncientHelmet: {
-				DisplayName: Ancient Helmet
+				DisplayName: 远古的头盔
 				Tooltip:
 					'''
-					'It belongs to the true heroine'
-					It summons armored Undyne to follow you
+					'它属于真正的女主角'
+					召唤安黛因跟随你
 					'''
 			}
 
 			AncientKatana: {
-				DisplayName: Ancient Katana
+				DisplayName: 古老的武士刀
 				Tooltip:
 					'''
-					'Someone's favourite sword'
-					It summons Youmu to follow you
+					'某人最喜欢的剑'
+					召唤魂魄妖梦跟随你
 					'''
 			}
 
 			AncientMask: {
-				DisplayName: Ancient Mask
+				DisplayName: 远古的面具
 				Tooltip:
 					'''
-					'Looks really cool'
-					It summons meta knight to follow you
+					'看起来很酷'
+					召唤梅塔奈特跟随你
 					'''
 			}
 
 			AngelicMask: {
-				DisplayName: Angelic mask
+				DisplayName: 使徒面具
 				Tooltip:
 					'''
-					'It looks mechanical'
-					It summons seventh angel to follow you
+					'它看起来很呆板'
+					召唤第七使徒跟随你
 					'''
 			}
 
 			AnimalFeed: {
-				DisplayName: Animal Feed
+				DisplayName: 动物饲料
 				Tooltip:
 					'''
-					'It may attract someone.'
-					It summons a cow to follow you
+					'它可能会吸引某人.'
+					召唤奶牛跟随你
 					'''
 			}
 
 			Apple: {
-				DisplayName: Apple
+				DisplayName: 苹果
 				Tooltip:
 					'''
-					'It seems the eye also loves fruit too.'
-					'It seems as if it comes from another universe.'
-					It summons the kid to follow you
+					'眼睛似乎也喜欢水果.'
+					'它似乎来自另一个宇宙.'
+					召唤kid跟随你
 					'''
 			}
 
@@ -9370,7 +9370,7 @@ Mods: {
 					'''
 					'It's both formed from spiritual and magical power'
 					'Angels are working on it to understand the power of nouns'
-					It summons baba to follow you
+					召唤baba跟随你
 					'''
 			}
 
@@ -9379,7 +9379,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone may be looking for her.'
-					It summons Brad to follow you
+					召唤Brad跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9390,7 +9390,7 @@ Mods: {
 					'''
 					'It looks far more innocent than plasma shooting eldritch creatures that lives in the well
 					But still you feel you shouldn't let your guard down.'
-					It summons bad bubble to follow you
+					召唤bad bubble跟随你
 					'''
 			}
 
@@ -9399,7 +9399,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You don't know what happened but you feel happy'
-					It summons Cirno to follow you
+					召唤Cirno跟随你
 					'''
 			}
 
@@ -9408,7 +9408,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may be good against ghosts and nightmares'
-					It summons Aki to follow you
+					召唤Aki跟随你
 					'''
 			}
 
@@ -9417,7 +9417,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is still warm'
-					It summons kirby to follow you
+					召唤kirby跟随你
 					'''
 			}
 
@@ -9426,7 +9426,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks cute'
-					It summons Isabelle to follow you
+					召唤Isabelle跟随你
 					'''
 			}
 
@@ -9435,7 +9435,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You are not sure if it's safe to carry or not'
-					It summons Nuclear Throne to follow you
+					召唤Nuclear Throne跟随你
 					'''
 			}
 
@@ -9444,7 +9444,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks special'
-					It summons Mr Game and Watch to follow you
+					召唤Mr Game and Watch跟随你
 					'''
 			}
 
@@ -9458,7 +9458,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It has the potential of stopping global warming'
-					It summons Blizzarus to follow you
+					召唤Blizzarus跟随你
 					'''
 			}
 
@@ -9467,7 +9467,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It attracts another pet'
-					It summons an ice bat to follow you
+					召唤an ice bat跟随你
 					'''
 			}
 
@@ -9476,7 +9476,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You start to lose your sanity'
-					It summons Flandre Scarlet to follow you
+					召唤Flandre Scarlet跟随你
 					'''
 			}
 
@@ -9486,7 +9486,7 @@ Mods: {
 					'''
 					'It's as red as cranberry'
 					'You feel happy but you are not sure why'
-					It summons Flandre in bride costume to follow you
+					召唤Flandre in bride costume跟随你
 					'''
 			}
 
@@ -9495,7 +9495,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe it attracts another pet.'
-					It summons a giant bat to follow you
+					召唤a giant bat跟随你
 					'''
 			}
 
@@ -9504,7 +9504,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It attracts another pet.'
-					It summons a vampire bat to follow you
+					召唤a vampire bat跟随你
 					'''
 			}
 
@@ -9513,7 +9513,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It attracts another pet.'
-					It summons a lava bat to follow you
+					召唤a lava bat跟随你
 					'''
 			}
 
@@ -9522,7 +9522,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It attracts another pet.'
-					It summons a light bat to follow you
+					召唤a light bat跟随你
 					'''
 			}
 
@@ -9531,7 +9531,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe it attracts another pet.'
-					It summons a jungle bat to follow you
+					召唤a jungle bat跟随你
 					'''
 			}
 
@@ -9540,7 +9540,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone might like it's taste'
-					It summons Morrigan to follow you
+					召唤Morrigan跟随你
 					'''
 			}
 
@@ -9549,7 +9549,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What can I use this for?'
-					It summons a flesh reaver to follow you
+					召唤a flesh reaver跟随你
 					'''
 			}
 
@@ -9558,7 +9558,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Collecting 200 of them may give you another life.'
-					It summons Lilac to follow you
+					召唤Lilac跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9568,7 +9568,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone wants to take this.'
-					It summons an etherian wyvern to follow you
+					召唤an etherian wyvern跟随你
 					'''
 			}
 
@@ -9577,7 +9577,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this feather come from?'
-					It summons a blue jay to follow you
+					召唤a blue jay跟随你
 					'''
 			}
 
@@ -9586,7 +9586,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks at you carefully.'
-					It summons an inkling to follow you
+					召唤an inkling跟随你
 					'''
 			}
 
@@ -9595,7 +9595,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel it belongs to someone'
-					It summons Garry to follow you
+					召唤Garry跟随你
 					'''
 			}
 
@@ -9604,7 +9604,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Explosive Thoughts'
-					It summons Bob's brain to follow you
+					召唤Bob's brain跟随你
 					'''
 			}
 
@@ -9613,7 +9613,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel he wants this back'
-					It summons Wilfe to follow you
+					召唤Wilfe跟随你
 					'''
 			}
 
@@ -9622,7 +9622,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you should convince her to not give this to him'
-					It summons Mari to follow you
+					召唤Mari跟随你
 					'''
 			}
 
@@ -9631,7 +9631,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Flag of a kingdom'
-					It summons Bowser to follow you
+					召唤Bowser跟随你
 					'''
 			}
 
@@ -9640,7 +9640,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Bones smells like spagetti'
-					It summons Papyrus to follow you
+					召唤Papyrus跟随你
 					'''
 			}
 
@@ -9649,7 +9649,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Summons a pet zombie'
-					It summons a zombie to follow you
+					召唤a zombie跟随你
 					'''
 			}
 
@@ -9659,7 +9659,7 @@ Mods: {
 					'''
 					'This doesn't make him happy'
 					'Maybe I can fix this'
-					It summons King Dedede to follow you
+					召唤King Dedede跟随你
 					'''
 			}
 
@@ -9673,7 +9673,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It vibrates with the power of the ancient warlord'
-					It summons the washing machine to follow you
+					召唤the washing machine跟随你
 					'''
 			}
 
@@ -9683,7 +9683,7 @@ Mods: {
 					'''
 					'It seems like the other items are in it's inventory.'
 					'It become craftable after the one proven itself'
-					It summons washing machine, the holy avenger to follow you
+					召唤washing machine, the holy avenger跟随你
 					'''
 			}
 
@@ -9692,7 +9692,7 @@ Mods: {
 				Tooltip:
 					'''
 					'LOOKS LIKE IT'S SWEEPIN' TIME!'
-					It summons Sweep to follow you
+					召唤Sweep跟随你
 					'''
 			}
 
@@ -9701,7 +9701,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does angler find this?'
-					It summons a bubble to follow you
+					召唤a bubble跟随你
 					'''
 			}
 
@@ -9710,7 +9710,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Essential for making new courses'
-					It summons Builder Mario to follow you
+					召唤Builder Mario跟随你
 					'''
 			}
 
@@ -9719,7 +9719,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It have the ability to provide energy to the majority of the world'
-					It summons Niko to follow you
+					召唤Niko跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9730,7 +9730,7 @@ Mods: {
 					'''
 					'Bumbo Want Coin!'
 					'With respect to each 20 gold in your piggy bank its level will increase by 1 and summon it by using item first'
-					It summons Bumbo to follow you
+					召唤Bumbo跟随你
 					'''
 			}
 
@@ -9739,7 +9739,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's too hot to hold it'
-					It summons Mr Bright to follow you
+					召唤Mr Bright跟随你
 					'''
 			}
 
@@ -9748,7 +9748,7 @@ Mods: {
 				Tooltip:
 					'''
 					Do I need mana or elixir?'
-					It summons mega knight to follow you
+					召唤mega knight跟随你
 					'''
 			}
 
@@ -9762,7 +9762,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It pulses with power'
-					It summons Knuckles to follow you
+					召唤Knuckles跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9772,7 +9772,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Isn't it destroyed?'
-					It summons Dimentio to follow you
+					召唤Dimentio跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9782,7 +9782,7 @@ Mods: {
 				Tooltip:
 					'''
 					'BBBZZZZZT!'
-					It summons a charged baby to follow you
+					召唤a charged baby跟随你
 					'''
 			}
 
@@ -9791,7 +9791,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it's missing its kitchen'
-					It summons chefs spiritual energy
+					召唤chefs spiritual energy
 					'''
 			}
 
@@ -9800,7 +9800,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may contain evidence for the lost mechanic case.'
-					It summons Maya Fey to follow you
+					召唤Maya Fey跟随你
 					'''
 			}
 
@@ -9809,7 +9809,7 @@ Mods: {
 				Tooltip:
 					'''
 					'These once belonged to a dark prince'
-					It summons Ralsei to follow you
+					召唤Ralsei跟随你
 					'''
 			}
 
@@ -9818,7 +9818,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone is hiding inside of it'
-					It summons Lakitu to follow you
+					召唤Lakitu跟随你
 					'''
 			}
 
@@ -9828,7 +9828,7 @@ Mods: {
 					'''
 					'It looks it wants to protect you since it thinks you are it's pet.'
 					'It will protect you from the darkness, blackout, obstructed and darkness of the fear debuffs.'
-					It summons a concentrated nightmare to follow you
+					召唤a concentrated nightmare跟随你
 					'''
 			}
 
@@ -9837,7 +9837,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this feather come from?'
-					It summons a crow to follow you
+					召唤a crow跟随你
 					'''
 			}
 
@@ -9846,7 +9846,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What can I use this for?'
-					It summons a crystal thresher to follow you
+					召唤a crystal thresher跟随你
 					'''
 			}
 
@@ -9855,7 +9855,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It peacefully observes you'
-					It summons curious wisp to follow you
+					召唤curious wisp跟随你
 					'''
 			}
 
@@ -9864,7 +9864,7 @@ Mods: {
 				Tooltip:
 					'''
 					It looks cute.'
-					It summons a yorkshire terrier to follow you
+					召唤a yorkshire terrier跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9874,7 +9874,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What will this do?'
-					It summons a wraith to follow you
+					召唤a wraith跟随你
 					'''
 			}
 
@@ -9883,7 +9883,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding this make you feel stronger'
-					It summons Enchantress to follow you
+					召唤Enchantress跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -9893,7 +9893,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this come from?'
-					It summons a slimer to follow you
+					召唤a slimer跟随你
 					'''
 			}
 
@@ -9902,7 +9902,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This may make someone happy.'
-					It summons Blake to follow you
+					召唤Blake跟随你
 					'''
 			}
 
@@ -9911,7 +9911,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel like someone is inside of it'
-					It summons Rumia to follow you
+					召唤Rumia跟随你
 					'''
 			}
 
@@ -9920,7 +9920,7 @@ Mods: {
 				Tooltip:
 					'''
 					'9 Lives'
-					It summons the dead cat to follow you
+					召唤the dead cat跟随你
 					'''
 			}
 
@@ -9929,7 +9929,7 @@ Mods: {
 				Tooltip:
 					'''
 					It looks like a shinigami drop this.'
-					It summons Ryuk to follow you
+					召唤Ryuk跟随你
 					'''
 			}
 
@@ -9938,7 +9938,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks dry and sad.'
-					It summons Patrick Star to follow you
+					召唤Patrick Star跟随你
 					'''
 			}
 
@@ -9947,7 +9947,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks dry and sad.'
-					It summons Sponge Bob to follow you
+					召唤Sponge Bob跟随你
 					'''
 			}
 
@@ -9956,7 +9956,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it belongs to a family'
-					It summons Finn to follow you
+					召唤Finn跟随你
 					'''
 			}
 
@@ -9965,7 +9965,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to someone who has no internet connection.'
-					It summons a dinosaur to follow you
+					召唤a dinosaur跟随你
 					'''
 			}
 
@@ -9974,7 +9974,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding it makes you feel despair'
-					It summons Monokuma to follow you
+					召唤Monokuma跟随你
 					'''
 			}
 
@@ -9983,7 +9983,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may belong to someone'
-					It summons Hatano Kokoro to follow you
+					召唤Hatano Kokoro跟随你
 					'''
 			}
 
@@ -9993,7 +9993,7 @@ Mods: {
 					'''
 					'It's 100% pure'
 					'You feel happy but you are not sure why'
-					It summons Junko in bride costume to follow you
+					召唤Junko in bride costume跟随你
 					'''
 			}
 
@@ -10002,7 +10002,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's for something cute'
-					It summons a pug to follow you
+					召唤a pug跟随你
 					'Thanks ThePixelatedGamer8 for support.'
 					'''
 			}
@@ -10012,93 +10012,93 @@ Mods: {
 				Tooltip:
 					'''
 					'Why you even do this?'
-					It summons Terry to follow you
+					召唤Terry跟随你
 					'''
 			}
 
 			AyaShameimaruDoll: {
 				DisplayName: Recident Reporter Doll
-				Tooltip: It summons Aya Shameimaru to follow you
+				Tooltip: 召唤Aya Shameimaru跟随你
 			}
 
 			ChenDoll: {
 				DisplayName: Royal Guard Doll
-				Tooltip: It summons Chen to follow you
+				Tooltip: 召唤Chen跟随你
 			}
 
 			DaiyouseiDoll: {
 				DisplayName: Supportive Fairy Doll
-				Tooltip: It summons Daiyousei to follow you
+				Tooltip: 召唤Daiyousei跟随你
 			}
 
 			HinaKagiyamaDoll: {
 				DisplayName: Misfortune Doll
-				Tooltip: It summons Hina Kagiyama to follow you
+				Tooltip: 召唤Hina Kagiyama跟随你
 			}
 
 			IkuDoll: {
 				DisplayName: Observer Doll
-				Tooltip: It summons Iku Nagae to follow you
+				Tooltip: 召唤Iku Nagae跟随你
 			}
 
 			JunkoDoll: {
 				DisplayName: Pure Doll
-				Tooltip: It summons Junko to follow you
+				Tooltip: 召唤Junko跟随你
 			}
 
 			KagerouDoll: {
 				DisplayName: Musk's Lost Doll
-				Tooltip: It summons Kagerou Imaizumi to follow you
+				Tooltip: 召唤Kagerou Imaizumi跟随你
 			}
 
 			KoakumaDoll: {
 				DisplayName: Helper Vampire Doll
-				Tooltip: It summons Koakuma to follow you
+				Tooltip: 召唤Koakuma跟随你
 			}
 
 			KonngaraDoll: {
 				DisplayName: Prayer Samurai Doll
-				Tooltip: It summons Konngara to follow you
+				Tooltip: 召唤Konngara跟随你
 			}
 
 			KosuzuDoll: {
 				DisplayName: Bookkeeper Doll
-				Tooltip: It summons Kosuzu Motoori to follow you
+				Tooltip: 召唤Kosuzu Motoori跟随你
 			}
 
 			KotohimeDoll: {
 				DisplayName: Collector Doll
-				Tooltip: It summons Kotohime to follow you
+				Tooltip: 召唤Kotohime跟随你
 			}
 
 			KurumiDoll: {
 				DisplayName: Gatekeeper Doll
-				Tooltip: It summons Kurumi to follow you
+				Tooltip: 召唤Kurumi跟随你
 			}
 
 			LilyDoll: {
 				DisplayName: Spring Seeker Doll
-				Tooltip: It summons Lily White to follow you
+				Tooltip: 召唤Lily White跟随你
 			}
 
 			MamizouFutatsuiwaDoll: {
 				DisplayName: Disguised Doll
-				Tooltip: It summons Mamizou Futatsuiwa to follow you
+				Tooltip: 召唤Mamizou Futatsuiwa跟随你
 			}
 
 			MinamitsuMurasaDoll: {
 				DisplayName: Shipwrecker Doll
-				Tooltip: It summons Minamitsu Murasa to follow you
+				Tooltip: 召唤Minamitsu Murasa跟随你
 			}
 
 			MomijiInubashiriDoll: {
 				DisplayName: Guardian Doll
-				Tooltip: It summons Momiji Inubashiri to follow you
+				Tooltip: 召唤Momiji Inubashiri跟随你
 			}
 
 			NazrinDoll: {
 				DisplayName: Treasure Hunter Doll
-				Tooltip: It summons Nazrin to follow you
+				Tooltip: 召唤Nazrin跟随你
 			}
 
 			RanDoll: {
@@ -10106,73 +10106,73 @@ Mods: {
 				Tooltip:
 					'''
 					'Even her doll cares about her master.'
-					It summons Ran Yakumo to follow you
+					召唤Ran Yakumo跟随你
 					'''
 			}
 
 			ReisenUdongeinInabaDoll: {
 				DisplayName: Lunar Warrior Doll
-				Tooltip: It summons Reisen Udongein Inaba to follow you
+				Tooltip: 召唤Reisen Udongein Inaba跟随你
 			}
 
 			RenkoUsamiDoll: {
 				DisplayName: Physicist Doll
-				Tooltip: It summons Renko Usami to follow you
+				Tooltip: 召唤Renko Usami跟随你
 			}
 
 			RikakoAsakuraDoll: {
 				DisplayName: Scientist Doll
-				Tooltip: It summons Rikako Asakura to follow you
+				Tooltip: 召唤Rikako Asakura跟随你
 			}
 
 			RinnosukeMorichikaDoll: {
 				DisplayName: Lunar Archer Doll
-				Tooltip: It summons Rinnosuke Morichika to follow you
+				Tooltip: 召唤Rinnosuke Morichika跟随你
 			}
 
 			RuukotoDoll: {
 				DisplayName: Mechanical Doll
-				Tooltip: It summons Ruukoto to follow you
+				Tooltip: 召唤Ruukoto跟随你
 			}
 
 			SagumeKishinDoll: {
 				DisplayName: Divine Doll
-				Tooltip: It summons Sagume Kishin to follow you
+				Tooltip: 召唤Sagume Kishin跟随你
 			}
 
 			SanaeKochiyaDoll: {
 				DisplayName: Shrine Maiden Doll
-				Tooltip: It summons Sanae Kochiya to follow you
+				Tooltip: 召唤Sanae Kochiya跟随你
 			}
 
 			SeijaDoll: {
 				DisplayName: Reverse Doll
-				Tooltip: It summons Seija Kijin to follow you
+				Tooltip: 召唤Seija Kijin跟随你
 			}
 
 			ShinkiDoll: {
 				DisplayName: Demonic Doll
-				Tooltip: It summons Shinki to follow you
+				Tooltip: 召唤Shinki跟随你
 			}
 
 			SumirekoUsamiDoll: {
 				DisplayName: Secret Sealer Doll
-				Tooltip: It summons Sumireke Usami to follow you
+				Tooltip: 召唤Sumireke Usami跟随你
 			}
 
 			SuwakoDoll: {
 				DisplayName: Natural Doll
-				Tooltip: It summons Suwako Moriya to follow you
+				Tooltip: 召唤Suwako Moriya跟随你
 			}
 
 			TewiInabaDoll: {
 				DisplayName: Leader Doll
-				Tooltip: It summons Tewi Inaba to follow you
+				Tooltip: 召唤Tewi Inaba跟随你
 			}
 
 			WakasagihimeDoll: {
 				DisplayName: Mermaid Doll
-				Tooltip: It summons Wakasagihime to follow you
+				Tooltip: 召唤Wakasagihime跟随你
 			}
 
 			Dream: {
@@ -10180,7 +10180,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It reminds you your own dreams'
-					It summons Doremy Sweet to follow you
+					召唤Doremy Sweet跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10190,7 +10190,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What can I use this for?'
-					It summons a sand shark to follow you
+					召唤a sand shark跟随你
 					'''
 			}
 
@@ -10199,7 +10199,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Immortal Friend'
-					It summons dry baby to follow you
+					召唤dry baby跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10209,7 +10209,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Freaky red pills, rather ominous'
-					It summons Fran Bow to follow you
+					召唤Fran Bow跟随你
 					'''
 			}
 
@@ -10218,7 +10218,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks dangerous'
-					It summons charged baby to follow you
+					召唤charged baby跟随你
 					'''
 			}
 
@@ -10227,7 +10227,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's written in Japanese.'
-					It summons Ellen to follow you
+					召唤Ellen跟随你
 					'''
 			}
 
@@ -10236,7 +10236,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Can I use it as life fruit?'
-					It summons Megaman X to follow you
+					召唤Megaman X跟随你
 					'''
 			}
 
@@ -10245,7 +10245,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I hope it don't try to attack you'
-					It summons the evil skeleton to follow you
+					召唤the evil skeleton跟随你
 					'''
 			}
 
@@ -10254,7 +10254,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It smells like explosion'
-					It summons Megumin to follow you
+					召唤Megumin跟随你
 					'''
 			}
 
@@ -10263,7 +10263,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone's favourite.'
-					It summons creeper to follow you
+					召唤creeper跟随你
 					'''
 			}
 
@@ -10272,7 +10272,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like the eye is waiting someone'
-					It summons an eye roll to follow you
+					召唤an eye roll跟随你
 					'''
 			}
 
@@ -10281,7 +10281,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once form by the strength of the ancient warlord'
-					It summons tiny Fabu to follow you
+					召唤tiny Fabu跟随你
 					'''
 			}
 
@@ -10290,7 +10290,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks little'
-					It summons Tinker Bell to follow you
+					召唤Tinker Bell跟随你
 					'''
 			}
 
@@ -10299,7 +10299,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It means customer for something'
-					It summons Quarble to follow you
+					召唤Quarble跟随你
 					'''
 			}
 
@@ -10308,7 +10308,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks special'
-					It summons Yuyuko to follow you
+					召唤Yuyuko跟随你
 					'''
 			}
 
@@ -10317,7 +10317,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks rotten.'
-					It summons Crimera to follow you
+					召唤Crimera跟随你
 					'''
 			}
 
@@ -10326,7 +10326,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks someone may need this'
-					It summons forager to follow you
+					召唤forager跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10336,7 +10336,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It doesn't look sane'
-					It summons Koishi Komeiji to follow you
+					召唤Koishi Komeiji跟随你
 					'''
 			}
 
@@ -10345,7 +10345,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It makes you feel ???'
-					It summons Sariel to follow you
+					召唤Sariel跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10355,7 +10355,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Don't look it or else your sanity ...'
-					It summons Clownpiece to follow you
+					召唤Clownpiece跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10365,7 +10365,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's Delicious!'
-					It summons a cultist to follow you
+					召唤a cultist跟随你
 					'''
 			}
 
@@ -10374,7 +10374,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even though it's fake still it may trick someone to think it's real'
-					It summons an ice mimic to follow you
+					召唤an ice mimic跟随你
 					'''
 			}
 
@@ -10383,7 +10383,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even touching it makes you feel hypothermia'
-					It summons Cirno to light your path
+					召唤Cirno to light your path
 					'''
 			}
 
@@ -10392,7 +10392,7 @@ Mods: {
 				Tooltip:
 					'''
 					'How it's not melting?'
-					It summons an little snake to follow you
+					召唤an little snake跟随你
 					'''
 			}
 
@@ -10401,7 +10401,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Looks good.'
-					It summons a Yoshi to follow you
+					召唤a Yoshi跟随你
 					'''
 			}
 
@@ -10410,7 +10410,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks otherworldly'
-					It summons Galacta Knight to follow you
+					召唤Galacta Knight跟随你
 					'''
 			}
 
@@ -10419,7 +10419,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks and smells natural'
-					It summons Wario to follow you
+					召唤Wario跟随你
 					'''
 			}
 
@@ -10428,7 +10428,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like it's scared. Maybe I should not kill it.'
-					It summons a giant tortoise to follow you
+					召唤a giant tortoise跟随你
 					'''
 			}
 
@@ -10437,7 +10437,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks pretty big'
-					It summons Undyne to follow you
+					召唤Undyne跟随你
 					'''
 			}
 
@@ -10446,7 +10446,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may look simple but its capable to hurt Yukari'
-					It summons Reimu to follow you
+					召唤Reimu跟随你
 					'''
 			}
 
@@ -10455,7 +10455,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding this makes you feel frightened'
-					It summons purple guy to follow you
+					召唤purple guy跟随你
 					'''
 			}
 
@@ -10464,7 +10464,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I wonder which creature likes this?'
-					It summons a gold bunny to follow you
+					召唤a gold bunny跟随你
 					'''
 			}
 
@@ -10473,7 +10473,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This looks like a revolver'
-					It summons bucket to follow you
+					召唤bucket跟随你
 					'''
 			}
 
@@ -10482,7 +10482,7 @@ Mods: {
 				Tooltip:
 					'''
 					'For the glory of Super Smash Bros'
-					It summons master hand to follow you
+					召唤master hand跟随你
 					'''
 			}
 
@@ -10491,7 +10491,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this feather come from?'
-					It summons a gold bird to follow you
+					召唤a gold bird跟随你
 					'''
 			}
 
@@ -10500,7 +10500,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It whispers it put all pieces together'
-					It summons the crying child to follow you
+					召唤the crying child跟随你
 					'''
 			}
 
@@ -10509,7 +10509,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Looks expensive.'
-					It summons Sonic to follow you
+					召唤Sonic跟随你
 					'''
 			}
 
@@ -10518,7 +10518,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It still moves'
-					It summons Skeleton Goonie to follow you
+					召唤Skeleton Goonie跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10528,7 +10528,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's formed from the power of the forgotten hero'
-					It summons Grand Dad to follow you
+					召唤Grand Dad跟随你
 					'''
 			}
 
@@ -10537,7 +10537,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone wants to take this.'
-					It summons etherian wyvern to follow you
+					召唤etherian wyvern跟随你
 					'''
 			}
 
@@ -10546,7 +10546,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks at you carefully.'
-					It summons inkling to follow you
+					召唤inkling跟随你
 					'''
 			}
 
@@ -10555,7 +10555,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once forged for the lord of all bards'
-					It summons Hatsune Miku to follow you
+					召唤Hatsune Miku跟随你
 					'''
 			}
 
@@ -10564,7 +10564,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It smells like crimson'
-					It summons a floaty gross to follow you
+					召唤a floaty gross跟随你
 					'''
 			}
 
@@ -10573,7 +10573,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A clue for a strange case'
-					It summons Phoenix Wright to follow you
+					召唤Phoenix Wright跟随你
 					'''
 			}
 
@@ -10582,7 +10582,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It both looks like alive and tile'
-					It summons Lloid to follow you
+					召唤Lloid跟随你
 					'''
 			}
 
@@ -10591,7 +10591,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is once used by an ancient civilization'
-					It summons a money portal to follow you
+					召唤a money portal跟随你
 					'''
 			}
 
@@ -10600,7 +10600,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to one of the craftknight'
-					It summons Edgar to follow you
+					召唤Edgar跟随你
 					'''
 			}
 
@@ -10609,7 +10609,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Wait is this a jojo reference?'
-					It summons Jonathan Joestar to follow you
+					召唤Jonathan Joestar跟随你
 					'''
 			}
 
@@ -10618,7 +10618,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel its mother feels worried now'
-					It summons a harpy to follow you
+					召唤a harpy跟随你
 					'''
 			}
 
@@ -10627,7 +10627,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Bloody Friend'
-					It summons headless baby to follow you
+					召唤headless baby跟随你
 					'''
 			}
 
@@ -10636,7 +10636,7 @@ Mods: {
 				Tooltip:
 					'''
 					There is a heart in it'
-					It summons a red heart to join your adventure
+					召唤a red heart to join your adventure
 					'''
 			}
 
@@ -10645,7 +10645,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sword of the true hero'
-					It summons Kris to follow you
+					召唤Kris跟随你
 					'''
 			}
 
@@ -10654,7 +10654,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may look small but its silence and agility bring its power'
-					It summons Altair to follow you
+					召唤Altair跟随你
 					'''
 			}
 
@@ -10662,7 +10662,7 @@ Mods: {
 				DisplayName: Flower Girl Collective Figure
 				Tooltip:
 					'''
-					'Summons Aerith Gainsborough to follow you'
+					'Summons Aerith Gainsborough跟随你'
 					Figure Number: 1/12
 					'''
 			}
@@ -10671,7 +10671,7 @@ Mods: {
 				DisplayName: Elite Guard Collective Figure
 				Tooltip:
 					'''
-					'Summons Ayamr to follow you'
+					'Summons Ayamr跟随你'
 					Figure Number: 2/12
 					'''
 			}
@@ -10680,7 +10680,7 @@ Mods: {
 				DisplayName: Hero Collective Figure
 				Tooltip:
 					'''
-					'Summons Cloud Strife to follow you'
+					'Summons Cloud Strife跟随你'
 					Figure Number: 11/12
 					'''
 			}
@@ -10689,7 +10689,7 @@ Mods: {
 				DisplayName: Swordman Collective Figure
 				Tooltip:
 					'''
-					'Summons Gilgamesh to follow you'
+					'Summons Gilgamesh跟随你'
 					Figure Number: 3/12
 					'''
 			}
@@ -10698,7 +10698,7 @@ Mods: {
 				DisplayName: Gunman Collective Figure
 				Tooltip:
 					'''
-					'Summons Irvine Kinneas to follow you'
+					'Summons Irvine Kinneas跟随你'
 					Figure Number: 4/12
 					'''
 			}
@@ -10707,7 +10707,7 @@ Mods: {
 				DisplayName: Lightning Collective Figure
 				Tooltip:
 					'''
-					'Summons Claire Farron to follow you'
+					'Summons Claire Farron跟随你'
 					Figure Number: 5/12
 					'''
 			}
@@ -10716,7 +10716,7 @@ Mods: {
 				DisplayName: Narrator Collective Figure
 				Tooltip:
 					'''
-					'Summons Oerba Dia Vanille to follow you'
+					'Summons Oerba Dia Vanille跟随你'
 					Figure Number: 6/12
 					'''
 			}
@@ -10725,7 +10725,7 @@ Mods: {
 				DisplayName: Hunter Collective Figure
 				Tooltip:
 					'''
-					'Summons Rikku to follow you'
+					'Summons Rikku跟随你'
 					Figure Number: 7/12
 					'''
 			}
@@ -10734,7 +10734,7 @@ Mods: {
 				DisplayName: Summoner Collective Figure
 				Tooltip:
 					'''
-					'Summons Rydia to follow you'
+					'Summons Rydia跟随你'
 					Figure Number: 8/12
 					'''
 			}
@@ -10743,7 +10743,7 @@ Mods: {
 				DisplayName: One Winged Angel Collective Figure
 				Tooltip:
 					'''
-					'Summons Sephiroth to follow you'
+					'Summons Sephiroth跟随你'
 					Figure Number: 9/12
 					'''
 			}
@@ -10752,7 +10752,7 @@ Mods: {
 				DisplayName: Brawler Collective Figure
 				Tooltip:
 					'''
-					'Summons Tifa Lockheart to follow you'
+					'Summons Tifa Lockheart跟随你'
 					Figure Number: 12/12
 					'''
 			}
@@ -10761,7 +10761,7 @@ Mods: {
 				DisplayName: Mystic Collective Figure
 				Tooltip:
 					'''
-					'Summons Yuna to follow you'
+					'Summons Yuna跟随你'
 					Figure Number: 10/12
 					'''
 			}
@@ -10772,7 +10772,7 @@ Mods: {
 					'''
 					'It's multiversal version of the book.'
 					'It first published in Gensokyo'
-					It summons Nitori Kawashiro to follow you
+					召唤Nitori Kawashiro跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10782,7 +10782,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's one of the legendary shield that have been wielded by the true hero.'
-					It summons Link to follow you
+					召唤Link跟随你
 					'''
 			}
 
@@ -10800,7 +10800,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it's formed by a strong soul'
-					It summons tiny Rozu to follow you
+					召唤tiny Rozu跟随你
 					'''
 			}
 
@@ -10809,7 +10809,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Just some living junk.'
-					It summons Ser Junken to follow you
+					召唤Ser Junken跟随你
 					'''
 			}
 
@@ -10818,7 +10818,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is designed after a traveller'
-					It summons Kaho to follow you
+					召唤Kaho跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10828,7 +10828,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is forged with the wisdom of the koopas'
-					It summons Kamek to follow you
+					召唤Kamek跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -10838,7 +10838,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Isn't the whole keg a little too much?'
-					It summons Aqua to follow you
+					召唤Aqua跟随你
 					'''
 			}
 
@@ -10847,7 +10847,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Grillbys special offer'
-					It summons Sans to follow you
+					召唤Sans跟随你
 					'''
 			}
 
@@ -10856,7 +10856,7 @@ Mods: {
 				Tooltip:
 					'''
 					'There is something inside of this shell'
-					It summons a koopa to follow you
+					召唤a koopa跟随你
 					'''
 			}
 
@@ -10865,7 +10865,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks cute but explosive'
-					It summons Yugi to follow you
+					召唤Yugi跟随你
 					'''
 			}
 
@@ -10874,7 +10874,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sadly you can't use it to increase your health'
-					It summons Shantae to follow you
+					召唤Shantae跟随你
 					'''
 			}
 
@@ -10883,7 +10883,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Could I interest you sir in Raid Shadow Legends?'
-					It summons a tiny Duke Rainbow Von Ran-bow The Third to remind you Ebon#9529's sexiness among other Bri'ish stuff
+					召唤a tiny Duke Rainbow Von Ran-bow The Third to remind you Ebon#9529's sexiness among other Bri'ish stuff
 					Each time player takes damage if player is also rainbow it will attack to closest enemy with using oldest trick
 					This cause the enemy to take emotional damage and non boss enemies have 10% chance to get rainbow curse
 					This curse deal true DoT and it does not wear off until the enemy dies
@@ -10913,7 +10913,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to Devil's Office'
-					It summons Cuphead to follow you
+					召唤Cuphead跟随你
 					'''
 			}
 
@@ -10922,7 +10922,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks small but still hot to touch'
-					It summons Grillby to follow you
+					召唤Grillby跟随你
 					'''
 			}
 
@@ -10931,7 +10931,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Only one person can make clothier not guilty.'
-					It summons Miles Edgeworth to follow you
+					召唤Miles Edgeworth跟随你
 					'''
 			}
 
@@ -10940,7 +10940,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel this sword belongs to someone'
-					It summons Lucina to follow you
+					召唤Lucina跟随你
 					'''
 			}
 
@@ -10949,7 +10949,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's filled with darkness and madness'
-					It summons Tricky in dark form to follow you
+					召唤Tricky in dark form跟随你
 					'''
 			}
 
@@ -10958,7 +10958,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to Scarlet Mansion'
-					It summons Patchouli to follow you
+					召唤Patchouli跟随你
 					'''
 			}
 
@@ -10967,7 +10967,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to just an ordinary magician'
-					It summons Marisa to follow you
+					召唤Marisa跟随你
 					'''
 			}
 
@@ -10976,7 +10976,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks highly ferromagnetic'
-					It summons Mariah to follow you
+					召唤Mariah跟随你
 					'''
 			}
 
@@ -10985,7 +10985,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks one of legendary pokemon is inside of this.'
-					It summons Kyogre to follow you
+					召唤Kyogre跟随你
 					'''
 			}
 
@@ -10994,7 +10994,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding this makes you excited'
-					It summons Celebi to follow you
+					召唤Celebi跟随你
 					'''
 			}
 
@@ -11003,7 +11003,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel something strange'
-					It summons Jirachi to follow you
+					召唤Jirachi跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11013,7 +11013,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Strangely it's warm'
-					It summons Ho-oh to follow you
+					召唤Ho-oh跟随你
 					'''
 			}
 
@@ -11027,7 +11027,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it make you hear a faint melody'
-					It summons Meloetta to follow you
+					召唤Meloetta跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11037,7 +11037,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding it affects the fabric of time and space'
-					It summons Arceus to follow you
+					召唤Arceus跟随你
 					'''
 			}
 
@@ -11046,7 +11046,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Strangely it glimmers like a diamond'
-					It summons Diancie to follow you
+					召唤Diancie跟随你
 					'''
 			}
 
@@ -11055,7 +11055,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It makes you feel hungry'
-					It summons Courage to follow you
+					召唤Courage跟随你
 					'''
 			}
 
@@ -11064,7 +11064,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It reminds me of something frightening.'
-					It summons a baby skeletron prime to follow you
+					召唤a baby skeletron prime跟随你
 					'''
 			}
 
@@ -11073,7 +11073,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks fabuluous'
-					It summons Mettaton to follow you
+					召唤Mettaton跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11083,7 +11083,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems dangerous'
-					It summons Metroid to follow you
+					召唤Metroid跟随你
 					'''
 			}
 
@@ -11092,7 +11092,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It knows what are you thinking'
-					It summons Satori Komeiji to follow you
+					召唤Satori Komeiji跟随你
 					'''
 			}
 
@@ -11101,7 +11101,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks dangerous'
-					It summons Zack to follow you
+					召唤Zack跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11111,7 +11111,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once belongs to Oni but you feel it's now belong to someone else'
-					It summons Shinmyoumaru Sukuna to follow you
+					召唤Shinmyoumaru Sukuna跟随你
 					'''
 			}
 
@@ -11120,7 +11120,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They are cold but  you feel something burns with revenge'
-					It summons Misao to follow you
+					召唤Misao跟随你
 					'''
 			}
 
@@ -11129,7 +11129,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks ready for battle'
-					It summons Susie to follow you
+					召唤Susie跟随你
 					'''
 			}
 
@@ -11147,7 +11147,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel a tiny slice from it is enough to kill moon lord'
-					It summons Akame to follow you
+					召唤Akame跟随你
 					'''
 			}
 
@@ -11156,7 +11156,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Attracts someone.'
-					It summons Yoshi to follow you
+					召唤Yoshi跟随你
 					'''
 			}
 
@@ -11165,7 +11165,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It contains enough humus for both worms and fungis'
-					It summons a truffle worm to follow you
+					召唤a truffle worm跟随你
 					'''
 			}
 
@@ -11174,7 +11174,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is surrounded with mushroom spores'
-					It summons a mushi ladybug to follow you
+					召唤a mushi ladybug跟随你
 					'''
 			}
 
@@ -11183,7 +11183,7 @@ Mods: {
 				Tooltip:
 					'''
 					'There are lots of music inside of this'
-					It summons Napstablook to follow you
+					召唤Napstablook跟随你
 					'''
 			}
 
@@ -11192,7 +11192,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to a huntress'
-					It summons Weiss to follow you
+					召唤Weiss跟随你
 					'''
 			}
 
@@ -11210,7 +11210,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you should call Kirby'
-					It summons Nightmare to follow you
+					召唤Nightmare跟随你
 					'''
 			}
 
@@ -11219,7 +11219,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may be helpful to someone find who its looking for'
-					It summons Garfield to follow you
+					召唤Garfield跟随你
 					'''
 			}
 
@@ -11233,7 +11233,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone may need these'
-					It summons Prof. E. Gadd to follow you
+					召唤Prof. E. Gadd跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11243,7 +11243,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may look old but still it can do final stab'
-					It summons Buddy to follow you
+					召唤Buddy跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11258,7 +11258,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I want to wear it'
-					It summons Black Mage to follow you
+					召唤Black Mage跟随你
 					'''
 			}
 
@@ -11267,7 +11267,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You start to fill with vengeance'
-					It summons Kratos to follow you
+					召唤Kratos跟随你
 					'''
 			}
 
@@ -11276,7 +11276,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks at you carefully.'
-					It summons an inkling to follow you
+					召唤an inkling跟随你
 					'''
 			}
 
@@ -11285,7 +11285,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may be useful against someone since this never blinks'
-					It summons SCP 173 to follow you
+					召唤SCP 173跟随你
 					'''
 			}
 
@@ -11294,7 +11294,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you should give it to someone who knows the person it belongs'
-					It summons Jake to follow you
+					召唤Jake跟随你
 					'''
 			}
 
@@ -11303,7 +11303,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may important for someone'
-					It summons Jowee to follow you
+					召唤Jowee跟随你
 					'''
 			}
 
@@ -11312,7 +11312,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you should give it to its owner'
-					It summons Eirin to follow you
+					召唤Eirin跟随你
 					'''
 			}
 
@@ -11321,7 +11321,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does she find this?'
-					It summons Jotaro Kujo to follow you
+					召唤Jotaro Kujo跟随你
 					'''
 			}
 
@@ -11330,7 +11330,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding it makes you feel someone is singing a specific song.'
-					It summons Padoru to follow you
+					召唤Padoru跟随你
 					'''
 			}
 
@@ -11339,7 +11339,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may belong to a strong person'
-					It summons Gilgamesh to follow you
+					召唤Gilgamesh跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11350,7 +11350,7 @@ Mods: {
 					'''
 					'Crystals temperature is near to 0 K'
 					'In tinkerers workbench it's pet style can be changable'
-					It summons Cirno to follow you
+					召唤Cirno跟随你
 					'''
 			}
 
@@ -11360,7 +11360,7 @@ Mods: {
 					'''
 					'Crystals temperature is near to 0 K'
 					'In tinkerers workbench it's pet style can be changable'
-					It summons Cirno to follow you
+					召唤Cirno跟随你
 					'''
 			}
 
@@ -11369,7 +11369,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does boss hunter merchant find this?'
-					It summons Security to follow you
+					召唤Security跟随你
 					'''
 			}
 
@@ -11380,7 +11380,7 @@ Mods: {
 					'A venom once developed by lamias to nullify their preys'
 					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
 					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					It summons a light lamia to follow you
+					召唤a light lamia跟随你
 					'''
 			}
 
@@ -11391,7 +11391,7 @@ Mods: {
 					'A venom once developed by lamias to nullify their preys'
 					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
 					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					It summons a dark lamia to follow you
+					召唤a dark lamia跟随你
 					'''
 			}
 
@@ -11400,7 +11400,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks pixelated but tasty'
-					It summons Pacman to follow you
+					召唤Pacman跟随你
 					'''
 			}
 
@@ -11409,7 +11409,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Let us erase this pointless world, and move on to the next'
-					It summons a child ghost to follow you
+					召唤a child ghost跟随你
 					Double tap up make it haunt closest nonboss enemy to mouse and mentally slows it down
 					Haunted enemy have weakness agaist minions + if enemy get too close it return back to player
 					'''
@@ -11420,7 +11420,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Will you be able to aim for a happy ending without giving up'
-					It summons rat god to follow you
+					召唤rat god跟随你
 					'''
 			}
 
@@ -11429,7 +11429,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Peace cannot be kept by force. It can only be achieved by understanding'
-					summons hefty the little panda to follow you
+					summons hefty the little panda跟随你
 					'''
 			}
 
@@ -11438,7 +11438,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Wonder whose this cute ribbon belongs to'
-					It summons a cute lil fella to follow you
+					召唤a cute lil fella跟随你
 					'''
 			}
 
@@ -11456,7 +11456,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Looks great.'
-					It summons Toriel to follow you
+					召唤Toriel跟随你
 					'''
 			}
 
@@ -11465,7 +11465,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks at you carefully.'
-					It summons an inkling to follow you
+					召唤an inkling跟随你
 					'''
 			}
 
@@ -11474,7 +11474,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It both smells and tastes great'
-					It summons Dante to follow you
+					召唤Dante跟随你
 					'''
 			}
 
@@ -11483,7 +11483,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks rare'
-					It summons Alphys to follow you
+					召唤Alphys跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11494,7 +11494,7 @@ Mods: {
 					'''
 					'It looks one of the Hoenn region'
 					'starter pokemon inside of this'
-					It summons Mudkip to follow you
+					召唤Mudkip跟随你
 					'''
 			}
 
@@ -11503,7 +11503,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like a cave pokemon is inside of this.'
-					It summons Mawile to follow you
+					召唤Mawile跟随你
 					'''
 			}
 
@@ -11512,7 +11512,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like a urban area pokemon is inside of this.'
-					It summons Kirlia to follow you
+					召唤Kirlia跟随你
 					'''
 			}
 
@@ -11521,7 +11521,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel one of the ghost type pokemon is inside of this'
-					It summons Gastly to follow you
+					召唤Gastly跟随你
 					'''
 			}
 
@@ -11530,7 +11530,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems this pokeball smell like onion'
-					It summons Farfetchd to follow you
+					召唤Farfetchd跟随你
 					'''
 			}
 
@@ -11539,7 +11539,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel maybe you get present from this pokemon'
-					It summons Delibird to follow you
+					召唤Delibird跟随你
 					'''
 			}
 
@@ -11548,7 +11548,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Little sparks come out from pokeball'
-					It summons Pichu to follow you
+					召唤Pichu跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11558,7 +11558,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Strangely it's soaking water'
-					It summons Wailord to follow you
+					召唤Wailord跟随你
 					'''
 			}
 
@@ -11567,7 +11567,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You hear snoring sound.'
-					It summons Snorlax to follow you
+					召唤Snorlax跟随你
 					'''
 			}
 
@@ -11576,7 +11576,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel normal.'
-					It summons Smeargle to follow you
+					召唤Smeargle跟随你
 					'''
 			}
 
@@ -11585,7 +11585,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it's being affected from weather.'
-					It summons Castform to follow you
+					召唤Castform跟随你
 					'''
 			}
 
@@ -11594,7 +11594,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel like it's a little heavy'
-					It summons Bagon to follow you
+					召唤Bagon跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11604,7 +11604,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding it makes you feel stronger.'
-					It summons Machop to follow you
+					召唤Machop跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11614,7 +11614,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel something special is inside of this pokeball'
-					It summons Darkai to follow you
+					召唤Darkai跟随你
 					'''
 			}
 
@@ -11623,7 +11623,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel the around is getting different'
-					It summons Mismagius to follow you
+					召唤Mismagius跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11633,7 +11633,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even holding makes you feel friendly'
-					It summons Lopunny to follow you
+					召唤Lopunny跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11643,7 +11643,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel a dark type pokemon is inside of this pokeball'
-					It summons Weavile to follow you
+					召唤Weavile跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11653,7 +11653,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel something cute is inside of this pokeball'
-					It summons Furret to follow you
+					召唤Furret跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11677,7 +11677,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel there is a dark type pokemon in it.'
-					It summons Absol to follow you
+					召唤Absol跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11687,7 +11687,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks fragile'
-					It summons a lunatic cultist to follow you
+					召唤a lunatic cultist跟随你
 					'''
 			}
 
@@ -11696,7 +11696,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Once this core made for enlight the cult'
-					It summons a blue scarab to follow you
+					召唤a blue scarab跟随你
 					'''
 			}
 
@@ -11714,7 +11714,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone wants to take this.'
-					It summons an ehterian wywern to follow you
+					召唤an ehterian wywern跟随你
 					'''
 			}
 
@@ -11723,7 +11723,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it belongs to someone else'
-					It summons Rando to follow you
+					召唤Rando跟随你
 					'''
 			}
 
@@ -11732,7 +11732,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may stabilize the flames of the underworld'
-					It summons Utsuho to follow you
+					召唤Utsuho跟随你
 					'''
 			}
 
@@ -11741,7 +11741,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this feather come from?'
-					It summons a cardinal to follow you
+					召唤a cardinal跟随你
 					'''
 			}
 
@@ -11750,7 +11750,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Part of someones clothes'
-					It summons Fujiwara to follow you
+					召唤Fujiwara跟随你
 					'''
 			}
 
@@ -11759,7 +11759,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel it belongs to someone'
-					It summons Ib to follow you
+					召唤Ib跟随你
 					'''
 			}
 
@@ -11768,7 +11768,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once forged by a great blacksmith'
-					It summons Kenshi to follow you
+					召唤Kenshi跟随你
 					'''
 			}
 
@@ -11777,7 +11777,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may belong to a rider'
-					It summons Rider to follow you
+					召唤Rider跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11787,7 +11787,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They once drop from a beautiful flower'
-					It summons Ruby to follow you
+					召唤Ruby跟随你
 					'''
 			}
 
@@ -11796,7 +11796,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What can I use this for?'
-					It summons a bone biter to follow you
+					召唤a bone biter跟随你
 					'''
 			}
 
@@ -11806,7 +11806,7 @@ Mods: {
 					'''
 					'This belongs to someone'
 					'In tinkerers workbench it's pet style can be changable'
-					It summons Sakuya to follow you
+					召唤Sakuya跟随你
 					'''
 			}
 
@@ -11816,7 +11816,7 @@ Mods: {
 					'''
 					'This belongs to someone'
 					'In tinkerers workbench it's pet style can be changable'
-					It summons Sakuya to follow you
+					召唤Sakuya跟随你
 					'''
 			}
 
@@ -11825,7 +11825,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe putting it back to its body will make it happy'
-					It summons a scarecrow to follow you
+					召唤a scarecrow跟随你
 					'''
 			}
 
@@ -11834,7 +11834,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It makes you feel strange'
-					It summons Remilia to follow you
+					召唤Remilia跟随你
 					'''
 			}
 
@@ -11843,7 +11843,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You are not sure if it's scroll or something else.'
-					It summons Messenger to follow you
+					召唤Messenger跟随你
 					'''
 			}
 
@@ -11862,7 +11862,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks for it's body'
-					It summons Sekibanki to follow you
+					召唤Sekibanki跟随你
 					'''
 			}
 
@@ -11871,7 +11871,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems Lihzahrd's are also not safe'
-					It summons a flying snake to follow you
+					召唤a flying snake跟随你
 					'''
 			}
 
@@ -11880,7 +11880,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even though it's fake still it may trick someone to think it's real'
-					It summons a mimic to follow you
+					召唤a mimic跟随你
 					'''
 			}
 
@@ -11889,7 +11889,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It was forged by an ancient warlord'
-					It summons a tiny mudkip warrior to follow you
+					召唤a tiny mudkip warrior跟随你
 					'''
 			}
 
@@ -11898,7 +11898,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks for its master'
-					It summons Shanghai to follow you
+					召唤Shanghai跟随你
 					'''
 			}
 
@@ -11907,7 +11907,7 @@ Mods: {
 				Tooltip:
 					'''
 					Strangely even holding it makes you feel masochist'
-					It summons Darkness to follow you
+					召唤Darkness跟随你
 					'''
 			}
 
@@ -11916,7 +11916,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's looking for it's body'
-					It summons Mad Mew Mew to follow you
+					召唤Mad Mew Mew跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11926,7 +11926,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel it's targetting something'
-					It summons Sheer Heart to follow you
+					召唤Sheer Heart跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11941,7 +11941,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to a hero'
-					It summons Shovel Knight to follow you
+					召唤Shovel Knight跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11951,7 +11951,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks strange but cute'
-					It summons a shy guy to follow you
+					召唤a shy guy跟随你
 					'''
 			}
 
@@ -11960,7 +11960,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks dangerous and ancient'
-					It summons baby Oblivion to follow you
+					召唤baby Oblivion跟随你
 					'''
 			}
 
@@ -11969,7 +11969,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's still watching'
-					It summons a slimy watcher to follow you
+					召唤a slimy watcher跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -11979,7 +11979,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It smells like evil'
-					It summons Lancer to follow you
+					召唤Lancer跟随你
 					'''
 			}
 
@@ -11988,7 +11988,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A key for something.'
-					It summons W. D. Gaster to follow you
+					召唤W. D. Gaster跟随你
 					'''
 			}
 
@@ -11997,7 +11997,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Unit of length for someone'
-					It summons Kitty White to follow you
+					召唤Kitty White跟随你
 					'''
 			}
 
@@ -12006,7 +12006,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It smells like good old memories'
-					It summons a lost girl to follow you
+					召唤a lost girl跟随你
 					'''
 			}
 
@@ -12135,7 +12135,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Does this have wifi?'
-					It summons Zero to follow you
+					召唤Zero跟随你
 					'''
 			}
 
@@ -12145,7 +12145,7 @@ Mods: {
 					'''
 					'Someones favourite weapon'
 					'Even Hank killed by this'
-					It summons Tricky to follow you
+					召唤Tricky跟随你
 					'''
 			}
 
@@ -12154,7 +12154,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They made in Gungeon'
-					It summons Shades to follow you
+					召唤Shades跟随你
 					'''
 			}
 
@@ -12163,7 +12163,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I hope Mothron doesn't get angry with me'
-					It summons a baby mothron to follow you
+					召唤a baby mothron跟随你
 					'''
 			}
 
@@ -12172,7 +12172,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems someone still manipulate it'
-					It summons Tenshi to follow you
+					召唤Tenshi跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -12182,7 +12182,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You wonder what's inside.'
-					It summons Chizuru Urashima to follow you
+					召唤Chizuru Urashima跟随你
 					'''
 			}
 
@@ -12191,7 +12191,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to someone'
-					It summons Benden Tsukumo to follow you
+					召唤Benden Tsukumo跟随你
 					'''
 			}
 
@@ -12200,7 +12200,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I hope it won't explode'
-					It summons Bobomb to follow you
+					召唤Bobomb跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -12210,7 +12210,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone is inside of it'
-					It summons Suika IBuki to follow you
+					召唤Suika IBuki跟随你
 					'''
 			}
 
@@ -12219,7 +12219,7 @@ Mods: {
 				Tooltip:
 					'''
 					'There are still some dust on it'
-					It summons Kyouko to follow you
+					召唤Kyouko跟随你
 					'''
 			}
 
@@ -12228,7 +12228,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Someone is inside of it'
-					It summons Kisume to follow you
+					召唤Kisume跟随你
 					'''
 			}
 
@@ -12237,7 +12237,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You hope it won't bite you'
-					It summons Joker to follow you
+					召唤Joker跟随你
 					'''
 			}
 
@@ -12246,7 +12246,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like it wants to kill me'
-					It summons a tiny ginger bread man to follow you
+					召唤a tiny ginger bread man跟随你
 					'''
 			}
 
@@ -12255,7 +12255,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It belongs to someone'
-					It summons Raiko Horikawa to follow you
+					召唤Raiko Horikawa跟随你
 					'''
 			}
 
@@ -12264,7 +12264,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It still stares at you.'
-					It summons Wegee to follow you
+					召唤Wegee跟随你
 					'''
 			}
 
@@ -12274,7 +12274,7 @@ Mods: {
 					'''
 					'It looks it come from space.'
 					'How Queen Bee find this?'
-					It summons Cabbit to follow you
+					召唤Cabbit跟随你
 					'''
 			}
 
@@ -12283,7 +12283,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks stylish'
-					It summons Gyro Zeppeli to follow you
+					召唤Gyro Zeppeli跟随你
 					'''
 			}
 
@@ -12292,7 +12292,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel holding it may attract something'
-					It summons a leap to follow you
+					召唤a leap跟随你
 					'''
 			}
 
@@ -12301,7 +12301,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It still contains magic'
-					It summons Meira to follow you
+					召唤Meira跟随你
 					'''
 			}
 
@@ -12310,7 +12310,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks it still have enough energy to use'
-					It summons Lyrica Prismriver to follow you
+					召唤Lyrica Prismriver跟随你
 					'''
 			}
 
@@ -12319,7 +12319,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like its alive'
-					It summons Marx to follow you
+					召唤Marx跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -12329,7 +12329,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel you shouldn't drink this'
-					It summons Yuugi Hoshiguma to follow you
+					召唤Yuugi Hoshiguma跟随你
 					'''
 			}
 
@@ -12338,7 +12338,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does he even find these?'
-					It summons Dio Brando to follow you
+					召唤Dio Brando跟随你
 					'''
 			}
 
@@ -12347,7 +12347,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Better you should give it to it's owner'
-					It summons Elly to follow you
+					召唤Elly跟随你
 					'''
 			}
 
@@ -12356,7 +12356,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel you should give this to him'
-					It summons Eddie to follow you
+					召唤Eddie跟随你
 					'''
 			}
 
@@ -12365,7 +12365,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Does this snowpile have a tail?'
-					It summons Greater Dog to follow you
+					召唤Greater Dog跟随你
 					'''
 			}
 
@@ -12383,7 +12383,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Doot Doot'
-					It summons Merlin Prismriver to follow you
+					召唤Merlin Prismriver跟随你
 					'''
 			}
 
@@ -12392,7 +12392,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks beautiful'
-					It summons Lunasa Prismriver to follow you
+					召唤Lunasa Prismriver跟随你
 					'''
 			}
 
@@ -12401,7 +12401,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You strangely feel it's stronger than other web'
-					It summons Jolyne Kujo to follow you
+					召唤Jolyne Kujo跟随你
 					'''
 			}
 
@@ -12410,7 +12410,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A relic from the past'
-					It summons SinGyoku to follow you
+					召唤SinGyoku跟随你
 					'''
 			}
 
@@ -12424,7 +12424,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe someone can drive this'
-					It summons Rika to follow you
+					召唤Rika跟随你
 					'''
 			}
 
@@ -12433,7 +12433,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks great.'
-					It summons Temmie to follow you
+					召唤Temmie跟随你
 					'''
 			}
 
@@ -12442,7 +12442,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks kinda strange and big'
-					It summons cute box to follow you
+					召唤cute box跟随你
 					'''
 			}
 
@@ -12451,7 +12451,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like it's alive'
-					It summons the brain to follow you
+					召唤the brain跟随你
 					'''
 			}
 
@@ -12460,7 +12460,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you can upgrade something with it'
-					It summons Shopkeeper to follow you
+					召唤Shopkeeper跟随你
 					'''
 			}
 
@@ -12469,7 +12469,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may belong to another person'
-					It summons Ray to follow you
+					召唤Ray跟随你
 					'''
 			}
 
@@ -12478,7 +12478,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They will fight for Sakura Empire'
-					It summons Kaga to follow you
+					召唤Kaga跟随你
 					'''
 			}
 
@@ -12487,7 +12487,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You feel you should give it to its owner'
-					It summons crow prince to follow you
+					召唤crow prince跟随你
 					'''
 			}
 
@@ -12496,7 +12496,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They look cute'
-					It summons Hecatia Lapislazuli to follow you
+					召唤Hecatia Lapislazuli跟随你
 					'''
 			}
 
@@ -12505,7 +12505,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks tiny but still it may be enough for something'
-					It summons a tiny golem to follow you
+					召唤a tiny golem跟随你
 					'''
 			}
 
@@ -12514,7 +12514,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They will fight for Sakura Empire'
-					It summons Akagi to follow you
+					召唤Akagi跟随你
 					'''
 			}
 
@@ -12523,7 +12523,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks both cute and charged'
-					It summons Ukulele Pichu to follow you
+					召唤Ukulele Pichu跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -12533,7 +12533,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems totally normal. Why are you carrying it around?'
-					It summons annoying dog to follow you
+					召唤annoying dog跟随你
 					'''
 			}
 
@@ -12542,7 +12542,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may look like toy but still you feel a strong energy comes through it.'
-					It summons Saber to follow you
+					召唤Saber跟随你
 					'''
 			}
 
@@ -12551,7 +12551,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe I can find other two pieces'
-					It summons Link to follow you
+					召唤Link跟随你
 					'''
 			}
 
@@ -12565,7 +12565,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Looks creepy'
-					It summons Poniko to follow you
+					召唤Poniko跟随你
 					'''
 			}
 
@@ -12574,7 +12574,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Maybe you shouldn't touch it'
-					It summons Nue Houjuu to follow you
+					召唤Nue Houjuu跟随你
 					'''
 			}
 
@@ -12583,7 +12583,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like it belongs to someone'
-					It summons Yukari to follow you
+					召唤Yukari跟随你
 					'''
 			}
 
@@ -12592,7 +12592,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Let the games begin!'
-					It summons Jevil to follow you
+					召唤Jevil跟随你
 					'''
 			}
 
@@ -12601,7 +12601,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Why even someone crafts this?'
-					It summons Shrek to follow you
+					召唤Shrek跟随你
 					'''
 			}
 
@@ -12610,7 +12610,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It haven't been used by 495 years'
-					It summons the U. N. Owen Washer to follow you
+					召唤the U. N. Owen Washer跟随你
 					'''
 			}
 
@@ -12620,7 +12620,7 @@ Mods: {
 					'''
 					'It was once used by Father of Void to cause unstabilize fabric which shatter the interval of time and space.'
 					'Even through this one is fake still someone is observing it.'
-					It summons ??? to follow you
+					召唤???跟随你
 					'''
 			}
 
@@ -12629,7 +12629,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It smells like assist trophy'
-					It summons Waluigi to follow you
+					召唤Waluigi跟随你
 					'''
 			}
 
@@ -12638,7 +12638,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is once be used in the moon'
-					It summons Kaguya to follow you
+					召唤Kaguya跟随你
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -12648,7 +12648,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It have lots of healing spell inside of it'
-					It summons White Mage to follow you
+					召唤White Mage跟随你
 					'''
 			}
 
@@ -12657,7 +12657,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's elegance make you feel an urge to meet with it's owner'
-					It summons Nonon Jakuzure to follow you
+					召唤Nonon Jakuzure跟随你
 					'''
 			}
 
@@ -12666,7 +12666,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Where does this feather come from?'
-					It summons a bird to follow you
+					召唤a bird跟随你
 					'''
 			}
 
@@ -12675,7 +12675,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even though it's fake still it may trick someone to think it's real'
-					It summons a mimic to follow you
+					召唤a mimic跟随你
 					'''
 			}
 
@@ -12684,7 +12684,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks cute.'
-					It summons Bubsy to follow you
+					召唤Bubsy跟随你
 					'''
 			}
 
@@ -12693,7 +12693,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It reminds you someone'
-					It summons Asriel to follow you
+					召唤Asriel跟随你
 					'''
 			}
 
@@ -12702,7 +12702,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It is still burning with Aura'
-					It summons Yang to follow you
+					召唤Yang跟随你
 					'''
 			}
 
@@ -12711,7 +12711,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel it belongs to someone'
-					It summons Mary to follow you
+					召唤Mary跟随你
 					'''
 			}
 
@@ -12720,7 +12720,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Do I still need a sacrifice to summon him?'
-					It summons Dark Magician to follow you
+					召唤Dark Magician跟随你
 					'''
 			}
 
@@ -12729,7 +12729,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Do I still need a sacrifice to summon her?'
-					It summons Dark Magician Girl to follow you
+					召唤Dark Magician Girl跟随你
 					'''
 			}
 
@@ -12738,7 +12738,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's written in Japanese.'
-					It summons Madotsuki to follow you
+					召唤Madotsuki跟随你
 					'''
 			}
 
@@ -17287,7 +17287,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sorry, is it Wye or delta again?'
-					Upon used it summons a holographic transformer to balance the loads
+					Upon used 召唤a holographic transformer to balance the loads
 					It periodically generates an unbalanced chunk and upon hitting chunk every enemy in its area take true damage
 					While there is no chunk active it instead unload its charge to close enemies
 					There can max 1 holographic transformer active
@@ -19639,7 +19639,7 @@ Mods: {
 				DisplayName: Scrap Gunner
 				Tooltip:
 					'''
-					Upon activation it will summon it to follow your mouse direction
+					Upon activation it will summon it跟随你r mouse direction
 					It's main body will not damage enemies but it will periodically shoot bullet from each gun with respect to its rotation
 					It needs a single bullet to activate
 					'''
@@ -20713,7 +20713,7 @@ Mods: {
 				Tooltip:
 					'''
 					'We Will Send Unto Them...Only You'
-					When used it summons heavy skeleton to fight for you
+					When used 召唤heavy skeleton to fight for you
 					It shatters targets defense + killing any enemy cause them to return bone and flesh
 					When this occur for a short time the heavy skeletron gets faster and stronger
 					'''
@@ -20771,7 +20771,7 @@ Mods: {
 				Tooltip:
 					'''
 					Shining more than these stars that bathe the galaxy Go forth, and you'll become a legend
-					While item being held it summons a neon angel to bless your sentries
+					While item being held 召唤a neon angel to bless your sentries
 					Upon using it will mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
 					If player goes too far away it will instead return back to player + enemies close to it will get angelic flames
 					'''
@@ -20863,7 +20863,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Plant as many of those as you can and you'll be A-O-GOOD'
-					Using it summons puff shrooms which does not take any sentry slot which live shortly
+					Using 召唤puff shrooms which does not take any sentry slot which live shortly
 					After they kill any enemy they may spread more puff shrooms
 					'''
 			}
@@ -20903,7 +20903,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It may cause functionality change on the iron maiden's main driver'
-					Using it summons modified tiny iron maidens to lock upon players targets
+					Using 召唤modified tiny iron maidens to lock upon players targets
 					RC will cycle them through mobile and fixed modes
 					'''
 			}
@@ -20991,7 +20991,7 @@ Mods: {
 				Tooltip:
 					'''
 					'SYSTEM REBOOTING'
-					While holding it summons an alpha state security bot accept player as admin
+					While holding 召唤an alpha state security bot accept player as admin
 					Using item changes its attack mode
 					'''
 			}
@@ -21023,7 +21023,7 @@ Mods: {
 					'''
 					'A photon transmitter device that is being used by martian scouts to send planets parameters to the base'
 					'Ironically S.A.T.L.A.-001 eliminated those scouts to keep its toys but only deactivate these as it feel emphaty to them'
-					While holding it summons a tiny martian saucer to wait your order
+					While holding 召唤a tiny martian saucer to wait your order
 					LC will form laser while RC make it mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
 					If it mark any sentry it will carry that sentry with itself but while its carrying it instead shoot electric bolts
 					'''
@@ -21046,7 +21046,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Valhalla awaits!'
-					While holding it summons a cloud elemental to strike upon your enemies
+					While holding 召唤a cloud elemental to strike upon your enemies
 					While LC use it attacks to mouse location and it empowered or weakened by weather
 					While close to afkpets aiming sentries it may cause them to get statically charged
 					'''
@@ -21115,7 +21115,7 @@ Mods: {
 					'''
 					[c/00FFFF:Supporter Soul]
 					'If you see it, you'll go mad!'
-					It summons an illusionary tower which buff sentries + minions in its area
+					召唤an illusionary tower which buff sentries + minions in its area
 					Each summoner shoot based attack gain 10% increased damage + 20% speed
 					Sentry time will not decrease + minion attacks have 20% chance to inflict confused
 					Only one supporter soul can be active at a time and RC to desummon
