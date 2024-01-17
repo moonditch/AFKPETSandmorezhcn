@@ -19011,10 +19011,10 @@ Mods: {
 					'一种特殊的剑，被奥斯曼军队锻造和使用'
 					'玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%'
 					'攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快'
-					'Due to swords sharpness attacks have 50% chance to also deal internal damage which will bypass enemies both defense and DR'
-					'It's velocity will increase while enemy is under any damaging debuff and it have 5% chance to form slice in air'
-					'With RC the player could do Ottoman slap which will cause the enemy to get dizzy which cause it to lose its ability to attack for 2 second'
-					'This ability have 15 second cooldown and it will not work on bosses'
+					'由于剑的锋利，攻击附带50%的几率造成内部伤害，无视敌人的防御和减伤'
+					'当敌人处于任何伤害型debuff时，它的攻击速度会增加，并且有5%的几率在空中形成切割'
+					'有了RC，玩家可以做奥斯曼耳光，敌人进入眩晕状态，使其失去2秒的攻击能力'
+					'这个技能有15秒的冷却时间，对boss无效'
 					'''
 			}
 
