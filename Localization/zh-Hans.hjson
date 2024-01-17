@@ -4771,31 +4771,31 @@ Mods: {
 					It was once formed by an ancient warlord who once ruled her own realms with peace.
 					'The Shine of the eye breaks the nightmare of the Manchens into a million little pieces'
 					[c/ffff00:趣味模式专属物品]
-					-Unobtainable-
+					-无法获得-
 					'''
 			}
 
 			BlueScarab: {
-				DisplayName: Blue Scarab
+				DisplayName: 蓝圣甲虫
 				Tooltip:
 					'''
-					Gives you the true power of scarabs
-					'Thanks to abluescarab for helping update the mod.'
-					'When you take damage you have 25% chance to spawn 4 blue scarabs'
+					赐予你圣甲虫真正的力量
+					'感谢“蓝圣甲虫”帮忙制作这个模组.'
+					'受到伤害时，有25%的几率产生4只蓝圣甲虫'
 					'Enemies has a low chance to drop Ankh rune which will give you immortality for few seconds'
-					'Your attacks increases by 8%, movement by 10%, defense by 5 and life regen by 3 during daylight'
-					'The sun may protect you'
-					-Unobtainable-
+					'白天时，攻击提高8%，移动提高10%，防御提高5点，生命恢复提高3点'
+					'太阳可以保护你'
+					-无法获得-
 					'''
 			}
 
 			BrokenReality: {
-				DisplayName: Broken Reality
+				DisplayName: 破碎的现实
 				Tooltip:
 					'''
-					You feel you are alternating between energy and matter
-					'Every 12 second player has 5% chance to break the reality and'
-					'immune to every damage without activating immunity frames'
+					你感到自己在能量和物质之间交替
+					'每12秒就有5%的机会打破现实'
+					'免疫每种伤害而不激活无敌帧'
 					'''
 			}
 
