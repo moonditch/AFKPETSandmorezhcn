@@ -18995,12 +18995,12 @@ Mods: {
 			}
 
 			WhispersofShadows: {
-				DisplayName: Whispers of Shadows
+				DisplayName: 暗影低语
 				Tooltip:
 					'''
-					'A cursed sword being forged for old goblin king'
-					'Upon hit it will inflict shadowflame for 4 seconds and flame duration increases 2 secound by each debuff and caps at 4 debuff'
-					'It will get 4% stronger with each debuff does the player have and caps at 4 debuff'
+					'为老妖精王锻造的诅咒之剑'
+					'一旦命中，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益'
+					'玩家的每一次减益都会增强4%，并且上限为4次减益'
 					'''
 			}
 
