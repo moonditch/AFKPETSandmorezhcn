@@ -9292,11 +9292,11 @@ Mods: {
 			}
 
 			AncientCrown: {
-				DisplayName: Ancient Crown
+				DisplayName: 远古皇冠
 				Tooltip:
 					'''
-					'Even holding it makes your start to look for princesses.'
-					It summons ice king to follow you
+					'拿着它，你也可以寻找公主了.'
+					召唤寒冰王跟随你
 					'''
 			}
 
