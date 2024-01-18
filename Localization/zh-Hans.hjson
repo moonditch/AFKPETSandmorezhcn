@@ -9440,7 +9440,7 @@ Mods: {
 			}
 
 			BlackBell: {
-				DisplayName: 黑色铃铛（出自任天堂明星大乱斗）
+				DisplayName: 黑色铃铛（出自任天堂明星大乱斗，G&W）
 				Tooltip:
 					'''
 					'它看起来很特别'
@@ -9545,7 +9545,7 @@ Mods: {
 			}
 
 			BloodyBass: {
-				DisplayName: 血鱼
+				DisplayName: 血鱼（出自原版）
 				Tooltip:
 					'''
 					'我能用这个做什么?'
@@ -9554,62 +9554,62 @@ Mods: {
 			}
 
 			BlueCrystalShard: {
-				DisplayName: Blue Crystal Shard
+				DisplayName: 蓝水晶（未知，占位符）
 				Tooltip:
 					'''
-					'Collecting 200 of them may give you another life.'
+					'收集200个也许能让你重生.'
 					召唤Lilac跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			BlueEtherianMana: {
-				DisplayName: Blue Etherian Mana
+				DisplayName: 蓝埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'Someone wants to take this.'
-					召唤an etherian wyvern跟随你
+					'有人想拿这个.'
+					召唤埃特尼亚飞龙(二阶段)跟随你
 					'''
 			}
 
 			BlueFeather: {
-				DisplayName: Blue Feather
+				DisplayName: 蓝羽毛（出自原版）
 				Tooltip:
 					'''
-					'Where does this feather come from?'
-					召唤a blue jay跟随你
+					'这个羽毛来自哪里?'
+					召唤冠蓝鸦跟随你
 					'''
 			}
 
 			BlueInkling: {
-				DisplayName: Blue squid
+				DisplayName: 蓝鱿鱼（出自任天堂明星大乱斗，喷射战士）
 				Tooltip:
 					'''
-					'It looks at you carefully.'
-					召唤an inkling跟随你
+					'它仔细地看着你.'
+					召唤乌贼跟随你
 					'''
 			}
 
 			BlueRose: {
-				DisplayName: Blue Rose
+				DisplayName: 蓝色玫瑰（出自恐怖美术馆）
 				Tooltip:
 					'''
-					'Holding it makes you feel it belongs to someone'
-					召唤Garry跟随你
+					'拿着它，会让你觉得它属于别人'
+					召唤咖喱跟随你
 					'''
 			}
 
 			BobsBrain: {
-				DisplayName: Bob's Brain
+				DisplayName: 鲍勃的脑浆子（出自以撒的结合）
 				Tooltip:
 					'''
-					'Explosive Thoughts'
-					召唤Bob's brain跟随你
+					'有爆炸的想法'
+					召唤鲍勃的脑浆子跟随你
 					'''
 			}
 
 			BookofLife: {
-				DisplayName: Book of Life
+				DisplayName: 生命之书（未知，占位符）
 				Tooltip:
 					'''
 					'You feel he wants this back'
@@ -9618,7 +9618,7 @@ Mods: {
 			}
 
 			BookofLife2: {
-				DisplayName: Book of Life
+				DisplayName: 生命之书（未知，占位符）
 				Tooltip:
 					'''
 					'Maybe you should convince her to not give this to him'
@@ -9627,39 +9627,39 @@ Mods: {
 			}
 
 			BowsersFlag: {
-				DisplayName: Dark Flag
+				DisplayName: 深色旗帜（出自超级马丽，任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'Flag of a kingdom'
-					召唤Bowser跟随你
+					'王国的旗帜'
+					召唤库巴跟随你
 					'''
 			}
 
 			BoxofBones: {
-				DisplayName: Box of Bones
+				DisplayName: 骨盒（出自传说之下）
 				Tooltip:
 					'''
-					'Bones smells like spagetti'
-					召唤Papyrus跟随你
+					'骨头闻起来像意大利面'
+					召唤帕派瑞斯跟随你
 					'''
 			}
 
 			Brain: {
-				DisplayName: Brain
+				DisplayName: 脑子（出自原版）
 				Tooltip:
 					'''
-					'Summons a pet zombie'
-					召唤a zombie跟随你
+					'召唤一个僵尸宠物'
+					召唤僵尸跟随你
 					'''
 			}
 
 			BrokenHammer: {
-				DisplayName: Broken Hammer
+				DisplayName: 大锤子（出自星之卡比）
 				Tooltip:
 					'''
-					'This doesn't make him happy'
-					'Maybe I can fix this'
-					召唤King Dedede跟随你
+					'这让他不开心'
+					'也许我能解决这个问题'
+					召唤帝帝帝大王跟随你
 					'''
 			}
 
