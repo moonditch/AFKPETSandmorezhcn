@@ -1657,13 +1657,13 @@ Mods: {
 			}
 
 			SoulBlight: {
-				DisplayName: Soul Blight
-				Description: Your soul is burning with its sins
+				DisplayName: 灵魂枯萎
+				Description: 你的灵魂因罪恶而燃烧
 			}
 
 			SoulBlight2: {
-				DisplayName: Soul Smight
-				Description: Your soul is burning with its sins
+				DisplayName: 灵魂枯萎
+				Description: 你的灵魂因罪恶而燃烧
 			}
 
 			STag1: {
@@ -4794,29 +4794,29 @@ Mods: {
 				Tooltip:
 					'''
 					你感到自己在能量和物质之间交替
-					'每12秒就有5%的机会打破现实'
-					'免疫每种伤害而不激活无敌帧'
+					'每12秒有5%的几率获得破碎的现实'
+					'immune to every damage without activating immunity frames'
 					'''
 			}
 
 			AnimaSola: {
-				DisplayName: Anima Sola
+				DisplayName: 索拉的灵魂
 				Tooltip:
 					'''
-					'I was the first, I have seen everything'
-					Imps and demons show no aggro to player + soulblight flame start to rotate around player
-					Any friendly projectile pass through the soul gain 100% velocity, 50% size and 10% crit + inflict soulblight on hit
+					'我是第一，我看到了一切'
+					小鬼和恶魔不会对玩家产生敌意+灵魂之焰在玩家周围旋转
+					穿过灵魂之焰的弹幕增加100%的速度，50%的大小和10%的暴击，并在击中时造成灵魂枯萎
 					'''
 			}
 
 			Bloodletter: {
-				DisplayName: Bloodletter
+				DisplayName: 放血者
 				Tooltip:
 					'''
-					'Filled with the blood of the innocent'
-					When at full health next attack consume 25% of the life and does 50% increased damage + bloody inferno
-					After this effect happen player gain +1 life regen for the next 10 seconds
-					Attacks has 33% chance to convert bleeding into serious bleeding for the enemies
+					'充满了无辜者的鲜血'
+					下次攻击消耗25%生命值，造成50%伤害+血腥地狱
+					此效果发生后，接下来的10秒内，增加1点生命回复
+					每次攻击有33%几率将敌人的流血转化为更严重的流血
 					'''
 			}
 
@@ -4830,7 +4830,7 @@ Mods: {
 					[c/00FFFF:Magic]:every fifth attack will also form snowflake that can inflict frostburn + striking enemy have 25% chance to give used mana back while enemy is under frostburn
 					[c/00FFFF:Ranged]:Every ranged hits have 50% chance to rain icicle from sky which have 50% of base damage of the attack
 					[c/00FFFF:Minion]:A tiny washing machine will fight for you which do 75% of held weapons damage along with all minions can inflict frostburn
-					'''
+					''' 
 			}
 
 			DeathMark: {
