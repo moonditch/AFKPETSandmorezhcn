@@ -2,38 +2,38 @@ Mods: {
 	AFKPETS: {
 		NPCs: {
 			UWUSlime: {
-				DisplayName: U W U Slime
-				BossChecklistIntegration.EntryName: Slimes Last Hope
+				DisplayName: UWU史莱姆
+				BossChecklistIntegration.EntryName: 史莱姆最后的希望
 			}
 
 			LavalGolem: {
 				BossChecklistIntegration: {
-					SpawnInfo: Use Hellbent Totem in underworld.
-					DespawnMessage: Fallen souls return to sleep
+					SpawnInfo: 在地狱使用地狱图腾.
+					DespawnMessage: 堕落的灵魂重新进入沉睡
 				}
 
-				DisplayName: Laval Golem
+				DisplayName: 拉瓦尔傀儡
 			}
 
 			DrFetusFirstPhase: {
-				DisplayName: Dr Fetus First Phase
-				BossChecklistIntegration.EntryName: Dr Fetus
+				DisplayName: 胎儿博士第一阶段
+				BossChecklistIntegration.EntryName: 胎儿博士
 			}
 
 			FlagCarrier: {
 				BossChecklistIntegration: {
-					EntryName: Ancient Trio
-					SpawnInfo: Use Ancient Banner at night.
-					DespawnMessage: All players have been devoured by the beasts
+					EntryName: 远古召唤
+					SpawnInfo: 在夜间使用远古旗帜.
+					DespawnMessage: 所有的玩家都被吃掉了
 				}
 
-				DisplayName: Flag Carrier
+				DisplayName: 携带者
 			}
 
 			SATLA001: {
 				BossChecklistIntegration: {
-					DespawnMessage: Satla have broken all of its toys
-					SpawnInfo: Use Prey Tracking Chip in night.
+					DespawnMessage: 卫星弄坏了它所有的玩具
+					SpawnInfo: 在夜间使用猎物追踪装置.
 					EntryName: SATLA-001
 				}
 
@@ -42,97 +42,97 @@ Mods: {
 
 			SlayerofEvil: {
 				BossChecklistIntegration: {
-					DespawnMessage: All villains have been exterminated by the hero
-					SpawnInfo: Bound dark huntress have a chance to spawn on surface layer before 1.30 PM and click to her help button will spawn him or he can be spawned with Severed Dryad Head which have a chance to drop from Dryad. Also when you defeat him this deactivates and you can spawn him with Severed Dryad Head which can be bought from dark huntress
-					EntryName: Slayer of Evil
+					DespawnMessage: 所有的坏人都被英雄消灭了
+					SpawnInfo: 被束缚的黑暗女猎手有概率在下午1点30分之前在地表生成，点击她的帮助按钮会生成这个BOSS,或树妖有概率掉落的头来召唤他，同时你打败他之后，他会无法生成，但你可以从黑暗女猎手那里买来的树精头来重生他
+					EntryName: 恶魔杀手
 				}
 
-				DisplayName: Slayerof Evil
+				DisplayName: 恶魔杀手
 			}
 
 			HeroicSlime: {
-				DisplayName: Heroic Slime
-				BossChecklistIntegration.EntryName: Slime Troop Tier1 Miniboss
+				DisplayName: 英勇史莱姆
+				BossChecklistIntegration.EntryName: 黏液部队1阶小boss
 			}
 
 			StormDiver: {
-				DisplayName: Storm Diver
-				BossChecklistIntegration.EntryName: Royal Harpy Air Force
+				DisplayName: 风暴潜水员
+				BossChecklistIntegration.EntryName: 皇家鹰身女妖
 			}
 
 			Isaac: {
-				DisplayName: Isaac
-				BossChecklistIntegration.EntryName: Isaac
+				DisplayName: 以撒
+				BossChecklistIntegration.EntryName: 以撒
 			}
 
 			Okiku: {
 				BossChecklistIntegration: {
-					SpawnInfo: It have a low chance to spawn in blood moon after EoC have been defeated or by Broken Delft Plate which have a chance to drop from dripplers and blood zombies if she is not defeated. After it's defeat Broken Delft Plate can be bought from dark huntress.
-					DespawnMessage: Okiku's soul start to seek new sinners
+					SpawnInfo: 克苏鲁之眼击败后他有小概率在血月生成，没有击败她时，破碎的盘子可以在滴滴怪火血腥僵尸身上掉落.，击败后，破碎的盘子可以从黑暗女猎手处购买。.
+					DespawnMessage: 盘子女鬼的灵魂开始寻找新的罪人
 				}
 
-				DisplayName: Okiku
+				DisplayName: 盘子女鬼
 			}
 
 			NecromancerDummy: {
-				DisplayName: Necromancer Dummy
-				BossChecklistIntegration.EntryName: Antonythe Novice Necromancer
+				DisplayName: 死灵法师傀儡
+				BossChecklistIntegration.EntryName: 新手死灵法师
 			}
 
 			BunnyZepplin: {
 				BossChecklistIntegration: {
-					EntryName: Bunny Zeppelin
-					SpawnInfo: It have a low chance to spawn from death of bunnies in day after EoC have been defeated or can be summoned with Tied Bunny. After it's defeat Tied Bunny can be bought from dark huntress.
-					DespawnMessage: Bunny Zeppelin collects all burnt heads for their mighty king
+					EntryName: 兔子飞艇
+					SpawnInfo: 击败克苏鲁之眼后，有小概率在死亡的兔子身上生成，或用捆绑的兔子生成. 击败后，在黑暗女猎手处购买.
+					DespawnMessage: 兔子飞艇他们的国王收集所有烧焦的头颅
 				}
 
-				DisplayName: Bunny Zepplin
+				DisplayName: 兔子飞艇
 			}
 
 			SecurityBot: {
 				BossChecklistIntegration: {
-					EntryName: Tier 1 Dungeon Miniboss
-					SpawnInfo: It have a low chance to spawn in dungeon with respect to world evil. They could also summon with their respective summon item. After their defeat summon item of both of them can be bought from dark huntress.
-					DespawnMessage: Dungeon take down the threat
+					EntryName: 地牢1阶段小boss
+					SpawnInfo: 有小的概率在地牢和邪恶地形生成. 也可以用召唤物召唤. 击败后，召唤物可以在黑暗女猎手处购买.
+					DespawnMessage: 地牢解除威胁
 				}
 
-				DisplayName: Security Bot
+				DisplayName: 安全机器人
 			}
 
 			IceGuardian: {
-				DisplayName: Ice Guardian
-				BossChecklistIntegration.EntryName: Guardianof Frost
+				DisplayName: 冰之守护者
+				BossChecklistIntegration.EntryName: 冰之守护者
 			}
 
 			NightmareAmplifierSlime: {
-				DisplayName: Nightmare Amplifier Slime
-				BossChecklistIntegration.EntryName: Slime Troop Tier2 Miniboss
+				DisplayName: 梦魇史莱姆
+				BossChecklistIntegration.EntryName: 黏液部队2阶小boss
 			}
 
 			AncientGuardian: {
 				BossChecklistIntegration: {
-					EntryName: The Ancient Guardian
-					SpawnInfo: It have low chance to spawn in snow biome after EoW/BoC have been defeated. After it's defeat use Nordic Praying Idol which can be bought from dark huntress.
-					DespawnMessage: The Ancient Guardian return back to wait for its masters return
+					EntryName: 远古守护者
+					SpawnInfo: 击败克苏鲁之脑或世界吞噬怪后，在雪地小概率生成. 战败后使用北欧祈祷神像，可以从黑暗女猎手那里购买.
+					DespawnMessage: 远古守护者等待着它的主人回归
 				}
 
-				DisplayName: Ancient Guardian
+				DisplayName: 远古守护者
 			}
 
-			DiseasterBunny.DisplayName: Diseaster Bunny
-			Lepus.DisplayName: Lepus
-			LepusEgg.DisplayName: Lepus Egg
-			Ocram.DisplayName: Ocram
-			ServantofOcram.DisplayName: Servantof Ocram
-			TurkorBody.DisplayName: Turkor Body
-			TurkorHead.DisplayName: Turkor Head
-			NecromancerDummyDeath.DisplayName: Necromancer Dummy Death
-			NecromancerDummyDespawn.DisplayName: Necromancer Dummy Despawn
-			NecromancerDummyNpc.DisplayName: Necromancer Dummy Npc
-			SpiritBird.DisplayName: Spirit Bird
+			DiseasterBunny.DisplayName: 小天兔
+			Lepus.DisplayName: 天兔
+			LepusEgg.DisplayName: 天兔蛋
+			Ocram.DisplayName: 奥库瑞姆
+			ServantofOcram.DisplayName: 奥库瑞姆的人
+			TurkorBody.DisplayName: 不感恩的火鸡
+			TurkorHead.DisplayName: 不感恩的火鸡的头
+			NecromancerDummyDeath.DisplayName: 死灵法师傀儡
+			NecromancerDummyDespawn.DisplayName: 死灵法师傀儡
+			NecromancerDummyNpc.DisplayName: 死灵法师Npc
+			SpiritBird.DisplayName: 灵鸟
 
 			Assassin: {
-				DisplayName: Assassin
+				DisplayName: 暗杀者
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -147,7 +147,7 @@ Mods: {
 			}
 
 			Assistant: {
-				DisplayName: Assistant
+				DisplayName: 助教
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -162,7 +162,7 @@ Mods: {
 			}
 
 			HolyKnight: {
-				DisplayName: Holy Knight
+				DisplayName: 神圣骑士
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -177,7 +177,7 @@ Mods: {
 			}
 
 			Researcher: {
-				DisplayName: Researcher
+				DisplayName: 研究员
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -192,35 +192,35 @@ Mods: {
 			}
 
 			BlessedBossRush.DisplayName: Blessed Boss Rush
-			AngryBunny.DisplayName: Angry Bunny
+			AngryBunny.DisplayName: 愤怒小兔子
 			BUNE.DisplayName: B U N E
 			BUNI.DisplayName: B U N I
-			BunnyNuke.DisplayName: Bunny Nuke
-			WeakBunnyNuke.DisplayName: Weak Bunny Nuke
-			BadCookie.DisplayName: Bad Cookie
-			BadGingerbreadCookie.DisplayName: Bad Gingerbread Cookie
-			CookieBox.DisplayName: Cookie Box
-			CookieBoxRest.DisplayName: Cookie Box Rest
-			CookieCrumblerBody.DisplayName: Cookie Crumbler Body
-			CookieCrumblerHead.DisplayName: Cookie Crumbler Head
-			CookieCrumblerTail.DisplayName: Cookie Crumbler Tail
-			CookieMan.DisplayName: Cookie Man
-			CookieSoul.DisplayName: Cookie Soul
-			CookieSpirit.DisplayName: Cookie Spirit
-			NightmareCookieBox.DisplayName: Nightmare Cookie Box
-			RainbowCookieBox.DisplayName: Rainbow Cookie Box
-			HoneyBee.DisplayName: Honey Bee
-			IceFairy.DisplayName: Ice Fairy
-			Parasitoid.DisplayName: Parasitoid
-			TinySpider.DisplayName: Tiny Spider
-			CameraLocker.DisplayName: Camera Locker
-			DrFetusFlying.DisplayName: Dr Fetus Flying
-			DrFetusSecondPhase.DisplayName: Dr Fetus Second Phase
-			DrFetusShadow.DisplayName: Dr Fetus Shadow
-			DrFetusThirdPhase.DisplayName: Dr Fetus Third Phase
-			FurretBody.DisplayName: Furret Body
-			FurretHead.DisplayName: Furret Head
-			FurretTail.DisplayName: Furret Tail
+			BunnyNuke.DisplayName: 胡萝卜核弹
+			WeakBunnyNuke.DisplayName: 弱性胡萝卜核弹
+			BadCookie.DisplayName: 糟糕的饼干
+			BadGingerbreadCookie.DisplayName: 糟糕的姜饼饼干
+			CookieBox.DisplayName: 饼干盒
+			CookieBoxRest.DisplayName: 饼干盒底座
+			CookieCrumblerBody.DisplayName: 饼干屑身体
+			CookieCrumblerHead.DisplayName: 饼干屑头
+			CookieCrumblerTail.DisplayName: 饼干屑尾
+			CookieMan.DisplayName: 姜饼人
+			CookieSoul.DisplayName: 饼干魂
+			CookieSpirit.DisplayName: 饼干精神力
+			NightmareCookieBox.DisplayName: 梦魇饼干盒
+			RainbowCookieBox.DisplayName: 彩虹饼干盒
+			HoneyBee.DisplayName: 小蜜蜂
+			IceFairy.DisplayName: 冰精灵
+			Parasitoid.DisplayName: 寄生蜂
+			TinySpider.DisplayName: 小蜘蛛
+			CameraLocker.DisplayName: 相机储物柜
+			DrFetusFlying.DisplayName: 胎儿博士飞行
+			DrFetusSecondPhase.DisplayName: 胎儿博士二阶
+			DrFetusShadow.DisplayName: 胎儿博士影子
+			DrFetusThirdPhase.DisplayName: 胎儿博士三阶
+			FurretBody.DisplayName: 大尾立身体
+			FurretHead.DisplayName: 大尾立头
+			FurretTail.DisplayName: 大尾立尾
 			HolographicSlime.DisplayName: Holographic Slime
 			BadSnow.DisplayName: Bad Snow
 			IceGuardianHandLeft.DisplayName: Ice Guardian Hand Left
@@ -476,7 +476,7 @@ Mods: {
 			}
 
 			Yandere: {
-				DisplayName: Yandere
+				DisplayName: 黑暗女猎手
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -8274,8 +8274,8 @@ Mods: {
 			}
 
 			FallingSlimeStatue: {
-				DisplayName: Falling Slime Statue
-				Tooltip: It was once designed by AP STP by observing the nature of slimes
+				DisplayName: 堕落的粘液雕像
+				Tooltip: 它曾由AP STP通过观察史莱姆的性质而设计
 			}
 
 			FatEffectEgg: {
@@ -9193,8 +9193,8 @@ Mods: {
 			}
 
 			Paper: {
-				DisplayName: Paper
-				Tooltip: "'Now you are ready for the origami course'"
+				DisplayName: 纸
+				Tooltip: "'现在你已经为折纸课程做好了准备'"
 			}
 
 			Pine: {
@@ -12933,20 +12933,20 @@ Mods: {
 			}
 
 			BlackenedHeart: {
-				DisplayName: Ancient Banner
+				DisplayName: 远古旗帜
 				Tooltip:
 					'''
-					'It's once used by a mighty titan slayer clan but now it only keeps the memories'
-					Can be usable only in night
+					'它曾经被强大的泰坦一族使用，但现在它只保存了记忆'
+					只能在晚上使用
 					'''
 			}
 
 			BrokenDelftPlate: {
-				DisplayName: Broken Delft Plate
+				DisplayName: 破碎的盘子
 				Tooltip:
 					'''
-					'It may make her remember what happened in before'
-					'It can be only usable in night and using it will both call her and activate blood moon.'
+					'这可能会让她想起之前发生的事'
+					'它只能在夜间使用，使用它可以召唤她并激活血月.'
 					'''
 			}
 
@@ -12998,8 +12998,8 @@ Mods: {
 			}
 
 			FallingSlimeReplica: {
-				DisplayName: Falling Slime Replica
-				Tooltip: "'A piece of someone...'"
+				DisplayName: 堕落的粘液复制品
+				Tooltip: "'某人的一部分……'"
 			}
 
 			FrozenSkull: {
@@ -13039,15 +13039,15 @@ Mods: {
 
 			HolographicSlimeReplica: {
 				DisplayName: Holographic Slime Replica
-				Tooltip: "'A piece of someone...'"
+				Tooltip: "'某人的一部分……'"
 			}
 
 			IceBossCrystal: {
-				DisplayName: Heart of the Frost
+				DisplayName: 冰霜之心
 				Tooltip:
 					'''
-					'An ice crystal formed with the magic of a primal frost elemental'
-					'Using it will call the guardian of frost to fight for the future of new era frost elementals'
+					'用原始冰元素的魔力形成的冰晶'
+					'使用它将召唤冰之守护者为新时代冰元素的未来而战'
 					'''
 			}
 
@@ -13072,43 +13072,43 @@ Mods: {
 			}
 
 			PreyTrackingChip: {
-				DisplayName: Prey Tracking Chip
+				DisplayName: 猎物追踪装置
 				Tooltip:
 					'''
-					'An emergency unit that has a memory storage with wireless capabilities'
-					Activating this emergency unit at night send a signal to someone
+					'具有无线存储功能的应急装置'
+					在晚上启动应急装置给某人发送信号
 					'''
 			}
 
 			RoastChickenPlate: {
-				DisplayName: Roast Chicken Plate
-				Tooltip: "'When used in dungeon it may bring a nice chef to share it's knowledge with you'"
+				DisplayName: 烤鸡盘
+				Tooltip: "'在地牢中使用，它可能会带来一个厨师与你分享它的知识'"
 			}
 
 			SeveredClothierHead: {
-				DisplayName: Nordic Praying Idol
+				DisplayName: 北欧祈祷神像
 				Tooltip:
 					'''
-					'Using it may remind someone its lord and make it cleanse the sinners with their own blood'
-					It can be only usable in snow biome
+					'使用它可以提醒某人它的主，让它用自己的血净化罪人'
+					只能在雪地中使用
 					'''
 			}
 
 			SeveredDryadHead: {
-				DisplayName: Severed Dryad Head
+				DisplayName: 树妖头
 				Tooltip:
 					'''
-					'You are not sure when she kill her but its cold
-					Maybe death of an innocent Dryad may enrage someone
+					'你不能肯定她什么时候被杀，但它很冷'
+					也许无辜的树妖之死会激怒某些人
 					'''
 			}
 
 			SeveredHarpyHead: {
-				DisplayName: Severed Harpy Head
+				DisplayName: 鹰身女妖头
 				Tooltip:
 					'''
-					'Death of an innocent harpy may call someone'
-					It is only usable at day but this boss is sky boss so be warned
+					'无辜的鹰身女妖之死可能会叫人'
+					它只能在白天使用，但这个boss是空中boss，所以要小心
 					'''
 			}
 
@@ -13137,12 +13137,12 @@ Mods: {
 			}
 
 			SoulofAgonyinaBottle: {
-				DisplayName: Hellbent Totem
+				DisplayName: 地狱图腾
 				Tooltip:
 					'''
-					Often used in hellish sacrifice ceremonies...
-					Showing this off in hell might awaken something which knows this artifact all too well...
-					It can only be usable in underworld
+					常用于地狱祭祀仪式…
+					在地狱使用可能会唤醒一些不太好的东西…
+					只能在地狱使用
 					'''
 			}
 
@@ -13188,12 +13188,12 @@ Mods: {
 			}
 
 			SuspiciousLookingChest: {
-				DisplayName: Torn Photo
+				DisplayName: 撕裂的照片
 				Tooltip:
 					'''
-					'Strangely someone have ripped the photo in half and only a middle aged woman and a child could be seen'
-					Putting one of it into empty chest and then close it will retun it to the chest Isaac have been hiding from player
-					After Isaac have been defeated it could also spawn it by using normally
+					'有人把照片撕成了两半，只看到一名中年妇女和一个孩子'
+					把照片放空箱子里面，击败箱子后会生成以撒
+					以撒击败后，还可以用正常方式生成
 					'''
 			}
 
@@ -13207,12 +13207,12 @@ Mods: {
 			}
 
 			TiedBunny: {
-				DisplayName: Tied Bunny
+				DisplayName: 捆绑的兔子
 				Tooltip:
 					'''
-					'It looks frightened
-					Kidnapping one of the innocent citizen may make king call forth an air strike
-					'It can be only usable in day time'
+					'它看起来很害怕
+					绑架一个无辜的公民可能会让国王下令发动空袭
+					'它只能在白天使用'
 					'''
 			}
 
