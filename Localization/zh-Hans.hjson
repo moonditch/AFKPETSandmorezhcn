@@ -9554,11 +9554,11 @@ Mods: {
 			}
 
 			BlueCrystalShard: {
-				DisplayName: 蓝水晶（未知，占位符）
+				DisplayName: 蓝水晶（出自自由星球）
 				Tooltip:
 					'''
 					'收集200个也许能让你重生.'
-					召唤Lilac跟随你
+					召唤丁香跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -9664,12 +9664,12 @@ Mods: {
 			}
 
 			BrokenHeart: {
-				DisplayName: Broken Heart
-				Tooltip: "'Summons a pet cupid'"
+				DisplayName: 破碎的心
+				Tooltip: "'召唤丘比特宠物'"
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: Broken Washing Machine
+				DisplayName: Broken Washing Machine（占位符）
 				Tooltip:
 					'''
 					'It vibrates with the power of the ancient warlord'
@@ -9678,7 +9678,7 @@ Mods: {
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: Blessed Broken Washing Machine
+				DisplayName: Blessed Broken Washing Machine（占位符）
 				Tooltip:
 					'''
 					'It seems like the other items are in it's inventory.'
@@ -9688,54 +9688,54 @@ Mods: {
 			}
 
 			Broom2: {
-				DisplayName: Janitor's Broom
+				DisplayName: 门卫室的扫帚
 				Tooltip:
 					'''
-					'LOOKS LIKE IT'S SWEEPIN' TIME!'
-					召唤Sweep跟随你
+					'看来是打扫的时候了!'
+					召唤扫帚跟随你
 					'''
 			}
 
 			Bubble: {
-				DisplayName: Bubble
+				DisplayName: 泡泡
 				Tooltip:
 					'''
-					'Where does angler find this?'
-					召唤a bubble跟随你
+					'垂钓者在哪里找到这个?'
+					召唤泡泡跟随你
 					'''
 			}
 
 			BuilderHammer: {
-				DisplayName: Sledge hammer
+				DisplayName: 大锤（出自任天堂周边）
 				Tooltip:
 					'''
-					'Essential for making new courses'
-					召唤Builder Mario跟随你
+					'这是制作新课程的必要条件'
+					召唤建筑工马里奥跟随你
 					'''
 			}
 
 			Bulb: {
-				DisplayName: The Sun
+				DisplayName: 太阳（出自一次机会）
 				Tooltip:
 					'''
-					'It have the ability to provide energy to the majority of the world'
+					'它有能力为世界上大多数国家提供能源'
 					召唤Niko跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Bumbo: {
-				DisplayName: Bumbo
+				DisplayName: 乞丐宝（出自以撒的结合）
 				Tooltip:
 					'''
-					'Bumbo Want Coin!'
-					'With respect to each 20 gold in your piggy bank its level will increase by 1 and summon it by using item first'
-					召唤Bumbo跟随你
+					'乞丐宝想要硬币!'
+					'猪猪储蓄罐每增加20金币，阶级增加1（汉化作者的提示，最高四个阶级）。使用重新道具召唤即可'
+					召唤乞丐宝跟随你
 					'''
 			}
 
 			BurningBall: {
-				DisplayName: Burning Sphere
+				DisplayName: Burning Sphere（占位符）
 				Tooltip:
 					'''
 					'It's too hot to hold it'
@@ -9744,16 +9744,16 @@ Mods: {
 			}
 
 			Card: {
-				DisplayName: Suspicious Looking Card
+				DisplayName: 可疑卡片（出自皇室战争）
 				Tooltip:
 					'''
 					Do I need mana or elixir?'
-					召唤mega knight跟随你
+					召唤超级骑士跟随你
 					'''
 			}
 
 			ChaliceofChocolateMilk: {
-				DisplayName: Chalice of Chocolate Milk
+				DisplayName: 一杯巧克力牛奶
 				Tooltip: ""
 			}
 
