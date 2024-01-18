@@ -18816,103 +18816,103 @@ Mods: {
 			}
 
 			Kilij: {
-				DisplayName: Kilij
+				DisplayName: 基利杰弯刀
 				Tooltip:
 					'''
-					'A symbol for power and kingdom being carried by Turkish rulers'
-					'It's invented by Hun's and then improved by Seljuks and Ottomans to find its true form'
-					'Attacks will inflict bleeding and players velocity will build momentum which will increase its damage'
+					'这是土耳其统治者的权力和王国的象征'
+					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
+					'攻击会造成流血，玩家的速度会产生动力，从而增加伤害'
 					'While being on a mount due to player have high ground its attacks will inflict bleeding and crits deal 20% more damage'
 					'While being on a mount It will also gain 5% increased crit chance which cannot be nullified by any debuff'
 					'''
 			}
 
 			KissakiMorohaZukuriStyleKatana: {
-				DisplayName: Boudica's Might
+				DisplayName: 布迪卡之力
 				Tooltip:
 					'''
-					'Let them taste what they have done to your people'
-					'Attacks inflict frostburn and critical hits will increase your rage which caps at 5'
-					'RC will allow you to shout with rage and activate nordic rage mode'
-					'Each stored rage will increase its duration by 1 second and it will increase your melee speed by 10% and damage by 5%'
-					'If you are using this weapon your crits will deal 10% more damage while this buff is being activated'
-					'Also when you shout you will inflict fear to close enemies'
+					'让他们尝尝他们对你的子民所做的'
+					'攻击会造成霜烧，暴击会增加你的怒气，上限为5'
+					'使用鼠标右键将允许你愤怒呼喊，并激活北欧愤怒模式'
+					'每储存一次怒气，持续时间增加1秒，近战速度提高10%，伤害提高5%'
+					'如果你正在使用这个武器，当这个增益被激活时，你的暴击将造成10%以上的伤害'
+					'同样，当你怒吼时，你会对近距离的敌人造成恐惧'
 					'''
 			}
 
 			LivingTreeGreatsword: {
-				DisplayName: Living Wood Greatsword
+				DisplayName: 活木巨剑
 				Tooltip:
 					'''
-					'At day it will get slightly stronger and faster'
-					'At night hitting enemies will inflict dryad's bane for 2 seconds'
-					'With RC you could point it towards your mouse direction'
-					'Due to its tip is sharper than its side it will do more damage in this form'
+					'在白天，它会变得更强，更快'
+					'夜间攻击敌人将造成树精之害，持续2秒'
+					'使用鼠标右键，你可以将它指向鼠标的方向
+					'由于它的尖端比侧面更锋利，它在这种形式下攻击会造成更大的伤害
 					'''
 			}
 
 			MeteorSword: {
-				DisplayName: Bollide Collider
+				DisplayName: 行星剑
 				Tooltip:
 					'''
-					'It strangely attracts other space rock'
-					'Hits will inflict on fire and each third hit will rain meteor from above with 60% base damage'
+					'奇怪的是，它吸引着其他太空岩石'
+					'命中会使敌人燃起火焰，每第三次命中将从上方落下流星，造成60%的基础伤害'
 					'''
 			}
 
 			MisaoKnife: {
-				DisplayName: Knife of the Onigawara
+				DisplayName: 奥尼加瓦拉之刀
 				Tooltip:
 					'''
-					'It's burning with the sins of its previous user
-					'Hitting enemies will inflict bleeding and crits will curse their souls briefly'
-					'Hitting enemies have a chance to rip little bloody gifts for yourself'
+					'它燃烧着前任使用者的罪恶
+					'击中敌人会造成流血，暴击会短暂地诅咒他们的灵魂'
+					'击中敌人有机会为自己撕开一点血腥的礼物'
 					'''
 			}
 
 			PaladinSword: {
-				DisplayName: Lucy's Light
+				DisplayName: 露西之光
 				Tooltip:
 					'''
-					'As a living its your duty to save the honor of the past
-					'Hitting enemies will cause them to burn with angelic flames and their sins will make weapon store enery'
-					'When the weapon store enough energy it will be ready to do holy strike with RC and it have 3 stages'
-					'Also when players soul is burning with justie its endurance and defense increase as it charge more and it have a limit'
-					'In first stage the sword will burn any enemy that is close to the player with angelic flames'
-					'In second stage it will rain angelic beams to your mouse direction'
-					'In third stage it will shoot an angelic energy that will explode into infernal flames upon hit to enemy'
+					'作为一个生者，你有责任挽救过去的荣誉
+					'攻击敌人会使他们燃烧天使之火，他们的罪恶会使武器储存能量'
+					'当武器储存了足够的能量，它将准备用RC进行神圣打击，它有3个阶段'
+					'另外，当玩家的灵魂燃烧时，它的耐力和防御会随着它充能的增加而增加，并且它有一个限制'
+					'在第一阶段，剑会用天使的火焰燃烧任何靠近玩家的敌人'
+					'在第二阶段，它会向你的鼠标方向投射天使光束'
+					'在第三阶段，它会发射一个天使的能量，击中敌人后会爆炸成地狱般的火焰'
 					'''
 			}
 
 			RustyKatana: {
-				DisplayName: Ancient Tachi
+				DisplayName: 上古太刀
 				Tooltip:
 					'''
-					It may look rusted but still its enough to slice through your enemy
-					Hitting enemy will inflict poisoned
+					它可能看起来锈迹斑斑，但仍然足以刺穿你的敌人
+					击中敌人会造成中毒
 					'''
 			}
 
 			SakuraSlasher: {
-				DisplayName: Sakura Slasher
+				DisplayName: 樱花下的血刃
 				Tooltip:
 					'''
-					'Fighting opponents of your sort is easy, because you always come thrusting yourself into my sword.'
-					'When your enemies have less than 10% life and your strike crit you maeke deathblow to them and bosses are immune to this effect'
-					'If their life is above 10% or they are boss your strikes will inflict fear and it have 10% chance to form a slash in air'
-					'Critical hits will call phantoms that will aim directly the enemy you cut'
+					'和你这种对手战斗很容易，因为你总是把自己插进我的剑里.'
+					'当你的敌人生命值不足10%你的暴击会对敌人造成斩杀效果，boss对这个效果免疫.'
+					'当你的敌人生命值超过10%或者是Boss，你的功击会造成恐惧减益，它有10%的概率在空中形成斜线'
+					'暴击将召唤幽灵，幽灵会直接瞄准你砍伤的敌人'
 					'''
 			}
 
 			ScarabSword: {
-				DisplayName: Sacred Sealer
+				DisplayName: 神圣封印者
 				Tooltip:
 					'''
-					'May their soul finally find peace'
-					'Critical hits have 5% chance to drop crystal ankh'
-					'Crystal ankh will give immunity to most vanilla debuffs and protect you from death for 1 second'
-					'Hitting enemies will inflict on shadow flames'
-					'If there is no active sand tornado it will form one with 50% item base damage and this ability will deactivate until that tornado disappears'
+					'愿他们的灵魂最终得到安宁'
+					'暴击有5%的几率掉落水晶徽章'
+					'水晶徽章免疫大多数原版减益，并获得1秒的无敌时间'
+					'击中敌人会造成阴影火焰'
+					'如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失.'
 					'''
 			}
 
