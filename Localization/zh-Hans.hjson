@@ -18301,308 +18301,308 @@ Mods: {
 			}
 
 			WaterTrident: {
-				DisplayName: Aquatic Trident
+				DisplayName: 水生三叉戟
 				Tooltip:
 					'''
-					'Strangely there are some rotten flesh on its tip'
-					RC use will fast throw the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Fast Throw]: Upon hit any enemy or tile it will return back to player and only 1 can be active
-					If it hits any enemy will will decharge and call lightning from above and while being in water it deal 5% increased damage
-					[c/ADD8E6:Throw]:Spear will inflict wet and each stick spear will increase true DoT by 6
-					When fully charged spear strike will form whirlpool that damage close enemies and continue to suck close non boss enemies to strike enemy location
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'奇怪的是，它的尖端有一些腐烂的肉'
+					右键快速投掷武器 而左键将对武器进行蓄力，.再次按下左键会停止蓄力并投掷武器
+					在一段时间后达到最大值，这将有声音指示
+					[c/FFFF00:快速投掷]:当击中任何敌人或任意物块时，它会返回给玩家，只能投掷出一把
+					如果它击中任何敌人，它将释放并从上面召唤闪电，当它在水中时，它造成的伤害增加5%
+					[c/ADD8E6:投掷]:矛将造成潮湿效果，每杆矛将增加6点持续伤害
+					当蓄力满时，矛击将形成漩涡，伤害近距离的敌人，并继续吸附非Boss的敌人进行攻击
+					如果盗贼职业是存在的，并且灾厄在潜行状态下启用了，你会抛出完全蓄力而不是等待蓄力
 					'''
 			}
 
 			ArmsofDusk: {
-				DisplayName: Arms of Dusk
+				DisplayName: 黄昏之臂
 				Tooltip:
 					'''
-					'When you feel weak, you can escape into this world we created and become powerful'
-					While holding weapon player grow 2 Dusk arms and by pressing attack button player does Dusk heavy punch
-					While heavy punch is active player cannot change item its holding and it can do max 2 different punch at the same time
-					Heavy punch crits have high chance to cause dynamic knockback and make dizzy
-					targets with higher defense take more damage
+					'当你感到虚弱时，你可以逃到我们创造的这个世界，变得强大起来'
+					当玩家持有武器时，玩家长出两条黄昏骷髅臂，并按下攻击按钮，玩家会进行黄昏重拳
+					当重拳被激活时，玩家不能改变物品的持有状态，并且最多可以同时进行2次不同的重击
+					重拳暴击有很高几率造成击退和眩晕
+					玩家防御越高攻击伤害越高
 					'''
 			}
 
 			ForsakenLunacy: {
-				DisplayName: Forsaken Lunacy
+				DisplayName: 被遗忘的疯狂
 				Tooltip:
 					'''
-					'Now you see the end clearly'
-					While holding weapon player grow 2 moon lord arms and by pressing attack button player does extreme speed punching
-					It will also form magical essense of the moon lord to both repel projectiles as well as grant forbidden power
+					'现在你可以清楚地看到结局了'
+					持有武器的玩家增长两条月亮领主的手臂，左键可以进行极速攻击
+					它也会形成月亮领主的魔法本质，既可以击退投射物，又可以给予禁能
 					'''
 			}
 
 			PrimeBone: {
-				DisplayName: Prime Bone
+				DisplayName: 机械骷髅王之臂
 				Tooltip:
 					'''
-					'It seems someone is on sigma grindset'
-					While holding weapon player grow skeletron prime arms + using item will make melee based arms strike while ranged based arms shoot
+					'似乎有人在sigma磨盘上'
+					当玩家持有该武器时它会召唤出四条机械骷髅王之臂 + 使用时近战机械臂会进行攻击，附近有敌人时远程机械臂会自动攻击
 					'''
 			}
 
 			Akitanagi: {
-				DisplayName: Akitanagi
-				Tooltip: "'It will shoot dog heads that will bite on critical hits'"
+				DisplayName: 狗尾丙剑
+				Tooltip: "'它会射出狗头，并在暴击时咬人'"
 			}
 
 			BeatSabers: {
-				DisplayName: Beat Sabers
+				DisplayName: 极光双刃剑
 				Tooltip:
 					'''
-					Even holding them makes you hear a faint rythm
-					LC allows you to use blue saber and RC allows you to use red saber
-					Blue saber will decrease enemies endurance while red saber will decrease enemies damage
-					Hitting enemy with the same saber colour will increase sabers power by 10%
-					An enemy can have only have one saber debuff
+					即使拿着它们，你也能听到微弱的节奏
+					左键允许你使用蓝色光剑，右键允许你使用红色光剑
+					蓝色光剑会降低敌人的防御，红色光剑会降低敌人的伤害
+					使用相同颜色的光剑攻击敌人将使光剑威力提高10%
+					一个敌人只能给予一层光剑debuff
 					'''
 			}
 
 			BomberSword: {
-				DisplayName: Bomber Sword
+				DisplayName: 爆裂剑
 				Tooltip:
 					'''
-					'Incoming!'
-					'LC will shoot remote controlled grenades which will explode upon hitting any enemy'
-					'RC denotes all of the remote controlled grenades'
+					'来了!'
+					'左键将发射遥控手榴弹，并在击中任何敌人时爆炸'
+					'右键显示所有遥控手榴弹'
 					'''
 			}
 
 			CactusSword: {
-				DisplayName: Protector of Cactuars
-				Tooltip: "'It was forged by an ancient warlord with the power of the Cactuar'"
+				DisplayName: 存护仙刃掌
+				Tooltip: "'它是由一个拥有仙人掌力量的古代军阀铸造的'"
 			}
 
 			CruelMistress: {
-				DisplayName: Cruel Mistress
+				DisplayName: 无辜者的破锋灾氓
 				Tooltip:
 					'''
-					'Help me...'
-					Attacks may cause blood stream
+					'救救我...'
+					攻击有概率造成流血效果
 					'''
 			}
 
 			CrystalGun: {
-				DisplayName: Galaxia
+				DisplayName: 盖亚沙暴双刀
 				Tooltip:
 					'''
-					Victory... is my destiny...
-					Holding LC will use it as a weapon while holding RC will allow you to make slash tornado
-					Slash tornado will last 3 second and it have 30 second cooldown
+					胜利……这是我的命运...
+					左键使用时作为真近战武器，而右键将化身沙尘卷.
+					沙尘卷将持续3秒，冷却时间为30秒.
 					'''
 			}
 
 			HolographicArkhalis: {
-				DisplayName: Holographic Arkhalis
+				DisplayName: 全息幻影·Arkhalis
 				Tooltip:
 					'''
-					'Even holding it fills you with hope.'
+					'即使拿着它也会让你充满希望.'
 
 					'''
 			}
 
 			NaturePartySword: {
-				DisplayName: Celebration of the Nature
+				DisplayName: 丰饶的馈赠
 				Tooltip:
 					'''
-					'Forged with the knowledge of both dryad and party girl combined'
-					'Happiness make RCA, dryad make LCA stronger and blesses you while holding it'
-					'It become craftable only when you are blessed with dryad's power'
+					'由树妖和派对女孩的知识结合而成'
+					'幸福让右键更强大,树妖使左键更加强大,祝福你同时拿着它'
+					'只有当你被赐予树妖的力量时，它才会被制造出来.'
 					'''
 			}
 
 			PumpkinSword: {
-				DisplayName: Pumpkin knife
+				DisplayName: 南瓜短剑
 				Tooltip:
 					'''
-					'It looks small and strange'
-					'How even this forged?'
+					'它看起来又小又奇怪'
+					'这是怎么锻造出来的?'
 					'''
 			}
 
 			PumpkinSword2: {
-				DisplayName: Pumpkin Sword
+				DisplayName: 南瓜弯刀
 				Tooltip:
 					'''
-					'Strangely it's sharp enough to cut titanium'
-					'Also you feel it's magical power is getting stronger'
+					'奇怪的是，它锋利得足以切割钛.'
+					'而且你觉得它的魔力越来越强了.'
 					'''
 			}
 
 			Vampiomere: {
-				DisplayName: Vampiomere
-				Tooltip: Shoots life drainer vampire cats
+				DisplayName: 嗜血猫又
+				Tooltip: 射杀吸血鬼猫
 			}
 
 			VoidKatana: {
-				DisplayName: Void Katana
+				DisplayName: 虚影刀
 				Tooltip:
 					'''
-					Slice material with antimatter
-					'Right click to do a different attack'
+					切物质与反物质
+					'点击右键进行不同的攻击'
 					'''
 			}
 
 			WatermelonIcicle: {
-				DisplayName: Watermelon Icicle
-				Tooltip: It is forged for the strongest
+				DisplayName: 冰雪西瓜刀
+				Tooltip: 它是为最强者打造的
 			}
 
 			Antarctica: {
-				DisplayName: Antarctica
-				Tooltip: A beauty like this doesn't deserve to be damaged'
+				DisplayName: 飘零冰霜
+				Tooltip: 像这样的美人不应该被伤害'
 			}
 
 			BloodDrainer: {
-				DisplayName: Love Tap
+				DisplayName: 至死不渝的爱
 				Tooltip:
 					'''
-					'I don't let anyone take my senpai away from me!'
-					'Nothing else matters, nothing else matters...'
-					Killing an enemy will cause bloody stream explosions
-					Each third strike throw the spear and upon hitting enemy it chains the enemy
-					Taking damge from an enemy with the chains of love will cause a thorns effect
-					Enemies attempting to flee are prevented by the chain. There can be single chain active
-					Upon chaining other enemy first chained one get shattered + deal damage
+					'我不会让任何人把我的前辈从我身边夺走!'
+					'别的都不重要，别的都不重要...'
+					杀死一个敌人会引起血腥的溪流爆炸
+					每第三次攻击投掷长矛，击中敌人后将敌人锁住
+					受到带有爱之锁链的敌人的伤害时，会产生荆棘效果
+					企图逃跑的敌人被铁链阻止.你可以带这它移动
+					在捆绑其他敌人时，第一个被捆绑的敌人会被击碎并造成伤害
 					'''
 			}
 
 			BlossomLance: {
-				DisplayName: Dew Drop
+				DisplayName: 露珠
 				Tooltip:
 					'''
-					'I wasn't going to eat it, I was just going to taste it'
-					Spear thrust will spread water particles that generate puddle
-					Upon jumping on the watery paddle it causes a water splash with more particles
+					'我不是要吃它，我只是想尝一下'
+					枪刺会扩散水粒子，形成水坑
+					在跳到水桨上时，它会引起带有更多颗粒的水花
 					'''
 			}
 
 			CruelThesis: {
-				DisplayName: Cruel Thesis
+				DisplayName: 残酷天使的行动纲领
 				Tooltip:
 					'''
-					'It all comes tumbling down, tumbling down...'
-					Right click to use this Spear as a Javelin
+					'一切都在坠落，坠落……'
+					右键可投掷标枪，击中敌人后释放闪电
 					'''
 			}
 
 			ElectricRiver: {
-				DisplayName: Electric River
+				DisplayName: 神圣音符长矛
 				Tooltip:
 					'''
-					'Motion on the ocean floor'
-					RC shoot damageless orange notes and LC generate a blue heat beam
-					Upon beams touching any orange note it causes a chain reaction of connections with other notes
-					Each connection slightly increase notes durability + let them release energy
-					Spear + blue beam inflict charged while orange beam shatters defense
+					'海底在颤动'
+					左键发射无损伤的橙色音符，右键产生蓝色的热光束
+					当光束接触到任何橙色音符时，它会引起与其他音符连接的连锁反应
+					每次连接都会略微增加音符的耐久性+让它们释放能量
+					长矛+蓝色光束造成冲锋，而橙色光束粉碎防御
 					'''
 			}
 
 			FallenKingsLament: {
-				DisplayName: Fallen King's Lament
+				DisplayName: 堕落之王的哀叹
 				Tooltip:
 					'''
-					'A divine relic being cursed by the innocent lifes it took'
-					While being held calls 7 souls of the fallen + upon hit enemy they inflict their own debuff
-					RC call all of the souls back
+					'被夺走的无辜生命所诅咒的神圣遗物'
+					当被囚禁时，在击中敌人时召唤7个堕落之魂，他们会造成自己的debuff
+					鼠标右键召回所有灵魂
 					'''
 			}
 
 			HolyLance: {
-				DisplayName: Cold Front
+				DisplayName: 冰释冷锋
 				Tooltip:
 					'''
-					'That’s just the tip of the iceberg!'
-					When swung sends out frost souls to the spear direction
-					Forms multiple spears around main one + hits inflict frostbite
+					'这只是冰山一角!'
+					当挥舞时，会向矛的方向发出冰霜灵魂
+					在主矛周围形成多个矛+命中造成冻伤
 					'''
 			}
 
 			IronLotus: {
-				DisplayName: Iron Lotus
+				DisplayName: 铁血莲华
 				Tooltip:
 					'''
-					'Great for impersonating AFKPets developers!'
-					'Be prepared: For today, a Star of the City shall be gone'
-					Spawns a giant but slow dragon
-					Melee attacks and Dragon attacks deal extreme burns
+					'非常适合模仿AFKPets开发人员!'
+					'做好准备:因为今天，这座城市的一颗星星将会消失
+					召唤一条巨大但缓慢的龙
+					近战攻击和巨龙攻击造成极度灼烧
 					'''
 			}
 
 			Nihongo: {
-				DisplayName: Nihongo
+				DisplayName: 幻蝶武矛
 				Tooltip:
 					'''
-					'An ancient spear once being used by a well known warrior'
-					While being held calls 2 cluster of butterflies to swarm around player + while swarming each mini cluster increase defense by 5
-					Butterflies inflict their own debuff upon touching any enemy + spear hit lock a cluster to that enemy
-					An enemy can max have 1 cluster at a time + after enemies death or reset by player hitting another enemy their aim preference change
+					'一把古老的长矛曾经被一位著名的战士使用过'
+					当你持有时，召唤2群蝴蝶聚集在玩家周围+当聚集在每个迷你集群时，防御增加5
+					蝴蝶会在接触到任何敌人时造成自己的debuff +矛击锁定该敌人的集群
+					一个敌人一次最多可以有一个集群+在敌人死亡后，或由玩家击中另一个敌人它们的目标会进行改变
 					'''
 			}
 
 			StormCaller: {
-				DisplayName: Storm Caller
+				DisplayName: 风暴呼唤者
 				Tooltip:
 					'''
-					'I wield my spear in the name of justice!'
-					Fully extending the spear will call lightning from above to the spear's tip
-					Critical hits charge enemies for 4 Seconds
-					While raining each extend has a small chance to call a rain cloud to players mouse location
+					'我以正义的名义挥舞我的长矛!'
+					把矛完全伸出来，会从矛尖上方召唤闪电
+					暴击使敌人超载4秒
+					下雨时，每次攻击都有小概率对玩家的鼠标位置召唤雨云
 					'''
 			}
 
 			Tonbogiri: {
-				DisplayName: Tonbogiri
+				DisplayName: 蜻蛉切
 				Tooltip:
 					'''
-					'A legendary Japanese spear coated in venom'
-					Slowly gets empowered + enemy hits may release additional venom
-					Enemy kills generate venom clouds
+					'涂有毒液的日本传奇长矛'
+					缓慢获得力量+攻击敌人会释放额外的毒液
+					击杀敌人产生毒云
 					'''
 			}
 
 			TrapofArgalia: {
-				DisplayName: Trap of Argalia
+				DisplayName: 碰者即摔(阿尔加利亚的陷阱)
 				Tooltip:
 					'''
-					'A weapon once being used by noble paladins of Charles Magne'
-					Crit strikes stun nonboss enemy for 2 second and do 20% more damage bosses
-					Thursts call angelic spears + main thrust form divine light
+					'查尔斯·马格纳的贵族圣骑士曾经使用过的武器'
+					暴击会使非boss的敌人眩晕2秒，对boss造成的伤害提高20%
+					瑟斯特称天使之矛+主刺形态为神圣之光
 					'''
 			}
 
 			AdmiralSword: {
-				DisplayName: Admiral's katana
+				DisplayName: 海军上将的武士刀
 				Tooltip:
 					'''
-					'It was once used by Admiral Yi Shun-shin to protect his nation in Imjin war.'
-					Holding the sword shall bless your soul with the honor of Joseon Dynasty.
-					Attacks have a chance to make Geobukseon fire their cannons.
+					'在临津战争中，李舜臣将军曾用它来保卫自己的国家.'
+					持握这把剑时，将给你的灵魂带来朝鲜王朝的荣耀.
+					攻击有概率让巨北船发射大炮.
 					'''
 			}
 
 			AncientScarabSword: {
-				DisplayName: Ancient Scarab Sword
+				DisplayName: 上古圣甲虫之剑
 				Tooltip:
 					'''
-					'It was forged with unusual knowledge of blue scarabs...'
-					True melee hits have 50% chance spawn solar scarabs crits will form cross shaped heat lasers
-					Defeated enemies by this sword they will explode into blue scarabs
-					Attacks form solar scarabs which explode into an inferno
+					'它是用对蓝色圣甲虫非同寻常的知识锻造出来的……'
+					真近战命中有50%的几率产生太阳圣甲虫的暴击会形成十字形的热激光
+					被这把剑打败的敌人会散发出蓝色的圣甲虫
+					攻击形成太阳圣甲虫，爆炸出圣甲虫耀斑
 					'''
 			}
 
 			ArcaneBlade: {
-				DisplayName: Arcane Blade
+				DisplayName: 奥术之刃
 				Tooltip:
 					'''
-					Critical hits shoot 2 arcane bolts
-					Holding increases max mana by 20
+					暴击射出2道奥术弹
+					手持时使最大法力值提高20点
 					'''
 			}
 
