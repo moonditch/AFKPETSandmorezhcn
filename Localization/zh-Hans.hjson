@@ -329,7 +329,7 @@ Mods: {
 			FriendlyHarpy.DisplayName: 友好的鹰身女妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
-			RalseiDummy.DisplayName: Ralsei Dummy
+			RalseiDummy.DisplayName: 利艾尔斯傀儡
 
 			RoyalGuard: {
 				DisplayName: 皇家卫士
@@ -550,7 +550,7 @@ Mods: {
 				}
 			}
 
-			ChefEnergy.DisplayName: 厨师后勤能源
+			ChefEnergy.DisplayName: 厨师精神能量
 
 			UndeadChef: {
 				DisplayName: 不死的厨师
@@ -9481,7 +9481,7 @@ Mods: {
 			}
 
 			BloodCrystalRing: {
-				DisplayName: 猩红血色水晶之戒（出自车万，作者原创）
+				DisplayName: 血色水晶之戒（出自车万，作者原创）
 				Tooltip:
 					'''
 					'它像蔓越莓一样红'
@@ -9744,435 +9744,435 @@ Mods: {
 			}
 
 			Card: {
-				DisplayName: 可疑卡片（出自皇室战争）
+				DisplayName: 可疑卡片（出自部落冲突：皇室战争）
 				Tooltip:
 					'''
-					Do I need mana or elixir?'
+					我需要魔法还是长生?'
 					召唤超级骑士跟随你
 					'''
 			}
 
 			ChaliceofChocolateMilk: {
 				DisplayName: 一杯巧克力牛奶
-				Tooltip: ""
+				Tooltip: "'用鹰身女妖制作的圣物（上面文本翻译，以后用代码重新写。占位符）'"
 			}
 
 			ChaosEmerald: {
-				DisplayName: Chaos Emerald
+				DisplayName: 卡欧斯宝石（出自刺猬索尼克）
 				Tooltip:
 					'''
-					'It pulses with power'
-					召唤Knuckles跟随你
+					'它充满了能量'
+					召唤纳克鲁斯跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			ChaosHeart: {
-				DisplayName: Chaos Heart
+				DisplayName: 混乱之心（出自超级纸片马里奥）
 				Tooltip:
 					'''
-					'Isn't it destroyed?'
-					召唤Dimentio跟随你
+					'它不是被毁了吗??'
+					召唤小丑Dimentio跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			ChargedBaby: {
-				DisplayName: Charged Baby
+				DisplayName: 电池宝宝（出自以撒的结合）
 				Tooltip:
 					'''
 					'BBBZZZZZT!'
-					召唤a charged baby跟随你
+					召唤电池宝宝跟随你
 					'''
 			}
 
 			ChefsSpiritualEnergy: {
-				DisplayName: Chef's Spiritual Energy
+				DisplayName: 厨师的精神能量
 				Tooltip:
 					'''
-					'You feel it's missing its kitchen'
-					召唤chefs spiritual energy
+					'你觉得它想念它的厨房'
+					召唤厨师精神能量
 					'''
 			}
 
 			ClothiersDiary: {
-				DisplayName: Clothiers Diary
+				DisplayName: 衣袋武志谋杀案（出自逆转裁判）
 				Tooltip:
 					'''
-					'It may contain evidence for the lost mechanic case.'
-					召唤Maya Fey跟随你
+					'里面可能有失踪机械师案的证据.'
+					召唤绫里真宵跟随你
 					'''
 			}
 
 			ClothofDarkPrince: {
-				DisplayName: Ancient Clothes
+				DisplayName: 远古衣服（出自Deltarune）
 				Tooltip:
 					'''
-					'These once belonged to a dark prince'
-					召唤Ralsei跟随你
+					'这些曾经属于一个黑暗王子'
+					召唤利艾尔斯跟随你
 					'''
 			}
 
 			Cloud: {
-				DisplayName: Suspicious Looking Cloud
+				DisplayName: 朱盖木的云（出自超级玛丽）
 				Tooltip:
 					'''
-					'Someone is hiding inside of it'
-					召唤Lakitu跟随你
+					'有人藏在里面'
+					召唤朱盖木跟随你
 					'''
 			}
 
 			ConcentratedNighmare: {
-				DisplayName: Concentrated Nightmare
+				DisplayName: 聚集的恐惧
 				Tooltip:
 					'''
-					'It looks it wants to protect you since it thinks you are it's pet.'
-					'It will protect you from the darkness, blackout, obstructed and darkness of the fear debuffs.'
-					召唤a concentrated nightmare跟随你
+					'它似乎想保护你，因为它认为你是它的宠物.'
+					'它会让你免疫黑暗，黑视，阻塞的恐惧减益.'
+					召唤聚集的恐惧跟随你
 					'''
 			}
 
 			CrowFeather: {
-				DisplayName: Black feather
+				DisplayName: 黑羽毛（出自原版）
 				Tooltip:
 					'''
-					'Where does this feather come from?'
-					召唤a crow跟随你
+					'这羽毛是从哪里来的?'
+					召唤乌鸦跟随你
 					'''
 			}
 
 			CrystalBass: {
-				DisplayName: Crystal Bass
+				DisplayName: 水晶鱼
 				Tooltip:
 					'''
-					'What can I use this for?'
-					召唤a crystal thresher跟随你
+					'我能用这个做什么?'
+					召唤水晶沙鲨跟随你
 					'''
 			}
 
 			CuriousWisp: {
-				DisplayName: Tiny Spiritual Energy
+				DisplayName: 微小的精神能量
 				Tooltip:
 					'''
-					'It peacefully observes you'
-					召唤curious wisp跟随你
+					'平静地观察着你'
+					召唤精神能量跟随你的指针
 					'''
 			}
 
 			CuteRibbon: {
-				DisplayName: Red Ribbon
+				DisplayName: 红丝带（一只可爱的狗）
 				Tooltip:
 					'''
-					It looks cute.'
-					召唤a yorkshire terrier跟随你
+					'它看起来可爱.'
+					召唤约克夏梗跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			DarkBall: {
-				DisplayName: Dark Crystal Ball
+				DisplayName: 黑暗水晶球
 				Tooltip:
 					'''
-					'What will this do?'
-					召唤a wraith跟随你
+					'这有什么用呢??'
+					召唤幻灵跟随你
 					'''
 			}
 
 			DarkEnergyBall: {
-				DisplayName: Dark Energy Ball
+				DisplayName: 暗能量球（出自铲子骑士）
 				Tooltip:
 					'''
-					'Even holding this make you feel stronger'
-					召唤Enchantress跟随你
+					'拿着这个也会让你感觉更强大'
+					召唤女巫跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			DarkGel: {
-				DisplayName: Dark Gel
+				DisplayName: 黑胶（出自原版）
 				Tooltip:
 					'''
-					'Where does this come from?'
-					召唤a slimer跟随你
+					'这是怎么来的?'
+					召唤恶翅史莱姆跟随你
 					'''
 			}
 
 			DarkRibbon: {
-				DisplayName: Dark Ribbon
+				DisplayName: 黑丝带（出自动漫RWBY）
 				Tooltip:
 					'''
-					'This may make someone happy.'
-					召唤Blake跟随你
+					'这可能会让某人开心.'
+					召唤布蕾克·贝拉多娜跟随你
 					'''
 			}
 
 			DarkShield: {
-				DisplayName: Dark Sphere
+				DisplayName: 暗黑之球（出自车万）
 				Tooltip:
 					'''
-					'You feel like someone is inside of it'
-					召唤Rumia跟随你
+					'你会觉得有人在里面'
+					召唤露米娅跟随你
 					'''
 			}
 
 			DeadCat2: {
-				DisplayName: Dead Cat
+				DisplayName: 嗝屁猫（出自以撒的结合）
 				Tooltip:
 					'''
-					'9 Lives'
-					召唤the dead cat跟随你
+					'九条命'
+					召唤嗝屁猫跟随你
 					'''
 			}
 
 			DeathNote: {
-				DisplayName: Death Note
+				DisplayName: 死亡笔记（出自死亡笔记）
 				Tooltip:
 					'''
-					It looks like a shinigami drop this.'
-					召唤Ryuk跟随你
+					'这看起来像是神的掉落的.'
+					召唤死神Ryuk跟随你
 					'''
 			}
 
 			DehydratedSeaStar: {
-				DisplayName: Dehydrated Sea Star
+				DisplayName: 脱水海星（出自海绵宝宝）
 				Tooltip:
 					'''
-					'It looks dry and sad.'
-					召唤Patrick Star跟随你
+					'它看起来又干又悲伤.'
+					召唤派大星跟随你
 					'''
 			}
 
 			DehydratedSponge: {
-				DisplayName: Dehydrated Sponge
+				DisplayName: 脱水海绵（出自海绵宝宝）
 				Tooltip:
 					'''
-					'It looks dry and sad.'
-					召唤Sponge Bob跟随你
+					'它看起来又干又悲伤.'
+					召唤海绵宝宝跟随你
 					'''
 			}
 
 			DemonBloodSword: {
-				DisplayName: Demon Blood Sword
+				DisplayName: 恶魔血剑（出自探险活宝）
 				Tooltip:
 					'''
-					'You feel it belongs to a family'
-					召唤Finn跟随你
+					'你觉得它属于一个家庭'
+					召唤芬跟随你
 					'''
 			}
 
 			DesertCore: {
-				DisplayName: Desert Core
+				DisplayName: 沙漠核心（没看出来。占位符）
 				Tooltip:
 					'''
-					'It belongs to someone who has no internet connection.'
-					召唤a dinosaur跟随你
+					'它属于一个没有网络连接的人.'
+					召唤恐龙跟随你
 					'''
 			}
 
 			DespairInducingBearHead: {
-				DisplayName: Tiny Bear Head
+				DisplayName: 黑白熊的头（出自弹丸论破）
 				Tooltip:
 					'''
-					'Even holding it makes you feel despair'
-					召唤Monokuma跟随你
+					'即使拿着它也会让你感到绝望'
+					召唤黑白熊跟随你
 					'''
 			}
 
 			DevilMask: {
-				DisplayName: Devil Mask
+				DisplayName: 般若面具（出自车万）
 				Tooltip:
 					'''
-					'It may belong to someone'
-					召唤Hatano Kokoro跟随你
+					'它可能属于某人'
+					召唤秦心跟随你
 					'''
 			}
 
 			DivineCrystal: {
-				DisplayName: Divine Crystal
+				DisplayName: 神圣水晶戒（出自车万，作者原创）
 				Tooltip:
 					'''
-					'It's 100% pure'
-					'You feel happy but you are not sure why'
-					召唤Junko in bride costume跟随你
+					'100%纯'
+					'你非常快乐，但你不知道为什么'
+					召唤花嫁纯狐跟随你
 					'''
 			}
 
 			DogCookie: {
-				DisplayName: Dog Cookie
+				DisplayName: 狗饼干（忘了，占位符）
 				Tooltip:
 					'''
-					'It's for something cute'
-					召唤a pug跟随你
-					'Thanks ThePixelatedGamer8 for support.'
+					'是为了买些可爱的东西'
+					召唤哈巴狗跟随你
+					'感谢像素化的玩家8的支持.'
 					'''
 			}
 
 			DogHead: {
-				DisplayName: Remainings of a monster
+				DisplayName: 怪物面具（忘了，占位符）
 				Tooltip:
 					'''
-					'Why you even do this?'
+					'你为什么要这么做?'
 					召唤Terry跟随你
 					'''
 			}
 
 			AyaShameimaruDoll: {
-				DisplayName: Recident Reporter Doll
-				Tooltip: 召唤Aya Shameimaru跟随你
+				DisplayName: 记者玩偶（出自车万）
+				Tooltip: 召唤射命丸文跟随你
 			}
 
 			ChenDoll: {
-				DisplayName: Royal Guard Doll
-				Tooltip: 召唤Chen跟随你
+				DisplayName: 妖怪猫玩偶（出自车万）
+				Tooltip: 召唤橙跟随你
 			}
 
 			DaiyouseiDoll: {
-				DisplayName: Supportive Fairy Doll
-				Tooltip: 召唤Daiyousei跟随你
+				DisplayName: 妖精玩偶（出自车万）
+				Tooltip: 召唤大妖精跟随你
 			}
 
 			HinaKagiyamaDoll: {
-				DisplayName: Misfortune Doll
-				Tooltip: 召唤Hina Kagiyama跟随你
+				DisplayName: 厄神玩偶（出自车万）
+				Tooltip: 召唤键山雏跟随你
 			}
 
 			IkuDoll: {
-				DisplayName: Observer Doll
-				Tooltip: 召唤Iku Nagae跟随你
+				DisplayName: 龙宫使者玩偶（出自车万）
+				Tooltip: 召唤永江衣玖跟随你
 			}
 
 			JunkoDoll: {
-				DisplayName: Pure Doll
-				Tooltip: 召唤Junko跟随你
+				DisplayName: 军克玩偶（出自车万）
+				Tooltip: 召唤纯狐跟随你
 			}
 
 			KagerouDoll: {
-				DisplayName: Musk's Lost Doll
-				Tooltip: 召唤Kagerou Imaizumi跟随你
+				DisplayName: 狼女玩偶（出自车万）
+				Tooltip: 召唤今泉影狼跟随你
 			}
 
 			KoakumaDoll: {
-				DisplayName: Helper Vampire Doll
-				Tooltip: 召唤Koakuma跟随你
+				DisplayName: 辅助吸血鬼玩偶（出自车万）
+				Tooltip: 召唤小恶魔跟随你
 			}
 
 			KonngaraDoll: {
-				DisplayName: Prayer Samurai Doll
-				Tooltip: 召唤Konngara跟随你
+				DisplayName: 星幽玩偶（出自车万）
+				Tooltip: 召唤矜羯罗跟随你
 			}
 
 			KosuzuDoll: {
-				DisplayName: Bookkeeper Doll
-				Tooltip: 召唤Kosuzu Motoori跟随你
+				DisplayName: 收集玩偶（出自车万）
+				Tooltip: 召唤本居小铃跟随你
 			}
 
 			KotohimeDoll: {
-				DisplayName: Collector Doll
-				Tooltip: 召唤Kotohime跟随你
+				DisplayName: 警察玩偶（出自车万）
+				Tooltip: 召唤小兔姬跟随你
 			}
 
 			KurumiDoll: {
-				DisplayName: Gatekeeper Doll
-				Tooltip: 召唤Kurumi跟随你
+				DisplayName: 看门人玩偶（出自车万）
+				Tooltip: 召唤胡桃跟随你
 			}
 
 			LilyDoll: {
-				DisplayName: Spring Seeker Doll
-				Tooltip: 召唤Lily White跟随你
+				DisplayName: 惊喜之春玩偶（出自车万）
+				Tooltip: 召唤莉莉霍瓦特跟随你
 			}
 
 			MamizouFutatsuiwaDoll: {
-				DisplayName: Disguised Doll
-				Tooltip: 召唤Mamizou Futatsuiwa跟随你
+				DisplayName: 伪装玩偶（出自车万）
+				Tooltip: 召唤二岩猯藏跟随你
 			}
 
 			MinamitsuMurasaDoll: {
-				DisplayName: Shipwrecker Doll
-				Tooltip: 召唤Minamitsu Murasa跟随你
+				DisplayName: 船长玩偶（出自车万）
+				Tooltip: 召唤村纱水蜜跟随你
 			}
 
 			MomijiInubashiriDoll: {
-				DisplayName: Guardian Doll
-				Tooltip: 召唤Momiji Inubashiri跟随你
+				DisplayName: 小笨狼玩偶（出自车万）
+				Tooltip: 召唤犬走椛跟随你
 			}
 
 			NazrinDoll: {
-				DisplayName: Treasure Hunter Doll
-				Tooltip: 召唤Nazrin跟随你
+				DisplayName: 寻宝玩偶（出自车万）
+				Tooltip: 召唤娜兹玲跟随你
 			}
 
 			RanDoll: {
-				DisplayName: Genius Doll
+				DisplayName: 天才玩偶（出自车万）
 				Tooltip:
 					'''
-					'Even her doll cares about her master.'
-					召唤Ran Yakumo跟随你
+					'连她的式神都关心她的主人.'
+					召唤八云蓝跟随你
 					'''
 			}
 
 			ReisenUdongeinInabaDoll: {
-				DisplayName: Lunar Warrior Doll
-				Tooltip: 召唤Reisen Udongein Inaba跟随你
+				DisplayName: 月球战士玩偶（出自车万）
+				Tooltip: 召唤铃仙·优昙华院·因幡跟随你
 			}
 
 			RenkoUsamiDoll: {
-				DisplayName: Physicist Doll
-				Tooltip: 召唤Renko Usami跟随你
+				DisplayName: 物理学家玩偶（出自车万）
+				Tooltip: 召唤宇佐见莲子跟随你
 			}
 
 			RikakoAsakuraDoll: {
-				DisplayName: Scientist Doll
-				Tooltip: 召唤Rikako Asakura跟随你
+				DisplayName: 科学家玩偶（出自车万）
+				Tooltip: 召唤朝仓理香子跟随你
 			}
 
 			RinnosukeMorichikaDoll: {
-				DisplayName: Lunar Archer Doll
-				Tooltip: 召唤Rinnosuke Morichika跟随你
+				DisplayName: 香霖堂玩偶（出自车万）
+				Tooltip: 召唤森近霖之助跟随你
 			}
 
 			RuukotoDoll: {
-				DisplayName: Mechanical Doll
-				Tooltip: 召唤Ruukoto跟随你
+				DisplayName: 机械玩偶（出自车万）
+				Tooltip: 召唤留琴跟随你
 			}
 
 			SagumeKishinDoll: {
-				DisplayName: Divine Doll
-				Tooltip: 召唤Sagume Kishin跟随你
+				DisplayName: 稀神玩偶（出自车万）
+				Tooltip: 召唤稀神探女跟随你
 			}
 
 			SanaeKochiyaDoll: {
-				DisplayName: Shrine Maiden Doll
-				Tooltip: 召唤Sanae Kochiya跟随你
+				DisplayName: 神社少女玩偶（出自车万）
+				Tooltip: 召唤东风谷早苗跟随你
 			}
 
 			SeijaDoll: {
-				DisplayName: Reverse Doll
-				Tooltip: 召唤Seija Kijin跟随你
+				DisplayName: 叛逆玩偶（出自车万）
+				Tooltip: 召唤鬼人正邪跟随你
 			}
 
 			ShinkiDoll: {
-				DisplayName: Demonic Doll
-				Tooltip: 召唤Shinki跟随你
+				DisplayName: 魔神玩偶（出自车万）
+				Tooltip: 召唤神绮跟随你
 			}
 
 			SumirekoUsamiDoll: {
-				DisplayName: Secret Sealer Doll
-				Tooltip: 召唤Sumireke Usami跟随你
+				DisplayName: 秘封俱乐部初代会长玩偶（出自车万）
+				Tooltip: 召唤宇佐见堇子跟随你
 			}
 
 			SuwakoDoll: {
-				DisplayName: Natural Doll
-				Tooltip: 召唤Suwako Moriya跟随你
+				DisplayName: 自然玩偶（出自车万）
+				Tooltip: 召唤洩矢诹访子跟随你
 			}
 
 			TewiInabaDoll: {
-				DisplayName: Leader Doll
-				Tooltip: 召唤Tewi Inaba跟随你
+				DisplayName: 首领玩偶（出自车万）
+				Tooltip: 召唤因幡天为跟随你
 			}
 
 			WakasagihimeDoll: {
-				DisplayName: Mermaid Doll
-				Tooltip: 召唤Wakasagihime跟随你
+				DisplayName: 人鱼玩偶（出自车万）
+				Tooltip: 召唤若鹭姬跟随你
 			}
 
 			Dream: {
