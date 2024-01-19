@@ -56,8 +56,8 @@ Mods: {
 			}
 
 			StormDiver: {
-				DisplayName: 风暴潜水员
-				BossChecklistIntegration.EntryName: 皇家鹰身女妖
+				DisplayName: 风暴鹰身女妖
+				BossChecklistIntegration.EntryName: 风暴鹰身女妖
 			}
 
 			Isaac: {
@@ -201,9 +201,9 @@ Mods: {
 			BadGingerbreadCookie.DisplayName: 糟糕的姜饼饼干
 			CookieBox.DisplayName: 饼干盒
 			CookieBoxRest.DisplayName: 饼干盒底座
-			CookieCrumblerBody.DisplayName: 饼干屑身体
-			CookieCrumblerHead.DisplayName: 饼干屑头
-			CookieCrumblerTail.DisplayName: 饼干屑尾
+			CookieCrumblerBody.DisplayName: 饼干屑
+			CookieCrumblerHead.DisplayName: 饼干屑
+			CookieCrumblerTail.DisplayName: 饼干屑
 			CookieMan.DisplayName: 姜饼人
 			CookieSoul.DisplayName: 饼干魂
 			CookieSpirit.DisplayName: 饼干精神力
@@ -218,31 +218,31 @@ Mods: {
 			DrFetusSecondPhase.DisplayName: 胎儿博士二阶
 			DrFetusShadow.DisplayName: 胎儿博士影子
 			DrFetusThirdPhase.DisplayName: 胎儿博士三阶
-			FurretBody.DisplayName: 大尾立身体
-			FurretHead.DisplayName: 大尾立头
-			FurretTail.DisplayName: 大尾立尾
-			HolographicSlime.DisplayName: Holographic Slime
-			BadSnow.DisplayName: Bad Snow
-			IceGuardianHandLeft.DisplayName: Ice Guardian Hand Left
-			IceGuardianHandRight.DisplayName: Ice Guardian Hand Right
-			IceTimer.DisplayName: Ice Timer
-			IceWormB.DisplayName: Ice Worm B
-			IceWormH.DisplayName: Ice Worm H
-			IceWormT.DisplayName: Ice Worm T
-			AngelicBaby.DisplayName: Angelic Baby
-			DemonIsaac.DisplayName: Demon Isaac
+			FurretBody.DisplayName: 大尾立
+			FurretHead.DisplayName: 大尾立
+			FurretTail.DisplayName: 大尾立
+			HolographicSlime.DisplayName: 全息史莱姆
+			BadSnow.DisplayName: 糟糕的雪
+			IceGuardianHandLeft.DisplayName: 冰之守护者
+			IceGuardianHandRight.DisplayName: 冰之守护者
+			IceTimer.DisplayName: 冰之守护者
+			IceWormB.DisplayName: 冰之守护者
+			IceWormH.DisplayName: 冰之守护者
+			IceWormT.DisplayName: 冰之守护者
+			AngelicBaby.DisplayName: 婴儿天使
+			DemonIsaac.DisplayName: 阿撒泻勒
 			IsaacArenaLocker.DisplayName: Isaac Arena Locker
-			IsaacChest.DisplayName: Isaac Chest
-			IsaacChest2.DisplayName: Isaac Chest2
-			IsaacDeath.DisplayName: Isaac Death
-			IsaacShadow.DisplayName: Isaac Shadow
-			AncientObserver3.DisplayName: Ancient Observer3
-			AncientWormBody.DisplayName: Ancient Worm Body
-			AncientWormHead.DisplayName: Ancient Worm Head
-			AncientWormTail.DisplayName: Ancient Worm Tail
+			IsaacChest.DisplayName: 以撒的玩具箱
+			IsaacChest2.DisplayName: 以撒的玩具箱
+			IsaacDeath.DisplayName: 阿撒泻勒
+			IsaacShadow.DisplayName: 阿撒泻勒影子
+			AncientObserver3.DisplayName: 远古观察者
+			AncientWormBody.DisplayName: 远古吞噬者
+			AncientWormHead.DisplayName: 远古吞噬者
+			AncientWormTail.DisplayName: 远古吞噬者
 			CuriousSoul.DisplayName: Curious Soul
-			MechanicalSlime2.DisplayName: Mechanical Slime2
-			MechanicalSlime.DisplayName: Mechanical Slime
+			MechanicalSlime2.DisplayName: 机械史莱姆
+			MechanicalSlime.DisplayName: 机械史莱姆
 
 			AquaticWiseman: {
 				DisplayName: Aquatic Wiseman
@@ -260,7 +260,7 @@ Mods: {
 			}
 
 			ErrorFallenAngel2: {
-				DisplayName: Error Fallen Angel2
+				DisplayName: 堕落天使
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -274,10 +274,10 @@ Mods: {
 				}
 			}
 
-			ErrorFallenAngel.DisplayName: Error Fallen Angel
+			ErrorFallenAngel.DisplayName: 堕落天使
 
 			GameGenie: {
-				DisplayName: Game Genie
+				DisplayName: 游戏精灵
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -292,7 +292,7 @@ Mods: {
 			}
 
 			GhostLady: {
-				DisplayName: Ghost Lady
+				DisplayName: 幽灵夫人
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -307,7 +307,7 @@ Mods: {
 			}
 
 			HunterDog: {
-				DisplayName: Hunter Dog
+				DisplayName: 猎人的狗
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -321,18 +321,18 @@ Mods: {
 				}
 			}
 
-			AstralGhost.DisplayName: Astral Ghost
-			BabyBlazer.DisplayName: Baby Blazer
-			CharaEnemy.DisplayName: Chara Enemy
+			AstralGhost.DisplayName: 精神幽灵
+			BabyBlazer.DisplayName: 小滚轮
+			CharaEnemy.DisplayName: 被藻类植物束缚的人
 			CyberPlayerShield.DisplayName: Cyber Player Shield
 			EnemyShadow.DisplayName: Enemy Shadow
-			FriendlyHarpy.DisplayName: Friendly Harpy
-			GalacticRift.DisplayName: Galactic Rift
-			HolographicChunk.DisplayName: Holographic Chunk
+			FriendlyHarpy.DisplayName: 友好的鹰身女妖
+			GalacticRift.DisplayName: 星盈时空裂痕
+			HolographicChunk.DisplayName: 全息之眼
 			RalseiDummy.DisplayName: Ralsei Dummy
 
 			RoyalGuard: {
-				DisplayName: Royal Guard
+				DisplayName: 皇家卫士
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -346,92 +346,92 @@ Mods: {
 				}
 			}
 
-			SoulBird.DisplayName: Soul Bird
-			SoulBlossom.DisplayName: Soul Blossom
-			TiedYandere.DisplayName: Tied Yandere
+			SoulBird.DisplayName: 心灵鸟
+			SoulBlossom.DisplayName: 灵魂绽放
+			TiedYandere.DisplayName: 被束缚的猎手
 			TreasureBagBoi.DisplayName: Treasure Bag Boi
-			BadMafia.DisplayName: Bad Mafia
-			FakeNightmareSlime.DisplayName: Fake Nightmare Slime
-			NekoSlime.DisplayName: Neko Slime
-			NekoSlime2.DisplayName: Neko Slime2
-			NightmareAmplifierSlimeDeath.DisplayName: Nightmare Amplifier Slime Death
-			NightmareAmplifierSlimesShadow.DisplayName: Nightmare Amplifier Slimes Shadow
+			BadMafia.DisplayName: 黑手党
+			FakeNightmareSlime.DisplayName: 梦魇史莱姆
+			NekoSlime.DisplayName: 猫猫头
+			NekoSlime2.DisplayName: 猫猫头
+			NightmareAmplifierSlimeDeath.DisplayName: 梦魇史莱姆
+			NightmareAmplifierSlimesShadow.DisplayName: 梦魇史莱姆
 			NightmareCameraLocker.DisplayName: Nightmare Camera Locker
-			NightmareSoul.DisplayName: Nightmare Soul
+			NightmareSoul.DisplayName: 梦魇幽灵
 			ShadowSpirit.DisplayName: Shadow Spirit
-			SlimeHuman.DisplayName: Slime Human
-			DarkOkiku.DisplayName: Dark Okiku
-			OkikuDeath.DisplayName: Okiku Death
-			OkikuSoul.DisplayName: Okiku Soul
-			OkikuSoulDeath.DisplayName: Okiku Soul Death
-			OkikuSummon.DisplayName: Okiku Summon
-			BodyguardSlime.DisplayName: Bodyguard Slime
-			FallingSlimeSoldier.DisplayName: Falling Slime Soldier
-			MoneyPortal.DisplayName: Money Portal
-			PoliticianSlime.DisplayName: Politician Slime
-			SoldierSlime1.DisplayName: Soldier Slime1
-			SoldierSlime2.DisplayName: Soldier Slime2
+			SlimeHuman.DisplayName: 史莱姆人类
+			DarkOkiku.DisplayName: 盘子女鬼
+			OkikuDeath.DisplayName: 盘子女鬼
+			OkikuSoul.DisplayName: 盘子女鬼
+			OkikuSoulDeath.DisplayName: 盘子女鬼
+			OkikuSummon.DisplayName: 盘子女鬼
+			BodyguardSlime.DisplayName: 保镖史莱姆
+			FallingSlimeSoldier.DisplayName: 保镖史莱姆
+			MoneyPortal.DisplayName: 金币传送门
+			PoliticianSlime.DisplayName: 政客史莱姆
+			SoldierSlime1.DisplayName: 士兵史莱姆
+			SoldierSlime2.DisplayName: 士兵史莱姆
 			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
 			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
-			PoliticianSlimeArmor.DisplayName: Politician Slime Armor
-			BoundGuardian.DisplayName: Bound Guardian
-			FallingGoldfish.DisplayName: Falling Goldfish
-			FallingSquid.DisplayName: Falling Squid
+			PoliticianSlimeArmor.DisplayName: 政客史莱姆装甲
+			BoundGuardian.DisplayName: 被捆绑的守护者
+			FallingGoldfish.DisplayName: 堕落的金鱼
+			FallingSquid.DisplayName: 堕落的鱿鱼
 			FlashLightCore.DisplayName: Flash Light Core
-			GoldfishBucket.DisplayName: Goldfish Bucket
-			GoldfishWarrior.DisplayName: Goldfish Warrior
-			HarpyCall.DisplayName: Harpy Call
+			GoldfishBucket.DisplayName: 金鱼桶
+			GoldfishWarrior.DisplayName: 金鱼的战士
+			HarpyCall.DisplayName: 鹰身女妖
 			HarpyTornadoCore.DisplayName: Harpy Tornado Core
 			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
-			SeaHorseBubble.DisplayName: Sea Horse Bubble
-			SeaHorseBucket.DisplayName: Sea Horse Bucket
-			StormDiverSummon.DisplayName: Storm Diver Summon
-			StormTinkererH.DisplayName: Storm Tinkerer H
+			SeaHorseBubble.DisplayName: 海马泡泡
+			SeaHorseBucket.DisplayName: 海马桶
+			StormDiverSummon.DisplayName: 风暴鹰身女妖
+			StormTinkererH.DisplayName: 风暴修补匠
 			YoukaiBucket.DisplayName: Youkai Bucket
 			YoukaiBucket2.DisplayName: Youkai Bucket2
-			FunSATLA001.DisplayName: Fun S A T L A001
-			SATLASummon.DisplayName: S A T L A Summon
+			FunSATLA001.DisplayName: SATLA-001
+			SATLASummon.DisplayName: SATLA-001
 			FakeSecurityBot.DisplayName: Fake Security Bot
 			JumpscareFella.DisplayName: Jumpscare Fella
 			NoEscape.DisplayName: No Escape
 			SecurityBotSummon.DisplayName: Security Bot Summon
-			BomberSlime.DisplayName: Bomber Slime
-			CrimsonSlime.DisplayName: Crimson Slime
-			DarkCandleSlime.DisplayName: Dark Candle Slime
-			GiantPinkie.DisplayName: Giant Pinkie
-			GiantPinkie2.DisplayName: Giant Pinkie2
-			OldSlime.DisplayName: Old Slime
-			ShadowSlime2.DisplayName: Shadow Slime2
-			TinyBloodSlime.DisplayName: Tiny Blood Slime
-			VikingSlime.DisplayName: Viking Slime
-			BouncySlime.DisplayName: Bouncy Slime
-			BubbleSlime.DisplayName: Bubble Slime
-			BubbleSlime2.DisplayName: Bubble Slime2
-			HiveCarrierJungleSlime.DisplayName: Hive Carrier Jungle Slime
-			LaserSlime.DisplayName: Laser Slime
-			PinkyTank.DisplayName: Pinky Tank
-			ShadowSlime3.DisplayName: Shadow Slime3
-			ShadowSlime4.DisplayName: Shadow Slime4
-			SuspiciousSlime.DisplayName: Suspicious Slime
-			SuspiciousSlime2.DisplayName: Suspicious Slime2
-			WitchSlime.DisplayName: Witch Slime
-			MechanicalSlimeDeath.DisplayName: Mechanical Slime Death
-			ShinobiSlime.DisplayName: Shinobi Slime
-			ShinobiSlimeDasher.DisplayName: Shinobi Slime Dasher
-			ShinobiSlimeShuriken.DisplayName: Shinobi Slime Shuriken
-			ShinobiSlimeSoul.DisplayName: Shinobi Slime Soul
-			SlimeWatcher.DisplayName: Slime Watcher
-			UWUSlimeSoul.DisplayName: U W U Slime Soul
-			AncientGuardianSpawn.DisplayName: Ancient Guardian Spawn
-			BlessedBrokenWashingMachine.DisplayName: Blessed Broken Washing Machine
-			BrokenWashingMachine.DisplayName: Broken Washing Machine
-			BrokenWashingMachinewithHat.DisplayName: Broken Washing Machinewith Hat
-			BrokenWashingMachinewithWings.DisplayName: Broken Washing Machinewith Wings
-			BrokenWashingMachinewithWings2.DisplayName: Broken Washing Machinewith Wings2
-			SpinningBrokenWashingMachine.DisplayName: Spinning Broken Washing Machine
+			BomberSlime.DisplayName: 矿工史莱姆
+			CrimsonSlime.DisplayName: 猩红史莱姆
+			DarkCandleSlime.DisplayName: 蜡烛史莱姆
+			GiantPinkie.DisplayName: 弹力石
+			GiantPinkie2.DisplayName: 弹力石
+			OldSlime.DisplayName: 古老史莱姆
+			ShadowSlime2.DisplayName: 史莱姆影子
+			TinyBloodSlime.DisplayName: 血史莱姆
+			VikingSlime.DisplayName: 维京史莱姆
+			BouncySlime.DisplayName: 弹性史莱姆
+			BubbleSlime.DisplayName: 泡泡史莱姆
+			BubbleSlime2.DisplayName: 泡泡史莱姆
+			HiveCarrierJungleSlime.DisplayName: 超尖刺史莱姆
+			LaserSlime.DisplayName: 激光史莱姆
+			PinkyTank.DisplayName: 弹力坦克
+			ShadowSlime3.DisplayName: 史莱姆影子
+			ShadowSlime4.DisplayName: 史莱姆影子
+			SuspiciousSlime.DisplayName: 可疑的史莱姆
+			SuspiciousSlime2.DisplayName: 可疑的史莱姆
+			WitchSlime.DisplayName: 魔女史莱姆
+			MechanicalSlimeDeath.DisplayName: 机械史莱姆
+			ShinobiSlime.DisplayName: 忍者史莱姆
+			ShinobiSlimeDasher.DisplayName: 忍者史莱姆
+			ShinobiSlimeShuriken.DisplayName: 忍者史莱姆
+			ShinobiSlimeSoul.DisplayName: 忍者史莱姆之魂
+			SlimeWatcher.DisplayName: 史莱姆观测者
+			UWUSlimeSoul.DisplayName: UWU史莱姆之魂
+			AncientGuardianSpawn.DisplayName: 远古守护者之子
+			BlessedBrokenWashingMachine.DisplayName: 祝福的破碎洗衣机
+			BrokenWashingMachine.DisplayName: 破碎洗衣机
+			BrokenWashingMachinewithHat.DisplayName: 破碎帽子洗衣机
+			BrokenWashingMachinewithWings.DisplayName: 带翅膀的破碎洗衣机
+			BrokenWashingMachinewithWings2.DisplayName: 带翅膀的破碎洗衣机
+			SpinningBrokenWashingMachine.DisplayName: 破碎洗衣机
 
 			BossHunterMerchant: {
-				DisplayName: Boss Hunter Merchant
+				DisplayName: BOSS猎人
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -446,7 +446,7 @@ Mods: {
 			}
 
 			FallenAngel: {
-				DisplayName: Fallen Angel
+				DisplayName: 堕落天使
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -491,7 +491,7 @@ Mods: {
 			}
 
 			BountyHunter: {
-				DisplayName: Bounty Hunter
+				DisplayName: 赏金猎人
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -506,7 +506,7 @@ Mods: {
 			}
 
 			Designer: {
-				DisplayName: Designer
+				DisplayName: 设计师
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -521,7 +521,7 @@ Mods: {
 			}
 
 			Elitist: {
-				DisplayName: Elitist
+				DisplayName: 杰出人才
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -536,7 +536,7 @@ Mods: {
 			}
 
 			WanderingSamurai: {
-				DisplayName: Wandering Samurai
+				DisplayName: 流浪武士
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -550,11 +550,11 @@ Mods: {
 				}
 			}
 
-			ChefEnergy.DisplayName: Chef Energy
+			ChefEnergy.DisplayName: 厨师后勤能源
 
 			UndeadChef: {
-				DisplayName: Undead Chef
-				BossChecklistIntegration.EntryName: Tier1 Dungeon Miniboss
+				DisplayName: 不死的厨师
+				BossChecklistIntegration.EntryName: 地牢1阶段小boss
 			}
 		}
 
@@ -4830,7 +4830,7 @@ Mods: {
 					[c/00FFFF:Magic]:every fifth attack will also form snowflake that can inflict frostburn + striking enemy have 25% chance to give used mana back while enemy is under frostburn
 					[c/00FFFF:Ranged]:Every ranged hits have 50% chance to rain icicle from sky which have 50% of base damage of the attack
 					[c/00FFFF:Minion]:A tiny washing machine will fight for you which do 75% of held weapons damage along with all minions can inflict frostburn
-					''' 
+					'''
 			}
 
 			DeathMark: {
@@ -23807,4 +23807,3 @@ Mods: {
 		}
 	}
 }
-
