@@ -23721,8 +23721,8 @@ Mods: {
 				}
 
 				UltraLiteMode: {
-					Tooltip: 启用时，禁用使用其他游戏的内容
-					Label: "[i:Cog] 禁用Spriteholder的内容"
+					Tooltip: 启用时，禁用使用其他游戏图形变量内容
+					Label: "[i:Cog] 禁用图形变量内容"
 				}
 
 				BossLiteMode: {
