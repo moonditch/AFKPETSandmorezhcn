@@ -10177,11 +10177,11 @@ Mods: {
 			}
 
 			Dream: {
-				DisplayName: Concentrated Dream
+				DisplayName: 梦之支配者（出自车万）
 				Tooltip:
 					'''
-					'It reminds you your own dreams'
-					召唤Doremy Sweet跟随你
+					'它提醒你自己的梦想'
+					召唤哆来咪·苏伊特跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
