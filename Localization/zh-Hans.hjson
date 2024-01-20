@@ -23712,85 +23712,85 @@ Mods: {
 		}
 
 		Configs: {
-			DisplayName: AFK Pets Configuration
+			DisplayName: AFK宠物配置
 
 			AFKPetsConfiguration: {
 				PetLiteMode: {
-					Tooltip: Activating it will make the pet drops being disabled
-					Label: "[i:Cog] Disable Pets"
+					Tooltip: 启用时，禁止宠物掉落
+					Label: "[i:Cog] 禁用的宠物"
 				}
 
 				UltraLiteMode: {
-					Tooltip: Activating it will disable any content that uses sprites from other games
-					Label: "[i:Cog] Disable Content with Spriteholder"
+					Tooltip: 启用时，禁用使用其他游戏的内容
+					Label: "[i:Cog] 禁用Spriteholder的内容"
 				}
 
 				BossLiteMode: {
-					Tooltip: Activating it will cause any boss and miniboss unspawnable and their spawn items become 无法获得
-					Label: "[i:Cog] Disable AFKPets Bosses"
+					Tooltip: 启用时，任何BOSS包括小BOSS都无法生成，且物品无法获得
+					Label: "[i:Cog] 禁用afk宠物BOSS"
 				}
 
 				WingsLiteMode: {
-					Tooltip: Activating it will cause wings get unloaded. Do if your mods fill wingslots and don't want to remove any of them
-					Label: "[i:AngelWings] Disable Wings"
+					Tooltip: 启用时，禁用翅膀你的模组有翅膀槽并且不想移除它们
+					Label: "[i:AngelWings] 禁用翅膀"
 				}
 
 				LiteMode: {
-					Tooltip: Activating it will cause any content other than pets will become 无法获得
-					Label: "[i:Cog] Disable Additional Contents"
+					Tooltip: 启用时，禁用除了宠物以外的任何内容将变成无法获得
+					Label: "[i:Cog] 禁用其他内容"
 				}
 
 				TrinketOffsetY: {
-					Tooltip: Offset location of trinket slot being determined by distance from left
-					Label: "[i:Book] Trinket Screen Position Offset Y"
+					Tooltip: 饰物槽的偏移由距左边框的距离确定
+					Label: "[i:Book] 饰物槽UI向Y偏移"
 				}
 
 				TrinketOffsetX: {
-					Tooltip: Offset location of trinket slot being determined by distance from top
-					Label: "[i:Book] Trinket Screen Position Offset X"
+					Tooltip: 饰物槽的偏移由距顶部的距离确定
+					Label: "[i:Book] 饰物槽UI向X偏移"
 				}
 
 				TrinketSlotHide: {
-					Tooltip: Activating it will disable trinket slot draw in inventory
-					Label: "[i:Book] Hide Trinket Slot draw"
+					Tooltip: 启用时，禁用饰物槽UI
+					Label: "[i:Book] 隐藏饰物槽UI"
 				}
 
 				CalamityRogueSupport: {
-					Label: "[i:ThrowingKnife] Convert Throwing to Rogue(Cal)/Throwing(Van)"
-					Tooltip: Activating it will convert afkpets throwing weapons have rogue damage type if calamity is enabled\nIf not it does not it convert to pure throwing (Closing the world and reopening after the first adjustment is required)
+					Label: "[i:ThrowingKnife] 将投掷转换为盗贼(灾厄)"
+					Tooltip: 启用时，把afk宠物的投掷武器转化成灾厄的盗贼武器 (需要重新加载)
 				}
 
 				TrueMeleeTooltip: {
-					Label: "[i:ThrowingKnife] Show Specific Subdamage Types in Tooltip"
-					Tooltip: Activating it will show the true melee, active summon and transformation summon in damage type
+					Label: "[i:ThrowingKnife] 在工具提示中显示特定的伤害类型"
+					Tooltip: 启用时, 显示真近战，主动召唤和变身召唤的伤害类型
 				}
 
 				CataclysmicView: {
-					Label: "[i:AviatorSunglasses] Cataclysmic View"
-					Tooltip: Activating it will make the boss backgrounds not red shader based
+					Label: "[i:AviatorSunglasses] 毁灭性的视觉"
+					Tooltip: 启用时，让boss背景不是红色材质为基础
 				}
 
 				SpecialReforgeShader: {
-					Label: "[i:ThrowingKnife]  Special Reforge Shader"
-					Tooltip: Activating it will make the special reforges use shader on the weapons
+					Label: "[i:ThrowingKnife]  特殊的重铸材质"
+					Tooltip: 启用时，让特殊的重铸材质用在武器上
 				}
 
 				WeaponShake: {
-					Label: "[i:ThrowingKnife] Weapon Screenshake Effect"
-					Tooltip: Deactivating it will disable some of the weapons screenshake effect
+					Label: "[i:ThrowingKnife] 武器摇屏效果"
+					Tooltip: 禁用时，让一些武器的屏幕抖动效果失效
 				}
 
 				NoStrongFishMode: {
-					Label: "[i:Bass] Disable Additional Fish Mechanics"
-					Tooltip: Activating it will make the stronger fish + Cookie crate be disabled
+					Label: "[i:Bass] 禁用额外的钓鱼机制"
+					Tooltip: 启用时，获得更强的鱼+饼干箱被禁用
 				}
 
 				LilWiki: {
-					Label: "[i:Book] Activate Lil Wiki"
-					Tooltip: Activating it will make some items with special way to obtain have info in its descrition
+					Label: "[i:Book] 启动维基百科"
+					Tooltip: 启用时，让一些具有特殊获取方式的物品在物品描述显示
 				}
 
-				DisplayName: AFK Pets Configuration
+				DisplayName: AFK宠物配置
 			}
 		}
 
