@@ -1,3 +1,4 @@
+AFK宠物和更多模组汉化补丁已更新：v{ModVersion}，tML-v{tMLVersion} {tMLBuildPurpose}
 github：https://github.com/moonditch/AFKPETSandmorezhcn
-v0.0.0.1
-重新制作以前的计划afk宠物
+
+1、重新制作以前的计划afk宠物
