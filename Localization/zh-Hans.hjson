@@ -1642,8 +1642,8 @@ Mods: {
 			}
 
 			SapDebuff: {
-				DisplayName: Sapped
-				Description: Enemy take more damage from fire
+				DisplayName: 削弱
+				Description: 敌怪获得更多的火属性减益伤害
 			}
 
 			SeriousBleed: {
@@ -9418,7 +9418,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这是熟的'
-					召唤星之卡比跟随你
+					召唤卡比跟随你
 					'''
 			}
 
@@ -10187,62 +10187,62 @@ Mods: {
 			}
 
 			DriedBass: {
-				DisplayName: Dried Bass
+				DisplayName: 鱼干（出自原版）
 				Tooltip:
 					'''
-					'What can I use this for?'
-					召唤a sand shark跟随你
+					'我可以用这个做什么?'
+					召唤沙鲨跟随你
 					'''
 			}
 
 			DryBaby: {
-				DisplayName: Dry Baby
+				DisplayName: 枯骨宝宝（出自以撒的结合）
 				Tooltip:
 					'''
-					'Immortal Friend'
-					召唤dry baby跟随你
+					'不朽的朋友'
+					召唤枯骨宝宝跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			DuotinePill: {
-				DisplayName: Duotine Pill
+				DisplayName: 多他因药丸（出自弗兰的悲惨之旅）
 				Tooltip:
 					'''
-					'Freaky red pills, rather ominous'
-					召唤Fran Bow跟随你
+					'奇怪的红色药丸，很不吉利'
+					召唤弗兰跟随你
 					'''
 			}
 
 			ElectricCoin: {
-				DisplayName: Charged Coin
+				DisplayName: 带电的硬币（出自某科学的超电磁炮/一方通行，魔法禁书目录）
 				Tooltip:
 					'''
-					'It looks dangerous'
-					召唤charged baby跟随你
+					'看起来很危险'
+					召唤御坂美琴跟随你
 					'''
 			}
 
 			EllensDiary: {
-				DisplayName: Ellen's Diary
+				DisplayName: 艾伦的日记（出自战舰少女R）
 				Tooltip:
 					'''
-					'It's written in Japanese.'
-					召唤Ellen跟随你
+					'这是用日语写的.'
+					召唤罗德尼（艾伦•贝可叉掉）跟随你
 					'''
 			}
 
 			EnergyHeart: {
-				DisplayName: Energy Heart
+				DisplayName: 能源之心（出自洛克人）
 				Tooltip:
 					'''
-					'Can I use it as life fruit?'
-					召唤Megaman X跟随你
+					'我能把它当作生命的果实吗?'
+					召唤洛克人x跟随你
 					'''
 			}
 
 			EvilSkull: {
-				DisplayName: Evil Skull
+				DisplayName: Evil Skull（占位符）
 				Tooltip:
 					'''
 					'I hope it don't try to attack you'
@@ -10251,34 +10251,34 @@ Mods: {
 			}
 
 			ExplosiveHat: {
-				DisplayName: Hat of the Arc Wizard
+				DisplayName: 巫师帽（出自为美好的世界献上祝福）
 				Tooltip:
 					'''
-					'It smells like explosion'
-					召唤Megumin跟随你
+					'闻起来像爆炸'
+					召唤惠惠跟随你
 					'''
 			}
 
 			ExplosiveJam: {
-				DisplayName: Explosive Jam
+				DisplayName: 爆炸性的果酱（出自挖矿工艺叉掉，我的世界）
 				Tooltip:
 					'''
-					'Someone's favourite.'
-					召唤creeper跟随你
+					'Creeper？Oh~ man~.'
+					召唤古力怕跟随你
 					'''
 			}
 
 			EyeinaGlassJar: {
-				DisplayName: Eye in a Glass Jar
+				DisplayName: 玻璃罐里的克苏鲁之眼
 				Tooltip:
 					'''
-					'It looks like the eye is waiting someone'
-					召唤an eye roll跟随你
+					'看来眼睛在等人'
+					召唤眼怪跟随你
 					'''
 			}
 
 			FabuRune: {
-				DisplayName: Rune of Uruz
+				DisplayName: Rune of Uruz（占位符）
 				Tooltip:
 					'''
 					'It was once form by the strength of the ancient warlord'
@@ -10287,82 +10287,82 @@ Mods: {
 			}
 
 			FairyinaBottle: {
-				DisplayName: Fairy in a bottle
+				DisplayName: 瓶子里的仙灵（出自奇妙仙子）
 				Tooltip:
 					'''
-					'It looks little'
-					召唤Tinker Bell跟随你
+					'看起来好小'
+					召唤奇妙仙子跟随你
 					'''
 			}
 
 			FallenSoul: {
-				DisplayName: Fallen Soul
+				DisplayName: 堕落的灵魂（出自信使）
 				Tooltip:
 					'''
-					'It means customer for something'
+					'某物'
 					召唤Quarble跟随你
 					'''
 			}
 
 			Fan: {
-				DisplayName: Fan
+				DisplayName: 凤蝶纹扇（出自车万）
 				Tooltip:
 					'''
-					'It looks special'
-					召唤Yuyuko跟随你
+					'看起来很特别'
+					召唤西行寺幽幽子跟随你
 					'''
 			}
 
 			FleshMeal: {
-				DisplayName: Flesh Meat
+				DisplayName: 肉（出自原版）
 				Tooltip:
 					'''
-					'It looks rotten.'
-					召唤Crimera跟随你
+					'看起来烂了.'
+					召唤小猩红喀迈拉跟随你
 					'''
 			}
 
 			ForagerPickaxe: {
-				DisplayName: Otherworldly pickaxe
+				DisplayName: 超凡脱俗的鹤嘴锄（出自浮岛物语）
 				Tooltip:
 					'''
-					'It looks someone may need this'
+					'看起来有人可能需要这个'
 					召唤forager跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			ForgottenJoyfulEye: {
-				DisplayName: Joyful eye
+				DisplayName: 恋之瞳（出自车万）
 				Tooltip:
 					'''
-					'It doesn't look sane'
-					召唤Koishi Komeiji跟随你
+					'这看起来不太正常'
+					召唤古明地恋跟随你
 					'''
 			}
 
 			ForgottenOrb: {
-				DisplayName: Orb of ???
+				DisplayName: 天体???（出自车万）
 				Tooltip:
 					'''
-					'It makes you feel ???'
-					召唤Sariel跟随你
+					'它让你觉得???'
+					召唤萨丽艾尔跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			FreedomTorch: {
-				DisplayName: Torch of Hell
+				DisplayName: 地狱火炬（出自车万）
 				Tooltip:
 					'''
-					'Don't look it or else your sanity ...'
-					召唤Clownpiece跟随你
+					'不要看它，否则你的理智…'
+					召唤克劳恩皮丝跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			FriendshipCookie: {
-				DisplayName: Friendship Cookie
+				DisplayName: Friendship Cookie（）
 				Tooltip:
 					'''
 					'It's Delicious!'
@@ -10371,83 +10371,83 @@ Mods: {
 			}
 
 			FrozenCoin2: {
-				DisplayName: Frozen Ancient Coin
+				DisplayName: 冰冻的硬币（出自原版）
 				Tooltip:
 					'''
-					'Even though it's fake still it may trick someone to think it's real'
-					召唤an ice mimic跟随你
+					'即使它是假的，它仍然可以欺骗别人认为它是真的'
+					召唤冰冻宝箱怪跟随你
 					'''
 			}
 
 			FrozenCrystal: {
-				DisplayName: Frozen Crystal
+				DisplayName: baka水晶（出自车万）
 				Tooltip:
 					'''
-					'Even touching it makes you feel hypothermia'
-					召唤Cirno to light your path
+					'即使是触摸它也会让你感到体温过低'
+					召唤琪露诺照耀你
 					'''
 			}
 
 			FrozenMouse: {
-				DisplayName: Frozen Mouse
+				DisplayName: 冰冻老鼠
 				Tooltip:
 					'''
-					'How it's not melting?'
-					召唤an little snake跟随你
+					'怎么会不融化呢?'
+					召唤小蛇跟随你
 					'''
 			}
 
 			Fruit: {
-				DisplayName: Fruit
+				DisplayName: 水果（出自马里奥系列）
 				Tooltip:
 					'''
-					'Looks good.'
-					召唤a Yoshi跟随你
+					'看起来很好.'
+					召唤耀西跟随你
 					'''
 			}
 
 			GalacticShield: {
-				DisplayName: Galactic Shield
+				DisplayName: 银盾（出自星之卡比）
 				Tooltip:
 					'''
-					'It looks otherworldly'
-					召唤Galacta Knight跟随你
+					'它看起来超凡脱俗'
+					召唤银河骑士跟随你
 					'''
 			}
 
 			Garlic: {
-				DisplayName: Garlic
+				DisplayName: 蒜头（出自超级马力欧世界）
 				Tooltip:
 					'''
-					'It looks and smells natural'
-					召唤Wario跟随你
+					'它看起来和闻起来都很自然'
+					召唤瓦里奥跟随你
 					'''
 			}
 
 			GiantShell: {
-				DisplayName: Giant Shell
+				DisplayName: 巨大的壳（出自原版）
 				Tooltip:
 					'''
-					'It looks like it's scared. Maybe I should not kill it.'
-					召唤a giant tortoise跟随你
+					'它看起来很害怕。也许我不应该杀了它.'
+					召唤巨型陆龟跟随你
 					'''
 			}
 
 			GiantSword: {
-				DisplayName: Giant Sword
+				DisplayName: 巨剑（出自传说之下）
 				Tooltip:
 					'''
-					'It looks pretty big'
-					召唤Undyne跟随你
+					'它看起来很大'
+					召唤安黛因跟随你
 					'''
 			}
 
 			GoheiStick: {
-				DisplayName: Gohei Stick
+				DisplayName: 御币（出自车万）
 				Tooltip:
 					'''
-					'It may look simple but its capable to hurt Yukari'
-					召唤Reimu跟随你
+					'这看起来很简单，但却能伤害紫老太婆'
+					召唤博丽灵梦跟随你
 					'''
 			}
 
@@ -17804,9 +17804,9 @@ Mods: {
 				DisplayName: 汲取之书
 				Tooltip:
 					'''
-					'现在你知道树木也能流血了'
-					射出能附着在地砖上的树脂团，使接触到的敌人被汲取力量
-					当敌人被汲取力量时，它们将受到来自火属性减益效果更大的伤害
+					'现在你知道树木也会流血吗'
+					发射能附着在物块上的树脂，接触到的敌人获得削弱
+					敌怪被削弱时，所受到的火属性减益会增加
 					'''
 			}
 
@@ -17814,8 +17814,8 @@ Mods: {
 				DisplayName: 为友人烹饪：箱中美食
 				Tooltip:
 					'''
-					'包含了她厨师遗忘的食谱'
-					在鼠标下方爆发炽热的饼干
+					'包含了厨师遗忘的食谱'
+					在指针下方爆发炽热的饼干屑
 					'''
 			}
 
@@ -17824,7 +17824,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我们曾在一起。我忘记了其他一切'
-					向鼠标位置施放打击
+					在光标位置释放光波
 					'''
 			}
 
@@ -17834,10 +17834,10 @@ Mods: {
 					'''
 					'非常适合模仿维基大神！'
 					'你不认识困在这本书中的那些人'
-					施放无望的Roblox玩家和受折磨的灵魂，带来恐惧与绝望
-					右键点击会召唤4个虚无监视之眼以及一个向鼠标方向移动的传送门
-					持续握持右键时，这些眼睛会攻击附近的敌人，传送门则会召唤无望的Roblox玩家
-					如果玩家在2秒后停止按住右键，传送门的位置将生成一个持续10秒冷却时间的相同效果
+					释放无望的罗布乐思玩家和受折磨的灵魂，带来恐惧与绝望
+					右键召唤4个虚无监视之眼以及一个向光标方向移动的传送门
+					持续按住右键，眼睛会攻击附近的敌人，传送门则会召唤无望的罗布乐思玩家
+					玩家在2秒后停止按住右键，传送门的位置将生成一个持续10秒冷却时间的相同效果
 					'''
 			}
 
@@ -17846,15 +17846,15 @@ Mods: {
 				Tooltip:
 					'''
 					'那不是我的风格'
-					左键点击投掷棒球进行打击，左键长按则为蓄力，使武器获得额外的反射能力。
-					在热键栏中选中此武器时按绑定的信息键可获取更多关于该蝙蝠子类别的信息。
-					[c/ffff00:重击能力]：对任何非首领敌人造成伤害时，有一定几率触发强力击退攻击。
-					若被击中的敌人撞到另一个敌人，则两者之间接触时最高的modifiers.FinalDamage.Flat会增加100%，同时被击中的敌人受到更多的modifiers.FinalDamage.Flat伤害。
-					[c/ffff00:充能能力]：当武器成功充能后，下一次重击将获得反弹敌方投射物的能力。
-					凯西只能反射那些modifiers.FinalDamage.Flat小于自身武器的投射物，并在反射时造成200%基础modifiers.FinalDamage.Flat的伤害。
-					[c/ffff00:狂暴状态]: 武器造成的伤害增加150%，近战速度提高50%，暴击率提升10%。
-					在狂暴状态下，玩家的充能时间大大缩短，且重击触发几率大幅提高。
-					 玩家在狂暴状态下失去投掷棒球的能力，但每次击败敌人将轻微恢复自身生命值并刷新狂暴增益。
+					左键使用棒球棍攻击，攻击敌人补充蓄力条，使武器获得额外的击退能力。
+					Press binded info key while this bat being selected in hotbar to get more information about the bat subclass
+					[c/ffff00:重击能力]: Hitting any non boss enemy have a chance to do a strong knocback strike
+					If the struck mob hits another enemy both enemies highest contact modifiers.FinalDamage.Flat of these 2 increased by 100% while struck enemy take more modifiers.FinalDamage.Flat
+					[c/ffff00:打击能力]: Upon weapon is properly charged the next slam strike will gain ability to reflect projectiles
+					Casey can only reflect projectiles that have less modifiers.FinalDamage.Flat than weapon and upon reflect they do 200% of weapons base modifiers.FinalDamage.Flat
+					[c/ffff00:狂暴状态]: Weapon do 150% increased modifiers.FinalDamage.Flat + 50% increased melee speed and +10 increased crit
+					While in bersek ability player charge time greatly decrease + slame ability chance greatly increase
+					Player lose ability to do strike but each enemy kills will heal player slightly + refill berserk buff
 					'''
 			}
 
@@ -17863,16 +17863,16 @@ Mods: {
 				Tooltip:
 					'''
 					'草儿生长，鸟儿飞翔，阳光普照，兄弟，我可是伤人的高手'
-					左键点击投掷棒球进行打击，右键点击则进行重击；当重击击败足够多敌人时，玩家将进入狂暴状态。
-					右键攻击消耗棒球作为弹药，无棒球时自动投掷，而有棒球时则向鼠标方向进行打击。
-					在热键栏中选中此武器时按绑定的信息键可获取更多关于该蝙蝠子类别的信息。
-					[c/ffff00:重击能力]：对任何敌人造成伤害时，有10%几率触发“BONK”效果。
-					被“BONK”的敌人会眩晕并在鼠标指向的方向溅射血液。
-					[c/ffff00:打击能力]：将软球转化为钛合金球，这些球击中任何敌人时都有可能使其严重流血。
-					第一个被钛合金球命中的敌人将受到“BONK”效果，这些攻击必定暴击并对非首领敌人造成眩晕。
-					[c/ffff00:狂暴状态]: 武器造成的伤害增加150%，近战速度提高50%，暴击率提升10%。
-					在狂暴状态下，玩家的重击有可能使非首领敌人严重流血，并且重击触发几率提高至20%。
-					玩家在狂暴状态下失去投掷棒球的能力，但每次击败敌人将轻微恢复自身生命值并刷新狂暴增益。
+					左键使用棒球棍攻击，右键进行重击；当重击击败足够多敌人时，玩家将进入狂暴状态。
+					右键消耗垒球作为弹药，无垒球时自动投掷，而有垒球时则向指针方向进行打击。
+					Press binded info key while this bat being selected in hotbar to get more information about the bat subclass
+					[c/ffff00:重击能力]: Hitting any enemy have a 10% chance to do BONK
+					Enemies that get BONK will get dizy + spread blood with respect to mouse direction
+					[c/ffff00:打击能力]: Converts soft balls to titanium balls and upon these ball hit any enemy they have a chance to inflict serious bleeding
+					First enemy being hit with these balls will get BONK and this hits are guaranteed to crit + inflict dizzy to non boss enemies
+					[c/ffff00:狂暴状态]: Weapon do 150% increased modifiers.FinalDamage.Flat + 50% increased melee speed and +10 increased crit
+					While in bersek ability player slams have a chance to make non boss enemies get serious bleeding + slam ability activation will become 20%
+					Player lose ability to do strike but each enemy kills will heal player slightly + refill berserk buff
 					'''
 			}
 
@@ -18225,8 +18225,8 @@ Mods: {
 			}
 
 			SouthPole: {
-				DisplayName: South Pole
-				Tooltip: 南极之枪
+				DisplayName: 南极之枪
+				Tooltip: 
 					'''
 					'它只是众多汲取寒冰精华之力的武器之一'
 					当你用右键稳稳握住这把武器，左键则负责为它注入冰冷的力量
