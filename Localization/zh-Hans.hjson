@@ -17800,31 +17800,31 @@ Mods: {
 			}
 
 			Motherboard: {
-				DisplayName: Motherboard
+				DisplayName: 主板
 				Tooltip:
 					'''
-					'Red Reboot'
-					Flashes out a PCB pattern and white nodes explode after contact or its expire time
+					'红色重启'
+					释放出PCB线路图案，接触或到达一定时间后白色节点会发生爆炸。
 					'''
 			}
 
 			Osternophilia: {
-				DisplayName: Osternophilia
+				DisplayName: 复活节情结
 				Tooltip:
 					'''
-					'It will bring everlasting Easter with fluffy force'
-					It casts ghastly bunnies that homes to closest nonhaunted enemies + inflict fear
-					If ghastly bunnies collide with heart they will partially return back to life for short time along with player gain life
-					If ghastly bunnies collide with mana star that bunny will get stronger, better and refreshed along with player gain mana
+					'它将用软绵绵的力量带来永恒的复活节'
+					释放幽灵般的兔子，它们会自动寻向最近的非附身敌人，并造成恐惧效果
+					若幽灵兔与爱心碰撞，它们会在短时间内部分复活，同时玩家也会恢复生命值
+					若幽灵兔与法力星星碰撞，该兔子将变得更强大、更优秀且重焕生机，同时玩家也将获得法力值。
 					'''
 			}
 
 			Petrophobia: {
-				DisplayName: Petrophobia
+				DisplayName: 石魔恐惧症
 				Tooltip:
 					'''
-					'Who is running now?'
-					Equipping [c/ffff00:Secret Formula] will awoken its true form
+					'现在谁在逃跑？'
+					装备[ffff00:秘诀]时，将会唤醒其真实形态。
 					'''
 			}
 
