@@ -17301,201 +17301,201 @@ Mods: {
 			}
 
 			DelusionofButterflies: {
-				DisplayName: Delusion of Butterflies
+				DisplayName: 蝴蝶幻境
 				Tooltip:
 					'''
-					'Let them guide you to the path of Yomotsu-Hirasaka'
-					While holding spiritual butterflies fly around player + using item make them go to mouse direction
-					When touch any item they carry it back to player + touching non-boss enemies make them get haunted for a short time
-					Haunted enemies get harder time to focus their mind and time become 20% slower for them
+					'让它们引领你走向黄泉比良坂之路'
+					持有时，灵性蝴蝶会围绕玩家飞行，并在玩家使用物品时朝鼠标方向飞去
+					当蝴蝶接触到任何物品时，会将物品携带回玩家身边，若蝴蝶触碰到非Boss敌人，则敌人会被短暂附身
+					被附身的敌人会难以集中精神，其时间感知变慢20%，行动相应减缓
 					'''
 			}
 
 			HolographicStaff: {
-				DisplayName: Dicyclic Staff
+				DisplayName: 双环权杖
 				Tooltip:
 					'''
-					'Sorry, is it Wye or delta again?'
-					Upon used 召唤a holographic transformer to balance the loads
-					It periodically generates an unbalanced chunk and upon hitting chunk every enemy in its area take true damage
-					While there is no chunk active it instead unload its charge to close enemies
-					There can max 1 holographic transformer active
+					'抱歉，到底是Y型还是Δ型来着？'
+					使用后召唤一个全息变换器来平衡负载
+					它会周期性地生成一个不平衡能量块，当击中该能量块时，区域内所有敌人都将受到真实伤害
+					若没有能量块激活，则它会向附近的敌人释放储存的电荷
+					最多只能同时存在1个全息变换器。
 					'''
 			}
 
 			rustycup: {
-				DisplayName: Rusty Cup
+				DisplayName: 生锈之杯
 				Tooltip:
 					'''
-					'Maybe there is still mercy in them'
-					Upon contact enemies or npcs may donate money
-					There can be max 1 of it could be active
+					'或许他们心中还存有怜悯之心'
+					接触到敌人或NPC时，可能会使它们捐出金钱
+					同一时间最多只能有一个生锈之杯生效
 					'''
 			}
 
 			TomsRemoteControl: {
-				DisplayName: Tom's Remote Control
+				DisplayName: 汤姆的遥控器
 				Tooltip:
 					'''
-					'A perfect example to what humanity can do with drunk science'
-					Using it will spawn a mine turtle
-					After it get out of its shell any player or enemy touch it make the turtle detonate
-					It will rocket jump both player and any nonboss enemy that step on it
-					If player cause the detonation player gain a slight invincibity frames
-					There can be max players total sentry amount active + it doesn't take sentry slot
+					'醉科学造就人类的伟大发明典范'
+					使用它将生成一只矿龟
+					当矿龟离开壳体后，任何玩家或敌人接触都会使其爆炸
+					爆炸后，玩家和非Boss敌人会被火箭弹跳
+					如果是玩家触发了爆炸，玩家会在短时间内获得短暂无敌状态
+					游戏中可以同时存在的玩家哨兵总量有限制，但此物品不占用哨兵槽位
 					'''
 			}
 
 			Acornade: {
-				DisplayName: Acornade
+				DisplayName: 橡果爆弹
 				Tooltip:
 					'''
-					'I detonate because I care'
-					Explosions will plant trees in the optimal positions in 9x9 area
-					Does increased damage in forest biome
+					'我引爆，因为我关心'
+					爆炸会在9x9范围内的最佳位置种植树木
+					在森林生物群系中造成额外伤害。
 					'''
 			}
 
 			BoulderBomb: {
-				DisplayName: Boulder Bomb
+				DisplayName: 滚石炸弹
 				Tooltip:
 					'''
-					'They see me rollin...'
-					'A unique bomb that will keep rolling until it hits a wall.'
+					'他们在看我滚动...'
+					'这是一种独特的炸弹，它会一直滚动直到碰到墙壁为止。'
 					'''
 			}
 
 			ChainBomb: {
-				DisplayName: Static Chain relocator
+				DisplayName: 静电连锁定位器
 				Tooltip:
 					'''
-					'Sky is not the limit anymore'
-					Explosions cause a 100 tile tower as soon as it hits the ground + a short living turbulance
+					'天空不再是极限了'
+					爆炸接触地面后立即形成100格高的塔，并产生短暂的乱流效果。
 					'''
 			}
 
 			EnergizedDynamite: {
-				DisplayName: Concentrated Dynamite
-				Tooltip: "'How I Learned to Stop Worrying and Love the Bomb'"
+				DisplayName: 浓缩炸药
+				Tooltip: "'如何学会不再忧虑并爱上炸弹（出自奇爱博士）'"
 			}
 
 			GhostBomb: {
-				DisplayName: Spo0ky Bomb
+				DisplayName: 幽灵炸弹
 				Tooltip:
 					'''
 					'Ka-BOOOO'
-					Holding down the attack button will allow the bomb to phase through blocks
-					When player stops pressing attack button it will explode immediately.
+					按住攻击键可让炸弹穿透方块
+					当玩家松开攻击键时，炸弹会立即引爆。
 					'''
 			}
 
 			MamaMega: {
-				DisplayName: Mama Mega
+				DisplayName: 妈妈超级炸弹
 				Tooltip:
 					'''
 					'BOOOOOOM!'
-					'(USE AT YOUR OWN RISK)'
-					'Explosions destroy 301x301 blocks around itself and gives the player the Explosive Aura buff'
-					'Every 20 seconds the buff makes the player themselves explode and destroy a 301x301 area. Lasts 10 minutes.'
-					'Both bombs explosion and auras explosion deal six hundred and sixty six damage.'
+					'(使用需自行承担风险)'
+					'爆炸将摧毁自身周围301x301范围内的所有方块，并给予玩家“爆炸光环”增益'
+					'每隔20秒，此增益会让玩家自身爆炸并摧毁301x301范围内的区域，持续时间10分钟.'
+					'炸弹爆炸和光环引发的爆炸都将造成666点伤害。'
 					'''
 			}
 
 			NightboundBomb: {
-				DisplayName: XXXL Vacuum Bomb
+				DisplayName: 超大号真空炸弹
 				Tooltip:
 					'''
-					'A strage type of device often being used by Martians to store the invaded worlds wealth'
-					This unique bomb will constantly suck nearby enemies until it explodes. Bosses are immune to this effect.
-					It also suck every item in the world to itself
+					'一种火星人常用来储存所侵略星球财富的独特装置'
+					这种独特的炸弹将持续吸附附近的敌人直至爆炸，但对Boss无效。
+					它还会吸附游戏世界中所有的物品到自己附近。
 					'''
 			}
 
 			PlantsTerror: {
-				DisplayName: Plant's Terror
+				DisplayName: 植物之恐惧
 				Tooltip:
 					'''
-					'SIR AFK STOP ADDING BOMBS'
-					'A Biothermal Explosive that seems to affect the wildlife around it.'
-					Explosions will cut down trees and collect plants in 51x51 area with more crop yield than a pickaxe
-					Explosions will also plant saplings and seeds to their position.
-					Currently this only supports vanilla and AFKPets content.
+					'AFK男士，请停止添加炸弹！'
+					'这是一种生物热能爆炸物，似乎会对周围的野生动植物产生影响。'
+					爆炸将砍倒树木，并在51x51范围内收集比镐更高效的作物产物
+					同时，爆炸还会将种子和树苗播种到它们原来的位置上。
+					目前仅支持基础游戏内容和AFKPets模组中的植物种类。
 					'''
 			}
 
 			SusBomb: {
-				DisplayName: Excavator Bomb
+				DisplayName: 挖掘者炸弹
 				Tooltip:
 					'''
-					Throwing will auto-mine any pre-hardmode ore in 51x51 radius.
-					Explosion will reveal all tiles nearby in the minimap.
+					投掷后，可在半径51x51范围内自动挖掘所有前困难模式下的矿石。
+					爆炸时会揭示附近区域在小地图上的地形。
 					'''
 			}
 
 			TerraBomb: {
-				DisplayName: Apple of Sodom
+				DisplayName: 索多玛之果
 				Tooltip:
 					'''
-					'Smells like burnt ash'
-					Holding down the both of attack buttons will allow the bomb to phase through blocks
-					<left>has the effects of the map reveal, herb placement and harvesting and enemy+item suction all in one!'
-					<right>will break all of the blocks that require lower than 99% Pickaxe power or lower in a 101x101 area + map reveal
+					'散发着焦灰的味道'
+					同时按住攻击键将使炸弹穿透方块
+					<左键>效果：同时实现地图揭示、草药种植与收割以及敌怪和物品吸附功能'
+					<右键>效果：一次性破坏所需镐力低于99%的所有方块，在101x101区域内并同时揭示地图。
 					'''
 			}
 
 			VacuumBomb: {
-				DisplayName: Vacuum Bomb
+				DisplayName: 真空炸弹
 				Tooltip:
 					'''
-					'Sucction'
-					Throwing causes items to be pulled, explosions collect items.
+					'超强吸力'
+					投掷后产生吸附效果，吸引周围物品；爆炸时可收集散落的物品。
 					'''
 			}
 
 			BreathofHades: {
-				DisplayName: Breath of Hades
+				DisplayName: 哈迪斯之息
 				Tooltip:
 					'''
-					What shall it take for them to stop this foolishness?
-					'Using this item will shoot multiple explosive fireballs that will lose their velocity over time'
+					他们何时才能停止这种愚蠢的行为？
+					'使用此物品将会发射多枚火球，这些火球会在飞行过程中逐渐减慢速度并引发爆炸。'
 					'''
 			}
 
 			BurstLaserII: {
-				DisplayName: Plasma Burster
+				DisplayName: 等离子爆裂者
 				Tooltip:
 					'''
-					'The pick of Dungeon Security for all of their combat needs'
-					Shoots concentrated Hydrogene bursts
+					'这是地下城安全团队应对所有战斗需求的首选'
+					发射高度浓缩的氢气爆破光束
 					'''
 			}
 
 			CryofPain: {
-				DisplayName: Cry of Fear
+				DisplayName: 恐惧尖啸
 				Tooltip:
 					'''
-					'AAAAAAAAAAAA'
-					Using it casts a agonizing cry that may cause enemies to scream
-					Hits inflict bleeding and fear
+					'啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
+					使用后发出令人痛苦不堪的尖叫，可能使敌人同样尖叫不已
+					造成的攻击带有流血和恐惧效果
 					'''
 			}
 
 			DemoniteStaff: {
-				DisplayName: Demonite Staff
+				DisplayName: 魔影石法杖
 				Tooltip:
 					'''
-					Casts demonite particles that will float in air for a short time
-					While player is under vanilla flame type debuff particles get following abilities:
-					-On Fire!: Hits form short living lingering flames
-					-Cursed Inferno: Flames inflict cursed inferno + Weaken against other flames
-					-Frostburn: Flames inflict frostburn + Causes blizzard around enemy
-					-Inferno: Flames inflict inferno + cause defense shattering infernal explosion
+					释放的魔影粒子将在空中短暂悬浮
+					当玩家处于普通火焰类型的减益状态下时，这些粒子将获得以下能力：
+					- 燃烧中！：击打会在目标周围形成短时间持续燃烧的余烬
+					- 恶咒地狱火：火焰附加恶咒地狱火效果，并对其他火焰伤害降低抵抗力
+					- 冰冻灼伤：火焰附加冰冻灼伤效果，并在敌人体周围引发小型暴风雪
+					- 炼狱烈焰：火焰附加炼狱烈焰效果，并触发一次能瓦解防御的地狱般爆炸
 					'''
 			}
 
 			DivineRodofRemorse: {
-				DisplayName: Divine Rod of Remorse
-				Tooltip: It was once used by a Yama to do her judgement
+				DisplayName: 悔恨神杖
+				Tooltip: 这曾是阎罗用来执行审判的神圣权杖
 			}
 
 			FairyWand: {
@@ -17508,44 +17508,44 @@ Mods: {
 			}
 
 			FusRoDah: {
-				DisplayName: Rune of Unrelenting Force
+				DisplayName: 势不可挡的震波纹章
 				Tooltip:
 					'''
-					Your Voice is raw power, pushing aside anything
-					- or anyone - who stands in your path.
+					你的声音化为纯粹力量，推翻一切挡道之物
+					- 无论是何障碍，无论何人阻拦，皆无法抵挡。
 
 					'''
 			}
 
 			HallowedStarWand: {
-				DisplayName: Rose of the Martyr
+				DisplayName: 殉道者之玫瑰
 				Tooltip:
 					'''
-					'May their sins be forgiven'
-					Upon cast summons a divine lotus
-					The rose gradually grow and upon taking damage cause its death
-					According to its grown state gives player life + mana
-					After a minute it gets fully grown and give max 120 life and 240 mana
-					Each usage takes 60 life and there can max 1 rose active
+					'愿他们的罪过得以宽恕'
+					释放时召唤一朵神圣莲花显现
+					玫瑰会逐渐生长，一旦受到伤害便会凋零消逝
+					根据其成长阶段，可为玩家恢复生命与法力值
+					一分钟内完全绽放后，可最多提供120点生命及240点法力
+					每次使用需消耗60点生命，并且同时只能有一朵玫瑰生效
 					'''
 			}
 
 			HauntedTome: {
-				DisplayName: Haunted Tome
+				DisplayName: 幽灵魔典
 				Tooltip:
 					'''
-					'The way they plead for help... I find it so... satisfying'
-					Summons a lil Boo to wander around
+					'他们求援的姿态…如此令人…满足'
+					召唤一只小鬼魂“Boo”在周围游荡徘徊
 					'''
 			}
 
 			HeatWave: {
-				DisplayName: Heat Wave
+				DisplayName: 热浪冲击
 				Tooltip:
 					'''
-					'BURN! BURN FASTER!'
-					Casts an infernal shield that pushes back enemies and projectiles
-					Proectiles that are 50% weaker than shield get reflected that can damage both player and enemies
+					'燃烧！更快地燃烧起来!'
+					施展一道炼狱护盾，将敌人和投射物击退
+					护盾强度较弱50%以上的投射物会被反弹，有可能对玩家自身和敌人都造成伤害
 					'''
 			}
 
