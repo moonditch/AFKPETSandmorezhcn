@@ -19246,126 +19246,126 @@ Mods: {
 			}
 
 			AncientBow: {
-				DisplayName: Greatbow of Meliae
+				DisplayName: 古代巨弓 - 梅莉埃圣林之弓
 				Tooltip:
 					'''
-					A relic bow expertly forged in the heart of the forest
-					After they failed protecting their habitat against the first emperor this was taken as a loot along with their head
-					But who knows carrying cultists in your army also bring another predators that are seeking fun upon you
-					It will shoot spore producing arrows that will rain down arrows on your enemies
-					The arrows that will rain will be determined by the first arrow it finds inside of your inventory
+					这是一把在森林深处精工锻造的古老弓箭
+					在第一任皇帝入侵时，未能保护家园的他们战败，此弓作为战利品连同他们的首级一同被夺走。
+					谁又能想到，军队中携带的邪教徒竟引来另一批对你虎视眈眈、渴望狩猎的掠食者？
+					弓箭发射出孢子生成的箭矢，将如雨点般倾泻在敌人头顶，
+					而后续降下的箭雨种类，则取决于你背包内找到的第一支箭矢类型。
 					'''
 			}
 
 			ArborealStalker: {
-				DisplayName: Arboreal Stalker
+				DisplayName: 林间潜行者
 				Tooltip:
 					'''
-					'An elegant bow once being used by dryads of the East'
-					Covers arrows with poisonous spores that inflicts poison onto enimies that are not targeting the player or being hit from the back
-					Charge to make it shoot arrow faster and deadlier
+					'一把曾被东方树精所使用的优雅之弓'
+					将箭矢覆盖上毒孢子，对未直接瞄准玩家或从背后受到攻击的敌人造成中毒效果
+					拉满弓弦可让箭矢射出更快、更具致命性
 					'''
 			}
 
 			FireworkGun1: {
-				DisplayName: Cupid's Bow
+				DisplayName: 丘比特之弓
 				Tooltip:
 					'''
-					It smells like love is in air
-					It will convert you arrows to heart arrows which will home to any enemy that are lovestruck
-					Crtical hits will form a giant heart
+					空气中弥漫着爱的气息
+					将你的箭矢转化为爱心箭矢，它们会追踪那些陷入爱情迷恋的敌人
+					造成暴击时会在目标处形成一个巨大的心形爆炸
 					'''
 			}
 
 			FireworkGun4: {
-				DisplayName: Terminal Burner
+				DisplayName: 终结燃烧者
 				Tooltip:
 					'''
-					'HOT HOT HOT...'
-					Heats up arrows which greatly increase their speed + give them heat blast
+					'热！热！热...'
+					强烈加热箭矢，大幅增加其速度并赋予炽热冲击效果
 					'''
 			}
 
 			FlameCaller: {
-				DisplayName: Flame Caller
+				DisplayName: 火焰召唤者
 				Tooltip:
 					'''
-					'You're standing too close to a flame that's burning'
-					Greatly increase velocity of arrows as well as burn them with cursed inferno
-					These arrows will drop lingering cursed inferno flames as well as each hit may cause arrow to explode
+					'你正过于靠近燃烧的烈焰'
+					大幅度提升箭矢的速度，并用诅咒地狱火点燃它们
+					这些箭矢在飞行途中会散落带有诅咒地狱火的持续火焰，并且每次命中都有可能触发箭矢爆炸
 					'''
 			}
 
 			Gakgung: {
-				DisplayName: Gak-gung
+				DisplayName: 破空鸣镝
 				Tooltip:
 					'''
-					'Success is in your blood'
-					Full charge hits cause additional arrows to rain from sky
+					'成功流淌在你的血脉之中'
+					满蓄力击发时，将触发天降箭雨的额外伤害效果
 					'''
 			}
 
 			IgneousPiercer: {
-				DisplayName: Igneous Piercer
+				DisplayName: 熔岩穿刺者
 				Tooltip:
 					'''
-					'Sous vide? Heh It's a little too late now'
-					Converts wood arrow into stream of magma along with shoot 2 at once
+					'真空低温烹调？嘿嘿，现在可有点晚了'
+					将木箭转化为熔岩流，并且可以同时射出两支箭矢
 					'''
 			}
 
 			JouleJolter: {
-				DisplayName: Joule Jolter
+				DisplayName: 焦耳冲击器
 				Tooltip:
 					'''
-					'Don't worry, you don't live long enough to endure the pain'
-					Shoots out heated metal rods that puncture enemies
-					While attack button is being held player will charge the repeater and upon release it will the shoot rod according to charge level
-					Upon fully charged it will indicate with sound and dust effect
-					Upon the metal rod hits any enemy in full charge it will cause electrical conduction to close enemies that have the metal rods
+					'别担心，你还没活够感受这痛苦呢'
+					发射炽热金属棒穿透敌人
+					当持续按住攻击键时，玩家会为连发装置充能，松开按键时会根据充能等级发射金属棒
+					充能满载时会有声音和尘埃特效提示
+					若满能量的金属棒击中任意敌人，将会引发电流传导，对附近拥有金属棒的敌人造成连锁伤害
 					'''
 			}
 
 			LongbowofFallenPrincess: {
-				DisplayName: Longbow of the Fallen Princess
+				DisplayName: 陨落公主的长弓
 				Tooltip:
 					'''
-					A terrifying weapon once being used by a thug of Hindostan
-					It will convert wooden arrows to steel arrows which seriously injure your enemies
-					While attack button is being held player will charge the bow and upon release it will shoot arrow according to charge level
-					When the weapon is fully charged it will indicate with sound along with fully charged arrows will be covered in oil
-					It have 5% chance to shoot a oiled steel arrow which will cover your enemies with oil along with bless the arrow with memories of fallen comrades
-					First hit generates sweet dreams which may inflict dizzy to close nonboss enemies
+					这是一把曾被印度斯坦暴徒所使用的恐怖武器，
+					它能将木箭转化为钢箭，对敌人造成严重伤害。
+					当持续按住攻击键时，玩家将为长弓蓄力，松开按键后会根据蓄力等级发射箭矢
+					当武器完全蓄满能量时，会有声音提示，并且充满能量的箭矢会被油覆盖
+					此武器有5%的概率射出涂油钢箭，令敌人身披油渍，并使箭矢附着上已故战友的记忆
+					第一次命中可能会产生甜蜜梦境效果，导致附近非Boss敌人陷入眩晕状态。
 					'''
 			}
 
 			Moneyshot: {
-				DisplayName: Money shot
+				DisplayName: 金银箭矢
 				Tooltip:
 					'''
-					It converts your arrows to coin stacks
-					Every tenth coin stack that have shot deal more damage
+					该武器可将你的箭矢转化为金币堆叠，
+					每射出第十个金币堆叠时，会造成额外伤害。
 					'''
 			}
 
 			RainBow: {
-				DisplayName: Rain-Bow
+				DisplayName: 彩虹之弓 - 雨虹
 				Tooltip:
 					'''
-					'The greater the storm, the brighter it's rainbow'
-					<left>will shoot vanilla arrows with respect to rainbow colour order
-					<right>Shoot an arrow of light which shatter into spectrum after hitting any enemy
-					If not [c/ffff00:Secret Formula] is being equipped it will lost its true form
+					'风暴越猛烈，彩虹就越灿烂'
+					<左键>将按照彩虹颜色顺序发射普通箭矢
+					<右键>发射一道光箭，击中敌人后会碎裂成光谱
+					若未装备[c/ffff00:神秘配方]，此弓将无法展现其真实形态
 					'''
 			}
 
 			Rebeeter: {
-				DisplayName: Rebeeter
+				DisplayName: 甜菜追踪者
 				Tooltip:
 					'''
-					'There is no storm I can't weather...'
-					It will convert wooden arrows to beet arrows
-					Beet arrows will home to the enemy which have lowest hp
+					'没有什么风暴是我无法承受的...'
+					它能够将木箭转化为甜菜箭矢，
+					甜菜箭矢会自动追踪并锁定血量最低的敌人。 
 					'''
 			}
 
@@ -19373,221 +19373,221 @@ Mods: {
 				DisplayName: Sharanga
 				Tooltip:
 					'''
-					'A celestial bow also being known as Kodanda'
-					Converts wooden arrows to hellfire arrows + oscillates number of arrows being shoot
+					'天界神弓·沙兰加'
+					这是一把也被称为“柯丹达”的天界之弓 能够将木箭转化为地狱火箭，并使射出的箭矢数量呈波动变化 
 					'''
 			}
 
 			SkullGun: {
-				DisplayName: Skull Crossbow
+				DisplayName: 骷髅十字弓
 				Tooltip:
 					'''
-					People in hell want slurpees
-					Converts wooden arrows into bone arrows + any shot arrow do 10% more damage against zombies
-					Adrenaline increases both use speed + damage of the weapon which get increased by number of enemies close to player
+					地狱中的人渴望冰饮
+					此武器能将木箭转化为骨箭，射出的任何箭矢对僵尸造成额外10%伤害
+					在肾上腺素激增时，使用速度和攻击力均会提升，且该提升效果随玩家附近敌人数目增多而增强
 					'''
 			}
 
 			TheCauterizer: {
-				DisplayName: The Cauterizer
-				Tooltip: Shoots arrows as well as breathes fire + converts normal arrows into hellfire ones
+				DisplayName: 炽焰烙印者
+				Tooltip: 不仅能发射箭矢，还能喷吐火焰，并可将普通箭矢转变为地狱火之箭
 			}
 
 			VulcanRepeater: {
-				DisplayName: Vulcan Repeater
+				DisplayName: 维京连珠炮
 				Tooltip:
 					'''
-					Converts wooden arrows into volatile vulcan arrows
-					Holding charges fills the repeater with explosive arrows and releasing will release them all
+					此武器能将木箭转换为不稳定的维京火箭矢
+					按住蓄力则会填充连珠炮内的爆炸箭矢，松开按键后将一次性全部释放
 					'''
 			}
 
 			WintersWrath: {
-				DisplayName: Winters Wrath
+				DisplayName: 冬之怒
 				Tooltip:
 					'''
-					'It's only natural for the weak to perish'
-					Converts arrows to icicle arrows and forms ice shine towards cursore which change arrow trajectory
-					Upon any hit arrows break the path and instead home towards the hit enemy
-					When player stop shooting arrows fress from light and follow their current path which also lose their homing ability
+					'弱者消亡是自然法则'
+					将箭矢转化为冰锥箭，同时在光标周围形成冰霜轨迹改变箭矢飞行方向
+					一旦击中目标，箭矢会脱离原有轨迹并自动追踪命中敌人
+					当玩家停止射击时，箭矢将遵循当前路径继续飞行，并失去追踪能力
 					'''
 			}
 
 			GentlemansHunt: {
-				DisplayName: Gentleman's Hunt
+				DisplayName: 绅士狩猎弩
 				Tooltip:
 					'''
-					Shoots a powerful, high velocity dart
-					Uses darts as ammo
+					发射威力强大、速度极高的飞镖，
+					使用飞镖作为弹药
 					'''
 			}
 
 			HallowedDartlingGun: {
-				DisplayName: Hallowed Dartling Gun
-				Tooltip: Fires darts fast but in an inaccurate spread
+				DisplayName: 神圣飞镖连射枪
+				Tooltip: 快速连续发射大量飞镖，但精度不高
 			}
 
 			LigamentEjector: {
-				DisplayName: Ligament Ejector
+				DisplayName: 韧带弹射器 
 				Tooltip:
 					'''
-					Shots confuse and bleed enemies.
-					Enemies that cannot be confused take 5% more damage.
-					Uses darts as ammo
+					发射的子弹能使敌人陷入混乱和流血状态。
+					对无法造成混乱的敌人可额外造成5%伤害。
+					使用飞镖作为弹药
 					'''
 			}
 
 			ObsidianFirepipe: {
-				DisplayName: Obsidian Firepipe
+				DisplayName: 黑曜石火焰管
 				Tooltip:
 					'''
-					It shoots lingering flames
-					It will shoot both lingering flame that will do 75% of weapons damage and dart at the same time
-					The darts it shoots will burn your enemies
-					Uses darts as ammo
+					发射持续燃烧的火焰
+					同时射出造成武器伤害75%的持久火焰和飞镖
+					所发射的飞镖将灼烧敌人
+					使用飞镖作为弹药
 					'''
 			}
 
 			OssifiedCannon: {
-				DisplayName: Ossified Cannon
+				DisplayName: 骨化大炮
 				Tooltip:
 					'''
-					It has a 10% chance to shoot X shaped bones
-					Uses darts as ammo
+					有10%几率射出X形状的骨头
+					使用飞镖作为弹药
 					'''
 			}
 
 			PortBoarder: {
-				DisplayName: Port Boarder
+				DisplayName: 港口边界者
 				Tooltip:
 					'''
-					It shoots dart at a fast rate
-					It have 20% chance to shot a harpoon with darts which will stick to enemy.
-					Uses darts as ammo
+					以高速率发射飞镖
+					有20%几率伴随飞镖射出能粘附在敌人身上的鱼叉
+					使用飞镖作为弹药
 					'''
 			}
 
 			SunsetsShadow: {
-				DisplayName: Sunsets Shadow
+				DisplayName: 日落之影
 				Tooltip:
 					'''
-					Fires a shotgun blast of darts
-					If there are any enemy close to you it will attack them with shadow tentacles
-					Uses darts as ammo
+					发射散弹形式的飞镖
+					当附近存在敌人时，它会用暗影触手攻击它们
+					使用飞镖作为弹药
 					'''
 			}
 
 			TheSleeper: {
-				DisplayName: The Sleeper
+				DisplayName: 沉睡者
 				Tooltip:
 					'''
-					All enemy hits will ichor the target
-					Crits with this weapon will cause a ichor infused inferno which do 50% damage of weapon
-					Uses darts as ammo
+					每次击中敌人都会使目标产生脓液效果
+					使用此武器暴击时，将触发脓液浸染的地狱烈焰，造成武器伤害50%的效果
+					使用飞镖作为弹药
 					'''
 			}
 
 			TheSplinter: {
-				DisplayName: The Splinter
+				DisplayName: 分裂者
 				Tooltip:
 					'''
-					Shoots out a spread of leave after every 5th shot
-					Uses darts as ammo
+					每发射五次后，会散射出一片叶子
+					使用飞镖作为弹药
 					'''
 			}
 
 			VileEruptor: {
-				DisplayName: Vile Eruptor
+				DisplayName: 邪恶喷发器
 				Tooltip:
 					'''
-					Every fifth shot will be tiny eater that will apply cursed flames.
-					Uses darts as ammo
+					每第五次射击会产生一枚微小食腐者，施加诅咒火焰效果
+					使用飞镖作为弹药
 					'''
 			}
 
 			VortexianDefenderSystem: {
-				DisplayName: Vortexian Defender System
+				DisplayName: 涡旋防御系统
 				Tooltip:
 					'''
-					It will shoot a highly explosive missile and two dart
-					Uses darts as ammo
+					发射一枚高爆导弹及两枚飞镖
+					使用飞镖作为弹药
 					'''
 			}
 
 			FlashFreeze: {
-				DisplayName: Flash Freeze
+				DisplayName: 冰封瞬息
 				Tooltip:
 					'''
-					'Hibernation! Cold sleep! Did you know?'
-					Shoots chill mists that may freeze(nonboss) or frostburn enemies
-					The mist may condensate on enemy and return into damaging rain
-					40% chance to not consume ammo and uses gel as ammo'
+					'冬眠！冷睡！你知道吗？'
+					发射冷冻雾气，可能冻结（非Boss）敌人或造成霜烧伤害
+					雾气在敌人身上凝结后会化为具有伤害效果的雨滴
+					40%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
 
 			ForestFire: {
-				DisplayName: Forest Fire
+				DisplayName: 森林之火
 				Tooltip:
 					'''
-					Shoot both flames and small lingering flames
-					'10% chance to not consume ammo and uses gel as ammo'
+					同时射出火焰和小型持久火焰
+					"10%几率不消耗弹药，使用凝胶作为弹药"
 					'''
 			}
 
 			HoneyGlazer: {
-				DisplayName: Honey Crisper
+				DisplayName: 蜂蜜脆皮枪
 				Tooltip:
 					'''
-					Shoots flames that slows enemies and inflicts On fire
-					Enemies killed with this gun explode into bees
-					Gain honey buff when hitting a enemy for 2 seconds
-					'30% chance to not consume ammo and uses gel as ammo'
+					发射火焰，使敌人减速并施加燃烧状态
+					用此枪击杀的敌人会爆炸成蜜蜂
+					击中敌人时获得2秒蜂蜜增益效果
+					'"30%几率不消耗弹药，使用凝胶作为弹药"
 					'''
 			}
 
 			Krakatoa: {
-				DisplayName: Krakatoa
+				DisplayName: 喀拉喀托火山
 				Tooltip:
 					'''
-					Shoots a cone of fire with smaller flames that inflicts on fire
-					'30% chance to not consume ammo and uses gel as ammo'
+					发射一个火焰锥形攻击，其中包含小火焰并施加燃烧状态
+					"30%几率不消耗弹药，使用凝胶作为弹药"
 					'''
 			}
 
 			LittleInferno: {
-				DisplayName: Little Inferno
+				DisplayName: 迷你炼狱
 				Tooltip:
 					'''
-					Shoots flames that inflict On fire
-					Enemies killed by this weapon spawn a small inferno that lasts for a short time
-					'30% chance to not consume ammo and uses gel as ammo'
+					发射火焰，造成燃烧效果
+					被此武器击杀的敌人会生成一个短暂存在的小型炼狱火海
+					'30%几率不消耗弹药，使用凝胶作为弹药'
 					'''
 			}
 
 			Matchstick: {
-				DisplayName: Matchstick
-				Tooltip: It's fires are lit with the dreams of the little match girl
+				DisplayName: 火柴
+				Tooltip: 它的火焰点燃了卖火柴小女孩的梦想
 			}
 
 			SoulStarvedFurnace: {
-				DisplayName: Soul Starved Furnace
+				DisplayName: 灵魂饥渴熔炉
 				Tooltip:
 					'''
-					'It burns with their last wishes'
-					It has a chance to shoot homing soul
-					Upon enemies being consumed by this weapons flames it will call their soul back
-					This soul will damage any enemy it touches
-					40% chance to not consume ammo and uses gel as ammo
+					'它燃烧着他们的临终愿望'
+					有一定几率射出追踪灵魂
+					当敌人被该武器的火焰吞噬时，会召唤其灵魂回归
+					这个灵魂会伤害到接触到的任何敌人
+					40%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
 
 			Spaztinazer: {
-				DisplayName: Spaztinazer
+				DisplayName: 斯帕兹泰纳泽尔
 				Tooltip:
 					'''
-					It was built with the power of the Twins
-					Uses gel as ammo
-					'40% chance to not consume ammo'
+					由双子之力打造而成
+					使用凝胶作为弹药
+					"40%几率不消耗弹药"
 					'''
 			}
 
