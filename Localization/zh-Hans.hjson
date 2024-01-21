@@ -4879,12 +4879,12 @@ Mods: {
 			}
 
 			DrFetusMonocle: {
-				DisplayName: Doctor's Monocle
+				DisplayName: 医生单片眼镜
 				Tooltip:
 					'''
-					'First you draw a jerk, then tell him to [BEEP]...'
-					Hatred empowers crit by 5 and life regen by 1
-					Upon equip doctors arsenal gain additional abilities
+					'首先描绘一个讨厌鬼，然后让他去[哔——]……'
+					憎恨之力可提升暴击率5%并增加生命恢复1点
+					装备后，医生的武器库将获得额外技能
 					'''
 			}
 
@@ -17550,252 +17550,252 @@ Mods: {
 			}
 
 			HoneyCrystalStaff: {
-				DisplayName: Dingleshlock, Flower of Memory
+				DisplayName: 丁格什洛克——回忆之花
 				Tooltip:
 					'''
-					'A elegant and delicate flower being raised in the hands of Antheia'
-					It will shoot blue petals in slightly inaccurate aim and upon hitting enemy they will call twilight fireflies
-					'Fireflies will do 75% of the base damage'
+					'这是安忒亚手中精心培育的一朵既优雅又柔美的花儿'
+					当它挥洒出蓝色花瓣时，轨迹虽有些许摇曳，但一旦触及敌人
+					'立刻能唤起暮色中的萤火虫，这些萤火虫会对敌方造成相当于基础伤害75%的效果。'
 					'''
 			}
 
 			IchorBolt: {
-				DisplayName: Aegir's Wrath
+				DisplayName: 埃吉尔的怒涛冲击
 				Tooltip:
 					'''
-					'Ahahahahaha! Be engulfed by my maelstrom!'
-					Upon used casts a whirlpool that shoots aerosharks to mouse direction
-					Upon bite they inflict serious bleeding
+					'哈哈！来承受我这股狂澜巨浪的洗礼吧！'
+					当你发动技能时，会在你鼠标方向形成一股漩涡，从中喷涌而出的气旋鲨鱼将迅猛扑向目标
+					一旦它们成功撕咬敌人，便会使其陷入严重的持续流血状态。
 					'''
 			}
 
 			TheHeartstrings: {
-				DisplayName: The Heartstrings
+				DisplayName: 心弦奏鸣曲
 				Tooltip:
 					'''
-					'You can't touch music but music can touch you'
-					With respect to mouses distance player shoot different note types
-					After bouncing from tile notes properties change + could penetrate up to 3 enemies
+					'无法触及音乐，但音乐却能触动人的心灵深处。'
+					随着你与鼠标所指位置的距离变化，你可以演奏出不同种类的音符
+					这些音符在碰撞到地砖后，其特性将会转变，并且具有穿透最多3个敌人的能力。
 					'''
 			}
 
 			MarysGold: {
-				DisplayName: Mary's Gold
+				DisplayName: 玛丽的黄金蜂蜜
 				Tooltip:
 					'''
-					'The best things in life are sweet, just like honey'
-					Shoots a mixture of nectar and pollen which cause critical hits produce honey and attract bees
+					'生活中最美好的事物如同蜂蜜般甜蜜无比。'
+					发射蕴含花蜜与花粉的独特弹药，命中敌人时不仅可能造成致命一击，还会产出蜂蜜，并引来蜜蜂群
 					Converts water into honey
 					'''
 			}
 
 			MiniHakkero: {
-				DisplayName: Mini-Hakkero
+				DisplayName: 迷你魔法锅炉
 				Tooltip:
 					'''
-					While shooting concentrate your mind, gently muttering the spell to the Mini-Hakkero.
-					Aiming at someone you don't like, a magicannon of love will be unleashed!
+					射击时，将你的精神集中，轻轻地向迷你魔法锅炉念咒语。
+					当瞄准你不喜欢的人时，将会释放出爱的魔炮！
 					'''
 			}
 
 			CapeofHalfBloodPrince: {
-				DisplayName: Cape of Half-Blood Prince
+				DisplayName: 半血王子之披风
 				Tooltip:
 					'''
-					'The Dark Arts are many, varied, ever-changing, and eternal'
-					Upon held forms dark orbs that rotate around player + pressing attack button shoot them towards mouse direction
-					If [c/ffff00:Doctor's Monocle] is equipped with <right>player can levitate in mouse direction that can pass through enemies
-					In <right>it disable players auto mana usage and uses players own life if there is not enough mana
+					'黑暗魔法种类繁多、变化无穷且永恒不朽'
+					持有时会在玩家周围形成旋转的暗黑球体；按下攻击键会将其发射向鼠标方向
+					若同时装备[c/ffff00:医生单片眼镜]并按住<右键>，玩家可以朝鼠标方向悬浮移动，并能穿透敌人
+					在按住<右键>状态下，它会禁用玩家自动使用法力，若法力不足则消耗生命值
 					'''
 			}
 
 			ForlornBloom: {
-				DisplayName: Forlorn Bloom
+				DisplayName: 凄凉绽放
 				Tooltip:
 					'''
-					'Speaking of soul activities...'
-					Using calls wave of butterflies around player
+					'谈到灵魂之力...'
+					使用后将在玩家周围召唤一圈蝴蝶波纹
 					'''
 			}
 
 			Strawman: {
-				DisplayName: Strawman
+				DisplayName: 稻草人
 				Tooltip:
 					'''
-					'Your very own Bede'
-					Upon use casts a necromantic area that gets bigger and stronger as player continues to hold the attack button
-					Upon release or not having enough mana damages all enemies in its area
-					player also get damage with respect to size + when any enemy dies it will release pins and player gets healed
-					This pins could stick to other enemies or tiles
+					'属于你的贝德'
+					使用时释放一个死灵领域，随着玩家持续按住攻击键，该领域的范围和威力会逐渐增大
+					松开按键或法力不足时，会对领域内的所有敌人造成伤害
+					玩家也会根据领域大小受到一定比例的反伤；当任何敌人死亡时，会释放针刺并对玩家进行治疗
+					这些针刺可能会附着在其他敌人或地砖上
 					'''
 			}
 
 			UrnofSouls: {
-				DisplayName: Urn of Souls
+				DisplayName: 灵魂之瓮
 				Tooltip:
 					'''
-					'Unleash their sorrow'
-					Upon use it emits stream of soul flames that burn enemies with frostburn
-					Killing enemies grants a soul to increase players mana
+					'释放他们的哀伤'
+					使用时会发出灵魂火焰流，对敌人造成冰霜灼烧伤害
+					击杀敌人可以获得灵魂，增加玩家的法力值
 					'''
 			}
 
 			NekoSlimesWagasa: {
-				DisplayName: Neko Wagasa
+				DisplayName: 哈基米油纸伞
 				Tooltip:
 					'''
-					A perfect umbrella for walking when tsuyu starts
-					You feel sad when you hear she wait to use this for walking with her sensei while sakura leaves are falling
+					雨季开始时散步的最佳伴侣
+					当听说她在樱花飘落时等待与她的师傅一同使用这把伞时，你会感到一丝惆怅
 					'''
 			}
 
 			RecoddedProbe: {
-				DisplayName: Flag of Liberty
+				DisplayName: 自由之旗
 				Tooltip:
 					'''
-					It's not just a flag, it's an idea
-					'Upon being used it will shoot three star of liberty to your mouse direction'
-					After they hit any enemy they will shatter into smaller stars of liberty
+					这不仅仅是一面旗帜，更是一个理念
+					'使用后会向鼠标方向射出三颗自由之星'
+					在击中任何敌人后，它们会碎裂成更小的自由之星
 					'''
 			}
 
 			ScorchedEarth: {
-				DisplayName: Scorched Earth
+				DisplayName: 焦土之地
 				Tooltip:
 					'''
-					'Burn them with Aya's fury'
-					Upon cast calls a scorched meteor to strike to Earth
+					'用阿雅的愤怒将他们焚烧殆尽'
+					释放后会召唤一颗焦土陨石撞击地面
 					'''
 			}
 
 			SliceofIceKing: {
-				DisplayName: Slice of Ice King
+				DisplayName: 冰霜君主之刃
 				Tooltip:
 					'''
-					'Now it find it's true potential for kidnapping princesses'
-					'Also strangely holding it makes you slowly lose your memories'
+					'现在它找到了绑架公主的真正潜力'
+					'奇怪的是，持有它会让你逐渐失去记忆'
 					'''
 			}
 
 			BoulderMagic: {
-				DisplayName: Pacifist's Cane
+				DisplayName: 和平主义者的手杖
 				Tooltip:
 					'''
-					'In a gentle way, you can shake the world'
-					Upon use player calls a dove spirit that may bring peace to lost prayers soul
-					Upon touching any nonboss enemy it will calm them and may cause their offensive stats decrease
+					'以温柔的方式，你可以撼动世界'
+					使用后玩家召唤一只鸽子精灵，它可能为迷失祈祷的灵魂带来安宁
+					当触及任何非首领敌人时，会使其平静下来，并可能导致其攻击力下降
 					'''
 			}
 
 			ChaosWand: {
-				DisplayName: Chaos Wand
+				DisplayName: 混沌魔杖
 				Tooltip:
 					'''
-					Using it casts a chaos sphere that inflicta discordian mark which cause the enemy to get +5 true DoT
-					If player presses <right>while holding weapon it will teleport npc to its mouse location
-					When boss is teleported to mouse direction it will explode also spread unstable arcane energy bolts around
-					There can be max 1 active enemy could be cursed with discordian mark and bosses are immune to this effect
+					使用它将释放一个混沌球体，对敌人施加混乱印记，造成每秒5点真实伤害
+					若玩家在持有武器时按下<右键>，将会把NPC传送到鼠标所指位置
+					当首领被传送到鼠标方向时，会产生爆炸，并向周围散布不稳定的奥术能量弹
+					最多只能有一个敌人受到混乱印记诅咒，且首领对这种效果免疫
 					'''
 			}
 
 			DreadsWhistle: {
-				DisplayName: Dreads Whistle
+				DisplayName: 恐惧之哨
 				Tooltip:
 					'''
-					'Call from below'
-					Upon cast it will call 8 curious wisp from below to attack any enemy near to your mouse
-					Upon hit enemy they will both inflict cursed flame to them and critical hits will heal player by 1
+					'深渊的召唤'
+					释放后，会从地下召唤8只好奇的幽魂火光攻击鼠标附近的所有敌人
+					击中敌人时，它们会对敌人附加诅咒火焰效果；并且，若造成暴击，则会为玩家恢复1点生命值
 					'''
 			}
 
 			DryadsGift: {
-				DisplayName: Dryad's Gift
+				DisplayName: 树精的赠礼
 				Tooltip:
 					'''
-					'Such a beautiful shade of blue, this truly is a gift from the Dryad'
-					Upon cast summons the Antheia's Rose that gradually grow
-					Taking damage cause its death which give mana according to state
-					It's smell may attract close twilight fireflies
-					While active each magic weapon use has a chance to shoot additional petals 
-					Each usage takes 100 mana and there can max 1 rose active
+					'如此美丽的蓝色，这确实是树精的恩赐'
+					释放后会召唤安忒亚之玫瑰，它会逐渐生长
+					受到伤害会导致其死亡，根据其状态提供相应的法力值
+					它的香气可能会吸引附近的暮光萤火虫
+					在激活状态下，每次使用魔法武器时都有几率射出额外的花瓣
+					每次使用消耗100点法力值，并且最多只能同时存在1朵玫瑰
 					'''
 			}
 
 			FireStarter: {
-				DisplayName: Firestarter
+				DisplayName: 火种
 				Tooltip:
 					'''
-					'Use it with extreme care to not start a forest fire unlike those bunnies'
-					Upon used casts an extreme heat that burns the enemies
-					Critical hits greatly decrease enemies defensive stats
+					'使用时要极为小心，别像那些兔子一样引发森林火灾'
+					使用后会产生极高热量，对敌人造成燃烧伤害
+					造成暴击时，将大幅降低敌人的防御属性
 					'''
 			}
 
 			GazeofEclipseHerald: {
-				DisplayName: Gaze of the Eclipse Herald
+				DisplayName: 日蚀先驱者的凝视
 				Tooltip:
 					'''
-					'They need a blanket to block the UV'
-					When used, a dark sun will be called upon to burn your enemies with an eclipse beam that will burn your enemies
-					While dark sun is moving eclipse will lend hands of the elder horror from below which inflicts fear
+					'他们需要一块毯子来遮挡紫外线'
+					当使用时，将会召唤一颗黑暗太阳，用日蚀光线灼烧你的敌人
+					黑暗太阳移动过程中，日蚀之力将引导来自地底的远古恐怖之手降临，使敌人陷入恐惧
 					'''
 			}
 
 			TornadoTip: {
-				DisplayName: Tornado Tip
-				Tooltip: Channels a controllable storm
+				DisplayName: 龙卷风之尖
+				Tooltip: 控制并引导一场可控风暴
 			}
 
 			MechanicArm: {
-				DisplayName: G268 Deijii Burasuta
+				DisplayName: G268 德吉二世·爆裂之星
 				Tooltip:
 					'''
-					'Best to use against bad guys'
-					Upon being used it will form electrical arc area which will periodically charge and discharge
-					While being charged its range and damage will increase while in discharging arc area will increase
-					When its fully concentrated it will inflict overly charged and otherwise inflict charged
+					'最好用来对付坏人'
+					使用后会形成一个电弧区域，该区域会周期性地充能和放电
+					在充能过程中，其范围和伤害将增加；而在放电时，电弧区域的影响范围将增大
+					当完全充能后，会造成过载伤害；否则将造成常规充能伤害
 					'''
 			}
 
 			RomanCandle: {
-				DisplayName: Roman Candle
-				Tooltip: "'Fire works!'"
+				DisplayName: 罗马蜡烛
+				Tooltip: "'烟花秀！'"
 			}
 
 			ThirdArm: {
-				DisplayName: Third Leg
+				DisplayName: 第三条腿
 				Tooltip:
 					'''
-					'It's once belong to a hell raven'
-					<left>does normal attack while <right>does uncontainable nuclear reaction
+					'它曾属于一只地狱乌鸦'
+					<鼠标左键>进行普通攻击，而<鼠标右键>则引发无法控制的核反应
 					'''
 			}
 
 			TomeofPresents: {
-				DisplayName: Santa's Checklist
+				DisplayName: 圣诞老人的礼物清单
 				Tooltip:
 					'''
-					'Luckily your name is not on the naughty list'
-					Casts prankful presents upwards
+					'幸运的是，你的名字不在淘气名单上'
+					向上投掷恶作剧般的礼物
 					'''
 			}
 
 			TomeofStars: {
-				DisplayName: Shattered Star
+				DisplayName: 碎裂之星法典
 				Tooltip:
 					'''
-					'All men have stars, but they are not the same things for different people'
-					At day summon tiny star around player that aim cursor and at night rain stars upon cursor location
+					'每个人都有星星，但对不同的人来说，星星的意义各不相同'
+					白天在玩家周围召唤瞄准光标的小星星，夜晚则在光标位置降下星辰雨
 					'''
 			}
 
 			GrimoireofCirno: {
-				DisplayName: Grimoire of Cirno
+				DisplayName: 水晶宫的魔导书
 				Tooltip:
 					'''
-					'Glorious Winter Morning'
-					Each time damage taken tome fuel with the pain of its owner and get empowered
-					Slowly weapon gets calmed down to its original state
+					'辉煌的冬日早晨'
+					每当受到伤害时，此书会汲取其主人的痛苦作为燃料并变得更强大
+					随着时间推移，武器会逐渐平静下来恢复到原始状态
 					'''
 			}
 
