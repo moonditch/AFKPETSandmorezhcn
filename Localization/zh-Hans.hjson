@@ -2,7 +2,7 @@ Mods: {
 	AFKPETS: {
 		NPCs: {
 			UWUSlime: {
-				DisplayName: UWU史莱姆
+				DisplayName: UWU史姆
 				BossChecklistIntegration.EntryName: 史莱姆最后的希望
 			}
 
@@ -22,12 +22,12 @@ Mods: {
 
 			FlagCarrier: {
 				BossChecklistIntegration: {
-					EntryName: 远古召唤
+					EntryName: 旧日三重唱
 					SpawnInfo: 在夜晚使用 [i:AFKPETS/BlackenedHeart] 召唤
 					DespawnMessage: 所有的玩家都被吃掉了
 				}
 
-				DisplayName: 携带者
+				DisplayName: 魂幡携带者
 			}
 
 			SATLA001: {
@@ -229,7 +229,7 @@ Mods: {
 			CookieCrumblerTail.DisplayName: 饼干屑
 			CookieMan.DisplayName: 姜饼人
 			CookieSoul.DisplayName: 饼干魂
-			CookieSpirit.DisplayName: 饼干精神力
+			CookieSpirit.DisplayName: 饼干之魂
 			NightmareCookieBox.DisplayName: 梦魇饼干盒
 			RainbowCookieBox.DisplayName: 彩虹饼干盒
 			HoneyBee.DisplayName: 小蜜蜂
@@ -956,8 +956,8 @@ Mods: {
 			}
 
 			BabyPrime: {
-				DisplayName: Baby Skeletron Prime
-				Description: Baby Skeletron Prime will follow you
+				DisplayName: Baby 机械骷髅王
+				Description: Baby 机械骷髅王 will follow you
 			}
 
 			BadBubble: {
@@ -2209,7 +2209,7 @@ Mods: {
 			}
 
 			EyeOfCthulhu: {
-				DisplayName: Eye of Cthulhu
+				DisplayName: 克苏鲁之眼
 				Description: "'You call the ocular menace to protect you.'"
 			}
 
@@ -2238,7 +2238,7 @@ Mods: {
 			}
 
 			FemaleAncientWarlord: {
-				DisplayName: Ancient Warlord
+				DisplayName: 亘古领主
 				Description: She's still observing this dimention
 			}
 
@@ -3432,7 +3432,7 @@ Mods: {
 
 			FoodPoisoning: {
 				DisplayName: Food Poisoning
-				Description: Eating food or drinking potion will poison you
+				Description: Eating food or drinking药水 will poison you
 			}
 
 			GetaTired: {
@@ -4141,7 +4141,7 @@ Mods: {
 			}
 
 			SpiritofFun: {
-				DisplayName: Spirit of Fun
+				DisplayName: 娱乐之魂
 				Description: Strangely it's looking for someone
 			}
 
@@ -4791,7 +4791,7 @@ Mods: {
 				DisplayName: Aurora's Third Eye
 				Tooltip:
 					'''
-					It was once formed by an ancient warlord who once ruled her own realms with peace.
+					It was once formed by an 亘古领主 who once ruled her own realms with peace.
 					'The Shine of the eye breaks the nightmare of the Manchens into a million little pieces'
 					[c/ffff00:趣味模式专属物品]
 					-无法获得-
@@ -5058,7 +5058,7 @@ Mods: {
 					'''
 					'An elegant rose that can only grow by watering it with blood'
 					Give 7 second immunity to lava and there will be no speed penalty in lava + immunity to fire in lave
-					If player have less than 25% life it gain obsidian skin potion effect
+					If player have less than 25% life it gain obsidian skin药水 effect
 					'''
 			}
 
@@ -5223,7 +5223,7 @@ Mods: {
 				Tooltip:
 					'''
 					'If there is the will, then there is hope'
-					-50% duration of debuffs excluding potion sickness
+					-50% duration of debuffs excluding药水 sickness
 					'''
 			}
 
@@ -5246,13 +5246,13 @@ Mods: {
 			}
 
 			Final: {
-				DisplayName: Final
+				DisplayName: 终末
 				Tooltip:
 					'''
-					'A small fragment being formed by ancient warlord ??? to observe the behaviour of matter and antimatter'
-					'It's power is enough to shatter the boundary of multiverse'
-					Hide visibility to disable void runner speed buff and wing disable effect
-					It give ability of its materials
+					'亘古领主 ??? 制作的一小块碎片，用于观察物质和反物质的行为'
+					'它的力量足以粉碎多元宇宙的边界'
+					隐藏可见性以关闭虚空漫步者的速度加成和翅膀禁用效果
+					继承其合成材料的能力
 					'''
 			}
 
@@ -5327,12 +5327,12 @@ Mods: {
 			}
 
 			HolographicBoots: {
-				DisplayName: Holographic Boots
+				DisplayName: 全息靴
 				Tooltip:
 					'''
-					'It makes you feel like you are walking barefoot'
-					'Also it doesn't care about gravity'
-					'While not pressing down player will not fall and walk in air and player is immune to fall damage'
+					'它让你感觉自己像是在赤脚走路一样'
+					'它也不在乎重力'
+					不按 下 键时，玩家可在空中行走，并免疫坠落伤害
 					'''
 			}
 
@@ -5376,11 +5376,11 @@ Mods: {
 			}
 
 			SlimyTENG: {
-				DisplayName: Slimy TENG
+				DisplayName: 史莱姆藤
 				Tooltip:
 					'''
-					'A basic device used by slime capital to store the lost energy'
-					Increases mana regen while moving and this effect cannot be nullified
+					'粘液资本用来存储损失的能量的基本设备'
+					移动时固定恢复魔力
 					'''
 			}
 
@@ -5390,7 +5390,7 @@ Mods: {
 					'''
 					'Follow the light'
 					When player take damage mana stars fall from sky and when they touch player each give 50 mana
-					Player uses mana potion when needed + 10% decreased mana usage
+					Player uses mana药水 when needed + 10% decreased mana usage
 					While under immunity frames magic weapons will consume no mana
 					Longer invincibility frames under taking damage
 					'''
@@ -5668,8 +5668,8 @@ Mods: {
 				DisplayName: Eye of Wisdom
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
-					'It was once formed by ancient warlord Mendeleev to guide it's followers when they need her help'
+					'非常适合模仿酷炫的家伙！'
+					'It was once formed by 亘古领主 Mendeleev to guide it's followers when they need her help'
 					Upon equipped it will summon a follower that will attack close enemies and guide your path
 					After lunatic cultist have been defeated it will empower with fallen foes essense and also call additional sigil to protect you
 					Both of the followers will become enraged as players life decrease
@@ -5965,7 +5965,7 @@ Mods: {
 					'''
 					'You can't escape from your greed'
 					You have 5% chance to neglect projectile attacks
-					Coins could be consumed by LC to its item and eating gives following effect
+					Coins could be consumed by <left>to its item and eating gives following effect
 					-Copper Coin:15% increased movement speed for 10 second
 					-Silver Coin:5% increased damage for 30 second
 					-Gold Coin:5% increased DR + 5 defense + all of your attacks inflict midas for 1 minute
@@ -6021,7 +6021,7 @@ Mods: {
 					'''
 					'Hello my honey!'
 					Removed movement penalty in honey
-					Drinking any buff potion will give honey buff for 1 minute and any healing or mana potion will give for 10 seconds
+					Drinking any buff药水 will give honey buff for 1 minute and any healing or mana药水 will give for 10 seconds
 					'''
 			}
 
@@ -6040,7 +6040,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Let's go practice medicine'
-					Cooldown of healing potions are being reduced and it provides life regeneration
+					Cooldown of healing药水s are being reduced and it provides life regeneration
 					Each time you get hurt if you do not take any damage in 8 seconds you will heal 25% of the damage back
 					Players max hp will increase by 50
 					'''
@@ -6127,7 +6127,7 @@ Mods: {
 					'''
 					'I think pressure's healthy, and very few can handle it'
 					Gain immunity against food poisoning
-					Buff potions and foods have 33% chance to not get consumed + have 20% longer buff duration
+					Buff药水s and foods have 33% chance to not get consumed + have 20% longer buff duration
 					'''
 			}
 
@@ -6261,33 +6261,33 @@ Mods: {
 			}
 
 			GunBoots: {
-				DisplayName: Gun Boots
+				DisplayName: 枪靴
 				Tooltip:
 					'''
-					'With bullet recoil's force it may help flight until gun overheats'
-					While rocket flight or jump is active player shoots bullets downward
-					It has 5% chance to consume and if ammo cannot be found it will shoot musket
+					'借助子弹后坐力的力量，它可能有助于飞行，直到枪支过热'
+					在用火箭靴飞行或跳跃时，玩家向下射击子弹
+					有 5 % 的几率消耗弹药，如果没有可用的弹药，它会射出火枪子弹
 					'''
 			}
 
 			HolyMoly: {
-				DisplayName: Holey Moly
+				DisplayName: 摩尔神靴
 				Tooltip:
 					'''
-					'For them royalty is earned by their cuteness'
-					While being on soft soil blocks players movement speed will increase by 10%
-					While placed below vanilla shoes it increases acceleration by 15%
-					Increases movement speed by 5% + moving grant mana regen that cannot be nullified
-					This mana regen increase with respect to movement speed
+					'对于它们来说，皇权是靠可爱赢得的'
+					在柔软物块上增加 20% 移动速度
+					当放在原版鞋子下面时，增加 15% 加速度
+					增加 5% 移动速度，移动时固定恢复魔力
+					移动速度越快，魔力恢复的越多
 					'''
 			}
 
 			MoleSlippers: {
-				DisplayName: Mole Slippers
+				DisplayName: 鼹鼠拖鞋
 				Tooltip:
 					'''
-					'They look both cute and cosy'
-					While being on soft soil blocks players movement speed will increase by 10%
+					'它们看起来既可爱又舒适'
+					在柔软物块上增加 10% 移动速度
 					'''
 			}
 
@@ -6302,38 +6302,38 @@ Mods: {
 			}
 
 			ReinforcedBoots: {
-				DisplayName: Reinforced Boots
+				DisplayName: 重型靴
 				Tooltip:
 					'''
-					'It's too heavy to even walk with it'
-					Falling speed in liquid and air have been increased
-					Gain immunity against fall damage, mighty wind, knocback, spikes and burning blocks
-					Movement speed decrease by 10% + jump speed greatly decreases
+					'它太重了，甚至腿都抬不起来'
+					增加在液体和空中的下落速度
+					免疫坠落伤害、强风、击退、钉刺和火块
+					增加 10% 移动速度，大幅减少跳跃速度
 					'''
 			}
 
 			SpaceBoots: {
-				DisplayName: Space Boots
+				DisplayName: 太空靴
 				Tooltip:
 					'''
-					'That's one small step for man, one giant leap for mankind'
-					Provides infinite cloud in a bottle jumps
-					Gives immunity against strong wind, distorted, and decreased space gravity
-					Greatly increases jump speed and height + gives auto jump
-					Gives immunity to fall damage along with takes ability to equip wings
+					'那是个人的一小步，但是人类的一大步'
+					提供云朵瓶二段跳
+					免疫强风、扭曲，减少失重和坠落伤害
+					大幅调高跳跃速度和高度，允许自动跳跃
+					无法装备翅膀，但免疫坠落伤害
 					'''
 			}
 
 			VoidRunner: {
-				DisplayName: Void Runner
+				DisplayName: 虚空漫步者
 				Tooltip:
 					'''
-					'To Infinity and Beyond!'
-					Greatly increased movement speed, jumping speed and height + infinite blessed jumps
-					20% extra movement speed and acceleration on soft blocks, burning blocks, and ice
-					Gain immunity agains strong winds, hit.Knockback, distorted debuff, decreased space gravity and fall damage
-					Gain unnullable mana regen that gets stronger with increased movement speed but player is unable to equip wings
-					Hiding visibility make items extreme speed get balanced to normal stage
+					'直到无限与尽头！'
+					大幅调高移动速度、跳跃速度和高度，提供二段跳
+					在柔软物块、火块和冰块上额外增加 20% 的移动速度和加速度
+					免疫强风、击退、扭曲，减少失重和坠落伤害，但玩家无法装备翅膀
+					移动时固定恢复魔力，效果随移动速度的提高而增强
+					隐藏可见性以使物品的速度加成恢复到正常水平
 					'''
 			}
 
@@ -6425,8 +6425,8 @@ Mods: {
 					'''
 					From looking at its elegance only a designer can make such art
 					'It will increase your endurance by 3% and defense by 2 and movement speed by 5%'
-					'While it's being equipped health potions will heal 20 more life'
-					'While it's being equipped mana potions will give 50 more mana'
+					'While it's being equipped health药水s will heal 20 more life'
+					'While it's being equipped mana药水s will give 50 more mana'
 					'''
 			}
 
@@ -6473,7 +6473,7 @@ Mods: {
 					'''
 					'I see see the future future future...'
 					When tarot major is being used it will activate previous tarots major used effects
-					When potion is being used it will also give previous used potion effects
+					When药水 is being used it will also give previous used药水 effects
 					'''
 			}
 
@@ -6690,181 +6690,181 @@ Mods: {
 			}
 
 			CrystalVampireWings: {
-				DisplayName: Crystal Vampire Wings
+				DisplayName: 水晶吸血之翼
 				Tooltip:
 					'''
-					'There will be bloodshed'
-					While players invincibility frames are active players offensive stats greatly increase
-					Player have 5% chance to fully neglect any attack
+					'会流血的'
+					当无敌帧激活时，大幅增加玩家的攻击力
+					玩家有 5% 的几率完全无视任何攻击
 					'''
 			}
 
 			DoctorsTornWings: {
-				DisplayName: Doctor's Torn Wings
+				DisplayName: 破损博士之翼
 				Tooltip:
 					'''
-					They look damaged still can carry you for a short distance
-					Causes most weaker bats be friendly towards you
+					它们看起来破损不堪，但仍然可以短距离带你飞行
+					使大多数较弱的蝙蝠对你友好
 					'''
 			}
 
 			DValkrieWing: {
-				DisplayName: Damaged Valkrie Wings
+				DisplayName: 损坏的瓦尔基里之翼
 				Tooltip:
 					'''
-					'Chaaaarge!'
-					While flying it drops sparks periodically which charges enemies
+					'吓啊！'
+					飞行时掉落火花，使敌人触电
 					'''
 			}
 
 			EmptyWing: {
-				DisplayName: Test Wings
-				Tooltip: Used for testing stuff
+				DisplayName: 测试翅膀
+				Tooltip: 用于开发者测试
 			}
 
 			FlameHeart: {
-				DisplayName: Flame Heart
+				DisplayName: 焚心喷漆背包
 				Tooltip:
 					'''
-					'Great for impersonating kind spriters!'
-					'One little spark and before you know it, the whole world is burning'
-					Gain immunity to be shilled + double tap up while flying release the jetpack which home to closest enemy
+					'非常适合模仿善良的喷火兵！'
+					'一点微弱的火花，然后在你反应过来之前，整个世界都陷入燃烧。'
+					免疫冷冻，飞行时双击 上 键脱离喷气背包，并落向最近的敌人
 					'''
 			}
 
 			JudgementWings: {
-				DisplayName: Judgement Wings
+				DisplayName: 审判之翼
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
-					'THERE CAN BE ONLY LIGHT!'
-					True melee crits increase flight time slightly + while having hp less than 25% gain ability to holy dash
-					After hitting any enemy with holy dash salvation effect activates
+					'非常适合模仿模组的 wiki 编辑者！'
+					'只 能 有 光 明 ！'
+					真近战暴击时稍微增加飞行时间，当生命值低于25%时获得神圣冲刺的能力。
+					用神圣冲刺击中任何敌人后，激活救赎效果
 					'''
 			}
 
 			MendeleevHoverBoard: {
-				DisplayName: Midnight Hoverboard
+				DisplayName: 午夜悬浮滑板
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
-					'Its similar to surfing on water but this time you are surfing on the fabric of time and space'
-					Press down to toggle hover and press up to deactivate hover
+					'非常适合模仿酷炫的家伙！'
+					'它与在水上冲浪相似，但这次你是在时空之上冲浪'
+					按 下 以切换悬浮状态，按 上 以停用悬浮
 					'''
 			}
 
 			NeoWings: {
-				DisplayName: Wings NEO
+				DisplayName: 科幻之翼
 				Tooltip:
 					'''
-					'RRRRREADY? IIIIIIIT'S SHOWTIME!!!'
-					Taking damage release charge area but endurance decreases by 10%
-					infinite flight until player take damage in which player need to land to regain flight
+					'准 备 好 了 吗 ？ 表 演 开 始 了 ！！！'
+					受到伤害时释放充能线圈，但减少 10% 伤害抗性
+					受到伤害前无限飞行
 					'''
 			}
 
 			NightFuryWings: {
-				DisplayName: Night Fury Wings
+				DisplayName: 夜怒之翼
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
-					'When you look at him you saw yourself...'
-					While pressing down gain ability to dive faster + pressing up decreases fall acceleration
+					'非常适合模仿酷炫的家伙！'
+					'当你看着他时，你看到了自己...'
+					按 下 键更快下落，按 上 键减少坠落速度
 					'''
 			}
 
 			NueWings: {
-				DisplayName: Wings of Dread
+				DisplayName: 可怕之翼
 				Tooltip:
 					'''
-					'A relic being cerried across cosmos but still it smells like bread'
-					When its being equipped UFO's have a chance to spawn on sky
-					When scan is successful they will start to assist player with respect to their specification
-					Red will aim and attack enemies, green wil heal player and blue will rotate around mouse and do periodical discharge
+					'一个在宇宙中穿越的残物，但闻起来仍然像新鲜出炉的面包'
+					装备时，UFO 随机在天空中生成
+					扫描到玩家时，UFO 根据种类开始协助玩家
+					红色将瞄准和攻击敌人，绿色将治疗玩家，蓝色将跟随光标并释放带电线圈
 					'''
 			}
 
 			OrigamiCrane: {
-				DisplayName: Origami Crane
+				DisplayName: 纸鹤之翼
 				Tooltip:
 					'''
-					'I will write peace on your wings and you will fly all over the world'
-					While being equipped increase luck slightly
-					Grants great flight but upon taking hit player lose its ability to flight + landing in this state cause fall damage
+					'我会在你的翅膀上写下和平，你将飞遍全世界'
+					装备时稍微增加幸运
+					强大的飞行能力，但受到伤害时玩家会坠落，在此状态下着陆会受到坠落伤害
 					'''
 			}
 
 			OverchargedElectricTome: {
-				DisplayName: Overcharged Electric Tome
+				DisplayName: 过载电子之翼
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
-					'When the risk is unacceptable yet the elegance is irresistible'
-					Increases invincibility frame which stacks with other invincibility effects
+					'非常适合模仿模组的 wiki 编辑者！'
+					'即使天崩地裂，却依旧保持优雅'
+					增加无敌帧，可与其他无敌效果叠加
 					'''
 			}
 
 			OverfrozenWings: {
-				DisplayName: Overfrozen Crystal Wings
+				DisplayName: 冰封水晶之翼
 				Tooltip:
 					'''
-					'Ice is nice!'
-					Immunity to all cold themed debuffs + while flying icicles rain below
-					Upon being inflicted by any vanilla frost themed debuff player instead gets a special buff that empowers it with everlasting frost
+					'冰真棒！'
+					免疫所有冷系减益，飞行时落下冰雨
+					当玩家受到任何原版冷系减益时，获得一个特殊增益，赋予其永恒的冰霜之力
 					'''
 			}
 
 			RotorbladeWings: {
-				DisplayName: Rotorblade Wings
+				DisplayName: 旋翼
 				Tooltip:
 					'''
-					'Feather Worthy'
-					While being equipped generate classless rotorblade feathers that rotate around player
+					'值得的羽毛'
+					装备时生成围绕玩家旋转的羽毛
 					'''
 			}
 
 			SealersCape: {
-				DisplayName: Sealer's Cape
+				DisplayName: 封印者的披风
 				Tooltip:
 					'''
-					'All things have their attributes. Attributes and weaknesses are the same'
-					Getting hit by a projectile have 10% chance to reflect it with double damage + give mana amount of damage
-					It also increases you max mana by 20
+					'万物皆有其规律，优点和弱点是相同的'
+					受到射弹攻击时，有 10% 的几率以双倍伤害反射它，并恢复等同于造成伤害的魔力
+					增加 20 最大魔力值
 					'''
 			}
 
 			SparklyWings: {
-				DisplayName: Sparkly Wings
-				Tooltip: Allows flight and slow fall
+				DisplayName: 闪耀之翼
+				Tooltip: 可飞行和缓慢坠落
 			}
 
 			SpiritualWings: {
-				DisplayName: Spiritual Wings
+				DisplayName: 鬼魂之翼
 				Tooltip:
 					'''
-					'The flames will purify anything they touch'
-					When you take contact damage any enemy close to you will also take 75% the same damage
+					'火焰会净化一切'
+					受到接触伤害时，任何靠近你的敌人也会受到 75% 同等伤害
 					'''
 			}
 
 			SultansTapestry: {
-				DisplayName: Sultan's Tapestry
+				DisplayName: 苏丹的挂毯
 				Tooltip:
 					'''
-					'I can show you around the world'
-					Allows the owner to float in air for some time + takes both carpet and wing slot
-					After the carpet flight time is over resets players jumps but it need to below jump base accessories to count accessory ones
+					'我可以带你环游世界'
+					允许使用者在空中漂浮一段时间，占用地毯栏和翅膀栏
+					在漂浮时间结束后重置玩家的跳跃次数，但放置的位置需要在跳跃饰品的下边
 					'''
 			}
 
 			TheSlugGuzzler: {
-				DisplayName: The Slug Guzzler
+				DisplayName: 金属风暴背包
 				Tooltip:
 					'''
-					'What a joyful ride'
-					Sprays out bullets below which also stacks with gun boots
-					This ammo have 1% chance to consume and if ammo cannot be found it will shoot musket
-					Press up to accelerate faster
+					'多么愉快的旅程！'
+					向下射出子弹，可与枪靴叠加
+					有 1 % 的几率消耗弹药，如果没有可用的弹药，它会射出火枪子弹
+					按 上 键以更快上升
 					'''
 			}
 
@@ -7444,11 +7444,11 @@ Mods: {
 			}
 
 			ScarletShanghaiBoots: {
-				DisplayName: Scarlet Shanghai Boots
+				DisplayName: 绯红上海靴
 				Tooltip:
 					'''
-					'I hope to find lots of friends here too!'
-					3% increased movement speed + slightly increased life regen
+					'我也希望在这里找到很多朋友！'
+					增加 3% 移动速度，稍微增加生命再生
 					'''
 			}
 
@@ -7494,7 +7494,7 @@ Mods: {
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
 					Filled with many goodies she collect in her adventure
-					Upon RC you get random amount of cookies, misc smaller items + 1 reward item
+					Upon <right>you get random amount of cookies, misc smaller items + 1 reward item
 					'''
 			}
 
@@ -7549,7 +7549,7 @@ Mods: {
 				Tooltip:
 					'''
 					I'm lovin' it
-					RC to open the packet to get your meal along with a toy from FF collectibles
+					<right>to open the packet to get your meal along with a toy from FF collectibles
 					Do not direct item use to eat all, toy may contain small pieces
 					'''
 			}
@@ -7709,7 +7709,7 @@ Mods: {
 			}
 
 			SpiritofFunTreasureBag: {
-				DisplayName: 宝藏袋（Spirit of Fun）
+				DisplayName: 宝藏袋（娱乐之魂）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -7797,7 +7797,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Fueled with electricity and life remnants of gamers'
-					When RC to its tile it will open a menu that contain games which player could choose to play
+					When <right>to its tile it will open a menu that contain games which player could choose to play
 					After each game it will give tokens with respect to players score which could be used to get rewards
 					If all levels are being finished or game's high score is beaten it will also give game mastery token which could be used to get elite rewards
 					'''
@@ -7852,7 +7852,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It echoes the hope and dreams of the fallen
-					'When being close it will make debuffs duration decrease faster but potion sickness is excluded
+					'When being close it will make debuffs duration decrease faster but药水 sickness is excluded
 					Player have 5% chance to escape death with 1 hp
 					'''
 			}
@@ -7880,7 +7880,7 @@ Mods: {
 				Tooltip:
 					'''
 					The alive will rise on the shoulders of the fallen
-					RC to the tile will make player gain 10hp and 20% minion damage per unused minion slot
+					<right>to the tile will make player gain 10hp and 20% minion damage per unused minion slot
 					'''
 			}
 
@@ -7917,7 +7917,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Jesse, we need to cook...'
-					33% chance to not consume potion crafting ingredients
+					33% chance to not consume药水 crafting ingredients
 					It function as its materials
 					'''
 			}
@@ -7947,8 +7947,8 @@ Mods: {
 				Tooltip:
 					'''
 					'A legendary anvil once being used by skeledudes to forge what their warlord need'
-					When player RC to its tile if player selected weapon or accessory it could shatter that item to its materials
-					If player presses down while RC to its tile it will instead tell player which materials it will get back
+					When player <right>to its tile if player selected weapon or accessory it could shatter that item to its materials
+					If player presses down while <right>to its tile it will instead tell player which materials it will get back
 					It will only shatter items that are in hotbar and it will also function as a mythril anvil
 					'''
 			}
@@ -7957,8 +7957,8 @@ Mods: {
 				DisplayName: Heart of Forest
 				Tooltip:
 					'''
-					'Do Not Be Afraid... You Are Not Alone...'RC to its tile will bless with clairvoyance for 10 minutes and dryad's blessing for 1 minute
-					If its being imbued with radiant stars via RC it will reward the player with an item being selected by a wheel of fortune
+					'Do Not Be Afraid... You Are Not Alone...'<right>to its tile will bless with clairvoyance for 10 minutes and dryad's blessing for 1 minute
+					If its being imbued with radiant stars via <right>it will reward the player with an item being selected by a wheel of fortune
 					It can also be used as crystal ball, bookcase and living loom crafting station
 					'''
 			}
@@ -7970,7 +7970,7 @@ Mods: {
 					'Humankind cannot gain anything without first giving something in return.'
 					'To obtain, something of equal value must be lost.'
 					'While being placed it will allow changing pre hardmode items with their equals'
-					'Philosophers stone can be placed RC to its tile while holding philosopher's stone and work benches top is empty
+					'Philosophers stone can be placed <right>to its tile while holding philosopher's stone and work benches top is empty
 					'Upon it's being placed it will allow changing hardmode items with their equals'
 					'''
 			}
@@ -8134,7 +8134,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Wait, why it have no stop button?'
-					Upon being placed by RC to its tile player could activate it
+					Upon being placed by <right>to its tile player could activate it
 					When its activated it will form a hellavator
 					Its not strong enough to break lihzahrd bricks and altar
 					'''
@@ -8636,7 +8636,7 @@ Mods: {
 					'A Euclid class artifact being formed by an ancient wizard'
 					'After the wizards death one of his students keep this artifact to keep the good memories until his death and after that day the artifact is being disappeared'
 					'It seems your hand fit well and there is something in it'
-					'If you RC to it will take the item in your hand and give you another Item.'
+					'If you <right>to it will take the item in your hand and give you another Item.'
 					'''
 			}
 
@@ -8654,7 +8654,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Brave Undead... You Have Proven Yourself To Me. Now... Become One With The Soul'
-					RC activate the flame + set temporary teleport point
+					<right>activate the flame + set temporary teleport point
 					If respawn using this player gain full health + 30 second endurance and regen
 					This ability has 10 minute cooldown
 					'''
@@ -8673,9 +8673,9 @@ Mods: {
 				DisplayName: Note Block Activator
 				Tooltip:
 					'''
-					It can be activated via wire and can be rotating by RC to its tile while pressing down
+					It can be activated via wire and can be rotating by <right>to its tile while pressing down
 					When activated it with respect to the note blocks being put into where its arrow look it start to produce sounds
-					It could be activated via either using wire signal or RC to its tile without pressing down
+					It could be activated via either using wire signal or <right>to its tile without pressing down
 					There are half second delay and via empty notes one can increase delay and if in direction when it hits to a tile that is not note block it will stop itself
 					'''
 			}
@@ -8684,9 +8684,9 @@ Mods: {
 				DisplayName: Note Block
 				Tooltip:
 					'''
-					When RC to its tile while pressing down it will cycle between different notes, some of their sharp variant and empty one
+					When <right>to its tile while pressing down it will cycle between different notes, some of their sharp variant and empty one
 					by using note block tuner ([i:6415]) player could cycle through both 13 different insturment
-					They are used with note block activators and they can also produce their sound via note block activator ([i:5628]) signal or RC to its tile without pressing down
+					They are used with note block activators and they can also produce their sound via note block activator ([i:5628]) signal or <right>to its tile without pressing down
 					'''
 			}
 
@@ -8767,8 +8767,8 @@ Mods: {
 				DisplayName: Spectral Platform
 				Tooltip:
 					'''
-					'With RC player will place 100 spectral platform to both sides of the tile that is on mouse'
-					'It will not destroy any tile while doing this and LC will make it being used as a normal tile placing'
+					'With <right>player will place 100 spectral platform to both sides of the tile that is on mouse'
+					'It will not destroy any tile while doing this and <left>will make it being used as a normal tile placing'
 					'It will not get consumed and breaking tiles will not drop spectral platforms'
 					'''
 			}
@@ -8909,7 +8909,7 @@ Mods: {
 
 			TestTile: {
 				DisplayName: Prefix Test Tile
-				Tooltip: "'RC allow change through different special prefixes'"
+				Tooltip: "'<right>allow change through different special prefixes'"
 			}
 
 			TileScanner: {
@@ -8918,7 +8918,7 @@ Mods: {
 					'''
 					A note attached to its back
 					'Before use please be sure that you are not scanning fumos, their cuteness stage is too high that it may cause permenant damage to the machine'
-					'When you RC to its tile by holding the item version of the tile it will scan this type in 101x101 area
+					'When you <right>to its tile by holding the item version of the tile it will scan this type in 101x101 area
 					''It will start scan from east to left and top to bottom and when it found one it will show its direction with arrow'
 					'Upon player breaks the shown tile, scan another tile or get too far away(more than 150 tile away) the arrow for that tile will disappear'
 					'''
@@ -9013,8 +9013,8 @@ Mods: {
 			}
 
 			BoilingBlood: {
-				DisplayName: Boiling Blood
-				Tooltip: "'Contains essense of the scarlet children'"
+				DisplayName: 沸腾之血
+				Tooltip: "'包含猩红之子的本质'"
 			}
 
 			BrokenDollParts: {
@@ -9038,17 +9038,17 @@ Mods: {
 			}
 
 			Broochofthevoid: {
-				DisplayName: Brooch of the Void
+				DisplayName: 虚空领针
 				Tooltip:
 					'''
-					'Blossom please add details'
-					Until spirit of fun + post ml stuff is being added this boi acts as final crafting stuff
+					'请Blossom补充细节'
+					在娱乐之魂和月后内容完成前，暂时作为最终物品的合成材料
 					'''
 			}
 
 			Circuit: {
-				DisplayName: Circuit
-				Tooltip: "'Transistors...Everywhere...'"
+				DisplayName: 电路板
+				Tooltip: "'晶体管...到处都是...'"
 			}
 
 			DeadCat: {
@@ -9062,11 +9062,11 @@ Mods: {
 			}
 
 			EncryptedScroll: {
-				DisplayName: Encrypted Scroll
+				DisplayName: 密语卷轴
 				Tooltip:
 					'''
-					Etched with various bone markings
-					Despite being indecipherable, it still has magical potential
+					刻有各种骨头标记
+					尽管无法破译，但它仍然具有魔法潜力
 					'''
 			}
 
@@ -9075,9 +9075,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Even it understand ranged class is broken'
-					It can be placed to altar of darkness with RC to its tile while select this item in hotbar
+					It can be placed to altar of darkness with <right>to its tile while select this item in hotbar
 					After its placed it will cause the altar to give the enchanted prefix to any chosen ranged bow weapon
-					By enchanting player must RC to altar of darkness tile while select item to enchant in hotbar
+					By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar
 					If the melee weapon is not a ranged boq weapon it will curse the weapon
 					Press binded info key while this item being selected in hotbar to get more information about the ranged bow prefixes
 					'''
@@ -9133,9 +9133,9 @@ Mods: {
 					'''
 					[c/FF00FF:Artifact]
 					'It looks forgotten and ancient but still holds impressive spiritual power'
-					'It can be placed to altar of darkness with RC to its tile while select this item in hotbar'
+					'It can be placed to altar of darkness with <right>to its tile while select this item in hotbar'
 					'After its placed it will cause the altar to give the enchanted prefix to any chosen true melee weapon'
-					'By enchanting player must RC to altar of darkness tile while select item to enchant in hotbar'
+					'By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar'
 					'If the melee weapon is not a true melee weapon it will curse the weapon'
 					'Press binded info key while this item being selected in hotbar to get more information about the true melee prefixes'
 					'''
@@ -9239,8 +9239,8 @@ Mods: {
 				DisplayName: Popsickle Stick
 				Tooltip:
 					'''
-					'It seems spirit of fun really likes popsickles'
-					'It's still being used as a currency by the spirit of fun other than cultist skull'
+					'It seems 娱乐之魂 really likes popsickles'
+					'It's still being used as a currency by the 娱乐之魂 other than cultist skull'
 					'''
 			}
 
@@ -9264,8 +9264,8 @@ Mods: {
 			}
 
 			RainbowVial: {
-				DisplayName: Concentrated Rainbow Vial
-				Tooltip: "'Contains remnants of a star chefs soul'"
+				DisplayName: 浓缩彩虹瓶
+				Tooltip: "'包含烹星者残余的灵魂'"
 			}
 
 			RedThread: {
@@ -9279,8 +9279,8 @@ Mods: {
 			}
 
 			ShadeCinder: {
-				DisplayName: Shade Cinder
-				Tooltip: "'Contains corrupted essense of life'"
+				DisplayName: 暗影余烬
+				Tooltip: "'含有生命的腐化本源'"
 			}
 
 			AncientBell: {
@@ -9696,7 +9696,7 @@ Mods: {
 				DisplayName: Broken Washing Machine（占位符）
 				Tooltip:
 					'''
-					'It vibrates with the power of the ancient warlord'
+					'It vibrates with the power of the 亘古领主'
 					召唤the washing machine跟随你
 					'''
 			}
@@ -10304,7 +10304,7 @@ Mods: {
 				DisplayName: Rune of Uruz（占位符）
 				Tooltip:
 					'''
-					'It was once form by the strength of the ancient warlord'
+					'It was once form by the strength of the 亘古领主'
 					召唤tiny Fabu跟随你
 					'''
 			}
@@ -10365,7 +10365,7 @@ Mods: {
 			}
 
 			ForgottenOrb: {
-				DisplayName: 天体???（出自车万）
+				DisplayName: ???之珠（出自车万）
 				Tooltip:
 					'''
 					'它让你觉得???'
@@ -11088,7 +11088,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It reminds me of something frightening.'
-					召唤a baby skeletron prime跟随你
+					召唤a baby 机械骷髅王跟随你
 					'''
 			}
 
@@ -11470,7 +11470,7 @@ Mods: {
 				DisplayName: Rotten Cake
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Have you ever caught a good guy, like, uh, like a real superhero?'
 					'''
 			}
@@ -11875,7 +11875,7 @@ Mods: {
 				DisplayName: Scroll of Knowledge
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'It shows the answer for every question you can ever think of'
 					'Strangely you feel its only a mirror image of the reality its being formed'
 					'''
@@ -11912,7 +11912,7 @@ Mods: {
 				DisplayName: Shadow Prism
 				Tooltip:
 					'''
-					'It was forged by an ancient warlord'
+					'It was forged by an 亘古领主'
 					召唤a tiny mudkip warrior跟随你
 					'''
 			}
@@ -12397,7 +12397,7 @@ Mods: {
 				DisplayName: Suspicious Looking trash
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
+					'非常适合模仿模组的 wiki 编辑者！'
 					'You feel it's observing you'
 					'''
 			}
@@ -12770,7 +12770,7 @@ Mods: {
 				DisplayName: Yuyuko Fumo
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
+					'非常适合模仿模组的 wiki 编辑者！'
 					'It seems she is looking for her friend'
 					'''
 			}
@@ -12828,7 +12828,7 @@ Mods: {
 					'''
 					'Smells like Chernobyl'
 					Using it will atract a ridable young mothron
-					pressing RC while its dashing cooldown is over will activate its dash ability with 1.5 second cooldown
+					pressing <right>while its dashing cooldown is over will activate its dash ability with 1.5 second cooldown
 					When player dashes its activates players immunity frame for 0.33 second
 					While immunity frames are active moth start to produce eclypse dust which inflicts inferno and explosive chemical
 					'''
@@ -12938,7 +12938,7 @@ Mods: {
 
 			OldPhotoAlbum: {
 				DisplayName: Old Photo Album
-				Tooltip: "'It's filled with photos of spirit of fun and its friend before cultists drive it insane'"
+				Tooltip: "'It's filled with photos of 娱乐之魂 and its friend before cultists drive it insane'"
 			}
 
 			RareGem: {
@@ -12960,7 +12960,7 @@ Mods: {
 				DisplayName: 远古旗帜
 				Tooltip:
 					'''
-					'它曾经被强大的泰坦一族使用，但现在它只保存了记忆'
+					'它曾被强大的泰坦杀手一族使用，但现在它只保存了记忆'
 					只能在夜晚使用
 					'''
 			}
@@ -13191,7 +13191,7 @@ Mods: {
 					Strangely you hear both cry and laugh sounds comes inside of it
 					Also [c/FF0000:30-300] writes on it's back
 					You feel it can be used as decoration by placing it
-					'You can also break it by RC to it while you have hammer in your inventory'
+					'You can also break it by <right>to it while you have hammer in your inventory'
 					You feel it's best to break it in somewhere you feel comfortable for [c/FF0000:???]
 					'''
 			}
@@ -13348,7 +13348,7 @@ Mods: {
 				Tooltip:
 					'''
 					It looks otherworldly.
-					'It was once bring to this lands by ancient warlord Blossom.'
+					'It was once bring to this lands by 亘古领主 Blossom.'
 					'''
 			}
 
@@ -13467,7 +13467,7 @@ Mods: {
 					'There can be one built from all other perfect pieces'
 					'There can be one that have only happy moments'
 					'I will always on your side [c/FF0000:Mother] for bringing the E.N.D.'
-					'When you RC it's tile it will show you a secret at a cost of 5 ectoplasm'
+					'When you <right>it's tile it will show you a secret at a cost of 5 ectoplasm'
 					'''
 			}
 
@@ -13705,17 +13705,17 @@ Mods: {
 			}
 
 			AstralwalkerPotion: {
-				DisplayName: Astralwalker Potion
+				DisplayName: 星界行者药水
 				Tooltip:
 					'''
-					'Gotta go fast'
-					Gives immunity to decreasing gravity + increases movement speed by 50%
-					While under the effect of astralwalker player cannot drink swiftness potion or have swiftness buff
+					'要再快点'
+					增加 50% 移动速度，免疫失重
+					使用星界行者药水后，无法获得敏捷药水的效果
 					'''
 			}
 
 			BarkSkinPotion: {
-				DisplayName: Bark Skin Potion
+				DisplayName: Bark Skin药水
 				Tooltip:
 					'''
 					'Thankfully growing root is not included in side effects'
@@ -13782,7 +13782,7 @@ Mods: {
 			}
 
 			ClamityPotion: {
-				DisplayName: Clam-ity Potion
+				DisplayName: Clam-ity药水
 				Tooltip:
 					'''
 					'Completely unique experience but sadly worms are not included'
@@ -13791,7 +13791,7 @@ Mods: {
 			}
 
 			CoronaPotion: {
-				DisplayName: Corona Potion
+				DisplayName: Corona药水
 				Tooltip:
 					'''
 					'I burn! Can't hold me now'
@@ -13807,7 +13807,7 @@ Mods: {
 					Player gain immunity against on fire, frostburn and chilled debuffs
 					Player gain aura that curses close enemies along with giving them true DoT
 					All of players attacks will inflict inferno
-					While under the effect of Dragonheart player cannot drink warmth, inferno or corona potion or their buff
+					While under the effect of Dragonheart player cannot drink warmth, inferno or corona药水 or their buff
 					'''
 			}
 
@@ -13832,7 +13832,7 @@ Mods: {
 			}
 
 			FarmingPotion: {
-				DisplayName: Farming Potion
+				DisplayName: Farming药水
 				Tooltip:
 					'''
 					'Increases Efficiency by I'
@@ -13862,12 +13862,12 @@ Mods: {
 			}
 
 			IroncladPotion: {
-				DisplayName: Ironclad Potion
+				DisplayName: Ironclad药水
 				Tooltip:
 					'''
 					'Many Fall In The Face Of Chaos, But Not This One. Not Today'
 					Defense increase by 10 along with player gain immunity against knockback and mighty wind
-					While under the effect of ironclad player cannot drink ironskin potion or have ironskin buff
+					While under the effect of ironclad player cannot drink ironskin药水 or have ironskin buff
 					'''
 			}
 
@@ -13884,7 +13884,7 @@ Mods: {
 				DisplayName: Khepri's Sacrificial Elixir
 				Tooltip:
 					'''
-					'Magic infused potion once being used by the tribal that live in the temple long time ago'
+					'Magic infused药水 once being used by the tribal that live in the temple long time ago'
 					'Taking damage will restore 100 mana and sigil of scarabs will protect you'
 					'''
 			}
@@ -13911,7 +13911,7 @@ Mods: {
 			}
 
 			PhantomBloodPotion: {
-				DisplayName: Phantom Blood Potion
+				DisplayName: Phantom Blood药水
 				Tooltip:
 					'''
 					Consuming it will teleport you to your death location
@@ -13920,7 +13920,7 @@ Mods: {
 			}
 
 			RedBullPotion: {
-				DisplayName: Red Bull Potion
+				DisplayName: Red Bull药水
 				Tooltip: ""
 			}
 
@@ -13943,7 +13943,7 @@ Mods: {
 			}
 
 			StarSealerPotion: {
-				DisplayName: Star Sealer Potion
+				DisplayName: Star Sealer药水
 				Tooltip:
 					'''
 					Taking damage will cause stars to fall
@@ -13952,7 +13952,7 @@ Mods: {
 			}
 
 			StinguardPotion: {
-				DisplayName: Stinguard Potion
+				DisplayName: Stinguard药水
 				Tooltip:
 					'''
 					'Caution, may contain small strings'
@@ -14031,9 +14031,9 @@ Mods: {
 					'''
 					[c/FF00FF:Artifact]
 					'Every winter has its spring and every night has its morning'
-					It can be placed to altar of darkness with RC to its tile while select this item in hotbar or can be consumed by normal use
+					It can be placed to altar of darkness with <right>to its tile while select this item in hotbar or can be consumed by normal use
 					After its placed it will cause the altar to give the enchanted prefix to any chosen stave type magic weapon
-					By enchanting player must RC to altar of darkness tile while select item to enchant in hotbar
+					By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar
 					If the magic weapon is not a stave it will curse the weapon
 					Press binded info key while this item being selected in hotbar to get more information about the stave magic prefixes
 					Check book of botany for more info
@@ -14091,9 +14091,9 @@ Mods: {
 				DisplayName: Void in a Bottle
 				Tooltip:
 					'''
-					'It will nullifes the debuffs you have but drinking it will give potion sickness for 1 minute'
+					'It will nullifes the debuffs you have but drinking it will give药水 sickness for 1 minute'
 					'It will also nullifies your defense and life regen and takes 40 life'
-					'It can only be usable while you don't have potion sickness'
+					'It can only be usable while you don't have药水 sickness'
 					'''
 			}
 
@@ -14114,9 +14114,9 @@ Mods: {
 				DisplayName: Blessed Red Hat
 				Tooltip:
 					'''
-					'It was once formed and then blessed by an ancient warlord.'
+					'It was once formed and then blessed by an 亘古领主.'
 					'Even it wears a red hat.'
-					'While it's in your inventory it may make other npcs become enthusiasts and remember ancient warlord.'
+					'While it's in your inventory it may make other npcs become enthusiasts and remember 亘古领主.'
 					'Also having it inside of your inventory will make you hear the legendary intro upon entering your world'
 					'''
 			}
@@ -14229,7 +14229,7 @@ Mods: {
 				DisplayName: Blessed Heart
 				Tooltip:
 					'''
-					'It was once formed from the kindness of ancient warlord Blossom.'
+					'It was once formed from the kindness of 亘古领主 Blossom.'
 					'It still cares about her nation and wants to protect them.'
 					'When used lord Blossom will bless your soul for 4 seconds and it have 1 minute cooldown.'
 					'The blessing will reflect the projectiles and increase your life regen slightly.'
@@ -14252,7 +14252,7 @@ Mods: {
 				Tooltip:
 					'''
 					You feel you are not alone
-					'When you use it with LC while the rune is in you inventory
+					'When you use it with <left>while the rune is in you inventory
 					all vanilla pets will follow you. You can disable them by using RC.'
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -14468,7 +14468,7 @@ Mods: {
 					'Critical hits will make player give blood and rapid healing buffs for 3 second'
 					'It will allow player to grow bat wings that can fly for 2 seconds and if player have wings it will increase max flight time by 0.5 second'
 					'Critical hits will form blood notes around the player that will stay for 6 seconds'
-					'Upon using with RC will shoot these notes to players mouse direction'
+					'Upon using with <right>will shoot these notes to players mouse direction'
 					'Upon hitting enemy blood notes will inflict boiling blood and heal player by 1 and there can be maximum 6 blood notes'
 					'''
 			}
@@ -14537,11 +14537,11 @@ Mods: {
 			}
 
 			IceFairyDust: {
-				DisplayName: Ice Fairy Dust
+				DisplayName: 冰精灵尘
 				Tooltip:
 					'''
-					'Cryo-freezes anything it touches'
-					freezes both nonboss enemies as well as water
+					'将其接触的任何东西都低温冷冻'
+					冻结非Boss敌人和水
 					'''
 			}
 
@@ -14766,9 +14766,9 @@ Mods: {
 				Tooltip:
 					'''
 					'I've got a DELICIOUS treat for you. A truly DELUXE delight'
-					'Great for impersonating kind spriters!'
-					LC swing the hammer while RC does a jump slam
-					RC form an explosion pillar with 30 second cooldown
+					'非常适合模仿模组的画师！'
+					<left>swing the hammer while <right>does a jump slam
+					<right>form an explosion pillar with 30 second cooldown
 					'''
 			}
 
@@ -14867,71 +14867,72 @@ Mods: {
 			}
 
 			BloodyGrasp: {
-				DisplayName: Bloody Grasp
+				DisplayName: 血腥之爪
 				Tooltip:
 					'''
-					'It seems they keep the remnants of their queen'
-					But still sadly taking down their queen will only increase their rage
-					Upon touch any enemy it will hook that enemy closer until a certain distance
-					Bosses are immune to this effect
+					'他们似乎保留了女王的残骸
+					但遗憾的是，击倒他们的女王只会增加他们的愤怒'
+					Boss 对此效果免疫
+					将触碰的敌人拉到距离玩家固定距离的位置
 					'''
 			}
 
 			Drogger: {
-				DisplayName: Drogger
+				DisplayName: 蛙钩
 				Tooltip:
 					'''
-					'An elegant member of 	Salientia that fed upon birds and small harpies'
-					While under water its hook distance and speed greatly increase and due to its skin get dry it will have less distance and slower on land
+					''一种优雅的生物，以鸟类和小精灵为食'
+					在水下时，钩爪的距离和速度大幅增加
+					在陆地上，由于其皮肤变干，钩爪的距离较短且速度较慢
 					'''
 			}
 
 			FrostBiter: {
-				DisplayName: Frost Biter
+				DisplayName: 霜噬钩
 				Tooltip:
 					'''
-					'A parasitic life form that founds cryo-hosts and feast upon their magical essense'
-					While pressing hook button it will continue to move until it touches tile and then hook the player
-					When being stopped to pressing hook button it will form a magical ice block in that position and pull player towards that
+					'一种寄生生物，寻找低温宿主并以他们的魔法本源为食'
+					按下 抓钩键 时，向外发射钩爪
+					松开 抓钩键 时，在钩爪到达的位置生成一个魔法冰块，将玩家拉向该冰块
 					'''
 			}
 
 			GrapplingLauncher: {
-				DisplayName: Grappling Launcher
+				DisplayName: 叉钩
 				Tooltip:
 					'''
-					Can pull enemies, items or other players
-					Upon being pulled enemy that do contact damage will take 300% damage reflection
+					可以拉扯敌人、物品或其他玩家
+					玩家被拉住时反弹 300% 的伤害
 					'''
 			}
 
 			MechanicalGrapplingHook: {
-				DisplayName: Mechanical Grappling Hook
+				DisplayName: 机械钩
 				Tooltip:
 					'''
-					'Getting Over It'
-					Damages enemies upon touch + pulls grant player 150% damage reflection
+					'越过它'
+					对接触的敌人造成伤害，玩家被拉住时反弹 150% 的伤害
 					'''
 			}
 
 			PurpleHermit: {
-				DisplayName: Hermit Purple
+				DisplayName: 隐士紫罗兰钩
 				Tooltip:
 					'''
-					'A spiritual plant being empowered with hamon'
-					Upon touch burns enemies with hamon + can pull items and other players to itself
-					pulls grant player 400% damage reflection + covers player with protective hamon
+					'一种受到波纹力量增强的灵性植物'
+					用波纹燃烧接触的敌人，可以拉扯物品和其他玩家
+					玩家被拉住时反弹 400% 的伤害，并用波纹保护玩家
 					'''
 			}
 
 			ShadowHand: {
-				DisplayName: Shadow Hand
+				DisplayName: 暗夜之手
 				Tooltip:
 					'''
-					A nightmare creature being freed from the Codex Umbra by the puppet master
-					When hooks any tile it keep player in its current position
-					When it get deattach it pull player towards that tile + give shadow slam which causes shield bonk
-					This ability causes major ability cooldown for 5 seconds
+					由傀儡大师从暗影典籍中释放出来的噩梦生物
+					钩住任何方块时，玩家将立刻悬吊在当前位置
+					分离时，它会将玩家拉向该方块并施放暗影猛击，造成盾牌撞击
+					此能力会增加 5 秒塔罗牌能力冷却
 					'''
 			}
 
@@ -14939,7 +14940,7 @@ Mods: {
 				DisplayName: Alchemist's Glove
 				Tooltip:
 					'''
-					'When used player will throw the first found potion inside of players inventory'
+					'When used player will throw the first found药水 inside of players inventory'
 					'When the bottle explodes it will form a cloud which will inflict that buff with 75% duration and this cloud last for 2.5 seconds'
 					'''
 			}
@@ -14948,7 +14949,7 @@ Mods: {
 				DisplayName: Blessed Banana
 				Tooltip:
 					'''
-					'It was once formed from the kindness and power of ancient warlord loverofgames.'
+					'It was once formed from the kindness and power of 亘古领主 loverofgames.'
 					'You feel strong spiritual power comes from it.'
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -14968,7 +14969,7 @@ Mods: {
 				DisplayName: Book of Ancient Knowledge
 				Tooltip:
 					'''
-					'It was once formed by ancient warlord Mendeleev to share her knowledge with her librarians.'
+					'It was once formed by 亘古领主 Mendeleev to share her knowledge with her librarians.'
 					'Using this item will search the adjusted word in the adjested wiki
 					''For adjusting word use '/searchwiki [Thing to Search]'
 					''For adjusting wiki use '/adjustwiki [Key word]'
@@ -15062,7 +15063,7 @@ Mods: {
 				Tooltip:
 					'''
 					Capable of returning everything zero
-					'It belongs to ancient warlord AFK'
+					'It belongs to 亘古领主 AFK'
 					'Using it will nullify every projectile'
 					'''
 			}
@@ -15073,11 +15074,11 @@ Mods: {
 					'''
 					It look like it's one of it's image of reality in this universe.
 					Even holding it makes you feel your body have been exist multiple place in space.
-					'LC allows you to teleport to the position of the mouse'
-					'RC + Up button teleport you back to home.'
-					'RC + down button teleport you to random location.'
-					'RC + left button teleport you to your death location.'
-					'RC + right button allow you to make blink'
+					'<left>allows you to teleport to the position of the mouse'
+					'<right>+ Up button teleport you back to home.'
+					'<right>+ down button teleport you to random location.'
+					'<right>+ left button teleport you to your death location.'
+					'<right>+ right button allow you to make blink'
 					'''
 			}
 
@@ -15114,8 +15115,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Schnell! Go get zem!'
-					With LC by first aid you can heal yoursef by 3 each time you use
-					With RC you will throw healing syringe
+					With <left>by first aid you can heal yoursef by 3 each time you use
+					With <right>you will throw healing syringe
 					'''
 			}
 
@@ -15154,7 +15155,7 @@ Mods: {
 				Tooltip:
 					'''
 					Contains endless amount of every liquid
-					With RC player cycle through water pour, honey pour, lava pour and liquid absorb
+					With <right>player cycle through water pour, honey pour, lava pour and liquid absorb
 					'''
 			}
 
@@ -15163,7 +15164,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's once used by SATLA-001 to mark the location of villages'
-					'When you LC you will mark your mouse position in the mark and when you RC you will clear the mark
+					'When you <left>you will mark your mouse position in the mark and when you <right>you will clear the mark
 					'When you mark a location it will show that location in the map
 					'''
 			}
@@ -15225,7 +15226,7 @@ Mods: {
 				Tooltip:
 					'''
 					Using the item on a note block will cycle through its insturment type with 13 different ones
-					Pressing RC will open an UI that show notes for some of the melodies
+					Pressing <right>will open an UI that show notes for some of the melodies
 					'''
 			}
 
@@ -15234,7 +15235,7 @@ Mods: {
 				Tooltip:
 					'''
 					Yeeting away often doesn't solve problem but it gives enough time for you to think
-					Using this item will put you inside of a cannon and pressing RC to shoot you to cannons direction
+					Using this item will put you inside of a cannon and pressing <right>to shoot you to cannons direction
 					After being shoot you cannot activate any special ability for 30 seconds
 					'''
 			}
@@ -15255,7 +15256,7 @@ Mods: {
 					'''
 					'Best for surprise hug trainings'
 					'Using it will spawn a training dummy that minions target and activate DPS meter'
-					'RC and any active boss will despawn the dummy'
+					'<right>and any active boss will despawn the dummy'
 					'''
 			}
 
@@ -15290,7 +15291,7 @@ Mods: {
 					'''
 					It seems now you have a guard
 					When used it will summon a royal guardian at your position
-					When used with RC it will despawn the royal guardian
+					When used with <right>it will despawn the royal guardian
 					You can buy ammo or sell things to royal guardian and he will attack enemies that are closer
 					There can be only 1 royal guard active and if he's not on any players screen he will despawn
 					'''
@@ -15336,7 +15337,7 @@ Mods: {
 					'''
 					'It's springs look strong'
 					'Let's the player jump a great height'
-					'Only one can be active at a time and RC to desummon'
+					'Only one can be active at a time and <right>to desummon'
 					'''
 			}
 
@@ -15399,7 +15400,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I lava mining but sadly they cannot stand my heat'
-					LC will allow you to throw the pickaxe and while its being thrown it will mine every tile that have less pickaxe power than it
+					<left>will allow you to throw the pickaxe and while its being thrown it will mine every tile that have less pickaxe power than it
 					True melee will inflict inferno and make explosion on enemy
 					'''
 			}
@@ -15409,7 +15410,7 @@ Mods: {
 				Tooltip:
 					'''
 					Mining with confetties
-					LC to mine and RC to celebrate and feel happy
+					<left>to mine and <right>to celebrate and feel happy
 					'''
 			}
 
@@ -15466,13 +15467,13 @@ Mods: {
 				DisplayName: Fury
 				Tooltip:
 					'''
-					It was once forged by ancient warlord Fury to shape his universe.
+					It was once forged by 亘古领主 Fury to shape his universe.
 					According to Skeledude hieroglyph it's forged in Cosmic Darkage.
-					'LC allows you to use it as pickaxe while RC activates special ability.'
-					'RC + Up button enlight your soul with ancient flames for 4 seconds.'
-					'RC + down button allows you to stop time for 5 seconds.'
-					'RC + left button allows you to forge with fury for 8 seconds.'
-					'RC + right button allows you to do otherworldly attack.'
+					'<left>allows you to use it as pickaxe while <right>activates special ability.'
+					'<right>+ Up button enlight your soul with ancient flames for 4 seconds.'
+					'<right>+ down button allows you to stop time for 5 seconds.'
+					'<right>+ left button allows you to forge with fury for 8 seconds.'
+					'<right>+ right button allows you to do otherworldly attack.'
 					'Special attacks have cooldown.'
 					'''
 			}
@@ -15482,7 +15483,7 @@ Mods: {
 				Tooltip:
 					'''
 					A shiny artifact once stolen by pirates
-					With RC you can send a golden slice which will transfer them to player upon touching them
+					With <right>you can send a golden slice which will transfer them to player upon touching them
 					Critical hits of pickaxe and wave inflict midas
 					While you are holding the pickaxe it will show you near treasures
 					'''
@@ -15502,9 +15503,9 @@ Mods: {
 				Tooltip:
 					'''
 					A blessed pickaxe once being used by royal miners of the kingdom
-					With RC you can send a golden slice which will pick items when it touches them
+					With <right>you can send a golden slice which will pick items when it touches them
 					True melee and wave hits inflict angelic flames
-					When you RC to the tile which is near to you it will show you how much pickaxe power you need to break it
+					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it
 					While you are holding the pickaxe it will show you near treasures, traps and enemies
 					'''
 			}
@@ -15519,7 +15520,7 @@ Mods: {
 				Tooltip:
 					'''
 					It seems the pickaxe is satisified with all of the terror that you have bring upon them
-					With RC you can unleash bloodseeker pickaxes blood lust upon your enemies
+					With <right>you can unleash bloodseeker pickaxes blood lust upon your enemies
 					While holding it dark energies will orbit you and you will take 10% less damage
 					'''
 			}
@@ -15545,7 +15546,7 @@ Mods: {
 				Tooltip:
 					'''
 					It contains Piezoelectric sensors on it's head
-					When you RC to the tile which is near to you it will show you how much pickaxe power you need to break it and do not damage tile
+					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it and do not damage tile
 					'''
 			}
 
@@ -15554,9 +15555,9 @@ Mods: {
 				Tooltip:
 					'''
 					One pickaxe to mine them all
-					When you RC while pressing down button you will send a terra slice which will pick items when it touches them
-					When you RC to the tile which is near to you it will show you how much pickaxe power you need to break it
-					With RC you can unleash bloodseeker pickaxes blood lust upon your enemies
+					When you <right>while pressing down button you will send a terra slice which will pick items when it touches them
+					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it
+					With <right>you can unleash bloodseeker pickaxes blood lust upon your enemies
 					While holding it terra energies will orbit you and you will take 10% less damage
 					While you are holding the pickaxe it will show you near treasures, traps and enemies
 					'''
@@ -15696,7 +15697,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You will never find time for anything. If you want time you must make it'
-					RC and LC changes shift of time
+					<right>and <left>changes shift of time
 					'''
 			}
 
@@ -15783,8 +15784,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Terrarian another dimension'
-					LC control day & time, pure RC control blood moon + eclipse
-					RC + down control pumpkin moon, RC + up control frost moon
+					<left>control day & time, pure <right>control blood moon + eclipse
+					<right>+ down control pumpkin moon, <right>+ up control frost moon
 					Each have 20 second cooldown
 					'''
 			}
@@ -15794,7 +15795,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You are not sure if you are carrying it or it carries you'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped upon taken damage value is higher than 100 it will protect player instead with a cooldown
 					'''
 			}
@@ -15804,7 +15805,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The true out-of-body experience!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped upon death a ghost will be released which can attack to mouse direction + follows mouse location
 					It despawns with players respawn and player can attack by using RC
 					'''
@@ -15815,7 +15816,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You donOt know the power of the data corruption! It can return the kindest creature into  the most bloodlusted one'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped accessories have a higher chance to get warding as prefix
 					'''
 			}
@@ -15825,7 +15826,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Catching a fly ball is a pleasure, but knowing what to do with it after you catch it is a business'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped baseball ammo have a chance to recoverable + missing balls have a chance to not cause any penalty
 					'''
 			}
@@ -15835,7 +15836,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Instant energy!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped upon having 0 or less than hold items mana requirement players mana get instantly filled
 					This will not give mana sickness but it have a chance to overheat and make an explosion which hurt both player and any close enemy
 					When overheat occur its ability get deactivated
@@ -15853,7 +15854,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Bounce Away'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped upon enemy contact there is 10% chance to not take damage and dynamic bounce enemy
 					Upon it does contact damage to another close enemy both take damage + makes bounces mightier
 					'''
@@ -15864,7 +15865,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Pop! Pop!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped each vanilla or afkpets used bomb become 10% chance to become recoverable
 					'''
 			}
@@ -15874,7 +15875,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Blood sample of a [c/FF1493:joyful] assassin'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped it cause each healing source heal 1 more but life regen decrease by 1
 					'''
 			}
@@ -15884,7 +15885,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Stay for some hammer you must'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					Equipping it give +4 true damage to each attack which bypass defense and enemy DR
 					'''
 			}
@@ -15894,7 +15895,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This cute little slime only knows one word : Higher!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped all afkpets bounce type damage increase by 100%
 					'''
 			}
@@ -15904,7 +15905,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's best to keep an eye on this abomination'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped regen walking pentalty and being stopped bonus will be removed
 					It will also grant immunity against mental based debuffs + bleeding
 					'''
@@ -15915,7 +15916,7 @@ Mods: {
 				Tooltip:
 					'''
 					'All art is autobiographical, the pearl is the oyster�s autobiography'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped hooks emit strong light that inflict bioluminescence to close enemies
 					'''
 			}
@@ -15925,7 +15926,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It takes great courage to pick up a sword, greater courage not to use it'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped true melee weapons become 50% bigger and non melee weapons shoot projectile twice faster
 					'''
 			}
@@ -15935,7 +15936,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks cursed'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped it will decrease players stats
 					Throwing it to lava or making a nice cozy bath in lava while its being equipped will make it return back to normal
 					'''
@@ -15946,7 +15947,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This signifies your friendship with the lost soul'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain 饼干板条箱s actual treasure
 					Still be careful to not burn it with any extra hot sauce in front of your new friend or she may get real upset
 					'''
@@ -15957,7 +15958,7 @@ Mods: {
 				Tooltip:
 					'''
 					'New power is rising. There will be no dawn'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped damage multiplier is being effected by the distance of enemy, closer it is the greater damage become and vice versa
 					'''
 			}
@@ -15967,7 +15968,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Ancient power'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
 					'''
 			}
@@ -15977,7 +15978,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You better bet that my cupcakes are going to be the best part of the whole event!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped consuming food sources or cookies will give additional hyperactive buff
 					This cause your mouse jitter but weapons have 25% chance to shoot additional inaccurate projectile
 					'''
@@ -15988,7 +15989,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Brace yourself, summer sales are coming!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped decreases nurse and reforge costs by 25%
 					'''
 			}
@@ -15998,7 +15999,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Caution: May Contain Highly Corrosive Chemical'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped every 10 second player get either a 10 second buff or nondamaging debuff
 					'''
 			}
@@ -16008,7 +16009,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Best to connect with your friends'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped electric arc may appear between player and minion or between minions
 					'''
 			}
@@ -16018,7 +16019,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The fire within me burns eternal, and now yours as well!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped all weapon classes gain new ability
 					When taking damage it have a chance to lose its heat which player need to make it gain its heat again
 					'''
@@ -16029,7 +16030,7 @@ Mods: {
 				Tooltip:
 					'''
 					'EWW, it stinks'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					'While being equipped periodically spawn flies from hook + any fish loot may have additioal junk(You get normal loot + 1 junk along with it)
 					'''
 			}
@@ -16039,7 +16040,7 @@ Mods: {
 				Tooltip:
 					'''
 					'If there is magic on this planet, it is contained in water'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped while player have wet debuff or while raining it count player submerged with liquid
 					'''
 			}
@@ -16049,7 +16050,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Gotta kick those sinners'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped increases momentum + moving on a solid tile shoots dirt and stone shards backwards
 					'''
 			}
@@ -16059,7 +16060,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Aww, these are so cozy and cute'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped player gain immunity against spikes and hot blocks
 					'''
 			}
@@ -16069,7 +16070,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Contain remnants of the 梦魇史莱姆'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped fear inflicted enemies stay feared unless npc reaches the debuff limit
 					Feared enemies may get horror which have a chance to inflict fear to close enemies
 					'''
@@ -16080,7 +16081,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Nobody blinks!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped it allow player to form lightning dash
 					This allow player to bypass projectiles + slam enemies which form lightning bolts
 					'''
@@ -16091,7 +16092,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I could hear you...breathing'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped players negative life regen reflected to every enemy on screen as a true DoT
 					True DoT amount equals to life regen amount * 2
 					'''
@@ -16102,7 +16103,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Protection of the forsaken wisdom'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped npcs will not die when they are sacrificed by death's ???
 					'''
 			}
@@ -16112,7 +16113,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Defense of the Ancients'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being  equipped enemy projectile have 8% chance to be reflected back
 					'''
 			}
@@ -16122,7 +16123,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even the very wise cannot see all ends'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					It can be used as a normal item to check the answer of magic 8 ball
 					While being equipped activating tarot card effect have 15% chance to not give any cooldown
 					'''
@@ -16133,7 +16134,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Stick it to 'em'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped bat home run strikes will spawn additional nails which stick to enemy
 					Striking these nails with bat slam will do additional damage with respect to bats base damage
 					If [c/ffff00:Doctor's Monocle] is equipped upon sticking to enemy they will do true DoT
@@ -16145,7 +16146,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Cute lil friends'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped using any throwing based item has a chance to throw additional egg sacks that burst into tiny bugs
 					'''
 			}
@@ -16155,7 +16156,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sir AFK please add details'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped treasure bags have a small chance to glitch out and form secondary one that glitches in world
 					If player manage to kill it before it despawn player get additional treasure bag
 					'''
@@ -16166,7 +16167,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What this game needs is a few thrills. Don't you agree?'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped each time player take an item from ground it have 50% chance to double its amount and 50% chance to nullify it
 					'''
 			}
@@ -16176,7 +16177,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The greatest victory is that which requires no battle
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped increase efficiency by 1
 					'''
 			}
@@ -16186,7 +16187,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sadly evading taxes is not included'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped taking damage it has a chance to give money
 					'''
 			}
@@ -16195,7 +16196,7 @@ Mods: {
 				DisplayName: Prize Bounty
 				Tooltip:
 					'''
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					Equipping it make every afkpets or vanilla boss纪念章 drop chance increase by 10%
 					'''
 			}
@@ -16205,7 +16206,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Here comes a new challenger'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped enemies have a chance to become elite enemy which increase their stats + make them drop their loot 2 times
 					'''
 			}
@@ -16215,7 +16216,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you are officially a monster in bunny kingdom'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped accessories have a higher chance to get lucky as prefix
 					'''
 			}
@@ -16225,7 +16226,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Contains truth table and database for some of microprocessors'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped It will call a defense drone that will mark players mouse to control afkpets aiming sentries direction
 					If player uses wrangler it will instead periodically shoot energy bolts to mouse direction
 					'''
@@ -16236,7 +16237,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Things become much prettier when they are covered in red'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped melee hits have 25% chance and true melee hits have 50% chance to bleed enemy
 					'''
 			}
@@ -16246,7 +16247,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Have an anchor so that life doesn't toss you around'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped movement penalty in sea will be removed
 					'''
 			}
@@ -16256,7 +16257,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A key to radiant purification'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped player gain 75% DR against jungle traps
 					'''
 			}
@@ -16267,7 +16268,7 @@ Mods: {
 					'''
 					'REEROLLLLL!'
 					'(USE AT YOUR OWN RISK)'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped it will make every projectile spawned have id of normal spawned one -1
 					'''
 			}
@@ -16277,7 +16278,7 @@ Mods: {
 				Tooltip:
 					'''
 					'When he grows up he want to be a hero just like you'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped increase true life regen by 1 every 5 seconds while player is regenerating hp
 					Resets on max hp, taking damage or when player have life regen less than 0
 
@@ -16294,7 +16295,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A common artifact being carried by many necromancers'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped at respawn player gain regen buff + have 25% more hp than its current respawn hp
 					'''
 			}
@@ -16304,7 +16305,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Find your inner peace'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped each immunity frame have 20% chance to not get consumed and continue
 					'''
 			}
@@ -16314,7 +16315,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Legends tell it belongs to the era which moon does not exist'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped it will give player dryad's blessing buff
 					'''
 			}
@@ -16324,7 +16325,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This is the greatest plan!'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped every afk pets transformation gain new ability
 					'''
 			}
@@ -16334,7 +16335,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It needs power'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped minor improvements to all stats when hp is full + mana cost get halved when mana is full
 					'''
 			}
@@ -16344,7 +16345,7 @@ Mods: {
 				Tooltip:
 					'''
 					'An ancient glass often being used for protection against both evil spirits and venomous animals'
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While equipped immunity to venom + under 25% max life all debuffs fade away 50% faster
 					'''
 			}
@@ -16354,7 +16355,7 @@ Mods: {
 				Tooltip:
 					'''
 					It may look small, but only it has the potential to become a queen
-					RC to the item to equip it and LC to its slot to get back
+					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped holding tools increase players defensive stats
 					'''
 			}
@@ -16380,27 +16381,27 @@ Mods: {
 			}
 
 			AncientBrainofCthulhuMask: {
-				DisplayName: Ancient Brain of Cthulhu面具
+				DisplayName: 古老的克苏鲁之脑面具
 				Tooltip: ""
 			}
 
 			AncientDynastyCostume: {
-				DisplayName: Ancient Dynasty Costume
+				DisplayName: 古老的Dynasty Costume
 				Tooltip: "'Elegants clothes that are once being used for generations'"
 			}
 
 			AncientDynastyHat: {
-				DisplayName: Ancient Dynasty Hat
+				DisplayName: 古老的Dynasty Hat
 				Tooltip: "'Elegants clothes that are once being used for generations'"
 			}
 
 			AncientDynastyPants: {
-				DisplayName: Ancient Dynasty Pants
+				DisplayName: 古老的Dynasty Pants
 				Tooltip: "'Elegants clothes that are once being used for generations'"
 			}
 
 			AncientEyeofCthulhuMask: {
-				DisplayName: Ancient Eye of Cthulhu面具
+				DisplayName: 古老的克苏鲁之眼面具
 				Tooltip: ""
 			}
 
@@ -16410,27 +16411,27 @@ Mods: {
 			}
 
 			AncientSatlaMask: {
-				DisplayName: Ancient S.A.T.L.A.-001面具
+				DisplayName: 古老的S.A.T.L.A.-001面具
 				Tooltip: ""
 			}
 
 			AncientSkeletronMask: {
-				DisplayName: Ancient Skeletron面具
+				DisplayName: 古老的骷髅王面具
 				Tooltip: ""
 			}
 
 			AncientSkeletronPrimeMask: {
-				DisplayName: Ancient Skeletron Prime面具
+				DisplayName: 古老的机械骷髅王面具
 				Tooltip: ""
 			}
 
 			AncientTwinMask: {
-				DisplayName: Ancient Twin面具
+				DisplayName: 古老的双子魔眼面具
 				Tooltip: ""
 			}
 
 			AncientWallofFleshMask: {
-				DisplayName: Ancient Wall of Flesh面具
+				DisplayName: 古老的血肉之墙面具
 				Tooltip: ""
 			}
 
@@ -16566,17 +16567,17 @@ Mods: {
 
 			DesignerDress: {
 				DisplayName: Designer's Dress
-				Tooltip: "'Could the feelings be teached?'"
+				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DesignerShoes: {
 				DisplayName: Designer's Shoes
-				Tooltip: "'Could the feelings be teached?'"
+				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DesignersMask: {
 				DisplayName: Designer's面具
-				Tooltip: "'Could the feelings be teached?'"
+				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DirndlBlouse: {
@@ -16591,17 +16592,17 @@ Mods: {
 
 			DragonBreastplate: {
 				DisplayName: Dragon Breastplate
-				Tooltip: "'Ceremonial armor of a fabled warrior'"
+				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			DragonGreaves: {
 				DisplayName: Dragon Greaves
-				Tooltip: "'Ceremonial armor of a fabled warrior'"
+				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			DragonMask: {
 				DisplayName: Dragon面具
-				Tooltip: "'Ceremonial armor of a fabled warrior'"
+				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			EyezorMask: {
@@ -16794,18 +16795,18 @@ Mods: {
 			}
 
 			HornedGodBoots: {
-				DisplayName: Horned God Boots
-				Tooltip: "'Remnant of an age of wonders'"
+				DisplayName: 蛮荒角神的靴子
+				Tooltip: "'奇迹时代的残迹'"
 			}
 
 			HornedGodMask: {
-				DisplayName: Horned God面具
-				Tooltip: "'Remnant of an age of wonders'"
+				DisplayName: 蛮荒角神的面具
+				Tooltip: "'奇迹时代的残迹'"
 			}
 
 			HornedGodRobe: {
-				DisplayName: Horned God Robe
-				Tooltip: "'Remnant of an age of wonders'"
+				DisplayName: 蛮荒角神的长袍
+				Tooltip: "'奇迹时代的残迹'"
 			}
 
 			HuntersMask: {
@@ -16872,7 +16873,7 @@ Mods: {
 				DisplayName: Judgement Breastplate
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
+					'非常适合模仿模组的 wiki 编辑者！'
 					'THE LIGHT IS PERFECTION!'
 					'''
 			}
@@ -16881,7 +16882,7 @@ Mods: {
 				DisplayName: Judgement Leggings
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
+					'非常适合模仿模组的 wiki 编辑者！'
 					'THE LIGHT IS PERFECTION!'
 					'''
 			}
@@ -16890,7 +16891,7 @@ Mods: {
 				DisplayName: Judgement面具
 				Tooltip:
 					'''
-					'Great for impersonating wiki lords!'
+					'非常适合模仿模组的 wiki 编辑者！'
 					'THE LIGHT IS PERFECTION!'
 					'''
 			}
@@ -16912,54 +16913,54 @@ Mods: {
 
 			MagicTimePunkCostume: {
 				DisplayName: Magic Time Punk Jacket and Shirt
-				Tooltip: "'Great for impersonating wiki lords!'"
+				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MagicTimePunkHead: {
 				DisplayName: Magic Time Punk面具
-				Tooltip: "'Great for impersonating wiki lords!'"
+				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MagicTimePunkShort: {
 				DisplayName: Magic Time Punk Short
-				Tooltip: "'Great for impersonating wiki lords!'"
+				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MajesticHair: {
 				DisplayName: Majestic Hair
-				Tooltip: "'Clothes of an ancient politician'"
+				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MajesticPants: {
 				DisplayName: Majestic Pants
-				Tooltip: "'Clothes of an ancient politician'"
+				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MajesticSuit: {
 				DisplayName: Majestic Suit
-				Tooltip: "'Clothes of an ancient politician'"
+				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MaxVanityBody: {
 				DisplayName: Scorched Justice Armor
-				Tooltip: "'Great for impersonating kind spriters!'"
+				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MaxVanityHead: {
 				DisplayName: Scorched Justice Hat
-				Tooltip: "'Great for impersonating kind spriters!'"
+				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MaxVanityPants: {
 				DisplayName: Scorched Justice Pants
-				Tooltip: "'Great for impersonating kind spriters!'"
+				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MendeleevCostume: {
 				DisplayName: Ancient One's Body
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'If you're wearing this, you have 10 seconds to beat it before nothing happens.'
 					'''
 			}
@@ -16968,7 +16969,7 @@ Mods: {
 				DisplayName: Ancient One's Head
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Wait, its a slime? Always have been.'
 					'''
 			}
@@ -16977,7 +16978,7 @@ Mods: {
 				DisplayName: Ancient One's Legs
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Be one with wisdom'
 					'''
 			}
@@ -17018,7 +17019,7 @@ Mods: {
 			}
 
 			MythicalRobe: {
-				DisplayName: Mythical Robe
+				DisplayName: Mythical长袍
 				Tooltip: ""
 			}
 
@@ -17026,7 +17027,7 @@ Mods: {
 				DisplayName: Night Fury Body
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Become one of the both fearsome and cutest dragon species in this universe'
 					'''
 			}
@@ -17035,7 +17036,7 @@ Mods: {
 				DisplayName: Night Fury Head
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Become one of the both fearsome and cutest dragon species in this universe'
 					'''
 			}
@@ -17044,13 +17045,13 @@ Mods: {
 				DisplayName: Night Fury Legs
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'Become one of the both fearsome and cutest dragon species in this universe'
 					'''
 			}
 
 			OcramMask: {
-				DisplayName: Ocram面具
+				DisplayName: 奥库瑞姆面具
 				Tooltip: ""
 			}
 
@@ -17100,7 +17101,7 @@ Mods: {
 			}
 
 			PurifiedRobe: {
-				DisplayName: Purified Robe
+				DisplayName: Purified长袍
 				Tooltip: ""
 			}
 
@@ -17437,8 +17438,8 @@ Mods: {
 					'''
 					'Smells like burnt ash'
 					Holding down the both of attack buttons will allow the bomb to phase through blocks
-					LC has the effects of the map reveal, herb placement and harvesting and enemy+item suction all in one!'
-					RC will break all of the blocks that require lower than 99% Pickaxe power or lower in a 101x101 area + map reveal
+					<left>has the effects of the map reveal, herb placement and harvesting and enemy+item suction all in one!'
+					<right>will break all of the blocks that require lower than 99% Pickaxe power or lower in a 101x101 area + map reveal
 					'''
 			}
 
@@ -17498,11 +17499,11 @@ Mods: {
 			}
 
 			FairyWand: {
-				DisplayName: Fairy Wand
+				DisplayName: 仙女棒
 				Tooltip:
 					'''
-					'Happiness just teardrop away'
-					LC on enemies return them into harmless critters while there is no boss active
+					'幸福只会泪流满面'
+					当没有Boss存活时，<left>敌人会将它们转化为无害生物
 					'''
 			}
 
@@ -17603,8 +17604,8 @@ Mods: {
 					'''
 					'The Dark Arts are many, varied, ever-changing, and eternal'
 					Upon held forms dark orbs that rotate around player + pressing attack button shoot them towards mouse direction
-					If [c/ffff00:Doctor's Monocle] is equipped with RC player can levitate in mouse direction that can pass through enemies
-					In RC it disable players auto mana usage and uses players own life if there is not enough mana
+					If [c/ffff00:Doctor's Monocle] is equipped with <right>player can levitate in mouse direction that can pass through enemies
+					In <right>it disable players auto mana usage and uses players own life if there is not enough mana
 					'''
 			}
 
@@ -17691,7 +17692,7 @@ Mods: {
 				Tooltip:
 					'''
 					Using it casts a chaos sphere that inflicta discordian mark which cause the enemy to get +5 true DoT
-					If player presses RC while holding weapon it will teleport npc to its mouse location
+					If player presses <right>while holding weapon it will teleport npc to its mouse location
 					When boss is teleported to mouse direction it will explode also spread unstable arcane energy bolts around
 					There can be max 1 active enemy could be cursed with discordian mark and bosses are immune to this effect
 					'''
@@ -17766,7 +17767,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's once belong to a hell raven'
-					LC does normal attack while RC does uncontainable nuclear reaction
+					<left>does normal attack while <right>does uncontainable nuclear reaction
 					'''
 			}
 
@@ -19206,7 +19207,7 @@ Mods: {
 			}
 
 			TheSpikeball: {
-				DisplayName: 尖刺球
+				DisplayName: 尖刺链球
 				Tooltip:
 					'''
 					'大男孩来啦！！！'
@@ -19352,8 +19353,8 @@ Mods: {
 				Tooltip:
 					'''
 					'The greater the storm, the brighter it's rainbow'
-					LC will shoot vanilla arrows with respect to rainbow colour order
-					RC Shoot an arrow of light which shatter into spectrum after hitting any enemy
+					<left>will shoot vanilla arrows with respect to rainbow colour order
+					<right>Shoot an arrow of light which shatter into spectrum after hitting any enemy
 					If not [c/ffff00:Secret Formula] is being equipped it will lost its true form
 					'''
 			}
@@ -19636,8 +19637,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Perfect weapon for protecting your families honour'
-					LC will shoot dual pistol while RC will throw a concentrated dynamite pack
-					If player is on ground RC will call the brothers to solve the problem in Sicilian style
+					<left>will shoot dual pistol while <right>will throw a concentrated dynamite pack
+					If player is on ground <right>will call the brothers to solve the problem in Sicilian style
 					This ability has 20 second cooldown + Their existance makes you feel stronger
 
 					'''
@@ -19648,7 +19649,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The sheriff wants you'
-					LC shots per click with higher damage and RC shots 6 semi inaccurate rounds with 2 second cooldown
+					<left>shots per click with higher damage and <right>shots 6 semi inaccurate rounds with 2 second cooldown
 					'''
 			}
 
@@ -19691,7 +19692,7 @@ Mods: {
 					'''
 					'Bigger they are easier they get for aim'
 					Normal attacks ignore 50%, crits ignore 100% defense + increases penetration of used bullet by 1
-					Hits inflict serious bleeding+ RC have snipe effect
+					Hits inflict serious bleeding+ <right>have snipe effect
 					'''
 			}
 
@@ -19702,7 +19703,7 @@ Mods: {
 					Once being used by legendary heroine Audrina to clean the world from primal ones
 					It's level will increase by using it and each 40 xp will increase by 1
 					It can have maximum 3 level and taking hit will decrease its xp
-					If its level is higher than 1 with RC player can activate its special attack
+					If its level is higher than 1 with <right>player can activate its special attack
 					Level 2 will form a laser that will penetrate multiple enemy and imbue them with highly explosive chemicals
 					Level 3 will form a terra wave that will reflect projectiles with 50% increased damage but it will eat its penetration
 					If player have less than 15% life it will call a queen bee to fight for you
@@ -19713,7 +19714,7 @@ Mods: {
 				DisplayName: Bringer of Ancient Wisdom
 				Tooltip:
 					'''
-					It was once forged from the void and by ancient warlord Blossom.
+					It was once forged from the void and by 亘古领主 Blossom.
 					It still cares about its warlord.
 					It sacrifices your life to form a light from concentrated knowledge of his lord.
 					The knowledge it shoots overload enemies brain and causes functionality loss.
@@ -19758,10 +19759,10 @@ Mods: {
 				DisplayName: Dragun's Breath
 				Tooltip:
 					'''
-					'Great for impersonating kind spriters!'
+					'非常适合模仿模组的画师！'
 					Convert bullets to scorch shots
 					Each fourth attack will send a flaming skull that will home to enemies and hits will decrease their defense
-					RC allow player to swing it and critical hit swing will send a small wave
+					<right>allow player to swing it and critical hit swing will send a small wave
 					'''
 			}
 
@@ -19770,8 +19771,8 @@ Mods: {
 				Tooltip:
 					'''
 					'For there is no folly of the beast of the earth which is not infinitely outdone by the madness of men'
-					RC to shoot bullet spewing typhoon
-					LC to shoot an aquatic core with cooldown
+					<right>to shoot bullet spewing typhoon
+					<left>to shoot an aquatic core with cooldown
 					Increases stats while being covered with water
 					'''
 			}
@@ -19781,7 +19782,7 @@ Mods: {
 				Tooltip:
 					'''
 					This Teigu once belong to Mine
-					RC will activate Pumpkin's sniper mode while LC activates semi-automatic mode
+					<right>will activate Pumpkin's sniper mode while <left>activates semi-automatic mode
 					'''
 			}
 
@@ -19864,7 +19865,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Bring pain -- one bounce at a time!'
-					RC will shoot concentrated gel mass which will form slime block upon touching any tile and LC will shoot less concentrated gel mass
+					<right>will shoot concentrated gel mass which will form slime block upon touching any tile and <left>will shoot less concentrated gel mass
 					This gel will not form gel block upon touch any tile while upon hit any enemy it will shatter into smaller less concentrated gel
 					Uses gel as ammo
 					'''
@@ -19894,7 +19895,7 @@ Mods: {
 					'''
 					'The thrill of the hunt... The promise of payment...'
 					Upon being held it will form a aim on top of players cursor
-					When LC is being pressed it will cause a area shot on the mouse direction
+					When <left>is being pressed it will cause a area shot on the mouse direction
 					While weapon is being held there is a small chance for purple headed ducks to fly above player
 					When player shoot any of these ducks they drop a soul heart that get shatter in 5 second + give player hunters rampage
 					This buff will empower your shots along with cause all of your guns hits inflict fear
@@ -19929,8 +19930,8 @@ Mods: {
 					'In the end, every plan relies upon a strong arm, and tempered steel'
 					Holding charge the sawblade + releasing will make it rirochet from tiles and slash enemies
 					Full charge gets indicated with sound
-					If [c/ffff00:Doctor's Monocle] is equipped it gain a RC ability which will slash the mincer with its back chain
-					RC to its item to convert it to close ranged form
+					If [c/ffff00:Doctor's Monocle] is equipped it gain a <right>ability which will slash the mincer with its back chain
+					<right>to its item to convert it to close ranged form
 					'''
 			}
 
@@ -20014,7 +20015,7 @@ Mods: {
 					'They can run but they will only die tired'
 					It will convert prototype rockets and rocket I's into homing rockets
 					If [c/ffff00:Doctor's Monocle] is equipped upon homing rockets death it will explode into multiple lingering flames
-					RC to its item to convert it to close combat form
+					<right>to its item to convert it to close combat form
 					Requires rockets as ammo
 					'''
 			}
@@ -20077,7 +20078,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Valhalla awaits!'
-					While LC is being held player will charge the francisca and after 1 second it get fully charged
+					While <left>is being held player will charge the francisca and after 1 second it get fully charged
 					Charging will increase its damage, hit.Knockback, initial speed and momentum
 					It needs at least 0.25 second to be able to gain enough momentum to strike and it will also cut any tree that it touches
 					If rogue config is active and calamity is enabled in stealth you will throw fully empowered francisca without needing to charge
@@ -20224,7 +20225,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you know where is the lamb sauce'
-					It could be thrown with LC and can be drink with RC
+					It could be thrown with <left>and can be drink with RC
 					Upon drink you gain hell breath buff which make you breath flame for 5 seconds and this ability have 30 second cooldown
 					This breath is strong enough to melt any cookies even though they are formed via pure intentions
 					When thrown upon collide it will release the hells heat which both shatters defense and burns your enemies alive
@@ -20387,10 +20388,10 @@ Mods: {
 				Tooltip:
 					'''
 					Not only is this dagger stranger than we think, it is stranger than we can think
-					Hitting enemies with LC to any enemy will make its location shuffle with one of close non boss enemy enemy and hits will also decrease players chaos state debuff duration
-					RC will form chaos dagger and hitting any enemy with this will teleport you to random location
+					Hitting enemies with <left>to any enemy will make its location shuffle with one of close non boss enemy enemy and hits will also decrease players chaos state debuff duration
+					<right>will form chaos dagger and hitting any enemy with this will teleport you to random location
 					Due to it uses pieces of enemies soul as sacrifice you don't get chaos state debuf
-					If rogue config is active and calamity is enabled stealth hit with LC ability will collect every close non boss enemy to knife location
+					If rogue config is active and calamity is enabled stealth hit with <left>ability will collect every close non boss enemy to knife location
 					'''
 			}
 
@@ -20471,7 +20472,7 @@ Mods: {
 					'''
 					'What doesn't kill you, usually succeeds in the second attempt'
 					Summons a red crab to fight for you
-					Upon RC use this item on an sentry it will assign it to be carried by a red crab
+					Upon <right>use this item on an sentry it will assign it to be carried by a red crab
 					'''
 			}
 
@@ -20484,8 +20485,8 @@ Mods: {
 					Upon bite they inflict bio frenzy which cause enemies contact damage increase by 10% and also inform others about the prey belong to it
 					If enemy have immunity against it due to lack of chemical indicators multiple plant may target it and feast upon the fools flesh
 					Biting enemies have a small chance to inflict poison + upon killing any enemy they go into chewing state
-					They don't attack in this state but if player use item with RC they spit the flesh and bones to mouse location and go into frenzy state
-					If player do not use item with RC and instead wait after they swallow the remnants player get healed with it
+					They don't attack in this state but if player use item with <right>they spit the flesh and bones to mouse location and go into frenzy state
+					If player do not use item with <right>and instead wait after they swallow the remnants player get healed with it
 					'''
 			}
 
@@ -20506,7 +20507,7 @@ Mods: {
 					'''
 					'Hates yellow orbs'
 					Summons colored ghost squids to fight for you and upon their rival is active they get stronger
-					RC will cycle the closest ghost squid through its colours + Each ghost take half slot
+					<right>will cycle the closest ghost squid through its colours + Each ghost take half slot
 					'''
 			}
 
@@ -20548,11 +20549,11 @@ Mods: {
 					'''
 					'A relic once ripped from an Eldritch by a spirit for tooth fairy'
 					'After spirit realize that the fairy is killed by dentists to stop denture price devaluations it put it to other toys it have'
-					'Using it will summon Eye of Cthulhu to fight for you'
+					'Using it will summon 克苏鲁之眼 to fight for you'
 					'While players life is above 50% it will protect it's distance and summon it's servants'
 					'While players life is below 50% it will ram to it's enemies with increased damage and inflict fear'
 					'If it devours any enemy while player have less than 50% life player will be healed by 1'
-					'There can be only one Eye of Cthulhu active'
+					'There can be only one 克苏鲁之眼 active'
 					'''
 			}
 
@@ -20574,7 +20575,7 @@ Mods: {
 					'[Insert a Sexual Joke Here]'
 					Using it will summon a baby ichor sticker to fight for you
 					It will shoot overcharged ichor blast that cause splash after hitting any enemy
-					RC weapon use will make it accept enemy closest to mouse as appropriate host and latch into its brain
+					<right>weapon use will make it accept enemy closest to mouse as appropriate host and latch into its brain
 					When latch it cause its both DR and defense decrease and suck its blood to cause ichor shower
 					When its too far from player it stops its latch state and return into brawl state
 					'''
@@ -20632,7 +20633,7 @@ Mods: {
 					'''
 					'The Universe doesn't speak English. It speaks frequency'
 					Summons tiny bloodseeking drones to fight for you
-					If player have more than 2 active drone with RC player could merge 2 tiny drone into bigger one
+					If player have more than 2 active drone with <right>player could merge 2 tiny drone into bigger one
 					With respect to targets distance drones attack style changes
 					'''
 			}
@@ -20643,7 +20644,7 @@ Mods: {
 					'''
 					'My faith protects me'
 					Using it will spawn guardian and each use will level up it + each level cost half minion slot
-					Full shield formation give 5% increased side DR + RC make shield bash to player direction with 15 second cooldown
+					Full shield formation give 5% increased side DR + <right>make shield bash to player direction with 15 second cooldown
 					Minion will be able to damage enemies only while in full charge mode + it inflicts salvation
 					This will repel enemies + give first hit salvation effect along with reflecting projectiles
 					Each level along with increase max life by 10 + salvation shield charge faster
@@ -20672,7 +20673,7 @@ Mods: {
 					Aggressive: Dashes to enemies and occasionally stop and cause a barrage of homing rockets
 					Defensive: Get close to player and form energy shield + leave short timed sparks
 					This shield will increase players defense + DR
-					RC use the item will change its mode
+					<right>use the item will change its mode
 					'''
 			}
 
@@ -20692,7 +20693,7 @@ Mods: {
 					'''
 					'Favorite snacks include pellets and ghost'
 					Summons an asteroid head to eat your foes which cause player to get well fed upon successful consumption
-					RC item use player could generate pellet path from its location to mouse location if any of them is on screen
+					<right>item use player could generate pellet path from its location to mouse location if any of them is on screen
 					Final pellet is power pellet and upon consuming it asteroid head get stronger for a short time
 					The longer the path is the higher its duration + empowerment but this have 30 second cooldown
 					Upon its rivals are also summoned it will get stronger
@@ -20751,9 +20752,9 @@ Mods: {
 				Tooltip:
 					'''
 					I'm gonna beat you like a rented mule, boy!
-					LC hits inflict midas + hellfire and hitting aiming sentries empower them by 50%
-					By pressing RC player could hold the wrench and upon rotating mouse around player in circle player could charge it
-					After holding for 5 second it burns players hands or if player release RC player throw it to mouse direction
+					<left>hits inflict midas + hellfire and hitting aiming sentries empower them by 50%
+					By pressing <right>player could hold the wrench and upon rotating mouse around player in circle player could charge it
+					After holding for 5 second it burns players hands or if player release <right>player throw it to mouse direction
 					When fully charged it indicate with sound + dust along with get ability to return any hit non-boss enemy golden statues 
 					This cause them to cannot attack + lose all defense + hits generate money
 					This empowering will fade away over time
@@ -20766,8 +20767,8 @@ Mods: {
 					'''
 					'Anyone who thinks his story is anywhere near over is sadly mistaken'
 					Normal item uses will make every sentry explode violently
-					If [c/ffff00:Doctor's Monocle] is equipped it gain a RC use ability
-					RC use will put a saw blade between the sentry closest to player and one closest to mouse
+					If [c/ffff00:Doctor's Monocle] is equipped it gain a <right>use ability
+					<right>use will put a saw blade between the sentry closest to player and one closest to mouse
 					There can be max 1 sawblade active + it won't take any minion or sentry slot
 					'''
 			}
@@ -20819,7 +20820,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The army is waiting your order to strike'
-					'With RC it choose aiming sentry aim specification and with LC it will adjust it to active sentries'
+					'With <right>it choose aiming sentry aim specification and with <left>it will adjust it to active sentries'
 					It will toggle between aim closest, aim strongest and aim weakest
 					For aiming strongest bosses have priority and then look at the enemy with most hp
 					For aiming weakest it checks for the enemy with least hp
@@ -20859,8 +20860,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Yes! My name is quality, and I shall advent to be Cirno!'
-					RC + hold use on sentries allow player to carry them via mouse
-					LC use will summon a cirno doll to rain down diamond blizzard
+					<right>+ hold use on sentries allow player to carry them via mouse
+					<left>use will summon a cirno doll to rain down diamond blizzard
 					There can be max 1 cirno doll active
 					'''
 			}
@@ -20870,7 +20871,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Plant as many of those as you can and you'll be A-O-GOOD'
-					Normal use summons potted pal while LC use summons a potato mine
+					Normal use summons potted pal while <left>use summons a potato mine
 					Potato mines will take no sentry slot but there can be spawned until players max sentry amount
 					'''
 			}
@@ -20931,7 +20932,7 @@ Mods: {
 					'''
 					'It may cause functionality change on the iron maiden's main driver'
 					Using 召唤modified tiny iron maidens to lock upon players targets
-					RC will cycle them through mobile and fixed modes
+					<right>will cycle them through mobile and fixed modes
 					'''
 			}
 
@@ -20997,7 +20998,7 @@ Mods: {
 					'Aw man'
 					While holding it will summon 5 creeper that moves around you + using item make them dash to mouse direction
 					Upon hitting enemy they break its defense for short time + mark that enemy which cause minions to prioritize it
-					Player also leave illusionary shadow while moving + pressing RC make player teleport to that shadow
+					Player also leave illusionary shadow while moving + pressing <right>make player teleport to that shadow
 					This ability have 5 second cooldown + any enemy close to players pre teleport location get confused
 					'''
 			}
@@ -21007,9 +21008,9 @@ Mods: {
 				Tooltip:
 					'''
 					Still burns with Demon King Zerokks hate even after his death
-					RC will summon an ancient hellforge to the tile below your mouse direction which periodically summons fire elementals
-					LC will make them dash towards mouse which explode upon hitting any enemy as well as covering them with melting metal
-					Burns any enemy that is fool enough to get close to it + LC attacks both mark enemies as well as summons do 5% increased damage against them
+					<right>will summon an ancient hellforge to the tile below your mouse direction which periodically summons fire elementals
+					<left>will make them dash towards mouse which explode upon hitting any enemy as well as covering them with melting metal
+					Burns any enemy that is fool enough to get close to it + <left>attacks both mark enemies as well as summons do 5% increased damage against them
 					'''
 			}
 
@@ -21051,7 +21052,7 @@ Mods: {
 					'A photon transmitter device that is being used by martian scouts to send planets parameters to the base'
 					'Ironically S.A.T.L.A.-001 eliminated those scouts to keep its toys but only deactivate these as it feel emphaty to them'
 					While holding 召唤a tiny martian saucer to wait your order
-					LC will form laser while RC make it mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
+					<left>will form laser while <right>make it mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
 					If it mark any sentry it will carry that sentry with itself but while its carrying it instead shoot electric bolts
 					'''
 			}
@@ -21062,9 +21063,9 @@ Mods: {
 					'''
 					'Cursed?'
 					While holding summons its previous user to fight on your side
-					RC throws netherite barbed harpoons that home into enemies and stick
+					<right>throws netherite barbed harpoons that home into enemies and stick
 					This increase damage taken from summons by 10% + there can max 3 and upon limit is exceeded oldest one explodes
-					LC makes it attack with a haunted spear to mouse direction + hits generate additional haunted spears around
+					<left>makes it attack with a haunted spear to mouse direction + hits generate additional haunted spears around
 					'''
 			}
 
@@ -21074,7 +21075,7 @@ Mods: {
 					'''
 					'Valhalla awaits!'
 					While holding 召唤a cloud elemental to strike upon your enemies
-					While LC use it attacks to mouse location and it empowered or weakened by weather
+					While <left>use it attacks to mouse location and it empowered or weakened by weather
 					While close to afkpets aiming sentries it may cause them to get statically charged
 					'''
 			}
@@ -21107,7 +21108,7 @@ Mods: {
 					'His body may left but his angelic soul is still watching you faithfully'
 					If he's on screen taking damage will purr-ify players soul that gives player protection against death for 2 second + rapid healing for 4 seconds
 					This effect have 4 second cooldown
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21120,7 +21121,7 @@ Mods: {
 					Upon use it will call an aquatic maid to form bubble around herself on mouse location
 					While player is in bubble player gain air + she can survive only in water
 					While any pickup drop near her she form bubbles to carry them to player
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21132,7 +21133,7 @@ Mods: {
 					'What a gift to relish, a victim that can't perish'
 					Summons a tiny skeleton to both curse and cast dark magic your foes
 					Minion based projectiles home to cursed foes along with their hits both penetrate armor + have a chance to inflict shadowflames
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21145,7 +21146,7 @@ Mods: {
 					召唤an illusionary tower which buff sentries + minions in its area
 					Each summoner shoot based attack gain 10% increased damage + 20% speed
 					Sentry time will not decrease + minion attacks have 20% chance to inflict confused
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21159,7 +21160,7 @@ Mods: {
 					-Death: All enemies that have less than 10% life have a chance to be instakilled by minion attacks
 					-Misfortune:All minion based attacks inflict venom + home to enemies
 					-Rage: A specimen will protect her + tortured souls will rise from below around her periodically
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21174,7 +21175,7 @@ Mods: {
 					Cooldown of afkpets aiming sentries in its area greatly decrease
 					Every minion projectile hit in his area will now have a chance to inflict explosive chemical
 					When player take damage while the soul is on screen it explode into a highly radioactive area and there can be only 1 active at a time
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21187,7 +21188,7 @@ Mods: {
 					Upon use it will call a Chochin-Obake that hang on the ceiling with respect to mouse direction
 					While player is in its area player gain ability to detect close treasure + danger sources
 					Minion contact hits in its area have a high chance to generate low life lingering flame
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21199,7 +21200,7 @@ Mods: {
 					Upon use it will call a Star Angel to enlight your soul
 					While a star angel is in players screen player get varioun blessings and at lower health gets additional one
 					It periodically generates constellations that attack close enemies
-					Only one supporter soul can be active at a time and RC to desummon
+					Only one supporter soul can be active at a time and <right>to desummon
 					'''
 			}
 
@@ -21223,7 +21224,7 @@ Mods: {
 					'Using it will transform you into a mechanical observer'
 					'When transformed you can press attack button to do attack but with respect to your charge level you can do stronger attacks'
 					'The charge level will be shown above head and the change of colour in charge meter means stornger attack will be done'
-					'RC will allow you to teleport to your mouse direction with 5 second cooldown along and it unlocks when transformation time > 5 second'
+					'<right>will allow you to teleport to your mouse direction with 5 second cooldown along and it unlocks when transformation time > 5 second'
 					'''
 			}
 
@@ -21278,8 +21279,8 @@ Mods: {
 					'''
 					Let their fear consume them
 					'It allows you to transform into a beast'
-					'When transformed if you RC the beast will dash into that direction wit 100% increased damge and it have 1 second cooldown'
-					'LC will allow you to breath poisonous flames'
+					'When transformed if you <right>the beast will dash into that direction wit 100% increased damge and it have 1 second cooldown'
+					'<left>will allow you to breath poisonous flames'
 					'''
 			}
 
@@ -21316,7 +21317,7 @@ Mods: {
 				DisplayName: Long Cat
 				Tooltip:
 					'''
-					'Great for impersonating rad guys!'
+					'非常适合模仿酷炫的家伙！'
 					'L O N G'
 					Hitting enemies will cause cat to scratch and make them bleed
 					If its not favourited due to sadness it will be a bad kitty and also hurt friendly npcs
@@ -21342,7 +21343,7 @@ Mods: {
 					Hits may inflict rot out + gives 5% increased summon tag damage
 					Rot out debuff weaken enemy along with giving slight true DoT
 					Upon death enemies with poison debuff have a chance to leave poisonous husk which explode after some time
-					RC will make them explode instantly
+					<right>will make them explode instantly
 					'''
 			}
 
@@ -21351,8 +21352,8 @@ Mods: {
 				Tooltip:
 					'''
 					Strangely it's accepted you as it's master
-					With LC you can throw BUN to get em
-					With RC it can jumpscare any enemy near to you with a 30 second cooldown
+					With <left>you can throw BUN to get em
+					With <right>it can jumpscare any enemy near to you with a 30 second cooldown
 					Bosses are immune to this attack
 					If rogue support is enabled it will jumpscare any close enemy for 4 second
 					'''
@@ -21377,7 +21378,7 @@ Mods: {
 					You hope there is no moth inside of this one
 					It seeks blood of the damned but still cultist blood is more preferable
 					When it hits to an enemy it boil their blood and shatter their mind
-					RC will cause it to change it's velocity to your mouse direction
+					<right>will cause it to change it's velocity to your mouse direction
 					When it changes it's direction it will also form a mirror image that will move in previous path for a short time
 					After it hits 4 enemy it will be satisfied with the blood and return back
 					Your critical hits will shatter mind of your enemies for a short time and bosses are immune to this effect
@@ -21412,7 +21413,7 @@ Mods: {
 				Tooltip:
 					'''
 					Legends tell its bubbles are remains of an fallen civilizations
-					RC will make player shake it before send to enemy
+					<right>will make player shake it before send to enemy
 					'''
 			}
 
@@ -22639,7 +22640,7 @@ Mods: {
 			Fallen2.DisplayName: Fallen2
 			Fallen3.DisplayName: Fallen3
 			farfetchd.DisplayName: farfetchd
-			FemaleAncientWarlord.DisplayName: Female Ancient Warlord
+			FemaleAncientWarlord.DisplayName: Female 亘古领主
 			FinalEffect5.DisplayName: Final Effect5
 			FinalPacmanMinion.DisplayName: Final Pacman Minion
 			Flandre.DisplayName: Flandre
@@ -23014,7 +23015,7 @@ Mods: {
 			ParasoulHeld2.DisplayName: Parasoul Held2
 			PoisonLeaf.DisplayName: Poison Leaf
 			PortableCannon.DisplayName: Portable Cannon
-			PotionCloud.DisplayName: Potion Cloud
+			PotionCloud.DisplayName:药水 Cloud
 			PrefixFairy.DisplayName: Prefix Fairy
 			RageMeter.DisplayName: Rage Meter
 			Reload.DisplayName: Reload
@@ -23025,7 +23026,7 @@ Mods: {
 			StressCheckerDrill.DisplayName: Stress Checker Drill
 			SuperSpringBoard.DisplayName: Super Spring Board
 			TacticChecker.DisplayName: Tactic Checker
-			ThrowablePotion.DisplayName: Throwable Potion
+			ThrowablePotion.DisplayName: Throwable药水
 			TileBreaker.DisplayName: Tile Breaker
 			TilePointer.DisplayName: Tile Pointer
 			WaterChecker.DisplayName: Water Checker
