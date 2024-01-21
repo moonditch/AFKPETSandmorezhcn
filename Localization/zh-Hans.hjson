@@ -8,7 +8,7 @@ Mods: {
 
 			LavalGolem: {
 				BossChecklistIntegration: {
-					SpawnInfo: 在地狱使用地狱图腾.
+					SpawnInfo: 在地狱使用 [i:AFKPETS/SoulofAgonyinaBottle] 召唤
 					DespawnMessage: 堕落的灵魂重新进入沉睡
 				}
 
@@ -16,14 +16,14 @@ Mods: {
 			}
 
 			DrFetusFirstPhase: {
-				DisplayName: 胎儿博士第一阶段
+				DisplayName: 胎儿博士
 				BossChecklistIntegration.EntryName: 胎儿博士
 			}
 
 			FlagCarrier: {
 				BossChecklistIntegration: {
 					EntryName: 远古召唤
-					SpawnInfo: 在夜间使用远古旗帜.
+					SpawnInfo: 在夜晚使用 [i:AFKPETS/BlackenedHeart] 召唤
 					DespawnMessage: 所有的玩家都被吃掉了
 				}
 
@@ -33,7 +33,7 @@ Mods: {
 			SATLA001: {
 				BossChecklistIntegration: {
 					DespawnMessage: 卫星弄坏了它所有的玩具
-					SpawnInfo: 在夜间使用猎物追踪装置.
+					SpawnInfo: 在夜晚使用 [i:AFKPETS/PreyTrackingChip] 召唤
 					EntryName: SATLA-001
 				}
 
@@ -43,7 +43,12 @@ Mods: {
 			SlayerofEvil: {
 				BossChecklistIntegration: {
 					DespawnMessage: 所有的坏人都被英雄消灭了
-					SpawnInfo: 被束缚的黑暗女猎手有概率在下午1点30分之前在地表生成，点击她的帮助按钮会生成这个BOSS,或树妖有概率掉落的头来召唤他，同时你打败他之后，他会无法生成，但你可以从黑暗女猎手那里买来的树精头来重生他
+					SpawnInfo:
+						'''
+						被束缚的黑暗女猎手有概率在下午 1:30 之前在地表生成，点击帮助按钮后生成恶魔杀手。
+						树妖死后有概率掉落 [i:AFKPETS/SeveredDryadHead]，使用后召唤。
+						在玩家击败他一次之后，将无法自然生成，但可以通过黑暗女猎手出售的 [i:AFKPETS/SeveredDryadHead] 重新召唤。
+						'''
 					EntryName: 恶魔杀手
 				}
 
@@ -52,12 +57,12 @@ Mods: {
 
 			HeroicSlime: {
 				DisplayName: 英勇史莱姆
-				BossChecklistIntegration.EntryName: 黏液部队1阶小boss
+				BossChecklistIntegration.EntryName: 英勇史莱姆
 			}
 
 			StormDiver: {
-				DisplayName: 风暴鹰身女妖
-				BossChecklistIntegration.EntryName: 风暴鹰身女妖
+				DisplayName: 皇家鸟妖风暴号
+				BossChecklistIntegration.EntryName: 皇家鸟妖风暴号
 			}
 
 			Isaac: {
@@ -67,7 +72,12 @@ Mods: {
 
 			Okiku: {
 				BossChecklistIntegration: {
-					SpawnInfo: 克苏鲁之眼击败后他有小概率在血月生成，没有击败她时，破碎的盘子可以在滴滴怪或血腥僵尸身上掉落.，击败后，破碎的盘子可以从黑暗女猎手处购买。.
+					SpawnInfo:
+						'''
+						击败克苏鲁之眼后，有小概率在血月自然生成。
+						没有击败她时，滴滴怪、血腥僵尸有概率掉落 [i:AFKPETS/BrokenDelftPlate]，使用后召唤。
+						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/BrokenDelftPlate]。
+						'''
 					DespawnMessage: 盘子女鬼的灵魂开始寻找新的罪人
 				}
 
@@ -75,14 +85,18 @@ Mods: {
 			}
 
 			NecromancerDummy: {
-				DisplayName: 死灵法师傀儡
-				BossChecklistIntegration.EntryName: 新手死灵法师
+				DisplayName: 死灵傀儡法师
+				BossChecklistIntegration.EntryName: 死灵傀儡法师
 			}
 
 			BunnyZepplin: {
 				BossChecklistIntegration: {
 					EntryName: 兔子飞艇
-					SpawnInfo: 击败克苏鲁之眼后，有小概率在死亡的兔子身上生成，或用捆绑的兔子生成. 击败后，在黑暗女猎手处购买.
+					SpawnInfo:
+						'''
+						击败克苏鲁之眼后，在白天击杀兔子有小概率自然生成，或制作 [i:AFKPETS/TiedBunny] 使用后召唤。
+						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/TiedBunny]。
+						'''
 					DespawnMessage: 兔子飞艇他们的国王收集所有烧焦的头颅
 				}
 
@@ -91,9 +105,14 @@ Mods: {
 
 			SecurityBot: {
 				BossChecklistIntegration: {
-					EntryName: 地牢1阶段小boss
-					SpawnInfo: 有小的概率在地牢和邪恶地形生成. 也可以用召唤物召唤. 击败后，召唤物可以在黑暗女猎手处购买.
-					DespawnMessage: 地牢解除威胁
+					EntryName: 地牢 1 阶段迷你Boss
+					SpawnInfo:
+						'''
+						根据世界的邪恶地形种类，小概率在地牢自然生成。
+						制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤。
+						在玩家成功击败一次之后，黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate]。
+						'''
+					DespawnMessage: 地牢威胁解除
 				}
 
 				DisplayName: 安全机器人
@@ -106,13 +125,17 @@ Mods: {
 
 			NightmareAmplifierSlime: {
 				DisplayName: 梦魇史莱姆
-				BossChecklistIntegration.EntryName: 黏液部队2阶小boss
+				BossChecklistIntegration.EntryName: 梦魇史莱姆
 			}
 
 			AncientGuardian: {
 				BossChecklistIntegration: {
 					EntryName: 远古守护者
-					SpawnInfo: 击败克苏鲁之脑或世界吞噬怪后，在雪地小概率生成. 战败后使用北欧祈祷神像，可以从黑暗女猎手那里购买.
+					SpawnInfo:
+						'''
+						击败克苏鲁之脑或世界吞噬怪后，在雪地小概率自然生成。
+						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/SeveredClothierHead]。
+						'''
 					DespawnMessage: 远古守护者等待着它的主人回归
 				}
 
@@ -126,9 +149,9 @@ Mods: {
 			ServantofOcram.DisplayName: 奥库瑞姆的仆人
 			TurkorBody.DisplayName: 不感恩的火鸡
 			TurkorHead.DisplayName: 不感恩的火鸡的头
-			NecromancerDummyDeath.DisplayName: 死灵法师傀儡
-			NecromancerDummyDespawn.DisplayName: 死灵法师傀儡
-			NecromancerDummyNpc.DisplayName: 死灵法师Npc
+			NecromancerDummyDeath.DisplayName: 死灵傀儡法师
+			NecromancerDummyDespawn.DisplayName: 死灵傀儡法师
+			NecromancerDummyNpc.DisplayName: 死灵傀儡法师
 			SpiritBird.DisplayName: 灵鸟
 
 			Assassin: {
@@ -214,10 +237,10 @@ Mods: {
 			Parasitoid.DisplayName: 寄生蜂
 			TinySpider.DisplayName: 小蜘蛛
 			CameraLocker.DisplayName: 相机储物柜
-			DrFetusFlying.DisplayName: 胎儿博士飞行
-			DrFetusSecondPhase.DisplayName: 胎儿博士二阶
-			DrFetusShadow.DisplayName: 胎儿博士影子
-			DrFetusThirdPhase.DisplayName: 胎儿博士三阶
+			DrFetusFlying.DisplayName: 胎儿博士
+			DrFetusSecondPhase.DisplayName: 胎儿博士
+			DrFetusShadow.DisplayName: 胎儿博士
+			DrFetusThirdPhase.DisplayName: 胎儿博士
 			FurretBody.DisplayName: 大尾立
 			FurretHead.DisplayName: 大尾立
 			FurretTail.DisplayName: 大尾立
@@ -245,7 +268,7 @@ Mods: {
 			MechanicalSlime.DisplayName: 机械史莱姆
 
 			AquaticWiseman: {
-				DisplayName: Aquatic Wiseman
+				DisplayName: 水族智者
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -344,13 +367,11 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			SoulBird.DisplayName: 心灵鸟
 			SoulBlossom.DisplayName: 灵魂绽放
-			TiedYandere.DisplayName: 被束缚的猎手
+			TiedYandere.DisplayName: 受缚猎手
 			TreasureBagBoi.DisplayName: Treasure Bag Boi
 			BadMafia.DisplayName: 黑手党
 			FakeNightmareSlime.DisplayName: 梦魇史莱姆
@@ -376,7 +397,7 @@ Mods: {
 			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
 			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
 			PoliticianSlimeArmor.DisplayName: 政客史莱姆装甲
-			BoundGuardian.DisplayName: 被捆绑的守护者
+			BoundGuardian.DisplayName: 受缚守护者
 			FallingGoldfish.DisplayName: 堕落的金鱼
 			FallingSquid.DisplayName: 堕落的鱿鱼
 			FlashLightCore.DisplayName: Flash Light Core
@@ -387,16 +408,16 @@ Mods: {
 			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
 			SeaHorseBubble.DisplayName: 海马泡泡
 			SeaHorseBucket.DisplayName: 海马桶
-			StormDiverSummon.DisplayName: 风暴鹰身女妖
+			StormDiverSummon.DisplayName: 皇家鸟妖风暴号
 			StormTinkererH.DisplayName: 风暴修补匠
 			YoukaiBucket.DisplayName: Youkai Bucket
 			YoukaiBucket2.DisplayName: Youkai Bucket2
 			FunSATLA001.DisplayName: SATLA-001
 			SATLASummon.DisplayName: SATLA-001
-			FakeSecurityBot.DisplayName: Fake Security Bot
+			FakeSecurityBot.DisplayName: Fake 安全机器人
 			JumpscareFella.DisplayName: Jumpscare Fella
 			NoEscape.DisplayName: No Escape
-			SecurityBotSummon.DisplayName: Security Bot Summon
+			SecurityBotSummon.DisplayName: 安全机器人 Summon
 			BomberSlime.DisplayName: 矿工史莱姆
 			CrimsonSlime.DisplayName: 猩红史莱姆
 			DarkCandleSlime.DisplayName: 蜡烛史莱姆
@@ -445,8 +466,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Defeat King Slime or Eye of Cthulhu
 			}
 
 			FallenAngel: {
@@ -462,12 +481,10 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Shine her eyes by using Icarus's mirror in desert at day time
 			}
 
 			GuideoftheEnd: {
-				DisplayName: Guideofthe End
+				DisplayName: Guide of the End
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -494,8 +511,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Defeat Slayer of Evil
 			}
 
 			BountyHunter: {
@@ -558,11 +573,11 @@ Mods: {
 				}
 			}
 
-			ChefEnergy.DisplayName: 厨师精神能量
+			ChefEnergy.DisplayName: 不死厨师
 
 			UndeadChef: {
-				DisplayName: 不死的厨师
-				BossChecklistIntegration.EntryName: 地牢1阶段小boss
+				DisplayName: 不死厨师
+				BossChecklistIntegration.EntryName: 地牢 1 阶段迷你Boss
 			}
 		}
 
@@ -570,12 +585,12 @@ Mods: {
 			AquaPainting.MapEntry: Aqua Painting
 			ArcadeMachine.MapEntry: Arcade Machine
 			ArticAmplifier.MapEntry: Artic Amplifier
-			Banners.MapEntry: Banners
+			Banners.MapEntry: 旗帜
 			BicycleEffect.MapEntry: Bicycle Effect
 			BlondeHairEffect.MapEntry: Blonde Hair Effect
 			BookofAlchemy.MapEntry: Bookof Alchemy
 			BuyoBuyoEffect.MapEntry: Buyo Buyo Effect
-			BZMantle.MapEntry: B Z Mantle
+			BZMantle.MapEntry: B Z悬挂纪念章
 			Cat2Painting.MapEntry: Cat2 Painting
 			YuriPainting.MapEntry: Yuri Painting
 			YukionnaEffect.MapEntry: Yukionna Effect
@@ -597,12 +612,12 @@ Mods: {
 			VocaloidBlush.MapEntry: Vocaloid Blush
 			UnholyArrowShooterStaff.MapEntry: Unholy Arrow Shooter Staff
 			UmbrellaEffect.MapEntry: Umbrella Effect
-			TruffleWormStatue.MapEntry: Truffle Worm Statue
+			TruffleWormStatue.MapEntry: Truffle Worm 雕像
 			TriangleKerchiefEffect.MapEntry: Triangle Kerchief Effect
 			TowelEffect.MapEntry: Towel Effect
 			TiredCirnoPainting.MapEntry: Tired Cirno Painting
 			TinySpiderTerrarium.MapEntry: Tiny Spider Terrarium
-			TinySpiderStatue.MapEntry: Tiny Spider Statue
+			TinySpiderStatue.MapEntry: Tiny Spider 雕像
 
 			TinyShop: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyShop.MapEntry0
@@ -642,7 +657,7 @@ Mods: {
 			StrongestHappiness.MapEntry: Strongest Happiness
 			StrongestFright.MapEntry: Strongest Fright
 			StrawberryPimpPainting.MapEntry: Strawberry Pimp Painting
-			StrangeStatue.MapEntry: Strange Statue
+			StrangeStatue.MapEntry: Strange雕像
 			StoplightEffect.MapEntry: Stoplight Effect
 			StonedHuman.MapEntry: Stoned Human
 			SpectralHolographicDoorOpened.MapEntry: Spectral Holographic Door Opened
@@ -655,9 +670,9 @@ Mods: {
 
 			SpectralHolographicChair.MapEntry: Spectral Holographic Chair
 			SnowPapyrus.MapEntry: Snow Papyrus
-			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope Trophy
-			SlayerofEvilTrophy.MapEntry: Slayerof Evil Trophy
-			SkullStatue.MapEntry: Skull Statue
+			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope纪念章
+			SlayerofEvilTrophy.MapEntry: Slayerof Evil纪念章
+			SkullStatue.MapEntry: Skull雕像
 			SewingMachine.MapEntry: Sewing Machine
 			SeveredHeadEffect.MapEntry: Severed Head Effect
 			SenkoPainting4.MapEntry: Senko Painting4
@@ -667,12 +682,12 @@ Mods: {
 			SculptorsIdol2.MapEntry: Sculptors Idol2
 			ScreamingSkeletonPainting.MapEntry: Screaming Skeleton Painting
 			SayoriPainting.MapEntry: Sayori Painting
-			SatlaTrophy.MapEntry: Satla Trophy
-			SalamanderStatue.MapEntry: Salamander Statue
+			SatlaTrophy.MapEntry: Satla纪念章
+			SalamanderStatue.MapEntry: Salamander雕像
 			SadFoxPainting.MapEntry: Sad Fox Painting
 			SadCatPainting3.MapEntry: Sad Cat Painting3
 			SadCatPainting.MapEntry: Sad Cat Painting
-			RunningStatue.MapEntry: Running Statue
+			RunningStatue.MapEntry: Running雕像
 			RunningDemon.MapEntry: Running Demon
 			RouxlsKaardPainting.MapEntry: Rouxls Kaard Painting
 			PortraitofSadness.MapEntry: Portraitof Sadness
@@ -683,7 +698,7 @@ Mods: {
 			PortableGiantFungiBulb.MapEntry: Portable Giant Fungi Bulb
 			PoopHairEffect.MapEntry: Poop Hair Effect
 			Plant.MapEntry: Plant
-			PixieStatue.MapEntry: Pixie Statue
+			PixieStatue.MapEntry: Pixie雕像
 			Uncanny.MapEntry: Uncanny
 			ToughStuff.MapEntry: Tough Stuff
 			Remembrance.MapEntry: Remembrance
@@ -703,7 +718,7 @@ Mods: {
 			OtaeGaze.MapEntry: Otae Gaze
 			OrderTorch.MapEntry: Order Torch
 			OldTV.MapEntry: Old T V
-			OkikuMantle.MapEntry: Okiku Mantle
+			OkikuMantle.MapEntry: 盘子女鬼悬挂纪念章
 			NopperabouEffect.MapEntry: Nopperabou Effect
 			NetheriteOre.MapEntry: Netherite Ore
 			NeonEffect.MapEntry: Neon Effect
@@ -721,13 +736,13 @@ Mods: {
 			}
 
 			LongHairEffect.MapEntry: Long Hair Effect
-			LavalGolemTrophy.MapEntry: Laval Golem Trophy
+			LavalGolemTrophy.MapEntry: 拉瓦尔傀儡纪念章
 			LancerPainting.MapEntry: Lancer Painting
 			LampEffect.MapEntry: Lamp Effect
 			KnifeEffect.MapEntry: Knife Effect
-			KindnessStatue.MapEntry: Kindness Statue
+			KindnessStatue.MapEntry: Kindness雕像
 			JunkoPainting.MapEntry: Junko Painting
-			ImpStatue.MapEntry: Imp Statue
+			ImpStatue.MapEntry: Imp雕像
 			IbPainting.MapEntry: Ib Painting
 			HolographicWorkBench.MapEntry: Holographic Work Bench
 			HolographicTable.MapEntry: Holographic Table
@@ -752,19 +767,19 @@ Mods: {
 			HappyCatPainting.MapEntry: Happy Cat Painting
 			GuusPainting.MapEntry: Guus Painting
 			GreenPhone.MapEntry: Green Phone
-			GastropotStatue.MapEntry: Gastropot Statue
+			GastropotStatue.MapEntry: Gastropot雕像
 			FrogEffect.MapEntry: Frog Effect
 			FluteEffect.MapEntry: Flute Effect
 			FluffyBlessing.MapEntry: Fluffy Blessing
 			FlowerEatingPainting.MapEntry: Flower Eating Painting
 			FirstYearBanner.MapEntry: First Year Banner
 			FatEffect.MapEntry: Fat Effect
-			FallingSlimeStatue.MapEntry: Falling Slime Statue
+			FallingSlimeStatue.MapEntry: Falling Slime雕像
 			FallenSoulContainer.MapEntry: Fallen Soul Container
 			EchoFlower.MapEntry: Echo Flower
 			DrWilyBossSign.MapEntry: Dr Wily Boss Sign
 			DruidicArtifact.MapEntry: Druidic Artifact
-			DrFetusTrophy.MapEntry: Dr Fetus Trophy
+			DrFetusTrophy.MapEntry: 胎儿博士纪念章
 			DonationBox2.MapEntry: Donation Box2
 			DogPainting.MapEntry: Dog Painting
 			Dispenser.MapEntry: Dispenser
@@ -772,10 +787,10 @@ Mods: {
 			DerpCatPainting.MapEntry: Derp Cat Painting
 			DemonEffect.MapEntry: Demon Effect
 			DarkAltar2.MapEntry: Dark Altar2
-			DappingGuideStatue.MapEntry: Dapping Guide Statue
+			DappingGuideStatue.MapEntry: Dapping Guide雕像
 			CrimsonAmplifier2.MapEntry: Crimson Amplifier2
-			CrawdadStatue.MapEntry: Crawdad Statue
-			CourageStatue.MapEntry: Courage Statue
+			CrawdadStatue.MapEntry: Crawdad雕像
+			CourageStatue.MapEntry: Courage雕像
 			CoughingCatPainting.MapEntry: Coughing Cat Painting
 			CookieCharm.MapEntry: Cookie Charm
 			CookieBox.MapEntry: Cookie Box
@@ -784,15 +799,15 @@ Mods: {
 			ChallengerDeep.MapEntry: Challenger Deep
 			CatPainting.MapEntry: Cat Painting
 			CatEffect.MapEntry: Cat Effect
-			AntlionStatue.MapEntry: Antlion Statue
-			AntonyMantle.MapEntry: Antony Mantle
+			AntlionStatue.MapEntry: Antlion雕像
+			AntonyMantle.MapEntry: Antony悬挂纪念章
 		}
 
 		Keybinds: {
-			"Open Item Information Panel.DisplayName": Open  Item  Information  Panel
-			"Activate Tarot Major Ability.DisplayName": Activate  Tarot  Major  Ability
-			"Sentry Pack Accessory Special Ability.DisplayName": Sentry  Pack  Accessory  Special  Ability
-			"The Lamb Accessory Special Ability.DisplayName": The  Lamb  Accessory  Special  Ability
+			"Open Item Information Panel.DisplayName": 打开物品隐藏信息面板
+			"Activate Tarot Major Ability.DisplayName": 激活塔罗牌能力
+			"Sentry Pack Accessory Special Ability.DisplayName": 哨兵打包
+			"The Lamb Accessory Special Ability.DisplayName": 羔羊献祭
 		}
 
 		Buffs: {
@@ -3321,7 +3336,7 @@ Mods: {
 			}
 
 			Okiku: {
-				DisplayName: Okiku
+				DisplayName: 盘子女鬼
 				Description: "'She is following you'"
 			}
 
@@ -4938,14 +4953,14 @@ Mods: {
 			}
 
 			TheLamb: {
-				DisplayName: The Lamb
+				DisplayName: 羔羊十字架
 				Tooltip:
 					'''
-					'It stares to your soul'
-					The less hp you have the more damage you gain which maximize to 20% at <=20% hp
-					Upon pressing binded lamb ability key for 10 second you will do 50% increased damage
-					You cannot heal or regen under its effect for 10 seconds and this ability have 1 minute cooldown
-					It will cost 20% of total hp on activation and you cannot activate if you have lower than 20% hp
+					'它的目光洞穿你的灵魂'
+					你的生命值越低，造成的伤害越高，在生命值 <= 20% 时增伤达到最大值 20%
+					按下绑定的“羔羊献祭”键，你的伤害在 10 秒内增加 50%
+					在这 10 秒内，你不能治疗或恢复生命值，该能力有 1 分钟的冷却时间
+					激活此能力需要消耗你 20% 的最大生命值，如果你的生命值低于20%，则无法激活
 					'''
 			}
 
@@ -5476,7 +5491,7 @@ Mods: {
 			}
 
 			DustyMask: {
-				DisplayName: Dusty Mask
+				DisplayName: Dusty面具
 				Tooltip:
 					'''
 					'It belongs to merciful leader of a feodal clan'
@@ -5749,15 +5764,15 @@ Mods: {
 			}
 
 			SentryPack: {
-				DisplayName: Sentry Pack
+				DisplayName: 哨兵打包盒
 				Tooltip:
 					'''
-					'Outta mah way! Outta mah way!'
-					Equipping it will increase max number of your sentries by 1
-					Pressing the sentry pack special ability key will make you carry the sentry at your mouse direction
-					Player can carry only single sentry and pressing the key again will make the player stop carrying
-					If there is another sentry at mouse direction when player does this player start to carry that and else stop to carry any sentry
-					The key could be bind from the controls
+					'让开！让开！'
+					哨兵数量上限提高1个
+					按“哨兵打包”键键将会使你随身携带光标所指的哨兵
+					玩家只能携带一个哨兵，再次按下该键将会停止携带
+					如果再次按下该键时光标所指位置上有另一个哨兵，玩家将携带新的哨兵，否则停止携带任何哨兵
+					“哨兵打包”键可从控件中绑定
 					'''
 			}
 
@@ -5973,7 +5988,7 @@ Mods: {
 				Tooltip:
 					'''
 					'More trinket room'
-					When its equipped it allow player to equip one more trinket as a second trinket slot appear
+					When its equipped it allow player to equip one more trinket as a second AFK杂货栏 appear
 					Also unequipping accessory will unequip the second trinket
 					'''
 			}
@@ -6277,7 +6292,7 @@ Mods: {
 			}
 
 			NekoSlimesEye: {
-				DisplayName: Neko Slime's Right Eye
+				DisplayName: 猫猫头's Right Eye
 				Tooltip:
 					'''
 					'Remnant of a honorable foe'
@@ -7438,19 +7453,19 @@ Mods: {
 			}
 
 			AncientGuardianPouch: {
-				DisplayName: Treasure Pouch (Ancient Guardian)
+				DisplayName: 宝藏袋（远古守护者）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You hope it finally see its master'
 					'''
 			}
 
 			AntonyPouch: {
-				DisplayName: Treasure Pouch (Antony, the Novice Necromancer)
+				DisplayName: 宝藏袋（死灵傀儡法师）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'It seems Bede is what he calls his toy and friend'
 					'''
 			}
@@ -7459,16 +7474,16 @@ Mods: {
 				DisplayName: Box
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Filled with stuff'
 					'''
 			}
 
 			BunnyZeppelinPouch: {
-				DisplayName: Treasure Pouch (Bunny Zeppelin)
+				DisplayName: 宝藏袋（兔子飞艇）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Smells like carrot and black powder'
 					'''
 			}
@@ -7477,17 +7492,17 @@ Mods: {
 				DisplayName: Cookie Box
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					Filled with many goodies she collect in her adventure
 					Upon RC you get random amount of cookies, misc smaller items + 1 reward item
 					'''
 			}
 
 			DrFetusTreasureBag: {
-				DisplayName: Treasure Bag (Dr Fetus)
+				DisplayName: 宝藏袋（胎儿博士）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this is only the beginning'
 					'''
 			}
@@ -7496,7 +7511,7 @@ Mods: {
 				DisplayName: Gift Bag
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'It seems someone want to help me'
 					'''
 			}
@@ -7505,7 +7520,7 @@ Mods: {
 				DisplayName: Smiling Gift Bag
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'This bag looks unstable but still it looks rare'
 					'''
 			}
@@ -7521,10 +7536,10 @@ Mods: {
 			}
 
 			GuardianofFrostPouch: {
-				DisplayName: Treasure Pouch (Guardian of Frost)
+				DisplayName: 宝藏袋（冰之守护者）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel you will meet with his sister soon'
 					'''
 			}
@@ -7540,10 +7555,10 @@ Mods: {
 			}
 
 			HeroicSlimePouch: {
-				DisplayName: Treasure Pouch (Heroic Slime)
+				DisplayName: 宝藏袋（英勇史莱姆）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this will enrage the capital'
 					'''
 			}
@@ -7552,16 +7567,16 @@ Mods: {
 				DisplayName: Holographic Bag
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'It's filled with holographic blocks but strangely it looks empty.'
 					'''
 			}
 
 			HolographicSlimePouch: {
-				DisplayName: Treasure Pouch (Holographic Slime)
+				DisplayName: 宝藏袋（全息史莱姆）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this will enrage the capital'
 					'''
 			}
@@ -7570,16 +7585,16 @@ Mods: {
 				DisplayName: Inventory Bag
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'It was once belong to the fallen hero'
 					'''
 			}
 
 			IsaacPouch: {
-				DisplayName: Treasure Pouch (Isaac)
+				DisplayName: 宝藏袋（以撒）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Did you just kill a naked child?'
 					'''
 			}
@@ -7595,55 +7610,55 @@ Mods: {
 			}
 
 			LavalGolemTreasureBag: {
-				DisplayName: Treasure Coffin (Laval Golem)
+				DisplayName: 宝藏袋（拉瓦尔傀儡）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel it's still alive
 					'''
 			}
 
 			LeatherBag: {
-				DisplayName: Treasure Bag (Slayer of Evil)
+				DisplayName: 宝藏袋（恶魔杀手）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Clash of two heroes'
 					'''
 			}
 
 			NekoSlimeTreasurePouch: {
-				DisplayName: Treasure Pouch (Neko Slime)
+				DisplayName: 宝藏袋（猫猫头）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Death of a high ranked shinobi will surely affect the Slime Capital'
 					'''
 			}
 
 			NightmareAmplifierPouch: {
-				DisplayName: Treasure Pouch (Nightmare Amplifier Slime)
+				DisplayName: 宝藏袋（梦魇史莱姆）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Its death will surely bring fear to the Slime Capital'
 					'''
 			}
 
 			OkikuPouch: {
-				DisplayName: Treasure Pouch (Okiku)
+				DisplayName: 宝藏袋（ 盘子女鬼）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Yasuraka ni nemuru'
 					'''
 			}
 
 			PoliticianSlimeTreasureBag: {
-				DisplayName: Treasure Bag (Politician Slime)
+				DisplayName: 宝藏袋（政客史莱姆）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Fall of the president will make them fill with vengeance'
 					'''
 			}
@@ -7652,52 +7667,52 @@ Mods: {
 				DisplayName: Prize Bag
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'This... does put a smile on my face'
 					'''
 			}
 
 			RoyalHarpyAirForcePouch: {
-				DisplayName: Treasure Pouch (Royal Harpy Air Force)
+				DisplayName: 宝藏袋（皇家鸟妖风暴号）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'At least their souls continue to be together'
 					'''
 			}
 
 			SATLA001TreasureBag: {
-				DisplayName: Treasure Bag (SATLA-001)
+				DisplayName: 宝藏袋（SATLA-001）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'It's a little heavy'
 					'''
 			}
 
 			SecurityBotPouch: {
-				DisplayName: Treasure Pouch (Security Bot)
+				DisplayName: 宝藏袋（安全机器人）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'You never expect there is also engineer in dungeon'
 					'''
 			}
 
 			SlimesLastHopeTreasureBag: {
-				DisplayName: Treasure Bag (Slimes Last Hope)
+				DisplayName: 宝藏袋（Slimes Last Hope）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'They will take revenge of their friend'
 					'''
 			}
 
 			SpiritofFunTreasureBag: {
-				DisplayName: Treasure Bag (Spirit of Fun)
+				DisplayName: 宝藏袋（Spirit of Fun）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					There is a small note on it's back
 					'I hope you have [c/ffff00:Fun]'
 					'''
@@ -7709,7 +7724,7 @@ Mods: {
 					'''
 					'The cat has been inside of this box since 1935'
 					'It may be either death or alive but you can't understand from there.'
-					'Right click to open.'
+					'{$CommonItemTooltip.RightClickToOpen}.'
 					'Fredbear may guide you to the end of the universe.'
 					'''
 			}
@@ -7719,16 +7734,16 @@ Mods: {
 				Tooltip:
 					'''
 					Temple Key required to open
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'Where does this box come from?'
 					'''
 			}
 
 			UndeadChefPouch: {
-				DisplayName: Treasure Pouch (Undead Chef)
+				DisplayName: 宝藏袋（不死厨师）
 				Tooltip:
 					'''
-					Right click to open
+					{$CommonItemTooltip.RightClickToOpen}
 					'The bag smells like the last dinner he's preparing'
 					'''
 			}
@@ -7803,7 +7818,7 @@ Mods: {
 			}
 
 			CookieCrateBanner: {
-				DisplayName: Cookie Crate Banner
+				DisplayName: 饼干板条箱旗帜
 				Tooltip: ""
 			}
 
@@ -8264,7 +8279,7 @@ Mods: {
 			}
 
 			CourageStatue: {
-				DisplayName: Statue of Courage
+				DisplayName: 雕像 of Courage
 				Tooltip:
 					'''
 					It was designed after the disappearence of one of the mightiest terrarian
@@ -8328,7 +8343,7 @@ Mods: {
 			}
 
 			KindnessStatue: {
-				DisplayName: Statue of Kindness
+				DisplayName: 雕像 of Kindness
 				Tooltip:
 					'''
 					It was designed after the disappearence of one of the kindest terrarian
@@ -8407,7 +8422,7 @@ Mods: {
 			}
 
 			RunningStatue: {
-				DisplayName: Running Man Statue
+				DisplayName: Running Man雕像
 				Tooltip:
 					'''
 					It smells like exotic butters and sadness
@@ -8676,65 +8691,65 @@ Mods: {
 			}
 
 			SoundBlock1: {
-				DisplayName: Sound Block (Okiku's Cry)
+				DisplayName: 留声方块（Okiku's Cry）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock2: {
-				DisplayName: Sound Block (Okiku's Giggle)
+				DisplayName: 留声方块（Okiku's Giggle）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock3: {
-				DisplayName: Sound Block (Vanilla Boss Roar)
+				DisplayName: 留声方块（Vanilla Boss Roar）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock4: {
-				DisplayName: Sound Block (Blooming Laugh)
+				DisplayName: 留声方块（Blooming Laugh）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock5: {
-				DisplayName: Sound Block (Turtle's Greeting)
+				DisplayName: 留声方块（Turtle's Greeting）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock6: {
-				DisplayName: Sound Block (Air Horn)
+				DisplayName: 留声方块（Air Horn）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
 			SoundBlock7: {
-				DisplayName: Sound Block (Ancient Lord's Intro)
+				DisplayName: 留声方块（Ancient Lord's Intro）
 				Tooltip:
 					'''
-					It can be activated with wire or RC to its tile
-					When activated it will do the recorded sound
+					可通过电线或<right>激活
+					激活后播放记录的声音
 					'''
 			}
 
@@ -8759,52 +8774,52 @@ Mods: {
 			}
 
 			AntlionStatue: {
-				DisplayName: Antlion Charger Statue
+				DisplayName: Antlion Charger雕像
 				Tooltip: ""
 			}
 
 			CrawdadStatue: {
-				DisplayName: Crawdad Statue
+				DisplayName: Crawdad雕像
 				Tooltip: ""
 			}
 
 			GastropotStatue: {
-				DisplayName: Gastropod Statue
+				DisplayName: Gastropod雕像
 				Tooltip: ""
 			}
 
 			ImpStatue: {
-				DisplayName: Fire Imp Statue
+				DisplayName: Fire Imp雕像
 				Tooltip: ""
 			}
 
 			PixieStatue: {
-				DisplayName: Pixie Statue
+				DisplayName: Pixie雕像
 				Tooltip: ""
 			}
 
 			SalamanderStatue: {
-				DisplayName: Salamander Statue
+				DisplayName: Salamander雕像
 				Tooltip: ""
 			}
 
 			SkullStatueItem: {
-				DisplayName: Cursed Skull Statue
+				DisplayName: Cursed Skull雕像
 				Tooltip: ""
 			}
 
 			StrangeStatueItem: {
-				DisplayName: Dungeon Guardian Statue
+				DisplayName: Dungeon Guardian雕像
 				Tooltip: ""
 			}
 
 			TinySpiderStatue: {
-				DisplayName: Tiny Spider Statue
+				DisplayName: Tiny Spider雕像
 				Tooltip: ""
 			}
 
 			TruffleWormStatueItem: {
-				DisplayName: Truffle Worm Statue
+				DisplayName: Truffle Worm雕像
 				Tooltip: ""
 			}
 
@@ -8919,42 +8934,42 @@ Mods: {
 			}
 
 			AntonyMantle: {
-				DisplayName: Antony, the Novice Necromancer Mantle
+				DisplayName: 死灵傀儡法师悬挂纪念章
 				Tooltip: ""
 			}
 
 			BZMantle: {
-				DisplayName: Bunny Zeppelin Mantle
+				DisplayName: 兔子飞艇悬挂纪念章
 				Tooltip: ""
 			}
 
 			DrFetusTrophy: {
-				DisplayName: Dr Fetus Trophy
+				DisplayName: 胎儿博士纪念章
 				Tooltip: ""
 			}
 
 			LavalGolemTrophy: {
-				DisplayName: Laval Golem Trophy
+				DisplayName: 拉瓦尔傀儡纪念章
 				Tooltip: ""
 			}
 
 			OkikuMantle: {
-				DisplayName: Okiku Mantle
+				DisplayName: 盘子女鬼悬挂纪念章
 				Tooltip: ""
 			}
 
 			SatlaTrophy: {
-				DisplayName: S.A.T.L.A.-001 Trophy
+				DisplayName: S.A.T.L.A.-001纪念章
 				Tooltip: ""
 			}
 
 			SlayerofEvilTrophy: {
-				DisplayName: Slayer of Evil Trophy
+				DisplayName: 恶魔杀手纪念章
 				Tooltip: ""
 			}
 
 			SlimesLastHopeTrophy: {
-				DisplayName: Slimes Last Hope Trophy
+				DisplayName: Slimes Last Hope纪念章
 				Tooltip: ""
 			}
 
@@ -10460,25 +10475,25 @@ Mods: {
 			}
 
 			GoldenBonnieHead: {
-				DisplayName: 金兔头（出自玩具熊的五夜后宫）
+				DisplayName: Golden Bonnie Head
 				Tooltip:
 					'''
-					'即使拿着也会让你感到害怕'
-					召唤紫衣人跟随你
+					'Even holding this makes you feel frightened'
+					召唤purple guy跟随你
 					'''
 			}
 
 			GoldenCarrot: {
-				DisplayName: 金胡萝卜（出自原版）
+				DisplayName: Golden Carrot
 				Tooltip:
 					'''
-					'我想知道什么生物喜欢这个?'
-					召唤金兔跟随你
+					'I wonder which creature likes this?'
+					召唤a gold bunny跟随你
 					'''
 			}
 
 			GoldenPistol: {
-				DisplayName: Six shooter(占位符)
+				DisplayName: Six shooter
 				Tooltip:
 					'''
 					'This looks like a revolver'
@@ -10487,25 +10502,25 @@ Mods: {
 			}
 
 			GoldenSmashBall: {
-				DisplayName: 金球（任天堂全明星大乱斗）
+				DisplayName: Golden Smash Ball
 				Tooltip:
 					'''
-					'为了全明星大乱斗的荣耀'
-					召唤大师之手跟随你
+					'For the glory of Super Smash Bros'
+					召唤master hand跟随你
 					'''
 			}
 
 			GoldFeather: {
-				DisplayName: 金羽
+				DisplayName: Gold Feather
 				Tooltip:
 					'''
-					'这个羽毛来自哪里?'
-					召唤金鸟跟随你
+					'Where does this feather come from?'
+					召唤a gold bird跟随你
 					'''
 			}
 
 			GoldFreddyToy: {
-				DisplayName: Golden Freddy Plushie（占位符）
+				DisplayName: Golden Freddy Plushie
 				Tooltip:
 					'''
 					'It whispers it put all pieces together'
@@ -10514,11 +10529,11 @@ Mods: {
 			}
 
 			GoldRing: {
-				DisplayName: 金环（出自刺猬索尼克）
+				DisplayName: Golden Ring
 				Tooltip:
 					'''
-					'看起来很贵.'
-					召唤索尼克跟随你
+					'Looks expensive.'
+					召唤Sonic跟随你
 					'''
 			}
 
@@ -11233,7 +11248,7 @@ Mods: {
 			}
 
 			Okiku: {
-				DisplayName: Okiku Doll
+				DisplayName: 盘子女鬼 Doll
 				Tooltip: "'It looks cursed'"
 			}
 
@@ -11728,7 +11743,7 @@ Mods: {
 			}
 
 			RandosMask: {
-				DisplayName: Forgotten Mask
+				DisplayName: Forgotten面具
 				Tooltip:
 					'''
 					'You feel it belongs to someone else'
@@ -11956,7 +11971,7 @@ Mods: {
 			}
 
 			ShyGuyMask: {
-				DisplayName: Shy Guy Mask
+				DisplayName: Shy Guy面具
 				Tooltip:
 					'''
 					'It looks strange but cute'
@@ -12637,7 +12652,7 @@ Mods: {
 				DisplayName: Purple Plumper's Hat
 				Tooltip:
 					'''
-					'It smells like assist trophy'
+					'It smells like assist纪念章'
 					召唤Waluigi跟随你
 					'''
 			}
@@ -12946,7 +12961,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾经被强大的泰坦一族使用，但现在它只保存了记忆'
-					只能在晚上使用
+					只能在夜晚使用
 					'''
 			}
 
@@ -12955,7 +12970,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这可能会让她想起之前发生的事'
-					'它只能在夜间使用，使用它可以召唤她并激活血月.'
+					只能在夜晚使用，使用后召唤盘子女鬼并激活血月
 					'''
 			}
 
@@ -12969,11 +12984,11 @@ Mods: {
 			}
 
 			CorruptedServer: {
-				DisplayName: Corrupted Server
+				DisplayName: 腐化服务器
 				Tooltip:
 					'''
-					It seems the system tries to send error log about the exploit
-					It can only become usable in dungeon
+					'系统似乎试图发送有关该漏洞的错误日志'
+					只能在地牢使用
 					'''
 			}
 
@@ -13022,8 +13037,8 @@ Mods: {
 					'''
 					'There is a tiny note on it's back
 					The kind king and brave heroes are in our heart and memory
-					Using it will let the politician slime take action
-					It can only be usable at night and after you defeat king slime and slimes last hope
+					Using it will let the 政客史莱姆 take action
+					只能在夜晚使用 and after you defeat king slime and slimes last hope
 					'''
 			}
 
@@ -13032,7 +13047,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I hope it won't understand this one is fake'
-					'It can only usable at night.'
+					'只能在夜晚使用.'
 					'''
 			}
 
@@ -13047,7 +13062,7 @@ Mods: {
 			}
 
 			HolographicSlimeReplica: {
-				DisplayName: Holographic Slime Replica
+				DisplayName: 全息史莱姆复制品
 				Tooltip: "'某人的一部分……'"
 			}
 
@@ -13085,13 +13100,17 @@ Mods: {
 				Tooltip:
 					'''
 					'具有无线存储功能的应急装置'
-					在晚上启动应急装置给某人发送信号
+					在夜晚启动应急装置给某人发送信号
 					'''
 			}
 
 			RoastChickenPlate: {
 				DisplayName: 烤鸡盘
-				Tooltip: "'在地牢中使用，它可能会带来一个厨师与你分享它的知识'"
+				Tooltip:
+					'''
+					'它会吸引一个厨师来与你分享它的知识'
+					只能在地牢使用
+					'''
 			}
 
 			SeveredClothierHead: {
@@ -13116,8 +13135,8 @@ Mods: {
 				DisplayName: 鹰身女妖头
 				Tooltip:
 					'''
-					'无辜的鹰身女妖之死可能会叫人'
-					它只能在白天使用，但这个boss是空中boss，所以要小心
+					'无辜的鹰身女妖之死可能会唤醒某个恐怖的存在'
+					只能在白天使用，召唤一个空中 Boss，请小心应对
 					'''
 			}
 
@@ -13136,12 +13155,12 @@ Mods: {
 			}
 
 			SlimyWarBanner: {
-				DisplayName: Slimy War Banner
+				DisplayName: 史莱姆战旗
 				Tooltip:
 					'''
-					'An ancient flag being used by slime army for generations'
-					Using it will cause the nearest slime troop to take action along with if there is any vanilla event active get forcully end
-					Exiting the world will end the event
+					'一面被史莱姆军队世代使用的古老旗帜'
+					使用这面战旗会导致附近的一支史莱姆部队对你发动进攻，将会强制结束正在进行的任何事件
+					退出世界将会结束此事件
 					'''
 			}
 
@@ -13156,11 +13175,11 @@ Mods: {
 			}
 
 			SpineWormFood: {
-				DisplayName: Worm food with extra spine
+				DisplayName: 脊椎诱饵
 				Tooltip:
 					'''
-					'This both looks and smells strange
-					Still using it may call the ones that like this taste
+					'这个看起来和闻起来都很奇怪
+					使用它可能召唤某些好这口的生物'
 					'''
 			}
 
@@ -13187,12 +13206,12 @@ Mods: {
 			}
 
 			StoryBook: {
-				DisplayName: Child's Story Book
+				DisplayName: 孩子的故事书
 				Tooltip:
 					'''
-					'A book with colorful pictures and etched symbols'
-					'Someone might want this back'
-					It can be only usable at night
+					'一本有彩色图片和蚀刻符号的书'
+					'可能有人想要找回这个'
+					只能在夜晚使用
 					'''
 			}
 
@@ -13201,8 +13220,8 @@ Mods: {
 				Tooltip:
 					'''
 					'有人把照片撕成了两半，只看到一名中年妇女和一个孩子'
-					把照片放空箱子里面，击败箱子后会生成以撒
-					以撒击败后，还可以用正常方式生成
+					把照片放进空箱子里面，击败箱子后会生成以撒
+					击败以撒后，使用此物品可直接召唤
 					'''
 			}
 
@@ -13219,15 +13238,15 @@ Mods: {
 				DisplayName: 捆绑的兔子
 				Tooltip:
 					'''
-					'它看起来很害怕
+					'它看起来很害怕'
 					绑架一个无辜的公民可能会让国王下令发动空袭
-					'它只能在白天使用'
+					只能在白天使用
 					'''
 			}
 
 			TinyMeatIdol: {
-				DisplayName: Tiny Meat Idol
-				Tooltip: "'It looks cute but still using it may make someone think you are his old enemy'"
+				DisplayName: 小肉玩偶
+				Tooltip: "'它看起来很可爱，但使用它可能会让胎儿博士以为你是他的宿敌'"
 			}
 
 			TradeDeal: {
@@ -15928,7 +15947,7 @@ Mods: {
 					'''
 					'This signifies your friendship with the lost soul'
 					RC to the item to equip it and LC to its slot to get back
-					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain cookie crates actual treasure
+					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain 饼干板条箱s actual treasure
 					Still be careful to not burn it with any extra hot sauce in front of your new friend or she may get real upset
 					'''
 			}
@@ -16049,7 +16068,7 @@ Mods: {
 				DisplayName: Hysteria Vial
 				Tooltip:
 					'''
-					'Contain remnants of the Nightmare Amplifier Slime'
+					'Contain remnants of the 梦魇史莱姆'
 					RC to the item to equip it and LC to its slot to get back
 					While being equipped fear inflicted enemies stay feared unless npc reaches the debuff limit
 					Feared enemies may get horror which have a chance to inflict fear to close enemies
@@ -16068,7 +16087,7 @@ Mods: {
 			}
 
 			KleidiphilicMask: {
-				DisplayName: Kleidiphilic Mask
+				DisplayName: Kleidiphilic面具
 				Tooltip:
 					'''
 					'I could hear you...breathing'
@@ -16177,7 +16196,7 @@ Mods: {
 				Tooltip:
 					'''
 					RC to the item to equip it and LC to its slot to get back
-					Equipping it make every afkpets or vanilla boss trophy drop chance increase by 10%
+					Equipping it make every afkpets or vanilla boss纪念章 drop chance increase by 10%
 					'''
 			}
 
@@ -16361,7 +16380,7 @@ Mods: {
 			}
 
 			AncientBrainofCthulhuMask: {
-				DisplayName: Ancient Brain of Cthulhu Mask
+				DisplayName: Ancient Brain of Cthulhu面具
 				Tooltip: ""
 			}
 
@@ -16381,47 +16400,47 @@ Mods: {
 			}
 
 			AncientEyeofCthulhuMask: {
-				DisplayName: Ancient Eye of Cthulhu Mask
+				DisplayName: Ancient Eye of Cthulhu面具
 				Tooltip: ""
 			}
 
 			AncientGuardianMask: {
-				DisplayName: Ancient Guardian Mask
+				DisplayName: 远古守护者面具
 				Tooltip: ""
 			}
 
 			AncientSatlaMask: {
-				DisplayName: Ancient S.A.T.L.A.-001 Mask
+				DisplayName: Ancient S.A.T.L.A.-001面具
 				Tooltip: ""
 			}
 
 			AncientSkeletronMask: {
-				DisplayName: Ancient Skeletron Mask
+				DisplayName: Ancient Skeletron面具
 				Tooltip: ""
 			}
 
 			AncientSkeletronPrimeMask: {
-				DisplayName: Ancient Skeletron Prime Mask
+				DisplayName: Ancient Skeletron Prime面具
 				Tooltip: ""
 			}
 
 			AncientTwinMask: {
-				DisplayName: Ancient Twin Mask
+				DisplayName: Ancient Twin面具
 				Tooltip: ""
 			}
 
 			AncientWallofFleshMask: {
-				DisplayName: Ancient Wall of Flesh Mask
+				DisplayName: Ancient Wall of Flesh面具
 				Tooltip: ""
 			}
 
 			AntonyMask: {
-				DisplayName: Novice Necromancer Mask
+				DisplayName: 死灵傀儡法师面具
 				Tooltip: ""
 			}
 
 			AquaticWisemanMask: {
-				DisplayName: Aquatic Wiseman Mask
+				DisplayName: 水族智者面具
 				Tooltip: ""
 			}
 
@@ -16441,7 +16460,7 @@ Mods: {
 			}
 
 			BabyMothronMask: {
-				DisplayName: Baby Mothron Mask
+				DisplayName: Baby Mothron面具
 				Tooltip: ""
 			}
 
@@ -16466,7 +16485,7 @@ Mods: {
 			}
 
 			BuffedMask: {
-				DisplayName: Buffed Mask
+				DisplayName: Buffed面具
 				Tooltip: "'I have a thicc scythe and I'm not afraid to use it!'"
 			}
 
@@ -16476,7 +16495,7 @@ Mods: {
 			}
 
 			BunnyMask: {
-				DisplayName: Bunny Mask
+				DisplayName: Bunny面具
 				Tooltip: ""
 			}
 
@@ -16486,7 +16505,7 @@ Mods: {
 			}
 
 			CharaMask: {
-				DisplayName: Genocidist's Mask
+				DisplayName: Genocidist's面具
 				Tooltip: "'Strangely it's unisex'"
 			}
 
@@ -16521,7 +16540,7 @@ Mods: {
 			}
 
 			DarkPrincesMask: {
-				DisplayName: Dark Prince's Mask
+				DisplayName: Dark Prince's面具
 				Tooltip: "'The promise in our hearts'"
 			}
 
@@ -16536,12 +16555,12 @@ Mods: {
 			}
 
 			DeepColdMask: {
-				DisplayName: Deep Cold Mask
+				DisplayName: Deep Cold面具
 				Tooltip: "'One of many armor being used by the high ranked soldiers of the dynasty'"
 			}
 
 			DemonMask: {
-				DisplayName: Demon Mask
+				DisplayName: Demon面具
 				Tooltip: ""
 			}
 
@@ -16556,7 +16575,7 @@ Mods: {
 			}
 
 			DesignersMask: {
-				DisplayName: Designer's Mask
+				DisplayName: Designer's面具
 				Tooltip: "'Could the feelings be teached?'"
 			}
 
@@ -16581,12 +16600,12 @@ Mods: {
 			}
 
 			DragonMask: {
-				DisplayName: Dragon Mask
+				DisplayName: Dragon面具
 				Tooltip: "'Ceremonial armor of a fabled warrior'"
 			}
 
 			EyezorMask: {
-				DisplayName: Eyezor Mask
+				DisplayName: Eyezor面具
 				Tooltip: ""
 			}
 
@@ -16606,7 +16625,7 @@ Mods: {
 			}
 
 			FeliceCommanderMask: {
-				DisplayName: Felice Commander's Mask
+				DisplayName: Felice Commander's面具
 				Tooltip: "'It was once being used by force captain of the horde'"
 			}
 
@@ -16631,7 +16650,7 @@ Mods: {
 			}
 
 			FlandresHead: {
-				DisplayName: Scarlet Vampire's Mask
+				DisplayName: Scarlet Vampire's面具
 				Tooltip: "'A remnant from the bloody catastrophe'"
 			}
 
@@ -16646,7 +16665,7 @@ Mods: {
 			}
 
 			FluffyMask: {
-				DisplayName: Fluffy Mask
+				DisplayName: Fluffy面具
 				Tooltip: "'Reject humanity return back to BUNI'"
 			}
 
@@ -16671,7 +16690,7 @@ Mods: {
 			}
 
 			FungalMask: {
-				DisplayName: Fungal Mask
+				DisplayName: Fungal面具
 				Tooltip: "'You hope it's not made from real fungis'"
 			}
 
@@ -16691,7 +16710,7 @@ Mods: {
 			}
 
 			GoldfishMask: {
-				DisplayName: Cursing Radness Mask
+				DisplayName: Cursing Radness面具
 				Tooltip: "'The true combination of wisdom and cuteness'"
 			}
 
@@ -16701,7 +16720,7 @@ Mods: {
 			}
 
 			GoodBoyDynastyMask: {
-				DisplayName: Dynasty Guard Mask
+				DisplayName: Dynasty Guard面具
 				Tooltip: "'Clothes of official good boys'"
 			}
 
@@ -16711,7 +16730,7 @@ Mods: {
 			}
 
 			HarpyMask: {
-				DisplayName: Harpy Mask
+				DisplayName: Harpy面具
 				Tooltip: ""
 			}
 
@@ -16743,7 +16762,7 @@ Mods: {
 			}
 
 			HeroicSlimeMask: {
-				DisplayName: Heroic Slime Mask
+				DisplayName: 英勇史莱姆面具
 				Tooltip: ""
 			}
 
@@ -16780,7 +16799,7 @@ Mods: {
 			}
 
 			HornedGodMask: {
-				DisplayName: Horned God Mask
+				DisplayName: Horned God面具
 				Tooltip: "'Remnant of an age of wonders'"
 			}
 
@@ -16790,12 +16809,12 @@ Mods: {
 			}
 
 			HuntersMask: {
-				DisplayName: Hunter's Mask
+				DisplayName: Hunter's面具
 				Tooltip: ""
 			}
 
 			IgorMask: {
-				DisplayName: Igor Mask
+				DisplayName: Igor面具
 				Tooltip: ""
 			}
 
@@ -16810,7 +16829,7 @@ Mods: {
 			}
 
 			ImperialGuardMask: {
-				DisplayName: Imperial Guard Mask
+				DisplayName: Imperial Guard面具
 				Tooltip: "'Honored armor of the forbidden troops'"
 			}
 
@@ -16825,12 +16844,12 @@ Mods: {
 			}
 
 			InterstellarKnightMask: {
-				DisplayName: Interstellar Knight Mask
+				DisplayName: Interstellar Knight面具
 				Tooltip: "'Shine with cosmic power'"
 			}
 
 			IsaacMask: {
-				DisplayName: Isaac Mask
+				DisplayName: 以撒面具
 				Tooltip: ""
 			}
 
@@ -16840,7 +16859,7 @@ Mods: {
 			}
 
 			JoyfulMask: {
-				DisplayName: Joyful Mask
+				DisplayName: Joyful面具
 				Tooltip: "'Hey Guys'"
 			}
 
@@ -16868,7 +16887,7 @@ Mods: {
 			}
 
 			JudgementMask: {
-				DisplayName: Judgement Mask
+				DisplayName: Judgement面具
 				Tooltip:
 					'''
 					'Great for impersonating wiki lords!'
@@ -16877,7 +16896,7 @@ Mods: {
 			}
 
 			LavalGolemMask: {
-				DisplayName: Laval Golem Mask
+				DisplayName: 拉瓦尔傀儡面具
 				Tooltip: ""
 			}
 
@@ -16897,7 +16916,7 @@ Mods: {
 			}
 
 			MagicTimePunkHead: {
-				DisplayName: Magic Time Punk Mask
+				DisplayName: Magic Time Punk面具
 				Tooltip: "'Great for impersonating wiki lords!'"
 			}
 
@@ -16994,7 +17013,7 @@ Mods: {
 			}
 
 			MythicalLionMask: {
-				DisplayName: Mythical Lion Mask
+				DisplayName: Mythical Lion面具
 				Tooltip: ""
 			}
 
@@ -17031,12 +17050,12 @@ Mods: {
 			}
 
 			OcramMask: {
-				DisplayName: Ocram Mask
+				DisplayName: Ocram面具
 				Tooltip: ""
 			}
 
 			OkikuMask: {
-				DisplayName: Okiku Mask
+				DisplayName: 盘子女鬼面具
 				Tooltip: ""
 			}
 
@@ -17056,7 +17075,7 @@ Mods: {
 			}
 
 			PeacefulMask: {
-				DisplayName: Peaceful Mask
+				DisplayName: Peaceful面具
 				Tooltip: "'We ride together'"
 			}
 
@@ -17066,17 +17085,17 @@ Mods: {
 			}
 
 			PoliticianSlimesMajesticHair: {
-				DisplayName: Politician Slime's Hat
+				DisplayName: 政客史莱姆的帽子
 				Tooltip: ""
 			}
 
 			PredictorMask: {
-				DisplayName: Predictor Mask
+				DisplayName: Predictor面具
 				Tooltip: ""
 			}
 
 			PurifiedMask: {
-				DisplayName: Divine Mask
+				DisplayName: Divine面具
 				Tooltip: "'You feel all of the impurity inside of your soul start to being purified'"
 			}
 
@@ -17086,22 +17105,22 @@ Mods: {
 			}
 
 			RedDevilMask: {
-				DisplayName: Red Devil Mask
+				DisplayName: Red Devil面具
 				Tooltip: ""
 			}
 
 			SatlaMask: {
-				DisplayName: S.A.T.L.A.-001 Mask
+				DisplayName: S.A.T.L.A.-001面具
 				Tooltip: ""
 			}
 
 			SecurityBotMask: {
-				DisplayName: Security Bot Mask
+				DisplayName: 安全机器人面具
 				Tooltip: ""
 			}
 
 			SelenianMask: {
-				DisplayName: Selenian Mask
+				DisplayName: Selenian面具
 				Tooltip: ""
 			}
 
@@ -17121,7 +17140,7 @@ Mods: {
 			}
 
 			SlayerofEvilHelmet: {
-				DisplayName: Slayer of Evil's Helmet
+				DisplayName: 恶魔杀手的头盔
 				Tooltip: ""
 			}
 
@@ -17141,7 +17160,7 @@ Mods: {
 			}
 
 			SnakeMask: {
-				DisplayName: Snake Mask
+				DisplayName: Snake面具
 				Tooltip: ""
 			}
 
@@ -17161,7 +17180,7 @@ Mods: {
 			}
 
 			StargazerMask: {
-				DisplayName: Stargazer Mask
+				DisplayName: Stargazer面具
 				Tooltip: ""
 			}
 
@@ -17171,7 +17190,7 @@ Mods: {
 			}
 
 			StarMerchantMask: {
-				DisplayName: Star Merchant Mask
+				DisplayName: Star Merchant面具
 				Tooltip: "'You feel you start to understand Kanji'"
 			}
 
@@ -17181,12 +17200,12 @@ Mods: {
 			}
 
 			StormDiverMask: {
-				DisplayName: Storm Diver Mask
+				DisplayName: Storm Diver面具
 				Tooltip: ""
 			}
 
 			StormDiverMinibossMask: {
-				DisplayName: Dr Fetus's Hat and Monocle
+				DisplayName: 胎儿博士's Hat and Monocle
 				Tooltip: ""
 			}
 
@@ -17196,7 +17215,7 @@ Mods: {
 			}
 
 			StrongestMask: {
-				DisplayName: Mask of the Strongest
+				DisplayName: 面具 of the Strongest
 				Tooltip: "'Icicle Falls'"
 			}
 
@@ -17256,7 +17275,7 @@ Mods: {
 			}
 
 			TypicalSchoolGirlMask: {
-				DisplayName: Typical Schoolgirl Mask
+				DisplayName: Typical Schoolgirl面具
 				Tooltip: "'These clothes once used as uniform'"
 			}
 
@@ -17271,12 +17290,12 @@ Mods: {
 			}
 
 			UndeadChefMask: {
-				DisplayName: Undead Chef Mask
+				DisplayName: 不死厨师面具
 				Tooltip: ""
 			}
 
 			VultureMask: {
-				DisplayName: Vulture Mask
+				DisplayName: Vulture面具
 				Tooltip: ""
 			}
 
@@ -18853,7 +18872,7 @@ Mods: {
 				Tooltip:
 					'''
 					'在白天，它会变得更强，更快'
-					'夜间攻击敌人将造成树精之害，持续2秒'
+					'在夜晚攻击敌人将造成树精之害，持续2秒'
 					'使用鼠标右键，你可以将它指向鼠标的方向
 					'由于它的尖端比侧面更锋利，它在这种形式下攻击会造成更大的伤害
 					'''
@@ -20921,7 +20940,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Lords final gift before his rest'
-					Summons a part of ancient guardians soul to fight for you
+					Summons a part of 远古守护者s soul to fight for you
 					'''
 			}
 
@@ -20999,7 +21018,7 @@ Mods: {
 				Tooltip:
 					'''
 					'SYSTEM REBOOTING'
-					While holding 召唤an alpha state security bot accept player as admin
+					While holding 召唤an alpha state 安全机器人 accept player as admin
 					Using item changes its attack mode
 					'''
 			}
@@ -21136,7 +21155,7 @@ Mods: {
 					'''
 					[c/00FFFF:Supporter Soul]
 					'Fueled with the remnants of the eternal peace of the tormented one'
-					Using it will call Okiku's soul to apply different effects periodically
+					Using it will call 盘子女鬼's soul to apply different effects periodically
 					-Death: All enemies that have less than 10% life have a chance to be instakilled by minion attacks
 					-Misfortune:All minion based attacks inflict venom + home to enemies
 					-Rage: A specimen will protect her + tortured souls will rise from below around her periodically
@@ -21231,7 +21250,7 @@ Mods: {
 			}
 
 			HollowMask: {
-				DisplayName: Hollow Mask
+				DisplayName: Hollow面具
 				Tooltip:
 					'''
 					'The others are like animals, but I am really aware'
@@ -21367,7 +21386,7 @@ Mods: {
 
 			GoldenSafe: {
 				DisplayName: Golden Safe
-				Tooltip: "'It's for storing politician slimes lunch money'"
+				Tooltip: "'It's for storing 政客史莱姆s lunch money'"
 			}
 
 			GonerSeastar: {
@@ -21652,7 +21671,7 @@ Mods: {
 			BadNebulaPillar.DisplayName: Bad Nebula Pillar
 			BadNihongo.DisplayName: Bad Nihongo
 			BadPlaneBomb.DisplayName: Bad Plane Bomb
-			BadPoliticianSlimeSlice.DisplayName: Bad Politician Slime Slice
+			BadPoliticianSlimeSlice.DisplayName: Bad 政客史莱姆 Slice
 			BadRedBeam.DisplayName: Bad Red Beam
 			BadShadowBlood.DisplayName: Bad Shadow Blood
 			BadSlimeBall.DisplayName: Bad Slime Ball
@@ -21821,14 +21840,14 @@ Mods: {
 			WyvernProj.DisplayName: Wyvern Proj
 			BigSawBlade.DisplayName: Big Saw Blade
 			DarkRing.DisplayName: Dark Ring
-			DrFetusBat.DisplayName: Dr Fetus Bat
-			DrFetusBone.DisplayName: Dr Fetus Bone
-			DrFetusEoC.DisplayName: Dr Fetus Eo C
-			DrFetusMagic.DisplayName: Dr Fetus Magic
-			DrFetusMagic2.DisplayName: Dr Fetus Magic2
-			DrFetusMeteor.DisplayName: Dr Fetus Meteor
-			DrFetusSkull2.DisplayName: Dr Fetus Skull2
-			DrFetusThorn.DisplayName: Dr Fetus Thorn
+			DrFetusBat.DisplayName: 胎儿博士 Bat
+			DrFetusBone.DisplayName: 胎儿博士 Bone
+			DrFetusEoC.DisplayName: 胎儿博士 Eo C
+			DrFetusMagic.DisplayName: 胎儿博士 Magic
+			DrFetusMagic2.DisplayName: 胎儿博士 Magic2
+			DrFetusMeteor.DisplayName: 胎儿博士 Meteor
+			DrFetusSkull2.DisplayName: 胎儿博士 Skull2
+			DrFetusThorn.DisplayName: 胎儿博士 Thorn
 			FetusStar.DisplayName: Fetus Star
 			GreenRocket.DisplayName: Green Rocket
 			MagicController.DisplayName: Magic Controller
@@ -21891,20 +21910,20 @@ Mods: {
 			GhostArrow.DisplayName: Ghost Arrow
 			GhostArrowMark.DisplayName: Ghost Arrow Mark
 			HandRise.DisplayName: Hand Rise
-			OkikuBeam.DisplayName: Okiku Beam
-			OkikuBlood.DisplayName: Okiku Blood
-			OkikuFallenSoul.DisplayName: Okiku Fallen Soul
-			OkikuFallenSoul2.DisplayName: Okiku Fallen Soul2
-			OkikuFallenSoul3.DisplayName: Okiku Fallen Soul3
-			OkikuFallenSoul4.DisplayName: Okiku Fallen Soul4
-			OkikuFog.DisplayName: Okiku Fog
-			OkikuHeart.DisplayName: Okiku Heart
-			OkikuHomingSoul.DisplayName: Okiku Homing Soul
-			OkikuSoul.DisplayName: Okiku Soul
-			OkikuSoulCaller.DisplayName: Okiku Soul Caller
-			OkikuSword.DisplayName: Okiku Sword
-			OkikuWhip.DisplayName: Okiku Whip
-			Okiku.DisplayName: Okiku
+			OkikuBeam.DisplayName: 盘子女鬼 Beam
+			OkikuBlood.DisplayName: 盘子女鬼 Blood
+			OkikuFallenSoul.DisplayName: 盘子女鬼 Fallen Soul
+			OkikuFallenSoul2.DisplayName: 盘子女鬼 Fallen Soul2
+			OkikuFallenSoul3.DisplayName: 盘子女鬼 Fallen Soul3
+			OkikuFallenSoul4.DisplayName: 盘子女鬼 Fallen Soul4
+			OkikuFog.DisplayName: 盘子女鬼 Fog
+			OkikuHeart.DisplayName: 盘子女鬼 Heart
+			OkikuHomingSoul.DisplayName: 盘子女鬼 Homing Soul
+			OkikuSoul.DisplayName: 盘子女鬼 Soul
+			OkikuSoulCaller.DisplayName: 盘子女鬼 Soul Caller
+			OkikuSword.DisplayName: 盘子女鬼 Sword
+			OkikuWhip.DisplayName: 盘子女鬼 Whip
+			Okiku.DisplayName: 盘子女鬼
 			AirBubble.DisplayName: Air Bubble
 			AirBubble2.DisplayName: Air Bubble2
 			AirBubble3.DisplayName: Air Bubble3
@@ -22327,8 +22346,8 @@ Mods: {
 			HellfireDart.DisplayName: Hellfire Dart
 			HellstoneBall.DisplayName: Hellstone Ball
 			HeroicGelBall.DisplayName: Heroic Gel Ball
-			HeroicSlimeBeam.DisplayName: Heroic Slime Beam
-			HeroicSlimeSoul.DisplayName: Heroic Slime Soul
+			HeroicSlimeBeam.DisplayName: 英勇史莱姆 Beam
+			HeroicSlimeSoul.DisplayName: 英勇史莱姆 Soul
 			HeroStar.DisplayName: Hero Star
 			HolographicArkhalisSlice.DisplayName: Holographic Arkhalis Slice
 			HolographicBall.DisplayName: Holographic Ball
@@ -22406,12 +22425,12 @@ Mods: {
 			Laser.DisplayName: Laser
 			Laser2.DisplayName: Laser2
 			LaserMark.DisplayName: Laser Mark
-			LavalGolemEnergy.DisplayName: Laval Golem Energy
-			LavalGolemFireBall.DisplayName: Laval Golem Fire Ball
-			LavalGolemFireBall2.DisplayName: Laval Golem Fire Ball2
-			LavalGolemFireball3.DisplayName: Laval Golem Fireball3
-			LavalGolemFlame.DisplayName: Laval Golem Flame
-			LavalGolemInferno.DisplayName: Laval Golem Inferno
+			LavalGolemEnergy.DisplayName: 拉瓦尔傀儡 Energy
+			LavalGolemFireBall.DisplayName: 拉瓦尔傀儡 Fire Ball
+			LavalGolemFireBall2.DisplayName: 拉瓦尔傀儡 Fire Ball2
+			LavalGolemFireball3.DisplayName: 拉瓦尔傀儡 Fireball3
+			LavalGolemFlame.DisplayName: 拉瓦尔傀儡 Flame
+			LavalGolemInferno.DisplayName: 拉瓦尔傀儡 Inferno
 			LavaRise.DisplayName: Lava Rise
 			LeadOreBall.DisplayName: Lead Ore Ball
 			Leaf1.DisplayName: Leaf1
@@ -23018,7 +23037,7 @@ Mods: {
 			MythrilOreBall.DisplayName: Mythril Ore Ball
 			NameChange.DisplayName: Name Change
 			NecromancerSpirit.DisplayName: Necromancer Spirit
-			NekoSlimeDash.DisplayName: Neko Slime Dash
+			NekoSlimeDash.DisplayName: 猫猫头 Dash
 			NightmareBite.DisplayName: Nightmare Bite
 			NinjaCloud.DisplayName: Ninja Cloud
 			NinjaCloud2.DisplayName: Ninja Cloud2
@@ -23064,9 +23083,9 @@ Mods: {
 			PoisonBottle.DisplayName: Poison Bottle
 			PoisonCloud.DisplayName: Poison Cloud
 			PoisonedArrow.DisplayName: Poisoned Arrow
-			PoliticianSlimeGel.DisplayName: Politician Slime Gel
-			PoliticianSlimeGelAttack.DisplayName: Politician Slime Gel Attack
-			PoliticianSlimeMinion.DisplayName: Politician Slime Minion
+			PoliticianSlimeGel.DisplayName: 政客史莱姆 Gel
+			PoliticianSlimeGelAttack.DisplayName: 政客史莱姆 Gel Attack
+			PoliticianSlimeMinion.DisplayName: 政客史莱姆 Minion
 			PortBoarderHarpoon.DisplayName: Port Boarder Harpoon
 			PresentExplosion.DisplayName: Present Explosion
 			PresentMagic.DisplayName: Present Magic
@@ -23138,7 +23157,7 @@ Mods: {
 			SelfSacrificeFireball.DisplayName: Self Sacrifice Fireball
 			ArrowShooter.DisplayName: Arrow Shooter
 			BaumTree.DisplayName: Baum Tree
-			BowserStatue.DisplayName: Bowser Statue
+			BowserStatue.DisplayName: Bowser雕像
 			BullseyeBillBlaster.DisplayName: Bullseye Bill Blaster
 			ChippyCactus.DisplayName: Chippy Cactus
 			CirnoStar.DisplayName: Cirno Star
@@ -23397,7 +23416,7 @@ Mods: {
 			TrinketSatla.DisplayName: Trinket Satla
 			TrinketRoyalKeeper.DisplayName: Trinket Royal Keeper
 			TrinketGoldCoin.DisplayName: Trinket Gold Coin
-			TrinketBunnyZeppelin.DisplayName: Trinket Bunny Zeppelin
+			TrinketBunnyZeppelin.DisplayName: Trinket 兔子飞艇
 			SufiProjectile.DisplayName: Sufi Projectile
 			StenchCloud.DisplayName: Stench Cloud
 			StemCellEffect.DisplayName: Stem Cell Effect
@@ -23529,7 +23548,7 @@ Mods: {
 			ThornDart.DisplayName: Thorn Dart
 			ThornBall2.DisplayName: Thorn Ball2
 			TheFourthDegreeInferno.DisplayName: The Fourth Degree Inferno
-			TheAncientGuardianDeath.DisplayName: The Ancient Guardian Death
+			TheAncientGuardianDeath.DisplayName: The 远古守护者 Death
 			TerraSpinningEnergyBolt.DisplayName: Terra Spinning Energy Bolt
 			TarotWall.DisplayName: Tarot Wall
 			TarotSun.DisplayName: Tarot Sun
@@ -23561,7 +23580,7 @@ Mods: {
 			SunMark.DisplayName: Sun Mark
 			YearningKey.DisplayName: Yearning Key
 			ValkyrieCloud.DisplayName: Valkyrie Cloud
-			TinySecurityBot.DisplayName: Tiny Security Bot
+			TinySecurityBot.DisplayName: Tiny 安全机器人
 			TinySaucer.DisplayName: Tiny Saucer
 			TinyProbe.DisplayName: Tiny Probe
 			TinyCreeper.DisplayName: Tiny Creeper
@@ -23621,7 +23640,7 @@ Mods: {
 			JelloPortal.DisplayName: Jello Portal
 			HeroicGelBall2.DisplayName: Heroic Gel Ball2
 			GuardianShield.DisplayName: Guardian Shield
-			GnomeStatue.DisplayName: Gnome Statue
+			GnomeStatue.DisplayName: Gnome雕像
 			GnomeRock.DisplayName: Gnome Rock
 			GnomeRise.DisplayName: Gnome Rise
 			FloweyWhip.DisplayName: Flowey Whip
@@ -23720,85 +23739,85 @@ Mods: {
 		}
 
 		Configs: {
-			DisplayName: AFK宠物配置
+			DisplayName: AFK宠物 模组设置
 
 			AFKPetsConfiguration: {
 				PetLiteMode: {
-					Tooltip: 启用时，禁止宠物掉落
-					Label: "[i:Cog] 禁用的宠物"
+					Tooltip: 启用后，禁用宠物掉落
+					Label: "[i:Cog] 禁用宠物"
 				}
 
 				UltraLiteMode: {
-					Tooltip: 启用时，禁用使用其他游戏图形变量内容
-					Label: "[i:Cog] 禁用图形变量内容"
+					Tooltip: 启用后，禁用任何使用的来自其它游戏的贴图
+					Label: "[i:Cog] 纯净贴图模式"
 				}
 
 				BossLiteMode: {
-					Tooltip: 启用时，任何BOSS包括小BOSS都无法生成，且物品无法获得
-					Label: "[i:Cog] 禁用afk宠物BOSS"
+					Tooltip: 启用后，本模组的任何Boss都无法生成，它们的生成物也无法获得
+					Label: "[i:Cog] 禁用AFK宠物模组的Boss"
 				}
 
 				WingsLiteMode: {
-					Tooltip: 启用时，禁用翅膀你的模组有翅膀槽并且不想移除它们
+					Tooltip: 启用后，本模组的翅膀将被卸载。如果你装了很多其它模组，翅膀的总数超过127个导致游戏崩溃，启用此选项会有帮助。
 					Label: "[i:AngelWings] 禁用翅膀"
 				}
 
 				LiteMode: {
-					Tooltip: 启用时，禁用除了宠物以外的任何内容将变成无法获得
-					Label: "[i:Cog] 禁用其他内容"
+					Tooltip: 启用后，本模组除了宠物之外的其它内容将无法获得
+					Label: "[i:Cog] 禁用额外内容s"
 				}
 
 				TrinketOffsetY: {
-					Tooltip: 饰物槽的偏移由距左边框的距离确定
-					Label: "[i:Book] 饰物槽UI向Y偏移"
+					Tooltip: 从上到下调整AFK杂货栏的垂直位置
+					Label: "[i:Book] 调整AFK杂货栏在屏幕上的垂直显示位置"
 				}
 
 				TrinketOffsetX: {
-					Tooltip: 饰物槽的偏移由距顶部的距离确定
-					Label: "[i:Book] 饰物槽UI向X偏移"
+					Tooltip: 从左到右调整AFK杂货栏的水平位置
+					Label: "[i:Book] 调整AFK杂货栏在屏幕上的水平显示位置"
 				}
 
 				TrinketSlotHide: {
-					Tooltip: 启用时，禁用饰物槽UI
-					Label: "[i:Book] 隐藏饰物槽UI"
+					Tooltip: 启用后，禁用背包下方显示的AFK杂货栏
+					Label: "[i:Book] 隐藏AFK杂货栏"
 				}
 
 				CalamityRogueSupport: {
-					Label: "[i:ThrowingKnife] 将投掷转换为盗贼(灾厄)"
-					Tooltip: 启用时，把afk宠物的投掷武器转化成灾厄的盗贼武器 (需要重新加载)
+					Label: "[i:ThrowingKnife] 转化为盗贼（灾厄）/投掷（原版）"
+					Tooltip: 启用后，将本模组的投掷武器转化为盗贼伤害（如果启用了灾厄）\n如果未启用灾厄，则装华为纯净的投掷伤害（更改后需要重新加载模组）
 				}
 
 				TrueMeleeTooltip: {
-					Label: "[i:ThrowingKnife] 在工具提示中显示特定的伤害类型"
-					Tooltip: 启用时, 显示真近战，主动召唤和变身召唤的伤害类型
+					Label: "[i:ThrowingKnife] 更详细的伤害类型显示"
+					Tooltip: 启用后，在伤害类型栏将武器划分为真近战、主动召唤和变身召唤
 				}
 
 				CataclysmicView: {
-					Label: "[i:AviatorSunglasses] 毁灭性的视觉"
-					Tooltip: 启用时，让boss背景不是红色材质为基础
+					Label: "[i:AviatorSunglasses] 灾厄视角"
+					Tooltip: 启用后，Boss的背景将不再基于红色
 				}
 
 				SpecialReforgeShader: {
-					Label: "[i:ThrowingKnife]  特殊的重铸材质"
-					Tooltip: 启用时，让特殊的重铸材质用在武器上
+					Label: "[i:ThrowingKnife] 特殊重铸材质"
+					Tooltip: 启用后，有特殊词缀的武器将有特别的显示
 				}
 
 				WeaponShake: {
-					Label: "[i:ThrowingKnife] 武器摇屏效果"
-					Tooltip: 禁用时，让一些武器的屏幕抖动效果失效
+					Label: "[i:ThrowingKnife] 武器屏幕晃动效果"
+					Tooltip: 启用后，禁用一些武器的屏幕晃动效果
 				}
 
 				NoStrongFishMode: {
 					Label: "[i:Bass] 禁用额外的钓鱼机制"
-					Tooltip: 启用时，获得更强的鱼+饼干箱被禁用
+					Tooltip: 启用后，禁用钓鱼机制和饼干板条箱
 				}
 
 				LilWiki: {
-					Label: "[i:Book] 启动维基百科"
-					Tooltip: 启用时，让一些具有特殊获取方式的物品在物品描述显示
+					Label: "[i:Book] 启用 Lil Wiki"
+					Tooltip: 启用后，一些物品的介绍界面可查看更详细的Wiki信息
 				}
 
-				DisplayName: AFK宠物配置
+				DisplayName: AFK宠物 模组设置
 			}
 		}
 
