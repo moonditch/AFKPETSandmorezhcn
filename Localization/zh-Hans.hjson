@@ -2,7 +2,7 @@ Mods: {
 	AFKPETS: {
 		NPCs: {
 			UWUSlime: {
-				DisplayName: UWU史姆
+				DisplayName: UWU史姆姆
 				BossChecklistIntegration.EntryName: 史莱姆最后的希望
 			}
 
@@ -906,8 +906,8 @@ Mods: {
 			}
 
 			ApacheChopper: {
-				DisplayName: Lil Slugger
-				Description: Time to get personal
+				DisplayName: 试验性伐木机
+				Description: 私人恩怨
 			}
 
 			Aqua: {
@@ -937,7 +937,7 @@ Mods: {
 
 			Asriel: {
 				DisplayName: Asriel
-				Description: Asriel will follow you
+				Description: Asriel将跟随你
 			}
 
 			Ayame: {
@@ -957,7 +957,7 @@ Mods: {
 
 			BabyPrime: {
 				DisplayName: Baby 机械骷髅王
-				Description: Baby 机械骷髅王 will follow you
+				Description: Baby 机械骷髅王将跟随你
 			}
 
 			BadBubble: {
@@ -997,22 +997,22 @@ Mods: {
 
 			BirdBlue: {
 				DisplayName: Blue Jay
-				Description: Blue Jay will follow you
+				Description: Blue Jay将跟随你
 			}
 
 			BirdGold: {
 				DisplayName: Golden Bird
-				Description: Golden Bird will follow you
+				Description: Golden Bird将跟随你
 			}
 
 			BirdRed: {
 				DisplayName: Cardinal
-				Description: Cardinal will follow you
+				Description: Cardinal将跟随你
 			}
 
 			BirdWhite: {
 				DisplayName: Bird
-				Description: Bird will follow you
+				Description: Bird将跟随你
 			}
 
 			BlackMage: {
@@ -1061,8 +1061,8 @@ Mods: {
 			}
 
 			BloodSpider: {
-				DisplayName: Tiny Nimbus
-				Description: "'Timid cloud wants to be friend with you'"
+				DisplayName: 小小雨云
+				Description: "'胆小的云朵想和你做朋友'"
 			}
 
 			BlueInkling: {
@@ -1076,8 +1076,8 @@ Mods: {
 			}
 
 			BlueTetrisBlock: {
-				DisplayName: Magical Sapphire Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法蓝宝石块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			Bobomb: {
@@ -1097,12 +1097,12 @@ Mods: {
 
 			BoneBiter: {
 				DisplayName: Bone Biter
-				Description: Bone Biter will follow you
+				Description: Bone Biter将跟随你
 			}
 
 			Bowser: {
 				DisplayName: Bowser
-				Description: Bowser will follow you
+				Description: Bowser将跟随你
 			}
 
 			Brad: {
@@ -1157,7 +1157,7 @@ Mods: {
 
 			Bubsy: {
 				DisplayName: Bubsy
-				Description: Bubsy will follow you
+				Description: Bubsy将跟随你
 			}
 
 			Bucket: {
@@ -1237,7 +1237,7 @@ Mods: {
 
 			ChargedBaby: {
 				DisplayName: Charged Baby
-				Description: It will follow you.
+				Description: 它将跟随你.
 			}
 
 			Chargetime2: {
@@ -1262,7 +1262,7 @@ Mods: {
 
 			ChizuruUrashima: {
 				DisplayName: Chizuru Urashima
-				Description: "'She will follow you'"
+				Description: "'She将跟随你'"
 			}
 
 			ChochinObakeBlessing: {
@@ -1295,8 +1295,8 @@ Mods: {
 			}
 
 			Cloud: {
-				DisplayName: Flying Nimbus
-				Description: "'It seems nimbus found your heart pure enough'"
+				DisplayName: 灵光筋斗云
+				Description: "'看来灵光已经确定你的心灵足够纯净'"
 			}
 
 			CloudStrife: {
@@ -1316,7 +1316,7 @@ Mods: {
 
 			Clownpiece: {
 				DisplayName: Clownpiece
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			ConcentratedNighmare: {
@@ -1341,7 +1341,7 @@ Mods: {
 
 			Crimera: {
 				DisplayName: Crimera
-				Description: Crimera will follow you
+				Description: Crimera将跟随你
 			}
 
 			CrimsonSong: {
@@ -1351,7 +1351,7 @@ Mods: {
 
 			Crow: {
 				DisplayName: Raven
-				Description: Raven will follow you
+				Description: Raven将跟随你
 			}
 
 			CrowPrince: {
@@ -1366,7 +1366,7 @@ Mods: {
 
 			CrystalThresher: {
 				DisplayName: Crystal Thresher
-				Description: Crystal Thresher will follow you
+				Description: Crystal Thresher将跟随你
 			}
 
 			Cultist: {
@@ -1376,12 +1376,12 @@ Mods: {
 
 			Cuphead: {
 				DisplayName: Cuphead
-				Description: Cuphead will follow you
+				Description: Cuphead将跟随你
 			}
 
 			Cupid: {
 				DisplayName: Cupid
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			CuriousWisp: {
@@ -1401,7 +1401,7 @@ Mods: {
 
 			Darkai: {
 				DisplayName: Darkrai
-				Description: Darkrai will follow you
+				Description: Darkrai将跟随你
 			}
 
 			DarkLamia: {
@@ -1756,7 +1756,7 @@ Mods: {
 
 			DryBaby: {
 				DisplayName: Dry Baby
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			DualTerror: {
@@ -2161,7 +2161,7 @@ Mods: {
 
 			EGadd: {
 				DisplayName: Prof. E. Gadd
-				Description: He will follow you
+				Description: He将跟随你
 			}
 
 			Eirin: {
@@ -2173,14 +2173,14 @@ Mods: {
 				DisplayName: Ellen
 				Description:
 					'''
-					The witch will follow you
+					The witch将跟随你
 					'Oops, spoilers.'
 					'''
 			}
 
 			Elly: {
 				DisplayName: Elly
-				Description: "'Gatekeeper will follow you.'"
+				Description: "'Gatekeeper将跟随你.'"
 			}
 
 			Enchantress: {
@@ -2195,17 +2195,17 @@ Mods: {
 
 			EtherianWyvern1: {
 				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern will follow you
+				Description: Etherian Wyvern将跟随你
 			}
 
 			EtherianWyvern2: {
 				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern will follow you
+				Description: Etherian Wyvern将跟随你
 			}
 
 			EtherianWyvern3: {
 				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern will follow you
+				Description: Etherian Wyvern将跟随你
 			}
 
 			EyeOfCthulhu: {
@@ -2215,7 +2215,7 @@ Mods: {
 
 			EyeRoll: {
 				DisplayName: Eye Rol
-				Description: Eye Rol will follow you
+				Description: Eye Rol将跟随你
 			}
 
 			Fabu: {
@@ -2234,7 +2234,7 @@ Mods: {
 
 			farfetchd: {
 				DisplayName: farfetch'd
-				Description: farfetch'd will follow you
+				Description: farfetch'd将跟随你
 			}
 
 			FemaleAncientWarlord: {
@@ -2264,12 +2264,12 @@ Mods: {
 
 			FleshReaver: {
 				DisplayName: Flesh Reaver
-				Description: Flesh Reaver will follow you
+				Description: Flesh Reaver将跟随你
 			}
 
 			FloatyGross: {
 				DisplayName: Floaty Gross
-				Description: Floaty Gross will follow you
+				Description: Floaty Gross将跟随你
 			}
 
 			FlyingSnake: {
@@ -2284,7 +2284,7 @@ Mods: {
 
 			ForagerCow: {
 				DisplayName: Cow
-				Description: "'It will follow you'"
+				Description: "'它将跟随你'"
 			}
 
 			FranBow: {
@@ -2299,7 +2299,7 @@ Mods: {
 
 			Furret: {
 				DisplayName: Furret
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			FurretCooldown: {
@@ -2329,7 +2329,7 @@ Mods: {
 
 			GalactaKnight: {
 				DisplayName: Galacta Knight
-				Description: He will follow you.
+				Description: He将跟随你.
 			}
 
 			Garfield: {
@@ -2346,7 +2346,7 @@ Mods: {
 				DisplayName: Gaster
 				Description:
 					'''
-					Gaster will follow you
+					Gaster将跟随你
 					'You feel a void inside of you.'
 					'''
 			}
@@ -2358,7 +2358,7 @@ Mods: {
 
 			GiantBat: {
 				DisplayName: Giant Bat
-				Description: Giant Bat will follow you
+				Description: Giant Bat将跟随你
 			}
 
 			GiantTortoise: {
@@ -2383,7 +2383,7 @@ Mods: {
 
 			GoldBunny: {
 				DisplayName: Gold Bunny
-				Description: Gold Bunny will follow you
+				Description: Gold Bunny将跟随你
 			}
 
 			GoldMimic: {
@@ -2393,12 +2393,12 @@ Mods: {
 
 			GrandDad: {
 				DisplayName: Grand Dad
-				Description: Grand dad will follow you
+				Description: Grand dad将跟随你
 			}
 
 			GreaterDog: {
 				DisplayName: Greater Dog
-				Description: Greater Dog will follow you
+				Description: Greater Dog将跟随你
 			}
 
 			GreenShield: {
@@ -2407,13 +2407,13 @@ Mods: {
 			}
 
 			GreenTetrisBlock: {
-				DisplayName: Magical Emerald Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法翡翠块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			Grillby: {
 				DisplayName: Grillby
-				Description: Grillby will follow you
+				Description: Grillby将跟随你
 			}
 
 			GuardianCooldown: {
@@ -2447,7 +2447,7 @@ Mods: {
 
 			Harpy: {
 				DisplayName: Harpy
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Haste: {
@@ -2472,7 +2472,7 @@ Mods: {
 
 			HeadlessBaby: {
 				DisplayName: Headless Baby
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			HeartCooldown: {
@@ -2557,7 +2557,7 @@ Mods: {
 
 			IceBat: {
 				DisplayName: Ice Bat
-				Description: Ice Bat will follow you
+				Description: Ice Bat将跟随你
 			}
 
 			IceKing: {
@@ -2572,7 +2572,7 @@ Mods: {
 
 			IchirinKumoi: {
 				DisplayName: Ichirin Kumoi
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Iku: {
@@ -2592,7 +2592,7 @@ Mods: {
 
 			IrvineKinneas: {
 				DisplayName: Irvine Kinneas
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Isabelle: {
@@ -2652,12 +2652,12 @@ Mods: {
 
 			JungleBat: {
 				DisplayName: Jungle Bat
-				Description: Jungle Bat will follow you
+				Description: Jungle Bat将跟随你
 			}
 
 			Junko: {
 				DisplayName: Junko
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Kaga: {
@@ -2692,12 +2692,12 @@ Mods: {
 
 			Kid: {
 				DisplayName: Kid
-				Description: Kid will follow you
+				Description: Kid将跟随你
 			}
 
 			KingDedede: {
 				DisplayName: King Dedede
-				Description: King Dedede will follow you
+				Description: King Dedede将跟随你
 			}
 
 			Kirby: {
@@ -2792,7 +2792,7 @@ Mods: {
 
 			LavaBat: {
 				DisplayName: Lava Bat
-				Description: Lava Bat will follow you
+				Description: Lava Bat将跟随你
 			}
 
 			Leap: {
@@ -2807,7 +2807,7 @@ Mods: {
 
 			LightBat: {
 				DisplayName: Illuminant Bat
-				Description: Illuminant Bat will follow you
+				Description: Illuminant Bat将跟随你
 			}
 
 			LightLamia: {
@@ -2832,7 +2832,7 @@ Mods: {
 
 			Lilac: {
 				DisplayName: Lilac
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			LilyWhite: {
@@ -2857,7 +2857,7 @@ Mods: {
 
 			Lloid: {
 				DisplayName: Lloid the Gyroid
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			Lopunny: {
@@ -2882,7 +2882,7 @@ Mods: {
 
 			LunaticCultist: {
 				DisplayName: Lunatic Cultist
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			LyricaPrismriver: {
@@ -2892,7 +2892,7 @@ Mods: {
 
 			Machop: {
 				DisplayName: Machop
-				Description: Machop will follow you
+				Description: Machop将跟随你
 			}
 
 			MadMewMew: {
@@ -3037,7 +3037,7 @@ Mods: {
 
 			MamizouFutatsuiwa: {
 				DisplayName: Mamizou Futatsuiwa
-				Description: "'She will follow you'"
+				Description: "'She将跟随你'"
 			}
 
 			Mari: {
@@ -3087,7 +3087,7 @@ Mods: {
 
 			Mawile: {
 				DisplayName: Mawile
-				Description: Mawile will follow you
+				Description: Mawile将跟随你
 			}
 
 			MayaFey: {
@@ -3107,7 +3107,7 @@ Mods: {
 
 			MegamanX: {
 				DisplayName: Megaman X
-				Description: Megaman X will follow you
+				Description: Megaman X将跟随你
 			}
 
 			Megumin: {
@@ -3137,7 +3137,7 @@ Mods: {
 
 			MetaKnight: {
 				DisplayName: Meta Knight
-				Description: Meta Knight will follow you
+				Description: Meta Knight将跟随你
 			}
 
 			Metroid: {
@@ -3167,12 +3167,12 @@ Mods: {
 
 			MinamitsuMurasa: {
 				DisplayName: Minamitsu Murasa
-				Description: "'The captain will follow you'"
+				Description: "'The captain将跟随你'"
 			}
 
 			MiniDinosaur: {
 				DisplayName: Mini Dinosaur
-				Description: Mini Dinosaur will follow you
+				Description: Mini Dinosaur将跟随你
 			}
 
 			MinigameTime: {
@@ -3202,7 +3202,7 @@ Mods: {
 
 			Mismagius: {
 				DisplayName: Misdreavus
-				Description: Misdreavus will follow you
+				Description: Misdreavus将跟随你
 			}
 
 			MomijiInubashiri: {
@@ -3236,8 +3236,8 @@ Mods: {
 			}
 
 			Motorcycle: {
-				DisplayName: Motorcycle
-				Description: There is still blood on its wheels
+				DisplayName: 摩托车
+				Description: 轮子上还沾着血迹
 			}
 
 			MrBright: {
@@ -3247,7 +3247,7 @@ Mods: {
 
 			MrGameandWatch: {
 				DisplayName: Mr Game & Watch
-				Description: Mr Game & Watch will follow you
+				Description: Mr Game & Watch将跟随你
 			}
 
 			Mudkip: {
@@ -3266,8 +3266,8 @@ Mods: {
 			}
 
 			Mushroom: {
-				DisplayName: Festive Cart
-				Description: "'Slide with style'"
+				DisplayName: 节庆矿车
+				Description: "'酷炫前进'"
 			}
 
 			Napstablook: {
@@ -3277,7 +3277,7 @@ Mods: {
 
 			Nazrin: {
 				DisplayName: Nazrin
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			NebulaBuff: {
@@ -3297,7 +3297,7 @@ Mods: {
 
 			NitoriKawashiro: {
 				DisplayName: Nitori Kawashiro
-				Description: The genious will follow you
+				Description: The genious将跟随你
 			}
 
 			NononJakuzure: {
@@ -3317,7 +3317,7 @@ Mods: {
 
 			NueHoujuu: {
 				DisplayName: Nue Houjuu
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Nullified: {
@@ -3411,8 +3411,8 @@ Mods: {
 			}
 
 			PinkTetrisBlock: {
-				DisplayName: Magical Amethyst Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法紫晶石块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			PlanteraWrath: {
@@ -3662,7 +3662,7 @@ Mods: {
 
 			Pug: {
 				DisplayName: Pug
-				Description: Pug will follow you
+				Description: Pug将跟随你
 			}
 
 			PuppetDebuff: {
@@ -3757,7 +3757,7 @@ Mods: {
 
 			Remilia: {
 				DisplayName: Remilia Scarlet
-				Description: Remilia will follow you
+				Description: Remilia将跟随你
 			}
 
 			RenkoUsami: {
@@ -3782,7 +3782,7 @@ Mods: {
 
 			Rika: {
 				DisplayName: Rika
-				Description: The engineer will follow you
+				Description: The engineer将跟随你
 			}
 
 			RikakoAsakura: {
@@ -3812,7 +3812,7 @@ Mods: {
 
 			Rumia: {
 				DisplayName: Rumia
-				Description: Youkai of darkness will follow you
+				Description: Youkai of darkness将跟随你
 			}
 
 			RuneofIngwazCharge: {
@@ -3852,12 +3852,12 @@ Mods: {
 
 			Sakuya: {
 				DisplayName: Sakuya Izayoi
-				Description: Sakuya will follow you
+				Description: Sakuya将跟随你
 			}
 
 			Sakuya2: {
 				DisplayName: Sakuya Izayoi
-				Description: Sakuya will follow you
+				Description: Sakuya将跟随你
 			}
 
 			Salvia: {
@@ -3872,17 +3872,17 @@ Mods: {
 
 			SandShark: {
 				DisplayName: Sand Shark
-				Description: Sand Shark will follow you
+				Description: Sand Shark将跟随你
 			}
 
 			Sans: {
 				DisplayName: Sans
-				Description: Sans will follow you
+				Description: Sans将跟随你
 			}
 
 			Sariel: {
 				DisplayName: Sariel
-				Description: Sariel will follow you
+				Description: Sariel将跟随你
 			}
 
 			Satisfied: {
@@ -3972,7 +3972,7 @@ Mods: {
 
 			SeventhAngel: {
 				DisplayName: Seventh Angel
-				Description: "'It will follow you"
+				Description: "'它将跟随你"
 			}
 
 			Shades: {
@@ -4017,17 +4017,17 @@ Mods: {
 
 			Shrek: {
 				DisplayName: Shrek
-				Description: Shrek will follow you
+				Description: Shrek将跟随你
 			}
 
 			ShyGuy: {
 				DisplayName: Shy Guy
-				Description: Shy Guy will follow you
+				Description: Shy Guy将跟随你
 			}
 
 			SinGyoku: {
 				DisplayName: SinGyoku
-				Description: "'The gatekeepers will follow you'"
+				Description: "'The gatekeepers将跟随你'"
 			}
 
 			SkeletonGoonie: {
@@ -4072,7 +4072,7 @@ Mods: {
 
 			Slimer: {
 				DisplayName: Slimer
-				Description: Slimer will follow you
+				Description: Slimer将跟随你
 			}
 
 			SlimeWatcher: {
@@ -4092,7 +4092,7 @@ Mods: {
 
 			Smeargle: {
 				DisplayName: Smeargle
-				Description: Smeargle will follow you
+				Description: Smeargle将跟随你
 			}
 
 			SmokePelletCooldown: {
@@ -4136,13 +4136,13 @@ Mods: {
 			}
 
 			Spider: {
-				DisplayName: Reinforced Skateboard
-				Description: "'Freestyle was never this cool'"
+				DisplayName: 加固滑板
+				Description: "'从来没有这么酷的自由式'"
 			}
 
 			SpiritofFun: {
 				DisplayName: 娱乐之魂
-				Description: Strangely it's looking for someone
+				Description: 奇怪的是它在寻找某人
 			}
 
 			Spiritomb: {
@@ -4401,8 +4401,8 @@ Mods: {
 			}
 
 			TealTetrisBlock: {
-				DisplayName: Magical Ruby Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法红玉块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			TechnoBuff: {
@@ -4412,7 +4412,7 @@ Mods: {
 
 			Temmie: {
 				DisplayName: Temmie
-				Description: Temmie will follow you
+				Description: Temmie将跟随你
 			}
 
 			tensecond: {
@@ -4422,7 +4422,7 @@ Mods: {
 
 			Tenshi: {
 				DisplayName: Tenshi Hinanawi
-				Description: She will follow you
+				Description: She将跟随你
 			}
 
 			Terry: {
@@ -4471,18 +4471,18 @@ Mods: {
 			}
 
 			Tired: {
-				DisplayName: Ability Cooldown
-				Description: You cannot do another special attack
+				DisplayName: 能力冷却
+				Description: 冷却结束前不能使用特殊能力
 			}
 
 			Toriel: {
 				DisplayName: Toriel
-				Description: Toriel will follow you
+				Description: Toriel将跟随你
 			}
 
 			Transform: {
-				DisplayName: Transformation
-				Description: "'Your spirit have been imbued with magic'"
+				DisplayName: 变身
+				Description: "'你的灵魂被魔力重塑'"
 			}
 
 			Trashy: {
@@ -4507,12 +4507,12 @@ Mods: {
 
 			TruffleWorm: {
 				DisplayName: Truffle Worm
-				Description: "'It will follow you"
+				Description: "'它将跟随你"
 			}
 
 			Turkey: {
 				DisplayName: Turkey
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			Uboa: {
@@ -4527,12 +4527,12 @@ Mods: {
 
 			Undyne: {
 				DisplayName: Undyne
-				Description: Undyne will follow you
+				Description: Undyne将跟随你
 			}
 
 			UNOwenWasher: {
 				DisplayName: U. N. Owen Washer
-				Description: It will follow you
+				Description: 它将跟随你
 			}
 
 			Utsuho: {
@@ -4547,7 +4547,7 @@ Mods: {
 
 			VampireBat: {
 				DisplayName: Vampire Bat
-				Description: Vampire Bat will follow you
+				Description: Vampire Bat将跟随你
 			}
 
 			VerdeliteCrystal: {
@@ -4582,12 +4582,12 @@ Mods: {
 
 			Waluigi: {
 				DisplayName: Waluigi
-				Description: Waluigi will follow you
+				Description: Waluigi将跟随你
 			}
 
 			Wario: {
 				DisplayName: Wario
-				Description: Wario will follow you
+				Description: Wario将跟随你
 			}
 
 			WeaponImbueBlood: {
@@ -4622,12 +4622,12 @@ Mods: {
 
 			Weavile: {
 				DisplayName: Weavile
-				Description: Weavile will follow you
+				Description: Weavile将跟随你
 			}
 
 			Wegee: {
 				DisplayName: Wegee
-				Description: Wegee will follow you
+				Description: Wegee将跟随你
 			}
 
 			Weiss: {
@@ -4641,8 +4641,8 @@ Mods: {
 			}
 
 			WhiteTetrisBlock: {
-				DisplayName: Magical Diamond Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法钻石块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			Wilfe: {
@@ -4662,7 +4662,7 @@ Mods: {
 
 			Wraith: {
 				DisplayName: Wraith
-				Description: Wraith will follow you
+				Description: Wraith将跟随你
 			}
 
 			Yang: {
@@ -4671,8 +4671,8 @@ Mods: {
 			}
 
 			YellowTetrisBlock: {
-				DisplayName: Magical Topaz Block
-				Description: Strangely it have effect on gravity
+				DisplayName: 魔法黄玉块
+				Description: 神奇的是，它对重力有影响
 			}
 
 			YorkshireTerrier: {
@@ -4682,12 +4682,12 @@ Mods: {
 
 			Yoshi: {
 				DisplayName: Yoshi
-				Description: Yoshi will follow you
+				Description: Yoshi将跟随你
 			}
 
 			YoshiIsland: {
 				DisplayName: Yoshi and Baby Mario
-				Description: Yoshi and Baby Mario will follow you
+				Description: Yoshi and Baby Mario将跟随你
 			}
 
 			Youmu: {
@@ -4732,7 +4732,7 @@ Mods: {
 
 			Zero: {
 				DisplayName: Zero
-				Description: Zero will follow you
+				Description: Zero将跟随你
 			}
 
 			Zombie: {
@@ -4879,12 +4879,12 @@ Mods: {
 			}
 
 			DrFetusMonocle: {
-				DisplayName: 医生单片眼镜
+				DisplayName: 博士的单片眼镜
 				Tooltip:
 					'''
 					'首先描绘一个讨厌鬼，然后让他去[哔——]……'
 					憎恨之力可提升暴击率5%并增加生命恢复1点
-					装备后，医生的武器库将获得额外技能
+					装备后，胎儿博士的武器库将获得额外技能
 					'''
 			}
 
@@ -7871,7 +7871,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Metal, metal, metal... Let's do this Texas style!
-					'Right click to have more sentries
+					'<right> to have more sentries
 					'''
 			}
 
@@ -8016,7 +8016,7 @@ Mods: {
 				Tooltip:
 					'''
 					All will be used for Hakurei Shrine
-					Right click it's tile to make a small donation of a single gold coin
+					<right> it's tile to make a small donation of a single gold coin
 					First donation grant 1 day blessing that increase luck + travelling npc spawn chances
 					Any additional donation have a chance to give touhou themed pets + items
 					Shrine donations are accepted only in day
@@ -8758,7 +8758,7 @@ Mods: {
 				Tooltip:
 					'''
 					Wait, white is not imposter...
-					'Upon Right click to its tile player will teleport to next found vent and if there is no other vent found player will teleport to same vent'
+					'Upon <right> to its tile player will teleport to next found vent and if there is no other vent found player will teleport to same vent'
 					'If there is any emergency caused by bosses player cannot use the item'
 					'''
 			}
@@ -8865,7 +8865,7 @@ Mods: {
 					'''
 					A cute little house for cute little people
 					'It functions as a chest with special ability'
-					'House locator which can be crafted with 2 iron/lead bar and 1 scrap metal required'
+					'House locator which can be crafted with 2 iron/lead bar and 1 废铁 required'
 					'After crafting it using house locator will send every not favourited items into tiny houses'
 					'It will not check ammo slot and coin slot'
 					'''
@@ -9274,8 +9274,8 @@ Mods: {
 			}
 
 			ScrapMetal: {
-				DisplayName: Scrap Metal
-				Tooltip: "'It's from the remains of both armor and circutry of SATLA-001'"
+				DisplayName: 废铁
+				Tooltip: "'来自SATLA-001的装甲和电路的残余部分'"
 			}
 
 			ShadeCinder: {
@@ -12776,163 +12776,167 @@ Mods: {
 			}
 
 			BlueTetrisBlock: {
-				DisplayName: Magical Sapphire Block
+				DisplayName: 魔法蓝宝石块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
 			ClownCarKey: {
-				DisplayName: Clown Car Key
+				DisplayName: 库巴二世的小丑车钥匙
 				Tooltip:
 					'''
-					'The royal Koopa line is strong as ever!'
-					'While player have less than 50% of its max life the clown car will get enraged'
-					'While its enraged it will start to shoot fireball to mouse direction'
+					'库巴皇室家族一如既往地强大！'
+					当玩家生命值低于最大生命值的 50% 时，小丑车会变得愤怒
+					当它愤怒时，会向光标位置发射火球
 					'''
 			}
 
 			FestiveCart: {
-				DisplayName: Festive Cart
-				Tooltip: "'Gives immunity to chilled and frozen debuffs'"
+				DisplayName: 节庆矿车
+				Tooltip:
+					'''
+					免疫冷冻或冰冻
+					'喜气洋洋'
+					'''
 			}
 
 			GreenTetrisBlock: {
-				DisplayName: Magical Emerald Block
+				DisplayName: 魔法翡翠块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
 			MotorcycleKey: {
-				DisplayName: Motorcycle Key
+				DisplayName: 丽莎:痛苦之旅的摩托车钥匙
 				Tooltip:
 					'''
-					An unique product which is often used by  members of Gale Club
-					Upon gain enough velocity it will start to produce flames and when dismount is pressed player will jump from mount
-					It have 28 * players minion damage multiplier damage and it will explode when it hits any enemy or tile
+					'一款独特的产品，通常由 Gale Club 的成员使用'
+					当速度足够快时产生火焰粒子，当玩家离开坐骑时，会进行跳跃
+					造成 28 倍玩家的召唤伤害，当撞击到物块时产生爆炸
 					'''
 			}
 
 			NuclearPheromones: {
-				DisplayName: Nuclear Pheromones
+				DisplayName: 核信息素
 				Tooltip:
 					'''
-					'Smells like Chernobyl'
-					Using it will atract a ridable young mothron
-					pressing <right>while its dashing cooldown is over will activate its dash ability with 1.5 second cooldown
-					When player dashes its activates players immunity frame for 0.33 second
-					While immunity frames are active moth start to produce eclypse dust which inflicts inferno and explosive chemical
+					'闻起来像切尔诺贝利'
+					使用后召唤可骑乘的小蛾怪
+					骑乘时，<right>进行冲刺，冷却时间为 1.5 秒 
+					冲刺时，授予玩家 0.33 秒的无敌帧
+					冲刺时，小蛾怪产生日蚀尘，造成爆炸并施加狱火
 					'''
 			}
 
 			PersonalDefenseKey: {
-				DisplayName: Personal Defense Key
+				DisplayName: 私人防御钥匙
 				Tooltip:
 					'''
-					Summons a rideable Lil Slugger that can chop both trees and enemies
-					The saws will do 16 base damage which multiplied with players minion multiplier and trees tiles get 1 shotted
-					If [c/ffff00:Doctor's Monocle] is equipped cutting enemies give player small immunity time
+					召唤可骑乘的试验性伐木机，可以砍伐树木和敌人
+					锯子有 16 点基础伤害，受到玩家宠物伤害乘算加成，树木和方块可直接被摧毁
+					若同时装备了[c/ffff00:博士的单片眼镜]，对敌人造成伤害时会授予玩家无敌帧
 					'''
 			}
 
 			PinkTetrisBlock: {
-				DisplayName: Magical Amethyst Block
+				DisplayName: 魔法紫晶块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
 			ReinforcedSkateboard: {
-				DisplayName: Reinforced Skateboard
+				DisplayName: 加固滑板
 				Tooltip:
 					'''
-					'For the raddest of tricks'
-					Using it will summon a skateboard
+					'致敬最卑鄙的伎俩'
+					召唤可骑乘的滑板
 					'''
 			}
 
 			SaintsCharm: {
-				DisplayName: Saint's Charm
+				DisplayName: 圣者护身符
 				Tooltip:
 					'''
-					'A relic being given to those whom manage to find their inner peace'
-					Using it summon rideable flying nimbus
+					'这件遗物被赠予那些能够找到内心平静的人'
+					召唤可骑乘的灵光筋斗云
 					'''
 			}
 
 			TealTetrisBlock: {
-				DisplayName: Magical Ruby Block
+				DisplayName: 魔法红玉块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
 			TeruTeruBozu: {
-				DisplayName: Teru Teru Bozu
+				DisplayName: 急急如律令
 				Tooltip:
 					'''
-					'A charm being used by farmers to bring the merciful rain upon drylands'
-					Using it summon rideable tiny nimbus spirit to carry you
-					When there is any boss alive or player take damage it feel scared and left player alone
+					'一个用于在干旱时带来慈悲之雨的魔力符咒'
+					召唤可骑乘的小小雨云元素
+					有Boss存活或玩家受到伤害时，它会感到害怕并离开玩家
 					'''
 			}
 
 			TruckKey: {
-				DisplayName: Truck Key
+				DisplayName: 卡车钥匙
 				Tooltip:
 					'''
-					Summons a rideable truck
-					Right clicking will mount the closest sentry summon to the back of the truck
-					Immunity to chill and knockback while mounted
+					召唤可乘坐的卡车
+					<right> 会将最近的哨兵装载到卡车上
+					骑乘时免疫冷冻和击退
 					'''
 			}
 
 			WhiteTetrisBlock: {
-				DisplayName: Magical Diamond Block
+				DisplayName: 魔法钻石块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
 			WoodlandChipper: {
-				DisplayName: Woodland Chipper
+				DisplayName: 林间碎木机矿车
 				Tooltip:
 					'''
-					'Dread it... Run from it... Destiny still arrives'
-					It can bounce cut enemies with its lower blades and having enough velocity will also make it cut enemies
-					Humanoid enemies will take 100% extra bounce damage and it will have 20 * player minion damage multiplier base damage
+					'畏惧...逃离...命运仍会降临'
+					它可以用下部的刀片反弹攻击敌人，速度足够快时可以切割敌人
+					类人敌人会受到 100% 额外的反弹伤害，造成 28 倍的玩家基础召唤伤害
 					'''
 			}
 
 			YellowTetrisBlock: {
-				DisplayName: Magical Topaz Block
+				DisplayName: 魔法黄玉块
 				Tooltip:
 					'''
-					Summons a rideable tetrominos mount
-					Pressing up while it is mounted decreases speed of fall
-					Pressing down while it is mounted increases speed of fall
-					Reduces fall damage by 50%
+					召唤可骑乘的俄罗斯方块坐骑
+					骑乘时按 上 减少坠落速度
+					骑乘时按 下 增加坠落速度
+					减少 50% 坠落伤害
 					'''
 			}
 
@@ -14253,7 +14257,7 @@ Mods: {
 					'''
 					You feel you are not alone
 					'When you use it with <left>while the rune is in you inventory
-					all vanilla pets will follow you. You can disable them by using RC.'
+					all vanilla pets将跟随你. You can disable them by using RC.'
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -15134,7 +15138,7 @@ Mods: {
 				DisplayName: House Locator
 				Tooltip:
 					'''
-					'Tiny house which can be crafted from scrap metal and some more is required'
+					'Tiny house which can be crafted from 废铁 and some more is required'
 					'Upon use it will put every not favourited item inside of players inventory to tiny houses'
 					'It will not check ammo slot and coin slot and it will send message after being used'
 					'''
@@ -16137,7 +16141,7 @@ Mods: {
 					<right>to the item to equip it and <left>to its slot to get back
 					While being equipped bat home run strikes will spawn additional nails which stick to enemy
 					Striking these nails with bat slam will do additional damage with respect to bats base damage
-					If [c/ffff00:Doctor's Monocle] is equipped upon sticking to enemy they will do true DoT
+					若同时装备了[c/ffff00:博士的单片眼镜] upon sticking to enemy they will do true DoT
 					'''
 			}
 
@@ -17604,7 +17608,7 @@ Mods: {
 					'''
 					'黑暗魔法种类繁多、变化无穷且永恒不朽'
 					持有时会在玩家周围形成旋转的暗黑球体；按下攻击键会将其发射向鼠标方向
-					若同时装备[c/ffff00:医生单片眼镜]并按住<右键>，玩家可以朝鼠标方向悬浮移动，并能穿透敌人
+					若同时装备了[c/ffff00:博士的单片眼镜]并按住<右键>，玩家可以朝鼠标方向悬浮移动，并能穿透敌人
 					在按住<右键>状态下，它会禁用玩家自动使用法力，若法力不足则消耗生命值
 					'''
 			}
@@ -18084,7 +18088,7 @@ Mods: {
 					<右键>消耗连击数投掷锯齿飞盘
 					在连击激活状态下受到伤害可能会使玩家发誓并召唤蝙蝠
 					连击命中将使敌人恐惧，连击暴击有一定几率让非首领敌人眩晕
-					若装备了[c/ffff00:医生单片眼镜]，连击命中也有一定几率召唤蝙蝠
+					若同时装备了[c/ffff00:博士的单片眼镜]，连击命中也有一定几率召唤蝙蝠
 					'''
 			}
 
@@ -19428,7 +19432,7 @@ Mods: {
 			}
 
 			LigamentEjector: {
-				DisplayName: 韧带弹射器 
+				DisplayName: 韧带弹射器
 				Tooltip:
 					'''
 					发射的子弹能使敌人陷入混乱和流血状态。
@@ -19930,7 +19934,7 @@ Mods: {
 					'In the end, every plan relies upon a strong arm, and tempered steel'
 					Holding charge the sawblade + releasing will make it rirochet from tiles and slash enemies
 					Full charge gets indicated with sound
-					If [c/ffff00:Doctor's Monocle] is equipped it gain a <right>ability which will slash the mincer with its back chain
+					若同时装备了[c/ffff00:博士的单片眼镜] it gain a <right>ability which will slash the mincer with its back chain
 					<right>to its item to convert it to close ranged form
 					'''
 			}
@@ -20014,7 +20018,7 @@ Mods: {
 					'''
 					'They can run but they will only die tired'
 					It will convert prototype rockets and rocket I's into homing rockets
-					If [c/ffff00:Doctor's Monocle] is equipped upon homing rockets death it will explode into multiple lingering flames
+					若同时装备了[c/ffff00:博士的单片眼镜] upon homing rockets death it will explode into multiple lingering flames
 					<right>to its item to convert it to close combat form
 					Requires rockets as ammo
 					'''
@@ -20067,7 +20071,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Looking for hugs'
-					Upon thrown the fleshlings will follow your mouse direction and hatch into small hungries upon their death
+					Upon thrown the fleshlings将跟随你r mouse direction and hatch into small hungries upon their death
 					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
 					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
 					'''
@@ -20767,7 +20771,7 @@ Mods: {
 					'''
 					'Anyone who thinks his story is anywhere near over is sadly mistaken'
 					Normal item uses will make every sentry explode violently
-					If [c/ffff00:Doctor's Monocle] is equipped it gain a <right>use ability
+					若同时装备了[c/ffff00:博士的单片眼镜] it gain a <right>use ability
 					<right>use will put a saw blade between the sentry closest to player and one closest to mouse
 					There can be max 1 sawblade active + it won't take any minion or sentry slot
 					'''
@@ -21205,92 +21209,91 @@ Mods: {
 			}
 
 			CorrodedBarometer: {
-				DisplayName: Corroded Barometer
+				DisplayName: 生锈的晴雨表
 				Tooltip:
 					'''
-					Fog don't last forever but also your enemies too
-					'Using it will transform you into a plague cloud'
-					'When transformed you can rain down rain and plagued frogs by pressing to attack button'
-					'You can fly but your flight time is limited'
+					'雾气总会消散，你的敌人也是'
+					使用后你将变成瘟疫云
+					变身后你可以按下攻击键降下雨水和瘟疫青蛙
+					可以进行有限时间的飞行
 					'''
 			}
 
 			CorruptedMemoryDriver: {
-				DisplayName: Corrupted Memory Driver
+				DisplayName: 损坏的记忆驱动器
 				Tooltip:
 					'''
-					One of many inventions of her which is being preperation against martians
-					Sadly by imbuing lost souls to these machines cultists cause their AI went rogue and strike whatever they observe
-					'Using it will transform you into a mechanical observer'
-					'When transformed you can press attack button to do attack but with respect to your charge level you can do stronger attacks'
-					'The charge level will be shown above head and the change of colour in charge meter means stornger attack will be done'
-					'<right>will allow you to teleport to your mouse direction with 5 second cooldown along and it unlocks when transformation time > 5 second'
+					'为抵御火星人而准备的多项发明之一'
+					'不幸的是，邪教分子将迷失的灵魂注入了这些机器，导致其AI变得疯狂，会攻击任何它们看到的东西'
+					使用后你将变成机械观察者
+					变身后你可以按下攻击键，根据你的充能进度，释放强大的攻击
+					充能进度显示在玩家的头顶上方，根据颜色指示攻击的类型
+					变身 5 秒后，可以按下右键传送到光标所在位置，5 秒冷却时间
 					'''
 			}
 
 			FluffyWarBanner: {
-				DisplayName: Fluffy War Banner
+				DisplayName: 绒毛战旗
 				Tooltip:
 					'''
-					'These banners are carried by the royal men of the mighty bunny king'
-					'It allows you to transform into a cannon carrier bunny'
-					'Pressing attack button will make it use its saddle cannon shoot explosive seed'
-					While being transformed B.U.N.-E's will get 10% stronger and you gain additional double jump
+					'这些战旗由强大的兔子王国的皇室成员所有'
+					使用后你将变成加农炮兔兔
+					按下攻击键发射种子炮弹
+					变身后，提高 10% 像兔子一样的跳跃能力，并获得额外的二段跳
 					'''
 			}
 
 			FrostsEdge: {
-				DisplayName: Frost's Edge
+				DisplayName: 极寒仪式刃
 				Tooltip:
 					'''
-					An elemental sword that is imbued with cold hearted elementals essense and spirits of night and light
-					'Using it will transform you into a primal ice elemental'
-					'When transformed you can swirl your ice flail to damage enemies and more faster you swing more damage it does and shatter into icicles'
-					Upon touch tiles these icicles will grow bigger icicles from them
+					一把注入寒霜精魄和光明与暗影之魂的元素剑
+					使用后你将变成源初冰元素
+					变身后你可以挥舞冰枷来攻击敌人，冰枷速度越快造成的伤害就越高，并碎裂成冰刺
+					与物块碰撞时，冰刺会生成更大的冰柱
 					'''
 			}
 
 			HollowMask: {
-				DisplayName: Hollow面具
+				DisplayName: 空洞面具
 				Tooltip:
 					'''
-					'The others are like animals, but I am really aware'
-					Using it will transform you into a soul infused puppet
-					When transformed you gain ability to phase through objects and form nightmares of your own
+					'其他人像动物一样麻木，但我真的意识到了什么'
+					使用后你将变成一个注入灵魂的木偶
+					变身后获得穿越物体和释放自己噩梦分身的能力
 					'''
 			}
 
 			MonarchsPride: {
-				DisplayName: Monarch's Pride
+				DisplayName: 君主之傲
 				Tooltip:
 					'''
-					A staff that carries a royal jewel which is being awarded only those that have proven themselves
-					'It allows you to transform into a slime prince'
-					'When transformed you will shoot gel spikes when land which have 4 second cooldown'
-					'With right click you could shoot gel spikes to your enemies'
-					'You also gain ability to bounce on enemies heads and other vanilla slimes will show no aggro to you'
-					'When you transform you cannot use any item and after you return normal you cannot use transformation weapon for 10 seconds'
+					一根带有皇家宝石的权杖，只授予那些已经证明自己的人
+					使用后你将变成史莱姆王子
+					变身后落在敌人头上时会弹起，其它史莱姆不会对你产生敌意
+					变身后当你落地时射出凝胶尖刺，4 秒冷却时间
+					<right>主动向敌人射出凝胶尖刺					
 					'''
 			}
 
 			NightmareScales: {
-				DisplayName: Nightmare Scales
+				DisplayName: 梦魇鳞片
 				Tooltip:
 					'''
-					Let their fear consume them
-					'It allows you to transform into a beast'
-					'When transformed if you <right>the beast will dash into that direction wit 100% increased damge and it have 1 second cooldown'
-					'<left>will allow you to breath poisonous flames'
+					让他们的恐惧吞噬他们
+					使用后你将变成一只噩梦之眼
+					变身后<right>，向光标的方向猛冲，造成双倍伤害，1 秒冷却时间
+					<left> 将喷出噩梦之焰
 					'''
 			}
 
 			ScarletGem: {
-				DisplayName: Scarlet Gem
+				DisplayName: 猩红宝石
 				Tooltip:
 					'''
-					A gem being fueled by pure blood
-					'Using it will transform you into a scarlet prince'
-					'When transformed you can fly for a limited time and you can do concentrated gem attack which follow your mouse'
+					一颗由纯净血液驱动的宝石
+					使用后你将变成血腥水晶
+					变身后你可以进行有限时间的飞行，射出跟随光标的激光束进行攻击
 					'''
 			}
 
@@ -23015,7 +23018,7 @@ Mods: {
 			ParasoulHeld2.DisplayName: Parasoul Held2
 			PoisonLeaf.DisplayName: Poison Leaf
 			PortableCannon.DisplayName: Portable Cannon
-			PotionCloud.DisplayName:药水 Cloud
+			PotionCloud.DisplayName: 药水 Cloud
 			PrefixFairy.DisplayName: Prefix Fairy
 			RageMeter.DisplayName: Rage Meter
 			Reload.DisplayName: Reload
