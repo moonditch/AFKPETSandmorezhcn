@@ -254,7 +254,7 @@ Mods: {
 			IceWormT.DisplayName: 冰之守护者
 			AngelicBaby.DisplayName: 婴儿天使
 			DemonIsaac.DisplayName: 阿撒泻勒
-			IsaacArenaLocker.DisplayName: 以撒的竞技场储物柜
+			IsaacArenaLocker.DisplayName: Isaac Arena Locker
 			IsaacChest.DisplayName: 以撒的玩具箱
 			IsaacChest2.DisplayName: 以撒的玩具箱
 			IsaacDeath.DisplayName: 阿撒泻勒
@@ -263,7 +263,7 @@ Mods: {
 			AncientWormBody.DisplayName: 远古吞噬者
 			AncientWormHead.DisplayName: 远古吞噬者
 			AncientWormTail.DisplayName: 远古吞噬者
-			CuriousSoul.DisplayName: 好奇的灵魂
+			CuriousSoul.DisplayName: Curious Soul
 			MechanicalSlime2.DisplayName: 机械史莱姆
 			MechanicalSlime.DisplayName: 机械史莱姆
 
@@ -347,8 +347,8 @@ Mods: {
 			AstralGhost.DisplayName: 精神幽灵
 			BabyBlazer.DisplayName: 小滚轮
 			CharaEnemy.DisplayName: 被藻类植物束缚的人
-			CyberPlayerShield.DisplayName: 赛博玩家盾牌
-			EnemyShadow.DisplayName: 影子仇敌
+			CyberPlayerShield.DisplayName: Cyber Player Shield
+			EnemyShadow.DisplayName: Enemy Shadow
 			FriendlyHarpy.DisplayName: 友好的鹰身女妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
@@ -367,21 +367,23 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				// Census.SpawnCondition: Conditions unknown
 			}
 
 			SoulBird.DisplayName: 心灵鸟
 			SoulBlossom.DisplayName: 灵魂绽放
 			TiedYandere.DisplayName: 受缚猎手
-			TreasureBagBoi.DisplayName: Boi的宝藏袋
+			TreasureBagBoi.DisplayName: Treasure Bag Boi
 			BadMafia.DisplayName: 黑手党
 			FakeNightmareSlime.DisplayName: 梦魇史莱姆
 			NekoSlime.DisplayName: 猫猫头
 			NekoSlime2.DisplayName: 猫猫头
 			NightmareAmplifierSlimeDeath.DisplayName: 梦魇史莱姆
 			NightmareAmplifierSlimesShadow.DisplayName: 梦魇史莱姆
-			NightmareCameraLocker.DisplayName: 梦魇相机柜
+			NightmareCameraLocker.DisplayName: Nightmare Camera Locker
 			NightmareSoul.DisplayName: 梦魇幽灵
-			ShadowSpirit.DisplayName: 暗影之灵
+			ShadowSpirit.DisplayName: Shadow Spirit
 			SlimeHuman.DisplayName: 史莱姆人类
 			DarkOkiku.DisplayName: 盘子女鬼
 			OkikuDeath.DisplayName: 盘子女鬼
@@ -394,30 +396,30 @@ Mods: {
 			PoliticianSlime.DisplayName: 政客史莱姆
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
-			GuardianofSlimeNationEnergyCore.DisplayName: 史莱姆王国守护者的能源核心
-			MechanicalDragonHead.DisplayName: 机械龙头
+			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
+			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
 			PoliticianSlimeArmor.DisplayName: 政客史莱姆装甲
 			BoundGuardian.DisplayName: 受缚守护者
 			FallingGoldfish.DisplayName: 堕落的金鱼
 			FallingSquid.DisplayName: 堕落的鱿鱼
-			FlashLightCore.DisplayName: 手电筒核心
+			FlashLightCore.DisplayName: Flash Light Core
 			GoldfishBucket.DisplayName: 金鱼桶
 			GoldfishWarrior.DisplayName: 金鱼的战士
 			HarpyCall.DisplayName: 鹰身女妖
-			HarpyTornadoCore.DisplayName: 鹰身女妖龙卷风核心
-			HomingHarpyRocket.DisplayName: 归巢鹰身女妖火箭
+			HarpyTornadoCore.DisplayName: Harpy Tornado Core
+			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
 			SeaHorseBubble.DisplayName: 海马泡泡
 			SeaHorseBucket.DisplayName: 海马桶
 			StormDiverSummon.DisplayName: 皇家鸟妖风暴号
 			StormTinkererH.DisplayName: 风暴修补匠
-			YoukaiBucket.DisplayName: 妖怪桶
-			YoukaiBucket2.DisplayName: 妖怪桶2
+			YoukaiBucket.DisplayName: Youkai Bucket
+			YoukaiBucket2.DisplayName: Youkai Bucket2
 			FunSATLA001.DisplayName: SATLA-001
 			SATLASummon.DisplayName: SATLA-001
-			FakeSecurityBot.DisplayName: 假 安全机器人
+			FakeSecurityBot.DisplayName: Fake 安全机器人
 			JumpscareFella.DisplayName: Jumpscare Fella
-			NoEscape.DisplayName: 无处可逃
-			SecurityBotSummon.DisplayName: 安全机器人召唤器
+			NoEscape.DisplayName: No Escape
+			SecurityBotSummon.DisplayName: 安全机器人 Summon
 			BomberSlime.DisplayName: 矿工史莱姆
 			CrimsonSlime.DisplayName: 猩红史莱姆
 			DarkCandleSlime.DisplayName: 蜡烛史莱姆
@@ -466,6 +468,8 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				// Census.SpawnCondition: Defeat King Slime or Eye of Cthulhu
 			}
 
 			FallenAngel: {
@@ -481,10 +485,13 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				// Census.SpawnCondition: Shine her eyes by using Icarus's mirror in desert at day time
 			}
 
 			GuideoftheEnd: {
-				DisplayName: 终结向导
+				DisplayName: Guide of the End
+
 				TownNPCMood: {
 					Content: 我很满足.
 					NoHome: 我讨厌没有家.
@@ -510,6 +517,8 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				// Census.SpawnCondition: Defeat Slayer of Evil
 			}
 
 			BountyHunter: {
@@ -11004,72 +11013,76 @@ Mods: {
 			}
 
 			Masterball: {
-				DisplayName: "Masterball (#382) "
+				DisplayName: "大师球（来自口袋妖怪）"
 				Tooltip:
 					'''
-					'It looks one of legendary pokemon is inside of this.'
-					召唤Kyogre跟随你
+					'看起来传说中的精灵宝可梦就在里面.'
+					召唤盖欧卡跟随你
 					'''
 			}
 
 			Masterball2: {
-				DisplayName: "Masterball (#251) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Even holding this makes you excited'
-					召唤Celebi跟随你
+					'拿着这个都会让你兴奋'
+					召唤时拉比跟随你
 					'''
 			}
 
 			Masterball3: {
-				DisplayName: "Masterball (#385) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel something strange'
-					召唤Jirachi跟随你
+					'拿着它会让你觉得很奇怪'
+					召唤基拉祈跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Masterball4: {
-				DisplayName: "Masterball (#250) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Strangely it's warm'
-					召唤Ho-oh跟随你
+					'拿着它会让你感觉很温暖'
+					召唤凤王跟随你
 					'''
 			}
 
 			Masterball5: {
-				DisplayName: "Masterball (#150) "
-				Tooltip: "'Holding it make you feel strange'"
+				DisplayName: "大师球（出自口袋妖怪） "
+				Tooltip:
+					'''
+					'拿着它会让你觉得很奇怪'
+					召唤超梦跟随你
+					'''
 			}
 
 			Masterball6: {
-				DisplayName: "Masterball (#648) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Holding it make you hear a faint melody'
-					召唤Meloetta跟随你
+					'拿着它会让你会听到一段微弱的旋律'
+					召唤美洛耶塔跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Masterball7: {
-				DisplayName: "Masterball (#493) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Even holding it affects the fabric of time and space'
-					召唤Arceus跟随你
+					'拿着它也会影响时间和空间的形态'
+					召唤阿尔宙斯跟随你
 					'''
 			}
 
 			Masterball8: {
-				DisplayName: "Masterball (#719) "
+				DisplayName: "大师球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Strangely it glimmers like a diamond'
-					召唤Diancie跟随你
+					'它像钻石一样闪闪发光'
+					召唤蒂安希跟随你
 					'''
 			}
 
@@ -11087,7 +11100,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It reminds me of something frightening.'
-					召唤a baby 机械骷髅王跟随你
+					召唤机械骷髅王宝宝跟随你
 					'''
 			}
 
@@ -11512,53 +11525,53 @@ Mods: {
 			}
 
 			Pokeball: {
-				DisplayName: "Pokeball (#258) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'It looks one of the Hoenn region'
-					'starter pokemon inside of this'
-					召唤Mudkip跟随你
+					'是丰缘地区最初的伙伴之一'
+					'口袋妖怪从这里开始'
+					召唤水跃鱼跟随你
 					'''
 			}
 
 			Pokeball2: {
-				DisplayName: "Pokeball (#303) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'It looks like a cave pokemon is inside of this.'
-					召唤Mawile跟随你
+					'这里面似乎有生活在洞穴里面的宝可梦.'
+					召唤大嘴娃跟随你
 					'''
 			}
 
 			Pokeball3: {
-				DisplayName: "Pokeball (#281) "
+				DisplayName: "精灵球（出自口袋妖怪）"
 				Tooltip:
 					'''
-					'It looks like a urban area pokemon is inside of this.'
-					召唤Kirlia跟随你
+					'这里面似乎有亲近人类的宝可梦.'
+					召唤奇鲁莉安跟随你
 					'''
 			}
 
 			Pokeball4: {
-				DisplayName: "Pokeball (#92) "
+				DisplayName: "精灵球(#92) "
 				Tooltip:
 					'''
-					'You feel one of the ghost type pokemon is inside of this'
-					召唤Gastly跟随你
+					'这里面似乎有幽灵系的宝可梦'
+					召唤鬼斯跟随你
 					'''
 			}
 
 			Pokeball5: {
-				DisplayName: "Pokeball (#83) "
+				DisplayName: "精灵球(#83) "
 				Tooltip:
 					'''
-					'It seems this pokeball smell like onion'
+					'It seems this 精灵球smell like onion'
 					召唤Farfetchd跟随你
 					'''
 			}
 
 			Pokeball6: {
-				DisplayName: "Pokeball (#225) "
+				DisplayName: "精灵球(#225) "
 				Tooltip:
 					'''
 					'You feel maybe you get present from this pokemon'
@@ -11567,7 +11580,7 @@ Mods: {
 			}
 
 			Pokeball7: {
-				DisplayName: "Pokeball (#172) "
+				DisplayName: "精灵球(#172) "
 				Tooltip:
 					'''
 					'Little sparks come out from pokeball'
@@ -11577,7 +11590,7 @@ Mods: {
 			}
 
 			Pokemon10: {
-				DisplayName: "Pokeball (#321) "
+				DisplayName: "精灵球(#321) "
 				Tooltip:
 					'''
 					'Strangely it's soaking water'
@@ -11586,7 +11599,7 @@ Mods: {
 			}
 
 			Pokemon11: {
-				DisplayName: "Pokeball (#143) "
+				DisplayName: "精灵球(#143) "
 				Tooltip:
 					'''
 					'You hear snoring sound.'
@@ -11595,7 +11608,7 @@ Mods: {
 			}
 
 			Pokemon12: {
-				DisplayName: "Pokeball (#235) "
+				DisplayName: "精灵球(#235) "
 				Tooltip:
 					'''
 					'Holding it makes you feel normal.'
@@ -11604,7 +11617,7 @@ Mods: {
 			}
 
 			Pokemon13: {
-				DisplayName: "Pokeball (#351) "
+				DisplayName: "精灵球(#351) "
 				Tooltip:
 					'''
 					'You feel it's being affected from weather.'
@@ -11613,7 +11626,7 @@ Mods: {
 			}
 
 			Pokemon14: {
-				DisplayName: "Pokeball (#371) "
+				DisplayName: "精灵球(#371) "
 				Tooltip:
 					'''
 					'You feel like it's a little heavy'
@@ -11623,7 +11636,7 @@ Mods: {
 			}
 
 			Pokemon15: {
-				DisplayName: "Pokeball (#66) "
+				DisplayName: "精灵球(#66) "
 				Tooltip:
 					'''
 					'Even holding it makes you feel stronger.'
@@ -11633,7 +11646,7 @@ Mods: {
 			}
 
 			Pokemon16: {
-				DisplayName: "Pokeball (#491) "
+				DisplayName: "精灵球(#491) "
 				Tooltip:
 					'''
 					'You feel something special is inside of this pokeball'
@@ -11642,7 +11655,7 @@ Mods: {
 			}
 
 			Pokemon17: {
-				DisplayName: "Pokeball (#200) "
+				DisplayName: "精灵球(#200) "
 				Tooltip:
 					'''
 					'Holding it makes you feel the around is getting different'
@@ -11652,7 +11665,7 @@ Mods: {
 			}
 
 			Pokemon18: {
-				DisplayName: "Pokeball (#428) "
+				DisplayName: "精灵球(#428) "
 				Tooltip:
 					'''
 					'Even holding makes you feel friendly'
@@ -11662,7 +11675,7 @@ Mods: {
 			}
 
 			Pokemon19: {
-				DisplayName: "Pokeball (#461) "
+				DisplayName: "精灵球(#461) "
 				Tooltip:
 					'''
 					'You feel a dark type pokemon is inside of this pokeball'
@@ -11672,7 +11685,7 @@ Mods: {
 			}
 
 			Pokemon20: {
-				DisplayName: "Pokeball (#162) "
+				DisplayName: "精灵球(#162) "
 				Tooltip:
 					'''
 					'You feel something cute is inside of this pokeball'
@@ -11682,12 +11695,12 @@ Mods: {
 			}
 
 			Pokemon21: {
-				DisplayName: Pokeball (#442)
+				DisplayName: 精灵球(#442)
 				Tooltip: Strangely holding it makes air smell like misdeeds
 			}
 
 			Pokemon8: {
-				DisplayName: "Pokeball (#778) "
+				DisplayName: "精灵球(#778) "
 				Tooltip:
 					'''
 					Even holding this makes you feel vengeance'
@@ -11696,7 +11709,7 @@ Mods: {
 			}
 
 			Pokemon9: {
-				DisplayName: "Pokeball (#359) "
+				DisplayName: "精灵球(#359) "
 				Tooltip:
 					'''
 					'You feel there is a dark type pokemon in it.'
