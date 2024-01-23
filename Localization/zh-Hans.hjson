@@ -254,7 +254,7 @@ Mods: {
 			IceWormT.DisplayName: 冰之守护者
 			AngelicBaby.DisplayName: 婴儿天使
 			DemonIsaac.DisplayName: 阿撒泻勒
-			IsaacArenaLocker.DisplayName: Isaac Arena Locker
+			IsaacArenaLocker.DisplayName: 以撒的竞技场储物柜
 			IsaacChest.DisplayName: 以撒的玩具箱
 			IsaacChest2.DisplayName: 以撒的玩具箱
 			IsaacDeath.DisplayName: 阿撒泻勒
@@ -263,7 +263,7 @@ Mods: {
 			AncientWormBody.DisplayName: 远古吞噬者
 			AncientWormHead.DisplayName: 远古吞噬者
 			AncientWormTail.DisplayName: 远古吞噬者
-			CuriousSoul.DisplayName: Curious Soul
+			CuriousSoul.DisplayName: 好奇的灵魂
 			MechanicalSlime2.DisplayName: 机械史莱姆
 			MechanicalSlime.DisplayName: 机械史莱姆
 
@@ -347,8 +347,8 @@ Mods: {
 			AstralGhost.DisplayName: 精神幽灵
 			BabyBlazer.DisplayName: 小滚轮
 			CharaEnemy.DisplayName: 被藻类植物束缚的人
-			CyberPlayerShield.DisplayName: Cyber Player Shield
-			EnemyShadow.DisplayName: Enemy Shadow
+			CyberPlayerShield.DisplayName: 赛博玩家盾牌
+			EnemyShadow.DisplayName: 影子仇敌
 			FriendlyHarpy.DisplayName: 友好的鹰身女妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
@@ -372,16 +372,16 @@ Mods: {
 			SoulBird.DisplayName: 心灵鸟
 			SoulBlossom.DisplayName: 灵魂绽放
 			TiedYandere.DisplayName: 受缚猎手
-			TreasureBagBoi.DisplayName: Treasure Bag Boi
+			TreasureBagBoi.DisplayName: Boi的宝藏袋
 			BadMafia.DisplayName: 黑手党
 			FakeNightmareSlime.DisplayName: 梦魇史莱姆
 			NekoSlime.DisplayName: 猫猫头
 			NekoSlime2.DisplayName: 猫猫头
 			NightmareAmplifierSlimeDeath.DisplayName: 梦魇史莱姆
 			NightmareAmplifierSlimesShadow.DisplayName: 梦魇史莱姆
-			NightmareCameraLocker.DisplayName: Nightmare Camera Locker
+			NightmareCameraLocker.DisplayName: 梦魇相机柜
 			NightmareSoul.DisplayName: 梦魇幽灵
-			ShadowSpirit.DisplayName: Shadow Spirit
+			ShadowSpirit.DisplayName: 暗影之灵
 			SlimeHuman.DisplayName: 史莱姆人类
 			DarkOkiku.DisplayName: 盘子女鬼
 			OkikuDeath.DisplayName: 盘子女鬼
@@ -394,30 +394,30 @@ Mods: {
 			PoliticianSlime.DisplayName: 政客史莱姆
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
-			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
-			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
+			GuardianofSlimeNationEnergyCore.DisplayName: 史莱姆王国守护者的能源核心
+			MechanicalDragonHead.DisplayName: 机械龙头
 			PoliticianSlimeArmor.DisplayName: 政客史莱姆装甲
 			BoundGuardian.DisplayName: 受缚守护者
 			FallingGoldfish.DisplayName: 堕落的金鱼
 			FallingSquid.DisplayName: 堕落的鱿鱼
-			FlashLightCore.DisplayName: Flash Light Core
+			FlashLightCore.DisplayName: 手电筒核心
 			GoldfishBucket.DisplayName: 金鱼桶
 			GoldfishWarrior.DisplayName: 金鱼的战士
 			HarpyCall.DisplayName: 鹰身女妖
-			HarpyTornadoCore.DisplayName: Harpy Tornado Core
-			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
+			HarpyTornadoCore.DisplayName: 鹰身女妖龙卷风核心
+			HomingHarpyRocket.DisplayName: 归巢鹰身女妖火箭
 			SeaHorseBubble.DisplayName: 海马泡泡
 			SeaHorseBucket.DisplayName: 海马桶
 			StormDiverSummon.DisplayName: 皇家鸟妖风暴号
 			StormTinkererH.DisplayName: 风暴修补匠
-			YoukaiBucket.DisplayName: Youkai Bucket
-			YoukaiBucket2.DisplayName: Youkai Bucket2
+			YoukaiBucket.DisplayName: 妖怪桶
+			YoukaiBucket2.DisplayName: 妖怪桶2
 			FunSATLA001.DisplayName: SATLA-001
 			SATLASummon.DisplayName: SATLA-001
-			FakeSecurityBot.DisplayName: Fake 安全机器人
+			FakeSecurityBot.DisplayName: 假 安全机器人
 			JumpscareFella.DisplayName: Jumpscare Fella
-			NoEscape.DisplayName: No Escape
-			SecurityBotSummon.DisplayName: 安全机器人 Summon
+			NoEscape.DisplayName: 无处可逃
+			SecurityBotSummon.DisplayName: 安全机器人召唤器
 			BomberSlime.DisplayName: 矿工史莱姆
 			CrimsonSlime.DisplayName: 猩红史莱姆
 			DarkCandleSlime.DisplayName: 蜡烛史莱姆
@@ -484,8 +484,7 @@ Mods: {
 			}
 
 			GuideoftheEnd: {
-				DisplayName: Guide of the End
-
+				DisplayName: 终结向导
 				TownNPCMood: {
 					Content: 我很满足.
 					NoHome: 我讨厌没有家.
@@ -582,17 +581,17 @@ Mods: {
 		}
 
 		Tiles: {
-			AquaPainting.MapEntry: Aqua Painting
-			ArcadeMachine.MapEntry: Arcade Machine
-			ArticAmplifier.MapEntry: Artic Amplifier
+			AquaPainting.MapEntry: 水彩绘
+			ArcadeMachine.MapEntry: 街机
+			ArticAmplifier.MapEntry: 极地放大器
 			Banners.MapEntry: 旗帜
-			BicycleEffect.MapEntry: Bicycle Effect
-			BlondeHairEffect.MapEntry: Blonde Hair Effect
-			BookofAlchemy.MapEntry: Bookof Alchemy
+			BicycleEffect.MapEntry: 自行车效应
+			BlondeHairEffect.MapEntry: 金发效果
+			BookofAlchemy.MapEntry: 炼金术之书
 			BuyoBuyoEffect.MapEntry: Buyo Buyo Effect
 			BZMantle.MapEntry: B Z悬挂纪念章
-			Cat2Painting.MapEntry: Cat2 Painting
-			YuriPainting.MapEntry: Yuri Painting
+			Cat2Painting.MapEntry: Cat2绘画
+			YuriPainting.MapEntry: Yuri绘画
 			YukionnaEffect.MapEntry: Yukionna Effect
 			YandereSpiderPainting.MapEntry: Yandere Spider Painting
 			WitchEffect.MapEntry: Witch Effect
@@ -812,95 +811,95 @@ Mods: {
 
 		Buffs: {
 			Absol: {
-				DisplayName: Absol
-				Description: Absol is following you
+				DisplayName: 阿勃梭鲁
+				Description: 阿勃梭鲁在跟着你
 			}
 
 			AerithGainsborough: {
-				DisplayName: Aerith Gainsborough
-				Description: "'She is looking for Cloud'"
+				DisplayName: 爱丽丝·盖恩斯巴勒
+				Description: "'她在寻找克劳德'"
 			}
 
 			Akagi: {
-				DisplayName: Akagi
-				Description: Eheheheh... AHAHAHAHAHAHA!
+				DisplayName: 赤城号
+				Description: 呵呵呵... 啊哈哈哈哈哈!
 			}
 
 			Akame: {
-				DisplayName: Akame
-				Description: You feel she's both hungry and confused
+				DisplayName: 赤红之瞳
+				Description: 你觉得她既饿又困惑
 			}
 
 			Aki: {
 				DisplayName: Aki
-				Description: She is looking for Misao
+				Description: 她正在寻找Misao
 			}
 
 			Alice: {
-				DisplayName: Alice Margatroid
-				Description: "'She is looking for her lost Shanghai Doll'"
+				DisplayName: 爱丽丝·玛格特洛依德
+				Description: "'她在寻找她丢失的上海娃娃'"
 			}
 
 			Alphys: {
 				DisplayName: Alphys
-				Description: Alphys is looking for Mettaton
+				Description: Alphys正在寻找Mettaton
 			}
 
 			Altair: {
 				DisplayName: Altair
-				Description: He's looking for the templars
+				Description: 他正在寻找圣殿骑士
 			}
 
 			AncientSkeletron: {
-				DisplayName: Ancient Baby Skeletron Heade
-				Description: Don't even ask...
+				DisplayName: 古代婴儿骷髅头
+				Description: 甚至不要询问...
 			}
 
 			Android: {
-				DisplayName: Android
-				Description: Beep-Boop
+				DisplayName: 安卓
+				Description: 哔哔哔
 			}
 
 			AngelicProtectionCooldown2: {
-				DisplayName: Angelic protection cooldown
-				Description: It need to concentrate its shield
+				DisplayName: 天使保护冷却时间
+				Description: 它需要浓缩盾牌
 			}
 
 			Ankh: {
-				DisplayName: Ankh
-				Description: It will protect you from death for some time
+				DisplayName: 十字架
+				Description: 它会在一段时间内保护你免于死亡
 			}
 
 			AnnoyingDog: {
-				DisplayName: Annoying Dog
-				Description: "'You're carrying too many dogs.'"
+				DisplayName: 烦人的狗
+				Description: "'你带了太多狗.'"
 			}
 
 			AnswerA: {
-				DisplayName: Answer A
-				Description: Cancelling this buff will make you choose A as a answer
+				DisplayName: 答案A
+				Description: 取消此增益将使您选择 A 作为答案
 			}
 
 			AnswerB: {
-				DisplayName: Answer B
-				Description: Cancelling this buff will make you choose B as a answer
+				DisplayName: 答案B
+				Description: 取消此增益将使您选择 B 作为答案
 			}
 
 			AnswerC: {
-				DisplayName: Answer C
-				Description: Cancelling this buff will make you choose C as a answer
+				DisplayName: 答案 C
+				Description: 取消此增益将使您选择 C 作为答案
 			}
 
 			Antlion: {
-				DisplayName: Young Mothron
-				Description: Spread the Terror
+				DisplayName: 年轻的飞蛾
+				Description: 散布恐怖
 			}
 
 			AntonyProtection: {
-				DisplayName: Necromancer's protection
+				DisplayName: 死灵法师的保护
 				Description:
 					'''
-					You feel this will protect you from death for once
+					你觉得这会保护你免于死亡一次
 
 					'''
 			}
@@ -911,28 +910,28 @@ Mods: {
 			}
 
 			Aqua: {
-				DisplayName: Aqua
-				Description: "'She may be stubborn but her forgiveness is more than that'"
+				DisplayName: 阿库娅
+				Description: "'她可能很固执，但她的宽恕远不止于此'"
 			}
 
 			AquaticTornado: {
-				DisplayName: hydrophilic
-				Description: The storm makes you feel stronger
+				DisplayName: 亲水性
+				Description: 暴风雨让你感觉更坚强
 			}
 
 			Arceus: {
-				DisplayName: Arceus
-				Description: You feel something strange
+				DisplayName: 阿尔宙斯
+				Description: 你感觉到一些奇怪的东西
 			}
 
 			ArmoredUndyne: {
 				DisplayName: The Heroine
-				Description: Undyne will help you
+				Description: Undyne将为您提供帮助
 			}
 
 			Arno: {
-				DisplayName: Arno
-				Description: Child of wind is following you
+				DisplayName: 阿诺
+				Description: 风之子在跟着你
 			}
 
 			Asriel: {
@@ -942,57 +941,57 @@ Mods: {
 
 			Ayame: {
 				DisplayName: Ayame
-				Description: "'She will join your party'"
+				Description: "'她会加入你的队伍'"
 			}
 
 			AyaShameimaru: {
-				DisplayName: Aya Shameimaru
-				Description: "'She is looking for a news story'"
+				DisplayName: 射命丸文
+				Description: "'她正在寻找一个新闻故事'"
 			}
 
 			Baba: {
 				DisplayName: BABA
-				Description: "'BABA IS PET'"
+				Description: "'BABA是宠物'"
 			}
 
 			BabyPrime: {
-				DisplayName: Baby 机械骷髅王
-				Description: Baby 机械骷髅王将跟随你
+				DisplayName: 宝宝 机械骷髅王
+				Description: 宝宝 机械骷髅王将跟随你
 			}
 
 			BadBubble: {
-				DisplayName: Bad Bubble
-				Description: "'It's attempting to catch up with you'"
+				DisplayName: 坏泡泡
+				Description: "'它正试图追上你'"
 			}
 
 			BadHoney: {
-				DisplayName: Honey Poison
-				Description: How this happen?
+				DisplayName: 蜂蜜毒药
+				Description: 这是怎么发生的?
 			}
 
 			Bagon: {
-				DisplayName: Bagon
-				Description: It is looking for cliffs
+				DisplayName: 巴贡
+				Description: 它正在寻找悬崖
 			}
 
 			BandofRelocationCooldown: {
-				DisplayName: Band of Relocation Cooldown
-				Description: The relic need to charge
+				DisplayName: 搬迁带冷却时间
+				Description: 遗物需要充电
 			}
 
 			BatCharge: {
-				DisplayName: Bat Charge
-				Description: You can't use item while charging
+				DisplayName: 蝙蝠冲锋
+				Description: 充能时无法使用该物品
 			}
 
 			BatWings: {
-				DisplayName: Bat Wings
-				Description: It will allow flight for a short time
+				DisplayName: 蝙蝠翅膀
+				Description: 它将允许短时间飞行
 			}
 
 			BenbenTsukumo: {
-				DisplayName: Benben Tsukumo
-				Description: "'She performs on her own'"
+				DisplayName: 九十九弁弁
+				Description: "'她自己表演'"
 			}
 
 			BirdBlue: {
@@ -1001,23 +1000,23 @@ Mods: {
 			}
 
 			BirdGold: {
-				DisplayName: Golden Bird
-				Description: Golden Bird将跟随你
+				DisplayName: 金鸟
+				Description: 金鸟将跟随你
 			}
 
 			BirdRed: {
-				DisplayName: Cardinal
-				Description: Cardinal将跟随你
+				DisplayName: 红衣凤头鸟
+				Description: 红衣凤头鸟将跟随你
 			}
 
 			BirdWhite: {
-				DisplayName: Bird
-				Description: Bird将跟随你
+				DisplayName: 鸟
+				Description: 鸟将跟随你
 			}
 
 			BlackMage: {
-				DisplayName: Black Mage
-				Description: "'He wants to be in your team'"
+				DisplayName: 黑法师
+				Description: "'他想加入你的团队'"
 			}
 
 			Blake: {
