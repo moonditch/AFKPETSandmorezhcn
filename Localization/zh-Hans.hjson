@@ -9399,7 +9399,7 @@ Mods: {
 			}
 
 			Baby: {
-				DisplayName: 婴儿（出自Lisa）
+				DisplayName: 婴儿（出自丽莎:痛苦之旅）
 				Tooltip:
 					'''
 					'可能有人在找他.'
@@ -10032,7 +10032,7 @@ Mods: {
 			}
 
 			DogHead: {
-				DisplayName: 怪物面具（出自Lisa）
+				DisplayName: 怪物面具（出自丽莎:痛苦之旅）
 				Tooltip:
 					'''
 					'你为什么要这么做?'
@@ -10251,7 +10251,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这是用日语写的.'
-					召唤罗德尼（艾伦•贝可叉掉）跟随你
+					召唤罗德尼（艾伦•贝可划掉）跟随你
 					'''
 			}
 
@@ -10283,7 +10283,7 @@ Mods: {
 			}
 
 			ExplosiveJam: {
-				DisplayName: 爆炸性的果酱（出自挖矿工艺叉掉，我的世界）
+				DisplayName: 爆炸性的果酱（出自挖矿工艺划掉，我的世界）
 				Tooltip:
 					'''
 					'Creeper？Oh~ man~.'
@@ -10484,343 +10484,343 @@ Mods: {
 			}
 
 			GoldenCarrot: {
-				DisplayName: Golden Carrot
+				DisplayName: 金胡萝卜（出自原版）
 				Tooltip:
 					'''
-					'I wonder which creature likes this?'
-					召唤a gold bunny跟随你
+					'我想知道哪种生物喜欢这个?'
+					召唤金兔跟随你
 					'''
 			}
 
 			GoldenPistol: {
-				DisplayName: Six shooter
+				DisplayName: 六发式左轮手枪（出自丽莎:痛苦之旅）
 				Tooltip:
 					'''
-					'This looks like a revolver'
+					'这看起来像左轮手枪'
 					召唤bucket跟随你
 					'''
 			}
 
 			GoldenSmashBall: {
-				DisplayName: Golden Smash Ball
+				DisplayName: 金球（出自任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'For the glory of Super Smash Bros'
-					召唤master hand跟随你
+					'为了《任天堂明星大乱斗》的荣耀'
+					召唤大师手套跟随你
 					'''
 			}
 
 			GoldFeather: {
-				DisplayName: Gold Feather
+				DisplayName: 金羽（出自原版）
 				Tooltip:
 					'''
-					'Where does this feather come from?'
-					召唤a gold bird跟随你
+					'这个羽毛在哪里拿到的?'
+					召唤金鸟跟随你
 					'''
 			}
 
 			GoldFreddyToy: {
-				DisplayName: Golden Freddy Plushie
+				DisplayName: 金弗莱迪毛绒玩具（出自玩具熊的五夜后宫）
 				Tooltip:
 					'''
-					'It whispers it put all pieces together'
-					召唤the crying child跟随你
+					'它低语着把所有的碎片拼凑在一起'
+					召唤哭泣小孩跟随你
 					'''
 			}
 
 			GoldRing: {
-				DisplayName: Golden Ring
+				DisplayName: 金环（出自刺猬索尼克）
 				Tooltip:
 					'''
-					'Looks expensive.'
-					召唤Sonic跟随你
+					'看起来很贵.'
+					召唤索尼克跟随你
 					'''
 			}
 
 			GoonieSekeleton: {
-				DisplayName: Bird Skeleton
+				DisplayName: 鸟骨架（出自超级玛丽）
 				Tooltip:
 					'''
-					'It still moves'
-					召唤Skeleton Goonie跟随你
+					'它还能动'
+					召唤骨架信天翁跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			GrandHat: {
-				DisplayName: Grand Hat
+				DisplayName: 帽子（出自grand dad，山寨划掉）
 				Tooltip:
 					'''
-					'It's formed from the power of the forgotten hero'
-					召唤Grand Dad跟随你
+					'它是由被遗忘的英雄的力量形成的'
+					召唤马里奥7跟随你
 					'''
 			}
 
 			GreenEtherianMana: {
-				DisplayName: Crystalized Green Etherian Mana
+				DisplayName: 埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'Someone wants to take this.'
-					召唤etherian wyvern跟随你
+					'有人想拿这个.'
+					召唤埃埃特尼亚飞龙跟随你
 					'''
 			}
 
 			GreenInkling: {
-				DisplayName: Green squid
+				DisplayName: 绿色鱿鱼（出自喷射战士）
 				Tooltip:
 					'''
-					'It looks at you carefully.'
-					召唤inkling跟随你
+					'它仔细地看着你.'
+					召唤乌贼娘跟随你
 					'''
 			}
 
 			GreenOnion: {
-				DisplayName: Green onion
+				DisplayName: 葱（出自嗯？嗯！嗯~世界第一公主殿下！！！）
 				Tooltip:
 					'''
-					'It was once forged for the lord of all bards'
-					召唤Hatsune Miku跟随你
+					'它曾经是为乐曲之王锻造的'
+					召唤初音未来跟随你
 					'''
 			}
 
 			GrossSack: {
-				DisplayName: Gross Sack
+				DisplayName: 浮游怪身体（出自原版）
 				Tooltip:
 					'''
-					'It smells like crimson'
-					召唤a floaty gross跟随你
+					'它喜欢猩红'
+					召唤恶心浮游怪跟随你
 					'''
 			}
 
 			GuidesAutopsyReport: {
-				DisplayName: Guide's Autopsy Report
+				DisplayName: 导游尸检报告（出自逆转裁判）
 				Tooltip:
 					'''
-					'A clue for a strange case'
-					召唤Phoenix Wright跟随你
+					'一个奇怪案件的线索'
+					召唤成步堂龙一跟随你
 					'''
 			}
 
 			Gyroid: {
-				DisplayName: Suspicious Looking Gyroid
+				DisplayName: 可疑陀螺仪（出自动森）
 				Tooltip:
 					'''
-					'It both looks like alive and tile'
+					'它看起来既像活的又像消防栓..'
 					召唤Lloid跟随你
 					'''
 			}
 
 			HallowedMoney: {
-				DisplayName: Hallowed coin
+				DisplayName: 神圣币(出自原版)
 				Tooltip:
 					'''
-					'It is once used by an ancient civilization'
-					召唤a money portal跟随你
+					'它曾经被一个古老的文明所使用'
+					召唤金币传送门跟随你
 					'''
 			}
 
 			Hammer: {
-				DisplayName: Forge Hammer
+				DisplayName: 锻锤（出自召唤之夜）
 				Tooltip:
 					'''
-					'It belongs to one of the craftknight'
+					'它属于一个骑士'
 					召唤Edgar跟随你
 					'''
 			}
 
 			HamonInfusedRose: {
-				DisplayName: Hamon Infused Rose
+				DisplayName: 玫瑰（出自jojo）
 				Tooltip:
 					'''
-					'Wait is this a jojo reference?'
-					召唤Jonathan Joestar跟随你
+					'等等jojo的名字?'
+					召唤乔纳森·乔斯达跟随你
 					'''
 			}
 
 			HarpyEgg: {
-				DisplayName: Harpy Egg
+				DisplayName: 女妖的蛋（出自原版）
 				Tooltip:
 					'''
-					'You feel its mother feels worried now'
-					召唤a harpy跟随你
+					'你能感觉到它的妈妈现在很担心'
+					召唤小鹰身女妖跟随你
 					'''
 			}
 
 			HeadlessBaby: {
-				DisplayName: Headless Baby
+				DisplayName: 无头宝宝（出自以撒的结合）
 				Tooltip:
 					'''
-					'Bloody Friend'
-					召唤headless baby跟随你
+					'血腥伙伴'
+					召唤无头宝宝跟随你
 					'''
 			}
 
 			HeartContaioner: {
-				DisplayName: Heart Container
+				DisplayName: 心的容器（出自传说之下）
 				Tooltip:
 					'''
-					There is a heart in it'
-					召唤a red heart to join your adventure
+					'里面有一颗心'
+					召唤一颗红心加入你的冒险
 					'''
 			}
 
 			HerosSword: {
-				DisplayName: Determinated Sword
+				DisplayName: 英雄之剑（出自三角符文）
 				Tooltip:
 					'''
-					'Sword of the true hero'
-					召唤Kris跟随你
+					'真正英雄之剑'
+					召唤克里斯跟随你
 					'''
 			}
 
 			HiddenBlade: {
-				DisplayName: Hidden Blade
+				DisplayName: 袖剑（出自刺客信条）
 				Tooltip:
 					'''
-					'It may look small but its silence and agility bring its power'
-					召唤Altair跟随你
+					'无声和速度带给了它的力量'
+					召唤阿泰尔跟随你
 					'''
 			}
 
 			AerithGainsboroughDoll: {
-				DisplayName: Flower Girl Collective Figure
+				DisplayName: 花之女玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Aerith Gainsborough跟随你'
-					Figure Number: 1/12
+					'召唤Aerith Gainsborough跟随你'
+					代号: 1/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			AyameDoll: {
-				DisplayName: Elite Guard Collective Figure
+				DisplayName: 精英卫队玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Ayamr跟随你'
-					Figure Number: 2/12
+					'召唤Ayamr跟随你'
+					代号: 2/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			CloudStrifeDoll: {
-				DisplayName: Hero Collective Figure
+				DisplayName: 英雄玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Cloud Strife跟随你'
-					Figure Number: 11/12
+					'召唤Cloud Strife跟随你'
+					代号: 11/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			GilgameshDoll: {
-				DisplayName: Swordman Collective Figure
+				DisplayName: 剑客玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Gilgamesh跟随你'
-					Figure Number: 3/12
+					'召唤Gilgamesh跟随你'
+					代号: 3/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			IrvineKinneasDoll: {
-				DisplayName: Gunman Collective Figure
+				DisplayName: 快枪手玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Irvine Kinneas跟随你'
-					Figure Number: 4/12
+					'召唤Irvine Kinneas跟随你'
+					代号: 4/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			LightningDoll: {
-				DisplayName: Lightning Collective Figure
+				DisplayName: 雷霆玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Claire Farron跟随你'
-					Figure Number: 5/12
+					'召唤Claire Farron跟随你'
+					代号: 5/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			OerbaDiaVanilleDoll: {
-				DisplayName: Narrator Collective Figure
+				DisplayName: 叙事者玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Oerba Dia Vanille跟随你'
-					Figure Number: 6/12
+					'召唤Oerba Dia Vanille跟随你'
+					代号: 6/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			RikkuDoll: {
-				DisplayName: Hunter Collective Figure
+				DisplayName: 猎人玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Rikku跟随你'
-					Figure Number: 7/12
+					'召唤Rikku跟随你'
+					代号: 7/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			RydiaDoll: {
-				DisplayName: Summoner Collective Figure
+				DisplayName: 召唤师玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Rydia跟随你'
-					Figure Number: 8/12
+					'召唤Rydia跟随你'
+					代号: 8/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			SephirothDoll: {
-				DisplayName: One Winged Angel Collective Figure
+				DisplayName: 片翼天使玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Sephiroth跟随你'
-					Figure Number: 9/12
+					'召唤Sephiroth跟随你'
+					代号: 9/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			TifaLockheartDoll: {
-				DisplayName: Brawler Collective Figure
+				DisplayName: 饿狼玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Tifa Lockheart跟随你'
-					Figure Number: 12/12
+					'召唤Tifa Lockheart跟随你'
+					代号: 12/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			YunaDoll: {
-				DisplayName: Mystic Collective Figure
+				DisplayName: 神秘玩偶（出自最终幻想）
 				Tooltip:
 					'''
-					'Summons Yuna跟随你'
-					Figure Number: 10/12
+					'召唤Yuna跟随你'
+					代号: 10/12（注，我对这个游戏不是很了解，只知道他是来自最终幻想，如果有问题加群，或者评论区告诉我）
 					'''
 			}
 
 			HowtoBuildRobotBook: {
-				DisplayName: How to build your Mechanic Lake Monster
+				DisplayName: 《如何制造机械湖怪物》（出自车万）
 				Tooltip:
 					'''
-					'It's multiversal version of the book.'
-					'It first published in Gensokyo'
-					召唤Nitori Kawashiro跟随你
+					'这是一本书.'
+					'他最终发布在幻想乡世界里'
+					召唤河城荷取跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			HylianShield: {
-				DisplayName: Hylian Shield
+				DisplayName: 海拉尔盾（出自塞尔达传说）
 				Tooltip:
 					'''
-					'It's one of the legendary shield that have been wielded by the true hero.'
-					召唤Link跟随你
+					'这是传说中真正的英雄所拥有的盾牌之一.'
+					召唤林克跟随你
 					'''
 			}
 
 			InterstellarTransmitter: {
-				DisplayName: Interstellar Transmitter
+				DisplayName: 星际发射机
 				Tooltip:
 					'''
-					'A small but sleek remote'
-					'Summons a Mini-SATLA-001 to observe your actions'
+					'一个小巧而光滑的遥控器'
+					'召唤迷你SATLA-001观察你'
 					'''
 			}
 
 			JarofVoid: {
-				DisplayName: Jar of Void
+				DisplayName: Jar of Void（占位符）
 				Tooltip:
 					'''
 					'You feel it's formed by a strong soul'
@@ -10829,7 +10829,7 @@ Mods: {
 			}
 
 			Junk2: {
-				DisplayName: Junk
+				DisplayName: Junk（占位符）
 				Tooltip:
 					'''
 					'Just some living junk.'
@@ -10838,21 +10838,21 @@ Mods: {
 			}
 
 			KahoDoll: {
-				DisplayName: Forgotten Doll
+				DisplayName: 被遗忘的玩具（出自Bombservice）
 				Tooltip:
 					'''
-					'It is designed after a traveller'
-					召唤Kaho跟随你
+					'它是根据旅行家设计的'
+					召唤嘉穗跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			KamekWand: {
-				DisplayName: Wand of the Magikoopa
+				DisplayName: 魔法石魔杖（出自超级玛丽）
 				Tooltip:
 					'''
-					'It is forged with the wisdom of the koopas'
-					召唤Kamek跟随你
+					'它是用库帕的智慧铸成的'
+					召唤卡梅克跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
