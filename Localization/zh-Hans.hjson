@@ -232,7 +232,7 @@ Mods: {
 			CookieSpirit.DisplayName: 饼干之魂
 			NightmareCookieBox.DisplayName: 梦魇饼干盒
 			RainbowCookieBox.DisplayName: 彩虹饼干盒
-			HoneyBee.DisplayName: 小蜜蜂
+			HoneyBee.DisplayName: 甜美蜜蜂
 			IceFairy.DisplayName: 冰精灵
 			Parasitoid.DisplayName: 寄生蜂
 			TinySpider.DisplayName: 小蜘蛛
@@ -612,12 +612,12 @@ Mods: {
 			VocaloidBlush.MapEntry: Vocaloid Blush
 			UnholyArrowShooterStaff.MapEntry: Unholy Arrow Shooter Staff
 			UmbrellaEffect.MapEntry: Umbrella Effect
-			TruffleWormStatue.MapEntry: Truffle Worm 雕像
+			TruffleWormStatue.MapEntry: Truffle Worm雕像
 			TriangleKerchiefEffect.MapEntry: Triangle Kerchief Effect
 			TowelEffect.MapEntry: Towel Effect
 			TiredCirnoPainting.MapEntry: Tired Cirno Painting
-			TinySpiderTerrarium.MapEntry: Tiny Spider Terrarium
-			TinySpiderStatue.MapEntry: Tiny Spider 雕像
+			TinySpiderTerrarium.MapEntry: 小蜘蛛笼
+			TinySpiderStatue.MapEntry: 小蜘蛛雕像
 
 			TinyShop: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyShop.MapEntry0
@@ -1385,8 +1385,8 @@ Mods: {
 			}
 
 			CuriousWisp: {
-				DisplayName: Curious Wisp
-				Description: It will light your path
+				DisplayName: 好奇的小光魂
+				Description: 它会照亮你的道路
 			}
 
 			Daiyousei: {
@@ -3231,7 +3231,7 @@ Mods: {
 			}
 
 			MothronBaby: {
-				DisplayName: Baby Mothron
+				DisplayName: 蛾怪宝宝
 				Description: It looks so cute
 			}
 
@@ -6660,18 +6660,18 @@ Mods: {
 			}
 
 			GlassYokaiEye: {
-				DisplayName: Glass Yokai Eye
-				Tooltip: "'Spooky times awaits'"
+				DisplayName: 诡眼
+				Tooltip: "'恐怖即将来临'"
 			}
 
 			NumberOneHeadband: {
-				DisplayName: Number One Headband
-				Tooltip: "'A sacred cloth headband believed to bestow various blessings'"
+				DisplayName: 至高头巾
+				Tooltip: "'一条被认为能带来各种祝福的神圣头巾'"
 			}
 
 			PinkMustache: {
-				DisplayName: Pink Mustache
-				Tooltip: "'It's big brain time'"
+				DisplayName: 粉色八字胡
+				Tooltip: "'大脑时刻'"
 			}
 
 			VoidCrystalNecklace: {
@@ -7749,18 +7749,18 @@ Mods: {
 			}
 
 			HoneyBee: {
-				DisplayName: Honey Bee
-				Tooltip: "'It buzzes frightened'"
+				DisplayName: 甜美蜜蜂
+				Tooltip: "'它吓得嗡嗡作响'"
 			}
 
 			IceFairy: {
-				DisplayName: Ice Fairy
-				Tooltip: "'No bakas?'"
+				DisplayName: 冰精灵
+				Tooltip: "'没有笨蛋吗？'"
 			}
 
 			LittleSpider: {
-				DisplayName: Tiny Spider
-				Tooltip: "'It looks harmless'"
+				DisplayName: 小蜘蛛
+				Tooltip: "'它看起来人畜无害'"
 			}
 
 			FlaskofBlood: {
@@ -7827,7 +7827,7 @@ Mods: {
 				Tooltip:
 					'''
 					They are buzzing peacefully
-					Hive have a chance spawn honey bees which can be catch with a net
+					Hive have a chance spawn 甜美蜜蜂s which can be catch with a net
 					They will also share their honey with humans
 					'''
 			}
@@ -8451,7 +8451,7 @@ Mods: {
 			}
 
 			TinySpiderTerrarium: {
-				DisplayName: Tiny Spider Cage
+				DisplayName: 小蜘蛛笼
 				Tooltip: ""
 			}
 
@@ -8589,7 +8589,7 @@ Mods: {
 				DisplayName: Ode to the Flame
 				Tooltip:
 					'''
-					'Great for impersonating developers!'
+					'非常适合模仿开发者'
 					'Blossom'
 					'''
 			}
@@ -8814,7 +8814,7 @@ Mods: {
 			}
 
 			TinySpiderStatue: {
-				DisplayName: Tiny Spider雕像
+				DisplayName: 小蜘蛛雕像
 				Tooltip: ""
 			}
 
@@ -8897,7 +8897,7 @@ Mods: {
 			}
 
 			WhiteHolographicChest: {
-				DisplayName: Wooden Cage
+				DisplayName: Wooden笼
 				Tooltip:
 					'''
 					'A small home for small guests'
@@ -9008,7 +9008,7 @@ Mods: {
 			}
 
 			BlueThread: {
-				DisplayName: Blue Thread
+				DisplayName: 蓝线
 				Tooltip: ""
 			}
 
@@ -9259,7 +9259,7 @@ Mods: {
 			}
 
 			PurpleThread: {
-				DisplayName: Purple Thread
+				DisplayName: 紫线
 				Tooltip: ""
 			}
 
@@ -9269,7 +9269,7 @@ Mods: {
 			}
 
 			RedThread: {
-				DisplayName: Red Thread
+				DisplayName: 红线
 				Tooltip: ""
 			}
 
@@ -9875,11 +9875,11 @@ Mods: {
 			}
 
 			CuriousWisp: {
-				DisplayName: 微小的精神能量
+				DisplayName: 微弱的光魂
 				Tooltip:
 					'''
-					'平静地观察着你'
-					召唤精神能量跟随你的指针
+					'它正平静地注视着你'
+					召唤好奇的小家伙跟随你的光标
 					'''
 			}
 
@@ -12187,7 +12187,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I hope Mothron doesn't get angry with me'
-					召唤a baby mothron跟随你
+					召唤蛾怪宝宝跟随你
 					'''
 			}
 
@@ -12831,10 +12831,10 @@ Mods: {
 				Tooltip:
 					'''
 					'闻起来像切尔诺贝利'
-					使用后召唤可骑乘的小蛾怪
+					使用后召唤可骑乘的蛾怪宝宝
 					骑乘时，<right>进行冲刺，冷却时间为 1.5 秒 
 					冲刺时，授予玩家 0.33 秒的无敌帧
-					冲刺时，小蛾怪产生日蚀尘，造成爆炸并施加狱火
+					冲刺时，蛾怪宝宝产生日蚀尘，造成爆炸并施加狱火
 					'''
 			}
 
@@ -13415,7 +13415,7 @@ Mods: {
 			}
 
 			HappyCirnoPainting: {
-				DisplayName: Portrait of Happy Ice Fairy
+				DisplayName: Portrait of Happy 冰精灵
 				Tooltip: "'The painting which was made for the stongest'"
 			}
 
@@ -13625,7 +13625,7 @@ Mods: {
 			}
 
 			TiredCirnoPainting: {
-				DisplayName: Portrait of Tired Ice Fairy
+				DisplayName: Portrait of Tired 冰精灵
 				Tooltip: "'It was painted while the strongest one is resting after danmaku battle'"
 			}
 
@@ -16365,22 +16365,22 @@ Mods: {
 			}
 
 			AirheadedShirt: {
-				DisplayName: Airheaded Shirt
-				Tooltip: "'Hope you are not allergic to adorableness, cause if so omae wa mou shindeiru'"
+				DisplayName: Airheaded的上衣
+				Tooltip: "'希望你对可爱没有抵抗力，否则你会死掉哦'"
 			}
 
 			AirheadedSkirt: {
-				DisplayName: Airheaded Skirt
-				Tooltip: "'Hope you are not allergic to adorableness, cause if so omae wa mou shindeiru'"
+				DisplayName: Airheaded的裙子
+				Tooltip: "'希望你对可爱没有抵抗力，否则你会死掉哦'"
 			}
 
 			AirheadedWig: {
-				DisplayName: Airheaded Wig
-				Tooltip: "'Hope you are not allergic to adorableness, cause if so omae wa mou shindeiru'"
+				DisplayName: Airheaded的假发
+				Tooltip: "'希望你对可爱没有抵抗力，否则你会死掉哦'"
 			}
 
 			AlpineHat: {
-				DisplayName: Alpine Hat
+				DisplayName: 登山帽（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
@@ -16390,18 +16390,18 @@ Mods: {
 			}
 
 			AncientDynastyCostume: {
-				DisplayName: 古老的Dynasty Costume
-				Tooltip: "'Elegants clothes that are once being used for generations'"
+				DisplayName: 古王朝上杉
+				Tooltip: "'代代传承的优雅服装'"
 			}
 
 			AncientDynastyHat: {
-				DisplayName: 古老的Dynasty Hat
-				Tooltip: "'Elegants clothes that are once being used for generations'"
+				DisplayName: 古王朝帽子
+				Tooltip: "'代代传承的优雅服装'"
 			}
 
 			AncientDynastyPants: {
-				DisplayName: 古老的Dynasty Pants
-				Tooltip: "'Elegants clothes that are once being used for generations'"
+				DisplayName: 古王朝裤子
+				Tooltip: "'代代传承的优雅服装'"
 			}
 
 			AncientEyeofCthulhuMask: {
@@ -16450,319 +16450,319 @@ Mods: {
 			}
 
 			AssistTrophyHat: {
-				DisplayName: Secret Lord's Hat
-				Tooltip: "'WAAAH!'"
+				DisplayName: 秘密领主的帽子
+				Tooltip: "'哇哦！！！'"
 			}
 
 			AssistTrophyPants: {
-				DisplayName: Secret Lord's Pants
-				Tooltip: "'WAAAH!'"
+				DisplayName: 秘密领主的裤子
+				Tooltip: "'哇哦！！！'"
 			}
 
 			AssistTrophyShirt: {
-				DisplayName: Secret Lord's Skirt
-				Tooltip: "'WAAAH!'"
+				DisplayName: 秘密领主的上衣
+				Tooltip: "'哇哦！！！'"
 			}
 
 			BabyMothronMask: {
-				DisplayName: Baby Mothron面具
+				DisplayName: 蛾怪宝宝面具
 				Tooltip: ""
 			}
 
 			BluesLeggings: {
-				DisplayName: Blue's Leggings
+				DisplayName: Blue的裤子
 				Tooltip: ""
 			}
 
 			BluesShirt: {
-				DisplayName: Blue's Coat
+				DisplayName: Blue的上衣
 				Tooltip: ""
 			}
 
 			BluesWig: {
-				DisplayName: Blue's Wig
+				DisplayName: Blue的假发
 				Tooltip: ""
 			}
 
 			BuffedCostume: {
-				DisplayName: Buffed Costume
-				Tooltip: "'I have a thicc scythe and I'm not afraid to use it!'"
+				DisplayName: Buffed的衣服
+				Tooltip: "'我有一把大镰刀，我不怕使用它！'"
 			}
 
 			BuffedMask: {
-				DisplayName: Buffed面具
-				Tooltip: "'I have a thicc scythe and I'm not afraid to use it!'"
+				DisplayName: Buffed的面具
+				Tooltip: "'我有一把大镰刀，我不怕使用它！'"
 			}
 
 			BuffedShoes: {
-				DisplayName: Buffed Shoes
-				Tooltip: "'I have a thicc scythe and I'm not afraid to use it!'"
+				DisplayName: Buffed的皮鞋
+				Tooltip: "'我有一把大镰刀，我不怕使用它！'"
 			}
 
 			BunnyMask: {
-				DisplayName: Bunny面具
+				DisplayName: 兔兔面具
 				Tooltip: ""
 			}
 
 			CharaCostume: {
-				DisplayName: Genocidist's Shirt and Short
-				Tooltip: "'Strangely it's unisex'"
+				DisplayName: Genocidist's上衣
+				Tooltip: "'奇怪的是，它是中性的'"
 			}
 
 			CharaMask: {
-				DisplayName: Genocidist's面具
-				Tooltip: "'Strangely it's unisex'"
+				DisplayName: Genocidist's头套
+				Tooltip: "'奇怪的是，它是中性的'"
 			}
 
 			CharaShoes: {
-				DisplayName: Genocidist's Shoes
-				Tooltip: "'Strangely it's unisex'"
+				DisplayName: Genocidist's皮鞋
+				Tooltip: "'奇怪的是，它是中性的'"
 			}
 
 			ConvictedCostume: {
-				DisplayName: Convicted Costume
-				Tooltip: "'Tomato-Toma-To-T-TOMATO'"
+				DisplayName: 罪罚上衣
+				Tooltip: "'番茄，番茄，番番茄！'"
 			}
 
 			ConvictedHood: {
-				DisplayName: Convicted Hood
-				Tooltip: "'Tomato-Toma-To-T-TOMATO'"
+				DisplayName: 罪罚兜帽
+				Tooltip: "'番茄，番茄，番番茄！'"
 			}
 
 			ConvictedPants: {
-				DisplayName: Convicted Pants
-				Tooltip: "'Tomato-Toma-To-T-TOMATO'"
+				DisplayName: 罪罚裤子
+				Tooltip: "'番茄，番茄，番番茄！'"
 			}
 
 			DarkPrincesCostume: {
-				DisplayName: Dark Prince's Costume
-				Tooltip: "'Don't forget'"
+				DisplayName: 暗夜王子上衣
+				Tooltip: "'勿忘我'"
 			}
 
 			DarkPrincesLeggings: {
-				DisplayName: Dark Prince's Leggings
-				Tooltip: "'I'm with you in the dark'"
+				DisplayName: 暗夜王子裤子
+				Tooltip: "'常伴黑夜'"
 			}
 
 			DarkPrincesMask: {
-				DisplayName: Dark Prince's面具
-				Tooltip: "'The promise in our hearts'"
+				DisplayName: 暗夜王子面具
+				Tooltip: "'是我们的誓言'"
 			}
 
 			DeepColdBreastplate: {
-				DisplayName: Deep Cold Breastplate
-				Tooltip: "'One of many armor being used by the high ranked soldiers of the dynasty'"
+				DisplayName: 永冻板甲
+				Tooltip: "'王朝精锐士兵使用的众多盔甲之一'"
 			}
 
 			DeepColdLeggings: {
-				DisplayName: Deep Cold Leggings
-				Tooltip: "'One of many armor being used by the high ranked soldiers of the dynasty'"
+				DisplayName: 永冻腿甲
+				Tooltip: "'王朝精锐士兵使用的众多盔甲之一'"
 			}
 
 			DeepColdMask: {
-				DisplayName: Deep Cold面具
-				Tooltip: "'One of many armor being used by the high ranked soldiers of the dynasty'"
+				DisplayName: 永冻战盔
+				Tooltip: "'王朝精锐士兵使用的众多盔甲之一'"
 			}
 
 			DemonMask: {
-				DisplayName: Demon面具
+				DisplayName: 魔鬼面具
 				Tooltip: ""
 			}
 
 			DesignerDress: {
-				DisplayName: Designer's Dress
+				DisplayName: 设计师的裙子
 				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DesignerShoes: {
-				DisplayName: Designer's Shoes
+				DisplayName: 设计师的鞋子
 				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DesignersMask: {
-				DisplayName: Designer's面具
+				DisplayName: 设计师的头套
 				Tooltip: "'这种感受可以分享吗？'"
 			}
 
 			DirndlBlouse: {
-				DisplayName: Dirndl Blouse
+				DisplayName: 旦多尔女衫（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
 			DirndlSkirt: {
-				DisplayName: Dirndl Skirt
+				DisplayName: 旦多尔裙（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
 			DragonBreastplate: {
-				DisplayName: Dragon Breastplate
+				DisplayName: 龙武士板甲
 				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			DragonGreaves: {
-				DisplayName: Dragon Greaves
+				DisplayName: 龙武士腿甲
 				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			DragonMask: {
-				DisplayName: Dragon面具
+				DisplayName: 龙武士战盔
 				Tooltip: "'传说中战士的仪式盔甲'"
 			}
 
 			EyezorMask: {
-				DisplayName: Eyezor面具
+				DisplayName: 眼球凝视者面具
 				Tooltip: ""
 			}
 
 			FabulousDress: {
-				DisplayName: Fabulous Dress
+				DisplayName: 童话长裙
 				Tooltip: ""
 			}
 
 			FabulousRibbon: {
-				DisplayName: Fabulous Ribbon
+				DisplayName: 童话蝴蝶结
 				Tooltip: ""
 			}
 
 			FabulousSlippers: {
-				DisplayName: Fabulous Slippers
+				DisplayName: 童话下装
 				Tooltip: ""
 			}
 
 			FeliceCommanderMask: {
-				DisplayName: Felice Commander's面具
-				Tooltip: "'It was once being used by force captain of the horde'"
+				DisplayName: 菲利斯指挥官的假发
+				Tooltip: "'曾被部落的军事指挥官穿戴的服装'"
 			}
 
 			FeliceCommanderPants: {
-				DisplayName: Felice Commander's Pants
-				Tooltip: "'It was once being used by force captain of the horde'"
+				DisplayName: 菲利斯指挥官的裤子
+				Tooltip: "'曾被部落的军事指挥官穿戴的服装'"
 			}
 
 			FeliceCommanderSuit: {
-				DisplayName: Felice Commander's Suit
-				Tooltip: "'It was once being used by force captain of the horde'"
+				DisplayName: 菲利斯指挥官的上衣
+				Tooltip: "'曾被部落的军事指挥官穿戴的服装'"
 			}
 
 			FestiveTopHead: {
-				DisplayName: Festive Top Head
-				Tooltip: "'Because nothing tops the festive season!'"
+				DisplayName: 节庆高顶帽
+				Tooltip: "'因为没有什么比欢度节日更重要！'"
 			}
 
 			FlandresDress: {
-				DisplayName: Scarlet Vampire's Dress
-				Tooltip: "'And then will there be none?'"
+				DisplayName: 绯红吸血鬼的裙子
+				Tooltip: "'就此结束了吗？'"
 			}
 
 			FlandresHead: {
-				DisplayName: Scarlet Vampire's面具
-				Tooltip: "'A remnant from the bloody catastrophe'"
+				DisplayName: 绯红吸血鬼的假发
+				Tooltip: "'残留下来的血腥灾难'"
 			}
 
 			FlandresShoes: {
-				DisplayName: Scarlet Vampire's Shoes
-				Tooltip: "'Forbidden fruit of the ripples of 495 year'"
+				DisplayName: 绯红吸血鬼的鞋子
+				Tooltip: "'495年的涟漪禁果'"
 			}
 
 			FluffyCostume: {
-				DisplayName: Fluffy Costume
-				Tooltip: "'Reject humanity return back to BUNI'"
+				DisplayName: 毛绒衣服
+				Tooltip: "'拒绝变回人形的兔兔'"
 			}
 
 			FluffyMask: {
-				DisplayName: Fluffy面具
-				Tooltip: "'Reject humanity return back to BUNI'"
+				DisplayName: 毛绒头套
+				Tooltip: "'拒绝变回人形的兔兔'"
 			}
 
 			FluffyPants: {
-				DisplayName: Fluffy Pants
-				Tooltip: "'Reject humanity return back to BUNI'"
+				DisplayName: 毛绒裤子
+				Tooltip: "'拒绝变回人形的兔兔'"
 			}
 
 			ForbiddenWarriorBreastplate: {
-				DisplayName: Forbidden Warrior Breastplate
-				Tooltip: "'Appear weak when you are strong, and strong when you are weak'"
+				DisplayName: 禁忌战士胸甲
+				Tooltip: "'强时示弱，弱时示强'"
 			}
 
 			ForbiddenWarriorGreaves: {
-				DisplayName: Forbidden Warrior Greaves
-				Tooltip: "'Appear weak when you are strong, and strong when you are weak'"
+				DisplayName: 禁忌战士腿甲
+				Tooltip: "'强时示弱，弱时示强'"
 			}
 
 			ForbiddenWarriorHelmet: {
-				DisplayName: Forbidden Warrior Helmet
-				Tooltip: "'Appear weak when you are strong, and strong when you are weak'"
+				DisplayName: 禁忌战士头盔
+				Tooltip: "'强时示弱，弱时示强'"
 			}
 
 			FungalMask: {
-				DisplayName: Fungal面具
-				Tooltip: "'You hope it's not made from real fungis'"
+				DisplayName: 孢子面具
+				Tooltip: "'希望它不是用真的孢子做的'"
 			}
 
 			GeorgesHat: {
-				DisplayName: George's Hat
-				Tooltip: "'Oh myyy!'"
+				DisplayName: 乔治的帽子
+				Tooltip: "'哦，我的老天爷！'"
 			}
 
 			GeorgesPants: {
-				DisplayName: George's Pants
-				Tooltip: "'Oh myyy!'"
+				DisplayName: 乔治的裤子
+				Tooltip: "'哦，我的老天爷！'"
 			}
 
 			GeorgesSuit: {
-				DisplayName: George's Suit
-				Tooltip: "'Oh myyy!'"
+				DisplayName: 乔治的上衣
+				Tooltip: "'哦，我的老天爷！'"
 			}
 
 			GoldfishMask: {
-				DisplayName: Cursing Radness面具
-				Tooltip: "'The true combination of wisdom and cuteness'"
+				DisplayName: 受诅咒的Radness面具
+				Tooltip: "'真正结合了智慧和可爱'"
 			}
 
 			GoodBoyDynastyCostume: {
-				DisplayName: Dynasty Guard Costume
-				Tooltip: "'Clothes of official good boys'"
+				DisplayName: 王朝护卫上衣
+				Tooltip: "'官方礼兵的服装'"
 			}
 
 			GoodBoyDynastyMask: {
-				DisplayName: Dynasty Guard面具
-				Tooltip: "'Clothes of official good boys'"
+				DisplayName: 王朝护卫面具
+				Tooltip: "'官方礼兵的服装'"
 			}
 
 			GoodBoyDynastyPants: {
-				DisplayName: Dynasty Guard Pants
-				Tooltip: "'Clothes of official good boys'"
+				DisplayName: 王朝护卫裤子
+				Tooltip: "'官方礼兵的服装'"
 			}
 
 			HarpyMask: {
-				DisplayName: Harpy面具
+				DisplayName: 鸟妖面具
 				Tooltip: ""
 			}
 
 			HeroicArmor: {
-				DisplayName: Heroic Armor
+				DisplayName: 英雄的护甲
 				Tooltip:
 					'''
-					'What have I just done?'
-					-Sir AFK
+					'我刚刚做了什么？'
+					- AFK先生
 					'''
 			}
 
 			HeroicHair: {
-				DisplayName: Heroic Hair
+				DisplayName: 英雄的假发
 				Tooltip:
 					'''
-					'What have I just done?'
-					-Sir AFK
+					'我刚刚做了什么？'
+					- AFK先生
 					'''
 			}
 
 			HeroicPants: {
-				DisplayName: Heroic Pants
+				DisplayName: 英雄的裤子
 				Tooltip:
 					'''
-					'What have I just done?'
-					-Sir AFK
+					'我刚刚做了什么？'
+					- AFK先生
 					'''
 			}
 
@@ -16772,29 +16772,29 @@ Mods: {
 			}
 
 			HiddenDragonDressPants: {
-				DisplayName: Hidden Dragon Dress Pants
+				DisplayName: 隐龙的裤子
 				Tooltip:
 					'''
-					'Great for impersonating developers!'
-					'And my fuel are memories'
+					'非常适合模仿开发者'
+					'我以回忆为染料'
 					'''
 			}
 
 			HiddenDragonFormalCoat: {
-				DisplayName: Hidden Dragon Formal Coat
+				DisplayName: 隐龙的披挂
 				Tooltip:
 					'''
-					'Great for impersonating developers!'
-					'Burn those who dare care for me'
+					'非常适合模仿开发者'
+					'燃死那些敢于关心我的人'
 					'''
 			}
 
 			HiddenDragonHairBun: {
-				DisplayName: Hidden Dragon Hair Bun
+				DisplayName: 隐龙的假发
 				Tooltip:
 					'''
-					'Great for impersonating developers!'
-					'I am Fire'
+					'非常适合模仿开发者'
+					'我是火焰'
 					'''
 			}
 
@@ -16814,43 +16814,43 @@ Mods: {
 			}
 
 			HuntersMask: {
-				DisplayName: Hunter's面具
+				DisplayName: 猎犬面具
 				Tooltip: ""
 			}
 
 			IgorMask: {
-				DisplayName: Igor面具
+				DisplayName: 伊戈尔面具
 				Tooltip: ""
 			}
 
 			ImperialGuardBreastplate: {
-				DisplayName: Imperial Guard Breastplate
-				Tooltip: "'Honored armor of the forbidden troops'"
+				DisplayName: 禁卫军板甲
+				Tooltip: "'禁军荣誉盔甲'"
 			}
 
 			ImperialGuardLeggings: {
-				DisplayName: Imperial Guard Leggings
-				Tooltip: "'Honored armor of the forbidden troops'"
+				DisplayName: 禁卫军腿甲
+				Tooltip: "'禁军荣誉盔甲'"
 			}
 
 			ImperialGuardMask: {
-				DisplayName: Imperial Guard面具
-				Tooltip: "'Honored armor of the forbidden troops'"
+				DisplayName: 禁卫军头盔
+				Tooltip: "'禁军荣誉盔甲'"
 			}
 
 			InterstellarKnightBreastplate: {
-				DisplayName: Interstellar Knight Breastplate
-				Tooltip: "'Shine with cosmic power'"
+				DisplayName: 星际骑士板甲
+				Tooltip: "'宇宙的伟力闪耀其间'"
 			}
 
 			InterstellarKnightLeggings: {
-				DisplayName: Interstellar Knight Leggings
-				Tooltip: "'Shine with cosmic power'"
+				DisplayName: 星际骑士腿甲
+				Tooltip: "'宇宙的伟力闪耀其间'"
 			}
 
 			InterstellarKnightMask: {
-				DisplayName: Interstellar Knight面具
-				Tooltip: "'Shine with cosmic power'"
+				DisplayName: 星际骑士头盔
+				Tooltip: "'宇宙的伟力闪耀其间'"
 			}
 
 			IsaacMask: {
@@ -16859,44 +16859,44 @@ Mods: {
 			}
 
 			JoyfulDress: {
-				DisplayName: Joyful Dress
-				Tooltip: "'Hey Guys'"
+				DisplayName: 欢乐上衣
+				Tooltip: "'嘿，伙计们'"
 			}
 
 			JoyfulMask: {
-				DisplayName: Joyful面具
-				Tooltip: "'Hey Guys'"
+				DisplayName: 欢乐面具
+				Tooltip: "'嘿，伙计们'"
 			}
 
 			JoyfulShoes: {
-				DisplayName: Joyful Shoes
-				Tooltip: "'Hey Guys'"
+				DisplayName: 欢乐鞋子
+				Tooltip: "'嘿，伙计们'"
 			}
 
 			JudgementBreastplate: {
-				DisplayName: Judgement Breastplate
+				DisplayName: 审判者板甲
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'THE LIGHT IS PERFECTION!'
+					'光 明 是 无 暇 的 ！'
 					'''
 			}
 
 			JudgementLegging: {
-				DisplayName: Judgement Leggings
+				DisplayName: 审判者护胫
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'THE LIGHT IS PERFECTION!'
+					'光 明 是 无 暇 的 ！'
 					'''
 			}
 
 			JudgementMask: {
-				DisplayName: Judgement面具
+				DisplayName: 审判者面具
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'THE LIGHT IS PERFECTION!'
+					'光 明 是 无 暇 的 ！'
 					'''
 			}
 
@@ -16906,151 +16906,151 @@ Mods: {
 			}
 
 			Lederhosen: {
-				DisplayName: Lederhosen
+				DisplayName: 皮裤（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
 			Lederweste: {
-				DisplayName: Lederweste
+				DisplayName: 皮背心（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
 			MagicTimePunkCostume: {
-				DisplayName: Magic Time Punk Jacket and Shirt
+				DisplayName: 魔法朋克披风
 				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MagicTimePunkHead: {
-				DisplayName: Magic Time Punk面具
+				DisplayName: 魔法朋克礼帽
 				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MagicTimePunkShort: {
-				DisplayName: Magic Time Punk Short
+				DisplayName: 魔法朋克裤子
 				Tooltip: "'非常适合模仿模组的 wiki 编辑者！'"
 			}
 
 			MajesticHair: {
-				DisplayName: Majestic Hair
+				DisplayName: 庄严的假发
 				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MajesticPants: {
-				DisplayName: Majestic Pants
+				DisplayName: 庄严的裤子
 				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MajesticSuit: {
-				DisplayName: Majestic Suit
+				DisplayName: 庄严的上衣
 				Tooltip: "'一位古代政治家的衣服'"
 			}
 
 			MaxVanityBody: {
-				DisplayName: Scorched Justice Armor
+				DisplayName: 焦灼的正义盔甲
 				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MaxVanityHead: {
-				DisplayName: Scorched Justice Hat
+				DisplayName: 焦灼的正义帽子
 				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MaxVanityPants: {
-				DisplayName: Scorched Justice Pants
+				DisplayName: 焦灼的正义裤子
 				Tooltip: "'非常适合模仿模组的画师！'"
 			}
 
 			MendeleevCostume: {
-				DisplayName: Ancient One's Body
+				DisplayName: 先行者上衣
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'If you're wearing this, you have 10 seconds to beat it before nothing happens.'
+					'如果你穿上这个，你有10秒的时间打败它，否则什么都不会发生'
 					'''
 			}
 
 			MendeleevMask: {
-				DisplayName: Ancient One's Head
+				DisplayName: 先行者面具
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Wait, its a slime? Always have been.'
+					'等等，它是史莱姆？果然如此'
 					'''
 			}
 
 			MendeleevPants: {
-				DisplayName: Ancient One's Legs
+				DisplayName: 先行者裤子
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Be one with wisdom'
+					'与智慧同在'
 					'''
 			}
 
 			MonokumaBody: {
-				DisplayName: Monokuma Body
-				Tooltip: "'Bring despair to your foes'"
+				DisplayName: 黑白熊莫诺库玛鲁的上衣
+				Tooltip: "'给你的敌人带来绝望'"
 			}
 
 			MonokumaHead: {
-				DisplayName: Monokuma Head
-				Tooltip: "'Bring despair to your foes'"
+				DisplayName: 黑白熊莫诺库玛鲁的头套
+				Tooltip: "'给你的敌人带来绝望'"
 			}
 
 			MonokumaLegs: {
-				DisplayName: Monokuma Legs
-				Tooltip: "'Bring despair to your foes'"
+				DisplayName: 黑白熊莫诺库玛鲁的裤子
+				Tooltip: "'给你的敌人带来绝望'"
 			}
 
 			MonomiBody: {
-				DisplayName: Monomi Body
-				Tooltip: "'...Does everybody here know what a rabbit is?'"
+				DisplayName: 黑白熊芜莉的Body
+				Tooltip: "'…这里的每个人都知道兔子是什么吗？'"
 			}
 
 			MonomiHead: {
-				DisplayName: Monomi Head
-				Tooltip: "'...Does everybody here know what a rabbit is?'"
+				DisplayName: 黑白熊芜莉的Head
+				Tooltip: "'…这里的每个人都知道兔子是什么吗？'"
 			}
 
 			MonomiLegs: {
-				DisplayName: Monomi Legs
-				Tooltip: "'...Does everybody here know what a rabbit is?'"
+				DisplayName: 黑白熊芜莉的Legs
+				Tooltip: "'…这里的每个人都知道兔子是什么吗？'"
 			}
 
 			MythicalLionMask: {
-				DisplayName: Mythical Lion面具
+				DisplayName: 传说中的狮头面具
 				Tooltip: ""
 			}
 
 			MythicalRobe: {
-				DisplayName: Mythical长袍
+				DisplayName: 传说中的长袍
 				Tooltip: ""
 			}
 
 			NightFuryCostume: {
-				DisplayName: Night Fury Body
+				DisplayName: 夜煞上衣
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Become one of the both fearsome and cutest dragon species in this universe'
+					'成为宇宙中最可怕、最可爱的龙之一'
 					'''
 			}
 
 			NightFuryMask: {
-				DisplayName: Night Fury Head
+				DisplayName: 夜煞面具
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Become one of the both fearsome and cutest dragon species in this universe'
+					'成为宇宙中最可怕、最可爱的龙之一'
 					'''
 			}
 
 			NightFuryPants: {
-				DisplayName: Night Fury Legs
+				DisplayName: 夜煞鞋子
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Become one of the both fearsome and cutest dragon species in this universe'
+					'成为宇宙中最可怕、最可爱的龙之一'
 					'''
 			}
 
@@ -17065,27 +17065,27 @@ Mods: {
 			}
 
 			OktoberLocks: {
-				DisplayName: Oktober Locks
+				DisplayName: 啤酒节假发（移动端十月啤酒节套装）
 				Tooltip: ""
 			}
 
 			PeacefulCostume: {
-				DisplayName: Peaceful Costume
-				Tooltip: "'We rise together'"
+				DisplayName: 和平熊猫上衣
+				Tooltip: "'我们共同崛起'"
 			}
 
 			PeacefulLegs: {
-				DisplayName: Peaceful Pants
-				Tooltip: "'We fall together, cause family is love'"
+				DisplayName: 和平熊猫裤子
+				Tooltip: "'我们患难与共，因为我们是相亲相爱的一家人'"
 			}
 
 			PeacefulMask: {
-				DisplayName: Peaceful面具
-				Tooltip: "'We ride together'"
+				DisplayName: 和平熊猫面具
+				Tooltip: "'我们共同前行'"
 			}
 
 			PeaceKeeperHelmet: {
-				DisplayName: Royal Peace Keeper's Helmet
+				DisplayName: 皇家和平守卫者头盔
 				Tooltip: ""
 			}
 
@@ -17095,13 +17095,13 @@ Mods: {
 			}
 
 			PredictorMask: {
-				DisplayName: Predictor面具
+				DisplayName: 预言怪面具
 				Tooltip: ""
 			}
 
 			PurifiedMask: {
-				DisplayName: Divine面具
-				Tooltip: "'You feel all of the impurity inside of your soul start to being purified'"
+				DisplayName: 圣洁面具
+				Tooltip: "'你感觉到灵魂内部的所有杂质都开始被净化'"
 			}
 
 			PurifiedRobe: {
@@ -17110,7 +17110,7 @@ Mods: {
 			}
 
 			RedDevilMask: {
-				DisplayName: Red Devil面具
+				DisplayName: 红恶魔面具
 				Tooltip: ""
 			}
 
@@ -17125,173 +17125,173 @@ Mods: {
 			}
 
 			SelenianMask: {
-				DisplayName: Selenian面具
+				DisplayName: 火月怪面具
 				Tooltip: ""
 			}
 
 			ShirenHat: {
-				DisplayName: Shiren Hat
-				Tooltip: "'It's once being used by a wanderer'"
+				DisplayName: 施琅假发
+				Tooltip: "'一个流浪者穿戴过的服装'"
 			}
 
 			ShirenPants: {
-				DisplayName: Shiren Pants
-				Tooltip: "'It's once being used by a wanderer'"
+				DisplayName: 施琅裤子
+				Tooltip: "'一个流浪者穿戴过的服装'"
 			}
 
 			ShirenShirt: {
-				DisplayName: Shiren Shirt
-				Tooltip: "'It's once being used by a wanderer'"
+				DisplayName: 施琅上衣
+				Tooltip: "'一个流浪者穿戴过的服装'"
 			}
 
 			SlayerofEvilHelmet: {
-				DisplayName: 恶魔杀手的头盔
+				DisplayName: 恶魔杀手头盔
 				Tooltip: ""
 			}
 
 			SlimeCostume: {
-				DisplayName: Slime Costume
-				Tooltip: "'Bouncy'"
+				DisplayName: 史莱姆上衣
+				Tooltip: "'弹力十足'"
 			}
 
 			SlimeHeadGear: {
-				DisplayName: Slime HeadGear
-				Tooltip: "'Bouncy'"
+				DisplayName: 史莱姆帽子主
+				Tooltip: "'弹力十足'"
 			}
 
 			SlimePants: {
-				DisplayName: Slime Pants
-				Tooltip: "'Bouncy'"
+				DisplayName: 史莱姆裤子
+				Tooltip: "'弹力十足'"
 			}
 
 			SnakeMask: {
-				DisplayName: Snake面具
+				DisplayName: 飞蛇面具
 				Tooltip: ""
 			}
 
 			SpectralArmor: {
-				DisplayName: Spectral Armor
-				Tooltip: "'Ceremonial armor of a fabled mystic'"
+				DisplayName: 神仪长袍
+				Tooltip: "'传说中神秘主义者的仪式盔甲'"
 			}
 
 			SpectralHeadgear: {
-				DisplayName: Spectral Headgear
-				Tooltip: "'Ceremonial armor of a fabled mystic'"
+				DisplayName: 神仪头盔
+				Tooltip: "'传说中神秘主义者的仪式盔甲'"
 			}
 
 			SpectralSubligar: {
-				DisplayName: Spectral Subligar
-				Tooltip: "'Ceremonial armor of a fabled mystic'"
+				DisplayName: 神仪裤子
+				Tooltip: "'传说中神秘主义者的仪式盔甲'"
 			}
 
 			StargazerMask: {
-				DisplayName: Stargazer面具
+				DisplayName: 观星怪面具
 				Tooltip: ""
 			}
 
 			StarMerchantCostume: {
-				DisplayName: Star Merchant Costume
-				Tooltip: "'You feel you start to understand Kanji'"
+				DisplayName: 星商上衣
+				Tooltip: "'你觉得你开始理解Kanji了'"
 			}
 
 			StarMerchantMask: {
-				DisplayName: Star Merchant面具
-				Tooltip: "'You feel you start to understand Kanji'"
+				DisplayName: 星商帽子
+				Tooltip: "'你觉得你开始理解Kanji了'"
 			}
 
 			StarMerchantPants: {
-				DisplayName: Star Merchant Pants
-				Tooltip: "'You feel you start to understand Kanji'"
+				DisplayName: 星商裤子
+				Tooltip: "'你觉得你开始理解Kanji了'"
 			}
 
 			StormDiverMask: {
-				DisplayName: Storm Diver面具
+				DisplayName: 漩泥怪面具
 				Tooltip: ""
 			}
 
 			StormDiverMinibossMask: {
-				DisplayName: 胎儿博士's Hat and Monocle
+				DisplayName: 胎儿博士的面具
 				Tooltip: ""
 			}
 
 			StrongestDress: {
-				DisplayName: Dress of the Strongest
-				Tooltip: "'Icicle Falls'"
+				DisplayName: 至高者的上衣
+				Tooltip: "'Icicle坠落'"
 			}
 
 			StrongestMask: {
-				DisplayName: 面具 of the Strongest
-				Tooltip: "'Icicle Falls'"
+				DisplayName: 至高者的假发
+				Tooltip: "'Icicle坠落'"
 			}
 
 			StrongestShoes: {
-				DisplayName: Shoes of the Strongest
-				Tooltip: "'Icicle Falls'"
+				DisplayName: 至高者的鞋子
+				Tooltip: "'Icicle坠落'"
 			}
 
 			SupporterSlimeCap: {
-				DisplayName: Red Cap
+				DisplayName: 红色棒球帽
 				Tooltip: ""
 			}
 
 			TitanHelmet: {
-				DisplayName: Titan Helmet
-				Tooltip: "'Ceremonial armor of a fabled archer'"
+				DisplayName: 泰坦头盔
+				Tooltip: "'传说中弓箭手的仪式盔甲'"
 			}
 
 			TitanLeggings: {
-				DisplayName: Titan Leggings
-				Tooltip: "'Ceremonial armor of a fabled archer'"
+				DisplayName: 泰坦护胫
+				Tooltip: "'传说中弓箭手的仪式盔甲'"
 			}
 
 			TitanMail: {
-				DisplayName: Titan Mail
-				Tooltip: "'Ceremonial armor of a fabled archer'"
+				DisplayName: 泰坦盔甲
+				Tooltip: "'传说中弓箭手的仪式盔甲'"
 			}
 
 			TomboysLeggings: {
-				DisplayName: Tomboy's Leggings
+				DisplayName: Tomboy的裤子
 				Tooltip: ""
 			}
 
 			TomboysMask: {
-				DisplayName: Tomboy's Wig
+				DisplayName: Tomboy的假发
 				Tooltip: ""
 			}
 
 			TomboysShirt: {
-				DisplayName: Tomboy's Coat
+				DisplayName: Tomboy的大衣
 				Tooltip: ""
 			}
 
 			TorosBody: {
-				DisplayName: Toro's Body
-				Tooltip: "'Stare to others soul'"
+				DisplayName: Toro的上衣
+				Tooltip: "'凝视他人的灵魂'"
 			}
 
 			TorosHead: {
-				DisplayName: Toro's Head
-				Tooltip: "'Stare to others soul'"
+				DisplayName: Toro的头套
+				Tooltip: "'凝视他人的灵魂'"
 			}
 
 			TorosLegs: {
-				DisplayName: Toro's Legs
-				Tooltip: "'Stare to others soul'"
+				DisplayName: Toro的裤子
+				Tooltip: "'凝视他人的灵魂'"
 			}
 
 			TypicalSchoolGirlMask: {
-				DisplayName: Typical Schoolgirl面具
-				Tooltip: "'These clothes once used as uniform'"
+				DisplayName: 女学生的假发
+				Tooltip: "'曾经的校服'"
 			}
 
 			TypicalSchoolGirlShirt: {
-				DisplayName: Typical Schoolgirl Shirt
-				Tooltip: "'These clothes once used as uniform'"
+				DisplayName: 女学生的上衣
+				Tooltip: "'曾经的校服'"
 			}
 
 			TypicalSchoolGirlSkirt: {
-				DisplayName: Typical Schoolgirl Skirt and Shoes
-				Tooltip: "'These clothes once used as uniform'"
+				DisplayName: 女学生的裙子 and Shoes
+				Tooltip: "'曾经的校服'"
 			}
 
 			UndeadChefMask: {
@@ -17300,7 +17300,7 @@ Mods: {
 			}
 
 			VultureMask: {
-				DisplayName: Vulture面具
+				DisplayName: 秃鹫面具
 				Tooltip: ""
 			}
 
@@ -23684,7 +23684,7 @@ Mods: {
 			TinyRaidKnight.DisplayName: Tiny Raid Knight
 			TinyMiku.DisplayName: Tiny Miku
 			TinyJanissary.DisplayName: Tiny Janissary
-			TinyIceFairy.DisplayName: Tiny Ice Fairy
+			TinyIceFairy.DisplayName: Tiny 冰精灵
 			TinyHerbalist.DisplayName: Tiny Herbalist
 			TinyGoblinArcher.DisplayName: Tiny Goblin Archer
 			TinyDukeRainbow.DisplayName: Tiny Duke Rainbow
