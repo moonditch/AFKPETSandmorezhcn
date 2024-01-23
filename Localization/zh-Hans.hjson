@@ -9370,7 +9370,7 @@ Mods: {
 			}
 
 			AnimalFeed: {
-				DisplayName: 动物饲料（出自？？没看出来）
+				DisplayName: 动物饲料（出自浮岛物语）
 				Tooltip:
 					'''
 					'它可能会吸引某人.'
@@ -9389,7 +9389,7 @@ Mods: {
 			}
 
 			BaBaPet: {
-				DisplayName: BABA的精华（出自？？没看出来）
+				DisplayName: BABA的精华（出自Baba Is You）
 				Tooltip:
 					'''
 					'它是由精神力和魔法形成的'
@@ -9409,10 +9409,10 @@ Mods: {
 			}
 
 			BadBubble: {
-				DisplayName: Bad Bubble（占位符）
+				DisplayName: Bad Bubble（出自More pets lore）
 				Tooltip:
 					'''
-					'It looks far more innocent than plasma shooting eldritch creatures that lives in the well
+					'它看起来比等离子体射击井里的邪恶生物要无辜得多
 					但你还是觉得不能放松警惕.'
 					召唤Bad Bubble跟随你
 					'''
@@ -9428,7 +9428,7 @@ Mods: {
 			}
 
 			BaseBallBat: {
-				DisplayName: 棒球棍（占位符）（出自？？没看出来）
+				DisplayName: 棒球棍（出自Misao）
 				Tooltip:
 					'''
 					'它可能对鬼魂和噩梦有好处'
@@ -9478,11 +9478,11 @@ Mods: {
 			}
 
 			BlizzardWand: {
-				DisplayName: Blizzard Wand（占位符）
+				DisplayName: 暴雪魔杖（出自超级桃子公主）
 				Tooltip:
 					'''
 					'它有可能阻止全球变暖'
-					召唤Blizzarus跟随你
+					召唤精灵跟随你
 					'''
 			}
 
@@ -9592,7 +9592,7 @@ Mods: {
 				Tooltip:
 					'''
 					'有人想拿这个.'
-					召唤埃特尼亚飞龙(二阶段)跟随你
+					召唤埃特尼亚飞龙跟随你
 					'''
 			}
 
@@ -9633,19 +9633,19 @@ Mods: {
 			}
 
 			BookofLife: {
-				DisplayName: 生命之书（未知，占位符）
+				DisplayName: 生命之书（出自描绘人生）
 				Tooltip:
 					'''
-					'You feel he wants this back'
+					'或许他想要这个'
 					召唤Wilfe跟随你
 					'''
 			}
 
 			BookofLife2: {
-				DisplayName: 生命之书（未知，占位符）
+				DisplayName: 生命之书（出自描绘人生）
 				Tooltip:
 					'''
-					'Maybe you should convince her to not give this to him'
+					'也许你应该说服她让她别把这个给他'
 					召唤Mari跟随你
 					'''
 			}
@@ -9693,20 +9693,20 @@ Mods: {
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: Broken Washing Machine（占位符）
+				DisplayName: Broken Washing Machine（出自Chippy）
 				Tooltip:
 					'''
-					'It vibrates with the power of the 亘古领主'
+					'以亘古领主的力量振动'
 					召唤the washing machine跟随你
 					'''
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: Blessed Broken Washing Machine（占位符）
+				DisplayName: Blessed Broken Washing Machine（出自Chippy）
 				Tooltip:
 					'''
-					'It seems like the other items are in it's inventory.'
-					'It become craftable after the one proven itself'
+					'其他的物品都在它的库存里.'
+					'证明自己之后就可以制作了'
 					召唤washing machine, the holy avenger跟随你
 					'''
 			}
@@ -9721,7 +9721,7 @@ Mods: {
 			}
 
 			Bubble: {
-				DisplayName: 泡泡
+				DisplayName: 泡泡（出自More pets lore）
 				Tooltip:
 					'''
 					'垂钓者在哪里找到这个?'
@@ -9759,10 +9759,10 @@ Mods: {
 			}
 
 			BurningBall: {
-				DisplayName: Burning Sphere（占位符）
+				DisplayName: 燃烧的球（出自星之卡比）
 				Tooltip:
 					'''
-					'It's too hot to hold it'
+					'太热了拿不了'
 					召唤Mr Bright跟随你
 					'''
 			}
@@ -9866,7 +9866,7 @@ Mods: {
 			}
 
 			CrystalBass: {
-				DisplayName: 水晶鱼
+				DisplayName: 水晶鱼（出自原版）
 				Tooltip:
 					'''
 					'我能用这个做什么?'
@@ -9894,7 +9894,7 @@ Mods: {
 			}
 
 			DarkBall: {
-				DisplayName: 黑暗水晶球
+				DisplayName: 黑暗水晶球（出自原版）
 				Tooltip:
 					'''
 					'这有什么用呢??'
@@ -9985,7 +9985,7 @@ Mods: {
 			}
 
 			DesertCore: {
-				DisplayName: 沙漠核心（没看出来。占位符）
+				DisplayName: 沙漠核心
 				Tooltip:
 					'''
 					'它属于一个没有网络连接的人.'
@@ -10022,7 +10022,7 @@ Mods: {
 			}
 
 			DogCookie: {
-				DisplayName: 狗饼干（忘了，占位符）
+				DisplayName: 狗饼干（出自Yrimir）
 				Tooltip:
 					'''
 					'是为了买些可爱的东西'
@@ -10032,7 +10032,7 @@ Mods: {
 			}
 
 			DogHead: {
-				DisplayName: 怪物面具（忘了，占位符）
+				DisplayName: 怪物面具（出自Lisa）
 				Tooltip:
 					'''
 					'你为什么要这么做?'
@@ -10238,7 +10238,7 @@ Mods: {
 			}
 
 			ElectricCoin: {
-				DisplayName: 带电的硬币（出自某科学的超电磁炮/一方通行，魔法禁书目录）
+				DisplayName: 带电的硬币（出自某科学的超电磁炮）
 				Tooltip:
 					'''
 					'看起来很危险'
@@ -10265,11 +10265,11 @@ Mods: {
 			}
 
 			EvilSkull: {
-				DisplayName: Evil Skull（占位符）
+				DisplayName: 邪恶的头骨（占位符）
 				Tooltip:
 					'''
-					'I hope it don't try to attack you'
-					召唤the evil skeleton跟随你
+					'我希望它不会攻击你'
+					召唤邪恶的骷髅跟随你
 					'''
 			}
 
@@ -10301,10 +10301,10 @@ Mods: {
 			}
 
 			FabuRune: {
-				DisplayName: Rune of Uruz（占位符）
+				DisplayName: 乌鲁兹符文（占位符）
 				Tooltip:
 					'''
-					'It was once form by the strength of the 亘古领主'
+					'他是用亘古领主的力量完成的'
 					召唤tiny Fabu跟随你
 					'''
 			}
@@ -10385,11 +10385,11 @@ Mods: {
 			}
 
 			FriendshipCookie: {
-				DisplayName: Friendship Cookie（）
+				DisplayName: 好朋友饼干（出自挺进地牢）
 				Tooltip:
 					'''
-					'It's Delicious!'
-					召唤a cultist跟随你
+					'它是美味的!'
+					召唤教徒跟随你
 					'''
 			}
 
@@ -10475,11 +10475,11 @@ Mods: {
 			}
 
 			GoldenBonnieHead: {
-				DisplayName: Golden Bonnie Head
+				DisplayName: 金兔头（出自玩具熊的五夜后宫）
 				Tooltip:
 					'''
-					'Even holding this makes you feel frightened'
-					召唤purple guy跟随你
+					'拿着这个都会让你感到害怕'
+					召唤紫衣人跟随你
 					'''
 			}
 
