@@ -11553,7 +11553,7 @@ Mods: {
 			}
 
 			Pokeball4: {
-				DisplayName: "精灵球(#92) "
+				DisplayName: "精灵球（出自口袋妖怪）"
 				Tooltip:
 					'''
 					'这里面似乎有幽灵系的宝可梦'
@@ -11562,158 +11562,163 @@ Mods: {
 			}
 
 			Pokeball5: {
-				DisplayName: "精灵球(#83) "
+				DisplayName: "精灵球（出自口袋妖怪）"
 				Tooltip:
 					'''
-					'It seems this 精灵球smell like onion'
-					召唤Farfetchd跟随你
+					'这个精灵球闻起来有葱味'
+					召唤大葱鸭跟随你
 					'''
 			}
 
 			Pokeball6: {
-				DisplayName: "精灵球(#225) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel maybe you get present from this pokemon'
-					召唤Delibird跟随你
+					'也许你从这个宝可梦身上获得过礼物'
+					召唤信使鸟跟随你
 					'''
 			}
 
 			Pokeball7: {
-				DisplayName: "精灵球(#172) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Little sparks come out from pokeball'
-					召唤Pichu跟随你
+					'有细小的电火花从球里面冒出'
+					召唤皮丘跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon10: {
-				DisplayName: "精灵球(#321) "
+				DisplayName: "精灵球（出自口袋妖怪）"
 				Tooltip:
 					'''
-					'Strangely it's soaking water'
-					召唤Wailord跟随你
+					'浮在水面呼吸'
+					召唤吼鲸王跟随你
 					'''
 			}
 
 			Pokemon11: {
-				DisplayName: "精灵球(#143) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You hear snoring sound.'
-					召唤Snorlax跟随你
+					'似乎可以听到呼噜声.'
+					召唤卡比兽跟随你
 					'''
 			}
 
 			Pokemon12: {
-				DisplayName: "精灵球(#235) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Holding it makes you feel normal.'
-					召唤Smeargle跟随你
+					'拿着它会让你感觉正常.'
+					召唤图图犬跟随你
 					'''
 			}
 
 			Pokemon13: {
-				DisplayName: "精灵球(#351) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel it's being affected from weather.'
-					召唤Castform跟随你
+					'感觉受到天气的影响.'
+					召唤飘浮泡泡跟随你
 					'''
 			}
 
 			Pokemon14: {
-				DisplayName: "精灵球(#371) "
+				DisplayName: "精灵球（出自口袋妖怪）"
 				Tooltip:
 					'''
-					'You feel like it's a little heavy'
-					召唤Bagon跟随你
+					'你觉得有点重'
+					召唤宝贝龙跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon15: {
-				DisplayName: "精灵球(#66) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Even holding it makes you feel stronger.'
-					召唤Machop跟随你
+					'拿着它都会觉得很强大.'
+					召唤腕力跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon16: {
-				DisplayName: "精灵球(#491) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel something special is inside of this pokeball'
-					召唤Darkai跟随你
+					'感觉这个精灵球有特别的东西'
+					召唤达克莱伊跟随你
 					'''
 			}
 
 			Pokemon17: {
-				DisplayName: "精灵球(#200) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Holding it makes you feel the around is getting different'
-					召唤Mismagius跟随你
+					'拿着它会觉得周围的都变得不同了'
+					召唤梦妖跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon18: {
-				DisplayName: "精灵球(#428) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'Even holding makes you feel friendly'
-					召唤Lopunny跟随你
+					'即使是抱着也会让你感觉很美好'
+					召唤长耳兔跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon19: {
-				DisplayName: "精灵球(#461) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel a dark type pokemon is inside of this pokeball'
-					召唤Weavile跟随你
+					'你觉得这个里面有个恶系宝可梦'
+					召唤玛狃拉跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon20: {
-				DisplayName: "精灵球(#162) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel something cute is inside of this pokeball'
-					召唤Furret跟随你
+					'你觉得这个精灵球里面有个可爱的东西'
+					召唤大尾立跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon21: {
-				DisplayName: 精灵球(#442)
-				Tooltip: Strangely holding it makes air smell like misdeeds
+				DisplayName: 精灵球（出自口袋妖怪）
+				Tooltip:
+					'''
+					'拿着它会让空气散发着犯罪的味道'
+					召唤花岩怪跟随你
+					'''
 			}
 
 			Pokemon8: {
-				DisplayName: "精灵球(#778) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					Even holding this makes you feel vengeance'
+					拿着它会让你有种复仇的冲动'
+					召唤谜拟丘跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			Pokemon9: {
-				DisplayName: "精灵球(#359) "
+				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'You feel there is a dark type pokemon in it.'
-					召唤Absol跟随你
+					'你会觉得里面有一个黑暗类型的宝可梦.'
+					召唤阿勃梭鲁跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
