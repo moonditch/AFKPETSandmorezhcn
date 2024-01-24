@@ -246,8 +246,8 @@ Mods: {
 			FurretTail.DisplayName: 大尾立
 			HolographicSlime.DisplayName: 全息史莱姆
 			BadSnow.DisplayName: 糟糕的雪
-			IceGuardianHand左键.DisplayName: 冰之守护者
-			IceGuardianHand右键.DisplayName: 冰之守护者
+			IceGuardianHandLeft.DisplayName: 冰之守护者
+			IceGuardianHandRight.DisplayName: 冰之守护者
 			IceTimer.DisplayName: 冰之守护者
 			IceWormB.DisplayName: 冰之守护者
 			IceWormH.DisplayName: 冰之守护者
@@ -663,7 +663,7 @@ Mods: {
 			TechniciansTable.MapEntry: Technicians Table
 			StrongestWink.MapEntry: Strongest Wink
 			StrongestHappiness.MapEntry: Strongest Happiness
-			StrongestF右键.MapEntry: Strongest F右键
+			StrongestFright.MapEntry: Strongest Fright
 			StrawberryPimpPainting.MapEntry: Strawberry Pimp Painting
 			StrangeStatue.MapEntry: Strange雕像
 			StoplightEffect.MapEntry: Stoplight Effect
@@ -1624,7 +1624,7 @@ Mods: {
 
 			JumpScare: {
 				DisplayName: Jumpscare
-				Description: You feel f右键ened
+				Description: You feel frightened
 			}
 
 			LeechDebuff: {
@@ -2112,14 +2112,14 @@ Mods: {
 				Description: You need to focus to perform it again
 			}
 
-			QuickScope左键: {
+			QuickScopeLeft: {
 				DisplayName: Quick Scope
-				Description: Guarateed crit + 10% increased damage to 右键
+				Description: Guarateed crit + 10% increased damage to right
 			}
 
-			QuickScope右键: {
+			QuickScopeRight: {
 				DisplayName: Quick Scope
-				Description: Guarateed crit + 10% increased damage to 右键
+				Description: Guarateed crit + 10% increased damage to right
 			}
 
 			SacrificialAltar: {
@@ -2510,7 +2510,7 @@ Mods: {
 
 			HinaKagiyama: {
 				DisplayName: Hina Kagiyama
-				Description: You feel something is f右键ening you
+				Description: You feel something is frightening you
 			}
 
 			HolographicAmplifier: {
@@ -3248,8 +3248,8 @@ Mods: {
 				Description: 轮子上还沾着血迹
 			}
 
-			MrB右键: {
-				DisplayName: Mr B右键
+			MrBright: {
+				DisplayName: Mr Bright
 				Description: It's looking for Mr Shine
 			}
 
@@ -3408,8 +3408,8 @@ Mods: {
 				Description: "'I wonder what she looking at'"
 			}
 
-			PhoneixW右键: {
-				DisplayName: Phoenix W右键
+			PhoneixWright: {
+				DisplayName: Phoenix Wright
 				Description: OBJECTION!
 			}
 
@@ -4560,7 +4560,7 @@ Mods: {
 
 			VerdeliteCrystal: {
 				DisplayName: Verdelite Crystal
-				Description: It believes it will not be 左键 alone anymore
+				Description: It believes it will not be left alone anymore
 			}
 
 			VigorBoosterCooldown: {
@@ -4790,7 +4790,7 @@ Mods: {
 
 			DryadRoseEmpower: {
 				Description: Dingleshlocked
-				DisplayName: Ancient-B右键 Earth
+				DisplayName: Ancient-Bright Earth
 			}
 		}
 
@@ -5621,7 +5621,7 @@ Mods: {
 				DisplayName: Ancient Core
 				Tooltip:
 					'''
-					'Let their b右键 past protect your future'
+					'Let their bright past protect your future'
 					When sentry slots are more or equal to 2, player gain an extra minion slot and 5% summon damage'
 					When sentry slots are more or equal to 4, on hit contact based sentries have a chance to send out blue scarabs'
 					When sentry slots are more or equal to 6, all sentries gain bioluminescent aura
@@ -6006,11 +6006,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Special product of Crypton Future Media, Inc.'
-					When equipped arrows will slowly rain above player head and pressing at the 右键 time have following effects:
-					-Up: player gets an extremely short immunity frame
-					-Down: Close enemies get fear debuff + some damage
-					-左键: Player debuff durations decrease slightly
-					-右键: Player gets one of vanilla buffs for a short duration
+					When equipped arrows will slowly rain above player head and pressing at the right time have following effects:
+					-上: player gets an extremely short immunity frame
+					-下: Close enemies get fear debuff + some damage
+					-左: Player debuff durations decrease slightly
+					-右: Player gets one of vanilla buffs for a short duration
 					'''
 			}
 
@@ -6300,7 +6300,7 @@ Mods: {
 			}
 
 			NekoSlimesEye: {
-				DisplayName: 猫猫头's 右键 Eye
+				DisplayName: 猫猫头's Right Eye
 				Tooltip:
 					'''
 					'Remnant of a honorable foe'
@@ -6467,7 +6467,7 @@ Mods: {
 				DisplayName: Duel Disk
 				Tooltip:
 					'''
-					'So, take whatever dignity you have 左键 and get lost!'
+					'So, take whatever dignity you have left and get lost!'
 					Pressing the binded key for tarot major effect while not having any active tarot buff will activate first found one inside of your inventory
 					If you have tarot cloth or any tarot card number increasing accessory equipped above its slot the above effect will activate first 2 found tarots
 					Tarot cards major abilities have 20% chance to activate twice which will empower their effect
@@ -7445,7 +7445,7 @@ Mods: {
 				DisplayName: Scarlet Shanghai Bonnet
 				Tooltip:
 					'''
-					'Maintaining a b右键 smile even after all those slaughter'
+					'Maintaining a bright smile even after all those slaughter'
 					Gain immunity against weaker mental based debuffs
 					Close to town npc slowly heal them and players make them happy
 					'''
@@ -7464,7 +7464,7 @@ Mods: {
 				DisplayName: 宝藏袋（远古守护者）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You hope it finally see its master'
 					'''
 			}
@@ -7473,7 +7473,7 @@ Mods: {
 				DisplayName: 宝藏袋（死灵傀儡法师）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'It seems Bede is what he calls his toy and friend'
 					'''
 			}
@@ -7482,7 +7482,7 @@ Mods: {
 				DisplayName: Box
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Filled with stuff'
 					'''
 			}
@@ -7491,7 +7491,7 @@ Mods: {
 				DisplayName: 宝藏袋（兔子飞艇）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Smells like carrot and black powder'
 					'''
 			}
@@ -7500,7 +7500,7 @@ Mods: {
 				DisplayName: Cookie Box
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					Filled with many goodies she collect in her adventure
 					Upon <右键>you get random amount of cookies, misc smaller items + 1 reward item
 					'''
@@ -7510,7 +7510,7 @@ Mods: {
 				DisplayName: 宝藏袋（胎儿博士）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this is only the beginning'
 					'''
 			}
@@ -7519,7 +7519,7 @@ Mods: {
 				DisplayName: Gift Bag
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'It seems someone want to help me'
 					'''
 			}
@@ -7528,7 +7528,7 @@ Mods: {
 				DisplayName: Smiling Gift Bag
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'This bag looks unstable but still it looks rare'
 					'''
 			}
@@ -7547,7 +7547,7 @@ Mods: {
 				DisplayName: 宝藏袋（冰之守护者）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel you will meet with his sister soon'
 					'''
 			}
@@ -7566,7 +7566,7 @@ Mods: {
 				DisplayName: 宝藏袋（英勇史莱姆）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this will enrage the capital'
 					'''
 			}
@@ -7575,7 +7575,7 @@ Mods: {
 				DisplayName: Holographic Bag
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'It's filled with holographic blocks but strangely it looks empty.'
 					'''
 			}
@@ -7584,7 +7584,7 @@ Mods: {
 				DisplayName: 宝藏袋（全息史莱姆）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel this will enrage the capital'
 					'''
 			}
@@ -7593,7 +7593,7 @@ Mods: {
 				DisplayName: Inventory Bag
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'It was once belong to the fallen hero'
 					'''
 			}
@@ -7602,7 +7602,7 @@ Mods: {
 				DisplayName: 宝藏袋（以撒）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Did you just kill a naked child?'
 					'''
 			}
@@ -7621,7 +7621,7 @@ Mods: {
 				DisplayName: 宝藏袋（拉瓦尔傀儡）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You feel it's still alive
 					'''
 			}
@@ -7630,7 +7630,7 @@ Mods: {
 				DisplayName: 宝藏袋（恶魔杀手）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Clash of two heroes'
 					'''
 			}
@@ -7639,7 +7639,7 @@ Mods: {
 				DisplayName: 宝藏袋（猫猫头）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Death of a high ranked shinobi will surely affect the Slime Capital'
 					'''
 			}
@@ -7648,7 +7648,7 @@ Mods: {
 				DisplayName: 宝藏袋（梦魇史莱姆）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Its death will surely bring fear to the Slime Capital'
 					'''
 			}
@@ -7657,7 +7657,7 @@ Mods: {
 				DisplayName: 宝藏袋（ 盘子女鬼）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Yasuraka ni nemuru'
 					'''
 			}
@@ -7666,7 +7666,7 @@ Mods: {
 				DisplayName: 宝藏袋（政客史莱姆）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Fall of the president will make them fill with vengeance'
 					'''
 			}
@@ -7675,7 +7675,7 @@ Mods: {
 				DisplayName: Prize Bag
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'This... does put a smile on my face'
 					'''
 			}
@@ -7684,7 +7684,7 @@ Mods: {
 				DisplayName: 宝藏袋（皇家鸟妖风暴号）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'At least their souls continue to be together'
 					'''
 			}
@@ -7693,7 +7693,7 @@ Mods: {
 				DisplayName: 宝藏袋（SATLA-001）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'It's a little heavy'
 					'''
 			}
@@ -7702,7 +7702,7 @@ Mods: {
 				DisplayName: 宝藏袋（安全机器人）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'You never expect there is also engineer in dungeon'
 					'''
 			}
@@ -7711,7 +7711,7 @@ Mods: {
 				DisplayName: 宝藏袋（Slimes Last Hope）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'They will take revenge of their friend'
 					'''
 			}
@@ -7720,7 +7720,7 @@ Mods: {
 				DisplayName: 宝藏袋（娱乐之魂）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					There is a small note on it's back
 					'I hope you have [c/ffff00:Fun]'
 					'''
@@ -7732,7 +7732,7 @@ Mods: {
 					'''
 					'The cat has been inside of this box since 1935'
 					'It may be either death or alive but you can't understand from there.'
-					'{$CommonItemTooltip.右键ClickToOpen}.'
+					'{$CommonItemTooltip.RightClickToOpen}.'
 					'Fredbear may guide you to the end of the universe.'
 					'''
 			}
@@ -7742,7 +7742,7 @@ Mods: {
 				Tooltip:
 					'''
 					Temple Key required to open
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'Where does this box come from?'
 					'''
 			}
@@ -7751,7 +7751,7 @@ Mods: {
 				DisplayName: 宝藏袋（不死厨师）
 				Tooltip:
 					'''
-					{$CommonItemTooltip.右键ClickToOpen}
+					{$CommonItemTooltip.RightClickToOpen}
 					'The bag smells like the last dinner he's preparing'
 					'''
 			}
@@ -8927,7 +8927,7 @@ Mods: {
 					A note attached to its back
 					'Before use please be sure that you are not scanning fumos, their cuteness stage is too high that it may cause permenant damage to the machine'
 					'When you <右键>to its tile by holding the item version of the tile it will scan this type in 101x101 area
-					''It will start scan from east to 左键 and top to bottom and when it found one it will show its direction with arrow'
+					''It will start scan from east to left and top to bottom and when it found one it will show its direction with arrow'
 					'Upon player breaks the shown tile, scan another tile or get too far away(more than 150 tile away) the arrow for that tile will disappear'
 					'''
 			}
@@ -9771,7 +9771,7 @@ Mods: {
 				Tooltip:
 					'''
 					'太热了拿不了'
-					召唤Mr B右键跟随你
+					召唤Mr Bright跟随你
 					'''
 			}
 
@@ -11099,7 +11099,7 @@ Mods: {
 				DisplayName: Mechanical Key
 				Tooltip:
 					'''
-					'It reminds me of something f右键ening.'
+					'It reminds me of something frightening.'
 					召唤机械骷髅王宝宝跟随你
 					'''
 			}
@@ -12969,7 +12969,7 @@ Mods: {
 
 			AncientSand: {
 				DisplayName: Ancient Sand Container
-				Tooltip: "'Maybe it will awake someone to your 右键'"
+				Tooltip: "'Maybe it will awake someone to your right'"
 			}
 
 			BlackenedHeart: {
@@ -13621,8 +13621,8 @@ Mods: {
 				Tooltip: "'Rose'"
 			}
 
-			StrongestF右键: {
-				DisplayName: Portrait of the Strongest F右键
+			StrongestFright: {
+				DisplayName: Portrait of the Strongest Fright
 				Tooltip: It was painted from observing the strongest one in her own habitat
 			}
 
@@ -15093,8 +15093,8 @@ Mods: {
 					'<左键>allows you to teleport to the position of the mouse'
 					'<右键>+ Up button teleport you back to home.'
 					'<右键>+ down button teleport you to random location.'
-					'<右键>+ 左键 button teleport you to your death location.'
-					'<右键>+ 右键 button allow you to make blink'
+					'<右键>+ left button teleport you to your death location.'
+					'<右键>+ right button allow you to make blink'
 					'''
 			}
 
@@ -15141,7 +15141,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A utility tier spell tome being used by wandering wizards to protect from elements'
-					'Upon use it will form a 4x10 house which will take the mouse position its 右键 lowest point'
+					'Upon use it will form a 4x10 house which will take the mouse position its right lowest point'
 					'It will not break blocks while forming and the blocks that form the house are breakable'
 					'''
 			}
@@ -15488,8 +15488,8 @@ Mods: {
 					'<左键>allows you to use it as pickaxe while <右键>activates special ability.'
 					'<右键>+ Up button enlight your soul with ancient flames for 4 seconds.'
 					'<右键>+ down button allows you to stop time for 5 seconds.'
-					'<右键>+ 左键 button allows you to forge with fury for 8 seconds.'
-					'<右键>+ 右键 button allows you to do otherworldly attack.'
+					'<右键>+ left button allows you to forge with fury for 8 seconds.'
+					'<右键>+ right button allows you to do otherworldly attack.'
 					'Special attacks have cooldown.'
 					'''
 			}
@@ -15927,8 +15927,8 @@ Mods: {
 					'''
 			}
 
-			B右键Pearl: {
-				DisplayName: B右键 Pearl
+			BrightPearl: {
+				DisplayName: Bright Pearl
 				Tooltip:
 					'''
 					'All art is autobiographical, the pearl is the oyster�s autobiography'
@@ -17783,7 +17783,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾属于一只地狱乌鸦'
-					<鼠标左键>进行普通攻击，而<鼠标右键>则引发无法控制的核反应
+					<左键>进行普通攻击，而<右键>则引发无法控制的核反应
 					'''
 			}
 
@@ -19611,7 +19611,7 @@ Mods: {
 				DisplayName: Star Blazer
 				Tooltip:
 					'''
-					Light inside you drowns out all but the b右键est stars.
+					Light inside you drowns out all but the brightest stars.
 					Shoots a flame that inflicts star crusher debuff
 					'70% chance to not consume ammo and uses gel as ammo'
 					'''
@@ -20129,7 +20129,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems the fairy war is over'
-					Upon thrown it will slowly start to melt with friction and 左键 crystal shards
+					Upon thrown it will slowly start to melt with friction and left crystal shards
 					It could also push non boss enemies and after enough energy the frog will return back to life
 					If rogue config is active and calamity is enabled in stealth you throw 2 more cube
 					'''
@@ -20380,7 +20380,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Connecting people'
-					If there is no link 左键 hitting any enemy will link it to player and if there exist it link the enemy to previously linked one
+					If there is no link left hitting any enemy will link it to player and if there exist it link the enemy to previously linked one
 					There can be 3 linked enemy max and when one is damaged others will take 50% damage
 					If first enemy dies link is completely broken and need to refilled and if second dies third link get broken
 					If rogue config is active and calamity is enabled in stealth it will rip links instead which will do 4x base damage to all linked enemies
@@ -20511,7 +20511,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Friendship is the only cement that will ever hold the world together'
-					Using the item will summon a tiny friend with respect to the biome player is in that get slightly weaker if player 左键 that biome
+					Using the item will summon a tiny friend with respect to the biome player is in that get slightly weaker if player left that biome
 					Favouriting item do periodic check & adjust with respect to prefered biome
 					If not [c/ffff00:Secret Formula] is being equipped it will lost its true form
 					'''
@@ -20684,7 +20684,7 @@ Mods: {
 				DisplayName: Staff of the Mecha-Hare
 				Tooltip:
 					'''
-					'I'll be scared later. 右键 now I'm too mad'
+					'I'll be scared later. right now I'm too mad'
 					Summons a B.U.N.-E. to fight for you which have 2 modes
 					Aggressive: Dashes to enemies and occasionally stop and cause a barrage of homing rockets
 					Defensive: Get close to player and form energy shield + leave short timed sparks
@@ -21121,7 +21121,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:Supporter Soul]
-					'His body may 左键 but his angelic soul is still watching you faithfully'
+					'His body may left but his angelic soul is still watching you faithfully'
 					If he's on screen taking damage will purr-ify players soul that gives player protection against death for 2 second + rapid healing for 4 seconds
 					This effect have 4 second cooldown
 					Only one supporter soul can be active at a time and <右键>to desummon
@@ -22053,7 +22053,7 @@ Mods: {
 			SlayerDeath.DisplayName: Slayer Death
 			SlayerLaser.DisplayName: Slayer Laser
 			SlayerTornado.DisplayName: Slayer Tornado
-			TornadoSpinner右键.DisplayName: Tornado Spinner 右键
+			TornadoSpinnerright.DisplayName: Tornado Spinner right
 			BreathFireball.DisplayName: Breath Fireball
 			BroBullet.DisplayName: Bro Bullet
 			Brofist.DisplayName: Brofist
@@ -22816,7 +22816,7 @@ Mods: {
 			Morrigan.DisplayName: Morrigan
 			MotherSlimeProjectile.DisplayName: Mother Slime Projectile
 			MothronBaby.DisplayName: Mothron Baby
-			MrB右键.DisplayName: Mr B右键
+			MrBright.DisplayName: Mr Bright
 			MrGameandWatch.DisplayName: Mr Gameand Watch
 			Mudkip.DisplayName: Mudkip
 			MudkipWarrior.DisplayName: Mudkip Warrior
@@ -22871,7 +22871,7 @@ Mods: {
 			Pet7.DisplayName: Pet7
 			Pet8.DisplayName: Pet8
 			Pet9.DisplayName: Pet9
-			PhoneixW右键.DisplayName: Phoneix W右键
+			PhoneixWright.DisplayName: Phoneix Wright
 			Pichu.DisplayName: Pichu
 			Poniko.DisplayName: Poniko
 			Protection.DisplayName: Protection
