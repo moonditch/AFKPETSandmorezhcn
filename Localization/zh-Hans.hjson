@@ -14953,19 +14953,19 @@ Mods: {
 			}
 
 			AlchemistsGlove: {
-				DisplayName: Alchemist's Glove
+				DisplayName: 炼金师手套
 				Tooltip:
 					'''
-					'When used player will throw the first found药水 inside of players inventory'
-					'When the bottle explodes it will form a cloud which will inflict that buff with 75% duration and this cloud last for 2.5 seconds'
+					'当玩家使用时，会投掷出玩家背包中找到的第一个药水瓶'
+					'药水瓶爆炸后将形成一片云雾，对范围内目标施加该药水效果的75%持续时间，此云雾持续2.5秒'
 					'''
 			}
 
 			BlessedBanana: {
-				DisplayName: Blessed Banana
+				DisplayName: 祝福香蕉
 				Tooltip:
 					'''
-					'It was once formed from the kindness and power of 亘古领主 loverofgames.'
+					'它源自亘古领主“游戏之恋者”的善良与力量所孕育而成'
 					'You feel strong spiritual power comes from it.'
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -15000,21 +15000,21 @@ Mods: {
 			}
 
 			BookofBotany: {
-				DisplayName: Book of Botany
+				DisplayName: 植物学手册
 				Tooltip:
 					'''
-					'Contains wonderful plants that can both feed and kill you in million different ways'
-					Using the item will show the type of exotic plant on your mouse direction and make you also identify unknown plant
-					Press binded info key while this item being selected in hotbar to get more information about the exotic plants
+					'书中记载了众多奇妙植物，它们既能以千万种方式滋养你，也可能置你于死地'
+					使用此物品后，鼠标指向处将会显示所遇到的异域植物种类，并帮助你识别未知植物
+					当该物品被选中在快捷栏时，按下绑定的信息键可以获取更多关于这些奇异植物的信息
 					'''
 			}
 
 			BookofSelfDestruct: {
-				DisplayName: Book of Self Destruct
+				DisplayName: 自爆之书
 				Tooltip:
 					'''
-					'Kablooie'
-					Using the item causes an explosion which breaks near tiles
+					'砰然一响'
+					使用此物品会引发爆炸，破坏附近的方块
 					'''
 			}
 
@@ -15157,12 +15157,12 @@ Mods: {
 			}
 
 			HypnosPendulum: {
-				DisplayName: Hypno's Pendulum
+				DisplayName: 睡神的梦幻摆锤
 				Tooltip:
 					'''
-					It still contains the physic power of it's previous user
-					'Using this item by clicking on your town npc will change its name to adjusted name.
-					''For adjusting name use '/newnpcname [Desired Name]''
+					其内仍蕴含着前任使用者的灵力
+					'点击城镇中的NPC使用此物品，将会将其名字更改为调整后的名称
+					''若要调整名称，请使用命令 '/newnpcname [期望的名字]''
 					'''
 			}
 
@@ -15228,21 +15228,21 @@ Mods: {
 			}
 
 			Multimeter: {
-				DisplayName: Multimeter
+				DisplayName: 万用表
 				Tooltip:
 					'''
-					'Give me a week and I will reverse engineer that sh*t'
-					Using the item sends a wire signal to the block that is players mouse points
-					Its signal work logic is same as timers and other vanilla signal producers
+					'给我一周时间，我就能反向工程那玩意儿'
+					使用该物品会向玩家鼠标所指的方块发送电线信号
+					其信号工作逻辑与计时器和其他原版游戏中的信号生成器相同
 					'''
 			}
 
 			NoteBlockTuner: {
-				DisplayName: Note Block Tuner
+				DisplayName: 音符块调谐器
 				Tooltip:
 					'''
-					Using the item on a note block will cycle through its insturment type with 13 different ones
-					Pressing <右键>will open an UI that show notes for some of the melodies
+					在音符块上使用该物品可以循环切换其13种不同的乐器类型
+					按下<右键>将会打开一个UI，显示部分预设旋律的音符
 					'''
 			}
 
@@ -20445,30 +20445,30 @@ Mods: {
 			}
 
 			VenomKnife: {
-				DisplayName: Venom Coated Kunai
+				DisplayName: 毒液涂覆苦无
 				Tooltip:
 					'''
-					'A deadly tool being used by slime shinobis'
-					When it hits to an enemy iy will give them venom debuff and critical hits will give horror debuff
-					Horror debuff will cause enemies to both give and take contact damage to other enemies
-					Upon hit any enemy if there are any close enemy that can be hittable it will change its trajectory to that enemies location
-					If there is any enemy near to you you will throw additional kunais for them and its limit is 3 more
-					If rogue config is active and calamity is enabled in stealth you inflict every enemy on screen horror for 4 seconds
+					'这是史莱姆忍者使用的致命武器'
+					击中敌人时会施加毒液减益，暴击则附加恐怖减益效果
+					恐怖减益会让敌人对其他敌人造成并受到接触伤害
+					命中任意敌人后，若附近有可攻击的敌人，将改变飞行轨迹朝向该敌人位置
+					当周围存在敌人时，你将额外投掷最多3枚苦无进行攻击
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将对屏幕上的所有敌人造成4秒恐怖减益
 					'''
 			}
 
 			AmbersFlower: {
-				DisplayName: Amber's Flower
+				DisplayName: 琥珀之花
 				Tooltip:
 					'''
-					'You used to watch the little bees fly around the flower...'
-					Upon used it will summon a spiritual flower to protect you
-					Releases bees to strike close enemies + each time bees strike the flower absorb souls
-					Upon absorbing enough soul it will release spiritual bees which contain her childhood memories
-					These bees may inflict fluffy which may cause close enemies to get amazed by that and target this enemy instead
-					Some may also be allergic to adorableness which cause them to get true DoT by getting closer to cute creatures
-					The quality + quantity of these creatures affect its magnitude + spread
-					There can be only 1 spiritual flower active and it uses 2 minion slot
+					'你曾经看着小蜜蜂在这朵花周围飞舞……'
+					使用后会召唤一朵精神之花来保护你
+					它会释放蜜蜂攻击附近的敌人，并且每当蜜蜂攻击时，花朵会吸收灵魂
+					当吸收足够多的灵魂后，它会释放蕴含琥珀童年记忆的精神蜜蜂
+					这些蜜蜂可能会施加‘软绵绵’效果，让附近敌人被其吸引而转移攻击目标至该敌人身上
+					部分敌人可能对可爱生物过敏，靠近它们时将受到真实持续伤害
+					这些生物的质量和数量会影响此效果的强度和范围
+					同一时间只能激活一朵精神之花，占用2个仆从位
 					'''
 			}
 
