@@ -367,8 +367,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			SoulBird.DisplayName: 心灵鸟
@@ -468,8 +466,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Defeat King Slime or Eye of Cthulhu
 			}
 
 			FallenAngel: {
@@ -485,8 +481,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Shine her eyes by using Icarus's mirror in desert at day time
 			}
 
 			GuideoftheEnd: {
@@ -517,8 +511,6 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
-
-				// Census.SpawnCondition: Defeat Slayer of Evil
 			}
 
 			BountyHunter: {
@@ -1064,7 +1056,7 @@ Mods: {
 			}
 
 			BloodHeartCooldown: {
-				DisplayName: Boiling Blood Cooldown
+				DisplayName: 沸血冷却
 				Description: It needs to rest to regenerate itself
 			}
 
@@ -1099,7 +1091,7 @@ Mods: {
 			}
 
 			BoilingBlood: {
-				DisplayName: Boiling Blood
+				DisplayName: 沸血
 				Description: Your vessels starts to shatter
 			}
 
@@ -1488,7 +1480,7 @@ Mods: {
 			}
 
 			AlchemicalDust: {
-				DisplayName: Alchemical Dust
+				DisplayName: 星璇尘
 				Description: You are burning both endothermic and exothermic chemicals
 			}
 
@@ -1498,7 +1490,7 @@ Mods: {
 			}
 
 			AngelicFlames: {
-				DisplayName: Angelic Flames
+				DisplayName: 圣焰
 				Description: You are burning with your sins
 			}
 
@@ -5518,7 +5510,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you truly have fists of justice'
-					All melee attacks inflict angelic flames
+					All melee attacks inflict 圣焰
 					Melee damage and speed increased by 10% and melee knockback is also being increased
 					True melee crits ignore half of defense and regular melee crits ignore 25% defense
 					'''
@@ -5550,7 +5542,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you know where is the center of Earth'
-					All melee attacks inflict angelic flames
+					All melee attacks inflict 圣焰
 					True melee crits ignore half of defense
 					'''
 			}
@@ -5630,7 +5622,7 @@ Mods: {
 			}
 
 			BoilingBloodBag: {
-				DisplayName: Boiling Blood Bag
+				DisplayName: 沸血 Bag
 				Tooltip:
 					'''
 					'Still boiling with her pain'
@@ -5896,7 +5888,7 @@ Mods: {
 					>50 gold +10% attacks speed, >100 gold +10% crit chance, >200 gold +15% damage
 					Picking up coin have following effects and they need to be drop from enemy for this effect to activate
 					-Copper coin: 30% movement speed + increased acceleration for 10 seconds, inflicts daybroken for 5 seconds
-					-Silver coin: 10% damage + 10% crit for 30 seconds, inflicts angelic flames for 5 Seconds
+					-Silver coin: 10% damage + 10% crit for 30 seconds, inflicts 圣焰 for 5 Seconds
 					-Gold coin: 10% DR and 10 Defense, inflicts cursed soulblight for 10 seconds
 					Player could not equip dragon treasures, lucky cat, good ones treasure or piracy
 					'''
@@ -6887,83 +6879,83 @@ Mods: {
 			}
 
 			DarknessArrow: {
-				DisplayName: Arrow of Darkness
+				DisplayName: 暗影箭
 				Tooltip:
 					'''
-					Upon being shot it will form another arrow of darkness that will go opposide direction with it
-					That arrow will have 90% of the main arrows damage
+					命中后生成一支相反方向的暗影箭
+					造成 90% 的伤害
 					'''
 			}
 
 			DrillerArrow: {
-				DisplayName: Drill Arrow
+				DisplayName: 钻探箭
 				Tooltip:
 					'''
-					'It can move through tiles but upon entering them it will become slower'
-					'Hitting to an enemy will reduce armor of enemies by 3'
+					可以缓慢穿透物块
+					被命中的敌人减少 3 护甲
 					'''
 			}
 
 			DungeonArrow: {
-				DisplayName: Shifting Arrow
-				Tooltip: "'Hitting enemy or a tile will cause the arrow to fade away'"
+				DisplayName: 移形箭
+				Tooltip: 命中后缓慢消失
 			}
 
 			GreenArrow: {
-				DisplayName: Green Arrow
+				DisplayName: 绿皮箭
 				Tooltip:
 					'''
-					And creeps like goblins are an endangered species
-					While shooting player have a chance to shoot boxing glove arrow
-					Normal ones will penetrate 1 more time while boxing glove arrows will deal two times more damage to a single target
+					'哥布林已经是濒危物种了'
+					穿透 1 次
+					有几率射出拳击手套，对单个目标造成双倍伤害
 					'''
 			}
 
 			HallowedHwachaArrow: {
-				DisplayName: Hwacha Arrow
+				DisplayName: 神机箭
 				Tooltip:
 					'''
-					Best to use against invaders
-					Upon hitting enemy it will explode into few explosive shards that will do 75% of the projectiles damage
+					'最好用来对付入侵者'
+					命中后爆炸产生碎片，造成 75% 的伤害
 					'''
 			}
 
 			HarmonyArrow: {
-				DisplayName: Arrow of Harmony
+				DisplayName: 调和箭
 				Tooltip:
 					'''
-					It will shoot two arrow at the same time that find their inner balance
-					Each arrow will do 70% of their base damage
+					射出相互交织的两支箭
+					每支箭造成 70% 的伤害
 					'''
 			}
 
 			MartianArrow: {
-				DisplayName: Energy Arrow
+				DisplayName: 能量箭
 				Tooltip:
 					'''
-					An ammo designed to hunt down primal lifeforms on the lands of Mars
-					It will home to near enemy and upon contact it will form an electrical area that will hurt near enemies
-					Electrical area will do 90% damage of the projectiles damage
+					一种被设计用于在火星上追捕原始生命体的弹药
+					追踪最近的敌人，命中后产成能量波伤害附近的敌人
+					能量波造成 90% 的伤害
 					'''
 			}
 
 			PoisonedArrow: {
-				DisplayName: Poisoned Arrow
-				Tooltip: "'Hitting enemies will inflict poison'"
+				DisplayName: 毒箭
+				Tooltip: "'命中后施加中毒'"
 			}
 
 			SeveredHand: {
-				DisplayName: Severed Hand
+				DisplayName: 断手箭
 				Tooltip:
 					'''
-					'Lend me a hand, would ya!'
-					Hitting enemies will cause the hand to hold them for extra damage
-					An enemy could have maximum 6 severed hand
+					'帮我一把，好吗？'
+					命中后断手附着敌人受到持续伤害Hitting enemies will cause the hand to hold them for extra damage
+					每名敌人最多被 6 只断手附着
 					'''
 			}
 
 			SlimyArrow: {
-				DisplayName: Slimy Arrow
+				DisplayName: 史莱姆箭
 				Tooltip: "'It will slide on tiles'"
 			}
 
@@ -7013,421 +7005,421 @@ Mods: {
 			}
 
 			BloodShot: {
-				DisplayName: Blood Shot
+				DisplayName: 血弹
 				Tooltip:
 					'''
-					'Hitting enemy have a chance to return bullet to blood'
-					'Bullets have 50% chance to inflict boiling blood for 1 second'
+					命中后有几率将子弹转化为血液
+					有 50% 几率造成持续 1 秒的沸血
 					'''
 			}
 
 			BlueGlassBullet: {
-				DisplayName: Blue Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
+				DisplayName: 净化弹
+				Tooltip: 碰撞后释放出净化粉
 			}
 
 			BroBullet: {
-				DisplayName: Bullet of Bromite
+				DisplayName: 溴铁弹
 				Tooltip:
 					'''
-					'It's being gifted to lord James by his help on the great war'
-					Hitting enemies have a chance to form fists made from Bromite.
+					'这是赠予詹姆斯勋爵的礼物，以感谢他在大战中的帮助'
+					命中后有几率生成由溴铁矿构成的拳头
 					'''
 			}
 
 			CopperBullet: {
-				DisplayName: Scrap Slug
+				DisplayName: 废料弹
 				Tooltip:
 					'''
-					'It may not be as hard as musket balls but you feel it may be useful'
-					The more it travel the less damage it does and it will start from 200% damage to close enemies and do 50% damage to far enemies
+					'可能没有火枪子弹那么好，但你觉得它可能有用'
+					对敌人的伤害从近距离的 200% 递减至远距离的 50%
 					'''
 			}
 
 			IceBullet: {
-				DisplayName: Overfrost Crystal Bullet
-				Tooltip: "'It looks magical but still it freezes your hand'"
+				DisplayName: 寒霜弹
+				Tooltip: "'它看起来很神奇，但摸起来仍然冻手'"
 			}
 
 			MartianEnergyCapsule: {
-				DisplayName: Nuclear Energy Capsule
+				DisplayName: 火星核能子弹
 				Tooltip:
 					'''
-					It was developed by Martian scientist for militaries dynamic ammo needs'
-					With this technology their both logistic and material cost decrease moderately
-					It allow player to form endless high energy bullets and upon hitting they will charge any enemy inside of its radius
+					'由火星科学家为军队节能减排需求而开发的
+					有了这项技术，他们的物流和物资成本都将降低'
+					使玩家能够发射无穷无尽的高能子弹，命中时电击范围内的所有敌人
 					'''
 			}
 
 			MilitaryBullet: {
-				DisplayName: Green Bullet
+				DisplayName: 精灵弹
 				Tooltip:
 					'''
-					Upon hitting enemy it will cause them seriously bleed'
-					Upon being hit it will shatter to two bullet that will go through random direction
+					'大出血，救不回来了'
+					命中后射出两个随机方向的子弹
 					'''
 			}
 
 			PoachedShot: {
-				DisplayName: Poached Shot
+				DisplayName: 偷猎弹
 				Tooltip:
 					'''
-					'Death by glamour'
-					It will split into two after a short distance which have 55% of the base projectiles damage
+					'魅力致死'
+					飞行短距离后，分裂成两个造成 55% 伤害的碎片
 					'''
 			}
 
 			PurpleGlassBullet: {
-				DisplayName: Purple Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
+				DisplayName: 腐化弹
+				Tooltip: 碰撞后释放出魔粉
 			}
 
 			RedGlassBullet: {
-				DisplayName: Red Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
+				DisplayName: 猩红弹
+				Tooltip: 碰撞后释放出毒粉
 			}
 
 			SpectreBullet: {
-				DisplayName: Spectre Bullet
-				Tooltip: It can go through tiles'
+				DisplayName: 幽灵弹
+				Tooltip: 穿透物块
 			}
 
 			TEB: {
 				DisplayName: TEB
 				Tooltip:
 					'''
-					'It stands for Tribo Electric Bullet'
-					Hitting enemies will increase their static charge
+					'它代表摩擦电子子弹'
+					击中敌人会增加它们的静电荷
 					'''
 			}
 
 			CuteLittleStar: {
-				DisplayName: Cute Little Star
+				DisplayName: 可爱小星星
 				Tooltip:
 					'''
-					'Wow, so shiny!'
-					'It behaves as endless star ammo'
+					'一闪一闪亮晶晶！'
+					无尽的星星弹药
 					'''
 			}
 
 			BoneDart: {
-				DisplayName: Broken Bone
+				DisplayName: 骨镖
 				Tooltip:
 					'''
-					'Looks like it still contains small amout of magic essense'
-					'It can be used as a dart ammunition
+					'看起来它还含有少量的魔法精华'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			ChlorophyteDart: {
-				DisplayName: Chlorophyte Dart
+				DisplayName: 叶绿镖
 				Tooltip:
 					'''
-					'You feel they are still alive'
-					'The dart will get stronger during daylight'
-					'It can be used as a dart ammunition
+					'你感到它们好像还有生命'
+					白天获得加强
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			ConcentratedCharge: {
-				DisplayName: Concentrated Electric Charge
+				DisplayName: 激电镖
 				Tooltip:
 					'''
-					'Gauss approves'
-					'When it hit enemies it will increase their static charge for 10 seconds'
-					'Hitting enemies will hurt also near enemies if they are charged with this'
-					'It can be used as a dart ammunition'
+					'高斯认可'
+					击中敌人时，在 10 秒内增加它们的静电荷
+					如果附近敌人也带有这种电荷，则也对它们造成伤害
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			EnergyDart: {
-				DisplayName: Tiny Energy spear
+				DisplayName: 幽灵镖
 				Tooltip:
 					'''
-					'Your soul burning with justice'
-					'It can be used as a dart ammunition
+					'你的灵魂燃烧着正义之火'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			FungalDart: {
-				DisplayName: Fungal Dart
+				DisplayName: 真菌镖
 				Tooltip:
 					'''
-					'You hope it's not piece of him'
-					'It can be used as a dart ammunition
+					'你希望这不是他的一部分'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			GreenSlimeSpike: {
-				DisplayName: Tranquilizer Dart
+				DisplayName: 催眠镖
 				Tooltip:
 					'''
-					'Have a nice dream
-					'Hitting enemy will slightly slow them and bosses are immune to this effect
+					'做个好梦'
+					减缓敌人的速度，Boss不受影响
 					'''
 			}
 
 			HallowedDart: {
-				DisplayName: Hallowed Dart
-				Tooltip: "'It can be used as a dart ammunition'"
+				DisplayName: 神圣镖
+				Tooltip: 可以作为飞镖弹药使用
 			}
 
 			HellfireDart: {
-				DisplayName: Molten Dart
+				DisplayName: 狱火镖
 				Tooltip:
 					'''
-					'It's core still burning with the remains of fire elementals'
-					'It can be used as a dart ammunition
+					'它的核心仍然燃烧着火元素的余烬'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			IceDart: {
-				DisplayName: Ice Dart
+				DisplayName: 寒冰镖
 				Tooltip:
 					'''
-					'Strangely it's only getting colder'
-					'It can be used as a dart ammunition
+					'奇怪的是，它变得越来越冷'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			JudgementBoneDart: {
-				DisplayName: Metal Plated Broken Bone
+				DisplayName: 受福骨镖
 				Tooltip:
 					'''
-					'Now with armor'
-					'It can be used as a dart ammunition
+					'现在更强了'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			LizardNail: {
-				DisplayName: Lihzahrd Nail
+				DisplayName: 蜥蜴镖
 				Tooltip:
 					'''
-					'You have a strange feeling that it also contain a trap'
-					'It can be used as a dart ammunition'
+					'你有一种奇怪的感觉，它还包含一个陷阱'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			ShadowDart: {
-				DisplayName: Shadow Dart
-				Tooltip: "'It can be used as a dart ammunition'"
+				DisplayName: 暗黑镖
+				Tooltip: 可以作为飞镖弹药使用
 			}
 
 			ShadowflameDart: {
-				DisplayName: Shadowflame Dart
-				Tooltip: "'It can be used as a dart ammunition'"
+				DisplayName: 暗影焰镖
+				Tooltip: 可以作为飞镖弹药使用
 			}
 
 			SpiderFangDart: {
-				DisplayName: Tiny Jackknife Chelicerae
+				DisplayName: 蜘蛛镖
 				Tooltip:
 					'''
-					'It still contains enough venom to paralyse anything it touch'
-					'It can be used as a dart ammunition
+					'它仍然含有足够的毒液，可以麻痹它接触到的任何东西'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			SunplateDart: {
-				DisplayName: Sunplate shard
+				DisplayName: 日盘镖
 				Tooltip:
 					'''
-					'Small but sharpened'
-					'It can be used as a dart ammunition
+					'小而锋利'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			ThornDart: {
-				DisplayName: Thorn Dart
+				DisplayName: 荆棘镖
 				Tooltip:
 					'''
-					'It's still alive with its magical essense'
-					'It can be used as a dart ammunition
+					'它仍然充满魔力的精髓'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			VampireDart: {
-				DisplayName: Vampiric Cuspid Dart
+				DisplayName: 吸血尖牙镖
 				Tooltip:
 					'''
-					'One less obtacle, one more corpse'
-					'It can be used as a dart ammunition
+					'少一个障碍，多一个尸体'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			VortexDart: {
-				DisplayName: Vortex Dart
+				DisplayName: 星璇镖
 				Tooltip:
 					'''
-					'As soon as a enemy darts you throw it down'
-					'It can be used as a dart ammunition
+					'一旦敌人向你投掷飞镖，就扔出它'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			YangDart: {
-				DisplayName: Yang Dart
+				DisplayName: 阳镖
 				Tooltip:
 					'''
-					'For every Yang there is Yin'
-					'It can be used as a dart ammunition'
+					'阴阳相生'
+					可以作为飞镖弹药使用
 					'''
 			}
 
 			AlchemicalDust: {
-				DisplayName: Alchemical Dust
+				DisplayName: 星璇尘
 				Tooltip:
 					'''
-					Cause your weapon to inflict on fire, frostburn, angelic flames,
-					inferno,cursed flames and shadow flames
-					It's ability may not be activated on other mods flamethrowers
+					施加燃烧、霜冻、圣焰
+					狱火、诅咒焰和暗影焰
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			Charcoal: {
-				DisplayName: Charcoal
+				DisplayName: 木炭
 				Tooltip:
 					'''
-					'You feel you shouldn't show this to Dryad'
-					'10% chance on a enemy to drop a ember to hurt other enemies
-					It's ability may not be activated on other mods flamethrowers
+					'你觉得你不应该把这个给森林女神看'
+					有 10% 几率产生一个火花，燃烧其它敌人
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			ConcentratedSwampGas: {
-				DisplayName: Concentrated Swamp Gas Tube
+				DisplayName: 浓缩沼气
 				Tooltip:
 					'''
-					Concentration of both highly explosive and poisonous chemicals
-					It's concetration will increase length of your flamethrower flames
-					It will also give venom to your targets
-					It's ability may not be activated on other mods flamethrowers
+					'高爆炸性和有毒化学品的浓缩物'
+					增加火焰喷射的范围
+					施加酸性毒液
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			CuteLittleSlime: {
-				DisplayName: Cute Little Slime
+				DisplayName: 可爱史莱姆
 				Tooltip:
 					'''
-					'I will help you, human.'
-					'It behaves as endless gel ammo'
+					'我将帮助你，凡人'
+					无尽的凝胶弹药
 					'''
 			}
 
 			HauntedCharcoal: {
-				DisplayName: Haunted Charcoal
+				DisplayName: 阴森木炭
 				Tooltip:
 					'''
-					'You feel you shouldn't show this to Dryad'
-					'Crits will cause souls to fight for your
-					It's ability may not be activated on other mods flamethrowers
+					'你觉得你不应该把这个给森林女神看'
+					暴击会召唤鬼魂为你而战
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			LiquidNitrogen: {
-				DisplayName: Liquid Nitrogen
+				DisplayName: 液态氮
 				Tooltip:
 					'''
-					'It's too cold to touch'
-					'It will cause your enemies to get frostburned and slower
-					Slowing enemy effect will not work on bosses
-					It's ability may not be activated on other mods flamethrowers
+					'太冷了，不能触摸'
+					施加霜冻
+					减缓敌人速度，Boss不受影响
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			PropaneVial: {
-				DisplayName: Propane Tank
+				DisplayName: 丙烷罐
 				Tooltip:
 					'''
-					Now you only need to find propane accessories
-					It's concetration will increase length of your flamethrower flames
-					It's ability may not be activated on other mods flamethrowers
+					'现在你只需要找到丙烷饰品了'
+					增加火焰喷射的范围
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			ScorchedGel: {
-				DisplayName: Scorched Gel
+				DisplayName: 焦油
 				Tooltip:
 					'''
-					'Remnants of a great hero'
-					'Critical hits will inflict cursed inferno for half second
-					It's ability may not be activated on other mods flamethrowers
+					'伟大英雄的遗物'
+					暴击会施加持续半秒的诅咒焰
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			VolatileGel: {
-				DisplayName: Volatile Gel
+				DisplayName: 易爆凝胶
 				Tooltip:
 					'''
-					'As explosive as TNT'
-					'Killing blow will cause enemies to explode
-					It's ability may not be activated on other mods flamethrowers
+					'和TNT一样具有爆炸性'
+					击杀敌人产生爆炸
+					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
 			}
 
 			Flashbang: {
-				DisplayName: Flashbang
+				DisplayName: 闪光弹
 				Tooltip:
 					'''
-					'M7A3 RIOT CS'
-					It temporarily blinds anybody within its concussive blast
-					Crits will make non boss enemies dizy and for boss or not crits it will inflict confused
+					'M7A3防爆CS'
+					受冲击波影响的的敌人暂时失明
+					暴击会让非BOSS敌人感到头晕，对于BOSS或非暴击，施加困惑
 					'''
 			}
 
 			HolyHandGrenade: {
-				DisplayName: Holy Hand Grenade
+				DisplayName: 神圣手榴弹
 				Tooltip:
 					'''
-					'The Lord's chosen weapon'
-					Upon being hit to enemy it will cause any weaker enemy to get dizzy along with burning them with angelic flames
-					Crits cause hallelujah overload which cause angelic flames to errupt from both grenade and sky
+					'上帝选择的武器'
+					击中敌人后，会使任何较弱的敌人感到头晕，并施加圣焰
+					暴击会产生哈利路亚过载，使手榴弹和天空都爆发圣焰
 					'''
 			}
 
 			LunarDartPocket: {
-				DisplayName: Endless Bouncy Grenade Pouch
-				Tooltip: "'Acts as infinite bouncy grenades and bouncy grenade ammo'"
+				DisplayName: 无尽弹力手榴弹袋
+				Tooltip: "'无尽的弹力手榴弹'"
 			}
 
 			SpiderFangDartPocket: {
-				DisplayName: Endless Sticky Grenade Pouch
-				Tooltip: "'Acts as infinite sticky grenades and sticky grenade ammo'"
+				DisplayName: 无尽粘性手榴弹袋
+				Tooltip: "'无尽的粘性手榴弹'"
 			}
 
 			SunplateShardDartPocket: {
-				DisplayName: Endless Grenade Pouch
-				Tooltip: "'Acts as infinite grenades and grenade ammo'"
+				DisplayName: 无尽手榴弹袋
+				Tooltip: "'无尽的手榴弹'"
 			}
 
 			GreyRocket: {
-				DisplayName: Prototype Rocket
-				Tooltip: "'A basic shell and explosive core rocket design'"
+				DisplayName: 原型火箭
+				Tooltip: "'一个基本的壳体和炸药核心构成的的概念火箭'"
 			}
 
 			RocketinaJar: {
-				DisplayName: Rocket in a Jar
+				DisplayName: 罐中火箭
 				Tooltip:
 					'''
-					Despite being only a jar, it is fuming to the brim with endless rockets'
-					Acts as endless rocket ammo
+					'尽管它只是一个罐子，但却不停地冒出无数的火箭'
+					无尽的火箭弹药
 					'''
 			}
 
 			TurtleBomb: {
-				DisplayName: Turtle Shell Bomb
+				DisplayName: 海龟壳炸弹
 				Tooltip:
 					'''
-					'A High tier ammo being used for the wars of raft'
-					Upon being shot it could be able to bounce from tiles 3 times
-					It could be used as a rocket ammo
+					'用于战争的高端弹药'
+					发射后可在物块表面反弹三次
+					可用作火箭弹药
 					'''
 			}
 
 			CyanSolution: {
-				DisplayName: Cyan Solution
+				DisplayName: 青溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Snow
+					由环境改造枪使用
+					蔓延雪地
 					'''
 			}
 
@@ -11013,7 +11005,7 @@ Mods: {
 			}
 
 			Masterball: {
-				DisplayName: "大师球（来自口袋妖怪）"
+				DisplayName: 大师球（来自口袋妖怪）
 				Tooltip:
 					'''
 					'看起来传说中的精灵宝可梦就在里面.'
@@ -11544,7 +11536,7 @@ Mods: {
 			}
 
 			Pokeball3: {
-				DisplayName: "精灵球（出自口袋妖怪）"
+				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
 					'这里面似乎有亲近人类的宝可梦.'
@@ -11553,7 +11545,7 @@ Mods: {
 			}
 
 			Pokeball4: {
-				DisplayName: "精灵球（出自口袋妖怪）"
+				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
 					'这里面似乎有幽灵系的宝可梦'
@@ -11562,7 +11554,7 @@ Mods: {
 			}
 
 			Pokeball5: {
-				DisplayName: "精灵球（出自口袋妖怪）"
+				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
 					'这个精灵球闻起来有葱味'
@@ -11590,7 +11582,7 @@ Mods: {
 			}
 
 			Pokemon10: {
-				DisplayName: "精灵球（出自口袋妖怪）"
+				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
 					'浮在水面呼吸'
@@ -11626,7 +11618,7 @@ Mods: {
 			}
 
 			Pokemon14: {
-				DisplayName: "精灵球（出自口袋妖怪）"
+				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
 					'你觉得有点重'
@@ -13024,11 +13016,11 @@ Mods: {
 			}
 
 			DesertMirror: {
-				DisplayName: Icarus's Mirror
+				DisplayName: 伊卡洛斯的镜子
 				Tooltip:
 					'''
-					'It's capable to concentrate the sun light and cause a strong shine from it.
-					Maybe it can distract something that fly above if you can concetrate enough light.
+					能够汇集光线并产生光照
+					如果光照足够强烈，也许它能分散天空飞行的某种生物的注意力
 					'''
 			}
 
@@ -14148,7 +14140,7 @@ Mods: {
 					'''
 					'A perfect tool for performing a judgement.'
 					'When a sinner is reflected in the mirror, it reflects all of the sinner's past deeds.'
-					'While you are holding it your minions will do 5% more damage and their attacks will judge the sinners with angelic flames.'
+					'While you are holding it your minions will do 5% more damage and their attacks will judge the sinners with 圣焰.'
 					'''
 			}
 
@@ -14210,11 +14202,11 @@ Mods: {
 			}
 
 			GraniteSolution: {
-				DisplayName: Blue Cosmos Quartzite Solution
+				DisplayName: 蓝色宇宙石英岩溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Granite
+					由环境改造枪使用
+					蔓延花岗岩
 					'''
 			}
 
@@ -14228,11 +14220,11 @@ Mods: {
 			}
 
 			GreySolution: {
-				DisplayName: Grey Solution
+				DisplayName: 灰溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Dungeon
+					由环境改造枪使用
+					蔓延地牢
 					'''
 			}
 
@@ -14289,11 +14281,11 @@ Mods: {
 			}
 
 			MarbleSolution: {
-				DisplayName: Pentelic Marble Solution
+				DisplayName: 潘泰列克大理石溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Marble
+					由环境改造枪使用
+					蔓延大理石
 					'''
 			}
 
@@ -14416,11 +14408,11 @@ Mods: {
 			}
 
 			SandSolution: {
-				DisplayName: Forbidden Solution
+				DisplayName: 禁戒溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Desert
+					由环境改造枪使用
+					蔓延沙漠
 					'''
 			}
 
@@ -14451,11 +14443,11 @@ Mods: {
 			}
 
 			UnderworldSolution: {
-				DisplayName: Violet Solution
+				DisplayName: 紫罗兰溶液
 				Tooltip:
 					'''
-					Used by the Clentaminator
-					Spreads the Underworld
+					由环境改造枪使用
+					蔓延地狱
 					'''
 			}
 
@@ -14485,12 +14477,12 @@ Mods: {
 				Tooltip:
 					'''
 					'I'm gonna drink the red from their pretty pink faces
-					'Hitting enemies will inflict venom and boiling blood for 4 seconds'
+					'Hitting enemies will inflict venom and 沸血 for 4 seconds'
 					'Critical hits will make player give blood and rapid healing buffs for 3 second'
 					'It will allow player to grow bat wings that can fly for 2 seconds and if player have wings it will increase max flight time by 0.5 second'
 					'Critical hits will form blood notes around the player that will stay for 6 seconds'
 					'Upon using with <right>will shoot these notes to players mouse direction'
-					'Upon hitting enemy blood notes will inflict boiling blood and heal player by 1 and there can be maximum 6 blood notes'
+					'Upon hitting enemy blood notes will inflict 沸血 and heal player by 1 and there can be maximum 6 blood notes'
 					'''
 			}
 
@@ -15525,7 +15517,7 @@ Mods: {
 					'''
 					A blessed pickaxe once being used by royal miners of the kingdom
 					With <right>you can send a golden slice which will pick items when it touches them
-					True melee and wave hits inflict angelic flames
+					True melee and wave hits inflict 圣焰
 					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it
 					While you are holding the pickaxe it will show you near treasures, traps and enemies
 					'''
@@ -15551,7 +15543,7 @@ Mods: {
 				Tooltip:
 					'''
 					A divine relic forged to mine the shadows of this world
-					Critical hits inflict angelic flames
+					Critical hits inflict 圣焰
 					Strangely you feel the space between two word is a typo but sadly you can't prove it
 					Mining early game ores will give you hellstone or their hard mode variants with respect to their tier
 					'''
@@ -17373,7 +17365,7 @@ Mods: {
 					'''
 					'我引爆，因为我关心'
 					爆炸会在9x9范围内的最佳位置种植树木
-					在森林生物群系中造成额外伤害。
+					在森林生物群系中造成额外伤害
 					'''
 			}
 
@@ -20024,7 +20016,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A gift to the mighty bunny king of the Earth from the jade rabbits of the moon'
-					Uses rockets as ammo and convert prototype rockets to controllable hallucinogenic rockets which phases through objects
+					Uses rockets as ammo and convert 原型火箭s to controllable hallucinogenic rockets which phases through objects
 					They do more damage to the direct hit enemy and each enemy in radius have 33% chance to get confused
 					'''
 			}
@@ -20034,7 +20026,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They can run but they will only die tired'
-					It will convert prototype rockets and rocket I's into homing rockets
+					It will convert 原型火箭s and rocket I's into homing rockets
 					若同时装备了[c/ffff00:博士的单片眼镜] upon homing rockets death it will explode into multiple lingering flames
 					<right>to its item to convert it to close combat form
 					Requires rockets as ammo
@@ -20225,7 +20217,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Mah boi, this peace is what ALL true warriors strive FOR'
-					Upon hit any enemy or tile will form an cross that will burn any close enemy with angelic flames
+					Upon hit any enemy or tile will form an cross that will burn any close enemy with 圣焰
 					Hiting enemy will free holy spirits along with having a chance to crack the skies by forming holy light pillar
 					If rogue config is active and calamity is enabled in stealth hit multiple holy light pillars will be formed
 					'''
@@ -20822,7 +20814,7 @@ Mods: {
 					Shining more than these stars that bathe the galaxy Go forth, and you'll become a legend
 					While item being held 召唤a neon angel to bless your sentries
 					Upon using it will mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
-					If player goes too far away it will instead return back to player + enemies close to it will get angelic flames
+					If player goes too far away it will instead return back to player + enemies close to it will get 圣焰
 					'''
 			}
 
@@ -21540,7 +21532,7 @@ Mods: {
 			BadGas2.DisplayName: Bad Gas2
 			BadGas3.DisplayName: Bad Gas3
 			BloodRing.DisplayName: Blood Ring
-			BoilingBlood.DisplayName: Boiling Blood
+			BoilingBlood.DisplayName: 沸血
 			BoneHand.DisplayName: Bone Hand
 			BrokenWashingMachineMinion.DisplayName: Broken Washing Machine Minion
 			CherryBlossom.DisplayName: Cherry Blossom
@@ -21638,7 +21630,7 @@ Mods: {
 			BadGas4.DisplayName: Bad Gas4
 			BeetArrow.DisplayName: Beet Arrow
 			BowLight.DisplayName: Bow Light
-			DrillerArrow.DisplayName: Driller Arrow
+			DrillerArrow.DisplayName: 钻探箭
 			JouleArrow.DisplayName: Joule Arrow
 			JouleArrowElectric.DisplayName: Joule Arrow Electric
 			LightArrow.DisplayName: Light Arrow
@@ -21650,8 +21642,8 @@ Mods: {
 			BloodNote.DisplayName: Blood Note
 			BloodyChainsaw.DisplayName: Bloody Chainsaw
 			ForceHand.DisplayName: Force Hand
-			GreyRocket3.DisplayName: Grey Rocket3
-			GreyRocket.DisplayName: Grey Rocket
+			GreyRocket3.DisplayName: 原型火箭
+			GreyRocket.DisplayName: 原型火箭
 			JumpingThornBall.DisplayName: Jumping Thorn Ball
 			ThornSting.DisplayName: Thorn Sting
 			BabySlime.DisplayName: Baby Slime
@@ -21758,7 +21750,7 @@ Mods: {
 			BlueEye.DisplayName: Blue Eye
 			BlueFireball.DisplayName: Blue Fireball
 			BlueFirework.DisplayName: Blue Firework
-			BlueGlassBullet.DisplayName: Blue Glass Bullet
+			BlueGlassBullet.DisplayName: 净化弹
 			BlueHeatBeam.DisplayName: Blue Heat Beam
 			BlueLaser.DisplayName: Blue Laser
 			BluePetal.DisplayName: Blue Petal
@@ -22058,9 +22050,9 @@ Mods: {
 			SlayerDeath.DisplayName: Slayer Death
 			SlayerLaser.DisplayName: Slayer Laser
 			SlayerTornado.DisplayName: Slayer Tornado
-			TornadoSpinnerright.DisplayName: Tornado Spinner right
+			TornadoSpinnerRight.DisplayName: Tornado Spinner Right
 			BreathFireball.DisplayName: Breath Fireball
-			BroBullet.DisplayName: Bro Bullet
+			BroBullet.DisplayName: 溴铁弹
 			Brofist.DisplayName: Brofist
 			BrokenWashingMachineTornado.DisplayName: Broken Washing Machine Tornado
 			BrokenWashingMachine.DisplayName: Broken Washing Machine
@@ -22069,9 +22061,9 @@ Mods: {
 			FlamingBullet.DisplayName: Flaming Bullet
 			FlamingInferno.DisplayName: Flaming Inferno
 			FlamingSkull.DisplayName: Flaming Skull
-			IceBullet2.DisplayName: Ice Bullet2
-			IceBullet3.DisplayName: Ice Bullet3
-			IceBullet.DisplayName: Ice Bullet
+			IceBullet2.DisplayName: 寒霜弹
+			IceBullet3.DisplayName: 寒霜弹
+			IceBullet.DisplayName: 寒霜弹
 			MaxShotgun.DisplayName: Max Shotgun
 			PolarStarLaser1.DisplayName: Polar Star Laser1
 			PolarStarLaser2.DisplayName: Polar Star Laser2
@@ -22108,8 +22100,8 @@ Mods: {
 			ChillClould2.DisplayName: Chill Clould2
 			ChillClould3.DisplayName: Chill Clould3
 			ChillClould4.DisplayName: Chill Clould4
-			ChlorophyteDart.DisplayName: Chlorophyte Dart
-			ChlorophyteDartSpore.DisplayName: Chlorophyte Dart Spore
+			ChlorophyteDart.DisplayName: 叶绿镖
+			ChlorophyteDartSpore.DisplayName: 叶绿镖孢子
 			ChlorophyteOreBall.DisplayName: Chlorophyte Ore Ball
 			CigaretteHolder.DisplayName: Cigarette Holder
 			CirnoProjectile.DisplayName: Cirno Projectile
@@ -22124,8 +22116,8 @@ Mods: {
 			CobaltOreBall.DisplayName: Cobalt Ore Ball
 			CoinPortalAttack.DisplayName: Coin Portal Attack
 			CoinPortalAttack2.DisplayName: Coin Portal Attack2
-			ConcentratedCharge.DisplayName: Concentrated Charge
-			CopperBullet.DisplayName: Copper Bullet
+			ConcentratedCharge.DisplayName: 激电镖
+			CopperBullet.DisplayName: 废料弹
 			CopperOreBall.DisplayName: Copper Ore Ball
 			CorrupterBullet.DisplayName: Corrupter Bullet
 			Counter.DisplayName: Counter
@@ -22152,7 +22144,7 @@ Mods: {
 			CyanHeatBeam.DisplayName: Cyan Heat Beam
 			CyanLaser.DisplayName: Cyan Laser
 			CyanLaser2.DisplayName: Cyan Laser2
-			CyanSolution.DisplayName: Cyan Solution
+			CyanSolution.DisplayName: 青溶液
 			CyberBeam2.DisplayName: Cyber Beam2
 			CyberBeam3.DisplayName: Cyber Beam3
 			CyberBeam5.DisplayName: Cyber Beam5
@@ -22168,7 +22160,7 @@ Mods: {
 			DangerSign2.DisplayName: Danger Sign2
 			DarkFallingStar.DisplayName: Dark Falling Star
 			DarkHammerStar.DisplayName: Dark Hammer Star
-			DarknessArrow.DisplayName: Darkness Arrow
+			DarknessArrow.DisplayName: 暗影箭
 			DarknessArrow2.DisplayName: Darkness Arrow2
 			Darkness.DisplayName: Darkness
 			DarkShard.DisplayName: Dark Shard
@@ -22188,7 +22180,7 @@ Mods: {
 			Duck.DisplayName: Duck
 			Duck2.DisplayName: Duck2
 			Duck3.DisplayName: Duck3
-			DungeonArrow.DisplayName: Dungeon Arrow
+			DungeonArrow.DisplayName: 移形箭
 			DustCone.DisplayName: Dust Cone
 			EaterGun.DisplayName: Eater Gun
 			Egg.DisplayName: Egg
@@ -22196,8 +22188,8 @@ Mods: {
 			EhekaTetl2.DisplayName: Eheka Tetl2
 			ElectricSphere.DisplayName: Electric Sphere
 			EnergyBoundary5.DisplayName: Energy Boundary5
-			EnergyDart.DisplayName: Energy Dart
-			EnergyDart2.DisplayName: Energy Dart2
+			EnergyDart.DisplayName: 幽灵镖
+			EnergyDart2.DisplayName: 幽灵镖
 			ExplodingBubble.DisplayName: Exploding Bubble
 			Explosion.DisplayName: Explosion
 			Explosion2.DisplayName: Explosion2
@@ -22289,7 +22281,7 @@ Mods: {
 			FumoBoulder.DisplayName: Fumo Boulder
 			FumoBoulder2.DisplayName: Fumo Boulder2
 			FunEndProjectile.DisplayName: Fun End Projectile
-			FungalDart.DisplayName: Fungal Dart
+			FungalDart.DisplayName: 真菌镖
 			FurretSummon.DisplayName: Furret Summon
 			Furret.DisplayName: Furret
 			FusRoDahForce.DisplayName: Fus Ro Dah Force
@@ -22315,10 +22307,10 @@ Mods: {
 			GoldOreBall.DisplayName: Gold Ore Ball
 			GonerSeastar.DisplayName: Goner Seastar
 			GonerSeastar2.DisplayName: Goner Seastar2
-			GraniteSolution.DisplayName: Granite Solution
+			GraniteSolution.DisplayName: 蓝色宇宙石英岩溶液
 			GraspSoul.DisplayName: Grasp Soul
 			GreenAirExplosion.DisplayName: Green Air Explosion
-			GreenArrow.DisplayName: Green Arrow
+			GreenArrow.DisplayName: 绿皮箭
 			GreenBeam.DisplayName: Green Beam
 			GreenBeam2.DisplayName: Green Beam2
 			GreenExplosion.DisplayName: Green Explosion
@@ -22327,29 +22319,29 @@ Mods: {
 			GreenGelSpike3.DisplayName: Green Gel Spike3
 			GreenLeaf.DisplayName: Green Leaf
 			GreenRay.DisplayName: Green Ray
-			GreenSlimeSpike.DisplayName: Green Slime Spike
-			GreenSlimeSpike2.DisplayName: Green Slime Spike2
-			GreenSlimeSpike4.DisplayName: Green Slime Spike4
+			GreenSlimeSpike.DisplayName: 催眠镖
+			GreenSlimeSpike2.DisplayName: 催眠镖
+			GreenSlimeSpike4.DisplayName: 催眠镖
 			GreenSlimeWave.DisplayName: Green Slime Wave
 			GreenSoulAttack.DisplayName: Green Soul Attack
 			FlasBangExplosion.DisplayName: Flas Bang Explosion
-			Flashbang.DisplayName: Flashbang
+			Flashbang.DisplayName: 闪光弹
 			HolyGrenadeExplosion.DisplayName: Holy Grenade Explosion
-			HolyHandGrenade.DisplayName: Holy Hand Grenade
-			GreyRocket2.DisplayName: Grey Rocket2
-			GreyRocket4.DisplayName: Grey Rocket4
-			GreySolution.DisplayName: Grey Solution
+			HolyHandGrenade.DisplayName: 神圣手榴弹
+			GreyRocket2.DisplayName: 原型火箭
+			GreyRocket4.DisplayName: 原型火箭
+			GreySolution.DisplayName: 灰溶液
 			GunShot.DisplayName: Gun Shot
-			HallowedDart.DisplayName: Hallowed Dart
-			HallowedDart2.DisplayName: Hallowed Dart2
+			HallowedDart.DisplayName: 神圣镖
+			HallowedDart2.DisplayName: 神圣镖2
 			HallowedFireWork.DisplayName: Hallowed Fire Work
-			HallowedHwachaArrow.DisplayName: Hallowed Hwacha Arrow
+			HallowedHwachaArrow.DisplayName: 神机箭
 			HallowedStar.DisplayName: Hallowed Star
 			FlamingHammer.DisplayName: Flaming Hammer
 			FlamingHammer2.DisplayName: Flaming Hammer2
 			HammerStar.DisplayName: Hammer Star
 			MagmaticFlame.DisplayName: Magmatic Flame
-			HarmonyArrow.DisplayName: Harmony Arrow
+			HarmonyArrow.DisplayName: 调和箭
 			HarmonyArrow2.DisplayName: Harmony Arrow2
 			HarpyFeatherSummon.DisplayName: Harpy Feather Summon
 			Harpy.DisplayName: Harpy
@@ -22364,7 +22356,7 @@ Mods: {
 			HeatBeam.DisplayName: Heat Beam
 			HeatWave.DisplayName: Heat Wave
 			HeatWave2.DisplayName: Heat Wave2
-			HellfireDart.DisplayName: Hellfire Dart
+			HellfireDart.DisplayName: 狱火镖
 			HellstoneBall.DisplayName: Hellstone Ball
 			HeroicGelBall.DisplayName: Heroic Gel Ball
 			HeroicSlimeBeam.DisplayName: 英勇史莱姆 Beam
@@ -22401,8 +22393,8 @@ Mods: {
 			HydroJolterBolt.DisplayName: Hydro Jolter Bolt
 			IceBall.DisplayName: Ice Ball
 			IceBolt.DisplayName: Ice Bolt
-			IceDart.DisplayName: Ice Dart
-			IceDartCloud.DisplayName: Ice Dart Cloud
+			IceDart.DisplayName: 寒冰镖
+			IceDartCloud.DisplayName: 寒冰镖 Cloud
 			IceKingSlice.DisplayName: Ice King Slice
 			IceKing.DisplayName: Ice King
 			IcePunch.DisplayName: Ice Punch
@@ -22434,7 +22426,7 @@ Mods: {
 			TrueGungnir.DisplayName: True Gungnir
 			WaterTrident.DisplayName: Water Trident
 			WaterTrident2.DisplayName: Water Trident2
-			JudgementBoneDart.DisplayName: Judgement Bone Dart
+			JudgementBoneDart.DisplayName: 受福骨镖
 			JudgementLight.DisplayName: Judgement Light
 			JudgementSlimeDust.DisplayName: Judgement Slime Dust
 			JudgementSphere.DisplayName: Judgement Sphere
@@ -22467,8 +22459,8 @@ Mods: {
 			LightShard.DisplayName: Light Shard
 			LightSoul.DisplayName: Light Soul
 			LiquidGreenSlimeGel.DisplayName: Liquid Green Slime Gel
-			LizardNail.DisplayName: Lizard Nail
-			LizardNailSpikyBall.DisplayName: Lizard Nail Spiky Ball
+			LizardNail.DisplayName: 蜥蜴镖
+			LizardNailSpikyBall.DisplayName: 蜥蜴镖尖刺球
 			LostSoulSummon.DisplayName: Lost Soul Summon
 			LuminiteBall.DisplayName: Luminite Ball
 			LunarCharge.DisplayName: Lunar Charge
@@ -22520,11 +22512,11 @@ Mods: {
 			VoidTomeEye.DisplayName: Void Tome Eye
 			MagmaEmber.DisplayName: Magma Ember
 			ManaSlash.DisplayName: Mana Slash
-			MarbleSolution.DisplayName: Marble Solution
+			MarbleSolution.DisplayName: 潘泰列克大理石溶液
 			MarioSuperball.DisplayName: Mario Superball
 			Mari.DisplayName: Mari
-			MartianArrow.DisplayName: Martian Arrow
-			MartianEnergyCapsule.DisplayName: Martian Energy Capsule
+			MartianArrow.DisplayName: 能量箭
+			MartianEnergyCapsule.DisplayName: 火星核能子弹
 			MartianLaser.DisplayName: Martian Laser
 			MasterShuriken.DisplayName: Master Shuriken
 			MeatMincer.DisplayName: Meat Mincer
@@ -22545,8 +22537,8 @@ Mods: {
 			MeteoriteBall.DisplayName: Meteorite Ball
 			MeteoriteFlail2.DisplayName: Meteorite Flail2
 			MeteorSwordMeteor.DisplayName: Meteor Sword Meteor
-			MilitaryBullet.DisplayName: Military Bullet
-			MilitaryBullet2.DisplayName: Military Bullet2
+			MilitaryBullet.DisplayName: 精灵弹
+			MilitaryBullet2.DisplayName: 精灵弹
 			SoulGameObject.DisplayName: Soul Game Object
 			SoulGameSoul.DisplayName: Soul Game Soul
 			SoulMinigameStarter.DisplayName: Soul Minigame Starter
@@ -23100,10 +23092,10 @@ Mods: {
 			PlasmaParticle.DisplayName: Plasma Particle
 			PlatinumOreBall.DisplayName: Platinum Ore Ball
 			PlayerExplosion.DisplayName: Player Explosion
-			PoachedShot.DisplayName: Poached Shot
+			PoachedShot.DisplayName: 偷猎弹
 			PoisonBottle.DisplayName: Poison Bottle
 			PoisonCloud.DisplayName: Poison Cloud
-			PoisonedArrow.DisplayName: Poisoned Arrow
+			PoisonedArrow.DisplayName: 毒箭
 			PoliticianSlimeGel.DisplayName: 政客史莱姆 Gel
 			PoliticianSlimeGelAttack.DisplayName: 政客史莱姆 Gel Attack
 			PoliticianSlimeMinion.DisplayName: 政客史莱姆 Minion
@@ -23119,7 +23111,7 @@ Mods: {
 			PumpkinSniperBulletExplosion.DisplayName: Pumpkin Sniper Bullet Explosion
 			PurpleBeam.DisplayName: Purple Beam
 			PurpleGelRocket.DisplayName: Purple Gel Rocket
-			PurpleGlassBullet.DisplayName: Purple Glass Bullet
+			PurpleGlassBullet.DisplayName: 腐化弹
 			PurpleSlice.DisplayName: Purple Slice
 			RainbowCookieHeal.DisplayName: Rainbow Cookie Heal
 			RainbowFlask.DisplayName: Rainbow Flask
@@ -23144,7 +23136,7 @@ Mods: {
 			RedBeam2.DisplayName: Red Beam2
 			RedBeam20.DisplayName: Red Beam20
 			RedFirework.DisplayName: Red Firework
-			RedGlassBullet.DisplayName: Red Glass Bullet
+			RedGlassBullet.DisplayName: 猩红弹
 			RedHeart.DisplayName: Red Heart
 			RedLaser.DisplayName: Red Laser
 			RedLaser2.DisplayName: Red Laser2
@@ -23162,7 +23154,7 @@ Mods: {
 			SakuraLeaf.DisplayName: Sakura Leaf
 			Sale.DisplayName: Sale
 			SandBall.DisplayName: Sand Ball
-			SandSolution.DisplayName: Sand Solution
+			SandSolution.DisplayName: 禁戒溶液
 			SandWind.DisplayName: Sand Wind
 			SavePoint.DisplayName: Save Point
 			SavePoint2.DisplayName: Save Point2
@@ -23204,15 +23196,15 @@ Mods: {
 			TrinketGoldPot.DisplayName: Trinket Gold Pot
 			SeriousCannonball.DisplayName: Serious Cannonball
 			SeriousCannonball2.DisplayName: Serious Cannonball2
-			SeveredHand.DisplayName: Severed Hand
+			SeveredHand.DisplayName: 断手箭
 			ShadowBlood.DisplayName: Shadow Blood
 			ShadowBlood2.DisplayName: Shadow Blood2
-			ShadowDart.DisplayName: Shadow Dart
+			ShadowDart.DisplayName: 暗黑镖
 			ShadowflameBeam.DisplayName: Shadowflame Beam
 			Shadowflamebubble.DisplayName: Shadowflamebubble
 			ShadowflameCloud.DisplayName: Shadowflame Cloud
-			ShadowflameDart.DisplayName: Shadowflame Dart
-			ShadowflameDartFireBall.DisplayName: Shadowflame Dart Fire Ball
+			ShadowflameDart.DisplayName: 暗影焰镖
+			ShadowflameDartFireBall.DisplayName: 暗影焰镖 Fire Ball
 			ShadowflameLightning.DisplayName: Shadowflame Lightning
 			ShadowTentacle.DisplayName: Shadow Tentacle
 			SharkAttack.DisplayName: Shark Attack
@@ -23237,7 +23229,7 @@ Mods: {
 			SlimeFlame.DisplayName: Slime Flame
 			SlimeNewLocation.DisplayName: Slime New Location
 			SlimeTentacle.DisplayName: Slime Tentacle
-			SlimyArrow.DisplayName: Slimy Arrow
+			SlimyArrow.DisplayName: 史莱姆箭
 			SniperBulletSummon.DisplayName: Sniper Bullet Summon
 			SolarScarab.DisplayName: Solar Scarab
 			SolKhopesh.DisplayName: Sol Khopesh
@@ -23272,10 +23264,10 @@ Mods: {
 			StormSlayer.DisplayName: Storm Slayer
 			TonbogiriProjectile.DisplayName: Tonbogiri Projectile
 			TrapofArgalia.DisplayName: Trapof Argalia
-			SpectreBullet.DisplayName: Spectre Bullet
+			SpectreBullet.DisplayName: 幽灵弹
 			SpectreFlail2.DisplayName: Spectre Flail2
-			SpiderFangDart.DisplayName: Spider Fang Dart
-			SpiderFangDartWeb.DisplayName: Spider Fang Dart Web
+			SpiderFangDart.DisplayName: 蜘蛛镖
+			SpiderFangDartWeb.DisplayName: 蜘蛛镖
 			SpikeBallSummon.DisplayName: Spike Ball Summon
 			SpinningHellFlame.DisplayName: Spinning Hell Flame
 			SpinningPhantasmalSpheres.DisplayName: Spinning Phantasmal Spheres
@@ -23391,7 +23383,7 @@ Mods: {
 			YinDart.DisplayName: Yin Dart
 			YellowFirework.DisplayName: Yellow Firework
 			YellowBeam.DisplayName: Yellow Beam
-			YangDart.DisplayName: Yang Dart
+			YangDart.DisplayName: 阳镖
 			WitchPumpkin.DisplayName: Witch Pumpkin
 			WispInferno.DisplayName: Wisp Inferno
 			WhiteBeam.DisplayName: White Beam
@@ -23411,14 +23403,14 @@ Mods: {
 			VulcanBolt.DisplayName: Vulcan Bolt
 			VortexianDefenderSystemMissileExplosion.DisplayName: Vortexian Defender System Missile Explosion
 			VortexianDefenderSystemMissile.DisplayName: Vortexian Defender System Missile
-			VortexDart.DisplayName: Vortex Dart
+			VortexDart.DisplayName: 星璇镖
 			VoidSeastar.DisplayName: Void Seastar
 			VoidFish2.DisplayName: Void Fish2
 			VoidFish.DisplayName: Void Fish
 			VerminatorProjectile.DisplayName: Verminator Projectile
 			VenomBall.DisplayName: Venom Ball
 			VampireFang.DisplayName: Vampire Fang
-			VampireDart.DisplayName: Vampire Dart
+			VampireDart.DisplayName: 吸血尖牙镖
 			Vampiomere.DisplayName: Vampiomere
 			UWUSlimeSpike3.DisplayName: U W U Slime Spike3
 			UWUSlimeSpike2.DisplayName: U W U Slime Spike2
@@ -23428,8 +23420,8 @@ Mods: {
 			UWUmuku.DisplayName: U W Umuku
 			UnholyFire.DisplayName: Unholy Fire
 			UndyneSpear.DisplayName: Undyne Spear
-			UnderworldSolution.DisplayName: Underworld Solution
-			TurtleBomb.DisplayName: Turtle Bomb
+			UnderworldSolution.DisplayName: 紫罗兰溶液
+			TurtleBomb.DisplayName: 海龟壳炸弹
 			TurkorBreath.DisplayName: Turkor Breath
 			TurkorBlood.DisplayName: Turkor Blood
 			TungstenOreBall.DisplayName: Tungsten Ore Ball
@@ -23566,7 +23558,7 @@ Mods: {
 			BioLight.DisplayName: Bio Light
 			BigMeteor.DisplayName: Big Meteor
 			Batarang.DisplayName: Batarang
-			ThornDart.DisplayName: Thorn Dart
+			ThornDart.DisplayName: 荆棘镖
 			ThornBall2.DisplayName: Thorn Ball2
 			TheFourthDegreeInferno.DisplayName: The Fourth Degree Inferno
 			TheAncientGuardianDeath.DisplayName: The 远古守护者 Death
@@ -23596,8 +23588,8 @@ Mods: {
 			CarrierBubble.DisplayName: Carrier Bubble
 			AquaticMaid.DisplayName: Aquatic Maid
 			Akiko.DisplayName: Akiko
-			SunplateDart2.DisplayName: Sunplate Dart2
-			SunplateDart.DisplayName: Sunplate Dart
+			SunplateDart2.DisplayName: 日盘镖
+			SunplateDart.DisplayName: 日盘镖
 			SunMark.DisplayName: Sun Mark
 			YearningKey.DisplayName: Yearning Key
 			ValkyrieCloud.DisplayName: Valkyrie Cloud
