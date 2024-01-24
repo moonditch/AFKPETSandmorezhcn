@@ -3,7 +3,6 @@ using System.Text.RegularExpressions;
 using Terraria;
 using Terraria.ModLoader;
 using AFKPETS.Items;
-using AFKPETS.UI;
 
 namespace ThoriumModzhcn.Items
 {
