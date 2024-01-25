@@ -19384,7 +19384,7 @@ Mods: {
 			}
 
 			Sharanga: {
-				DisplayName: Sharanga
+				DisplayName: 沙兰加
 				Tooltip:
 					'''
 					'天界神弓·沙兰加'
@@ -19606,541 +19606,540 @@ Mods: {
 			}
 
 			StarBlazer: {
-				DisplayName: Star Blazer
+				DisplayName: 星辰破晓者
 				Tooltip:
 					'''
-					Light inside you drowns out all but the brightest stars.
-					Shoots a flame that inflicts star crusher debuff
-					'70% chance to not consume ammo and uses gel as ammo'
+					你内心的光芒将淹没一切，唯独最亮的星辰得以幸存。
+					发射火焰，施加星辰粉碎减益效果
+					'有70%几率不消耗弹药，并使用凝胶作为弹药'
 					'''
 			}
 
 			TheIceAge: {
-				DisplayName: The Ice Age
+				DisplayName: 冰河时代
 				Tooltip:
 					'''
-					The winds of the North is howling for you
-					Shoots icy flame that inflicts hypothermia
-					Hitting enemies will also cause blizzard shards to rain
-					'50% chance to not consume ammo and uses gel as ammo'
+					北方的风正为你咆哮
+					射出冰冷火焰，造成低温症伤害
+					击中敌人时还会触发冰雹碎片雨
+					'有50%几率不消耗弹药，使用凝胶作为弹药'
 					'''
 			}
 
 			Zharrin: {
-				DisplayName: Zharrin
+				DisplayName: 炙焰
 				Tooltip:
 					'''
-					Shoots fire that inflicts Shadowflame
-					It occasionally shoots Betsy's wrath
-					'50% chance to not consume ammo and uses gel as ammo'
+					发射火焰，造成暗影烈焰效果
+					偶尔会射出贝茜的愤怒之火
+					'有50%几率不消耗弹药，使用凝胶作为弹药'
 					'''
 			}
 
 			AK: {
-				DisplayName: AK-47
+				DisplayName: AK-47突击步枪
 				Tooltip:
 					'''
-					'Accept No Substitutes'
-					Bullets have a chance to inflict fear + enemies may drop additional loot
-					Grants ravager buff which increase players stats slightly + grants sneak dash which has immunity frames
+					'无法替代的选择'
+					子弹有一定几率使敌人陷入恐惧状态，并可能从敌人身上掉落额外战利品
+					提供掠夺者增益，略微提升玩家属性，并赋予潜行冲刺能力，该冲刺具有无敌帧数
 					'''
 			}
 
 			BernardelliModelShortPistol: {
-				DisplayName: Bernardelli Model Short Pistol
+				DisplayName: 伯内利短型手枪
 				Tooltip:
 					'''
-					'Perfect weapon for protecting your families honour'
-					<left>will shoot dual pistol while <right>will throw a concentrated dynamite pack
-					If player is on ground <right>will call the brothers to solve the problem in Sicilian style
-					This ability has 20 second cooldown + Their existance makes you feel stronger
+					'捍卫家族荣誉的完美武器'
+					<左键>射击双枪，<右键>投掷浓缩炸药包
+					如果玩家处于地面，按<右键>将召唤兄弟以西西里风格解决战斗问题
+					此技能有20秒冷却时间，他们的存在会让你感觉更强壮
 
 					'''
 			}
 
 			BigIron: {
-				DisplayName: Big Iron
+				DisplayName: 大铁枪
 				Tooltip:
 					'''
-					'The sheriff wants you'
-					<left>shots per click with higher damage and <right>shots 6 semi inaccurate rounds with 2 second cooldown
+					'警长在找你'
+					<左键>单击发射高伤害子弹；<右键>发射6发不太精准的子弹，冷却时间为2秒
 					'''
 			}
 
 			BloodyMary: {
-				DisplayName: Bloody Mary
+				DisplayName: 血腥玛丽
 				Tooltip:
 					'''
-					'Que lindo!'
-					Shoots multiple blood shards which all inflict bleeding
-					If all shots land on same enemy causes blood explosion
+					'多美啊！'
+					发射多枚造成流血效果的血之碎片
+					若所有弹片命中同一名敌人，则会造成血液爆炸
 					'''
 			}
 
 			EaterGun: {
-				DisplayName: Scrap Gunner
+				DisplayName: 废料枪手
 				Tooltip:
 					'''
-					Upon activation it will summon it跟随你r mouse direction
-					It's main body will not damage enemies but it will periodically shoot bullet from each gun with respect to its rotation
-					It needs a single bullet to activate
+					激活后，它会跟随鼠标方向移动
+					主体并不会直接对敌人造成伤害，但会根据其旋转状态周期性地从各个枪口发射子弹
+					只需要一发子弹即可激活
 					'''
 			}
 
 			EggCannon: {
-				DisplayName: Egg Cannon
+				DisplayName: 蛋炮
 				Tooltip:
 					'''
-					'To kill a goblin, you have to break a few eggs'
-					Encapsulates bullets with eggs + upon hitting ground they hatch to a tiny lepus
-					tiny lepus will walk towards nearest enemies and vomits the bullet
-					If it instead hits to enemy it shatter into bullet as well as additional shards
-					There can be max 10 tiny lepus active
-					Deals 50% more damage against goblins
+					'欲杀哥布林，须先破壳'
+					将子弹包裹在鸡蛋中；击中地面后孵化成微型小兔
+					微型小兔会走向最近的敌人并呕吐出子弹
+					若直接击中敌人，子弹会破碎成更多的碎片
+					最多可以同时存在10只微型小兔
+					对哥布林造成50%额外伤害
 					'''
 			}
 
 			ElephantBuster: {
-				DisplayName: Elephant Buster
+				DisplayName: 象王终结者
 				Tooltip:
 					'''
-					'Bigger they are easier they get for aim'
-					Normal attacks ignore 50%, crits ignore 100% defense + increases penetration of used bullet by 1
-					Hits inflict serious bleeding+ <right>have snipe effect
+					'越大越容易瞄准'
+					普通攻击无视目标50%防御力，暴击则完全无视防御，并使子弹穿透力+1
+					命中会造成严重流血效果，<右键>可触发狙击效果
 					'''
 			}
 
 			ForgottenGun: {
-				DisplayName: Terrarian 2k
+				DisplayName: 元素净化者
 				Tooltip:
 					'''
-					Once being used by legendary heroine Audrina to clean the world from primal ones
-					It's level will increase by using it and each 40 xp will increase by 1
-					It can have maximum 3 level and taking hit will decrease its xp
-					If its level is higher than 1 with <right>player can activate its special attack
-					Level 2 will form a laser that will penetrate multiple enemy and imbue them with highly explosive chemicals
-					Level 3 will form a terra wave that will reflect projectiles with 50% increased damage but it will eat its penetration
-					If player have less than 15% life it will call a queen bee to fight for you
+					曾经被传奇女英雄安德莉亚用来清除世界上的原始生物
+					使用它会提升其等级，每积累40经验值增加一级
+					最大可升至3级，受到攻击时会减少经验值
+					当等级高于1级时，玩家可以通过按<右键>激活特殊攻击
+					- 等级2：形成一道能穿透多个敌人的激光，并附带高度爆炸性化学物质
+					- 等级3：产生一道地波，反射投射物且附加50%伤害增幅，但会降低自身的穿透能力
+					- 当玩家生命值低于15%时，它会召唤一只蜂后为你战斗
 					'''
 			}
 
 			ForgottenRevolver: {
-				DisplayName: Bringer of Ancient Wisdom
+				DisplayName: 远古智慧的带来者
 				Tooltip:
 					'''
-					It was once forged from the void and by 亘古领主 Blossom.
-					It still cares about its warlord.
-					It sacrifices your life to form a light from concentrated knowledge of his lord.
-					The knowledge it shoots overload enemies brain and causes functionality loss.
-					If enemy already have functionality loss then it won't affect it.
+					它曾由亘古领主博洛丝姆从虚无中铸就而成，至今仍忠诚于其战主。
+					使用此枪时，它会牺牲使用者的生命力，凝聚其主的知识光辉形成攻击光束。
+					发射出的知识能量会过载敌人的大脑，导致功能丧失。
+					若敌人已存在功能丧失状态，则不会再次受到影响。
 					'''
 			}
 
 			FrostGlock: {
-				DisplayName: Frost Glock
+				DisplayName: 冰霜格洛克
 				Tooltip:
 					'''
-					'A gun is a gun even though its completely frozen'
-					If any enemy have full health the bullets it shoots have guaranteed to do critical hit
-					It will convert normal bullets to frostburn bullets and upon hitting any enemy these bullets will form snowflake at opposite direction
+					'即使完全被冻结，一把枪依然是枪。'
+					如果任何敌人处于满血状态，该枪发射的子弹将必定造成暴击伤害。
+					它能将普通子弹转化为冷冻燃烧弹，当这些子弹命中敌人时，会在相反方向产生雪花效果。
 					'''
 			}
 
 			GodofMischief: {
-				DisplayName: God of Mischief
+				DisplayName: 恶作剧之神
 				Tooltip:
 					'''
-					'In the end you will always kneel...'
-					Converts muskets into radioactive scraps that cover enemy with chemicals + grants scope
-					Non musket bullet types will get coated with chemicals
-					Weapon passively increase current ammo stack + further player aim the more damage bullet does
-					Immediate change on shoot direction causes quick scope with 5 second cooldown
-					Quick scope guarantees the first strike to be crit + increase damage & velocity
+					'最终你总会屈膝臣服...'
+					此武器可将火枪转换为带有放射性废料的攻击，对敌人施加化学污染并提供瞄准镜效果。
+					非火枪类型的子弹也会被化学物质覆盖。
+					武器被动增加当前弹药堆叠，并且玩家瞄准时间越长，子弹造成的伤害越大。
+					立即改变射击方向将触发5秒冷却时间的快速瞄准，
+					快速瞄准下的第一发子弹必定暴击并增加伤害与速度。
 					'''
 			}
 
 			LunasRevolver: {
-				DisplayName: Luna's Revolver
+				DisplayName: 露娜的手枪
 				Tooltip:
 					'''
-					'Elegant gun for a noble lady but sadly her life is not long enough to use this'
-					Imbues bullets with Selenophobia which causes enemies to explode into phantasmal bolts upon death + get weaken in night
-					Converts muskets into aggresively homing lunarian stars
+					'专为贵族女士设计的优雅手枪，遗憾的是她的寿命未能长久到使用此枪。'
+					子弹带有月恐症效果，敌人被击中死亡时会爆炸成幻影飞镖，并在夜晚时受到削弱。
+					可将火枪子弹转化为具有追踪能力的月球星光弹。
 					'''
 			}
 
 			MaxShotgun: {
-				DisplayName: Dragun's Breath
+				DisplayName: 德拉贡的呼吸
 				Tooltip:
 					'''
-					'非常适合模仿模组的画师！'
-					Convert bullets to scorch shots
-					Each fourth attack will send a flaming skull that will home to enemies and hits will decrease their defense
-					<right>allow player to swing it and critical hit swing will send a small wave
+					'非常适合热衷于模仿的游戏画师角色使用！'
+					将子弹转换为炽热射击弹丸。
+					每四次攻击将会发射一个追踪敌人的燃烧骷髅头，命中后降低敌方防御力。
+					右键可挥舞此枪进行近战攻击，暴击挥击会释放小型冲击波。
 					'''
 			}
 
 			Musketron: {
-				DisplayName: Duke Musketron
+				DisplayName: 公爵穆克特隆
 				Tooltip:
 					'''
-					'For there is no folly of the beast of the earth which is not infinitely outdone by the madness of men'
-					<right>to shoot bullet spewing typhoon
-					<left>to shoot an aquatic core with cooldown
-					Increases stats while being covered with water
+					'对比地球上野兽的愚蠢，人类的疯狂更为无穷无尽。'
+					<左键>射出子弹旋风；
+					<右键>发射冷却时间限制下的水属性核心。
+					在水元素覆盖下提升角色属性。
 					'''
 			}
 
 			Pumpkin2: {
-				DisplayName: Pumpkin
+				DisplayName: 夜影南瓜射手
 				Tooltip:
 					'''
-					This Teigu once belong to Mine
-					<right>will activate Pumpkin's sniper mode while <left>activates semi-automatic mode
+					这把帝具曾经属于Mine
+					按下<右键>键将激活南瓜的狙击模式，而按<左键>键则切换至半自动射击模式
 					'''
 			}
 
 			QueensStingShooter: {
-				DisplayName: Anarchy Buster
+				DisplayName: 无政府克星
 				Tooltip:
 					'''
-					'Thats how regime is protected'
-					Upon being held gun starts to fly towards players mouse direction and shoot bullets
-					Each bullet has a 10% chance to be changed with non bullet consuming reflective stinger
+					'这就是维护政权的方式'
+					当你持有该武器时，它会朝着玩家鼠标方向飞行并发射子弹
+					每颗子弹有10%的概率被替换为非消耗型反射刺针
 					'''
 			}
 
 			Redemption: {
-				DisplayName: Redemption
+				DisplayName: 救赎
 				Tooltip:
 					'''
-					'No matter how bad you are at something, there's always something you're good at'
-					It's aim only impress stormtroopers but also assigns the bullet type one of the following prefix:
-					-Corrosive: The bullet inflicts explosive chemical and also release spores
-					-Flashy: Crit cause a flashbang area and make non boss enemies get dizzy for a short time
-					-Glitchy: Bullet hit inflicts decoded and then it splits into two smaller bullets with no effect
-					-Scarlet: Projectiles crit life steals along with causing enemy get seriously bleeding
-					-Honeyed: Projectile first hit will give player honeyed buff along with releasing wasps
-					-Ungrateful: Projectile have 20% higher chance to crit and this cannot be lowered
-					-Grateful: projectile gain 5% increased damage per hit
+					'无论你在某方面有多差劲，总会有擅长的一面'
+					它的瞄准精度足以让冲锋队员折服，并且其子弹会被赋予以下一种前缀效果：
+					- 腐蚀：子弹造成爆炸性化学伤害，同时释放孢子
+					- 闪光弹：暴击时产生闪光区域，使非Boss敌人短暂眩晕
+					- 故障：子弹命中后解除编码，分裂成两枚无附加效果的小子弹
+					- 绯红：投射物在暴击时吸血并导致敌人严重流血
+					- 蜜糖：首次命中的投射物会给玩家提供蜜糖增益效果，并释放黄蜂
+					- 忘恩负义：投射物的暴击几率提升20%，并且这个几率无法降低
+					- 感激：每次投射物命中目标都会增加5%的伤害
 					'''
 			}
 
 			RippedMinigun: {
-				DisplayName: Antique Minigun
+				DisplayName: 古董迷你机枪
 				Tooltip:
 					'''
-					'Cry some more!'
-					Before being able to shoot it needs to wind up
-					After being windup while player is not moving it heat itself up and after player start moving cause heat to get colder
-					It indicates heating up with dust and colour change indication and at full heat shoot flame return red
-					While fully heated weapon also be able to burn and damage any enemy that touches it
+					'再哭一会儿！'
+					在射击前需要预热
+					当预热完成后，如果玩家静止不动，则会自我加热；而一旦玩家开始移动，则会逐渐冷却
+					通过尘埃和颜色变化来指示加热过程，全热状态时火焰变为红色
+					在全热状态下，武器还能对接触到它的任何敌人造成燃烧伤害
 					'''
 			}
 
 			SteampunkersBane: {
-				DisplayName: Steampunker's Bane
+				DisplayName: 蒸汽朋克者的克星
 				Tooltip:
 					'''
-					'Now you know what steampunker does in her spare time'
-					Upon held summons a support drone that has an ability to mark enemies with RC
-					If player gets too far away drone returns back to player
-					Upon an enemy is marked causes all close bullets to periodically autoaim towards the enemy
-					Converts the muskets into shrapnel bullets which cause heavy bleeding + explode on crits
+					'现在你知道蒸汽朋克者业余时间都在忙什么了'
+					持有时会召唤一个支援无人机，它可以通过鼠标右键标记敌人
+					如果玩家离得太远，无人机将返回到玩家身边
+					当有敌人被标记后，所有附近的子弹会周期性自动瞄准该敌人
+					将火枪转换为破片子弹，击中造成严重流血效果，并且在暴击时爆炸
 					'''
 			}
 
 			SummerSaleMinigun: {
-				DisplayName: Wallet drainer
-				Tooltip: The combination of the power of mankind and summersales
+				DisplayName: 钱包吸尘器
+				Tooltip: 人类力量与夏季大促的结合体
 			}
 
 			AirHorn: {
-				DisplayName: Air Horn
+				DisplayName: 空气喇叭
 				Tooltip:
 					'''
-					'Using it will form a sound wave that get bigger while its in air'
-					'Also hitting enemies have a chance to make air pressure explosion'
+					'使用它会产生一股在空中逐渐扩大的声波'
+					'同时击中敌人时有一定几率触发气压爆炸效果'
 					'''
 			}
 
 			FireworkGun3: {
-				DisplayName: Dragon Spit
+				DisplayName: 龙息炮
 				Tooltip:
 					'''
-					'Burn them with your hate'
-					Covers grenades with explosive chemicals that increase burning efficiency
-					Uses grenades as ammo
+					'用你的恨意将他们燃烧殆尽'
+					为手雷覆盖上可增加燃烧效率的爆炸性化学物质
+					使用手雷作为弹药
 					'''
 			}
 
 			Gelifier: {
-				DisplayName: Gelifier
+				DisplayName: 凝胶化器
 				Tooltip:
 					'''
-					'Bring pain -- one bounce at a time!'
-					<right>will shoot concentrated gel mass which will form slime block upon touching any tile and <left>will shoot less concentrated gel mass
-					This gel will not form gel block upon touch any tile while upon hit any enemy it will shatter into smaller less concentrated gel
-					Uses gel as ammo
+					'一次反弹，带来一阵痛楚!'
+					<右键>发射高浓度凝胶团，接触任何方块后形成黏液块；而按<left>键则发射低浓度凝胶团
+					这种凝胶不会在接触方块时形成黏液块，但在击中敌人时会破碎成多个小且低浓度的凝胶碎片
+					使用凝胶作为弹药
 					'''
 			}
 
 			GrenadePistol: {
-				DisplayName: Grenade Pistol
+				DisplayName: 手掷火雷铳
 				Tooltip:
 					'''
-					'Never corner something meaner than you unless you can blow it up'
-					Uses grenades as ammo
+					'除非你能把它炸飞，否则别逼入绝境'
+					使用手榴弹作为弹药
 					'''
 			}
 
 			HolographicGun: {
-				DisplayName: Holographic Gun
+				DisplayName: 全息投影枪 
 				Tooltip:
 					'''
-					It will shoot your bullets in bubbles
-					After flying for 2.5 second the bubbles pop and bullets will be shot in your mouse direction
+					它会将你的子弹装进泡泡里发射出去
+					飞行2.5秒后，泡泡破裂，子弹将在鼠标指向的方向射出
 					'''
 			}
 
 			HuntersGun: {
-				DisplayName: Hunter's Gun
+				DisplayName: 猎人之枪
 				Tooltip:
 					'''
-					'The thrill of the hunt... The promise of payment...'
-					Upon being held it will form a aim on top of players cursor
-					When <left>is being pressed it will cause a area shot on the mouse direction
-					While weapon is being held there is a small chance for purple headed ducks to fly above player
-					When player shoot any of these ducks they drop a soul heart that get shatter in 5 second + give player hunters rampage
-					This buff will empower your shots along with cause all of your guns hits inflict fear
+					'狩猎的激情……报酬的诱惑……'
+					当玩家持有此枪时，会在光标上方形成一个瞄准标记
+					按住<左键>时，将在鼠标方位的进行扇形射击
+					在持枪状态下，有一定几率有紫色头鸭从玩家头顶飞过
+					如果玩家成功击中这些鸭子，它们会掉落一颗灵魂之心，在5秒后破碎，并赋予玩家“猎人狂暴”状态
+					这个增益效果可以强化你的射击威力，并且使你所有枪械攻击都附带恐惧效果
 					'''
 			}
 
 			IBS: {
-				DisplayName: IBS
+				DisplayName: 肠易激综合症
 				Tooltip:
 					'''
-					'Your stomach rumbles'
-					Upon held it will slowly generate a poop and using item will throw it to that location
-					Every poop type inflict poisoned along with some have special effects
+					'你的肚子咕噜噜响'
+					持有时，它会慢慢生成一坨便便，使用物品将其投掷到指定位置
+					每种类型的便便都会造成中毒效果，并且部分便便具有特殊效果
 					'''
 			}
 
 			LightboundBomb: {
-				DisplayName: Marine Mauler
+				DisplayName: 海洋狂鲨
 				Tooltip:
 					'''
-					'Not like going down the pond chasing blue gills or tommy cats'
-					This shark...Swallow you whole
-					While in water it will aim closest enemy and do 15% more damage against bosses and minibosses
-					Favouriting this item will make it not destroy tiles
+					'这可不是去池塘追蓝鳃鱼或鲈鱼那样简单的事儿'
+					这条鲨鱼...一口就能把你吞下
+					在水中时，它将瞄准最近的敌人，并对Boss和小Boss造成额外15%伤害
+					收藏此物品后，它将不会破坏地形方块
 					'''
 			}
 
 			MeatMincer: {
-				DisplayName: Meat Mincer
+				DisplayName: 碎骨切肉机
 				Tooltip:
 					'''
-					'In the end, every plan relies upon a strong arm, and tempered steel'
-					Holding charge the sawblade + releasing will make it rirochet from tiles and slash enemies
-					Full charge gets indicated with sound
-					若同时装备了[c/ffff00:博士的单片眼镜] it gain a <right>ability which will slash the mincer with its back chain
-					<right>to its item to convert it to close ranged form
+					'最终，任何计划都依赖于强健的手臂和坚硬的钢铁'
+					按住蓄力然后释放，会让锯片从方块上弹射并切割敌人
+					充满能量时会有声音提示
+					若同时装备了[c/ffff00:博士的单片眼镜] 获得<形态切换>技能，可以利用背后的链条挥砍绞肉机
+					<右键>点击物品切换至近战形态
 					'''
 			}
 
 			MysteriousCamera: {
-				DisplayName: Polaroid Camera
+				DisplayName: 宝丽来相机
 				Tooltip:
 					'''
-					'Say Cheese'
-					'Upon taking photo enemies have a chance to confuse by its flash'
+					'微笑，茄子'
+					'拍照时，敌人有几率因闪光灯而陷入混乱状态'
 					'''
 			}
 
 			PolarStar: {
-				DisplayName: Polar Star
+				DisplayName: 北极星
 				Tooltip:
 					'''
-					'It carries the mark of the Northern Star'
-					Each enemy kill increase xp + leveling up empower weapon while taking hit or change weapon lose experience
+					'它承载着北极星的印记'
+					每次击败敌人将增加经验值，并在升级时强化武器；受到伤害或切换武器会失去经验
 					'''
 			}
 
 			PumpkinBomb: {
-				DisplayName: Handheld Missile
+				DisplayName: 手持导弹
 				Tooltip:
 					'''
-					'It's interesting idea to design a weapon after one of your favourite childhood toy'
-					Favouriting this item will make it not destroy tiles
+					'以童年最喜欢的玩具之一为灵感设计武器，真是个有趣的点子'
+					收藏此物品后，它将不会破坏地形方块
 					'''
 			}
 
 			SadCatMeowmere: {
-				DisplayName: Sad Cat Speaker
+				DisplayName: 伤心哈基米音箱
 				Tooltip:
 					'''
-					'Meow Meow, meoow mew meow meow me!'
-					'Meow Mew-Meow meow, meeeow meoow mew.'
+					'喵喵，喵喵喵喵喵！'
+					'喵喵喵-喵喵，喵喵喵喵喵。'
 					[i:6220] [i:6194] [i:6217] [i:6194] [i:6220]
-					-Andre, Meow meew mew
+					-安德烈，喵喵喵喵喵
 					'''
 			}
 
 			Verminator: {
-				DisplayName: Net Gun
+				DisplayName: 捕网枪
 				Tooltip:
 					'''
-					'Now the verminator is on the job'
-					'It will shoot a net that will catch any catchable npc upon touching them'
+					'现在，灭虫者开始工作了'
+					'它会发射一张网，触碰到任何可捕捉的NPC时将其困住'
 					'''
 			}
 
 			VoidBowl: {
-				DisplayName: Void in a bowl
-				Tooltip: You feel something swims inside of it.
+				DisplayName: 碗中虚无
+				你感觉到有东西在里面游动...
 			}
 
 			YellowSoul: {
-				DisplayName: Empty Gun
+				DisplayName: 空膛手枪
 				Tooltip:
 					'''
-					Go ahead! Make my day...!
-					It will not use any ammo
-					Hitting enemies will inflict them ichor
-					Critical hit will make the bullet explode
+					来吧！让我高兴一下……！
+					它无需消耗任何弹药
+					击中敌人将使敌人受到脓液伤害
+					暴击会使子弹爆炸
 					'''
 			}
 
 			BunnyHandCannon: {
-				DisplayName: Lunacy Launcher
+				DisplayName: 月华灵能射线枪
 				Tooltip:
 					'''
-					'A gift to the mighty bunny king of the Earth from the jade rabbits of the moon'
-					Uses rockets as ammo and convert 原型火箭s to controllable hallucinogenic rockets which phases through objects
-					They do more damage to the direct hit enemy and each enemy in radius have 33% chance to get confused
+					'这是来自月亮玉兔赠予地球上强大兔子王的礼物'
+					使用火箭作为弹药，并将原型火箭转化为可控的迷幻火箭，它们可以穿透物体
+					对直接命中的敌人造成更多伤害，并且每个在范围内的敌人都有33%几率陷入混乱状态
 					'''
 			}
 
 			DrFetusRocketLauncher: {
-				DisplayName: Meat Splasher
+				DisplayName: 肉糜散射炮
 				Tooltip:
 					'''
-					'They can run but they will only die tired'
-					It will convert 原型火箭s and rocket I's into homing rockets
-					若同时装备了[c/ffff00:博士的单片眼镜] upon homing rockets death it will explode into multiple lingering flames
-					<right>to its item to convert it to close combat form
-					Requires rockets as ammo
+					'他们可以逃跑，但最终只会疲惫而死'
+					此装备会将原型火箭和一级火箭转化为追踪火箭
+					若同时装备了[博士的单片眼镜]，追踪火箭在死亡时会产生多个持续燃烧的火焰
+					<右键>切换至近战形态
+					需要火箭作为弹药
 					'''
 			}
 
 			RippedRocketLauncher: {
-				DisplayName: The Roamer
+				DisplayName: 流浪者号火箭发射器
 				Tooltip:
 					'''
-					'You were good son, real good; maybe even the best'
-					Converts rockets to jumper rockets that allow both rocket jump as well as using enemies to rocket jump hurt more + cripple their feelings
-					Each rocket jump reset player jumps + flight time
-					Uses rockets as ammo
+					'你做得很好，真的很棒；甚至可能是最好的'
+					将火箭转换为跳跃火箭，允许玩家进行火箭跳跃，并且利用敌人进行火箭跳跃时能造成更多伤害并使其心灵受挫
+					每次火箭跳跃都将重置玩家跳跃次数与飞行时间
+					使用火箭作为弹药
 					'''
 			}
 
 			SeraphimsBreath: {
-				DisplayName: The Seventh Trumpet
+				DisplayName: 第七号天使长号角
 				Tooltip:
 					'''
-					Humaity more concerned with the temporary pleasures of this world rather than the eternal salvation?
-					Shoots 7 rounds burst and last rocket gets converted to brass rocket with 1.5 second cooldown
-					60% chance to not consume ammo and uses rockets as ammo
+					人类更关注此世短暂的欢乐，而非永恒的救赎？
+					连续发射7发子弹，最后一枚火箭将转化为黄铜火箭，有1.5秒冷却时间
+					60%几率不消耗弹药，并以火箭作为弹药
 					'''
 			}
 
 			TheGrandCelebration: {
-				DisplayName: The Grand Celebration
+				DisplayName: 盛大庆典
 				Tooltip:
 					'''
-					Fueled with birthday wishes of humanity
-					Uses rockets as ammo
+					燃烧着人类生日祝福的火焰
+					使用火箭作为弹药
 					'''
 			}
 
 			ChefKnife: {
-				DisplayName: Kitchen Knives
+				DisplayName: 厨房刀具
 				Tooltip:
 					'''
-					'A deadly tool once used in the Hell's kitchen'
-					Upon being thrown you will throw an additional knive with respect to the mirror side of the closest enemy to your cursor
-					If there is no close enemy the second knife will thrown in random direction with respect to your cursor location
-					Hits will inflict on fire and killing enemies with these knives will form lingers of their burning flesh
-					If rogue support is enabled it will shoot 6 additional knife randomly targetting around the mouse as stealth attack
+					'曾于地狱厨房中致命的一把利器'
+					投掷时，根据离鼠标最近的敌人位置的镜像方向，你会额外投掷一把刀
+					若无靠近的敌人，则第二把刀将随机朝鼠标位置的方向投掷
+					击中会施加燃烧状态，用这些刀具击杀敌人会在其周围形成燃烧肉体的残迹
+					如果启用了rogue支持，在潜行攻击时它会额外射出6把随机目标的飞刀
 					'''
 			}
 
 			FleshBall3: {
-				DisplayName: Flesh Ball
+				DisplayName: 血肉球
 				Tooltip:
 					'''
-					'Looking for hugs'
-					Upon thrown the fleshlings将跟随你r mouse direction and hatch into small hungries upon their death
-					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
+					'寻找拥抱的存在'
+					投掷后，血肉球会跟随鼠标的移动方向并在死亡时孵化成小型饥饿怪
+					它们无法穿越平台，击中会造成流血效果，而饥饿怪的攻击则会造成严重流血
+					如果rogue配置激活且已启用灾厄拓展，在潜行状态下投掷的血肉球在击中时会爆炸为血液触须，造成50%的额外伤害
 					'''
 			}
 
 			Francisca: {
-				DisplayName: Francisca
+				DisplayName: 弗朗西斯卡战斧 
 				Tooltip:
 					'''
-					'Valhalla awaits!'
-					While <left>is being held player will charge the francisca and after 1 second it get fully charged
-					Charging will increase its damage, hit.Knockback, initial speed and momentum
-					It needs at least 0.25 second to be able to gain enough momentum to strike and it will also cut any tree that it touches
-					If rogue config is active and calamity is enabled in stealth you will throw fully empowered francisca without needing to charge
+					'瓦尔哈拉在等待！'
+					当按住<左键>时，玩家将开始蓄力弗朗西斯卡战斧，1秒后即可完全蓄力完毕
+					蓄力过程中会增加其伤害、击退效果、初始速度和动量
+					至少需要0.25秒的时间来积累足够的动量进行有效打击，并且它接触到任何树木时都会将其切割
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你可以直接投掷满蓄力的弗朗西斯卡战斧，无需预先蓄力
 					'''
 			}
 
 			FrostburninaBottle: {
-				DisplayName: Frostburn in a Bottle
+				DisplayName: 瓶装霜冻灼烧
 				Tooltip:
 					'''
-					Caution: Highly Reactive Chemical
-					Upon hit any enemy it will leak into an frosburn explosion
-					Upon hit any tile it will form an freezing mist that will slow the non boss enemies and frostburn bosses
-					If rogue config is active and calamity is enabled in stealth you will throw multiple bottles with increased velocity on same trajectory
+					警告：高活性化学物质
+					击中任意敌人后，会产生霜冻爆炸
+					击中任意方块时，会生成冷冻雾气，减缓非Boss敌人的移动速度并对Boss造成霜冻效果
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将沿同一轨迹高速投掷多个瓶子
 					'''
 			}
 
 			FrostKnife: {
-				DisplayName: Grimfrost
+				DisplayName: 冷酷霜刃
 				Tooltip:
 					'''
-					'Nothing can escape from the cold shoulders of death'
-					Hitting an enemy will frostburn the enemy and cause the knife to split into two smaller knives in opposite direction
-					The bigger knife have 5% chance to produce dangerous glass shards in this process
-					Critical hits will cause 2 blizzard shards to rain from sky
-					If rogue config is active and calamity is enabled stealth strike will cause the knife to shatter into 4 smaller along with all up abilities activate
+					'没有什么能逃脱死亡的寒肩'
+					命中敌人时，会对敌人施加霜冻灼烧效果，并使刀具分裂成两把朝相反方向飞出的小刀
+					较大的刀具在分裂过程中有5%几率产生危险的玻璃碎片
+					暴击将导致2个冰雹碎片从天空降落
+					若rogue配置激活且在潜行状态下发动攻击，刀具将会破碎成4把更小的刀片，并同时激活所有强化能力
 					'''
 			}
 
 			FrozenFrog: {
-				DisplayName: Perfectly Generic Frog Cube
+				DisplayName: 完全普通的青蛙立方体
 				Tooltip:
 					'''
-					'It seems the fairy war is over'
-					Upon thrown it will slowly start to melt with friction and left crystal shards
-					It could also push non boss enemies and after enough energy the frog will return back to life
-					If rogue config is active and calamity is enabled in stealth you throw 2 more cube
+					'看来仙子们的战争已经结束'
+					投掷后，它会因摩擦而慢慢融化，并留下水晶碎片
+					同时能推开非Boss敌人，当能量足够时，青蛙将复活回到生命状态
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将额外投掷2个立方体
 					'''
 			}
 
 			GoldenShuriken: {
-				DisplayName: Shinobi Cutter
+				DisplayName: 忍者切割手里剑
 				Tooltip:
 					'''
-					'An enhanced Shuriken that can be empowered with rotational energy'
-					Upon being thrown first ring of shurkiens will appear and after they concentrate you shoot a big shuriken fueled by their friendship
-					Shuriken cuts will make your enemies bleed and duration of bleeding change with shurikens size
-					If rogue config is active and calamity is enabled in stealth you will direct throw a bigger shuriken with 50% increased damage
+					'一把可利用旋转能量增强的高级手里剑'
+					投掷后，首先会出现一圈手里剑环绕，当它们集中在一起时，会发射一枚由友情之力驱动的大号手里剑
+					手里剑的攻击会让敌人流血，流血效果持续时间随手里剑大小变化
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你可以直接投掷一枚更大、伤害提升50%的大号手里剑
 					'''
 			}
 
@@ -20148,297 +20147,299 @@ Mods: {
 				DisplayName: Electric Pin
 				Tooltip:
 					'''
-					'Quite shocking technique for acupuncture'
-					Hitting enemies will make the pin both attach and inflict charged
-					Each attached pin will increase true DoT by 2 and there can be max 10 attached
-					If rogue config is active and calamity is enabled in stealth all attached pins will shatter and form small charge areas
+					'电击针灸针'
+					用于针灸的一种相当惊人的技术
+					击中敌人时，针灸针不仅会附着在敌人身上，还会施加充电状态，
+					每个附着的针灸针都会增加真实持续伤害2点，最多可以附着10枚
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，所有已附着的针灸针将破碎并形成小型充电区域
 					'''
 			}
 
 			GoldKnife: {
-				DisplayName: Jolly Striker
+				DisplayName: 悦动激战刃
 				Tooltip:
 					'''
-					'Cut out the rivets and split the booty'
-					If there is no jolly slicer is being thrown you will throw it and if there is at least 1 you throw jolly striker
-					Jolly slicer will fly until it hits to any enemy and if it hits it will stick to that enemy and continue to slash
-					You first throw joly striker to upward and in highest point if its head the knife will split into two and move much faster
-					If its tail the knife will gain additional penetration and will now not affected by gravity
-					If you get tipsy you will throw 2 at the same time but they will be extremely inaccurate and all of your attacks will inflict midas
-					If rogue config is active and calamity is enabled in stealth you 2 jolly striker along with 1 jolly slicer
+					'切除铆钉，分割战利品'
+					如果没有正在投掷的欢乐切割器，则会投掷欢乐打击者；如果有至少1个欢乐切割器在飞行中，则投掷欢乐打击者。
+					欢乐切割器将持续飞行直到击中任意敌人，并在命中时粘附在目标敌人身上持续进行切割攻击。
+					首次投掷欢乐打击者时，它会向上飞，在最高点时：
+					- 若是刀尖部分，刀片会分裂成两片并大幅度提高飞行速度；
+					- 若是刀尾部分，刀片将获得额外穿透力且不再受重力影响。
+					若角色处于微醺状态，则会同时投掷2把欢乐打击者，但它们的精准度极低，且所有攻击都将附加黄金触（Midas）效果。
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将同时投掷2把欢乐打击者和1把欢乐切割器。
 					'''
 			}
 
 			HealingSyringe: {
-				DisplayName: Healing Syringe
+				DisplayName: 治疗注射器
 				Tooltip:
 					'''
-					'Come over here. I promise I vill heal you!'
-					Upon hitting any town npc this will heal them by 50 and by hitting any player in mp you heal them by 3
-					If rogue config is active and calamity is enabled in stealth you will throw uber charged healing syringe
-					Upon hitting town npc it will fully heal and hitting enemy will heal 20% of their max life
+					'过来一下，我保证我会治愈你！'
+					击中任何城镇NPC时，将会为其恢复50点生命值；在多人游戏中击中玩家时，可为其恢复3点生命值。
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将投掷超级强化的治疗注射器。
+					此时，击中城镇NPC可以使其完全恢复生命值，而击中敌人则能为其恢复其最大生命值的20%。
 					'''
 			}
 
 			HiraShuriken: {
-				DisplayName: Tamahagane Shuriken
+				DisplayName: 玉钢手里剑
 				Tooltip:
 					'''
-					'Only a shinobi can stop another shinobi'
-					Every fourth shuriken will be empowered and shurikens inflict bleeding along with crits will decrease enemy defense by 6
-					If rogue config is active and calamity is enabled in stealth you two empowered shuriken along with normal one
+					'只有忍者才能阻止另一个忍者'
+					每第四个手里剑将被强化，且所有手里剑都能造成流血效果。当造成暴击时，会使敌人的防御降低6点。
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将同时投掷两个强化版手里剑及一个普通手里剑。
 					'''
 			}
 
 			Hive: {
-				DisplayName: Hornet Nest
+				DisplayName: 黄蜂窝
 				Tooltip:
 					'''
-					'Always bee nice to your friends and share your toys'
-					While flying it will leak honey
-					Upon hit any enemy the hive will attach to enemy and both envenom it and decrease its DR by 2.5% for each stick nest
-					After enemy carry too much nest or hit any tile it will explode into honey droplets and angry red hornets which inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth you will also release additional bees
+					'时刻善待朋友，分享你的玩具'
+					飞行过程中会泄露蜂蜜
+					击中任意敌人后，蜂巢将附着在敌人身上，对其施加中毒效果，并且每有一个蜂巢附加物就会降低其防御率2.5%
+					当敌人携带过多的蜂巢或触碰到任何方块时，蜂巢会爆炸成蜂蜜滴和愤怒的红黄蜂，造成严重流血状态
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你还将释放额外的蜜蜂
 					'''
 			}
 
 			HolidayThrower: {
-				DisplayName: Elf Cutter
+				DisplayName: 精灵切割机
 				Tooltip:
 					'''
-					'You hope you are not naughty this year'
-					When used 1 elf cutter that directly aimed towards your mouse and 4 cutter aimed towards edges of screen
-					When it hit any enemy it will seriously bleed them
-					If rogue config is active and calamity is enabled in stealth 3 elf cutter aimed to mouse while 12 aimed towards edges of screen
+					'希望今年你表现得不那么淘气'
+					使用时，会向鼠标方向发射1枚直接瞄准的精灵切割器，并向屏幕边缘各发射4枚切割器
+					击中敌人时会对其造成严重流血
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，将有3枚精灵切割器直接瞄准鼠标，同时向屏幕边缘各发射12枚切割器
 					'''
 			}
 
 			HolyGrail: {
-				DisplayName: Holy Grail
+				DisplayName: 圣杯
 				Tooltip:
 					'''
-					'Mah boi, this peace is what ALL true warriors strive FOR'
-					Upon hit any enemy or tile will form an cross that will burn any close enemy with 圣焰
-					Hiting enemy will free holy spirits along with having a chance to crack the skies by forming holy light pillar
-					If rogue config is active and calamity is enabled in stealth hit multiple holy light pillars will be formed
+					'我的伙伴，所有真正的战士都追求这份和平'
+					击中任何敌人或方块时，会形成一个十字架，用圣焰燃烧附近的敌人
+					命中敌人会释放神圣的灵魂，并有机会通过形成神圣光柱来裂开天空
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，多重神圣光柱将会生成
 					'''
 			}
 
 			Kunai: {
-				DisplayName: Kunai
+				DisplayName: 苦无
 				Tooltip:
 					'''
-					'Light but deadly weapon in the hands of shinobis'
-					Upon hit any enemy if there are any close enemy that can be hittable it will change its trajectory to that enemies location
-					If rogue config is active and calamity is enabled in stealth you throw 50% stronger and faster kunai + gaining immunity frames
+					'在忍者手中轻便且致命的武器'
+					击中任意敌人后，若有任何可攻击到的近距离敌人存在，则会改变轨迹朝向该敌人的位置
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将投掷出更强（50%伤害提升）更快的苦无，并获得短暂免疫效果
 					'''
 			}
 
 			LambSauce: {
-				DisplayName: Lamb Sauce
+				DisplayName: 羊酱汁
 				Tooltip:
 					'''
-					'Now you know where is the lamb sauce'
-					It could be thrown with <left>and can be drink with RC
-					Upon drink you gain hell breath buff which make you breath flame for 5 seconds and this ability have 30 second cooldown
-					This breath is strong enough to melt any cookies even though they are formed via pure intentions
-					When thrown upon collide it will release the hells heat which both shatters defense and burns your enemies alive
-					If rogue config is active and calamity is enabled in stealth you throw 2 at the same time along with getting hell breath buff for 20 second
+					'现在你知道羊酱汁在哪里了'
+					可以用<左键>投掷，也可通过右键饮用
+					饮用后你会获得地狱呼吸增益，持续5秒内喷射火焰，此技能有30秒冷却时间
+					这种火焰威力强大，足以熔化任何由纯净意愿形成的曲奇饼干
+					投掷后与目标碰撞时，它会释放地狱热力，破坏敌人的防御并将其活活烧死
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你可以同时投掷2瓶羊酱汁，并获得持续20秒的地狱呼吸增益
 					'''
 			}
 
 			LightBulb: {
-				DisplayName: Light Bulb
+				DisplayName: 灯泡
 				Tooltip:
 					'''
-					'Knowing the ten thousand flawed design help you to find the correct design'
-					Hitting enemies will cause them to do bioluminescence which have a chance to make enemies closer to them to get confused
-					Upon being held a light bulb appear on your head which will attack closer enemies and also have chance to make them become Bioluminescent
-					If rogue config is active and calamity is enabled in stealth you will generate extreme ligth around you which make close enemies get dizzy
+					'了解一万种缺陷设计能帮你找到正确的设计'
+					击中敌人会让它们产生生物荧光效果，有一定几率使附近敌人陷入混乱
+					持有时，一个灯泡会在你的头顶出现，它会自动攻击附近的敌人，并有机会使其变得具有生物荧光效果
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将在周围生成强烈的光线，使近身的敌人晕眩
 					'''
 			}
 
 			LizardKnife: {
-				DisplayName: Gift of the Fifth Sun
+				DisplayName: 神祇恩赐的炽炎刀锋
 				Tooltip:
 					'''
-					'An ancient sacrificial tool to please the elder ones'
-					Upon thrown it will aim to closest enemy and additional solar reflections will rotate around the dagger
-					Upon hit these solar daggers will explode along with cursing the enemy with the wrath of elder one
-					If rogue config is active and calamity is enabled in stealth more solar reflections will rotate around the dagger
+					'一把古老的祭祀工具，用于取悦远古的神祇'
+					投掷后，它会瞄准最近的敌人，并在匕首周围生成额外的太阳反射光刃
+					击中时，这些太阳飞刀将爆炸，同时诅咒敌人受到远古神祇的愤怒
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，更多的太阳反射光刃将在匕首周围旋转
 					'''
 			}
 
 			MechanicalKnife: {
-				DisplayName: Mechanical Knife
+				DisplayName: 机械飞刀
 				Tooltip:
 					'''
-					'You know it have ai but you didn't expect to see IoT'
-					Upon throw the knives will locate enemies around your cursor and attack to the ones that are closer
-					All of their hits will inflict charged
-					If rogue config is active and calamity is enabled in stealth you throw 3 at the same time
+					'你知道它有AI，但没想到还能物联网化'
+					投掷时，飞刀将自动定位并攻击鼠标附近较近的敌人
+					它们的所有攻击都会使目标受到充电效果
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你可一次性投掷3把飞刀
 					'''
 			}
 
 			MonkeyPaw: {
-				DisplayName: Monkey Paw
+				DisplayName: 猴爪
 				Tooltip:
 					'''
-					'It looks like the eye also visited the jungle for some tasty snack'
-					It have 10% chance to throw triple dart and not moving will increase damage + defense slightly
-					If rogue config is active and calamity is enabled in stealth you went full monke and activate random buls**t go mode
-					Uses darts as ammo
+					'看来这只眼睛也曾为了寻找美味零食造访过丛林'
+					有10%几率投掷三倍数量的飞镖，静止不动时将略微提升伤害与防御力
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将完全化身猴子，进入随机乱斗模式
+					使用飞镖作为弹药
 					'''
 			}
 
 			NanoKnife: {
-				DisplayName: Nanife
+				DisplayName: 纳米飞刃
 				Tooltip:
 					'''
-					'Is its name based on nanites or its size?'
-					Upon hitting any enemy all nanifes will change their trajectory to aim the last hit enemy and also enemy get confused
-					You may throw multiple at once
+					'这个名字是基于纳米技术还是它的尺寸呢？'
+					击中任意敌人后，所有纳米飞刃都会改变轨迹瞄准最后命中的敌人，并使敌人陷入混乱
+					你可以一次性投掷多把纳米飞刃
 					'''
 			}
 
 			PlayingCards: {
-				DisplayName: Wooden Playing Cards
+				DisplayName: 木质扑克牌
 				Tooltip:
 					'''
-					'How can you refuse, when you are already playing'
-					Upon throwing cards there is a chance to throw ace cards
-					'Ace of diamonds will drop additional money and ace of hearts will heal player upon being hit'
-					'Ace of clubs will drop non tile breaking bombs that will explode upon being hit'
-					'Ace of spades will penetrate 3 times'
-					If rogue support is enabled player will throw all for aces at once
+					'当你已经加入游戏，怎能拒绝继续玩下去？'
+					投掷扑克牌时有一定几率投掷出王牌
+					'方块A会掉落额外的金钱，红心A在被击中时会为玩家恢复生命值'
+					'梅花A会掉落非破坏地形的炸弹，在被击中时爆炸'
+					'黑桃A可穿透三次'
+					若启用了rogue支持，玩家将一次性投掷所有四种王牌
 					'''
 			}
 
 			RaidersDagger: {
-				DisplayName: Raider's Dagger
+				DisplayName: 掠夺者之匕首
 				Tooltip:
 					'''
-					'The legendary weapon once forged by the lords of the tundra'
-					These daggers will move 1 second and then start to rotate around themselves and change their trajectory to closest enemy
-					This rotation state continues for half second and if there is no close enemy it will aim players mouse direction
-					It can penetrate 4 more time and first 3 hits it get sharpened and increase its damage by 5% and inflict bleeding
-					After it get sharp enough in last 2 hits it inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth it will always inflict serious bleeding + 5% damage increase per hit
+					'这把传奇武器曾由冻土领主亲自锻造'
+					这些匕首飞行1秒后开始围绕自身旋转，并调整其轨迹以指向最近的敌人
+					这种旋转状态持续半秒，如果没有近距离敌人，则会朝向玩家鼠标方向前进
+					它可以穿透4次，前三次命中会使匕首变得更锋利，每次增加5%伤害并造成流血效果
+					当匕首足够锋利，在最后两次命中时会施加严重流血状态
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，它将始终造成严重流血，并且每次命中增加5%伤害
 					'''
 			}
 
 			RedGrail: {
-				DisplayName: Red Grail
+				DisplayName: 赤红圣杯
 				Tooltip:
 					'''
-					'It governs blood, birth and drowning waters'
-					Upon hit any enemy or tile will form an pentagram that curse any close enemy along with spreading blood
-					Hitting any enemy both inflict curse and serious bleeding along with every close cursed enemy will take half damage
-					Curse will also decrease enemies contact damage by 10%
-					If rogue config is active and calamity is enabled in stealth hit you heal by 40
-					Can be traded with holy knight
+					'它掌控着血液、诞生与溺亡之水'
+					击中任何敌人或方块时，会形成一个五芒星阵，诅咒附近所有敌人并传播出血效果
+					每次击中敌人都会造成诅咒和严重流血状态，并且周围受到诅咒的敌人所受伤害减半
+					诅咒还会使敌人接触伤害降低10%
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将获得40点治疗效果
+					可与神圣骑士进行交易
 					'''
 			}
 
 			RustedDagger: {
-				DisplayName: Rusted Dagger
+				DisplayName: 锈蚀短剑
 				Tooltip:
 					'''
-					A weapon more utilized to put the prey into agony rather than killing it
-					Hitting enemies will highlight them for 30 second and have 25% chance to inflict bleeding for 3 second
-					If rogue config is active and calamity is enabled in stealth you throw 2 more along with they envenom target for a short time
+					这把武器更擅长让猎物痛苦不堪而非直接杀死它们
+					攻击敌人会在其身上标记30秒，并有25%几率造成3秒流血效果
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你会额外投掷两把短剑，同时对目标施加短暂的毒化效果
 					'''
 			}
 
 			ShadowIchorKnife: {
-				DisplayName: Ritual Dagger
+				DisplayName: 影脓仪式匕首
 				Tooltip:
 					'''
-					'It ended the life of many to sacrifice agony and soul for their lord'
-					While holding the dagger a skull appear above your head and direct strikes will cause skull to attack same target via nightmare channel
-					The dagger will first rotate around itself and then activate its direct strike
-					If rogue config is active and calamity is enabled in stealth you throw additional knife along with skull will do nigtmare channel
+					'为了牺牲痛苦与灵魂献给他们的主人，它结束了众多生命'
+					持有此匕首时，你的头顶会出现一颗头骨，直接打击敌人会使头骨通过噩梦通道攻击同一目标
+					匕首首先会围绕自身旋转，然后发动直接攻击
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你会额外投掷一把匕首，同时头骨会发动噩梦通道攻击
 					'''
 			}
 
 			SharpenedGlass: {
-				DisplayName: Magical Glass Shard
+				DisplayName: 魔法玻璃碎片
 				Tooltip:
 					'''
-					'It looks extremely sharp, its best to hold carefully'
-					Holding it will convert your cursor to glass cursor which cut enemies and inflict bleeding
-					Upon using item both you and your cursor will throw magical glass shard which aim you
-					Cursor have a chance to reflect weaker enemy projectiles
-					If rogue config is active and calamity is enabled in stealth you will generate shield of glass shards
+					'它看起来极其锋利，最好小心持有'
+					持有此物品时，你的光标会变为玻璃光标形态，能够切割敌人并使其流血
+					使用该物品时，你和你的光标都会投掷出追踪目标的魔法玻璃碎片
+					光标有一定几率反射较弱敌人的射弹
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你会生成一个玻璃碎片护盾
 					'''
 			}
 
 			Silkbind: {
-				DisplayName: Silkbind
+				DisplayName: 丝线牵制
 				Tooltip:
 					'''
-					'Connecting people'
-					If there is no link left hitting any enemy will link it to player and if there exist it link the enemy to previously linked one
-					There can be 3 linked enemy max and when one is damaged others will take 50% damage
-					If first enemy dies link is completely broken and need to refilled and if second dies third link get broken
-					If rogue config is active and calamity is enabled in stealth it will rip links instead which will do 4x base damage to all linked enemies
+					'将敌人紧紧相连'
+					如果没有剩余的连接，则击中任意敌人会将其与玩家链接；如果有现存的链接，则将当前敌人与先前链接的敌人相连
+					最多可以同时链接3个敌人，当其中一个受到伤害时，其他被链接的敌人也会受到50%的伤害
+					如果第一个被链接的敌人死亡，所有链接将会断裂，需要重新建立链接；若第二个敌人死亡，则第三个链接会断开
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，攻击将撕裂链接而不是建立新的链接，并对所有被链接的敌人造成4倍基础伤害
 					'''
 			}
 
 			SpectralKnife: {
-				DisplayName: Vampire Hunter Knifes
+				DisplayName: 吸血鬼猎人飞刀
 				Tooltip:
 					'''
-					'An elegant weapon for the perfect maid'
-					Upon being thrown another knife will form around you which will released either player take damage or releases attack button
-					There can be maximum 10 knives around you and knife crits will seriously bleed targets while normal strikes will apply bleeding
-					Upon normal thrown one hit any enemy it will form 3 knives around it which release after some time
-					If rogue config is active and calamity is enabled in stealth 6 additional knives form around your cursor
+					'一把优雅的武器，为完美的女仆而设计'
+					当你投掷出去后，会在你周围形成另一把飞刀，当玩家受到伤害或释放攻击键时飞刀会释放出去
+					你周围最多可以存在10把飞刀，飞刀暴击会造成严重流血效果，普通命中则会使目标受到流血状态影响
+					正常投掷时，一旦飞刀击中任意敌人，会在其周围生成3把飞刀，在一段时间后自动释放
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你的鼠标位置将额外生成6把飞刀
 					'''
 			}
 
 			StrangeKnife: {
-				DisplayName: Discordian Dagger
+				DisplayName: 混乱匕首
 				Tooltip:
 					'''
-					Not only is this dagger stranger than we think, it is stranger than we can think
-					Hitting enemies with <left>to any enemy will make its location shuffle with one of close non boss enemy enemy and hits will also decrease players chaos state debuff duration
-					<right>will form chaos dagger and hitting any enemy with this will teleport you to random location
-					Due to it uses pieces of enemies soul as sacrifice you don't get chaos state debuf
-					If rogue config is active and calamity is enabled stealth hit with <left>ability will collect every close non boss enemy to knife location
+					这把匕首不仅比我们想象中更奇特，甚至超出了我们的想象范围
+					使用<左键>击中任意敌人时，该敌人的位置将会与附近非Boss敌人之一随机交换，并且每次命中会减少玩家的混沌状态减益持续时间
+					<右键>将生成混乱之刃，用它击中任何敌人后会将你传送到随机地点
+					由于它是以敌人灵魂碎片为牺牲品，所以你不会获得混沌状态减益效果
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，使用<左键>能力会将所有附近的非Boss敌人吸引至匕首所在的位置
 					'''
 			}
 
 			ThrowableLightning: {
-				DisplayName: Lightning Bolt
+				DisplayName: 闪电箭
 				Tooltip:
 					'''
-					'There is a great disturbance in the charge'
-					Upon use you will form lightnings from your hand which will inflict charged
-					If rogue config is active and calamity is enabled in stealth enemy hits will form small charge areas for a short time
+					'电荷中产生了巨大的扰动'
+					使用时，你会从手中释放出闪电，对敌人施加充电状态
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，击中敌人时会在短时间内形成小型充电区域
 					'''
 			}
 
 			TomeofFeatherStrike: {
-				DisplayName: Feather Storm
+				DisplayName: 羽翼风暴
 				Tooltip:
 					'''
-					'A technique once mastered by harpies to hunt their prey from distance'
-					Upon being held your cursor have been changed with a bloody rotor that will both cut enemies and slightly change enemy projectile trajectory
-					Upon use you will throw storm feathers which charge enemies upon doing crit and bloody rotor will also make enemies bleed
-					Bloody rotor will be able to change feathers trajectory so keep it in mind
-					If rogue config is active and calamity is enabled in stealth additional feathers will rain from sky to your mouse direction
+					'这是曾经被鹰身女妖们用来远程捕猎猎物的一项技艺'
+					持有此物品时，你的鼠标光标会被血色旋转刀片替代，它既能切割敌人，也能轻微改变敌方射弹轨迹
+					使用时，你会投掷出风暴羽毛，造成暴击时会对敌人进行充能，同时血色旋转刀片还会使敌人流血
+					血色旋转刀片能够改变羽毛的飞行轨迹，请时刻注意这一点
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，额外的羽毛将如雨般从天空落下，沿着鼠标方向飞向敌人
 					'''
 			}
 
 			TonatiuTetl: {
-				DisplayName: Lithic Intrusion
+				DisplayName: 岩石侵入者
 				Tooltip:
 					'''
-					'HOT HOT HOT...'
-					Upon using you will throw 3 magmatic shards that go above cursor location and then rain down
-					Upon hitting any enemy these shards will explode and inflict on fire
-					If rogue config is active and calamity is enabled in stealth you throw 5 more magmatic shards
+					'炽热炽热炽热……'
+					使用后，你会投掷3枚熔岩碎片至鼠标位置上方，并随后如雨般落下
+					这些碎片击中任何敌人时会爆炸并施加燃烧状态
+					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将额外投掷5枚熔岩碎片
 					'''
 			}
 
