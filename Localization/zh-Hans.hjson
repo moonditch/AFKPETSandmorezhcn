@@ -6026,12 +6026,12 @@ Mods: {
 			}
 
 			RainbowHeartNecklace: {
-				DisplayName: Rainbow Heart Necklace
+				DisplayName: 彩虹心形项链
 				Tooltip:
 					'''
-					'Rainbows, EVERYWHERE...'
-					Increases max life by 20 + makes player 999% more colorful
-					It will also work in vanity slot
+					'彩虹,无处不在…'
+					最大生命值增加20点 + 获得999%彩虹
+					在时装栏也生效
 					'''
 			}
 
@@ -7646,7 +7646,7 @@ Mods: {
 			}
 
 			OkikuPouch: {
-				DisplayName: 宝藏袋（ 盘子女鬼）
+				DisplayName: 宝藏袋（盘子女鬼）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -9753,7 +9753,7 @@ Mods: {
 				Tooltip:
 					'''
 					'乞丐宝想要硬币!'
-					'猪猪储蓄罐每增加20金币，阶级增加1（汉化作者的提示，最高四个阶级）。使用重新道具召唤即可'
+					'猪猪储蓄罐每有20金币，增加1阶（汉化作者的提示，最高四个阶级）。使用重新道具召唤即可'
 					召唤乞丐宝跟随你
 					'''
 			}
@@ -10858,113 +10858,114 @@ Mods: {
 			}
 
 			KegMug: {
-				DisplayName: Wooden Mug of Ale
+				DisplayName: 木杯啤酒（出自为美好的世界献上祝福！）
 				Tooltip:
 					'''
-					'Isn't the whole keg a little too much?'
-					召唤Aqua跟随你
+					'整桶是不是有点太多了?'
+					召唤阿库娅跟随你
 					'''
 			}
 
 			KetchupBottle: {
-				DisplayName: Ketchup Bottle
+				DisplayName: 番茄酱瓶（出自传说之下）
 				Tooltip:
 					'''
-					'Grillbys special offer'
-					召唤Sans跟随你
+					'这让我难以全力以赴.'
+					召唤杉斯跟随你
 					'''
 			}
 
 			KoopaShell: {
-				DisplayName: Koopa Shell
+				DisplayName: 库巴壳（出自超级马力欧兄弟）
 				Tooltip:
 					'''
-					'There is something inside of this shell'
-					召唤a koopa跟随你
+					'这个壳里面有东西'
+					召唤库巴跟随你（原来那个乌龟叫库巴啊....）
 					'''
 			}
 
 			KuribohDoll: {
-				DisplayName: Kuriboh Doll
+				DisplayName: 库里波玩偶（出自游戏王 怪兽之决斗）
 				Tooltip:
 					'''
-					'It looks cute but explosive'
-					召唤Yugi跟随你
+					'看起来很有爆发力'
+					召唤武藤游戏跟随你
 					'''
 			}
 
 			LifeSquid: {
-				DisplayName: Life Squid
+				DisplayName: 生命鱿鱼（出自桑塔：半精灵英雄）
 				Tooltip:
 					'''
-					'Sadly you can't use it to increase your health'
-					召唤Shantae跟随你
+					'遗憾的是，不能用它来增加你的生命值'
+					召唤香缇跟随你
 					'''
 			}
 
 			RainbowLattice: {
-				DisplayName: Rainbow Lattice
+				DisplayName: 彩虹晶体（占位符）
 				Tooltip:
 					'''
-					'Could I interest you sir in Raid Shadow Legends?'
+					'我能让先生你对突袭：暗影传说感兴趣吗?'
 					召唤a tiny Duke Rainbow Von Ran-bow The Third to remind you Ebon#9529's sexiness among other Bri'ish stuff
-					Each time player takes damage if player is also rainbow it will attack to closest enemy with using oldest trick
-					This cause the enemy to take emotional damage and non boss enemies have 10% chance to get rainbow curse
-					This curse deal true DoT and it does not wear off until the enemy dies
+					受到伤害时，如果装备了“彩虹心形项链”，它会用特殊攻击，攻击最近的敌人
+					这会让敌人受到情绪伤害，非boss敌人有10%的几率得到彩虹诅咒
+					这个诅咒造成持续伤害，直到敌人死亡它才会结束
 					'''
 			}
 
 			SigilofCirno: {
-				DisplayName: Sigil of Cirno
+				DisplayName: 琪露诺之符（出自车万）
 				Tooltip:
 					'''
-					'A tribute belong to lord of all bakas'
-					Summons a sigil to light your path
+					'这是属于笨蛋的符文'
+					召唤徽章来照亮你的道路
 					'''
 			}
 
 			SunBadge: {
-				DisplayName: Sun Badge
+				DisplayName: 向日葵徽章（可能来自车万？）
 				Tooltip:
 					'''
-					'DDC Smile'
-					Summons a lil sunflower to light your mood up
+					'DDC微笑'
+					召唤一株小向日葵来点亮你的心情
+					（按照制作组某个画师对东方project的喜爱，不能不是吧？但我没有证据）
 					'''
 			}
 
 			ListofPossesed: {
-				DisplayName: Soul Contract Parchment
+				DisplayName: 灵魂契约羊皮纸（出自茶杯头）
 				Tooltip:
 					'''
-					'It belongs to Devil's Office'
-					召唤Cuphead跟随你
+					'这是魔鬼办公室的'
+					召唤茶杯头跟随你
 					'''
 			}
 
 			LivingFire: {
-				DisplayName: Living Flame
+				DisplayName: 燃烧的火焰（出自传说之下）
 				Tooltip:
 					'''
-					'It looks small but still hot to touch'
-					召唤Grillby跟随你
+					'它看起来很小，但摸起来还是很烫'
+					召唤烤尔比跟随你
 					'''
 			}
 
 			LostMechanicCase: {
-				DisplayName: Case of Lost Mechanic
+				DisplayName: 机修工失踪案（出自逆转裁判）
 				Tooltip:
 					'''
-					'Only one person can make clothier not guilty.'
-					召唤Miles Edgeworth跟随你
+					'只有一个人能让做衣服的人无罪.'
+					召唤御剑怜侍跟随你
 					'''
 			}
 
 			LucinaSword: {
-				DisplayName: Otherworldly royal sword
+				DisplayName: 御剑（出自任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'You feel this sword belongs to someone'
-					召唤Lucina跟随你
+					'这把剑是别人的'
+					召唤露琪娜跟随你
 					'''
 			}
 
