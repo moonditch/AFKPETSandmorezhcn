@@ -19997,7 +19997,7 @@ Mods: {
 
 			VoidBowl: {
 				DisplayName: 碗中虚无
-				你感觉到有东西在里面游动...
+				Tooltip: 你感觉到有东西在里面游动...
 			}
 
 			YellowSoul: {
