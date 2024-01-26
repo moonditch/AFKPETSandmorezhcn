@@ -258,7 +258,7 @@ Mods: {
 			IsaacChest.DisplayName: 以撒的玩具箱
 			IsaacChest2.DisplayName: 以撒的玩具箱
 			IsaacDeath.DisplayName: 阿撒泻勒
-			IsaacShadow.DisplayName: 阿撒泻勒影子
+			IsaacShadow.DisplayName: 阿撒泻勒
 			AncientObserver3.DisplayName: 远古观察者
 			AncientWormBody.DisplayName: 远古吞噬者
 			AncientWormHead.DisplayName: 远古吞噬者
@@ -10970,38 +10970,38 @@ Mods: {
 			}
 
 			MadnessinaBottle: {
-				DisplayName: ??? in a bottle
+				DisplayName: 瓶子里的???（出自暴力迪吧）
 				Tooltip:
 					'''
-					'It's filled with darkness and madness'
-					召唤Tricky in dark form跟随你
+					'它充满了黑暗和疯狂'
+					召唤黑暗形态的霍夫纳跟随你
 					'''
 			}
 
 			MagicBook: {
-				DisplayName: Magician's Book
+				DisplayName: 帕秋莉手册（出自车万）
 				Tooltip:
 					'''
-					'It belongs to Scarlet Mansion'
-					召唤Patchouli跟随你
+					'它属于红魔馆'
+					召唤帕秋莉·诺蕾姬跟随你
 					'''
 			}
 
 			MagicianHat: {
-				DisplayName: Magician Hat
+				DisplayName: 魔理沙的帽子（出自车万）
 				Tooltip:
 					'''
-					'It belongs to just an ordinary magician'
-					召唤Marisa跟随你
+					'它属于普通的魔术师'
+					召唤雾雨魔理沙跟随你
 					'''
 			}
 
 			MagneticMetal: {
-				DisplayName: Strange Metal
+				DisplayName: 奇怪的金属（出自jojo）
 				Tooltip:
 					'''
-					'It looks highly ferromagnetic'
-					召唤Mariah跟随你
+					'它看起来有高度磁性的'
+					召唤玛莱雅跟随你
 					'''
 			}
 
@@ -11080,29 +11080,29 @@ Mods: {
 			}
 
 			Meat: {
-				DisplayName: Cooked Meat
+				DisplayName: 熟肉（出自胆小狗英雄）
 				Tooltip:
 					'''
-					'It makes you feel hungry'
-					召唤Courage跟随你
+					'它会让你感到饥饿'
+					召唤胆小狗跟随你
 					'''
 			}
 
 			MechaKey: {
-				DisplayName: Mechanical Key
+				DisplayName: 机械钥匙（出自原版）
 				Tooltip:
 					'''
-					'It reminds me of something frightening.'
+					'让我想起了一些可怕的事情.'
 					召唤机械骷髅王宝宝跟随你
 					'''
 			}
 
 			MechanicalLeg: {
-				DisplayName: Mechanical leg
+				DisplayName: 机械腿（出自传说之下）
 				Tooltip:
 					'''
-					'It looks fabuluous'
-					召唤Mettaton跟随你
+					'它看起来美极了'
+					召唤镁塔顿跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
