@@ -11108,160 +11108,160 @@ Mods: {
 			}
 
 			MetroidCapsule: {
-				DisplayName: Metroid Capsule
+				DisplayName: 银河战士胶囊（出自银河战士）
 				Tooltip:
 					'''
-					'It seems dangerous'
-					召唤Metroid跟随你
+					'看起来很危险'
+					召唤银河战士跟随你
 					'''
 			}
 
 			MindEye: {
-				DisplayName: ???'s eye
+				DisplayName: 觉之瞳（出自车万）
 				Tooltip:
 					'''
-					'It knows what are you thinking'
-					召唤Satori Komeiji跟随你
+					'它知道你在想什么'
+					召唤古明地觉跟随你
 					'''
 			}
 
 			MiniScythe: {
-				DisplayName: Mini Scythe
+				DisplayName: 迷你镰刀（出自杀戮天使）
 				Tooltip:
 					'''
-					'It looks dangerous'
+					'看起来很危险'
 					召唤Zack跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			MiracleMallet: {
-				DisplayName: Miracle Mallet
+				DisplayName: 万宝槌（出自车万）
 				Tooltip:
 					'''
-					'It was once belongs to Oni but you feel it's now belong to someone else'
-					召唤Shinmyoumaru Sukuna跟随你
+					'曾经是鬼的物品，现在属于其他人了'
+					召唤少名针妙丸跟随你
 					'''
 			}
 
 			MisaoHands: {
-				DisplayName: Hands of ???
+				DisplayName: 手来自???（出自Misao）
 				Tooltip:
 					'''
-					'They are cold but  you feel something burns with revenge'
+					'它们很冷，但你会感到复仇的火焰'
 					召唤Misao跟随你
 					'''
 			}
 
 			MonsterAxe: {
-				DisplayName: Sharpened Axe
+				DisplayName: 斧头（出自三角符文）
 				Tooltip:
 					'''
-					'It looks ready for battle'
-					召唤Susie跟随你
+					'它看起来已经准备好战斗了'
+					召唤苏西跟随你
 					'''
 			}
 
 			MuddiedSardine: {
-				DisplayName: Muddied Sardine
+				DisplayName: 沙丁鱼（出自UTAU虚拟歌手）
 				Tooltip:
 					'''
-					'A Sardine in the soil?'
-					Summons Kasane Teto?
+					'土壤中的沙丁鱼?'
+					召唤重音teto?
 					'''
 			}
 
 			Murasame: {
-				DisplayName: Murasame
+				DisplayName: 帝具.妖刀·一斩必杀[村雨]（出自斩.赤红之瞳）
 				Tooltip:
 					'''
-					'You feel a tiny slice from it is enough to kill moon lord'
-					召唤Akame跟随你
+					'你觉得只要一击就可以杀死月球领主'
+					召唤赤瞳跟随你
 					'''
 			}
 
 			Mushroom: {
-				DisplayName: Special Mushroom
+				DisplayName: 特殊的蘑菇（出自超级马丽）
 				Tooltip:
 					'''
-					'Attracts someone.'
-					召唤Yoshi跟随你
+					'吸引某人.'
+					召唤耀西跟随你
 					'''
 			}
 
 			MushyBottleofMud: {
-				DisplayName: Fungi infected bottle of mud
+				DisplayName: 真菌感染淤泥的土壤（出自原版）
 				Tooltip:
 					'''
-					'It contains enough humus for both worms and fungis'
-					召唤a truffle worm跟随你
+					'它含有足够的腐殖质供蠕虫和真菌生存'
+					召唤松露虫跟随你
 					'''
 			}
 
 			MushyEgg: {
-				DisplayName: Bug egg
+				DisplayName: 蘑菇瓢虫蛋（出自原版）
 				Tooltip:
 					'''
-					'It is surrounded with mushroom spores'
-					召唤a mushi ladybug跟随你
+					'它被蘑菇孢子包围着'
+					召唤蘑菇瓢虫跟随你
 					'''
 			}
 
 			MusicCd: {
-				DisplayName: Music Cd
+				DisplayName: 音乐cd（出自传说之下）
 				Tooltip:
 					'''
-					'There are lots of music inside of this'
-					召唤Napstablook跟随你
+					'这里面有很多音乐'
+					召唤纳普斯特跟随你
 					'''
 			}
 
 			Myrtenaster: {
-				DisplayName: Myrtenaster
+				DisplayName: 柳叶白菀（出自RWBY）
 				Tooltip:
 					'''
-					'It belongs to a huntress'
-					召唤Weiss跟随你
+					'它属于一个女猎人'
+					召唤魏丝·雪倪跟随你
 					'''
 			}
 
 			NecklaceofKindness: {
-				DisplayName: Flower Necklace
+				DisplayName: 花蕾项链（出自More Pets Lore）
 				Tooltip:
 					'''
-					'It once belongs to a kind soul'
-					'Even holding this makes you remember your childish dreams and makes you smile'
+					'它曾经属于一个善良的灵魂'
+					'拿着这个也会让你想起儿时的梦，让你感觉到开心'
 					'''
 			}
 
 			NightmareBall: {
-				DisplayName: Nightmare Sphere
+				DisplayName: 梦魇之球（出自星之卡比）
 				Tooltip:
 					'''
-					'Maybe you should call Kirby'
-					召唤Nightmare跟随你
+					'也许你应该召唤卡比'
+					召唤梦魇跟随你
 					'''
 			}
 
 			OddiesCollar: {
-				DisplayName: Oddie's Collar
+				DisplayName: 乔恩的衣领（出自加菲猫）
 				Tooltip:
 					'''
-					'It may be helpful to someone find who its looking for'
-					召唤Garfield跟随你
+					'它可能会帮助人类找到他们要找的人'
+					召唤加菲猫跟随你
 					'''
 			}
 
 			Okiku: {
-				DisplayName: 盘子女鬼 Doll
-				Tooltip: "'It looks cursed'"
+				DisplayName: 盘子女鬼玩偶
+				Tooltip: "'它看起来被诅咒了'"
 			}
 
 			OldGlasses: {
-				DisplayName: Antique Glasses
+				DisplayName: 古董眼镜（出自超级马力欧兄弟）
 				Tooltip:
 					'''
-					'Someone may need these'
+					'有人可能需要这些'
 					召唤Prof. E. Gadd跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -11278,16 +11278,16 @@ Mods: {
 			}
 
 			OldWalkingStick: {
-				DisplayName: Old Walking Stick
-				Tooltip: "'Summons a pet Old Lady'"
+				DisplayName: 老手杖
+				Tooltip: "'召唤宠物老太太'"
 			}
 
 			OldWizardHat: {
-				DisplayName: Ancient mage hat
+				DisplayName: 古代法师帽（出自最终幻想14）
 				Tooltip:
 					'''
-					'I want to wear it'
-					召唤Black Mage跟随你
+					'我想戴上它'
+					召唤黑魔法师跟随你
 					'''
 			}
 
@@ -11993,7 +11993,7 @@ Mods: {
 				DisplayName: Ancient skull
 				Tooltip:
 					'''
-					'It looks dangerous and ancient'
+					'看起来很危险 and ancient'
 					召唤baby Oblivion跟随你
 					'''
 			}
