@@ -20472,282 +20472,282 @@ Mods: {
 			}
 
 			AntlionStaff: {
-				DisplayName: Antlion Staff
+				DisplayName: 蚁狮法杖
 				Tooltip:
 					'''
-					'It's ready to spitting both facts and sands'
-					Summons a tiny antlion charger to spit sand on your enemies which may caught to non boss enemies eyes
-					It also be able to burry itself to ground to do snap attack
+					'无论是事实还是沙砾，它都已准备就绪'
+					召唤一只小型蚁狮冲锋者向敌人喷射沙子，可能使非Boss敌人眼目受损
+					同时也能潜入地面进行突袭攻击
 					'''
 			}
 
 			AquaticStaff: {
-				DisplayName: Aquatic Staff
+				DisplayName: 水生法杖
 				Tooltip:
 					'''
-					'What doesn't kill you, usually succeeds in the second attempt'
-					Summons a red crab to fight for you
-					Upon <right>use this item on an sentry it will assign it to be carried by a red crab
+					'未能杀死你的事物，通常会在第二次尝试中成功'
+					召唤一只红色螃蟹为你战斗
+					按<右键>使用此物品于哨兵时，会让红色螃蟹携带它
 					'''
 			}
 
 			BabySnatcherStaff: {
-				DisplayName: Baby Snatcher Staff
+				DisplayName: 婴儿掠夺者法杖
 				Tooltip:
 					'''
-					'Meat's meat, and a plant's gotta eat'
-					Using it will summon a baby snatchers to bite on your enemies
-					Upon bite they inflict bio frenzy which cause enemies contact damage increase by 10% and also inform others about the prey belong to it
-					If enemy have immunity against it due to lack of chemical indicators multiple plant may target it and feast upon the fools flesh
-					Biting enemies have a small chance to inflict poison + upon killing any enemy they go into chewing state
-					They don't attack in this state but if player use item with <right>they spit the flesh and bones to mouse location and go into frenzy state
-					If player do not use item with <right>and instead wait after they swallow the remnants player get healed with it
+					'肉就是肉，植物也得吃东西'
+					使用它会召唤婴儿掠夺者攻击敌人
+					一旦咬到敌人，它们会造成生物狂乱效果，使敌人的接触伤害增加10%，同时通知其他掠夺者这是属于它的猎物
+					若敌人因缺乏化学指示而免疫该效果，多只植物可能会瞄准并享用这些无知者的肉体
+					咬击敌人有一定几率造成中毒，并在击杀任何敌人后进入咀嚼状态
+					在咀嚼状态下它们不会主动攻击，但若玩家按<左键>键使用物品，它们会将咀嚼后的肉和骨头吐向鼠标位置，并进入狂乱状态继续攻击
+					如果玩家不按<左键>键而是等待其吞下残骸，则玩家会通过这种方式得到治疗
 					'''
 			}
 
 			BuddyinaBox: {
-				DisplayName: Buddy in a Box
+				DisplayName: 盒中伙伴
 				Tooltip:
 					'''
-					'Friendship is the only cement that will ever hold the world together'
-					Using the item will summon a tiny friend with respect to the biome player is in that get slightly weaker if player left that biome
-					Favouriting item do periodic check & adjust with respect to prefered biome
-					If not [c/ffff00:Secret Formula] is being equipped it will lost its true form
+					'友谊是唯一能将世界团结在一起的黏合剂'
+					使用该物品会召唤一个与玩家所在生物群落相关的微型朋友，如果玩家离开当前生物群落，它会变得稍弱
+					收藏该物品后，系统会定期检查并根据玩家偏好的生物群落进行调整
+					若未装备[c/ffff00:秘密配方]，它将失去其真实形态
 					'''
 			}
 
 			CephalogeistStaff: {
-				DisplayName: Cephalogeist Staff
+				DisplayName: 头足幽灵法杖
 				Tooltip:
 					'''
-					'Hates yellow orbs'
-					Summons colored ghost squids to fight for you and upon their rival is active they get stronger
-					<right>will cycle the closest ghost squid through its colours + Each ghost take half slot
+					'讨厌黄色光球'
+					召唤彩色幽灵乌贼为你战斗，当它们遇到同类敌人时会变得更强大
+					<右键>可使最近的幽灵乌贼切换颜色，每个幽灵乌贼占用半个物品栏位
 					'''
 			}
 
 			ConsciousGoldenFlower: {
-				DisplayName: Friendly Neighbourhood Flower
+				DisplayName: 友邻金花
 				Tooltip:
 					'''
-					'This world is his playground'
-					Upon used it will summon a golden flower to help your journey
-					With respect to enemies distance it uses various different attack types
-					If player is on ground it will also connect its vines with ground and gain new attacks
-					There can be only 1 golden flower active
+					'这个世界是它的游乐场'
+					使用后会召唤一朵金色花朵帮助你冒险
+					根据与敌人的距离，它会使用各种不同的攻击方式
+					如果玩家处于地面，它还会将藤蔓连接至地面并获得新攻击技能
+					同一时间只能存在一朵金色花朵
 					'''
 			}
 
 			CorruptedArcStaff: {
-				DisplayName: Corrupted Arc Staff
+				DisplayName: 腐化弧光法杖
 				Tooltip:
 					'''
-					'Gnome lord will on your side today'
-					Using it will summon a tiny raider to order gnomes to fight for you
-					Gnome lords blessing will both protect and empower these gnomes
+					'今天，地精领主站在你这一边'
+					使用它会召唤一名微型突袭者命令地精为你战斗
+					地精领主的祝福既能保护这些地精，又能增强它们的力量
 					'''
 			}
 
 			CursedFlameStaff: {
-				DisplayName: Cursed Flame Staff
+				DisplayName: 诅咒火焰法杖
 				Tooltip:
 					'''
-					'I can hear its whispering'
-					Summons a rotling to attack your enemies
-					Each use will empower rotling and cause it to gain new ability up to max form instead
+					'我能听到它的低语'
+					召唤一只腐灵攻击你的敌人
+					每次使用都会强化腐灵，使其获得新的能力直至达到最终形态
 					'''
 			}
 
 			CursedTooth: {
-				DisplayName: Cursed Tooth
+				DisplayName: 诅咒之牙
 				Tooltip:
 					'''
-					'A relic once ripped from an Eldritch by a spirit for tooth fairy'
-					'After spirit realize that the fairy is killed by dentists to stop denture price devaluations it put it to other toys it have'
-					'Using it will summon 克苏鲁之眼 to fight for you'
-					'While players life is above 50% it will protect it's distance and summon it's servants'
-					'While players life is below 50% it will ram to it's enemies with increased damage and inflict fear'
-					'If it devours any enemy while player have less than 50% life player will be healed by 1'
-					'There can be only one 克苏鲁之眼 active'
+					'这曾是从一位被精灵拔下的克苏鲁牙齿制成的遗物，为了给牙仙换钱'
+					'当精灵意识到牙仙因牙医阻止义齿价格贬值而遭杀害后，它将这颗牙齿与其他玩具结合'
+					'使用它可以召唤克苏鲁之眼为你战斗'
+					'当玩家生命值高于50%时，克苏鲁之眼会保持一定距离，并召唤其仆从进行战斗'
+					'当玩家生命值低于50%时，克苏鲁之眼会以增加的伤害冲向敌人并造成恐惧效果'
+					'若克苏鲁之眼吞噬任何敌人且玩家生命值少于50%，玩家将会恢复1点生命值'
+					'同一时间只能存在一个克苏鲁之眼'
 					'''
 			}
 
 			HeartyHeathenStaff: {
-				DisplayName: Hearty Heathen Staff
+				DisplayName: 热情异教徒法杖
 				Tooltip:
 					'''
-					'Stop playing with your food'
-					Summons Turkor Jr to peck your foes
-					Enemies killed by them have a small chance to drop hot sauce and upon picking them all of Turkor Jr gets heated for a time
-					In heated mode they cycle between different fire themed attacks
+					'别玩弄你的食物'
+					召唤土寇小弟啄击你的敌人
+					被其杀死的敌人有一定几率掉落热辣酱汁，当收集到所有酱汁时，所有土寇小弟将进入一段时间的炽热状态
+					在炽热模式下，它们会轮流使用不同的火焰主题攻击技能
 					'''
 			}
 
 			IchorStaff: {
-				DisplayName: Ichor Sprayer Staff
+				DisplayName: 脓血喷射法杖
 				Tooltip:
 					'''
-					'[Insert a Sexual Joke Here]'
-					Using it will summon a baby ichor sticker to fight for you
-					It will shoot overcharged ichor blast that cause splash after hitting any enemy
-					<right>weapon use will make it accept enemy closest to mouse as appropriate host and latch into its brain
-					When latch it cause its both DR and defense decrease and suck its blood to cause ichor shower
-					When its too far from player it stops its latch state and return into brawl state
+					'[在此插入一个性暗示笑话]'
+					使用它会召唤一只婴儿脓血贴纸为你战斗
+					它会发射过载的脓血冲击波，在击中任何敌人后产生溅射效果
+					按<右键>使用武器时，它会选择鼠标附近最近的敌人作为合适的宿主并附着在其大脑上
+					附着后，敌人的减伤和防御都会降低，并吸取其血液造成脓血阵雨
+					当它离玩家太远时，会停止附着状态并返回近战状态
 					'''
 			}
 
 			LifebringerStaff: {
-				DisplayName: Lifebringer Staff
+				DisplayName: 生命赋予者法杖
 				Tooltip:
 					'''
-					'If you believe in yourself, with a tiny pinch of magic all your dreams can come true!'
-					Summons a tiny druidic spirit to fight for you
-					When at least 1 is active bless player + they attack with leech seeds that infects the host
-					In infection they get randomly give various nature based debuff + death while it have leech effect cause them to explode into poisonous gas
-					When this occur they drops thorn seeds that cause aggressive grow upon hitting tile
-					Holding harvester empower them + each minion increase efficiency by 0.5
+					'只要你相信自己，再加上一点点魔法，你的梦想都能成真！'
+					召唤一个微型德鲁伊精神为你战斗
+					至少有一个在场时会祝福玩家，并用吸血种子攻击敌人，感染宿主
+					被感染的敌人会随机获得各种基于自然的减益效果，当它们带有吸血效果时死亡会爆炸生成有毒气体
+					此时，它们会掉落荆棘种子，在触地后会迅速生长
+					持有收割者可以增强它们的力量，每多一个随从增加0.5的效率
 					'''
 			}
 
 			LihzahrdianDefendersStaff: {
-				DisplayName: Lihzahrdian Defender's Staff
+				DisplayName: 利扎里安守护者之杖
 				Tooltip:
 					'''
-					'By using that slimes advanced circutry you manage to design a tiny version of the guardian'
-					Summons a tiny golem to fight for you
-					When players hp is below certain level its head will deattach and start to attack close enemies
+					'通过利用那些史莱姆的先进电路技术，你成功设计出了一个小型版的守护者'
+					召唤一个小型石魔像为你作战
+					当玩家的生命值低于一定水平时，它的头部会分离并开始攻击附近的敌人
 					'''
 			}
 
 			Parasoul: {
-				DisplayName: Para-soul
+				DisplayName: 伞魂
 				Tooltip:
 					'''
-					'Rero rero rero rero... Ah...'
-					Summons mini kasa-obakes to lick your opponents
-					Grants slow fall while being held + graveyard enemies become friendly in graveyard
+					'嘞嘞嘞嘞... 啊...'
+					召唤迷你伞妖精去舔舐你的对手
+					持有时赋予缓慢降落效果，在墓地内使墓地敌人变为友好状态
 					'''
 			}
 
 			PhisWhisper: {
-				DisplayName: Phi's Whisper
+				DisplayName: 菲的私语
 				Tooltip:
 					'''
-					'Never without your love...'
-					Summons careless wisps to fight on your side
-					Hits inflict short duration cursed flames
-					Upon players death they fuel with bloodlust and continue to fight
-					In this state their attacks get much more aggressive as well as inflict soulblight instead
-					When player gets revived they return to normal state and teleport around player
+					'永远不离开你的爱……'
+					召唤漫不经心的灵体为你战斗
+					攻击会施加短暂持续时间的诅咒火焰
+					在玩家死亡时，它们会被嗜血驱动继续战斗
+					在这种状态下，它们的攻击变得更激进，并改为造成灵魂枯萎伤害
+					Wh当玩家复活时，它们会恢复正常状态并围绕玩家进行传送
 					'''
 			}
 
 			ResonanceRadio: {
-				DisplayName: Resonance Radio
+				DisplayName: 共振无线电
 				Tooltip:
 					'''
-					'The Universe doesn't speak English. It speaks frequency'
-					Summons tiny bloodseeking drones to fight for you
-					If player have more than 2 active drone with <right>player could merge 2 tiny drone into bigger one
-					With respect to targets distance drones attack style changes
+					'宇宙不说英语，它用的是频率'
+					召唤微型寻血无人机为你战斗
+					如果玩家拥有超过2个激活的无人机时，按<右键>键可以将2个小无人机合并成一个大的
+					根据目标的距离，无人机的攻击方式会发生变化
 					'''
 			}
 
 			SavingGraceStaff: {
-				DisplayName: Saving Grace Staff
+				DisplayName: 救赎之杖
 				Tooltip:
 					'''
-					'My faith protects me'
-					Using it will spawn guardian and each use will level up it + each level cost half minion slot
-					Full shield formation give 5% increased side DR + <right>make shield bash to player direction with 15 second cooldown
-					Minion will be able to damage enemies only while in full charge mode + it inflicts salvation
-					This will repel enemies + give first hit salvation effect along with reflecting projectiles
-					Each level along with increase max life by 10 + salvation shield charge faster
+					'我的信仰守护着我'
+					使用它会生成一名守卫者，并且每次使用都会提升其等级，每个等级占用半个随从栏位
+					满盾形态提供5%侧面减伤，<右键>可使其向玩家方向发动盾击，冷却时间为15秒
+					只有在完全充能状态下，随从才能对敌人造成伤害，并施加救赎效果
+					救赎效果会排斥敌人，同时赋予首次命中的救赎效果以及反射投射物的能力
+					每升一级，最大生命值增加10点，救赎护盾的充能速度加快
 
 					'''
 			}
 
 			SlimyRemains: {
-				DisplayName: Slimy Remains
+				DisplayName: 黏液残骸
 				Tooltip:
 					'''
-					'Presense of the king in war controls the victory'
-					Summons a miniature king slime to fight for you
-					In aggressive mode it does multiple attacks while in passive mode it raises slimy flag while attacking slower
-					While flag is active other slimes do 10% more damage + they get twice faster
-					There can be only one miniature king slime active
+					'战时国王的存在决定胜利'
+					召唤一只迷你王史莱姆为你作战
+					在激进模式下它会进行多次攻击，在被动模式下则会升起黏液旗帜并降低攻击速度
+					当旗帜激活时，其他史莱姆造成的伤害提高10%，移动速度翻倍
+					同一时间只能存在一只迷你王史莱姆
 					'''
 			}
 
 			StaffoftheMechaHare: {
-				DisplayName: Staff of the Mecha-Hare
+				DisplayName: 机械兔法杖
 				Tooltip:
 					'''
-					'I'll be scared later. right now I'm too mad'
-					Summons a B.U.N.-E. to fight for you which have 2 modes
-					Aggressive: Dashes to enemies and occasionally stop and cause a barrage of homing rockets
-					Defensive: Get close to player and form energy shield + leave short timed sparks
-					This shield will increase players defense + DR
-					<right>use the item will change its mode
+					'我现在很生气，恐惧稍后再来'
+					召唤一只B.U.N.-E.为你战斗，它具有两种模式：
+					- 攻击模式：冲向敌人，并偶尔停下来发动一阵追踪火箭弹幕
+					- 防御模式：靠近玩家并形成能量护盾，同时留下短暂持续的火花。
+					这个护盾将提高玩家的防御和减伤能力
+					<右键>使用该物品会切换其模式
 					'''
 			}
 
 			StaffoftheSpiritualist: {
-				DisplayName: Staff of the Spiritualist
+				DisplayName: 通灵师之杖
 				Tooltip:
 					'''
-					May you find all you have lost
-					Using it will summon a tiny spirit collector and a cool crow to protect you
-					There can be only one pair be active and they will take 1.5 minion slots
+					愿你找回所有失去的一切
+					使用它将召唤一只小型灵魂收集者和一只酷炫的乌鸦来保护你
+					同一时间只能激活一对这样的组合，它们占用1.5个随从栏位
 					'''
 			}
 
 			StellarOrbStaff: {
-				DisplayName: Stellar Orb Staff
+				DisplayName: 星辰魔球法杖
 				Tooltip:
 					'''
-					'Favorite snacks include pellets and ghost'
-					Summons an asteroid head to eat your foes which cause player to get well fed upon successful consumption
-					<right>item use player could generate pellet path from its location to mouse location if any of them is on screen
-					Final pellet is power pellet and upon consuming it asteroid head get stronger for a short time
-					The longer the path is the higher its duration + empowerment but this have 30 second cooldown
-					Upon its rivals are also summoned it will get stronger
+					'最爱的食物包括小丸子和幽灵'
+					召唤一颗会吞噬敌人的小行星头，成功吞噬后会使玩家获得饱食效果
+					<右键>使用物品时，如果屏幕上有小行星头或鼠标位置，则可以生成一条从小行星头当前位置到鼠标位置的小丸子路径
+					路径终点的小丸子是力量丸子，吃掉它会使小行星头在短时间内变得更强大
+					路径越长，强化效果持续时间和强度越高，但此技能有30秒冷却时间
+					当它的对手也被召唤出来时，小行星头的力量会进一步增强
 					'''
 			}
 
 			TheEternalHorizon: {
-				DisplayName: The Eternal Horizon
+				DisplayName: 永恒地平线
 				Tooltip:
 					'''
-					'His scorched soul finally found a long-sought salvation'
-					Summon a baby cacodemon to fight for you
-					If there is already baby cacodemon active it instead summons twisted pairs to protect it
-					Twisted pairs could attack to their respective side of baby cacodemon
+					'他焦灼的灵魂终于找到了久违的救赎'
+					召唤一只小邪魔为你战斗
+					如果已有小邪魔在场，则会召唤一对扭曲双子来保护它
+					扭曲双子能各自在其对应侧攻击小邪魔附近的敌人
 					'''
 			}
 
 			VerdeliteStaff: {
-				DisplayName: Verdelite Staff
+				DisplayName: 绿锂石法杖
 				Tooltip:
 					'''
-					'Ancient sentinels of past to stop the spread of evil'
-					Summons a verdelite cystal to appear on random locations of your screen
-					Upon holding mouse on them long enough it generate a damaging area along with exploding into homing druidic leaves
-					Each successful attempt amount of leaf increase + it gets stronger but its cooldown before reset decrease
-					If player cannot hold it enough before its cooldown end its level reset
+					'古老守卫者，阻止邪恶的蔓延'
+					召唤一颗随机出现在屏幕上的绿锂石水晶
+					当鼠标长按水晶足够时间时，会产生一个伤害区域，并且水晶会爆炸成追踪德鲁伊树叶
+					每次成功触发，飞叶的数量增加且威力增强，但重置冷却时间缩短
+					如果玩家未能在冷却结束前保持足够长的时间，则其等级重置
 					'''
 			}
 
 			WitheringSunStaff: {
-				DisplayName: Withering Sun Staff
+				DisplayName: 凋零日耀法杖
 				Tooltip:
 					'''
-					'Nobody can withstand the ultimate energy!'
-					It slowly generates withered beam to attack closest enemies
-					When summoned minions will get overheated which cause them to do contact damage as well as randomly ignite air
-					This ignited air deals 75% of minions base damage + minion contact hits inflict inferno
-					Flame based vanilla + afkpets debuffs last 50% shorter
-					There can be max 1 withering sun active
+					'无人能够抵挡这终极能量的冲击！'
+					缓慢生成凋零光束攻击最近的敌人
+					当召唤出随从后，它们会过热，造成接触伤害并随机引燃空气
+					这种引燃的空气会造成相当于随从基础伤害75%的持续伤害，并且随从的接触打击将附带炼狱效果
+					基于火焰的游戏原版和AfkPets减益效果持续时间缩短50%
+					最多只能同时存在一个凋零日耀的效果
 					'''
 			}
 
@@ -21266,7 +21266,7 @@ Mods: {
 			}
 
 			HollowMask: {
-				DisplayName: 空洞面具
+				DisplayName: 空洞面具(出自玩具熊的五夜后宫2)
 				Tooltip:
 					'''
 					'其他人像动物一样麻木，但我真的意识到了什么'
