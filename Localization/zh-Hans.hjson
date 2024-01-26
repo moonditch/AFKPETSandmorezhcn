@@ -148,7 +148,7 @@ Mods: {
 			Ocram.DisplayName: 奥库瑞姆
 			ServantofOcram.DisplayName: 奥库瑞姆的仆人
 			TurkorBody.DisplayName: 不感恩的火鸡
-			TurkorHead.DisplayName: 不感恩的火鸡的头
+			TurkorHead.DisplayName: 不感恩的火鸡
 			NecromancerDummyDeath.DisplayName: 死灵傀儡法师
 			NecromancerDummyDespawn.DisplayName: 死灵傀儡法师
 			NecromancerDummyNpc.DisplayName: 死灵傀儡法师
@@ -1485,13 +1485,13 @@ Mods: {
 			}
 
 			AllergicCuteness: {
-				DisplayName: Allergic to adorableness
-				Description: Deadly Cuteness
+				DisplayName: 过敏
+				Description: 致死量的可爱
 			}
 
 			AngelicFlames: {
 				DisplayName: 圣焰
-				Description: You are burning with your sins
+				Description: 你的罪恶在燃烧
 			}
 
 			ArgaliaStrike: {
@@ -1575,8 +1575,8 @@ Mods: {
 			}
 
 			Fluffy: {
-				DisplayName: Fluffy
-				Description: Too Cute
+				DisplayName: 毛茸茸
+				Description: 太可爱了，好像打一拳
 			}
 
 			FreezeOut: {
@@ -2210,7 +2210,7 @@ Mods: {
 
 			EyeOfCthulhu: {
 				DisplayName: 克苏鲁之眼
-				Description: "'You call the ocular menace to protect you.'"
+				Description: "'你召唤了魔眼来保护你'"
 			}
 
 			EyeRoll: {
@@ -3556,8 +3556,8 @@ Mods: {
 			}
 
 			CookieCharged: {
-				DisplayName: Spirited
-				Description: Bat and javelin charge speed increase by 10% + immunity to slow debuff
+				DisplayName: 饼干赐福
+				Description: 提高 10% 球棒和标枪的充能速度，免疫缓慢
 			}
 
 			Corona: {
@@ -4036,8 +4036,8 @@ Mods: {
 			}
 
 			SkeletonSniper: {
-				DisplayName: Tiny Spirituals
-				Description: It seems they find you rad
+				DisplayName: 灵魂收集者
+				Description: 看来他们觉得你很酷
 			}
 
 			Skeletron2: {
@@ -4196,13 +4196,13 @@ Mods: {
 			}
 
 			AmberFlower: {
-				DisplayName: Spiritual Flower
-				Description: Smells like your childhood dreams
+				DisplayName: 琥珀之花
+				Description: 闻起来像你儿时午后的美梦
 			}
 
 			BabySnatcher: {
-				DisplayName: Baby Snatcher
-				Description: Looks hungry
+				DisplayName: 抓人草
+				Description: 看起来饥肠辘辘
 			}
 
 			BoneThrowerSkeleton: {
@@ -4211,98 +4211,98 @@ Mods: {
 			}
 
 			BuddyMinions: {
-				DisplayName: Tiny Buddies
-				Description: Instant Friendship
+				DisplayName: 小精灵
+				Description: 友谊地久天长
 			}
 
 			Cacodemon: {
-				DisplayName: Baby Cacodemon
-				Description: Even at such young ages their flames are still strong enough to make people toast
+				DisplayName: 小邪魔
+				Description: 即使在这么小的年纪，它的火焰仍然强大到足以把人烤焦
 			}
 
 			CursedSpirit: {
-				DisplayName: Tiny Druidic Spirit
-				Description: I'm ready, I'm ready
+				DisplayName: 德鲁伊精灵
+				Description: 我准备好了，我准备好了
 			}
 
 			FireSpirit: {
-				DisplayName: Rotling
-				Description: I've been through this before
+				DisplayName: 腐灵
+				Description: 我曾见过它
 			}
 
 			Ghosts: {
-				DisplayName: Asteroid Head
-				Description: WAKA WAKA
+				DisplayName: 流星头
+				Description: 哇卡哇卡
 			}
 
 			IchorSticker: {
-				DisplayName: Baby Ichor Sticker
-				Description: Ah...Piss!
+				DisplayName: 灵液黏黏怪
+				Description: 啊...舒畅！
 			}
 
 			KingSlime: {
-				DisplayName: King Slime
-				Description: Luckily slimes are on your side today
+				DisplayName: 投诚史莱姆王
+				Description: 幸运的是，现在史莱姆站在你这边
 			}
 
 			MiniKasaObake: {
-				DisplayName: Mini Kasa-Obake
-				Description: "[Insert lick joke here]"
+				DisplayName: 迷你伞妖
+				Description: "[在此处插入舔笑话]"
 			}
 
 			MinionBune: {
-				DisplayName: Reprogrammed B.U.N.-E.
-				Description: GET HIM
+				DisplayName: 重编程机械兔兔
+				Description: 抓 住 他
 			}
 
 			Phi: {
-				DisplayName: Careless Wisp
-				Description: Time can never mend whisper of the good wisps
+				DisplayName: 漫不经心的灵体
+				Description: 时间永远无法弥补菲的私语
 			}
 
 			PirateCrossBow: {
-				DisplayName: Tiny Raider
-				Description: Blood for Gnome Lord
+				DisplayName: 小掠夺者
+				Description: 为地精领主血战
 			}
 
 			PortableFlowey: {
-				DisplayName: Flowey
-				Description: It's up to me to get you a REAL happy ending
+				DisplayName: 花花
+				Description: 现在轮到我来给你一个真正幸福的结局了
 			}
 
 			RedCrab: {
-				DisplayName: Red Crab
-				Description: You've got to keep a sharp eye out for him
+				DisplayName: 红螃蟹
+				Description: 你必须密切注意它
 			}
 
 			SatlaDrone: {
-				DisplayName: Tiny Combat Drone
-				Description: TARGET LOCKED
+				DisplayName: 微型寻血无人机
+				Description: 目 标 已 锁 定
 			}
 
 			SkeletonCommando: {
-				DisplayName: Tiny Golem
-				Description: He's Just standing There... Menacingly!
+				DisplayName: 小型石巨人魔像
+				Description: 它就静静的站在那里...一言不发！
 			}
 
 			SpookySpirit: {
-				DisplayName: Ghost Squids
-				Description: Game On
+				DisplayName: 幽灵乌贼
+				Description: 游戏开始了
 			}
 
 			TinyAntlion: {
-				DisplayName: Tiny Antlion
-				Description: Ready to bite
+				DisplayName: 小蚁狮马
+				Description: 跃跃欲吐
 			}
 
 			TurkorHead: {
-				DisplayName: Turkor Jr
-				Description: Aviary Action
+				DisplayName: 愤怒火鸡
+				Description: 饲养场暴动了
 			}
 
 			WitheringSun: {
-				DisplayName: Withering Sun
-				Description: The sun continues to burn today
+				DisplayName: 日耀凋零
+				Description: 今天太阳继续燃烧
 			}
 
 			SuperStar: {
@@ -4331,8 +4331,8 @@ Mods: {
 			}
 
 			DemonBuff: {
-				DisplayName: Demonic Presense
-				Description: You feel stronger
+				DisplayName: 双子恶魔
+				Description: 你感到自己变强了
 			}
 
 			MoonCrit: {
@@ -4461,8 +4461,8 @@ Mods: {
 			}
 
 			TinyGolem: {
-				DisplayName: Tiny Golem
-				Description: It's looking for someone
+				DisplayName: 石小人
+				Description: 它正寻找什么
 			}
 
 			TinyRobbieRotten: {
@@ -4551,8 +4551,8 @@ Mods: {
 			}
 
 			VerdeliteCrystal: {
-				DisplayName: Verdelite Crystal
-				Description: It believes it will not be left alone anymore
+				DisplayName: 绿锂石水晶
+				Description: 它相信自己再也不会孤单了
 			}
 
 			VigorBoosterCooldown: {
@@ -4947,8 +4947,8 @@ Mods: {
 				Tooltip:
 					'''
 					'面团卷卷，馅儿满满。来点秘诀尝一尝'
-					它能够提升“精神”增益效果，额外提供轻微的基于移动的属性加成，并赋予祝福双跳能力
-					当装备此物品时，将解锁饼干盒军火库的真正潜力。
+					提高饼干赐福的增益效果，提高移动速度和跳跃速度，并赋予祝福二段跳能力
+					当装备此物品时，将解锁饼干军火武器的真正潜力
 					'''
 			}
 
@@ -5376,7 +5376,7 @@ Mods: {
 			}
 
 			SlimyTENG: {
-				DisplayName: 史莱姆藤
+				DisplayName: 凝胶藤
 				Tooltip:
 					'''
 					'粘液资本用来存储损失的能量的基本设备'
@@ -8774,7 +8774,7 @@ Mods: {
 			}
 
 			AntlionStatue: {
-				DisplayName: Antlion Charger雕像
+				DisplayName: 蚁狮马雕像
 				Tooltip: ""
 			}
 
@@ -12539,7 +12539,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks tiny but still it may be enough for something'
-					召唤a tiny golem跟随你
+					召唤a 石小人跟随你
 					'''
 			}
 
@@ -13046,13 +13046,13 @@ Mods: {
 			}
 
 			GoldenKingSlimeIdol: {
-				DisplayName: Golden King Slime Idol
+				DisplayName: Golden 史莱姆王 Idol
 				Tooltip:
 					'''
 					'There is a tiny note on it's back
 					The kind king and brave heroes are in our heart and memory
 					Using it will let the 政客史莱姆 take action
-					只能在夜晚使用 and after you defeat king slime and slimes last hope
+					只能在夜晚使用 and after you defeat 史莱姆王 and slimes last hope
 					'''
 			}
 
@@ -14841,8 +14841,8 @@ Mods: {
 				DisplayName: 幽瞳镰刀
 				Tooltip:
 					'''
-					'攻击敌人将使下次攻击召唤一个微小仆从为你战斗
-					'效率属性将提升使用此工具收割植物和干草时的采集速度'
+					攻击敌人将使下次攻击召唤一个微小仆从为你战斗
+					效率属性将提升使用此工具收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14851,10 +14851,10 @@ Mods: {
 				Tooltip:
 					'''
 					'丰收月夜的最佳助手'
-					'可用于收集藤绳，持握时可免疫蛛网缠绕状态'
-					'攻击敌人会使其流血'
-					'收割植物时有一定几率额外掉落神秘种子'
-					'效率属性将提升此工具用于收割植物和干草时的采集速度'
+					可用于收集藤绳，持握时可免疫蛛网缠绕状态
+					攻击敌人会使其流血
+					收割植物时有一定几率额外掉落神秘种子
+					效率属性将提升此工具用于收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14863,8 +14863,8 @@ Mods: {
 				Tooltip:
 					'''
 					'南瓜王的专属武器'
-					'收割植物时有一定几率额外掉落南瓜'
-					'效率属性将提升此工具用于收割植物和干草时的采集速度'
+					收割植物时有一定几率额外掉落南瓜
+					效率属性将提升此工具用于收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14873,10 +14873,10 @@ Mods: {
 				Tooltip:
 					'''
 					'唯有真正的猎人才能打造如此角度与锋利度兼具的利器'
-					'可用于从藤蔓上收集藤绳'
-					'配备远程控制功能可进行强力短距离刺击'
-					'持有时玩家将免疫被蛛网缠绕，并且暴击会造成流血效果'
-					'效率属性将提升此工具用于收割植物和干草时的采集速度'
+					可用于从藤蔓上收集藤绳
+					配备远程控制功能可进行强力短距离刺击
+					持有时玩家将免疫被蛛网缠绕，并且暴击会造成流血效果
+					效率属性将提升此工具用于收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14895,7 +14895,7 @@ Mods: {
 				DisplayName: 蛙钩
 				Tooltip:
 					'''
-					''一种优雅的生物，以鸟类和小精灵为食'
+					'一种优雅的生物，以鸟类和小精灵为食'
 					在水下时，钩爪的距离和速度大幅增加
 					在陆地上，由于其皮肤变干，钩爪的距离较短且速度较慢
 					'''
@@ -15213,15 +15213,15 @@ Mods: {
 			}
 
 			MirrorofMirages: {
-				DisplayName: Mirror of Mirages
+				DisplayName: 幻影镜
 				Tooltip:
 					'''
-					It's once being used by sand elementals to bring their preys to sandstorm.
-					When you click on an enemy it will form a flying mirage pet that clones that enemies appearence.
-					It will adjust itself to the cloned enemies maximum amount of frame by default.
-					With '/firstframe Number' and '/lastframe Number' commands player can adjust starting and finishing frames of the pet.
-					For example firstframe 2 first and them /lastframe 5 will adjust the pets to make loop of frames with 2 first and 5 last.
-					Mirage will reset if the game is being closed and for new mirage player first need to clear first mirages buff.
+					它曾被沙元素用于将猎物带入沙尘暴中
+					当你点击一个敌人时，它会生成克隆那个敌人外观的飞行幻影
+					默认情况下，它会适配所选克隆敌人动作帧图的最大值
+					使用 '/firstframe Number' 和 '/lastframe Number' 命令，玩家可以调整宠物的起始和结束帧
+					例如：'/firstframe 2' 和 '/lastframe 5' 将使幻影循环使用第二帧到第五帧的动作
+					退出游戏后，幻影将重置。对于新的幻影，玩家首先需要在Buff栏清除第一只幻影
 					'''
 			}
 
@@ -15240,17 +15240,17 @@ Mods: {
 				Tooltip:
 					'''
 					在音符块上使用该物品可以循环切换其13种不同的乐器类型
-					按下<right>将会打开一个UI，显示部分预设旋律的音符
+					<right>将会打开一个UI，显示部分预设旋律的音符
 					'''
 			}
 
 			PortableCannonRemote: {
-				DisplayName: Portable Cannon Remote
+				DisplayName: 人间大炮遥控器
 				Tooltip:
 					'''
-					Yeeting away often doesn't solve problem but it gives enough time for you to think
-					Using this item will put you inside of a cannon and pressing <right>to shoot you to cannons direction
-					After being shoot you cannot activate any special ability for 30 seconds
+					'开枪并不能解决问题，但它给了你足够的时间思考'
+					使用此物品会将你装填进加农炮，<right>会将你发射出去
+					发射后 30 秒内你无法激活任何特殊能力
 					'''
 			}
 
@@ -15265,12 +15265,12 @@ Mods: {
 			}
 
 			RalseiDummy: {
-				DisplayName: Training dummy
+				DisplayName: 高级训练假人
 				Tooltip:
 					'''
-					'Best for surprise hug trainings'
-					'Using it will spawn a training dummy that minions target and activate DPS meter'
-					'<right>and any active boss will despawn the dummy'
+					'最适合进行惊喜拥抱训练'
+					使用它会生成一个让召唤物攻击的假人，并激活伤害计时器
+					<right>或召唤任何Boss会让假人立即消失
 					'''
 			}
 
@@ -17333,7 +17333,7 @@ Mods: {
 					使用后召唤一个全息变换器来平衡负载
 					它会周期性地生成一个不平衡能量块，当击中该能量块时，区域内所有敌人都将受到真实伤害
 					若没有能量块激活，则它会向附近的敌人释放储存的电荷
-					最多只能同时存在1个全息变换器。
+					最多只能同时存在1个全息变换器
 					'''
 			}
 
@@ -17838,7 +17838,7 @@ Mods: {
 				Tooltip:
 					'''
 					'现在谁在逃跑？'
-					装备[ffff00:神秘配方]时，将会唤醒其真实形态。
+					装备[c/ffff00:神秘配方]可以唤醒它的真实形态
 					'''
 			}
 
@@ -19152,7 +19152,7 @@ Mods: {
 					'''
 					'[c/9F5F9F:彩虹]'
 					持续形成七种宝石中的一种，对敌人造成伤害
-					如果没有装备[c/ffff00:神秘配方]，它将失去真实形态
+					如果没有装备[c/ffff00:神秘配方]，它将无法展现其真实形态
 					'''
 			}
 
@@ -19894,7 +19894,7 @@ Mods: {
 			}
 
 			HolographicGun: {
-				DisplayName: 全息投影枪 
+				DisplayName: 全息投影枪
 				Tooltip:
 					'''
 					它会将你的子弹装进泡泡里发射出去
@@ -20087,7 +20087,7 @@ Mods: {
 			}
 
 			Francisca: {
-				DisplayName: 弗朗西斯卡战斧 
+				DisplayName: 弗朗西斯卡战斧
 				Tooltip:
 					'''
 					'瓦尔哈拉在等待！'
@@ -20461,13 +20461,13 @@ Mods: {
 				Tooltip:
 					'''
 					'你曾经看着小蜜蜂在这朵花周围飞舞……'
-					使用后会召唤一朵精神之花来保护你
+					使用后召唤一朵琥珀之花保护你
 					它会释放蜜蜂攻击附近的敌人，并且每当蜜蜂攻击时，花朵会吸收灵魂
 					当吸收足够多的灵魂后，它会释放蕴含琥珀童年记忆的精神蜜蜂
-					这些蜜蜂可能会施加‘软绵绵’效果，让附近敌人被其吸引而转移攻击目标至该敌人身上
-					部分敌人可能对可爱生物过敏，靠近它们时将受到真实持续伤害
+					这些蜜蜂可能会施加毛茸茸减益，让附近敌人被其吸引而转移攻击目标至该敌人身上
+					部分敌人可能对这些可爱生物过敏，靠近它们时将受到持续伤害
 					这些生物的质量和数量会影响此效果的强度和范围
-					同一时间只能激活一朵精神之花，占用2个仆从位
+					只能同时召唤一朵琥珀之花，占用2个仆从栏
 					'''
 			}
 
@@ -20476,7 +20476,7 @@ Mods: {
 				Tooltip:
 					'''
 					'无论是事实还是沙砾，它都已准备就绪'
-					召唤一只小型蚁狮冲锋者向敌人喷射沙子，可能使非Boss敌人眼目受损
+					召唤一只小型蚁狮马向敌人喷射沙子，可能使非Boss敌人眼目受损
 					同时也能潜入地面进行突袭攻击
 					'''
 			}
@@ -20485,23 +20485,23 @@ Mods: {
 				DisplayName: 水生法杖
 				Tooltip:
 					'''
-					'未能杀死你的事物，通常会在第二次尝试中成功'
-					召唤一只红色螃蟹为你战斗
-					按<右键>使用此物品于哨兵时，会让红色螃蟹携带它
+					'不死则生，二度称王'
+					召唤一只红螃蟹为你而战
+					手持此武器时<right>任意哨兵，召唤一只红螃蟹将其带在身上
 					'''
 			}
 
 			BabySnatcherStaff: {
-				DisplayName: 婴儿掠夺者法杖
+				DisplayName: 抓人草召唤杖
 				Tooltip:
 					'''
 					'肉就是肉，植物也得吃东西'
-					使用它会召唤婴儿掠夺者攻击敌人
+					召唤一只抓人草为你而战
 					一旦咬到敌人，它们会造成生物狂乱效果，使敌人的接触伤害增加10%，同时通知其他掠夺者这是属于它的猎物
-					若敌人因缺乏化学指示而免疫该效果，多只植物可能会瞄准并享用这些无知者的肉体
-					咬击敌人有一定几率造成中毒，并在击杀任何敌人后进入咀嚼状态
-					在咀嚼状态下它们不会主动攻击，但若玩家按<左键>键使用物品，它们会将咀嚼后的肉和骨头吐向鼠标位置，并进入狂乱状态继续攻击
-					如果玩家不按<左键>键而是等待其吞下残骸，则玩家会通过这种方式得到治疗
+					若敌人因缺乏化学指示而免疫该效果，多只抓人草可能会瞄准并享用这些无知者的肉体
+					咬击敌人有一定几率施加中毒，并在击杀任何敌人后进入咀嚼状态
+					在咀嚼状态下它们不会主动攻击，如果玩家<right>，它们会将咀嚼后的肉和骨头吐向光标位置，并进入狂乱状态
+					如果玩家不<right>而是等待其吞下残骸，则玩家会获得治疗和 1 秒吃得好增益
 					'''
 			}
 
@@ -20509,10 +20509,10 @@ Mods: {
 				DisplayName: 盒中伙伴
 				Tooltip:
 					'''
-					'友谊是唯一能将世界团结在一起的黏合剂'
-					使用该物品会召唤一个与玩家所在生物群落相关的微型朋友，如果玩家离开当前生物群落，它会变得稍弱
-					收藏该物品后，系统会定期检查并根据玩家偏好的生物群落进行调整
-					若未装备[c/ffff00:秘密配方]，它将失去其真实形态
+					'友谊是唯一能使世界团结的粘合剂'
+					根据玩家所在的生物群落召唤小精灵，如果玩家离开该生物群落，它会稍微变弱
+					收藏此物品会定期检查所处环境并选出最优召唤物
+					如果没有装备[c/ffff00:神秘配方]，它将无法展现其真实形态
 					'''
 			}
 
@@ -20531,7 +20531,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这个世界是它的游乐场'
-					使用后会召唤一朵金色花朵帮助你冒险
+					使用后召唤一朵金色花朵帮助你冒险
 					根据与敌人的距离，它会使用各种不同的攻击方式
 					如果玩家处于地面，它还会将藤蔓连接至地面并获得新攻击技能
 					同一时间只能存在一朵金色花朵
@@ -20543,7 +20543,7 @@ Mods: {
 				Tooltip:
 					'''
 					'今天，地精领主站在你这一边'
-					使用它会召唤一名微型突袭者命令地精为你战斗
+					召唤一名小掠夺者统领地精为你战斗
 					地精领主的祝福既能保护这些地精，又能增强它们的力量
 					'''
 			}
@@ -20564,11 +20564,11 @@ Mods: {
 					'''
 					'这曾是从一位被精灵拔下的克苏鲁牙齿制成的遗物，为了给牙仙换钱'
 					'当精灵意识到牙仙因牙医阻止义齿价格贬值而遭杀害后，它将这颗牙齿与其他玩具结合'
-					'使用它可以召唤克苏鲁之眼为你战斗'
-					'当玩家生命值高于50%时，克苏鲁之眼会保持一定距离，并召唤其仆从进行战斗'
-					'当玩家生命值低于50%时，克苏鲁之眼会以增加的伤害冲向敌人并造成恐惧效果'
-					'若克苏鲁之眼吞噬任何敌人且玩家生命值少于50%，玩家将会恢复1点生命值'
-					'同一时间只能存在一个克苏鲁之眼'
+					使用它可以召唤克苏鲁之眼为你战斗
+					当玩家生命值高于50%时，克苏鲁之眼会保持一定距离，并召唤其仆从进行战斗
+					当玩家生命值低于50%时，克苏鲁之眼会的伤害增加，并冲向敌人造成恐惧效果
+					若克苏鲁之眼吞噬任何敌人且玩家生命值少于50%，玩家将会恢复1点生命值
+					同一时间只能存在一个克苏鲁之眼
 					'''
 			}
 
@@ -20577,21 +20577,21 @@ Mods: {
 				Tooltip:
 					'''
 					'别玩弄你的食物'
-					召唤土寇小弟啄击你的敌人
-					被其杀死的敌人有一定几率掉落热辣酱汁，当收集到所有酱汁时，所有土寇小弟将进入一段时间的炽热状态
-					在炽热模式下，它们会轮流使用不同的火焰主题攻击技能
+					召唤愤怒火鸡啄击你的敌人
+					被其杀死的敌人有一定几率掉落热辣酱汁，当收集到所有酱汁时，所有愤怒火鸡将进入一段时间的炽热状态
+					在炽热状态下，它们会轮流使用不同的火系攻击
 					'''
 			}
 
 			IchorStaff: {
-				DisplayName: 脓血喷射法杖
+				DisplayName: 灵液喷射法杖
 				Tooltip:
 					'''
 					'[在此插入一个性暗示笑话]'
-					使用它会召唤一只婴儿脓血贴纸为你战斗
-					它会发射过载的脓血冲击波，在击中任何敌人后产生溅射效果
-					按<右键>使用武器时，它会选择鼠标附近最近的敌人作为合适的宿主并附着在其大脑上
-					附着后，敌人的减伤和防御都会降低，并吸取其血液造成脓血阵雨
+					召唤一只小灵液黏黏怪为你战斗
+					它会发射过载的灵液冲击波，在击中任何敌人后产生溅射效果
+					<右键>使用武器时，它会选择光标附近最近的敌人作为合适的宿主并附着在其大脑上
+					附着后，敌人的减伤和防御都会降低，并吸取其血液造成灵液阵雨
 					当它离玩家太远时，会停止附着状态并返回近战状态
 					'''
 			}
@@ -20601,11 +20601,11 @@ Mods: {
 				Tooltip:
 					'''
 					'只要你相信自己，再加上一点点魔法，你的梦想都能成真！'
-					召唤一个微型德鲁伊精神为你战斗
-					至少有一个在场时会祝福玩家，并用吸血种子攻击敌人，感染宿主
+					召唤一个微小的德鲁伊精灵为你战斗
+					德鲁伊精灵存在时赋予玩家树妖祝福增益，并用吸血种子攻击敌人，感染宿主
 					被感染的敌人会随机获得各种基于自然的减益效果，当它们带有吸血效果时死亡会爆炸生成有毒气体
 					此时，它们会掉落荆棘种子，在触地后会迅速生长
-					持有收割者可以增强它们的力量，每多一个随从增加0.5的效率
+					持有收割工具时会增强它们的力量，每多召唤一个仆从增加其 50% 的效率
 					'''
 			}
 
@@ -20614,7 +20614,7 @@ Mods: {
 				Tooltip:
 					'''
 					'通过利用那些史莱姆的先进电路技术，你成功设计出了一个小型版的守护者'
-					召唤一个小型石魔像为你作战
+					召唤一个小型石巨人魔像为你战斗
 					当玩家的生命值低于一定水平时，它的头部会分离并开始攻击附近的敌人
 					'''
 			}
@@ -20624,7 +20624,7 @@ Mods: {
 				Tooltip:
 					'''
 					'嘞嘞嘞嘞... 啊...'
-					召唤迷你伞妖精去舔舐你的对手
+					召唤迷你伞妖去舔舐你的对手
 					持有时赋予缓慢降落效果，在墓地内使墓地敌人变为友好状态
 					'''
 			}
@@ -20635,10 +20635,10 @@ Mods: {
 					'''
 					'永远不离开你的爱……'
 					召唤漫不经心的灵体为你战斗
-					攻击会施加短暂持续时间的诅咒火焰
-					在玩家死亡时，它们会被嗜血驱动继续战斗
+					攻击会施加短暂持续时间的诅咒焰
+					在玩家死亡时，它们会被嗜血冲动驱使继续战斗
 					在这种状态下，它们的攻击变得更激进，并改为造成灵魂枯萎伤害
-					Wh当玩家复活时，它们会恢复正常状态并围绕玩家进行传送
+					当玩家复活时，它们会恢复正常状态并传送至玩家周围
 					'''
 			}
 
@@ -20648,7 +20648,7 @@ Mods: {
 					'''
 					'宇宙不说英语，它用的是频率'
 					召唤微型寻血无人机为你战斗
-					如果玩家拥有超过2个激活的无人机时，按<右键>键可以将2个小无人机合并成一个大的
+					如果玩家拥有超过2个激活的无人机时，<right>可以将2个小无人机合并成一个大的
 					根据目标的距离，无人机的攻击方式会发生变化
 					'''
 			}
@@ -20658,10 +20658,10 @@ Mods: {
 				Tooltip:
 					'''
 					'我的信仰守护着我'
-					使用它会生成一名守卫者，并且每次使用都会提升其等级，每个等级占用半个随从栏位
+					召唤一个救赎守卫，重复召唤会提升其等级，每个等级占用半个仆从栏
 					满盾形态提供5%侧面减伤，<右键>可使其向玩家方向发动盾击，冷却时间为15秒
-					只有在完全充能状态下，随从才能对敌人造成伤害，并施加救赎效果
-					救赎效果会排斥敌人，同时赋予首次命中的救赎效果以及反射投射物的能力
+					只有在满盾形态下，救赎守卫才对敌人造成伤害，连续多次后引发救赎效果
+					救赎效果会击退敌人，同时冷却结束后的首次攻击必定引发救赎效果并可以反弹敌人的射弹
 					每升一级，最大生命值增加10点，救赎护盾的充能速度加快
 
 					'''
@@ -20672,10 +20672,10 @@ Mods: {
 				Tooltip:
 					'''
 					'战时国王的存在决定胜利'
-					召唤一只迷你王史莱姆为你作战
+					召唤一只投诚史莱姆王为你战斗
 					在激进模式下它会进行多次攻击，在被动模式下则会升起黏液旗帜并降低攻击速度
 					当旗帜激活时，其他史莱姆造成的伤害提高10%，移动速度翻倍
-					同一时间只能存在一只迷你王史莱姆
+					同一时间只能存在一只投诚史莱姆王
 					'''
 			}
 
@@ -20683,10 +20683,10 @@ Mods: {
 				DisplayName: 机械兔法杖
 				Tooltip:
 					'''
-					'我现在很生气，恐惧稍后再来'
+					'我等会再怂，现在生气上头了'
 					召唤一只B.U.N.-E.为你战斗，它具有两种模式：
-					- 攻击模式：冲向敌人，并偶尔停下来发动一阵追踪火箭弹幕
-					- 防御模式：靠近玩家并形成能量护盾，同时留下短暂持续的火花。
+					- 攻击模式：冲向敌人，并偶尔停下来发射一串追踪火箭
+					- 防御模式：靠近玩家并形成能量护盾，同时留下短暂持续的火花
 					这个护盾将提高玩家的防御和减伤能力
 					<右键>使用该物品会切换其模式
 					'''
@@ -20696,9 +20696,9 @@ Mods: {
 				DisplayName: 通灵师之杖
 				Tooltip:
 					'''
-					愿你找回所有失去的一切
-					使用它将召唤一只小型灵魂收集者和一只酷炫的乌鸦来保护你
-					同一时间只能激活一对这样的组合，它们占用1.5个随从栏位
+					'愿你找回所有失去的一切'
+					使用它将召唤一只迷你灵魂收集者和一只酷炫的乌鸦来保护你
+					同一时间只能激活一对这样的组合，它们占用1.5个仆从栏
 					'''
 			}
 
@@ -20706,12 +20706,12 @@ Mods: {
 				DisplayName: 星辰魔球法杖
 				Tooltip:
 					'''
-					'最爱的食物包括小丸子和幽灵'
-					召唤一颗会吞噬敌人的小行星头，成功吞噬后会使玩家获得饱食效果
-					<右键>使用物品时，如果屏幕上有小行星头或鼠标位置，则可以生成一条从小行星头当前位置到鼠标位置的小丸子路径
-					路径终点的小丸子是力量丸子，吃掉它会使小行星头在短时间内变得更强大
-					路径越长，强化效果持续时间和强度越高，但此技能有30秒冷却时间
-					当它的对手也被召唤出来时，小行星头的力量会进一步增强
+					'最爱的食物包括糖豆和幽灵'
+					召唤一颗会吞噬敌人的小流星头，成功吞噬后会使玩家获得饱食效果
+					<右键>使用物品时，如果屏幕上有小流星头，则生成一条从小流星头位置到光标位置的糖豆路径
+					路径终点是力量糖豆，吃掉它会使小流星头在短时间内变得更强大
+					路径越长，强化的持续时间和强度越高，但此能力有30秒冷却时间
+					当它的对手也被召唤出来时，小流星头的力量会进一步增强
 					'''
 			}
 
@@ -20721,8 +20721,8 @@ Mods: {
 					'''
 					'他焦灼的灵魂终于找到了久违的救赎'
 					召唤一只小邪魔为你战斗
-					如果已有小邪魔在场，则会召唤一对扭曲双子来保护它
-					扭曲双子能各自在其对应侧攻击小邪魔附近的敌人
+					如果已有小邪魔在场，则会召唤一对双子恶魔来保护它
+					双子恶魔在小邪魔两侧攻击附近的敌人
 					'''
 			}
 
@@ -20732,9 +20732,9 @@ Mods: {
 					'''
 					'古老守卫者，阻止邪恶的蔓延'
 					召唤一颗随机出现在屏幕上的绿锂石水晶
-					当鼠标长按水晶足够时间时，会产生一个伤害区域，并且水晶会爆炸成追踪德鲁伊树叶
-					每次成功触发，飞叶的数量增加且威力增强，但重置冷却时间缩短
-					如果玩家未能在冷却结束前保持足够长的时间，则其等级重置
+					当光标移动到水晶位置时，水晶爆炸造成范围伤害并分裂成追踪的德鲁伊飞叶
+					每次成功触发，飞叶的数量增加且威力增强，但重置前的冷却时间缩短
+					如果玩家未能在冷却结束前用光标触发水晶，则其等级重置
 					'''
 			}
 
@@ -20743,11 +20743,11 @@ Mods: {
 				Tooltip:
 					'''
 					'无人能够抵挡这终极能量的冲击！'
-					缓慢生成凋零光束攻击最近的敌人
-					当召唤出随从后，它们会过热，造成接触伤害并随机引燃空气
-					这种引燃的空气会造成相当于随从基础伤害75%的持续伤害，并且随从的接触打击将附带炼狱效果
-					基于火焰的游戏原版和AfkPets减益效果持续时间缩短50%
-					最多只能同时存在一个凋零日耀的效果
+					召唤缓慢生成凋零光束攻击最近的敌人的日耀核心
+					召唤的其它仆从会进入过热状态，造成接触伤害并施加狱火
+					过热的仆从附近会随机引发爆燃，造成仆从 75% 的基础伤害
+					游戏原版和本模组的火焰类型减益效果持续时间缩短一半
+					最多只能同时存在一个日耀核心
 					'''
 			}
 
@@ -20799,13 +20799,13 @@ Mods: {
 			}
 
 			LoveColouredCharger: {
-				DisplayName: Love-Coloured Charger
+				DisplayName: 流光彩虹充能器
 				Tooltip:
 					'''
-					'|WARNING|WARNING| LOVE IS IN AIR |WARNING|WARNING|'
-					While being held fuels minions with rainbows which make their attacks shatter defense + crits have 10% chance to produce rainbow cookies
-					These cookies fade away after some time + collecting them heal player by small amount
-					Equipping [c/ffff00:Secret Formula] will awoken its true form
+					'|警告|警告| 空气中弥漫着爱情的气息 |警告|警告|'
+					手持时会用彩虹之力加持召唤物，提高护甲穿透，暴击有 10% 的几率产生彩虹饼干
+					这些饼干一段时间后会消失，收集它们会为玩家恢复少量生命值
+					装备[c/ffff00:神秘配方]可以唤醒它的真实形态
 					'''
 			}
 
@@ -21839,8 +21839,8 @@ Mods: {
 			CookieStar.DisplayName: Cookie Star
 			CookieStar2.DisplayName: Cookie Star2
 			CookieStriker.DisplayName: Cookie Striker
-			RainbowCookie.DisplayName: Rainbow Cookie
-			RainbowCookie2.DisplayName: Rainbow Cookie2
+			RainbowCookie.DisplayName: 彩虹饼干
+			RainbowCookie2.DisplayName: 彩虹饼干2
 			RainbowCursor.DisplayName: Rainbow Cursor
 			RainbowExplosion.DisplayName: Rainbow Explosion
 			RainbowExplosion2.DisplayName: Rainbow Explosion2
@@ -22434,7 +22434,7 @@ Mods: {
 			JudgementSphere.DisplayName: Judgement Sphere
 			JumpExplosion.DisplayName: Jump Explosion
 			JusticeTornado.DisplayName: Justice Tornado
-			KingSlimeTornado.DisplayName: King Slime Tornado
+			KingSlimeTornado.DisplayName: 史莱姆王 Tornado
 			KnifeMark.DisplayName: Knife Mark
 			KnowledgeBullet.DisplayName: Knowledge Bullet
 			Laser.DisplayName: Laser
@@ -22960,7 +22960,7 @@ Mods: {
 			TheBrain.DisplayName: The Brain
 			TifaLockheart.DisplayName: Tifa Lockheart
 			TinkerBell.DisplayName: Tinker Bell
-			TinyGolem.DisplayName: Tiny Golem
+			TinyGolem.DisplayName: 石小人
 			Toriel.DisplayName: Toriel
 			Trashy.DisplayName: Trashy
 			TrickyDark.DisplayName: Tricky Dark
@@ -23028,7 +23028,7 @@ Mods: {
 			ParasoulHeld.DisplayName: Parasoul Held
 			ParasoulHeld2.DisplayName: Parasoul Held2
 			PoisonLeaf.DisplayName: Poison Leaf
-			PortableCannon.DisplayName: Portable Cannon
+			PortableCannon.DisplayName: 人间大炮
 			PotionCloud.DisplayName: 药水 Cloud
 			PrefixFairy.DisplayName: Prefix Fairy
 			RageMeter.DisplayName: Rage Meter
@@ -23115,7 +23115,7 @@ Mods: {
 			PurpleGelRocket.DisplayName: Purple Gel Rocket
 			PurpleGlassBullet.DisplayName: 腐化弹
 			PurpleSlice.DisplayName: Purple Slice
-			RainbowCookieHeal.DisplayName: Rainbow Cookie Heal
+			RainbowCookieHeal.DisplayName: 彩虹饼干治疗
 			RainbowFlask.DisplayName: Rainbow Flask
 			RainbowStar.DisplayName: Rainbow Star
 			BloodyMaryBullet.DisplayName: Bloody Mary Bullet
@@ -23181,7 +23181,7 @@ Mods: {
 			DischargeUnit2.DisplayName: Discharge Unit2
 			FallenInnocent.DisplayName: Fallen Innocent
 			fireCactus.DisplayName: fire Cactus
-			Flowey.DisplayName: Flowey
+			Flowey.DisplayName: 友好邻里之花
 			ForgottenPortal3.DisplayName: Forgotten Portal3
 			FrostArrowShooter.DisplayName: Frost Arrow Shooter
 			GnomeTroll.DisplayName: Gnome Troll
@@ -23223,8 +23223,8 @@ Mods: {
 			BadVikingAxe.DisplayName: Bad Viking Axe
 			CyanSlimeLaser.DisplayName: Cyan Slime Laser
 			DarkFlame.DisplayName: Dark Flame
-			KingSlimeTornado2.DisplayName: King Slime Tornado2
-			KingSlime.DisplayName: King Slime
+			KingSlimeTornado2.DisplayName: 史莱姆王 Tornado2
+			KingSlime.DisplayName: 史莱姆王
 			OrangeSlimeLaser.DisplayName: Orange Slime Laser
 			PinkBall.DisplayName: Pink Ball
 			PinkRocket.DisplayName: Pink Rocket
@@ -23309,7 +23309,7 @@ Mods: {
 			Sting4.DisplayName: Sting4
 			Stinger.DisplayName: Stinger
 			AmberFlower.DisplayName: Amber Flower
-			BabySnatcher.DisplayName: Baby Snatcher
+			BabySnatcher.DisplayName: 抓人草
 			BoneThrowerSkeleton.DisplayName: Bone Thrower Skeleton
 			Cacodemon.DisplayName: Cacodemon
 			CoolCrow.DisplayName: Cool Crow
@@ -23331,7 +23331,7 @@ Mods: {
 			PinkGhost.DisplayName: Pink Ghost
 			PirateCrossBow.DisplayName: Pirate Cross Bow
 			PortableFlowey.DisplayName: Portable Flowey
-			RedCrab.DisplayName: Red Crab
+			RedCrab.DisplayName: 红螃蟹
 			RedDevil.DisplayName: Red Devil
 			RedGhost.DisplayName: Red Ghost
 			SatlaDrone.DisplayName: Satla Drone
@@ -23615,10 +23615,10 @@ Mods: {
 			BabyBat.DisplayName: Baby Bat
 			AngelicSoul.DisplayName: Angelic Soul
 			AncientAnvil.DisplayName: Ancient Anvil
-			WitheringSunLaser.DisplayName: Withering Sun Laser
-			WitheringSun.DisplayName: Withering Sun
+			WitheringSunLaser.DisplayName: 凋零日耀光束
+			WitheringSun.DisplayName: 凋零日耀核心
 			WhipGround.DisplayName: Whip Ground
-			VerdeliteLeaf.DisplayName: Verdelite Leaf
+			VerdeliteLeaf.DisplayName: 德鲁伊飞叶
 			TurkorOverheatFlame.DisplayName: Turkor Overheat Flame
 			TinyNinjaClone.DisplayName: Tiny Ninja Clone
 			TinyNinja.DisplayName: Tiny Ninja
@@ -23649,9 +23649,9 @@ Mods: {
 			KnightSpear2.DisplayName: Knight Spear2
 			KnightSpear.DisplayName: Knight Spear
 			KnightSoulMark.DisplayName: Knight Soul Mark
-			KingSlimeShockWave.DisplayName: King Slime Shock Wave
-			KingSlimeDash.DisplayName: King Slime Dash
-			KingSlimeBanner.DisplayName: King Slime Banner
+			KingSlimeShockWave.DisplayName: 史莱姆王 Shock Wave
+			KingSlimeDash.DisplayName: 史莱姆王 Dash
+			KingSlimeBanner.DisplayName: 史莱姆王 Banner
 			JelloPortal.DisplayName: Jello Portal
 			HeroicGelBall2.DisplayName: Heroic Gel Ball2
 			GuardianShield.DisplayName: Guardian Shield
@@ -23685,10 +23685,10 @@ Mods: {
 			CacodemonBeam.DisplayName: Cacodemon Beam
 			AustraliumWrench2.DisplayName: Australium Wrench2
 			AustraliumWrench.DisplayName: Australium Wrench
-			AmberBee2.DisplayName: Amber Bee2
-			AmberBee1.DisplayName: Amber Bee1
+			AmberBee2.DisplayName: 琥珀之花2
+			AmberBee1.DisplayName: 琥珀之花1
 			WaterSpirit.DisplayName: Water Spirit
-			VerdeliteCrystal.DisplayName: Verdelite Crystal
+			VerdeliteCrystal.DisplayName: 绿锂石水晶
 			TurkorHead.DisplayName: Turkor Head
 			TinyStarChef.DisplayName: Tiny Star Chef
 			TinyRobbieRotten.DisplayName: Tiny Robbie Rotten
@@ -23701,7 +23701,7 @@ Mods: {
 			TinyDukeRainbow.DisplayName: Tiny Duke Rainbow
 			TinyConductor.DisplayName: Tiny Conductor
 			TinyClothier.DisplayName: Tiny Clothier
-			TinyAntlion.DisplayName: Tiny Antlion
+			TinyAntlion.DisplayName: 小蚁狮马
 			SmollGhost.DisplayName: Smoll Ghost
 			DragonHead.DisplayName: Dragon Head
 			BloodDrainer2.DisplayName: Blood Drainer2
