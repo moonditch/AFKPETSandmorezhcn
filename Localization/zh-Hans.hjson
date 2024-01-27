@@ -446,9 +446,9 @@ Mods: {
 			SlimeWatcher.DisplayName: 史莱姆观测者
 			UWUSlimeSoul.DisplayName: UWU史莱姆之魂
 			AncientGuardianSpawn.DisplayName: 远古守护者之子
-			BlessedBrokenWashingMachine.DisplayName: 祝福的破碎洗衣机
+			BlessedBrokenWashingMachine.DisplayName: 被祝福的破碎洗衣机
 			BrokenWashingMachine.DisplayName: 破碎洗衣机
-			BrokenWashingMachinewithHat.DisplayName: 破碎帽子洗衣机
+			BrokenWashingMachinewithHat.DisplayName: 带帽子的破碎洗衣机
 			BrokenWashingMachinewithWings.DisplayName: 带翅膀的破碎洗衣机
 			BrokenWashingMachinewithWings2.DisplayName: 带翅膀的破碎洗衣机
 			SpinningBrokenWashingMachine.DisplayName: 破碎洗衣机
@@ -612,7 +612,7 @@ Mods: {
 			VocaloidBlush.MapEntry: Vocaloid Blush
 			UnholyArrowShooterStaff.MapEntry: Unholy Arrow Shooter Staff
 			UmbrellaEffect.MapEntry: Umbrella Effect
-			TruffleWormStatue.MapEntry: Truffle Worm雕像
+			TruffleWormStatue.MapEntry: 松露虫雕像
 			TriangleKerchiefEffect.MapEntry: Triangle Kerchief Effect
 			TowelEffect.MapEntry: Towel Effect
 			TiredCirnoPainting.MapEntry: Tired Cirno Painting
@@ -657,7 +657,7 @@ Mods: {
 			StrongestHappiness.MapEntry: Strongest Happiness
 			StrongestFright.MapEntry: Strongest Fright
 			StrawberryPimpPainting.MapEntry: Strawberry Pimp Painting
-			StrangeStatue.MapEntry: Strange雕像
+			StrangeStatue.MapEntry: 地牢守卫雕像
 			StoplightEffect.MapEntry: Stoplight Effect
 			StonedHuman.MapEntry: Stoned Human
 			SpectralHolographicDoorOpened.MapEntry: Spectral Holographic Door Opened
@@ -672,7 +672,7 @@ Mods: {
 			SnowPapyrus.MapEntry: Snow Papyrus
 			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope纪念章
 			SlayerofEvilTrophy.MapEntry: Slayerof Evil纪念章
-			SkullStatue.MapEntry: Skull雕像
+			SkullStatue.MapEntry: 诅咒骷髅头雕像
 			SewingMachine.MapEntry: Sewing Machine
 			SeveredHeadEffect.MapEntry: Severed Head Effect
 			SenkoPainting4.MapEntry: Senko Painting4
@@ -683,7 +683,7 @@ Mods: {
 			ScreamingSkeletonPainting.MapEntry: Screaming Skeleton Painting
 			SayoriPainting.MapEntry: Sayori Painting
 			SatlaTrophy.MapEntry: Satla纪念章
-			SalamanderStatue.MapEntry: Salamander雕像
+			SalamanderStatue.MapEntry: 蝾螈雕像
 			SadFoxPainting.MapEntry: Sad Fox Painting
 			SadCatPainting3.MapEntry: Sad Cat Painting3
 			SadCatPainting.MapEntry: Sad Cat Painting
@@ -698,7 +698,7 @@ Mods: {
 			PortableGiantFungiBulb.MapEntry: Portable Giant Fungi Bulb
 			PoopHairEffect.MapEntry: Poop Hair Effect
 			Plant.MapEntry: Plant
-			PixieStatue.MapEntry: Pixie雕像
+			PixieStatue.MapEntry: 妖精雕像
 			Uncanny.MapEntry: Uncanny
 			ToughStuff.MapEntry: Tough Stuff
 			Remembrance.MapEntry: Remembrance
@@ -742,7 +742,7 @@ Mods: {
 			KnifeEffect.MapEntry: Knife Effect
 			KindnessStatue.MapEntry: Kindness雕像
 			JunkoPainting.MapEntry: Junko Painting
-			ImpStatue.MapEntry: Imp雕像
+			ImpStatue.MapEntry: 火焰小鬼雕像
 			IbPainting.MapEntry: Ib Painting
 			HolographicWorkBench.MapEntry: Holographic Work Bench
 			HolographicTable.MapEntry: Holographic Table
@@ -767,7 +767,7 @@ Mods: {
 			HappyCatPainting.MapEntry: Happy Cat Painting
 			GuusPainting.MapEntry: Guus Painting
 			GreenPhone.MapEntry: Green Phone
-			GastropotStatue.MapEntry: Gastropot雕像
+			GastropotStatue.MapEntry: 腹足怪雕像
 			FrogEffect.MapEntry: Frog Effect
 			FluteEffect.MapEntry: Flute Effect
 			FluffyBlessing.MapEntry: Fluffy Blessing
@@ -789,7 +789,7 @@ Mods: {
 			DarkAltar2.MapEntry: Dark Altar2
 			DappingGuideStatue.MapEntry: Dapping Guide雕像
 			CrimsonAmplifier2.MapEntry: Crimson Amplifier2
-			CrawdadStatue.MapEntry: Crawdad雕像
+			CrawdadStatue.MapEntry: 龙虾雕像
 			CourageStatue.MapEntry: Courage雕像
 			CoughingCatPainting.MapEntry: Coughing Cat Painting
 			CookieCharm.MapEntry: Cookie Charm
@@ -956,8 +956,8 @@ Mods: {
 			}
 
 			BabyPrime: {
-				DisplayName: 宝宝 机械骷髅王
-				Description: 宝宝 机械骷髅王将跟随你
+				DisplayName: 机械骷髅王宝宝
+				Description: 机械骷髅王宝宝将跟随你
 			}
 
 			BadBubble: {
@@ -4506,7 +4506,7 @@ Mods: {
 			}
 
 			TruffleWorm: {
-				DisplayName: Truffle Worm
+				DisplayName: 松露虫
 				Description: "'它将跟随你"
 			}
 
@@ -8779,37 +8779,37 @@ Mods: {
 			}
 
 			CrawdadStatue: {
-				DisplayName: Crawdad雕像
+				DisplayName: 龙虾雕像
 				Tooltip: ""
 			}
 
 			GastropotStatue: {
-				DisplayName: Gastropod雕像
+				DisplayName: 腹足怪雕像
 				Tooltip: ""
 			}
 
 			ImpStatue: {
-				DisplayName: Fire Imp雕像
+				DisplayName: 火焰小鬼雕像
 				Tooltip: ""
 			}
 
 			PixieStatue: {
-				DisplayName: Pixie雕像
+				DisplayName: 妖精雕像
 				Tooltip: ""
 			}
 
 			SalamanderStatue: {
-				DisplayName: Salamander雕像
+				DisplayName: 蝾螈雕像
 				Tooltip: ""
 			}
 
 			SkullStatueItem: {
-				DisplayName: Cursed Skull雕像
+				DisplayName: 诅咒骷髅头雕像
 				Tooltip: ""
 			}
 
 			StrangeStatueItem: {
-				DisplayName: Dungeon Guardian雕像
+				DisplayName: 地牢守卫雕像
 				Tooltip: ""
 			}
 
@@ -8819,7 +8819,7 @@ Mods: {
 			}
 
 			TruffleWormStatueItem: {
-				DisplayName: Truffle Worm雕像
+				DisplayName: 松露虫雕像
 				Tooltip: ""
 			}
 
@@ -9284,16 +9284,16 @@ Mods: {
 			}
 
 			AncientBell: {
-				DisplayName: Ancient Bell
+				DisplayName: 特别的铃铛（出自召唤之夜）
 				Tooltip:
 					'''
-					'It seems important to someone'
+					'这对某人来说似乎很重要'
 					召唤Arno跟随你
 					'''
 			}
 
 			AncientBoneKey: {
-				DisplayName: 远古骨头钥匙
+				DisplayName: 远古骨头钥匙（出自原版）
 				Tooltip: "'召唤远古骷髅头宝宝'"
 			}
 
@@ -9409,7 +9409,7 @@ Mods: {
 			}
 
 			BadBubble: {
-				DisplayName: Bad Bubble（出自More pets lore）
+				DisplayName: 坏泡泡（出自More pets lore）
 				Tooltip:
 					'''
 					'它看起来比等离子体射击井里的邪恶生物要无辜得多
@@ -9693,21 +9693,21 @@ Mods: {
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: Broken Washing Machine（出自Chippy）
+				DisplayName: 破碎的洗衣机（出自Chippy）
 				Tooltip:
 					'''
 					'以亘古领主的力量振动'
-					召唤the washing machine跟随你
+					召唤洗衣机跟随你
 					'''
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: Blessed Broken Washing Machine（出自Chippy）
+				DisplayName: 被祝福破碎洗衣机（出自Chippy）
 				Tooltip:
 					'''
 					'其他的物品都在它的库存里.'
 					'证明自己之后就可以制作了'
-					召唤washing machine, the holy avenger跟随你
+					召唤洗衣机，神圣的复仇者跟随你
 					'''
 			}
 
@@ -12790,9 +12790,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -12820,9 +12820,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -12863,9 +12863,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -12892,9 +12892,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -12913,7 +12913,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可乘坐的卡车
-					<right> 会将最近的哨兵装载到卡车上
+					<right>会将最近的哨兵装载到卡车上
 					骑乘时免疫冷冻和击退
 					'''
 			}
@@ -12923,9 +12923,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -12935,7 +12935,7 @@ Mods: {
 					'''
 					'畏惧...逃离...命运仍会降临'
 					它可以用下部的刀片反弹攻击敌人，速度足够快时可以切割敌人
-					类人敌人会受到 100% 额外的反弹伤害，造成 28 倍的玩家基础召唤伤害
+					类人敌人会受到100%额外的反弹伤害，造成 28 倍的玩家基础召唤伤害
 					'''
 			}
 
@@ -12944,9 +12944,9 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的俄罗斯方块坐骑
-					骑乘时按 上 减少坠落速度
-					骑乘时按 下 增加坠落速度
-					减少 50% 坠落伤害
+					骑乘时按上减少坠落速度
+					骑乘时按下增加坠落速度
+					减少50%坠落伤害
 					'''
 			}
 
@@ -15484,10 +15484,10 @@ Mods: {
 					'它曾经由亘古领主的怒火锻造，以塑造他的宇宙'
 					根据斯卡莱多德象形文字，它是在宇宙黑暗时代锻造的
 					<left>允许你将其用作镐头，而<right>激活特殊能力
-					<右键>+上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
-					<右键>+下键 5 秒内时间静止
-					<右键>+左键 8 秒内以狂怒之力重铸你的武器
-					<右键>+右键 释放特殊攻击
+					右键+上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
+					右键+下键 5 秒内时间静止
+					右键+左键 8 秒内以狂怒之力重铸你的武器
+					右键+右键 释放特殊攻击
 					特殊能力有冷却时间
 					'''
 			}
@@ -19651,8 +19651,8 @@ Mods: {
 				Tooltip:
 					'''
 					'捍卫家族荣誉的完美武器'
-					<左键>射击双枪，<右键>投掷浓缩炸药包
-					如果玩家处于地面，按<右键>将召唤兄弟以西西里风格解决战斗问题
+					左键射击双枪，右键投掷浓缩炸药包
+					如果玩家处于地面，按右键将召唤兄弟以西西里风格解决战斗问题
 					此技能有20秒冷却时间，他们的存在会让你感觉更强壮
 
 					'''
@@ -19663,7 +19663,7 @@ Mods: {
 				Tooltip:
 					'''
 					'警长在找你'
-					<左键>单击发射高伤害子弹；<右键>发射6发不太精准的子弹，冷却时间为2秒
+					左键单击发射高伤害子弹；右键发射6发不太精准的子弹，冷却时间为2秒
 					'''
 			}
 
@@ -19706,7 +19706,7 @@ Mods: {
 					'''
 					'越大越容易瞄准'
 					普通攻击无视目标50%防御力，暴击则完全无视防御，并使子弹穿透力+1
-					命中会造成严重流血效果，<右键>可触发狙击效果
+					命中会造成严重流血效果，右键可触发狙击效果
 					'''
 			}
 
@@ -19717,7 +19717,7 @@ Mods: {
 					曾经被传奇女英雄安德莉亚用来清除世界上的原始生物
 					使用它会提升其等级，每积累40经验值增加一级
 					最大可升至3级，受到攻击时会减少经验值
-					当等级高于1级时，玩家可以通过按<右键>激活特殊攻击
+					当等级高于1级时，玩家可以通过按右键激活特殊攻击
 					- 等级2：形成一道能穿透多个敌人的激光，并附带高度爆炸性化学物质
 					- 等级3：产生一道地波，反射投射物且附加50%伤害增幅，但会降低自身的穿透能力
 					- 当玩家生命值低于15%时，它会召唤一只蜂后为你战斗
@@ -19784,8 +19784,8 @@ Mods: {
 				Tooltip:
 					'''
 					'对比地球上野兽的愚蠢，人类的疯狂更为无穷无尽。'
-					<左键>射出子弹旋风；
-					<右键>发射冷却时间限制下的水属性核心。
+					左键射出子弹旋风；
+					右键发射冷却时间限制下的水属性核心。
 					在水元素覆盖下提升角色属性。
 					'''
 			}
@@ -19795,7 +19795,7 @@ Mods: {
 				Tooltip:
 					'''
 					这把帝具曾经属于Mine
-					按下<右键>键将激活南瓜的狙击模式，而按<左键>键则切换至半自动射击模式
+					按下右键将激活南瓜的狙击模式，而按左键则切换至半自动射击模式
 					'''
 			}
 
@@ -19878,7 +19878,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一次反弹，带来一阵痛楚!'
-					<右键>发射高浓度凝胶团，接触任何方块后形成黏液块；而按<left>键则发射低浓度凝胶团
+					右键发射高浓度凝胶团，接触任何方块后形成黏液块；而按<left>键则发射低浓度凝胶团
 					这种凝胶不会在接触方块时形成黏液块，但在击中敌人时会破碎成多个小且低浓度的凝胶碎片
 					使用凝胶作为弹药
 					'''
@@ -19908,7 +19908,7 @@ Mods: {
 					'''
 					'狩猎的激情……报酬的诱惑……'
 					当玩家持有此枪时，会在光标上方形成一个瞄准标记
-					按住<左键>时，将在鼠标方位的进行扇形射击
+					按住左键时，将在鼠标方位的进行扇形射击
 					在持枪状态下，有一定几率有紫色头鸭从玩家头顶飞过
 					如果玩家成功击中这些鸭子，它们会掉落一颗灵魂之心，在5秒后破碎，并赋予玩家“猎人狂暴”状态
 					这个增益效果可以强化你的射击威力，并且使你所有枪械攻击都附带恐惧效果
@@ -19944,7 +19944,7 @@ Mods: {
 					按住蓄力然后释放，会让锯片从方块上弹射并切割敌人
 					充满能量时会有声音提示
 					若同时装备了[c/ffff00:博士的单片眼镜] 获得<形态切换>技能，可以利用背后的链条挥砍绞肉机
-					<右键>点击物品切换至近战形态
+					右键点击物品切换至近战形态
 					'''
 			}
 
@@ -20028,7 +20028,7 @@ Mods: {
 					'他们可以逃跑，但最终只会疲惫而死'
 					此装备会将原型火箭和一级火箭转化为追踪火箭
 					若同时装备了[博士的单片眼镜]，追踪火箭在死亡时会产生多个持续燃烧的火焰
-					<右键>切换至近战形态
+					右键切换至近战形态
 					需要火箭作为弹药
 					'''
 			}
@@ -20091,7 +20091,7 @@ Mods: {
 				Tooltip:
 					'''
 					'瓦尔哈拉在等待！'
-					当按住<左键>时，玩家将开始蓄力弗朗西斯卡战斧，1秒后即可完全蓄力完毕
+					当按住左键时，玩家将开始蓄力弗朗西斯卡战斧，1秒后即可完全蓄力完毕
 					蓄力过程中会增加其伤害、击退效果、初始速度和动量
 					至少需要0.25秒的时间来积累足够的动量进行有效打击，并且它接触到任何树木时都会将其切割
 					若rogue配置激活且在潜行状态下开启了灾厄扩展，你可以直接投掷满蓄力的弗朗西斯卡战斧，无需预先蓄力
@@ -20240,7 +20240,7 @@ Mods: {
 				Tooltip:
 					'''
 					'现在你知道羊酱汁在哪里了'
-					可以用<左键>投掷，也可通过右键饮用
+					可以用左键投掷，也可通过右键饮用
 					饮用后你会获得地狱呼吸增益，持续5秒内喷射火焰，此技能有30秒冷却时间
 					这种火焰威力强大，足以熔化任何由纯净意愿形成的曲奇饼干
 					投掷后与目标碰撞时，它会释放地狱热力，破坏敌人的防御并将其活活烧死
@@ -20403,8 +20403,8 @@ Mods: {
 				Tooltip:
 					'''
 					这把匕首不仅比我们想象中更奇特，甚至超出了我们的想象范围
-					使用<左键>击中任意敌人时，该敌人的位置将会与附近非Boss敌人之一随机交换，并且每次命中会减少玩家的混沌状态减益持续时间
-					<右键>将生成混乱之刃，用它击中任何敌人后会将你传送到随机地点
+					左键击中任意敌人时，该敌人的位置将会与附近非Boss敌人之一随机交换，并且每次命中会减少玩家的混沌状态减益持续时间
+					右键将生成混乱之刃，用它击中任何敌人后会将你传送到随机地点
 					由于它是以敌人灵魂碎片为牺牲品，所以你不会获得混沌状态减益效果
 					若rogue配置激活且在潜行状态下开启了灾厄扩展，使用<左键>能力会将所有附近的非Boss敌人吸引至匕首所在的位置
 					'''
@@ -20522,7 +20522,7 @@ Mods: {
 					'''
 					'讨厌黄色光球'
 					召唤彩色幽灵乌贼为你战斗，当它们遇到同类敌人时会变得更强大
-					<右键>可使最近的幽灵乌贼切换颜色，每个幽灵乌贼占用半个物品栏位
+					右键可使最近的幽灵乌贼切换颜色，每个幽灵乌贼占用半个物品栏位
 					'''
 			}
 
@@ -20590,7 +20590,7 @@ Mods: {
 					'[在此插入一个性暗示笑话]'
 					召唤一只小灵液黏黏怪为你战斗
 					它会发射过载的灵液冲击波，在击中任何敌人后产生溅射效果
-					<右键>使用武器时，它会选择光标附近最近的敌人作为合适的宿主并附着在其大脑上
+					右键使用武器时，它会选择光标附近最近的敌人作为合适的宿主并附着在其大脑上
 					附着后，敌人的减伤和防御都会降低，并吸取其血液造成灵液阵雨
 					当它离玩家太远时，会停止附着状态并返回近战状态
 					'''
@@ -20659,7 +20659,7 @@ Mods: {
 					'''
 					'我的信仰守护着我'
 					召唤一个救赎守卫，重复召唤会提升其等级，每个等级占用半个仆从栏
-					满盾形态提供5%侧面减伤，<右键>可使其向玩家方向发动盾击，冷却时间为15秒
+					满盾形态提供5%侧面减伤，右键可使其向玩家方向发动盾击，冷却时间为15秒
 					只有在满盾形态下，救赎守卫才对敌人造成伤害，连续多次后引发救赎效果
 					救赎效果会击退敌人，同时冷却结束后的首次攻击必定引发救赎效果并可以反弹敌人的射弹
 					每升一级，最大生命值增加10点，救赎护盾的充能速度加快
@@ -20688,7 +20688,7 @@ Mods: {
 					- 攻击模式：冲向敌人，并偶尔停下来发射一串追踪火箭
 					- 防御模式：靠近玩家并形成能量护盾，同时留下短暂持续的火花
 					这个护盾将提高玩家的防御和减伤能力
-					<右键>使用该物品会切换其模式
+					右键使用该物品会切换其模式
 					'''
 			}
 
@@ -20708,7 +20708,7 @@ Mods: {
 					'''
 					'最爱的食物包括糖豆和幽灵'
 					召唤一颗会吞噬敌人的小流星头，成功吞噬后会使玩家获得饱食效果
-					<右键>使用物品时，如果屏幕上有小流星头，则生成一条从小流星头位置到光标位置的糖豆路径
+					右键使用物品时，如果屏幕上有小流星头，则生成一条从小流星头位置到光标位置的糖豆路径
 					路径终点是力量糖豆，吃掉它会使小流星头在短时间内变得更强大
 					路径越长，强化的持续时间和强度越高，但此能力有30秒冷却时间
 					当它的对手也被召唤出来时，小流星头的力量会进一步增强
@@ -21453,7 +21453,7 @@ Mods: {
 
 			DabbingGuideStatueitem: {
 				Tooltip: ""
-				DisplayName: Dabbing Guide Statueitem
+				DisplayName: 有灰尘的向导雕像
 			}
 
 			VengefulHeart: {
@@ -22964,7 +22964,7 @@ Mods: {
 			Toriel.DisplayName: Toriel
 			Trashy.DisplayName: Trashy
 			TrickyDark.DisplayName: Tricky Dark
-			TruffleWorm.DisplayName: Truffle Worm
+			TruffleWorm.DisplayName: 松露虫
 			Turkey.DisplayName: Turkey
 			Uboa.DisplayName: Uboa
 			UkulelePichu.DisplayName: Ukulele Pichu
@@ -23515,7 +23515,7 @@ Mods: {
 			ShadowIchorKnife.DisplayName: Shadow Ichor Knife
 			SeismicExplosion.DisplayName: Seismic Explosion
 			RustedDagger.DisplayName: Rusted Dagger
-			RitualDaggerCursedSkull.DisplayName: Ritual Dagger Cursed Skull
+			RitualDaggerCursedSkull.DisplayName: Ritual Dagger 诅咒骷髅头
 			RedGrail.DisplayName: Red Grail
 			RaidersDagger.DisplayName: Raiders Dagger
 			PlayingCards.DisplayName: Playing Cards
