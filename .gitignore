@@ -1,7 +1,6 @@
 AFKPETSandmorezhcn.sln
 .vscode/settings.json
-obj/AFKPETSandmorezhcn.csproj.nuget.dgspec.json
-obj/AFKPETSandmorezhcn.csproj.nuget.g.props
-obj/AFKPETSandmorezhcn.csproj.nuget.g.targets
-obj/project.assets.json
-obj/project.nuget.cache
+*.db
+/.vs
+/bin
+/obj

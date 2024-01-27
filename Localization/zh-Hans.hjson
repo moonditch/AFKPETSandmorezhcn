@@ -2308,23 +2308,23 @@ Mods: {
 			}
 
 			Fury1: {
-				DisplayName: Flames of Fury
-				Description: "'The ancient flames protect you from damage'"
+				DisplayName: 狂怒之火
+				Description: "'古老的火焰保护你免受伤害'"
 			}
 
 			Fury2: {
-				DisplayName: Calmed Time
-				Description: "'The flow of time have stopped'"
+				DisplayName: 时间静止
+				Description: "'时间已经停止流动'"
 			}
 
 			Fury3: {
-				DisplayName: Fury Forged
-				Description: "'All of your weapons have best reforge'"
+				DisplayName: 狂怒锻造
+				Description: "'你所有的武器获得最好的词缀'"
 			}
 
 			FuryCharge: {
-				DisplayName: Special Ability Cooldown
-				Description: You need to wait for another special ability
+				DisplayName: 特殊能力冷却
+				Description: 冷却结束前不能使用特殊能力
 			}
 
 			GalactaKnight: {
@@ -3536,8 +3536,8 @@ Mods: {
 			}
 
 			BloodBuff: {
-				DisplayName: Fresh Blooded
-				Description: True melee speed increase by 5% + true melee crits heal by 1
+				DisplayName: 渴血
+				Description: 提高 5% 真近战攻速，真近战暴击恢复 1 点生命值
 			}
 
 			Carrot: {
@@ -5337,11 +5337,11 @@ Mods: {
 			}
 
 			HumanTownBell: {
-				DisplayName: Town Bell Necklace
+				DisplayName: 镇钟项链
 				Tooltip:
 					'''
-					Do you feel alone? Not anymore.
-					'It allows you to play human train game with your town NPC's'
+					'你感到孤独吗？不再是了'
+					装备后，将城镇MPC随身携带
 
 					'''
 			}
@@ -6478,11 +6478,11 @@ Mods: {
 			}
 
 			EyeofAnubis: {
-				DisplayName: Eye of Anubis
+				DisplayName: 阿努比斯之眼
 				Tooltip:
 					'''
-					'May you see whats hidden before...'
-					Reveals the secret third ability of tarot cards
+					'愿你能看到隐藏之物……'
+					揭示塔罗牌的第三个秘密能力
 					'''
 			}
 
@@ -6492,7 +6492,7 @@ Mods: {
 					'''
 					'If there is the will, then there is hope'
 					Empowers both constellation stars and other stars that are being formed by player
-					Reveals the secret third ability of tarot cards
+					揭示塔罗牌的第三个秘密能力
 					Upon equipped player can activate 2 tarot instead of 1
 					Activating tarot major ability before the constellation stars disappear will make the constellation stars aim to closest enemy
 					While this has been equipped any constellation stars appear after will stay longer
@@ -7055,7 +7055,7 @@ Mods: {
 				DisplayName: 精灵弹
 				Tooltip:
 					'''
-					'大出血，救不回来了'
+					'大流血，救不回来了'
 					命中后射出两个随机方向的子弹
 					'''
 			}
@@ -7946,7 +7946,7 @@ Mods: {
 				DisplayName: Furious Anvil
 				Tooltip:
 					'''
-					'A legendary anvil once being used by skeledudes to forge what their warlord need'
+					'A legendary anvil once being used by 斯卡莱多德s to forge what their warlord need'
 					When player <right>to its tile if player selected weapon or accessory it could shatter that item to its materials
 					If player presses down while <right>to its tile it will instead tell player which materials it will get back
 					It will only shatter items that are in hotbar and it will also function as a mythril anvil
@@ -8993,8 +8993,8 @@ Mods: {
 			}
 
 			Bitcoin: {
-				DisplayName: Bitcoin
-				Tooltip: "'Is it accepted in Terraria ?'"
+				DisplayName: 比特币
+				Tooltip: "'泰拉世界应该有这种东西吗？'"
 			}
 
 			Blueprint: {
@@ -10310,7 +10310,7 @@ Mods: {
 			}
 
 			FairyinaBottle: {
-				DisplayName: 瓶子里的仙灵（出自奇妙仙子）
+				DisplayName: 瓶中仙灵（出自奇妙仙子）
 				Tooltip:
 					'''
 					'看起来好小'
@@ -14453,64 +14453,64 @@ Mods: {
 			}
 
 			AncientRoot: {
-				DisplayName: Root of Nature
+				DisplayName: 自然之根
 				Tooltip:
 					'''
-					'For a time, I rest in the grace of the world, and am free'
-					Enemies burst into poisonous cloud + swings shoot out extra axe projectile
-					Plants grass seeds specific to that biome
-					Trees drop more wood + increase alchemy plant connection + plants acorn after tree cut down
+					'一时间，我栖身于世界的恩典之中，获得了自由'
+					杀死敌人时爆炸产生孢子云，挥动时射出额外的斧头射弹
+					让泥土上长出草
+					树木掉落额外的木材，增加草药收获率，树木被砍倒后种植橡果
 					'''
 			}
 
 			SanguineDesires: {
-				DisplayName: Sanguine Desires
+				DisplayName: 血色欲望
 				Tooltip:
 					'''
-					'The moment you're blinded by desire, there is no way to wake up from the dreamlike throes of obsession'
-					Hits inflict bleeding + each hit stacks bleeding + gains damage the more bleeding stack enemy have
-					Hits may give few frames of invincibility
+					'当你被欲望蒙蔽时，就无法从痴迷的痛苦中醒来'
+					攻击造成流血，每次攻击都会增加流血层数，敌人流血层数越多，造成的伤害就越大。
+					攻击有几率获得无敌帧
 					'''
 			}
 
 			SpikeBallLauncher: {
-				DisplayName: Ax Bass
+				DisplayName: Ax 贝斯
 				Tooltip:
 					'''
-					'I'm gonna drink the red from their pretty pink faces
-					'Hitting enemies will inflict venom and 沸血 for 4 seconds'
-					'Critical hits will make player give blood and rapid healing buffs for 3 second'
-					'It will allow player to grow bat wings that can fly for 2 seconds and if player have wings it will increase max flight time by 0.5 second'
-					'Critical hits will form blood notes around the player that will stay for 6 seconds'
-					'Upon using with <right>will shoot these notes to players mouse direction'
-					'Upon hitting enemy blood notes will inflict 沸血 and heal player by 1 and there can be maximum 6 blood notes'
+					'我要从他们美丽的粉红色脸上喝下红色的血'
+					攻击造成 4 秒中毒和沸血
+					暴击获得 3 秒渴血和快速治疗增益
+					允许玩家长出可以飞行 2 秒的蝙蝠翅膀，如果玩家有翅膀，则增加 0.5 秒最长飞行时间
+					暴击会在玩家周围形成血色音符，并持续6秒
+					<right>，会将这些血色音符射向玩家的光标方向
+					击中敌人时，血色音符造成沸血，并让恢复玩家 1 点生命值，最多可以存在6个血色音符
 					'''
 			}
 
 			VikingSword: {
-				DisplayName: Viking Battleaxe
+				DisplayName: 维京战斧
 				Tooltip:
 					'''
-					'My comrade in arms!'
-					Hitting enemy will inflict frostburn + Rises icicle from below
+					'我的战友！'
+					攻击施加霜冻，并从下方升起冰柱
 					'''
 			}
 
 			NicksChopper: {
-				DisplayName: Nick's Chopper
+				DisplayName: Nick的砍刀
 				Tooltip:
 					'''
-					'Chopping woods his game, he couldn't stop it'
-					Tree's drop additional wood + Stacking bleeding splash
+					'砍木头是他的游戏，他无法停下来'
+					树木掉落额外的木材，叠加流血层数
 					'''
 			}
 
 			PieceofYou: {
-				DisplayName: Piece of You
+				DisplayName: 你的一部分
 				Tooltip:
 					'''
-					'Sweet cannibalism'
-					Player start to use its own flesh as a bait which decrease life but grant unlimited amount of baits
+					'甜蜜的食人主义'
+					玩家开始使用自己的肉作为诱饵，这会降低生命值，但会提供无限数量的诱饵
 					'''
 			}
 
@@ -14755,55 +14755,55 @@ Mods: {
 			}
 
 			AncientWarhammer: {
-				DisplayName: Ancient Warhammer
+				DisplayName: 古代战锤
 				Tooltip:
 					'''
-					'Definitely bomb-astic'
-					Player gain immunity against explosions + Hitting enemies or ground cause explosion
-					While being favourited breaking wall also cause explosion
+					'绝对厉害'
+					免疫爆炸，攻击敌人或地面会引起爆炸
+					收藏后，破坏墙壁也会引起爆炸
 					'''
 			}
 
 			MagmaticCrusher: {
-				DisplayName: Magmatic Crusher
+				DisplayName: 岩浆粉粹者
 				Tooltip:
 					'''
-					'You broke our deal... now it's my turn to break you!!!'
-					Breaking walls both heals and empower players
-					Grants immunity against explosion, hot blocks and lava
-					Slamming to ground errupt flames + crits cause damned inferno with slight cooldown
+					'你破坏了我们的协议...现在轮到我来打碎你了！！！'
+					破坏墙壁可以治疗并增强玩家
+					免疫爆炸、火块和岩浆
+					猛击地面会引起火焰，暴击获得狱火增益
 					'''
 			}
 
 			MaxHammer: {
-				DisplayName: Svarog's Wrath
+				DisplayName: Svarog的愤怒
 				Tooltip:
 					'''
-					'I've got a DELICIOUS treat for you. A truly DELUXE delight'
+					'我为你准备了一份美味的点心，一份真奢华的享受'
 					'非常适合模仿模组的画师！'
-					<left>swing the hammer while <right>does a jump slam
-					<right>form an explosion pillar with 30 second cooldown
+					<right>的同时<left>挥动，释放跳跃重击
+					<right>释放爆炸火柱，30 秒冷却时间
 					'''
 			}
 
 			MCHammer: {
-				DisplayName: MC Hammer
+				DisplayName: MC之锤
 				Tooltip:
 					'''
-					'Can't touch this'
-					While being favourited breaks 19x19 walls
-					Slams generate a projectile repelling nonboss enemies + hits inflict both weakened + frostburn inferno
+					'无法触碰'
+					收藏后，破坏 19x19 的墙壁
+					猛击地面会生成一个排斥非BOSS敌人的射弹，施加软弱、霜冻和狱火
 					'''
 			}
 
 			RoyalCrusher: {
-				DisplayName: Royal Crusher
+				DisplayName: 皇家粉粹机
 				Tooltip:
 					'''
-					'Now you know what time it is'
-					Holding weapon increase defense by 4 + slamming ground errupt a flamy shockwave
-					Hits break enemies resistance
-					While being favourited breaks 9x9 walls
+					'现在你知道该做什么了'
+					手持时增加 4 点防御，猛击地面引发火焰冲击波
+					攻击敌人减少其防御
+					收藏后，破坏 9x9 的墙壁
 					'''
 			}
 
@@ -15386,200 +15386,200 @@ Mods: {
 			}
 
 			TownBell: {
-				DisplayName: Town bell
+				DisplayName: 镇钟
 				Tooltip:
 					'''
-					'It was once used in town center to protect both villagers and town center.'
-					'When it is used it spawns all of your npcs into players location'
+					'它曾经被放于镇中心，以保护村民和城镇'
+					使用后，将所有的城镇NPC召唤到玩家的位置
 					'''
 			}
 
 			AdventurersPickaxe: {
-				DisplayName: Adventurers Pickaxe
-				Tooltip: It's speed, damage and pickaxe power is random
+				DisplayName: 冒险者镐
+				Tooltip: 它的速度、伤害和镐力是随机的
 			}
 
 			BloodSeekerPickaxe: {
-				DisplayName: Bloodseeker Pickaxe
-				Tooltip: Feed me with the blood of fools or else ...
+				DisplayName: 寻血稿
+				Tooltip: 用愚蠢之人的血喂养我，否则...
 			}
 
 			BrokenHeroPickaxe: {
-				DisplayName: Broken Hero Pickaxe
-				Tooltip: Remains of a pickaxe once being used in the era of the first emperor
+				DisplayName: 断裂英雄镐
+				Tooltip: 第一位皇帝时代曾经使用过的镐头的残骸
 			}
 
 			CalderaBreaker: {
-				DisplayName: Caldera Breaker
+				DisplayName: 火山口破坏者
 				Tooltip:
 					'''
-					'I lava mining but sadly they cannot stand my heat'
-					<left>will allow you to throw the pickaxe and while its being thrown it will mine every tile that have less pickaxe power than it
-					True melee will inflict inferno and make explosion on enemy
+					'我开采熔岩，但遗憾的是，它们无法忍受我的高温'
+					<right>投出稿子，破坏沿途低于它镐力的物块
+					真近战对敌人施加狱火并产生爆炸
 					'''
 			}
 
 			ConfettiPickaxe: {
-				DisplayName: Confetti Pickaxe
+				DisplayName: 派对镐
 				Tooltip:
 					'''
-					Mining with confetties
-					<left>to mine and <right>to celebrate and feel happy
+					愉快的挖矿
+					<left>挖掘物块，<right>喷洒彩纸屑
 					'''
 			}
 
 			CrystalPickaxe: {
-				DisplayName: Crystal Pickaxe
+				DisplayName: 水晶镐
 				Tooltip:
 					'''
-					They are not rock, they're minerals
-					With the blessing of the CrazyConnor, if you get close enough it's strong enough to break chests with items inside of it
+					'它们不是岩石，而是矿物'
+					可以挖掘装有物品的箱子
 					'''
 			}
 
 			DataMiner: {
-				DisplayName: Data Miner
+				DisplayName: 数据挖掘者
 				Tooltip:
 					'''
-					Hitting enemy will make them decode.
-					Has a chance to mine bitcoin from the world.
-					Its damage change from 100 to 400 
-					It makes you feel strange.
+					'它让你感觉奇怪'
+					有机会从世界上挖掘比特币
+					伤害随机从 100 到 400
+					攻击敌人会使他们解码
 					'''
 			}
 
 			DeadMansPickaxe: {
-				DisplayName: Dead Man's Pickaxe
+				DisplayName: 亡者镐
 				Tooltip:
 					'''
-					'It seems his soul only find peace with what he is doing before'
-					Holding it show you both traps and enemies and mining will give rapid healing buff for 3 seconds
-					Hits inflict bleeding + breaking an ore will break every ore with same type in 41x41 area around it
+					'看来他的灵魂只有在做他以前的事情时才能找到平静'
+					手持时显示附近的陷阱和敌人，挖掘物块将为玩家提供 3 秒的快速治疗增益效果
+					攻击施加流血，开采矿石后将破坏它周围41x41区域内的同类型矿石
 					'''
 			}
 
 			DungeonPickaxe: {
-				DisplayName: Brick Breaker
+				DisplayName: 砖块破坏者
 				Tooltip:
 					'''
-					While it's being hold it will summon skulls to rotate around player
-					Upon being close enough it will be able to break dungeon bricks in single click by clicking on them
+					手持时，召唤围绕玩家旋转的头骨
+					靠近时，可一击破坏地牢砖块
 					'''
 			}
 
 			FleshPicker: {
-				DisplayName: Flesh Picker
+				DisplayName: 肉体采集者
 				Tooltip:
 					'''
-					It seems you had both common goal and enemy
-					While holding this pickaxe, you will be shown both traps and enemies
-					Critical hits inflict bleeding
+					'看来你们有共同的目标和敌人'
+					手持时显示附近的陷阱和敌人
+					暴击对敌人施加流血
 					'''
 			}
 
 			Fury: {
-				DisplayName: Fury
+				DisplayName: 狂怒至镐
 				Tooltip:
 					'''
-					It was once forged by 亘古领主 Fury to shape his universe.
-					According to Skeledude hieroglyph it's forged in Cosmic Darkage.
-					'<left>allows you to use it as pickaxe while <right>activates special ability.'
-					'<right>+ Up button enlight your soul with ancient flames for 4 seconds.'
-					'<right>+ down button allows you to stop time for 5 seconds.'
-					'<right>+ left button allows you to forge with fury for 8 seconds.'
-					'<right>+ right button allows you to do otherworldly attack.'
-					'Special attacks have cooldown.'
+					'它曾经由亘古领主的怒火锻造，以塑造他的宇宙'
+					根据斯卡莱多德象形文字，它是在宇宙黑暗时代锻造的
+					<left>允许你将其用作镐头，而<right>激活特殊能力
+					<右键>+上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
+					<右键>+下键 5 秒内时间静止
+					<右键>+左键 8 秒内以狂怒之力重铸你的武器
+					<右键>+右键 释放特殊攻击
+					特殊能力有冷却时间
 					'''
 			}
 
 			GoldRushPickaxe: {
-				DisplayName: Gold Rusher
+				DisplayName: 淘金者
 				Tooltip:
 					'''
-					A shiny artifact once stolen by pirates
-					With <right>you can send a golden slice which will transfer them to player upon touching them
-					Critical hits of pickaxe and wave inflict midas
-					While you are holding the pickaxe it will show you near treasures
+					'一个闪亮的神器，曾被海盗偷走'
+					<right>发射金片，捡起碰到的物品放入背包
+					暴击对敌人施加迈达斯
+					手持时显示附近的宝藏
 					'''
 			}
 
 			HolographicPickaxe: {
-				DisplayName: Holographic Pickaxe
+				DisplayName: 全息镐
 				Tooltip:
 					'''
-					Is this real?
-					Hitting enemies has a chance to decode them.
+					'这是真的吗？'
+					攻击敌人有几率解码他们
 					'''
 			}
 
 			HolyStriker: {
-				DisplayName: Holy Striker
+				DisplayName: 圣镐
 				Tooltip:
 					'''
-					A blessed pickaxe once being used by royal miners of the kingdom
-					With <right>you can send a golden slice which will pick items when it touches them
-					True melee and wave hits inflict 圣焰
-					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it
-					While you are holding the pickaxe it will show you near treasures, traps and enemies
+					'一把皇家矿工曾经使用的赐福镐头'
+					<right>发射金片，捡起碰到的物品放入背包
+					真近战对敌人施加圣焰
+					<right>附近的物块时，它会显示需要多少镐力才能破坏
+					手持时显示附近的宝藏、陷阱和敌人
 					'''
 			}
 
 			MandibleDigger: {
-				DisplayName: Mandible Digger
-				Tooltip: Mining ores have 10% chance to contain silt
+				DisplayName: 下颚挖掘者
+				Tooltip: 挖掘物块有 10% 的几率获得淤泥
 			}
 
 			NightsShadow: {
-				DisplayName: Might of the Midnight
+				DisplayName: 永夜镐
 				Tooltip:
 					'''
-					It seems the pickaxe is satisified with all of the terror that you have bring upon them
-					With <right>you can unleash bloodseeker pickaxes blood lust upon your enemies
-					While holding it dark energies will orbit you and you will take 10% less damage
+					'这把镐头似乎对你带来的恐怖感到满意'
+					<right>发射寻血飞弹
+					手持时永夜之力会保护你，减少 10% 受到的伤害
 					'''
 			}
 
 			SacredTool: {
-				DisplayName: Sacred Tool
+				DisplayName: 神梦镐
 				Tooltip:
 					'''
-					A divine relic forged to mine the shadows of this world
-					Critical hits inflict 圣焰
-					Strangely you feel the space between two word is a typo but sadly you can't prove it
-					Mining early game ores will give you hellstone or their hard mode variants with respect to their tier
+					'一个神圣的遗物，用于挖掘这个世界暗影面的矿藏'
+					暴击对敌人施加圣焰
+					奇怪的是，你觉得神梦后面应该还有两个字，但遗憾的是你不能证明这一点
+					开采游戏早期阶段的矿石会获得狱石或其对应等级的困难模式矿石
 					'''
 			}
 
 			ShadowPickaxe: {
-				DisplayName: Shadow Pickaxe
-				Tooltip: While it's being hold it will make player take 10% less damage
+				DisplayName: 暗影镐
+				Tooltip: 手持时，减少 10% 受到的伤害
 			}
 
 			StressCheckerPickaxe: {
-				DisplayName: Pressure Analyser
+				DisplayName: 压力分析器
 				Tooltip:
 					'''
-					It contains Piezoelectric sensors on it's head
-					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it and do not damage tile
+					'它的头部装有压电传感器'
+					<right>附近的物块时，它会显示需要多少镐力才能破坏
 					'''
 			}
 
 			TerraPickaxe: {
-				DisplayName: Terra Pickaxe
+				DisplayName: 泰拉镐
 				Tooltip:
 					'''
-					One pickaxe to mine them all
-					When you <right>while pressing down button you will send a terra slice which will pick items when it touches them
-					When you <right>to the tile which is near to you it will show you how much pickaxe power you need to break it
-					With <right>you can unleash bloodseeker pickaxes blood lust upon your enemies
-					While holding it terra energies will orbit you and you will take 10% less damage
-					While you are holding the pickaxe it will show you near treasures, traps and enemies
+					'终极之镐'
+					<right>+下键 发射金片，捡起碰到的物品放入背包
+					<right>附近的物块时，它会显示需要多少镐力才能破坏
+					<right>发射寻血飞弹
+					手持时泰拉之力会保护你，减少 10% 受到的伤害
+					手持时显示附近的宝藏、陷阱和敌人
 					'''
 			}
 
 			TurtleFoot: {
-				DisplayName: Turtle Claw
-				Tooltip: It seems those plants have no selection between different meat types
+				DisplayName: 海龟爪
+				Tooltip: "'看起来这些植物并不挑食'"
 			}
 
 			BlankCard: {
@@ -15859,7 +15859,7 @@ Mods: {
 			}
 
 			BatWing: {
-				DisplayName: Bat Wing
+				DisplayName: 蝙蝠翅膀
 				Tooltip: ""
 			}
 
@@ -20333,7 +20333,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它掌控着血液、诞生与溺亡之水'
-					击中任何敌人或方块时，会形成一个五芒星阵，诅咒附近所有敌人并传播出血效果
+					击中任何敌人或方块时，会形成一个五芒星阵，诅咒附近所有敌人并传播流血效果
 					每次击中敌人都会造成诅咒和严重流血状态，并且周围受到诅咒的敌人所受伤害减半
 					诅咒还会使敌人接触伤害降低10%
 					若rogue配置激活且在潜行状态下开启了灾厄扩展，你将获得40点治疗效果
