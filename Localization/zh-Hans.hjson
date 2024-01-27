@@ -9618,7 +9618,7 @@ Mods: {
 				DisplayName: 蓝色玫瑰（出自恐怖美术馆）
 				Tooltip:
 					'''
-					'拿着它，会让你觉得它属于别人'
+					'拿着它会让你觉得它已经属于别人了'
 					召唤咖喱跟随你
 					'''
 			}
@@ -9778,7 +9778,7 @@ Mods: {
 
 			ChaliceofChocolateMilk: {
 				DisplayName: 一杯巧克力牛奶
-				Tooltip: "'用鹰身女妖制作的圣物（上面文本翻译，以后用代码重新写。占位符）'"
+				Tooltip: ""
 			}
 
 			ChaosEmerald: {
@@ -11292,226 +11292,226 @@ Mods: {
 			}
 
 			OmegaAmblem: {
-				DisplayName: Omega Rune
+				DisplayName: Ω符文（出自战神）
 				Tooltip:
 					'''
-					'You start to fill with vengeance'
-					召唤Kratos跟随你
+					'你开始充满复仇之心'
+					召唤奎托斯跟随你
 					'''
 			}
 
 			OrangeInkling: {
-				DisplayName: Orange squid
+				DisplayName: 橙色章鱼（出自任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'It looks at you carefully.'
-					召唤an inkling跟随你
+					'它仔细地看着你.'
+					召唤乌贼娘跟随你
 					'''
 			}
 
 			OrganicEye: {
-				DisplayName: Biological enhanced cybernetic eye
+				DisplayName: 生物生化眼（出自SCP基金会）
 				Tooltip:
 					'''
-					'It may be useful against someone since this never blinks'
+					'它可能对某人有用，因为它从不眨眼'
 					召唤SCP 173跟随你
 					'''
 			}
 
 			OtherworldlyAdventurersBag: {
-				DisplayName: Otherworldly Adventurers Bag
+				DisplayName: 冒险家包（出自探险活宝）
 				Tooltip:
 					'''
-					'Maybe you should give it to someone who knows the person it belongs'
+					'也许你应该把它交给认识它主人的人'
 					召唤Jake跟随你
 					'''
 			}
 
 			OtherworldlyAmulet: {
-				DisplayName: Otherworldly Amulet
+				DisplayName: 护身符(出自描绘人生)
 				Tooltip:
 					'''
-					'It may important for someone'
+					'它可能对某人很重要'
 					召唤Jowee跟随你
 					'''
 			}
 
 			OtherworldlyBow: {
-				DisplayName: Otherworldly Bow
+				DisplayName: 没有弦的弓(出自车万)
 				Tooltip:
 					'''
-					'Maybe you should give it to its owner'
-					召唤Eirin跟随你
+					'也许你应该把它给它的主人'
+					召唤八意永琳跟随你
 					'''
 			}
 
 			OtherworldlyHat: {
-				DisplayName: Otherworldly Hat
+				DisplayName: 空条承太郎的帽子（出自jojo）
 				Tooltip:
 					'''
-					'Where does she find this?'
-					召唤Jotaro Kujo跟随你
+					'她从哪里找到这个的?'
+					召唤空条承太郎跟随你
 					'''
 			}
 
 			OtherworldlySantaHat: {
-				DisplayName: Otherworldly Santa Hat
+				DisplayName: 圣诞帽（出自fate）
 				Tooltip:
 					'''
-					'Even holding it makes you feel someone is singing a specific song.'
-					召唤Padoru跟随你
+					'拿着它也会感觉有人在唱“美妙动听”的歌.'
+					召唤尼禄跟随你
 					'''
 			}
 
 			OtherworldlySword: {
-				DisplayName: Otherworldly Sword
+				DisplayName: 乖离剑（出自fate）
 				Tooltip:
 					'''
-					'It may belong to a strong person'
-					召唤Gilgamesh跟随你
+					'它可能属于一个强壮的人'
+					召唤吉尔伽美什跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			OverfrozenCrystal: {
-				DisplayName: Overfrozen Crystal
+				DisplayName: 冰冻晶体（出自车万）
 				Tooltip:
 					'''
-					'Crystals temperature is near to 0 K'
-					'In tinkerers workbench it's pet style can be changable'
-					召唤Cirno跟随你
+					'晶体温度接近0°c'
+					'在工匠作坊处，可以改变宠物样式'
+					召唤琪露诺跟随你
 					'''
 			}
 
 			OverfrozenCrystal2: {
-				DisplayName: Overfrozen Crystal
+				DisplayName: 冰冻晶体（出自车万）
 				Tooltip:
 					'''
-					'Crystals temperature is near to 0 K'
-					'In tinkerers workbench it's pet style can be changable'
-					召唤Cirno跟随你
+					'晶体温度接近0°c'
+					'在工匠作坊处，可以改变宠物样式'
+					召唤琪露诺跟随你
 					'''
 			}
 
 			OwlDoll: {
-				DisplayName: Strange Owl Plushie
+				DisplayName: 奇怪的猫头鹰毛绒玩具（出自玩具熊的五夜惊魂）
 				Tooltip:
 					'''
-					'Where does boss hunter merchant find this?'
+					'在boss猎人在哪里找到这个?'
 					召唤Security跟随你
 					'''
 			}
 
 			OxytocinVenomVial: {
-				DisplayName: Neurotoxin Vial
+				DisplayName: 神经毒素瓶（出自原版）
 				Tooltip:
 					'''
-					'A venom once developed by lamias to nullify their preys'
-					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
-					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					召唤a light lamia跟随你
+					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
+					它似乎会使猎物产生毒素，这种毒素会形成一种虚假的关系
+					也似乎不会进入大脑的部分，让猎物感受到器官损害和痛苦的死亡'
+					召唤光明拉弥亚跟随你
 					'''
 			}
 
 			OxytocinVenomVial2: {
-				DisplayName: Neurotoxin Vial
+				DisplayName: 神经毒素瓶（出自原版）
 				Tooltip:
 					'''
-					'A venom once developed by lamias to nullify their preys'
-					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
-					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					召唤a dark lamia跟随你
+					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
+					它似乎会使猎物产生毒素，这种毒素会形成一种虚假的关系
+					也似乎不会进入大脑的部分，让猎物感受到器官损害和痛苦的死亡'
+					召唤暗黑拉弥亚跟随你
 					'''
 			}
 
 			PacDot: {
-				DisplayName: Pac-Dot
+				DisplayName: 豆子（出自吃豆人）
 				Tooltip:
 					'''
-					'It looks pixelated but tasty'
-					召唤Pacman跟随你
+					'看起来有点像素化但很会吃'
+					召唤吃豆人跟随你
 					'''
 			}
 
 			CorruptedHeart: {
-				DisplayName: Heart of the Corrupted
+				DisplayName: 腐化之心
 				Tooltip:
 					'''
-					'Let us erase this pointless world, and move on to the next'
-					召唤a child ghost跟随你
-					Double tap up make it haunt closest nonboss enemy to mouse and mentally slows it down
-					Haunted enemy have weakness agaist minions + if enemy get too close it return back to player
+					'让我们抹去这个无意义的世界，走向下一个世界'
+					召唤鬼孩跟随你
+					双击让他出现在光标附近的非boss旁边，并在精神上减慢的速度
+					对幽灵系敌怪有增强 + 如果敌怪距离玩家近，它会直接回到玩家旁边
 					'''
 			}
 
 			DeadRat: {
-				DisplayName: Dead Rat
+				DisplayName: 死老鼠
 				Tooltip:
 					'''
-					'Will you be able to aim for a happy ending without giving up'
-					召唤rat god跟随你
+					'你能在不放弃的情况下追求一个幸福的结局吗？'
+					召唤鼠神跟随你
 					'''
 			}
 
 			PeacefulHeart: {
-				DisplayName: Faithful Heart
+				DisplayName: 忠诚的心
 				Tooltip:
 					'''
-					'Peace cannot be kept by force. It can only be achieved by understanding'
-					summons hefty the little panda跟随你
+					'和平不能靠武力维持，唯有通过理解来实现'
+					召唤迷你熊猫健健跟随你
 					'''
 			}
 
 			RedRibbon: {
-				DisplayName: Red Ribbon
+				DisplayName: 红蝴蝶结
 				Tooltip:
 					'''
-					'Wonder whose this cute ribbon belongs to'
-					召唤a cute lil fella跟随你
+					'不知道这可爱的丝带是谁的'
+					召唤一个可爱的小家伙跟随你
 					'''
 			}
 
 			RottenCake: {
-				DisplayName: Rotten Cake
+				DisplayName: 腐烂的蛋糕
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'Have you ever caught a good guy, like, uh, like a real superhero?'
+					'你抓过坏人吗，比如，真正的超级英雄?'
 					'''
 			}
 
 			Pie: {
-				DisplayName: Cinnamon Pie
+				DisplayName: 肉桂派（出自传说之下）
 				Tooltip:
 					'''
-					'Looks great.'
-					召唤Toriel跟随你
+					'看起来很不错.'
+					召唤羊妈跟随你
 					'''
 			}
 
 			PinkInkling: {
-				DisplayName: Pink squid
+				DisplayName: 粉色乌贼（出自任天堂大乱斗）
 				Tooltip:
 					'''
-					'It looks at you carefully.'
-					召唤an inkling跟随你
+					'它仔细地看着你.'
+					召唤乌贼娘跟随你
 					'''
 			}
 
 			PizzaSlice: {
-				DisplayName: Pizza slice
+				DisplayName: 披萨片（出自鬼哭五月天划掉，鬼泣）
 				Tooltip:
 					'''
-					'It both smells and tastes great'
-					召唤Dante跟随你
+					'它闻起来和尝起来都很棒'
+					召唤但丁跟随你
 					'''
 			}
 
 			PlasticFigure: {
-				DisplayName: Plastic Figure
+				DisplayName: 塑料图（出自传说之下）
 				Tooltip:
 					'''
-					'It looks rare'
+					'看起来很罕见'
 					召唤Alphys跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -11717,240 +11717,240 @@ Mods: {
 			}
 
 			PortableMysteriousTablet: {
-				DisplayName: Portable Mysterious Tablet
+				DisplayName: 神秘碑牌（出自原版）
 				Tooltip:
 					'''
-					'It looks fragile'
-					召唤a lunatic cultist跟随你
+					'它看起来很脆弱'
+					召唤拜月教邪教徒跟随你
 					'''
 			}
 
 			Powercell: {
-				DisplayName: Ancient energy stabilizer core
+				DisplayName: 能量稳定器核心
 				Tooltip:
 					'''
-					'Once this core made for enlight the cult'
-					召唤a blue scarab跟随你
+					'核心用来照亮拜月邪教'
+					召唤蓝甲虫跟随你
 					'''
 			}
 
 			PrototypePreyTrackingChip: {
-				DisplayName: Prototype Universal Locator
+				DisplayName: 通用原型定位器
 				Tooltip:
 					'''
-					'Calls forth one of the oldest SATLA models ever created by scientist'
-					'altough battleworn through testing'
+					'唤醒了科学家创作的最古老的SATLA模型之一'
+					'艰苦的通过战斗测试'
 					'''
 			}
 
 			PurpleEtherianMana: {
-				DisplayName: Purple Etherian Mana
+				DisplayName: 紫色的埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'Someone wants to take this.'
-					召唤an ehterian wywern跟随你
+					'有人想拿走这个.'
+					召唤埃特尼亚飞龙跟随你
 					'''
 			}
 
 			RandosMask: {
-				DisplayName: Forgotten面具
+				DisplayName: 遗忘的面具（出自莉莎：苦痛之旅）
 				Tooltip:
 					'''
-					'You feel it belongs to someone else'
+					'你觉得它属于别人'
 					召唤Rando跟随你
 					'''
 			}
 
 			RedEye: {
-				DisplayName: Red Eye
+				DisplayName: 赤瞳（出自车万）
 				Tooltip:
 					'''
-					'It may stabilize the flames of the underworld'
-					召唤Utsuho跟随你
+					'它可以稳定地下世界的火焰'
+					召唤灵乌路空跟随你
 					'''
 			}
 
 			RedFeather: {
-				DisplayName: Red Feather
+				DisplayName: 红羽（出自原版）
 				Tooltip:
 					'''
-					'Where does this feather come from?'
-					召唤a cardinal跟随你
+					'这个羽毛来自哪里?'
+					召唤红雀跟随你
 					'''
 			}
 
 			RedPaper: {
-				DisplayName: Red Paper
+				DisplayName: 红布（出自车万）
 				Tooltip:
 					'''
-					'Part of someones clothes'
-					召唤Fujiwara跟随你
+					'衣服的一部分'
+					召唤藤原妹红跟随你
 					'''
 			}
 
 			RedRose: {
-				DisplayName: Red Rose
+				DisplayName: 红色玫瑰（出自恐怖美术馆）
 				Tooltip:
 					'''
-					'Holding it makes you feel it belongs to someone'
+					'拿着它会让你觉得它已经属于别人了'
 					召唤Ib跟随你
 					'''
 			}
 
 			ReverseBladeSword: {
-				DisplayName: Reverse-Blade Sword
+				DisplayName: 反刃刀（出自Rurouni Kenshin）
 				Tooltip:
 					'''
-					'It was once forged by a great blacksmith'
+					'它曾经是由一位伟大的铁匠锻造的'
 					召唤Kenshi跟随你
 					'''
 			}
 
 			RidersEyeCover: {
-				DisplayName: Eye Cover
+				DisplayName: 眼罩（出自Fate）
 				Tooltip:
 					'''
-					'It may belong to a rider'
-					召唤Rider跟随你
+					'它可能属于R姐'
+					召唤R姐跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			RosePetals: {
-				DisplayName: Rose Petals
+				DisplayName: 花瓣（出自RWBY）
 				Tooltip:
 					'''
-					'They once drop from a beautiful flower'
-					召唤Ruby跟随你
+					'它们曾经从一朵美丽的花上掉下来'
+					召唤露比·罗丝跟随你（这画的真的是妹子吗）
 					'''
 			}
 
 			RottenBass: {
-				DisplayName: Rotten Bass
+				DisplayName: 腐化鱼（出自原版）
 				Tooltip:
 					'''
-					'What can I use this for?'
-					召唤a bone biter跟随你
+					'我能用这个做什么?'
+					召唤噬骨沙鲨跟随你
 					'''
 			}
 
 			SakuyaWatch: {
-				DisplayName: Time controller watch
+				DisplayName: 时间控制手表（出自车万）
 				Tooltip:
 					'''
-					'This belongs to someone'
-					'In tinkerers workbench it's pet style can be changable'
-					召唤Sakuya跟随你
+					'这是某人的'
+					'在工匠作坊处，可以改变宠物样式'
+					召唤十六夜咲夜跟随你
 					'''
 			}
 
 			SakuyaWatch2: {
-				DisplayName: Time controller watch
+				DisplayName: 时间控制手表（出自车万）
 				Tooltip:
 					'''
-					'This belongs to someone'
-					'In tinkerers workbench it's pet style can be changable'
-					召唤Sakuya跟随你
+					'这是某人的'
+					'在工匠作坊处，可以改变宠物样式'
+					召唤十六夜咲夜跟随你
 					'''
 			}
 
 			ScarecrowHead: {
-				DisplayName: Scarecrow Head
+				DisplayName: 稻草人头（出自原版）
 				Tooltip:
 					'''
-					'Maybe putting it back to its body will make it happy'
-					召唤a scarecrow跟随你
+					'也许把它放回它的身体上会开心'
+					召唤稻草人跟随你
 					'''
 			}
 
 			ScarletOrb: {
-				DisplayName: Scarlet Orb
+				DisplayName: 血珠（出自车万）
 				Tooltip:
 					'''
-					'It makes you feel strange'
-					召唤Remilia跟随你
+					'这让你觉得很奇怪'
+					召唤蕾米莉亚·斯卡蕾特跟随你（好大，指模型）
 					'''
 			}
 
 			Scroll: {
-				DisplayName: Scroll
+				DisplayName: 卷轴（出自The Messanger）
 				Tooltip:
 					'''
-					'You are not sure if it's scroll or something else.'
-					召唤Messenger跟随你
+					'你不确定它是卷轴还是别的什么.'
+					召唤信使跟随你
 					'''
 			}
 
 			ScrollofKnowledge: {
-				DisplayName: Scroll of Knowledge
+				DisplayName: 知识卷轴
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'It shows the answer for every question you can ever think of'
-					'Strangely you feel its only a mirror image of the reality its being formed'
+					'它给出了你能想到的所有问题的答案'
+					'奇怪的是，你觉得它只是在生成的现实镜像'
 					'''
 			}
 
 			SeveredHead: {
-				DisplayName: Severed Head
+				DisplayName: 赤蛮奇头（出自车万）
 				Tooltip:
 					'''
-					'It looks for it's body'
-					召唤Sekibanki跟随你
+					'它在寻找自己的身体~'
+					召唤赤蛮奇跟随你
 					'''
 			}
 
 			SeveredLizardHead: {
-				DisplayName: Severed Lihzahrd Head
+				DisplayName: 丛林蜥蜴头（出自原版）
 				Tooltip:
 					'''
-					'It seems Lihzahrd's are also not safe'
-					召唤a flying snake跟随你
+					'看来丛林蜥蜴也会有危险'
+					召唤飞蛇跟随你
 					'''
 			}
 
 			ShadowCoin: {
-				DisplayName: Shadow Infused Ancient Coin
+				DisplayName: 暗影币（出自原版）
 				Tooltip:
 					'''
-					'Even though it's fake still it may trick someone to think it's real'
-					召唤a mimic跟随你
+					'即使它是假的，它仍然可以欺骗别人它是真的'
+					召唤宝箱怪跟随你
 					'''
 			}
 
 			ShadowPrism: {
-				DisplayName: Shadow Prism
+				DisplayName: 暗影棱镜
 				Tooltip:
 					'''
-					'It was forged by an 亘古领主'
-					召唤a tiny mudkip warrior跟随你
+					'它是由亘古领主制造的'
+					召唤泥鳅战士跟随你
 					'''
 			}
 
 			ShanghaiDoll: {
-				DisplayName: Shanghai Doll
+				DisplayName: 上海人形（出自车万）
 				Tooltip:
 					'''
-					'It looks for its master'
-					召唤Shanghai跟随你
+					'它寻找它的主人'
+					召唤爱丽丝·玛格特洛依德跟随你
 					'''
 			}
 
 			ShatteredCrusaderSoul: {
-				DisplayName: Shattered Soul of Crusader
+				DisplayName: 十字军的破碎之魂（出自为美好的世界献上祝福！）
 				Tooltip:
 					'''
-					Strangely even holding it makes you feel masochist'
-					召唤Darkness跟随你
+					拿着它，你也会觉得自己是受虐狂'
+					召唤达克妮丝跟随你
 					'''
 			}
 
 			ShatteredHead: {
-				DisplayName: Shattered Head
+				DisplayName: 愤怒喵喵头（出自传说之下）
 				Tooltip:
 					'''
-					'It's looking for it's body'
-					召唤Mad Mew Mew跟随你
+					'它在寻找自己的身体'
+					召唤愤怒喵喵跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -12699,7 +12699,7 @@ Mods: {
 				DisplayName: White Feather
 				Tooltip:
 					'''
-					'Where does this feather come from?'
+					'这个羽毛来自哪里?'
 					召唤a bird跟随你
 					'''
 			}
@@ -12708,7 +12708,7 @@ Mods: {
 				DisplayName: Wooden Ancient Coin
 				Tooltip:
 					'''
-					'Even though it's fake still it may trick someone to think it's real'
+					'即使它是假的，它仍然可以欺骗别人它是真的'
 					召唤a mimic跟随你
 					'''
 			}
@@ -12741,11 +12741,11 @@ Mods: {
 			}
 
 			YellowRose: {
-				DisplayName: Yellow Rose
+				DisplayName: 黄色玫瑰（出自恐怖美术馆）
 				Tooltip:
 					'''
-					'Holding it makes you feel it belongs to someone'
-					召唤Mary跟随你
+					'拿着它会让你觉得它已经属于别人了'
+					召唤梅阿丽跟随你
 					'''
 			}
 
