@@ -596,17 +596,17 @@ Mods: {
 			YukionnaEffect.MapEntry: Yukionna Effect
 			YandereSpiderPainting.MapEntry: Yandere Spider Painting
 			WitchEffect.MapEntry: Witch Effect
-			WhiteHolographicWorkBench.MapEntry: White Holographic Work Bench
-			WhiteHolographicTorch.MapEntry: White Holographic Torch
-			WhiteHolographicDoorOpened.MapEntry: White Holographic Door Opened
-			WhiteHolographicDoorClosed.MapEntry: White Holographic Door Closed
+			WhiteHolographicWorkBench.MapEntry: White 相移工作台
+			WhiteHolographicTorch.MapEntry: White 相移火把
+			WhiteHolographicDoorOpened.MapEntry: White 相移门
+			WhiteHolographicDoorClosed.MapEntry: White 相移门
 
 			WhiteHolographicChest: {
 				MapEntry0: Mods.AFKPETS.Tiles.WhiteHolographicChest.MapEntry0
-				MapEntry: White Holographic Chest
+				MapEntry: White 相移箱
 			}
 
-			WhiteHolographicChair.MapEntry: White Holographic Chair
+			WhiteHolographicChair.MapEntry: White 相移椅
 			VocaloidWink.MapEntry: Vocaloid Wink
 			VocaloidCaptain.MapEntry: Vocaloid Captain
 			VocaloidBlush.MapEntry: Vocaloid Blush
@@ -651,7 +651,7 @@ Mods: {
 
 			TileScanner.MapEntry: Tile Scanner
 			TestTile.MapEntry: Test Tile
-			TemmieDoll.MapEntry: Temmie Doll
+			TemmieDoll.MapEntry: 相移玩偶雕像
 			TechniciansTable.MapEntry: Technicians Table
 			StrongestWink.MapEntry: Strongest Wink
 			StrongestHappiness.MapEntry: Strongest Happiness
@@ -660,15 +660,15 @@ Mods: {
 			StrangeStatue.MapEntry: 地牢守卫雕像
 			StoplightEffect.MapEntry: Stoplight Effect
 			StonedHuman.MapEntry: Stoned Human
-			SpectralHolographicDoorOpened.MapEntry: Spectral Holographic Door Opened
-			SpectralHolographicDoorClosed.MapEntry: Spectral Holographic Door Closed
+			SpectralHolographicDoorOpened.MapEntry: 光谱全息门
+			SpectralHolographicDoorClosed.MapEntry: 光谱全息门
 
 			SpectralHolographicChest: {
 				MapEntry0: Mods.AFKPETS.Tiles.SpectralHolographicChest.MapEntry0
-				MapEntry: Spectral Holographic Chest
+				MapEntry: 光谱全息箱
 			}
 
-			SpectralHolographicChair.MapEntry: Spectral Holographic Chair
+			SpectralHolographicChair.MapEntry: 光谱全息椅
 			SnowPapyrus.MapEntry: Snow Papyrus
 			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope纪念章
 			SlayerofEvilTrophy.MapEntry: Slayerof Evil纪念章
@@ -744,24 +744,24 @@ Mods: {
 			JunkoPainting.MapEntry: Junko Painting
 			ImpStatue.MapEntry: 火焰小鬼雕像
 			IbPainting.MapEntry: Ib Painting
-			HolographicWorkBench.MapEntry: Holographic Work Bench
-			HolographicTable.MapEntry: Holographic Table
-			HolographicSofa.MapEntry: Holographic Sofa
-			HolographicSink.MapEntry: Holographic Sink
-			HolographicPiano.MapEntry: Holographic Piano
-			HolographicDresser.MapEntry: Holographic Dresser
-			HolographicDoorOpened.MapEntry: Holographic Door Opened
-			HolographicDoorClosed.MapEntry: Holographic Door Closed
+			HolographicWorkBench.MapEntry: 相移工作台
+			HolographicTable.MapEntry: 相移椅桌
+			HolographicSofa.MapEntry: 相移椅沙发
+			HolographicSink.MapEntry: 相移椅水槽
+			HolographicPiano.MapEntry: 相移椅钢琴
+			HolographicDresser.MapEntry: 相移椅梳妆台
+			HolographicDoorOpened.MapEntry: 相移门
+			HolographicDoorClosed.MapEntry: 相移门
 
 			HolographicChest: {
 				MapEntry0: Mods.AFKPETS.Tiles.HolographicChest.MapEntry0
-				MapEntry: Holographic Chest
+				MapEntry: 相移箱
 			}
 
-			HolographicChair.MapEntry: Holographic Chair
-			HolographicBookcase.MapEntry: Holographic Bookcase
-			HolographicBed.MapEntry: Holographic Bed
-			HolographicAmplifier.MapEntry: Holographic Amplifier
+			HolographicChair.MapEntry: 相移椅
+			HolographicBookcase.MapEntry: 相移椅书架
+			HolographicBed.MapEntry: 相移椅床
+			HolographicAmplifier.MapEntry: 双相观测器
 			HatandScarfEffect.MapEntry: Hatand Scarf Effect
 			HappyCirnoPainting.MapEntry: Happy 琪露诺 Painting
 			HappyCatPainting.MapEntry: Happy Cat Painting
@@ -2506,8 +2506,8 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: Double Phased Observer
-				Description: A relic being scattered all over universe to observe his next step
+				DisplayName: 双相观测器
+				Description: 一个遗物被散布在宇宙各地，以观察他的下一步行动
 			}
 
 			HolyStrike1: {
@@ -6941,7 +6941,7 @@ Mods: {
 
 			PoisonedArrow: {
 				DisplayName: 毒箭
-				Tooltip: "'命中后施加中毒'"
+				Tooltip: 命中后施加中毒
 			}
 
 			SeveredHand: {
@@ -6949,14 +6949,14 @@ Mods: {
 				Tooltip:
 					'''
 					'帮我一把，好吗？'
-					命中后断手附着敌人受到持续伤害Hitting enemies will cause the hand to hold them for extra damage
+					命中后断手附着敌人受到持续伤害
 					每名敌人最多被 6 只断手附着
 					'''
 			}
 
 			SlimyArrow: {
 				DisplayName: 史莱姆箭
-				Tooltip: "'It will slide on tiles'"
+				Tooltip: 它会在物块上滑动
 			}
 
 			FoxgloveSeeds: {
@@ -8141,86 +8141,86 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: Double Phased Observer
+				DisplayName: 双相观测器
 				Tooltip:
 					'''
-					'Strangely its connected to somewhere far away from your galaxy'
-					While player is being near to it will activate holographic mist
+					'奇怪的是，它与远离银河系的某个地方相连'
+					当玩家靠近它时，它将激活全息薄雾
 					'''
 			}
 
 			HolographicBed: {
-				DisplayName: Phase Shifting Bed
+				DisplayName: 相移床
 				Tooltip: ""
 			}
 
 			HolographicBlock: {
-				DisplayName: Phase Shifting Chunk
+				DisplayName: 相移块
 				Tooltip:
 					'''
-					Remnants of Cosmos imbued creatures
-					Upon being placed it may grow crystal rock formations
-					It will slowly spread touching stone tiles
+					'充满宇宙气息的生物的残迹'
+					放置后，它可能会生长出水晶岩层
+					缓慢扩散到石头上
 					'''
 			}
 
 			HolographicBookcase: {
-				DisplayName: Phase Shifting Bookcase
+				DisplayName: 相移书架
 				Tooltip: ""
 			}
 
 			HolographicChair: {
-				DisplayName: Phase Shifting Chair
+				DisplayName: 相移椅
 				Tooltip: ""
 			}
 
 			HolographicChest: {
-				DisplayName: Phase Shifting Chest
+				DisplayName: 相移箱
 				Tooltip: ""
 			}
 
 			HolographicDoor: {
-				DisplayName: Phase Shifting Door
+				DisplayName: 相移门
 				Tooltip: ""
 			}
 
 			HolographicDresser: {
-				DisplayName: Phase Shifting Dresser
+				DisplayName: 相移梳妆台
 				Tooltip: ""
 			}
 
 			HolographicPiano: {
-				DisplayName: Phase Shifting Piano
+				DisplayName: 相移钢琴
 				Tooltip: ""
 			}
 
 			HolographicPlatform: {
-				DisplayName: Phase Shifting Platform
+				DisplayName: 相移平台
 				Tooltip: ""
 			}
 
 			HolographicSink: {
-				DisplayName: Phase Shifting Sink
+				DisplayName: 相移水槽
 				Tooltip: ""
 			}
 
 			HolographicSofa: {
-				DisplayName: Phase Shifting Sofa
+				DisplayName: 相移沙发
 				Tooltip: ""
 			}
 
 			HolographicTable: {
-				DisplayName: Phase Shifting Table
+				DisplayName: 相移桌
 				Tooltip: ""
 			}
 
 			HolographicWorkBench: {
-				DisplayName: Phase Shifting Work Bench
+				DisplayName: 相移工作台
 				Tooltip: ""
 			}
 
 			TemmieDoll: {
-				DisplayName: Phase Shifting Doll
+				DisplayName: 相移玩偶雕像
 				Tooltip: ""
 			}
 
@@ -12449,7 +12449,7 @@ Mods: {
 			}
 
 			Switch: {
-				DisplayName: Light Switch
+				DisplayName: 灯光开关
 				Tooltip: "'???'"
 			}
 
@@ -13585,32 +13585,32 @@ Mods: {
 			}
 
 			SpectralHolographicBlock: {
-				DisplayName: Spectral Holographic Block
+				DisplayName: 光谱全息块
 				Tooltip: ""
 			}
 
 			SpectralHolographicChair: {
-				DisplayName: Spectral Holographic Chair
+				DisplayName: 光谱全息椅
 				Tooltip: ""
 			}
 
 			SpectralHolographicChest: {
-				DisplayName: Spectral Holographic Chest
+				DisplayName: 光谱全息箱
 				Tooltip: ""
 			}
 
 			SpectralHolographicDoor: {
-				DisplayName: Spectral Holographic Door
+				DisplayName: 光谱全息门
 				Tooltip: ""
 			}
 
 			SpectralHolographicPlatform: {
-				DisplayName: Spectral Holographic Platform
+				DisplayName: 光谱全息平台
 				Tooltip: ""
 			}
 
 			SpectralHolographicWall: {
-				DisplayName: Spectral Holographic Wall
+				DisplayName: 光谱全息墙
 				Tooltip: ""
 			}
 
@@ -14155,11 +14155,11 @@ Mods: {
 			}
 
 			DeathCoin: {
-				DisplayName: Death Coin
+				DisplayName: 死亡硬币
 				Tooltip:
 					'''
-					Allows you to eliminate one of the non boss enemy
-					Also this currency may be exchangable with other items
+					这个货币可以用来消除一个非Boss敌人
+					还可以与其它物品交换
 					'''
 			}
 
@@ -14252,11 +14252,11 @@ Mods: {
 			}
 
 			HolographicEye: {
-				DisplayName: Holographic Eye
+				DisplayName: 全息眼镜
 				Tooltip:
 					'''
-					'Open your eyes and see.'
-					'While it's in your inventory you can see spectral holographic blocks and furnitures'
+					'睁开眼睛看看'
+					'在背包中时，你可以看到光谱全息块和家具'
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -14817,10 +14817,10 @@ Mods: {
 				Tooltip:
 					'''
 					'想成为英雄？那就像个英雄一样去战斗吧!'
-					'可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果'
-					'攻击敌人会使其流血，并且对带有恐惧减益的敌人有30%几率造成暴击'
-					'按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟'
-					'效率属性将提升使用此工具收割植物和干草时的采集速度'
+					可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果
+					攻击敌人会使其流血，并且对带有恐惧减益的敌人有30%几率造成暴击
+					按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟
+					效率属性将提升使用此工具收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14829,11 +14829,11 @@ Mods: {
 				Tooltip:
 					'''
 					'这次，你所恐惧的不只是幻象'
-					'可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果'
-					'攻击敌人将施加恐惧效果，暴击则会造成恐怖效果，该武器造成的伤害无视敌人的防御力并视为真实伤害'
-					'按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟'
-					'收割植物或击杀敌人有一定几率同时收割它们的灵魂'
-					'效率属性将提升使用此工具收割植物和干草时的采集速度'
+					可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果
+					攻击敌人将施加恐惧效果，暴击则会造成恐怖效果，该武器造成的伤害无视敌人的防御力并视为真实伤害
+					按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟
+					收割植物或击杀敌人有一定几率同时收割它们的灵魂
+					效率属性将提升使用此工具收割植物和干草时的采集速度
 					'''
 			}
 
@@ -14954,8 +14954,8 @@ Mods: {
 				DisplayName: 炼金师手套
 				Tooltip:
 					'''
-					'当玩家使用时，会投掷出玩家背包中找到的第一个药水瓶'
-					'药水瓶爆炸后将形成一片云雾，对范围内目标施加该药水效果的75%持续时间，此云雾持续2.5秒'
+					当玩家使用时，会投掷出玩家背包中找到的第一个药水瓶
+					药水瓶爆炸后将形成一片云雾，对范围内目标施加该药水效果的75%持续时间，此云雾持续2.5秒
 					'''
 			}
 
@@ -14963,8 +14963,8 @@ Mods: {
 				DisplayName: 祝福香蕉
 				Tooltip:
 					'''
-					'它源自亘古领主“游戏之恋者”的善良与力量所孕育而成'
-					'You feel strong spiritual power comes from it.'
+					'它由亘古领主“游戏之恋者”的善良与力量所孕育而成'
+					'你感觉到它散发出的强大精神力量'
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -15159,8 +15159,8 @@ Mods: {
 				Tooltip:
 					'''
 					其内仍蕴含着前任使用者的灵力
-					'点击城镇中的NPC使用此物品，将会将其名字更改为调整后的名称
-					''若要调整名称，请使用命令 '/newnpcname [期望的名字]''
+					点击城镇中的NPC使用此物品，将会将其名字更改为调整后的名称
+					若要调整名称，请使用命令 '/newnpcname [期望的名字]'
 					'''
 			}
 
@@ -17598,7 +17598,7 @@ Mods: {
 					'''
 					'生活中最美好的事物如同蜂蜜般甜蜜无比。'
 					发射蕴含花蜜与花粉的独特弹药，命中敌人时不仅可能造成致命一击，还会产出蜂蜜，并引来蜜蜂群
-					Converts water into honey
+					将水转化为蜂蜜
 					'''
 			}
 
@@ -17888,14 +17888,14 @@ Mods: {
 					'''
 					'那不是我的风格'
 					左键使用棒球棍攻击，攻击敌人补充蓄力条，使武器获得额外的击退能力
-					Press binded info key while this bat being selected in hotbar to get more information about the bat subclass
-					[c/ffff00:重击能力]: Hitting any non boss enemy have a chance to do a strong knocback strike
-					If the struck mob hits another enemy both enemies highest contact modifiers.FinalDamage.Flat of these 2 increased by 100% while struck enemy take more modifiers.FinalDamage.Flat
-					[c/ffff00:打击能力]: Upon weapon is properly charged the next slam strike will gain ability to reflect projectiles
-					Casey can only reflect projectiles that have less modifiers.FinalDamage.Flat than weapon and upon reflect they do 200% of weapons base modifiers.FinalDamage.Flat
-					[c/ffff00:狂暴状态]: Weapon do 150% increased modifiers.FinalDamage.Flat + 50% increased melee speed and +10 increased crit
-					While in bersek ability player charge time greatly decrease + slame ability chance greatly increase
-					Player lose ability to do strike but each enemy kills will heal player slightly + refill berserk buff
+					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
+					[c/ffff00:重击能力]: 攻击任何非Boss敌人时，有一定几率进行强力击退
+					如果被击退的敌人撞到另一个敌人，这两个敌人之间的最大接触伤害将增加一倍，被击中的敌人将受到更多伤害
+					[c/ffff00:打击能力]: 当武器蓄力完毕后，下一次重击将获得反弹射弹的能力
+					凯西只能反弹那些伤害小于武器的射弹。反弹射后，这些射弹将造成两倍的武器伤害
+					[c/ffff00:狂暴状态]: 增加 150% 武器最终伤害、增加50%近战攻速和 10% 暴击率
+					在狂暴状态下，玩家的蓄力时间大幅减少，重击能力的触发概率大幅增加
+					玩家无法进行攻击，但每杀死一个敌人，玩家将恢复少量生命值，并重新为狂暴状态蓄力
 					'''
 			}
 
@@ -17906,14 +17906,14 @@ Mods: {
 					'草儿生长，鸟儿飞翔，阳光普照，兄弟，我可是伤人的高手'
 					左键使用棒球棍攻击，右键进行重击；当重击击败足够多敌人时，玩家将进入狂暴状态
 					右键消耗垒球作为弹药，无垒球时自动投掷，而有垒球时则向指针方向进行打击
-					Press binded info key while this bat being selected in hotbar to get more information about the bat subclass
-					[c/ffff00:重击能力]: Hitting any enemy have a 10% chance to do BONK
-					Enemies that get BONK will get dizy + spread blood with respect to mouse direction
-					[c/ffff00:打击能力]: Converts soft balls to titanium balls and upon these ball hit any enemy they have a chance to inflict serious bleeding
-					First enemy being hit with these balls will get BONK and this hits are guaranteed to crit + inflict dizzy to non boss enemies
-					[c/ffff00:狂暴状态]: Weapon do 150% increased modifiers.FinalDamage.Flat + 50% increased melee speed and +10 increased crit
-					While in bersek ability player slams have a chance to make non boss enemies get serious bleeding + slam ability activation will become 20%
-					Player lose ability to do strike but each enemy kills will heal player slightly + refill berserk buff
+					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
+					[c/ffff00:重击能力]: 攻击敌人有10%的几率施加脑震荡效果
+					受到脑震荡效果影响的敌人会感到晕眩，并根据光标方向喷洒血液
+					[c/ffff00:打击能力]: 将软球转化为钛球。当这些球击中任何敌人时，它们有一定几率造成严重出血
+					钛球击中的第一个敌人将必要暴击，施加脑震荡效果，并使非Boss敌人眩晕
+					[c/ffff00:狂暴状态]: 增加 150% 武器最终伤害、增加50%近战攻速和 10% 暴击率
+					在狂暴状态下，玩家的重击有一定几率使非Boss敌人严重出血，并且重击能力的触发概率增加到20%
+					玩家无法进行攻击，但每杀死一个敌人，玩家将恢复少量生命值，并重新为狂暴状态蓄力
 					'''
 			}
 
@@ -17922,7 +17922,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/008000:饰品]
-					''空无，不，这并不是她拥有多少能力的答案...'
+					'空无，不，这并不是她拥有多少能力的答案...'
 					'''
 			}
 
@@ -18001,7 +18001,7 @@ Mods: {
 					'除非你能成为蝙蝠侠，否则请保持自我'
 					投掷一枚锋利的蝙蝠镖，当造成暴击时会爆炸为一群蝙蝠，并对敌人施加恐惧效果
 					击中敌人时，它将使敌人陷入恐惧并降低其防御力2点
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下投掷，你将会在自身周围生成蝙蝠群
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下投掷，你将会在自身周围生成蝙蝠群
 					'''
 			}
 
@@ -18021,10 +18021,10 @@ Mods: {
 				DisplayName: 皮可皮可锤
 				Tooltip:
 					'''
-					'BONK!'
+					'邦邦梆！'
 					当击中任何敌人或地形时，它会失去动能并向反方向弹射
 					成功命中后，你可以提前发送下一次攻击，无需等待第一次投掷物返回
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下使用，它会让非首领敌人短暂眩晕
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下使用，它会让非首领敌人短暂眩晕
 					'''
 			}
 
@@ -18035,7 +18035,7 @@ Mods: {
 					'由堕落灵魂的愤怒和熔岩热力驱动'
 					投掷后，它将自动追踪并锁定最近的敌人，并在其周围爆炸形成热能区域
 					这个熔岩区域还会生成燃烧的火石地面，一旦接触就会爆炸，粉碎敌人的防御并施加炼狱之火灼烧效果
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下投掷的地震切割器会分裂成10块燃烧火石而非3块
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下投掷的地震切割器会分裂成10块燃烧火石而非3块
 					'''
 			}
 
@@ -18045,7 +18045,7 @@ Mods: {
 					'''
 					'奇怪的是，它主要用于对付人类'
 					其锋利度使其护甲穿透提升2点，并有可能使目标流血
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下的攻击会额外生成猩红金属切割者
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下的攻击会额外生成猩红金属切割者
 					'''
 			}
 
@@ -18061,7 +18061,7 @@ Mods: {
 					- 让敌人短暂眩晕，对Boss造成20%伤害加成
 					- 通过传递动能强制推动非首领敌人，若推中的敌人碰到其他敌人，则双方都会受到伤害，并削弱Boss防御5点
 					- 形成一个短暂存在的电场区域
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下使用超级弹球，你将获得完美操控，短时间内恢复生命值并增加防护效果
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下使用超级弹球，你将获得完美操控，短时间内恢复生命值并增加防护效果
 					'''
 			}
 
@@ -18073,7 +18073,7 @@ Mods: {
 					当达到最大飞行距离时，会在返回前分裂成3片沙云
 					在达到最大距离前命中的攻击会使提亚-拉碎裂成多个小型提亚-拉，造成更高的伤害
 					大型提亚-拉的切割会造成严重流血，小型提亚-拉则会对敌人造成燃烧伤害
-					如果启用盗贼配置且游戏内包含灾厄内容，在潜行状态下发动的提亚-拉攻击会在身后留下沙尘暴云
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下发动的提亚-拉攻击会在身后留下沙尘暴云
 					'''
 			}
 
@@ -18700,9 +18700,9 @@ Mods: {
 				Tooltip:
 					'''
 					'仍然在寻找异教徒
-					'攻击敌人会造成恐惧'
-					'暴击会使你周围的敌人燃烧天使之火'
-					'剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%'
+					攻击敌人会造成恐惧
+					暴击会使你周围的敌人燃烧天使之火
+					剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%
 					'''
 			}
 
@@ -18731,10 +18731,10 @@ Mods: {
 				DisplayName: 钻石巨剑
 				Tooltip:
 					'''
-					'根据化学定律，你不可能仅凭一把锤子就弄清楚如何制作剑柄.'
-					在坠落时必定造成暴击，但暴击造成的伤害降低20%.
-					每杀死10个敌人就会升级这把剑，使它的伤害提高5%，最高可达15%.'
-					死亡会重置剑的等级.
+					'根据化学定律，你不可能仅凭一把锤子就弄清楚如何制作剑柄'
+					在坠落时必定造成暴击，但暴击造成的伤害降低20%
+					每杀死10个敌人就会升级这把剑，使它的伤害提高5%，最高可达15%
+					死亡会重置剑的等级
 					'''
 			}
 
@@ -18743,7 +18743,7 @@ Mods: {
 				Tooltip:
 					'''
 					'高贵而古老的兵器，由火星最强之人所持'
-					每次攻击有10%的几率溅落等离子粒子，造成75%的基础伤害，并在碰撞时造成一个能量区域.
+					每次攻击有10%的几率溅落等离子粒子，造成75%的基础伤害，并在碰撞时造成一个能量区域
 					攻击时附加触电效果，暴击时将向周围随机区域降下雷雨
 					'''
 			}
@@ -18753,7 +18753,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你总是有用的，我忠实的伙伴'
-					'攻击将造成重创流血并降低敌人防御10点'
+					攻击将造成重创流血并降低敌人防御10点
 					使用鼠标右键，玩家可以冲向鼠标方向，冷却时间为10秒
 					'''
 			}
@@ -18763,8 +18763,8 @@ Mods: {
 				Tooltip:
 					'''
 					'勇气和荣耀，伙计们'
-					'杀死一个敌人后，它的属性会增加，并且在杀死5个敌人时达到最大值'
-					'受到伤害有10%的几率使武器增益减少1'
+					杀死一个敌人后，它的属性会增加，并且在杀死5个敌人时达到最大值
+					受到伤害有10%的几率使武器增益减少1
 					'''
 			}
 
@@ -18774,9 +18774,9 @@ Mods: {
 					'''
 					战争要用剑取胜，而不是用大米
 					'传说，在她丈夫离开她之后，这把剑上涂满了女妖的眼泪'
-					'攻击将造成霜灼，并且有10%的几率形成切割，并有几率从天空落下冰柱，将有75%的基础伤害'
-					'暴击有10%的几率将vanilla或宠物的debuff反射回敌人身上'
-					'手持匕首时，大部分冰系生命都会对你变得友好'
+					攻击将造成霜灼，并且有10%的几率形成切割，并有几率从天空落下冰柱，将有75%的基础伤害
+					暴击有10%的几率将vanilla或宠物的debuff反射回敌人身上
+					手持匕首时，大部分冰系生命都会对你变得友好
 					当玩家使用右键时，你会在你周围形成冰霜护盾，当弹射物进入护盾时，它会停止4秒
 					'''
 			}
@@ -18797,7 +18797,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一种被地精用来快速攻击的轻武器'
-					'攻击有概率掉落额外的钱'
+					攻击有概率掉落额外的钱
 					'''
 			}
 
@@ -18826,10 +18826,10 @@ Mods: {
 				Tooltip:
 					'''
 					'许个愿望'
-					'命中有20%的几率从天而降奥术流星'
-					'当这颗流星击中任何敌人时，它将粉碎成两个奥术气流，造成50%的流星基础伤害'
-					'击中敌人会造成暗影火焰'
-					'每次debuff的伤害增加4%，上限为12%'
+					命中有20%的几率从天而降奥术流星
+					当这颗流星击中任何敌人时，它将粉碎成两个奥术气流，造成50%的流星基础伤害
+					击中敌人会造成暗影火焰
+					每次debuff的伤害增加4%，上限为12%
 					'''
 			}
 
@@ -18838,8 +18838,8 @@ Mods: {
 				Tooltip:
 					'''
 					'专为宫殿守卫设计的武器'
-					'左键将允许玩家挥舞它，这将阻止比这个武器基础伤害更弱的投射物'
-					'右键以更高的速度和伤害刺它'
+					左键将允许玩家挥舞它，这将阻止比这个武器基础伤害更弱的投射物
+					右键以更高的速度和伤害刺它
 					'''
 			}
 
@@ -18862,9 +18862,9 @@ Mods: {
 					'''
 					'这是土耳其统治者的权力和王国的象征'
 					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
-					'攻击会造成流血，玩家的速度会产生动力，从而增加伤害'
-					'当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害'
-					'当骑在坐骑上时，它也会获得5%的暴击几率，并且不会被任何debuff抵消'
+					攻击会造成流血，玩家的速度会产生动力，从而增加伤害
+					当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害
+					当骑在坐骑上时，它也会获得5%的暴击几率，并且不会被任何debuff抵消
 					'''
 			}
 
@@ -18873,11 +18873,11 @@ Mods: {
 				Tooltip:
 					'''
 					'让他们尝尝他们对你的子民所做的'
-					'攻击会造成霜烧，暴击会增加你的怒气，上限为5'
-					'使用鼠标右键将允许你愤怒呼喊，并激活北欧愤怒模式'
-					'每储存一次怒气，持续时间增加1秒，近战速度提高10%，伤害提高5%'
-					'如果你正在使用这个武器，当这个增益被激活时，你的暴击将造成10%以上的伤害'
-					'同样，当你怒吼时，你会对近距离的敌人造成恐惧'
+					攻击会造成霜烧，暴击会增加你的怒气，上限为5
+					使用鼠标右键将允许你愤怒呼喊，并激活北欧愤怒模式
+					每储存一次怒气，持续时间增加1秒，近战速度提高10%，伤害提高5%
+					如果你正在使用这个武器，当这个增益被激活时，你的暴击将造成10%以上的伤害
+					同样，当你怒吼时，你会对近距离的敌人造成恐惧
 					'''
 			}
 
@@ -18885,10 +18885,10 @@ Mods: {
 				DisplayName: 活木巨剑
 				Tooltip:
 					'''
-					'在白天，它会变得更强，更快'
-					'在夜晚攻击敌人将造成树精之害，持续2秒'
-					'使用鼠标右键，你可以将它指向鼠标的方向
-					'由于它的尖端比侧面更锋利，它在这种形式下攻击会造成更大的伤害
+					在白天，它会变得更强，更快
+					在夜晚攻击敌人将造成树精之害，持续2秒
+					使用鼠标右键，你可以将它指向鼠标的方向
+					由于它的尖端比侧面更锋利，它在这种形式下攻击会造成更大的伤害
 					'''
 			}
 
@@ -18897,7 +18897,7 @@ Mods: {
 				Tooltip:
 					'''
 					'奇怪的是，它吸引着其他太空岩石'
-					'命中会使敌人燃起火焰，每第三次命中将从上方落下流星，造成60%的基础伤害'
+					命中会使敌人燃起火焰，每第三次命中将从上方落下流星，造成60%的基础伤害
 					'''
 			}
 
@@ -18906,8 +18906,8 @@ Mods: {
 				Tooltip:
 					'''
 					'它燃烧着前任使用者的罪恶
-					'击中敌人会造成流血，暴击会短暂地诅咒他们的灵魂'
-					'击中敌人有机会为自己撕开一点血腥的礼物'
+					击中敌人会造成流血，暴击会短暂地诅咒他们的灵魂
+					击中敌人有机会为自己撕开一点血腥的礼物
 					'''
 			}
 
@@ -18915,13 +18915,13 @@ Mods: {
 				DisplayName: 露西之光
 				Tooltip:
 					'''
-					'作为一个生者，你有责任挽救过去的荣誉
-					'攻击敌人会使他们燃烧天使之火，他们的罪恶会使武器储存能量'
-					'当武器储存了足够的能量，它将准备用RC进行神圣打击，它有3个阶段'
-					'另外，当玩家的灵魂燃烧时，它的耐力和防御会随着它充能的增加而增加，并且它有一个限制'
-					'在第一阶段，剑会用天使的火焰燃烧任何靠近玩家的敌人'
-					'在第二阶段，它会向你的鼠标方向投射天使光束'
-					'在第三阶段，它会发射一个天使的能量，击中敌人后会爆炸成地狱般的火焰'
+					'作为一个生者，你有责任挽救过去的荣誉'
+					攻击敌人会使他们燃烧天使之火，他们的罪恶会使武器储存能量
+					当武器储存了足够的能量，它将准备用RC进行神圣打击，它有3个阶段
+					另外，当玩家的灵魂燃烧时，它的耐力和防御会随着它充能的增加而增加，并且它有一个限制
+					在第一阶段，剑会用天使的火焰燃烧任何靠近玩家的敌人
+					在第二阶段，它会向你的鼠标方向投射天使光束
+					在第三阶段，它会发射一个天使的能量，击中敌人后会爆炸成地狱般的火焰
 					'''
 			}
 
@@ -18938,10 +18938,10 @@ Mods: {
 				DisplayName: 樱花下的血刃
 				Tooltip:
 					'''
-					'和你这种对手战斗很容易，因为你总是把自己插进我的剑里.'
-					'当你的敌人生命值不足10%你的暴击会对敌人造成斩杀效果，boss对这个效果免疫.'
-					'当你的敌人生命值超过10%或者是Boss，你的功击会造成恐惧减益，它有10%的概率在空中形成斜线'
-					'暴击将召唤幽灵，幽灵会直接瞄准你砍伤的敌人'
+					'和你这种对手战斗很容易，因为你总是把自己插进我的剑里'
+					当你的敌人生命值不足10%你的暴击会对敌人造成斩杀效果，boss对这个效果免疫
+					当你的敌人生命值超过10%或者是Boss，你的功击会造成恐惧减益，它有10%的概率在空中形成斜线
+					暴击将召唤幽灵，幽灵会直接瞄准你砍伤的敌人
 					'''
 			}
 
@@ -18950,10 +18950,10 @@ Mods: {
 				Tooltip:
 					'''
 					'愿他们的灵魂最终得到安宁'
-					'暴击有5%的几率掉落水晶徽章'
-					'水晶徽章免疫大多数原版减益，并获得1秒的无敌时间'
-					'击中敌人会造成阴影火焰'
-					'如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失.'
+					暴击有5%的几率掉落水晶徽章
+					水晶徽章免疫大多数原版减益，并获得1秒的无敌时间
+					击中敌人会造成阴影火焰
+					如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失
 					'''
 			}
 
@@ -18973,9 +18973,9 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾被用来执行保护王国的任务'
-					'当你的敌人生命值低于10%时，你会对他们进行致命一击'
-					'无法对boss生效'
-					''如果他们的生命值超过10%或者目标是Boss，你的攻击会造成恐惧减益'
+					当你的敌人生命值低于10%时，你会对他们进行致命一击
+					无法对boss生效
+					如果他们的生命值超过10%或者目标是Boss，你的攻击会造成恐惧减益
 					'''
 			}
 
@@ -18993,8 +18993,8 @@ Mods: {
 				Tooltip:
 					'''
 					'正义从来不会缺席，只会迟到'
-					'暴击将形成闪电，击中距离你最近的敌人，而不是击中一个'
-					'如果附近没有敌人，闪电将击中玩家击中敌方玩家'
+					暴击将形成闪电，击中距离你最近的敌人，而不是击中一个
+					如果附近没有敌人，闪电将击中玩家击中敌方玩家
 					'''
 			}
 
@@ -19002,9 +19002,9 @@ Mods: {
 				DisplayName: 赫菲斯托斯的复兴
 				Tooltip:
 					'''
-					在圣诞节前散播噩梦
-					'攻击敌人会燃气希腊之火，并向周围扩散造成火灾！'
-					'攻击处于“恐惧”状态的敌人会转化为“恐怖”状态'
+					'在圣诞节前散播噩梦'
+					攻击敌人会燃气希腊之火，并向周围扩散造成火灾！
+					攻击处于“恐惧”状态的敌人会转化为“恐怖”状态
 					'''
 			}
 
@@ -19012,8 +19012,8 @@ Mods: {
 				DisplayName: 未来
 				Tooltip:
 					'''
-					'这本书可以预知未来，但它的书页是粘在一起的，所以你知道什么就做什么.'
-					'击中敌人有概率造成流血和混乱'
+					'这本书可以预知未来，但它的书页是粘在一起的，所以你知道什么就做什么'
+					击中敌人有概率造成流血和混乱
 					'''
 			}
 
@@ -19022,7 +19022,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我们到了!现在事情变得有趣了'
-					'当你击中敌人时，你会对他们造成恐惧减益，如果这个攻击是致命一击，附近的敌人也会受到恐惧减益'
+					当你击中敌人时，你会对他们造成恐惧减益，如果这个攻击是致命一击，附近的敌人也会受到恐惧减益
 					'''
 			}
 
@@ -19030,8 +19030,8 @@ Mods: {
 				DisplayName: 缇佐纳
 				Tooltip:
 					'''
-					传说中它的力量取决于持有者
-					'在攻击时，它会点燃敌人，燃烧阴影火焰，并施加重创流血'
+					'传说中它的力量取决于持有者'
+					在攻击时，它会点燃敌人，燃烧阴影火焰，并施加重创流血
 					'''
 			}
 
@@ -19040,8 +19040,8 @@ Mods: {
 				Tooltip:
 					'''
 					'为老妖精王锻造的诅咒之剑'
-					'在攻击敌人时，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益'
-					'玩家的每一次减益都会增强4%，并且上限为4次减益'
+					在攻击敌人时，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益
+					玩家的每一次减益都会增强4%，并且上限为4次减益
 					'''
 			}
 
@@ -19050,12 +19050,12 @@ Mods: {
 				Tooltip:
 					'''
 					'一种特殊的剑，被奥斯曼军队锻造和使用'
-					'玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%'
-					'攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快'
-					'由于剑的锋利，攻击附带50%的几率造成内部伤害，无视敌人的防御和减伤'
-					'当敌人处于任何伤害型debuff时，它的攻击速度会增加，并且有5%的几率在空中形成切割'
-					'有了RC，玩家可以做奥斯曼耳光，敌人进入眩晕状态，使其失去2秒的攻击能力'
-					'这个技能有15秒的冷却时间，对boss无效'
+					玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%
+					攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快
+					由于剑的锋利，攻击附带50%的几率造成内部伤害，无视敌人的防御和减伤
+					当敌人处于任何伤害型debuff时，它的攻击速度会增加，并且有5%的几率在空中形成切割
+					右键后，玩家可以释放奥斯曼耳光，敌人进入眩晕状态，使其失去2秒的攻击能力
+					这个技能有15秒的冷却时间，对boss无效
 					'''
 			}
 
@@ -19072,7 +19072,7 @@ Mods: {
 				DisplayName: 封锁
 				Tooltip:
 					'''
-					增加5%的伤害抗性，命中敌人可击碎护甲并造成流血.
+					增加5%的伤害抗性，命中敌人可击碎护甲并造成流血
 					这个溜溜球可以阻挡任何造成低于其真实伤害80%的投射物
 					'''
 			}
@@ -19243,7 +19243,7 @@ Mods: {
 				DisplayName: 雀悠
 				Tooltip:
 					'''
-					投掷3个悠悠球 + 右键点击切换阵型
+					投掷3个悠悠球，右键点击切换阵型
 					打击敌怪有概率释放出锋利的叶子
 					'''
 			}
@@ -20143,7 +20143,7 @@ Mods: {
 			}
 
 			GoldenSting: {
-				DisplayName: Electric Pin
+				DisplayName: 电针
 				Tooltip:
 					'''
 					'电击针灸针'
@@ -21364,11 +21364,11 @@ Mods: {
 				DisplayName: B.U.N.-I
 				Tooltip:
 					'''
-					Strangely it's accepted you as it's master
-					With <left>you can throw BUN to get em
-					With <right>it can jumpscare any enemy near to you with a 30 second cooldown
-					Bosses are immune to this attack
-					如果在设置中启用了盗贼转化选项， it will jumpscare any close enemy for 4 second
+					'很奇怪，它接受你作为它的主人'
+					左键扔出兔兔
+					右键震慑附近的敌人，冷却时间为30秒
+					Boss对此攻击免疫
+					如果在设置中启用了盗贼转化选项，对敌人的震慑效果将持续 4 秒
 					'''
 			}
 
@@ -21385,69 +21385,68 @@ Mods: {
 			}
 
 			FleshBall: {
-				DisplayName: The Skull in Splendour
+				DisplayName: 辉煌头骨
 				Tooltip:
 					'''
-					You hope there is no moth inside of this one
-					It seeks blood of the damned but still cultist blood is more preferable
-					When it hits to an enemy it boil their blood and shatter their mind
-					<right>will cause it to change it's velocity to your mouse direction
-					When it changes it's direction it will also form a mirror image that will move in previous path for a short time
-					After it hits 4 enemy it will be satisfied with the blood and return back
-					Your critical hits will shatter mind of your enemies for a short time and bosses are immune to this effect
+					'希望里面没有飞蛾'
+					它渴求被诅咒之人的血液，但邪教徒的血液更好
+					击中敌人时，会使他们的血液沸腾，并粉碎他们的意志
+					右键会使它转向光标位置
+					当它改变方向时，生成短暂沿原路径移动镜像
+					击中4个敌人后，它会满足于血液并返回玩家
+					致命一击会短暂地粉碎敌人的意志，Boss对此效果免疫
 					'''
 			}
 
 			GoldenSafe: {
-				DisplayName: Golden Safe
-				Tooltip: "'It's for storing 政客史莱姆s lunch money'"
+				DisplayName: 黄金保险箱
+				Tooltip: "'它是用来储存政客史莱姆的午餐费'"
 			}
 
 			GonerSeastar: {
-				DisplayName: Goner Starfish
+				DisplayName: 亡者海星
 				Tooltip:
 					'''
-					'It regenerate from the parts of someone shattered across time and space.'
-					'But still maybe the flow of time make things clearer.'
+					'它从某个跨越时空破碎的人的碎片中重生'
+					'但也许时间的流逝会让事情变得更清晰'
 					'''
 			}
 
 			MasterShuriken: {
-				DisplayName: Master Shuriken
+				DisplayName: 大师手里剑
 				Tooltip:
 					'''
-					'It was once used by the legendary grand ninja monkeys'
-					'It will shoot 8 master shuriken at once and critical hits will deal 50% more damage along with critical hit bonus damage'
+					'它曾经被传说中的忍者猴子大师使用过'
+					一次扔出8个大师手里剑，暴击会额外造成50%的伤害
 					'''
 			}
 
 			MountainDew: {
-				DisplayName: Mountain Dew
+				DisplayName: 激浪汽水
 				Tooltip:
 					'''
-					Legends tell its bubbles are remains of an fallen civilizations
-					<right>will make player shake it before send to enemy
+					'传说中，它的气泡是失落文明的遗迹'
+					右键会使玩家在扔出前摇晃它
 					'''
 			}
 
 			SoulSlicer: {
-				DisplayName: Divine Soul Slicer
+				DisplayName: 神圣灵魂裁剪刀
 				Tooltip:
 					'''
-					'It's once used by divine gardeners against yokai'
-					'It's sharp enough to slice any matter and soul'
+					'它曾经被神圣园丁用来对付妖怪'
+					它足够锋利，可以切割任何物质和灵魂
 					'''
 			}
 
 			VoidalThing: {
 				Tooltip:
 					'''
-					'It is staring at you'
-					'Will change it's data to the first item in the inventory when it is used.'
-					'If that place is empty you get nothing'
-
+					'它正在盯着你'
+					使用后，它会变为背包中的第一个物品
+					如果背包是空的，则什么也得不到
 					'''
-				DisplayName: Voidal Thing
+				DisplayName: 虚无之物
 			}
 
 			DabbingGuideStatueitem: {
@@ -21457,7 +21456,7 @@ Mods: {
 
 			VengefulHeart: {
 				Tooltip: ""
-				DisplayName: Vengeful Heart
+				DisplayName: 复仇之心
 			}
 		}
 
@@ -22168,7 +22167,7 @@ Mods: {
 			DarkSoul.DisplayName: Dark Soul
 			DarkSoulCall.DisplayName: Dark Soul Call
 			DarkSoulPunch.DisplayName: Dark Soul Punch
-			DeathCoin.DisplayName: Death Coin
+			DeathCoin.DisplayName: 死亡硬币
 			Death.DisplayName: Death
 			EnemyFear.DisplayName: Enemy Fear
 			Husk.DisplayName: Husk
