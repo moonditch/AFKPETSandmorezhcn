@@ -11956,73 +11956,73 @@ Mods: {
 			}
 
 			SheerHeart: {
-				DisplayName: Sheer Heart
+				DisplayName: 枯萎穿心（出自jojo）
 				Tooltip:
 					'''
-					'You feel it's targetting something'
+					'你觉得它在瞄准什么东西'
 					召唤Sheer Heart跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			ShinyBlackSlab: {
-				DisplayName: Shiny Black Slab
-				Tooltip: "'Summons a pet android'"
+				DisplayName: 闪亮黑板（出自原版移动端1.2）
+				Tooltip: "'召唤宠物安卓机器人'"
 			}
 
 			Shovel: {
-				DisplayName: Legendary Shovel
+				DisplayName: 传奇铲（出自铲子骑士）
 				Tooltip:
 					'''
-					'It belongs to a hero'
-					召唤Shovel Knight跟随你
+					'它属于一个英雄'
+					召唤铲子骑士跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			ShyGuyMask: {
-				DisplayName: Shy Guy面具
+				DisplayName: 害羞小子面具（出自超级玛丽）
 				Tooltip:
 					'''
-					'It looks strange but cute'
-					召唤a shy guy跟随你
+					'它看起来很可爱'
+					召唤害羞小子跟随你
 					'''
 			}
 
 			SkullwithWire: {
-				DisplayName: Ancient skull
+				DisplayName: 远古头骨
 				Tooltip:
 					'''
-					'看起来很危险 and ancient'
-					召唤baby Oblivion跟随你
+					'看起来很危险又古老'
+					召唤阿瓦隆宝宝跟随你
 					'''
 			}
 
 			SlimeWatcher: {
-				DisplayName: Slimy Watcher
+				DisplayName: 虚伪的观测者
 				Tooltip:
 					'''
-					'It's still watching'
-					召唤a slimy watcher跟随你
+					'它还在观测'
+					召唤虚伪的观测者跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SpadeRune: {
-				DisplayName: Spade Rune
+				DisplayName: 白桃符文（出自三角符文）
 				Tooltip:
 					'''
-					'It smells like evil'
-					召唤Lancer跟随你
+					'闻起来很邪恶'
+					召唤兰瑟跟随你
 					'''
 			}
 
 			StableCore: {
-				DisplayName: Stable Core
+				DisplayName: 稳定的核心（出自传说之下）
 				Tooltip:
 					'''
-					'A key for something.'
-					召唤W. D. Gaster跟随你
+					'某人的钥匙.'
+					召唤W. D. 加斯特跟随你
 					'''
 			}
 
@@ -22551,7 +22551,7 @@ Mods: {
 			Alphys.DisplayName: Alphys
 			Altair.DisplayName: Altair
 			AncientSkeletron.DisplayName: Ancient Skeletron
-			Android.DisplayName: Android
+			Android.DisplayName: 安卓
 			AngryUboa.DisplayName: Angry Uboa
 			AnnoyingDog.DisplayName: Annoying Dog
 			Arceus.DisplayName: Arceus
