@@ -12027,149 +12027,149 @@ Mods: {
 			}
 
 			StackofFiveApples: {
-				DisplayName: Stack of Five Apples
+				DisplayName: 一叠五个苹果（出自hello kitty）
 				Tooltip:
 					'''
-					'Unit of length for someone'
-					召唤Kitty White跟随你
+					'某人的长度单位'
+					召唤凯蒂猫跟随你
 					'''
 			}
 
 			StrangeFlower: {
-				DisplayName: Strange Flower
+				DisplayName: 奇怪的花（出自原版）
 				Tooltip:
 					'''
-					'It smells like good old memories'
-					召唤a lost girl跟随你
+					'闻起来像是美好的旧回忆'
+					召唤迷失女孩跟随你
 					'''
 			}
 
 			StrangeLookingEgg: {
-				DisplayName: Portable Umbrella Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式伞形彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg10: {
-				DisplayName: Portable Frog Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式青蛙彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg11: {
-				DisplayName: Portable Cat Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式猫猫彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg12: {
-				DisplayName: Portable Hat and Scarf Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式帽子和围巾彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg13: {
-				DisplayName: Portable Fat Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式胖子彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg14: {
-				DisplayName: Portable Severed Head Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式头颅彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg15: {
-				DisplayName: Portable Bicycle Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式骑自行车人彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg16: {
-				DisplayName: Portable Buyo Buyo Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Buyo Buyo彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg17: {
-				DisplayName: Portable Flute Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式吹笛人彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg18: {
-				DisplayName: Portable Lamp Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 携带式提灯人彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg19: {
-				DisplayName: Portable Medamaude Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Medamaude彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg2: {
-				DisplayName: Portable Yuki-onna Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Yuki-onna Effect Egg
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg20: {
-				DisplayName: Portable Midget Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Midget彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg21: {
-				DisplayName: Portable Neon Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式霓虹灯彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg22: {
-				DisplayName: Portable Nopperabou Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Nopperabou彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg23: {
-				DisplayName: Portable Stoplight Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Stoplight彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg24: {
-				DisplayName: Portable Towel Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Towel彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg25: {
-				DisplayName: Portable Triangle Kerchief Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Triangle Kerchief彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg3: {
-				DisplayName: Portable Demon Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Demon彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg4: {
-				DisplayName: Portable Witch Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Witch彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg5: {
-				DisplayName: Portable Knife Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Knife彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg7: {
-				DisplayName: Portable Blonde Hair Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Blonde Hair彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg8: {
-				DisplayName: Portable Long Hair Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Long Hair彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg9: {
-				DisplayName: Portable Poop Hair Effect Egg
-				Tooltip: "'It belongs to Madotsuki'"
+				DisplayName: 便携式Poop Hair彩蛋（出自梦日记）
+				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeMonitor: {
-				DisplayName: Strange Monitor
+				DisplayName: 奇怪的监控(出自洛克人)
 				Tooltip:
 					'''
-					'Does this have wifi?'
-					召唤Zero跟随你
+					'这里有wifi吗??'
+					召唤洛克人 零跟随你
 					'''
 			}
 
