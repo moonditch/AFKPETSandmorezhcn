@@ -21119,10 +21119,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:Supporter Soul]
-					'His body may left but his angelic soul is still watching you faithfully'
-					If he's on screen taking damage will purr-ify players soul that gives player protection against death for 2 second + rapid healing for 4 seconds
-					This effect have 4 second cooldown
-					Only one supporter soul can be active at a time and <right>to desummon
+					'他的肉体已经逝去，但他天使般的灵魂仍忠诚地注视着你'
+					当其处于屏幕中时，承受伤害会玩家的灵魂净化，给予玩家持续2秒的免疫死亡和持续4秒的高额生命回复
+					此效果有4秒冷却
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
@@ -21131,11 +21131,11 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:Supporter Soul]
-					'Used by Atlanteans to control the Oxygene amount of the water'
-					Upon use it will call an aquatic maid to form bubble around herself on mouse location
-					While player is in bubble player gain air + she can survive only in water
-					While any pickup drop near her she form bubbles to carry them to player
-					Only one supporter soul can be active at a time and <right>to desummon
+					'被亚特兰蒂斯人用来控制水中的氧气含量'
+					使用时在鼠标处召唤一个海之女仆，在她周身形成气泡
+					玩家在气泡中获得氧气，女仆仅能在水中生存
+					当女仆会将她附近的掉落物用气泡递给玩家
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
@@ -21145,9 +21145,9 @@ Mods: {
 					'''
 					[c/00FFFF:Supporter Soul]
 					'What a gift to relish, a victim that can't perish'
-					Summons a tiny skeleton to both curse and cast dark magic your foes
-					Minion based projectiles home to cursed foes along with their hits both penetrate armor + have a chance to inflict shadowflames
-					Only one supporter soul can be active at a time and <right>to desummon
+					召唤一个小骷髅，对敌人使用诅咒和黑魔法
+				    召唤物对被诅咒敌人的攻击将追踪目标、获得额外穿甲且有几率造成暗影焰减益
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
