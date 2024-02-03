@@ -15809,7 +15809,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You are not sure if you are carrying it or it carries you'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped upon taken damage value is higher than 100 it will protect player instead with a cooldown
 					'''
 			}
@@ -15819,7 +15819,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The true out-of-body experience!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped upon death a ghost will be released which can attack to mouse direction + follows mouse location
 					It despawns with players respawn and player can attack by using RC
 					'''
@@ -15830,7 +15830,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You donOt know the power of the data corruption! It can return the kindest creature into  the most bloodlusted one'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped accessories have a higher chance to get warding as prefix
 					'''
 			}
@@ -15840,7 +15840,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Catching a fly ball is a pleasure, but knowing what to do with it after you catch it is a business'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped baseball ammo have a chance to recoverable + missing balls have a chance to not cause any penalty
 					'''
 			}
@@ -15850,7 +15850,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Instant energy!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped upon having 0 or less than hold items mana requirement players mana get instantly filled
 					This will not give mana sickness but it have a chance to overheat and make an explosion which hurt both player and any close enemy
 					When overheat occur its ability get deactivated
@@ -15868,7 +15868,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Bounce Away'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped upon enemy contact there is 10% chance to not take damage and dynamic bounce enemy
 					Upon it does contact damage to another close enemy both take damage + makes bounces mightier
 					'''
@@ -15879,7 +15879,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Pop! Pop!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped each vanilla or afkpets used bomb become 10% chance to become recoverable
 					'''
 			}
@@ -15889,7 +15889,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Blood sample of a [c/FF1493:joyful] assassin'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped it cause each healing source heal 1 more but life regen decrease by 1
 					'''
 			}
@@ -15899,7 +15899,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Stay for some hammer you must'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					Equipping it give +4 true damage to each attack which bypass defense and enemy DR
 					'''
 			}
@@ -15909,7 +15909,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This cute little slime only knows one word : Higher!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped all afkpets bounce type damage increase by 100%
 					'''
 			}
@@ -15919,7 +15919,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's best to keep an eye on this abomination'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped regen walking pentalty and being stopped bonus will be removed
 					It will also grant immunity against mental based debuffs + bleeding
 					'''
@@ -15930,7 +15930,7 @@ Mods: {
 				Tooltip:
 					'''
 					'All art is autobiographical, the pearl is the oyster�s autobiography'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped hooks emit strong light that inflict bioluminescence to close enemies
 					'''
 			}
@@ -15940,7 +15940,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It takes great courage to pick up a sword, greater courage not to use it'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped true melee weapons become 50% bigger and non melee weapons shoot projectile twice faster
 					'''
 			}
@@ -15950,7 +15950,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks cursed'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped it will decrease players stats
 					Throwing it to lava or making a nice cozy bath in lava while its being equipped will make it return back to normal
 					'''
@@ -15961,7 +15961,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This signifies your friendship with the lost soul'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain 饼干板条箱s actual treasure
 					Still be careful to not burn it with any extra hot sauce in front of your new friend or she may get real upset
 					'''
@@ -15972,7 +15972,7 @@ Mods: {
 				Tooltip:
 					'''
 					'New power is rising. There will be no dawn'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped damage multiplier is being effected by the distance of enemy, closer it is the greater damage become and vice versa
 					'''
 			}
@@ -15982,7 +15982,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Ancient power'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
 					'''
 			}
@@ -15992,7 +15992,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You better bet that my cupcakes are going to be the best part of the whole event!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped consuming food sources or cookies will give additional hyperactive buff
 					This cause your mouse jitter but weapons have 25% chance to shoot additional inaccurate projectile
 					'''
@@ -16003,7 +16003,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Brace yourself, summer sales are coming!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped decreases nurse and reforge costs by 25%
 					'''
 			}
@@ -16013,7 +16013,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Caution: May Contain Highly Corrosive Chemical'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped every 10 second player get either a 10 second buff or nondamaging debuff
 					'''
 			}
@@ -16023,7 +16023,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Best to connect with your friends'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped electric arc may appear between player and minion or between minions
 					'''
 			}
@@ -16033,7 +16033,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The fire within me burns eternal, and now yours as well!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped all weapon classes gain new ability
 					When taking damage it have a chance to lose its heat which player need to make it gain its heat again
 					'''
@@ -16044,7 +16044,7 @@ Mods: {
 				Tooltip:
 					'''
 					'EWW, it stinks'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					'While being equipped periodically spawn flies from hook + any fish loot may have additioal junk(You get normal loot + 1 junk along with it)
 					'''
 			}
@@ -16054,7 +16054,7 @@ Mods: {
 				Tooltip:
 					'''
 					'If there is magic on this planet, it is contained in water'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped while player have wet debuff or while raining it count player submerged with liquid
 					'''
 			}
@@ -16064,7 +16064,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Gotta kick those sinners'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped increases momentum + moving on a solid tile shoots dirt and stone shards backwards
 					'''
 			}
@@ -16074,7 +16074,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Aww, these are so cozy and cute'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped player gain immunity against spikes and hot blocks
 					'''
 			}
@@ -16084,7 +16084,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Contain remnants of the 梦魇史莱姆'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped fear inflicted enemies stay feared unless npc reaches the debuff limit
 					Feared enemies may get horror which have a chance to inflict fear to close enemies
 					'''
@@ -16095,7 +16095,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Nobody blinks!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped it allow player to form lightning dash
 					This allow player to bypass projectiles + slam enemies which form lightning bolts
 					'''
@@ -16106,7 +16106,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I could hear you...breathing'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped players negative life regen reflected to every enemy on screen as a true DoT
 					True DoT amount equals to life regen amount * 2
 					'''
@@ -16117,7 +16117,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Protection of the forsaken wisdom'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped npcs will not die when they are sacrificed by death's ???
 					'''
 			}
@@ -16127,7 +16127,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Defense of the Ancients'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being  equipped enemy projectile have 8% chance to be reflected back
 					'''
 			}
@@ -16137,7 +16137,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Even the very wise cannot see all ends'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					It can be used as a normal item to check the answer of magic 8 ball
 					While being equipped activating tarot card effect have 15% chance to not give any cooldown
 					'''
@@ -16148,7 +16148,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Stick it to 'em'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped bat home run strikes will spawn additional nails which stick to enemy
 					Striking these nails with bat slam will do additional damage with respect to bats base damage
 					若同时装备了[c/ffff00:博士的单片眼镜] upon sticking to enemy they will do true DoT
@@ -16160,7 +16160,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Cute lil friends'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped using any throwing based item has a chance to throw additional egg sacks that burst into tiny bugs
 					'''
 			}
@@ -16170,7 +16170,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sir AFK please add details'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped treasure bags have a small chance to glitch out and form secondary one that glitches in world
 					If player manage to kill it before it despawn player get additional treasure bag
 					'''
@@ -16181,7 +16181,7 @@ Mods: {
 				Tooltip:
 					'''
 					'What this game needs is a few thrills. Don't you agree?'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped each time player take an item from ground it have 50% chance to double its amount and 50% chance to nullify it
 					'''
 			}
@@ -16191,7 +16191,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The greatest victory is that which requires no battle
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped increase efficiency by 1
 					'''
 			}
@@ -16201,7 +16201,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Sadly evading taxes is not included'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped taking damage it has a chance to give money
 					'''
 			}
@@ -16210,7 +16210,7 @@ Mods: {
 				DisplayName: Prize Bounty
 				Tooltip:
 					'''
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					Equipping it make every afkpets or vanilla boss纪念章 drop chance increase by 10%
 					'''
 			}
@@ -16220,7 +16220,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Here comes a new challenger'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped enemies have a chance to become elite enemy which increase their stats + make them drop their loot 2 times
 					'''
 			}
@@ -16230,7 +16230,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you are officially a monster in bunny kingdom'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped accessories have a higher chance to get lucky as prefix
 					'''
 			}
@@ -16240,19 +16240,19 @@ Mods: {
 				Tooltip:
 					'''
 					'Contains truth table and database for some of microprocessors'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped It will call a defense drone that will mark players mouse to control afkpets aiming sentries direction
 					If player uses wrangler it will instead periodically shoot energy bolts to mouse direction
 					'''
 			}
 
 			ScarletBracelet: {
-				DisplayName: Scarlet Bracelet
+				DisplayName: 斯卡蕾特之镯
 				Tooltip:
 					'''
-					'Things become much prettier when they are covered in red'
-					<right>to the item to equip it and <left>to its slot to get back
-					While equipped melee hits have 25% chance and true melee hits have 50% chance to bleed enemy
+					'涂满红色的东西更好看'
+					右键装备物品，左键栏位回收
+					装备后近战攻击有25%概率造成流血，真近战攻击概率为50%
 					'''
 			}
 
@@ -16261,7 +16261,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Have an anchor so that life doesn't toss you around'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While equipped movement penalty in sea will be removed
 					'''
 			}
@@ -16271,30 +16271,30 @@ Mods: {
 				Tooltip:
 					'''
 					'A key to radiant purification'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped player gain 75% DR against jungle traps
 					'''
 			}
 
 			SpindownDice: {
-				DisplayName: Spindown Dice
+				DisplayName: Spindown Dice（占位符）
 				Tooltip:
 					'''
 					'REEROLLLLL!'
 					'(USE AT YOUR OWN RISK)'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped it will make every projectile spawned have id of normal spawned one -1
 					'''
 			}
 
 			StemCell: {
-				DisplayName: Stem Cell
+				DisplayName: 干细胞
 				Tooltip:
 					'''
-					'When he grows up he want to be a hero just like you'
-					<right>to the item to equip it and <left>to its slot to get back
-					While being equipped increase true life regen by 1 every 5 seconds while player is regenerating hp
-					Resets on max hp, taking damage or when player have life regen less than 0
+					'长大后他想成为一个像你一样的英雄'
+					右键装备物品，左键栏位回收
+					装备后，玩家在回复生命值时每5秒提升1点生命再生
+					生命值回满，受到伤害或是生命再生降至0以下时重置此效果
 
 					'''
 			}
@@ -16305,72 +16305,72 @@ Mods: {
 			}
 
 			StrawEffigy: {
-				DisplayName: Straw Effigy
+				DisplayName: 稻草塑像
 				Tooltip:
 					'''
-					'A common artifact being carried by many necromancers'
-					<right>to the item to equip it and <left>to its slot to get back
-					While equipped at respawn player gain regen buff + have 25% more hp than its current respawn hp
+					'许多巫师经常携带的一种工艺品'
+					右键装备物品，左键栏位回收
+					装备后，玩家在重生时获得再生增益并额外获得25%生命值
 					'''
 			}
 
 			SufiFez: {
-				DisplayName: Sufi Fez
+				DisplayName: 苏菲派毡帽
 				Tooltip:
 					'''
-					'Find your inner peace'
-					<right>to the item to equip it and <left>to its slot to get back
-					While being equipped each immunity frame have 20% chance to not get consumed and continue
+					'找寻你内心的平静'
+					右键装备物品，左键栏位回收
+					装备后每个无敌帧有20%概率不消耗并延续下去
 					'''
 			}
 
 			TheFirstSeed: {
-				DisplayName: The First Seed
+				DisplayName: 原初之种
 				Tooltip:
 					'''
-					'Legends tell it belongs to the era which moon does not exist'
-					<right>to the item to equip it and <left>to its slot to get back
-					While being equipped it will give player dryad's blessing buff
+					'传说中它属于月亮尚未存在的时代'
+					右键装备物品，左键栏位回收
+					装备后给予玩家树妖祝福增益
 					'''
 			}
 
 			ValorantHeadphone: {
-				DisplayName: Valorant Headphone
+				DisplayName: Valorant Headphone（占位符）
 				Tooltip:
 					'''
 					'This is the greatest plan!'
-					<right>to the item to equip it and <left>to its slot to get back
+					右键装备物品，左键栏位回收
 					While being equipped every afk pets transformation gain new ability
 					'''
 			}
 
 			VibrantBulb: {
-				DisplayName: Vibrant Bulb
+				DisplayName: 活力灯泡
 				Tooltip:
 					'''
-					'It needs power'
-					<right>to the item to equip it and <left>to its slot to get back
-					While being equipped minor improvements to all stats when hp is full + mana cost get halved when mana is full
+					'它需要能源'
+					右键装备物品，左键栏位回收
+					装备后，生命值全满时略微提升所有属性，魔力值全满时魔力消耗减半
 					'''
 			}
 
 			ViperStone: {
-				DisplayName: Viper Stone
+				DisplayName: 毒蝰之石
 				Tooltip:
 					'''
-					'An ancient glass often being used for protection against both evil spirits and venomous animals'
-					<right>to the item to equip it and <left>to its slot to get back
-					While equipped immunity to venom + under 25% max life all debuffs fade away 50% faster
+					'一个古老的玻璃制品，常被用于抵御邪恶之灵与有毒动物的侵害'
+					右键装备物品，左键栏位回收
+					装备后免疫中毒，生命值低于25%时所有debuff衰减速度加快50%
 					'''
 			}
 
 			WoodenPawnPiece: {
-				DisplayName: Wooden Pawn Piece
+				DisplayName: 木制卒子
 				Tooltip:
 					'''
-					It may look small, but only it has the potential to become a queen
-					<right>to the item to equip it and <left>to its slot to get back
-					While being equipped holding tools increase players defensive stats
+					'它也许看起来很小，但只有它有变成皇后的潜力'
+					右键装备物品，左键栏位回收
+					装备后，玩家手持工具时提升防御力
 					'''
 			}
 
@@ -21165,56 +21165,57 @@ Mods: {
 			}
 
 			LanternoftheFallen: {
-				DisplayName: Lantern of the Fallen
+				DisplayName: 遗落者之灯
 				Tooltip:
 					'''
-					[c/00FFFF:Supporter Soul]
-					'Fueled with the remnants of the eternal peace of the tormented one'
-					Using it will call 盘子女鬼's soul to apply different effects periodically
-					-Death: All enemies that have less than 10% life have a chance to be instakilled by minion attacks
-					-Misfortune:All minion based attacks inflict venom + home to enemies
-					-Rage: A specimen will protect her + tortured souls will rise from below around her periodically
-					Only one supporter soul can be active at a time and <right>to desummon
+					[c/00FFFF:辅助之魂]
+					'以受难者的永恒平静之残片作为燃料'
+					使用时召唤盘子女鬼的灵魂，周期性地造成不同效果
+					-死亡：召唤物的攻击有几率斩杀血量低于10%的敌人
+					-不幸：召唤物的攻击造成毒液减益且追踪敌人
+					-愤怒：一个样品会保护盘子女鬼的灵魂，并且被折磨的灵魂会周期性地从她周围的下方升起
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
 			MothLamp: {
-				DisplayName: Radiant Moth Lamp
+				DisplayName: 光辉蛾之灯
 				Tooltip:
 					'''
-					[c/00FFFF:Supporter Soul]
-					'Luckily you are not a boss, child nor house so you are safe'
-					Upon use it will call a tiny cataclysmic soul to watch over the player and get empower by 5% for each 1k support to the great lord
-					This ability require internet connection to activate
-					Cooldown of afkpets aiming sentries in its area greatly decrease
-					Every minion projectile hit in his area will now have a chance to inflict explosive chemical
-					When player take damage while the soul is on screen it explode into a highly radioactive area and there can be only 1 active at a time
-					Only one supporter soul can be active at a time and <right>to desummon
+					[c/00FFFF:辅助之魂]
+					'幸好你不是一个BOSS、孩童或者房子，所以你是安全的'
+					使用时召唤一个小型灾难之魂来保护玩家，每为无上之主提供1k订阅便为其提供5%强化
+					此功能需要启用网络连接
+					大幅缩减领域内afk宠物的哨兵的冷却
+					领域内的召唤物弹幕命中时有几率附上爆炸性化合物
+					玩家受伤时，若灾难之魂在屏幕内，它将爆发成一片高辐射区域，同时仅能存在一个区域
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
 			MysticalLanternHolder: {
-				DisplayName: Phantom Resonator
+				DisplayName: 谜之灯座
 				Tooltip:
 					'''
-					[c/00FFFF:Supporter Soul]
-					'Rather ten thousand lanterns from a wealthy man than one lantern from a poor man'
-					Upon use it will call a Chochin-Obake that hang on the ceiling with respect to mouse direction
-					While player is in its area player gain ability to detect close treasure + danger sources
-					Minion contact hits in its area have a high chance to generate low life lingering flame
-					Only one supporter soul can be active at a time and <right>to desummon
+					[c/00FFFF:辅助之魂]
+					'宁要富人万盏灯，不要穷人一盏灯'
+					使用时会召唤一个Chochin-Obake挂在鼠标上方的天花板上
+					玩家在领域内会获得探测宝藏和危险源的能力
+					召唤物在领域内造成接触伤害时有高概率产生垂危的火焰
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
 			SupernovaStaff: {
-				DisplayName: Supernova Staff
+				DisplayName: 超新星法杖
 				Tooltip:
 					'''
-					'You - you alone will have the stars as no one else has them...'
-					Upon use it will call a Star Angel to enlight your soul
-					While a star angel is in players screen player get varioun blessings and at lower health gets additional one
-					It periodically generates constellations that attack close enemies
-					Only one supporter soul can be active at a time and <right>to desummon
+					[c/00FFFF:辅助之魂]
+					'你-只有你能拥有其他人所没有的星辰...'
+					使用时召唤一位星之天使来点亮你的灵魂
+					当一位星之天使在屏幕内时，玩家获得多种赐福，生命值较低时额外获得一个赐福
+					它会周期性地释放星座攻击附近的敌人
+					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
 			}
 
