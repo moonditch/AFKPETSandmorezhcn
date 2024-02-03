@@ -1081,13 +1081,13 @@ Mods: {
 			}
 
 			Bobomb: {
-				DisplayName: Bob-omb
-				Description: I hope it won't explode
+				DisplayName: 炸弹兵
+				Description: 我希望它不会爆炸
 			}
 
 			BobsBrain: {
 				DisplayName: Bob's Brain
-				Description: I hope it won't explode
+				Description: 我希望它不会爆炸
 			}
 
 			BoilingBlood: {
@@ -2377,8 +2377,8 @@ Mods: {
 			}
 
 			GingerBreadMan: {
-				DisplayName: Gingerbread Man
-				Description: "'He still wants to kill you'"
+				DisplayName: 姜饼人
+				Description: "'他还是想杀了你'"
 			}
 
 			GoldBunny: {
@@ -2626,8 +2626,8 @@ Mods: {
 			}
 
 			Joker: {
-				DisplayName: Joker
-				Description: He is still laughing
+				DisplayName: 小丑
+				Description: 他还在笑
 			}
 
 			JolyneKujo: {
@@ -2711,8 +2711,8 @@ Mods: {
 			}
 
 			Kisume: {
-				DisplayName: Kisume
-				Description: How she can fly with bucket?
+				DisplayName: 琪斯美
+				Description: 她是怎么拿着水桶飞的?
 			}
 
 			KnowledgeSlime: {
@@ -2776,8 +2776,8 @@ Mods: {
 			}
 
 			Kyouko: {
-				DisplayName: Kyouko Kasodani
-				Description: "'She is looking for Myouren temple'"
+				DisplayName: 幽谷响子
+				Description: "'她在找命莲寺'"
 			}
 
 			Lakitu: {
@@ -3706,8 +3706,8 @@ Mods: {
 			}
 
 			RaikoHorikawa: {
-				DisplayName: Raiko Horikawa
-				Description: "'She makes a nice rhythm"
+				DisplayName: 堀川雷鼓
+				Description: "'她的节奏很好"
 			}
 
 			Ralsei: {
@@ -3976,7 +3976,7 @@ Mods: {
 			}
 
 			Shades: {
-				DisplayName: Shades
+				DisplayName: 墨镜君
 				Description: He is looking for his brother
 			}
 
@@ -4186,8 +4186,8 @@ Mods: {
 			}
 
 			SuikaIbuki: {
-				DisplayName: Suika Ibuki
-				Description: She is looking for something to drink
+				DisplayName: 伊吹萃香
+				Description: 她在找酒喝
 			}
 
 			SumirekoUsami: {
@@ -4421,8 +4421,8 @@ Mods: {
 			}
 
 			Tenshi: {
-				DisplayName: Tenshi Hinanawi
-				Description: She将跟随你
+				DisplayName: 比那名居天子
+				Description: 她将跟随你
 			}
 
 			Terry: {
@@ -12174,122 +12174,122 @@ Mods: {
 			}
 
 			Streetsign: {
-				DisplayName: Streetsign
+				DisplayName: 街道标志牌（出自暴力迪吧）
 				Tooltip:
 					'''
-					'Someones favourite weapon'
-					'Even Hank killed by this'
-					召唤Tricky跟随你
+					'某人最喜欢的武器'
+					'连hank都被这个害死了'
+					召唤小丑崔奇跟随你
 					'''
 			}
 
 			SunGlasses: {
-				DisplayName: Sunglasses
+				DisplayName: 太阳眼镜（出自挺进地牢）
 				Tooltip:
 					'''
-					'They made in Gungeon'
-					召唤Shades跟随你
+					'他们在地牢制造'
+					召唤墨镜君跟随你
 					'''
 			}
 
 			SuspiciosLookingEgg: {
-				DisplayName: Suspicios Looking Egg
+				DisplayName: 可疑蛋（出自原版）
 				Tooltip:
 					'''
-					'I hope Mothron doesn't get angry with me'
+					'我希望你不要惹母亲生气'
 					召唤蛾怪宝宝跟随你
 					'''
 			}
 
 			SuspiciousFlyingRock: {
-				DisplayName: Suspicious flying rock
+				DisplayName: 可疑的符石（出自车万）
 				Tooltip:
 					'''
-					'It seems someone still manipulate it'
-					召唤Tenshi跟随你
+					'似乎有人在操纵它'
+					召唤比那名居天子跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SuspiciousLookingBag: {
-				DisplayName: Suspicious Looking Bag
+				DisplayName: 可疑的包裹（出自交叉领域计划）
 				Tooltip:
 					'''
-					'You wonder what's inside.'
+					'你想知道里面是什么.'
 					召唤Chizuru Urashima跟随你
 					'''
 			}
 
 			SuspiciousLookingBiwa: {
-				DisplayName: Suspicious Looking Biwa
+				DisplayName: 可疑的琵琶(出自车万)
 				Tooltip:
 					'''
-					'It belongs to someone'
-					召唤Benden Tsukumo跟随你
+					'它属于某人'
+					召唤九十九弁弁跟随你
 					'''
 			}
 
 			SuspiciousLookingBomb: {
-				DisplayName: Suspicious looking bomb
+				DisplayName: 可疑的炸弹（出自超级玛丽）
 				Tooltip:
 					'''
-					'I hope it won't explode'
-					召唤Bobomb跟随你
+					'我希望它不会爆炸'
+					召唤炸弹兵跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SuspiciousLookingBottle: {
-				DisplayName: Suspicious Looking Bucket
+				DisplayName: 可疑的酒桶（出自车万）
 				Tooltip:
 					'''
-					'Someone is inside of it'
-					召唤Suika IBuki跟随你
+					'有人在里面'
+					召唤伊吹萃香跟随你
 					'''
 			}
 
 			SuspiciousLookingBroom: {
-				DisplayName: Suspicious Looking Broom
+				DisplayName: 可疑的扫帚(出自车万)
 				Tooltip:
 					'''
-					'There are still some dust on it'
-					召唤Kyouko跟随你
+					'上面还有一些灰尘'
+					召唤幽谷响子跟随你
 					'''
 			}
 
 			SuspiciousLookingBucket: {
-				DisplayName: Suspicious Looking Bucket
+				DisplayName: 可疑的桶(出自车万)
 				Tooltip:
 					'''
-					'Someone is inside of it'
-					召唤Kisume跟随你
+					'有人在里面'
+					召唤琪斯美跟随你
 					'''
 			}
 
 			SuspiciousLookingChatteryTeeth: {
-				DisplayName: Suspicious Looking Chattery Teeth
+				DisplayName: 可疑的打颤牙齿（出自蝙蝠侠）
 				Tooltip:
 					'''
-					'You hope it won't bite you'
-					召唤Joker跟随你
+					'你希望它不会咬你'
+					召唤小丑跟随你
 					'''
 			}
 
 			SuspiciousLookingCookie: {
-				DisplayName: Suspicious Looking Cookie
+				DisplayName: 可疑的饼干（出自原版）
 				Tooltip:
 					'''
-					'It looks like it wants to kill me'
-					召唤a tiny ginger bread man跟随你
+					'它看起来想杀了我'
+					召唤姜饼人跟随你
 					'''
 			}
 
 			SuspiciousLookingDrumStick: {
-				DisplayName: Suspicious Looking Drumstick
+				DisplayName: 可疑的敲鼓棍（出自车万）
 				Tooltip:
 					'''
-					'It belongs to someone'
-					召唤Raiko Horikawa跟随你
+					'它属于某人'
+					召唤堀川雷鼓跟随你
 					'''
 			}
 
@@ -12616,7 +12616,7 @@ Mods: {
 				DisplayName: Pink Umbrella
 				Tooltip:
 					'''
-					'It looks like it belongs to someone'
+					'It looks like 它属于某人'
 					召唤Yukari跟随你
 					'''
 			}
@@ -22566,7 +22566,7 @@ Mods: {
 			BabyPrime.DisplayName: Baby Prime
 			BadBubble.DisplayName: Bad Bubble
 			Bagon.DisplayName: Bagon
-			BenbenTsukumo.DisplayName: Benben Tsukumo
+			BenbenTsukumo.DisplayName: 九十九弁弁
 			BirdBlue.DisplayName: Bird Blue
 			BirdGold.DisplayName: Bird Gold
 			BirdRed.DisplayName: Bird Red
@@ -22672,7 +22672,7 @@ Mods: {
 			GiantTortoise.DisplayName: Giant Tortoise
 			Gilgamesh.DisplayName: Gilgamesh
 			Gilgamesh2.DisplayName: Gilgamesh2
-			GingerBreadMan.DisplayName: Ginger Bread Man
+			GingerBreadMan.DisplayName: 姜饼人
 			GoldBunny.DisplayName: Gold Bunny
 			GoldMimic.DisplayName: Gold Mimic
 			GrandDad.DisplayName: Grand Dad
@@ -22700,7 +22700,7 @@ Mods: {
 			Jevil2.DisplayName: Jevil2
 			Jirachi.DisplayName: Jirachi
 			JohnCena.DisplayName: John Cena
-			Joker.DisplayName: Joker
+			Joker.DisplayName: 小丑
 			JolyneKujo.DisplayName: Jolyne Kujo
 			JonathanJoestar.DisplayName: Jonathan Joestar
 			JotaroKujo.DisplayName: Jotaro Kujo
@@ -22718,7 +22718,7 @@ Mods: {
 			KingDedede.DisplayName: King Dedede
 			Kirby.DisplayName: Kirby
 			Kirlia.DisplayName: Kirlia
-			Kisume.DisplayName: Kisume
+			Kisume.DisplayName: 琪斯美
 			KnowledgeSlime.DisplayName: Knowledge Slime
 			Knuckles.DisplayName: Knuckles
 			Koakuma.DisplayName: Koakuma
@@ -22731,7 +22731,7 @@ Mods: {
 			Kris.DisplayName: Kris
 			Kurumi.DisplayName: Kurumi
 			Kyogre.DisplayName: Kyogre
-			Kyouko.DisplayName: Kyouko
+			Kyouko.DisplayName: 幽谷响子
 			Lakitu.DisplayName: Lakitu
 			Lancer.DisplayName: Lancer
 			LavaBat.DisplayName: Lava Bat
@@ -22876,7 +22876,7 @@ Mods: {
 			PurpleGuy.DisplayName: Purple Guy
 			Quarble.DisplayName: Quarble
 			QueenBee.DisplayName: Queen Bee
-			RaikoHorikawa.DisplayName: Raiko Horikawa
+			RaikoHorikawa.DisplayName: 堀川雷鼓
 			Ralsei.DisplayName: Ralsei
 			Rando.DisplayName: Rando
 			RanYakumo.DisplayName: Ran Yakumo
@@ -22921,7 +22921,7 @@ Mods: {
 			SerJunken6.DisplayName: Ser Junken6
 			SerJunken7.DisplayName: Ser Junken7
 			SeventhAngel.DisplayName: Seventh Angel
-			Shades.DisplayName: Shades
+			Shades.DisplayName: 墨镜君
 			ShadowMimic.DisplayName: Shadow Mimic
 			Shantae.DisplayName: Shantae
 			SheerHeart.DisplayName: Sheer Heart
@@ -22945,14 +22945,14 @@ Mods: {
 			Spiritomb.DisplayName: Spiritomb
 			SpongeBob.DisplayName: Sponge Bob
 			StardustCellTransformProjectile.DisplayName: Stardust Cell Transform Projectile
-			SuikaIbuki.DisplayName: Suika Ibuki
+			SuikaIbuki.DisplayName: 伊吹萃香
 			SumirekoUsami.DisplayName: Sumireko Usami
 			Susie.DisplayName: Susie
 			SuwakoMoriya.DisplayName: Suwako Moriya
 			Sweep.DisplayName: Sweep
 			Temmie.DisplayName: Temmie
 			tensecond.DisplayName: tensecond
-			Tenshi.DisplayName: Tenshi
+			Tenshi.DisplayName: 比那名居天子
 			Terry.DisplayName: Terry
 			TewiInaba.DisplayName: Tewi Inaba
 			TheBrain.DisplayName: The Brain
