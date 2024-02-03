@@ -651,7 +651,7 @@ Mods: {
 
 			TileScanner.MapEntry: Tile Scanner
 			TestTile.MapEntry: Test Tile
-			TemmieDoll.MapEntry: 相移玩偶雕像
+			TemmieDoll.MapEntry: 相移提米雕像
 			TechniciansTable.MapEntry: Technicians Table
 			StrongestWink.MapEntry: Strongest Wink
 			StrongestHappiness.MapEntry: Strongest Happiness
@@ -1745,8 +1745,8 @@ Mods: {
 			}
 
 			DioBrando: {
-				DisplayName: Dio Brando
-				Description: He is looking for Joestars
+				DisplayName: 迪奥·布兰度
+				Description: 他在找乔斯达
 			}
 
 			DoremySweet: {
@@ -1780,8 +1780,8 @@ Mods: {
 			}
 
 			Eddie: {
-				DisplayName: Eddie
-				Description: He is looking for Ray
+				DisplayName: 艾迪
+				Description: 他在找瑞吉儿·加德纳
 			}
 
 			Edgar: {
@@ -2179,7 +2179,7 @@ Mods: {
 			}
 
 			Elly: {
-				DisplayName: Elly
+				DisplayName: 艾丽
 				Description: "'Gatekeeper将跟随你.'"
 			}
 
@@ -2397,8 +2397,8 @@ Mods: {
 			}
 
 			GreaterDog: {
-				DisplayName: Greater Dog
-				Description: Greater Dog将跟随你
+				DisplayName: 大犬汪
+				Description: 大犬汪跟随你
 			}
 
 			GreenShield: {
@@ -2436,8 +2436,8 @@ Mods: {
 			}
 
 			GyroZeppeli: {
-				DisplayName: Gyro Zeppeli
-				Description: You feel maybe he can make you learn how to use hamon
+				DisplayName: 杰洛·齐贝林
+				Description: 也许他能让你学会如何使用波纹
 			}
 
 			HanakoFear: {
@@ -2631,7 +2631,7 @@ Mods: {
 			}
 
 			JolyneKujo: {
-				DisplayName: Jolyne Kujo
+				DisplayName: 空条徐伦
 				Description: Yare Yare Dawa
 			}
 
@@ -2876,8 +2876,8 @@ Mods: {
 			}
 
 			LunasaPrismriver: {
-				DisplayName: Lunasa Prismriver
-				Description: "'She is looking for her sisters'"
+				DisplayName: 露娜萨·普莉兹姆利巴
+				Description: "'她在找她的姐妹们'"
 			}
 
 			LunaticCultist: {
@@ -2886,8 +2886,8 @@ Mods: {
 			}
 
 			LyricaPrismriver: {
-				DisplayName: Lyrica Prismriver
-				Description: "'She is looking for her sisters'"
+				DisplayName: 莉莉卡·普莉兹姆利巴
+				Description: "'她在找她的姐妹们'"
 			}
 
 			Machop: {
@@ -3116,8 +3116,8 @@ Mods: {
 			}
 
 			Meira: {
-				DisplayName: Meira
-				Description: "'She is looking for someone strong enough to duel with her'"
+				DisplayName: 明罗
+				Description: "'她在找一个足够强壮的人与她决斗'"
 			}
 
 			Meloetta: {
@@ -3126,8 +3126,8 @@ Mods: {
 			}
 
 			MerlinPrismriver: {
-				DisplayName: Merlin Prismriver
-				Description: "'She is looking for her sisters'"
+				DisplayName: 梅露兰·普莉兹姆利巴
+				Description: "'她在找她的姐妹们'"
 			}
 
 			Messenger: {
@@ -3736,8 +3736,8 @@ Mods: {
 			}
 
 			Ray: {
-				DisplayName: Ray
-				Description: She is looking for Zack
+				DisplayName: 瑞吉儿·加德纳
+				Description: 她在找扎克
 			}
 
 			RedHeart: {
@@ -3781,8 +3781,8 @@ Mods: {
 			}
 
 			Rika: {
-				DisplayName: Rika
-				Description: The engineer将跟随你
+				DisplayName: 里香
+				Description: 里香跟随你
 			}
 
 			RikakoAsakura: {
@@ -4026,8 +4026,8 @@ Mods: {
 			}
 
 			SinGyoku: {
-				DisplayName: SinGyoku
-				Description: "'The gatekeepers将跟随你'"
+				DisplayName: 神玉
+				Description: "'神玉跟随你'"
 			}
 
 			SkeletonGoonie: {
@@ -4411,8 +4411,8 @@ Mods: {
 			}
 
 			Temmie: {
-				DisplayName: Temmie
-				Description: Temmie将跟随你
+				DisplayName: 提米
+				Description: 提米跟随你
 			}
 
 			tensecond: {
@@ -4711,8 +4711,8 @@ Mods: {
 			}
 
 			YuugiHoshiguma: {
-				DisplayName: Yuugi Hoshiguma
-				Description: "'She still drinks."
+				DisplayName: 星熊勇仪
+				Description: "'她还在喝酒."
 			}
 
 			Yuyuko: {
@@ -8220,7 +8220,7 @@ Mods: {
 			}
 
 			TemmieDoll: {
-				DisplayName: 相移玩偶雕像
+				DisplayName: 相移提米雕像
 				Tooltip: ""
 			}
 
@@ -12294,157 +12294,157 @@ Mods: {
 			}
 
 			SuspiciousLookingEyeball: {
-				DisplayName: Suspicious Looking Eyeball
+				DisplayName: 可疑的眼球（出自Vinesauce）
 				Tooltip:
 					'''
-					'It still stares at you.'
+					'它仍然盯着你.'
 					召唤Wegee跟随你
 					'''
 			}
 
 			SuspiciousLookingGem: {
-				DisplayName: Suspicious Looking Gem
+				DisplayName: 可疑的宝石（出自天地无用）
 				Tooltip:
 					'''
-					'It looks it come from space.'
-					'How Queen Bee find this?'
-					召唤Cabbit跟随你
+					'它看起来像是来自太空.'
+					'蜂后是怎么找到这个的?'
+					召唤Ryo-Ohki跟随你
 					'''
 			}
 
 			SuspiciousLookingHat: {
-				DisplayName: Hamon infused hat
+				DisplayName: 波纹浸渍帽(出自jojo)
 				Tooltip:
 					'''
-					'It looks stylish'
-					召唤Gyro Zeppeli跟随你
+					'看起来很时尚'
+					召唤杰洛·齐贝林跟随你
 					'''
 			}
 
 			SuspiciousLookingHeart: {
-				DisplayName: Suspicious Looking Heart
+				DisplayName: 可疑的心脏
 				Tooltip:
 					'''
-					'You feel holding it may attract something'
-					召唤a leap跟随你
+					'拿着它可能会吸引什么东西'
+					召唤leap跟随你
 					'''
 			}
 
 			SuspiciousLookingKatana: {
-				DisplayName: Suspicious Looking Katana
+				DisplayName: 可疑的武士刀（出自车万）
 				Tooltip:
 					'''
-					'It still contains magic'
-					召唤Meira跟随你
+					'它仍然包含着魔法'
+					召唤明罗跟随你
 					'''
 			}
 
 			SuspiciousLookingKeyboard: {
-				DisplayName: Suspicious Looking Keyboard
+				DisplayName: 可疑的键盘（出自车万）
 				Tooltip:
 					'''
-					'It looks it still have enough energy to use'
-					召唤Lyrica Prismriver跟随你
+					'看起来还有足够的能量可用'
+					召唤莉莉卡·普莉兹姆利巴跟随你
 					'''
 			}
 
 			SuspiciousLookingOrb: {
-				DisplayName: Suspicious Looking Orb
+				DisplayName: 可疑的球体（出自星之卡比）
 				Tooltip:
 					'''
-					'It looks like its alive'
+					'它看起来是生命的'
 					召唤Marx跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SuspiciousLookingPlate: {
-				DisplayName: Suspicious Looking bowl
+				DisplayName: 可疑的碗（出自车万）
 				Tooltip:
 					'''
-					'You feel you shouldn't drink this'
-					召唤Yuugi Hoshiguma跟随你
+					'你不该喝这个'
+					召唤星熊勇仪跟随你
 					'''
 			}
 
 			SuspiciousLookingRoadRoller: {
-				DisplayName: Suspicious Looking Road Roller
+				DisplayName: 可疑的压路机(出自jojo)
 				Tooltip:
 					'''
-					'Where does he even find these?'
-					召唤Dio Brando跟随你
+					'他从哪找到这个的?'
+					召唤迪奥·布兰度跟随你
 					'''
 			}
 
 			SuspiciousLookingScythe: {
-				DisplayName: Suspicious Looking Scythe
+				DisplayName: 可疑的镰刀（出自车万）
 				Tooltip:
 					'''
-					'Better you should give it to it's owner'
-					召唤Elly跟随你
+					'你最好把它给它的主人'
+					召唤艾丽跟随你
 					'''
 			}
 
 			SuspiciousLookingShovel: {
-				DisplayName: Suspicious Looking Shovel
+				DisplayName: 可疑的铲子（出自杀戮天使）
 				Tooltip:
 					'''
-					'You feel you should give this to him'
-					召唤Eddie跟随你
+					'你觉得你应该把这个给他'
+					召唤艾迪跟随你
 					'''
 			}
 
 			SuspiciousLookingSnowpile: {
-				DisplayName: Suspicious Looking Snowpile
+				DisplayName: 可疑的雪堆（出自传说之下）
 				Tooltip:
 					'''
-					'Does this snowpile have a tail?'
-					召唤Greater Dog跟随你
+					'这个雪堆有尾巴吗?'
+					召唤大犬汪跟随你
 					'''
 			}
 
 			SuspiciousLookingTrash: {
-				DisplayName: Suspicious Looking trash
+				DisplayName: 可疑的垃圾
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'You feel it's observing you'
+					'它在观察你'
 					'''
 			}
 
 			SuspiciousLookingTrumpet: {
-				DisplayName: Suspicious Looking trumpet
+				DisplayName: 可疑的小号（出自车万）
 				Tooltip:
 					'''
 					'Doot Doot'
-					召唤Merlin Prismriver跟随你
+					召唤梅露兰·普莉兹姆利巴跟随你
 					'''
 			}
 
 			SuspiciousLookingViolin: {
-				DisplayName: Suspicious Looking Violin
+				DisplayName: 可疑的小提琴（出自车万）
 				Tooltip:
 					'''
-					'It looks beautiful'
-					召唤Lunasa Prismriver跟随你
+					'它外观漂亮'
+					召唤露娜萨·普莉兹姆利巴跟随你
 					'''
 			}
 
 			SuspiciousLookingWeb: {
-				DisplayName: Suspicious Looking Web
+				DisplayName: 可疑的网(出自jojo)
 				Tooltip:
 					'''
-					'You strangely feel it's stronger than other web'
-					召唤Jolyne Kujo跟随你
+					'你奇怪地觉得它比其他的网更坚固'
+					召唤空条徐伦跟随你
 					'''
 			}
 
 			SuspiciousLookingYinYangOrb: {
-				DisplayName: Suspicious Looking Yin Yang Orb
+				DisplayName: 可疑的阴阳玉（出自车万）
 				Tooltip:
 					'''
-					'A relic from the past'
-					召唤SinGyoku跟随你
+					'过去的遗物'
+					召唤神玉跟随你
 					'''
 			}
 
@@ -12454,56 +12454,56 @@ Mods: {
 			}
 
 			Tank: {
-				DisplayName: Tank
+				DisplayName: 坦克(出自车万)
 				Tooltip:
 					'''
-					'Maybe someone can drive this'
-					召唤Rika跟随你
+					'也许有人能开这车'
+					召唤里香跟随你
 					'''
 			}
 
 			TemFlake: {
-				DisplayName: Tem Flake
+				DisplayName: 喂食提米薄片(出自传说之下)
 				Tooltip:
 					'''
-					'It looks great.'
-					召唤Temmie跟随你
+					'看起来很好.'
+					召唤提米跟随你
 					'''
 			}
 
 			tensecondtimer: {
-				DisplayName: Ten second timer
+				DisplayName: 十秒计时器（出自You Have 10 Seconds）
 				Tooltip:
 					'''
-					'It looks kinda strange and big'
+					'它看起来又大又奇怪'
 					召唤cute box跟随你
 					'''
 			}
 
 			TheBrain: {
-				DisplayName: Brain in a robot
+				DisplayName: 机器人的大脑（出自DC Comics）
 				Tooltip:
 					'''
-					'It looks like it's alive'
-					召唤the brain跟随你
+					'它看起来是活的'
+					召唤大脑跟随你
 					'''
 			}
 
 			TimeShard: {
-				DisplayName: Time Shard
+				DisplayName: Time Shard（出自信使）
 				Tooltip:
 					'''
-					'Maybe you can upgrade something with it'
+					'也许你可以用它升级一些东西'
 					召唤Shopkeeper跟随你
 					'''
 			}
 
 			TinyBag: {
-				DisplayName: Tiny Bag
+				DisplayName: 手挎包（出自杀戮天使）
 				Tooltip:
 					'''
-					'It may belong to another person'
-					召唤Ray跟随你
+					'它可能属于另一个人'（指Zack？）
+					召唤瑞吉儿·加德纳跟随你
 					'''
 			}
 
@@ -22632,16 +22632,16 @@ Mods: {
 			Delibird.DisplayName: Delibird
 			Diancie.DisplayName: Diancie
 			Dimentio.DisplayName: Dimentio
-			DioBrando.DisplayName: Dio Brando
+			DioBrando.DisplayName: 迪奥·布兰度
 			DoremySweet.DisplayName: Doremy Sweet
 			DryBaby.DisplayName: Dry Baby
-			Eddie.DisplayName: Eddie
+			Eddie.DisplayName: 艾迪
 			Edgar.DisplayName: Edgar
 			Effect5.DisplayName: Effect5
 			EGadd.DisplayName: E Gadd
 			Eirin.DisplayName: Eirin
 			Ellen.DisplayName: Ellen
-			Elly.DisplayName: Elly
+			Elly.DisplayName: 艾丽
 			Enchantress.DisplayName: Enchantress
 			EtherianWyvern1.DisplayName: Etherian Wyvern1
 			EtherianWyvern2.DisplayName: Etherian Wyvern2
@@ -22676,9 +22676,9 @@ Mods: {
 			GoldBunny.DisplayName: Gold Bunny
 			GoldMimic.DisplayName: Gold Mimic
 			GrandDad.DisplayName: Grand Dad
-			GreaterDog.DisplayName: Greater Dog
+			GreaterDog.DisplayName: 大犬汪
 			Grillby.DisplayName: Grillby
-			GyroZeppeli.DisplayName: Gyro Zeppeli
+			GyroZeppeli.DisplayName: 杰洛·齐贝林
 			HatanoKokoro.DisplayName: Hatano Kokoro
 			HatsuneMiku.DisplayName: Hatsune Miku
 			HeadlessBaby.DisplayName: Headless Baby
@@ -22701,7 +22701,7 @@ Mods: {
 			Jirachi.DisplayName: Jirachi
 			JohnCena.DisplayName: John Cena
 			Joker.DisplayName: 小丑
-			JolyneKujo.DisplayName: Jolyne Kujo
+			JolyneKujo.DisplayName: 空条徐伦
 			JonathanJoestar.DisplayName: Jonathan Joestar
 			JotaroKujo.DisplayName: Jotaro Kujo
 			Jowee.DisplayName: Jowee
@@ -22748,9 +22748,9 @@ Mods: {
 			Lopunny.DisplayName: Lopunny
 			LostGirl.DisplayName: Lost Girl
 			Lucina.DisplayName: Lucina
-			LunasaPrismriver.DisplayName: Lunasa Prismriver
+			LunasaPrismriver.DisplayName: 露娜萨·普莉兹姆利巴
 			LunaticCultist.DisplayName: Lunatic Cultist
-			LyricaPrismriver.DisplayName: Lyrica Prismriver
+			LyricaPrismriver.DisplayName: 莉莉卡·普莉兹姆利巴
 			Machop.DisplayName: Machop
 			MadMewMew.DisplayName: Mad Mew Mew
 			Madotsuki10.DisplayName: Madotsuki10
@@ -22790,9 +22790,9 @@ Mods: {
 			MegaKnight.DisplayName: Mega Knight
 			MegamanX.DisplayName: Megaman X
 			Megumin.DisplayName: Megumin
-			Meira.DisplayName: Meira
+			Meira.DisplayName: 明罗
 			Meloetta.DisplayName: Meloetta
-			MerlinPrismriver.DisplayName: Merlin Prismriver
+			MerlinPrismriver.DisplayName: 梅露兰·普莉兹姆利巴
 			Messenger.DisplayName: Messenger
 			MetaKnight.DisplayName: Meta Knight
 			Metroid.DisplayName: Metroid
@@ -22881,13 +22881,13 @@ Mods: {
 			Rando.DisplayName: Rando
 			RanYakumo.DisplayName: Ran Yakumo
 			RatGod.DisplayName: Rat God
-			Ray.DisplayName: Ray
+			Ray.DisplayName: 瑞吉儿·加德纳
 			Reimu.DisplayName: Reimu
 			ReisenUdongeinInaba.DisplayName: Reisen Udongein Inaba
 			Remilia.DisplayName: Remilia
 			RenkoUsami.DisplayName: Renko Usami
 			Rider.DisplayName: Rider
-			Rika.DisplayName: Rika
+			Rika.DisplayName: 里香
 			RikakoAsakura.DisplayName: Rikako Asakura
 			Rikku.DisplayName: Rikku
 			RinnosukeMorichika.DisplayName: Rinnosuke Morichika
@@ -22931,7 +22931,7 @@ Mods: {
 			ShovelKnight.DisplayName: Shovel Knight
 			Shrek.DisplayName: Shrek
 			ShyGuy.DisplayName: Shy Guy
-			SinGyoku.DisplayName: Sin Gyoku
+			SinGyoku.DisplayName: 神玉
 			SkeletonGoonie.DisplayName: Skeleton Goonie
 			Skeletron2.DisplayName: Skeletron2
 			Skeletron.DisplayName: Skeletron
@@ -22950,7 +22950,7 @@ Mods: {
 			Susie.DisplayName: Susie
 			SuwakoMoriya.DisplayName: Suwako Moriya
 			Sweep.DisplayName: Sweep
-			Temmie.DisplayName: Temmie
+			Temmie.DisplayName: 提米
 			tensecond.DisplayName: tensecond
 			Tenshi.DisplayName: 比那名居天子
 			Terry.DisplayName: Terry
@@ -22989,7 +22989,7 @@ Mods: {
 			Yugi.DisplayName: Yugi
 			Yukari.DisplayName: Yukari
 			Yuna.DisplayName: Yuna
-			YuugiHoshiguma.DisplayName: Yuugi Hoshiguma
+			YuugiHoshiguma.DisplayName: 星熊勇仪
 			Yuyuko.DisplayName: Yuyuko
 			YuyukoFumo.DisplayName: Yuyuko Fumo
 			Zack.DisplayName: Zack
