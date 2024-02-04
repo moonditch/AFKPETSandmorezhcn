@@ -822,7 +822,7 @@ Mods: {
 			}
 
 			Akagi: {
-				DisplayName: 赤城号
+				DisplayName: 赤城
 				Description: 呵呵呵... 啊哈哈哈哈哈!
 			}
 
@@ -936,8 +936,8 @@ Mods: {
 			}
 
 			Asriel: {
-				DisplayName: Asriel
-				Description: Asriel将跟随你
+				DisplayName: 艾斯利尔 逐梦
+				Description: 艾斯利尔 逐梦将跟随你
 			}
 
 			Ayame: {
@@ -1156,8 +1156,8 @@ Mods: {
 			}
 
 			Bubsy: {
-				DisplayName: Bubsy
-				Description: Bubsy将跟随你
+				DisplayName: 巴比斯
+				Description: 巴比斯将跟随你
 			}
 
 			Bucket: {
@@ -1355,8 +1355,8 @@ Mods: {
 			}
 
 			CrowPrince: {
-				DisplayName: Crow Prince
-				Description: It was sent by Lord Nand to make a peace treaty between crows and men
+				DisplayName: 乌鸦王子
+				Description: 它是南德派来让乌鸦与人类签订和平条约
 			}
 
 			CryingChild: {
@@ -1410,13 +1410,13 @@ Mods: {
 			}
 
 			DarkMagician: {
-				DisplayName: Dark Magician
-				Description: He waits for its turn
+				DisplayName: 黑魔导
+				Description: 他等待着轮到他
 			}
 
 			DarkMagicianGirl: {
-				DisplayName: Dark Magician Girl
-				Description: She waits for its turn
+				DisplayName: 黑魔导女孩
+				Description: 她等待着轮到她
 			}
 
 			Darkness: {
@@ -2165,8 +2165,8 @@ Mods: {
 			}
 
 			Eirin: {
-				DisplayName: Eirin Yagokoro
-				Description: She is looking for Kaguya
+				DisplayName: 八意永琳
+				Description: 她在找蓬莱山辉夜
 			}
 
 			Ellen: {
@@ -2491,8 +2491,8 @@ Mods: {
 			}
 
 			HecatiaLapislazuli: {
-				DisplayName: Hecatia Lapislazuli
-				Description: She looks confused
+				DisplayName: 赫卡提亚·拉碧斯拉祖利
+				Description: 她看起来很困惑
 			}
 
 			HelloKitty: {
@@ -2606,13 +2606,13 @@ Mods: {
 			}
 
 			Jevil1: {
-				DisplayName: Jevil
-				Description: HEARTS, DIAMONDS, I CAN DO ANYTHING!
+				DisplayName: 小丑魔
+				Description: 红心，钻石，我什么都能做!
 			}
 
 			Jevil2: {
 				DisplayName: Jevil
-				Description: WHO KEEPS SPINNING THE WORLD AROUND?
+				Description: 是谁让世界不停地旋转?
 			}
 
 			Jirachi: {
@@ -2661,8 +2661,8 @@ Mods: {
 			}
 
 			Kaga: {
-				DisplayName: Kaga
-				Description: There are many things I wish to say, but when I see your face, I can't recall them well�
+				DisplayName: 加贺
+				Description: 虽然有很多话想说，但一看到你的脸，我就不知道小说什么了
 			}
 
 			Kagerou: {
@@ -2671,8 +2671,8 @@ Mods: {
 			}
 
 			Kaguya: {
-				DisplayName: Kaguya Houraisan
-				Description: She is looking for Eirin
+				DisplayName: 蓬莱山辉夜
+				Description: 她在找八意永琳
 			}
 
 			Kaho: {
@@ -2841,13 +2841,13 @@ Mods: {
 			}
 
 			Link: {
-				DisplayName: Link
-				Description: He is looking for pots
+				DisplayName: 林克
+				Description: 他在找锅
 			}
 
 			Link2: {
-				DisplayName: Link
-				Description: It looks like it's looking for his shield
+				DisplayName: 林克
+				Description: 它好像在找他的盾牌
 			}
 
 			LittleSnake: {
@@ -3301,8 +3301,8 @@ Mods: {
 			}
 
 			NononJakuzure: {
-				DisplayName: Nonon Jakuzure
-				Description: Nani Sore?
+				DisplayName: 蛇崩乃音
+				Description: 这是什么痛苦?
 			}
 
 			NordicRage: {
@@ -3316,8 +3316,8 @@ Mods: {
 			}
 
 			NueHoujuu: {
-				DisplayName: Nue Houjuu
-				Description: She将跟随你
+				DisplayName: 封兽鵺
+				Description: 她将跟随你
 			}
 
 			Nullified: {
@@ -3471,8 +3471,8 @@ Mods: {
 			}
 
 			Poniko: {
-				DisplayName: Poniko
-				Description: She wants her doll back
+				DisplayName: 浅濑
+				Description: 她想要找回她的洋娃娃
 			}
 
 			PortableEMPCooldown: {
@@ -3806,8 +3806,8 @@ Mods: {
 			}
 
 			Ruby: {
-				DisplayName: Ruby Rose
-				Description: She is looking for Yang
+				DisplayName: 露比·罗丝
+				Description: 她在寻找阳小龙
 			}
 
 			Rumia: {
@@ -3836,8 +3836,8 @@ Mods: {
 			}
 
 			Saber: {
-				DisplayName: Altria Pendragon
-				Description: She is looking for her master
+				DisplayName: 阿尔托莉雅·潘德拉贡
+				Description: 她正在寻找她的主人
 			}
 
 			SacrificeBuff: {
@@ -4016,8 +4016,8 @@ Mods: {
 			}
 
 			Shrek: {
-				DisplayName: Shrek
-				Description: Shrek将跟随你
+				DisplayName: 史瑞克
+				Description: 史瑞克跟随你
 			}
 
 			ShyGuy: {
@@ -4511,7 +4511,7 @@ Mods: {
 			}
 
 			Turkey: {
-				DisplayName: Turkey
+				DisplayName: 宠物火鸡
 				Description: 它将跟随你
 			}
 
@@ -4521,8 +4521,8 @@ Mods: {
 			}
 
 			UkulelePichu: {
-				DisplayName: Ukulele Pichu
-				Description: The music it plays makes you feel energetic
+				DisplayName: 乌克丽丽皮丘
+				Description: 它演奏的音乐让你精力充沛
 			}
 
 			Undyne: {
@@ -4531,7 +4531,7 @@ Mods: {
 			}
 
 			UNOwenWasher: {
-				DisplayName: U. N. Owen Washer
+				DisplayName: 芙兰式洗衣机
 				Description: 它将跟随你
 			}
 
@@ -4581,8 +4581,8 @@ Mods: {
 			}
 
 			Waluigi: {
-				DisplayName: Waluigi
-				Description: Waluigi将跟随你
+				DisplayName: 瓦路易基
+				Description: 瓦路易基将跟随你
 			}
 
 			Wario: {
@@ -4636,8 +4636,8 @@ Mods: {
 			}
 
 			WhiteMage: {
-				DisplayName: White Mage
-				Description: She wants to be in your team
+				DisplayName: 白魔法师
+				Description: 她想加入你的队伍
 			}
 
 			WhiteTetrisBlock: {
@@ -4666,8 +4666,8 @@ Mods: {
 			}
 
 			Yang: {
-				DisplayName: Yang Xiao Long
-				Description: Her aura grows stronger
+				DisplayName: 阳小龙
+				Description: 她的光环越来越强
 			}
 
 			YellowTetrisBlock: {
@@ -4701,8 +4701,8 @@ Mods: {
 			}
 
 			Yukari: {
-				DisplayName: Yukari Yakumo
-				Description: How is it even possible ?
+				DisplayName: 八云紫
+				Description: 这怎么可能呢 ?
 			}
 
 			Yuna: {
@@ -11821,7 +11821,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它们曾经从一朵美丽的花上掉下来'
-					召唤露比·罗丝跟随你（这画的真的是妹子吗）
+					召唤露比·罗丝跟随你
 					'''
 			}
 
@@ -12508,98 +12508,98 @@ Mods: {
 			}
 
 			TinyBluePlane: {
-				DisplayName: Tiny Blue Plane
+				DisplayName: 蓝色战列舰（出自碧蓝航线）
 				Tooltip:
 					'''
-					'They will fight for Sakura Empire'
-					召唤Kaga跟随你
+					'她们会为樱花帝国而战'
+					召唤加贺跟随你
 					'''
 			}
 
 			TinyCrown: {
-				DisplayName: Tiny Crown
+				DisplayName: 小皇冠
 				Tooltip:
 					'''
-					'You feel you should give it to its owner'
-					召唤crow prince跟随你
+					'你应该把它还给它的主人'
+					召唤乌鸦王子跟随你
 					'''
 			}
 
 			TinyPlanets: {
-				DisplayName: Tiny Planet Figures
+				DisplayName: 三界（出自车万）
 				Tooltip:
 					'''
-					'They look cute'
-					召唤Hecatia Lapislazuli跟随你
+					'司掌三界的人物'
+					召唤赫卡提亚·拉碧斯拉祖利跟随你
 					'''
 			}
 
 			TinyPowerCore: {
-				DisplayName: Tiny Power Core
+				DisplayName: 小功率核心（出自原版）
 				Tooltip:
 					'''
-					'It looks tiny but still it may be enough for something'
-					召唤a 石小人跟随你
+					'它看起来很小，但可能足够做些什么了'
+					召唤石小人跟随你
 					'''
 			}
 
 			TinyRedPlane: {
-				DisplayName: Tiny Red Plane
+				DisplayName: 红色战列舰（出自碧蓝航线）
 				Tooltip:
 					'''
-					'They will fight for Sakura Empire'
-					召唤Akagi跟随你
+					'她们会为樱花帝国而战'
+					召唤赤城跟随你
 					'''
 			}
 
 			TinyUkulele: {
-				DisplayName: Tiny Ukulele
+				DisplayName: 小尤克里里琴（出自宝可梦巡护员 光的轨迹）
 				Tooltip:
 					'''
-					'It looks both cute and charged'
-					召唤Ukulele Pichu跟随你
+					'它看起来既可爱又充满活力'
+					召唤乌克丽丽皮丘跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			TotallyNormalBone: {
-				DisplayName: Totally Normal Bone
+				DisplayName: 完全正常的骨头（出自传说之下）
 				Tooltip:
 					'''
-					'It seems totally normal. Why are you carrying it around?'
-					召唤annoying dog跟随你
+					'这看起来很正常.你为什么随身带着它?'
+					召唤烦人的狗跟随你
 					'''
 			}
 
 			ToyExcalibur: {
-				DisplayName: Toy Excalibur
+				DisplayName: Ex咖喱棒（出自Fate）
 				Tooltip:
 					'''
-					'It may look like toy but still you feel a strong energy comes through it.'
-					召唤Saber跟随你
+					'它可能看起来像玩具，但仍然感到一股强大的能量通过它.'
+					召唤阿尔托莉雅·潘德拉贡跟随你
 					'''
 			}
 
 			Triangle: {
-				DisplayName: Triforce of Courage
+				DisplayName: 勇气的三角力量（出自塞尔达传说）
 				Tooltip:
 					'''
-					'Maybe I can find other two pieces'
-					召唤Link跟随你
+					'也许我能找到另外两件'
+					召唤林克跟随你
 					'''
 			}
 
 			TurkeyFeather: {
-				DisplayName: Turkey Feather
-				Tooltip: "'Summons a pet turkey'"
+				DisplayName: 火鸡羽毛（出自pe版1.1~1.2）
+				Tooltip: "'召唤宠物火鸡'"
 			}
 
 			UboaDoll: {
-				DisplayName: Uboa Doll
+				DisplayName: Uboa洋娃娃（出自梦日记）
 				Tooltip:
 					'''
-					'Looks creepy'
-					召唤Poniko跟随你
+					'看起来令人毛骨悚然'
+					召唤浅濑跟随你
 					'''
 			}
 
@@ -12607,49 +12607,50 @@ Mods: {
 				DisplayName: UFO
 				Tooltip:
 					'''
-					'Maybe you shouldn't touch it'
-					召唤Nue Houjuu跟随你
+					'也许你不该碰它'
+					召唤封兽鵺跟随你
 					'''
 			}
 
 			Umbrella: {
-				DisplayName: Pink Umbrella
+				DisplayName: 粉红色的伞（出自车万）
 				Tooltip:
 					'''
-					'It looks like 它属于某人'
-					召唤Yukari跟随你
+					'它属于某人'
+					召唤八云紫（我去，紫老太婆，[c/FF0000:ddhjikol]）跟随你
+					汉化作者被八云紫打死在键盘上，无法没更新汉化了：/
 					'''
 			}
 
 			UndefinedFlyingScythe: {
-				DisplayName: Devils Knife
+				DisplayName: 恶魔刀（出自三角符文）
 				Tooltip:
 					'''
-					'Let the games begin!'
-					召唤Jevil跟随你
+					'让游戏开始吧!'
+					召唤小丑魔跟随你
 					'''
 			}
 
 			UnlimitedMud: {
-				DisplayName: Bottomless Mud Bucket
+				DisplayName: 无尽泥浆桶（出自怪物史瑞克）
 				Tooltip:
 					'''
-					'Why even someone crafts this?'
-					召唤Shrek跟随你
+					'为什么有人要做这个?'
+					召唤史瑞克跟随你
 					'''
 			}
 
 			UNOwenWasher: {
-				DisplayName: U. N. Owen Washer
+				DisplayName: 芙兰式洗衣机（出自afk宠物）
 				Tooltip:
 					'''
-					'It haven't been used by 495 years'
-					召唤the U. N. Owen Washer跟随你
+					'已经有495年没人用了'
+					召唤芙兰式洗衣机跟随你
 					'''
 			}
 
 			VoidalSingularity: {
-				DisplayName: Voidal Singularity
+				DisplayName: Voidal Singularity（占位符）
 				Tooltip:
 					'''
 					'It was once used by Father of Void to cause unstabilize fabric which shatter the interval of time and space.'
@@ -12659,84 +12660,84 @@ Mods: {
 			}
 
 			WaluigiHat: {
-				DisplayName: Purple Plumper's Hat
+				DisplayName: 紫色帽子（出自超级马力欧）
 				Tooltip:
 					'''
-					'It smells like assist纪念章'
-					召唤Waluigi跟随你
+					'闻起来像纪念章'
+					召唤瓦路易基跟随你
 					'''
 			}
 
 			Wand: {
-				DisplayName: Otherworldly wand
+				DisplayName: 蓬莱仙枝（出自车万）
 				Tooltip:
 					'''
-					'It is once be used in the moon'
-					召唤Kaguya跟随你
+					'它曾经在月球上被使用过'
+					召唤蓬莱山辉夜跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			WhiteBook: {
-				DisplayName: Book of white magic
+				DisplayName: 白魔法书（出自最终幻想）
 				Tooltip:
 					'''
-					'It have lots of healing spell inside of it'
-					召唤White Mage跟随你
+					'里面有很多治愈魔法'
+					召唤白魔法师跟随你
 					'''
 			}
 
 			WhiteDrumMajorHat: {
-				DisplayName: White Drum Major Hat
+				DisplayName: 白鼓大师帽（出自斩服少女）
 				Tooltip:
 					'''
-					'It's elegance make you feel an urge to meet with it's owner'
-					召唤Nonon Jakuzure跟随你
+					'它优雅的让你有一种想见它主人的冲动'
+					召唤蛇崩乃音跟随你
 					'''
 			}
 
 			WhiteFeather: {
-				DisplayName: White Feather
+				DisplayName: 白羽
 				Tooltip:
 					'''
 					'这个羽毛来自哪里?'
-					召唤a bird跟随你
+					召唤鸟跟随你
 					'''
 			}
 
 			WoodenCoin: {
-				DisplayName: Wooden Ancient Coin
+				DisplayName: 木制币
 				Tooltip:
 					'''
 					'即使它是假的，它仍然可以欺骗别人它是真的'
-					召唤a mimic跟随你
+					召唤宝箱怪跟随你
 					'''
 			}
 
 			YarnBall: {
-				DisplayName: Red Yarn Ball
+				DisplayName: 红毛线球（出自巴比斯）
 				Tooltip:
 					'''
-					'It looks cute.'
-					召唤Bubsy跟随你
+					'它看起来很可爱.'
+					召唤巴比斯跟随你
 					'''
 			}
 
 			YellowFlower: {
-				DisplayName: Yellow flower
+				DisplayName: 黄花（出自传说之下）
 				Tooltip:
 					'''
-					'It reminds you someone'
-					召唤Asriel跟随你
+					'它很中二'
+					召唤艾斯利尔 逐梦跟随你
 					'''
 			}
 
 			YellowHair: {
-				DisplayName: Yellow Hair
+				DisplayName: 黄色的头发丝（出自RWBY）
 				Tooltip:
 					'''
-					'It is still burning with Aura'
-					召唤Yang跟随你
+					'它仍然燃烧着光环'
+					召唤阳小龙跟随你
 					'''
 			}
 
@@ -12750,38 +12751,38 @@ Mods: {
 			}
 
 			YugiohCard1: {
-				DisplayName: Otherworldly Summining Card
+				DisplayName: 卡牌（出自游戏王）
 				Tooltip:
 					'''
-					'Do I still need a sacrifice to summon him?'
-					召唤Dark Magician跟随你
+					'我还需要献祭来召唤他吗?'
+					召唤黑魔导跟随你
 					'''
 			}
 
 			YugiohCard2: {
-				DisplayName: Otherworldly Summining Card
+				DisplayName: 卡牌（出自游戏王）
 				Tooltip:
 					'''
-					'Do I still need a sacrifice to summon her?'
-					召唤Dark Magician Girl跟随你
+					'我还需要献祭来召唤她吗?'
+					召唤黑魔导女孩跟随你
 					'''
 			}
 
 			YumeNikki: {
-				DisplayName: Yume Nikki
+				DisplayName: 梦日记（出自梦日记）
 				Tooltip:
 					'''
-					'It's written in Japanese.'
+					'它是用日语写的.'
 					召唤Madotsuki跟随你
 					'''
 			}
 
 			YuyukoFumo: {
-				DisplayName: Yuyuko Fumo
+				DisplayName: uuz玩偶
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'It seems she is looking for her friend'
+					'她似乎在找她的朋友'
 					'''
 			}
 
@@ -22546,7 +22547,7 @@ Mods: {
 			MiningCloud.DisplayName: Mining Cloud
 			Absol.DisplayName: Absol
 			AerithGainsborough.DisplayName: Aerith Gainsborough
-			Akagi.DisplayName: Akagi
+			Akagi.DisplayName: 赤城
 			Akame.DisplayName: Akame
 			Alice.DisplayName: Alice
 			Alphys.DisplayName: Alphys
@@ -22554,11 +22555,11 @@ Mods: {
 			AncientSkeletron.DisplayName: Ancient Skeletron
 			Android.DisplayName: 安卓
 			AngryUboa.DisplayName: Angry Uboa
-			AnnoyingDog.DisplayName: Annoying Dog
+			AnnoyingDog.DisplayName: 烦人的狗
 			Arceus.DisplayName: Arceus
 			ArmoredUndyne.DisplayName: Armored Undyne
 			Arno.DisplayName: Arno
-			Asriel.DisplayName: Asriel
+			Asriel.DisplayName: 艾斯利尔 逐梦
 			Ayame.DisplayName: Ayame
 			AyaShameimaru.DisplayName: Aya Shameimaru
 			Baba.DisplayName: Baba
@@ -22588,7 +22589,7 @@ Mods: {
 			BrideCirno.DisplayName: Bride 琪露诺
 			BrideFlandre.DisplayName: Bride Flandre
 			BrideJunko.DisplayName: Bride Junko
-			Bubsy.DisplayName: Bubsy
+			Bubsy.DisplayName: 巴比斯
 			Bucket.DisplayName: Bucket
 			Buddy.DisplayName: Buddy
 			BuilderMario.DisplayName: Builder Mario
@@ -22617,7 +22618,7 @@ Mods: {
 			Creeper.DisplayName: Creeper
 			Crimera.DisplayName: Crimera
 			CrowMinion.DisplayName: Crow Minion
-			CrowPrince.DisplayName: Crow Prince
+			CrowPrince.DisplayName: 乌鸦王子
 			CryingChild.DisplayName: Crying Child
 			CrystalThresher.DisplayName: Crystal Thresher
 			Cuphead.DisplayName: Cuphead
@@ -22627,8 +22628,8 @@ Mods: {
 			Dante.DisplayName: Dante
 			Darkai.DisplayName: Darkai
 			DarkLamia.DisplayName: Dark Lamia
-			DarkMagician.DisplayName: Dark Magician
-			DarkMagicianGirl.DisplayName: Dark Magician Girl
+			DarkMagician.DisplayName: 黑魔导
+			DarkMagicianGirl.DisplayName: 黑魔导女孩
 			DeadCat2.DisplayName: Dead Cat2
 			Delibird.DisplayName: Delibird
 			Diancie.DisplayName: Diancie
@@ -22683,7 +22684,7 @@ Mods: {
 			HatanoKokoro.DisplayName: Hatano Kokoro
 			HatsuneMiku.DisplayName: Hatsune Miku
 			HeadlessBaby.DisplayName: Headless Baby
-			HecatiaLapislazuli.DisplayName: Hecatia Lapislazuli
+			HecatiaLapislazuli.DisplayName: 赫卡提亚·拉碧斯拉祖利
 			HelloKitty.DisplayName: Hello Kitty
 			HinaKagiyama.DisplayName: Hina Kagiyama
 			Hooh.DisplayName: Hooh
@@ -22697,7 +22698,7 @@ Mods: {
 			IrvineKinneas.DisplayName: Irvine Kinneas
 			Isabelle.DisplayName: Isabelle
 			Jake.DisplayName: Jake
-			Jevil1.DisplayName: Jevil1
+			Jevil1.DisplayName: 小丑魔
 			Jevil2.DisplayName: Jevil2
 			Jirachi.DisplayName: Jirachi
 			JohnCena.DisplayName: John Cena
@@ -22708,9 +22709,9 @@ Mods: {
 			Jowee.DisplayName: Jowee
 			JungleBat.DisplayName: Jungle Bat
 			Junko.DisplayName: Junko
-			Kaga.DisplayName: Kaga
+			Kaga.DisplayName: 加贺
 			Kagerou.DisplayName: Kagerou
-			Kaguya.DisplayName: Kaguya
+			Kaguya.DisplayName: 蓬莱山辉夜
 			Kaho.DisplayName: Kaho
 			Kamek.DisplayName: Kamek
 			KasaneTeto.DisplayName: Kasane Teto
@@ -22742,8 +22743,8 @@ Mods: {
 			Lilac.DisplayName: Lilac
 			LilAmber.DisplayName: Lil Amber
 			LilyWhite.DisplayName: Lily White
-			Link.DisplayName: Link
-			Link2.DisplayName: Link2
+			Link.DisplayName: 林克
+			Link2.DisplayName: 林克
 			LittleSnake.DisplayName: Little Snake
 			Lloid.DisplayName: Lloid
 			Lopunny.DisplayName: Lopunny
@@ -22824,9 +22825,9 @@ Mods: {
 			Nazrin.DisplayName: Nazrin
 			Niko.DisplayName: Niko
 			NitoriKawashiro.DisplayName: Nitori Kawashiro
-			NononJakuzure.DisplayName: Nonon Jakuzure
+			NononJakuzure.DisplayName: 蛇崩乃音
 			NuclearThrone.DisplayName: Nuclear Throne
-			NueHoujuu.DisplayName: Nue Houjuu
+			NueHoujuu.DisplayName: 封兽鵺
 			Oblivion.DisplayName: Oblivion
 			OerbaDiaVanille.DisplayName: Oerba Dia Vanille
 			OldLady.DisplayName: Old Lady
@@ -22871,7 +22872,7 @@ Mods: {
 			Pet9.DisplayName: Pet9
 			PhoneixWright.DisplayName: Phoneix Wright
 			Pichu.DisplayName: Pichu
-			Poniko.DisplayName: Poniko
+			Poniko.DisplayName: 浅濑
 			Protection.DisplayName: Protection
 			Pug.DisplayName: Pug
 			PurpleGuy.DisplayName: Purple Guy
@@ -22899,7 +22900,7 @@ Mods: {
 			Ruukoto.DisplayName: Ruukoto
 			Rydia.DisplayName: Rydia
 			Ryuk.DisplayName: Ryuk
-			Saber.DisplayName: Saber
+			Saber.DisplayName: 阿尔托莉雅·潘德拉贡
 			SagumeKishin.DisplayName: Sagume Kishin
 			Sakuya.DisplayName: Sakuya
 			Sakuya2.DisplayName: Sakuya2
@@ -22930,7 +22931,7 @@ Mods: {
 			ShinmyoumaruSukuna.DisplayName: Shinmyoumaru Sukuna
 			Shopkeeper.DisplayName: Shopkeeper
 			ShovelKnight.DisplayName: Shovel Knight
-			Shrek.DisplayName: Shrek
+			Shrek.DisplayName: 史瑞克
 			ShyGuy.DisplayName: Shy Guy
 			SinGyoku.DisplayName: 神玉
 			SkeletonGoonie.DisplayName: Skeleton Goonie
@@ -22966,29 +22967,29 @@ Mods: {
 			TruffleWorm.DisplayName: 松露虫
 			Turkey.DisplayName: Turkey
 			Uboa.DisplayName: Uboa
-			UkulelePichu.DisplayName: Ukulele Pichu
+			UkulelePichu.DisplayName: 乌克丽丽皮丘
 			Undyne.DisplayName: Undyne
 			UNOwenWasher.DisplayName: U N Owen Washer
 			Utsuho.DisplayName: Utsuho
 			VampireBat.DisplayName: Vampire Bat
 			Wailord.DisplayName: Wailord
 			Wakasagihime.DisplayName: Wakasagihime
-			Waluigi.DisplayName: Waluigi
+			Waluigi.DisplayName: 瓦路易基
 			Wario.DisplayName: Wario
 			Weavile.DisplayName: Weavile
 			Wegee.DisplayName: Wegee
 			Weiss.DisplayName: Weiss
-			WhiteMage.DisplayName: White Mage
+			WhiteMage.DisplayName: 白魔法师
 			Wilfe.DisplayName: Wilfe
 			WoodenMimic.DisplayName: Wooden Mimic
 			Wraith.DisplayName: Wraith
-			Yang.DisplayName: Yang
+			Yang.DisplayName: 阳小龙
 			YorkshireTerrier.DisplayName: Yorkshire Terrier
 			Yoshi.DisplayName: Yoshi
 			YoshiIsland.DisplayName: Yoshi Island
 			Youmu.DisplayName: Youmu
 			Yugi.DisplayName: Yugi
-			Yukari.DisplayName: Yukari
+			Yukari.DisplayName: 八云紫
 			Yuna.DisplayName: Yuna
 			YuugiHoshiguma.DisplayName: 星熊勇仪
 			Yuyuko.DisplayName: Yuyuko
