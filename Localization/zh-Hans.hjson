@@ -16227,23 +16227,23 @@ Mods: {
 			}
 
 			RabbitsFoot: {
-				DisplayName: Rabbit's Foot
+				DisplayName: 兔子脚
 				Tooltip:
 					'''
-					'Now you are officially a monster in bunny kingdom'
+					'现在你对兔子王国来说是个公认的恶魔了'
 					右键装备物品，左键栏位回收
-					While being equipped accessories have a higher chance to get lucky as prefix
+					装备后饰品有更高概率获得'幸运的'词条
 					'''
 			}
 
 			ResearchNotes: {
-				DisplayName: Research Notes
+				DisplayName: 研究笔记
 				Tooltip:
 					'''
-					'Contains truth table and database for some of microprocessors'
+					'包含某些微处理器的真值表与数据库'
 					右键装备物品，左键栏位回收
-					While being equipped It will call a defense drone that will mark players mouse to control afkpets aiming sentries direction
-					If player uses wrangler it will instead periodically shoot energy bolts to mouse direction
+					装备后召唤一个防卫无人机，标记玩家的鼠标，以控制afkpets哨兵的瞄准方向
+					如果玩家使用wrangler，它将转而周期性地朝鼠标方向发射能量束
 					'''
 			}
 
@@ -16258,22 +16258,22 @@ Mods: {
 			}
 
 			SeaLegs: {
-				DisplayName: Sea Legs
+				DisplayName: 深海探索者
 				Tooltip:
 					'''
-					'Have an anchor so that life doesn't toss you around'
+					'配有一根锚，以防你晕头转向'
 					右键装备物品，左键栏位回收
-					While equipped movement penalty in sea will be removed
+					装备后移除海水带来的减速
 					'''
 			}
 
 			SolChiefsPectoral: {
-				DisplayName: Sol Chief's Pectoral
+				DisplayName: 索尔酋长之胸甲
 				Tooltip:
 					'''
-					'A key to radiant purification'
+					'通往光辉纯净的钥匙'
 					右键装备物品，左键栏位回收
-					While being equipped player gain 75% DR against jungle traps
+					装备后玩家获得针对丛林陷阱的75%减伤
 					'''
 			}
 
