@@ -1136,8 +1136,8 @@ Mods: {
 			}
 
 			BrokenReality: {
-				DisplayName: Broken Reality
-				Description: "'The void awaits'"
+				DisplayName: 破碎现实
+				Description: "'虚空等待着你'"
 			}
 
 			BrokenSpace: {
@@ -1226,12 +1226,12 @@ Mods: {
 			}
 
 			Charged: {
-				DisplayName: Charged
+				DisplayName: 触电
 				Description:
 					'''
-					Your free charge density increased
-					The charge exchange will decrease your endurance by 5%
-					Touching any enemy will cause charge flow which will cause electrification
+					你的自由电荷密度增加了
+					电荷交换将减少你5%的忍耐力
+					接触任何敌人将导致电荷流动，引发电气效果
 					'''
 			}
 
@@ -1670,13 +1670,13 @@ Mods: {
 			}
 
 			SeriousBleed: {
-				DisplayName: Serious Bleeding
-				Description: Looking at it even makes you feel pain
+				DisplayName: 大出血
+				Description: 看着它甚至会让你感到疼痛
 			}
 
 			ShatteredDefense: {
-				DisplayName: Shattered Defense
-				Description: Defense lost
+				DisplayName: 破碎防御
+				Description: 防御降低
 			}
 
 			SoulBlight: {
@@ -4788,11 +4788,11 @@ Mods: {
 
 		Items: {
 			AuroraThirdEye: {
-				DisplayName: Aurora's Third Eye
+				DisplayName: 极光之眼
 				Tooltip:
 					'''
-					It was once formed by an 亘古领主 who once ruled her own realms with peace.
-					'The Shine of the eye breaks the nightmare of the Manchens into a million little pieces'
+					它曾由一位和平统治自己领域的亘古领主铸造
+					'这双眼睛的光芒将满城人的噩梦击成无数碎片'
 					[c/ffff00:趣味模式专属物品]
 					-无法获得-
 					'''
@@ -4803,11 +4803,11 @@ Mods: {
 				Tooltip:
 					'''
 					赐予你圣甲虫真正的力量
-					'感谢“蓝圣甲虫”帮忙制作这个模组.'
-					'受到伤害时，有25%的几率产生4只蓝圣甲虫'
-					'Enemies has a low chance to drop Ankh rune which will give you immortality for few seconds'
-					'白天时，攻击提高8%，移动提高10%，防御提高5点，生命恢复提高3点'
 					'太阳可以保护你'
+					'感谢 abluescarab 帮忙制作这个模组'
+					受到伤害时，有25%的几率产生4只蓝圣甲虫
+					敌人有低概率掉落安克符文，使你在几秒钟内免疫伤害
+					白天时，攻击提高8%，移动提高10%，防御提高5点，生命再生提高3点					
 					-无法获得-
 					'''
 			}
@@ -4817,8 +4817,8 @@ Mods: {
 				Tooltip:
 					'''
 					你感到自己在能量和物质之间交替
-					'每12秒有5%的几率获得破碎的现实'
-					'immune to every damage without activating immunity frames'
+					每12秒有5%的几率获得破碎现实增益
+					在不激活无敌帧的情况下免疫所有伤害
 					'''
 			}
 
@@ -4827,8 +4827,8 @@ Mods: {
 				Tooltip:
 					'''
 					'我是第一，我看到了一切'
-					小鬼和恶魔不会对玩家产生敌意+灵魂之焰在玩家周围旋转
-					穿过灵魂之焰的弹幕增加100%的速度，50%的大小和10%的暴击，并在击中时造成灵魂枯萎
+					小鬼和恶魔不会对玩家产生敌意，灵魂之焰在玩家周围旋转
+					穿过灵魂之焰的弹幕增加100%的速度，50%的大小和10%的暴击，并在命中时施加灵魂枯萎
 					'''
 			}
 
@@ -4837,44 +4837,44 @@ Mods: {
 				Tooltip:
 					'''
 					'充满了无辜者的鲜血'
-					下次攻击消耗25%生命值，造成50%伤害+血腥地狱
+					下次攻击消耗25%生命值，造成50%伤害并施加大出血
 					此效果发生后，接下来的10秒内，增加1点生命回复
 					每次攻击有33%几率将敌人的流血转化为更严重的流血
 					'''
 			}
 
 			CoronaBorealis: {
-				DisplayName: Mystical Stones
+				DisplayName: 神秘之石
 				Tooltip:
 					'''
-					'Legends tell each time a hero dies a new constellation born'
-					According to the weapon type you are holding it gives following abilities
-					[c/00FFFF:Melee]:True melee increase by 5% and taking heart will heal +25% more of its heal amount along with picking it will inflict frostburn to close enemies
-					[c/00FFFF:Magic]:every fifth attack will also form snowflake that can inflict frostburn + striking enemy have 25% chance to give used mana back while enemy is under frostburn
-					[c/00FFFF:Ranged]:Every ranged hits have 50% chance to rain icicle from sky which have 50% of base damage of the attack
-					[c/00FFFF:Minion]:A tiny washing machine will fight for you which do 75% of held weapons damage along with all minions can inflict frostburn
+					'传说每次英雄死去，都会诞生一个新的星座'
+					根据你持有的武器类型，赋予以下加成
+					[c/00FFFF:近战]: 增加5%真近战伤害，拾取红心时的治疗量增加25%，并对附近的敌人施加霜冻
+					[c/00FFFF:魔法]: 每五次攻击将形成雪花并施加霜，当敌人受到霜冻时，有25%的几率返还消耗的魔力值
+					[c/00FFFF:远程]: 每次远程攻击有50%的几率从天空降下冰柱，造成一半的基础伤害
+					[c/00FFFF:召唤]: 一台小型洗衣机将为你而战，造成所持武器的75%，并且所有召唤物都可以施加霜冻
 					'''
 			}
 
 			DeathMark: {
-				DisplayName: Death Mark
+				DisplayName: 死亡印记
 				Tooltip:
 					'''
-					'Slowly, Gently, This Is How A Life Is Taken...'
-					Each 10 second a random enemy on screen is being death marked and this effect rotates after next 10 second arrives
-					The marked enemies take 8% more damage while dealing 8% less contact damage
-					Killing a deathmarked enemy will make enemy drop 50% more coin + drop a heart or mana star
+					'缓慢而平静，这就是生命的终结...'
+					每10秒，屏幕上随机一个敌人会被打上死亡印记，并在下一个10秒轮换
+					被标记的敌人受到8%额外伤害，减少8%接触伤害
+					击杀带有死亡印记的敌人将额外掉落50%钱币，并掉落一个红心或魔力星
 					'''
 			}
 
 			DragonsDogma: {
-				DisplayName: Dragon's Dogma
+				DisplayName: 龙之爪牙
 				Tooltip:
 					'''
-					'Take up arms to me... Come to me...'
-					Unless enemies all debuff slots are filled it will cause fire type buffs last permanent
-					If they are filled in order to make a place for a new buff it will take weakest type out
-					On fire and frostburn gain additional true DoT
+					'拿起武器...向我走来...'
+					除非敌人的减益栏位已满，否则将受到永久的火焰类型减益
+					如果减益栏已满，将移除最弱的减益
+					着火和霜冻造成额外的真实持续伤害
 					'''
 			}
 
@@ -4889,56 +4889,56 @@ Mods: {
 			}
 
 			FrigidScarf: {
-				DisplayName: Frigid Scarf
+				DisplayName: 冰冷围巾
 				Tooltip:
 					'''
-					'Do not pity the dead, pity the living, and, above all those who live without love'
-					Gain immunity against frostburn, chilled, frozen + taking contact damage frostburn every enemy on screen
-					According to the weapon type you are holding it gives you the following abilities
-					-[c/00FFFF:Melee]: 5% melee damage, picking heart inflict frostburn to close enemies + hearts heal an extra 50% more
-					Hitting an enemy inflicted with frostburn with a true melee will increase the speed of the next true melee hit by 15%
-					-[c/00FFFF:Ranged]:Icicle spawns in each ranged hit + hitting enemies with frostburn increase next projectile shoot speed by 50%
-					-[c/00FFFF:Magic]:Every third hit spawn snowflake which inflict frostburn + magic hits a enemy inflicted with frostburn give 33% of refunded mana back
-					Next attack gains %crit chance x2  based on the mana you got refunded
-					-[c/00FFFF:Summon]: A tiny washing machine will fight for you which do 75% of your held weapon damage + snowflakes rain from sky
-					Player could not equip mystical stones and frigid scarf at the same time
+					'不要怜悯死亡，怜悯生命，尤其是那些缺少爱的生命'
+					免疫霜冻、冷冻、冰冻，受到接触伤害时对视野范围内的敌人施加霜冻
+					根据你持有的武器类型，赋予以下加成
+					-[c/00FFFF:近战]: 增加5%近战伤害，拾取红心时的治疗量增加50%，并对附近的敌人施加霜冻
+					使用真近战对敌人施加霜冻，将提高15%下一次真近战的攻击速度
+					-[c/00FFFF:远程]: 每次远程攻击从天空降下冰柱，对敌人施加霜冻，将提高50%下一发射弹的攻击速度
+					-[c/00FFFF:魔法]: 每三次攻击将形成雪花并施加霜，当敌人受到霜冻时，有33%的几率返还消耗的魔力值
+					根据返还的魔力多少，下一次攻击提高最多两倍暴击率
+					-[c/00FFFF:召唤]: 一台小型洗衣机将为你而战，造成所持武器的75%，并且有雪花从天而降
+					玩家无法同时装备神秘之石和冰冷围巾
 					'''
 			}
 
 			HauntedCandle: {
-				DisplayName: Haunted Candle
+				DisplayName: 鬼魅蜡烛
 				Tooltip:
 					'''
-					'A perfect setting for the witching hour'
-					Summoner + magic kills form lingering spiritual energy which can penetrate up to 3 times
+					'女巫时间的完美设定'
+					召唤和魔法武器击杀形成徘徊的灵能攻击敌人，可以穿透3次
 					'''
 			}
 
 			JellyfishTentacle: {
-				DisplayName: Jellyfish Tentacle
+				DisplayName: 水母触手
 				Tooltip:
 					'''
-					'It's still wriggling'
-					Using a weapon has a chance to shoot slightly inaccurate laser bolt that does half of weapons damage
+					'它仍在扭动'
+					使用武器时有几率发射不准确的激光束，造成一半的武器伤害
 					'''
 			}
 
 			Pyroglyph: {
-				DisplayName: Pyroglyph
+				DisplayName: 透镜
 				Tooltip:
 					'''
-					'Some people just want to see the world burn'
-					While under a debuff all attacks will inlict on fire for 3 seconds
-					Player gain immunity against on fire
+					'有些人只想看到世界燃烧'
+					受到减益效果时，所有攻击都会施加3秒着火
+					免疫着火
 					'''
 			}
 
 			RocketinaBottle: {
-				DisplayName: Bottled Rocket
+				DisplayName: 火箭瓶
 				Tooltip:
 					'''
-					'A different approach to the generic school project'
-					Ranged weapons have 15% chance to shoot inaccurate rocket which will do 50% of their base damage
+					'一种不同于传统学院派的玩意'
+					远程武器有15%的几率发射不准确的火箭，造成一半的武器伤害
 					'''
 			}
 
@@ -4957,186 +4957,186 @@ Mods: {
 				Tooltip:
 					'''
 					'它的目光洞穿你的灵魂'
-					你的生命值越低，造成的伤害越高，在生命值 <= 20% 时增伤达到最大值 20%
-					按下绑定的“羔羊献祭”键，你的伤害在 10 秒内增加 50%
+					你的生命值越低，造成的伤害越高，在生命值低于 20% 时达到 20% 的最大增伤
+					按下绑定的羔羊献祭键，增加 50% 伤害，持续 10 秒
 					在这 10 秒内，你不能治疗或恢复生命值，该能力有 1 分钟的冷却时间
 					激活此能力需要消耗你 20% 的最大生命值，如果你的生命值低于20%，则无法激活
 					'''
 			}
 
 			Trinity: {
-				DisplayName: Trinity
+				DisplayName: 三位一体
 				Tooltip:
 					'''
-					Remnants of heroes rotate arnound and if any projectile pass through them will they get the following:
-					Green: Player projectile lose 10% damage but can heal for 5% of done damage, enemy projectile become 10% weaker
-					Blue: Plyaer projectile become 15% stronger and enemy projectile become 10% stronger
-					Violet: Player projectile gain 100% speed + 10% crit chance and enemy projectile become 50% slower
+					召唤围绕旋转的英雄残念，任何穿过它们的射弹将获得以下效果
+					绿: 玩家的射弹减少10%伤害，但回复造成伤害5%的生命值，敌方射弹也减少10%伤害
+					蓝: 玩家的射弹增加15%伤害，敌方射弹增加10%伤害
+					紫: 玩家的射弹增加100%的速度和10%暴击率，敌方射弹减少50%速度
 					'''
 			}
 
 			UmbraCandle: {
-				DisplayName: Umbra Candle
+				DisplayName: 本影蜡烛
 				Tooltip:
 					'''
-					'No light can save you now from the darkness you spread'
-					summoner and magic kills form lingering shadowflame that their location is locked on player screen
-					They will slowly fade away and if they hit any enemy they will cause shadowflame explosion
-					Player gain immunity against vanilla and afk pets curse based debuffs
+					'现在你无法从你散播的黑暗中逃脱'
+					召唤和魔法武器击杀形成持续的暗影火焰，其位置锁定在玩家屏幕上
+					它们会慢慢消失，如果它们碰到任何敌人，它们会引发暗影火焰爆炸
+					免疫原版和本模组的诅咒类减益
 					'''
 			}
 
 			WantedPoster: {
-				DisplayName: Wanted Poster
+				DisplayName: 通缉令
 				Tooltip:
 					'''
-					'Empire wants them death'
-					While there are any active boss player gain 4% damage, crit, movement speed and 4 defense
-					In hardmode the stat increase doubles
+					'帝国想要他们死'
+					只要有任何活跃的Boss，增加 4% 伤害、暴击率、移动速度和4点防御
+					困难模式下，属性加成会翻倍
 					'''
 			}
 
 			DeceitfulFaith: {
-				DisplayName: Deceitful Faith
-				Tooltip: Every 12th hit will cause a classless black inferno that will deal half of the hits damage
+				DisplayName: 欺诈信仰
+				Tooltip: 每12次攻击将引发一次无伤害类别的黑色狱火，造成攻击一半的伤害
 			}
 
 			AthenasFortress: {
-				DisplayName: Athena's Fortress
+				DisplayName: 雅典娜壁垒
 				Tooltip:
 					'''
-					'Warrior put your fear away and rise up'
-					Ankh shield debuff immunity + blackout, cursed inferno, frozen, horrified, on fire, stoned and venom
-					Paladin's shield + frozen turtle shell + explosive immunity
-					player have 15% front damage DR and have 10% chance to only take 50% of contact damage
-					Enemies that you face take 10% less melee damage protection
+					'战士，放下你的恐惧，站起身来'
+					继承十字章护盾、圣骑士盾、冰冻海龟壳的效果
+					免疫黑视、诅咒焰、冰冻、惊恐、着火、石化、酸性毒液和爆炸
+					减少 15% 正面受到的伤害，并有10%的几率只受到一半的接触伤害
+					你面朝方向的敌人受到10%额外近战伤害
 					'''
 			}
 
 			BeeSmoker: {
-				DisplayName: Bee Smoker
+				DisplayName: 蜜蜂烟熏器
 				Tooltip:
 					'''
-					'A little device for calming little friends'
-					Until their queen is being awakened the small bees are friendly + hornets do 10% less damage
+					'一种用于安抚小伙伴的装置'
+					直到它们的蜂后被唤醒，小蜜蜂都是友好的，并且减少10%黄蜂造成的伤害
 					'''
 			}
 
 			BioProtonBarrier: {
-				DisplayName: Bio-Photon Barrier
+				DisplayName: 生物光子屏障
 				Tooltip:
 					'''
-					'An advanced tool used by martian ships to protect them from FOD in space'
-					While standing still and not attacking after 2 second a red photon barrier will be formed
-					This photon barrier will casue player to heal back 10% of each received damage and knockback immunity
-					If player moves or uses weapon it will dissipate and reactivate after 2 second
-					Summons doing damage while player is not being used any weapon does not count
+					'火星飞船用来保护自己在太空中免受外来物体碎片侵害的先进工具'
+					在静止不动且不攻击2秒后，形成一个红色光子屏障
+					这个光子屏障将使玩家每次受到伤害时恢复10%的生命值，并免疫击退
+					如果玩家移动或使用武器，屏障将消散，并在2秒后重新激活
+					在玩家不使用任何武器时，召唤物造成的伤害不会使此屏障消散
 					'''
 			}
 
 			ChippedGlacier: {
-				DisplayName: Chipped Glacier
+				DisplayName: 破碎冰川精华
 				Tooltip:
 					'''
-					'Poor glacier, it has no chance against the global warming'
-					Gives immunity to frostburn and enemies that do contact damage will get frostburn buff for 5 second
+					'可怜的冰川，它无法抵挡全球变暖'
+					免疫霜冻，受到接触伤害时对视野范围内的敌人施加5秒霜冻
 					'''
 			}
 
 			DesertRose: {
-				DisplayName: Desert Rose
+				DisplayName: 沙漠玫瑰
 				Tooltip:
 					'''
-					'Every rose has its thorns'
-					Attackers take 50% of contact damage + cause sand shard erruption
+					'每朵玫瑰都有它的刺'
+					攻击者受到一半接触伤害，并引发沙砾迸发
 					'''
 			}
 
 			DevilsRose: {
-				DisplayName: Devil's Rose
+				DisplayName: 恶魔玫瑰
 				Tooltip:
 					'''
-					'An elegant rose that can only grow by watering it with blood'
-					Give 7 second immunity to lava and there will be no speed penalty in lava + immunity to fire in lave
-					If player have less than 25% life it gain obsidian skin药水 effect
+					'一朵只能通过血液浇灌才能生长的优雅玫瑰'
+					给予7秒对熔岩的免疫，并且在熔岩中不会受到速度惩罚，在熔岩中免疫火焰伤害
+					如果玩家的生命值低于25%，则获得黑曜石皮肤药水效果
 					'''
 			}
 
 			DynastyScroll: {
-				DisplayName: Dynasty Scroll
+				DisplayName: 王朝卷轴
 				Tooltip:
 					'''
-					'The Scroll has given him power... NOOO!'
-					Player generate a nuclear explosion after getting hit
-					Players projectile speed increase by 15% and attacker get 100% of contact damage back
-					Taking damage increase dodge chance by 5% each time but it reset to base after having a successful dodge
-					This explosion will hurt close enemies and burn all enemies on the screen
-					In this contact enemy will do more damage but after that the damage will return to normal
-					This ability have 1 minute cooldown
+					'卷轴给了他力量……不！'
+					玩家的射弹速度增加15%，攻击者受到100%接触伤害
+					每次受到伤害都会增加5%的闪避几率，但成功闪避后会重置为基础值
+					敌人将造成更多接触伤害，但之后会恢复正常
+					玩家在被击中后产生核爆炸
+					爆炸会伤害附近的敌人，并点燃屏幕上的所有敌人
+					该能力有 1 分钟的冷却时间
 					'''
 			}
 
 			FuelRod: {
-				DisplayName: Fuel Rod
+				DisplayName: 燃料棒
 				Tooltip:
 					'''
-					'Now I am become Death, the destroyer of worlds'
-					After taking hit player generate nuclear explosion which hurt close enemies + burn all on screen
-					After the nuclear explosion players skin get unstable and its contact DR decreases slightly
-					This ability have 1 minute cooldown
+					'现在我成为了死神，世界的毁灭者'
+					玩家在被击中后产生核爆炸，伤害附近的敌人，并点燃屏幕上的所有敌人
+					核爆炸后，玩家的皮肤变得不稳定，其接触伤害减免会略微降低
+					该能力有 1 分钟的冷却时间
 					'''
 			}
 
 			HeartLocket: {
-				DisplayName: Heart Locket
+				DisplayName: 魔心护符
 				Tooltip:
 					'''
-					'You can feel it still beating...'
-					Upon taking fatal damage player resurrect in dark form which have 10% increased damage and 75% decreased max life
-					Increases movement speed after taking damage
-					Increases length of invincibility after taking damage
+					'你仍然可以感觉到它的跳动...'
+					在受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%最大生命值
+					受到伤害后增加移动速度
+					受到伤害后增加无敌时间
 					'''
 			}
 
 			JadedRing: {
-				DisplayName: Jaded Ring
+				DisplayName: 翡翠之戒
 				Tooltip:
 					'''
-					'A relic often being used by guards and miners to calm their mind in hard situations'
-					Decrease players movement speed by 10% and damage by 10% but grants immunity agains vanilla and afk pets mental based debuffs
-					Converts vanilla and afkpets chemical based debuffs into buffs that give player new abilities
-					For example while being on fire it convert to its good form which increase your movement and jump speed along with player leave lingering fire while moving
-					When its taken off these converted buffs will return back to their debuff form
+					'一种常被守卫和矿工用于在困境中镇定心灵的残物'
+					减少10%的移动速度和伤害，免疫原版和本模组的精神类减益
+					将原版和本模组的化学类减益效果转化为给予玩家新能力的增益效果
+					例如着火，被转化为增加移动和跳跃速度，并在移动时留下持续的火焰
+					当卸下时，这些转化的增益将变回减益
 					'''
 			}
 
 			Meat2: {
-				DisplayName: MEAT!
+				DisplayName: 肉!
 				Tooltip:
 					'''
-					'TEST YOUR MEAT!'
-					Sigma male overload that make basic zombies show no aggro
-					Rage based buffs + berserk duration will drain slower
+					'试试你的肉！'
+					西格玛过载，使大部分僵尸变得友好
+					愤怒类增益和棒球武器的狂暴状态持续时间会更长
 					'''
 			}
 
 			MiniTesla: {
-				DisplayName: Mini Tesla Coil
+				DisplayName: 微型特斯拉线圈
 				Tooltip:
 					'''
-					'May look small but one of essential for SATLA-001 to control different charge states'
-					While holding true melee a charged bio-blood ring that will inflict charged to enemies while they are in area
-					Player gain immunity to being charged
+					'虽然看起来很小，但它是SATLA-001控制不同充电状态的关键之一'
+					持有真近战武器时，释放一个带电的生物血液光环，对处于光环范围内的敌人施加触电
+					免疫触电
 					'''
 			}
 
 			PendantofNature: {
-				DisplayName: Pendant of Nature
+				DisplayName: 自然吊坠
 				Tooltip:
 					'''
-					'It contains petals of all flowers'
-					If player have negative life regen or 0 player will get dryad's blessing buff
-					Hitting any enemy have 10% chance to grow a parasitic plant which slowly drain their life
+					'它包含了所有花朵的花瓣'
+					如果玩家的生命再生不为正，获得树妖祝福增益
+					命中任何敌人有10%的几率生长出寄生植物，缓慢吸取其生命值
 					'''
 			}
 
@@ -5151,12 +5151,12 @@ Mods: {
 			}
 
 			ProtectiveLens: {
-				DisplayName: Protective Lens
+				DisplayName: 防护镜片
 				Tooltip:
 					'''
-					'Safety comes first'
-					Hovering over an enemy will mark them which cause them to do 25% less contact damage
-					Only 1 enemy can be target and cursor need to be close to keeping the effect
+					'安全第一'
+					将光标悬停在敌人身上会标记他们，使其接触伤害减少25%
+					只能标记一个敌人，并且光标需要一直靠近才能保持效果
 					'''
 			}
 
@@ -5170,21 +5170,21 @@ Mods: {
 			}
 
 			RapidBitePendent: {
-				DisplayName: Rabid Bite Pendent
+				DisplayName: 狂噬吊坠
 				Tooltip:
 					'''
-					'Don't worry its bark is worse than its bite'
-					Attacker get 50% of contact damage back + increases movement speed + errupts rabid fangs
-					These rabid fangs inflict shattered defense which decrease defense for 10 seconds
+					'别担心，它的叫声比咬人还可怕'
+					攻击者受到一半接触伤害，并增加移动速度，同时放出狂怒之牙
+					狂怒之牙会施加破碎防御减益，持续10秒
 					'''
 			}
 
 			RiotShield: {
-				DisplayName: Riot Shield
+				DisplayName: 防爆盾
 				Tooltip:
 					'''
-					'A defensive tool used against the explosive arsenal of dwarven warriors'
-					Provides 15% front DR protection which does not stack + immunity to explosions
+					'一种用于对抗矮人战士爆炸性武器的防御工具'
+					减少 15% 正面受到的伤害（不能叠加），免疫爆炸
 					'''
 			}
 
@@ -5628,7 +5628,7 @@ Mods: {
 					'Still boiling with her pain'
 					When it's being equipped it will summon a chained heart
 					Chained heart will periodically shoot blood and while active it will absorb 10% of taken damage
-					If it absorb more than 100 damage it will explode into bloody inferno and it needs 30 second to regenerate itself
+					If it absorb more than 100 damage it will explode into 大出血 and it needs 30 second to regenerate itself
 					'''
 			}
 
@@ -17966,7 +17966,7 @@ Mods: {
 				Tooltip:
 					'''
 					'徒手从野兽身上撕裂出的一块血淋淋的骨头'
-					左键投出颌骨，左键重击；当重击足够多敌人后，玩家进入狂暴状态
+					右键投出颌骨，左键重击；当重击足够多敌人后，玩家进入狂暴状态
 					玩家每次只能投掷1个颌骨
 					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
 					[c/ffff00:重击能力]: 对敌人的攻击有20%几率触发一道穿透多个敌人的血浪
@@ -19457,7 +19457,7 @@ Mods: {
 				Tooltip:
 					'''
 					发射持续燃烧的火焰
-					同时射出造成武器伤害75%的持久火焰和飞镖
+					同时射出造成75%武器伤害的持久火焰和飞镖
 					所发射的飞镖将灼烧敌人
 					使用飞镖作为弹药
 					'''
@@ -19497,7 +19497,7 @@ Mods: {
 				Tooltip:
 					'''
 					每次击中敌人都会使目标产生脓液效果
-					使用此武器暴击时，将触发脓液浸染的地狱烈焰，造成武器伤害50%的效果
+					使用此武器暴击时，将触发脓液浸染的地狱烈焰，造成一半的武器伤害
 					使用飞镖作为弹药
 					'''
 			}
