@@ -16108,30 +16108,30 @@ Mods: {
 				DisplayName: Kleidiphilic面具
 				Tooltip:
 					'''
-					'I could hear you...breathing'
+					'我能听见你...在呼吸'
 					右键装备物品，左键栏位回收
-					While being equipped players negative life regen reflected to every enemy on screen as a true DoT
-					True DoT amount equals to life regen amount * 2
+					装备后玩家的负生命回复会以真实伤害的形式反弹给屏幕中的每一个敌人
+					真实伤害数值等于负生命回复的值乘以2
 					'''
 			}
 
 			KnowledgersPlea: {
-				DisplayName: Knowledgers's Plea
+				DisplayName: 智者的抗辩
 				Tooltip:
 					'''
-					'Protection of the forsaken wisdom'
+					'失落之智的庇护'
 					右键装备物品，左键栏位回收
-					While being equipped npcs will not die when they are sacrificed by death's ???
+					装备后npc不会死于死亡之???的献祭
 					'''
 			}
 
 			LihzahrdianBuckler: {
-				DisplayName: Lihzahrdian Buckler
+				DisplayName: 蜥蜴人护盾
 				Tooltip:
 					'''
-					'Defense of the Ancients'
+					'远古之盾'
 					右键装备物品，左键栏位回收
-					While being  equipped enemy projectile have 8% chance to be reflected back
+					装备后敌人的弹幕有8%概率被反弹回去
 					'''
 			}
 
@@ -16159,72 +16159,72 @@ Mods: {
 			}
 
 			Parasitoid: {
-				DisplayName: Parasitoid
+				DisplayName: 寄生蜂
 				Tooltip:
 					'''
-					'Cute lil friends'
+					'可爱的小伙伴'
 					右键装备物品，左键栏位回收
-					While being equipped using any throwing based item has a chance to throw additional egg sacks that burst into tiny bugs
+					装备后使用投手物品时有几率扔出一个额外的卵袋，放出大量小虫子
 					'''
 			}
 
 			PerfectlyGenericObject: {
-				DisplayName: Perfectly Generic Object
+				DisplayName: 完美的普通之物
 				Tooltip:
 					'''
-					'Sir AFK please add details'
+					'先生请给AFK添加细节'
 					右键装备物品，左键栏位回收
-					While being equipped treasure bags have a small chance to glitch out and form secondary one that glitches in world
-					If player manage to kill it before it despawn player get additional treasure bag
+					装备后宝藏袋有小概率逃跑并在地图中产生第二个逃跑的宝藏袋
+					如果玩家成功在其消失前将其击杀，那么玩家会获得额外的宝藏袋
 					'''
 			}
 
 			PokerChip: {
-				DisplayName: Poker Chip
+				DisplayName: 扑克筹码
 				Tooltip:
 					'''
-					'What this game needs is a few thrills. Don't you agree?'
+					'这游戏需要一点激情。你不同意吗？'
 					右键装备物品，左键栏位回收
-					While being equipped each time player take an item from ground it have 50% chance to double its amount and 50% chance to nullify it
+					装备后玩家每次拾起物品时都有50%概率使其数量翻倍，另外50%概率使其消失
 					'''
 			}
 
 			PotatoBasket: {
-				DisplayName: Potato Basket
+				DisplayName: 土豆篮子
 				Tooltip:
 					'''
-					'The greatest victory is that which requires no battle
+					'最伟大的胜利是不需要战斗的'
 					右键装备物品，左键栏位回收
-					While equipped increase efficiency by 1
+					装备后提升1点效率
 					'''
 			}
 
 			PotofGold: {
-				DisplayName: Pot of Gold
+				DisplayName: 金罐子
 				Tooltip:
 					'''
-					'Sadly evading taxes is not included'
+					'可惜不包含逃税'
 					右键装备物品，左键栏位回收
-					While being equipped taking damage it has a chance to give money
+					装备后受伤时有概率获得钱
 					'''
 			}
 
 			PrizeBounty: {
-				DisplayName: Prize Bounty
+				DisplayName: 悬赏奖金
 				Tooltip:
 					'''
 					右键装备物品，左键栏位回收
-					Equipping it make every afkpets or vanilla boss纪念章 drop chance increase by 10%
+					装备后所有afkpets或原版的BOSS纪念章掉落概率提升10%
 					'''
 			}
 
 			PurpleHeart: {
-				DisplayName: Purple Heart
+				DisplayName: 紫心奖章（出自以撒的结合）
 				Tooltip:
 					'''
-					'Here comes a new challenger'
+					'又一个挑战者来了'
 					右键装备物品，左键栏位回收
-					While being equipped enemies have a chance to become elite enemy which increase their stats + make them drop their loot 2 times
+					装备后敌人有几率变成精英敌人，精英敌人的数值更高且会掉落两倍战利品
 					'''
 			}
 
