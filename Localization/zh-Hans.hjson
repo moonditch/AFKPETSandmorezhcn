@@ -992,8 +992,8 @@ Mods: {
 			}
 
 			BirdBlue: {
-				DisplayName: 冠蓝鸦
-				Description: 冠蓝鸦将跟随你
+				DisplayName: Blue Jay
+				Description: Blue Jay将跟随你
 			}
 
 			BirdGold: {
@@ -1017,8 +1017,8 @@ Mods: {
 			}
 
 			Blake: {
-				DisplayName: 布蕾克·贝拉多娜
-				Description: "'你觉得自己受到了保护'"
+				DisplayName: Blake Belladonna
+				Description: "'You feel you are protected'"
 			}
 
 			BlessedBanana2: {
@@ -15183,31 +15183,31 @@ Mods: {
 			}
 
 			MagicBouncyGlowStick: {
-				DisplayName: Tome of Magical Bouncy Glowstick
+				DisplayName: 弹力荧光棒魔法书
 				Tooltip: ""
 			}
 
 			MagicGlowStick: {
-				DisplayName: Tome of Magical Glowstick
+				DisplayName: 荧光棒魔法书
 				Tooltip: ""
 			}
 
 			MagicSpelunkerGlowStick: {
-				DisplayName: Tome of Magical Spelunker Glowstick
+				DisplayName: 洞穴探险荧光棒魔法书
 				Tooltip: ""
 			}
 
 			MagicStickyGlowStick: {
-				DisplayName: Tome of Magical Sticky Glowstick
+				DisplayName: 粘性荧光棒魔法书
 				Tooltip: ""
 			}
 
 			MedicineKit: {
-				DisplayName: Medicine Kit
+				DisplayName: 医学装备
 				Tooltip:
 					'''
-					'Gotta heal fast!'
-					by first aid you can heal yoursef by 2 each time you use
+					'要尽快痊愈!'
+					通过急救时，每次点击恢复2点生命值
 					'''
 			}
 
@@ -15254,12 +15254,12 @@ Mods: {
 			}
 
 			PrismaticSoulKeeper: {
-				DisplayName: Prismatic Soul Keeper
+				DisplayName: 灵魂守护者
 				Tooltip:
 					'''
-					'You feel something inside you grow stronger.'
-					While being inside of your inventory respawn cooldown decrease by 25%
-					This will overwrite other faster respawn methods
+					'你会感觉到内心的某种力量变得更强大了.'
+					放置在物品栏中，重生冷却时间减少25%
+					这会覆盖其他更快的重生方法
 					'''
 			}
 
@@ -15269,44 +15269,44 @@ Mods: {
 					'''
 					'最适合进行惊喜拥抱训练'
 					使用它会生成一个让召唤物攻击的假人，并激活伤害计时器
-					<right>或召唤任何Boss会让假人立即消失
+					右键或召唤任何Boss会让假人立即消失
 					'''
 			}
 
 			RentalAgreementContract: {
-				DisplayName: Rental Agreement Contract
+				DisplayName: 租赁协议合同
 				Tooltip:
 					'''
-					'It seems now you are the only person who has the original version'
-					'When used, it will force every town npc to accept home where your mouse is'
+					'看来你是唯一一个拥有原始版本的人了'
+					使用时，它让每个城镇npc都接受当前光标所在的房间
 					'''
 			}
 
 			RickGun: {
-				DisplayName: Galactic Rift Bender
+				DisplayName: 裂缝弯曲者
 				Tooltip:
 					'''
-					Strangely you may be the first person in this universe that use this gun
-					When used it will summon a portal that will spawn the town npcs that have their requirements done(like mechanic is being saved in before etc)
-					This portal is being formed in your mouse direction and if all npcs are present it will summon bunny
-					It needs dimentional energy capsules as ammo
+					你可能是这个宇宙中第一个使用这把枪的人
+					使用时，它会召唤一个传送门，生成当前入住需要达成的城镇npc.
+					这个传送门在光标处生成，如果所有的城镇npc都在场，它会召唤兔子
+					它需要次元能量胶囊作为弹药
 					'''
 			}
 
 			RickGunAmmo: {
-				DisplayName: Dimentional Energy Capsule
-				Tooltip: Its used by Galactic Rift Bender as an ammo
+				DisplayName: 次元能量胶囊
+				Tooltip: 用作裂缝弯曲者武器弹药
 			}
 
 			RoyalOrder: {
-				DisplayName: Royal Order
+				DisplayName: 皇家守护令
 				Tooltip:
 					'''
-					It seems now you have a guard
-					When used it will summon a royal guardian at your position
-					When used with <right>it will despawn the royal guardian
-					You can buy ammo or sell things to royal guardian and he will attack enemies that are closer
-					There can be only 1 royal guard active and if he's not on any players screen he will despawn
+					'看起来你现在有守卫了'
+					使用时，左键召唤皇家守卫
+					再次使用时，右键回收皇家守卫
+					你可以向皇家守卫购买弹药或出售物品，他也会攻击距离你附近的敌人
+					只能1个皇家守卫在移动，如果他不在任何玩家的屏幕上，就是未召唤状态
 					'''
 			}
 
@@ -15315,7 +15315,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它是灵梦用来封印妖怪众多符卡之一
-					'使用它时，它会消灭当前存在的boss'
+					使用它会消灭(另一种意义的消灭)当前存在的BOSS
 					'''
 			}
 
@@ -15350,7 +15350,7 @@ Mods: {
 					'''
 					'弹簧看起来很结实'
 					让玩家跳得很高
-					'一次只能激活一个，右键可以召唤'
+					一次只能激活一个，右键可以召唤
 					'''
 			}
 
@@ -15369,8 +15369,8 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾经是由月亮能量和力量形成的'
-					使用它会将您的月亮类型更改为自定义类型。
-					重启游戏时，重置到原版类型.
+					使用它会将您的月亮更改为自定义类型。
+					重启游戏时，重置原版月亮的类型.
 					'''
 			}
 
@@ -15379,8 +15379,8 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾经是由太阳能量和力量形成的'
-					使用它会将的太阳类型更改为自定义类型。
-					重启游戏时，重置到原版类型.
+					使用它会将的太阳更改为自定义类型。
+					重启游戏时，重置原版太阳的类型.
 					'''
 			}
 
@@ -18320,7 +18320,7 @@ Mods: {
 					蓄力期间武器伤害会逐渐提升，达到最大值时会有声音提示
 					[c/FFFF00:按住]: 由于极度锐利,它会略微减少敌人的免疫帧数.你的穿透攻击能降低敌人防御力2点,并附加流血效果
 					当玩家持有长矛时，将会获得'守护者'增益，提高3%的伤害减免并赋予免疫击退的能力
-					[c/ADD8E6:投掷]:长矛将造成流血效果，每次命中都会使真实持续伤害增加6点
+					[c/ADD8E6:投掷w]:长矛将造成流血效果，每次命中都会使真实持续伤害增加6点
 					当长矛完全蓄力后，挥舞时会在身后留下具有伤害性的黑曜石尘埃，同时命中的敌人会被恐惧，而玩家在攻击中也会轻微恢复生命值
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你无需等待充能完毕即可直接投掷满蓄力的长矛
 					'''
