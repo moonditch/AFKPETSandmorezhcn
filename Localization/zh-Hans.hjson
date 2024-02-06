@@ -878,17 +878,17 @@ Mods: {
 
 			AnswerA: {
 				DisplayName: 答案A
-				Description: 取消此增益将使您选择 A 作为答案
+				Description: 取消此增益将使您选择A作为答案
 			}
 
 			AnswerB: {
 				DisplayName: 答案B
-				Description: 取消此增益将使您选择 B 作为答案
+				Description: 取消此增益将使您选择B作为答案
 			}
 
 			AnswerC: {
 				DisplayName: 答案 C
-				Description: 取消此增益将使您选择 C 作为答案
+				Description: 取消此增益将使您选择C作为答案
 			}
 
 			Antlion: {
@@ -898,11 +898,7 @@ Mods: {
 
 			AntonyProtection: {
 				DisplayName: 死灵法师的保护
-				Description:
-					'''
-					你觉得这会保护你免于死亡一次
-
-					'''
+				Description: 你觉得这会保护你免于死亡一次
 			}
 
 			ApacheChopper: {
@@ -996,8 +992,8 @@ Mods: {
 			}
 
 			BirdBlue: {
-				DisplayName: Blue Jay
-				Description: Blue Jay将跟随你
+				DisplayName: 冠蓝鸦
+				Description: 冠蓝鸦将跟随你
 			}
 
 			BirdGold: {
@@ -1021,8 +1017,8 @@ Mods: {
 			}
 
 			Blake: {
-				DisplayName: Blake Belladonna
-				Description: "'You feel you are protected'"
+				DisplayName: 布蕾克·贝拉多娜
+				Description: "'你觉得自己受到了保护'"
 			}
 
 			BlessedBanana2: {
@@ -4096,8 +4092,8 @@ Mods: {
 			}
 
 			SmokePelletCooldown: {
-				DisplayName: Smoke Pellet Cooldown
-				Description: You have to wait until you restrore your spirit emblem
+				DisplayName: 烟雾弹冷却
+				Description: 你必须等到你恢复到最佳状态
 			}
 
 			Snorlax: {
@@ -4306,13 +4302,13 @@ Mods: {
 			}
 
 			SuperStar: {
-				DisplayName: Super Star
-				Description: "'You are immune to taking contact and projectile damage'"
+				DisplayName: 超新星
+				Description: "'你现在免疫接触伤害和弹射物伤害'"
 			}
 
 			SuperStarCooldown: {
-				DisplayName: Super Star Cooldown
-				Description: You have to wait until super star gains it's power
+				DisplayName: 超新星冷却
+				Description: 你必须等到超新星重新获得力量
 			}
 
 			Susie: {
@@ -15315,76 +15311,76 @@ Mods: {
 			}
 
 			SealingTalisman: {
-				DisplayName: Sealing Talisman
+				DisplayName: 符卡
 				Tooltip:
 					'''
-					'One of many talisman used by mikos to seal away onis and yokais
-					'When used it will despawn every active boss'
+					'它是灵梦用来封印妖怪众多符卡之一
+					'使用它时，它会消灭当前存在的boss'
 					'''
 			}
 
 			SkullCrystal: {
-				DisplayName: Skull Crystal
-				Tooltip: "'It returns you where your end was.'"
+				DisplayName: 水晶头骨
+				Tooltip: "'它会让你回到你的终点.'"
 			}
 
 			SmokePellet: {
-				DisplayName: Smoke Pellet
+				DisplayName: 烟雾弹
 				Tooltip:
 					'''
-					'A prostetic tool filled with the concentrated smoke'
-					When used it will make a smoke that can reflect projectiles it have 45 second cooldown
-					While being inside of this smoke player gain 5% dodge chance + decreased enemy aggro + invincibility and ranger stealth
+					'一个充满浓烟的人造工具'
+					使用时，它会产生烟雾，可以反射投射物，但它有45秒的冷却时间
+					在烟雾中的玩家获得5%的闪避几率，减少敌人的仇恨，无敌和盗贼潜行
 					'''
 			}
 
 			StorytellersBook: {
-				DisplayName: Storytellers Book
+				DisplayName: 童话故事书
 				Tooltip:
 					'''
-					'It's filled with stories of happy ends and heroes.'
-					'It makes you feel every nice person will have nice friends.'
-					'While it's in your inventory it you can summon more than one pet.'
+					它充满了幸福结局和公主与勇者的故事.
+					它让你觉得每个好人都会有好朋友.
+					在你的物品栏中，可以召唤一个以上的宠物.
 					'''
 			}
 
 			SuperSpringBoard: {
-				DisplayName: Super Spring Board
+				DisplayName: 超级弹簧板
 				Tooltip:
 					'''
-					'It's springs look strong'
-					'Let's the player jump a great height'
-					'Only one can be active at a time and <right>to desummon'
+					'弹簧看起来很结实'
+					让玩家跳得很高
+					'一次只能激活一个，右键可以召唤'
 					'''
 			}
 
 			SuperStar1: {
-				DisplayName: Super Star
+				DisplayName: 超新星
 				Tooltip:
 					'''
-					'It's looking to you'
-					Using it will make you immune to contact and projectile damage for 5 second
+					'它看着你'
+					使用它让你免疫接触伤害和弹射物伤害5秒
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			TomeofMoon: {
-				DisplayName: Miri's Diary
+				DisplayName: 皓月的皎洁
 				Tooltip:
 					'''
-					'It was once formed from the calmness and mysticism of 月亮'
-					'Using it will change your moon type to custom ones.
-					''When the game is closed moon type is resetted to vanilla moon.'
+					'它曾经是由月亮能量和力量形成的'
+					使用它会将您的月亮类型更改为自定义类型。
+					重启游戏时，重置到原版类型.
 					'''
 			}
 
 			TomeofSun: {
-				DisplayName: Queen Himiko's Brilliance
+				DisplayName: 日耀的光辉
 				Tooltip:
 					'''
-					'It was once formed from the energy and power of 太阳'
-					'Using it will change your sun type to custom ones.
-					''When the game is closed sun type is resetted to vanilla moon.'
+					'它曾经是由太阳能量和力量形成的'
+					使用它会将的太阳类型更改为自定义类型。
+					重启游戏时，重置到原版类型.
 					'''
 			}
 
@@ -18324,7 +18320,7 @@ Mods: {
 					蓄力期间武器伤害会逐渐提升，达到最大值时会有声音提示
 					[c/FFFF00:按住]: 由于极度锐利,它会略微减少敌人的免疫帧数.你的穿透攻击能降低敌人防御力2点,并附加流血效果
 					当玩家持有长矛时，将会获得'守护者'增益，提高3%的伤害减免并赋予免疫击退的能力
-					[c/ADD8E6:投掷w]:长矛将造成流血效果，每次命中都会使真实持续伤害增加6点
+					[c/ADD8E6:投掷]:长矛将造成流血效果，每次命中都会使真实持续伤害增加6点
 					当长矛完全蓄力后，挥舞时会在身后留下具有伤害性的黑曜石尘埃，同时命中的敌人会被恐惧，而玩家在攻击中也会轻微恢复生命值
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你无需等待充能完毕即可直接投掷满蓄力的长矛
 					'''
