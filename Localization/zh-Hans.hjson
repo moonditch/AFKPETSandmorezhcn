@@ -544,7 +544,7 @@ Mods: {
 			}
 
 			Elitist: {
-				DisplayName: 杰出人才
+				DisplayName: 艺术家
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -1715,8 +1715,8 @@ Mods: {
 			}
 
 			VoidicReach: {
-				DisplayName: Voidic Reach
-				Description: You feel weird
+				DisplayName: 虚空触及
+				Description: 你有一种奇怪的感觉
 			}
 
 			WeakerDebuff: {
@@ -2095,8 +2095,8 @@ Mods: {
 			}
 
 			Quickdrawdebuff: {
-				DisplayName: Quickdraw Cooldown
-				Description: You need to rest to perform it again
+				DisplayName: 快斩刀鞘冷却
+				Description: 你需要休息才能再次挥舞刀光
 			}
 
 			QuickScopeCooldown: {
@@ -2120,8 +2120,8 @@ Mods: {
 			}
 
 			SoulSteal: {
-				DisplayName: Soul Steal
-				Description: Increases life regen by 2
+				DisplayName: 灵魂窃取
+				Description: 增加 2 点生命再生
 			}
 
 			SufiBuff: {
@@ -5189,59 +5189,59 @@ Mods: {
 			}
 
 			SlimyTactics: {
-				DisplayName: Slimy Tactics
+				DisplayName: 史莱姆兵法书
 				Tooltip:
 					'''
-					'One mark of a great soldier is that he fight on his own terms or fights not at all'
-					Player owned projectile speed increase by 15%
-					Taking damage increase dodge chance by 5% each time but it reset to base after having a successful dodge
+					'一个伟大士兵的标志是，他按自己的方式战斗，或者干脆不战斗'
+					玩家射弹的速度增加15%
+					每次受到伤害都会增加5%的闪避几率，但成功闪避后会重置为基础值
 					'''
 			}
 
 			SmartScanner: {
-				DisplayName: Smart Scanner
+				DisplayName: 智能扫描仪
 				Tooltip:
 					'''
-					'For A+ users only!'
-					Hovering over an enemy will mark them which cause them to do 25% less contact damage and take 10% more damage
-					Gives night vision + 3% increased critical hit chance
+					'仅限A+级用户使用！'
+					将光标悬停在敌人身上会标记他们，使其接触伤害减少25%，并受到10%额外伤害
+					提供夜视效果，并增加3%暴击率
 					'''
 			}
 
 			SurvivorsPendant: {
-				DisplayName: Survivor's Pendant
+				DisplayName: 幸存者吊坠
 				Tooltip:
 					'''
-					'The extraordinary is in what we do not what we are'
-					When player has >25% life its speed increase by 10% and defense by 5
-					Player take half damage from boulders and other traps
+					'非凡之处不在于我们是谁，而在于我们做了什么'
+					当玩家生命值高于25%时，增加10%速度，增加5%防御
+					玩家受到的巨石和其它陷阱的伤害减半
 					'''
 			}
 
 			TheWard: {
-				DisplayName: The Ward
+				DisplayName: 守护之证
 				Tooltip:
 					'''
-					'If there is the will, then there is hope'
-					-50% duration of debuffs excluding药水 sickness
+					'如果有信念，那么就有希望'
+					减益效果的持续时间减少50%，药水疾病除外
 					'''
 			}
 
 			DeltaRune: {
-				DisplayName: Delta Rune
+				DisplayName: 德尔塔符文
 				Tooltip:
 					'''
-					Something is whispering to your soul about the legend of hopes and dreams
-					'Hiding visual will deactivate ??? Effect'
+					'有什么东西在耳边低语，讲述着希望与梦想的传说'
+					隐藏可见性将停用 ??? 效果
 					'''
 			}
 
 			EmblemofRunners: {
-				DisplayName: Runners Shoes
+				DisplayName: 跑鞋
 				Tooltip:
 					'''
-					These shoes don't exactly fit in anywhere, maybe that's what make it special
-					It have the ability of its materials
+					'这双鞋并不完全适合所有地方，也许这就是它的特别之处'
+					继承其合成材料的能力
 					'''
 			}
 
@@ -5257,72 +5257,72 @@ Mods: {
 			}
 
 			FishermansPride: {
-				DisplayName: Fisherman's Pride
+				DisplayName: 渔夫的骄傲
 				Tooltip:
 					'''
-					'This not a simple hobby... THIS IS WAR'
-					While its equipped it will allow you to catch angler rewards from fishing
-					In hardmode its loot table gets improved and also chance increases
+					'这不仅仅是一个简单的爱好...这是一场战争'
+					当装备时，可以通过钓鱼直接获得渔夫任务奖励
+					在困难模式下，可以钓到更多战利品，同时获得奖励的机会也会增加
 					'''
 			}
 
 			HiNauttechGear: {
-				DisplayName: Hi Naut-tech Gear
+				DisplayName: 终极海钓套装
 				Tooltip:
 					'''
-					'Nothing makes a fish bigger than almost being caught'
-					It allows player to catch angler rewards from fishing and its loot table get better post duke fishron
-					Player have a chance to catch quest fishes in any water
-					Holding a fishing rod gives 10% increased DR and movement speed + immunity to knockback
-					Line will never break, increases fishing skill, decrease bait consumption, sonar and crate effect
-					All fish rods gain extra hook
+					'几乎被捕获的感觉会让鱼变得更大'
+					当装备时，可以通过钓鱼直接获得渔夫任务奖励，击败猪龙鱼公爵后可以钓到更多战利品
+					玩家在任何水域都有机会钓到任务鱼
+					手持钓鱼竿时，增加10%防御、移动速度，免疫击退
+					鱼线永远不会断，增加渔力，减少鱼饵消耗，获得声纳和宝匣药水效果
+					所有钓鱼竿获得额外的钓钩
 					'''
 			}
 
 			PortableSonar: {
-				DisplayName: Portable Motion Sonar
-				Tooltip: Detects the objects on the hook
+				DisplayName: 便携式运动声纳
+				Tooltip: 检测鱼钩上的物体
 			}
 
 			ForgottenBoulder: {
-				DisplayName: Mad Boulder
+				DisplayName: 疯狂巨石
 				Tooltip:
 					'''
-					Being invincible makes boulders fall from the sky
-					The boulders does not care what is on their path
+					'巨石不在乎路上有什么'
+					无敌时会召唤巨石从天而降
 					'''
 			}
 
 			GasterRune: {
-				DisplayName: Scroll of Darkness
+				DisplayName: 黑暗之卷
 				Tooltip:
 					'''
-					The darkness keep growing, the shadows cutting deeper...
-					The only thing known about the scroll is it find the assistant, not the assistant find him
-					You feel it seeks to meet with someone that is listening the fabric of this reality
-					'While its equipped killing bosses that have maximum life higher than 66666 they have a chance to drop something interesting...'
+					黑暗不断蔓延，阴影越来越深……
+					关于这个卷轴的唯一已知之事是，它会找到听话的仆人
+					你感觉到它试图与倾听这个现实结构的人见面
+					当装备此卷轴时，击杀生命值高于66666的Boss，有几率掉落一些有趣的东西……
 					'''
 			}
 
 			GreenHeartNecklace: {
-				DisplayName: Cute Plushie
+				DisplayName: 可爱的毛绒玩具
 				Tooltip:
 					'''
-					It's sad that it's refered as a keter type artifact without thinking about its feelings
-					'It will inflict fear to any enemy that get closer.'
-					'If any enemy get too close the extreme fear will cause it to take periodical damages'
+					'不考虑它的感受就将其称为Keter级收容物真令人难过'
+					任何靠近的敌人都会感受到恐惧
+					如果敌人靠得太近，极端的恐惧会使其受到周期性伤害
 					'''
 			}
 
 			HeartofEvil: {
-				DisplayName: Heart of Evil
+				DisplayName: 邪恶之心
 				Tooltip:
 					'''
-					It makes you lose your sanity like her.
-					'It will increase your mana by 80 , mana regen by 5 and all of your attack by 8%'
-					'All of your attacks have 5% chance to burn your enemy with alchemical flames'
-					'Celestial creatures will do 20% less contact damage and phantasmal spheres will rotate around you'
-					'But the artifact will also drain your life energy slowly'
+					'它会让你像她一样失去理智'
+					增加8%伤害、5点法力再生、最大魔力值增加80
+					攻击有5%的几率用炼金火焰灼烧敌人
+					减少20%天界生物的接触伤害，幻影球将围绕你旋转
+					但这个神器也会慢慢吸取你的生命
 					'''
 			}
 
@@ -5347,31 +5347,31 @@ Mods: {
 			}
 
 			LegacyPaintbrush: {
-				DisplayName: Legacy Paintbrush
+				DisplayName: 古老画笔
 				Tooltip:
 					'''
-					There is nothing wrong with having tree a friend
-					While equipped player will have 60% chance to not consume paint
-					Painter and elitist will become stronger
+					与树做朋友并无不妥
+					装备后有60%的几率不消耗颜料
+					油漆工和艺术家会变得更强
 					'''
 			}
 
 			DarkStar: {
-				DisplayName: Dark Star
+				DisplayName: 黯星
 				Tooltip:
 					'''
-					'Now, my power is without a rival'
-					If your maximum mana is higher than the mana needed you will not consume any mana
-					Increases magic and summon crit by 15% and converts each of players regen to 6% increased magic + summon damage and then makes regen 0
-					Heart and mana range have been increased + longer invincibility frames + when take damage abyssal stars fall which grow dark tentacles upon contact with tile
-					Hearts and stars are replaced with nightmare hearts and stars which give no health or mana, but will bite the closest enemy
-					Hitting enemies with summon or magic weapon give you soul steal buff which increase regen by 2
-					Summon and vanilla weapon kills leave abyssal souls which will home onto the nearest enemy and explode
+					'现在，我的力量无人能敌'
+					如果你的最大魔力值高于所需魔力值，将不消耗任何魔力
+					增加15%魔法和召唤暴击率，并将玩家的每一点生命再生都转化为6%魔法和召唤伤害
+					增加红心和魔力星的拾取范围，延长无敌帧，受到伤害时召唤深渊之星，与地面接触后长出黑暗触手
+					红心和魔力星被噩梦心和噩梦星取代，它们不恢复生命值或魔力，但会噬咬最近的敌人
+					使用召唤或魔法武器攻击敌人会赋予灵魂窃取增益，增加 2 点生命再生
+					召唤和原版武器击杀会留下深渊灵魂，它们会追踪最近的敌人并爆炸
 					'''
 			}
 
 			EtherealOffering: {
-				DisplayName: Ethereal Offering
+				DisplayName: 飘渺以太
 				Tooltip: ""
 			}
 
@@ -5385,250 +5385,251 @@ Mods: {
 			}
 
 			StarofBethlehem: {
-				DisplayName: Star of Bethlehem
+				DisplayName: 伯利恒之星
 				Tooltip:
 					'''
-					'Follow the light'
-					When player take damage mana stars fall from sky and when they touch player each give 50 mana
-					Player uses mana药水 when needed + 10% decreased mana usage
-					While under immunity frames magic weapons will consume no mana
-					Longer invincibility frames under taking damage
+					'跟随光明'
+					当玩家受到伤害时，魔力星从天空中坠落，当它们接触到玩家时，恢复50魔力
+					自动使用魔力药水，减少 10% 魔力消耗
+					无敌帧时，使用魔法武器不会消耗魔力
+					延长受到伤害后的无敌帧
 					'''
 			}
 
 			ThaumaticCross: {
-				DisplayName: Thaumatic Cross
+				DisplayName: 神秘十字架
 				Tooltip:
 					'''
-					'Blessing of protection'
-					While under immunity frames magic weapons will consume no mana
-					Longer invincibility frames under taking damage
+					'祝福守护'
+					无敌帧时，使用魔法武器不会消耗魔力
+					延长受到伤害后的无敌帧
 					'''
 			}
 
 			TimsEnigma: {
-				DisplayName: Tim's Enigma
-				Tooltip: While under immunity frames magic weapons consume no mana
+				DisplayName: 提姆的谜题
+				Tooltip: 无敌帧时，使用魔法武器不会消耗魔力
 			}
 
 			AncientArtifact2: {
-				DisplayName: Vikings Rage
+				DisplayName: 维京之怒
 				Tooltip:
 					'''
-					'An ancient light container being used in the fire festivals'
-					Not using any item will make it increase melee damage multiplier up to 500%
-					Maximum have been reached in 4 seconds
-					When weapon start to be used this built up damage will sharply decrease
-					It grants immunity to be chilled and weak
+					'一个用于火祭的古老光容器'
+					未使用任何物品时，增加近战伤害倍率，最高到500%
+					在4秒内达到最大值
+					当开始使用武器时，累积的近战伤害倍率会快速下降
+					免疫冷冻和虚弱
 					'''
 			}
 
 			AndromedaNexus: {
-				DisplayName: Andromeda Nexus
+				DisplayName: 仙女座天枢
 				Tooltip:
 					'''
-					'Do you humans ever listen to the cries of mercy coming from the cows you slaughter?'
-					Above 50% life 20% increased melee damage + speed but 15% decrease contact vulnerability
-					Below 50% life 25% increased defense + 10% increased DR but 20% decreased melee damage
-					Melee hits to enemies with full hp are guaranteed to crit + 50% more lethal
-					True melee crits will tear the reality which inflict voidic reach + melee hits have 10% chance to form mini nova
-					These penetrate 4 more times + last hit inflict voidic reach + do dynamic knockback to non boss enemies
-					If player take damage all novas disappear + heal player by 2 for each and voidic reach cause each player hit will give your debuff to it
-					If player have 8 novas it form supernova projectile on your mouse position
-					Player gain black hole ring which inflict enemies inside daybroken + killing enemies inside of the ring heal player by 5
-					Its materials could not be equipped
+					'你们人类是否曾听过你们屠宰的牛发出的怜悯之声？'
+					生命值高于50%时，增加20%近战伤害和攻击速度，但受到的接触伤害增加15%
+					生命值低于50%时，增加25%防御和10%伤害减免，但降低20%近战伤害
+					近战攻击对满生命值的敌人将必定暴击，并增加50%的致命性
+					真近战暴击将撕裂现实，施加虚空触及，近战攻击有10%的几率形成新星
+					新星会额外穿透4次，最后一次攻击施加虚空触及，对非Boss敌人造成巨大击退
+					如果玩家受到伤害，每个新星会消失，并恢复2点生命值；虚空触及将对被击中的敌人施加减益
+					如果玩家拥有8个新星，它们将在你的光标位置形成一个超新星
+					玩家获得黑洞圆环，对范围内的敌人施加破晓，杀死黑洞内的敌人会为玩家恢复5点生命值
+					无法同时装备它的合成材料
 					'''
 			}
 
 			AuraoftheWorld: {
-				DisplayName: Aura of the World
+				DisplayName: 世界光环
 				Tooltip:
 					'''
-					'Belonged to a ninetailed kitsune which was specialized in earth magic'
-					Above 50% health players melee speed and damage increases by 10%
-					Below 50% health players defense will increase by 8 and DR by 5%
-					True melee crits will form life essenses that will fly around player
-					If player takes damage while any of these essense alive they will heal player by 2 for each active essense
-					There can be maximum 6 essense alive and these essenses could penetrate 2 times
-					First 2 hits inflict dryads bane and last hit inflict explosive chemical
+					'曾属于一只精通大地魔法的九尾狐妖'
+					生命值高于50%时，增加10%近战伤害和攻击速度
+					生命值低于50%时，增加8防御和5%伤害减免
+					真近战暴击形成生命精华，围绕玩家旋转
+					如果玩家在生命精华存在时受到伤害，每个活跃的生命精华将为玩家恢复2点生命值
+					最多同时存在6个生命精华
+					生命精华可以穿透2次，前两次攻击施加树神诅咒，最后一次攻击造成爆炸
 					'''
 			}
 
 			BabyFlamingWheel: {
-				DisplayName: Baby Blazing Wheel
+				DisplayName: 迷你烈焰火轮
 				Tooltip:
 					'''
-					'It looks scared'
-					All true melee attacks will launch a baby blaze and it have cooldown of half second
-					Baby blazing wheel hits will also count as weapon hits and activate weapons effects
+					'它看起来很吓人'
+					真近战攻击生成一个迷你烈焰火轮，半秒冷却
+					迷你烈焰火轮命中敌人时可以触发武器的效果
 					'''
 			}
 
 			BionicArm: {
-				DisplayName: Bionic Arm Implant
+				DisplayName: 仿生嵌入手臂
 				Tooltip:
 					'''
-					'A replica of a human arm fitted with a variety of mechanisms, apparently designed with modification in mind'
-					True melee damage increase by 5%
-					Each time you hit to same target true melee speed increase 4% up to 40% max
-					Switching target, not hitting or not holding true melee weapon will reset this
-					Using a tool increase its speed by 2% each second up to 20%
-					Not using a tool for 10 seconds reset the buff
-					When swinging true melee weapon it does a large slash before
-					This slash do 50% more damage along with both burning enemies and also actvating weapon hit effect upon hit
-					After it happen you can swing weapon normally and this have 3 second of non swing charge cooldown and otherwise it resets to 3 seconds
+					'一款配备多种机制的仿生手臂复制品，显然是为了改装而重新设计的'
+					增加5%真近战伤害
+					每次真近战攻击同一个目标，增加4%近战速度，最高可达40%
+					更换目标、10秒内未攻击或未手持真近战武器将重置此效果
+					使用工具时，每秒增加2%使用速度，最高可达20%
+					10秒内不使用工具将重置增益效果
+					使用真近战武器时，挥舞一道刀光
+					刀光额外造成50%伤害，点燃敌人并触发武器效果
+					刀光有3秒冷却，期间挥舞武器会重置冷却时间
 					'''
 			}
 
 			BoneKnightPiece: {
-				DisplayName: Bone Knight Piece
+				DisplayName: 骨骑士碎片
 				Tooltip:
 					'''
-					'Pieces around it? Sorry mate, we are not doing Newtonian physics here'
-					Your melee damage multiplier increases with respect to your built momentum
-					It can be at maximum 2 times more
+					'周围的碎片？抱歉，我们这儿不搞牛顿物理学'
+					你的近战伤害倍率会随着挥舞积累的动量而增加
+					最多增加2倍
 					'''
 			}
 
 			DustyMask: {
-				DisplayName: Dusty面具
+				DisplayName: 尘埃面具
 				Tooltip:
 					'''
-					'It belongs to merciful leader of a feodal clan'
-					+5 defense while holding a melee weapon + gain immunity agains weakness
-					Increases enemy aggro a lot
-					The multiplier for this can be maximum 2 times
-					Increases enemy aggro a lot and also increases defense by 4
-					Being master in Armstrong style allow players melee attacks burn enemies + not attacking built up melee damage
-					When you start to attack the built up melee damage multiplier will start to fall sharply and its up to 500%
-					Immune to chilled and weak debuffs
+					'它属于封建家族的仁慈领袖'
+					免疫冷冻和虚弱
+					手持近战武器时增加 5 防御
+					大幅增加了敌人的仇恨值
+					你的近战伤害倍率会随着挥舞积累的动量而增加，最多增加2倍
+					敌人更有可能攻击你，并增加 4 防御
+					精通阿姆斯特朗风格的玩家可以让近战攻击点燃敌人
+					未使用任何物品时，增加近战伤害倍率，最高到500%
+					当开始使用武器时，累积的近战伤害倍率会快速下降
 					'''
 			}
 
 			HolyGauntlet: {
-				DisplayName: Holy Gauntlet
+				DisplayName: 神圣拳套
 				Tooltip:
 					'''
-					'Now you truly have fists of justice'
-					All melee attacks inflict 圣焰
-					Melee damage and speed increased by 10% and melee knockback is also being increased
-					True melee crits ignore half of defense and regular melee crits ignore 25% defense
+					'现在你真正拥有了正义的拳头'
+					近战攻击施加圣焰
+					增加10%近战伤害和攻击速度，同时增加近战击退力也增加
+					真近战暴击忽视敌人 50% 防御，普通近战暴击忽视 25% 防御
 					'''
 			}
 
 			LostPhantom: {
-				DisplayName: Lost Phantom
+				DisplayName: 失落幻影
 				Tooltip:
 					'''
-					'Shut your eyes and let your soul guide your move'
-					Increases melee speed and crit chance by 5%
-					Calls upon a phantom to haunt your enemies which cause melee hits to shatter their soul
+					'闭上眼睛，让灵魂引导你的动作'
+					增加 5% 近战攻击速度和暴击率
+					召唤一个扰乱敌人的幻影，近战攻击能够震碎他们的灵魂
 					'''
 			}
 
 			MechanicalEnhancements: {
-				DisplayName: Mechanical Enhancements
+				DisplayName: 机械辅助手
 				Tooltip:
 					'''
-					'Impressive... Most impressive...'
-					True melee damage increase by 5%
-					Each time you hit to same target true melee speed increase 3% up to 30% max
-					Switching target, not hitting for 10 seconds or not holding true melee weapon will reset this
+					'印象深刻，太让我印象深刻了—达斯·维达'
+					增加5%真近战伤害
+					每次真近战攻击同一个目标，增加3%近战速度，最高可达30%
+					更换目标、10秒内未攻击或未手持真近战武器将重置此效果
 					'''
 			}
 
 			OmphalosStone: {
-				DisplayName: Omphalos Stone
+				DisplayName: 翁法洛斯石器
 				Tooltip:
 					'''
-					'Now you know where is the center of Earth'
-					All melee attacks inflict 圣焰
-					True melee crits ignore half of defense
+					'现在你知道地球的中心在哪里了'
+					近战攻击施加圣焰
+					真近战暴击忽视敌人 50% 防御
 					'''
 			}
 
 			OverGrownMushroom: {
-				DisplayName: Overgrown Mushroom
+				DisplayName: 过度生长的蘑菇
 				Tooltip:
 					'''
-					'It has so mush-room for everyone'
-					While holding melee weapon you start to produce spores around player
-					If weapon is true melee mushroom spores will have higher base damage and base knockback
+					'它为大家提供了如此多的蘑菇'
+					手持近战武器时，在玩家周围生成蘑菇孢子
+					如果是真近战武器，蘑菇孢子将具有更高的基础伤害和基础击退力
 					'''
 			}
 
 			PerfectCherryBlossom: {
-				DisplayName: Perfect Cherry Blossom
+				DisplayName: 盛放樱花
 				Tooltip:
 					'''
-					'If there is something you can't make clear, try cutting it!'
-					True melee strikes against enemies with full health is guaranteed to do critical hit
-					Increases melee speed and crit chance by 5%
-					Calls upon a phantom to haunt your enemies which cause melee hits to shatter their soul
-					Player periodically produces blossoms around the player while holding true melee weapon which do petal strike upon enemy hit
+					'如果你有什么不清楚的事情，试着去切割它！'
+					对满血敌人的真近战攻击必定暴击
+					增加 5% 近战攻击速度和暴击率
+					召唤一个扰乱敌人的幻影，近战攻击能够震碎他们的灵魂
+					手持真近战武器时，在玩家周围产生樱花，命中敌人时，花瓣会进行攻击
 					'''
 			}
 
 			Quickdraw: {
-				DisplayName: Quickdraw
+				DisplayName: 快斩刀鞘
 				Tooltip:
 					'''
-					'It's only the cold wind I feel'
-					When swinging true melee weapon it does a large slash before
-					This slash do 50% more damage along with both burning enemies and also actvating weapon hit effect upon hit
-					After it happen you can swing weapon normally and this have 3 second of non swing charge cooldown and otherwise it resets to 3 seconds
+					'我只感觉到寒风'
+					使用真近战武器时，挥舞一道刀光
+					刀光额外造成50%伤害，点燃敌人并触发武器效果
+					刀光有3秒冷却，期间挥舞武器会重置冷却时间
 					'''
 			}
 
 			VampyricManacle: {
-				DisplayName: Vampyric Manacle
+				DisplayName: 吸血鬼手镯
 				Tooltip:
 					'''
-					'Bleed for me'
-					Emits a Vampyric blood ring, which enemies in the ring will take serious bleeding
-					Critting serious bleeding enemies with a true melee weapon will heal by 5 and normal melee hits have 10% chance to heal by 1
-					Player gain immunity against bleeding and charged
+					'为我流血'
+					释放一个吸血之环，环内的敌人会受到大出血减益
+					使用真近战武器对大出血的敌人进行暴击将恢复5点生命值，而普通近战攻击有10%的几率恢复1点生命值
+					免疫流血和触电
 					'''
 			}
 
 			WhiteLotus: {
-				DisplayName: White Lotus
+				DisplayName: 白莲
 				Tooltip:
 					'''
-					'It smells like good old memories'
-					Crits are 10% more lethal + first hits are guaranteed to be crit
+					'闻起来像是旧日的美好时光'
+					暴击造成10%额外伤害，首次次攻击必定暴击
 					'''
 			}
 
 			AirForceMedal: {
-				DisplayName: Air Force Medal of Honor
+				DisplayName: 空军荣誉勋章
 				Tooltip:
 					'''
-					'It was awarded by harpy queen for their act of valor'
-					Upon being equipped a tiny royal peace keeper will protect you
+					'这是由鸟妖女王颁发的，以表彰飞行员的英勇行为'
+					装备后，一架迷你皇家鸟妖风暴号战机将保护你
 					'''
 			}
 
 			AncientCore: {
-				DisplayName: Ancient Core
+				DisplayName: 古代核心
 				Tooltip:
 					'''
-					'Let their bright past protect your future'
-					When sentry slots are more or equal to 2, player gain an extra minion slot and 5% summon damage'
-					When sentry slots are more or equal to 4, on hit contact based sentries have a chance to send out blue scarabs'
-					When sentry slots are more or equal to 6, all sentries gain bioluminescent aura
-					When sentry slots are more or equal to 8, 召唤a guardian to assist you
+					'让他们的辉煌过去守护你的未来'
+					当哨兵栏大于或等于 2 时，获得 1 个额外召唤栏并增加 5% 召唤伤害
+					当哨兵栏大于或等于 4 时，基础攻击的哨兵在被击中时有几率产生蓝色圣甲虫
+					当哨兵栏大于或等于 6 时，所有哨兵获得生物发光光环
+					当哨兵栏大于或等于 8 时，召唤一个守护者来协助你
 					'''
 			}
 
 			BoilingBloodBag: {
-				DisplayName: 沸血 Bag
+				DisplayName: 沸血背包
 				Tooltip:
 					'''
-					'Still boiling with her pain'
-					When it's being equipped it will summon a chained heart
-					Chained heart will periodically shoot blood and while active it will absorb 10% of taken damage
-					If it absorb more than 100 damage it will explode into 大出血 and it needs 30 second to regenerate itself
+					'仍因她的痛苦而沸腾'
+					装备时，会召唤一个被锁链束缚的心脏
+					被锁链束缚的心脏会定期喷射血液，并在激活时吸收10%受到的伤害
+					如果它吸收的伤害超过100点，产生施加大出血的爆炸，此能力有30秒冷却时间
 					'''
 			}
 
@@ -5887,7 +5888,7 @@ Mods: {
 					Collecting gold coin will empower guardian angel + sigil of fehu by following amount
 					>50 gold +10% attacks speed, >100 gold +10% crit chance, >200 gold +15% damage
 					Picking up coin have following effects and they need to be drop from enemy for this effect to activate
-					-Copper coin: 30% movement speed + increased acceleration for 10 seconds, inflicts daybroken for 5 seconds
+					-Copper coin: 30% movement speed + increased acceleration for 10 seconds, inflicts 破晓 for 5 seconds
 					-Silver coin: 10% damage + 10% crit for 30 seconds, inflicts 圣焰 for 5 Seconds
 					-Gold coin: 10% DR and 10 Defense, inflicts cursed soulblight for 10 seconds
 					Player could not equip dragon treasures, lucky cat, good ones treasure or piracy
@@ -6642,11 +6643,11 @@ Mods: {
 			}
 
 			TheHandyman: {
-				DisplayName: The Handyman
+				DisplayName: 修理工
 				Tooltip:
 					'''
-					Using a tool increase its speed by 2% each second up to 20%
-					Not using a tool for 10 seconds reset the buff
+					使用工具时，每秒增加2%使用速度，最高可达20%
+					10秒内不使用工具将重置增益效果
 					'''
 			}
 
@@ -13300,8 +13301,8 @@ Mods: {
 			}
 
 			DarkHeart: {
-				DisplayName: Dark Heart
-				Tooltip: Bite closest enemy
+				DisplayName: 噩梦心
+				Tooltip: 噬咬最近的敌人
 			}
 
 			DarkPunchSoul: {
@@ -13310,8 +13311,8 @@ Mods: {
 			}
 
 			DarkStar2: {
-				DisplayName: Dark Star
-				Tooltip: Bite closest enemy
+				DisplayName: 噩梦星
+				Tooltip: 噬咬最近的敌人
 			}
 
 			GoldHeart: {
@@ -17911,10 +17912,10 @@ Mods: {
 					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
 					[c/ffff00:重击能力]: 攻击敌人有10%的几率施加脑震荡效果
 					受到脑震荡效果影响的敌人会感到晕眩，并根据光标方向喷洒血液
-					[c/ffff00:打击能力]: 将软球转化为钛球。当这些球击中任何敌人时，它们有一定几率造成严重出血
+					[c/ffff00:打击能力]: 将软球转化为钛球。当这些球击中任何敌人时，它们有一定几率造成大出血
 					钛球击中的第一个敌人将必要暴击，施加脑震荡效果，并使非Boss敌人眩晕
 					[c/ffff00:狂暴状态]: 增加 150% 武器最终伤害、增加50%近战攻速和 10% 暴击率
-					在狂暴状态下，玩家的重击有一定几率使非Boss敌人严重出血，并且重击能力的触发概率增加到20%
+					在狂暴状态下，玩家的重击有一定几率使非Boss敌人大出血，并且重击能力的触发概率增加到20%
 					玩家无法进行攻击，但每杀死一个敌人，玩家将恢复少量生命值，并重新为狂暴状态蓄力
 					'''
 			}
@@ -19055,9 +19056,9 @@ Mods: {
 					玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%
 					攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快
 					由于剑的锋利，攻击附带50%的几率造成内部伤害，无视敌人的防御和减伤
-					当敌人处于任何伤害型debuff时，它的攻击速度会增加，并且有5%的几率在空中形成切割
+					当敌人处于任何伤害型减益时，它的攻击速度会增加，并且有5%的几率在空中形成切割
 					右键后，玩家可以释放奥斯曼耳光，敌人进入眩晕状态，使其失去2秒的攻击能力
-					这个技能有15秒的冷却时间，对boss无效
+					这个技能有15秒的冷却时间，对Boss无效
 					'''
 			}
 
@@ -21525,7 +21526,7 @@ Mods: {
 			PurpleHermitTop.DisplayName: Purple Hermit Top
 			SeaSnakeProjectile.DisplayName: Sea Snake Projectile
 			ShadowHandProjectile.DisplayName: Shadow Hand Projectile
-			AbyssalSoul.DisplayName: Abyssal Soul
+			AbyssalSoul.DisplayName: 深渊灵魂
 			AncientGolemFist.DisplayName: Ancient Golem Fist
 			AncientGolemHead.DisplayName: Ancient Golem Head
 			AnimaFlame.DisplayName: Anima Flame
@@ -21576,7 +21577,7 @@ Mods: {
 			Peeper.DisplayName: Peeper
 			PlayerJump.DisplayName: Player Jump
 			ProtonShield.DisplayName: Proton Shield
-			QuickdrawSlash.DisplayName: Quickdraw Slash
+			QuickdrawSlash.DisplayName: 快斩刀鞘刀光
 			RapidBite.DisplayName: Rapid Bite
 			RoseThorn.DisplayName: Rose Thorn
 			Salvation.DisplayName: Salvation
