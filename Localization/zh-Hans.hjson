@@ -14985,10 +14985,9 @@ Mods: {
 				DisplayName: 古代知识之书
 				Tooltip:
 					'''
-<<<<<<< HEAD
 					[c/FF1CAE:来自汉化的测试结果：汉化可能无法使用这个命令，一是很多维基国内打不开，二是很多维基没有中文]
-					'它曾经是由门捷列夫创建的，目的是与她的图书管理员分享她的知识.'
-					使用此条目将在调整后的wiki中搜索调整后的单词
+					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识.'
+					使用此条目将在调整后的wiki中搜索调整后的词语
 					调整词语使用'/searchwiki[要搜索的东西]
 					调整维基使用”/adjustwiki[关键词]
 					van = 原版泰拉瑞亚维基, cal = 灾厄维基, eni = 谜团维基, far = fargo维基, tho = 瑟银维基,
@@ -14998,19 +14997,6 @@ Mods: {
 					如果你搜索的词语找不到，它会把它放到搜索页面，并显示结果
 					它调整了原版泰拉瑞亚维基作为默认值，玩家需要调整维基，在不同的维基中搜索。
 					它会记住调整后的维基和词语，直到玩家用命令调整它们.
-=======
-					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识'
-					'Using this item will search the adjusted word in the adjested wiki
-					''For adjusting word use '/searchwiki [Thing to Search]'
-					''For adjusting wiki use '/adjustwiki [Key word]'
-					''van = terraria vanilla wiki, cal = calamity wiki, eni = enigma wiki, far = fargo wiki, tho = thorium wiki,'
-					'gre = grealm wiki , soa = sacredtools wiki, spi = spirit mod wiki, ea = elements awoken wiki, termod = terraria mods wiki.gg'
-					'For example: firs writing '/searchwiki Mechanic' to chat then writing '/adjustwiki van' to chat
-					'and then using the item will open terraria wiki mechanic page in your web browser'
-					'If the word you search couldn't found it will put it to search page and show you the results
-					'It's adjusted vanilla terraria wiki as default and player need to adjust wiki only they want to search in different wiki.
-					'It will remember the adjusted wiki and word until player adjusts them with command.
->>>>>>> 6b0d0d14c240d3f67d7a2956495d53e481c68f84
 					'''
 			}
 
