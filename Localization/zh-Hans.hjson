@@ -1242,8 +1242,8 @@ Mods: {
 			}
 
 			ChefsSpiritualEnergy: {
-				DisplayName: Chef's Spiritual Energy
-				Description: Now your soul is ready for kitchen nightmares
+				DisplayName: 厨师怒火
+				Description: 现在你的灵魂已经准备好迎接厨房噩梦了
 			}
 
 			Chen: {
@@ -1561,8 +1561,8 @@ Mods: {
 			}
 
 			Fear2: {
-				DisplayName: Horror
-				Description: Now you know there is no escape
+				DisplayName: 惊骇
+				Description: 无处可逃
 			}
 
 			FireDart: {
@@ -1811,13 +1811,13 @@ Mods: {
 			}
 
 			ArcanestoneBuff: {
-				DisplayName: Arcane Stone
-				Description: Mana regen increase by 5
+				DisplayName: 魔力石
+				Description: 增加 5 点魔力再生
 			}
 
 			Avenger: {
-				DisplayName: Avenger
-				Description: 5% increased damage + full hp hits are crit
+				DisplayName: 复仇者
+				Description: 增加 5% 伤害，满生命值时必定暴击
 			}
 
 			BallMiss: {
@@ -1841,18 +1841,18 @@ Mods: {
 			}
 
 			BetterCopper: {
-				DisplayName: Fueled by Copper
-				Description: 15% inceased movement speed
+				DisplayName: 铜币大祝福
+				Description: 增加 30% 移动速度
 			}
 
 			BetterGold: {
-				DisplayName: Fueled by Gold
-				Description: 10% increased DR + 10 defense
+				DisplayName: 金币大祝福
+				Description: 增加 10% 伤害减免和防御
 			}
 
 			BetterSilver: {
-				DisplayName: Fueled by Silver
-				Description: 10% increased damage + crit
+				DisplayName: 银币大祝福
+				Description: 增加 10% 伤害和暴击率
 			}
 
 			Bloodbath: {
@@ -1886,13 +1886,13 @@ Mods: {
 			}
 
 			Dispenser: {
-				DisplayName: Dispenser
-				Description: +1 Sentry Capacity
+				DisplayName: 分发器
+				Description: +1 最大哨兵栏
 			}
 
 			DogBlessing: {
-				DisplayName: The Good Ones Protection
-				Description: Your spirit grow stronger
+				DisplayName: 好朋友的守护
+				Description: 你的灵魂更加强大
 			}
 
 			DryadTransform: {
@@ -2006,8 +2006,8 @@ Mods: {
 			}
 
 			JudasRebornDebuff: {
-				DisplayName: Dark Judas
-				Description: Your heart feel only revenge
+				DisplayName: 黑暗形态
+				Description: 你渴望复仇
 			}
 
 			Kendama: {
@@ -2026,8 +2026,8 @@ Mods: {
 			}
 
 			LifestoneBuff: {
-				DisplayName: Lifestone
-				Description: Life regen increase by 2
+				DisplayName: 生命石
+				Description: 增加 2 点生命再生
 			}
 
 			LostGirlTransform: {
@@ -2051,18 +2051,18 @@ Mods: {
 			}
 
 			MimicCopper: {
-				DisplayName: Fueled by Copper
-				Description: 15% inceased movement speed
+				DisplayName: 铜币祝福
+				Description: 增加 15% 移动速度
 			}
 
 			MimicGold: {
-				DisplayName: Fueled by Gold
-				Description: 5% increased DR + 5 defense + inflict midas on attacks
+				DisplayName: 金币祝福
+				Description: 增加 5% 伤害减免和防御，攻击施加迈达斯
 			}
 
 			MimicSilver: {
-				DisplayName: Fueled by Silver
-				Description: 5% increased damage
+				DisplayName: 银币祝福
+				Description: 增加 5% 伤害
 			}
 
 			NinjaStealth: {
@@ -2146,8 +2146,8 @@ Mods: {
 			}
 
 			VitalityBuff: {
-				DisplayName: Vitality
-				Description: Life regen increase by 2 and mana regen increase by 5
+				DisplayName: 活力之石
+				Description: 增加 2 点生命再生和 5 点魔力再生
 			}
 
 			WatchTimeStop: {
@@ -2532,8 +2532,8 @@ Mods: {
 			}
 
 			Horror: {
-				DisplayName: Horror
-				Description: No one is safe
+				DisplayName: 惊骇
+				Description: 没有人是安全的
 			}
 
 			HunterMark: {
@@ -3437,8 +3437,8 @@ Mods: {
 			}
 
 			Hangover: {
-				DisplayName: Hangover
-				Description: Drinking more may cause cognitive effects
+				DisplayName: 宿醉
+				Description: 饮酒过量可能会对认知产生影响
 			}
 
 			LeadPoisoning: {
@@ -3908,7 +3908,7 @@ Mods: {
 
 			SecondOptionBuff: {
 				DisplayName: Second Option
-				Description: If you don't take damage for 8 seconds you will heal 25% damage back
+				Description: 8秒内没有再次受伤，则恢复所受伤害的25%
 			}
 
 			Security: {
@@ -4062,8 +4062,8 @@ Mods: {
 			}
 
 			SlimeCharge: {
-				DisplayName: Electrolytic Gel Cooldown
-				Description: It needs to concentrate its charge
+				DisplayName: 离子凝胶冷却
+				Description: 它需要重新充能
 			}
 
 			Slimer: {
@@ -4603,7 +4603,7 @@ Mods: {
 
 			WeaponImbueNature: {
 				DisplayName: Weapon Imbue: Nature
-				Description: Melee attacks inflict enemies with Dryad's bane
+				Description: Melee attacks inflict enemies with 树妖亡祸
 			}
 
 			WeaponImbueOiled: {
@@ -5088,7 +5088,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你仍然可以感觉到它的跳动...'
-					在受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%最大生命值
+					受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%生命值
 					受到伤害后增加移动速度
 					受到伤害后增加无敌时间
 					'''
@@ -5301,7 +5301,7 @@ Mods: {
 			}
 
 			GreenHeartNecklace: {
-				DisplayName: 可爱的毛绒玩具
+				DisplayName: 可爱毛绒玩具
 				Tooltip:
 					'''
 					'不考虑它的感受就将其称为Keter级收容物真令人难过'
@@ -5432,7 +5432,7 @@ Mods: {
 					如果玩家受到伤害，每个新星会消失，并恢复2点生命值；虚空触及将对被击中的敌人施加减益
 					如果玩家拥有8个新星，它们将在你的光标位置形成一个超新星
 					玩家获得黑洞圆环，对范围内的敌人施加破晓，杀死黑洞内的敌人会为玩家恢复5点生命值
-					无法同时装备它的合成材料
+					无法同时装备其下位饰品
 					'''
 			}
 
@@ -5445,7 +5445,7 @@ Mods: {
 					生命值低于50%时，增加8防御和5%伤害减免
 					真近战暴击形成生命精华，围绕玩家旋转
 					如果玩家在生命精华存在时受到伤害，每个活跃的生命精华将为玩家恢复2点生命值
-					最多同时存在6个生命精华
+					最多只能同时存在6个生命精华
 					生命精华可以穿透2次，前两次攻击施加树神诅咒，最后一次攻击造成爆炸
 					'''
 			}
@@ -5612,7 +5612,7 @@ Mods: {
 					'''
 					'让他们的辉煌过去守护你的未来'
 					当哨兵栏大于或等于 2 时，获得 1 个额外召唤栏并增加 5% 召唤伤害
-					当哨兵栏大于或等于 4 时，基础攻击的哨兵在被击中时有几率产生蓝色圣甲虫
+					当哨兵栏大于或等于 4 时，接触类型哨兵在被击中时有几率产生蓝色圣甲虫
 					当哨兵栏大于或等于 6 时，所有哨兵获得生物发光光环
 					当哨兵栏大于或等于 8 时，召唤一个守护者来协助你
 					'''
@@ -5630,133 +5630,133 @@ Mods: {
 			}
 
 			BoneHairpin: {
-				DisplayName: Bone Hairpin
+				DisplayName: 骨发簪
 				Tooltip:
 					'''
-					'Give me your yubi yubis!'
-					killing any enemy summons cause them to explode into 2-4 bone hands which will deal half of the summons damage
+					'把你的手指给我！'
+					召唤物击杀敌人时会使其爆炸成2-4个骨手，造成召唤物一半的伤害
 					'''
 			}
 
 			CreeperNecklace: {
-				DisplayName: Creeper Head Necklace
+				DisplayName: 苦力怕项链
 				Tooltip:
 					'''
-					'You feel your and mechnanics soul are wired together by lord Ajidot'
-					Double tap down will summon an additional sentry and only 1 can be active at a time
-					Being close to mechanic will increase your regen slightly
-					Contact based sentries have a chance to inflict explosive chemical
+					'你感到自己和机械之魂被阿吉多特领主连接在一起'
+					双击<下>键召唤一个额外的哨兵，最多只能同时存在一个
+					靠近机械师会略微增加你的生命再生速度
+					接触类型哨兵有几率产生爆炸
 					'''
 			}
 
 			EmperorsWreath: {
-				DisplayName: Emperor's Wreath
+				DisplayName: 皇帝的花环
 				Tooltip:
 					'''
-					'Feel like first of the empire and last of the republicans'
-					Take 5% less damage from front but 5% more damage from back
-					With political intelligence any minion you persue will increase your maximum life, mana and defense
-					This effect will make each used minion slot will give 10 hp, 2 defense and 10 mana
-					Military campaigns will cause you to take 10% less damage from undead legion countrymen and pirates
+					'就像帝国的开始，共和的结束'
+					减少 5% 正面受到的伤害，增加 5% 背面受到的伤害
+					借助花环蕴藏的政治智慧，你所统领的召唤物会提升你的最大生命值、魔力和防御
+					每个使用的召唤栏，提供10点生命值、2点防御力和10点魔力
+					减少10%不死生物和海盗的伤害
 					'''
 			}
 
 			EyeofWisdom: {
-				DisplayName: Eye of Wisdom
+				DisplayName: 智慧之眼
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'It was once formed by 亘古领主 Mendeleev to guide it's followers when they need her help'
-					Upon equipped it will summon a follower that will attack close enemies and guide your path
-					After lunatic cultist have been defeated it will empower with fallen foes essense and also call additional sigil to protect you
-					Both of the followers will become enraged as players life decrease
-					They will get bonus damage from minion multipliers and their attacks activate both minion and magic effects
+					'由亘古领主 Mendeleev 铸造，指引需要她帮助的追随者'
+					装备后召唤智慧之眼，攻击附近的敌人并指引你前进
+					击败拜月邪教徒后，吸收堕落敌人精髓的力量，召唤额外的智慧符文
+					当玩家的生命值下降时，智慧之眼和符文会短暂狂暴
+					造成额外伤害，命中敌人时触发召唤和魔法效果
 					'''
 			}
 
 			FloralHeadband: {
-				DisplayName: Floral Headband
+				DisplayName: 花卉头带
 				Tooltip:
 					'''
-					'Who doesn't look good in this'
-					Increases max amount of sentry by 1
+					'谁戴上这个不好看呢'
+					+1 最大哨兵栏
 					'''
 			}
 
 			GoodOnesTreasure: {
-				DisplayName: Good Boy's Treasure
+				DisplayName: 乖狗狗的宝藏
 				Tooltip:
 					'''
-					'The true treasure is the memories of him and his best friend and this collar reminds him that'
-					'Luckily as lord Connor tells all dogs go heaven so you feel calm'
-					When equipped it will call your loyal friend to protect you'
-					When you are safe it feels also happy and its spirit get stronger and when you take damage his sadness cause its spirit get weaker
-					When its spiritual energy is above 25% it will bless your soul and increase your movement, jump speed and let you get eyes of a dog
-					When its spiritual energy is above 50% it will start to attack any close enemy and ghost dash to them
-					When its spiritual energy is above 75% it will active his fast doggo phase which allows it to attack much faster and ignore half of defense
-					It fast doggo phase its dash attacks also have a chance to form sound waves which penetrate multiple enemies
+					'真正的宝藏是他和他最好的朋友的回忆，而这个项圈提醒他这一点'
+					'幸运的是，正如康纳领主所说，所有的狗都会上天堂，所以你感到平静'
+					装备后，召唤忠诚的朋友来保护你
+					当你安全时，它会感到快乐，精神力会变强，而当你受到伤害时，它的悲伤会让精神力变弱
+					精神力高于25%时，它会祝福你的灵魂，增加你的移动速度、跳跃速度，并增强你的视力
+					精神力高于50%时，它会攻击任何靠近的敌人，并使用幽灵猛冲
+					精神力高于75%时，触发勇敢狗狗，使其更快得攻击敌人，并忽视它们一半的防御
+					勇敢狗狗的猛冲攻击有几率生成声波，穿透多个敌人
 					'''
 			}
 
 			Idol: {
-				DisplayName: Idol
+				DisplayName: 偶像
 				Tooltip:
 					'''
-					'Should we entrust this world to them?'
-					+1 sentry per 2 active minion slot
-					Each summon or sentry spawned after this relic equipped  have a spirit orbital around it which damages + inflict soulblight
+					'我们应该把这个世界托付给他们吗？'
+					每使用 2 个召唤栏，增加 1 个哨兵栏
+					装备后，每次生成召唤物或哨兵都会在其周围产生一道灵魂轨迹，造成额外伤害并施加灵魂枯萎
 					'''
 			}
 
 			LuckyCat: {
-				DisplayName: Lucky Cat
+				DisplayName: 招财猫
 				Tooltip:
 					'''
-					'It purrifies your meowd with shiny stuff'
-					Each killed enemy have 20% more chance to drop double money
-					Summons a midas inflicting koban coin to protect player
+					'招财进宝'
+					每个被击杀的敌人有20%的几率掉落双倍钱币
+					召唤一个用迈达斯之力攻击敌人的异域硬币
 					'''
 			}
 
 			MartianSentryCharger: {
-				DisplayName: Martian Sentry Charger
+				DisplayName: 火星哨兵充能器
 				Tooltip:
 					'''
-					'A nuclear battery being used by martian engineers'
-					AFKPets aim type sentries shot speed increase by 10% + contact based sentries inflict electrified
+					'火星工程师使用的核电池'
+					提高 10% 本模组的瞄准类型哨兵的攻速，接触类型哨兵施加触电
 					'''
 			}
 
 			MonsterHeart: {
-				DisplayName: Empty Vessel
+				DisplayName: 虚无容器
 				Tooltip:
 					'''
-					'A soul being in between the boundary of life and death'
-					Your minions now have 15% chance to critical hit but you lose your regen
-					Hearts will be changed with nightmare heart which bite and damage closest enemy upon pick up
-					It will do 60 damage and its bite range is 2000 and protect you from death for a short time
+					'一个徘徊在生死之间的灵魂'
+					召唤物有15%的几率暴击，但你失去了生命再生
+					红心被噩梦心取代，不恢复生命，但会噬咬最近的敌人
+					造成60点伤害，其咬伤范围为2000，并在短时间内保护你免受死亡
 					'''
 			}
 
 			Peeper: {
-				DisplayName: Peeper
+				DisplayName: 迷你克眼
 				Tooltip:
 					'''
-					'Pop'
-					Upon equipped a peeper start rotate around player which activate summoner effects + inflict wet
-					When player have less than 50% life a secondary peeper will also start to rotate
+					'砰'
+					装备后，召唤围绕玩家旋转的迷你克眼，触发召唤效果并施加潮湿
+					当玩家的生命值低于50%时，召唤第二个迷你克眼
 					'''
 			}
 
 			PossessedDinnerBell: {
-				DisplayName: Possessed Dinner Bell
+				DisplayName: 着魔餐铃
 				Tooltip:
 					'''
-					'Calls forth your very own Sous Chef!'
-					Sous chef will place tiny cooking pot near enemies. When placed it will stay in there for 10 seconds
-					If there is any enemy that is close and above the pot it will spew stew on them
-					If any enemy will die via this it will combust which damage close enemies and also explode into food
-					If player walk over them they will heal player and give well fed along with they stay for 5 second
+					'召唤你自己的厨师长！'
+					厨师长会在敌人附近放置一个停留10秒的烹饪锅
+					如果有敌人靠近并位于烹饪锅的上方，烹饪锅会向它们喷洒炖菜
+					如果敌人因此而死亡，会对附近的敌人造成伤害，并爆炸成食物
+					如果玩家走过它们，会恢复生命并获得持续5秒的饱食增益
 					'''
 			}
 
@@ -5765,7 +5765,7 @@ Mods: {
 				Tooltip:
 					'''
 					'让开！让开！'
-					哨兵数量上限提高1个
+					+1 最大哨兵栏
 					按“哨兵打包”键键将会使你随身携带光标所指的哨兵
 					玩家只能携带一个哨兵，再次按下该键将会停止携带
 					如果再次按下该键时光标所指位置上有另一个哨兵，玩家将携带新的哨兵，否则停止携带任何哨兵
@@ -5774,199 +5774,202 @@ Mods: {
 			}
 
 			ArcaneStone: {
-				DisplayName: Arcane Stone
+				DisplayName: 魔力石
 				Tooltip:
 					'''
-					When picking up mana at Max mana, player will get a arcane stone buff for 10 seconds which gives 5 mana regen
-					This buff will not lose duration until player take damage
-					Mana stars will heal 10 more
-					You cannot equip it if you equip vitality stone
+					在魔力值满时拾取魔力星，获得持续10秒的魔力石增益，增加 5 点魔力再生
+					增益的持续时间不会因玩家受到伤害而减少
+					魔力星额外恢复 10 点魔力
+					如果装备了活力之石，则无法装备魔力石
 					'''
 			}
 
 			BackupFlashDriver: {
-				DisplayName: Backup Flash Driver
+				DisplayName: 备份闪存驱动器
 				Tooltip: ""
 			}
 
 			BandofRelocation: {
-				DisplayName: Band of Relocation
+				DisplayName: 跃迁手环
 				Tooltip:
 					'''
-					'Could you stop blinking for five minutes?!'
-					Teleports you a short distance to a random direction when being hit which has 5 second cooldown
+					'你能坚持五分钟不眨眼吗？'
+					被击中时，随机传送到附近新的位置，此能力有5秒冷却时间
 					'''
 			}
 
 			DaintyDrunkard: {
-				DisplayName: Dainty Drunkard
+				DisplayName: 精致酒鬼
 				Tooltip:
 					'''
-					'Ha ha ha! I'm a drunk and glorious man!'
-					Gain immunity against hangover
-					Alcoholic buffs last 50% longer + have 33% chance to not get consumed
+					'哈哈哈！我是一个醉酒而光荣的人！'
+					免疫宿醉
+					酒的增益效果持续时间延长50%，有33%的几率不被消耗
 					'''
 			}
 
 			DragonTreasure: {
-				DisplayName: Dragon Treasure
+				DisplayName: 龙之宝藏
 				Tooltip:
 					'''
-					'The treasure is likely to be your death...'
-					Shops have lower price, hitting enemy have a chance to drop money + increased pickup range
-					Picking up enemy dropped coin activates following effects
-					-Copper coin: 15% movement speed for 10 seconds, inflicts frostburn for 3 seconds
-					-Silver coin: 5% damage for 30 seconds, inflicts shadowflame for 5 Seconds
-					-Gold coin: 5% DR and 5 Defense, inflicts cursed inferno for 10 seconds and inflict midas on attacks for 1 minute
+					'发现宝藏之时可能就是你的死期……'
+					商店的价格更低，击中敌人有几率掉落金钱，增加钱币拾取范围
+					拾取敌人掉落的钱币会激活以下效果：
+					-铜币: 10 秒内增加 15% 移动速度，施加 3 秒的霜冻
+					-银币: 30 秒内增加 5% 伤害，施加 5 秒的暗影焰
+					-金币: 增加 5% 伤害减免和 5 点防御，施加 10 秒的诅咒焰，攻击施加迈达斯，持续 1 分钟
 					'''
 			}
 
 			EmblemofMarkov: {
-				DisplayName: Emblem of Markov
+				DisplayName: 马尔科夫之眼徽章
 				Tooltip:
 					'''
-					'Open your eyes to see...'
-					Upon taking fatal damage player resurrect in dark form which have 10% increased damage and 75% decreased life
-					Increases movement speed + length of invincibility after taking damage + 40% decreased nurse heal + reforge prices
-					Gain 5% chance to get artifact special prefix + best prefix lock + close enemies get traumatized
-					The less hp you have the more damage you get + lamb sacrifice ability + Yuri's eye sacrificial dagger effect
-					You cannot equip its materials or this if any material is being equipped
+					'睁开眼睛去看……'
+					受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%生命值
+					受到伤害后增加移动速度和无敌时间，减少 40% 护士治疗和哥布林重铸的价格
+					哥布林工匠现在有 5% 的几率重铸出具有特殊词缀的物品，且重铸不会获得负面词缀，附近的敌人被噩梦所困扰
+					你的生命值越少，受到的伤害越多，继承羔羊献祭和尤里之眼的牺牲匕首效果
+					无法同时装备其下位饰品
 					'''
 			}
 
 			GaiasGrace: {
-				DisplayName: Gaias Grace
+				DisplayName: 盖亚的恩典
 				Tooltip:
 					'''
-					'Look deep into nature, and then you will understand everything better'
-					Minor increase to all stats + bees and twilight flies get stronger + gain immunity agaist all traps
-					When worn transform you to Gaia at day which give dryad's blessing + +5 efficienct + growing flower while walking(minor)
-					While in this form Gaia blossoms will form around you which produce pollen and open up upon hit(minor)
-					Hitting enemies with inflict dryad's bane(Major)
-					At night it transform you into Luna which have following effects
-					Getting hit release twilight flies + walking emit lunar wisps + 20% increased movement speed and 15% increased acceleration(Minor)
-					All attacks inflict soulblight(Major)
-					Hiding visual will make all minor abilities activate but major abilities cannot
-					If multiple transformation accessory is being worn major ability of last one will activate while all minors will activate
+					'深入观察自然，然后你会更好地理解一切'
+					小幅提升所有属性，增强玩家的蜜蜂和暮光飞虫，免疫所有陷阱
+					在白天变身成盖亚，获得树妖祝福，增加 5 点收获效率，走过的草地上会长出花朵（次要能力）
+					在这种形态下，盖亚的花朵将围绕你生长，产生花粉并在命中时绽放（次要能力）
+					攻击会施加树妖亡祸（主要能力）
+					在夜晚变身成卢娜，具有以下效果：
+					受到伤害后释放暮光飞虫，行走时留下月光涟漪，增加 20% 移动速度和 15% 加速度（次要能力）
+					攻击会施加灵魂枯萎（主要能力）
+					隐藏可见性将激活所有次要能力，但关闭主要能力
+					如果同时装备多个变身饰品，只会激活最后一个主要能力，次要能力不受影响
 					'''
 			}
 
 			GazeoftheLost: {
-				DisplayName: Gazeofthe Lost
+				DisplayName: 迷失女孩的凝视
 				Tooltip:
 					'''
-					'When the abyss stares back, sometimes it's best to look away'
-					When worn transform you to a lost girl which have calming effect (Minor) + all attacks inflict lovestruck and you can also hit friendly npcs
-					Hitting enemies with lovestruck have a chance to heal you(Major ability)
-					Taking damage will transform you into a nymph for 12 seconds which have following effects
-					Movement speed increase by 10% (Minor) and all of the attacks inflict poison(Major ability)
-					If multiple transformation accessory is being worn major ability of last one will activate while all minors will activate
+					'当深渊凝视你时，有时最好转移视线'
+					装备后，变身成迷失女孩，具有镇静效果（次要能力），攻击会使目标陷入热恋，也可以攻击友方NPC
+					击中热恋的敌人时，有几率恢复生命值（主要能力）
+					受到伤害后，变身成宁芙，持续12秒，具有以下效果：
+					增加 10% 移动速度（次要能力），攻击会施加中毒（主要能力）
+					如果同时装备多个变身饰品，只会激活最后一个主要能力，次要能力不受影响
 					'''
 			}
 
 			GoldenKarat: {
-				DisplayName: Golden Karat
+				DisplayName: 金色克拉特
 				Tooltip:
 					'''
-					'This artifact symbolizes the economical wealth of the rabbit nation'
-					Higher chance to find golden bunnies + rabbits gain immunity against any damage sources
-					Rabbits have a chance to drop golden carrots that inflict midas to enemies + heal player upon touch
+					'这件神器象征着兔子王国的经济财富'
+					发现金兔子的几率更高，兔子免疫所有伤害
+					兔子有一定几率掉落金色的胡萝卜，这些胡萝卜对敌人施加迈达斯，并在拾取时恢复生命值
 					'''
 			}
 
 			InnocentTreasures: {
-				DisplayName: Innocent Treasures
+				DisplayName: 至纯宝藏
 				Tooltip:
 					'''
-					'Power of prosperity'
-					Shops have lower price, chance to have free purchase while buying with RC, hitting enemy have a chance to drop money + infinite money pickup
-					A fully powered guardian angel and sigil of fehu will protect you that bypass defense + getting gold coins empower them
-					Collecting gold coin will empower guardian angel + sigil of fehu by following amount
-					>50 gold +10% attacks speed, >100 gold +10% crit chance, >200 gold +15% damage
-					Picking up coin have following effects and they need to be drop from enemy for this effect to activate
-					-Copper coin: 30% movement speed + increased acceleration for 10 seconds, inflicts 破晓 for 5 seconds
-					-Silver coin: 10% damage + 10% crit for 30 seconds, inflicts 圣焰 for 5 Seconds
-					-Gold coin: 10% DR and 10 Defense, inflicts cursed soulblight for 10 seconds
-					Player could not equip dragon treasures, lucky cat, good ones treasure or piracy
+					'繁荣治理'
+					商店的价格更低，右键购买物品时有 10% 的几率不消耗钱币，击中敌人有几率掉落金钱，增加钱币拾取范围
+					无视防御的守护天使和费乌符文将保护你
+					拾取金币可以增强守护天使和费乌符文的以下属性：
+					50枚金币：增加 10% 攻击速度
+					100枚金币：增加 10% 暴击率
+					200枚金币：增加 15% 伤害
+					拾取敌人掉落的钱币会激活以下效果：
+					-铜币: 10 秒内增加 30 %移动速度，施加 5 秒的破晓
+					-银币: 30 秒内增加 10% 伤害和暴击率，施加 5 秒的圣焰
+					-金币: 增加 10% 伤害减免和防御，施加10秒的灵魂枯萎
+					无法和龙之宝藏、招财猫、乖狗狗的宝藏、掠夺旗帜同时装备
 					'''
 			}
 
 			IonGel: {
-				DisplayName: Ion Gel
+				DisplayName: 离子凝胶
 				Tooltip:
 					'''
-					'It still produces periodic electromagnetic pulses'
-					Double pressing down will form a charge field
-					While charge field is active doing again will teleport player to the location of charge area
-					When teleportation is being activated for 8 second charge area will damage enemies
-					After 8 seconds in the cooldown it could be relocated as much as player wants but after cooldown its placement become teleport location
-					This will have 1 minute cooldown
+					'它仍然会产生周期性的电磁脉冲'
+					双击<下>键形成一个电荷场
+					当电荷场激活时，再次双击会将玩家传送到电荷场的位置
+					传送后，电荷场会对敌人造成伤害，持续8秒
+					8秒后，玩家可以重新定位，但冷却后的位置将变为传送位置
+					此能力有1分钟的冷却时间
 					'''
 			}
 
 			JudasShadow: {
-				DisplayName: Judas' Shadow
+				DisplayName: 犹大的阴影
 				Tooltip:
 					'''
-					'Sweet revenge'
-					Upon taking fatal damage player resurrect in dark Judas which increase damage by 10% and decrease max life by 75%
-					If you unequip the accessory under the effect of Dark Judas you will instantly die
+					'甜蜜的复仇'
+					受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%生命值
+					如果在黑暗形态期间卸下此饰品，你将立刻死亡
 					'''
 			}
 
 			LifeStone: {
-				DisplayName: Life Stone
+				DisplayName: 生命石
 				Tooltip:
 					'''
-					When picking up hearts at Max Hp, player will get a Lifestone buff for 10 seconds which gives 2 life regen
-					This buff will not lose duration until player take damage
-					Hearts will heal 5 more
-					You cannot equip it if you equip vitality stone
+					在生命值满时拾取红心，获得持续10秒的生命石增益，增加 2 点生命再生
+					增益的持续时间不会因玩家受到伤害而减少
+					红心额外恢复 5 点生命值
+					如果装备了活力之石，则无法装备生命石
 					'''
 			}
 
 			MagicalHourglass: {
-				DisplayName: Magical Hourglass
+				DisplayName: 魔法沙漏
 				Tooltip:
 					'''
-					'Strangely the sand does not flow'
-					Stops the flow of the time
+					'奇怪的是沙子并不流动'
+					停止时间的流逝
 					'''
 			}
 
 			MaxRepel: {
-				DisplayName: Max Repel
+				DisplayName: 黄金喷雾
 				Tooltip:
 					'''
-					'Begone...'
-					Equipping it moderately decreases enemy spawn rates
+					'开始…'
+					装备后，适度降低敌人的刷新率
 					'''
 			}
 
 			MayasPendant: {
-				DisplayName: Maya's Pendant
+				DisplayName: 玛雅的吊坠
 				Tooltip:
 					'''
-					'Oh! It's nothing strange, really! I'm a spirit medium ....In training'nBeing around to town, minigame or travelling npc will give happy and lovestruck buffs
-					Knowledger's plea effect + death of town npc spawns a friendly ghost that fights for player for 30 seconds
-					Town and traveling npcs gain 50% more DR and 10% more damage
-					When a town takes lethal hit in player's radius of double screen size the player will shout OBJECTION
-					When this happen town npcs health return back to max they get cooldown of 15 second + this also cause them to take double damage
-					Closest enemy will also get accused of the murder case and take double damage of town npcs life
+					'哦！这真的没什么奇怪的！我是一名灵媒……还在训练中'
+					在城镇、小游戏或旅行NPC附近时，获得快乐和热恋增益
+					继承智者的抗辩效果，城镇NPC死亡时会生成一个友好的幽灵，为玩家战斗30秒
+					城镇和旅行NPC增加 50% 伤害减免和 10%伤害
+					当城镇NPC在玩家两个屏幕范围内受到致命一击时，玩家会大喊“反对”
+					然后，城镇NPC生命值将恢复到最大值，此能力有15秒冷却时间，期间城镇NPC受到双倍伤害
+					最近的敌人也会被指控为谋杀者，并受到相当于城镇NPC生命值两倍的伤害
 					'''
 			}
 
 			MimicRune: {
-				DisplayName: Mimic Rune
+				DisplayName: 宝箱模仿者符文
 				Tooltip:
 					'''
-					'You can't escape from your greed'
-					You have 5% chance to neglect projectile attacks
-					Coins could be consumed by <left>to its item and eating gives following effect
-					-Copper Coin:15% increased movement speed for 10 second
-					-Silver Coin:5% increased damage for 30 second
-					-Gold Coin:5% increased DR + 5 defense + all of your attacks inflict midas for 1 minute
-					-Due to its density plantinum coins
+					'你无法逃避自己的贪婪'
+					有5%的几率忽视射弹攻击
+					左键吃掉钱币激活以下效果：
+					-铜币: 10 秒内增加 15% 移动速度
+					-银币: 30 秒内增加 5% 伤害
+					-金币: 增加 5% 伤害减免和防御，攻击施加迈达斯，持续 1 分钟
+					-铂金币：Due to its density plantinum coins
 					'''
 			}
 
@@ -5991,34 +5994,34 @@ Mods: {
 			}
 
 			MusicChip: {
-				DisplayName: CV01 Sound and Movement Enhancer Chip
+				DisplayName: CV01声音与动作增强芯片
 				Tooltip:
 					'''
-					'Special product of Crypton Future Media, Inc.'
-					When equipped arrows will slowly rain above player head and pressing at the right time have following effects:
-					-上: player gets an extremely short immunity frame
-					-下: Close enemies get fear debuff + some damage
-					-左: Player debuff durations decrease slightly
-					-右: Player gets one of vanilla buffs for a short duration
+					'初音未来股份有限公司的特别产品'
+					装备后，箭头将缓慢落在玩家头上，并在正确的时间按下激活以下效果：
+					-上: 玩家获得一个极短的免疫帧
+					-下: 附近的敌人获得恐惧减益，受到伤害
+					-左: 稍微减少玩家的减益持续时间
+					-右: 玩家获得一个短暂的原版增益
 					'''
 			}
 
 			PheromoneCanister: {
-				DisplayName: Pheromone Canister
+				DisplayName: 信息素罐
 				Tooltip:
 					'''
-					'Oh no love is in air'
-					Equipping it will moderately increases the enemy spawn rates
+					'哦，空气中没有爱情'
+					装备后，适度增加敌人的刷新率
 					'''
 			}
 
 			QueensElixir: {
-				DisplayName: Queen's Elixir
+				DisplayName: 女王的灵药
 				Tooltip:
 					'''
-					'Hello my honey!'
-					Removed movement penalty in honey
-					Drinking any buff药水 will give honey buff for 1 minute and any healing or mana药水 will give for 10 seconds
+					'你好，我的宝贝！'
+					移除蜂蜜中的移动惩罚
+					使用增益药水将获得1分钟的蜂蜜增益，使用治疗或魔力药水将获得10秒的蜂蜜增益
 					'''
 			}
 
@@ -6027,51 +6030,51 @@ Mods: {
 				Tooltip:
 					'''
 					'彩虹,无处不在…'
-					最大生命值增加20点 + 获得999%彩虹
+					增加 20 最大生命值，获得999%彩虹
 					在时装栏也生效
 					'''
 			}
 
 			Rejuvenator: {
-				DisplayName: Rejuvenator
+				DisplayName: 返老还童
 				Tooltip:
 					'''
-					'Let's go practice medicine'
-					Cooldown of healing药水s are being reduced and it provides life regeneration
-					Each time you get hurt if you do not take any damage in 8 seconds you will heal 25% of the damage back
-					Players max hp will increase by 50
+					'让我们继续在医学道路上求索'
+					减少药水疫病的持续时间，并赋予生命再生增益
+					每次受到伤害后，如果在接下来的8秒内没有再次受伤，则恢复所受伤害的25%
+					增加 50 最大生命值
 					'''
 			}
 
 			RulesofNature: {
-				DisplayName: Rulesof Nature
+				DisplayName: 自然法则
 				Tooltip:
 					'''
-					'The goal of life is living in agreement with nature'
-					When worn transform you to a dryad which have +2 harvest efficiency + walking emit flowers from grass(minor)
-					Hitting enemies with inflict dryad's bane(Major)
-					Taking damage will transform you into a corrupted dryad for 12 seconds which have following effects
-					Movement speed increase by 10% + you periodically form shadowflame wisps (Minor) and all of the attacks inflict shadowflames(Major)
-					While in both form taking damage will form twilight flies
-					If multiple transformation accessory is being worn major ability of last one will activate while all minors will activate
+					'生命的目的是与自然和谐共处'
+					装备后，变身成树妖，增加 2 点收获效率，走过的草地上会长出花朵（次要能力）
+					攻击会施加树妖亡祸（主要能力）
+					受到伤害后，变身成腐化树妖，持续12秒，具有以下效果：
+					增加 10% 移动速度，偶尔释放暗影焰涟漪，攻击会施加暗影焰（主要能力）
+					在这两种形态下受到伤害后释放暮光飞虫
+					如果同时装备多个变身饰品，只会激活最后一个主要能力，次要能力不受影响
 					'''
 			}
 
 			Salvation: {
-				DisplayName: Salvation
+				DisplayName: 救赎
 				Tooltip:
 					'''
-					'Divine protection'
-					While enemies are in contact to halo they slowly overcharge and then form cross shaped beam area around them
+					'神圣庇护'
+					当敌人与光环接触时，会缓慢慢充能，然后在周围形成十字形的光束
 					'''
 			}
 
 			SecondOption: {
-				DisplayName: Second Opinion
+				DisplayName: 备选治疗方案
 				Tooltip:
 					'''
-					'A magical patch that is often used by clerics'
-					Each time you get hurt if you do not take any damage in 8 seconds you will heal 25% of the damage back
+					'牧师们经常使用的神奇补丁'
+					每次受到伤害后，如果在接下来的8秒内没有再次受伤，则恢复所受伤害的25%
 					'''
 			}
 
@@ -6088,12 +6091,12 @@ Mods: {
 			}
 
 			SereneMagatama: {
-				DisplayName: Serene Magatama
+				DisplayName: 安详玛瑙
 				Tooltip:
 					'''
-					'Maybe one day all lifeforms could observe war is not the only option'
-					Town and traveling npcs gain 50% more DR and 10% more damage
-					Being near to a town npc will make player feel happy
+					'也许有一天，所有的生命形式都能意识到战争并非唯一的选择'
+					城镇和旅行NPC增加 50% 伤害减免和 10%伤害
+					在城镇NPC附近时，获得快乐增益
 					'''
 			}
 
@@ -6108,13 +6111,13 @@ Mods: {
 			}
 
 			TheAvenger: {
-				DisplayName: The Avenger
+				DisplayName: 复仇意志
 				Tooltip:
 					'''
-					'Slimes assemble!'
-					When another player dies in mp player gain rage for 10 seconds and gain 50% max hp back
-					When a town npc dies player gain avenger buff for 15 seconds which increase players damage by 3%
-					Avenger buff will also make hits agains enemies with full health guaranteed to be crit
+					'史莱姆集合！'
+					当多人游戏中的其他玩家死亡时，获得暴怒增益，持续 10 秒，并恢复50%的最大生命值
+					当城镇NPC死亡时，玩家将获得15秒的复仇者增益，增加 5% 的伤害
+					复仇者增益同时确保满生命值时必定暴击
 					'''
 			}
 
@@ -6129,13 +6132,13 @@ Mods: {
 			}
 
 			ThirdEye: {
-				DisplayName: The Third Eye
+				DisplayName: 第三只眼
 				Tooltip:
 					'''
-					'Now, sleep with this trauma that will leave you sleepless!'
-					Perfect mind control allows you to decrease nurses heal and goblin tinkerers reforge prices by 40%
-					Goblin tinkerer now have a small chance to forge to artifact special prefixes and make goblin tinker could not reforge to bad prefixes
-					Close enemies are being traumatized with nightmarish dreams and these dreams cause them to take damage + get fear or horror
+					'现在，带着这让你失眠的苦痛入睡吧！'
+					完美的精神控制使你能够减少 40% 护士治疗和哥布林重铸的价格
+					哥布林工匠现在有几率重铸出具有特殊词缀的物品，且重铸不会获得负面词缀
+					附近的敌人被噩梦所困扰，噩梦会伤害它们并施加恐惧或惊骇减益
 					'''
 			}
 
@@ -6162,12 +6165,12 @@ Mods: {
 			}
 
 			VitalityStone: {
-				DisplayName: Vitality Stone
+				DisplayName: 活力之石
 				Tooltip:
 					'''
-					When picking up mana at Max mana or life at max hp player will get vitality buff which increase both life and mana regen for 10 seconds
-					Vanilla mana stars and life hearts have a small chance to become heart star which heals and gives mana by 20
-					You cannot equip it if you equip life stone or arcane stone
+					在生命值/魔力值满时拾取红心/魔力星，获得持续10秒的活力之石增益，增加生命再生和魔力再生
+					原版的红心/魔力星有几率转化成活力心，恢复 20 点生命和魔力
+					如果装备了生命石或魔力石，则无法装备活力之石
 					'''
 			}
 
@@ -6187,13 +6190,13 @@ Mods: {
 			}
 
 			YurisEye: {
-				DisplayName: Yuri's Eye
+				DisplayName: 尤里之眼
 				Tooltip:
 					'''
-					'I just want to pull your skin open and crawl inside of you'
-					A sacrificial dagger will follow player and each taken damage will increase by 10 while dagger will get 5% stronger
-					Extra taken damage will be stored and upon health item is used player heal 1.5 times of this extra damage
-					When this happen the extra taken damage counter and daggers damage bonus will reset
+					'我只想把你的皮肤撕开，爬进你的身体里'
+					一把牺牲匕首会跟随玩家，每次受到的伤害都会额外增加10，而匕首会增强5%
+					额外受到的伤害会被储存起来，当使用治疗药水时，恢复此额外伤害1.5倍的生命值
+					触发此效果后，额外伤害和匕首伤害加成将被重置
 					'''
 			}
 
@@ -6620,11 +6623,11 @@ Mods: {
 			}
 
 			Piracy: {
-				DisplayName: Piracy
+				DisplayName: 掠夺旗帜
 				Tooltip:
 					'''
-					'Relogic wants to know your location'
-					Gain 10% chance to not lose money while buying with RC
+					'Relogic 想给你上门送温暖'
+					右键购买物品时有 10% 的几率不消耗钱币
 					'''
 			}
 
@@ -7767,7 +7770,7 @@ Mods: {
 
 			FlaskofNature: {
 				DisplayName: Flask of Nature
-				Tooltip: "'Melee and Whip attacks inflict enemies with Dryad's bane'"
+				Tooltip: "'Melee and Whip attacks inflict enemies with 树妖亡祸'"
 			}
 
 			FlaskofShadowflames: {
@@ -7864,11 +7867,11 @@ Mods: {
 			}
 
 			PortableRocketLauncher: {
-				DisplayName: Dispenser
+				DisplayName: 分发器
 				Tooltip:
 					'''
-					'Metal, metal, metal... Let's do this Texas style!
-					'<right> to have more sentries
+					'金属，金属，金属……让我们以德克萨斯州的方式来完成！'
+					<right>获得更多哨兵栏
 					'''
 			}
 
@@ -9021,18 +9024,18 @@ Mods: {
 			}
 
 			BrokenRealityPieceA: {
-				DisplayName: Broken Reality Piece A
-				Tooltip: "'You are not sure what is this but it make you feel strange'"
+				DisplayName: 破碎的现实片段 A
+				Tooltip: "'你不确定这是什么，但它让你有一种奇怪的感觉'"
 			}
 
 			BrokenRealityPieceB: {
-				DisplayName: Broken Reality Piece B
-				Tooltip: "'You don't know where does this come but it makes you feel strange'"
+				DisplayName: 破碎的现实片段 B
+				Tooltip: "'你不确定它从何处而来，但它让你有一种奇怪的感觉'"
 			}
 
 			BrokenRealityPieceD: {
-				DisplayName: Broken Reality Piece C
-				Tooltip: "'You don't know where does this come but it makes you feel E.N.D is near'"
+				DisplayName: 破碎的现实片段 C
+				Tooltip: "'你不确定它从何处而来，但它让你感觉 终 末 将至'"
 			}
 
 			Broochofthevoid: {
@@ -9055,8 +9058,8 @@ Mods: {
 			}
 
 			DragonsBreath: {
-				DisplayName: Dragon's Breath
-				Tooltip: "'Everlasting flame that is fueled with greed and lust for power'"
+				DisplayName: 龙息
+				Tooltip: "'贪婪和对权力的欲望点燃了永恒的火焰'"
 			}
 
 			EncryptedScroll: {
@@ -9155,29 +9158,29 @@ Mods: {
 			}
 
 			KeyPiece1: {
-				DisplayName: Broken Key Alpha
+				DisplayName: 破损钥匙-α
 				Tooltip:
 					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
+					'它看起来很破旧，但很独特'
+					'需要其它零件以修复'
 					'''
 			}
 
 			KeyPiece2: {
-				DisplayName: Broken Key Beta
+				DisplayName: 破损钥匙-β
 				Tooltip:
 					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
+					'它看起来很破旧，但很独特'
+					'需要其它零件以修复'
 					'''
 			}
 
 			KeyPiece3: {
-				DisplayName: Broken Key Gamma
+				DisplayName: 破损钥匙-γ
 				Tooltip:
 					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
+					'它看起来很破旧，但很独特'
+					'需要其它零件以修复'
 					'''
 			}
 
@@ -9809,11 +9812,11 @@ Mods: {
 			}
 
 			ChefsSpiritualEnergy: {
-				DisplayName: 厨师的精神能量
+				DisplayName: 厨师的怒火
 				Tooltip:
 					'''
 					'你觉得它想念它的厨房'
-					召唤厨师精神能量
+					召唤厨师的怒火
 					'''
 			}
 
@@ -10302,7 +10305,7 @@ Mods: {
 				DisplayName: 乌鲁兹符文（占位符）
 				Tooltip:
 					'''
-					'他是用亘古领主的力量完成的'
+					'它是用亘古领主的力量完成的'
 					召唤tiny Fabu跟随你
 					'''
 			}
@@ -11727,7 +11730,7 @@ Mods: {
 				DisplayName: 能量稳定器核心
 				Tooltip:
 					'''
-					'核心用来照亮拜月邪教'
+					'核心曾照亮拜月邪教的仪式'
 					召唤蓝甲虫跟随你
 					'''
 			}
@@ -13817,7 +13820,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I laid low your warriors of old. I instilled terror in the hearts of men'
-					Player gain immunity against on fire, frostburn and chilled debuffs
+					Player gain immunity against on fire, 霜冻 and chilled debuffs
 					Player gain aura that curses close enemies along with giving them true DoT
 					All of players attacks will inflict inferno
 					While under the effect of Dragonheart player cannot drink warmth, inferno or corona药水 or their buff
@@ -14982,7 +14985,7 @@ Mods: {
 				DisplayName: Book of Ancient Knowledge
 				Tooltip:
 					'''
-					'It was once formed by 亘古领主 Mendeleev to share her knowledge with her librarians.'
+					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识'
 					'Using this item will search the adjusted word in the adjested wiki
 					''For adjusting word use '/searchwiki [Thing to Search]'
 					''For adjusting wiki use '/adjustwiki [Key word]'
@@ -15124,12 +15127,12 @@ Mods: {
 			}
 
 			GreaterMedicineKit: {
-				DisplayName: 大医学装备
+				DisplayName: 凤凰医疗包
 				Tooltip:
 					'''
-					'Schnell! 快去找 zem!'
-					通过急救时，每次点击恢复2点生命值
-					右键扔出治疗注射器
+					'快！去拿它们！'
+					需要急救时，每次使用恢复3点生命值
+					右键扔出注射器攻击敌人
 					'''
 			}
 
@@ -15203,11 +15206,11 @@ Mods: {
 			}
 
 			MedicineKit: {
-				DisplayName: 医学装备
+				DisplayName: 医疗包
 				Tooltip:
 					'''
 					'要尽快痊愈!'
-					通过急救时，每次点击恢复2点生命值
+					需要急救时，每次使用恢复2点生命值
 					'''
 			}
 
@@ -16054,7 +16057,7 @@ Mods: {
 					'''
 					'If there is magic on this planet, it is contained in water'
 					右键装备物品，左键栏位回收
-					While being equipped while player have wet debuff or while raining it count player submerged with liquid
+					While being equipped while player have 潮湿 debuff or while raining it count player submerged with liquid
 					'''
 			}
 
@@ -16085,7 +16088,7 @@ Mods: {
 					'Contain remnants of the 梦魇史莱姆'
 					右键装备物品，左键栏位回收
 					While being equipped fear inflicted enemies stay feared unless npc reaches the debuff limit
-					Feared enemies may get horror which have a chance to inflict fear to close enemies
+					Feared enemies may get 惊骇 which have a chance to inflict 恐惧 to close enemies
 					'''
 			}
 
@@ -18106,9 +18109,9 @@ Mods: {
 					'''
 					女士们本该带上一些男士同行
 					右键点击可冲刺穿越敌人，提升20%伤害和25%击退力
-					连击可能触发充能状态，持有此武器时增加玩家最大生命值25点
+					连击可能触发充能状态，持有此武器时增加 25 最大生命值
 					每第三次攻击必定暴击
-					击中瞄准哨兵将会使其攻击力暂时提升30%，效果逐渐消退
+					击中瞄准类型哨兵将会使其攻击力暂时提升30%，效果逐渐消退
 					'''
 			}
 
@@ -18202,7 +18205,7 @@ Mods: {
 				DisplayName: 幽灵连枷
 				Tooltip:
 					'''
-					'投掷时会形成追踪敌人的精神能量'
+					'投掷时会形成追踪敌人的幽灵'
 					暴击有50%几率使其脱离锁链
 					'''
 			}
@@ -18863,7 +18866,7 @@ Mods: {
 					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
 					攻击会造成流血，玩家的速度会产生动力，从而增加伤害
 					当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害
-					当骑在坐骑上时，它也会获得5%的暴击几率，并且不会被任何debuff抵消
+					当骑在坐骑上时，它也会获得5%的暴击率，并且不会被任何debuff抵消
 					'''
 			}
 
@@ -18885,7 +18888,7 @@ Mods: {
 				Tooltip:
 					'''
 					在白天，它会变得更强，更快
-					在夜晚，攻击敌人将造成树精之害，持续2秒
+					在夜晚，攻击敌人将施加树妖亡祸，持续2秒
 					右键可以将它指向光标方向
 					由于它的尖端比侧面更锋利，它在这种形式下攻击会造成更大的伤害
 					'''
@@ -19651,7 +19654,7 @@ Mods: {
 					'捍卫家族荣誉的完美武器'
 					左键射击双枪，右键投掷浓缩炸药包
 					如果玩家处于地面，按右键将召唤兄弟以西西里风格解决战斗问题
-					此技能有20秒冷却时间，他们的存在会让你感觉更强壮
+					此能力有20秒冷却时间，他们的存在会让你感觉更强壮
 
 					'''
 			}
@@ -19818,7 +19821,7 @@ Mods: {
 					- 故障：子弹命中后解除编码，分裂成两枚无附加效果的小子弹
 					- 绯红：投射物在暴击时吸血并导致敌人严重流血
 					- 蜜糖：首次命中的投射物会给玩家提供蜜糖增益效果，并释放黄蜂
-					- 忘恩负义：投射物的暴击几率提升20%，并且这个几率无法降低
+					- 忘恩负义：投射物的暴击率提升20%，并且这个几率无法降低
 					- 感激：每次投射物命中目标都会增加5%的伤害
 					'''
 			}
@@ -20097,7 +20100,7 @@ Mods: {
 			}
 
 			FrostburninaBottle: {
-				DisplayName: 瓶装霜冻灼烧
+				DisplayName: 霜冻瓶
 				Tooltip:
 					'''
 					警告：高活性化学物质
@@ -20239,7 +20242,7 @@ Mods: {
 					'''
 					'现在你知道羊酱汁在哪里了'
 					可以用左键投掷，也可通过右键饮用
-					饮用后你会获得地狱呼吸增益，持续5秒内喷射火焰，此技能有30秒冷却时间
+					饮用后你会获得地狱呼吸增益，持续5秒内喷射火焰，此能力有30秒冷却时间
 					这种火焰威力强大，足以熔化任何由纯净意愿形成的曲奇饼干
 					投掷后与目标碰撞时，它会释放地狱热力，破坏敌人的防御并将其活活烧死
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以同时投掷2瓶羊酱汁，并获得持续20秒的地狱呼吸增益
@@ -20660,7 +20663,7 @@ Mods: {
 					满盾形态提供5%侧面减伤，右键可使其向玩家方向发动盾击，冷却时间为15秒
 					只有在满盾形态下，救赎守卫才对敌人造成伤害，连续多次后引发救赎效果
 					救赎效果会击退敌人，同时冷却结束后的首次攻击必定引发救赎效果并可以反弹敌人的射弹
-					每升一级，最大生命值增加10点，救赎护盾的充能速度加快
+					每升一级，增加 10 最大生命值，救赎护盾的充能速度加快
 
 					'''
 			}
@@ -20708,7 +20711,7 @@ Mods: {
 					召唤一颗会吞噬敌人的小流星头，成功吞噬后会使玩家获得饱食效果
 					右键使用物品时，如果屏幕上有小流星头，则生成一条从小流星头位置到光标位置的糖豆路径
 					路径终点是力量糖豆，吃掉它会使小流星头在短时间内变得更强大
-					路径越长，强化的持续时间和强度越高，但此能力有30秒冷却时间
+					路径越长，强化的持续时间和强度越高，此能力有 30 秒冷却时间
 					当它的对手也被召唤出来时，小流星头的力量会进一步增强
 					'''
 			}
@@ -21379,7 +21382,7 @@ Mods: {
 					别用这个刺向锯齿兔
 					若玩家使用此道具对敌人造成暴击，将会标记该敌人
 					当玩家按下右键时，与被标记的敌人交换位置，并使敌人在接下来4秒内失去接触伤害免疫能力
-					此技能有20秒冷却时间
+					此能力有20秒冷却时间
 					如果在设置中启用了盗贼转化选项，玩家在潜行攻击时将额外投掷3支标枪
 					'''
 			}
@@ -21552,8 +21555,8 @@ Mods: {
 			KobanCoin.DisplayName: Koban Coin
 			LeechPlant.DisplayName: Leech Plant
 			LostPhantomSoul.DisplayName: Lost Phantom Soul
-			LuckyCatMoney.DisplayName: Lucky Cat Money
-			LuckyCatMoney2.DisplayName: Lucky Cat Money2
+			LuckyCatMoney.DisplayName: 招财猫 Money
+			LuckyCatMoney2.DisplayName: 招财猫 Money2
 			MadotsukiEffect.DisplayName: Madotsuki Effect
 			Madotsuki.DisplayName: Madotsuki
 			MendeleevEye.DisplayName: Mendeleev Eye
@@ -21592,7 +21595,7 @@ Mods: {
 			TrinityBlue.DisplayName: Trinity Blue
 			TrinityGreen.DisplayName: Trinity Green
 			TrinityViolet.DisplayName: Trinity Violet
-			TwilightFly.DisplayName: Twilight Fly
+			TwilightFly.DisplayName: 暮光飞虫
 			VoidRing.DisplayName: Void Ring
 			YuriDagger.DisplayName: Yuri Dagger
 			AcornBomb.DisplayName: Acorn Bomb
@@ -23013,7 +23016,7 @@ Mods: {
 			FrozenMouse.DisplayName: Frozen Mouse
 			FujinWind.DisplayName: Fujin Wind
 			Glitter.DisplayName: Glitter
-			HangoverEffect.DisplayName: Hangover Effect
+			HangoverEffect.DisplayName: 宿醉
 			ItemProjectile.DisplayName: Item Projectile
 			KasaObake.DisplayName: Kasa Obake
 			LoverScreen.DisplayName: Lover Screen
