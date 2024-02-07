@@ -1237,8 +1237,8 @@ Mods: {
 			}
 
 			Chargetime2: {
-				DisplayName: Blink Dagger Cooldown
-				Description: You can't use Blink Dagger
+				DisplayName: 跳刀冷却时间
+				Description: 你不能使用跳刀
 			}
 
 			ChefsSpiritualEnergy: {
@@ -6344,7 +6344,7 @@ Mods: {
 					'Only the dead have seen the end of war'
 					Player have 5% chance to dodge the enemy and projectile attack and gain immunity for a short time
 					Player have 25% chance to not get chaos state debuff after using rod of discord
-					Player have 25% chance to not get cooldown debuff after using blink dagger
+					Player have 25% chance to not get cooldown debuff after using 跳刀
 					If player moves for a long time player have a chance to get tired
 					'''
 			}
@@ -14682,77 +14682,77 @@ Mods: {
 			}
 
 			JungleEssence: {
-				DisplayName: Essence of Jungle
+				DisplayName: 丛林之精华
 				Tooltip:
 					'''
-					'Eye of the Tiger...'
-					Upon favourited counts player in jungle biome
+					'老虎之眼…'
+					被丛林生物群系偏爱的玩家
 					'''
 			}
 
 			OverloadedEssence: {
-				DisplayName: Overloaded Essence
+				DisplayName: 重要的本质
 				Tooltip:
 					'''
-					'One Thousand Cherry Trees...'
-					Upon favourited counts player in its materials biomes
+					'一千棵樱桃树…'
+					被所有生物群系偏爱的玩家
 					'''
 			}
 
 			SnowEssence: {
-				DisplayName: Essence of Snow
+				DisplayName: 融雪之精华
 				Tooltip:
 					'''
-					'In the Hall of Mountain King...'
-					Upon favourited counts player in snow biome
+					'在山王殿里…'
+					被积雪生物群系偏爱的玩家
 					'''
 			}
 
 			DukeFishrod: {
-				DisplayName: Duke Fishrod
+				DisplayName: 海渊钓竿
 				Tooltip:
 					'''
-					Aquatic pole of ocean which is in search of a rare, savory type of fish
-					It will throw 5 lines at once
-					It's lines never break and it have increased chance to catch crates along with decreased bait usage
-					While holding the fishing rod baby fishron will protect you
+					海洋中的公爵，正在寻找一种稀有的美味的鱼
+					同时施放五条线
+					它的线永远不会断，它增加了捕获板条箱的机会，同时减少了诱饵的使用
+					拿着鱼竿的猪龙鱼宝宝会保护你
 					'''
 			}
 
 			FishronCrusader: {
-				DisplayName: Fishron Crusader
+				DisplayName: 神圣捕手
 				Tooltip:
 					'''
-					Sadly you couldn't use the Destroyer as a bait with this one. Maybe you need a bigger one?
-					'It casts three lines at once which can also attack nearby enemies'
+					可惜你不能用毁灭者做诱饵，也许你需要一个更大的?
+					'同时施放三条线，也可以攻击附近的敌人'
 					'''
 			}
 
 			RodofConsequences: {
-				DisplayName: Rod of Consequences
+				DisplayName: 飞蛾捕手
 				Tooltip:
 					'''
-					Sometimes its best to rest for a while and leave demon for his demons
-					It can fish in lava and its bobblers will catch fish in a short time after touching liquid
+					有时候最好是休息一会儿，让恶魔去找他的恶魔们
+					可以在熔岩中捕鱼，它的鱼饵在接触液体后不久就能捕鱼
 					'''
 			}
 
 			RoyalFortune: {
-				DisplayName: The Royal Fortune
+				DisplayName: 皇室钓竿
 				Tooltip:
 					'''
-					A smooth sea never made a skilled pirate so why you seek it that much
-					It have 2% chance to catch quest fish from any biome
+					风平浪静的大海造就不了海盗，所以你为什么那么追求它
+					它有2%的概率从任何生物群系捕获的任务鱼
 					'''
 			}
 
 			TerraYokaiCatcher: {
-				DisplayName: Terra Yokai Catcher
+				DisplayName: 幻想妖杆
 				Tooltip:
 					'''
-					'A rod used to catch the legendary fish Ikushi'
-					Throws 4 lines at once that can catch fish in a short time + Attacks close enemies
-					Can catch fish in lava, it's lines never break and it has sonar effect
+					'用来捕捉传说中的钓鱼的鱼竿'
+					一次抛出4条线，可以在短时间内捕获鱼和攻击近距离的敌人
+					可以在熔岩中捕鱼，线永远不会断，而且自带声纳增益
 					'''
 			}
 
@@ -14972,19 +14972,33 @@ Mods: {
 			}
 
 			BlinkDagger: {
-				DisplayName: Blink Dagger
+				DisplayName: 跳刀
 				Tooltip:
 					'''
-					'The fabled dagger used by the fastest assassin ever to walk the lands
-					Upon use it will teleport you to the ground being below your mouse with 5 second cooldown
-					While calamity is being activated it will not awake Adult Eidolon Wyrm when its used in abyss
+					'传说中刺客使用的匕首'
+					使用后会传送到光标下方的位置，有5秒的冷却时间
+					此物品在灾厄的深渊使用时，不会唤醒始源妖龙
 					'''
 			}
 
 			BookofAncientKnowledge: {
-				DisplayName: Book of Ancient Knowledge
+				DisplayName: 古代知识之书
 				Tooltip:
 					'''
+<<<<<<< HEAD
+					[c/FF1CAE:来自汉化的测试结果：汉化可能无法使用这个命令，一是很多维基国内打不开，二是很多维基没有中文]
+					'它曾经是由门捷列夫创建的，目的是与她的图书管理员分享她的知识.'
+					使用此条目将在调整后的wiki中搜索调整后的单词
+					调整词语使用'/searchwiki[要搜索的东西]
+					调整维基使用”/adjustwiki[关键词]
+					van = 原版泰拉瑞亚维基, cal = 灾厄维基, eni = 谜团维基, far = fargo维基, tho = 瑟银维基,
+					gre = grealm维基 , soa = 圣域维基, spi = 魂灵维基, ea = 元素觉醒维基, termod = 泰拉瑞亚模组维基.gg
+					例如:聊天栏先写“/searchwiki Mechanic”，然后在聊天栏写“/adjustwiki van”
+					然后使用该项目将打开泰拉瑞亚维基的网页浏览器
+					如果你搜索的词语找不到，它会把它放到搜索页面，并显示结果
+					它调整了原版泰拉瑞亚维基作为默认值，玩家需要调整维基，在不同的维基中搜索。
+					它会记住调整后的维基和词语，直到玩家用命令调整它们.
+=======
 					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识'
 					'Using this item will search the adjusted word in the adjested wiki
 					''For adjusting word use '/searchwiki [Thing to Search]'
@@ -14996,6 +15010,7 @@ Mods: {
 					'If the word you search couldn't found it will put it to search page and show you the results
 					'It's adjusted vanilla terraria wiki as default and player need to adjust wiki only they want to search in different wiki.
 					'It will remember the adjusted wiki and word until player adjusts them with command.
+>>>>>>> 6b0d0d14c240d3f67d7a2956495d53e481c68f84
 					'''
 			}
 
@@ -15019,11 +15034,11 @@ Mods: {
 			}
 
 			ChlorophyteRadioDetector: {
-				DisplayName: Chlorophyte Radio Detector
+				DisplayName: 无线电探测器
 				Tooltip:
 					'''
-					'Upon use it will send location of first find plantera bulb and lihzahrd altar to player as a text'
-					'If it cannot find any of them active in the world it will tell that thing cannot be found'
+					使用后，它会告诉你世纪花苞和丛林蜥蜴祭坛的位置
+					'如果这个世界上没有的东西，它会告诉你这个东西找不到'
 					'''
 			}
 
@@ -15032,9 +15047,9 @@ Mods: {
 				Tooltip:
 					'''
 					拿着它的时候，可以让你打开原版带锁的箱子
-					打败骷髅王后可以打开带锁的金箱
+					击败骷髅王后可以打开带锁的金箱
 					击败史莱姆最后的希望后，可以打开带锁的暗影箱
-					在击败世纪之花后，允许你打开各种生物群落箱
+					击败世纪之花后，允许你打开各种生物群落箱
 					如果你的物品栏中有箱子钥匙，则优先使用其他钥匙
 					打开每个带锁的箱子会消耗魔力水晶而不是钥匙。
 					'''
@@ -15085,7 +15100,7 @@ Mods: {
 			}
 
 			FabricofSpace: {
-				DisplayName: 空间粒子结构（占位符）
+				DisplayName: 空间粒子结构
 				Tooltip:
 					'''
 					'这看起来就像在这个宇宙中的现实形象之一'
@@ -15094,7 +15109,7 @@ Mods: {
 					鼠标右键+键盘上键传送至出生点.
 					鼠标右键+键盘下键传送随机位置.
 					鼠标右键+键盘左键传至死亡点.
-					鼠标右键+键盘右键button allow you to make blink
+					鼠标右键+键盘右键传送到光标下方的位置
 					'''
 			}
 
