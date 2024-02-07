@@ -4112,13 +4112,13 @@ Mods: {
 			}
 
 			SoulEat: {
-				DisplayName: Soul Consume
-				Description: If you use eye one more time your soul will consumed
+				DisplayName: 灵魂消耗
+				Description: 你继续使用眼睛灵魂将会消耗
 			}
 
 			SoulEat2: {
-				DisplayName: Soulless
-				Description: You shouldn't have done that
+				DisplayName: 没有灵魂
+				Description: 你不应该这样做
 			}
 
 			SoulMinigame: {
@@ -7661,11 +7661,11 @@ Mods: {
 			}
 
 			PrizeBag: {
-				DisplayName: Prize Bag
+				DisplayName: 奖励包
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'This... does put a smile on my face'
+					'这个…能让我开心吗'
 					'''
 			}
 
@@ -8237,17 +8237,17 @@ Mods: {
 			}
 
 			MagneticStorageUnit: {
-				DisplayName: Magnetic Storage Unit
+				DisplayName: 磁储存装置
 				Tooltip:
 					'''
-					A nonvolatile storage unit being used to keep the collected samples safe
-					'Player first needs to adjust the answer via '/answer [Password number]''
-					'Password number supports at most 9 digit numbers and if anyone try more it will save it as 10^9-1'
-					'If negative password number is being tried it will convert into positive and then it will be saved'
-					'While it have no password adjusted doing this will adjust the number as a password'
-					'It adjusts passwords via data registers so in chests inside it need 1 empty slot'
-					'If password is adjusted before when you adjust answer via command if its correct it allow you to see inside'
-					'For changing password trash the registers inside and do adjustment which is specified above'
+					'用于保证采集的样品的安全又不会非易失去存储数据的单元'
+					首先需要通过'/answer [密码]调整密码'
+					密码最多支持9位数字，如果有人尝试更多数值会保存为10^9-1
+					如果调整的是负数密码，会转换为正数密码然后保存
+					没有调整数字密码，会调整数字作为密码
+					它通过数据寄存器来调整密码，箱子里面需要一个空槽
+					如果密码调整之前，通过命令调整答案，如果它是正确的，它允许你看到里面
+					如果需要更改密码，请移除数据寄存器，并按照上面教程调整
 					'''
 			}
 
@@ -8826,7 +8826,7 @@ Mods: {
 				Tooltip:
 					'''
 					You feel this may be safer to keep your money with you
-					'It functions as a chest with special ability'
+					'它是一个具有特殊能力的箱子'
 					'Its suggested to keep at least 5 empty slot if player is also plans to use it as a chest'
 					When you place more than 1 gold they start to slowly invest your money
 					'''
@@ -8837,7 +8837,7 @@ Mods: {
 				Tooltip:
 					'''
 					It seems goblins are not the only race that can forge weapons
-					'It functions as a chest with special ability'
+					'它是一个具有特殊能力的箱子'
 					'When a weapon with vanilla damage type being put inside of it the tiny blacksmiths start to work on it'
 					'They will not take any money from the player for reforging'
 					'They have a chance to change its prefix and upon reaching best prefix possible they will stop working on it'
@@ -8850,7 +8850,7 @@ Mods: {
 				Tooltip:
 					'''
 					Its filled with tiny people that have big dreams
-					'It functions as a chest with special ability'
+					'它是一个具有特殊能力的箱子'
 					'When placed ammo tiny people start to produce more of it slowly until it reaches its maximum stack'
 					'This process does not need any materials'
 					'Each slot will be calculated seperately so if player spread the ammo to slots will increase the speed'
@@ -8858,14 +8858,14 @@ Mods: {
 			}
 
 			TinyHouse: {
-				DisplayName: Tiny House
+				DisplayName: 微型房屋
 				Tooltip:
 					'''
-					A cute little house for cute little people
-					'It functions as a chest with special ability'
-					'House locator which can be crafted with 2 iron/lead bar and 1 废铁 required'
-					'After crafting it using house locator will send every not favourited items into tiny houses'
-					'It will not check ammo slot and coin slot'
+					'可爱的小人儿住在可爱的小房子里'
+					它是一个具有特殊能力的箱子
+					微型房屋定位器，可以使用2铁/1电路板在铁砧处制作
+					制作完成后，使用微型房屋定位器将把所有未收藏的物品送到微型房屋里
+					它不会放置钱币和弹药栏的物品
 					'''
 			}
 
@@ -8874,7 +8874,7 @@ Mods: {
 				Tooltip:
 					'''
 					You are not sure about its depth but still it seems its deep enough
-					'It functions as a chest with special ability'
+					'它是一个具有特殊能力的箱子'
 					'The ores that are wanted to be mined need to be placed inside and 1 of each desired ore type is enough'
 					'When a pickaxe is placed inside with respect to its pickaxe power tiny people will more of that type of ore'
 					'When max stack is reached for that slot they will stop mining for it'
@@ -8888,7 +8888,7 @@ Mods: {
 				Tooltip:
 					'''
 					It seems they are also selling second hand items
-					'It functions as a chest with special ability'
+					'它是一个具有特殊能力的箱子'
 					'When any item is being placed inside of it that item will be sold to other tiny people after some time'
 					'Sold items value will be stored as coin inside of it'
 					'''
@@ -9252,8 +9252,8 @@ Mods: {
 			}
 
 			PrizeToken: {
-				DisplayName: Prize Token
-				Tooltip: It can be used to exchange with goodies
+				DisplayName: 奖励硬币
+				Tooltip: 它可以用来交换物品
 			}
 
 			PurpleThread: {
@@ -15025,131 +15025,131 @@ Mods: {
 			}
 
 			DadsKey: {
-				DisplayName: Dad's Key
+				DisplayName: 爸爸的钥匙（出自以撒的结合）
 				Tooltip:
 					'''
-					'While being held it will allow you to open vanilla locked chests'
-					'After defeating skeletron it allows to open golden chests'
-					'After defeating slimes last hope it allows to open shadow chests'
-					'After defeating plantera it allows you to open biome chests'
-					'If you have respective chests key in your inventory it will be used first than this'
-					'Opening each chest will cost mana crystal and not key'
+					拿着它的时候，可以让你打开原版带锁的箱子
+					打败骷髅王后可以打开带锁的金箱
+					击败史莱姆最后的希望后，可以打开带锁的暗影箱
+					在击败世纪之花后，允许你打开各种生物群落箱
+					如果你的物品栏中有箱子钥匙，则优先使用其他钥匙
+					打开每个带锁的箱子会消耗魔力水晶而不是钥匙。
 					'''
 			}
 
 			DarkMirror: {
-				DisplayName: Dark Mirror
-				Tooltip: "'The mirror shows you different places in 1080p.'"
+				DisplayName: 暗黑魔镜
+				Tooltip: "'魔镜让你传送地图的不同地方.'"
 			}
 
 			DataBit: {
-				DisplayName: Data Register
+				DisplayName: 数据寄存器
 				Tooltip:
 					'''
-					May affect from the static charge
-					'Used to hold password data in mechanic magnetic storage unit'
+					'受到电磁的影响'
+					用于机械磁储存装置
 					'''
 			}
 
 			EscButton: {
-				DisplayName: Esc Button
+				DisplayName: 退出键
 				Tooltip:
 					'''
-					'Wait, is autopause on or off?'
-					'While being favourited it will allow active pets to become AFK pets'
-					'Taking hit while having any AFK pets increase [i:6220] by 20%'
-					'You gain immunity against the fear that ulong spread upon the humanity'
+					'自动启动是开着还是关着?'
+					虽然受欢迎，但它会让已经召唤的宠物变成AFK宠物
+					拥有AFK宠物时受到的伤害增加20% [i:6220]
+					'你获得了散布在人类身上恐惧的免疫力'
 					'''
 			}
 
 			ExpertMedal: {
-				DisplayName: Expert Medal
+				DisplayName: 世界难度令牌
 				Tooltip:
 					'''
-					'A divine medal being carried by the guardians of the lands of Terraria'
-					'When used it will be able to switch around a concept overwhelms you'
+					'泰拉瑞亚的守护者们携带着一枚勋章'
+					可以切换世界难度
 					'''
 			}
 
 			EyeofNullifier: {
-				DisplayName: "'Eye of Nullifier'"
+				DisplayName: 否定之瞳
 				Tooltip:
 					'''
-					Capable of returning everything zero
-					'It belongs to 亘古领主 AFK'
-					'Using it will nullify every projectile'
+					'能够将一切归零'
+					'它属于亘古领主AFK'
+					使用他将弹幕无效化
 					'''
 			}
 
 			FabricofSpace: {
-				DisplayName: Fabric of the Space
+				DisplayName: 空间粒子结构（占位符）
 				Tooltip:
 					'''
-					It look like it's one of it's image of reality in this universe.
-					Even holding it makes you feel your body have been exist multiple place in space.
-					'<left>allows you to teleport to the position of the mouse'
-					'<right>+ Up button teleport you back to home.'
-					'<right>+ down button teleport you to random location.'
-					'<right>+ left button teleport you to your death location.'
-					'<right>+ right button allow you to make blink'
+					'这看起来就像在这个宇宙中的现实形象之一'
+					'即使拿着它也会让你觉得你的身体在空间中存在于多个地方.'
+					鼠标左键传送至光标位置.
+					鼠标右键+键盘上键传送至出生点.
+					鼠标右键+键盘下键传送随机位置.
+					鼠标右键+键盘左键传至死亡点.
+					鼠标右键+键盘右键button allow you to make blink
 					'''
 			}
 
 			FloppyDisk: {
-				DisplayName: Floppy Disk
+				DisplayName: 磁盘
 				Tooltip:
 					'''
-					'It contains old space movies'
-					'While it's favourited inside your inventory will make no gravity and cause you to bounce from surfaces'
+					'里面有老旧的关于太空的电影'
+					'收藏在物品栏中，不会有重力并碰到物块会反弹'
 					'''
 			}
 
 			Gameboy: {
-				DisplayName: Gameboy
+				DisplayName: 街机游戏机
 				Tooltip:
 					'''
-					'Just don't smile when they say you're grounded'
-					It allows player to reach arcade machine minigames everywhere by using this while any afk pets special ui is not active
-					When its favourited while there is no boss or miniboss active during playing arcade game or checking any info ui player gain invincibility
+					'当他们说你被禁足的时候不要笑'
+					它允许玩家在AFK宠物特殊UI未激活的情况下，通过使用此功能在任何地方的街机迷你游戏
+					在没有BOSS或小BOSS的情况下玩街机游戏或检查任何信息UI时，玩家获得无敌
 					'''
 			}
 
 			GoldDedector: {
-				DisplayName: Gold Detector
+				DisplayName: 金属探测器
 				Tooltip:
 					'''
-					Useful for finding treasure
-					While holding it will Shows the location of treasure and ore
+					寻找宝藏很有用
+					拿着它显示宝藏和矿石的位置
 					'''
 			}
 
 			GreaterMedicineKit: {
-				DisplayName: Greater Medicine Kit
+				DisplayName: 大医学装备
 				Tooltip:
 					'''
-					'Schnell! Go get zem!'
-					With <left>by first aid you can heal yoursef by 3 each time you use
-					With <right>you will throw healing syringe
+					'Schnell! 快去找 zem!'
+					通过急救时，每次点击恢复2点生命值
+					右键扔出治疗注射器
 					'''
 			}
 
 			HappyLittleHome: {
-				DisplayName: Our Happy Little House
+				DisplayName: 我们的快乐小房子
 				Tooltip:
 					'''
-					'A utility tier spell tome being used by wandering wizards to protect from elements'
-					'Upon use it will form a 4x10 house which will take the mouse position its right lowest point'
-					'It will not break blocks while forming and the blocks that form the house are breakable'
+					'这是一个实用的法术书是流浪法师用来保护自己免受元素的伤害。'
+					使用后，它将形成一个4x10的房子，它在光标的最低点生成
+					它不会在建造过程中打破任何方块，建造房子的材料是易碎的
 					'''
 			}
 
 			HouseLocator: {
-				DisplayName: House Locator
+				DisplayName: 微型房屋定位器
 				Tooltip:
 					'''
-					'Tiny house which can be crafted from 废铁 and some more is required'
-					'Upon use it will put every not favourited item inside of players inventory to tiny houses'
-					'It will not check ammo slot and coin slot and it will send message after being used'
+					'可以用废铁制作微型房屋，还需要更多的东西'
+					使用后，它会把玩家物品栏中所有未收藏的物品放到微型房屋里
+					它不会放置钱币和弹药栏的物品，放置完毕后会有提示
 					'''
 			}
 
@@ -15164,21 +15164,21 @@ Mods: {
 			}
 
 			IchorArrowShooterStaff: {
-				DisplayName: Liquid Regulator
+				DisplayName: 液体调节器
 				Tooltip:
 					'''
-					Contains endless amount of every liquid
-					With <right>player cycle through water pour, honey pour, lava pour and liquid absorb
+					包含无限的众多液体
+					右键选择液体, 左键释放液体
 					'''
 			}
 
 			LocatorAntenna: {
-				DisplayName: Position Locator
+				DisplayName: 坐标定位器
 				Tooltip:
 					'''
-					'It's once used by SATLA-001 to mark the location of villages'
-					'When you <left>you will mark your mouse position in the mark and when you <right>you will clear the mark
-					'When you mark a location it will show that location in the map
+					'它曾经被SATLA-001用来标记城镇的坐标'
+					左键标记光标处的坐标，右键清除标记光标处的坐标
+					标记一个坐标时，它会在地图上显示该位置
 					'''
 			}
 
@@ -15320,8 +15320,8 @@ Mods: {
 			}
 
 			SkullCrystal: {
-				DisplayName: 水晶头骨
-				Tooltip: "'它会让你回到你的终点.'"
+				DisplayName: 水晶头骨（占位符）
+				Tooltip: "'It returns you where your end was.'"
 			}
 
 			SmokePellet: {
