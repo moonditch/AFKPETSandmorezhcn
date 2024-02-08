@@ -14406,12 +14406,12 @@ Mods: {
 			}
 
 			RustedKey: {
-				DisplayName: Rusted Key
-				Tooltip: "'Even its holder forgotten its importance and existence'"
+				DisplayName: 生锈的钥匙
+				Tooltip: "'它的持有者也忘记了它的重要性和存在'"
 			}
 
 			SandSolution: {
-				DisplayName: 禁戒溶液
+				DisplayName: 黄色溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14420,33 +14420,33 @@ Mods: {
 			}
 
 			ShatteredSoul: {
-				DisplayName: Faint Essence
-				Tooltip: "'It was formed from kindness and innocence of the fallen.'"
+				DisplayName: 微弱的本质
+				Tooltip: "'它是由堕落者的善良和纯真形成的.'"
 			}
 
 			StoneofSol: {
-				DisplayName: Piece of Sol
+				DisplayName: 沙尘混合物
 				Tooltip:
 					'''
-					'It's once formed by magicians with the flames of Sun.'
-					'You can enable or disable sandstorm by using it.'
-					'While it's being equipped you are being immune to on fire and strong wind debuffs.'
-					'Also when you take damage you have a chance to errupt fire and when you have less than 50% life inferno effect activates.'
+					'它曾经是由魔术师用太阳的火焰形成的.'
+					你可以通过使用它来启用或禁用沙尘暴.
+					装备时，你将免疫着火了和强风的减益
+					'受到伤害时，你有概率喷发火焰，当你的生命值低于50%时，狱火增益会激活.'
 					'''
 			}
 
 			Twilightinabottle: {
-				DisplayName: Twilight in a bottle
+				DisplayName: 瓶中星系（不理解什么碎片，以后测试）
 				Tooltip:
 					'''
-					'It's filled with the remains of the ancient stars.'
-					'It looks both beautiful and powerful'
-					'Using it will enable or disable you to take the power of the fragments by using them'
+					'里面充满了古代恒星的残骸.'
+					'它看起来既漂亮又强大'
+					使用它将使你通过吸取碎片能量或失去吸取碎片能量
 					'''
 			}
 
 			UnderworldSolution: {
-				DisplayName: 紫罗兰溶液
+				DisplayName: 紫色溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14461,7 +14461,7 @@ Mods: {
 					'一时间，我栖身于世界的恩典之中，获得了自由'
 					杀死敌人爆炸产生孢子云，挥舞时发射额外的斧刃
 					让泥土上长出草
-					树木掉落额外的木材并砍倒后种植橡果＋增加草药收获率
+					树木掉落额外的木材并砍倒后种植橡果，增加草药收获率
 					'''
 			}
 
@@ -14517,38 +14517,38 @@ Mods: {
 			}
 
 			Spinnerbait: {
-				DisplayName: Spinnerbait
+				DisplayName: 柳叶形复合亮片
 				Tooltip:
 					'''
-					'Fishing is fun... Catching is better'
-					Player have a higher chance to catch npcs and in hardmode it gain slight chance to fish the duke fishron
+					'钓鱼很有趣……抓鱼更好'
+					有更高的概率捕捉npc和在困难模式下，它有轻微的机会钓到猪龙鱼公爵
 					'''
 			}
 
 			UltraDeluxeBait: {
-				DisplayName: Ultra Deluxe Bait
+				DisplayName: 超豪华诱饵
 				Tooltip:
 					'''
-					'For Royalty, Gold and Glory'
-					Decreased concumption rate + allows quests fishes and golden carps have a chancce be able to catch anywhere
+					'为了皇室，黄金和荣耀'
+					减少消耗率，允许任务鱼和金鲤鱼有机会可以在任何地方捕获
 					'''
 			}
 
 			Wirebait: {
-				DisplayName: Wirebait
+				DisplayName: 钢丝饵
 				Tooltip:
 					'''
-					'There is no limit to how many times you can go fishing'
-					Increases hook amount of fishing pole by 3
+					'钓鱼的次数是没有限制的'
+					增加鱼竿的钩数3
 					'''
 			}
 
 			FujinsBreeze: {
-				DisplayName: Fujin's Breeze
+				DisplayName: 枫尘之息
 				Tooltip:
 					'''
-					'Deep Mountain's Fall Wind'
-					While its being held player will have featherfall effect + swinging it form projectile + enemy pushing wind
+					'深山秋风'
+					手持时增加羽落增益，挥舞形成风 ，可以把敌人推走
 					'''
 			}
 
@@ -14557,36 +14557,35 @@ Mods: {
 				Tooltip:
 					'''
 					'将其接触的任何东西都低温冷冻'
-					冻结非Boss敌人和水
+					冰冻非Boss敌人和水
 					'''
 			}
 
 			MistWeaver: {
-				DisplayName: Mist Weaver
+				DisplayName: 雾霭扇
 				Tooltip:
 					'''
-					'Flower wither away'
-					While its being held player gain featherfall effect + swinging slows down nonboss enemies and weaken projectiles
+					'花凋谢了'
+					手持时增加羽落增益，霜冻和冰冻非boss敌人并削弱投射物
 					'''
 			}
 
 			SaltBag: {
-				DisplayName: Salt Bag
+				DisplayName: 盐袋
 				Tooltip:
 					'''
-					'Concentrated from blood, sweat & tears'
-					Increase growth rate of exotic plants
-					Inflicts dried debuff which decreases contact damage + DR while non-boss slimes and eyeballs gets dot
+					'浓缩于血、汗、泪'
+					增加外来植物的生长速度
+					造成扭曲减益，减少接触伤害和减伤，非BOSS史莱姆系和眼球系得到持续伤害
 					'''
 			}
 
 			SporePouch: {
-				DisplayName: Spore Pouch
+				DisplayName: 丛林孢子囊
 				Tooltip:
 					'''
-					'Extreme pollination, total domination!'
-					Grows plant from grass + inflicts poison to enemies
-
+					'极致授粉，绝对统治!'
+					让草地生长植物，也可以让敌人中毒
 					'''
 			}
 
@@ -14682,29 +14681,29 @@ Mods: {
 			}
 
 			JungleEssence: {
-				DisplayName: 丛林之精华
+				DisplayName: Essence of Jungle
 				Tooltip:
 					'''
-					'老虎之眼…'
-					被丛林生物群系偏爱的玩家
+					'Eye of the Tiger...'
+					Upon favourited counts player in jungle biome
 					'''
 			}
 
 			OverloadedEssence: {
-				DisplayName: 重要的本质
+				DisplayName: Overloaded Essence
 				Tooltip:
 					'''
-					'一千棵樱桃树…'
-					被所有生物群系偏爱的玩家
+					'One Thousand Cherry Trees...'
+					Upon favourited counts player in its materials biomes
 					'''
 			}
 
 			SnowEssence: {
-				DisplayName: 融雪之精华
+				DisplayName: Essence of Snow
 				Tooltip:
 					'''
-					'在山王殿里…'
-					被积雪生物群系偏爱的玩家
+					'In the Hall of Mountain King...'
+					Upon favourited counts player in snow biome
 					'''
 			}
 
@@ -14713,7 +14712,7 @@ Mods: {
 				Tooltip:
 					'''
 					海洋中的公爵，正在寻找一种稀有的美味的鱼
-					同时施放五条线
+					一次抛出5条线（测试结果只有一根）
 					它的线永远不会断，它增加了捕获板条箱的机会，同时减少了诱饵的使用
 					拿着鱼竿的猪龙鱼宝宝会保护你
 					'''
@@ -14724,7 +14723,7 @@ Mods: {
 				Tooltip:
 					'''
 					可惜你不能用毁灭者做诱饵，也许你需要一个更大的?
-					'同时施放三条线，也可以攻击附近的敌人'
+					'一次抛出3条线，也可以攻击附近的敌人'
 					'''
 			}
 
