@@ -4761,6 +4761,11 @@ Mods: {
 				Description: Dingleshlocked
 				DisplayName: Ancient-Bright Earth
 			}
+
+			TimeJump: {
+				Description: Mods.AFKPETS.Buffs.TimeJump.Description
+				DisplayName: Time Jump
+			}
 		}
 
 		Items: {
@@ -11623,7 +11628,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Holding it makes you feel the around is getting different'
-					It summons Mismagius to follow you
+					It summons Misdreavus to follow you
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -14872,6 +14877,7 @@ Mods: {
 				DisplayName: Grappling Launcher
 				Tooltip:
 					'''
+					'Always be yourself unless you can be batman'
 					Can pull enemies, items or other players
 					Upon being pulled enemy that do contact damage will take 300% damage reflection
 					'''
@@ -17615,8 +17621,8 @@ Mods: {
 				DisplayName: Neko Wagasa
 				Tooltip:
 					'''
-					A perfect umbrella for walking when tsuyu starts
-					You feel sad when you hear she wait to use this for walking with her sensei while sakura leaves are falling
+					'A perfect umbrella for walking when tsuyu starts, hope her soul is at rest now'
+					Using it will start raining melancholic sakura leaves
 					'''
 			}
 
@@ -17952,57 +17958,13 @@ Mods: {
 					'''
 			}
 
-			Batarang: {
-				DisplayName: Batarang
-				Tooltip:
-					'''
-					'Always be yourself unless you can be batman'
-					You will throw a sharp batarang which will explode into bats upon critical hit and inflicts fear to your enemies
-					Upon enemy hits it will inflict fear and decrease their defense by 2
-					If rogue config is active and calamity is enabled in stealth you will form bats around you
-					'''
-			}
-
-			DroneShuriken: {
-				DisplayName: Drone Shuriken
-				Tooltip:
-					'''
-					'TARGET LOCKED'
-					Upon being thrown it will seek target and when find one until that target dies or its battery get low rotate and shoot laser around it
-					If the target dies it will scan any additional targets and if there is no close it will return back to player
-					In low battery or no close target it will also return back to player
-					If rogue support is enabled it will throw 3 additional drone shuriken as stealth attack
-					'''
-			}
-
-			Hitarang: {
-				DisplayName: Piko Piko Hammer
-				Tooltip:
-					'''
-					'BONK!'
-					Upon hitting any enemy or tile it will lose its momentum and ricochet opposite direction
-					After successful hit you can send next one earlier instead of waiting first sent to return
-					If rogue config is active and calamity is enabled in stealth it will make your nonboss enemies get dizzy
-					'''
-			}
-
-			KnifePack2: {
-				DisplayName: Seismic Slicer
-				Tooltip:
-					'''
-					'Fueled by fallen souls rage and magma's heat'
-					Upon thrown it will home to closest enemy and explode into an heat area
-					This magmatic area will also form flaming bedrocks that explode upon touch which shatter enemies defense and burn them with inferno
-					If rogue config is active and calamity is enabled in stealth thrown seismic slier will explode into 10 flaming bedrocks instead of 3
-					'''
-			}
-
 			MetalSlicer: {
 				DisplayName: Metal Slicer
 				Tooltip:
 					'''
 					'Strangely its mostly used on humans'
 					It's sharpness will increase its armor penetration by 2 and hits has a chance to inflict bleeding
+					Crits may activate its internal circuitry and activate drone shuriken protocol
 					If rogue config is active and calamity is enabled stealth hits will form additional scarlet metal slicers
 					'''
 			}
@@ -18012,14 +17974,20 @@ Mods: {
 				Tooltip:
 					'''
 					'Harness the power of infinity'
-					After hitting any solid tile it will return back to its user but due to spin lost it can only zap enemies
-					Interacting with enemies will zap them along with activating one of following effect:
-					-Aim to closest non zapped enemy and change trajectory according to that and if there is no close enemy increase zap duration
-					-Explode into harmless confetties along with releasing haevenly sparks that burns with angelic flames
-					-Cause enemies to get dizzy for a short time and bosses to get 20% increased damage
-					-Force push the non boss enemy via transferring the momentum and if enemy hit any close enemy both take damage and shatter bosses defense by 5
-					-Form a short living electrical area
+					Object hits will transfer the energy + crits cause dynamic knockback
+					Enemy hits may do one of four different effect
 					If rogue config is active and calamity is enabled in stealth you will harness the perfection and both heal and gain protection for a short time
+					'''
+			}
+
+			TomeofFeatherStrike: {
+				DisplayName: Razor Storm
+				Tooltip:
+					'''
+					'A dual technique that combines might of harpies and craftsmanship of humanity'
+					Upon being used throws a bloody rotor that slashes down enemies + shoots storm feathers from rotor direction to mouse
+					While being rotating rotor will pushes away enemy projectiles + after some time return back to player
+					If rogue config is active and calamity is enabled in stealth additional feathers will rain from sky to your mouse direction
 					'''
 			}
 
@@ -18028,8 +17996,7 @@ Mods: {
 				Tooltip:
 					'''
 					'The sands of desert shifts...'
-					Upon reaches to max distance it will form 3 sand clouds before returning back
-					Hits before it reach max distance will shatter it to smaller Tia-Ra's that have higher damage
+					Upon reaches max distance releases ashen slashers + First hit cause it to explode + form smaller Tia-Ra's
 					Big Tia-Ra's cuts will cause serious bleeding while smallers cuts burn your enemies
 					If rogue config is active and calamity is enabled stealth strike Tia-Ra will leave sand dust clouds in behind
 					'''
@@ -18056,6 +18023,7 @@ Mods: {
 					Taking damage while combo is active may make player swear and form bats
 					Combo hits will inflict fear and combo crit have a small chance to inflict dizzy to nonboss enemies
 					If [c/ffff00:Doctor's Monocle] is equipped combo hits will also have a chance to form bats
+					If [c/ffff00:Doctor's Monocle] is equipped player will instead throw batarangs that explode + release bats
 					'''
 			}
 
@@ -18093,12 +18061,12 @@ Mods: {
 			}
 
 			PlumpersGloves: {
-				DisplayName: Plumper's Gloves
+				DisplayName: Chef's Gloves
 				Tooltip:
 					'''
 					'It's only suitable for the best of the best...'
-					Right Click to dash through enemies which increase damage by 40% and knockback by 50%
-					Dash will cause enemies to explode and Combos have 20% chance to form shadowflame cinders
+					RC dashes increase damage and knockback + hits cause enemies to explode into Potassium cinders
+					While dash cooldown is active RC instead throws knives from the Hell's Kitchen
 					'''
 			}
 
@@ -18107,9 +18075,9 @@ Mods: {
 				Tooltip:
 					'''
 					'An endemic type of carrot being carried by royal bunny tunnelers'
-					Each time player successfully hits enemy its stats slightly increase until a certain point
-					If player gets hit weapons stat increase will reset
-					When it touches tile it will also pull you towards it
+					Each strike make weapon stronger to a certain point while as taking damage resests
+					Hits have a small chance to steal nonboss npcs loot + hitting any item pulls them towards player
+					If item is favorited when it touches tile it will also pull you towards it
 					'''
 			}
 
@@ -18117,14 +18085,9 @@ Mods: {
 				DisplayName: The Phase Nut
 				Tooltip:
 					'''
-					It's rotation distance will be determined by cursors distance until maximum distance
-					'Either after you release attack button or 8 second you will take it back and then throw by using'Hitting enemies will burn them for 4 seconds
+					Spin distance determined by mouse distance to player
+					Strikes + spins release infernal fireballs
 					'''
-			}
-
-			ChlorophyteFlail: {
-				DisplayName: Chlorophyte Flail
-				Tooltip: "'While being thrown it will produce spores around itself'"
 			}
 
 			Chompwithchain: {
@@ -18132,36 +18095,29 @@ Mods: {
 				Tooltip:
 					'''
 					'He looks hungry'
-					Upon hitting enemy he have a chance to break its chain and continue to attack near enemies
+					Upon pulling back it has a chance to break its chain and continue to attack
+					It has higher chance to break if it get lucky enough to taste your preys flesh
+					Homes into close enemies
 					'''
 			}
 
 			MeteoriteFlail: {
 				DisplayName: Meteorite Flail
-				Tooltip: "'Hitting have a chance to cause it to break its chain'"
-			}
-
-			OldComputer: {
-				DisplayName: Old Computer
 				Tooltip:
 					'''
-					'A relic once being used in MS-DOS era'
-					Upon hitting enemy it will release tiny eater of ram
-					Also hitting enemies will increase their static charge for 6 seconds
+					'Com-et me bro'
+					Swings heat the meteor and launch strikes cause explosion
+					Pulling back cause additional weaking explosion + retract leaves lingering flames
 					'''
 			}
 
 			SlimeBall: {
-				DisplayName: Slime Ball
-				Tooltip: "'Slimy and dangerous'"
-			}
-
-			SpectreFlail: {
-				DisplayName: Spectre Flail
+				DisplayName: The Grateful Dread
 				Tooltip:
 					'''
-					'While being thrown it will form spiritual essenses that will home to enemies'
-					'Critical hits have 50% chance to release it from its chain'
+					'‘Tis ain’t no Occult Ball...'
+					Swings fuel the remnants with horror and both launch + strike releases the nightmares
+					Pulling back causes it to leak nightmare globs which explode upon being hit
 					'''
 			}
 
@@ -18170,38 +18126,16 @@ Mods: {
 				Tooltip: Shatters into acorn shrapnels when hitting any enemy or tile
 			}
 
-			ThornBall: {
-				DisplayName: Thorn Ball
-				Tooltip:
-					'''
-					'Has a chance to poison the enemies'
-					Upon doing critical hit it have a chance to stick to the enemy
-					'''
-			}
-
-			TongueofFlesh: {
-				DisplayName: Tongue of Flesh
-				Tooltip:
-					'''
-					One of the many piece of the damned guardian
-					Still the curse putten by lady knowledge keeps them alive until the end
-					Upon being used a hungry being thrown to latch on the enemy
-					Critical attacks have 50% chance to heal the player by 1
-					'''
-			}
-
 			DemonsTorch: {
 				DisplayName: Demon's Torch
 				Tooltip:
 					'''
 					'Let their sin consume them'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Upon hitting any enemy it will erupt fire which will burn closer enemies
-					It will deal 2% of damage as true DoT for every vanilla flame themed debuff player have along with its base hit will inflict that for half second
+					[c/FFFF00:RC Hold Stab]: Enemy hits inflict fire + cause them get weaker against fire based debuffs
+					Empoweverd stabs causes heat explosion + Crits may call an ancient bone serpent from below
 					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will burn your enemy and each stick spear will increase true DoT by 8 along with cursing enemy to decrease DR by 2%
-					When fully charged enemies will start to leak flames along with weapon DoT increase by 2
+					[c/ADD8E6:LC Charge Throw]:each strike decrease DR by 2% + increase True DoT by 8
+					Full charge strikes cause enemy to get ignited + release flames
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -18210,30 +18144,11 @@ Mods: {
 				DisplayName: Pilum
 				Tooltip:
 					'''
-					'It was expertly designed by one of the ancient civilization'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Due to mass center design you will gain gain 3 defense
-					Enemies that the spear have penetrated will have decreased velocity and bosses are immune to this effect
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Pilum will inflict bleeding and each stick pilum will increase true DoT by 5
-					When fully charged pilum will also gain ability to cause serious bleeding and shatter enemies defense
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			SouthPole: {
-				DisplayName: South Pole
-				Tooltip:
-					'''
-					'One of many weapon being fueled by his cryo essense'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Due to its extreme cold it will frostburn and crits will start to freeze nonboss enemies
-					If there is no active big icicle hits will form one which will penetrate infinitely for a short distance
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will inflict frostburn and each stick spear will increase true DoT by 9
-					When fully charged spear hit will rain snowflakes from above while being stick it forms cryo image of south pole around enemy
+					'Fortune and love favor the brave'
+					[c/FFFF00:RC Hold Stab]: Hitting enemies increase pilums offensive stats + penetration 
+					Stabs slow down nonboss enemies + crits or empowered stabs cause serious bleeding and shatter enemies defense
+					[c/ADD8E6:LC Charge Throw]: Charges an angon that inflict heavy bleeding + increase True DoT by 6
+					Full charge leave colchicum dust + hits fuel fear & slightly heal player
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -18242,13 +18157,11 @@ Mods: {
 				DisplayName: Trident of Palustia
 				Tooltip:
 					'''
-					'Go green or else...'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Upon striking enemy from outside of screen poisonous swamp flies start to fly towards hit enemy
+					'Strangely there are some rotten flesh on its tip'
+					[c/FFFF00:RC Hold Stab]: Strikes inflict bleeding + poison
+					Holding grant defender buff + empower stabs release gasses from enemies & crits inflict venom instead
 					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will envenom enemy and each stick spear will increase true DoT by 11
-					When fully charged spear will leave spores behind and enemy strike will cover enemy with reactive chemicals that will atract swamp flies
+					[c/ADD8E6:LC Instant Throw]:Throws an aquatic trident that call lightning + get stronger while submerged with water
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -18258,29 +18171,10 @@ Mods: {
 				Tooltip:
 					'''
 					'No flame, no real heat... what fun is that?'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Upon hitting any enemy it will inflict inferno along with causing explosions around enemy
-					It will deal 3% of damage as true DoT for every vanilla flame themed debuff player have along with duration of inferno increase by 1 second
+					[c/FFFF00:RC Hold Stab]: Stabs burn enemy in demonic flames + greatly weaken their defensive stats
+					Holding grant defender buff + empower stabs inflict inferno + causing explosions around
 					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will burn your enemy and each stick spear will increase true DoT by 12 along with cursing enemy to decrease DR by 4%
-					When fully charged more spear start to come from below which explode and greatly decrease defense of enemies along with direct hit cause inferno
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			ThrowingStoneSpear: {
-				DisplayName: Ancient Hunting Spear
-				Tooltip:
-					'''
-					'By using the sharpness of obsidian humans become predators'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Due to extreme sharpness it will slightly decrease enemy immunity frames
-					 your penetrating will decrease enemy defense by 2 and also inflict bleeding
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will inflict bleeding and each stick spear will increase true DoT by 6
-					When fully charged spear will leave damaging obsidian dust behind along with hit cause close enemies to get fear and player slightly heal by attack
+					[c/ADD8E6:LC Charge Throw]: Allow player to charge one of four different horsemen themed javelin that each come with its own ability
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -18296,21 +18190,6 @@ Mods: {
 					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
 					[c/ADD8E6:Throw]:Spear will cause serious bleeding and burning to enemy and each stick spear will increase true DoT by 14
 					When fully charged spear will scarlet orbs that will form laser behind along with when stick to enemy it will use enemies blood to attack close enemies
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			WaterTrident: {
-				DisplayName: Aquatic Trident
-				Tooltip:
-					'''
-					'Strangely there are some rotten flesh on its tip'
-					RC use will fast throw the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Fast Throw]: Upon hit any enemy or tile it will return back to player and only 1 can be active
-					If it hits any enemy will will decharge and call lightning from above and while being in water it deal 5% increased damage
-					[c/ADD8E6:Throw]:Spear will inflict wet and each stick spear will increase true DoT by 6
-					When fully charged spear strike will form whirlpool that damage close enemies and continue to suck close non boss enemies to strike enemy location
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -19960,13 +19839,13 @@ Mods: {
 			}
 
 			YellowSoul: {
-				DisplayName: Empty Gun
+				DisplayName: Clover's Revolver
 				Tooltip:
 					'''
-					Go ahead! Make my day...!
-					It will not use any ammo
+					'Go ahead! Make my day...!'
 					Hitting enemies will inflict them ichor
 					Critical hit will make the bullet explode
+					Does not use any ammo
 					'''
 			}
 
@@ -20022,29 +19901,6 @@ Mods: {
 					'''
 			}
 
-			ChefKnife: {
-				DisplayName: Kitchen Knives
-				Tooltip:
-					'''
-					'A deadly tool once used in the Hell's kitchen'
-					Upon being thrown you will throw an additional knive with respect to the mirror side of the closest enemy to your cursor
-					If there is no close enemy the second knife will thrown in random direction with respect to your cursor location
-					Hits will inflict on fire and killing enemies with these knives will form lingers of their burning flesh
-					If rogue support is enabled it will shoot 6 additional knife randomly targetting around the mouse as stealth attack
-					'''
-			}
-
-			FleshBall3: {
-				DisplayName: Flesh Ball
-				Tooltip:
-					'''
-					'Looking for hugs'
-					Upon thrown the fleshlings will follow your mouse direction and hatch into small hungries upon their death
-					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
-					'''
-			}
-
 			Francisca: {
 				DisplayName: Francisca
 				Tooltip:
@@ -20057,25 +19913,12 @@ Mods: {
 					'''
 			}
 
-			FrostburninaBottle: {
-				DisplayName: Frostburn in a Bottle
-				Tooltip:
-					'''
-					Caution: Highly Reactive Chemical
-					Upon hit any enemy it will leak into an frosburn explosion
-					Upon hit any tile it will form an freezing mist that will slow the non boss enemies and frostburn bosses
-					If rogue config is active and calamity is enabled in stealth you will throw multiple bottles with increased velocity on same trajectory
-					'''
-			}
-
 			FrostKnife: {
 				DisplayName: Grimfrost
 				Tooltip:
 					'''
 					'Nothing can escape from the cold shoulders of death'
-					Hitting an enemy will frostburn the enemy and cause the knife to split into two smaller knives in opposite direction
-					The bigger knife have 5% chance to produce dangerous glass shards in this process
-					Critical hits will cause 2 blizzard shards to rain from sky
+					Using calls the festive cutters + hits will split the knife into multiple tiny pieces
 					If rogue config is active and calamity is enabled stealth strike will cause the knife to shatter into 4 smaller along with all up abilities activate
 					'''
 			}
@@ -20118,11 +19961,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Cut out the rivets and split the booty'
-					If there is no jolly slicer is being thrown you will throw it and if there is at least 1 you throw jolly striker
-					Jolly slicer will fly until it hits to any enemy and if it hits it will stick to that enemy and continue to slash
-					You first throw joly striker to upward and in highest point if its head the knife will split into two and move much faster
-					If its tail the knife will gain additional penetration and will now not affected by gravity
-					If you get tipsy you will throw 2 at the same time but they will be extremely inaccurate and all of your attacks will inflict midas
+					Throws out a jolly striker that rotates around itself to aim and then strike into closest enemy
+					While rotating spread out jolly slashers + if there is no enemy nearby follows mouse direction
 					If rogue config is active and calamity is enabled in stealth you 2 jolly striker along with 1 jolly slicer
 					'''
 			}
@@ -20143,31 +19983,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Only a shinobi can stop another shinobi'
-					Every fourth shuriken will be empowered and shurikens inflict bleeding along with crits will decrease enemy defense by 6
+					Every fourth shuriken gets empowered + shurikens shatter defense and inflict bleeding
 					If rogue config is active and calamity is enabled in stealth you two empowered shuriken along with normal one
-					'''
-			}
-
-			Hive: {
-				DisplayName: Hornet Nest
-				Tooltip:
-					'''
-					'Always bee nice to your friends and share your toys'
-					While flying it will leak honey
-					Upon hit any enemy the hive will attach to enemy and both envenom it and decrease its DR by 2.5% for each stick nest
-					After enemy carry too much nest or hit any tile it will explode into honey droplets and angry red hornets which inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth you will also release additional bees
-					'''
-			}
-
-			HolidayThrower: {
-				DisplayName: Elf Cutter
-				Tooltip:
-					'''
-					'You hope you are not naughty this year'
-					When used 1 elf cutter that directly aimed towards your mouse and 4 cutter aimed towards edges of screen
-					When it hit any enemy it will seriously bleed them
-					If rogue config is active and calamity is enabled in stealth 3 elf cutter aimed to mouse while 12 aimed towards edges of screen
 					'''
 			}
 
@@ -20176,8 +19993,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Mah boi, this peace is what ALL true warriors strive FOR'
-					Upon hit any enemy or tile will form an cross that will burn any close enemy with angelic flames
-					Hiting enemy will free holy spirits along with having a chance to crack the skies by forming holy light pillar
+					Upon being thrown spreads ectolings which shatters into smaller souls upon hitting any enemy
+					Any close enemy gets angelic flames + hitting any enemy inflicts inflicted enemies get salvation
+					Enemy kills will grant a short time holy protection
 					If rogue config is active and calamity is enabled in stealth hit multiple holy light pillars will be formed
 					'''
 			}
@@ -20216,17 +20034,6 @@ Mods: {
 					'''
 			}
 
-			LizardKnife: {
-				DisplayName: Gift of the Fifth Sun
-				Tooltip:
-					'''
-					'An ancient sacrificial tool to please the elder ones'
-					Upon thrown it will aim to closest enemy and additional solar reflections will rotate around the dagger
-					Upon hit these solar daggers will explode along with cursing the enemy with the wrath of elder one
-					If rogue config is active and calamity is enabled in stealth more solar reflections will rotate around the dagger
-					'''
-			}
-
 			MechanicalKnife: {
 				DisplayName: Mechanical Knife
 				Tooltip:
@@ -20242,20 +20049,11 @@ Mods: {
 				DisplayName: Monkey Paw
 				Tooltip:
 					'''
-					'It looks like the eye also visited the jungle for some tasty snack'
+					'Seems the Eye has visited the jungle for the desert'
 					It have 10% chance to throw triple dart and not moving will increase damage + defense slightly
+					Converts poison darts into rainbow darts that inflict their own respective debuff
 					If rogue config is active and calamity is enabled in stealth you went full monke and activate random buls**t go mode
 					Uses darts as ammo
-					'''
-			}
-
-			NanoKnife: {
-				DisplayName: Nanife
-				Tooltip:
-					'''
-					'Is its name based on nanites or its size?'
-					Upon hitting any enemy all nanifes will change their trajectory to aim the last hit enemy and also enemy get confused
-					You may throw multiple at once
 					'''
 			}
 
@@ -20272,27 +20070,14 @@ Mods: {
 					'''
 			}
 
-			RaidersDagger: {
-				DisplayName: Raider's Dagger
-				Tooltip:
-					'''
-					'The legendary weapon once forged by the lords of the tundra'
-					These daggers will move 1 second and then start to rotate around themselves and change their trajectory to closest enemy
-					This rotation state continues for half second and if there is no close enemy it will aim players mouse direction
-					It can penetrate 4 more time and first 3 hits it get sharpened and increase its damage by 5% and inflict bleeding
-					After it get sharp enough in last 2 hits it inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth it will always inflict serious bleeding + 5% damage increase per hit
-					'''
-			}
-
 			RedGrail: {
 				DisplayName: Red Grail
 				Tooltip:
 					'''
 					'It governs blood, birth and drowning waters'
-					Upon hit any enemy or tile will form an pentagram that curse any close enemy along with spreading blood
-					Hitting any enemy both inflict curse and serious bleeding along with every close cursed enemy will take half damage
-					Curse will also decrease enemies contact damage by 10%
+					Upon being thrown spreads blood + release the curse of damned upon being shattered
+					Any close enemy gets the curse + hitting any enemy make close cursed enemies have their blood boiled
+					Hits inflict serious bleeding + curse decrease enemies contact damage by 10%
 					If rogue config is active and calamity is enabled in stealth hit you heal by 40
 					Can be traded with holy knight
 					'''
@@ -20302,32 +20087,9 @@ Mods: {
 				DisplayName: Rusted Dagger
 				Tooltip:
 					'''
-					A weapon more utilized to put the prey into agony rather than killing it
+					'A weapon utilized to agonize the pray rather than killing it'
 					Hitting enemies will highlight them for 30 second and have 25% chance to inflict bleeding for 3 second
 					If rogue config is active and calamity is enabled in stealth you throw 2 more along with they envenom target for a short time
-					'''
-			}
-
-			ShadowIchorKnife: {
-				DisplayName: Ritual Dagger
-				Tooltip:
-					'''
-					'It ended the life of many to sacrifice agony and soul for their lord'
-					While holding the dagger a skull appear above your head and direct strikes will cause skull to attack same target via nightmare channel
-					The dagger will first rotate around itself and then activate its direct strike
-					If rogue config is active and calamity is enabled in stealth you throw additional knife along with skull will do nigtmare channel
-					'''
-			}
-
-			SharpenedGlass: {
-				DisplayName: Magical Glass Shard
-				Tooltip:
-					'''
-					'It looks extremely sharp, its best to hold carefully'
-					Holding it will convert your cursor to glass cursor which cut enemies and inflict bleeding
-					Upon using item both you and your cursor will throw magical glass shard which aim you
-					Cursor have a chance to reflect weaker enemy projectiles
-					If rogue config is active and calamity is enabled in stealth you will generate shield of glass shards
 					'''
 			}
 
@@ -20348,21 +20110,20 @@ Mods: {
 				Tooltip:
 					'''
 					'An elegant weapon for the perfect maid'
-					Upon being thrown another knife will form around you which will released either player take damage or releases attack button
-					There can be maximum 10 knives around you and knife crits will seriously bleed targets while normal strikes will apply bleeding
-					Upon normal thrown one hit any enemy it will form 3 knives around it which release after some time
+					Holding LC stack additional knives + there can max 15 of these
+					Direct hits call additional knives
+					Double tap right or left allow player to time skip its movement with 1.5 second cooldown
 					If rogue config is active and calamity is enabled in stealth 6 additional knives form around your cursor
 					'''
 			}
 
 			StrangeKnife: {
-				DisplayName: Discordian Dagger
+				DisplayName: Eris's Dogma
 				Tooltip:
 					'''
-					Not only is this dagger stranger than we think, it is stranger than we can think
-					Hitting enemies with LC to any enemy will make its location shuffle with one of close non boss enemy enemy and hits will also decrease players chaos state debuff duration
-					RC will form chaos dagger and hitting any enemy with this will teleport you to random location
-					Due to it uses pieces of enemies soul as sacrifice you don't get chaos state debuf
+					'Not only is this dagger stranger than we think, it is stranger than we can think'
+					Hits inflict shadowflames + daggers will come towards you
+					Nonboss Enemy hits will shuffle their location + may call sacrifical knives
 					If rogue config is active and calamity is enabled stealth hit with LC ability will collect every close non boss enemy to knife location
 					'''
 			}
@@ -20377,25 +20138,13 @@ Mods: {
 					'''
 			}
 
-			TomeofFeatherStrike: {
-				DisplayName: Feather Storm
-				Tooltip:
-					'''
-					'A technique once mastered by harpies to hunt their prey from distance'
-					Upon being held your cursor have been changed with a bloody rotor that will both cut enemies and slightly change enemy projectile trajectory
-					Upon use you will throw storm feathers which charge enemies upon doing crit and bloody rotor will also make enemies bleed
-					Bloody rotor will be able to change feathers trajectory so keep it in mind
-					If rogue config is active and calamity is enabled in stealth additional feathers will rain from sky to your mouse direction
-					'''
-			}
-
 			TonatiuTetl: {
 				DisplayName: Lithic Intrusion
 				Tooltip:
 					'''
-					'HOT HOT HOT...'
-					Upon using you will throw 3 magmatic shards that go above cursor location and then rain down
-					Upon hitting any enemy these shards will explode and inflict on fire
+					'Gift of the Fifth Sun'
+					Throws a elder dagger as well as multiple magmatic shards
+					Elder daggers hit causes enemies to be devoured by flames 
 					If rogue config is active and calamity is enabled in stealth you throw 5 more magmatic shards
 					'''
 			}
@@ -20405,10 +20154,8 @@ Mods: {
 				Tooltip:
 					'''
 					'A deadly tool being used by slime shinobis'
-					When it hits to an enemy iy will give them venom debuff and critical hits will give horror debuff
-					Horror debuff will cause enemies to both give and take contact damage to other enemies
-					Upon hit any enemy if there are any close enemy that can be hittable it will change its trajectory to that enemies location
-					If there is any enemy near to you you will throw additional kunais for them and its limit is 3 more
+					Hits inflict venom + critical inflict horror which cause enemies to do contact damage to other enemies
+					Hits will change trajectory of all other kunais into the hit enemies direction
 					If rogue config is active and calamity is enabled in stealth you inflict every enemy on screen horror for 4 seconds
 					'''
 			}
@@ -21417,6 +21164,250 @@ Mods: {
 			VengefulHeart: {
 				Tooltip: ""
 				DisplayName: Vengeful Heart
+			}
+
+			KnifePack2: {
+				Tooltip: ""
+				DisplayName: Knife Pack2
+			}
+
+			SharpenedGlass: {
+				Tooltip:
+					'''
+					'It looks extremely sharp, its best to hold carefully'
+					Holding it will convert your cursor to glass cursor which cut enemies and inflict bleeding
+					Upon using item both you and your cursor will throw magical glass shard which aim you
+					Cursor have a chance to reflect weaker enemy projectiles
+					If rogue config is active and calamity is enabled in stealth you will generate shield of glass shards
+					'''
+				DisplayName: Magical Glass Shard
+			}
+
+			ShadowIchorKnife: {
+				Tooltip:
+					'''
+					'It ended the life of many to sacrifice agony and soul for their lord'
+					While holding the dagger a skull appear above your head and direct strikes will cause skull to attack same target via nightmare channel
+					The dagger will first rotate around itself and then activate its direct strike
+					If rogue config is active and calamity is enabled in stealth you throw additional knife along with skull will do nigtmare channel
+					'''
+				DisplayName: Ritual Dagger
+			}
+
+			RaidersDagger: {
+				Tooltip:
+					'''
+					'The legendary weapon once forged by the lords of the tundra'
+					These daggers will move 1 second and then start to rotate around themselves and change their trajectory to closest enemy
+					This rotation state continues for half second and if there is no close enemy it will aim players mouse direction
+					It can penetrate 4 more time and first 3 hits it get sharpened and increase its damage by 5% and inflict bleeding
+					After it get sharp enough in last 2 hits it inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth it will always inflict serious bleeding + 5% damage increase per hit
+					'''
+				DisplayName: Raider's Dagger
+			}
+
+			NanoKnife: {
+				Tooltip:
+					'''
+					'Is its name based on nanites or its size?'
+					Upon hitting any enemy all nanifes will change their trajectory to aim the last hit enemy and also enemy get confused
+					You may throw multiple at once
+					'''
+				DisplayName: Nanife
+			}
+
+			LizardKnife: {
+				Tooltip:
+					'''
+					'An ancient sacrificial tool to please the elder ones'
+					Upon thrown it will aim to closest enemy and additional solar reflections will rotate around the dagger
+					Upon hit these solar daggers will explode along with cursing the enemy with the wrath of elder one
+					If rogue config is active and calamity is enabled in stealth more solar reflections will rotate around the dagger
+					'''
+				DisplayName: Gift of the Fifth Sun
+			}
+
+			HolidayThrower: {
+				Tooltip:
+					'''
+					'You hope you are not naughty this year'
+					When used 1 elf cutter that directly aimed towards your mouse and 4 cutter aimed towards edges of screen
+					When it hit any enemy it will seriously bleed them
+					If rogue config is active and calamity is enabled in stealth 3 elf cutter aimed to mouse while 12 aimed towards edges of screen
+					'''
+				DisplayName: Elf Cutter
+			}
+
+			Hive: {
+				Tooltip:
+					'''
+					'Always bee nice to your friends and share your toys'
+					While flying it will leak honey
+					Upon hit any enemy the hive will attach to enemy and both envenom it and decrease its DR by 2.5% for each stick nest
+					After enemy carry too much nest or hit any tile it will explode into honey droplets and angry red hornets which inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth you will also release additional bees
+					'''
+				DisplayName: Hornet Nest
+			}
+
+			FrostburninaBottle: {
+				Tooltip:
+					'''
+					Caution: Highly Reactive Chemical
+					Upon hit any enemy it will leak into an frosburn explosion
+					Upon hit any tile it will form an freezing mist that will slow the non boss enemies and frostburn bosses
+					If rogue config is active and calamity is enabled in stealth you will throw multiple bottles with increased velocity on same trajectory
+					'''
+				DisplayName: Frostburn in a Bottle
+			}
+
+			FleshBall3: {
+				Tooltip:
+					'''
+					'Looking for hugs'
+					Upon thrown the fleshlings will follow your mouse direction and hatch into small hungries upon their death
+					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
+					'''
+				DisplayName: Flesh Ball
+			}
+
+			ChefKnife: {
+				Tooltip:
+					'''
+					'A deadly tool once used in the Hell's kitchen'
+					Upon being thrown you will throw an additional knive with respect to the mirror side of the closest enemy to your cursor
+					If there is no close enemy the second knife will thrown in random direction with respect to your cursor location
+					Hits will inflict on fire and killing enemies with these knives will form lingers of their burning flesh
+					If rogue support is enabled it will shoot 6 additional knife randomly targetting around the mouse as stealth attack
+					'''
+				DisplayName: Kitchen Knives
+			}
+
+			WaterTrident: {
+				Tooltip:
+					'''
+					'Strangely there are some rotten flesh on its tip'
+					RC use will fast throw the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Fast Throw]: Upon hit any enemy or tile it will return back to player and only 1 can be active
+					If it hits any enemy will will decharge and call lightning from above and while being in water it deal 5% increased damage
+					[c/ADD8E6:Throw]:Spear will inflict wet and each stick spear will increase true DoT by 6
+					When fully charged spear strike will form whirlpool that damage close enemies and continue to suck close non boss enemies to strike enemy location
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: Aquatic Trident
+			}
+
+			ThrowingStoneSpear: {
+				Tooltip:
+					'''
+					'By using the sharpness of obsidian humans become predators'
+					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Hold]: Due to extreme sharpness it will slightly decrease enemy immunity frames
+					 your penetrating will decrease enemy defense by 2 and also inflict bleeding
+					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
+					[c/ADD8E6:Throw]:Spear will inflict bleeding and each stick spear will increase true DoT by 6
+					When fully charged spear will leave damaging obsidian dust behind along with hit cause close enemies to get fear and player slightly heal by attack
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: Ancient Hunting Spear
+			}
+
+			SouthPole: {
+				Tooltip:
+					'''
+					'One of many weapon being fueled by his cryo essense'
+					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Hold]: Due to its extreme cold it will frostburn and crits will start to freeze nonboss enemies
+					If there is no active big icicle hits will form one which will penetrate infinitely for a short distance
+					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
+					[c/ADD8E6:Throw]:Spear will inflict frostburn and each stick spear will increase true DoT by 9
+					When fully charged spear hit will rain snowflakes from above while being stick it forms cryo image of south pole around enemy
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: South Pole
+			}
+
+			TongueofFlesh: {
+				Tooltip:
+					'''
+					One of the many piece of the damned guardian
+					Still the curse putten by lady knowledge keeps them alive until the end
+					Upon being used a hungry being thrown to latch on the enemy
+					Critical attacks have 50% chance to heal the player by 1
+					'''
+				DisplayName: Tongue of Flesh
+			}
+
+			ThornBall: {
+				Tooltip:
+					'''
+					'Has a chance to poison the enemies'
+					Upon doing critical hit it have a chance to stick to the enemy
+					'''
+				DisplayName: Thorn Ball
+			}
+
+			SpectreFlail: {
+				Tooltip:
+					'''
+					'While being thrown it will form spiritual essenses that will home to enemies'
+					'Critical hits have 50% chance to release it from its chain'
+					'''
+				DisplayName: Spectre Flail
+			}
+
+			OldComputer: {
+				Tooltip:
+					'''
+					'A relic once being used in MS-DOS era'
+					Upon hitting enemy it will release tiny eater of ram
+					Also hitting enemies will increase their static charge for 6 seconds
+					'''
+				DisplayName: Old Computer
+			}
+
+			ChlorophyteFlail: {
+				Tooltip: "'While being thrown it will produce spores around itself'"
+				DisplayName: Chlorophyte Flail
+			}
+
+			Hitarang: {
+				Tooltip:
+					'''
+					'BONK!'
+					Upon hitting any enemy or tile it will lose its momentum and ricochet opposite direction
+					After successful hit you can send next one earlier instead of waiting first sent to return
+					If rogue config is active and calamity is enabled in stealth it will make your nonboss enemies get dizzy
+					'''
+				DisplayName: Piko Piko Hammer
+			}
+
+			DroneShuriken: {
+				Tooltip:
+					'''
+					'TARGET LOCKED'
+					Upon being thrown it will seek target and when find one until that target dies or its battery get low rotate and shoot laser around it
+					If the target dies it will scan any additional targets and if there is no close it will return back to player
+					In low battery or no close target it will also return back to player
+					If rogue support is enabled it will throw 3 additional drone shuriken as stealth attack
+					'''
+				DisplayName: Drone Shuriken
+			}
+
+			Batarang: {
+				Tooltip:
+					'''
+					'Always be yourself unless you can be batman'
+					You will throw a sharp batarang which will explode into bats upon critical hit and inflicts fear to your enemies
+					Upon enemy hits it will inflict fear and decrease their defense by 2
+					If rogue config is active and calamity is enabled in stealth you will form bats around you
+					'''
+				DisplayName: Batarang
 			}
 		}
 
@@ -23709,6 +23700,25 @@ Mods: {
 			DemoniteStaff.DisplayName: Demonite Staff
 			BreathFireballBig.DisplayName: Breath Fireball Big
 			DryadsGiftRose.DisplayName: Dryads Gift Rose
+			NightmareGel.DisplayName: Nightmare Gel
+			ChainSpark2.DisplayName: Chain Spark2
+			ChainSpark1.DisplayName: Chain Spark1
+			ChainSparkInferno.DisplayName: Chain Spark Inferno
+			ParticleDustFlame.DisplayName: Particle Dust Flame
+			ElectricChargeBeam.DisplayName: Electric Charge Beam
+			Francisca3.DisplayName: Francisca3
+			BurntSlasher.DisplayName: Burnt Slasher
+			BloodGlob.DisplayName: Blood Glob
+			EctoGlob.DisplayName: Ecto Glob
+			EctoGlob2.DisplayName: Ecto Glob2
+			JavelinSlash.DisplayName: Javelin Slash
+			WaterTrident3.DisplayName: Water Trident3
+			AncientBoneSerpent.DisplayName: Ancient Bone Serpent
+			WarJavelin.DisplayName: War Javelin
+			PestilenceJavelin.DisplayName: Pestilence Javelin
+			FamineJavelin.DisplayName: Famine Javelin
+			DeathJavelin.DisplayName: Death Javelin
+			BadGas20.DisplayName: Bad Gas20
 		}
 
 		Configs: {
