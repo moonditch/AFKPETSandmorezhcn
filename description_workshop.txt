@@ -1,8 +1,7 @@
 [h1]This mod is a Chinese Translation Patch of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK's PETS and more(Early Alpha)[/url][/h1]
 
 [h1]介绍[/h1]
-这是重启版本的afk宠物汉化
-[url=https://github.com/moonditch/AFKPETSandmorezhcn]afk宠物和更多汉化的github网址[/url]
+这是重启版本的AFK宠物汉化，适配 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK宠物v9.9.9.70[/url]
 
 [h1]使用方法[/h1]
 1.同时订阅AFK's PETS and more(Early Alpha)和本Mod
@@ -15,5 +14,7 @@
 选择3.有确认性bug加qq群895423665或者留言告诉我（答案为“我有问题”）
 选择4.[url=https://steamcommunity.com/groups/liketerraria]steam组[/url]和对应的[url=https://steamcommunity.com/chat/invite/RKieSpPJ]聊天室[/url]
 
-[h1]更新日记[/h1]
-更新到移动说明
+[h1]Q&A[/h1]
+Q：是否同步给作者，是否做完后同步给作者
+A：否，暂时否，暂时没有考虑发给作者
+注：因为这个汉化是开源，要写代码可能会闭源，所以此汉化归我和制作作者所有，除非我们想给作者汉化，如果有其他人在我们不知道的情况下发给作者，那么以后afk宠物汉化，由发给作者的人更新
