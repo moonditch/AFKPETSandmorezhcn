@@ -3452,7 +3452,7 @@ Mods: {
 			}
 
 			SoulCollector: {
-				DisplayName: Soul Collector
+				DisplayName: 灵魂收集
 				Description: Mods.AFKPETS.Buffs.SoulCollector.Description
 			}
 
@@ -14373,40 +14373,44 @@ Mods: {
 			}
 
 			RuneofHakurei: {
-				DisplayName: Rune of Hakurei
+				DisplayName: 博丽符文
 				Tooltip:
 					'''
-					'It's pure and powerful enough to form the Great Hakuri Barrier'
-					'Carrying it inside your inventory purify your magic and soul'
-					'It will banish any celestial creature and pillar'
+					'它纯净而强大，足以形成杜绝任何异变'
+					放在物品栏时净化魔法和灵魂
+					它驱逐天界四柱和四柱生物
 					'''
 			}
 
 			RuneofKaunaz: {
-				DisplayName: Rune of Kaunaz
+				DisplayName: Kaunaz符文
 				Tooltip:
 					'''
-					'May your soul empower with the Fury of ancient flames.'
-					'Carrying it inside your inventory imbues your weapon with fire and gives you rage buff.'
+					'愿你的灵魂与火之愤怒相结合.'
+					放在物品栏时武器造成火焰伤害并给予暴怒增益
 					'''
 			}
 
 			RuneofLaguz: {
-				DisplayName: Rune of Laguz
-				Tooltip: "'It may affect clouds'"
+				DisplayName: Laguz符文
+				Tooltip: "'它可能会影响云层'"
 			}
 
 			RuneofSowulo: {
-				DisplayName: Rune of Sowulo
-				Tooltip: "'The power it contains may bring attention of someone'"
+				DisplayName: Sowulo符文
+				Tooltip:
+					'''
+					'它所包含的力量可能会引起某人的注意'
+					召唤符文巫师
+					'''
 			}
 
 			RuneofWunjo: {
-				DisplayName: Rune of Wunjo
+				DisplayName: Wunjo符文
 				Tooltip:
 					'''
-					'It's concentrated from [c/FF1493:joy] of Yuno Gasai.'
-					'It still whispers Yuki's name over and over again.'
+					它是代表着[c/FF1493:喜悦] 即将降临.
+					它还在一遍又一遍地低语着Yuki的名字.
 					'''
 			}
 
@@ -14425,7 +14429,7 @@ Mods: {
 			}
 
 			ShatteredSoul: {
-				DisplayName: 微弱的本质
+				DisplayName: 弱小的魂灵
 				Tooltip: "'它是由堕落者的善良和纯真形成的.'"
 			}
 
@@ -14595,120 +14599,120 @@ Mods: {
 			}
 
 			BeachEssence: {
-				DisplayName: Essence of Beach
+				DisplayName: 沙滩精华
 				Tooltip:
 					'''
-					'Summer time, summer time...'
-					Upon favourited counts player in beach biome
+					'夏日时光，夏日时光...'
+					收藏后将周围生物群系视为沙滩（海洋）
 					'''
 			}
 
 			CloudEssensce: {
-				DisplayName: Essence of Sky
+				DisplayName: 太空精华
 				Tooltip:
 					'''
-					'Counting stars...'
-					Upon favourited counts player in sky biome
+					'数星星...'
+					收藏后将周围生物群系视为太空
 					'''
 			}
 
 			CorruptionEssence: {
-				DisplayName: Essence of Corruption
+				DisplayName: 腐化精华
 				Tooltip:
 					'''
-					'Apparitions Stalk the Night...'
-					Upon favourited counts player in corruption biome
+					'幽灵尾随着黑夜...'
+					收藏后将周围生物群系视为腐化
 					'''
 			}
 
 			CrimsonEssence: {
-				DisplayName: Essence of Crimson
+				DisplayName: 猩红精华
 				Tooltip:
 					'''
-					'Bloody Devotion...'
-					Upon favourited counts player in crimson biome
+					'血腥奉献...'
+					收藏后将周围生物群系视为猩红
 					'''
 			}
 
 			DemonicEssence: {
-				DisplayName: Essence of Underworld
+				DisplayName: 地狱精华
 				Tooltip:
 					'''
-					'Infernal Pursuit...'
-					Upon favourited counts player in underworld biome
+					'恶魔追求...'
+					收藏后将周围生物群系视为地狱
 					'''
 			}
 
 			DesertEssence: {
-				DisplayName: Essence of Desert
+				DisplayName: 沙漠精华
 				Tooltip:
 					'''
-					'Spooky Scary Skeletons...'
-					Upon favourited counts player in desert biome
+					'海市蜃楼...'
+					收藏后将周围生物群系视为沙漠
 					'''
 			}
 
 			DungeonEssence: {
-				DisplayName: Essence of Dungeon
+				DisplayName: 地牢精华
 				Tooltip:
 					'''
-					'Spooky Scary Skeletons...'
-					Upon favourited counts player in dungeon biome
+					'恐怖骷髅...'
+					收藏后将周围环境视为地牢
 					'''
 			}
 
 			EmptyEssenceBottle: {
-				DisplayName: Empty Essence Bottle
+				DisplayName: 幻灵之精
 				Tooltip:
 					'''
-					'It demands souls...'
-					Using will toggle arena mode + greatly increase enemy spawn rate
-					After its being filled with remnants of 80 enemy it will convert this into respective biomes
+					'它需要灵魂…'
+					使用会切换战斗场地模式，极大的增加敌怪刷怪率
+					杀死80个生物群系(仅限原版)的敌怪，可以转换成各生物群系精华
 					'''
 			}
 
 			FungalEssence: {
-				DisplayName: Essence of Mushroom
+				DisplayName: 夜光蘑菇精华
 				Tooltip:
 					'''
-					'Circle of Life...'
-					Upon favourited counts player in mushroom biome
+					'生生不息...'
+					收藏后将周围生物群系视为夜光蘑菇
 					'''
 			}
 
 			HallowEssence: {
-				DisplayName: Essence of Hallow
+				DisplayName: 神圣精华
 				Tooltip:
 					'''
-					'Pure Furies...'
-					Upon favourited counts player in hallow biome
+					'心之所在...'
+					收藏后将周围生物群系视为神圣
 					'''
 			}
 
 			JungleEssence: {
-				DisplayName: Essence of Jungle
+				DisplayName: 丛林精华
 				Tooltip:
 					'''
-					'Eye of the Tiger...'
-					Upon favourited counts player in jungle biome
+					'虎视眈眈...'
+					收藏后将周围生物群系视为丛林
 					'''
 			}
 
 			OverloadedEssence: {
-				DisplayName: Overloaded Essence
+				DisplayName: 元素精华
 				Tooltip:
 					'''
-					'One Thousand Cherry Trees...'
-					Upon favourited counts player in its materials biomes
+					'一千棵樱桃树...'
+					收藏后将周围视为下位所有加成
 					'''
 			}
 
 			SnowEssence: {
-				DisplayName: Essence of Snow
+				DisplayName: 雪原精华
 				Tooltip:
 					'''
-					'In the Hall of Mountain King...'
-					Upon favourited counts player in snow biome
+					'在山王殿里...'
+					收藏后将周围生物群系视为冰雪
 					'''
 			}
 
