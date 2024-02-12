@@ -1701,8 +1701,8 @@ Mods: {
 			}
 
 			Starstruck: {
-				DisplayName: Starstruck
-				Description: You will attract stars
+				DisplayName: 星击
+				Description: 你会吸引坠星
 			}
 
 			StringConnected: {
@@ -2477,13 +2477,13 @@ Mods: {
 			}
 
 			HeartofKiller: {
-				DisplayName: Heart of the Killer
-				Description: Its time to kill what you see
+				DisplayName: 杀手之心
+				Description: 是时候杀死你所看到的了
 			}
 
 			HeartofKillerJoy: {
-				DisplayName: Heart of the Joyful Killer
-				Description: Its time to kill what you see
+				DisplayName: 杀手之心
+				Description: 是时候杀死你所看到的了
 			}
 
 			HecatiaLapislazuli: {
@@ -3427,8 +3427,8 @@ Mods: {
 			}
 
 			FoodPoisoning: {
-				DisplayName: Food Poisoning
-				Description: Eating food or drinking药水 will poison you
+				DisplayName: 食物中毒
+				Description: 食物和增益药水会使你中毒
 			}
 
 			GetaTired: {
@@ -3767,8 +3767,8 @@ Mods: {
 			}
 
 			Rhapdophobia: {
-				DisplayName: Rhapdophobia
-				Description: Fear of ???
+				DisplayName: 狂惧症
+				Description: 对 ??? 的恐惧
 			}
 
 			Rider: {
@@ -3837,8 +3837,8 @@ Mods: {
 			}
 
 			SacrificeBuff: {
-				DisplayName: Self Sacrifice
-				Description: Your sacrifice have been accepted
+				DisplayName: 自我牺牲
+				Description: 你的牺牲已被接受
 			}
 
 			SagumeKishin: {
@@ -4792,8 +4792,8 @@ Mods: {
 				DisplayName: 极光之眼
 				Tooltip:
 					'''
-					它曾由一位和平统治自己领域的亘古领主铸造
-					'这双眼睛的光芒将满城人的噩梦击成无数碎片'
+					'它曾由一位和平统治自己领域的亘古领主铸造
+					这双眼睛的光芒将满城人的噩梦击成无数碎片'
 					[c/ffff00:趣味模式专属物品]
 					-无法获得-
 					'''
@@ -5661,7 +5661,7 @@ Mods: {
 					'就像帝国的开始，共和的结束'
 					减少 5% 正面受到的伤害，增加 5% 背面受到的伤害
 					借助花环蕴藏的政治智慧，你所统领的召唤物会提升你的最大生命值、魔力和防御
-					每个使用的召唤栏，提供10点生命值、2点防御力和10点魔力
+					每个使用的召唤栏，提供 10 点生命值、2 点防御和 10 点魔力
 					减少10%不死生物和海盗的伤害
 					'''
 			}
@@ -6084,14 +6084,14 @@ Mods: {
 			}
 
 			SecretEffectEgg: {
-				DisplayName: MISSING_EGG
+				DisplayName: 失落-彩蛋
 				Tooltip:
 					'''
 					'世界中的世界，梦中的梦……'
 					未隐藏可见性时，她的梦境可能会影响你的世界
-					When equipped according to players emotion stage player will get 1 of 4 different effect for each different 6 emotion
-					Emotion change between different states happen after 3 second and each state have 10% chance to return back to neutral state
-					The psychological effects are following (This cycles between 6 emotion + effects to show all)
+					装备时，根据玩家的情绪状态，玩家将获得6种不同情绪中的4种效果
+					情绪在不同状态切换3秒之后发生改变，并且每个状态有10%几率重置
+					心理效果如下（这会在6种情绪和效果之间循环，以显示全部）
 					'''
 			}
 
@@ -6106,12 +6106,12 @@ Mods: {
 			}
 
 			Starscream: {
-				DisplayName: Starscream
+				DisplayName: 星啸
 				Tooltip:
 					'''
-					'Remnants of the slime and its treasure still continues to pulse together'
-					Each vanilla mana star have 25% chance to converted to phase star and mana stars also give 25 less mana
-					Upon phase star being picked up will damage every enemy on screen along with giving them starstruck debuff for 4 second
+					'史莱姆和宝藏的残余物仍在一起脉动'
+					每个魔力星有25%的几率转化为相位之星，并减少25魔力星恢复的魔力
+					当拾取相位之星时，会对屏幕上的每个敌人造成伤害，并施加4秒的星击减益
 					'''
 			}
 
@@ -6127,12 +6127,12 @@ Mods: {
 			}
 
 			TheFinalFeast: {
-				DisplayName: The Final Feast
+				DisplayName: 最后的盛宴
 				Tooltip:
 					'''
-					'I think pressure's healthy, and very few can handle it'
-					Gain immunity against food poisoning
-					Buff药水s and foods have 33% chance to not get consumed + have 20% longer buff duration
+					'我认为压力是有益健康的，但很少有人能应对它'
+					免疫食物中毒
+					增益药水和食物有33%的几率不会被消耗，并且增益持续时间延长20%
 					'''
 			}
 
@@ -6148,24 +6148,24 @@ Mods: {
 			}
 
 			UndyingHeart: {
-				DisplayName: Undying Heart
+				DisplayName: 永恒之心
 				Tooltip:
 					'''
-					'Till death do us part'
-					Players that equip this item will share both life regen and damage while having above 10% max hp
-					For example if one have 1 life regen and other have 2 both will have 3 life regen
-					However when one take damage all take same damage
-					Increases max life by 20
+					'至死不渝'
+					装备此物品的玩家在生命值高于10%时，将共享生命再生和伤害
+					例如，如果一人有1点生命再生，另一人有2点生命再生，则两人都将有3点生命再生
+					然而，当一人受到伤害时，所有人都会受到同样的伤害
+					增加 20 最大生命值
 					'''
 			}
 
 			VigorBooster: {
-				DisplayName: Vigor Booster
+				DisplayName: 活力增强剂
 				Tooltip:
 					'''
-					'It contain neuro chemicals that he used to greatly enhance his both mental and physical abilities'
-					Each tick buffs have 25% chance to not lose duration
-					Taking damage give one of the vanilla buff for 5 seconds which has 5 second cooldown
+					'含有神经化学物质，他以前曾用它极大地增强了自己的身心能力'
+					每嘀嗒/帧的增益有25%的几率不消耗持续时间
+					受到伤害会获得一个持续5秒的原版增益，该增益有5秒的冷却时间
 					'''
 			}
 
@@ -6180,17 +6180,17 @@ Mods: {
 			}
 
 			Vocaloid: {
-				DisplayName: Vocaloid
+				DisplayName: 术力口
 				Tooltip:
 					'''
-					'The things you can't do as one, if there's two, they certainly can be overcome'
-					Different coloured notes appear on screen and keeping your cursor on them for a short time activate the following effects:
-					-Green: Slight heal
-					-Red: Summons a tiny Hatsune Miku to fight for you for 10 seconds
-					-Pink: Gives random vanilla or afkpets buff
-					-Yellow:Clears chaos state + mana sickness + greatly decrease afkpets weapon cooldown debuff duration
-					-Rainbow:Mark every enemy on screen. They get true DoT, DR decrease and for non boss enemies upon death drop x2 loot
-					Increasing in game music level will increase the note appear speed
+					'一个人无法做到的事情，如果有两个人，就一定可以克服'
+					屏幕上会出现不同颜色的音符，将光标短暂停留在音符上可激活以下效果：
+					-绿色: 稍微恢复生命值
+					-红色: 召唤初音未来为你战斗10秒
+					-粉色: 提供随机的原版或本模组增益
+					-黄色: 清除混乱状态、魔力病，大幅减少本模组武器的冷却时间
+					-彩虹: 标记屏幕上的每个敌人，它们受到持续的真实伤害，降低防御力，非Boss敌人死亡时会掉落双倍战利品
+					提高游戏中的音乐音量大小将增加音符的出现速度
 					'''
 			}
 
@@ -6206,62 +6206,62 @@ Mods: {
 			}
 
 			BalletShoes: {
-				DisplayName: Ballet Shoes
+				DisplayName: 芭蕾鞋
 				Tooltip:
 					'''
-					'Belongs to one of the prey of the cultists. At least she is in heaven now...'
-					Gain ability to bounce on enemies + jump speed increases
+					'属于邪教徒的受害者之一。至少她现在在天堂……'
+					获得在敌人身上反弹的能力，增加跳跃速度
 					'''
 			}
 
 			BatteredTarge: {
-				DisplayName: Battered Targe
+				DisplayName: 破损的塔格圆盾
 				Tooltip:
 					'''
-					'Let that be a bloody lesson to yeh!'
-					Gain ability to do a long distance dash which have cooldown of 12 seconds
-					Can bash your shield and during the dash all true melee gets a guaranteed crit
-					Eyelander get 50% increased crit + 15% increased damage and 10% increased attack speed
+					'让这成为你血的教训！'
+					获得进行长距离冲刺的能力，冷却时间为12秒
+					可以用盾牌猛击，在冲刺期间，所有真近战攻击必定暴击
+					魔眼阔剑增加 50% 暴击率、15% 伤害和 10% 攻击速度
 					'''
 			}
 
 			CrystalShoes: {
-				DisplayName: Crystal Shoes
+				DisplayName: 水晶鞋
 				Tooltip:
 					'''
-					'No matter how your heart is grieving, if you keep on believing, the dream that you wish will come true'
-					Immunity poison + moving has a chance to drop damaging shoe + jumping speed increases
-					Gain ability to bounce on enemies which also has a chance to drop a shoe
+					'无论你的心有多么悲伤，只要你继续相信，你希望的梦想就会成真'
+					免疫中毒，移动时有几率掉落造成伤害的鞋子，增加跳跃速度
+					获得在敌人身上反弹的能力，同时也有几率掉落一只鞋子
 					'''
 			}
 
 			DerplingLeg: {
-				DisplayName: Derpling Leg
+				DisplayName: 跳跳兽腿
 				Tooltip:
 					'''
-					'Well, I gotta go now! I got a lot of bouncing to do! Hoo-hoo-hoo-hoo'
-					Greatly increases jumping speed + distance but decreases normal walking speed
+					'好吧，我现在得走了！我有很多跳跃要做！呼-呼-呼-呼'
+					大幅增加跳跃速度和距离，但减少正常行走速度
 					'''
 			}
 
 			Firecrackers: {
-				DisplayName: Firecrackers
+				DisplayName: 助推爆竹
 				Tooltip:
 					'''
-					Jumping from ground have 100% more jump height and 50% more jump speed along with igniting explosion
-					This will count as an extra jump and this ability have 10 second cooldown + player again immunity against burning debuff
+					免疫着火
+					从地面起跳时，增加 100% 跳跃高度和 50% 跳跃速度，并引发爆炸，此能力有10秒的冷却时间
 					'''
 			}
 
 			GhennasAffliction: {
-				DisplayName: Ghenna's Affliction
+				DisplayName: 根纳的苦痛
 				Tooltip:
 					'''
-					'No pain no gain'
-					Grants a draggable chained ball which deal damage to enemies and sets them on fire
-					Gain immunity against fall damage, mighty wind, hit.Knockback, spikes, burning blocks and poison
-					Increase fall speed but decrease movement stats
-					Gain ability to bounce on enemies which get stronger with respect to fall speed and bouncing also have a chance to drop a shoe
+					'一分耕耘一分收获'
+					获得一个可拖动的锁链球，对敌人造成伤害并使其着火
+					免疫坠落伤害、强风、击退、钉刺、火块和中毒
+					增加坠落速度但减少移动速度
+					获得在敌人身上反弹的能力，反弹的强度与坠落速度有关，同时也有几率掉落一只鞋子
 					'''
 			}
 
@@ -6297,12 +6297,12 @@ Mods: {
 			}
 
 			NekoSlimesEye: {
-				DisplayName: 猫猫头's Right Eye
+				DisplayName: 猫猫头的右眼
 				Tooltip:
 					'''
-					'Remnant of a honorable foe'
-					Double tap to any direction make player blink into that direction which has 1.5 second cooldown
-					It also activates your immunity frames for a quarter second
+					'一位可敬的敌人的遗物'
+					双击任何方向使玩家朝该方向瞬移，冷却时间为1.5秒
+					赋予玩家四分之一秒的无敌帧
 					'''
 			}
 
@@ -6313,7 +6313,7 @@ Mods: {
 					'它太重了，甚至腿都抬不起来'
 					增加在液体和空中的下落速度
 					免疫坠落伤害、强风、击退、钉刺和火块
-					增加 10% 移动速度，大幅减少跳跃速度
+					减少 10% 移动速度，大幅减少跳跃速度
 					'''
 			}
 
@@ -6343,48 +6343,48 @@ Mods: {
 			}
 
 			WoodenGeta: {
-				DisplayName: Wooden Geta
+				DisplayName: 木屐
 				Tooltip:
 					'''
-					'Only the dead have seen the end of war'
-					Player have 5% chance to dodge the enemy and projectile attack and gain immunity for a short time
-					Player have 25% chance to not get chaos state debuff after using rod of discord
-					Player have 25% chance to not get cooldown debuff after using 跳刀
-					If player moves for a long time player have a chance to get tired
+					'只有死者才能看到战争的结束'
+					玩家有5%的几率闪避敌人和射弹的攻击，并在短时间内获得免疫
+					玩家使用混沌传送杖后有25%的几率不会获得混乱状态
+					玩家使用跳刀后有25%的几率不会获得冷却减益
+					如果玩家长时间移动，玩家有几率感到疲劳
 					'''
 			}
 
 			Pacifier: {
-				DisplayName: Paci-fier
+				DisplayName: 安抚奶嘴
 				Tooltip:
 					'''
-					Even though he's a genocidal he still have the needs of a baby
-					While not attacking, player will gain 0.5½ endurance and 1 defense for each second
-					At 10 second it will be maxed and player will also gain bonus +1 regen along with these
-					'Summons doing damage while player is not being used any weapon does not count'
+					'尽管是一个种族灭绝者，但他仍然是个胎儿'
+					在不攻击的情况下，玩家每秒获得 0.5% 伤害减免和 1 点防御
+					10秒后达到最大值，玩家还将额外获得 1 点生命再生
+					召唤物造成的伤害不计入玩家未使用任何武器的情况
 					'''
 			}
 
 			PacKey: {
-				DisplayName: Activation Key
+				DisplayName: 激活密钥
 				Tooltip:
 					'''
-					It seems the slime capital didn't utilized the cloud activation status system
-					Upon being equipped it will elite pinky tank to fight for you which have 36 base damage
-					It's attacks will home to closest enemy and then explode into venomous purple gels
+					'看起来黏液王国没有使用云激活验证系统'
+					装备后，召唤精英小坦克为你而战，拥有36点基础伤害
+					它将瞄准最近的敌人攻击，然后爆炸成剧毒的紫色凝胶
 					'''
 			}
 
 			PaladinNecklace: {
-				DisplayName: Pendant of the Crusader
+				DisplayName: 十字军吊坠
 				Tooltip:
 					'''
-					Paladins walk in darkness so the others may see the light
-					Player will take 5% less damage from unholy projectiles which contain dark, demonic or unholy inside of their name
-					When player take damage higher than 5% of it's maximum life the artifact start to absorb some of it
-					'This effect stack until it absorbs 18% of the damage taken and it will increase each time by 2%'
-					'If player does not take damage for more than 10 second this effect will reset'
-					'If player take damage less than 5% or it's immunity frame activate artifact will not get stronger but it will reset it's reset timer'
+					'圣骑士在黑暗中行走，以便他人能看见光明'
+					玩家减少 5% 受到的黑暗类射弹的伤害
+					当玩家承受的伤害高于其最大生命值的 5% 时，该神器开始吸收部分伤害
+					此效果每次增加 2% 承受的伤害，最高 18%
+					如果玩家在 10 秒内没有受到伤害，此效果将重置
+					如果玩家承受的伤害少于最大生命值的 5% 或触发无敌帧，神器效果不会增强，但会重置其计时器
 					'''
 			}
 
@@ -6392,46 +6392,46 @@ Mods: {
 				DisplayName: PID
 				Tooltip:
 					'''
-					It stands for 'Portable Improbability Drive' 
-					It connected to Auditor's Improbability drive
-					'Your attack, speed, defence, regen increaes over time but if you take damage this resets.'
-					'You have 10% chance to resurrect from your death with 25% life in enraged mode.'
+					'它代表便携式不可能性驱动器
+					它与审计员的不可能性驱动器相连'
+					攻击、速度、防御和生命再生会随着时间的推移而增加，但如果受到伤害，则会重置
+					有10%的几率从死亡中复活，以愤怒状态恢复25%的生命值
 					'''
 			}
 
 			PinkHeart: {
-				DisplayName: Soul of fear
+				DisplayName: 恐惧之魂
 				Tooltip:
 					'''
-					It was once formed from an innocent vessel, genocidal soul and forbidden magic
-					'Enemies have a chance to drop souls which will amplifiy your damage and survival stats'
-					'When you eat enough, your Rhapdophobia will activate'
-					'You are immune to being distorted and jumpscared and you are being immune to orange and blue attacks'
+					'它曾由一个无辜的容器、种族灭绝的灵魂和禁忌的魔法铸造而成'
+					敌人有几率掉落增加伤害和生存属性的灵魂
+					收集足够多的灵魂后，将触发狂惧症
+					免疫扭曲和惊吓，免疫橙色和蓝色攻击
 					'''
 			}
 
 			RuneofIngwaz: {
-				DisplayName: Rune of Ingwas
+				DisplayName: 英格瓦斯的符文
 				Tooltip:
 					'''
-					Their begining in this universe is filled with the ashes of their fallen home
-					After the common lose of what they care the enemies become friends for one simple goal
-					And they believe one day [c/FF0000:she] will collect all of the pieces together as how it's in before
-					When you take death blow it will save you with 10% of your life and it have a cooldown of 5 minutes
-					'Also If your damage is higher than enemies remaining life it will be added to your next attack'
-					'The next attack have damage cap of twice damage of the original attack'
+					'他们在这个宇宙的开端充满了堕落家园的灰烬
+					在失去了他们的所爱之后，敌人们为了一个简单的目标而联合起来
+					他们相信有一天[c/FF0000:她]会把所有的碎片像以前一样拼凑在一起'
+					当你受到致命一击时，它会救下你并恢复 10% 的生命值，此能力有 5 分钟的冷却时间
+					如果你的伤害高于敌人剩余的生命值，多余的伤害会被你的下一次攻击继承
+					下一次攻击的伤害上限为原始攻击的两倍
 
 					'''
 			}
 
 			SnowflakeNecklace: {
-				DisplayName: Five Colored Feather Necklace
+				DisplayName: 五彩羽毛项链
 				Tooltip:
 					'''
-					From looking at its elegance only a designer can make such art
-					'It will increase your endurance by 3% and defense by 2 and movement speed by 5%'
-					'While it's being equipped health药水s will heal 20 more life'
-					'While it's being equipped mana药水s will give 50 more mana'
+					'看着它的优雅姿态，只有设计师才能创作出这样的艺术品'
+					增加 3% 伤害减免、2 点防御、5% 移动速度
+					装备时，治疗药水额外恢复 20 点生命值
+					装备时，魔力药水额外恢复 50 点魔力
 					'''
 			}
 
@@ -6473,12 +6473,12 @@ Mods: {
 			}
 
 			EchoChamber: {
-				DisplayName: Echo Chamber
+				DisplayName: 回声室
 				Tooltip:
 					'''
-					'I see see the future future future...'
-					When tarot major is being used it will activate previous tarots major used effects
-					When药水 is being used it will also give previous used药水 effects
+					'我看到了未来的未来未来...'
+					当使用塔罗牌主要能力时，它将重新激活之前使用的塔罗牌的主要能力
+					当使用药水时，它也会赋予之前使用的药水的效果
 					'''
 			}
 
@@ -6508,7 +6508,7 @@ Mods: {
 				DisplayName: 奥里哈鲁根吊坠
 				Tooltip:
 					'''
-					'你心中的黑暗越来越强大...'
+					'你心中的黑暗越来越强大……'
 					激活塔罗牌的主要能力后，玩家周围会出现一个符阵
 					增加 8% 所有武器的伤害，攻击者受到双倍接触伤害
 					符阵会对周围的敌人造成伤害，持续10秒
@@ -6516,11 +6516,11 @@ Mods: {
 			}
 
 			PotofGreed: {
-				DisplayName: Pot of Greed
+				DisplayName: 贪婪之壶
 				Tooltip:
 					'''
-					'For greed all nature is too little'
-					Upon equipped pot drop efficiency increase by 1 and pots may drop better items
+					'对于贪婪而言，所有的自然都是微不足道的'
+					装备后，增加打破罐子的掉落效率，罐子可能掉落更好的物品
 					'''
 			}
 
@@ -6528,7 +6528,7 @@ Mods: {
 				DisplayName: 光之启示剑
 				Tooltip:
 					'''
-					'破碎穹顶...'
+					'破碎穹顶……'
 					激活塔罗牌的主要能力后，3把魔法光剑将从天而降
 					被击中的敌人将变得消极避战，持续5秒
 					'''
@@ -6544,86 +6544,86 @@ Mods: {
 			}
 
 			BrokenSpace: {
-				DisplayName: Broken Space
+				DisplayName: 破碎空间
 				Tooltip:
 					'''
-					'Using it or Equipping it gives you the broken space buff'
-					'It makes your tile reach infinite when your smart cursor is disabled'
-					'It gives you immunity to the chaos state debuff when no boss is alive'
-					-Test Item-
+					使用或装备它会赋予破碎空间增益
+					当智能光标被禁用时，获得无限的防止距离
+					当没有Boss存活时，免疫混沌状态减益
+					-测试物品-
 					'''
 			}
 
 			Test1: {
-				DisplayName: Test Item
+				DisplayName: 测试物品
 				Tooltip:
 					'''
-					Equipping it will increase max minion and sentry by 100
-					Using it will unlock every item in big game hunters shop
+					装备后增加 100 召唤栏和哨兵栏
+					使用后解锁游戏商店的全部物品
 					'''
 			}
 
 			ChallengerDeep: {
-				DisplayName: Challenger Deep
+				DisplayName: 挑战者深渊
 				Tooltip:
 					'''
-					'It's not the depths we conquer, but ourselves'
-					Removes movement speed penalty in all liquids + grants infinite breating under water
-					Grants ability to swim + gives immunity against lava
-					Players stats greatly increase in underwater
-					Provides moderate light underwater and honey and extra mobility on ice
-					Player gain extra mobility on honey and crispy honey, ice and obsidian blocks
-					Grants honey buff while in water + players projectiles will ignore water
+					'我们征服的不是深渊，而是我们自己'
+					移除所有液体中的移动速度惩罚，并在水下提供无限呼吸
+					赋予游泳能力，免疫熔岩
+					在水和蜂蜜中提供适量的光照
+					玩家浸没在水中时，大幅提升属性并赋予蜂蜜增益
+					玩家在蜂蜜和酥脆蜂蜜块、冰和黑曜石块上获得额外的移动能力
+					玩家的射弹忽略水的阻力
 					'''
 			}
 
 			LampyridaeHairpin: {
-				DisplayName: Lampyridae Hairpin
+				DisplayName: 流萤发簪
 				Tooltip:
 					'''
-					'A cute lil friend from firefly phenomenon'
-					Provides a faint light at night and its effect also works in vanity slot
+					'来自萤火虫的可爱小伙伴'
+					在夜晚提供微弱的光照，在外观栏中也生效
 					'''
 			}
 
 			NerveParasite: {
-				DisplayName: Nerve Parasite
+				DisplayName: 神经寄生虫
 				Tooltip:
 					'''
-					'One of many terrors that lurk in sea'
-					Equipping it will show the location of enemies + you get high
+					'潜伏在海洋中的众多恐怖生物之一'
+					装备后，将显示敌人的位置，并长高……
 					'''
 			}
 
 			NSGear: {
-				DisplayName: Nectar Submerging Gear
+				DisplayName: 花蜜潜水装备
 				Tooltip:
 					'''
-					'To bee or to not bee'
-					Removes movement speed penalty in water and honey
-					Grants ability to swim and extends underwater and honey breathing
-					Provides light underwater and honey and extra mobility on ice
-					Player gain extra mobility on honey and crispy honey blocks
-					Grants honey buff while in water + tiny bee projectiles will not perish in water
+					'成为蜜蜂，还是不成为蜜蜂'
+					移除在水下和蜂蜜中的移动速度惩罚
+					赋予游泳能力，并延长水下和蜂蜜中的呼吸时间
+					在水和蜂蜜中提供适量的光照
+					玩家在蜂蜜和酥脆蜂蜜块、冰上获得额外的移动能力
+					玩家浸没在水中时，赋予蜂蜜增益，蜜蜂射弹不会在水中消失
 					'''
 			}
 
 			OracleoftheOcean: {
-				DisplayName: Oracle of the Ocean
+				DisplayName: 海洋预言家
 				Tooltip:
 					'''
-					'We need to go deeper'
-					Removes movement speed penalty in all liquids + grants infinite breating under water
-					Grants ability to swim + gives immunity against lava
-					Players stats greatly increase underwater
-					Provides moderate light underwater and honey and extra mobility on ice
-					Player gain extra mobility on honey and crispy honey, ice and obsidian blocks
-					Grants honey buff while in water + players projectiles will ignore water
-					It allow player to catch angler rewards from fishing and its loot table get better post duke fishron
-					Player have a chance to catch quest fishes in any water
-					Holding a fishing rod gives 10% increased DR and movement speed + immunity to knockback
-					Line will never break, increases fishing skill, decrease bait consumption, sonar and crate effect
-					All fish rods gain extra hook
+					'我们需要深入探索'
+					移除所有液体中的移动速度惩罚，并在水下提供无限呼吸
+					赋予游泳能力，免疫熔岩
+					在水和蜂蜜中提供适量的光照
+					玩家浸没在水中时，大幅提升属性并赋予蜂蜜增益
+					玩家在蜂蜜和酥脆蜂蜜块、冰和黑曜石块上获得额外的移动能力
+					玩家的射弹忽略水的阻力
+					当装备时，可以通过钓鱼直接获得渔夫任务奖励，击败猪龙鱼公爵后可以钓到更多战利品
+					玩家在任何水域都有机会钓到任务鱼
+					手持钓鱼竿时，增加10%防御、移动速度，免疫击退
+					鱼线永远不会断，增加渔力，减少鱼饵消耗，获得声纳和宝匣药水效果
+					所有钓鱼竿获得额外的钓钩
 					'''
 			}
 
@@ -6637,13 +6637,13 @@ Mods: {
 			}
 
 			HookStrike: {
-				DisplayName: Momentum
-				Description: Increases thorns effect by 300%
+				DisplayName: 动量
+				Description: 增加 300% 荆棘效果
 			}
 
 			HookStrike2: {
-				DisplayName: Momentum
-				Description: Increases thorns effect by 150%
+				DisplayName: 动量
+				Description: 增加 150% 荆棘效果
 			}
 
 			TheHandyman: {
@@ -6656,11 +6656,11 @@ Mods: {
 			}
 
 			TrueFlight: {
-				DisplayName: True Flight
+				DisplayName: 真实飞翔之证
 				Tooltip:
 					'''
-					'A relic contain feathers of mighty harpy queen'
-					Makes every projectile have slight homing along with increase wing time by 15%
+					'一件包含强大鹰身女妖女王羽毛的遗物'
+					使每个射弹都具有轻微的追踪能力，并增加 15% 翅膀飞行时间
 					'''
 			}
 
@@ -6680,17 +6680,17 @@ Mods: {
 			}
 
 			VoidCrystalNecklace: {
-				DisplayName: Void Crystal Necklace
+				DisplayName: 虚空水晶项链
 				Tooltip:
 					'''
-					You feel it start to chage the curve of space towards you.
-					'It will greatly increase your grab range'
+					'你感觉到它开始改变空间曲线并向你汇聚'
+					大幅增加你的抓取范围
 					-无法获得-
 					'''
 			}
 
 			WeddingRing: {
-				DisplayName: Wedding Ring
+				DisplayName: 婚戒
 				Tooltip: ""
 			}
 
@@ -6874,11 +6874,11 @@ Mods: {
 			}
 
 			YukariVoid: {
-				DisplayName: Boundary
+				DisplayName: 边界
 				Tooltip:
 					'''
-					It seems it's connected with Gensokyo
-					It also 5% chance nullify all projectiles when you take damage
+					'它似乎与幻想乡有所联系'
+					当你受到伤害时，有5%的几率使所有射弹无效
 					-无法获得-
 					'''
 			}
@@ -7513,7 +7513,7 @@ Mods: {
 			}
 
 			GiftBag: {
-				DisplayName: Gift Bag
+				DisplayName: 礼物袋
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -7522,11 +7522,11 @@ Mods: {
 			}
 
 			GiftBag2: {
-				DisplayName: Smiling Gift Bag
+				DisplayName: 微笑礼物袋
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'This bag looks unstable but still it looks rare'
+					'看起来不太妙，但它确实很稀有'
 					'''
 			}
 
@@ -7770,29 +7770,29 @@ Mods: {
 
 			FlaskofBlood: {
 				DisplayName: Flask of Blood
-				Tooltip: "'Melee and Whip attacks inflict enemies with bleeding'"
+				Tooltip: "'近战和鞭子攻击施加流血'"
 			}
 
 			FlaskofNature: {
 				DisplayName: Flask of Nature
-				Tooltip: "'Melee and Whip attacks inflict enemies with 树妖亡祸'"
+				Tooltip: "'近战和鞭子攻击施加树妖亡祸'"
 			}
 
 			FlaskofShadowflames: {
 				DisplayName: Flask of Shadowflames
-				Tooltip: "'Melee and Whip attacks inflict enemies with shadowflame'"
+				Tooltip: "'近战和鞭子攻击施加暗影焰'"
 			}
 
 			JellyfishJam: {
 				DisplayName: Jellyfish Jam
-				Tooltip: "'Melee and Whip attacks inflict enemies with charged'"
+				Tooltip: "'近战和鞭子攻击施加触电'"
 			}
 
 			OliveOilBottle: {
 				DisplayName: Olive Oil Bottle
 				Tooltip:
 					'''
-					Melee and Whip attacks inflict enemies with oiled
+					近战和鞭子攻击施加涂油
 					Become usable while player have no other vanilla or afk pets flask active
 					'''
 			}
@@ -15095,11 +15095,11 @@ Mods: {
 				Tooltip:
 					'''
 					'这看起来就像在这个宇宙中的现实形象之一'
-					'即使拿着它也会让你觉得你的身体在空间中存在于多个地方.'
-					鼠标左键传送至光标位置.
-					鼠标右键+键盘上键传送至出生点.
-					鼠标右键+键盘下键传送随机位置.
-					鼠标右键+键盘左键传至死亡点.
+					'即使拿着它也会让你觉得你的身体在空间中存在于多个地方'
+					鼠标左键传送至光标位置
+					鼠标右键+键盘上键传送至出生点
+					鼠标右键+键盘下键传送随机位置
+					鼠标右键+键盘左键传至死亡点
 					鼠标右键+键盘右键传送到光标下方的位置
 					'''
 			}

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions; 
 using Terraria;
 using Terraria.ModLoader;
 using AFKPETS.Items.Weapons.Melee.Bats;
@@ -41,12 +42,20 @@ namespace AFKPETSandmorezhcn.Items
 				sb.Replace("Harvesting plants have a small chance to concentrate metals in their molecules which cause player to be able to collect ores from them\nKilling enemies have a small chance to harvest their souls\nEfficiency stat will increase the collection rate of the plants + hay when this tool will be used\nWhile equipped as trinket it will allow player to form electric dash with 1.5 second cooldown\nWhile doing electric dash player bypass projectile modifiers.FinalDamage.Flat + slamming enemy both generate lightning bolts + inflict electrified\n[c/FFC0CB:Mom's Box Effect]:Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction\nRC to item to generate pure enegy to use it as trinket\nWhen player press down along with trinket hotkey player will drop all trinkets and else cycle new one with olders\nWhen player is holding trinket by pressing trinket key it can unequip the trinket\n                                                   -Page 2-",
 							"收割植物时有很小的几率富集金属，额外产生矿石\n杀死敌人时，有很小的几率收获他们的灵魂\n效率属性将提升此工具用于收割植物和干草时的采集速度\n右键生成羁绊火花\n装备在密藏栏时，玩家可以使用闪电冲刺，1.5 秒冷却时间\n无视射弹，撞击敌人时释放闪电并造成带电效果\n[c/FFC0CB:收纳盒特殊能力]: 重击非Boss敌人造成强力击退，施加羁绊引力\n当玩家按下密藏快捷键时，将卸下所有密藏\n当玩家手持密藏按下密藏快捷键时，可以卸下密藏\n                             - 第二页 -");
 				
-				/*妈妈的收纳盒产生的密藏特殊能力
+				//妈妈的收纳盒产生的密藏特殊能力
 				sb.Replace("[c/FFC0CB:Mom's Box Effect]:",
-							"[c/FFC0CB:收纳盒特殊能力]: ");*/
+							"[c/FFC0CB:收纳盒特殊能力]: ");
 
-				/*特殊修饰语 - 等模组修Bug
-				sb.Replace("", "");*/
+				//特殊修饰语 - 等模组修Bug
+				//sb.Replace("", "");
+
+				//婚戒
+				sb.Replace("A beautiful ring designed for owner of your heart\nYour heart is beating one with the designer\nWhen you take damage you have 5% chance to take half from it and 5% take 75% of it\nHer love will increase your maximum health and life regen\nBeing close to your love will increase your endurance by 4% and protect her from taking damage",
+							"一枚为你心爱之人设计的美丽戒指\n你的心跳与设计者共同跳动\n受到伤害时，有 5% 的几率只受到一半的伤害，5% 的几率受到75%的伤害\n她的爱会增加你的最大生命值和生命再生速度\n当你靠近心爱的人时，增加4%伤害减免，并保护她免受伤害");
+				sb.Replace("A beautiful ring designed for owner of your heart\nYour heart is beating one with the yandere\nHitting enemies with true melee give you heart of a killer buff which will increase your damage\nWhen you have less than 20% life your yandere instinct will activate and your movement speed increase by 10%\nIn yandere state your damage increase by 3% and critical hit chance by 5% but you will lose half of your defense and life regen\nBeing close to your love will increase your endurance by 4% and protect her from taking damage",
+							"一枚为你心爱之人设计的美丽戒指\n你的心跳与病娇公主共同跳动\n用真近战武器击中敌人时，获得杀手之心增益，增加伤害\n当生命值低于20%时，触发病娇本能，增加 10% 移动速度\n在此状态下，增加 3% 伤害和 5% 暴击率，但失去一半的防御和生命再生\n当你靠近心爱的人时，增加4%伤害减免，并保护她免受伤害");
+				sb.Replace("A beautiful ring designed for owner of your heart\nIt will have no effect until your heart have enough love",
+							"一枚为你心爱之人设计的美丽戒指\n除非你的心有足够的爱，否则它不会起作用");
 
 				//塔罗牌
 				sb.Replace("Millenium: Double Tab down while being on a solid block to call tiny imp to help. Max 1 can be active", "隐藏: 站在物块上双击<下>键召唤小恶魔，最多只能同时存在1个");
@@ -66,15 +75,9 @@ namespace AFKPETSandmorezhcn.Items
 				sb.Replace("It has been cursed by a powerful jungle creature'", "它被强大的丛林之花诅咒了");
 				sb.Replace("Become usable after you prove yourself via taking head of the false lunatic cultist'", "当你击败拜月邪教后，可以使用此物品");
 
-				sb.Replace("Hold Shift while hovering on item to see lil wiki obtain entry", "光标放在物品上并按住Shift键，查看 Wiki 上的获取方式");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki secret + obtain entry", "光标放在物品上并按住Shift键，查看 Wiki 上的获取方式");
-				sb.Replace("Hold Shift while hovering on item to learn more about potted pals", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki blessing ability entry", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki different poop types entry", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki all tiny crew ability entry", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki different poop types entry", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				sb.Replace("Hold Shift while hovering on item to see lil wiki all buddies biome + biome specific special ability entry", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
-				tooltipLine.Text = sb.ToString();
+				//wiki说明
+				tooltipLine.Text = Regex.Replace(sb.ToString(), @"^Hold Shift while hovering on item to.*", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
+				//sb.Replace("", "");
 			}
 		}
 
