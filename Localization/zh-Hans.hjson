@@ -2472,8 +2472,8 @@ Mods: {
 			}
 
 			HeartCooldown: {
-				DisplayName: Protection Cooldown
-				Description: Your soul need to purify
+				DisplayName: 祝福冷却时间
+				Description: 你的灵魂需要净化
 			}
 
 			HeartofKiller: {
@@ -3762,8 +3762,8 @@ Mods: {
 			}
 
 			ReverseCardRecharge: {
-				DisplayName: Reverse Card Cooldown
-				Description: You need to wait your turn to use it again
+				DisplayName: 缓冲逆变器冷却时间
+				Description: 你需要等待冷却结束再使用它
 			}
 
 			Rhapdophobia: {
@@ -7420,7 +7420,7 @@ Mods: {
 			}
 
 			CyanSolution: {
-				DisplayName: 青溶液
+				DisplayName: 白色溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14192,25 +14192,25 @@ Mods: {
 					'Wealth but what in return?'
 					'Guide look innocent enough to ???'
 					'Sacrifice can be also done by having voodoo doll and using this item while it will do first complete sacrifice it find in inventory'
-					'Maybe with [c/FF1493:joy]...'
+					'Maybe with [c/FF1493:遥杆]...'
 					'''
 			}
 
 			GameButton: {
-				DisplayName: Rules Card
+				DisplayName: 规则卡（占位符，以后测试）
 				Tooltip:
 					'''
-					There are notes on it's back
-					'I can sense that someone is protecting you from death so I will give this for few tip'
-					'1.Since I'm equalist changing your gender or wearing glasses won't save you'
-					'2.Always aim to the head, if you confuse which head is correct always aim the upper one'
-					'3.Gitgud dude, neither I stop killing you or you stop attacking
-					'Also if you miss me you can directly use the card to skip all of the fight and get to end'
+					'背后有笔记'
+					我能感觉到有人在保护你免受死亡的伤害，所以我将给你一些提示
+					1.因为我是平等主义者改变你的性别或者戴眼镜都没人能救你
+					2.总是瞄准头部，如果你混淆了哪个头部是正确的，瞄准上面的那个就好
+					3.Gitgud老兄，要么我停止杀死你，要么你停止攻击
+					如果想要我停止杀死你，你可以直接使用这张卡来跳过所有的战斗，然后结束
 					'''
 			}
 
 			GraniteSolution: {
-				DisplayName: 蓝色宇宙石英岩溶液
+				DisplayName: 浅蓝溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14219,16 +14219,16 @@ Mods: {
 			}
 
 			GreenCore: {
-				DisplayName: Core of celebration
+				DisplayName: 庆典核心
 				Tooltip:
 					'''
-					'Strangely holding it makes you feel bosses look like pinatas'
+					'拿着它会让你觉得boss像彩饰陶罐'
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			GreySolution: {
-				DisplayName: 灰溶液
+				DisplayName: 灰色溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14237,23 +14237,22 @@ Mods: {
 			}
 
 			GuideSoulContainer: {
-				DisplayName: Guide's soul container
+				DisplayName: 向导灵魂容器
 				Tooltip:
 					'''
-					'Maybe it may protect his soul from dark magic'
-					'While it's in your inventory dropping Guide Voodoo Doll to lava won't summon WoF'
-
+					'也许可以保护他的灵魂不受黑魔法的伤害'
+					收藏后丢向导巫毒娃娃不会召唤血肉墙
 					'''
 			}
 
 			HeartofKindness: {
-				DisplayName: Blessed Heart
+				DisplayName: 心灵洁净
 				Tooltip:
 					'''
-					'It was once formed from the kindness of 亘古领主 Blossom.'
-					'It still cares about her nation and wants to protect them.'
-					'When used lord Blossom will bless your soul for 4 seconds and it have 1 minute cooldown.'
-					'The blessing will reflect the projectiles and increase your life regen slightly.'
+					'它曾经是由亘古领主的善意形成的.'
+					'她仍然关心她的国家，想要保护子民.'
+					使用时领主祝福你的灵魂4秒，但有1分钟的冷却时间。
+					祝福会反弹投射物，稍微增加生命回复
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -14263,33 +14262,33 @@ Mods: {
 				Tooltip:
 					'''
 					'睁开眼睛看看'
-					'在背包中时，你可以看到光谱全息块和家具'
+					放在物品栏中看到光谱全息块和家具
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			JeraRune: {
-				DisplayName: Rune of Jera
+				DisplayName: Jera符文
 				Tooltip:
 					'''
-					You feel you are not alone
-					'When you use it with <left>while the rune is in you inventory
-					all vanilla pets将跟随你. You can disable them by using RC.'
+					'你并不孤单'
+					手持此符文时，使用左键来使用它
+					所有原版宠物跟随你，使用右键来禁用它.
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			JesterEyeKey: {
-				DisplayName: Door Key
+				DisplayName: 门钥匙
 				Tooltip:
 					'''
-					'It looks repaired.'
-					'It makes you feel the world is spinning'
+					'它看起来是修好了.'
+					觉得世界在旋转
 					'''
 			}
 
 			MarbleSolution: {
-				DisplayName: 潘泰列克大理石溶液
+				DisplayName: 白灰溶液
 				Tooltip:
 					'''
 					由环境改造枪使用
@@ -14298,77 +14297,74 @@ Mods: {
 			}
 
 			MimicDye: {
-				DisplayName: Mimic Dye
+				DisplayName: 模拟染料
 				Tooltip:
 					'''
-					'It seems it changes it's colour with respect to the chemical it have been mixed.'
-					'When it's used it will clone itself to first vanilla dye it finds inside of players inventory'
+					'它的颜色似乎会随着加入的化学物质而改变.'
+					使用时会变成物品栏中排序第一的原版染料
 					'''
 			}
 
 			OrbofConfusion: {
-				DisplayName: Orb of Confusion
+				DisplayName: 混乱之球
 				Tooltip:
 					'''
-					'There is a switch button on it'
-					'It will confuse you and angler upon use.'
-					'Angler will change it's fishing quest'
-
+					'上面有一个开关按钮'
+					它会让你和渔夫感到困惑减益
+					渔夫会改变钓鱼任务
 					'''
 			}
 
 			PerfectEye: {
-				DisplayName: Eye of Perfect Slime
+				DisplayName: 史莱姆之眼
 				Tooltip:
 					'''
-					'It's once being used by perfect slime'
-					'Strangely you feel it's still alive'
-					'When it's in your invetory vanilla slimes become friendly and being near to vanilla slimes will increase stats slightly'
-					'Also you can detect treasures and danger.'
-
+					'它曾经被史莱姆使用过'
+					'奇怪的是，你觉得它还活着？'
+					放在物品栏中原版史莱姆变得友好，靠近原版史莱姆会稍微增加属性
+					可以发现宝藏和潜在的危险
 					'''
 			}
 
 			PotraitofMarkov: {
-				DisplayName: Portrait of Markov
+				DisplayName: 马尔科夫的肖像（占位符）
 				Tooltip:
 					'''
-					'It look safe from outside but inside ...'
-					'[c/FF1493:Joyful one] need to be sacrificed when 月亮 become red with the ???.'
-
+					'从外面看很安全，但里面…'
+					当月亮变成红色的时候，[c/FF1493:快乐的人]需要牺牲???
 					'''
 			}
 
 			PurifiedRodofRemorse: {
-				DisplayName: Purified Rod of Remorse
+				DisplayName: 悔恨之符
 				Tooltip:
 					'''
-					'It was once formed by Lord Blossom to form the true balance'
-					'For adjusting maximum boss life '/bosslife [Number]'
-					''When it's used it will make every boss alive will have the adjusted maximum health'
-					Developer Tool
+					'它曾经由布洛森勋爵组成，以达到真正的平衡'
+					'用于调整boss最大生命值，指令 '/bosslife [数值]'
+					使用时把每个存在的boss调整最大生命值'
+					[c/70DBB93:-开发人员工具-]
 					'''
 			}
 
 			ReincarnatedHate: {
-				DisplayName: Reincarnated Hate
+				DisplayName: 仇恨之火
 				Tooltip:
 					'''
-					'It was formed from kindness and innocence of the fallen'
-					Upon consumed it will cause your eyes return red with hatred
-					Your hatred cause your life regen decrease by 1 and max life by 10
-					Your true melee speed, damage and crit chance will increase by 5%
-					Upon dealing crit to any enemy if they feel fear you will be heal by 1
+					'它是由堕落者的善良和纯真形成的'
+					使用后眼睛就会因仇恨而变红
+					仇恨会使生命回复减少1，最大生命减少10
+					增加5%真近战速度，伤害和暴击率
+					攻击敌人产生暴击时，如果敌人感觉到恐惧，恢复1点生命值
 					'''
 			}
 
 			ReverseCard: {
-				DisplayName: Fun Infused Buffer Inverter
+				DisplayName: 缓冲逆变器
 				Tooltip:
 					'''
-					One of many component being used to built the mechanical abominations
-					After spirit learn how that logic gate work it seems it infuse it with magic to change it's usage area
-					'Using it will take inverse of velocity of every projectile'
+					'用来制造机械生物的众多部件之一'
+					'灵魂学习了逻辑门的工作原理之后，它似乎注入了魔法来改变它的使用范围'
+					使用它会使每个弹幕的速度成反比
 					'''
 			}
 
@@ -14376,8 +14372,8 @@ Mods: {
 				DisplayName: 博丽符文
 				Tooltip:
 					'''
-					'它纯净而强大，足以形成杜绝任何异变'
-					放在物品栏时净化魔法和灵魂
+					'它纯净而强大，足以杜绝任何异变'
+					放在物品栏中净化魔法和灵魂
 					它驱逐天界四柱和四柱生物
 					'''
 			}
@@ -14387,7 +14383,7 @@ Mods: {
 				Tooltip:
 					'''
 					'愿你的灵魂与火之愤怒相结合.'
-					放在物品栏时武器造成火焰伤害并给予暴怒增益
+					放在物品栏中武器造成火焰伤害并给予暴怒增益
 					'''
 			}
 
@@ -14409,7 +14405,7 @@ Mods: {
 				DisplayName: Wunjo符文
 				Tooltip:
 					'''
-					它是代表着[c/FF1493:喜悦] 即将降临.
+					它集中于我妻由乃的[c/FF1493:喜悦]
 					它还在一遍又一遍地低语着Yuki的名字.
 					'''
 			}
@@ -14801,7 +14797,7 @@ Mods: {
 				Tooltip:
 					'''
 					'无法触碰'
-					收藏后，破坏 19x19 的墙壁
+					收藏后破坏 19x19 的墙壁
 					猛击地面会生成一个排斥非BOSS敌人的射弹，施加软弱、霜冻和狱火
 					'''
 			}
@@ -14813,7 +14809,7 @@ Mods: {
 					'现在你知道该做什么了'
 					手持时增加 4 点防御，猛击地面引发火焰冲击波
 					攻击敌人减少其防御
-					收藏后，破坏 9x9 的墙壁
+					收藏后破坏 9x9 的墙壁
 					'''
 			}
 
@@ -15113,7 +15109,7 @@ Mods: {
 				Tooltip:
 					'''
 					'里面有老旧的关于太空的电影'
-					'收藏在物品栏中，不会有重力并碰到物块会反弹'
+					'收藏后不会有重力并碰到物块会反弹'
 					'''
 			}
 
@@ -15271,7 +15267,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你会感觉到内心的某种力量变得更强大了.'
-					放置在物品栏中，重生冷却时间减少25%
+					放在物品栏中重生冷却时间减少25%
 					这会覆盖其他更快的重生方法
 					'''
 			}
@@ -15353,7 +15349,7 @@ Mods: {
 					'''
 					它充满了幸福结局和公主与勇者的故事.
 					它让你觉得每个好人都会有好朋友.
-					在你的物品栏中，可以召唤一个以上的宠物.
+					放在物品栏中召唤一个以上的宠物.
 					'''
 			}
 
@@ -22145,7 +22141,7 @@ Mods: {
 			CyanHeatBeam.DisplayName: Cyan Heat Beam
 			CyanLaser.DisplayName: Cyan Laser
 			CyanLaser2.DisplayName: Cyan Laser2
-			CyanSolution.DisplayName: 青溶液
+			CyanSolution.DisplayName: 白色溶液
 			CyberBeam2.DisplayName: Cyber Beam2
 			CyberBeam3.DisplayName: Cyber Beam3
 			CyberBeam5.DisplayName: Cyber Beam5
@@ -22308,7 +22304,7 @@ Mods: {
 			GoldOreBall.DisplayName: Gold Ore Ball
 			GonerSeastar.DisplayName: Goner Seastar
 			GonerSeastar2.DisplayName: Goner Seastar2
-			GraniteSolution.DisplayName: 蓝色宇宙石英岩溶液
+			GraniteSolution.DisplayName: 浅蓝溶液
 			GraspSoul.DisplayName: Grasp Soul
 			GreenAirExplosion.DisplayName: Green Air Explosion
 			GreenArrow.DisplayName: 绿皮箭
@@ -22331,7 +22327,7 @@ Mods: {
 			HolyHandGrenade.DisplayName: 神圣手榴弹
 			GreyRocket2.DisplayName: 原型火箭
 			GreyRocket4.DisplayName: 原型火箭
-			GreySolution.DisplayName: 灰溶液
+			GreySolution.DisplayName: 灰色溶液
 			GunShot.DisplayName: Gun Shot
 			HallowedDart.DisplayName: 神圣镖
 			HallowedDart2.DisplayName: 神圣镖2
@@ -22513,7 +22509,7 @@ Mods: {
 			VoidTomeEye.DisplayName: Void Tome Eye
 			MagmaEmber.DisplayName: Magma Ember
 			ManaSlash.DisplayName: Mana Slash
-			MarbleSolution.DisplayName: 潘泰列克大理石溶液
+			MarbleSolution.DisplayName: 白灰溶液
 			MarioSuperball.DisplayName: Mario Superball
 			Mari.DisplayName: Mari
 			MartianArrow.DisplayName: 能量箭
@@ -23155,7 +23151,7 @@ Mods: {
 			SakuraLeaf.DisplayName: Sakura Leaf
 			Sale.DisplayName: Sale
 			SandBall.DisplayName: Sand Ball
-			SandSolution.DisplayName: 禁戒溶液
+			SandSolution.DisplayName: 黄色溶液
 			SandWind.DisplayName: Sand Wind
 			SavePoint.DisplayName: Save Point
 			SavePoint2.DisplayName: Save Point2
@@ -23421,7 +23417,7 @@ Mods: {
 			UWUmuku.DisplayName: U W Umuku
 			UnholyFire.DisplayName: Unholy Fire
 			UndyneSpear.DisplayName: Undyne Spear
-			UnderworldSolution.DisplayName: 紫罗兰溶液
+			UnderworldSolution.DisplayName: 紫色溶液
 			TurtleBomb.DisplayName: 海龟壳炸弹
 			TurkorBreath.DisplayName: Turkor Breath
 			TurkorBlood.DisplayName: Turkor Blood
