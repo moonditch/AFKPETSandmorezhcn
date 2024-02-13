@@ -3317,8 +3317,8 @@ Mods: {
 			}
 
 			Nullified: {
-				DisplayName: Nullified
-				Description: You can't feel your soul.
+				DisplayName: 空无一物
+				Description: 感觉不到你的灵魂.
 			}
 
 			Oblivion: {
@@ -14109,54 +14109,54 @@ Mods: {
 			}
 
 			VoidBottle: {
-				DisplayName: Void in a Bottle
+				DisplayName: 瓶中虚空
 				Tooltip:
 					'''
-					'It will nullifes the debuffs you have but drinking it will give药水 sickness for 1 minute'
-					'It will also nullifies your defense and life regen and takes 40 life'
-					'It can only be usable while you don't have药水 sickness'
+					抵消减益并获得1分钟耐药性
+					还会让防御和生命回复失效并消耗40点生命
+					它只能在你没有耐药性的时候使用
 					'''
 			}
 
 			AmblemofFun: {
-				DisplayName: Emblem of Fun
+				DisplayName:  趣味徽章
 				Tooltip:
 					'''
-					'Even the reality is smiling.'
-					'Using it will activate or deactivate fun mode'
-					'If there is any boss active it will not fill them with fun'
-					'In fun mode bosses gain new attacks'
-					'Also in fun mode there is 25% chance to drop fun mode exclusive pet from bosses'
-					'Current version needs rework and ironically not fun so not using it until it gets revamp is adviced'
+					'就连现实也在微笑.'
+					使用它将激活或关闭趣味模式
+					有BOSS存在时无法激活或关闭趣味模式
+					在趣味模式下，BOSS获得新的攻击方式
+					在趣味模式下，击败BOSS有25%的概率获得掉落趣味模式专属宠物”
+					当前版本需要重做，讽刺的是它并不有趣，所以建议在得到改进之前不要使用它
 					'''
 			}
 
 			BlessedRedHat: {
-				DisplayName: Blessed Red Hat
+				DisplayName: 幸运红帽
 				Tooltip:
 					'''
-					'It was once formed and then blessed by an 亘古领主.'
-					'Even it wears a red hat.'
-					'While it's in your inventory it may make other npcs become enthusiasts and remember 亘古领主.'
-					'Also having it inside of your inventory will make you hear the legendary intro upon entering your world'
+					'它曾经形成，然后被亘古领主保佑.'
+					'甚至它还戴着一顶红帽子.'
+					放在物品栏中会让其他npc成为爱好者并记住亘古领主.
+					放在物品栏中时，进入世界会听到传奇的介绍.
 					'''
 			}
 
 			CleansedCrystalMirror: {
-				DisplayName: Cleansed Crystal Mirror
+				DisplayName: 水晶镜
 				Tooltip:
 					'''
-					'A perfect tool for performing a judgement.'
-					'When a sinner is reflected in the mirror, it reflects all of the sinner's past deeds.'
-					'While you are holding it your minions will do 5% more damage and their attacks will judge the sinners with 圣焰.'
+					'这是执行判决的完美工具.'
+					'当罪人映照在镜子里时，镜子反映的是他过去的所有行为.'
+					手持时仆从增加5%的伤害并用圣焰来审判罪人
 					'''
 			}
 
 			DarkSlimeWatcher: {
-				DisplayName: Slimy Chaotic watcher
+				DisplayName: 混沌观察者
 				Tooltip:
 					'''
-					'It observes every movement of yours'
+					'它观察你的每一个动作'
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -14171,28 +14171,28 @@ Mods: {
 			}
 
 			EasternMedicine: {
-				DisplayName: Eastern Medicine
+				DisplayName: 医药框
 				Tooltip:
 					'''
-					'An alternative medicine developed with the wisdom of ancient civilizations'
-					'When it's being used it will cure poisoned, darkness, bleeding, confused debuffs'
-					'When it's being used it will cure  slow, weak, chilled, silenced, stinky debuffs'
+					'一种由古代文明的智慧发展起来的医学'
+					使用后取消中毒，黑暗，流血，困惑
+					缓慢, 虚弱, 冷冻, 沉默, 恶臭减益
 					'''
 			}
 
 			EXPShare: {
-				DisplayName: Fun infused EXP Share
-				Tooltip: "'It will allow something to share it's experience with you'"
+				DisplayName: 知识分享
+				Tooltip: "它将允许一些东西与你分享它的经验"
 			}
 
 			ForgottenThing: {
-				DisplayName: Death's ???
+				DisplayName: 死神???(占位符)
 				Tooltip:
 					'''
-					'Wealth but what in return?'
-					'Guide look innocent enough to ???'
-					'Sacrifice can be also done by having voodoo doll and using this item while it will do first complete sacrifice it find in inventory'
-					'Maybe with [c/FF1493:遥杆]...'
+					'财富，但回报是什么?'
+					'向导看起来很无辜???'
+					牺牲也可以通过向导巫毒娃娃和使用这个物品来完成，如果物品栏没有向导巫毒娃娃会立刻死亡
+					Maybe with [c/FF1493:joy]...
 					'''
 			}
 
