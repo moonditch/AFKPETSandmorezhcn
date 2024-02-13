@@ -2,8 +2,8 @@ Mods: {
 	AFKPETS: {
 		NPCs: {
 			UWUSlime: {
-				DisplayName: UWU史姆姆
-				BossChecklistIntegration.EntryName: 史莱姆最后的希望
+				DisplayName: 史莱姆复仇联盟
+				BossChecklistIntegration.EntryName: 史莱姆王国最后的希望
 			}
 
 			LavalGolem: {
@@ -27,7 +27,7 @@ Mods: {
 					DespawnMessage: 所有的玩家都被吃掉了
 				}
 
-				DisplayName: 魂幡携带者
+				DisplayName: 魂幡守望者
 			}
 
 			SATLA001: {
@@ -330,7 +330,7 @@ Mods: {
 			}
 
 			HunterDog: {
-				DisplayName: 猎人的狗
+				DisplayName: 猎犬
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -391,12 +391,12 @@ Mods: {
 			BodyguardSlime.DisplayName: 保镖史莱姆
 			FallingSlimeSoldier.DisplayName: 保镖史莱姆
 			MoneyPortal.DisplayName: 金币传送门
-			PoliticianSlime.DisplayName: 政客史莱姆
+			PoliticianSlime.DisplayName: 史莱姆总统
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
 			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
 			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
-			PoliticianSlimeArmor.DisplayName: 政客史莱姆装甲
+			PoliticianSlimeArmor.DisplayName: 史莱姆总统装甲
 			BoundGuardian.DisplayName: 受缚守护者
 			FallingGoldfish.DisplayName: 堕落的金鱼
 			FallingSquid.DisplayName: 堕落的鱿鱼
@@ -444,7 +444,7 @@ Mods: {
 			ShinobiSlimeShuriken.DisplayName: 忍者史莱姆
 			ShinobiSlimeSoul.DisplayName: 忍者史莱姆之魂
 			SlimeWatcher.DisplayName: 史莱姆观测者
-			UWUSlimeSoul.DisplayName: UWU史莱姆之魂
+			UWUSlimeSoul.DisplayName: 史莱姆复仇联盟之魂
 			AncientGuardianSpawn.DisplayName: 远古守护者之子
 			BlessedBrokenWashingMachine.DisplayName: 被祝福的破碎洗衣机
 			BrokenWashingMachine.DisplayName: 破碎洗衣机
@@ -670,7 +670,7 @@ Mods: {
 
 			SpectralHolographicChair.MapEntry: 光谱全息椅
 			SnowPapyrus.MapEntry: Snow Papyrus
-			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope纪念章
+			SlimesLastHopeTrophy.MapEntry: 史莱姆复仇联盟纪念章
 			SlayerofEvilTrophy.MapEntry: Slayerof Evil纪念章
 			SkullStatue.MapEntry: 诅咒骷髅头雕像
 			SewingMachine.MapEntry: Sewing Machine
@@ -823,7 +823,7 @@ Mods: {
 
 			Akagi: {
 				DisplayName: 赤城
-				Description: 呵呵呵... 啊哈哈哈哈哈!
+				Description: 呵呵呵…… 啊哈哈哈哈哈!
 			}
 
 			Akame: {
@@ -853,7 +853,7 @@ Mods: {
 
 			AncientSkeletron: {
 				DisplayName: 古代婴儿骷髅头
-				Description: 甚至不要询问...
+				Description: 甚至不要询问……
 			}
 
 			Android: {
@@ -867,13 +867,13 @@ Mods: {
 			}
 
 			Ankh: {
-				DisplayName: 十字架
+				DisplayName: 安可护身符
 				Description: 它会在一段时间内保护你免于死亡
 			}
 
 			AnnoyingDog: {
 				DisplayName: 烦人的狗
-				Description: "'你带了太多狗.'"
+				Description: "'你带了太多狗'"
 			}
 
 			AnswerA: {
@@ -1063,7 +1063,7 @@ Mods: {
 
 			BlueInkling: {
 				DisplayName: Blue Inkling
-				Description: It wants to paint your world to blue.
+				Description: It wants to paint your world to blue
 			}
 
 			BlueScarab2: {
@@ -1138,7 +1138,7 @@ Mods: {
 
 			BrokenSpace: {
 				DisplayName: Molecular Instability
-				Description: "'That's what Schrodinger's cat felt.'"
+				Description: "'That's what Schrodinger's cat felt'"
 			}
 
 			BrokenWashingMachine: {
@@ -1233,7 +1233,7 @@ Mods: {
 
 			ChargedBaby: {
 				DisplayName: Charged Baby
-				Description: 它将跟随你.
+				Description: 它将跟随你
 			}
 
 			Chargetime2: {
@@ -1287,7 +1287,7 @@ Mods: {
 
 			CirnoLight: {
 				DisplayName: 琪露诺
-				Description: The strongest will light your path.
+				Description: The strongest will light your path
 			}
 
 			Cloud: {
@@ -1332,7 +1332,7 @@ Mods: {
 
 			Creeper: {
 				DisplayName: Creeper
-				Description: "'Let's find more houses.'"
+				Description: "'Let's find more houses'"
 			}
 
 			Crimera: {
@@ -1472,7 +1472,7 @@ Mods: {
 
 			DeathsCall: {
 				DisplayName: Death's Call
-				Description: Your end seems...
+				Description: Your end seems……
 			}
 
 			AlchemicalDust: {
@@ -1727,7 +1727,7 @@ Mods: {
 
 			DeterminationCharge: {
 				DisplayName: Portable Save Point Cooldown
-				Description: Your determination need to get stronger.
+				Description: Your determination need to get stronger
 			}
 
 			Diancie: {
@@ -1757,7 +1757,7 @@ Mods: {
 
 			DualTerror: {
 				DisplayName: Dual Terror
-				Description: Until you cancel this buff you will both count it crimson and corruption./nBuff cancel itself if both EoW and BoC are dead.
+				Description: Until you cancel this buff you will both count it crimson and corruption./nBuff cancel itself if both EoW and BoC are dead
 			}
 
 			DuckHunt: {
@@ -1826,8 +1826,8 @@ Mods: {
 			}
 
 			BatCharged: {
-				DisplayName: BERSERK
-				Description: Slam what you saw
+				DisplayName: 狂暴
+				Description: 猛击你所看到的一切
 			}
 
 			ShadowRam: {
@@ -1876,13 +1876,13 @@ Mods: {
 			}
 
 			DarkPunchSoul: {
-				DisplayName: Fueled by Darkness
-				Description: Extra minion + Protection
+				DisplayName: 黑暗灵魂
+				Description: 额外召唤栏，逃避死亡
 			}
 
 			Defender: {
-				DisplayName: Defender
-				Description: 5% increased DR + knockback immunity
+				DisplayName: 防御者
+				Description: 增加 5% 伤害减免并免疫击退
 			}
 
 			Dispenser: {
@@ -1941,8 +1941,8 @@ Mods: {
 			}
 
 			GFuel: {
-				DisplayName: G-Fuel
-				Description: GFVE LLLL
+				DisplayName: 电竞功能饮料
+				Description: 赢！
 			}
 
 			GoodCursedInferno: {
@@ -1996,8 +1996,8 @@ Mods: {
 			}
 
 			HuntersRampage: {
-				DisplayName: Hunter's Rampage
-				Description: The hunt is on boys
+				DisplayName: 狂暴猎人
+				Description: 狩猎开始了
 			}
 
 			Hyperactive: {
@@ -2077,7 +2077,7 @@ Mods: {
 
 			ObsoleekTransform: {
 				DisplayName: Soul Sentinel Form
-				Description: Infinite Flight + Special Attack
+				Description: 无限飞行和特殊攻击
 			}
 
 			ParryBuff: {
@@ -2142,7 +2142,7 @@ Mods: {
 
 			TrueFlightBuff: {
 				DisplayName: True Flight
-				Description: 15% increased wing time + slight homing
+				Description: 增加 15% 飞行时间，轻微追踪
 			}
 
 			VitalityBuff: {
@@ -2170,13 +2170,13 @@ Mods: {
 				Description:
 					'''
 					The witch将跟随你
-					'Oops, spoilers.'
+					'Oops, spoilers'
 					'''
 			}
 
 			Elly: {
 				DisplayName: 艾丽
-				Description: "'Gatekeeper将跟随你.'"
+				Description: "'Gatekeeper将跟随你'"
 			}
 
 			Enchantress: {
@@ -2275,7 +2275,7 @@ Mods: {
 
 			Forager: {
 				DisplayName: Otherworldly adventurer
-				Description: "'It looks sad for losing it's pickaxe and confused.'"
+				Description: "'It looks sad for losing it's pickaxe and confused'"
 			}
 
 			ForagerCow: {
@@ -2325,7 +2325,7 @@ Mods: {
 
 			GalactaKnight: {
 				DisplayName: Galacta Knight
-				Description: He将跟随你.
+				Description: He将跟随你
 			}
 
 			Garfield: {
@@ -2343,7 +2343,7 @@ Mods: {
 				Description:
 					'''
 					Gaster将跟随你
-					'You feel a void inside of you.'
+					'You feel a void inside of you'
 					'''
 			}
 
@@ -2448,7 +2448,7 @@ Mods: {
 
 			Haste: {
 				DisplayName: Haste
-				Description: 15% increased movement speed and flight time
+				Description: 增加 15% 移动速度和飞行时间
 			}
 
 			HatanoKokoro: {
@@ -2578,7 +2578,7 @@ Mods: {
 
 			Inkling: {
 				DisplayName: Inkling
-				Description: It wants to paint your world to orange.
+				Description: It wants to paint your world to orange
 			}
 
 			Innocent: {
@@ -2848,7 +2848,7 @@ Mods: {
 
 			LittleSnake: {
 				DisplayName: Little Snake
-				Description: It seems happy.
+				Description: It seems happy
 			}
 
 			Lloid: {
@@ -2858,7 +2858,7 @@ Mods: {
 
 			Lopunny: {
 				DisplayName: Lopunny
-				Description: "'It looks cute.'"
+				Description: "'It looks cute'"
 			}
 
 			LostGirl: {
@@ -3098,7 +3098,7 @@ Mods: {
 
 			Megalovania: {
 				DisplayName: Megalovaniac
-				Description: You seek power...
+				Description: You seek power……
 			}
 
 			MegamanX: {
@@ -3302,8 +3302,8 @@ Mods: {
 			}
 
 			NordicRage: {
-				DisplayName: Nordic Rage
-				Description: Leave no Roman alive
+				DisplayName: 北欧狂怒
+				Description: 不留活口
 			}
 
 			NuclearThrone: {
@@ -3318,7 +3318,7 @@ Mods: {
 
 			Nullified: {
 				DisplayName: 空无一物
-				Description: 感觉不到你的灵魂.
+				Description: 感觉不到你的灵魂
 			}
 
 			Oblivion: {
@@ -3442,8 +3442,8 @@ Mods: {
 			}
 
 			LeadPoisoning: {
-				DisplayName: Lead Poisoning
-				Description: Mr.  I don't feel so good
+				DisplayName: 铅中毒
+				Description: 医生，我感觉不舒服
 			}
 
 			MonikaReborn: {
@@ -3477,33 +3477,33 @@ Mods: {
 			}
 
 			GourdVitality: {
-				DisplayName: Gourd Vitality
-				Description: You feel refreshed
+				DisplayName: 活力葫芦
+				Description: 你感到新生
 			}
 
 			HoneyMilk: {
-				DisplayName: Healthy
-				Description: taking damage heal each player by 5 + each friendly npc by 20
+				DisplayName: 健康
+				Description: 受到伤害时每个玩家恢复 5 点生命值，每个友好NPC恢复 20 点
 			}
 
 			Intoxicated: {
-				DisplayName: Intoxicated
-				Description: The world is revolving
+				DisplayName: 沉醉
+				Description: 世界在旋转
 			}
 
 			Merry: {
-				DisplayName: Merry
-				Description: You feel you want to sing a song
+				DisplayName: 欢愉
+				Description: 你想要高歌一曲
 			}
 
 			Soju: {
-				DisplayName: Drunk
-				Description: You are slowly losing control
+				DisplayName: 醉了
+				Description: 你正在慢慢失去控制
 			}
 
 			Vodka: {
-				DisplayName: Serious
-				Description: For the motherland
+				DisplayName: 喝嗨了
+				Description: 为了祖国母亲！
 			}
 
 			Astralwalker: {
@@ -3512,23 +3512,23 @@ Mods: {
 			}
 
 			BarkSkin: {
-				DisplayName: Barkskin
-				Description: Hits activate barkskin effect
+				DisplayName: 树皮
+				Description: 受伤时激活树皮防御
 			}
 
 			BarkSkinCooldown: {
-				DisplayName: Barkskin Effect Cooldown
-				Description: You are not Groot
+				DisplayName: 树皮冷却
+				Description: 你可不是银河护卫队里的格鲁特
 			}
 
 			BarkSkinDefense: {
-				DisplayName: Bark Skin Effect
-				Description: 15% increased DR
+				DisplayName: 树皮防御
+				Description: 增加 15% 伤害减免
 			}
 
 			BeetJuice: {
-				DisplayName: Empowered
-				Description: You gain ability to dash
+				DisplayName: 赋能
+				Description: 获得冲刺能力
 			}
 
 			BloodBuff: {
@@ -3537,18 +3537,18 @@ Mods: {
 			}
 
 			Carrot: {
-				DisplayName: Energic
-				Description: Your jumping speed and fall distance have been increased
+				DisplayName: 精力充沛
+				Description: 增加跳跃速度和坠落距离
 			}
 
 			Chocolate: {
-				DisplayName: Peaceful
-				Description: Gain immunity against psychological + chilled debuffs
+				DisplayName: 祥和
+				Description: 免疫困惑、减缓、虚弱、沉默、恐惧和冷冻
 			}
 
 			Clampicated: {
-				DisplayName: Clampicated
-				Description: Is it that clampicated?
+				DisplayName: 缝合
+				Description: 有那么复杂吗？
 			}
 
 			CookieCharged: {
@@ -3557,103 +3557,103 @@ Mods: {
 			}
 
 			Corona: {
-				DisplayName: Flame Heart
-				Description: Burn every close enemy
+				DisplayName: 烈火雄心
+				Description: 点燃靠近的敌人
 			}
 
 			Dragonheart: {
-				DisplayName: Dragonheart
-				Description: Leave nothing but ashes and fallen bodies
+				DisplayName: 龙心万能药
+				Description: 只留下灰烬和倒下的尸体
 			}
 
 			FallenStarBuff: {
-				DisplayName: Star Caller
-				Description: Maybe you should make a wish
+				DisplayName: 召星者
+				Description: 或许你应该许个愿
 			}
 
 			Farming: {
-				DisplayName: Farmer
-				Description: Efficiency increased by I
+				DisplayName: 农夫
+				Description: 增加 I 效率
 			}
 
 			FlaxOil: {
-				DisplayName: Flax Oil
-				Description: You gain ability to float on water and rain
+				DisplayName: 亚麻油
+				Description: 在水面和雨云块上漂浮
 			}
 
 			Flight: {
-				DisplayName: Flight
-				Description: Your wing time increase by 10% + immunity to decreased gravity change
+				DisplayName: 翱翔
+				Description: 增加 10% 飞行时间，免疫重力颠倒
 			}
 
 			FruitLife: {
-				DisplayName: Jumpman's Might
-				Description: "'You gain ability to bounce on enemies'"
+				DisplayName: 飞人
+				Description: 获得在敌人身上反弹的能力
 			}
 
 			Glorified: {
-				DisplayName: Glorified
-				Description: Sword size + shot projectile speed increased by 25%
+				DisplayName: 荣耀
+				Description: 增大 25% 剑和射弹的大小
 			}
 
 			Ironclad: {
-				DisplayName: Ironclad
-				Description: Increased defense + Immunity to knockback and mighty wing
+				DisplayName: 铁甲
+				Description: 增加 10 防御，免疫击退和强风
 			}
 
 			JungleBuff: {
-				DisplayName: Nature's Protection
-				Description: In tune with nature.. And extremely sober
+				DisplayName: 自然守护
+				Description: 虔诚地与自然和谐相处
 			}
 
 			LizhardShield: {
-				DisplayName: Khafra's Blessing
-				Description: Taking damage give 100 mana + protection of scarabs
+				DisplayName: 凯普里的祝福
+				Description: 受到伤害会恢复 100 魔力，圣甲虫会保护你
 			}
 
 			Milk: {
-				DisplayName: Shiny
-				Description: You emit light and close enemies get bioluminescence
+				DisplayName: 闪亮
+				Description: 发光，附近的敌人受到生物光影响
 			}
 
 			Nutty: {
-				DisplayName: Nutty
-				Description: You feel nutty
+				DisplayName: 疯癫
+				Description: 你觉得自己疯了
 			}
 
 			PineSting: {
-				DisplayName: Pine Skin
-				Description: You have been covered with magical pine stings
+				DisplayName: 松木
+				Description: 你被魔法松木枝保护着
 			}
 
 			RedBull: {
-				DisplayName: Red Bull
-				Description: It gives you wings
+				DisplayName: 红牛
+				Description: 赐予你翅膀
 			}
 
 			Shrimplified: {
-				DisplayName: Shrimplified
-				Description: Is it that shrimple?
+				DisplayName: 极简
+				Description: 有那么简单吗？
 			}
 
 			SoyMilk: {
-				DisplayName: Vegan?
-				Description: Damage decrease by 45%, speed increase by 100%
+				DisplayName: 素食主义？
+				Description: 减少 45% 伤害，增加 100% 速度
 			}
 
 			SusyBrew: {
-				DisplayName: SUS
-				Description: He could be any one of us...
+				DisplayName: 嫌疑犯
+				Description: 他可能是我们中的任何一个……
 			}
 
 			VitaPower: {
-				DisplayName: Vita Power
-				Description: You feel magically refreshed
+				DisplayName: 生命之力
+				Description: 你感到神清气爽
 			}
 
 			Precision: {
-				DisplayName: Precision
-				Description: Minion and sentry crit chance will increase by 10%
+				DisplayName: 精密
+				Description: 增加 10% 召唤和哨兵暴击率
 			}
 
 			Pug: {
@@ -3933,37 +3933,37 @@ Mods: {
 
 			SerJunken1: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken2: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken3: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken4: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken5: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken6: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SerJunken7: {
 				DisplayName: Ser Junkan
-				Description: It appears eager to join you on your quest.
+				Description: It appears eager to join you on your quest
 			}
 
 			SeventhAngel: {
@@ -4233,7 +4233,7 @@ Mods: {
 
 			IchorSticker: {
 				DisplayName: 灵液黏黏怪
-				Description: 啊...舒畅！
+				Description: 啊……舒畅！
 			}
 
 			KingSlime: {
@@ -4278,7 +4278,7 @@ Mods: {
 
 			SkeletonCommando: {
 				DisplayName: 小型石巨人魔像
-				Description: 它就静静的站在那里...一言不发！
+				Description: 它就静静的站在那里……一言不发！
 			}
 
 			SpookySpirit: {
@@ -4323,7 +4323,7 @@ Mods: {
 
 			Sweep: {
 				DisplayName: Gotta Sweep
-				Description: It still continues to sweep.
+				Description: It still continues to sweep
 			}
 
 			DemonBuff: {
@@ -4423,7 +4423,7 @@ Mods: {
 
 			Terry: {
 				DisplayName: Terry Hintz
-				Description: Here's a hint, they suck. You rule.
+				Description: Here's a hint, they suck. You rule
 			}
 
 			TewiInaba: {
@@ -4587,33 +4587,33 @@ Mods: {
 			}
 
 			WeaponImbueBlood: {
-				DisplayName: Weapon Imbue: Blood
-				Description: Melee attacks inflict enemies with bleeding
+				DisplayName: 武器灌注: 鲜血血
+				Description: 近战攻击对敌人施加流血
 			}
 
 			WeaponImbueCharge: {
-				DisplayName: Weapon Imbue: Charge
-				Description: Melee attacks inflict enemies with charged
+				DisplayName: 武器灌注: 触电
+				Description: 近战攻击对敌人施加触电
 			}
 
 			WeaponImbueFearToxin: {
-				DisplayName: Weapon Imbue: Fear Toxin
-				Description: Melee attacks inflict enemies with fear
+				DisplayName: 武器灌注: 恐惧毒素
+				Description: 近战攻击对敌人施加恐惧
 			}
 
 			WeaponImbueNature: {
-				DisplayName: Weapon Imbue: Nature
-				Description: Melee attacks inflict enemies with 树妖亡祸
+				DisplayName: 武器灌注: 自然之力
+				Description: 近战攻击对敌人施加树妖亡祸
 			}
 
 			WeaponImbueOiled: {
-				DisplayName: Weapon Imbue: Oiled
-				Description: Melee attacks inflict enemies with oiled
+				DisplayName: 武器灌注: 橄榄油
+				Description: 近战攻击对敌人施加涂油
 			}
 
 			WeaponImbueShadowflame: {
-				DisplayName: Weapon Imbue: Shadowflames
-				Description: Melee attacks inflict enemies with shadowflame
+				DisplayName: 武器灌注: 暗影焰
+				Description: 近战攻击对敌人施加暗影焰
 			}
 
 			Weavile: {
@@ -4673,7 +4673,7 @@ Mods: {
 
 			YorkshireTerrier: {
 				DisplayName: Yorkshire Terrier
-				Description: It wants to play with you.
+				Description: It wants to play with you
 			}
 
 			Yoshi: {
@@ -4861,7 +4861,7 @@ Mods: {
 				DisplayName: 死亡印记
 				Tooltip:
 					'''
-					'缓慢而平静，这就是生命的终结...'
+					'缓慢而平静，这就是生命的终结……'
 					每10秒，屏幕上随机一个敌人会被打上死亡印记，并在下一个10秒轮换
 					被标记的敌人受到8%额外伤害，减少8%接触伤害
 					击杀带有死亡印记的敌人将额外掉落50%钱币，并掉落一个红心或魔力星
@@ -4872,7 +4872,7 @@ Mods: {
 				DisplayName: 龙之爪牙
 				Tooltip:
 					'''
-					'拿起武器...向我走来...'
+					'拿起武器……向我走来……'
 					除非敌人的减益栏位已满，否则将受到永久的火焰类型减益
 					如果减益栏已满，将移除最弱的减益
 					着火和霜冻造成额外的真实持续伤害
@@ -5092,7 +5092,7 @@ Mods: {
 				DisplayName: 魔心护符
 				Tooltip:
 					'''
-					'你仍然可以感觉到它的跳动...'
+					'你仍然可以感觉到它的跳动……'
 					受到致命伤害时，玩家以黑暗形态复活，增加10%伤害，减少75%生命值
 					受到伤害后增加移动速度
 					受到伤害后增加无敌时间
@@ -5261,7 +5261,7 @@ Mods: {
 				DisplayName: 渔夫的骄傲
 				Tooltip:
 					'''
-					'这不仅仅是一个简单的爱好...这是一场战争'
+					'这不仅仅是一个简单的爱好……这是一场战争'
 					当装备时，可以通过钓鱼直接获得渔夫任务奖励
 					在困难模式下，可以钓到更多战利品，同时获得奖励的机会也会增加
 					'''
@@ -5300,7 +5300,7 @@ Mods: {
 					'''
 					黑暗不断蔓延，阴影越来越深……
 					关于这个卷轴的唯一已知之事是，它会找到听话的仆人
-					你感觉到它试图与倾听这个现实结构的人见面
+					你感觉它试图与倾听这个现实结构的人见面
 					当装备此卷轴时，击杀生命值高于66666的Boss，有几率掉落一些有趣的东西……
 					'''
 			}
@@ -6476,7 +6476,7 @@ Mods: {
 				DisplayName: 回声室
 				Tooltip:
 					'''
-					'我看到了未来的未来未来...'
+					'我看到了未来的未来未来……'
 					当使用塔罗牌主要能力时，它将重新激活之前使用的塔罗牌的主要能力
 					当使用药水时，它也会赋予之前使用的药水的效果
 					'''
@@ -6773,7 +6773,7 @@ Mods: {
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'当你看着他时，你看到了自己...'
+					'当你看着他时，你看到了自己……'
 					按 下 键更快下落，按 上 键减少坠落速度
 					'''
 			}
@@ -7476,11 +7476,11 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: Box
+				DisplayName: 箱子
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'Filled with stuff'
+					'装满了东西'
 					'''
 			}
 
@@ -7494,12 +7494,12 @@ Mods: {
 			}
 
 			CookieBox: {
-				DisplayName: Cookie Box
+				DisplayName: 饼干盒
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					Filled with many goodies she collect in her adventure
-					Upon <right>you get random amount of cookies, misc smaller items + 1 reward item
+					'装满了她冒险中收集的许多宝物'
+					打开后获得随机数量的饼干、一些杂物和一件奖励物品 random amount of cookies, misc smaller items + 1 reward item
 					'''
 			}
 
@@ -7531,12 +7531,12 @@ Mods: {
 			}
 
 			GlobeofAgony: {
-				DisplayName: Globe of Agony
+				DisplayName: 痛苦的地球
 				Tooltip:
 					'''
-					'There is a tiny dungeon inside of globe with key hole.'
-					'It makes you hear otherwordly screams of agony and suffering'
-					'Maybe a little key may bring doom to cursed culture of cultists'
+					'球体内部有一个带有钥匙孔的小地牢'
+					它会让你听到来自另一个世界的痛苦和折磨的尖叫声
+					也许一把小钥匙会给被诅咒的邪教文化带来厄运
 					'''
 			}
 
@@ -7550,12 +7550,12 @@ Mods: {
 			}
 
 			HappyMeal: {
-				DisplayName: Happy Meal
+				DisplayName: 开心乐园餐
 				Tooltip:
 					'''
-					I'm lovin' it
-					<right>to open the packet to get your meal along with a toy from FF collectibles
-					Do not direct item use to eat all, toy may contain small pieces
+					'我很喜欢'
+					右键打开包装，得到餐食和一个来自最终幻想的玩具
+					不要直接食用，玩具可能含有小部件导致窒息
 					'''
 			}
 
@@ -7569,11 +7569,11 @@ Mods: {
 			}
 
 			HolographicBag: {
-				DisplayName: Holographic Bag
+				DisplayName: 全息袋
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'It's filled with holographic blocks but strangely it looks empty.'
+					'它装满了相移块，但奇怪的是，它看起来却是空的'
 					'''
 			}
 
@@ -7587,11 +7587,11 @@ Mods: {
 			}
 
 			Inventory: {
-				DisplayName: Inventory Bag
+				DisplayName: 宝藏袋（魂幡守望者）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'It was once belong to the fallen hero'
+					'曾属于堕落英雄'
 					'''
 			}
 
@@ -7605,12 +7605,12 @@ Mods: {
 			}
 
 			JesterEye: {
-				DisplayName: Crystal Prison
+				DisplayName: 水晶监牢
 				Tooltip:
 					'''
-					'There is a keyhole on it.'
-					'Talking with merchant when 星星 don't shine may help you'
-					'Also Carie Careless says the cake is eaten by floating mouth in morning'
+					上面有一个钥匙孔
+					当星星不发光时与商人交谈可能会有所帮助
+					此外，凯丽·凯勒斯说蛋糕在早上被漂浮的嘴吃掉了
 					'''
 			}
 
@@ -7637,7 +7637,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'Death of a high ranked shinobi will surely affect the Slime Capital'
+					'一个高级忍者的死亡肯定会影响到史莱姆王国'
 					'''
 			}
 
@@ -7646,7 +7646,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'Its death will surely bring fear to the Slime Capital'
+					'它的死肯定会给史莱姆王国带来恐惧'
 					'''
 			}
 
@@ -7660,11 +7660,11 @@ Mods: {
 			}
 
 			PoliticianSlimeTreasureBag: {
-				DisplayName: 宝藏袋（政客史莱姆）
+				DisplayName: 宝藏袋（史莱姆总统）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'Fall of the president will make them fill with vengeance'
+					'总统的倒台将激励它们复仇'
 					'''
 			}
 
@@ -7682,7 +7682,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'At least their souls continue to be together'
+					'至少它们死后的灵魂团聚了'
 					'''
 			}
 
@@ -7691,7 +7691,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'It's a little heavy'
+					'它有一点重'
 					'''
 			}
 
@@ -7700,16 +7700,16 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'You never expect there is also engineer in dungeon'
+					'你从没想过地牢里也有工程师'
 					'''
 			}
 
 			SlimesLastHopeTreasureBag: {
-				DisplayName: 宝藏袋（Slimes Last Hope）
+				DisplayName: 宝藏袋（史莱姆复仇联盟）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'They will take revenge of their friend'
+					'它们会为朋友报仇'
 					'''
 			}
 
@@ -7718,29 +7718,29 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					There is a small note on it's back
-					'I hope you have [c/ffff00:Fun]'
+					它的背面有一张小纸条
+					'我希望你感受到了[c/ffff00:乐趣]'
 					'''
 			}
 
 			SuspiciousBox: {
-				DisplayName: Shrodinger's Box
+				DisplayName: 薛定谔之盒
 				Tooltip:
 					'''
-					'The cat has been inside of this box since 1935'
-					'It may be either death or alive but you can't understand from there.'
-					'{$CommonItemTooltip.RightClickToOpen}.'
-					'Fredbear may guide you to the end of the universe.'
+					'自1935年以来，猫一直在这盒子里'
+					它可能是死的，也可能是活的，但你永远不会知道
+					{$CommonItemTooltip.RightClickToOpen}
+					弗雷迪熊可能会引导你走向宇宙的尽头
 					'''
 			}
 
 			TempleBox: {
-				DisplayName: Temple Box
+				DisplayName: 神庙匣
 				Tooltip:
 					'''
-					Temple Key required to open
+					需要神庙钥匙打开
 					{$CommonItemTooltip.RightClickToOpen}
-					'Where does this box come from?'
+					'它是从哪来的？'
 					'''
 			}
 
@@ -7749,7 +7749,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'The bag smells like the last dinner he's preparing'
+					'这个袋子闻起来像他准备的最后一顿晚餐'
 					'''
 			}
 
@@ -7769,31 +7769,31 @@ Mods: {
 			}
 
 			FlaskofBlood: {
-				DisplayName: Flask of Blood
+				DisplayName: 鲜血血瓶
 				Tooltip: "'近战和鞭子攻击施加流血'"
 			}
 
 			FlaskofNature: {
-				DisplayName: Flask of Nature
+				DisplayName: 自然瓶
 				Tooltip: "'近战和鞭子攻击施加树妖亡祸'"
 			}
 
 			FlaskofShadowflames: {
-				DisplayName: Flask of Shadowflames
+				DisplayName: 暗影焰瓶
 				Tooltip: "'近战和鞭子攻击施加暗影焰'"
 			}
 
 			JellyfishJam: {
-				DisplayName: Jellyfish Jam
+				DisplayName: 水母果酱罐
 				Tooltip: "'近战和鞭子攻击施加触电'"
 			}
 
 			OliveOilBottle: {
-				DisplayName: Olive Oil Bottle
+				DisplayName: 橄榄油瓶
 				Tooltip:
 					'''
 					近战和鞭子攻击施加涂油
-					Become usable while player have no other vanilla or afk pets flask active
+					当玩家没有其它武器灌注时，可以使用
 					'''
 			}
 
@@ -7846,8 +7846,8 @@ Mods: {
 				DisplayName: Druidic Artifact
 				Tooltip:
 					'''
-					'Eons ago this relics are being formed by dryads to stop the spread of evil.'
-					'It seems even though they are blessed with the powers of nature still its not enough.'
+					'Eons ago this relics are being formed by dryads to stop the spread of evil'
+					'It seems even though they are blessed with the powers of nature still its not enough'
 					When player is being close it will bless player with the dryad's power'
 					'''
 			}
@@ -7921,21 +7921,21 @@ Mods: {
 				DisplayName: Advance Chemical Analysis Lab
 				Tooltip:
 					'''
-					'Jesse, we need to cook...'
+					'Jesse, we need to cook……'
 					33% chance to not consume药水 crafting ingredients
 					It function as its materials
 					'''
 			}
 
 			AltarofDarkness: {
-				DisplayName: Altar of Darkness
+				DisplayName: 晦暝祭坛
 				Tooltip:
 					'''
-					'There is no good and evil. There is only darkness. And those too weak to seek it'
-					With relics it allows player to enchant special reforges to their arsenal
-					As an example Wado Kaichin allow player to get true melee enchanted reforges
-					If the relic requirement is not met with weapon it causes the weapon to get curse
-					It can also be used as vanilla evil altar crafting station
+					'没有善与恶，只有黑暗，还有那些懦弱之人'
+					奉上祭品，玩家可以为自己的武器进行特殊附魔
+					例如，武道開霣可以为真近战武器进行附魔
+					如果武器不满足祭品的武器类型要求，则会受到诅咒
+					也可用作原版的恶魔祭坛制作站
 					'''
 			}
 
@@ -7963,7 +7963,7 @@ Mods: {
 				DisplayName: Heart of Forest
 				Tooltip:
 					'''
-					'Do Not Be Afraid... You Are Not Alone...'<right>to its tile will bless with clairvoyance for 10 minutes and dryad's blessing for 1 minute
+					'Do Not Be Afraid…… You Are Not Alone……'<right>to its tile will bless with clairvoyance for 10 minutes and dryad's blessing for 1 minute
 					If its being imbued with radiant stars via <right>it will reward the player with an item being selected by a wheel of fortune
 					It can also be used as crystal ball, bookcase and living loom crafting station
 					'''
@@ -7973,8 +7973,8 @@ Mods: {
 				DisplayName: Philosopher's Work Bench
 				Tooltip:
 					'''
-					'Humankind cannot gain anything without first giving something in return.'
-					'To obtain, something of equal value must be lost.'
+					'Humankind cannot gain anything without first giving something in return'
+					'To obtain, something of equal value must be lost'
 					'While being placed it will allow changing pre hardmode items with their equals'
 					'Philosophers stone can be placed <right>to its tile while holding philosopher's stone and work benches top is empty
 					'Upon it's being placed it will allow changing hardmode items with their equals'
@@ -8040,74 +8040,74 @@ Mods: {
 			}
 
 			BeetSeedBag: {
-				DisplayName: Beet Seeds
+				DisplayName: 甜菜种子
 				Tooltip:
 					'''
-					Prefers well drained, warm sandy soils'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢排水良好、温暖的沙质土壤'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			CarrotSeedBag: {
-				DisplayName: Carrot Seeds
+				DisplayName: 胡萝卜种子
 				Tooltip:
 					'''
-					Prefers light, soil with balanced nutrients'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢光照、营养均衡的土壤'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			FlaxSeedBag: {
-				DisplayName: Flax Seeds
+				DisplayName: 亚麻种子
 				Tooltip:
 					'''
-					'Prefers well drained, loamy soils'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢排水良好的壤质土'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			GlowberrySeedBag: {
-				DisplayName: Glow Berry Seeds
+				DisplayName: 光莓种子
 				Tooltip:
 					'''
-					'Prefers bioluminescent, deep, high in organic matter'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢生物发光、深、有机质含量高的土壤'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			MiracleFruitSeedBag: {
-				DisplayName: Miracle Fruit Seeds
+				DisplayName: 奇迹之果种子
 				Tooltip:
 					'''
-					'Prefers light, soil with glitterous nutrients'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢光照、富含闪光养分的土壤'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			MysteriousSeeds: {
-				DisplayName: Mysterious Seeds
+				DisplayName: 神秘种子
 				Tooltip:
 					'''
-					'It may belong to an exotic plant'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'属于某种奇特植物'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			SeedPotatoBag: {
-				DisplayName: Seed Potatoes
+				DisplayName: 土豆种子
 				Tooltip:
 					'''
-					'Prefers well-drained, light, loose soil, high in organic matter'
-					For being able to grow its soil needs to be connected to solidified fertilizer tile
+					'喜欢排水良好、光照、松散、有机质含量高的土壤'
+					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
 
 			SolidifiedFertilizer: {
-				DisplayName: Solidifed Fertilizer
+				DisplayName: 固化肥料
 				Tooltip:
 					'''
-					'Your nose starts to question your decisions'
-					When being adjacent to vanilla soil types it will increase the grow rate of plants and allow grow of exotic plants on these soils
+					'你的鼻子开始质疑你的决定'
+					当它与普通土壤相邻时，将增加植物的生长速度，并允许在这些土壤上种植异国植物
 					'''
 			}
 
@@ -8399,7 +8399,7 @@ Mods: {
 
 			PadoruFigure: {
 				DisplayName: Decorative Padoru Figure
-				Tooltip: Padoru Padoru ...
+				Tooltip: Padoru Padoru ……
 			}
 
 			Plant: {
@@ -8507,22 +8507,22 @@ Mods: {
 			}
 
 			MushroomGrassPlanterBox: {
-				DisplayName: Glowing Mushroom Planter Box
+				DisplayName: 发光蘑菇种植箱
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox2: {
-				DisplayName: Mushroom Planter Box
+				DisplayName: 蘑菇种植箱
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox3: {
-				DisplayName: Vile Mushroom Planter Box
+				DisplayName: 魔菇种植箱
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox4: {
-				DisplayName: Vicious Mushroom Planter Box
+				DisplayName: 毒蘑菇种植箱
 				Tooltip: ""
 			}
 
@@ -8578,12 +8578,12 @@ Mods: {
 
 			ModPainting1: {
 				DisplayName: AFK Pets Anniversary Painting (Green)
-				Tooltip: "'Sir A.'"
+				Tooltip: "'Sir A.F.K'"
 			}
 
 			ModPainting2: {
 				DisplayName: AFK Pets Anniversary Painting (Blue)
-				Tooltip: "'Sir A.'"
+				Tooltip: "'Sir A.F.K'"
 			}
 
 			NightShift: {
@@ -8642,7 +8642,7 @@ Mods: {
 					'A Euclid class artifact being formed by an ancient wizard'
 					'After the wizards death one of his students keep this artifact to keep the good memories until his death and after that day the artifact is being disappeared'
 					'It seems your hand fit well and there is something in it'
-					'If you <right>to it will take the item in your hand and give you another Item.'
+					'If you <right>to it will take the item in your hand and give you another Item'
 					'''
 			}
 
@@ -8659,7 +8659,7 @@ Mods: {
 				DisplayName: Sculptor's Idol
 				Tooltip:
 					'''
-					'Brave Undead... You Have Proven Yourself To Me. Now... Become One With The Soul'
+					'Brave Undead…… You Have Proven Yourself To Me. Now…… Become One With The Soul'
 					<right>activate the flame + set temporary teleport point
 					If respawn using this player gain full health + 30 second endurance and regen
 					This ability has 10 minute cooldown
@@ -8763,7 +8763,7 @@ Mods: {
 				DisplayName: Spaceship Vent
 				Tooltip:
 					'''
-					Wait, white is not imposter...
+					Wait, white is not imposter……
 					'Upon <right> to its tile player will teleport to next found vent and if there is no other vent found player will teleport to same vent'
 					'If there is any emergency caused by bosses player cannot use the item'
 					'''
@@ -8975,7 +8975,7 @@ Mods: {
 			}
 
 			SlimesLastHopeTrophy: {
-				DisplayName: Slimes Last Hope纪念章
+				DisplayName: 史莱姆复仇联盟纪念章
 				Tooltip: ""
 			}
 
@@ -8990,7 +8990,7 @@ Mods: {
 
 			Junk: {
 				DisplayName: Junk
-				Tooltip: Just some junk.
+				Tooltip: Just some junk
 			}
 
 			Bakamite: {
@@ -9054,7 +9054,7 @@ Mods: {
 
 			Circuit: {
 				DisplayName: 电路板
-				Tooltip: "'晶体管...到处都是...'"
+				Tooltip: "'晶体管……到处都是……'"
 			}
 
 			DeadCat: {
@@ -9077,15 +9077,16 @@ Mods: {
 			}
 
 			ArcherFish: {
-				DisplayName: Archer Fish
+				DisplayName: 射手之鱼
 				Tooltip:
 					'''
+					[c/FF00FF:祭品]
 					'Even it understand ranged class is broken'
-					It can be placed to altar of darkness with <right>to its tile while select this item in hotbar
-					After its placed it will cause the altar to give the enchanted prefix to any chosen ranged bow weapon
-					By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar
-					If the melee weapon is not a ranged boq weapon it will curse the weapon
-					Press binded info key while this item being selected in hotbar to get more information about the ranged bow prefixes
+					在快捷栏选中后，<right>晦暝祭坛将其奉上
+					放置祭品后，可以为远程弓武器附魔特殊词缀
+					在快捷栏选中要附魔的武器，然后<right>晦暝祭坛
+					如果选择的武器不是远程弓武器，则会受到诅咒
+					按下控件中绑定的隐藏信息键，可以获取更多关于远程弓武器特殊词缀的信息
 					'''
 			}
 
@@ -9125,25 +9126,25 @@ Mods: {
 			}
 
 			Flax: {
-				DisplayName: Flax
+				DisplayName: 亚麻
 				Tooltip:
 					'''
-					'It have enough durability and strength to be used as fabrics'
-					Check book of botany for more info
+					'它有足够的耐用性和强度用作织物'
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			FrozenCoin: {
-				DisplayName: Wado Kaichin
+				DisplayName: 武道開霣
 				Tooltip:
 					'''
-					[c/FF00FF:Artifact]
-					'It looks forgotten and ancient but still holds impressive spiritual power'
-					'It can be placed to altar of darkness with <right>to its tile while select this item in hotbar'
-					'After its placed it will cause the altar to give the enchanted prefix to any chosen true melee weapon'
-					'By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar'
-					'If the melee weapon is not a true melee weapon it will curse the weapon'
-					'Press binded info key while this item being selected in hotbar to get more information about the true melee prefixes'
+					[c/FF00FF:祭品]
+					'它看起来很古老，被人们遗忘了，但仍然拥有令人崇敬的力量'
+					在快捷栏选中后，<right>晦暝祭坛将其奉上
+					放置祭品后，可以为真近战武器附魔特殊词缀
+					在快捷栏选中要附魔的武器，然后<right>晦暝祭坛
+					如果选择的武器不是真近战武器，则会受到诅咒
+					按下控件中绑定的隐藏信息键，可以获取更多关于真近战武器特殊词缀的信息
 					'''
 			}
 
@@ -9193,7 +9194,7 @@ Mods: {
 				DisplayName: Love Letter
 				Tooltip:
 					'''
-					'It's written to her dearest senpai.'
+					'It's written to her dearest senpai'
 					'Strangely rather than ink, its written with blood [c/FF1493:joyfully]'
 					'''
 			}
@@ -9213,12 +9214,12 @@ Mods: {
 			}
 
 			NetheriteBar: {
-				DisplayName: Netherite Bar
+				DisplayName: 下界合金
 				Tooltip: ""
 			}
 
 			NetheriteOre: {
-				DisplayName: Netherite Scrap
+				DisplayName: 下界合金碎片
 				Tooltip: ""
 			}
 
@@ -9251,11 +9252,11 @@ Mods: {
 			}
 
 			PouchofPhoenixAsh: {
-				DisplayName: Pouch of Phoenix Ash
+				DisplayName: 凤凰灰烬袋
 				Tooltip:
 					'''
-					'Still burning with the agony of the fallen'
-					'Using it will shoot Phoenix ash cloud that will return hellstone ores into netherite ores and helstone bars into netherite bars'
+					'仍燃烧着陨落者的痛苦'
+					'使用它会释放凤凰灰烬云，将狱石转化为下界合金碎片，狱石锭转化为下界合金
 					'''
 			}
 
@@ -9325,7 +9326,7 @@ Mods: {
 				DisplayName: 远古的皇冠（出自探险活宝）
 				Tooltip:
 					'''
-					'拿着它，你也可以寻找公主了.'
+					'拿着它，你也可以寻找公主了'
 					召唤寒冰王跟随你
 					'''
 			}
@@ -9379,7 +9380,7 @@ Mods: {
 				DisplayName: 动物饲料（出自浮岛物语）
 				Tooltip:
 					'''
-					'它可能会吸引某人.'
+					'它可能会吸引某人'
 					召唤奶牛跟随你
 					'''
 			}
@@ -9388,8 +9389,8 @@ Mods: {
 				DisplayName: 苹果（出自iwanna）
 				Tooltip:
 					'''
-					'眼睛似乎也喜欢水果.'
-					'它似乎来自另一个宇宙.'
+					'眼睛似乎也喜欢水果'
+					'它似乎来自另一个宇宙'
 					召唤kid跟随你
 					'''
 			}
@@ -9408,7 +9409,7 @@ Mods: {
 				DisplayName: 婴儿（出自丽莎:痛苦之旅）
 				Tooltip:
 					'''
-					'可能有人在找他.'
+					'可能有人在找他'
 					召唤Brad跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -9419,7 +9420,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它看起来比等离子体射击井里的邪恶生物要无辜得多
-					但你还是觉得不能放松警惕.'
+					但你还是觉得不能放松警惕'
 					召唤Bad Bubble跟随你
 					'''
 			}
@@ -9524,7 +9525,7 @@ Mods: {
 				DisplayName: 血染料（出自原版）
 				Tooltip:
 					'''
-					'也许会吸引别的宠物.'
+					'也许会吸引别的宠物'
 					召唤巨型蝙蝠跟随你
 					'''
 			}
@@ -9533,7 +9534,7 @@ Mods: {
 				DisplayName: 血瓶（出自原版）
 				Tooltip:
 					'''
-					'它吸引了另一只宠物.'
+					'它吸引了另一只宠物'
 					召唤吸血鬼蝙蝠跟随你
 					'''
 			}
@@ -9542,7 +9543,7 @@ Mods: {
 				DisplayName: 瓶装血（出自原版）
 				Tooltip:
 					'''
-					'它吸引了另一只宠物.'
+					'它吸引了另一只宠物'
 					召唤熔岩蝙蝠跟随你
 					'''
 			}
@@ -9551,7 +9552,7 @@ Mods: {
 				DisplayName: 血药剂（出自原版）
 				Tooltip:
 					'''
-					'它吸引了另一只宠物.'
+					'它吸引了另一只宠物'
 					召唤夜明蝙蝠跟随你
 					'''
 			}
@@ -9560,7 +9561,7 @@ Mods: {
 				DisplayName: 血碟子（出自原版）
 				Tooltip:
 					'''
-					'也许会吸引别的宠物.'
+					'也许会吸引别的宠物'
 					召唤巨型飞狐跟随你
 					'''
 			}
@@ -9587,7 +9588,7 @@ Mods: {
 				DisplayName: 蓝水晶（出自自由星球）
 				Tooltip:
 					'''
-					'收集200个也许能让你重生.'
+					'收集200个也许能让你重生'
 					召唤丁香跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -9597,7 +9598,7 @@ Mods: {
 				DisplayName: 蓝埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'有人想拿这个.'
+					'有人想拿这个'
 					召唤埃特尼亚飞龙跟随你
 					'''
 			}
@@ -9615,7 +9616,7 @@ Mods: {
 				DisplayName: 蓝鱿鱼（出自任天堂明星大乱斗，喷射战士）
 				Tooltip:
 					'''
-					'它仔细地看着你.'
+					'它仔细地看着你'
 					召唤乌贼跟随你
 					'''
 			}
@@ -9711,7 +9712,7 @@ Mods: {
 				DisplayName: 被祝福破碎洗衣机（出自Chippy）
 				Tooltip:
 					'''
-					'其他的物品都在它的库存里.'
+					'其他的物品都在它的库存里'
 					'证明自己之后就可以制作了'
 					召唤洗衣机，神圣的复仇者跟随你
 					'''
@@ -9829,7 +9830,7 @@ Mods: {
 				DisplayName: 衣袋武志谋杀案（出自逆转裁判）
 				Tooltip:
 					'''
-					'里面可能有失踪机械师案的证据.'
+					'里面可能有失踪机械师案的证据'
 					召唤绫里真宵跟随你
 					'''
 			}
@@ -9856,8 +9857,8 @@ Mods: {
 				DisplayName: 聚集的恐惧
 				Tooltip:
 					'''
-					'它似乎想保护你，因为它认为你是它的宠物.'
-					'它会让你免疫黑暗，黑视，阻塞的恐惧减益.'
+					'它似乎想保护你，因为它认为你是它的宠物'
+					'它会让你免疫黑暗，黑视，阻塞的恐惧减益'
 					召唤聚集的恐惧跟随你
 					'''
 			}
@@ -9893,7 +9894,7 @@ Mods: {
 				DisplayName: 红丝带（一只可爱的狗）
 				Tooltip:
 					'''
-					'它看起来可爱.'
+					'它看起来可爱'
 					召唤约克夏梗跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -9931,7 +9932,7 @@ Mods: {
 				DisplayName: 黑丝带（出自动漫RWBY）
 				Tooltip:
 					'''
-					'这可能会让某人开心.'
+					'这可能会让某人开心'
 					召唤布蕾克·贝拉多娜跟随你
 					'''
 			}
@@ -9958,7 +9959,7 @@ Mods: {
 				DisplayName: 死亡笔记（出自死亡笔记）
 				Tooltip:
 					'''
-					'这看起来像是神的掉落的.'
+					'这看起来像是神的掉落的'
 					召唤死神Ryuk跟随你
 					'''
 			}
@@ -9967,7 +9968,7 @@ Mods: {
 				DisplayName: 脱水海星（出自海绵宝宝）
 				Tooltip:
 					'''
-					'它看起来又干又悲伤.'
+					'它看起来又干又悲伤'
 					召唤派大星跟随你
 					'''
 			}
@@ -9976,7 +9977,7 @@ Mods: {
 				DisplayName: 脱水海绵（出自海绵宝宝）
 				Tooltip:
 					'''
-					'它看起来又干又悲伤.'
+					'它看起来又干又悲伤'
 					召唤海绵宝宝跟随你
 					'''
 			}
@@ -9994,7 +9995,7 @@ Mods: {
 				DisplayName: 沙漠核心
 				Tooltip:
 					'''
-					'它属于一个没有网络连接的人.'
+					'它属于一个没有网络连接的人'
 					召唤恐龙跟随你
 					'''
 			}
@@ -10033,7 +10034,7 @@ Mods: {
 					'''
 					'是为了买些可爱的东西'
 					召唤哈巴狗跟随你
-					'感谢像素化的玩家8的支持.'
+					'感谢像素化的玩家8的支持'
 					'''
 			}
 
@@ -10135,7 +10136,7 @@ Mods: {
 				DisplayName: 天才玩偶（出自车万）
 				Tooltip:
 					'''
-					'连她的式神都关心她的主人.'
+					'连她的式神都关心她的主人'
 					召唤八云蓝跟随你
 					'''
 			}
@@ -10256,7 +10257,7 @@ Mods: {
 				DisplayName: 艾伦的日记（出自战舰少女R）
 				Tooltip:
 					'''
-					'这是用日语写的.'
+					'这是用日语写的'
 					召唤罗德尼（艾伦•贝可划掉）跟随你
 					'''
 			}
@@ -10292,7 +10293,7 @@ Mods: {
 				DisplayName: 爆炸性的果酱（出自挖矿工艺划掉，我的世界）
 				Tooltip:
 					'''
-					'Creeper？Oh~ man~.'
+					'苦力怕？哦，天哪~'
 					召唤古力怕跟随你
 					'''
 			}
@@ -10346,7 +10347,7 @@ Mods: {
 				DisplayName: 肉（出自原版）
 				Tooltip:
 					'''
-					'看起来烂了.'
+					'看起来烂了'
 					召唤小猩红喀迈拉跟随你
 					'''
 			}
@@ -10430,7 +10431,7 @@ Mods: {
 				DisplayName: 水果（出自马里奥系列）
 				Tooltip:
 					'''
-					'看起来很好.'
+					'看起来很好'
 					召唤耀西跟随你
 					'''
 			}
@@ -10457,7 +10458,7 @@ Mods: {
 				DisplayName: 巨大的壳（出自原版）
 				Tooltip:
 					'''
-					'它看起来很害怕。也许我不应该杀了它.'
+					'它看起来很害怕。也许我不应该杀了它'
 					召唤巨型陆龟跟随你
 					'''
 			}
@@ -10538,7 +10539,7 @@ Mods: {
 				DisplayName: 金环（出自刺猬索尼克）
 				Tooltip:
 					'''
-					'看起来很贵.'
+					'看起来很贵'
 					召唤索尼克跟随你
 					'''
 			}
@@ -10566,7 +10567,7 @@ Mods: {
 				DisplayName: 埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'有人想拿这个.'
+					'有人想拿这个'
 					召唤埃埃特尼亚飞龙跟随你
 					'''
 			}
@@ -10575,7 +10576,7 @@ Mods: {
 				DisplayName: 绿色鱿鱼（出自喷射战士）
 				Tooltip:
 					'''
-					'它仔细地看着你.'
+					'它仔细地看着你'
 					召唤乌贼娘跟随你
 					'''
 			}
@@ -10611,7 +10612,7 @@ Mods: {
 				DisplayName: 可疑陀螺仪（出自动森）
 				Tooltip:
 					'''
-					'它看起来既像活的又像消防栓..'
+					'它看起来既像活的又像消防栓'
 					召唤Lloid跟随你
 					'''
 			}
@@ -10800,7 +10801,7 @@ Mods: {
 				DisplayName: 《如何制造机械湖怪物》（出自车万）
 				Tooltip:
 					'''
-					'这是一本书.'
+					'这是一本书'
 					'他最终发布在幻想乡世界里'
 					召唤河城荷取跟随你
 					[c/ffff00:趣味模式专属物品]
@@ -10811,7 +10812,7 @@ Mods: {
 				DisplayName: 海拉尔盾（出自塞尔达传说）
 				Tooltip:
 					'''
-					'这是传说中真正的英雄所拥有的盾牌之一.'
+					'这是传说中真正的英雄所拥有的盾牌之一'
 					召唤林克跟随你
 					'''
 			}
@@ -10838,7 +10839,7 @@ Mods: {
 				DisplayName: Junk（占位符）
 				Tooltip:
 					'''
-					'Just some living junk.'
+					'Just some living junk'
 					召唤Ser Junken跟随你
 					'''
 			}
@@ -10876,7 +10877,7 @@ Mods: {
 				DisplayName: 番茄酱瓶（出自传说之下）
 				Tooltip:
 					'''
-					'这让我难以全力以赴.'
+					'这让我难以全力以赴'
 					召唤杉斯跟随你
 					'''
 			}
@@ -10886,7 +10887,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这个壳里面有东西'
-					召唤库巴跟随你（原来那个乌龟叫库巴啊....）
+					召唤库巴跟随你（原来那个乌龟叫库巴啊…….）
 					'''
 			}
 
@@ -10961,7 +10962,7 @@ Mods: {
 				DisplayName: 机修工失踪案（出自逆转裁判）
 				Tooltip:
 					'''
-					'只有一个人能让做衣服的人无罪.'
+					'只有一个人能让做衣服的人无罪'
 					召唤御剑怜侍跟随你
 					'''
 			}
@@ -11015,7 +11016,7 @@ Mods: {
 				DisplayName: 大师球（来自口袋妖怪）
 				Tooltip:
 					'''
-					'看起来传说中的精灵宝可梦就在里面.'
+					'看起来传说中的精灵宝可梦就在里面'
 					召唤盖欧卡跟随你
 					'''
 			}
@@ -11098,7 +11099,7 @@ Mods: {
 				DisplayName: 机械钥匙（出自原版）
 				Tooltip:
 					'''
-					'让我想起了一些可怕的事情.'
+					'让我想起了一些可怕的事情'
 					召唤机械骷髅王宝宝跟随你
 					'''
 			}
@@ -11190,7 +11191,7 @@ Mods: {
 				DisplayName: 特殊的蘑菇（出自超级马丽）
 				Tooltip:
 					'''
-					'吸引某人.'
+					'吸引某人'
 					召唤耀西跟随你
 					'''
 			}
@@ -11236,7 +11237,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾经属于一个善良的灵魂'
-					'拿着这个也会让你想起儿时的梦，让你感觉到开心'
+					'拿着这个也会让你想起儿时的梦，让你感到开心'
 					'''
 			}
 
@@ -11310,7 +11311,7 @@ Mods: {
 				DisplayName: 橙色章鱼（出自任天堂明星大乱斗）
 				Tooltip:
 					'''
-					'它仔细地看着你.'
+					'它仔细地看着你'
 					召唤乌贼娘跟随你
 					'''
 			}
@@ -11364,7 +11365,7 @@ Mods: {
 				DisplayName: 圣诞帽（出自fate）
 				Tooltip:
 					'''
-					'拿着它也会感觉有人在唱“美妙动听”的歌.'
+					'拿着它也会感觉有人在唱“美妙动听”的歌'
 					召唤尼禄跟随你
 					'''
 			}
@@ -11490,7 +11491,7 @@ Mods: {
 				DisplayName: 肉桂派（出自传说之下）
 				Tooltip:
 					'''
-					'看起来很不错.'
+					'看起来很不错'
 					召唤羊妈跟随你
 					'''
 			}
@@ -11499,7 +11500,7 @@ Mods: {
 				DisplayName: 粉色乌贼（出自任天堂大乱斗）
 				Tooltip:
 					'''
-					'它仔细地看着你.'
+					'它仔细地看着你'
 					召唤乌贼娘跟随你
 					'''
 			}
@@ -11537,7 +11538,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'这里面似乎有生活在洞穴里面的宝可梦.'
+					'这里面似乎有生活在洞穴里面的宝可梦'
 					召唤大嘴娃跟随你
 					'''
 			}
@@ -11546,7 +11547,7 @@ Mods: {
 				DisplayName: 精灵球（出自口袋妖怪）
 				Tooltip:
 					'''
-					'这里面似乎有亲近人类的宝可梦.'
+					'这里面似乎有亲近人类的宝可梦'
 					召唤奇鲁莉安跟随你
 					'''
 			}
@@ -11601,7 +11602,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'似乎可以听到呼噜声.'
+					'似乎可以听到呼噜声'
 					召唤卡比兽跟随你
 					'''
 			}
@@ -11610,7 +11611,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'拿着它会让你感觉正常.'
+					'拿着它会让你感觉正常'
 					召唤图图犬跟随你
 					'''
 			}
@@ -11619,7 +11620,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'感觉受到天气的影响.'
+					'感觉受到天气的影响'
 					召唤飘浮泡泡跟随你
 					'''
 			}
@@ -11638,7 +11639,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'拿着它都会觉得很强大.'
+					'拿着它都会觉得很强大'
 					召唤腕力跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -11716,7 +11717,7 @@ Mods: {
 				DisplayName: "精灵球（出自口袋妖怪） "
 				Tooltip:
 					'''
-					'你会觉得里面有一个黑暗类型的宝可梦.'
+					'你会觉得里面有一个黑暗类型的宝可梦'
 					召唤阿勃梭鲁跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -11753,7 +11754,7 @@ Mods: {
 				DisplayName: 紫色的埃特尼亚魔力（出自原版）
 				Tooltip:
 					'''
-					'有人想拿走这个.'
+					'有人想拿走这个'
 					召唤埃特尼亚飞龙跟随你
 					'''
 			}
@@ -11882,7 +11883,7 @@ Mods: {
 				DisplayName: 卷轴（出自The Messanger）
 				Tooltip:
 					'''
-					'你不确定它是卷轴还是别的什么.'
+					'你不确定它是卷轴还是别的什么'
 					召唤信使跟随你
 					'''
 			}
@@ -12027,7 +12028,7 @@ Mods: {
 				DisplayName: 稳定的核心（出自传说之下）
 				Tooltip:
 					'''
-					'某人的钥匙.'
+					'某人的钥匙'
 					召唤W. D. 加斯特跟随你
 					'''
 			}
@@ -12221,7 +12222,7 @@ Mods: {
 				DisplayName: 可疑的包裹（出自交叉领域计划）
 				Tooltip:
 					'''
-					'你想知道里面是什么.'
+					'你想知道里面是什么'
 					召唤Chizuru Urashima跟随你
 					'''
 			}
@@ -12303,7 +12304,7 @@ Mods: {
 				DisplayName: 可疑的眼球（出自Vinesauce）
 				Tooltip:
 					'''
-					'它仍然盯着你.'
+					'它仍然盯着你'
 					召唤Wegee跟随你
 					'''
 			}
@@ -12312,7 +12313,7 @@ Mods: {
 				DisplayName: 可疑的宝石（出自天地无用）
 				Tooltip:
 					'''
-					'它看起来像是来自太空.'
+					'它看起来像是来自太空'
 					'蜂后是怎么找到这个的?'
 					召唤Ryo-Ohki跟随你
 					'''
@@ -12472,7 +12473,7 @@ Mods: {
 				DisplayName: 喂食提米薄片(出自传说之下)
 				Tooltip:
 					'''
-					'看起来很好.'
+					'看起来很好'
 					召唤提米跟随你
 					'''
 			}
@@ -12581,7 +12582,7 @@ Mods: {
 				DisplayName: Ex咖喱棒（出自Fate）
 				Tooltip:
 					'''
-					'它可能看起来像玩具，但仍然感到一股强大的能量通过它.'
+					'它可能看起来像玩具，但仍然感到一股强大的能量通过它'
 					召唤阿尔托莉雅·潘德拉贡跟随你
 					'''
 			}
@@ -12659,8 +12660,8 @@ Mods: {
 				DisplayName: Voidal Singularity（占位符）
 				Tooltip:
 					'''
-					'It was once used by Father of Void to cause unstabilize fabric which shatter the interval of time and space.'
-					'Even through this one is fake still someone is observing it.'
+					'It was once used by Father of Void to cause unstabilize fabric which shatter the interval of time and space'
+					'Even through this one is fake still someone is observing it'
 					召唤???跟随你
 					'''
 			}
@@ -12724,7 +12725,7 @@ Mods: {
 				DisplayName: 红毛线球（出自巴比斯）
 				Tooltip:
 					'''
-					'它看起来很可爱.'
+					'它看起来很可爱'
 					召唤巴比斯跟随你
 					'''
 			}
@@ -12778,7 +12779,7 @@ Mods: {
 				DisplayName: 梦日记（出自梦日记）
 				Tooltip:
 					'''
-					'它是用日语写的.'
+					'它是用日语写的'
 					召唤Madotsuki跟随你
 					'''
 			}
@@ -12817,7 +12818,7 @@ Mods: {
 				DisplayName: 节庆矿车
 				Tooltip:
 					'''
-					免疫冷冻或冰冻
+					免疫冷冻和冰冻
 					'喜气洋洋'
 					'''
 			}
@@ -12940,7 +12941,7 @@ Mods: {
 				DisplayName: 林间碎木机矿车
 				Tooltip:
 					'''
-					'畏惧...逃离...命运仍会降临'
+					'畏惧……逃离……命运仍会降临'
 					它可以用下部的刀片反弹攻击敌人，速度足够快时可以切割敌人
 					类人敌人会受到100%额外的反弹伤害，造成28倍的玩家基础召唤伤害
 					'''
@@ -12973,8 +12974,8 @@ Mods: {
 			}
 
 			AncientSand: {
-				DisplayName: Ancient Sand Container
-				Tooltip: "'Maybe it will awake someone to your right'"
+				DisplayName: 远古沙容器
+				Tooltip: 使用后召唤沙尘精
 			}
 
 			BlackenedHeart: {
@@ -12996,11 +12997,11 @@ Mods: {
 			}
 
 			CookingBook: {
-				DisplayName: Cooking Delight
+				DisplayName: 烹饪的乐趣
 				Tooltip:
 					'''
-					A cooking book being focused mostly on desserts
-					Using it may call a soul for rematch
+					一本主要关注甜点的烹饪书
+					使用后召唤饼干盒，重新挑战
 					'''
 			}
 
@@ -13014,12 +13015,12 @@ Mods: {
 			}
 
 			DemonicAnalysis: {
-				DisplayName: Demonic Analysis
+				DisplayName: 恶魔分析笔记
 				Tooltip:
 					'''
-					'A research paper contains information about the modern sin for the era of Succubus Queen Moira'
-					Using it in underworld in day will call assistant
-					It can be used once per terraria day
+					'一篇研究论文，包含有关魅魔女王莫伊拉时代现代罪恶的信息'
+					在白天地狱使用，召唤助教
+					每个世界只能使用一次
 					'''
 			}
 
@@ -13033,12 +13034,12 @@ Mods: {
 			}
 
 			DuckWhistle: {
-				DisplayName: Duck Whistle
+				DisplayName: 鸭哨
 				Tooltip:
 					'''
-					'A tool often used by predators to trick their prey'
-					Using it in surface in day will call hunter
-					It can be used once per terraria day
+					'捕食者经常用来欺骗猎物的工具'
+					在白天地表使用，召唤猎犬
+					每个世界只能使用一次
 					'''
 			}
 
@@ -13048,37 +13049,37 @@ Mods: {
 			}
 
 			FrozenSkull: {
-				DisplayName: Frozen Skull
-				Tooltip: "'Maybe it will awake someone near to you'"
+				DisplayName: 冰冻头骨
+				Tooltip: 使用后召唤冰雪巨人
 			}
 
 			GoldenKingSlimeIdol: {
-				DisplayName: Golden 史莱姆王 Idol
+				DisplayName: 金色史莱姆王冠
 				Tooltip:
 					'''
-					'There is a tiny note on it's back
-					The kind king and brave heroes are in our heart and memory
-					Using it will let the 政客史莱姆 take action
-					只能在夜晚使用 and after you defeat 史莱姆王 and slimes last hope
+					'背面有一个小纸条，上面写着:
+					善良的国王和勇敢的英雄们永远活在我们的心中'
+					只能在夜晚使用，召唤史莱姆总统
+					只能在击败史莱姆王和史莱姆复仇联盟后使用
 					'''
 			}
 
 			GoldenSkull: {
-				DisplayName: Gold Skull
+				DisplayName: 金色头骨
 				Tooltip:
 					'''
-					'I hope it won't understand this one is fake'
-					'只能在夜晚使用.'
+					'我希望骷髅博士看不出来这是赝品'
+					只能在夜晚使用
 					'''
 			}
 
 			HaniwaIdol: {
-				DisplayName: Haniwa Idol
+				DisplayName: 埴轮
 				Tooltip:
 					'''
-					'The Way of the warrior is to be found in dying'
-					Using it on surface at night will call wandering samurai
-					It can be used once per terraria day
+					'战士之道在于死'
+					在夜晚地表使用，召唤流浪武士
+					每个世界只能使用一次
 					'''
 			}
 
@@ -13092,28 +13093,28 @@ Mods: {
 				Tooltip:
 					'''
 					'用原始冰元素的魔力形成的冰晶'
-					'使用它将召唤冰之守护者为新时代冰元素的未来而战'
+					使用它将召唤冰之守护者为新时代冰元素的未来而战
 					'''
 			}
 
 			MagicWand: {
-				DisplayName: Magician's Wand
-				Tooltip: "'Maybe someone wants to use this'"
+				DisplayName: 魔术棒
+				Tooltip: "'也许提姆想要它'"
 			}
 
 			NightmareFuel: {
-				DisplayName: Nightmare Fuel
-				Tooltip: "'Remnants of a fear fueled beast'"
+				DisplayName: 梦魇燃料
+				Tooltip: "'恐惧造物-梦魇史莱姆的残存'"
 			}
 
 			PinkDiamond: {
-				DisplayName: Pink Diamond
-				Tooltip: "'I hope it will take it's attention'"
+				DisplayName: 粉钻
+				Tooltip: "'希望这能吸引不死矿工的注意'"
 			}
 
 			PlantAshContainer: {
-				DisplayName: Ash Container
-				Tooltip: "'It will make someone angry.'"
+				DisplayName: 尘埃容器
+				Tooltip: "'这会让宁芙生气'"
 			}
 
 			PreyTrackingChip: {
@@ -13162,16 +13163,16 @@ Mods: {
 			}
 
 			ShogunSlimesHelmet: {
-				DisplayName: Shogun Slime's Helmet
-				Tooltip: "'Making fun with her student will make someone take his revenge'"
+				DisplayName: 史莱姆战士的头盔
+				Tooltip: "'戏弄它的门徒会让猫猫头前来复仇'"
 			}
 
 			SlimeinaGlassCube: {
-				DisplayName: Slime in a Glass Cube
+				DisplayName: 黏液的玻璃囚笼
 				Tooltip:
 					'''
-					'It looks scared and it wants to be free
-					Using it in day will makes slimes last hope challenge to the player
+					'它看起来很害怕，想要自由'
+					只能在白天使用，召唤史莱姆复仇联盟
 					'''
 			}
 
@@ -13205,24 +13206,24 @@ Mods: {
 			}
 
 			SpiritofFunPot: {
-				DisplayName: Ancient Pot
+				DisplayName: 古代陶罐
 				Tooltip:
 					'''
-					A strange pot once used by cultists to torture something
-					Strangely you hear both cry and laugh sounds comes inside of it
-					Also [c/FF0000:30-300] writes on it's back
-					You feel it can be used as decoration by placing it
-					'You can also break it by <right>to it while you have hammer in your inventory'
-					You feel it's best to break it in somewhere you feel comfortable for [c/FF0000:???]
+					一个曾被邪教信徒用来折磨某物的奇怪陶罐
+					奇怪的是，你听到里面有哭声和笑声
+					在它的背面写着[c/FF0000:30-300]
+					你觉得可以把它当作装饰品摆放
+					在背包里有锤子的情况下，<right>来打破它
+					你觉得最好在[c/FF0000:???]觉得合适的地方打破它
 					'''
 			}
 
 			SpiritualHeart: {
-				DisplayName: Spiritual Heart
+				DisplayName: 精神之心
 				Tooltip:
 					'''
-					'A prayer for the losts.'
-					'Using it will start blessed vanilla boss rush.'
+					'为失落者祈祷'
+					使用后开始原版Boss Rush
 					'''
 			}
 
@@ -13247,11 +13248,11 @@ Mods: {
 			}
 
 			SwissChocolate: {
-				DisplayName: Swiss Chocolate
+				DisplayName: 瑞士巧克力
 				Tooltip:
 					'''
-					'Tastes like raw, bloody genocide'
-					Using it at night on surface layer will call bounty hunter
+					'尝起来像野蛮的血腥大屠杀'
+					在夜晚地表使用，召唤赏金猎人
 					'''
 			}
 
@@ -13271,37 +13272,37 @@ Mods: {
 			}
 
 			TradeDeal: {
-				DisplayName: Trade Deal
+				DisplayName: 贸易许可
 				Tooltip:
 					'''
-					'A contract that legalize your actions'
-					Using it in day will call travelling merchant
-					It can be used once per terraria day
+					'使你的行为合法化的文件'
+					在白天使用，召唤旅商
+					每个世界只能使用一次
 					'''
 			}
 
 			UnstableRainbowCookie: {
-				DisplayName: Unstable Cookie
+				DisplayName: 不稳定饼干
 				Tooltip:
 					'''
-					'Fueled by rainbows and dreams of every child'
-					Using it may cause a soul fight for what she truely cares
+					'由每个孩子的彩虹和梦想所驱动'
+					使用后召唤饼干之魂
 					'''
 			}
 
 			UntoldBurial: {
-				DisplayName: Untold Burial
-				Tooltip: Currently do noting but in future it will allow you to call a cute fella
+				DisplayName: 未知的埋葬
+				Tooltip: 目前无作用，但未来它将允许你召唤一个可爱的小家伙
 			}
 
 			Ankh: {
-				DisplayName: Ankh
-				Tooltip: It will protect you from death for some time
+				DisplayName: 安可护身符
+				Tooltip: 一段时间内保护你免于死亡
 			}
 
 			CrystalAnkh: {
-				DisplayName: Crystal Ankh
-				Tooltip: It will protect you from death for some time
+				DisplayName: 水晶护身符
+				Tooltip: 一段时间内保护你免于死亡
 			}
 
 			DarkHeart: {
@@ -13310,8 +13311,8 @@ Mods: {
 			}
 
 			DarkPunchSoul: {
-				DisplayName: Dark Fragment
-				Tooltip: It will protect you from death for some time
+				DisplayName: 黑暗灵魂碎片
+				Tooltip: 一段时间内保护你免于死亡
 			}
 
 			DarkStar2: {
@@ -13320,38 +13321,38 @@ Mods: {
 			}
 
 			GoldHeart: {
-				DisplayName: Gold Heart
-				Tooltip: It heals a lot
+				DisplayName: 金心
+				Tooltip: 恢复大量生命值
 			}
 
 			HeartStarPickup: {
-				DisplayName: Heartstar
-				Tooltip: Gives mana + life
+				DisplayName: 活力心
+				Tooltip: 恢复魔力和生命值
 			}
 
 			HotSauce: {
-				DisplayName: Hot Sauce
-				Tooltip: It will protect you from death for some time
+				DisplayName: 热辣酱汁
+				Tooltip: 一段时间内保护你免于死亡
 			}
 
 			MisaoHeart: {
-				DisplayName: ???'s Heart
-				Tooltip: It will give you few buffs and life
+				DisplayName: ???之心
+				Tooltip: 获得少量增益和生命值
 			}
 
 			PhaseStar: {
-				DisplayName: Phase Star
-				Tooltip: Damage every enemy on screen + inflict starstruck
+				DisplayName: 相位之星
+				Tooltip: 对屏幕上的每个敌人造成伤害，并施加4秒的星击减益
 			}
 
 			PurpleManaStar: {
-				DisplayName: Arcane Star
-				Tooltip: Gives mana + inflict shadowflames
+				DisplayName: 魔力星
+				Tooltip: 恢复魔力并施加暗影焰
 			}
 
 			SoulHeart: {
-				DisplayName: Soul Heart
-				Tooltip: It is part of a soul
+				DisplayName: 灵魂之心
+				Tooltip: 它是灵魂的一部分
 			}
 
 			AquaPainting: {
@@ -13368,8 +13369,8 @@ Mods: {
 				DisplayName: Sad Despair Cat Painting
 				Tooltip:
 					'''
-					It looks otherworldly.
-					'It was once bring to this lands by 亘古领主 Blossom.'
+					It looks otherworldly
+					'It was once bring to this lands by 亘古领主 Blossom'
 					'''
 			}
 
@@ -13402,8 +13403,8 @@ Mods: {
 				DisplayName: Flower Eating Painting
 				Tooltip:
 					'''
-					It looks like she borrow it from a art gallery.
-					'Strangely she feeds it with roses.'
+					It looks like she borrow it from a art gallery
+					'Strangely she feeds it with roses'
 					'''
 			}
 
@@ -13413,8 +13414,8 @@ Mods: {
 			}
 
 			FruitSeed: {
-				DisplayName: Magical Jungle Seeds
-				Tooltip: "'They may make you happy.'"
+				DisplayName: Magical Jungle种子
+				Tooltip: "'They may make you happy'"
 			}
 
 			GuusPainting: {
@@ -13440,7 +13441,7 @@ Mods: {
 				DisplayName: Pure Kindness
 				Tooltip:
 					'''
-					It looks like she borrow this from a art gallery.
+					It looks like she borrow this from a art gallery
 
 					'''
 			}
@@ -13471,7 +13472,7 @@ Mods: {
 
 			NatsukiPainting: {
 				DisplayName: Natsuki Painting
-				Tooltip: It looks too cute.
+				Tooltip: It looks too cute
 			}
 
 			OtaeGaze: {
@@ -13487,26 +13488,26 @@ Mods: {
 					'Maybe we are far from being saved but there is still hope'
 					'There can be one built from all other perfect pieces'
 					'There can be one that have only happy moments'
-					'I will always on your side [c/FF0000:Mother] for bringing the E.N.D.'
+					'I will always on your side [c/FF0000:Mother] for bringing the E.N.D'
 					'When you <right>it's tile it will show you a secret at a cost of 5 ectoplasm'
 					'''
 			}
 
 			PlantSeed: {
 				DisplayName: Overgreen Seed
-				Tooltip: "'Its cells are full of chlorophyte.'"
+				Tooltip: "'Its cells are full of chlorophyte'"
 			}
 
 			PortraitofHappyDemon: {
 				DisplayName: Portrait of a Happy Demon
-				Tooltip: It looks too cute.
+				Tooltip: It looks too cute
 			}
 
 			PortraitofMary: {
 				DisplayName: Pure Happiness
 				Tooltip:
 					'''
-					It looks like she borrow this from a art gallery.
+					It looks like she borrow this from a art gallery
 
 					'''
 			}
@@ -13543,12 +13544,12 @@ Mods: {
 
 			SayoriPainting: {
 				DisplayName: Sayori Painting
-				Tooltip: It looks too cute.
+				Tooltip: It looks too cute
 			}
 
 			ScreamingSkeletonPainting: {
 				DisplayName: Screaming Skeleton Painting
-				Tooltip: Even looking at it makes you feel you are hearing echo from dungeon.
+				Tooltip: Even looking at it makes you feel you are hearing echo from dungeon
 			}
 
 			SenkoPainting1: {
@@ -13556,7 +13557,7 @@ Mods: {
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC.
+					It can change it's form by RC
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -13566,7 +13567,7 @@ Mods: {
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC.
+					It can change it's form by RC
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -13576,7 +13577,7 @@ Mods: {
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC.
+					It can change it's form by RC
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -13586,7 +13587,7 @@ Mods: {
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC.
+					It can change it's form by RC
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -13672,56 +13673,56 @@ Mods: {
 			}
 
 			Ambrosia: {
-				DisplayName: Ambrosia
+				DisplayName: 仙酿
 				Tooltip:
 					'''
-					'Small cheer and great welcome makes a merry feast'
-					[c/FF0000:-ALCOHOL-]
-					Player gain 20% chance to take a lethal hit and survive by 1 hp and 25% wing time + jump height
-					Player lose 10% DR + 5% crit chance
+					'小小的欢呼和热烈的欢迎构成了一场欢乐的盛宴'
+					[c/FF0000:-酒-]
+					有20%的几率在受到致命一击时仅剩余1点生命值而存活下来，增加 25% 飞行时间和跳跃高度
+					减少 10% 伤害减免和 5% 暴击率
 					'''
 			}
 
 			Mead: {
-				DisplayName: Mead
+				DisplayName: 蜜酒
 				Tooltip:
 					'''
-					'Stuff your bellies at the feast!'
-					[c/FF0000:-ALCOHOL-]
-					Gives 15% increased mining speed + extended rage buffs but cause 10% less damage + movement speed
+					'在盛宴上填饱肚子！'
+					[c/FF0000:-酒-]
+					增加 15% 挖矿速度，延长怒气、暴怒、狂暴、北欧狂怒、复仇者增益的持续时间，但减少 10% 伤害和移动速度
 					'''
 			}
 
 			OldTimeyRootBeer: {
-				DisplayName: Old Timey Root Beer
+				DisplayName: 老根啤酒
 				Tooltip:
 					'''
-					'Goes well with cherry pie'
-					[c/FF0000:-ALCOHOL-]
-					Each time player takes damage every active player cover hp by 5 and every friendly npc on screen cover by 20
-					Vanilla hearts will heal additionally 5 more life
-					Each vanilla buff effect except this one will fade twice faster and players DR decrease by 10%
+					'与樱桃派很搭'
+					[c/FF0000:-酒-]
+					受到伤害时每个玩家恢复 5 点生命值，每个友好NPC恢复 20 点
+					红心额外恢复5点生命值
+					原版增益的持续时间减半，减少 10% 伤害减免
 					'''
 			}
 
 			Soju: {
-				DisplayName: Soju
+				DisplayName: 烧酒
 				Tooltip:
 					'''
-					'A traditional drink being prepared inside of a cauldron'
-					[c/FF0000:-ALCOHOL-]
-					Dodge chance has been increased by 5% but DR has been decreased by 5%
+					'在大锅里准备的传统饮料'
+					[c/FF0000:-酒-]
+					增加 5% 闪避几率，减少 5% 伤害减免
 					'''
 			}
 
 			Vodka: {
-				DisplayName: Vodka
+				DisplayName: 伏特加
 				Tooltip:
 					'''
 					'Rush B'
-					[c/FF0000:-ALCOHOL-]
-					Gain immunity against chilled and frozen debuffs + increases harvesting and construction based stats
-					While under its effect player loses 6 defense + have a chance to lose its aerobic balance and get a momentum loss
+					[c/FF0000:-酒-]
+					免疫冷冻和冰冻，提高收获和建造效率
+					效果持续期间，减少 6 点防御，有一定几率丧失运动平衡并降低移动能力
 					'''
 			}
 
@@ -13736,380 +13737,380 @@ Mods: {
 			}
 
 			BarkSkinPotion: {
-				DisplayName: Bark Skin药水
+				DisplayName: 树皮药水
 				Tooltip:
 					'''
-					'Thankfully growing root is not included in side effects'
-					While its buff is active when you take damage you get barkskin effect buff which increase DR for 15%
-					This effect last 8 second and after that you get 20 second of cooldown for that effect to activate again
+					'谢天谢地，生根不包括在副作用中'
+					受到伤害时，激活树皮防御，增加 15% 伤害减免，持续 8 秒
+					此能力有20秒冷却时间
 					'''
 			}
 
 			BeetJuice: {
-				DisplayName: Beet the Heat Juice
+				DisplayName: 甜菜汁
 				Tooltip:
 					'''
-					'ROW ROW FIGHT THE POWER'
-					'It will allow you to dash for a short distance'
-					'If you equip any dashing accessory this buff will give priority to them'
+					'呜呼，冲冲冲！'
+					可以短距离冲刺
+					优先使用装备的冲刺饰品
 					'''
 			}
 
 			BloodCandy: {
-				DisplayName: Blood Candy
+				DisplayName: 渴血糖果
 				Tooltip:
 					'''
-					'As soft as human meat'
-					Consuming it will increase true melee speed by 5% + true melee critical hits will heal player by 1
+					'像人的肉一样柔软'
+					提高 5% 真近战攻速，真近战暴击恢复 1 点生命值
 					'''
 			}
 
 			BottledFlaxOil: {
-				DisplayName: Bottled Flax Oil
+				DisplayName: 亚麻油壶
 				Tooltip:
 					'''
-					'Gravity is a harness'
-					It will allow you to float in water and rainy day along with nimbus rain and rain cloud tile rain
+					'重力是一种工具'
+					在水面和雨云块上漂浮
 					'''
 			}
 
 			CarrotJuice: {
-				DisplayName: Carrot Juice
+				DisplayName: 胡萝卜汁
 				Tooltip:
 					'''
-					'Carrots are devine... You get a dozen for a dime, It's maaaa-gic!'
-					'It will increase jumping speed and fall distance'
+					'胡萝卜汁太好了……你一毛钱就能得到一打，太神奇了！'
+					增加跳跃速度和坠落距离
 					'''
 			}
 
 			Cepelinai: {
-				DisplayName: Cepelinai
+				DisplayName: 立陶宛饺子
 				Tooltip:
 					'''
-					'Don't let the fear of falling keep you from flying'
-					Increases flight time by 10% + player gain immunity to decreased gravity change
-					Jump height increases by 50%
-					While in airborne player gain 5 defense
+					'不要因为害怕摔倒而放弃飞行'
+					增加 10% 飞行时间，免疫重力颠倒
+					增加 50% 跳跃高度
+					在空中时，获得 5 防御
 					'''
 			}
 
 			Chocolate: {
-				DisplayName: Chocolate
+				DisplayName: 巧克力
 				Tooltip:
 					'''
-					'Did someone said chocolate?'
-					'Consuming it will give immunity to psychological + chilled debuffs'
+					'是不是有人在说巧克力？'
+					免疫困惑、减缓、虚弱、沉默、恐惧和冷冻
 					'''
 			}
 
 			ClamityPotion: {
-				DisplayName: Clam-ity药水
+				DisplayName: 灾-厄药水
 				Tooltip:
 					'''
-					'Completely unique experience but sadly worms are not included'
+					'相当独特的体验，但遗憾的是不包括蠕虫'
 					[i:2625][i:29][i:267]
 					'''
 			}
 
 			CoronaPotion: {
-				DisplayName: Corona药水
+				DisplayName: 日冕药水
 				Tooltip:
 					'''
-					'I burn! Can't hold me now'
-					Inflicts on fire to enemies that are close to you
+					'我燃烧着！无法控制自己'
+					点燃靠近的敌人
 					'''
 			}
 
 			DragonheartElixir: {
-				DisplayName: Dragonheart Elixir
+				DisplayName: 龙心万能药
 				Tooltip:
 					'''
-					'I laid low your warriors of old. I instilled terror in the hearts of men'
-					Player gain immunity against on fire, 霜冻 and chilled debuffs
-					Player gain aura that curses close enemies along with giving them true DoT
-					All of players attacks will inflict inferno
-					While under the effect of Dragonheart player cannot drink warmth, inferno or corona药水 or their buff
+					'我压制了你，古老的战士。我在人们的心中注入了恐惧'
+					免疫着火、霜冻、冷冻
+					对附近的敌人施加诅咒，造成持续伤害
+					所有攻击都会施加狱火
+					不能和保暖、狱火或日冕药水同时使用
 					'''
 			}
 
 			EasternSoup: {
-				DisplayName: Eastern Soup
+				DisplayName: 臭豆腐汤
 				Tooltip:
 					'''
-					'TW: Disgusting shit for a normal human being'
-					'Still its taste covers the smell and continues to be the favorite food of an elegant soul'
-					Consuming it will give you well fed and stinky for 8 minutes + random vanilla or afkpets buff for 4 minute
+					'对于普通人来说，这是一堆令人作呕的垃圾'
+					'但它的味道掩盖了臭味，仍然是优雅灵魂的最爱'
+					使用后获得 8 分钟的吃得好和恶臭，以及 4 分钟的随机增益
 					'''
 			}
 
 			EndlessCookiePouch: {
-				DisplayName: Endless Cookie Pouch
+				DisplayName: 无尽饼干袋
 				Tooltip:
 					'''
-					'A friend is someone to share the last cookie with'
-					It contains endless amount of cookies to eat
-					Upon being consumed it increase player javelin and bat charge speed by 10% along with giving immunity to being slowed
+					'朋友是愿意与你分享最后一块饼干的人'
+					它包含无穷无尽的饼干供你享用
+					使用后，增加 10% 标枪和球棒的蓄力速度，免疫缓慢
 					'''
 			}
 
 			FarmingPotion: {
-				DisplayName: Farming药水
+				DisplayName: 农夫药水
 				Tooltip:
 					'''
-					'Increases Efficiency by I'
-					'Efficiency stat will increase the collection rate of the plants + hay when any harvester tool will be used'
+					增加 I 效率
+					效率属性会提升使用工具收割植物和干草时的采集速度
 					'''
 			}
 
 			GFuel: {
-				DisplayName: G-Fuel
+				DisplayName: 电竞功能饮料
 				Tooltip:
 					'''
-					'G UP!'
-					Upon consumption calls the absolute gamer unit to show his melee skills
-					Each consumption empower chad + after certain consumption chad gets level up and gain new ability
-					It become consumable after it have less than 4 second duration or else may cause overdose
-					Each use increase addiction + losing it without any medicine could increase radioactive toxins in blood exponentially
+					'赢！'
+					使用后召唤游戏玩家，近战攻击你的敌人
+					每次使用都使游戏玩家更加强大，在达到一定次数后，游戏玩家会升级并获得新技能
+					当持续时间少于4秒时，它成为可消耗品，否则可能导致过量
+					每次使用都会增加上瘾程度，如果没有及时饮用，血液中的放射性毒素可能会指数级增长
 					'''
 			}
 
 			GlowBerryMousse: {
-				DisplayName: Glow Berry Mousse
+				DisplayName: 光莓奶油冻
 				Tooltip:
 					'''
-					'Will my insides light up if I eat it?'
-					Consuming it will make you emit strong light and enemies near you get inflicted with bioluminescence
+					'如果我吃了它，我的内脏会发光吗？'
+					使用后获得强烈发光能力，伤害附近的敌人
 					'''
 			}
 
 			IroncladPotion: {
-				DisplayName: Ironclad药水
+				DisplayName: 铁甲药水
 				Tooltip:
 					'''
-					'Many Fall In The Face Of Chaos, But Not This One. Not Today'
-					Defense increase by 10 along with player gain immunity against knockback and mighty wind
-					While under the effect of ironclad player cannot drink ironskin药水 or have ironskin buff
+					'许多人在混乱中倒下，但这次不会，最少不是今天'
+					增加 10 防御，免疫击退和强风
+					无法和铁皮药水同时使用
 					'''
 			}
 
 			JumpmansMightyBrew: {
-				DisplayName: Jumpman's Mighty Brew
+				DisplayName: 飞人私酿
 				Tooltip:
 					'''
-					'Hui hew! Just what I needed!'
-					'You gain ability to bounce on enemies'
+					'嘿！这正是我所需要的！'
+					获得在敌人身上反弹的能力
 					'''
 			}
 
 			KheprisSacrificialElixir: {
-				DisplayName: Khepri's Sacrificial Elixir
+				DisplayName: 凯普里的祭祀灵药
 				Tooltip:
 					'''
-					'Magic infused药水 once being used by the tribal that live in the temple long time ago'
-					'Taking damage will restore 100 mana and sigil of scarabs will protect you'
+					'充满魔力药水 很久以前就被住在神庙里的部落使用过'
+					受到伤害会恢复 100 魔力，圣甲虫会保护你
 					'''
 			}
 
 			LeafLoversBrew: {
-				DisplayName: Leaf Lovers Brew
+				DisplayName: 环保主义者私酿
 				Tooltip:
 					'''
-					'Something only an elf could keep down'
-					Increase effectiveness of dryad's blessing
-					Gives immunity against afk pets or vanilla alcohol based buffs
-					Killing enemies explode into poisonous leaves
+					'只有精灵才能忍受的东西'
+					提高树妖祝福的效果
+					免疫原版和本模组的酒类减益
+					击杀的敌人会爆炸成毒叶
 					'''
 			}
 
 			NullSoup: {
-				DisplayName: Null Soup
+				DisplayName: 空汤
 				Tooltip:
 					'''
-					'Refreshing drink full of protein so swallow it all'
-					Makes your sword much thicker and its loads juicier
-					Side effects contain slight suffotication due to its immense concentration
+					'充满蛋白质的清新饮品，所以一口吞下吧'
+					使你的剑更加厚实，而且汁液丰富
+					副作用包括因浓度过高而产生的轻微窒息感
 					'''
 			}
 
 			PhantomBloodPotion: {
-				DisplayName: Phantom Blood药水
+				DisplayName: 幻血药水
 				Tooltip:
 					'''
-					Consuming it will teleport you to your death location
-					It become usable after players death location show is active and it disable death location show after being used
+					使用后将你传送到死亡地点
+					在地图上有死亡地点显示时，此药水才可使用，使用后取消死亡地点显示
 					'''
 			}
 
 			RedBullPotion: {
-				DisplayName: Red Bull药水
+				DisplayName: 红牛药水
 				Tooltip: ""
 			}
 
 			ShrimplifiedBrew: {
-				DisplayName: Shrimplified Brew
+				DisplayName: 极简私酿
 				Tooltip:
 					'''
-					'Despite looking shrimple its not as simple'
+					'尽管它看起来简单，但并不简单'
 					[i:2316][i:29][i:267]
 					'''
 			}
 
 			SoyMilk: {
-				DisplayName: Soy Milk
+				DisplayName: 豆浆
 				Tooltip:
 					'''
-					'No Calcium?'
-					DMG down + speed way up
+					'缺钙？'
+					减少 45% 伤害，增加 100% 速度
 					'''
 			}
 
 			StarSealerPotion: {
-				DisplayName: Star Sealer药水
+				DisplayName: 星术药水
 				Tooltip:
 					'''
-					Taking damage will cause stars to fall
-					When star cloak or any of its upgrades have been equipped it will instead empower the falling stars
+					受到伤害召唤坠星
+					当装备星星斗篷及其上位时，会增加坠星的伤害
 					'''
 			}
 
 			StinguardPotion: {
-				DisplayName: Stinguard药水
+				DisplayName: 松木药水
 				Tooltip:
 					'''
-					'Caution, may contain small strings'
-					Standing still causes growth of pine branches which deal damage and increase defensive stats
-					Player gain immunity against knockback and taking damage activates barkskin effect
-					If this activation happen via contact damage attacker take tripple damage back
+					'警告，可能含有小字符串'
+					静止不动时向周围松树叶，造成伤害并增加防御
+					免疫击退，受到伤害时触发树皮增益
+					受到接触伤害时，攻击者受到三倍返回伤害
 					'''
 			}
 
 			SusyBrew: {
-				DisplayName: Susy Brew
+				DisplayName: 狼人伪装药水
 				Tooltip: ""
 			}
 
 			Trailmix: {
-				DisplayName: Trailmix
+				DisplayName: 不明混合物
 				Tooltip:
 					'''
-					'Is this M&M's with obstacles?'
-					Consuming it will give you random vanilla or afkpets buff for 4 minute along with giving nutty debuff for 1 minute
-					While having nutty debuff you can't use this item again
+					'这是新款的M&M巧克力豆吗？'
+					使用后获得 4 分钟的随机增益和 1 分钟的疯癫
+					疯癫期间不能再次使用该物品
 					'''
 			}
 
 			VitaPower: {
-				DisplayName: Vita Power
+				DisplayName: 生命之力
 				Tooltip:
 					'''
-					'Vitalizing drink with 500 mg of everything magical'
-					Decreases max mana usage by 10% and increase alcohol resistance by 1
+					'充满活力的饮品，含有500毫克的魔法成分'
+					减少 10% 魔力消耗，增加 1 酒精抗性
 					'''
 			}
 
 			Cookie: {
-				DisplayName: Cookie
+				DisplayName: 饼干
 				Tooltip:
 					'''
-					'It's always best to count your cookies, not your problems'
-					Upon being consumed it increase player javelin and bat charge speed by 10% along with giving immunity to being slowed
+					'多关注积极的事物，而不是困扰和问题'
+					使用后，增加 10% 标枪和球棒的蓄力速度，免疫缓慢
 					'''
 			}
 
 			Beet: {
-				DisplayName: Beet
+				DisplayName: 甜菜
 				Tooltip:
 					'''
-					'Nice to beet you'
-					By consuming it player will get well fed for 4 minute and regeneration for 1 minute
-					Check book of botany for more info
+					'很高兴见到你'
+					使用后获得 4 分钟的吃得好和 1 分钟的再生
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			Carrot: {
-				DisplayName: Carrot
+				DisplayName: 胡萝卜
 				Tooltip:
 					'''
-					'Its used as both currency and food in bunny kingdom'
-					By consuming it player will get well fed for 4 minute and swiftness for 1 minute
-					Check book of botany for more info
+					'它在兔子王国被用作货币和食物'
+					使用后获得 4 分钟的吃得好和 1 分钟的再生
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			GlowBerry: {
-				DisplayName: Glow Berry
+				DisplayName: 光莓
 				Tooltip:
 					'''
-					'A nice light snack'
-					By consuming it player will get well fed for 4 minute and shine for 1 minute
-					Check book of botany for more info
+					'美味的发光小吃'
+					使用后获得 4 分钟的吃得好和 1 分钟的光芒
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			MiracleFruit: {
-				DisplayName: Miracle Fruit
+				DisplayName: 奇迹之果
 				Tooltip:
 					'''
-					[c/FF00FF:Artifact]
-					'Every winter has its spring and every night has its morning'
-					It can be placed to altar of darkness with <right>to its tile while select this item in hotbar or can be consumed by normal use
-					After its placed it will cause the altar to give the enchanted prefix to any chosen stave type magic weapon
-					By enchanting player must <right>to altar of darkness tile while select item to enchant in hotbar
-					If the magic weapon is not a stave it will curse the weapon
-					Press binded info key while this item being selected in hotbar to get more information about the stave magic prefixes
-					Check book of botany for more info
+					[c/FF00FF:祭品]
+					'每个冬天都有春天，每个夜晚都有早晨'
+					在快捷栏选中后，<right>晦暝祭坛将其奉上，也可以直接使用
+					放置祭品后，可以为魔法杖武器附魔特殊词缀
+					在快捷栏选中要附魔的武器，然后<right>晦暝祭坛
+					如果选择的武器不是魔法杖武器，则会受到诅咒
+					按下控件中绑定的隐藏信息键，可以获取更多关于魔法杖武器特殊词缀的信息
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			Potato: {
-				DisplayName: Potato
+				DisplayName: 土豆
 				Tooltip:
 					'''
-					'If you wish to defeat me, you must train for 500 years'
-					By consuming it player will get well fed for 10 minute and ironskin for 1 minute
-					Check book of botany for more info
+					'想打败我，再等500年吧'
+					使用后获得 10 分钟的吃得好和 1 分钟的铁皮
+					查看植物学手册获取更多信息
 					'''
 			}
 
 			CamisCup: {
-				DisplayName: Camila's Mug
+				DisplayName: 卡米拉之杯
 				Tooltip:
 					'''
-					'It is filled with fan tears
-					Acts as water source when favourited inside of inventory
-					Upon drink it will heal player by 30 along with clear vanilla debuffs
+					'它装满了粉丝的眼泪'
+					收藏后可作为水源
+					使用后，恢复玩家30点生命值并清除原版减益
 					'''
 			}
 
 			HornoPlenty: {
-				DisplayName: Horn o' Plenty
-				Tooltip: "'It is filled with the inexhaustible gifts of celebratory fruits."
+				DisplayName: 丰饶号角
+				Tooltip: "'这里充满了取之不尽的庆典水果"
 			}
 
 			RejuvenationGourd: {
-				DisplayName: Rejuvenation Gourd
+				DisplayName: 回春酒壶
 				Tooltip:
 					'''
-					'A relic still being used by the elite samurai of the Akatsuki Clan'
-					[c/FF0000:-ALCOHOL-]
-					Using it will give player gourd vitality buff for 30 second
-					Gourd vitality buff will increase life regen by 1 and DR by 5%
+					'仍被晓族精英武士所使用'
+					[c/FF0000:-酒-]
+					使用后获得活力葫芦增益，持续30秒
+					增加 1 点生命再生和 5% 伤害减免
 					'''
 			}
 
 			SuikasGourd: {
-				DisplayName: Suika's Gourd
+				DisplayName: 苏卡的酒壶
 				Tooltip:
 					'''
-					'Drinking brings out my strongest power!'
-					[c/FF0000:-ALCOHOL-]
-					Acts as water, lava, honey and keg source when favourited inside of inventory
-					Upon drink it clear most vanilla debuffs + give a random alcohol based buff
+					'喝酒能激发我最强大的力量！'
+					[c/FF0000:-酒-]
+					收藏后作为水、蜂蜜、岩浆来源
+					使用后，清除原版和酒类减益
 					'''
 			}
 
 			VoidBottle: {
-				DisplayName: 瓶中虚空
+				DisplayName: 虚空瓶
 				Tooltip:
 					'''
 					抵消减益并获得1分钟耐药性
@@ -14122,7 +14123,7 @@ Mods: {
 				DisplayName:  趣味徽章
 				Tooltip:
 					'''
-					'就连现实也在微笑.'
+					'就连现实也在微笑'
 					使用它将激活或关闭趣味模式
 					有BOSS存在时无法激活或关闭趣味模式
 					在趣味模式下，BOSS获得新的攻击方式
@@ -14135,10 +14136,10 @@ Mods: {
 				DisplayName: 幸运红帽
 				Tooltip:
 					'''
-					'它曾经形成，然后被亘古领主保佑.'
-					'甚至它还戴着一顶红帽子.'
-					放在物品栏中会让其他npc成为爱好者并记住亘古领主.
-					放在物品栏中时，进入世界会听到传奇的介绍.
+					'它曾经形成，然后被亘古领主保佑'
+					'甚至它还戴着一顶红帽子'
+					放在物品栏中会让其他npc成为爱好者并记住亘古领主
+					放在物品栏中时，进入世界会听到传奇的介绍
 					'''
 			}
 
@@ -14146,8 +14147,8 @@ Mods: {
 				DisplayName: 水晶镜
 				Tooltip:
 					'''
-					'这是执行判决的完美工具.'
-					'当罪人映照在镜子里时，镜子反映的是他过去的所有行为.'
+					'这是执行判决的完美工具'
+					'当罪人映照在镜子里时，镜子反映的是他过去的所有行为'
 					手持时仆从增加5%的伤害并用圣焰来审判罪人
 					'''
 			}
@@ -14171,7 +14172,7 @@ Mods: {
 			}
 
 			EasternMedicine: {
-				DisplayName: 医药框
+				DisplayName: 草药篓
 				Tooltip:
 					'''
 					'一种由古代文明的智慧发展起来的医学'
@@ -14190,9 +14191,9 @@ Mods: {
 				Tooltip:
 					'''
 					'财富，但回报是什么?'
-					'向导看起来很无辜???'
+					'???觉得向导很无辜'
 					牺牲也可以通过向导巫毒娃娃和使用这个物品来完成，如果物品栏没有向导巫毒娃娃会立刻死亡
-					Maybe with [c/FF1493:joy]...
+					Maybe with [c/FF1493:joy]……
 					'''
 			}
 
@@ -14249,9 +14250,9 @@ Mods: {
 				DisplayName: 心灵洁净
 				Tooltip:
 					'''
-					'它曾经是由亘古领主的善意形成的.'
-					'她仍然关心她的国家，想要保护子民.'
-					使用时领主祝福你的灵魂4秒，但有1分钟的冷却时间。
+					'它曾经是由亘古领主的善意形成的'
+					'她仍然关心她的国家，想要保护子民'
+					使用时领主祝福你的灵魂4秒，但有1分钟的冷却时间
 					祝福会反弹投射物，稍微增加生命回复
 					[c/ffff00:趣味模式专属物品]
 					'''
@@ -14273,7 +14274,7 @@ Mods: {
 					'''
 					'你并不孤单'
 					手持此符文时，使用左键来使用它
-					所有原版宠物跟随你，使用右键来禁用它.
+					所有原版宠物跟随你，使用右键来禁用它
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -14282,7 +14283,7 @@ Mods: {
 				DisplayName: 门钥匙
 				Tooltip:
 					'''
-					'它看起来是修好了.'
+					'它看起来是修好了'
 					觉得世界在旋转
 					'''
 			}
@@ -14300,7 +14301,7 @@ Mods: {
 				DisplayName: 模拟染料
 				Tooltip:
 					'''
-					'它的颜色似乎会随着加入的化学物质而改变.'
+					'它的颜色似乎会随着加入的化学物质而改变'
 					使用时会变成物品栏中排序第一的原版染料
 					'''
 			}
@@ -14331,7 +14332,7 @@ Mods: {
 				Tooltip:
 					'''
 					'从外面看很安全，但里面…'
-					当月亮变成红色的时候，[c/FF1493:快乐的人]需要牺牲???
+					当月亮被???染红，[c/FF1493:快乐的人]需要牺牲
 					'''
 			}
 
@@ -14379,34 +14380,34 @@ Mods: {
 			}
 
 			RuneofKaunaz: {
-				DisplayName: Kaunaz符文
+				DisplayName: 卡纳兹符文
 				Tooltip:
 					'''
-					'愿你的灵魂与火之愤怒相结合.'
+					'愿你的灵魂与火之愤怒相结合'
 					放在物品栏中武器造成火焰伤害并给予暴怒增益
 					'''
 			}
 
 			RuneofLaguz: {
-				DisplayName: Laguz符文
+				DisplayName: 拉古斯符文
 				Tooltip: "'它可能会影响云层'"
 			}
 
 			RuneofSowulo: {
-				DisplayName: Sowulo符文
+				DisplayName: 苏鲁纳符文
 				Tooltip:
 					'''
 					'它所包含的力量可能会引起某人的注意'
-					召唤符文巫师
+					使用后召唤符文巫师
 					'''
 			}
 
 			RuneofWunjo: {
-				DisplayName: Wunjo符文
+				DisplayName: 温约符文
 				Tooltip:
 					'''
 					它集中于我妻由乃的[c/FF1493:喜悦]
-					它还在一遍又一遍地低语着Yuki的名字.
+					它还在一遍又一遍地低语着Yuki的名字
 					'''
 			}
 
@@ -14426,17 +14427,17 @@ Mods: {
 
 			ShatteredSoul: {
 				DisplayName: 弱小的魂灵
-				Tooltip: "'它是由堕落者的善良和纯真形成的.'"
+				Tooltip: "'它是由堕落者的善良和纯真形成的'"
 			}
 
 			StoneofSol: {
 				DisplayName: 沙尘混合物
 				Tooltip:
 					'''
-					'它曾经是由魔术师用太阳的火焰形成的.'
-					你可以通过使用它来启用或禁用沙尘暴.
+					'它曾经是由魔术师用太阳的火焰形成的'
+					你可以通过使用它来启用或禁用沙尘暴
 					装备时，你将免疫着火了和强风的减益
-					'受到伤害时，你有概率喷发火焰，当你的生命值低于50%时，狱火增益会激活.'
+					受到伤害时，你有概率喷发火焰，当你的生命值低于50%时，激活狱火增益
 					'''
 			}
 
@@ -14444,7 +14445,7 @@ Mods: {
 				DisplayName: 瓶中星系（不理解什么碎片，以后测试）
 				Tooltip:
 					'''
-					'里面充满了古代恒星的残骸.'
+					'里面充满了古代恒星的残骸'
 					'它看起来既漂亮又强大'
 					使用它将使你通过吸取碎片能量或失去吸取碎片能量
 					'''
@@ -14598,7 +14599,7 @@ Mods: {
 				DisplayName: 沙滩精华
 				Tooltip:
 					'''
-					'夏日时光，夏日时光...'
+					'夏日时光，夏日时光……'
 					收藏后将周围生物群系视为沙滩（海洋）
 					'''
 			}
@@ -14607,7 +14608,7 @@ Mods: {
 				DisplayName: 太空精华
 				Tooltip:
 					'''
-					'数星星...'
+					'数星星……'
 					收藏后将周围生物群系视为太空
 					'''
 			}
@@ -14616,7 +14617,7 @@ Mods: {
 				DisplayName: 腐化精华
 				Tooltip:
 					'''
-					'幽灵尾随着黑夜...'
+					'幽灵尾随着黑夜……'
 					收藏后将周围生物群系视为腐化
 					'''
 			}
@@ -14625,7 +14626,7 @@ Mods: {
 				DisplayName: 猩红精华
 				Tooltip:
 					'''
-					'血腥奉献...'
+					'血腥奉献……'
 					收藏后将周围生物群系视为猩红
 					'''
 			}
@@ -14634,7 +14635,7 @@ Mods: {
 				DisplayName: 地狱精华
 				Tooltip:
 					'''
-					'恶魔追求...'
+					'恶魔追求……'
 					收藏后将周围生物群系视为地狱
 					'''
 			}
@@ -14643,7 +14644,7 @@ Mods: {
 				DisplayName: 沙漠精华
 				Tooltip:
 					'''
-					'海市蜃楼...'
+					'海市蜃楼……'
 					收藏后将周围生物群系视为沙漠
 					'''
 			}
@@ -14652,7 +14653,7 @@ Mods: {
 				DisplayName: 地牢精华
 				Tooltip:
 					'''
-					'恐怖骷髅...'
+					'恐怖骷髅……'
 					收藏后将周围环境视为地牢
 					'''
 			}
@@ -14671,7 +14672,7 @@ Mods: {
 				DisplayName: 夜光蘑菇精华
 				Tooltip:
 					'''
-					'生生不息...'
+					'生生不息……'
 					收藏后将周围生物群系视为夜光蘑菇
 					'''
 			}
@@ -14680,7 +14681,7 @@ Mods: {
 				DisplayName: 神圣精华
 				Tooltip:
 					'''
-					'心之所在...'
+					'心之所在……'
 					收藏后将周围生物群系视为神圣
 					'''
 			}
@@ -14689,7 +14690,7 @@ Mods: {
 				DisplayName: 丛林精华
 				Tooltip:
 					'''
-					'虎视眈眈...'
+					'虎视眈眈……'
 					收藏后将周围生物群系视为丛林
 					'''
 			}
@@ -14698,7 +14699,7 @@ Mods: {
 				DisplayName: 元素精华
 				Tooltip:
 					'''
-					'一千棵樱桃树...'
+					'一千棵樱桃树……'
 					收藏后将周围视为下位所有加成
 					'''
 			}
@@ -14707,7 +14708,7 @@ Mods: {
 				DisplayName: 雪原精华
 				Tooltip:
 					'''
-					'在山王殿里...'
+					'在山王殿里……'
 					收藏后将周围生物群系视为冰雪
 					'''
 			}
@@ -14774,7 +14775,7 @@ Mods: {
 				DisplayName: 岩浆粉粹者
 				Tooltip:
 					'''
-					'你破坏了我们的协议...现在轮到我来打碎你了！！！'
+					'你破坏了我们的协议……现在轮到我来打碎你了！！！'
 					破坏墙壁可以治疗并增强玩家
 					免疫爆炸、火块和岩浆
 					猛击地面会引起火焰，暴击获得狱火增益
@@ -14991,7 +14992,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/FF1CAE:来自汉化的测试结果：汉化可能无法使用这个命令，一是很多维基国内打不开，二是很多维基没有中文]
-					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识.'
+					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识'
 					使用此条目将在调整后的wiki中搜索调整后的词语
 					调整词语使用'/searchwiki[要搜索的东西]
 					调整维基使用”/adjustwiki[关键词]
@@ -15001,7 +15002,7 @@ Mods: {
 					然后使用该项目将打开泰拉瑞亚维基的网页浏览器
 					如果你搜索的词语找不到，它会把它放到搜索页面，并显示结果
 					它调整了原版泰拉瑞亚维基作为默认值，玩家需要调整维基，在不同的维基中搜索。
-					它会记住调整后的维基和词语，直到玩家用命令调整它们.
+					它会记住调整后的维基和词语，直到玩家用命令调整它们
 					'''
 			}
 
@@ -15039,7 +15040,7 @@ Mods: {
 					'''
 					拿着它的时候，可以让你打开原版带锁的箱子
 					击败骷髅王后可以打开带锁的金箱
-					击败史莱姆最后的希望后，可以打开带锁的暗影箱
+					击败史莱姆复仇联盟后，可以打开带锁的暗影箱
 					击败世纪之花后，允许你打开各种生物群落箱
 					如果你的物品栏中有箱子钥匙，则优先使用其他钥匙
 					打开每个带锁的箱子会消耗魔力水晶而不是钥匙。
@@ -15048,7 +15049,7 @@ Mods: {
 
 			DarkMirror: {
 				DisplayName: 暗黑魔镜
-				Tooltip: "'魔镜让你传送地图的不同地方.'"
+				Tooltip: "'魔镜让你传送地图的不同地方'"
 			}
 
 			DataBit: {
@@ -15266,7 +15267,7 @@ Mods: {
 				DisplayName: 灵魂守护者
 				Tooltip:
 					'''
-					'你会感觉到内心的某种力量变得更强大了.'
+					'你感到内心的某种力量变得更强大了'
 					放在物品栏中重生冷却时间减少25%
 					这会覆盖其他更快的重生方法
 					'''
@@ -15296,7 +15297,7 @@ Mods: {
 				Tooltip:
 					'''
 					你可能是这个宇宙中第一个使用这把枪的人
-					使用时，它会召唤一个传送门，生成当前入住需要达成的城镇npc.
+					使用时，它会召唤一个传送门，生成当前入住需要达成的城镇npc
 					这个传送门在光标处生成，如果所有的城镇npc都在场，它会召唤兔子
 					它需要次元能量胶囊作为弹药
 					'''
@@ -15330,7 +15331,7 @@ Mods: {
 
 			SkullCrystal: {
 				DisplayName: 水晶头骨（占位符）
-				Tooltip: "'It returns you where your end was.'"
+				Tooltip: "'It returns you where your end was'"
 			}
 
 			SmokePellet: {
@@ -15347,9 +15348,9 @@ Mods: {
 				DisplayName: 童话故事书
 				Tooltip:
 					'''
-					它充满了幸福结局和公主与勇者的故事.
-					它让你觉得每个好人都会有好朋友.
-					放在物品栏中召唤一个以上的宠物.
+					它充满了幸福结局和公主与勇者的故事
+					它让你觉得每个好人都会有好朋友
+					放在物品栏中召唤一个以上的宠物
 					'''
 			}
 
@@ -15379,7 +15380,7 @@ Mods: {
 					'''
 					'它曾经是由月亮能量和力量形成的'
 					使用它会将您的月亮更改为自定义类型。
-					重启游戏时，重置原版月亮的类型.
+					重启游戏时，重置原版月亮的类型
 					'''
 			}
 
@@ -15389,7 +15390,7 @@ Mods: {
 					'''
 					'它曾经是由太阳能量和力量形成的'
 					使用它会将的太阳更改为自定义类型。
-					重启游戏时，重置原版太阳的类型.
+					重启游戏时，重置原版太阳的类型
 					'''
 			}
 
@@ -15409,7 +15410,7 @@ Mods: {
 
 			BloodSeekerPickaxe: {
 				DisplayName: 寻血稿
-				Tooltip: 用愚蠢之人的血喂养我，否则...
+				Tooltip: 用愚蠢之人的血喂养我，否则……
 			}
 
 			BrokenHeroPickaxe: {
@@ -15736,8 +15737,8 @@ Mods: {
 				DisplayName: Frozen Watch
 				Tooltip:
 					'''
-					'Let it go...'
-					Upon being held shows time + using it may paint the night white...
+					'Let it go……'
+					Upon being held shows time + using it may paint the night white……
 					Changes state of festive moon with 20 second cooldown
 					'''
 			}
@@ -15764,8 +15765,8 @@ Mods: {
 				DisplayName: Harvest Watch
 				Tooltip:
 					'''
-					'The fire within pumpkins burn eternal and now you shall feel...'
-					Upon being held shows time + using it may paint the night blood orange...
+					'The fire within pumpkins burn eternal and now you shall feel……'
+					Upon being held shows time + using it may paint the night blood orange……
 					Changes state of festive moon with 20 second cooldown
 					'''
 			}
@@ -15775,7 +15776,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Let there be blood'
-					Upon being held shows time + using it may paint the night red...
+					Upon being held shows time + using it may paint the night red……
 					Changes state of blood moon with 20 second cooldown
 					'''
 			}
@@ -15796,7 +15797,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Can you see a resonance stronger than darkness now?'
-					Upon being held shows time + using it may paint the day black...
+					Upon being held shows time + using it may paint the day black……
 					Changes state of sun with 20 second cooldown
 					'''
 			}
@@ -16113,7 +16114,7 @@ Mods: {
 				DisplayName: Kleidiphilic面具
 				Tooltip:
 					'''
-					'我能听见你...在呼吸'
+					'我能听见你……在呼吸'
 					右键装备物品，左键栏位回收
 					装备后玩家的负生命回复会以真实伤害的形式反弹给屏幕中的每一个敌人
 					真实伤害数值等于负生命回复的值乘以2
@@ -17108,7 +17109,7 @@ Mods: {
 			}
 
 			PoliticianSlimesMajesticHair: {
-				DisplayName: 政客史莱姆的帽子
+				DisplayName: 史莱姆总统的帽子
 				Tooltip: ""
 			}
 
@@ -17382,7 +17383,7 @@ Mods: {
 				DisplayName: 滚石炸弹
 				Tooltip:
 					'''
-					'他们在看我滚动...'
+					'他们在看我滚动……'
 					这是一种独特的炸弹，它会一直滚动直到碰到墙壁为止
 					'''
 			}
@@ -17634,7 +17635,7 @@ Mods: {
 				DisplayName: 凄凉绽放
 				Tooltip:
 					'''
-					'谈到灵魂之力...'
+					'谈到灵魂之力……'
 					使用后将在玩家周围召唤一圈蝴蝶波纹
 					'''
 			}
@@ -17835,8 +17836,8 @@ Mods: {
 					'''
 					'它将用软绵绵的力量带来永恒的复活节'
 					释放幽灵般的兔子，它们会自动寻向最近的非附身敌人，并造成恐惧效果
-					若幽灵兔与爱心碰撞，它们会在短时间内部分复活，同时玩家也会恢复生命值
-					若幽灵兔与法力星星碰撞，该兔子将变得更强大、更优秀且重焕生机，同时玩家也将获得法力值
+					若幽灵兔与红心碰撞，它们会在短时间内部分复活，同时玩家也会恢复生命值
+					若幽灵兔与魔力星碰撞，该兔子将变得更强大、更优秀且重焕生机，同时玩家也将获得法力值
 					'''
 			}
 
@@ -17930,7 +17931,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/008000:密藏]
-					'虚无，不，这并不是她拥有多少能力的答案...'
+					'虚无，不，这并不是她拥有多少能力的答案……'
 					'''
 			}
 
@@ -17938,7 +17939,7 @@ Mods: {
 				DisplayName: 卷起的报纸
 				Tooltip:
 					'''
-					'虫子...好多虫子...它们无处不在...'
+					'虫子……好多虫子……它们无处不在……'
 					右键投出棒球，左键重击；当重击足够多敌人后，玩家进入狂暴状态
 					左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击
 					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
@@ -17989,7 +17990,7 @@ Mods: {
 				DisplayName: 坚固木制棒球棒
 				Tooltip:
 					'''
-					'接球、扔球、击球...'
+					'接球、扔球、击球……'
 					右键投出棒球，左键重击；当重击足够多敌人后，玩家进入狂暴状态
 					左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击
 					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
@@ -18044,7 +18045,7 @@ Mods: {
 				DisplayName: 提亚-拉
 				Tooltip:
 					'''
-					'沙漠之沙在流动...'
+					'沙漠之沙在流动……'
 					当达到最大飞行距离时，释放沙云，第一次命中引发爆炸，并碎裂成多个小型提亚-拉
 					大型提亚-拉的切割会造成严重流血，小型提亚-拉则会对敌人造成燃烧伤害
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下发动的提亚-拉攻击会在身后留下沙尘暴云
@@ -18058,7 +18059,7 @@ Mods: {
 					'快速且美味'
 					<right>消耗连击数对光标位置造成点击伤害，造成的伤害翻倍
 					持有它时，有机会在你周围生成彩虹饼干，当你击中它们时，会为你提供轻微的治疗效果
-					连击命中会使玩家在接下来2秒内获得“饱腹”状态
+					连击命中会使玩家在接下来2秒内获得饱腹”状态
 					每次攻击都会像点击一样穿透目标防御
 					'''
 			}
@@ -18113,7 +18114,7 @@ Mods: {
 				DisplayName: 厨师手套
 				Tooltip:
 					'''
-					'只有最顶尖的高手才适合佩戴...'
+					'只有最顶尖的高手才适合佩戴……'
 					右键可猛冲，提升伤害和击退力，撞击使敌人爆炸成钾渣
 					当冲刺冷却进入时，右键从地狱厨房扔出菜刀
 					'''
@@ -18182,7 +18183,7 @@ Mods: {
 					'以罪恶之火焚烧敌人的灵魂'
 					[c/FFFF00:左键戳刺]: 击中任何敌人时施加着火，并使它们更容易受到火属性减益的影响
 					持续命中会引发火焰爆炸，暴击有几率召唤一条古老的骨蛇
-					当手持该武器时，玩家将获得防御者增益效果，提高3%的伤害减免并免疫击退
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键蓄力]: 火炬将会灼烧你的敌人，每次命中都将增加8点真实持续伤害，同时诅咒敌人降低其2%的伤害减免
 					满蓄力攻击会使敌人着火并向四周释放火花
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以直接投掷满蓄力的火炬，无需等待蓄力完成
@@ -18209,7 +18210,7 @@ Mods: {
 					'奇怪的是，它的尖端有一些腐烂的肉'
 					[c/FFFF00:左键戳刺]: 攻击会施加出血和中毒
 					持续命中敌人时释放毒气，暴击会施加酸性毒液
-					当手持该武器时，玩家将获得防御者增益效果，提高3%的伤害减免并免疫击退
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键投掷]: 命中时产生闪电，并浸泡在水中时变得更加强大
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的三叉戟
 					'''
@@ -18219,10 +18220,10 @@ Mods: {
 				DisplayName: 第四度烈焰
 				Tooltip:
 					'''
-					'无火焰，不热烈...那还有何乐趣可言？'
+					'无火焰，不热烈……那还有何乐趣可言？'
 					[c/FFFF00:左键戳刺]: 刺击使敌人在恶魔之焰中燃烧，并大幅削弱防御力
 					持续命中会施加狱火，并在周围引发爆炸
-					当手持该武器时，玩家将获得防御者增益效果，提高3%的伤害减免并免疫击退
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键蓄力]: 蓄力后扔出其中一种四骑士风格的标枪，每种标枪都有自己独特的能力
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的长矛
 					'''
@@ -18234,8 +18235,8 @@ Mods: {
 					'''
 					'一抹艳丽的红雾'
 					该武器在操作上，使用右键时保持普通攻击模式；使用左键时则会进行蓄力，当松开左手时，蓄力完成会有声音提示
-					在充能状态下，武器伤害逐步提升，一段时间后达到最大值，并伴有明确的声音反馈.一旦击中敌人，不仅会造成沸腾之血的效果，还能让玩家吸取敌人的生命力
-					[c/FFFF00:按住]: 持有这柄长矛时，玩家会获得防御者增益，提升3%的减伤效果，并免疫所有击退攻击
+					在充能状态下，武器伤害逐步提升，一段时间后达到最大值，并伴有明确的声音反馈，一旦击中敌人，不仅会造成沸腾之血的效果，还能让玩家吸取敌人的生命力
+					[c/FFFF00:按住]: 手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:投掷]: 长矛对敌人造成猛烈的流血和灼烧伤害，每次命中都会额外增加14点真实持续伤害
 					当长矛蓄满能量时，将会释放出深红色光球，在身后形成一道激光。当长矛刺入敌人身体时，它能利用敌人的血液，对附近的敌人发动攻击
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待充能完毕，可以直接投掷已充满能量的长矛
@@ -18268,8 +18269,8 @@ Mods: {
 				DisplayName: 机械骷髅王之臂
 				Tooltip:
 					'''
-					'似乎有人在sigma磨盘上'
-					当玩家持有该武器时它会召唤出四条机械骷髅王之臂 + 使用时近战机械臂会进行攻击，附近有敌人时远程机械臂会自动攻击
+					'似乎有人在为梦想奋斗'
+					当玩家持有该武器时它会召唤出四条机械骷髅王之臂，使用时近战机械臂会进行攻击，附近有敌人时远程机械臂会自动攻击
 					'''
 			}
 
@@ -18309,7 +18310,7 @@ Mods: {
 				DisplayName: 无辜者的破锋灾氓
 				Tooltip:
 					'''
-					'救救我...'
+					'救救我……'
 					攻击有概率造成流血效果
 					'''
 			}
@@ -18318,9 +18319,9 @@ Mods: {
 				DisplayName: 盖亚沙暴双刀
 				Tooltip:
 					'''
-					胜利……这是我的命运...
-					左键使用时作为真近战武器，而右键将化身沙尘卷.
-					沙尘卷将持续3秒，冷却时间为30秒.
+					胜利……这是我的命运……
+					左键使用时作为真近战武器，而右键将化身沙尘卷
+					沙尘卷将持续3秒，冷却时间为30秒
 					'''
 			}
 
@@ -18328,7 +18329,7 @@ Mods: {
 				DisplayName: 全息幻影·Arkhalis
 				Tooltip:
 					'''
-					'即使拿着它也会让你充满希望.'
+					'即使拿着它也会让你充满希望'
 
 					'''
 			}
@@ -18356,8 +18357,8 @@ Mods: {
 				DisplayName: 南瓜弯刀
 				Tooltip:
 					'''
-					'奇怪的是，它锋利得足以切割钛.'
-					'而且你觉得它的魔力越来越强了.'
+					奇怪的是，它锋利得足以切割钛
+					而且你觉得它的魔力越来越强了
 					'''
 			}
 
@@ -18390,7 +18391,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我不会让任何人把我的前辈从我身边夺走!'
-					'别的都不重要，别的都不重要...'
+					'别的都不重要，别的都不重要……'
 					杀死一个敌人会引起血腥的溪流爆炸
 					每第三次攻击投掷长矛，击中敌人后将敌人锁住
 					受到带有爱之锁链的敌人的伤害时，会产生荆棘效果
@@ -18507,9 +18508,9 @@ Mods: {
 				DisplayName: 海军上将的武士刀
 				Tooltip:
 					'''
-					'在临津战争中，李舜臣将军曾用它来保卫自己的国家.'
-					持握这把剑时，将给你的灵魂带来朝鲜王朝的荣耀.
-					攻击有概率让巨北船发射大炮.
+					'在临津战争中，李舜臣将军曾用它来保卫自己的国家'
+					持握这把剑时，将给你的灵魂带来朝鲜王朝的荣耀
+					攻击有概率让巨北船发射大炮
 					'''
 			}
 
@@ -18548,7 +18549,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一把曾经为兔王铸造的象征他力量的传奇宝剑'
-					'尽管它对兔王来说太重了，但你可以轻松地拿着它.'
+					'尽管它对兔王来说太重了，但你可以轻松地拿着它'
 					持有武器将获得额外的跳跃和移动速度提高
 					当这个特殊的跳跃发生时，靠近的敌人会中毒
 					'''
@@ -18760,7 +18761,7 @@ Mods: {
 					'''
 					'让他们尝尝他们对你的子民所做的'
 					攻击会造成霜烧，暴击会增加你的怒气，上限为5
-					右键将允许你愤怒呼喊，并激活北欧愤怒模式
+					右键将允许你愤怒呼喊，并激活北欧狂怒状态
 					每储存一次怒气，持续时间增加1秒，近战速度提高10%，伤害提高5%
 					如果你正在使用这个武器，当这个增益被激活时，你的暴击将造成10%以上的伤害
 					同样，当你怒吼时，你会对近距离的敌人造成恐惧
@@ -18836,8 +18837,8 @@ Mods: {
 				Tooltip:
 					'''
 					'愿他们的灵魂最终得到安宁'
-					暴击有5%的几率掉落水晶徽章
-					水晶徽章免疫大多数原版减益，并获得1秒的无敌时间
+					暴击有5%的几率掉落水晶护身符
+					水晶护身符免疫大多数原版减益，并获得1秒的无敌时间
 					击中敌人会造成阴影火焰
 					如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失
 					'''
@@ -18949,7 +18950,7 @@ Mods: {
 				DisplayName: 阿波罗
 				Tooltip:
 					'''
-					可以把天空中不寻常的物体拉过来...
+					可以把天空中不寻常的物体拉过来……
 					命中敌人可以生成短暂存在的电环
 					'''
 			}
@@ -19024,7 +19025,7 @@ Mods: {
 				DisplayName: 暴风之眼
 				Tooltip:
 					'''
-					'你的灵魂里有一束光...'
+					'你的灵魂里有一束光……'
 					'它仍然在寒冷中闪闪发光。'
 					在溜溜球周围形成风轮刃，伤害敌人
 					注意：溜溜球本身造成的伤害很小
@@ -19055,7 +19056,7 @@ Mods: {
 				DisplayName: 猪鲨悠悠球
 				Tooltip:
 					'''
-					'结束了,公爵，我让海洋涨潮了...'
+					'结束了,公爵，我让海洋涨潮了……'
 					将非boss敌人+投射物拉向溜溜球
 					击中敌人可能会召唤海中的水滴
 					'''
@@ -19090,7 +19091,7 @@ Mods: {
 				DisplayName: 太阳耀斑
 				Tooltip:
 					'''
-					'看来核心仍在继续融合氢.'
+					'看来核心仍在继续融合氢'
 					投掷悠悠球会形成集中的火焰核心，对周围的敌人造成伤害
 					溜溜球暴击将形成炽热爆裂
 					'''
@@ -19101,7 +19102,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我们将会在他们头顶上数星星'
-					投掷悠悠球时会坠落小型陨石，暴击时会发生爆炸.
+					投掷悠悠球时会坠落小型陨石，暴击时会发生爆炸
 					'''
 			}
 
@@ -19118,8 +19119,8 @@ Mods: {
 				DisplayName: 克苏鲁真眼
 				Tooltip:
 					'''
-					'一股新的力量正在崛起，胜利就在眼前....'
-					投掷悠悠球可获得狩猎药水，危险感药水，洞穴探索药水效果，并获得夜视能力.
+					'一股新的力量正在崛起，胜利就在眼前……'
+					投掷悠悠球可获得狩猎药水，危险感药水，洞穴探索药水效果，并获得夜视能力
 					召唤3个仆从之眼围绕着悠悠球旋转，并攻击附近的敌人
 					当玩家靠近悠悠球时会导致数据无法统计
 					'''
@@ -19180,7 +19181,7 @@ Mods: {
 				DisplayName: 终结燃烧者
 				Tooltip:
 					'''
-					'热！热！热...'
+					'热！热！热……'
 					强烈加热箭矢，大幅增加其速度并赋予炽热冲击效果
 					'''
 			}
@@ -19262,7 +19263,7 @@ Mods: {
 				DisplayName: 甜菜追踪者
 				Tooltip:
 					'''
-					'没有什么风暴是我无法承受的...'
+					'没有什么风暴是我无法承受的……'
 					它能够将木箭转化为甜菜箭矢，
 					甜菜箭矢会自动追踪并锁定血量最低的敌人
 					'''
@@ -19634,7 +19635,7 @@ Mods: {
 				DisplayName: 恶作剧之神
 				Tooltip:
 					'''
-					'最终你总会屈膝臣服...'
+					'最终你总会屈膝臣服……'
 					此武器可将火枪转换为带有放射性废料的攻击，对敌人施加化学污染并提供瞄准镜效果
 					非火枪类型的子弹也会被化学物质覆盖
 					武器被动增加当前弹药堆叠，并且玩家瞄准时间越长，子弹造成的伤害越大
@@ -19795,7 +19796,7 @@ Mods: {
 					当玩家持有此枪时，会在光标上方形成一个瞄准标记
 					按住左键时，将在光标方位的进行扇形射击
 					在持枪状态下，有一定几率有紫色头鸭从玩家头顶飞过
-					如果玩家成功击中这些鸭子，它们会掉落一颗灵魂之心，在5秒后破碎，并赋予玩家“猎人狂暴”状态
+					如果玩家成功击中这些鸭子，它们会掉落一颗灵魂之心，在5秒后破碎，并赋予玩家狂暴猎人增益
 					这个增益效果可以强化你的射击威力，并且使你所有枪械攻击都附带恐惧效果
 					'''
 			}
@@ -19815,7 +19816,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这可不是去池塘追蓝鳃鱼或鲈鱼那样简单的事儿'
-					这条鲨鱼...一口就能把你吞下
+					这条鲨鱼……一口就能把你吞下
 					在水中时，它将瞄准最近的敌人，并对Boss和小Boss造成额外15%伤害
 					收藏此物品后，它将不会破坏地形方块
 					'''
@@ -19882,7 +19883,7 @@ Mods: {
 
 			VoidBowl: {
 				DisplayName: 碗中虚无
-				Tooltip: 你感觉到有东西在里面游动...
+				Tooltip: 你感觉有东西在里面游动……
 			}
 
 			YellowSoul: {
@@ -20375,7 +20376,7 @@ Mods: {
 				DisplayName: 伞魂
 				Tooltip:
 					'''
-					'嘞嘞嘞嘞... 啊...'
+					'嘞嘞嘞嘞……啊……'
 					召唤迷你伞妖去舔舐你的对手
 					持有时赋予缓慢降落效果，在墓地内使墓地敌人变为友好状态
 					'''
@@ -20750,7 +20751,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这是为了纪念某个人还是某个无伤挑战者？也许两者都是'
-					手持时召唤光明和黑暗的灵魂为你而战
+					手持时召唤光明和黑暗灵魂为你而战
 					左键使光明灵魂发出神圣的光束
 					当任何敌人靠近玩家时，黑暗灵魂迅速出拳攻击他们。如果一拳击杀任何敌人，他们的灵魂会被收割
 					玩家可以消耗这些灵魂来获得各种增益效果，以及短时间内逃脱死亡
@@ -20817,7 +20818,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一个光子发射装置，被火星侦察兵用于向基地发送行星参数'
-					'讽刺的是，S.A.T.L.A.-001消灭了那些侦察兵以保护其玩具，但只在对他们感觉到愧疚时，才将其停用'
+					'讽刺的是，S.A.T.L.A.-001消灭了那些侦察兵以保护其玩具，但只在对他们感到愧疚时，才将其停用'
 					手持时召唤一个等待你命令的迷你火星飞碟
 					左键发射激光，右键会使它标记离光标最近的模组哨兵，大幅增强其能力和射速
 					飞碟会携带它标记的哨兵，但在携带时，它会发射电击矢
@@ -20964,7 +20965,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:辅助之魂]
-					'你-只有你能拥有其他人所没有的星辰...'
+					'你-只有你能拥有其他人所没有的星辰……'
 					使用时召唤一位星之天使来点亮你的灵魂
 					当一位星之天使在屏幕内时，玩家获得多种赐福，生命值较低时额外获得一个赐福
 					它会周期性地释放星座攻击附近的敌人
@@ -21154,7 +21155,7 @@ Mods: {
 
 			GoldenSafe: {
 				DisplayName: 黄金保险箱
-				Tooltip: "'它是用来储存政客史莱姆的午餐费'"
+				Tooltip: "'它是用来储存史莱姆总统的午餐费'"
 			}
 
 			GonerSeastar: {
@@ -21625,7 +21626,7 @@ Mods: {
 			ArrowCharger.DisplayName: Arrow Charger
 			ArrowHeat.DisplayName: Arrow Heat
 			BadGas4.DisplayName: Bad Gas4
-			BeetArrow.DisplayName: Beet Arrow
+			BeetArrow.DisplayName: 甜菜 Arrow
 			BowLight.DisplayName: Bow Light
 			DrillerArrow.DisplayName: 钻探箭
 			JouleArrow.DisplayName: Joule Arrow
@@ -21671,8 +21672,8 @@ Mods: {
 			BadFlame.DisplayName: Bad Flame
 			BadFrostburnBlizzard.DisplayName: Bad Frostburn Blizzard
 			BadGoldCoin.DisplayName: Bad Gold Coin
-			BadGoldenShuriken.DisplayName: Bad Golden Shuriken
-			BadGoldenShuriken2.DisplayName: Bad Golden Shuriken2
+			BadGoldenShuriken.DisplayName: Bad 金色Shuriken
+			BadGoldenShuriken2.DisplayName: Bad 金色Shuriken2
 			BadHeart.DisplayName: Bad Heart
 			BadHoneyBolt.DisplayName: Bad Honey Bolt
 			BadIceShard.DisplayName: Bad Ice Shard
@@ -21681,7 +21682,7 @@ Mods: {
 			BadNebulaPillar.DisplayName: Bad Nebula Pillar
 			BadNihongo.DisplayName: Bad Nihongo
 			BadPlaneBomb.DisplayName: Bad Plane Bomb
-			BadPoliticianSlimeSlice.DisplayName: Bad 政客史莱姆 Slice
+			BadPoliticianSlimeSlice.DisplayName: Bad 史莱姆总统 Slice
 			BadRedBeam.DisplayName: Bad Red Beam
 			BadShadowBlood.DisplayName: Bad Shadow Blood
 			BadSlimeBall.DisplayName: Bad Slime Ball
@@ -22295,12 +22296,12 @@ Mods: {
 			GoldCoin.DisplayName: Gold Coin
 			GoldCoin2.DisplayName: Gold Coin2
 			GoldDustCloud.DisplayName: Gold Dust Cloud
-			GoldenKunai.DisplayName: Golden Kunai
-			GoldenKunai2.DisplayName: Golden Kunai2
-			GoldenKunai3.DisplayName: Golden Kunai3
-			GoldenSafe.DisplayName: Golden Safe
-			GoldenShowerSummon.DisplayName: Golden Shower Summon
-			GoldenTornado.DisplayName: Golden Tornado
+			GoldenKunai.DisplayName: 金色Kunai
+			GoldenKunai2.DisplayName: 金色Kunai2
+			GoldenKunai3.DisplayName: 金色Kunai3
+			GoldenSafe.DisplayName: 金色Safe
+			GoldenShowerSummon.DisplayName: 金色Shower Summon
+			GoldenTornado.DisplayName: 金色Tornado
 			GoldOreBall.DisplayName: Gold Ore Ball
 			GonerSeastar.DisplayName: Goner Seastar
 			GonerSeastar2.DisplayName: Goner Seastar2
@@ -23093,9 +23094,9 @@ Mods: {
 			PoisonBottle.DisplayName: Poison Bottle
 			PoisonCloud.DisplayName: Poison Cloud
 			PoisonedArrow.DisplayName: 毒箭
-			PoliticianSlimeGel.DisplayName: 政客史莱姆 Gel
-			PoliticianSlimeGelAttack.DisplayName: 政客史莱姆 Gel Attack
-			PoliticianSlimeMinion.DisplayName: 政客史莱姆 Minion
+			PoliticianSlimeGel.DisplayName: 史莱姆总统 Gel
+			PoliticianSlimeGelAttack.DisplayName: 史莱姆总统 Gel Attack
+			PoliticianSlimeMinion.DisplayName: 史莱姆总统 Minion
 			PortBoarderHarpoon.DisplayName: Port Boarder Harpoon
 			PresentExplosion.DisplayName: Present Explosion
 			PresentMagic.DisplayName: Present Magic
@@ -23536,9 +23537,9 @@ Mods: {
 			HarpyFeatherMagic.DisplayName: Harpy Feather Magic
 			GoldKnife2.DisplayName: Gold Knife2
 			GoldKnife.DisplayName: Gold Knife
-			GoldenSting.DisplayName: Golden Sting
-			GoldenShuriken2.DisplayName: Golden Shuriken2
-			GoldenShuriken.DisplayName: Golden Shuriken
+			GoldenSting.DisplayName: 金色Sting
+			GoldenShuriken2.DisplayName: 金色Shuriken2
+			GoldenShuriken.DisplayName: 金色Shuriken
 			GlassCursor.DisplayName: Glass Cursor
 			FrozenFrog.DisplayName: Frozen Frog
 			FrostKnife.DisplayName: Frost Knife
