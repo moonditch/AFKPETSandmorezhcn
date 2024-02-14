@@ -724,8 +724,8 @@ Mods: {
 			NeonEffect.MapEntry: Neon Effect
 			NecromanticAmplifier.MapEntry: Necromantic Amplifier
 			NatsukiPainting.MapEntry: Natsuki Painting
-			MonikaPainting2.MapEntry: Monika Painting2
-			MonikaPainting.MapEntry: Monika Painting
+			MonikaPainting2.MapEntry: 莫妮卡绘画2
+			MonikaPainting.MapEntry: 莫妮卡绘画
 			MoleculerExciter.MapEntry: Moleculer Exciter
 			MidgetEffect.MapEntry: Midget Effect
 			MedamaudeEffect.MapEntry: Medamaude Effect
@@ -8919,14 +8919,14 @@ Mods: {
 			}
 
 			TileScanner: {
-				DisplayName: Tile Scanner
+				DisplayName: 物块扫描仪
 				Tooltip:
 					'''
-					A note attached to its back
-					'Before use please be sure that you are not scanning fumos, their cuteness stage is too high that it may cause permenant damage to the machine'
-					'When you <right>to its tile by holding the item version of the tile it will scan this type in 101x101 area
-					''It will start scan from east to left and top to bottom and when it found one it will show its direction with arrow'
-					'Upon player breaks the shown tile, scan another tile or get too far away(more than 150 tile away) the arrow for that tile will disappear'
+					'附在背面的一张纸条'
+					使用前请确保您没有扫描烟雾，它们的可爱程度太高，可能会对机器造成永久性损坏
+					放置在物块右键时，它会在101x101的区域内扫描
+					它会从东到左，从上到下扫描，当它找到一个，它会用箭头显示它的方向
+					如果破坏了扫描仪，或者另一个扫描仪太远(超过150个物块)，该扫描仪的显示的箭头就会消失
 					'''
 			}
 
@@ -8980,36 +8980,35 @@ Mods: {
 			}
 
 			UnholyArrowShooterStaff: {
-				DisplayName: Spider Eggs
+				DisplayName: 蜘蛛蛋
 				Tooltip:
 					'''
-					'A portable friendship pod!'
-					Upon placed it have a random chance to spawn baby spiders
+					'便携式友谊蛋!'
+					放置后，它有概率生成小蜘蛛
 					'''
 			}
 
 			Junk: {
-				DisplayName: Junk
-				Tooltip: Just some junk
+				DisplayName: 垃圾
+				Tooltip: 只是一些垃圾
 			}
 
 			Bakamite: {
-				DisplayName: Bakamite
-				Tooltip: "'Colder than absolute zero'"
+				DisplayName: 笨蛋水晶
+				Tooltip: "'比绝对零度更寒冷'"
 			}
 
 			Bitcoin: {
 				DisplayName: 比特币
-				Tooltip: "'泰拉世界应该有这种东西吗？'"
+				Tooltip: "泰拉世界应该有这种东西吗？"
 			}
 
 			Blueprint: {
-				DisplayName: Blueprint
+				DisplayName: 蓝图
 				Tooltip:
 					'''
-					'It contains the information that SATLA-001 gathered'
-					'Other than human pain tolerance it also have information of other things'
-
+					'它包含SATLA-001收集的信息'
+					'除了人类对疼痛的忍耐力它还包含其他信息'
 					'''
 			}
 
@@ -9024,23 +9023,23 @@ Mods: {
 			}
 
 			BrokenDollParts: {
-				DisplayName: Broken Doll Parts
-				Tooltip: "'Soon, the ultimate doll should be complete'"
+				DisplayName: 娃娃零件
+				Tooltip: "很快，最终的娃娃就应该完成了"
 			}
 
 			BrokenRealityPieceA: {
 				DisplayName: 破碎的现实片段 A
-				Tooltip: "'你不确定这是什么，但它让你有一种奇怪的感觉'"
+				Tooltip: "你不确定这是什么，但它让你有一种奇怪的感觉"
 			}
 
 			BrokenRealityPieceB: {
 				DisplayName: 破碎的现实片段 B
-				Tooltip: "'你不确定它从何处而来，但它让你有一种奇怪的感觉'"
+				Tooltip: "你不确定它从何处而来，但它让你有一种奇怪的感觉"
 			}
 
 			BrokenRealityPieceD: {
 				DisplayName: 破碎的现实片段 C
-				Tooltip: "'你不确定它从何处而来，但它让你感觉 终 末 将至'"
+				Tooltip: "你不确定它从何处而来，但它让你感觉终末将至"
 			}
 
 			Broochofthevoid: {
@@ -9054,17 +9053,17 @@ Mods: {
 
 			Circuit: {
 				DisplayName: 电路板
-				Tooltip: "'晶体管……到处都是……'"
+				Tooltip: "晶体管...到处都是..."
 			}
 
 			DeadCat: {
-				DisplayName: Dead cat
-				Tooltip: "'It's still radioactive'"
+				DisplayName: 死猫
+				Tooltip: "它仍然具有放射性"
 			}
 
 			DragonsBreath: {
 				DisplayName: 龙息
-				Tooltip: "'贪婪和对权力的欲望点燃了永恒的火焰'"
+				Tooltip: "贪婪和对权力的欲望点燃了永恒的火焰"
 			}
 
 			EncryptedScroll: {
@@ -9091,38 +9090,38 @@ Mods: {
 			}
 
 			Barkfin: {
-				DisplayName: Barkfin
-				Tooltip: "'Does this count as vegan meat?'"
+				DisplayName: 树皮鳍
+				Tooltip: "这算素食吗?"
 			}
 
 			DragonShrimp: {
-				DisplayName: Dragon Shrimp
-				Tooltip: "'Too hot to eat'"
+				DisplayName: 小龙虾
+				Tooltip: "太烫不能吃"
 			}
 
 			HorseshoeScarab: {
-				DisplayName: Horseshoe Scarab
-				Tooltip: "'A remnant from the ancient world'"
+				DisplayName: 马蹄鲎
+				Tooltip: "古代世界的化石"
 			}
 
 			MushoWar: {
-				DisplayName: Mush-o-War
-				Tooltip: "'Ready to strike'"
+				DisplayName: 蘑菇水母
+				Tooltip: "准备攻击"
 			}
 
 			Stargazer: {
-				DisplayName: Stargazer
-				Tooltip: "'Legends tell it seeks for the forbidden wisdom of the dark side of moon'"
+				DisplayName: 瞻星鱼
+				Tooltip: "传说它在寻找月亮黑暗面的禁忌知识"
 			}
 
 			Sunfish: {
-				DisplayName: Sunfish
-				Tooltip: "'It shines your eyes'"
+				DisplayName: 太阳鱼
+				Tooltip: "它照亮了你的眼睛"
 			}
 
 			UraeEel: {
-				DisplayName: Urae Eel
-				Tooltip: "'Known for ambushing small fishes and devouring them all'"
+				DisplayName: 鳗鱼
+				Tooltip: "以伏击小鱼并吞食它们而闻名"
 			}
 
 			Flax: {
@@ -9149,22 +9148,22 @@ Mods: {
 			}
 
 			GameMasteryToken: {
-				DisplayName: Game Mastery Token
+				DisplayName: 游戏精通硬币
 				Tooltip:
 					'''
-					[c/FF00FF:Artifact]
-					'It looks forgotten and ancient but still holds impressive spiritual power'
-					'May be exchanged with elite rewards'
+					[c/FF00FF:祭品]
+					'它看起来被遗忘了，但仍然拥有令人印象深刻的精神力量'
+					'可与精英奖励交换'
 					'''
 			}
 
 			HolographicShard: {
-				DisplayName: Double Phased Shard
-				Tooltip: "'A crystalized dust of cosmos'"
+				DisplayName: 相移晶体
+				Tooltip: "'宇宙的结晶尘埃'"
 			}
 
 			KeyPiece1: {
-				DisplayName: 破损钥匙-α
+				DisplayName: 破损钥匙：暗
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9173,7 +9172,7 @@ Mods: {
 			}
 
 			KeyPiece2: {
-				DisplayName: 破损钥匙-β
+				DisplayName: 破损钥匙：明
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9182,7 +9181,7 @@ Mods: {
 			}
 
 			KeyPiece3: {
-				DisplayName: 破损钥匙-γ
+				DisplayName: 破损钥匙：花
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9191,25 +9190,25 @@ Mods: {
 			}
 
 			LoveLetter: {
-				DisplayName: Love Letter
+				DisplayName: 情书
 				Tooltip:
 					'''
-					'It's written to her dearest senpai'
-					'Strangely rather than ink, its written with blood [c/FF1493:joyfully]'
+					'是写给她最亲爱的前辈的'
+					'奇怪的是它不是用墨水写的，而是用鲜血写的'
 					'''
 			}
 
 			MolecularStabilizer: {
-				DisplayName: Molecular Stabilizer
+				DisplayName: 分子稳定剂
 				Tooltip: ""
 			}
 
 			MysteriousBook: {
-				DisplayName: Mysterious Book
+				DisplayName: 神秘的书
 				Tooltip:
 					'''
-					It was once written by Alfred Drewis'
-					'Knowing anatomy brings Aya so much [c/FF1493:joy] that even some of the pages are written by her'
+					'它曾经是阿尔弗雷德·刘易斯写的'
+					'解剖学给阿雅带来了如此多的[c/FF1493:快乐]，甚至有些页面都是她写'
 					'''
 			}
 
@@ -9229,25 +9228,25 @@ Mods: {
 			}
 
 			Pine: {
-				DisplayName: Pine Branch
-				Tooltip: "'ItOs as sharp as the never ending winter"
+				DisplayName: 松树叶
+				Tooltip: "'它就像永不结束的冬天一样尖锐"
 			}
 
 			PlantBox: {
-				DisplayName: Planter
+				DisplayName: 花盆
 				Tooltip:
 					'''
-					'It seems little guy like it's place'
-					'It can be used to grow other exotic plants'
+					'这小家伙好像是其他地方的'
+					可以用来种植外来植物
 					'''
 			}
 
 			PopsickleStick: {
-				DisplayName: Popsickle Stick
+				DisplayName: 冰棍棒
 				Tooltip:
 					'''
-					'It seems 娱乐之魂 really likes popsickles'
-					'It's still being used as a currency by the 娱乐之魂 other than cultist skull'
+					'娱乐之魂似乎真的很喜欢冰棍'
+					'它仍然被娱乐之魂用作货币，而不是邪教头骨'
 					'''
 			}
 
@@ -12657,11 +12656,11 @@ Mods: {
 			}
 
 			VoidalSingularity: {
-				DisplayName: Voidal Singularity（占位符）
+				DisplayName: 虚空奇点（占位符）
 				Tooltip:
 					'''
-					'It was once used by Father of Void to cause unstabilize fabric which shatter the interval of time and space'
-					'Even through this one is fake still someone is observing it'
+					'虚空之父曾经用它来制造不稳定的织物，从而打破时间和空间的间隔'
+					'即使这个是假的，还是有人在观察它'
 					召唤???跟随你
 					'''
 			}
@@ -12959,17 +12958,16 @@ Mods: {
 			}
 
 			OldPhotoAlbum: {
-				DisplayName: Old Photo Album
-				Tooltip: "'It's filled with photos of 娱乐之魂 and its friend before cultists drive it insane'"
+				DisplayName: 旧相册
+				Tooltip: "里面装满了娱乐之魂和它的朋友的照片"
 			}
 
 			RareGem: {
-				DisplayName: Pink Diamond
+				DisplayName: 粉钻
 				Tooltip:
 					'''
-					'The legendary diamond which formed eons ago'
-					'It may attract other miners to search for more'
-
+					'形成于亿万年以前的传奇钻石'
+					他吸引矿工寻找更多矿藏
 					'''
 			}
 
@@ -13356,238 +13354,230 @@ Mods: {
 			}
 
 			AquaPainting: {
-				DisplayName: Aqua Painting
-				Tooltip: "'Loverofgames'"
+				DisplayName: 阿库娅绘画
+				Tooltip: "游戏爱好者"
 			}
 
 			Cat2Painting: {
-				DisplayName: Cat Painting
+				DisplayName: 猫猫绘画
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			CatPainting: {
-				DisplayName: Sad Despair Cat Painting
+				DisplayName: 悲伤绝望的猫绘画
 				Tooltip:
 					'''
-					It looks otherworldly
-					'It was once bring to this lands by 亘古领主 Blossom'
+					它看起来超凡脱俗
+					'它曾经被亘古领主带到这片土地上'
 					'''
 			}
 
 			CoughingCatPainting: {
-				DisplayName: Coughing Cat Painting
-				Tooltip: "'[c/e9adf5:Satori]'"
+				DisplayName: 咳嗽猫绘画
+				Tooltip: "'[c/e9adf5:顿悟]'"
 			}
 
 			DerpCatPainting: {
-				DisplayName: Derp Cat Painting
+				DisplayName: 德普猫绘画
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			DisgustCatPainting: {
-				DisplayName: Disgust Cat Painting
-				Tooltip: "'[c/e9adf5:Satori]'"
+				DisplayName: 厌恶猫绘画
+				Tooltip: "'[c/e9adf5:顿悟]'"
 			}
 
 			DogPainting: {
-				DisplayName: Cute Dog Painting
-				Tooltip: It may look cute but it's powerful enough destroy the universe
+				DisplayName: 萌狗绘画
+				Tooltip: 它看起来很可爱但它的力量足以摧毁宇宙
 			}
 
 			DrWilyBossSign: {
-				DisplayName: Boss Sign
-				Tooltip: "'It was once designed for Dr Wily"
+				DisplayName: 首领标志
+				Tooltip: "'它曾经是为Wily博士设计的"
 			}
 
 			FlowerEatingPainting: {
-				DisplayName: Flower Eating Painting
+				DisplayName: 鬼物绘画
 				Tooltip:
 					'''
-					It looks like she borrow it from a art gallery
-					'Strangely she feeds it with roses'
+					看起来像是她从画廊借来的
+					她用玫瑰喂它
 					'''
 			}
 
 			FluffyBlessing: {
-				DisplayName: Fluffy Blessing
-				Tooltip: "'[c/adf5ae:Trigger]'"
+				DisplayName: 毛茸茸的祝福
+				Tooltip: "'[c/adf5ae:引爆]'"
 			}
 
 			FruitSeed: {
-				DisplayName: Magical Jungle种子
-				Tooltip: "'They may make you happy'"
+				DisplayName: 生命果种子
+				Tooltip: "它们可能会让你快乐"
 			}
 
 			GuusPainting: {
-				DisplayName: Angelic Cat Painting
+				DisplayName: 天使猫猫绘画
 				Tooltip:
 					'''
-					Looking at it bring your soul good old memories
-					'RIP Guus'
+					看着它灵魂会想起美好的往事
+					RIP Guus
 					'''
 			}
 
 			HappyCatPainting: {
-				DisplayName: Happy Cat Painting
+				DisplayName: 快乐猫猫绘画
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			HappyCirnoPainting: {
-				DisplayName: Portrait of Happy 冰精灵
-				Tooltip: "'The painting which was made for the stongest'"
+				DisplayName: 快乐的冰精灵肖像
+				Tooltip: "这幅画是为最强壮的人画的"
 			}
 
 			IbPainting: {
-				DisplayName: Pure Kindness
-				Tooltip:
-					'''
-					It looks like she borrow this from a art gallery
-
-					'''
+				DisplayName: 纯洁善良
+				Tooltip: 看起来像是她从画廊借来的
 			}
 
 			JunkoPainting: {
-				DisplayName: Portrait of a Pure Lady
-				Tooltip: "'Blossom'"
+				DisplayName: 纯洁淑女的肖像
+				Tooltip: "花簇"
 			}
 
 			LancerPainting: {
-				DisplayName: Portrait of a Darkner
+				DisplayName: 暗裔肖像
 				Tooltip:
 					'''
-					(HANG THIS TO A NICE PLACE)
-					'(SIGNED, LANCER)'
+					(把它挂在一个好地方)
+					(签署,枪骑兵)
 					'''
 			}
 
 			MonikaPainting: {
-				DisplayName: Monika Painting
-				Tooltip: You feel [c/FF0000:she] is watching you
+				DisplayName: 莫妮卡绘画
+				Tooltip: 你觉得[c/FF0000:她]在看着你
 			}
 
 			MonikaPainting2: {
-				DisplayName: Monika Painting
-				Tooltip: "'Just Monika'"
+				DisplayName: 莫妮卡绘画
+				Tooltip: "只是莫妮卡"
 			}
 
 			NatsukiPainting: {
-				DisplayName: Natsuki Painting
-				Tooltip: It looks too cute
+				DisplayName: Natsuki绘画
+				Tooltip: 它看起来太可爱了
 			}
 
 			OtaeGaze: {
-				DisplayName: Portrait of a Lady in Gaze
-				Tooltip: "'The expression in her face affected your soul'"
+				DisplayName: 凝视的女士的肖像
+				Tooltip: "她脸上的表情影响了你的灵魂"
 			}
 
 			OtherworldlyCrystalBall: {
-				DisplayName: Otherworldly Crystal Ball
+				DisplayName: 紫色水晶球
 				Tooltip:
 					'''
-					'It shows shattered piece of realities belong to other dimentions'
-					'Maybe we are far from being saved but there is still hope'
-					'There can be one built from all other perfect pieces'
-					'There can be one that have only happy moments'
-					'I will always on your side [c/FF0000:Mother] for bringing the E.N.D'
-					'When you <right>it's tile it will show you a secret at a cost of 5 ectoplasm'
+					'它显示了属于其他维度的现实碎片'
+					'也许我们离获救还很远但仍有希望'
+					'从所有其他完美的片段中可以拼凑出一个完美的片段'
+					'可能会有一个人只有快乐的时刻'
+					'[c/FF0000:妈妈]会永远站在你这边，因为你带来了E.N.D'
+					当你右键的时候，它会告诉你一个秘密，花费5个灵气
 					'''
 			}
 
 			PlantSeed: {
-				DisplayName: Overgreen Seed
-				Tooltip: "'Its cells are full of chlorophyte'"
+				DisplayName: 世纪花苞种子
+				Tooltip: "它的细胞充满叶绿素"
 			}
 
 			PortraitofHappyDemon: {
-				DisplayName: Portrait of a Happy Demon
-				Tooltip: It looks too cute
+				DisplayName: 快乐的鬼肖像
+				Tooltip: 看起来太可爱了
 			}
 
 			PortraitofMary: {
-				DisplayName: Pure Happiness
-				Tooltip:
-					'''
-					It looks like she borrow this from a art gallery
-
-					'''
+				DisplayName: 纯粹的幸福
+				Tooltip: 看起来像是她从画廊借来的
 			}
 
 			PortraitofSadness: {
-				DisplayName: Portrait of Sadness
+				DisplayName: 悲伤画像
 				Tooltip: "'Otsu'"
 			}
 
 			RouxlsKaardPainting: {
-				DisplayName: Portrait of a shopkeeper
-				Tooltip: A rare painting of duke of puzzles
+				DisplayName: 店主的画像
+				Tooltip: 一幅罕见的拼图公爵画像
 			}
 
 			RunningDemon: {
-				DisplayName: VERY Fast Demon Running at Incredible High Speed
-				Tooltip: You are not sure how they capture this photo
+				DisplayName: 鬼以令人难以置信高速度跑步
+				Tooltip: 你不确定他们是如何捕捉到这张照片的
 			}
 
 			SadCatPainting: {
-				DisplayName: Sad Cat Painting
-				Tooltip: "'[c/e9adf5:Satori]'"
+				DisplayName: 悲伤的猫猫绘画
+				Tooltip: "[c/e9adf5:顿悟]"
 			}
 
 			SadCatPainting3: {
-				DisplayName: Sad Explanation Cat Painting
-				Tooltip: "'Autumn'"
+				DisplayName: 悲伤的解释猫绘画
+				Tooltip: "渐衰期"
 			}
 
 			SadFoxPainting: {
-				DisplayName: Sad Fox Painting
-				Tooltip: "'[c/000000:Mendeleev]'"
+				DisplayName: 忧郁的狐狸绘画
+				Tooltip: "[c/000000:门捷列夫]"
 			}
 
 			SayoriPainting: {
-				DisplayName: Sayori Painting
-				Tooltip: It looks too cute
+				DisplayName: 纱世里绘画
+				Tooltip: 看起来太可爱了
 			}
 
 			ScreamingSkeletonPainting: {
-				DisplayName: Screaming Skeleton Painting
-				Tooltip: Even looking at it makes you feel you are hearing echo from dungeon
+				DisplayName: 尖叫骷髅绘画
+				Tooltip: 看着它也会觉得自己听到了地牢的回声
 			}
 
 			SenkoPainting1: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko san绘画
 				Tooltip:
 					'''
-					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC
+					她的可爱既能净化你的灵魂又能摧毁黑暗
+					可以通过右键改变形状
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SenkoPainting2: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko san绘画
 				Tooltip:
 					'''
-					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC
+					她的可爱既能净化你的灵魂又能摧毁黑暗
+					可以通过右键改变形状
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SenkoPainting3: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko san绘画
 				Tooltip:
 					'''
-					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC
+					她的可爱既能净化你的灵魂又能摧毁黑暗
+					可以通过右键改变形状
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
 
 			SenkoPainting4: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko san绘画
 				Tooltip:
 					'''
-					Her cuteness can both purify your soul and destroy darkness
-					It can change it's form by RC
+					她的可爱既能净化你的灵魂又能摧毁黑暗
+					可以通过右键改变形状
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -13623,53 +13613,53 @@ Mods: {
 			}
 
 			StrawberryPimpPainting: {
-				DisplayName: Portrait of a Demon
-				Tooltip: "'Rose'"
+				DisplayName: 恶魔画像
+				Tooltip: "玫瑰"
 			}
 
 			StrongestFright: {
-				DisplayName: Portrait of the Strongest Fright
-				Tooltip: It was painted from observing the strongest one in her own habitat
+				DisplayName: 最可怕的人的肖像
+				Tooltip: 这是她在自己的栖息地观察到的最强的一幅画
 			}
 
 			StrongestHappiness: {
-				DisplayName: Portrait of the Strongest Happiness
-				Tooltip: It was painted from observing the strongest one in her own habitat
+				DisplayName: 最幸福的肖像
+				Tooltip: 这是她在自己的栖息地观察到的最强的一幅画
 			}
 
 			StrongestWink: {
-				DisplayName: Portrait of the Strongest Wink
-				Tooltip: It was painted from observing the strongest one in her own habitat
+				DisplayName: 最强眨眼的肖像
+				Tooltip: 这是她在自己的栖息地观察到的最强的一幅画
 			}
 
 			TiredCirnoPainting: {
-				DisplayName: Portrait of Tired 冰精灵
-				Tooltip: "'It was painted while the strongest one is resting after danmaku battle'"
+				DisplayName: 疲惫的冰精灵肖像
+				Tooltip: "这幅画是在战斗结束后给最强的人休息时画的"
 			}
 
 			VocaloidBlush: {
-				DisplayName: Portrait of Blushing Vocaloid
-				Tooltip: "'Are you not sure if that expression is natural or programmed'"
+				DisplayName: 脸红的初音未来画像
+				Tooltip: "你不确定这种表情是自然的还是程序化的"
 			}
 
 			VocaloidCaptain: {
-				DisplayName: Portrait of the Vocaloid Captain
-				Tooltip: "'She looks beautiful in that dress'"
+				DisplayName: 初音未来的船长画像
+				Tooltip: "她穿那件衣服很漂亮"
 			}
 
 			VocaloidWink: {
-				DisplayName: Portrait of Winking Vocaloid
-				Tooltip: "'Are you not sure if that expression is natural or programmed'"
+				DisplayName: 眨眼的初音未来肖像
+				Tooltip: "你不确定这种表情是自然的还是程序化的"
 			}
 
 			YandereSpiderPainting: {
-				DisplayName: Yandere Spider Painting
-				Tooltip: "'Rose'"
+				DisplayName: Yandere蜘蛛绘画
+				Tooltip: "玫瑰"
 			}
 
 			YuriPainting: {
-				DisplayName: Yuri Painting
-				Tooltip: She looks she is quite [c/FF1493:joyful]
+				DisplayName: 优里绘画
+				Tooltip: 她看起来很[c/FF1493:快乐]
 			}
 
 			Ambrosia: {
@@ -14120,7 +14110,7 @@ Mods: {
 			}
 
 			AmblemofFun: {
-				DisplayName:  趣味徽章
+				DisplayName: 趣味徽章
 				Tooltip:
 					'''
 					'就连现实也在微笑'
