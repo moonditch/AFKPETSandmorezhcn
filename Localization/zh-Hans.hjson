@@ -621,32 +621,32 @@ Mods: {
 
 			TinyShop: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyShop.MapEntry0
-				MapEntry: Tiny Shop
+				MapEntry: 微型商店
 			}
 
 			TinyMine: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyMine.MapEntry0
-				MapEntry: Tiny Mine
+				MapEntry: 微型洞穴
 			}
 
 			TinyHouse: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyHouse.MapEntry0
-				MapEntry: Tiny House
+				MapEntry: 微型房屋
 			}
 
 			TinyFactory: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyFactory.MapEntry0
-				MapEntry: Tiny Factory
+				MapEntry: 微型工厂
 			}
 
 			TinyCastle: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyCastle.MapEntry0
-				MapEntry: Tiny Castle
+				MapEntry: 微型城堡
 			}
 
 			TinyBank: {
 				MapEntry0: Mods.AFKPETS.Tiles.TinyBank.MapEntry0
-				MapEntry: Tiny Bank
+				MapEntry: 微型银行
 			}
 
 			TileScanner.MapEntry: Tile Scanner
@@ -8770,12 +8770,12 @@ Mods: {
 			}
 
 			SpectralPlatform: {
-				DisplayName: Spectral Platform
+				DisplayName: 幽灵平台
 				Tooltip:
 					'''
-					'With <right>player will place 100 spectral platform to both sides of the tile that is on mouse'
-					'It will not destroy any tile while doing this and <left>will make it being used as a normal tile placing'
-					'It will not get consumed and breaking tiles will not drop spectral platforms'
+					右键在光标处两侧放置100个幽灵平台
+					使用过程中不会破坏物块，左键正常放置
+					不会被消耗幽灵平台，物块不会影响幽灵平台
 					'''
 			}
 
@@ -8830,38 +8830,38 @@ Mods: {
 			}
 
 			TinyBank: {
-				DisplayName: Tiny Bank
+				DisplayName: 微型银行
 				Tooltip:
 					'''
-					You feel this may be safer to keep your money with you
-					'它是一个具有特殊能力的箱子'
-					'Its suggested to keep at least 5 empty slot if player is also plans to use it as a chest'
-					When you place more than 1 gold they start to slowly invest your money
+					'你觉得把钱放在身边更安全'
+					一个具有特殊能力的箱子
+					如果继续当做箱子使用，建议保留至少5个存储格
+					放置超过1枚金币（银币为什么也可以）时会开始缓慢的增涨利息
 					'''
 			}
 
 			TinyCastle: {
-				DisplayName: Tiny Castle
+				DisplayName: 微型城堡（占位符，测试文案第6行）
 				Tooltip:
 					'''
-					It seems goblins are not the only race that can forge weapons
-					'它是一个具有特殊能力的箱子'
-					'When a weapon with vanilla damage type being put inside of it the tiny blacksmiths start to work on it'
-					'They will not take any money from the player for reforging'
-					'They have a chance to change its prefix and upon reaching best prefix possible they will stop working on it'
-					'Legendary for melee, light for tools, demonic for ranged and magic and ruthless for summoning weapons have been accepted as best'
+					'哥布林不是唯一能重铸武器的种族'
+					一个具有特殊能力的箱子
+					带有原版伤害类型的武器被放在存储格内时，小铁匠会开始工作
+					不会从玩家那里拿重铸的钱
+					有概率改变修饰语，达到最好的修饰语就会停止工作
+					传奇的近战和工具，恶魔的远程和魔法和无情的召唤武器已视为最好的
 					'''
 			}
 
 			TinyFactory: {
-				DisplayName: Tiny Factory
+				DisplayName: 微型工厂
 				Tooltip:
 					'''
-					Its filled with tiny people that have big dreams
-					'它是一个具有特殊能力的箱子'
-					'When placed ammo tiny people start to produce more of it slowly until it reaches its maximum stack'
-					'This process does not need any materials'
-					'Each slot will be calculated seperately so if player spread the ammo to slots will increase the speed'
+					'充满伟大梦想的小人物'
+					一个具有特殊能力的箱子
+					在存储格内放置弹药时小人开始缓慢的生产弹药直到最大堆叠
+					生产过程不需要任何材料
+					每个存储格单独计算，所以如果弹药分散到其他存储格会提高生产速度
 					'''
 			}
 
@@ -8870,51 +8870,52 @@ Mods: {
 				Tooltip:
 					'''
 					'可爱的小人儿住在可爱的小房子里'
-					它是一个具有特殊能力的箱子
-					微型房屋定位器，可以使用2铁/1电路板在铁砧处制作
+					一个具有特殊能力的箱子
+					微型房屋定位器
 					制作完成后，使用微型房屋定位器将把所有未收藏的物品送到微型房屋里
-					它不会放置钱币和弹药栏的物品
+					它不会传送钱币和弹药栏的物品
 					'''
 			}
 
 			TinyMine: {
-				DisplayName: Tiny Mine
+				DisplayName: 微型矿洞
 				Tooltip:
 					'''
-					You are not sure about its depth but still it seems its deep enough
-					'它是一个具有特殊能力的箱子'
-					'The ores that are wanted to be mined need to be placed inside and 1 of each desired ore type is enough'
-					'When a pickaxe is placed inside with respect to its pickaxe power tiny people will more of that type of ore'
-					'When max stack is reached for that slot they will stop mining for it'
-					'This will also support modded ores'
-					When its filled the chest could not continue to mine ores
+					'你不确定它的深度但它很深'
+					一个具有特殊能力的箱子
+					想要开采的矿石需要放在里面，每种类型的矿石1个就足够了
+					镐子放在存储格时，小人会更好地挖掘那种类型的矿石
+					到达最大堆叠时将停止挖掘
+					支持其他模组矿石
+					填满存储格就不继续开采矿石
 					'''
 			}
 
 			TinyShop: {
-				DisplayName: Tiny Shop
+				DisplayName: 微型商店
 				Tooltip:
 					'''
-					It seems they are also selling second hand items
-					'它是一个具有特殊能力的箱子'
-					'When any item is being placed inside of it that item will be sold to other tiny people after some time'
-					'Sold items value will be stored as coin inside of it'
+					'他们似乎在买二手货'
+					一个具有特殊能力的箱子
+					物品被放置在存储格时，过一会该物品会出售给其他人
+					售出物品的价值以钱币的形式存储在存储格在里面
 					'''
 			}
 
 			WhiteHolographicChest: {
-				DisplayName: Wooden笼
+				DisplayName: 木制笼
 				Tooltip:
 					'''
-					'A small home for small guests'
-					When catched critters are placed inside they have a small chance to produce
-					This can only occur if the stored critter stack is higher than 1
-					It will support every mod that use .makeNPC as spawning method in their critter item code
+					'小动物的房子'
+					一个具有特殊能力的箱子
+					捕获的动物放到存储格有很低的概率进行交配
+					存储格内的小动物堆叠大于1才会进行交配
+					支持所有模组
 					'''
 			}
 
 			TestTile: {
-				DisplayName: Prefix Test Tile
+				DisplayName: Prefix Test Tile（占位符）
 				Tooltip: "'<right>allow change through different special prefixes'"
 			}
 
@@ -8984,7 +8985,7 @@ Mods: {
 				Tooltip:
 					'''
 					'便携式友谊蛋!'
-					放置后，它有概率生成小蜘蛛
+					放置后有概率生成小蜘蛛
 					'''
 			}
 
