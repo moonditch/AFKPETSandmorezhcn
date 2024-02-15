@@ -8676,23 +8676,23 @@ Mods: {
 			}
 
 			MusicBlockStarter: {
-				DisplayName: Note Block Activator
+				DisplayName: 音符方块激活器（需测试，占位符）
 				Tooltip:
 					'''
-					It can be activated via wire and can be rotating by <right>to its tile while pressing down
-					When activated it with respect to the note blocks being put into where its arrow look it start to produce sounds
-					It could be activated via either using wire signal or <right>to its tile without pressing down
-					There are half second delay and via empty notes one can increase delay and if in direction when it hits to a tile that is not note block it will stop itself
+					可以通过电线激活并通过右键旋转
+					激活相当于箭头对着音符方块 ( [i:AFKPETS/NoteBlock] ) 去产生声音
+					它可以通过使用电线信号或右键到其物块而不按下激活
+					有半秒的延迟，通过空音符，一个可以增加延迟，如果在方向上，音符发射到物块而不是音符方块，会停止工作
 					'''
 			}
 
 			NoteBlock: {
-				DisplayName: Note Block
+				DisplayName: 音符方块（需测试，占位符）
 				Tooltip:
 					'''
-					When <right>to its tile while pressing down it will cycle between different notes, some of their sharp variant and empty one
-					by using note block tuner ([i:6415]) player could cycle through both 13 different insturment
-					They are used with note block activators and they can also produce their sound via note block activator ([i:5628]) signal or <right>to its tile without pressing down
+					右键物块时，会在不同的音符之间循环，其中一些是尖锐的变体，另一些是没有声音的
+					通过使用音符方块调谐器 ( [i:AFKPETS/NoteBlockTuner] ) 循环切换其13种不同的乐器类型
+					它们与音符方块激活器一起使用，也可以接受音符方块激活器 ( [i:AFKPETS/MusicBlockStarter] ) 右键到其物块而不按下激活
 					'''
 			}
 
@@ -8760,12 +8760,12 @@ Mods: {
 			}
 
 			SpaceshipVent: {
-				DisplayName: Spaceship Vent
+				DisplayName: 宇宙飞船传送器
 				Tooltip:
 					'''
-					Wait, white is not imposter……
-					'Upon <right> to its tile player will teleport to next found vent and if there is no other vent found player will teleport to same vent'
-					'If there is any emergency caused by bosses player cannot use the item'
+					'等等，白名单不是冒名顶替者......'
+					右键传送器传送到其他传送器，如果没有其他传送器，传送到相同的传送器
+					BOSS存在时不能使用该道具
 					'''
 			}
 
@@ -15236,10 +15236,10 @@ Mods: {
 			}
 
 			NoteBlockTuner: {
-				DisplayName: 音符块调谐器
+				DisplayName: 音符方块调谐器
 				Tooltip:
 					'''
-					在音符块上使用该物品可以循环切换其13种不同的乐器类型
+					在音符方块上使用该物品可以循环切换其13种不同的乐器类型
 					<right>将会打开一个UI，显示部分预设旋律的音符
 					'''
 			}
