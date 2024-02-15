@@ -9000,7 +9000,7 @@ Mods: {
 
 			Bitcoin: {
 				DisplayName: 比特币
-				Tooltip: "泰拉世界应该有这种东西吗？"
+				Tooltip: 泰拉世界应该有这种东西吗？
 			}
 
 			Blueprint: {
@@ -9024,22 +9024,22 @@ Mods: {
 
 			BrokenDollParts: {
 				DisplayName: 娃娃零件
-				Tooltip: "很快，最终的娃娃就应该完成了"
+				Tooltip: 很快，最终的娃娃就应该完成了
 			}
 
 			BrokenRealityPieceA: {
 				DisplayName: 破碎的现实片段 A
-				Tooltip: "你不确定这是什么，但它让你有一种奇怪的感觉"
+				Tooltip: 你不确定这是什么，但它让你有一种奇怪的感觉
 			}
 
 			BrokenRealityPieceB: {
 				DisplayName: 破碎的现实片段 B
-				Tooltip: "你不确定它从何处而来，但它让你有一种奇怪的感觉"
+				Tooltip: 你不确定它从何处而来，但它让你有一种奇怪的感觉
 			}
 
 			BrokenRealityPieceD: {
 				DisplayName: 破碎的现实片段 C
-				Tooltip: "你不确定它从何处而来，但它让你感觉终末将至"
+				Tooltip: 你不确定它从何处而来，但它让你感觉终末将至
 			}
 
 			Broochofthevoid: {
@@ -9053,17 +9053,17 @@ Mods: {
 
 			Circuit: {
 				DisplayName: 电路板
-				Tooltip: "晶体管...到处都是..."
+				Tooltip: 晶体管...到处都是...
 			}
 
 			DeadCat: {
 				DisplayName: 死猫
-				Tooltip: "它仍然具有放射性"
+				Tooltip: 它仍然具有放射性
 			}
 
 			DragonsBreath: {
 				DisplayName: 龙息
-				Tooltip: "贪婪和对权力的欲望点燃了永恒的火焰"
+				Tooltip: 贪婪和对权力的欲望点燃了永恒的火焰
 			}
 
 			EncryptedScroll: {
@@ -9091,37 +9091,37 @@ Mods: {
 
 			Barkfin: {
 				DisplayName: 树皮鳍
-				Tooltip: "这算素食吗?"
+				Tooltip: 这算素食吗?
 			}
 
 			DragonShrimp: {
 				DisplayName: 小龙虾
-				Tooltip: "太烫不能吃"
+				Tooltip: 太烫不能吃
 			}
 
 			HorseshoeScarab: {
 				DisplayName: 马蹄鲎
-				Tooltip: "古代世界的化石"
+				Tooltip: 古代世界的化石
 			}
 
 			MushoWar: {
 				DisplayName: 蘑菇水母
-				Tooltip: "准备攻击"
+				Tooltip: 准备攻击
 			}
 
 			Stargazer: {
 				DisplayName: 瞻星鱼
-				Tooltip: "传说它在寻找月亮黑暗面的禁忌知识"
+				Tooltip: 传说它在寻找月亮黑暗面的禁忌知识
 			}
 
 			Sunfish: {
 				DisplayName: 太阳鱼
-				Tooltip: "它照亮了你的眼睛"
+				Tooltip: 它照亮了你的眼睛
 			}
 
 			UraeEel: {
 				DisplayName: 鳗鱼
-				Tooltip: "以伏击小鱼并吞食它们而闻名"
+				Tooltip: 以伏击小鱼并吞食它们而闻名
 			}
 
 			Flax: {
@@ -12959,7 +12959,7 @@ Mods: {
 
 			OldPhotoAlbum: {
 				DisplayName: 旧相册
-				Tooltip: "里面装满了娱乐之魂和它的朋友的照片"
+				Tooltip: 里面装满了娱乐之魂和它的朋友的照片
 			}
 
 			RareGem: {
@@ -13355,7 +13355,7 @@ Mods: {
 
 			AquaPainting: {
 				DisplayName: 阿库娅绘画
-				Tooltip: "游戏爱好者"
+				Tooltip: 游戏爱好者
 			}
 
 			Cat2Painting: {
@@ -13413,7 +13413,7 @@ Mods: {
 
 			FruitSeed: {
 				DisplayName: 生命果种子
-				Tooltip: "它们可能会让你快乐"
+				Tooltip: 它们可能会让你快乐
 			}
 
 			GuusPainting: {
@@ -13432,7 +13432,7 @@ Mods: {
 
 			HappyCirnoPainting: {
 				DisplayName: 快乐的冰精灵肖像
-				Tooltip: "这幅画是为最强壮的人画的"
+				Tooltip: 这幅画是为最强壮的人画的
 			}
 
 			IbPainting: {
@@ -13442,7 +13442,7 @@ Mods: {
 
 			JunkoPainting: {
 				DisplayName: 纯洁淑女的肖像
-				Tooltip: "花簇"
+				Tooltip: 花簇
 			}
 
 			LancerPainting: {
@@ -13461,7 +13461,7 @@ Mods: {
 
 			MonikaPainting2: {
 				DisplayName: 莫妮卡绘画
-				Tooltip: "只是莫妮卡"
+				Tooltip: 只是莫妮卡
 			}
 
 			NatsukiPainting: {
@@ -13471,7 +13471,7 @@ Mods: {
 
 			OtaeGaze: {
 				DisplayName: 凝视的女士的肖像
-				Tooltip: "她脸上的表情影响了你的灵魂"
+				Tooltip: 她脸上的表情影响了你的灵魂
 			}
 
 			OtherworldlyCrystalBall: {
@@ -13489,7 +13489,7 @@ Mods: {
 
 			PlantSeed: {
 				DisplayName: 世纪花苞种子
-				Tooltip: "它的细胞充满叶绿素"
+				Tooltip: 它的细胞充满叶绿素
 			}
 
 			PortraitofHappyDemon: {
@@ -13524,7 +13524,7 @@ Mods: {
 
 			SadCatPainting3: {
 				DisplayName: 悲伤的解释猫绘画
-				Tooltip: "渐衰期"
+				Tooltip: 渐衰期
 			}
 
 			SadFoxPainting: {
@@ -13614,7 +13614,7 @@ Mods: {
 
 			StrawberryPimpPainting: {
 				DisplayName: 恶魔画像
-				Tooltip: "玫瑰"
+				Tooltip: 玫瑰
 			}
 
 			StrongestFright: {
@@ -13634,27 +13634,27 @@ Mods: {
 
 			TiredCirnoPainting: {
 				DisplayName: 疲惫的冰精灵肖像
-				Tooltip: "这幅画是在战斗结束后给最强的人休息时画的"
+				Tooltip: 这幅画是在战斗结束后给最强的人休息时画的
 			}
 
 			VocaloidBlush: {
 				DisplayName: 脸红的初音未来画像
-				Tooltip: "你不确定这种表情是自然的还是程序化的"
+				Tooltip: 你不确定这种表情是自然的还是程序化的
 			}
 
 			VocaloidCaptain: {
 				DisplayName: 初音未来的船长画像
-				Tooltip: "她穿那件衣服很漂亮"
+				Tooltip: 她穿那件衣服很漂亮
 			}
 
 			VocaloidWink: {
 				DisplayName: 眨眼的初音未来肖像
-				Tooltip: "你不确定这种表情是自然的还是程序化的"
+				Tooltip: 你不确定这种表情是自然的还是程序化的
 			}
 
 			YandereSpiderPainting: {
 				DisplayName: Yandere蜘蛛绘画
-				Tooltip: "玫瑰"
+				Tooltip: 玫瑰
 			}
 
 			YuriPainting: {
@@ -14173,7 +14173,7 @@ Mods: {
 
 			EXPShare: {
 				DisplayName: 知识分享
-				Tooltip: "它将允许一些东西与你分享它的经验"
+				Tooltip: 它将允许一些东西与你分享它的经验
 			}
 
 			ForgottenThing: {
@@ -14183,7 +14183,7 @@ Mods: {
 					'财富，但回报是什么?'
 					'???觉得向导很无辜'
 					牺牲也可以通过向导巫毒娃娃和使用这个物品来完成，如果物品栏没有向导巫毒娃娃会立刻死亡
-					Maybe with [c/FF1493:joy]……
+					也许[c/FF1493:快乐]……
 					'''
 			}
 
