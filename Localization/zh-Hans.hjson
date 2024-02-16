@@ -652,7 +652,7 @@ Mods: {
 			TileScanner.MapEntry: Tile Scanner
 			TestTile.MapEntry: Test Tile
 			TemmieDoll.MapEntry: 相移提米雕像
-			TechniciansTable.MapEntry: Technicians Table
+			TechniciansTable.MapEntry: 技术员工作桌
 			StrongestWink.MapEntry: Strongest Wink
 			StrongestHappiness.MapEntry: Strongest Happiness
 			StrongestFright.MapEntry: Strongest Fright
@@ -776,7 +776,7 @@ Mods: {
 			FatEffect.MapEntry: Fat Effect
 			FallingSlimeStatue.MapEntry: Falling Slime雕像
 			FallenSoulContainer.MapEntry: Fallen Soul Container
-			EchoFlower.MapEntry: Echo Flower
+			EchoFlower.MapEntry: 呼唤之花
 			DrWilyBossSign.MapEntry: Dr Wily Boss Sign
 			DruidicArtifact.MapEntry: Druidic Artifact
 			DrFetusTrophy.MapEntry: 胎儿博士纪念章
@@ -1901,8 +1901,8 @@ Mods: {
 			}
 
 			EchoFlower: {
-				DisplayName: Echo Flower
-				Description: It whispers others hopes and dreams
+				DisplayName: 呼唤之花
+				Description: 低语着别人的希望和梦想
 			}
 
 			EmpoweredRanged: {
@@ -1921,8 +1921,8 @@ Mods: {
 			}
 
 			FallenSoul: {
-				DisplayName: Fallen Souls
-				Description: You feel you are being protected by many
+				DisplayName: 堕落的灵魂
+				Description: 你觉得你被很多人保护着
 			}
 
 			FireBreath: {
@@ -2111,8 +2111,8 @@ Mods: {
 			}
 
 			SacrificialAltar: {
-				DisplayName: Sacrificed
-				Description: All of unused minion slots will empower both yourself your active minions
+				DisplayName: 牺牲
+				Description: 所有未使用的仆从槽会增强召唤的仆从.
 			}
 
 			SoulSteal: {
@@ -7826,46 +7826,46 @@ Mods: {
 			}
 
 			BeeHiveTile: {
-				DisplayName: Bee Hive
+				DisplayName: 蜂巢
 				Tooltip:
 					'''
-					They are buzzing peacefully
-					Hive have a chance spawn 甜美蜜蜂s which can be catch with a net
-					They will also share their honey with humans
+					'安静地嗡嗡作响'
+					蜂巢有概率生成甜美蜜蜂，可以用网捕捉
+					也会与人类分享它们的蜂蜜
 					'''
 			}
 
 			BlastResistantGlass: {
-				DisplayName: Blast Resistant Glass
-				Tooltip: "'It's immune to explosions'"
+				DisplayName: 黑曜石玻璃
+				Tooltip: "它对爆炸免疫"
 			}
 
 			DruidicArtifact: {
-				DisplayName: Druidic Artifact
+				DisplayName: 邪教祭品（森林之心制作，合成表模组无法显示中文）
 				Tooltip:
 					'''
-					'Eons ago this relics are being formed by dryads to stop the spread of evil'
-					'It seems even though they are blessed with the powers of nature still its not enough'
-					When player is being close it will bless player with the dryad's power'
+					'亿万年以前，由树妖制作的，用来阻止邪恶的传播'
+					似乎被他们赐予了大自然的力量，但这仍然不够
+					靠近时获得树妖祝福增益.
 					'''
 			}
 
 			EchoFlower: {
-				DisplayName: Echo Flower
+				DisplayName: 呼唤之花
 				Tooltip:
 					'''
-					'It echoes the hope and dreams of the fallen
-					'When being close it will make debuffs duration decrease faster but药水 sickness is excluded
-					Player have 5% chance to escape death with 1 hp
+					'呼应着逝去的人们的希望和梦想'
+					靠近时减益持续时间减少，耐药性减益除外
+					有5%概率以1点生命值逃脱死亡
 					'''
 			}
 
 			FallenSoulContainer: {
-				DisplayName: Fallen Soul Container
+				DisplayName: 堕落的灵魂容器
 				Tooltip:
 					'''
-					Being close to it will give a buff so that it will spawn fallen souls which have 30 base damage
-					These will with respect to players maximum minion slot and they will not take minion slot but when player take damage they instead attack player
+					靠近时赐予增益，召唤拥有30点基础伤害的堕落灵魂
+					与最大仆从上限有关（占位符，不知道是bug还是多模组的原因以后测试），但不会占用仆从槽，受到伤害时会攻击玩家
 					'''
 			}
 
@@ -7874,22 +7874,22 @@ Mods: {
 				Tooltip:
 					'''
 					'金属，金属，金属……让我们以德克萨斯州的方式来完成！'
-					<right>获得更多哨兵栏
+					<right>可拥有更多哨兵
 					'''
 			}
 
 			SacrificialAltar: {
-				DisplayName: Sacrifical Altar
+				DisplayName: 祭祀祭坛
 				Tooltip:
 					'''
-					The alive will rise on the shoulders of the fallen
-					<right>to the tile will make player gain 10hp and 20% minion damage per unused minion slot
+					'活着的人将站在倒下的人的肩膀上'
+					右键获得10生命值和每有未使用的仆从槽都会加强20%伤害
 					'''
 			}
 
 			ChaosAmplifier: {
 				DisplayName: Chaos Amplifier
-				Tooltip: "'While its being placed it will amplify the abilities of people that are being close to it'"
+				Tooltip: "While its being placed it will amplify the abilities of people that are being close to it"
 			}
 
 			ChaosTorch: {
@@ -7958,12 +7958,12 @@ Mods: {
 			}
 
 			HeartofForest: {
-				DisplayName: Heart of Forest
+				DisplayName: 森林之心
 				Tooltip:
 					'''
-					'Do Not Be Afraid…… You Are Not Alone……'<right>to its tile will bless with clairvoyance for 10 minutes and dryad's blessing for 1 minute
-					If its being imbued with radiant stars via <right>it will reward the player with an item being selected by a wheel of fortune
-					It can also be used as crystal ball, bookcase and living loom crafting station
+					'不要害怕...你并不孤单...'右键获得10分钟灵视和1分钟树妖祝福
+					使用璀璨星辰右键，赠送你幸运转盘抽取的物品
+					也可以算作水晶球，书柜，生命木织机
 					'''
 			}
 
@@ -7989,11 +7989,11 @@ Mods: {
 			}
 
 			TechniciansTable: {
-				DisplayName: Technicians Table
+				DisplayName: 技术员工作桌
 				Tooltip:
 					'''
-					Thank God the multimeter probes are not broken
-					'Used to make Explosive or Anti explosive equipment'
+					'感谢上帝万用表的顶针没有坏'
+					用于制造爆炸性或反爆炸性物品
 					'''
 			}
 
