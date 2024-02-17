@@ -795,7 +795,7 @@ Mods: {
 			CookieCharm.MapEntry: Cookie Charm
 			CookieBox.MapEntry: Cookie Box
 			Computer.MapEntry: Computer
-			ChaosTorch.MapEntry: Chaos Torch
+			ChaosTorch.MapEntry: 混乱火把
 			ChallengerDeep.MapEntry: Challenger Deep
 			CatPainting.MapEntry: Cat Painting
 			CatEffect.MapEntry: Cat Effect
@@ -1217,8 +1217,8 @@ Mods: {
 			}
 
 			ChaosAmplifier: {
-				DisplayName: Chaos Amplifier
-				Description: You feel shadow strengthen you at cost of sanity
+				DisplayName: 混乱强化器
+				Description: 阴影以失去理智为代价强化了你
 			}
 
 			Charged: {
@@ -6179,7 +6179,7 @@ Mods: {
 			}
 
 			Vocaloid: {
-				DisplayName: 术力口
+				DisplayName: 初音未来
 				Tooltip:
 					'''
 					'一个人无法做到的事情，如果有两个人，就一定可以克服'
@@ -6757,7 +6757,7 @@ Mods: {
 			}
 
 			NeoWings: {
-				DisplayName: 科幻之翼
+				DisplayName: Neo之翼
 				Tooltip:
 					'''
 					'准 备 好 了 吗 ？ 表 演 开 始 了 ！！！'
@@ -6842,7 +6842,7 @@ Mods: {
 			}
 
 			SpiritualWings: {
-				DisplayName: 鬼魂之翼
+				DisplayName: 九尾焰翼
 				Tooltip:
 					'''
 					'火焰会净化一切'
@@ -7888,40 +7888,40 @@ Mods: {
 			}
 
 			ChaosAmplifier: {
-				DisplayName: Chaos Amplifier
-				Tooltip: "While its being placed it will amplify the abilities of people that are being close to it"
+				DisplayName: 混乱强化器
+				Tooltip: "放置后加强附近人的能力"
 			}
 
 			ChaosTorch: {
-				DisplayName: Chaos Torch
+				DisplayName: 混乱火把（占位符）
 				Tooltip:
 					'''
 					While placed if there is any vanilla invasion active it will randomly spawn that events enemies on its position
-					This effect does not affected from spawn rate
+					无视刷怪率影响
 					'''
 			}
 
 			Concrete: {
-				DisplayName: Concrete
-				Tooltip: "'It's immune to explosions'"
+				DisplayName: 混凝土
+				Tooltip: "免疫爆炸"
 			}
 
 			CookieCharm: {
-				DisplayName: Cookie Charm
+				DisplayName: 饼干的魅力
 				Tooltip:
 					'''
-					'Speak softly and carry big cookie. Big enough to share with a good friend'
-					While player is being near to it will spread the cookies to sky
+					'轻声说话，携带大饼干，大到可以和好朋友分享'
+					右键时把饼干撒向天空
 					'''
 			}
 
 			AdvanceChemicalLab: {
-				DisplayName: Advance Chemical Analysis Lab
+				DisplayName: 高级化学分析实验台
 				Tooltip:
 					'''
-					'Jesse, we need to cook……'
-					33% chance to not consume药水 crafting ingredients
-					It function as its materials
+					'Jesse, 我们得做饭…'
+					33%的几率不消耗药水的制作材料
+					有所有下位材料的功能
 					'''
 			}
 
@@ -7931,29 +7931,28 @@ Mods: {
 					'''
 					'没有善与恶，只有黑暗，还有那些懦弱之人'
 					奉上祭品，玩家可以为自己的武器进行特殊附魔
-					例如，武道開霣可以为真近战武器进行附魔
 					如果武器不满足祭品的武器类型要求，则会受到诅咒
 					也可用作原版的恶魔祭坛制作站
 					'''
 			}
 
 			ArchitecturalDesignTable: {
-				DisplayName: Architectural Design Table
+				DisplayName: 建筑设计桌
 				Tooltip:
 					'''
-					'Let the whole world be your canvas'
-					It function as its materials crafting stations
+					'让整个世界成为你的画布'
+					有所有下位材料的功能
 					'''
 			}
 
 			FuriousAnvil: {
-				DisplayName: Furious Anvil
+				DisplayName: 暴怒的铁砧
 				Tooltip:
 					'''
-					'A legendary anvil once being used by 斯卡莱多德s to forge what their warlord need'
-					When player <right>to its tile if player selected weapon or accessory it could shatter that item to its materials
-					If player presses down while <right>to its tile it will instead tell player which materials it will get back
-					It will only shatter items that are in hotbar and it will also function as a mythril anvil
+					'一个传说中的铁砧曾经被斯卡莱多德用来锻造他们的军阀所需要的东西'
+					武器或饰品右键时会分解成材料
+					右键会告诉你返回哪些材料
+					只会分解手持的物品，也可以作为秘银砧使用
 					'''
 			}
 
@@ -7968,23 +7967,23 @@ Mods: {
 			}
 
 			PhilosophersWorkBench: {
-				DisplayName: Philosopher's Work Bench
+				DisplayName: 转化工作台
 				Tooltip:
 					'''
-					'Humankind cannot gain anything without first giving something in return'
-					'To obtain, something of equal value must be lost'
-					'While being placed it will allow changing pre hardmode items with their equals'
-					'Philosophers stone can be placed <right>to its tile while holding philosopher's stone and work benches top is empty
-					'Upon it's being placed it will allow changing hardmode items with their equals'
+					'不先付出就无法获得东西'
+					'要获得就必须等价交换'
+					放置后允许将困难模式前的材料转化成等价物品
+					手持点金石右键放在工作台上
+					放置点金石后允许将困难模式的材料转化为等价物品
 					'''
 			}
 
 			SewingMachine: {
-				DisplayName: Sewing Machine
+				DisplayName: 缝纫机
 				Tooltip:
 					'''
-					'Art is not what you see, but what you make others see'
-					It function as its materials
+					'艺术不是你看到什么，而是你让别人看到什么'
+					有所有下位材料的功能
 					'''
 			}
 
@@ -7998,42 +7997,42 @@ Mods: {
 			}
 
 			CrimsonAmplifier: {
-				DisplayName: Crimson Amplifier
+				DisplayName: 猩红雷达
 				Tooltip:
 					'''
-					It seems the remains still contain small amount of Crimson magic
-					While player is being near to it will activate scarlet mist
+					'似乎遗骸中还含有少量的猩红魔法'
+					靠近时会激活猩红迷雾
 					'''
 			}
 
 			DivineResonator: {
-				DisplayName: Divine Resonator
+				DisplayName: 神圣谐振器
 				Tooltip:
 					'''
-					You are not sure if it amplify the power based or spiritual based energy
-					'Upon being placed it will increase the update rate of 11x11 block around itself'
+					'你不确定它是基于力量的能量还是精神的能量'
+					放置后提高自身周围11x11方块的更新速度
 					'''
 			}
 
 			DonationBox: {
-				DisplayName: Donation Box
+				DisplayName: 捐款箱
 				Tooltip:
 					'''
-					All will be used for Hakurei Shrine
-					<right> it's tile to make a small donation of a single gold coin
-					First donation grant 1 day blessing that increase luck + travelling npc spawn chances
-					Any additional donation have a chance to give touhou themed pets + items
-					Shrine donations are accepted only in day
+					来自博丽神社
+					右键捐赠一枚金币是件好事
+					捐赠一次给予1天的祝福，增加运气和旅行npc的生成概率
+					任何额外的捐赠都有概率给予幻想乡类的宠物+物品
+					神社的捐款只在白天接受
 					'''
 			}
 
 			DynastyWoodHopper: {
-				DisplayName: Dynasty Locator
+				DisplayName: 王朝漏斗
 				Tooltip:
 					'''
-					An entity being used to put item into containers by placing top of the container
-					Upon being hang to wall it will put the items that touch it to the chest being placed below if it have enough space
-					First place the hopper and then chest directly its below and there is no empty tile behind them for it to work
+					这是一个把物品放入容器的东西
+					首先把漏斗挂在墙上，下面留有一个箱子的大小空间
+					然后在漏斗放下箱子，掉落物在漏斗方时即可收入箱子里
 					'''
 			}
 
@@ -14088,7 +14087,7 @@ Mods: {
 			}
 
 			SuikasGourd: {
-				DisplayName: 苏卡的酒壶
+				DisplayName: 伊吹萃香的酒葫芦
 				Tooltip:
 					'''
 					'喝酒能激发我最强大的力量！'
