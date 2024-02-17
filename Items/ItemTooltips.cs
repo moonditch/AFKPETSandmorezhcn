@@ -84,7 +84,7 @@ namespace AFKPETSandmorezhcn.Items
 				sb.Replace("Become usable after you prove yourself via taking head of the false lunatic cultist'", "当你击败拜月邪教后，可以使用此物品");
 
 				//点金石
-				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在贤者工作台上");
+				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
 
 				//wiki说明
 				tooltipLine.Text = Regex.Replace(sb.ToString(), @"^Hold Shift while hovering on item to.*", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
