@@ -7897,7 +7897,7 @@ Mods: {
 				Tooltip:
 					'''
 					While placed if there is any vanilla invasion active it will randomly spawn that events enemies on its position
-					无视刷怪率影响
+					这个效果不受刷怪率的影响
 					'''
 			}
 
@@ -8032,7 +8032,7 @@ Mods: {
 					'''
 					这是一个把物品放入容器的东西
 					首先把漏斗挂在墙上，下面留有一个箱子的大小空间
-					然后在漏斗放下箱子，掉落物在漏斗方时即可收入箱子里
+					然后在漏斗放下箱子，掉落物在漏斗上方时即可收入箱子里
 					'''
 			}
 
@@ -8109,37 +8109,37 @@ Mods: {
 			}
 
 			FestivePlant: {
-				DisplayName: Festive Plant
+				DisplayName: 节日植物
 				Tooltip:
 					'''
-					'They're not apples'
-					When placed it will randomly grow presents on dirt, clay and mud
-					It's growth area is 10x10 when the tile is at center 2x2 square
+					'这里没有苹果'
+					放置后随机在土块，粘土块和泥块上生长礼物
+					当位于2x2正方形的中心时生长区域是10x10
 					'''
 			}
 
 			FirstYearBanner: {
-				DisplayName: More Pets First Year Anniversary Banner
-				Tooltip: "'While its being placed it will bless the near players'"
+				DisplayName: 更多宠物一周年纪念旗帜
+				Tooltip: "放置时保佑附近的玩家"
 			}
 
 			FumoBoulder: {
-				DisplayName: Reimu Fumo
+				DisplayName: 灵梦玩偶
 				Tooltip:
 					'''
-					'She stares directly into your wallet and soul'
-					Think twice before breaking its tile
+					'她看着你的钱包和灵魂'
+					要三思而后行
 					'''
 			}
 
 			GuidewaytoHell: {
-				DisplayName: Guideway to Hell
+				DisplayName: 地狱之路
 				Tooltip:
 					'''
-					'Wait, why it have no stop button?'
-					Upon being placed by <right>to its tile player could activate it
-					When its activated it will form a hellavator
-					Its not strong enough to break lihzahrd bricks and altar
+					'等等，为什么没有停止按钮?'
+					右键放置到地面上然后激活它
+					激活后形成通向地狱的直通车
+					无法打破蜥蜴神庙砖和祭坛
 					'''
 			}
 
@@ -8228,16 +8228,16 @@ Mods: {
 			}
 
 			JunglePlantBox: {
-				DisplayName: Overgrown Barnyard Grass in a Planter
-				Tooltip: "'Using it will plant jungle grass on mud blocks'"
+				DisplayName: 杂草丛生的种植盆
+				Tooltip: "使用时可以在泥块上种植丛林草种"
 			}
 
 			LunarRelocator: {
-				DisplayName: Lunar Relocator
+				DisplayName: 月之传送器
 				Tooltip:
 					'''
-					Teleporters will carry from A to B while this can take them from everywhere in its range
-					'When it takes signal from wires it will collect the items that have less than 450 block distance to its center'
+					传送器可以A点运送到B点，这个可以在它的范围内传送
+					用电线连接两点信号，会收集不到450个方块内距离的物品
 					'''
 			}
 
@@ -8257,46 +8257,46 @@ Mods: {
 			}
 
 			BicycleEffectEgg: {
-				DisplayName: Bicycle Effect Egg
+				DisplayName: 骑自行车彩蛋
 				Tooltip: ""
 			}
 
 			BlondeHairEffectEgg: {
-				DisplayName: Blonde Hair Effect Egg
+				DisplayName: Blonde Hair彩蛋
 				Tooltip: ""
 			}
 
 			BuyoBuyoEffectEgg: {
-				DisplayName: Buyo Buyo Effect Egg
+				DisplayName: Buyo Buyo彩蛋
 				Tooltip: ""
 			}
 
 			CatEffectEgg: {
-				DisplayName: Cat Effect Egg
+				DisplayName: 猫猫彩蛋
 				Tooltip: ""
 			}
 
 			Computer: {
-				DisplayName: Computer
+				DisplayName: 电脑
 				Tooltip: ""
 			}
 
 			CourageStatue: {
-				DisplayName: 雕像 of Courage
+				DisplayName: 勇气雕像
 				Tooltip:
 					'''
-					It was designed after the disappearence of one of the mightiest terrarian
-					Still his legend continue to grow further in peoples heart
+					'这个是在最强大的地球人之一消失后设计的'
+					'传奇继续在人们心中进一步成长'
 					'''
 			}
 
 			CraftingTable: {
-				DisplayName: Crafting Table
-				Tooltip: "'Strangely there is nine slot on it'"
+				DisplayName: 我的世界工作台
+				Tooltip: "它有九个空槽"
 			}
 
 			DemonEffectEgg: {
-				DisplayName: Demon Effect Egg
+				DisplayName: 恶魔彩蛋
 				Tooltip: ""
 			}
 
@@ -8306,150 +8306,150 @@ Mods: {
 			}
 
 			FatEffectEgg: {
-				DisplayName: Fat Effect Egg
+				DisplayName: 胖子彩蛋
 				Tooltip: ""
 			}
 
 			FluteEffectEgg: {
-				DisplayName: Flute Effect Egg
+				DisplayName: 吹笛人彩蛋
 				Tooltip: ""
 			}
 
 			FrogEffectEgg: {
-				DisplayName: Frog Effect Egg
+				DisplayName: 青蛙彩蛋
 				Tooltip: ""
 			}
 
 			GlassVase: {
-				DisplayName: Glass Vase
+				DisplayName: 玻璃花瓶
 				Tooltip: ""
 			}
 
 			GreenPhone: {
-				DisplayName: Green Phone
-				Tooltip: "'You feel it's old but also as mystic as luna nights'"
+				DisplayName: 绿色电话
+				Tooltip: "你觉得很古老，但又像月神夜一样神秘'"
 			}
 
 			Grinder: {
-				DisplayName: Tuning Fork
+				DisplayName: 音叉
 				Tooltip: ""
 			}
 
 			HatandScarfEffectEgg: {
-				DisplayName: Hat and Scarf Effect Egg
+				DisplayName: 帽子和围巾彩蛋
 				Tooltip: ""
 			}
 
 			HexBlock: {
-				DisplayName: Hex Block
+				DisplayName: Hex Block(占位符)
 				Tooltip: ""
 			}
 
 			KindnessStatue: {
-				DisplayName: 雕像 of Kindness
+				DisplayName: 仁慈雕像
 				Tooltip:
 					'''
-					It was designed after the disappearence of one of the kindest terrarian
-					Even tough some forget the gifts that her bring upon these lands in others heart care for her continues
+					它是在一个最善良的地球人失踪后设计的
+					即使有些人忘记了她给这片土地带来的东西，但她的关心仍在继续
 					'''
 			}
 
 			KnifeEffectEgg: {
-				DisplayName: Knife Effect Egg
+				DisplayName: Knife彩蛋
 				Tooltip: ""
 			}
 
 			LampEffectEgg: {
-				DisplayName: Lamp Effect Egg
+				DisplayName: 提灯人彩蛋
 				Tooltip: ""
 			}
 
 			LongHairEffectEgg: {
-				DisplayName: Long Hair Effect Egg
+				DisplayName: Long Hair彩蛋
 				Tooltip: ""
 			}
 
 			MedamaudeEffectEgg: {
-				DisplayName: Medamaude Effect Egg
+				DisplayName: Medamaude彩蛋
 				Tooltip: ""
 			}
 
 			MidgetEffectEgg: {
-				DisplayName: Midget Effect Egg
+				DisplayName: Midget彩蛋
 				Tooltip: ""
 			}
 
 			NeonEffectEgg: {
-				DisplayName: Neon Effect Egg
+				DisplayName: 霓虹灯彩蛋
 				Tooltip: ""
 			}
 
 			NopperabouEffectEgg: {
-				DisplayName: Neon Effect Egg
+				DisplayName: Nopperabou彩蛋
 				Tooltip: ""
 			}
 
 			OldTV: {
-				DisplayName: Old Television
+				DisplayName: 老旧电视
 				Tooltip: ""
 			}
 
 			PadoruFigure: {
-				DisplayName: Decorative Padoru Figure
+				DisplayName: 尼禄玩偶
 				Tooltip: Padoru Padoru ……
 			}
 
 			Plant: {
-				DisplayName: Plant Pot
+				DisplayName: 盆栽
 				Tooltip: ""
 			}
 
 			PoopHairEffectEgg: {
-				DisplayName: Poop Hair Effect Egg
+				DisplayName: Poop Hair彩蛋
 				Tooltip: ""
 			}
 
 			PortableGiantFungiBulb: {
-				DisplayName: Potted Giant Fungi
+				DisplayName: 巨型真菌盆栽
 				Tooltip: ""
 			}
 
 			PortableLavaLotus: {
-				DisplayName: Charred Seed
+				DisplayName: 烧焦的种子
 				Tooltip: ""
 			}
 
 			PortablePlanteraBulb: {
-				DisplayName: Potted Plantera Bulb
+				DisplayName: 世纪之花盆栽
 				Tooltip: ""
 			}
 
 			RunningStatue: {
-				DisplayName: Running Man雕像
+				DisplayName: 奔跑的人雕像
 				Tooltip:
 					'''
-					It smells like exotic butters and sadness
-					Still you feel grateful for this beautiful journey
+					闻起来有异国黄油和悲伤的味道
+					你仍然会感激这段美好的旅行
 					'''
 			}
 
 			SeveredHeadEffectEgg: {
-				DisplayName: Severed Head Effect Egg
+				DisplayName: 头颅彩蛋
 				Tooltip: ""
 			}
 
 			SnowPapyrus: {
-				DisplayName: Suspicious Snowman
+				DisplayName: 可疑的雪人
 				Tooltip: ""
 			}
 
 			StonedHuman: {
-				DisplayName: Medusa's Prey
+				DisplayName: 美杜莎的猎物
 				Tooltip: ""
 			}
 
 			StoplightEffectEgg: {
-				DisplayName: Stoplight Effect Egg
+				DisplayName: Stoplight彩蛋
 				Tooltip: ""
 			}
 
@@ -8459,92 +8459,92 @@ Mods: {
 			}
 
 			TowelEffectEgg: {
-				DisplayName: Towel Effect Egg
+				DisplayName: Towel彩蛋
 				Tooltip: ""
 			}
 
 			TriangleKerchiefEffectEgg: {
-				DisplayName: Triangle Kerchief Effect Egg
+				DisplayName: Triangle Kerchief彩蛋
 				Tooltip: ""
 			}
 
 			UmbrellaEffectEgg: {
-				DisplayName: Umbrella Effect Egg
+				DisplayName: 伞型彩蛋
 				Tooltip: ""
 			}
 
 			WitchEffectEgg: {
-				DisplayName: Witch Effect Egg
+				DisplayName: Witch彩蛋
 				Tooltip: ""
 			}
 
 			YukionnaEffectEgg: {
-				DisplayName: Yuki-onna Effect Egg
+				DisplayName: Yuki-onna彩蛋
 				Tooltip: ""
 			}
 
 			MolecularAttractor: {
-				DisplayName: Molecular Attractor
+				DisplayName: 分子吸引器
 				Tooltip:
 					'''
-					You feel it controls the magnetic field around itself
-					'When it takes signal from wires it will collect the items that have less than 150 block distance to its center'
+					'你感觉它控制着它周围的磁场'
+					从电路上接收信号时，会收集不到150个方块内距离的物品
 					'''
 			}
 
 			MoleculerExciter: {
-				DisplayName: Molecular Exciter
+				DisplayName: 分子励磁机
 				Tooltip:
 					'''
-					'It even makes you feel excited'
-					When being placed it will excite the atomic structures of near soil to their unstable state
-					This cause any dirt to transform into meteorite and any stone to transform into random gem
-					In hardmode ash transforms into hellstone and mud transforms into chlorophyte
+					'甚至让你感到兴奋'
+					放置后激发附近土壤的原子结构达到不稳定状态
+					这导致土块转化为陨石或石块转化为随机宝石
+					在困难模式下，灰烬块转化为狱石，泥块转化为叶绿矿
 					'''
 			}
 
 			MushroomGrassPlanterBox: {
-				DisplayName: 发光蘑菇种植箱
+				DisplayName: 发光蘑菇种植盒
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox2: {
-				DisplayName: 蘑菇种植箱
+				DisplayName: 蘑菇种植盒
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox3: {
-				DisplayName: 魔菇种植箱
+				DisplayName: 魔菇种植盒
 				Tooltip: ""
 			}
 
 			MushroomGrassPlanterBox4: {
-				DisplayName: 毒蘑菇种植箱
+				DisplayName: 毒蘑菇种植盒
 				Tooltip: ""
 			}
 
 			MushroomPlantBox: {
-				DisplayName: Multishroom in a Planter
-				Tooltip: "'Using it will plant mushroom grass on mud blocks'"
+				DisplayName: 发光蘑菇种植盆
+				Tooltip: "使用时可以在泥块上种植蘑菇草种"
 			}
 
 			NecromanticAmplifier: {
-				DisplayName: Necromantic Amplifier
+				DisplayName: 妖术强化器
 				Tooltip:
 					'''
-					'A relic that is not being used for more than 500 years'
-					While player is being near to it will activate necromantic mist
+					'一件超过500年没有使用的文物'
+					靠近时激活亡灵之雾
 					'''
 			}
 
 			OrderTorch: {
-				DisplayName: Order Torch
+				DisplayName: 命令火把
 				Tooltip:
 					'''
-					While placed if there is any enemy spawn near to it it will cause it to despawn
-					Torch have 80 radius and if npc does not count friendly and have contact damage it will count as enemy
-					It checks its distance with enemies center and if enemy spawn somewhere else and get close to it torch will not despawn it
-					This effect does not affected from spawn rate
+					放置时有敌人的附近生成会让敌人消失
+					火把有80半径距离，若NPC代表是中立并有接触伤害视为敌人
+					敌人在其他地方生成火把不会消灭它
+					这个效果不受刷怪率的影响
 					'''
 			}
 
@@ -8554,42 +8554,42 @@ Mods: {
 			}
 
 			BlueSun: {
-				DisplayName: Blue Sun
+				DisplayName: 蓝色太阳
 				Tooltip: "'C. Adam'"
 			}
 
 			Cliffside: {
-				DisplayName: Cliffside
+				DisplayName: 悬崖边
 				Tooltip: ""
 			}
 
 			Melancholy: {
-				DisplayName: Melancholy
+				DisplayName: 忧郁
 				Tooltip: "'Blossom'"
 			}
 
 			Misconception: {
-				DisplayName: Misconception
+				DisplayName: 误解
 				Tooltip: "'Blossom'"
 			}
 
 			ModPainting1: {
-				DisplayName: AFK Pets Anniversary Painting (Green)
+				DisplayName: AFK宠物周年纪念画 (绿)
 				Tooltip: "'Sir A.F.K'"
 			}
 
 			ModPainting2: {
-				DisplayName: AFK Pets Anniversary Painting (Blue)
+				DisplayName: AFK宠物周年纪念画 (蓝)
 				Tooltip: "'Sir A.F.K'"
 			}
 
 			NightShift: {
-				DisplayName: Night Shift
+				DisplayName: 夜览
 				Tooltip: "'W. Afton'"
 			}
 
 			OdetotheFlame: {
-				DisplayName: Ode to the Flame
+				DisplayName: 火焰颂
 				Tooltip:
 					'''
 					'非常适合模仿开发者'
@@ -8603,22 +8603,22 @@ Mods: {
 			}
 
 			PicassosGirl: {
-				DisplayName: Picasso's Girl
+				DisplayName: Picasso的女孩
 				Tooltip: "'Joel G.'"
 			}
 
 			PumpinHeart: {
-				DisplayName: Pumpin Heart
+				DisplayName: 万圣节之夜
 				Tooltip: "'Blossom'"
 			}
 
 			Remembrance: {
-				DisplayName: Remembrance
+				DisplayName: 纪念
 				Tooltip: "'Blossom'"
 			}
 
 			ToughStuff: {
-				DisplayName: Tough Stuff
+				DisplayName: 勇渡难关
 				Tooltip: "'D. Robin'"
 			}
 
@@ -8628,36 +8628,36 @@ Mods: {
 			}
 
 			ScarletPressurePlate: {
-				DisplayName: Scarlet Pressure Plate
-				Tooltip: "'Places single use pressure plates'"
+				DisplayName: 猩红压力板
+				Tooltip: "放置一次性压力板"
 			}
 
 			SCP1162: {
-				DisplayName: A Hole in Wall
+				DisplayName: 墙洞
 				Tooltip:
 					'''
-					'A Euclid class artifact being formed by an ancient wizard'
-					'After the wizards death one of his students keep this artifact to keep the good memories until his death and after that day the artifact is being disappeared'
-					'It seems your hand fit well and there is something in it'
-					'If you <right>to it will take the item in your hand and give you another Item'
+					'这个藏物由古代巫师制作而成'
+					'巫师死后，他的学生保存着这件藏物以保存美好的回忆，直到他死后，这件藏物就消失了'
+					'看来你的手很合适，里面有东西'
+					右键时会把你手中的物品拿过来，然后第二天会给你另一个物品
 					'''
 			}
 
 			ScrapCollector: {
-				DisplayName: Scrap Collector
+				DisplayName: 废料收集器
 				Tooltip:
 					'''
-					Strangely it contains high amount of static charge
-					'When it takes signal from wires it will collect the items that have less than 50 block distance to its center'
+					'它含有大量的静电'
+					从电路上接收信号时，会收集不到50个方块内距离的物品
 					'''
 			}
 
 			SculptorsIdol: {
-				DisplayName: Sculptor's Idol
+				DisplayName: 雕塑家的雕像
 				Tooltip:
 					'''
-					'Brave Undead…… You Have Proven Yourself To Me. Now…… Become One With The Soul'
-					<right>activate the flame + set temporary teleport point
+					'勇敢的亡灵......你已经向我证明了你自己。现在...灵魂合一'
+					右键激活火焰，然后设置临时传送点
 					If respawn using this player gain full health + 30 second endurance and regen
 					This ability has 10 minute cooldown
 					'''
@@ -12104,7 +12104,7 @@ Mods: {
 			}
 
 			StrangeLookingEgg2: {
-				DisplayName: 便携式Yuki-onna Effect Egg
+				DisplayName: 便携式Yuki-onna彩蛋（出自梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
@@ -12139,7 +12139,7 @@ Mods: {
 			}
 
 			StrangeLookingEgg3: {
-				DisplayName: 便携式Demon彩蛋（出自梦日记）
+				DisplayName: 便携式恶魔彩蛋（出自梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
