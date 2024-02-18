@@ -922,7 +922,7 @@ Mods: {
 			}
 
 			ArmoredUndyne: {
-				DisplayName: The Heroine
+				DisplayName: 安黛因
 				Description: Undyne将为您提供帮助
 			}
 
@@ -992,8 +992,8 @@ Mods: {
 			}
 
 			BirdBlue: {
-				DisplayName: Blue Jay
-				Description: Blue Jay将跟随你
+				DisplayName: 冠蓝鸦
+				Description: 冠蓝鸦将跟随你
 			}
 
 			BirdGold: {
@@ -1022,13 +1022,13 @@ Mods: {
 			}
 
 			BlessedBanana2: {
-				DisplayName: Divine Banana
-				Description: It will enlight your path
+				DisplayName: 神圣的香蕉
+				Description: 它将照亮你的道路
 			}
 
 			BlessedBrokenWashingMachine: {
-				DisplayName: Broken Washing Machine the Holy Avenger
-				Description: It will protect Terraria enthusiasts for it's master
+				DisplayName: 被祝福破碎洗衣机
+				Description: 它会保护泰拉瑞亚爱好者
 			}
 
 			BlessedBrokenWashingMachineCooldown: {
@@ -1047,8 +1047,8 @@ Mods: {
 			}
 
 			Blizzarus: {
-				DisplayName: Blizzarus
-				Description: You feel air surrounding her is getting colder
+				DisplayName: 精灵
+				Description: 你觉得她周围的空气越来越冷
 			}
 
 			BloodHeartCooldown: {
@@ -1062,8 +1062,8 @@ Mods: {
 			}
 
 			BlueInkling: {
-				DisplayName: Blue Inkling
-				Description: It wants to paint your world to blue
+				DisplayName: 蓝鱿鱼
+				Description: 它想把你的世界涂成蓝色
 			}
 
 			BlueScarab2: {
@@ -1082,7 +1082,7 @@ Mods: {
 			}
 
 			BobsBrain: {
-				DisplayName: Bob's Brain
+				DisplayName: 鲍勃的脑浆子
 				Description: 我希望它不会爆炸
 			}
 
@@ -1097,13 +1097,13 @@ Mods: {
 			}
 
 			Bowser: {
-				DisplayName: Bowser
-				Description: Bowser将跟随你
+				DisplayName: 库巴
+				Description: 库巴将跟随你
 			}
 
 			Brad: {
 				DisplayName: Brad
-				Description: He is in your party now
+				Description: 他现在和你在一起
 			}
 
 			BrainDebuff: {
@@ -1117,18 +1117,18 @@ Mods: {
 			}
 
 			BrideCirno: {
-				DisplayName: Bride 琪露诺
-				Description: "'You are not sure what happened but you feel happy'"
+				DisplayName: 花嫁琪露诺
+				Description: 你不确定发生了什么，但你感到高兴
 			}
 
 			BrideFlandre: {
-				DisplayName: Bride Flandre
-				Description: "'You are not sure what happened but you feel happy'"
+				DisplayName: 花嫁芙兰朵露·斯卡雷特
+				Description: 你不确定发生了什么，但你感到高兴
 			}
 
 			BrideJunko: {
-				DisplayName: Bride Junko
-				Description: "'You are not sure what happened but you feel purified and happy'"
+				DisplayName: 花嫁Junko
+				Description: 你不知道发生了什么，但你感到纯净和快乐
 			}
 
 			BrokenReality: {
@@ -1142,13 +1142,13 @@ Mods: {
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: Broken Washing Machine
-				Description: It's looking for it's lord and Terraria enthusiasts
+				DisplayName: 破碎的洗衣机
+				Description: 它在寻找lord和泰拉瑞亚的爱好者
 			}
 
 			Bubble: {
-				DisplayName: Bubble
-				Description: Strangely it wants you to save someone
+				DisplayName: 泡泡
+				Description: 它想让你去救人
 			}
 
 			Bubsy: {
@@ -1167,8 +1167,8 @@ Mods: {
 			}
 
 			BuilderMario: {
-				DisplayName: Builder Mario
-				Description: It thinks this world is also SMM course
+				DisplayName: 建筑工马里奥
+				Description: 它认为这个世界也是SMM的过程
 			}
 
 			Bumbo1: {
@@ -1376,7 +1376,7 @@ Mods: {
 			}
 
 			Cupid: {
-				DisplayName: Cupid
+				DisplayName: 丘比特
 				Description: 它将跟随你
 			}
 
@@ -2190,18 +2190,18 @@ Mods: {
 			}
 
 			EtherianWyvern1: {
-				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern将跟随你
+				DisplayName: 埃特尼亚飞龙
+				Description: 埃特尼亚飞龙将跟随你
 			}
 
 			EtherianWyvern2: {
-				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern将跟随你
+				DisplayName: 埃特尼亚飞龙
+				Description: 埃特尼亚飞龙将跟随你
 			}
 
 			EtherianWyvern3: {
-				DisplayName: Etherian Wyvern
-				Description: Etherian Wyvern将跟随你
+				DisplayName: 埃特尼亚飞龙
+				Description: 埃特尼亚飞龙将跟随你
 			}
 
 			EyeOfCthulhu: {
@@ -2254,13 +2254,13 @@ Mods: {
 			}
 
 			Flandre: {
-				DisplayName: Flandre
-				Description: "'How even Remilia release her'"
+				DisplayName: 芙兰朵露·斯卡雷特
+				Description: 蕾米莉亚怎么把她放出来了
 			}
 
 			FleshReaver: {
-				DisplayName: Flesh Reaver
-				Description: Flesh Reaver将跟随你
+				DisplayName: 戮血沙鲨
+				Description: 戮血沙鲨将跟随你
 			}
 
 			FloatyGross: {
@@ -2279,7 +2279,7 @@ Mods: {
 			}
 
 			ForagerCow: {
-				DisplayName: Cow
+				DisplayName: 奶牛
 				Description: "'它将跟随你'"
 			}
 
@@ -2334,8 +2334,8 @@ Mods: {
 			}
 
 			Garry: {
-				DisplayName: Garry
-				Description: He is looking for Ib
+				DisplayName: 咖喱
+				Description: 他在找Ib
 			}
 
 			Gaster: {
@@ -2353,8 +2353,8 @@ Mods: {
 			}
 
 			GiantBat: {
-				DisplayName: Giant Bat
-				Description: Giant Bat将跟随你
+				DisplayName: 巨型蝙蝠
+				Description: 巨型蝙蝠将跟随你
 			}
 
 			GiantTortoise: {
@@ -2383,8 +2383,8 @@ Mods: {
 			}
 
 			GoldMimic: {
-				DisplayName: Gold Mimic
-				Description: "'It seems it want to it that coin'"
+				DisplayName: 金宝箱怪
+				Description: "它似乎想把那枚硬币拿走"
 			}
 
 			GrandDad: {
@@ -2552,23 +2552,23 @@ Mods: {
 			}
 
 			IceBat: {
-				DisplayName: Ice Bat
-				Description: Ice Bat将跟随你
+				DisplayName: 冰雪蝙蝠
+				Description: 冰雪蝙蝠将跟随你
 			}
 
 			IceKing: {
-				DisplayName: Ice King
-				Description: He is looking for female npcs
+				DisplayName: 寒冰王
+				Description: 他正在寻找女性npc
 			}
 
 			IceMimic: {
 				DisplayName: Ice Mimic
-				Description: "'It seems it want to it that coin'"
+				Description: "它似乎想把那枚硬币拿走"
 			}
 
 			IchirinKumoi: {
-				DisplayName: Ichirin Kumoi
-				Description: She将跟随你
+				DisplayName: 云居一轮
+				Description: 她将跟随你
 			}
 
 			Iku: {
@@ -2592,8 +2592,8 @@ Mods: {
 			}
 
 			Isabelle: {
-				DisplayName: Isabelle
-				Description: She looks confused
+				DisplayName: 西施惠
+				Description: 她看起来很困惑
 			}
 
 			Jake: {
@@ -2647,13 +2647,13 @@ Mods: {
 			}
 
 			JungleBat: {
-				DisplayName: Jungle Bat
-				Description: Jungle Bat将跟随你
+				DisplayName: 巨型飞狐
+				Description: 巨型飞狐将跟随你
 			}
 
 			Junko: {
 				DisplayName: Junko
-				Description: She将跟随你
+				Description: 她将跟随你
 			}
 
 			Kaga: {
@@ -2692,13 +2692,13 @@ Mods: {
 			}
 
 			KingDedede: {
-				DisplayName: King Dedede
-				Description: King Dedede将跟随你
+				DisplayName: 帝帝帝大王
+				Description: 帝帝帝大王将跟随你
 			}
 
 			Kirby: {
-				DisplayName: Kirby
-				Description: Kirby really wants to eat that beef
+				DisplayName: 星之卡比
+				Description: 星之卡比真的很想吃这个肉
 			}
 
 			Kirlia: {
@@ -2787,8 +2787,8 @@ Mods: {
 			}
 
 			LavaBat: {
-				DisplayName: Lava Bat
-				Description: Lava Bat将跟随你
+				DisplayName: 熔岩蝙蝠
+				Description: 熔岩蝙蝠将跟随你
 			}
 
 			Leap: {
@@ -2802,8 +2802,8 @@ Mods: {
 			}
 
 			LightBat: {
-				DisplayName: Illuminant Bat
-				Description: Illuminant Bat将跟随你
+				DisplayName: 夜明蝙蝠
+				Description: 夜明蝙蝠将跟随你
 			}
 
 			LightLamia: {
@@ -2827,8 +2827,8 @@ Mods: {
 			}
 
 			Lilac: {
-				DisplayName: Lilac
-				Description: She将跟随你
+				DisplayName: 丁香
+				Description: 她将跟随你
 			}
 
 			LilyWhite: {
@@ -3038,7 +3038,7 @@ Mods: {
 
 			Mari: {
 				DisplayName: Mari
-				Description: It's determination also makes you feel stronger
+				Description: 这种决心也会让你感觉更强大
 			}
 
 			Mariah: {
@@ -3132,8 +3132,8 @@ Mods: {
 			}
 
 			MetaKnight: {
-				DisplayName: Meta Knight
-				Description: Meta Knight将跟随你
+				DisplayName: 梅塔奈特
+				Description: 梅塔奈特将跟随你
 			}
 
 			Metroid: {
@@ -3217,8 +3217,8 @@ Mods: {
 			}
 
 			Morrigan: {
-				DisplayName: Morrigan Aensland
-				Description: You are totally not safe
+				DisplayName: 苏格兰
+				Description: 你并不安全
 			}
 
 			MotherSlimeTransfrom: {
@@ -3242,8 +3242,8 @@ Mods: {
 			}
 
 			MrGameandWatch: {
-				DisplayName: Mr Game & Watch
-				Description: Mr Game & Watch将跟随你
+				DisplayName: 小黑人
+				Description: 小黑人将跟随你
 			}
 
 			Mudkip: {
@@ -3307,8 +3307,8 @@ Mods: {
 			}
 
 			NuclearThrone: {
-				DisplayName: Nuclear Throne II
-				Description: It's radioactive enough to cause mutation when you get near to it
+				DisplayName: 核子王座
+				Description: 它的放射性物质足以在你接近它时引起变异
 			}
 
 			NueHoujuu: {
@@ -3352,7 +3352,7 @@ Mods: {
 			}
 
 			Papyrus: {
-				DisplayName: Papyrus
+				DisplayName: 帕派瑞斯
 				Description: Nyeh heh heh
 			}
 
@@ -3367,8 +3367,8 @@ Mods: {
 			}
 
 			Peppino: {
-				DisplayName: Peppino
-				Description: OH MY GOD THE PIZZAS
+				DisplayName: 佩皮诺·斯巴盖
+				Description: 天啊，披萨
 			}
 
 			Perception: {
@@ -3967,8 +3967,8 @@ Mods: {
 			}
 
 			SeventhAngel: {
-				DisplayName: Seventh Angel
-				Description: "'它将跟随你"
+				DisplayName: 第七使徒
+				Description: 它将跟随你
 			}
 
 			Shades: {
@@ -3978,7 +3978,7 @@ Mods: {
 
 			ShadowMimic: {
 				DisplayName: Shadow Mimic
-				Description: "'It seems it want to it that coin'"
+				Description: "它似乎想把那枚硬币拿走"
 			}
 
 			Shantae: {
@@ -4077,8 +4077,8 @@ Mods: {
 			}
 
 			SlipperySign: {
-				DisplayName: Slippery Floor
-				Description: You feel you are not safe
+				DisplayName: 地面光滑
+				Description: 你觉得你不安全
 			}
 
 			SlowEnemy: {
@@ -4322,8 +4322,8 @@ Mods: {
 			}
 
 			Sweep: {
-				DisplayName: Gotta Sweep
-				Description: It still continues to sweep
+				DisplayName: 扫帚
+				Description: 它仍在继续蔓延
 			}
 
 			DemonBuff: {
@@ -4542,8 +4542,8 @@ Mods: {
 			}
 
 			VampireBat: {
-				DisplayName: Vampire Bat
-				Description: Vampire Bat将跟随你
+				DisplayName: 吸血鬼蝙蝠
+				Description: 吸血鬼蝙蝠将跟随你
 			}
 
 			VerdeliteCrystal: {
@@ -4643,7 +4643,7 @@ Mods: {
 
 			Wilfe: {
 				DisplayName: Wilfe
-				Description: It wants you to give book of life to him
+				Description: 它想让你把生命之书给他
 			}
 
 			Wolf: {
@@ -4653,7 +4653,7 @@ Mods: {
 
 			WoodenMimic: {
 				DisplayName: Wooden Mimic
-				Description: "'It seems it want to it that coin'"
+				Description: "它似乎想把那枚硬币拿走"
 			}
 
 			Wraith: {
@@ -4687,8 +4687,8 @@ Mods: {
 			}
 
 			Youmu: {
-				DisplayName: Youmu Konpaku
-				Description: It's strange that she doesn't like darkness
+				DisplayName: 魂魄妖梦
+				Description: 她不喜欢黑暗
 			}
 
 			Yugi: {
@@ -4732,8 +4732,8 @@ Mods: {
 			}
 
 			Zombie: {
-				DisplayName: Pet Zombie
-				Description: Eats brains
+				DisplayName: 僵尸宠物
+				Description: 吃脑子
 			}
 
 			MoonDrained: {
@@ -8658,17 +8658,17 @@ Mods: {
 					'''
 					'勇敢的亡灵......你已经向我证明了你自己。现在...灵魂合一'
 					右键激活火焰，然后设置临时传送点
-					If respawn using this player gain full health + 30 second endurance and regen
-					This ability has 10 minute cooldown
+					重生后玩家将获得满血并获得30秒耐力和再生增益
+					这个技能有10分钟冷却时间
 					'''
 			}
 
 			SlipperySign: {
-				DisplayName: Standing Floor Sign
+				DisplayName: 楼层立牌
 				Tooltip:
 					'''
-					Caution SLIPPERY SURFACE
-					Upon placed it will make surfaces near it will become slippery
+					小 心 地 滑！
+					放置后使附近的地面变得光滑
 					'''
 			}
 
@@ -8838,7 +8838,7 @@ Mods: {
 			}
 
 			TinyCastle: {
-				DisplayName: 微型城堡（占位符，测试文案第6行）
+				DisplayName: 微型城堡
 				Tooltip:
 					'''
 					'哥布林不是唯一能重铸武器的种族'
@@ -8847,6 +8847,7 @@ Mods: {
 					不会从玩家那里拿重铸的钱
 					有概率改变修饰语，达到最好的修饰语就会停止工作
 					传奇的近战和工具，恶魔的远程和魔法和无情的召唤武器已视为最好的
+					（好像有bug，也许是我多模组的bug，但文案是这么写的，以后测试占位符）
 					'''
 			}
 
@@ -8963,7 +8964,7 @@ Mods: {
 			}
 
 			SatlaTrophy: {
-				DisplayName: S.A.T.L.A.-001纪念章
+				DisplayName: SATLA-001纪念章
 				Tooltip: ""
 			}
 
@@ -9078,7 +9079,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/FF00FF:祭品]
-					'Even it understand ranged class is broken'
+					'即使明白远程职业是坏的'
 					在快捷栏选中后，<right>晦暝祭坛将其奉上
 					放置祭品后，可以为远程弓武器附魔特殊词缀
 					在快捷栏选中要附魔的武器，然后<right>晦暝祭坛
@@ -9132,7 +9133,7 @@ Mods: {
 			}
 
 			FrozenCoin: {
-				DisplayName: 武道開霣
+				DisplayName: 银阿知利
 				Tooltip:
 					'''
 					[c/FF00FF:祭品]
@@ -9161,7 +9162,7 @@ Mods: {
 			}
 
 			KeyPiece1: {
-				DisplayName: 破损钥匙：暗
+				DisplayName: 破损钥匙：阿尔法
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9170,7 +9171,7 @@ Mods: {
 			}
 
 			KeyPiece2: {
-				DisplayName: 破损钥匙：明
+				DisplayName: 破损钥匙：贝塔
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9179,7 +9180,7 @@ Mods: {
 			}
 
 			KeyPiece3: {
-				DisplayName: 破损钥匙：花
+				DisplayName: 破损钥匙：伽马
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9211,12 +9212,12 @@ Mods: {
 			}
 
 			NetheriteBar: {
-				DisplayName: 下界合金
+				DisplayName: 下界合金锭
 				Tooltip: ""
 			}
 
 			NetheriteOre: {
-				DisplayName: 下界合金碎片
+				DisplayName: 下届残骸
 				Tooltip: ""
 			}
 
@@ -9253,7 +9254,7 @@ Mods: {
 				Tooltip:
 					'''
 					'仍燃烧着陨落者的痛苦'
-					'使用它会释放凤凰灰烬云，将狱石转化为下界合金碎片，狱石锭转化为下界合金
+					使用它会释放凤凰灰烬云，将狱石转化为下届残骸，狱石锭转化为下界合金锭
 					'''
 			}
 
@@ -9269,7 +9270,7 @@ Mods: {
 
 			RainbowVial: {
 				DisplayName: 浓缩彩虹瓶
-				Tooltip: "'包含烹星者残余的灵魂'"
+				Tooltip: "包含烹星者残余的灵魂"
 			}
 
 			RedThread: {
@@ -9279,30 +9280,30 @@ Mods: {
 
 			ScrapMetal: {
 				DisplayName: 废铁
-				Tooltip: "'来自SATLA-001的装甲和电路的残余部分'"
+				Tooltip: "来自SATLA-001的装甲和电路的残余部分"
 			}
 
 			ShadeCinder: {
 				DisplayName: 暗影余烬
-				Tooltip: "'含有生命的腐化本源'"
+				Tooltip: "含有生命的腐化本源"
 			}
 
 			AncientBell: {
-				DisplayName: 特别的铃铛（出自召唤之夜）
+				DisplayName: 特别的铃铛（出自:召唤之夜）
 				Tooltip:
 					'''
 					'这对某人来说似乎很重要'
-					召唤Arno跟随你
+					召唤阿诺跟随你
 					'''
 			}
 
 			AncientBoneKey: {
-				DisplayName: 远古骨头钥匙（出自原版）
-				Tooltip: "'召唤远古骷髅头宝宝'"
+				DisplayName: 远古骨头钥匙（出自:原版）
+				Tooltip: "召唤远古骷髅头宝宝"
 			}
 
 			AncientCheese: {
-				DisplayName: 远古的奶酪（出自披萨塔）
+				DisplayName: 远古的奶酪（出自:披萨塔）
 				Tooltip:
 					'''
 					'用来做城里最好的披萨'
@@ -9311,16 +9312,16 @@ Mods: {
 			}
 
 			AncientCoin: {
-				DisplayName: 远古的硬币（出自原版）
+				DisplayName: 远古的硬币（出自:原版）
 				Tooltip:
 					'''
 					'曾经被矿工用来交易货物'
-					召唤宝箱怪跟随你
+					召唤金宝箱怪跟随你
 					'''
 			}
 
 			AncientCrown: {
-				DisplayName: 远古的皇冠（出自探险活宝）
+				DisplayName: 远古的皇冠（出自:探险活宝）
 				Tooltip:
 					'''
 					'拿着它，你也可以寻找公主了'
@@ -9329,7 +9330,7 @@ Mods: {
 			}
 
 			AncientGoldRing: {
-				DisplayName: 远古的金色光环（出自车万）
+				DisplayName: 远古的金色光环（出自:车万）
 				Tooltip:
 					'''
 					'你的精神力量越来越强大'
@@ -9338,7 +9339,7 @@ Mods: {
 			}
 
 			AncientHelmet: {
-				DisplayName: 远古的头盔（出自传说之下）
+				DisplayName: 远古的头盔（出自:传说之下）
 				Tooltip:
 					'''
 					'它属于真正的女主角'
@@ -9347,7 +9348,7 @@ Mods: {
 			}
 
 			AncientKatana: {
-				DisplayName: 古老的武士刀（出自车万）
+				DisplayName: 古老的武士刀（出自:车万）
 				Tooltip:
 					'''
 					'某人最喜欢的剑'
@@ -9356,7 +9357,7 @@ Mods: {
 			}
 
 			AncientMask: {
-				DisplayName: 远古的面具（出自星之卡比）
+				DisplayName: 远古的面具（出自:星之卡比）
 				Tooltip:
 					'''
 					'看起来很酷'
@@ -9365,7 +9366,7 @@ Mods: {
 			}
 
 			AngelicMask: {
-				DisplayName: 使徒面具（出自eva）
+				DisplayName: 使徒面具（出自:eva）
 				Tooltip:
 					'''
 					'它看起来很呆板'
@@ -9374,7 +9375,7 @@ Mods: {
 			}
 
 			AnimalFeed: {
-				DisplayName: 动物饲料（出自浮岛物语）
+				DisplayName: 动物饲料（出自:浮岛物语）
 				Tooltip:
 					'''
 					'它可能会吸引某人'
@@ -9383,7 +9384,7 @@ Mods: {
 			}
 
 			Apple: {
-				DisplayName: 苹果（出自iwanna）
+				DisplayName: 苹果（出自:iwanna）
 				Tooltip:
 					'''
 					'眼睛似乎也喜欢水果'
@@ -9393,7 +9394,7 @@ Mods: {
 			}
 
 			BaBaPet: {
-				DisplayName: BABA的精华（出自Baba Is You）
+				DisplayName: BABA的精华（出自:Baba Is You）
 				Tooltip:
 					'''
 					'它是由精神力和魔法形成的'
@@ -9403,7 +9404,7 @@ Mods: {
 			}
 
 			Baby: {
-				DisplayName: 婴儿（出自丽莎:痛苦之旅）
+				DisplayName: 婴儿（出自:丽莎:痛苦之旅）
 				Tooltip:
 					'''
 					'可能有人在找他'
@@ -9413,17 +9414,17 @@ Mods: {
 			}
 
 			BadBubble: {
-				DisplayName: 坏泡泡（出自More pets lore）
+				DisplayName: 坏泡泡（出自:More pets lore）
 				Tooltip:
 					'''
 					'它看起来比等离子体射击井里的邪恶生物要无辜得多
 					但你还是觉得不能放松警惕'
-					召唤Bad Bubble跟随你
+					召唤坏泡泡跟随你
 					'''
 			}
 
 			BakamiteCrystal: {
-				DisplayName: 笨蛋9的冰晶之戒（出自车万，作者原创）
+				DisplayName: 笨蛋9的冰晶之戒（出自:车万，作者原创）
 				Tooltip:
 					'''
 					'你不知道发生了什么，但你感到高兴'
@@ -9432,7 +9433,7 @@ Mods: {
 			}
 
 			BaseBallBat: {
-				DisplayName: 棒球棍（出自Misao）
+				DisplayName: 棒球棍（出自:Misao）
 				Tooltip:
 					'''
 					'它可能对鬼魂和噩梦有好处'
@@ -9441,16 +9442,16 @@ Mods: {
 			}
 
 			Beef: {
-				DisplayName: 肉（出自星之卡比）
+				DisplayName: 肉（出自:星之卡比）
 				Tooltip:
 					'''
 					'这是熟的'
-					召唤卡比跟随你
+					召唤星之卡比跟随你
 					'''
 			}
 
 			BellHairBand: {
-				DisplayName: 铃铛系发带（出自动森）
+				DisplayName: 铃铛系发带（出自:动森）
 				Tooltip:
 					'''
 					'看起来很可爱'
@@ -9459,7 +9460,7 @@ Mods: {
 			}
 
 			BigRadCannister: {
-				DisplayName: 巨大的辐射罐（出自废土之王）
+				DisplayName: 巨大的辐射罐（出自:废土之王）
 				Tooltip:
 					'''
 					'你不确定携带它是否安全'
@@ -9468,7 +9469,7 @@ Mods: {
 			}
 
 			BlackBell: {
-				DisplayName: 黑色铃铛（出自任天堂明星大乱斗，G&W）
+				DisplayName: 黑色铃铛（出自:任天堂明星大乱斗，G&W）
 				Tooltip:
 					'''
 					'它看起来很特别'
@@ -9477,12 +9478,12 @@ Mods: {
 			}
 
 			BlessedBanana2: {
-				DisplayName: 神圣的香蕉（出自外网梗）
+				DisplayName: 神圣的香蕉（出自:外网梗）
 				Tooltip: "'即使拿着它也会让你觉得自己被神圣化了'"
 			}
 
 			BlizzardWand: {
-				DisplayName: 暴雪魔杖（出自超级桃子公主）
+				DisplayName: 暴雪魔杖（出自:超级桃子公主）
 				Tooltip:
 					'''
 					'它有可能阻止全球变暖'
@@ -9491,7 +9492,7 @@ Mods: {
 			}
 
 			Blood: {
-				DisplayName: 血液（出自原版）
+				DisplayName: 血液（出自:原版）
 				Tooltip:
 					'''
 					'它吸引了另一只宠物'
@@ -9500,7 +9501,7 @@ Mods: {
 			}
 
 			BloodCrystal: {
-				DisplayName: 血色之晶（出自车万）
+				DisplayName: 血色之晶（出自:车万）
 				Tooltip:
 					'''
 					'你开始失去理智'
@@ -9509,7 +9510,7 @@ Mods: {
 			}
 
 			BloodCrystalRing: {
-				DisplayName: 血色水晶之戒（出自车万，作者原创）
+				DisplayName: 血色水晶之戒（出自:车万，作者原创）
 				Tooltip:
 					'''
 					'它像蔓越莓一样红'
@@ -9519,7 +9520,7 @@ Mods: {
 			}
 
 			BloodDye: {
-				DisplayName: 血染料（出自原版）
+				DisplayName: 血染料（出自:原版）
 				Tooltip:
 					'''
 					'也许会吸引别的宠物'
@@ -9528,7 +9529,7 @@ Mods: {
 			}
 
 			BloodFlask: {
-				DisplayName: 血瓶（出自原版）
+				DisplayName: 血瓶（出自:原版）
 				Tooltip:
 					'''
 					'它吸引了另一只宠物'
@@ -9537,7 +9538,7 @@ Mods: {
 			}
 
 			BloodJar: {
-				DisplayName: 瓶装血（出自原版）
+				DisplayName: 瓶装血（出自:原版）
 				Tooltip:
 					'''
 					'它吸引了另一只宠物'
@@ -9546,7 +9547,7 @@ Mods: {
 			}
 
 			BloodPotion: {
-				DisplayName: 血药剂（出自原版）
+				DisplayName: 血药剂（出自:原版）
 				Tooltip:
 					'''
 					'它吸引了另一只宠物'
@@ -9555,7 +9556,7 @@ Mods: {
 			}
 
 			BloodSoup: {
-				DisplayName: 血碟子（出自原版）
+				DisplayName: 血碟子（出自:原版）
 				Tooltip:
 					'''
 					'也许会吸引别的宠物'
@@ -9564,7 +9565,7 @@ Mods: {
 			}
 
 			BloodVial: {
-				DisplayName: 采血管（出自凯尔特神话）
+				DisplayName: 采血管（出自:凯尔特神话）
 				Tooltip:
 					'''
 					'有人可能会喜欢它的味道'
@@ -9573,7 +9574,7 @@ Mods: {
 			}
 
 			BloodyBass: {
-				DisplayName: 血鱼（出自原版）
+				DisplayName: 血鱼（出自:原版）
 				Tooltip:
 					'''
 					'我能用这个做什么?'
@@ -9582,7 +9583,7 @@ Mods: {
 			}
 
 			BlueCrystalShard: {
-				DisplayName: 蓝水晶（出自自由星球）
+				DisplayName: 蓝水晶（出自:自由星球）
 				Tooltip:
 					'''
 					'收集200个也许能让你重生'
@@ -9592,7 +9593,7 @@ Mods: {
 			}
 
 			BlueEtherianMana: {
-				DisplayName: 蓝埃特尼亚魔力（出自原版）
+				DisplayName: 蓝埃特尼亚魔力（出自:原版）
 				Tooltip:
 					'''
 					'有人想拿这个'
@@ -9601,7 +9602,7 @@ Mods: {
 			}
 
 			BlueFeather: {
-				DisplayName: 蓝羽毛（出自原版）
+				DisplayName: 蓝羽毛（出自:原版）
 				Tooltip:
 					'''
 					'这个羽毛来自哪里?'
@@ -9610,7 +9611,7 @@ Mods: {
 			}
 
 			BlueInkling: {
-				DisplayName: 蓝鱿鱼（出自任天堂明星大乱斗，喷射战士）
+				DisplayName: 蓝鱿鱼（出自:任天堂明星大乱斗，喷射战士）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -9619,7 +9620,7 @@ Mods: {
 			}
 
 			BlueRose: {
-				DisplayName: 蓝色玫瑰（出自恐怖美术馆）
+				DisplayName: 蓝色玫瑰（出自:恐怖美术馆）
 				Tooltip:
 					'''
 					'拿着它会让你觉得它已经属于别人了'
@@ -9628,7 +9629,7 @@ Mods: {
 			}
 
 			BobsBrain: {
-				DisplayName: 鲍勃的脑浆子（出自以撒的结合）
+				DisplayName: 鲍勃的脑浆子（出自:以撒的结合）
 				Tooltip:
 					'''
 					'有爆炸的想法'
@@ -9637,7 +9638,7 @@ Mods: {
 			}
 
 			BookofLife: {
-				DisplayName: 生命之书（出自描绘人生）
+				DisplayName: 生命之书（出自:描绘人生）
 				Tooltip:
 					'''
 					'或许他想要这个'
@@ -9646,7 +9647,7 @@ Mods: {
 			}
 
 			BookofLife2: {
-				DisplayName: 生命之书（出自描绘人生）
+				DisplayName: 生命之书（出自:描绘人生）
 				Tooltip:
 					'''
 					'也许你应该说服她让她别把这个给他'
@@ -9655,7 +9656,7 @@ Mods: {
 			}
 
 			BowsersFlag: {
-				DisplayName: 深色旗帜（出自超级马丽，任天堂明星大乱斗）
+				DisplayName: 深色旗帜（出自:超级马丽，任天堂明星大乱斗）
 				Tooltip:
 					'''
 					'王国的旗帜'
@@ -9664,7 +9665,7 @@ Mods: {
 			}
 
 			BoxofBones: {
-				DisplayName: 骨盒（出自传说之下）
+				DisplayName: 骨盒（出自:传说之下）
 				Tooltip:
 					'''
 					'骨头闻起来像意大利面'
@@ -9673,7 +9674,7 @@ Mods: {
 			}
 
 			Brain: {
-				DisplayName: 脑子（出自原版）
+				DisplayName: 脑子（出自:原版）
 				Tooltip:
 					'''
 					'召唤一个僵尸宠物'
@@ -9682,7 +9683,7 @@ Mods: {
 			}
 
 			BrokenHammer: {
-				DisplayName: 大锤子（出自星之卡比）
+				DisplayName: 大锤子（出自:星之卡比）
 				Tooltip:
 					'''
 					'这让他不开心'
@@ -9692,12 +9693,12 @@ Mods: {
 			}
 
 			BrokenHeart: {
-				DisplayName: 破碎的心
-				Tooltip: "'召唤丘比特宠物'"
+				DisplayName: 破碎的心（出自:原版）
+				Tooltip: 召唤丘比特宠物
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: 破碎的洗衣机（出自Chippy）
+				DisplayName: 破碎的洗衣机（出自:Chippy）
 				Tooltip:
 					'''
 					'以亘古领主的力量振动'
@@ -9706,7 +9707,7 @@ Mods: {
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: 被祝福破碎洗衣机（出自Chippy）
+				DisplayName: 被祝福破碎洗衣机（出自:Chippy）
 				Tooltip:
 					'''
 					'其他的物品都在它的库存里'
@@ -9725,7 +9726,7 @@ Mods: {
 			}
 
 			Bubble: {
-				DisplayName: 泡泡（出自More pets lore）
+				DisplayName: 泡泡（出自:More pets lore）
 				Tooltip:
 					'''
 					'垂钓者在哪里找到这个?'
@@ -9734,7 +9735,7 @@ Mods: {
 			}
 
 			BuilderHammer: {
-				DisplayName: 大锤（出自任天堂周边）
+				DisplayName: 大锤（出自:任天堂周边）
 				Tooltip:
 					'''
 					'这是制作新课程的必要条件'
@@ -9743,7 +9744,7 @@ Mods: {
 			}
 
 			Bulb: {
-				DisplayName: 太阳（出自一次机会）
+				DisplayName: 太阳（出自:一次机会）
 				Tooltip:
 					'''
 					'它有能力为世界上大多数国家提供能源'
@@ -9753,17 +9754,18 @@ Mods: {
 			}
 
 			Bumbo: {
-				DisplayName: 乞丐宝（出自以撒的结合）
+				DisplayName: 乞丐宝（出自:以撒的结合）
 				Tooltip:
 					'''
 					'乞丐宝想要硬币!'
-					猪猪储蓄罐每有20金币，增加1阶（汉化作者的提示，最高四个阶级）。使用重新道具召唤即可
+					猪猪储蓄罐每有20金币，增加1阶.使用重新道具召唤即可改变形象
+					（汉化作者的提示，最高四个阶级）
 					召唤乞丐宝跟随你
 					'''
 			}
 
 			BurningBall: {
-				DisplayName: 燃烧的球（出自星之卡比）
+				DisplayName: 燃烧的球（出自:星之卡比）
 				Tooltip:
 					'''
 					'太热了拿不了'
@@ -9772,7 +9774,7 @@ Mods: {
 			}
 
 			Card: {
-				DisplayName: 可疑卡片（出自部落冲突：皇室战争）
+				DisplayName: 可疑卡片（出自:部落冲突：皇室战争）
 				Tooltip:
 					'''
 					我需要魔法还是长生?'
@@ -9786,7 +9788,7 @@ Mods: {
 			}
 
 			ChaosEmerald: {
-				DisplayName: 卡欧斯宝石（出自刺猬索尼克）
+				DisplayName: 卡欧斯宝石（出自:刺猬索尼克）
 				Tooltip:
 					'''
 					'它充满了能量'
@@ -9796,7 +9798,7 @@ Mods: {
 			}
 
 			ChaosHeart: {
-				DisplayName: 混乱之心（出自超级纸片马里奥）
+				DisplayName: 混乱之心（出自:超级纸片马里奥）
 				Tooltip:
 					'''
 					'它不是被毁了吗??'
@@ -9806,7 +9808,7 @@ Mods: {
 			}
 
 			ChargedBaby: {
-				DisplayName: 电池宝宝（出自以撒的结合）
+				DisplayName: 电池宝宝（出自:以撒的结合）
 				Tooltip:
 					'''
 					'BBBZZZZZT!'
@@ -9824,7 +9826,7 @@ Mods: {
 			}
 
 			ClothiersDiary: {
-				DisplayName: 衣袋武志谋杀案（出自逆转裁判）
+				DisplayName: 衣袋武志谋杀案（出自:逆转裁判）
 				Tooltip:
 					'''
 					'里面可能有失踪机械师案的证据'
@@ -9833,7 +9835,7 @@ Mods: {
 			}
 
 			ClothofDarkPrince: {
-				DisplayName: 远古衣服（出自Deltarune）
+				DisplayName: 远古衣服（出自:Deltarune）
 				Tooltip:
 					'''
 					'这些曾经属于一个黑暗王子'
@@ -9842,7 +9844,7 @@ Mods: {
 			}
 
 			Cloud: {
-				DisplayName: 朱盖木的云（出自超级玛丽）
+				DisplayName: 朱盖木的云（出自:超级玛丽）
 				Tooltip:
 					'''
 					'有人藏在里面'
@@ -9855,13 +9857,13 @@ Mods: {
 				Tooltip:
 					'''
 					'它似乎想保护你，因为它认为你是它的宠物'
-					'它会让你免疫黑暗，黑视，阻塞的恐惧减益'
+					免疫黑暗，黑视，阻塞的恐惧减益
 					召唤聚集的恐惧跟随你
 					'''
 			}
 
 			CrowFeather: {
-				DisplayName: 黑羽毛（出自原版）
+				DisplayName: 黑羽毛（出自:原版）
 				Tooltip:
 					'''
 					'这羽毛是从哪里来的?'
@@ -9870,7 +9872,7 @@ Mods: {
 			}
 
 			CrystalBass: {
-				DisplayName: 水晶鱼（出自原版）
+				DisplayName: 水晶鱼（出自:原版）
 				Tooltip:
 					'''
 					'我能用这个做什么?'
@@ -9898,7 +9900,7 @@ Mods: {
 			}
 
 			DarkBall: {
-				DisplayName: 黑暗水晶球（出自原版）
+				DisplayName: 黑暗水晶球（出自:原版）
 				Tooltip:
 					'''
 					'这有什么用呢??'
@@ -9907,7 +9909,7 @@ Mods: {
 			}
 
 			DarkEnergyBall: {
-				DisplayName: 暗能量球（出自铲子骑士）
+				DisplayName: 暗能量球（出自:铲子骑士）
 				Tooltip:
 					'''
 					'拿着这个也会让你感觉更强大'
@@ -9917,7 +9919,7 @@ Mods: {
 			}
 
 			DarkGel: {
-				DisplayName: 黑胶（出自原版）
+				DisplayName: 黑胶（出自:原版）
 				Tooltip:
 					'''
 					'这是怎么来的?'
@@ -9926,7 +9928,7 @@ Mods: {
 			}
 
 			DarkRibbon: {
-				DisplayName: 黑丝带（出自动漫RWBY）
+				DisplayName: 黑丝带（出自:动漫RWBY）
 				Tooltip:
 					'''
 					'这可能会让某人开心'
@@ -9935,7 +9937,7 @@ Mods: {
 			}
 
 			DarkShield: {
-				DisplayName: 暗黑之球（出自车万）
+				DisplayName: 暗黑之球（出自:车万）
 				Tooltip:
 					'''
 					'你会觉得有人在里面'
@@ -9944,7 +9946,7 @@ Mods: {
 			}
 
 			DeadCat2: {
-				DisplayName: 嗝屁猫（出自以撒的结合）
+				DisplayName: 嗝屁猫（出自:以撒的结合）
 				Tooltip:
 					'''
 					'九条命'
@@ -9953,7 +9955,7 @@ Mods: {
 			}
 
 			DeathNote: {
-				DisplayName: 死亡笔记（出自死亡笔记）
+				DisplayName: 死亡笔记（出自:死亡笔记）
 				Tooltip:
 					'''
 					'这看起来像是神的掉落的'
@@ -9962,7 +9964,7 @@ Mods: {
 			}
 
 			DehydratedSeaStar: {
-				DisplayName: 脱水海星（出自海绵宝宝）
+				DisplayName: 脱水海星（出自:海绵宝宝）
 				Tooltip:
 					'''
 					'它看起来又干又悲伤'
@@ -9971,7 +9973,7 @@ Mods: {
 			}
 
 			DehydratedSponge: {
-				DisplayName: 脱水海绵（出自海绵宝宝）
+				DisplayName: 脱水海绵（出自:海绵宝宝）
 				Tooltip:
 					'''
 					'它看起来又干又悲伤'
@@ -9980,7 +9982,7 @@ Mods: {
 			}
 
 			DemonBloodSword: {
-				DisplayName: 恶魔血剑（出自探险活宝）
+				DisplayName: 恶魔血剑（出自:探险活宝）
 				Tooltip:
 					'''
 					'你觉得它属于一个家庭'
@@ -9998,7 +10000,7 @@ Mods: {
 			}
 
 			DespairInducingBearHead: {
-				DisplayName: 黑白熊的头（出自弹丸论破）
+				DisplayName: 黑白熊的头（出自:弹丸论破）
 				Tooltip:
 					'''
 					'即使拿着它也会让你感到绝望'
@@ -10007,7 +10009,7 @@ Mods: {
 			}
 
 			DevilMask: {
-				DisplayName: 般若面具（出自车万）
+				DisplayName: 般若面具（出自:车万）
 				Tooltip:
 					'''
 					'它可能属于某人'
@@ -10016,17 +10018,17 @@ Mods: {
 			}
 
 			DivineCrystal: {
-				DisplayName: 神圣水晶戒（出自车万，作者原创）
+				DisplayName: 神圣水晶戒（出自:车万，作者原创）
 				Tooltip:
 					'''
 					'100%纯'
-					'你非常快乐，但你不知道为什么'
+					'非常开心，但你不知道为什么'
 					召唤花嫁纯狐跟随你
 					'''
 			}
 
 			DogCookie: {
-				DisplayName: 狗饼干（出自Yrimir）
+				DisplayName: 狗饼干（出自:Yrimir）
 				Tooltip:
 					'''
 					'是为了买些可爱的东西'
@@ -10036,7 +10038,7 @@ Mods: {
 			}
 
 			DogHead: {
-				DisplayName: 怪物面具（出自丽莎:痛苦之旅）
+				DisplayName: 怪物面具（出自:丽莎:痛苦之旅）
 				Tooltip:
 					'''
 					'你为什么要这么做?'
@@ -10045,92 +10047,92 @@ Mods: {
 			}
 
 			AyaShameimaruDoll: {
-				DisplayName: 记者玩偶（出自车万）
+				DisplayName: 记者玩偶（出自:车万）
 				Tooltip: 召唤射命丸文跟随你
 			}
 
 			ChenDoll: {
-				DisplayName: 妖怪猫玩偶（出自车万）
+				DisplayName: 妖怪猫玩偶（出自:车万）
 				Tooltip: 召唤橙跟随你
 			}
 
 			DaiyouseiDoll: {
-				DisplayName: 妖精玩偶（出自车万）
+				DisplayName: 妖精玩偶（出自:车万）
 				Tooltip: 召唤大妖精跟随你
 			}
 
 			HinaKagiyamaDoll: {
-				DisplayName: 厄神玩偶（出自车万）
+				DisplayName: 厄神玩偶（出自:车万）
 				Tooltip: 召唤键山雏跟随你
 			}
 
 			IkuDoll: {
-				DisplayName: 龙宫使者玩偶（出自车万）
+				DisplayName: 龙宫使者玩偶（出自:车万）
 				Tooltip: 召唤永江衣玖跟随你
 			}
 
 			JunkoDoll: {
-				DisplayName: 军克玩偶（出自车万）
+				DisplayName: 军克玩偶（出自:车万）
 				Tooltip: 召唤纯狐跟随你
 			}
 
 			KagerouDoll: {
-				DisplayName: 狼女玩偶（出自车万）
+				DisplayName: 狼女玩偶（出自:车万）
 				Tooltip: 召唤今泉影狼跟随你
 			}
 
 			KoakumaDoll: {
-				DisplayName: 辅助吸血鬼玩偶（出自车万）
+				DisplayName: 辅助吸血鬼玩偶（出自:车万）
 				Tooltip: 召唤小恶魔跟随你
 			}
 
 			KonngaraDoll: {
-				DisplayName: 星幽玩偶（出自车万）
+				DisplayName: 星幽玩偶（出自:车万）
 				Tooltip: 召唤矜羯罗跟随你
 			}
 
 			KosuzuDoll: {
-				DisplayName: 收集玩偶（出自车万）
+				DisplayName: 收集玩偶（出自:车万）
 				Tooltip: 召唤本居小铃跟随你
 			}
 
 			KotohimeDoll: {
-				DisplayName: 警察玩偶（出自车万）
+				DisplayName: 警察玩偶（出自:车万）
 				Tooltip: 召唤小兔姬跟随你
 			}
 
 			KurumiDoll: {
-				DisplayName: 看门人玩偶（出自车万）
+				DisplayName: 看门人玩偶（出自:车万）
 				Tooltip: 召唤胡桃跟随你
 			}
 
 			LilyDoll: {
-				DisplayName: 惊喜之春玩偶（出自车万）
+				DisplayName: 惊喜之春玩偶（出自:车万）
 				Tooltip: 召唤莉莉霍瓦特跟随你
 			}
 
 			MamizouFutatsuiwaDoll: {
-				DisplayName: 伪装玩偶（出自车万）
+				DisplayName: 伪装玩偶（出自:车万）
 				Tooltip: 召唤二岩猯藏跟随你
 			}
 
 			MinamitsuMurasaDoll: {
-				DisplayName: 船长玩偶（出自车万）
+				DisplayName: 船长玩偶（出自:车万）
 				Tooltip: 召唤村纱水蜜跟随你
 			}
 
 			MomijiInubashiriDoll: {
-				DisplayName: 小笨狼玩偶（出自车万）
+				DisplayName: 小笨狼玩偶（出自:车万）
 				Tooltip: 召唤犬走椛跟随你
 			}
 
 			NazrinDoll: {
-				DisplayName: 寻宝玩偶（出自车万）
+				DisplayName: 寻宝玩偶（出自:车万）
 				Tooltip: 召唤娜兹玲跟随你
 			}
 
 			RanDoll: {
-				DisplayName: 天才玩偶（出自车万）
+				DisplayName: 天才玩偶（出自:车万）
 				Tooltip:
 					'''
 					'连她的式神都关心她的主人'
@@ -10139,72 +10141,72 @@ Mods: {
 			}
 
 			ReisenUdongeinInabaDoll: {
-				DisplayName: 月球战士玩偶（出自车万）
+				DisplayName: 月球战士玩偶（出自:车万）
 				Tooltip: 召唤铃仙·优昙华院·因幡跟随你
 			}
 
 			RenkoUsamiDoll: {
-				DisplayName: 物理学家玩偶（出自车万）
+				DisplayName: 物理学家玩偶（出自:车万）
 				Tooltip: 召唤宇佐见莲子跟随你
 			}
 
 			RikakoAsakuraDoll: {
-				DisplayName: 科学家玩偶（出自车万）
+				DisplayName: 科学家玩偶（出自:车万）
 				Tooltip: 召唤朝仓理香子跟随你
 			}
 
 			RinnosukeMorichikaDoll: {
-				DisplayName: 香霖堂玩偶（出自车万）
+				DisplayName: 香霖堂玩偶（出自:车万）
 				Tooltip: 召唤森近霖之助跟随你
 			}
 
 			RuukotoDoll: {
-				DisplayName: 机械玩偶（出自车万）
+				DisplayName: 机械玩偶（出自:车万）
 				Tooltip: 召唤留琴跟随你
 			}
 
 			SagumeKishinDoll: {
-				DisplayName: 稀神玩偶（出自车万）
+				DisplayName: 稀神玩偶（出自:车万）
 				Tooltip: 召唤稀神探女跟随你
 			}
 
 			SanaeKochiyaDoll: {
-				DisplayName: 神社少女玩偶（出自车万）
+				DisplayName: 神社少女玩偶（出自:车万）
 				Tooltip: 召唤东风谷早苗跟随你
 			}
 
 			SeijaDoll: {
-				DisplayName: 叛逆玩偶（出自车万）
+				DisplayName: 叛逆玩偶（出自:车万）
 				Tooltip: 召唤鬼人正邪跟随你
 			}
 
 			ShinkiDoll: {
-				DisplayName: 魔神玩偶（出自车万）
+				DisplayName: 魔神玩偶（出自:车万）
 				Tooltip: 召唤神绮跟随你
 			}
 
 			SumirekoUsamiDoll: {
-				DisplayName: 秘封俱乐部初代会长玩偶（出自车万）
+				DisplayName: 秘封俱乐部初代会长玩偶（出自:车万）
 				Tooltip: 召唤宇佐见堇子跟随你
 			}
 
 			SuwakoDoll: {
-				DisplayName: 自然玩偶（出自车万）
+				DisplayName: 自然玩偶（出自:车万）
 				Tooltip: 召唤洩矢诹访子跟随你
 			}
 
 			TewiInabaDoll: {
-				DisplayName: 首领玩偶（出自车万）
+				DisplayName: 首领玩偶（出自:车万）
 				Tooltip: 召唤因幡天为跟随你
 			}
 
 			WakasagihimeDoll: {
-				DisplayName: 人鱼玩偶（出自车万）
+				DisplayName: 人鱼玩偶（出自:车万）
 				Tooltip: 召唤若鹭姬跟随你
 			}
 
 			Dream: {
-				DisplayName: 梦之支配者（出自车万）
+				DisplayName: 梦之支配者（出自:车万）
 				Tooltip:
 					'''
 					'它提醒你自己的梦想'
@@ -10214,7 +10216,7 @@ Mods: {
 			}
 
 			DriedBass: {
-				DisplayName: 鱼干（出自原版）
+				DisplayName: 鱼干（出自:原版）
 				Tooltip:
 					'''
 					'我可以用这个做什么?'
@@ -10223,7 +10225,7 @@ Mods: {
 			}
 
 			DryBaby: {
-				DisplayName: 枯骨宝宝（出自以撒的结合）
+				DisplayName: 枯骨宝宝（出自:以撒的结合）
 				Tooltip:
 					'''
 					'不朽的朋友'
@@ -10233,7 +10235,7 @@ Mods: {
 			}
 
 			DuotinePill: {
-				DisplayName: 多他因药丸（出自弗兰的悲惨之旅）
+				DisplayName: 多他因药丸（出自:弗兰的悲惨之旅）
 				Tooltip:
 					'''
 					'奇怪的红色药丸，很不吉利'
@@ -10242,7 +10244,7 @@ Mods: {
 			}
 
 			ElectricCoin: {
-				DisplayName: 带电的硬币（出自某科学的超电磁炮）
+				DisplayName: 带电的硬币（出自:某科学的超电磁炮）
 				Tooltip:
 					'''
 					'看起来很危险'
@@ -10251,7 +10253,7 @@ Mods: {
 			}
 
 			EllensDiary: {
-				DisplayName: 艾伦的日记（出自战舰少女R）
+				DisplayName: 艾伦的日记（出自:战舰少女R）
 				Tooltip:
 					'''
 					'这是用日语写的'
@@ -10260,7 +10262,7 @@ Mods: {
 			}
 
 			EnergyHeart: {
-				DisplayName: 能源之心（出自洛克人）
+				DisplayName: 能源之心（出自:洛克人）
 				Tooltip:
 					'''
 					'我能把它当作生命的果实吗?'
@@ -10269,7 +10271,7 @@ Mods: {
 			}
 
 			EvilSkull: {
-				DisplayName: 邪恶的头骨（占位符）
+				DisplayName: 邪恶的头骨
 				Tooltip:
 					'''
 					'我希望它不会攻击你'
@@ -10278,7 +10280,7 @@ Mods: {
 			}
 
 			ExplosiveHat: {
-				DisplayName: 巫师帽（出自为美好的世界献上祝福）
+				DisplayName: 巫师帽（出自:为美好的世界献上祝福）
 				Tooltip:
 					'''
 					'闻起来像爆炸'
@@ -10287,7 +10289,7 @@ Mods: {
 			}
 
 			ExplosiveJam: {
-				DisplayName: 爆炸性的果酱（出自挖矿工艺划掉，我的世界）
+				DisplayName: 爆炸性的果酱（出自:挖矿工艺划掉，我的世界）
 				Tooltip:
 					'''
 					'苦力怕？哦，天哪~'
@@ -10305,7 +10307,7 @@ Mods: {
 			}
 
 			FabuRune: {
-				DisplayName: 乌鲁兹符文（占位符）
+				DisplayName: 乌鲁兹符文（出自:仙境传说）
 				Tooltip:
 					'''
 					'它是用亘古领主的力量完成的'
@@ -10314,7 +10316,7 @@ Mods: {
 			}
 
 			FairyinaBottle: {
-				DisplayName: 瓶中仙灵（出自奇妙仙子）
+				DisplayName: 瓶中仙灵（出自:奇妙仙子）
 				Tooltip:
 					'''
 					'看起来好小'
@@ -10323,7 +10325,7 @@ Mods: {
 			}
 
 			FallenSoul: {
-				DisplayName: 堕落的灵魂（出自信使）
+				DisplayName: 堕落的灵魂（出自:信使）
 				Tooltip:
 					'''
 					'某物'
@@ -10332,7 +10334,7 @@ Mods: {
 			}
 
 			Fan: {
-				DisplayName: 凤蝶纹扇（出自车万）
+				DisplayName: 凤蝶纹扇（出自:车万）
 				Tooltip:
 					'''
 					'看起来很特别'
@@ -10341,7 +10343,7 @@ Mods: {
 			}
 
 			FleshMeal: {
-				DisplayName: 肉（出自原版）
+				DisplayName: 肉（出自:原版）
 				Tooltip:
 					'''
 					'看起来烂了'
@@ -10350,7 +10352,7 @@ Mods: {
 			}
 
 			ForagerPickaxe: {
-				DisplayName: 超凡脱俗的鹤嘴锄（出自浮岛物语）
+				DisplayName: 超凡脱俗的鹤嘴锄（出自:浮岛物语）
 				Tooltip:
 					'''
 					'看起来有人可能需要这个'
@@ -10360,7 +10362,7 @@ Mods: {
 			}
 
 			ForgottenJoyfulEye: {
-				DisplayName: 恋之瞳（出自车万）
+				DisplayName: 恋之瞳（出自:车万）
 				Tooltip:
 					'''
 					'这看起来不太正常'
@@ -10369,7 +10371,7 @@ Mods: {
 			}
 
 			ForgottenOrb: {
-				DisplayName: ???之珠（出自车万）
+				DisplayName: ???之珠（出自:车万）
 				Tooltip:
 					'''
 					'它让你觉得???'
@@ -10379,7 +10381,7 @@ Mods: {
 			}
 
 			FreedomTorch: {
-				DisplayName: 地狱火炬（出自车万）
+				DisplayName: 地狱火炬（出自:车万）
 				Tooltip:
 					'''
 					'不要看它，否则你的理智…'
@@ -10389,7 +10391,7 @@ Mods: {
 			}
 
 			FriendshipCookie: {
-				DisplayName: 好朋友饼干（出自挺进地牢）
+				DisplayName: 好朋友饼干（出自:挺进地牢）
 				Tooltip:
 					'''
 					'它是美味的!'
@@ -10398,7 +10400,7 @@ Mods: {
 			}
 
 			FrozenCoin2: {
-				DisplayName: 冰冻的硬币（出自原版）
+				DisplayName: 冰冻的硬币（出自:原版）
 				Tooltip:
 					'''
 					'即使它是假的，它仍然可以欺骗别人认为它是真的'
@@ -10407,7 +10409,7 @@ Mods: {
 			}
 
 			FrozenCrystal: {
-				DisplayName: baka水晶（出自车万）
+				DisplayName: baka水晶（出自:车万）
 				Tooltip:
 					'''
 					'即使是触摸它也会让你感到体温过低'
@@ -10425,7 +10427,7 @@ Mods: {
 			}
 
 			Fruit: {
-				DisplayName: 水果（出自马里奥系列）
+				DisplayName: 水果（出自:马里奥系列）
 				Tooltip:
 					'''
 					'看起来很好'
@@ -10434,7 +10436,7 @@ Mods: {
 			}
 
 			GalacticShield: {
-				DisplayName: 银盾（出自星之卡比）
+				DisplayName: 银盾（出自:星之卡比）
 				Tooltip:
 					'''
 					'它看起来超凡脱俗'
@@ -10443,7 +10445,7 @@ Mods: {
 			}
 
 			Garlic: {
-				DisplayName: 蒜头（出自超级马力欧世界）
+				DisplayName: 蒜头（出自:超级马力欧世界）
 				Tooltip:
 					'''
 					'它看起来和闻起来都很自然'
@@ -10452,7 +10454,7 @@ Mods: {
 			}
 
 			GiantShell: {
-				DisplayName: 巨大的壳（出自原版）
+				DisplayName: 巨大的壳（出自:原版）
 				Tooltip:
 					'''
 					'它看起来很害怕。也许我不应该杀了它'
@@ -10461,7 +10463,7 @@ Mods: {
 			}
 
 			GiantSword: {
-				DisplayName: 巨剑（出自传说之下）
+				DisplayName: 巨剑（出自:传说之下）
 				Tooltip:
 					'''
 					'它看起来很大'
@@ -10470,7 +10472,7 @@ Mods: {
 			}
 
 			GoheiStick: {
-				DisplayName: 御币（出自车万）
+				DisplayName: 御币（出自:车万）
 				Tooltip:
 					'''
 					'这看起来很简单，但却能伤害紫老太婆'
@@ -10479,7 +10481,7 @@ Mods: {
 			}
 
 			GoldenBonnieHead: {
-				DisplayName: 金兔头（出自玩具熊的五夜后宫）
+				DisplayName: 金兔头（出自:玩具熊的五夜后宫）
 				Tooltip:
 					'''
 					'拿着这个都会让你感到害怕'
@@ -10488,7 +10490,7 @@ Mods: {
 			}
 
 			GoldenCarrot: {
-				DisplayName: 金胡萝卜（出自原版）
+				DisplayName: 金胡萝卜（出自:原版）
 				Tooltip:
 					'''
 					'我想知道哪种生物喜欢这个?'
@@ -10497,7 +10499,7 @@ Mods: {
 			}
 
 			GoldenPistol: {
-				DisplayName: 六发式左轮手枪（出自丽莎:痛苦之旅）
+				DisplayName: 六发式左轮手枪（出自:丽莎:痛苦之旅）
 				Tooltip:
 					'''
 					'这看起来像左轮手枪'
@@ -10506,7 +10508,7 @@ Mods: {
 			}
 
 			GoldenSmashBall: {
-				DisplayName: 金球（出自任天堂明星大乱斗）
+				DisplayName: 金球（出自:任天堂明星大乱斗）
 				Tooltip:
 					'''
 					'为了《任天堂明星大乱斗》的荣耀'
@@ -10515,7 +10517,7 @@ Mods: {
 			}
 
 			GoldFeather: {
-				DisplayName: 金羽（出自原版）
+				DisplayName: 金羽（出自:原版）
 				Tooltip:
 					'''
 					'这个羽毛在哪里拿到的?'
@@ -10524,7 +10526,7 @@ Mods: {
 			}
 
 			GoldFreddyToy: {
-				DisplayName: 金弗莱迪毛绒玩具（出自玩具熊的五夜后宫）
+				DisplayName: 金弗莱迪毛绒玩具（出自:玩具熊的五夜后宫）
 				Tooltip:
 					'''
 					'它低语着把所有的碎片拼凑在一起'
@@ -10533,7 +10535,7 @@ Mods: {
 			}
 
 			GoldRing: {
-				DisplayName: 金环（出自刺猬索尼克）
+				DisplayName: 金环（出自:刺猬索尼克）
 				Tooltip:
 					'''
 					'看起来很贵'
@@ -10542,7 +10544,7 @@ Mods: {
 			}
 
 			GoonieSekeleton: {
-				DisplayName: 鸟骨架（出自超级玛丽）
+				DisplayName: 鸟骨架（出自:超级玛丽）
 				Tooltip:
 					'''
 					'它还能动'
@@ -10552,7 +10554,7 @@ Mods: {
 			}
 
 			GrandHat: {
-				DisplayName: 帽子（出自grand dad，山寨划掉）
+				DisplayName: 帽子（出自:grand dad）
 				Tooltip:
 					'''
 					'它是由被遗忘的英雄的力量形成的'
@@ -10561,7 +10563,7 @@ Mods: {
 			}
 
 			GreenEtherianMana: {
-				DisplayName: 埃特尼亚魔力（出自原版）
+				DisplayName: 埃特尼亚魔力（出自:原版）
 				Tooltip:
 					'''
 					'有人想拿这个'
@@ -10570,7 +10572,7 @@ Mods: {
 			}
 
 			GreenInkling: {
-				DisplayName: 绿色鱿鱼（出自喷射战士）
+				DisplayName: 绿色鱿鱼（出自:喷射战士）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -10579,16 +10581,17 @@ Mods: {
 			}
 
 			GreenOnion: {
-				DisplayName: 葱（出自嗯？嗯！嗯~世界第一公主殿下！！！）
+				DisplayName: 葱（出自:初音未来：歌姬计划）
 				Tooltip:
 					'''
 					'它曾经是为乐曲之王锻造的'
+					嗯？嗯！嗯~世界第一公主殿下！！！
 					召唤初音未来跟随你
 					'''
 			}
 
 			GrossSack: {
-				DisplayName: 浮游怪身体（出自原版）
+				DisplayName: 浮游怪身体（出自:原版）
 				Tooltip:
 					'''
 					'它喜欢猩红'
@@ -10597,7 +10600,7 @@ Mods: {
 			}
 
 			GuidesAutopsyReport: {
-				DisplayName: 导游尸检报告（出自逆转裁判）
+				DisplayName: 导游尸检报告（出自:逆转裁判）
 				Tooltip:
 					'''
 					'一个奇怪案件的线索'
@@ -10606,7 +10609,7 @@ Mods: {
 			}
 
 			Gyroid: {
-				DisplayName: 可疑陀螺仪（出自动森）
+				DisplayName: 可疑陀螺仪（出自:动森）
 				Tooltip:
 					'''
 					'它看起来既像活的又像消防栓'
@@ -10615,7 +10618,7 @@ Mods: {
 			}
 
 			HallowedMoney: {
-				DisplayName: 神圣币(出自原版)
+				DisplayName: 神圣币(出自:原版)
 				Tooltip:
 					'''
 					'它曾经被一个古老的文明所使用'
@@ -10624,7 +10627,7 @@ Mods: {
 			}
 
 			Hammer: {
-				DisplayName: 锻锤（出自召唤之夜）
+				DisplayName: 锻锤（出自:召唤之夜）
 				Tooltip:
 					'''
 					'它属于一个骑士'
@@ -10633,7 +10636,7 @@ Mods: {
 			}
 
 			HamonInfusedRose: {
-				DisplayName: 玫瑰（出自jojo）
+				DisplayName: 玫瑰（出自:jojo）
 				Tooltip:
 					'''
 					'等等jojo的名字?'
@@ -10642,7 +10645,7 @@ Mods: {
 			}
 
 			HarpyEgg: {
-				DisplayName: 女妖的蛋（出自原版）
+				DisplayName: 女妖的蛋（出自:原版）
 				Tooltip:
 					'''
 					'你能感觉到它的妈妈现在很担心'
@@ -10651,7 +10654,7 @@ Mods: {
 			}
 
 			HeadlessBaby: {
-				DisplayName: 无头宝宝（出自以撒的结合）
+				DisplayName: 无头宝宝（出自:以撒的结合）
 				Tooltip:
 					'''
 					'血腥伙伴'
@@ -10660,7 +10663,7 @@ Mods: {
 			}
 
 			HeartContaioner: {
-				DisplayName: 心的容器（出自传说之下）
+				DisplayName: 心的容器（出自:传说之下）
 				Tooltip:
 					'''
 					'里面有一颗心'
@@ -10669,7 +10672,7 @@ Mods: {
 			}
 
 			HerosSword: {
-				DisplayName: 英雄之剑（出自三角符文）
+				DisplayName: 英雄之剑（出自:三角符文）
 				Tooltip:
 					'''
 					'真正英雄之剑'
@@ -10678,7 +10681,7 @@ Mods: {
 			}
 
 			HiddenBlade: {
-				DisplayName: 袖剑（出自刺客信条）
+				DisplayName: 袖剑（出自:刺客信条）
 				Tooltip:
 					'''
 					'无声和速度带给了它的力量'
@@ -10687,7 +10690,7 @@ Mods: {
 			}
 
 			AerithGainsboroughDoll: {
-				DisplayName: 花之女玩偶（出自最终幻想）
+				DisplayName: 花之女玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Aerith Gainsborough跟随你'
@@ -10696,7 +10699,7 @@ Mods: {
 			}
 
 			AyameDoll: {
-				DisplayName: 精英卫队玩偶（出自最终幻想）
+				DisplayName: 精英卫队玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Ayamr跟随你'
@@ -10705,7 +10708,7 @@ Mods: {
 			}
 
 			CloudStrifeDoll: {
-				DisplayName: 英雄玩偶（出自最终幻想）
+				DisplayName: 英雄玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Cloud Strife跟随你'
@@ -10714,7 +10717,7 @@ Mods: {
 			}
 
 			GilgameshDoll: {
-				DisplayName: 剑客玩偶（出自最终幻想）
+				DisplayName: 剑客玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Gilgamesh跟随你'
@@ -10723,7 +10726,7 @@ Mods: {
 			}
 
 			IrvineKinneasDoll: {
-				DisplayName: 快枪手玩偶（出自最终幻想）
+				DisplayName: 快枪手玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Irvine Kinneas跟随你'
@@ -10732,7 +10735,7 @@ Mods: {
 			}
 
 			LightningDoll: {
-				DisplayName: 雷霆玩偶（出自最终幻想）
+				DisplayName: 雷霆玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Claire Farron跟随你'
@@ -10741,7 +10744,7 @@ Mods: {
 			}
 
 			OerbaDiaVanilleDoll: {
-				DisplayName: 叙事者玩偶（出自最终幻想）
+				DisplayName: 叙事者玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Oerba Dia Vanille跟随你'
@@ -10750,7 +10753,7 @@ Mods: {
 			}
 
 			RikkuDoll: {
-				DisplayName: 猎人玩偶（出自最终幻想）
+				DisplayName: 猎人玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Rikku跟随你'
@@ -10759,7 +10762,7 @@ Mods: {
 			}
 
 			RydiaDoll: {
-				DisplayName: 召唤师玩偶（出自最终幻想）
+				DisplayName: 召唤师玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Rydia跟随你'
@@ -10768,7 +10771,7 @@ Mods: {
 			}
 
 			SephirothDoll: {
-				DisplayName: 片翼天使玩偶（出自最终幻想）
+				DisplayName: 片翼天使玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Sephiroth跟随你'
@@ -10777,7 +10780,7 @@ Mods: {
 			}
 
 			TifaLockheartDoll: {
-				DisplayName: 饿狼玩偶（出自最终幻想）
+				DisplayName: 饿狼玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Tifa Lockheart跟随你'
@@ -10786,7 +10789,7 @@ Mods: {
 			}
 
 			YunaDoll: {
-				DisplayName: 神秘玩偶（出自最终幻想）
+				DisplayName: 神秘玩偶（出自:最终幻想）
 				Tooltip:
 					'''
 					'召唤Yuna跟随你'
@@ -10795,7 +10798,7 @@ Mods: {
 			}
 
 			HowtoBuildRobotBook: {
-				DisplayName: 《如何制造机械湖怪物》（出自车万）
+				DisplayName: 《如何制造机械湖怪物》（出自:车万）
 				Tooltip:
 					'''
 					'这是一本书'
@@ -10806,7 +10809,7 @@ Mods: {
 			}
 
 			HylianShield: {
-				DisplayName: 海拉尔盾（出自塞尔达传说）
+				DisplayName: 海拉尔盾（出自:塞尔达传说）
 				Tooltip:
 					'''
 					'这是传说中真正的英雄所拥有的盾牌之一'
@@ -10842,7 +10845,7 @@ Mods: {
 			}
 
 			KahoDoll: {
-				DisplayName: 被遗忘的玩具（出自Bombservice）
+				DisplayName: 被遗忘的玩具（出自:Bombservice）
 				Tooltip:
 					'''
 					'它是根据旅行家设计的'
@@ -10852,7 +10855,7 @@ Mods: {
 			}
 
 			KamekWand: {
-				DisplayName: 魔法石魔杖（出自超级玛丽）
+				DisplayName: 魔法石魔杖（出自:超级玛丽）
 				Tooltip:
 					'''
 					'它是用库帕的智慧铸成的'
@@ -10862,7 +10865,7 @@ Mods: {
 			}
 
 			KegMug: {
-				DisplayName: 木杯啤酒（出自为美好的世界献上祝福！）
+				DisplayName: 木杯啤酒（出自:为美好的世界献上祝福！）
 				Tooltip:
 					'''
 					'整桶是不是有点太多了?'
@@ -10871,7 +10874,7 @@ Mods: {
 			}
 
 			KetchupBottle: {
-				DisplayName: 番茄酱瓶（出自传说之下）
+				DisplayName: 番茄酱瓶（出自:传说之下）
 				Tooltip:
 					'''
 					'这让我难以全力以赴'
@@ -10880,16 +10883,16 @@ Mods: {
 			}
 
 			KoopaShell: {
-				DisplayName: 库巴壳（出自超级马力欧兄弟）
+				DisplayName: 库巴壳（出自:超级马力欧兄弟）
 				Tooltip:
 					'''
 					'这个壳里面有东西'
-					召唤库巴跟随你（原来那个乌龟叫库巴啊…….）
+					召唤库巴跟随你
 					'''
 			}
 
 			KuribohDoll: {
-				DisplayName: 库里波玩偶（出自游戏王 怪兽之决斗）
+				DisplayName: 库里波玩偶（出自:游戏王 怪兽之决斗）
 				Tooltip:
 					'''
 					'看起来很有爆发力'
@@ -10898,7 +10901,7 @@ Mods: {
 			}
 
 			LifeSquid: {
-				DisplayName: 生命鱿鱼（出自桑塔：半精灵英雄）
+				DisplayName: 生命鱿鱼（出自:桑塔：半精灵英雄）
 				Tooltip:
 					'''
 					'遗憾的是，不能用它来增加你的生命值'
@@ -10919,7 +10922,7 @@ Mods: {
 			}
 
 			SigilofCirno: {
-				DisplayName: 琪露诺之符（出自车万）
+				DisplayName: 琪露诺之符（出自:车万）
 				Tooltip:
 					'''
 					'这是属于笨蛋的符文'
@@ -10928,7 +10931,7 @@ Mods: {
 			}
 
 			SunBadge: {
-				DisplayName: 向日葵徽章（可能来自车万？）
+				DisplayName: 向日葵徽章（可能来自:车万？）
 				Tooltip:
 					'''
 					'DDC微笑'
@@ -10938,7 +10941,7 @@ Mods: {
 			}
 
 			ListofPossesed: {
-				DisplayName: 灵魂契约羊皮纸（出自茶杯头）
+				DisplayName: 灵魂契约羊皮纸（出自:茶杯头）
 				Tooltip:
 					'''
 					'这是魔鬼办公室的'
@@ -10947,7 +10950,7 @@ Mods: {
 			}
 
 			LivingFire: {
-				DisplayName: 燃烧的火焰（出自传说之下）
+				DisplayName: 燃烧的火焰（出自:传说之下）
 				Tooltip:
 					'''
 					'它看起来很小，但摸起来还是很烫'
@@ -10956,7 +10959,7 @@ Mods: {
 			}
 
 			LostMechanicCase: {
-				DisplayName: 机修工失踪案（出自逆转裁判）
+				DisplayName: 机修工失踪案（出自:逆转裁判）
 				Tooltip:
 					'''
 					'只有一个人能让做衣服的人无罪'
@@ -10965,7 +10968,7 @@ Mods: {
 			}
 
 			LucinaSword: {
-				DisplayName: 御剑（出自任天堂明星大乱斗）
+				DisplayName: 御剑（出自:任天堂明星大乱斗）
 				Tooltip:
 					'''
 					'这把剑是别人的'
@@ -10974,7 +10977,7 @@ Mods: {
 			}
 
 			MadnessinaBottle: {
-				DisplayName: 瓶子里的???（出自暴力迪吧）
+				DisplayName: 瓶子里的???（出自:暴力迪吧）
 				Tooltip:
 					'''
 					'它充满了黑暗和疯狂'
@@ -10983,7 +10986,7 @@ Mods: {
 			}
 
 			MagicBook: {
-				DisplayName: 帕秋莉手册（出自车万）
+				DisplayName: 帕秋莉手册（出自:车万）
 				Tooltip:
 					'''
 					'它属于红魔馆'
@@ -10992,7 +10995,7 @@ Mods: {
 			}
 
 			MagicianHat: {
-				DisplayName: 魔理沙的帽子（出自车万）
+				DisplayName: 魔理沙的帽子（出自:车万）
 				Tooltip:
 					'''
 					'它属于普通的魔术师'
@@ -11001,7 +11004,7 @@ Mods: {
 			}
 
 			MagneticMetal: {
-				DisplayName: 奇怪的金属（出自jojo）
+				DisplayName: 奇怪的金属（出自:jojo）
 				Tooltip:
 					'''
 					'它看起来有高度磁性的'
@@ -11019,7 +11022,7 @@ Mods: {
 			}
 
 			Masterball2: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着这个都会让你兴奋'
@@ -11028,7 +11031,7 @@ Mods: {
 			}
 
 			Masterball3: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会让你觉得很奇怪'
@@ -11038,7 +11041,7 @@ Mods: {
 			}
 
 			Masterball4: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会让你感觉很温暖'
@@ -11047,7 +11050,7 @@ Mods: {
 			}
 
 			Masterball5: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会让你觉得很奇怪'
@@ -11056,7 +11059,7 @@ Mods: {
 			}
 
 			Masterball6: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会让你会听到一段微弱的旋律'
@@ -11066,7 +11069,7 @@ Mods: {
 			}
 
 			Masterball7: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它也会影响时间和空间的形态'
@@ -11075,7 +11078,7 @@ Mods: {
 			}
 
 			Masterball8: {
-				DisplayName: "大师球（出自口袋妖怪） "
+				DisplayName: "大师球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'它像钻石一样闪闪发光'
@@ -11084,7 +11087,7 @@ Mods: {
 			}
 
 			Meat: {
-				DisplayName: 熟肉（出自胆小狗英雄）
+				DisplayName: 熟肉（出自:胆小狗英雄）
 				Tooltip:
 					'''
 					'它会让你感到饥饿'
@@ -11093,7 +11096,7 @@ Mods: {
 			}
 
 			MechaKey: {
-				DisplayName: 机械钥匙（出自原版）
+				DisplayName: 机械钥匙（出自:原版）
 				Tooltip:
 					'''
 					'让我想起了一些可怕的事情'
@@ -11102,7 +11105,7 @@ Mods: {
 			}
 
 			MechanicalLeg: {
-				DisplayName: 机械腿（出自传说之下）
+				DisplayName: 机械腿（出自:传说之下）
 				Tooltip:
 					'''
 					'它看起来美极了'
@@ -11112,7 +11115,7 @@ Mods: {
 			}
 
 			MetroidCapsule: {
-				DisplayName: 银河战士胶囊（出自银河战士）
+				DisplayName: 银河战士胶囊（出自:银河战士）
 				Tooltip:
 					'''
 					'看起来很危险'
@@ -11121,7 +11124,7 @@ Mods: {
 			}
 
 			MindEye: {
-				DisplayName: 觉之瞳（出自车万）
+				DisplayName: 觉之瞳（出自:车万）
 				Tooltip:
 					'''
 					'它知道你在想什么'
@@ -11130,7 +11133,7 @@ Mods: {
 			}
 
 			MiniScythe: {
-				DisplayName: 迷你镰刀（出自杀戮天使）
+				DisplayName: 迷你镰刀（出自:杀戮天使）
 				Tooltip:
 					'''
 					'看起来很危险'
@@ -11140,7 +11143,7 @@ Mods: {
 			}
 
 			MiracleMallet: {
-				DisplayName: 万宝槌（出自车万）
+				DisplayName: 万宝槌（出自:车万）
 				Tooltip:
 					'''
 					'曾经是鬼的物品，现在属于其他人了'
@@ -11149,7 +11152,7 @@ Mods: {
 			}
 
 			MisaoHands: {
-				DisplayName: 手来自???（出自Misao）
+				DisplayName: 手来自???（出自:Misao）
 				Tooltip:
 					'''
 					'它们很冷，但你会感到复仇的火焰'
@@ -11158,7 +11161,7 @@ Mods: {
 			}
 
 			MonsterAxe: {
-				DisplayName: 斧头（出自三角符文）
+				DisplayName: 斧头（出自:三角符文）
 				Tooltip:
 					'''
 					'它看起来已经准备好战斗了'
@@ -11167,7 +11170,7 @@ Mods: {
 			}
 
 			MuddiedSardine: {
-				DisplayName: 沙丁鱼（出自UTAU虚拟歌手）
+				DisplayName: 沙丁鱼（出自:UTAU虚拟歌手）
 				Tooltip:
 					'''
 					'土壤中的沙丁鱼?'
@@ -11176,7 +11179,7 @@ Mods: {
 			}
 
 			Murasame: {
-				DisplayName: 帝具.妖刀·一斩必杀[村雨]（出自斩.赤红之瞳）
+				DisplayName: 帝具.妖刀·一斩必杀[村雨]（出自:斩.赤红之瞳）
 				Tooltip:
 					'''
 					'你觉得只要一击就可以杀死月球领主'
@@ -11185,7 +11188,7 @@ Mods: {
 			}
 
 			Mushroom: {
-				DisplayName: 特殊的蘑菇（出自超级马丽）
+				DisplayName: 特殊的蘑菇（出自:超级马丽）
 				Tooltip:
 					'''
 					'吸引某人'
@@ -11194,7 +11197,7 @@ Mods: {
 			}
 
 			MushyBottleofMud: {
-				DisplayName: 真菌感染淤泥的土壤（出自原版）
+				DisplayName: 真菌感染淤泥的土壤（出自:原版）
 				Tooltip:
 					'''
 					'它含有足够的腐殖质供蠕虫和真菌生存'
@@ -11203,7 +11206,7 @@ Mods: {
 			}
 
 			MushyEgg: {
-				DisplayName: 蘑菇瓢虫蛋（出自原版）
+				DisplayName: 蘑菇瓢虫蛋（出自:原版）
 				Tooltip:
 					'''
 					'它被蘑菇孢子包围着'
@@ -11212,7 +11215,7 @@ Mods: {
 			}
 
 			MusicCd: {
-				DisplayName: 音乐cd（出自传说之下）
+				DisplayName: 音乐cd（出自:传说之下）
 				Tooltip:
 					'''
 					'这里面有很多音乐'
@@ -11221,7 +11224,7 @@ Mods: {
 			}
 
 			Myrtenaster: {
-				DisplayName: 柳叶白菀（出自RWBY）
+				DisplayName: 柳叶白菀（出自:RWBY）
 				Tooltip:
 					'''
 					'它属于一个女猎人'
@@ -11230,7 +11233,7 @@ Mods: {
 			}
 
 			NecklaceofKindness: {
-				DisplayName: 花蕾项链（出自More Pets Lore）
+				DisplayName: 花蕾项链（出自:More Pets Lore）
 				Tooltip:
 					'''
 					'它曾经属于一个善良的灵魂'
@@ -11239,7 +11242,7 @@ Mods: {
 			}
 
 			NightmareBall: {
-				DisplayName: 梦魇之球（出自星之卡比）
+				DisplayName: 梦魇之球（出自:星之卡比）
 				Tooltip:
 					'''
 					'也许你应该召唤卡比'
@@ -11248,7 +11251,7 @@ Mods: {
 			}
 
 			OddiesCollar: {
-				DisplayName: 乔恩的衣领（出自加菲猫）
+				DisplayName: 乔恩的衣领（出自:加菲猫）
 				Tooltip:
 					'''
 					'它可能会帮助人类找到他们要找的人'
@@ -11262,7 +11265,7 @@ Mods: {
 			}
 
 			OldGlasses: {
-				DisplayName: 古董眼镜（出自超级马力欧兄弟）
+				DisplayName: 古董眼镜（出自:超级马力欧兄弟）
 				Tooltip:
 					'''
 					'有人可能需要这些'
@@ -11282,12 +11285,12 @@ Mods: {
 			}
 
 			OldWalkingStick: {
-				DisplayName: 老手杖
+				DisplayName: 老手杖（出自:pe版1.2）
 				Tooltip: "'召唤宠物老太太'"
 			}
 
 			OldWizardHat: {
-				DisplayName: 古代法师帽（出自最终幻想14）
+				DisplayName: 古代法师帽（出自:最终幻想14）
 				Tooltip:
 					'''
 					'我想戴上它'
@@ -11296,7 +11299,7 @@ Mods: {
 			}
 
 			OmegaAmblem: {
-				DisplayName: Ω符文（出自战神）
+				DisplayName: 奥米加符文（出自:战神）
 				Tooltip:
 					'''
 					'你开始充满复仇之心'
@@ -11305,7 +11308,7 @@ Mods: {
 			}
 
 			OrangeInkling: {
-				DisplayName: 橙色章鱼（出自任天堂明星大乱斗）
+				DisplayName: 橙色章鱼（出自:任天堂明星大乱斗）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -11314,7 +11317,7 @@ Mods: {
 			}
 
 			OrganicEye: {
-				DisplayName: 生物生化眼（出自SCP基金会）
+				DisplayName: 生物生化眼（出自:SCP基金会）
 				Tooltip:
 					'''
 					'它可能对某人有用，因为它从不眨眼'
@@ -11323,7 +11326,7 @@ Mods: {
 			}
 
 			OtherworldlyAdventurersBag: {
-				DisplayName: 冒险家包（出自探险活宝）
+				DisplayName: 冒险家包（出自:探险活宝）
 				Tooltip:
 					'''
 					'也许你应该把它交给认识它主人的人'
@@ -11332,7 +11335,7 @@ Mods: {
 			}
 
 			OtherworldlyAmulet: {
-				DisplayName: 护身符(出自描绘人生)
+				DisplayName: 护身符(出自:描绘人生)
 				Tooltip:
 					'''
 					'它可能对某人很重要'
@@ -11341,7 +11344,7 @@ Mods: {
 			}
 
 			OtherworldlyBow: {
-				DisplayName: 没有弦的弓(出自车万)
+				DisplayName: 没有弦的弓(出自:车万)
 				Tooltip:
 					'''
 					'也许你应该把它给它的主人'
@@ -11350,7 +11353,7 @@ Mods: {
 			}
 
 			OtherworldlyHat: {
-				DisplayName: 空条承太郎的帽子（出自jojo）
+				DisplayName: 空条承太郎的帽子（出自:jojo）
 				Tooltip:
 					'''
 					'她从哪里找到这个的?'
@@ -11359,7 +11362,7 @@ Mods: {
 			}
 
 			OtherworldlySantaHat: {
-				DisplayName: 圣诞帽（出自fate）
+				DisplayName: 圣诞帽（出自:fate）
 				Tooltip:
 					'''
 					'拿着它也会感觉有人在唱“美妙动听”的歌'
@@ -11368,7 +11371,7 @@ Mods: {
 			}
 
 			OtherworldlySword: {
-				DisplayName: 乖离剑（出自fate）
+				DisplayName: 乖离剑（出自:fate）
 				Tooltip:
 					'''
 					'它可能属于一个强壮的人'
@@ -11378,7 +11381,7 @@ Mods: {
 			}
 
 			OverfrozenCrystal: {
-				DisplayName: 冰冻晶体（出自车万）
+				DisplayName: 冰冻晶体（出自:车万）
 				Tooltip:
 					'''
 					'晶体温度接近0°c'
@@ -11388,7 +11391,7 @@ Mods: {
 			}
 
 			OverfrozenCrystal2: {
-				DisplayName: 冰冻晶体（出自车万）
+				DisplayName: 冰冻晶体（出自:车万）
 				Tooltip:
 					'''
 					'晶体温度接近0°c'
@@ -11398,16 +11401,16 @@ Mods: {
 			}
 
 			OwlDoll: {
-				DisplayName: 奇怪的猫头鹰毛绒玩具（出自玩具熊的五夜惊魂）
+				DisplayName: 奇怪的猫头鹰毛绒玩具（出自:玩具熊的五夜惊魂）
 				Tooltip:
 					'''
-					'在boss猎人在哪里找到这个?'
+					'在boss猎人在那里能找到这个?'
 					召唤Security跟随你
 					'''
 			}
 
 			OxytocinVenomVial: {
-				DisplayName: 神经毒素瓶（出自原版）
+				DisplayName: 神经毒素瓶（出自:原版）
 				Tooltip:
 					'''
 					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
@@ -11418,7 +11421,7 @@ Mods: {
 			}
 
 			OxytocinVenomVial2: {
-				DisplayName: 神经毒素瓶（出自原版）
+				DisplayName: 神经毒素瓶（出自:原版）
 				Tooltip:
 					'''
 					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
@@ -11429,7 +11432,7 @@ Mods: {
 			}
 
 			PacDot: {
-				DisplayName: 豆子（出自吃豆人）
+				DisplayName: 豆子（出自:吃豆人）
 				Tooltip:
 					'''
 					'看起来有点像素化但很会吃'
@@ -11444,7 +11447,7 @@ Mods: {
 					'让我们抹去这个无意义的世界，走向下一个世界'
 					召唤鬼孩跟随你
 					双击让他出现在光标附近的非boss旁边，并在精神上减慢的速度
-					对幽灵系敌怪有增强 + 如果敌怪距离玩家近，它会直接回到玩家旁边
+					对幽灵系敌怪有增强，如果敌怪距离玩家近，它会直接回到玩家旁边
 					'''
 			}
 
@@ -11485,7 +11488,7 @@ Mods: {
 			}
 
 			Pie: {
-				DisplayName: 肉桂派（出自传说之下）
+				DisplayName: 肉桂派（出自:传说之下）
 				Tooltip:
 					'''
 					'看起来很不错'
@@ -11494,7 +11497,7 @@ Mods: {
 			}
 
 			PinkInkling: {
-				DisplayName: 粉色乌贼（出自任天堂大乱斗）
+				DisplayName: 粉色乌贼（出自:任天堂大乱斗）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -11503,7 +11506,7 @@ Mods: {
 			}
 
 			PizzaSlice: {
-				DisplayName: 披萨片（出自鬼哭五月天划掉，鬼泣）
+				DisplayName: 披萨片（出自:鬼哭五月天划掉，鬼泣）
 				Tooltip:
 					'''
 					'它闻起来和尝起来都很棒'
@@ -11512,7 +11515,7 @@ Mods: {
 			}
 
 			PlasticFigure: {
-				DisplayName: 塑料图（出自传说之下）
+				DisplayName: 塑料图（出自:传说之下）
 				Tooltip:
 					'''
 					'看起来很罕见'
@@ -11522,7 +11525,7 @@ Mods: {
 			}
 
 			Pokeball: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'是丰缘地区最初的伙伴之一'
@@ -11532,7 +11535,7 @@ Mods: {
 			}
 
 			Pokeball2: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'这里面似乎有生活在洞穴里面的宝可梦'
@@ -11541,7 +11544,7 @@ Mods: {
 			}
 
 			Pokeball3: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'这里面似乎有亲近人类的宝可梦'
@@ -11550,7 +11553,7 @@ Mods: {
 			}
 
 			Pokeball4: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'这里面似乎有幽灵系的宝可梦'
@@ -11559,7 +11562,7 @@ Mods: {
 			}
 
 			Pokeball5: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'这个精灵球闻起来有葱味'
@@ -11568,7 +11571,7 @@ Mods: {
 			}
 
 			Pokeball6: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'也许你从这个宝可梦身上获得过礼物'
@@ -11577,7 +11580,7 @@ Mods: {
 			}
 
 			Pokeball7: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'有细小的电火花从球里面冒出'
@@ -11587,7 +11590,7 @@ Mods: {
 			}
 
 			Pokemon10: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'浮在水面呼吸'
@@ -11596,7 +11599,7 @@ Mods: {
 			}
 
 			Pokemon11: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'似乎可以听到呼噜声'
@@ -11605,7 +11608,7 @@ Mods: {
 			}
 
 			Pokemon12: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会让你感觉正常'
@@ -11614,7 +11617,7 @@ Mods: {
 			}
 
 			Pokemon13: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'感觉受到天气的影响'
@@ -11623,7 +11626,7 @@ Mods: {
 			}
 
 			Pokemon14: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'你觉得有点重'
@@ -11633,7 +11636,7 @@ Mods: {
 			}
 
 			Pokemon15: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它都会觉得很强大'
@@ -11643,7 +11646,7 @@ Mods: {
 			}
 
 			Pokemon16: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'感觉这个精灵球有特别的东西'
@@ -11652,7 +11655,7 @@ Mods: {
 			}
 
 			Pokemon17: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'拿着它会觉得周围的都变得不同了'
@@ -11662,7 +11665,7 @@ Mods: {
 			}
 
 			Pokemon18: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'即使是抱着也会让你感觉很美好'
@@ -11672,7 +11675,7 @@ Mods: {
 			}
 
 			Pokemon19: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'你觉得这个里面有个恶系宝可梦'
@@ -11682,7 +11685,7 @@ Mods: {
 			}
 
 			Pokemon20: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'你觉得这个精灵球里面有个可爱的东西'
@@ -11692,7 +11695,7 @@ Mods: {
 			}
 
 			Pokemon21: {
-				DisplayName: 精灵球（出自口袋妖怪）
+				DisplayName: 精灵球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'拿着它会让空气散发着犯罪的味道'
@@ -11701,7 +11704,7 @@ Mods: {
 			}
 
 			Pokemon8: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					拿着它会让你有种复仇的冲动'
@@ -11711,7 +11714,7 @@ Mods: {
 			}
 
 			Pokemon9: {
-				DisplayName: "精灵球（出自口袋妖怪） "
+				DisplayName: "精灵球（出自:口袋妖怪） "
 				Tooltip:
 					'''
 					'你会觉得里面有一个黑暗类型的宝可梦'
@@ -11721,7 +11724,7 @@ Mods: {
 			}
 
 			PortableMysteriousTablet: {
-				DisplayName: 神秘碑牌（出自原版）
+				DisplayName: 神秘碑牌（出自:原版）
 				Tooltip:
 					'''
 					'它看起来很脆弱'
@@ -11748,7 +11751,7 @@ Mods: {
 			}
 
 			PurpleEtherianMana: {
-				DisplayName: 紫色的埃特尼亚魔力（出自原版）
+				DisplayName: 紫色的埃特尼亚魔力（出自:原版）
 				Tooltip:
 					'''
 					'有人想拿走这个'
@@ -11757,7 +11760,7 @@ Mods: {
 			}
 
 			RandosMask: {
-				DisplayName: 遗忘的面具（出自莉莎：苦痛之旅）
+				DisplayName: 遗忘的面具（出自:莉莎：苦痛之旅）
 				Tooltip:
 					'''
 					'你觉得它属于别人'
@@ -11766,7 +11769,7 @@ Mods: {
 			}
 
 			RedEye: {
-				DisplayName: 赤瞳（出自车万）
+				DisplayName: 赤瞳（出自:车万）
 				Tooltip:
 					'''
 					'它可以稳定地下世界的火焰'
@@ -11775,7 +11778,7 @@ Mods: {
 			}
 
 			RedFeather: {
-				DisplayName: 红羽（出自原版）
+				DisplayName: 红羽（出自:原版）
 				Tooltip:
 					'''
 					'这个羽毛来自哪里?'
@@ -11784,7 +11787,7 @@ Mods: {
 			}
 
 			RedPaper: {
-				DisplayName: 红布（出自车万）
+				DisplayName: 红布（出自:车万）
 				Tooltip:
 					'''
 					'衣服的一部分'
@@ -11793,7 +11796,7 @@ Mods: {
 			}
 
 			RedRose: {
-				DisplayName: 红色玫瑰（出自恐怖美术馆）
+				DisplayName: 红色玫瑰（出自:恐怖美术馆）
 				Tooltip:
 					'''
 					'拿着它会让你觉得它已经属于别人了'
@@ -11802,7 +11805,7 @@ Mods: {
 			}
 
 			ReverseBladeSword: {
-				DisplayName: 反刃刀（出自Rurouni Kenshin）
+				DisplayName: 反刃刀（出自:Rurouni Kenshin）
 				Tooltip:
 					'''
 					'它曾经是由一位伟大的铁匠锻造的'
@@ -11811,7 +11814,7 @@ Mods: {
 			}
 
 			RidersEyeCover: {
-				DisplayName: 眼罩（出自Fate）
+				DisplayName: 眼罩（出自:Fate）
 				Tooltip:
 					'''
 					'它可能属于R姐'
@@ -11821,7 +11824,7 @@ Mods: {
 			}
 
 			RosePetals: {
-				DisplayName: 花瓣（出自RWBY）
+				DisplayName: 花瓣（出自:RWBY）
 				Tooltip:
 					'''
 					'它们曾经从一朵美丽的花上掉下来'
@@ -11830,7 +11833,7 @@ Mods: {
 			}
 
 			RottenBass: {
-				DisplayName: 腐化鱼（出自原版）
+				DisplayName: 腐化鱼（出自:原版）
 				Tooltip:
 					'''
 					'我能用这个做什么?'
@@ -11839,7 +11842,7 @@ Mods: {
 			}
 
 			SakuyaWatch: {
-				DisplayName: 时间控制手表（出自车万）
+				DisplayName: 时间控制手表（出自:车万）
 				Tooltip:
 					'''
 					'这是某人的'
@@ -11849,7 +11852,7 @@ Mods: {
 			}
 
 			SakuyaWatch2: {
-				DisplayName: 时间控制手表（出自车万）
+				DisplayName: 时间控制手表（出自:车万）
 				Tooltip:
 					'''
 					'这是某人的'
@@ -11859,7 +11862,7 @@ Mods: {
 			}
 
 			ScarecrowHead: {
-				DisplayName: 稻草人头（出自原版）
+				DisplayName: 稻草人头（出自:原版）
 				Tooltip:
 					'''
 					'也许把它放回它的身体上会开心'
@@ -11868,7 +11871,7 @@ Mods: {
 			}
 
 			ScarletOrb: {
-				DisplayName: 血珠（出自车万）
+				DisplayName: 血珠（出自:车万）
 				Tooltip:
 					'''
 					'这让你觉得很奇怪'
@@ -11877,7 +11880,7 @@ Mods: {
 			}
 
 			Scroll: {
-				DisplayName: 卷轴（出自The Messanger）
+				DisplayName: 卷轴（出自:The Messanger）
 				Tooltip:
 					'''
 					'你不确定它是卷轴还是别的什么'
@@ -11896,7 +11899,7 @@ Mods: {
 			}
 
 			SeveredHead: {
-				DisplayName: 赤蛮奇头（出自车万）
+				DisplayName: 赤蛮奇头（出自:车万）
 				Tooltip:
 					'''
 					'它在寻找自己的身体~'
@@ -11905,7 +11908,7 @@ Mods: {
 			}
 
 			SeveredLizardHead: {
-				DisplayName: 丛林蜥蜴头（出自原版）
+				DisplayName: 丛林蜥蜴头（出自:原版）
 				Tooltip:
 					'''
 					'看来丛林蜥蜴也会有危险'
@@ -11914,7 +11917,7 @@ Mods: {
 			}
 
 			ShadowCoin: {
-				DisplayName: 暗影币（出自原版）
+				DisplayName: 暗影币（出自:原版）
 				Tooltip:
 					'''
 					'即使它是假的，它仍然可以欺骗别人它是真的'
@@ -11932,7 +11935,7 @@ Mods: {
 			}
 
 			ShanghaiDoll: {
-				DisplayName: 上海人形（出自车万）
+				DisplayName: 上海人形（出自:车万）
 				Tooltip:
 					'''
 					'它寻找它的主人'
@@ -11941,7 +11944,7 @@ Mods: {
 			}
 
 			ShatteredCrusaderSoul: {
-				DisplayName: 十字军的破碎之魂（出自为美好的世界献上祝福！）
+				DisplayName: 十字军的破碎之魂（出自:为美好的世界献上祝福！）
 				Tooltip:
 					'''
 					拿着它，你也会觉得自己是受虐狂'
@@ -11950,7 +11953,7 @@ Mods: {
 			}
 
 			ShatteredHead: {
-				DisplayName: 愤怒喵喵头（出自传说之下）
+				DisplayName: 愤怒喵喵头（出自:传说之下）
 				Tooltip:
 					'''
 					'它在寻找自己的身体'
@@ -11960,7 +11963,7 @@ Mods: {
 			}
 
 			SheerHeart: {
-				DisplayName: 枯萎穿心（出自jojo）
+				DisplayName: 枯萎穿心（出自:jojo）
 				Tooltip:
 					'''
 					'你觉得它在瞄准什么东西'
@@ -11970,12 +11973,12 @@ Mods: {
 			}
 
 			ShinyBlackSlab: {
-				DisplayName: 闪亮黑板（出自原版移动端1.2）
+				DisplayName: 闪亮黑板（出自:pe版1.2）
 				Tooltip: "'召唤宠物安卓机器人'"
 			}
 
 			Shovel: {
-				DisplayName: 传奇铲（出自铲子骑士）
+				DisplayName: 传奇铲（出自:铲子骑士）
 				Tooltip:
 					'''
 					'它属于一个英雄'
@@ -11985,7 +11988,7 @@ Mods: {
 			}
 
 			ShyGuyMask: {
-				DisplayName: 害羞小子面具（出自超级玛丽）
+				DisplayName: 害羞小子面具（出自:超级玛丽）
 				Tooltip:
 					'''
 					'它看起来很可爱'
@@ -11994,7 +11997,7 @@ Mods: {
 			}
 
 			SkullwithWire: {
-				DisplayName: 远古头骨
+				DisplayName: 远古头骨（出自:阿瓦隆模组）
 				Tooltip:
 					'''
 					'看起来很危险又古老'
@@ -12013,7 +12016,7 @@ Mods: {
 			}
 
 			SpadeRune: {
-				DisplayName: 白桃符文（出自三角符文）
+				DisplayName: 白桃符文（出自:三角符文）
 				Tooltip:
 					'''
 					'闻起来很邪恶'
@@ -12022,7 +12025,7 @@ Mods: {
 			}
 
 			StableCore: {
-				DisplayName: 稳定的核心（出自传说之下）
+				DisplayName: 稳定的核心（出自:传说之下）
 				Tooltip:
 					'''
 					'某人的钥匙'
@@ -12031,7 +12034,7 @@ Mods: {
 			}
 
 			StackofFiveApples: {
-				DisplayName: 一叠五个苹果（出自hello kitty）
+				DisplayName: 一叠五个苹果（出自:hello kitty）
 				Tooltip:
 					'''
 					'某人的长度单位'
@@ -12040,7 +12043,7 @@ Mods: {
 			}
 
 			StrangeFlower: {
-				DisplayName: 奇怪的花（出自原版）
+				DisplayName: 奇怪的花（出自:原版）
 				Tooltip:
 					'''
 					'闻起来像是美好的旧回忆'
@@ -12049,127 +12052,127 @@ Mods: {
 			}
 
 			StrangeLookingEgg: {
-				DisplayName: 便携式伞形彩蛋（出自梦日记）
+				DisplayName: 便携式伞形彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg10: {
-				DisplayName: 便携式青蛙彩蛋（出自梦日记）
+				DisplayName: 便携式青蛙彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg11: {
-				DisplayName: 便携式猫猫彩蛋（出自梦日记）
+				DisplayName: 便携式猫猫彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg12: {
-				DisplayName: 便携式帽子和围巾彩蛋（出自梦日记）
+				DisplayName: 便携式帽子和围巾彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg13: {
-				DisplayName: 便携式胖子彩蛋（出自梦日记）
+				DisplayName: 便携式胖子彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg14: {
-				DisplayName: 便携式头颅彩蛋（出自梦日记）
+				DisplayName: 便携式头颅彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg15: {
-				DisplayName: 便携式骑自行车人彩蛋（出自梦日记）
+				DisplayName: 便携式骑自行车人彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg16: {
-				DisplayName: 便携式Buyo Buyo彩蛋（出自梦日记）
+				DisplayName: 便携式Buyo Buyo彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg17: {
-				DisplayName: 便携式吹笛人彩蛋（出自梦日记）
+				DisplayName: 便携式吹笛人彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg18: {
-				DisplayName: 携带式提灯人彩蛋（出自梦日记）
+				DisplayName: 携带式提灯人彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg19: {
-				DisplayName: 便携式Medamaude彩蛋（出自梦日记）
+				DisplayName: 便携式Medamaude彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg2: {
-				DisplayName: 便携式Yuki-onna彩蛋（出自梦日记）
+				DisplayName: 便携式Yuki-onna彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg20: {
-				DisplayName: 便携式Midget彩蛋（出自梦日记）
+				DisplayName: 便携式Midget彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg21: {
-				DisplayName: 便携式霓虹灯彩蛋（出自梦日记）
+				DisplayName: 便携式霓虹灯彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg22: {
-				DisplayName: 便携式Nopperabou彩蛋（出自梦日记）
+				DisplayName: 便携式Nopperabou彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg23: {
-				DisplayName: 便携式Stoplight彩蛋（出自梦日记）
+				DisplayName: 便携式Stoplight彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg24: {
-				DisplayName: 便携式Towel彩蛋（出自梦日记）
+				DisplayName: 便携式Towel彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg25: {
-				DisplayName: 便携式Triangle Kerchief彩蛋（出自梦日记）
+				DisplayName: 便携式Triangle Kerchief彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg3: {
-				DisplayName: 便携式恶魔彩蛋（出自梦日记）
+				DisplayName: 便携式恶魔彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg4: {
-				DisplayName: 便携式Witch彩蛋（出自梦日记）
+				DisplayName: 便携式Witch彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg5: {
-				DisplayName: 便携式Knife彩蛋（出自梦日记）
+				DisplayName: 便携式Knife彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg7: {
-				DisplayName: 便携式Blonde Hair彩蛋（出自梦日记）
+				DisplayName: 便携式Blonde Hair彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg8: {
-				DisplayName: 便携式Long Hair彩蛋（出自梦日记）
+				DisplayName: 便携式Long Hair彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeLookingEgg9: {
-				DisplayName: 便携式Poop Hair彩蛋（出自梦日记）
+				DisplayName: 便携式Poop Hair彩蛋（出自:梦日记）
 				Tooltip: "'他属于Madotsuki'"
 			}
 
 			StrangeMonitor: {
-				DisplayName: 奇怪的监控(出自洛克人)
+				DisplayName: 奇怪的监控(出自:洛克人)
 				Tooltip:
 					'''
 					'这里有wifi吗??'
@@ -12178,7 +12181,7 @@ Mods: {
 			}
 
 			Streetsign: {
-				DisplayName: 街道标志牌（出自暴力迪吧）
+				DisplayName: 街道标志牌（出自:暴力迪吧）
 				Tooltip:
 					'''
 					'某人最喜欢的武器'
@@ -12188,7 +12191,7 @@ Mods: {
 			}
 
 			SunGlasses: {
-				DisplayName: 太阳眼镜（出自挺进地牢）
+				DisplayName: 太阳眼镜（出自:挺进地牢）
 				Tooltip:
 					'''
 					'他们在地牢制造'
@@ -12197,7 +12200,7 @@ Mods: {
 			}
 
 			SuspiciosLookingEgg: {
-				DisplayName: 可疑蛋（出自原版）
+				DisplayName: 可疑蛋（出自:原版）
 				Tooltip:
 					'''
 					'我希望你不要惹母亲生气'
@@ -12206,7 +12209,7 @@ Mods: {
 			}
 
 			SuspiciousFlyingRock: {
-				DisplayName: 可疑的符石（出自车万）
+				DisplayName: 可疑的符石（出自:车万）
 				Tooltip:
 					'''
 					'似乎有人在操纵它'
@@ -12216,7 +12219,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBag: {
-				DisplayName: 可疑的包裹（出自交叉领域计划）
+				DisplayName: 可疑的包裹（出自:交叉领域计划）
 				Tooltip:
 					'''
 					'你想知道里面是什么'
@@ -12225,7 +12228,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBiwa: {
-				DisplayName: 可疑的琵琶(出自车万)
+				DisplayName: 可疑的琵琶(出自:车万)
 				Tooltip:
 					'''
 					'它属于某人'
@@ -12234,7 +12237,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBomb: {
-				DisplayName: 可疑的炸弹（出自超级玛丽）
+				DisplayName: 可疑的炸弹（出自:超级玛丽）
 				Tooltip:
 					'''
 					'我希望它不会爆炸'
@@ -12244,7 +12247,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBottle: {
-				DisplayName: 可疑的酒桶（出自车万）
+				DisplayName: 可疑的酒桶（出自:车万）
 				Tooltip:
 					'''
 					'有人在里面'
@@ -12253,7 +12256,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBroom: {
-				DisplayName: 可疑的扫帚(出自车万)
+				DisplayName: 可疑的扫帚(出自:车万)
 				Tooltip:
 					'''
 					'上面还有一些灰尘'
@@ -12262,7 +12265,7 @@ Mods: {
 			}
 
 			SuspiciousLookingBucket: {
-				DisplayName: 可疑的桶(出自车万)
+				DisplayName: 可疑的桶(出自:车万)
 				Tooltip:
 					'''
 					'有人在里面'
@@ -12271,7 +12274,7 @@ Mods: {
 			}
 
 			SuspiciousLookingChatteryTeeth: {
-				DisplayName: 可疑的打颤牙齿（出自蝙蝠侠）
+				DisplayName: 可疑的打颤牙齿（出自:蝙蝠侠）
 				Tooltip:
 					'''
 					'你希望它不会咬你'
@@ -12280,7 +12283,7 @@ Mods: {
 			}
 
 			SuspiciousLookingCookie: {
-				DisplayName: 可疑的饼干（出自原版）
+				DisplayName: 可疑的饼干（出自:原版）
 				Tooltip:
 					'''
 					'它看起来想杀了我'
@@ -12289,7 +12292,7 @@ Mods: {
 			}
 
 			SuspiciousLookingDrumStick: {
-				DisplayName: 可疑的敲鼓棍（出自车万）
+				DisplayName: 可疑的敲鼓棍（出自:车万）
 				Tooltip:
 					'''
 					'它属于某人'
@@ -12298,7 +12301,7 @@ Mods: {
 			}
 
 			SuspiciousLookingEyeball: {
-				DisplayName: 可疑的眼球（出自Vinesauce）
+				DisplayName: 可疑的眼球（出自:Vinesauce）
 				Tooltip:
 					'''
 					'它仍然盯着你'
@@ -12307,7 +12310,7 @@ Mods: {
 			}
 
 			SuspiciousLookingGem: {
-				DisplayName: 可疑的宝石（出自天地无用）
+				DisplayName: 可疑的宝石（出自:天地无用）
 				Tooltip:
 					'''
 					'它看起来像是来自太空'
@@ -12317,7 +12320,7 @@ Mods: {
 			}
 
 			SuspiciousLookingHat: {
-				DisplayName: 波纹浸渍帽(出自jojo)
+				DisplayName: 波纹浸渍帽(出自:jojo)
 				Tooltip:
 					'''
 					'看起来很时尚'
@@ -12335,7 +12338,7 @@ Mods: {
 			}
 
 			SuspiciousLookingKatana: {
-				DisplayName: 可疑的武士刀（出自车万）
+				DisplayName: 可疑的武士刀（出自:车万）
 				Tooltip:
 					'''
 					'它仍然包含着魔法'
@@ -12344,7 +12347,7 @@ Mods: {
 			}
 
 			SuspiciousLookingKeyboard: {
-				DisplayName: 可疑的键盘（出自车万）
+				DisplayName: 可疑的键盘（出自:车万）
 				Tooltip:
 					'''
 					'看起来还有足够的能量可用'
@@ -12353,7 +12356,7 @@ Mods: {
 			}
 
 			SuspiciousLookingOrb: {
-				DisplayName: 可疑的球体（出自星之卡比）
+				DisplayName: 可疑的球体（出自:星之卡比）
 				Tooltip:
 					'''
 					'它看起来是生命的'
@@ -12363,7 +12366,7 @@ Mods: {
 			}
 
 			SuspiciousLookingPlate: {
-				DisplayName: 可疑的碗（出自车万）
+				DisplayName: 可疑的碗（出自:车万）
 				Tooltip:
 					'''
 					'你不该喝这个'
@@ -12372,7 +12375,7 @@ Mods: {
 			}
 
 			SuspiciousLookingRoadRoller: {
-				DisplayName: 可疑的压路机(出自jojo)
+				DisplayName: 可疑的压路机(出自:jojo)
 				Tooltip:
 					'''
 					'他从哪找到这个的?'
@@ -12381,7 +12384,7 @@ Mods: {
 			}
 
 			SuspiciousLookingScythe: {
-				DisplayName: 可疑的镰刀（出自车万）
+				DisplayName: 可疑的镰刀（出自:车万）
 				Tooltip:
 					'''
 					'你最好把它给它的主人'
@@ -12390,7 +12393,7 @@ Mods: {
 			}
 
 			SuspiciousLookingShovel: {
-				DisplayName: 可疑的铲子（出自杀戮天使）
+				DisplayName: 可疑的铲子（出自:杀戮天使）
 				Tooltip:
 					'''
 					'你觉得你应该把这个给他'
@@ -12399,7 +12402,7 @@ Mods: {
 			}
 
 			SuspiciousLookingSnowpile: {
-				DisplayName: 可疑的雪堆（出自传说之下）
+				DisplayName: 可疑的雪堆（出自:传说之下）
 				Tooltip:
 					'''
 					'这个雪堆有尾巴吗?'
@@ -12417,7 +12420,7 @@ Mods: {
 			}
 
 			SuspiciousLookingTrumpet: {
-				DisplayName: 可疑的小号（出自车万）
+				DisplayName: 可疑的小号（出自:车万）
 				Tooltip:
 					'''
 					'Doot Doot'
@@ -12426,7 +12429,7 @@ Mods: {
 			}
 
 			SuspiciousLookingViolin: {
-				DisplayName: 可疑的小提琴（出自车万）
+				DisplayName: 可疑的小提琴（出自:车万）
 				Tooltip:
 					'''
 					'它外观漂亮'
@@ -12435,7 +12438,7 @@ Mods: {
 			}
 
 			SuspiciousLookingWeb: {
-				DisplayName: 可疑的网(出自jojo)
+				DisplayName: 可疑的网(出自:jojo)
 				Tooltip:
 					'''
 					'你奇怪地觉得它比其他的网更坚固'
@@ -12444,7 +12447,7 @@ Mods: {
 			}
 
 			SuspiciousLookingYinYangOrb: {
-				DisplayName: 可疑的阴阳玉（出自车万）
+				DisplayName: 可疑的阴阳玉（出自:车万）
 				Tooltip:
 					'''
 					'过去的遗物'
@@ -12458,7 +12461,7 @@ Mods: {
 			}
 
 			Tank: {
-				DisplayName: 坦克(出自车万)
+				DisplayName: 坦克(出自:车万)
 				Tooltip:
 					'''
 					'也许有人能开这车'
@@ -12467,7 +12470,7 @@ Mods: {
 			}
 
 			TemFlake: {
-				DisplayName: 喂食提米薄片(出自传说之下)
+				DisplayName: 喂食提米薄片(出自:传说之下)
 				Tooltip:
 					'''
 					'看起来很好'
@@ -12476,7 +12479,7 @@ Mods: {
 			}
 
 			tensecondtimer: {
-				DisplayName: 十秒计时器（出自You Have 10 Seconds）
+				DisplayName: 十秒计时器（出自:You Have 10 Seconds）
 				Tooltip:
 					'''
 					'它看起来又大又奇怪'
@@ -12485,7 +12488,7 @@ Mods: {
 			}
 
 			TheBrain: {
-				DisplayName: 机器人的大脑（出自DC Comics）
+				DisplayName: 机器人的大脑（出自:DC Comics）
 				Tooltip:
 					'''
 					'它看起来是活的'
@@ -12494,7 +12497,7 @@ Mods: {
 			}
 
 			TimeShard: {
-				DisplayName: Time Shard（出自信使）
+				DisplayName: Time Shard（出自:信使）
 				Tooltip:
 					'''
 					'也许你可以用它升级一些东西'
@@ -12503,7 +12506,7 @@ Mods: {
 			}
 
 			TinyBag: {
-				DisplayName: 手挎包（出自杀戮天使）
+				DisplayName: 手挎包（出自:杀戮天使）
 				Tooltip:
 					'''
 					'它可能属于另一个人'（指Zack？）
@@ -12512,7 +12515,7 @@ Mods: {
 			}
 
 			TinyBluePlane: {
-				DisplayName: 蓝色战列舰（出自碧蓝航线）
+				DisplayName: 蓝色战列舰（出自:碧蓝航线）
 				Tooltip:
 					'''
 					'她们会为樱花帝国而战'
@@ -12530,7 +12533,7 @@ Mods: {
 			}
 
 			TinyPlanets: {
-				DisplayName: 三界（出自车万）
+				DisplayName: 三界（出自:车万）
 				Tooltip:
 					'''
 					'司掌三界的人物'
@@ -12539,7 +12542,7 @@ Mods: {
 			}
 
 			TinyPowerCore: {
-				DisplayName: 小功率核心（出自原版）
+				DisplayName: 小功率核心（出自:原版）
 				Tooltip:
 					'''
 					'它看起来很小，但可能足够做些什么了'
@@ -12548,7 +12551,7 @@ Mods: {
 			}
 
 			TinyRedPlane: {
-				DisplayName: 红色战列舰（出自碧蓝航线）
+				DisplayName: 红色战列舰（出自:碧蓝航线）
 				Tooltip:
 					'''
 					'她们会为樱花帝国而战'
@@ -12557,7 +12560,7 @@ Mods: {
 			}
 
 			TinyUkulele: {
-				DisplayName: 小尤克里里琴（出自宝可梦巡护员 光的轨迹）
+				DisplayName: 小尤克里里琴（出自:宝可梦巡护员 光的轨迹）
 				Tooltip:
 					'''
 					'它看起来既可爱又充满活力'
@@ -12567,7 +12570,7 @@ Mods: {
 			}
 
 			TotallyNormalBone: {
-				DisplayName: 完全正常的骨头（出自传说之下）
+				DisplayName: 完全正常的骨头（出自:传说之下）
 				Tooltip:
 					'''
 					'这看起来很正常.你为什么随身带着它?'
@@ -12576,7 +12579,7 @@ Mods: {
 			}
 
 			ToyExcalibur: {
-				DisplayName: Ex咖喱棒（出自Fate）
+				DisplayName: Ex咖喱棒（出自:Fate）
 				Tooltip:
 					'''
 					'它可能看起来像玩具，但仍然感到一股强大的能量通过它'
@@ -12585,7 +12588,7 @@ Mods: {
 			}
 
 			Triangle: {
-				DisplayName: 勇气的三角力量（出自塞尔达传说）
+				DisplayName: 勇气的三角力量（出自:塞尔达传说）
 				Tooltip:
 					'''
 					'也许我能找到另外两件'
@@ -12594,12 +12597,12 @@ Mods: {
 			}
 
 			TurkeyFeather: {
-				DisplayName: 火鸡羽毛（出自pe版1.1~1.2）
+				DisplayName: 火鸡羽毛（出自:pe版1.1~1.2）
 				Tooltip: "'召唤宠物火鸡'"
 			}
 
 			UboaDoll: {
-				DisplayName: Uboa洋娃娃（出自梦日记）
+				DisplayName: Uboa洋娃娃（出自:梦日记）
 				Tooltip:
 					'''
 					'看起来令人毛骨悚然'
@@ -12608,7 +12611,7 @@ Mods: {
 			}
 
 			UFO: {
-				DisplayName: UFO
+				DisplayName: UFO（出自:车万）
 				Tooltip:
 					'''
 					'也许你不该碰它'
@@ -12617,17 +12620,17 @@ Mods: {
 			}
 
 			Umbrella: {
-				DisplayName: 粉红色的伞（出自车万）
+				DisplayName: 粉红色的伞（出自:车万）
 				Tooltip:
 					'''
 					'它属于某人'
 					召唤八云紫（我去，紫老太婆，[c/FF0000:ddhjikol]）跟随你
-					汉化作者被八云紫打死在键盘上，无法没更新汉化了：/
+					汉化作者被八云紫打死在键盘上，无法没更新汉化了XD
 					'''
 			}
 
 			UndefinedFlyingScythe: {
-				DisplayName: 恶魔刀（出自三角符文）
+				DisplayName: 恶魔刀（出自:三角符文）
 				Tooltip:
 					'''
 					'让游戏开始吧!'
@@ -12636,7 +12639,7 @@ Mods: {
 			}
 
 			UnlimitedMud: {
-				DisplayName: 无尽泥浆桶（出自怪物史瑞克）
+				DisplayName: 无尽泥浆桶（出自:怪物史瑞克）
 				Tooltip:
 					'''
 					'为什么有人要做这个?'
@@ -12645,7 +12648,7 @@ Mods: {
 			}
 
 			UNOwenWasher: {
-				DisplayName: 芙兰式洗衣机（出自afk宠物）
+				DisplayName: 芙兰式洗衣机（出自:afk宠物）
 				Tooltip:
 					'''
 					'已经有495年没人用了'
@@ -12664,7 +12667,7 @@ Mods: {
 			}
 
 			WaluigiHat: {
-				DisplayName: 紫色帽子（出自超级马力欧）
+				DisplayName: 紫色帽子（出自:超级马力欧）
 				Tooltip:
 					'''
 					'闻起来像纪念章'
@@ -12673,7 +12676,7 @@ Mods: {
 			}
 
 			Wand: {
-				DisplayName: 蓬莱仙枝（出自车万）
+				DisplayName: 蓬莱仙枝（出自:车万）
 				Tooltip:
 					'''
 					'它曾经在月球上被使用过'
@@ -12683,7 +12686,7 @@ Mods: {
 			}
 
 			WhiteBook: {
-				DisplayName: 白魔法书（出自最终幻想）
+				DisplayName: 白魔法书（出自:最终幻想）
 				Tooltip:
 					'''
 					'里面有很多治愈魔法'
@@ -12692,7 +12695,7 @@ Mods: {
 			}
 
 			WhiteDrumMajorHat: {
-				DisplayName: 白鼓大师帽（出自斩服少女）
+				DisplayName: 白鼓大师帽（出自:斩服少女）
 				Tooltip:
 					'''
 					'它优雅的让你有一种想见它主人的冲动'
@@ -12719,7 +12722,7 @@ Mods: {
 			}
 
 			YarnBall: {
-				DisplayName: 红毛线球（出自巴比斯）
+				DisplayName: 红毛线球（出自:巴比斯）
 				Tooltip:
 					'''
 					'它看起来很可爱'
@@ -12728,7 +12731,7 @@ Mods: {
 			}
 
 			YellowFlower: {
-				DisplayName: 黄花（出自传说之下）
+				DisplayName: 黄花（出自:传说之下）
 				Tooltip:
 					'''
 					'它很中二'
@@ -12737,7 +12740,7 @@ Mods: {
 			}
 
 			YellowHair: {
-				DisplayName: 黄色的头发丝（出自RWBY）
+				DisplayName: 黄色的头发丝（出自:RWBY）
 				Tooltip:
 					'''
 					'它仍然燃烧着光环'
@@ -12746,7 +12749,7 @@ Mods: {
 			}
 
 			YellowRose: {
-				DisplayName: 黄色玫瑰（出自恐怖美术馆）
+				DisplayName: 黄色玫瑰（出自:恐怖美术馆）
 				Tooltip:
 					'''
 					'拿着它会让你觉得它已经属于别人了'
@@ -12755,7 +12758,7 @@ Mods: {
 			}
 
 			YugiohCard1: {
-				DisplayName: 卡牌（出自游戏王）
+				DisplayName: 卡牌（出自:游戏王）
 				Tooltip:
 					'''
 					'我还需要献祭来召唤他吗?'
@@ -12764,7 +12767,7 @@ Mods: {
 			}
 
 			YugiohCard2: {
-				DisplayName: 卡牌（出自游戏王）
+				DisplayName: 卡牌（出自:游戏王）
 				Tooltip:
 					'''
 					'我还需要献祭来召唤她吗?'
@@ -12773,7 +12776,7 @@ Mods: {
 			}
 
 			YumeNikki: {
-				DisplayName: 梦日记（出自梦日记）
+				DisplayName: 梦日记（出自:梦日记）
 				Tooltip:
 					'''
 					'它是用日语写的'
@@ -15023,7 +15026,7 @@ Mods: {
 			}
 
 			DadsKey: {
-				DisplayName: 爸爸的钥匙（出自以撒的结合）
+				DisplayName: 爸爸的钥匙（出自:以撒的结合）
 				Tooltip:
 					'''
 					拿着它的时候，可以让你打开原版带锁的箱子
@@ -15481,10 +15484,10 @@ Mods: {
 					'它曾经由亘古领主的怒火锻造，以塑造他的宇宙'
 					根据斯卡莱多德象形文字，它是在宇宙黑暗时代锻造的
 					<left>允许你将其用作镐头，而<right>激活特殊能力
-					右键+上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
-					右键+下键 5 秒内时间静止
-					右键+左键 8 秒内以狂怒之力重铸你的武器
-					右键+右键 释放特殊攻击
+					鼠标右键+键盘上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
+					鼠标右键+键盘下键 5 秒内时间静止
+					鼠标右键+键盘左键 8 秒内以狂怒之力重铸你的武器
+					鼠标右键+键盘右键 释放特殊攻击
 					特殊能力有冷却时间
 					'''
 			}
@@ -15566,9 +15569,9 @@ Mods: {
 				Tooltip:
 					'''
 					'终极之镐'
-					<right>+下键 发射金片，捡起碰到的物品放入背包
-					<right>附近的物块时，它会显示需要多少镐力才能破坏
-					<right>发射寻血飞弹
+					右键+下键 发射金片，捡起碰到的物品放入背包
+					右键附近的物块时，它会显示需要多少镐力才能破坏
+					右键发射寻血飞弹
 					手持时泰拉之力会保护你，减少 10% 受到的伤害
 					手持时显示附近的宝藏、陷阱和敌人
 					'''
@@ -16213,7 +16216,7 @@ Mods: {
 			}
 
 			PurpleHeart: {
-				DisplayName: 紫心奖章（出自以撒的结合）
+				DisplayName: 紫心奖章（出自:以撒的结合）
 				Tooltip:
 					'''
 					'又一个挑战者来了'
@@ -16657,17 +16660,17 @@ Mods: {
 			}
 
 			FlandresDress: {
-				DisplayName: 绯红吸血鬼的裙子
+				DisplayName: 芙兰朵露的裙子
 				Tooltip: "'就此结束了吗？'"
 			}
 
 			FlandresHead: {
-				DisplayName: 绯红吸血鬼的假发
+				DisplayName: 芙兰朵露的假发
 				Tooltip: "'残留下来的血腥灾难'"
 			}
 
 			FlandresShoes: {
-				DisplayName: 绯红吸血鬼的鞋子
+				DisplayName: 芙兰朵露的鞋子
 				Tooltip: "'495年的涟漪禁果'"
 			}
 
@@ -17387,7 +17390,7 @@ Mods: {
 
 			EnergizedDynamite: {
 				DisplayName: 浓缩炸药
-				Tooltip: "'如何学会不再忧虑并爱上炸弹（出自奇爱博士）'"
+				Tooltip: "'如何学会不再忧虑并爱上炸弹（出自:奇爱博士）'"
 			}
 
 			GhostBomb: {
@@ -21008,7 +21011,7 @@ Mods: {
 			}
 
 			HollowMask: {
-				DisplayName: 空洞面具(出自玩具熊的五夜后宫2)
+				DisplayName: 空洞面具(出自:玩具熊的五夜后宫2)
 				Tooltip:
 					'''
 					'其他人像动物一样麻木，但我真的意识到了什么'
@@ -22041,9 +22044,9 @@ Mods: {
 			BroBullet.DisplayName: 溴铁弹
 			Brofist.DisplayName: Brofist
 			BrokenWashingMachineTornado.DisplayName: Broken Washing Machine Tornado
-			BrokenWashingMachine.DisplayName: Broken Washing Machine
+			BrokenWashingMachine.DisplayName: 破碎的洗衣机
 			BubbleExplosion.DisplayName: Bubble Explosion
-			Bubble.DisplayName: Bubble
+			Bubble.DisplayName: 泡泡
 			FlamingBullet.DisplayName: Flaming Bullet
 			FlamingInferno.DisplayName: Flaming Inferno
 			FlamingSkull.DisplayName: Flaming Skull
@@ -22382,7 +22385,7 @@ Mods: {
 			IceDart.DisplayName: 寒冰镖
 			IceDartCloud.DisplayName: 寒冰镖 Cloud
 			IceKingSlice.DisplayName: Ice King Slice
-			IceKing.DisplayName: Ice King
+			IceKing.DisplayName: 寒冰王
 			IcePunch.DisplayName: Ice Punch
 			IceRune.DisplayName: Ice Rune
 			IceShard.DisplayName: Ice Shard
@@ -22542,7 +22545,7 @@ Mods: {
 			AnnoyingDog.DisplayName: 烦人的狗
 			Arceus.DisplayName: Arceus
 			ArmoredUndyne.DisplayName: Armored Undyne
-			Arno.DisplayName: Arno
+			Arno.DisplayName: 阿诺
 			Asriel.DisplayName: 艾斯利尔 逐梦
 			Ayame.DisplayName: Ayame
 			AyaShameimaru.DisplayName: Aya Shameimaru
@@ -22550,10 +22553,10 @@ Mods: {
 			BabyFishron.DisplayName: Baby Fishron
 			BabyPanda.DisplayName: Baby Panda
 			BabyPrime.DisplayName: Baby Prime
-			BadBubble.DisplayName: Bad Bubble
+			BadBubble.DisplayName: 坏泡泡
 			Bagon.DisplayName: Bagon
 			BenbenTsukumo.DisplayName: 九十九弁弁
-			BirdBlue.DisplayName: Bird Blue
+			BirdBlue.DisplayName: 冠蓝鸦
 			BirdGold.DisplayName: Bird Gold
 			BirdRed.DisplayName: Bird Red
 			BirdWhite.DisplayName: Bird White
@@ -22562,21 +22565,21 @@ Mods: {
 			BlessedBanana2.DisplayName: Blessed Banana2
 			BlessedBananaHalo.DisplayName: Blessed Banana Halo
 			BlessedBrokenWashingMachine.DisplayName: Blessed Broken Washing Machine
-			Blizzarus.DisplayName: Blizzarus
-			BlueInkling.DisplayName: Blue Inkling
+			Blizzarus.DisplayName: 精灵
+			BlueInkling.DisplayName: 蓝鱿鱼
 			BlueScarab2.DisplayName: Blue Scarab2
 			Bobomb.DisplayName: Bobomb
-			BobsBrain.DisplayName: Bobs Brain
+			BobsBrain.DisplayName: 鲍勃的脑浆子
 			BoneBiter.DisplayName: Bone Biter
-			Bowser.DisplayName: Bowser
+			Bowser.DisplayName: 库巴
 			Brad.DisplayName: Brad
-			BrideCirno.DisplayName: Bride 琪露诺
-			BrideFlandre.DisplayName: Bride Flandre
-			BrideJunko.DisplayName: Bride Junko
+			BrideCirno.DisplayName: 花嫁琪露诺
+			BrideFlandre.DisplayName: 花嫁芙兰朵露·斯卡雷特
+			BrideJunko.DisplayName: 花嫁Junko
 			Bubsy.DisplayName: 巴比斯
 			Bucket.DisplayName: Bucket
 			Buddy.DisplayName: Buddy
-			BuilderMario.DisplayName: Builder Mario
+			BuilderMario.DisplayName: 建筑工马里奥
 			Bumbo1.DisplayName: Bumbo1
 			Bumbo2.DisplayName: Bumbo2
 			Bumbo3.DisplayName: Bumbo3
@@ -22606,7 +22609,7 @@ Mods: {
 			CryingChild.DisplayName: Crying Child
 			CrystalThresher.DisplayName: Crystal Thresher
 			Cuphead.DisplayName: Cuphead
-			Cupid.DisplayName: Cupid
+			Cupid.DisplayName: 丘比特
 			CuriousWisp.DisplayName: Curious Wisp
 			Daiyousei.DisplayName: Daiyousei
 			Dante.DisplayName: Dante
@@ -22629,9 +22632,9 @@ Mods: {
 			Ellen.DisplayName: Ellen
 			Elly.DisplayName: 艾丽
 			Enchantress.DisplayName: Enchantress
-			EtherianWyvern1.DisplayName: Etherian Wyvern1
-			EtherianWyvern2.DisplayName: Etherian Wyvern2
-			EtherianWyvern3.DisplayName: Etherian Wyvern3
+			EtherianWyvern1.DisplayName: 埃特尼亚飞龙
+			EtherianWyvern2.DisplayName: 埃特尼亚飞龙
+			EtherianWyvern3.DisplayName: 埃特尼亚飞龙
 			EyeRoll.DisplayName: Eye Roll
 			Fabu.DisplayName: Fabu
 			Fallen1.DisplayName: Fallen1
@@ -22641,26 +22644,26 @@ Mods: {
 			FemaleAncientWarlord.DisplayName: Female 亘古领主
 			FinalEffect5.DisplayName: Final Effect5
 			FinalPacmanMinion.DisplayName: Final Pacman Minion
-			Flandre.DisplayName: Flandre
-			FleshReaver.DisplayName: Flesh Reaver
+			Flandre.DisplayName: 芙兰朵露·斯卡雷特
+			FleshReaver.DisplayName: 戮血沙鲨
 			FloatyGross.DisplayName: Floaty Gross
 			FlyingSnake.DisplayName: Flying Snake
 			Forager.DisplayName: Forager
-			ForagerCow.DisplayName: Forager Cow
+			ForagerCow.DisplayName: 奶牛
 			FranBow.DisplayName: Fran Bow
 			Fujiwara.DisplayName: Fujiwara
 			GalactaKnight.DisplayName: Galacta Knight
 			Garfield.DisplayName: Garfield
-			Garry.DisplayName: Garry
+			Garry.DisplayName: 咖喱
 			Gaster.DisplayName: Gaster
 			Gastly.DisplayName: Gastly
-			GiantBat.DisplayName: Giant Bat
+			GiantBat.DisplayName: 巨型蝙蝠
 			GiantTortoise.DisplayName: Giant Tortoise
 			Gilgamesh.DisplayName: Gilgamesh
 			Gilgamesh2.DisplayName: Gilgamesh2
 			GingerBreadMan.DisplayName: 姜饼人
 			GoldBunny.DisplayName: Gold Bunny
-			GoldMimic.DisplayName: Gold Mimic
+			GoldMimic.DisplayName: 金宝箱怪
 			GrandDad.DisplayName: Grand Dad
 			GreaterDog.DisplayName: 大犬汪
 			Grillby.DisplayName: Grillby
@@ -22673,14 +22676,14 @@ Mods: {
 			HinaKagiyama.DisplayName: Hina Kagiyama
 			Hooh.DisplayName: Hooh
 			Ib.DisplayName: Ib
-			IceBat.DisplayName: Ice Bat
+			IceBat.DisplayName: 冰雪蝙蝠
 			IceMimic.DisplayName: Ice Mimic
-			IchirinKumoi.DisplayName: Ichirin Kumoi
+			IchirinKumoi.DisplayName: 云居一轮
 			Iku.DisplayName: Iku
 			Inkling.DisplayName: Inkling
 			Innocent.DisplayName: Innocent
 			IrvineKinneas.DisplayName: Irvine Kinneas
-			Isabelle.DisplayName: Isabelle
+			Isabelle.DisplayName: 西施惠
 			Jake.DisplayName: Jake
 			Jevil1.DisplayName: 小丑魔
 			Jevil2.DisplayName: Jevil2
@@ -22691,7 +22694,7 @@ Mods: {
 			JonathanJoestar.DisplayName: Jonathan Joestar
 			JotaroKujo.DisplayName: Jotaro Kujo
 			Jowee.DisplayName: Jowee
-			JungleBat.DisplayName: Jungle Bat
+			JungleBat.DisplayName: 巨型飞狐
 			Junko.DisplayName: Junko
 			Kaga.DisplayName: 加贺
 			Kagerou.DisplayName: Kagerou
@@ -22701,8 +22704,8 @@ Mods: {
 			KasaneTeto.DisplayName: Kasane Teto
 			Kenshi.DisplayName: Kenshi
 			Kid.DisplayName: Kid
-			KingDedede.DisplayName: King Dedede
-			Kirby.DisplayName: Kirby
+			KingDedede.DisplayName: 帝帝帝大王
+			Kirby.DisplayName: 星之卡比
 			Kirlia.DisplayName: Kirlia
 			Kisume.DisplayName: 琪斯美
 			KnowledgeSlime.DisplayName: Knowledge Slime
@@ -22720,11 +22723,11 @@ Mods: {
 			Kyouko.DisplayName: 幽谷响子
 			Lakitu.DisplayName: Lakitu
 			Lancer.DisplayName: Lancer
-			LavaBat.DisplayName: Lava Bat
+			LavaBat.DisplayName: 熔岩蝙蝠
 			Leap.DisplayName: Leap
 			LightBat.DisplayName: Light Bat
 			LightLamia.DisplayName: Light Lamia
-			Lilac.DisplayName: Lilac
+			Lilac.DisplayName: 丁香
 			LilAmber.DisplayName: Lil Amber
 			LilyWhite.DisplayName: Lily White
 			Link.DisplayName: 林克
@@ -22780,7 +22783,7 @@ Mods: {
 			Meloetta.DisplayName: Meloetta
 			MerlinPrismriver.DisplayName: 梅露兰·普莉兹姆利巴
 			Messenger.DisplayName: Messenger
-			MetaKnight.DisplayName: Meta Knight
+			MetaKnight.DisplayName: 梅塔奈特
 			Metroid.DisplayName: Metroid
 			Mettaton.DisplayName: Mettaton
 			Mewtwo.DisplayName: Mewtwo
@@ -22796,11 +22799,11 @@ Mods: {
 			MomijiInubashiri.DisplayName: Momiji Inubashiri
 			MoneyPortal.DisplayName: Money Portal
 			Monokuma.DisplayName: Monokuma
-			Morrigan.DisplayName: Morrigan
+			Morrigan.DisplayName: 苏格兰
 			MotherSlimeProjectile.DisplayName: Mother Slime Projectile
 			MothronBaby.DisplayName: Mothron Baby
 			MrBright.DisplayName: Mr Bright
-			MrGameandWatch.DisplayName: Mr Gameand Watch
+			MrGameandWatch.DisplayName: 小黑人
 			Mudkip.DisplayName: Mudkip
 			MudkipWarrior.DisplayName: Mudkip Warrior
 			MushiLadybug.DisplayName: Mushi Ladybug
@@ -22810,17 +22813,17 @@ Mods: {
 			Niko.DisplayName: Niko
 			NitoriKawashiro.DisplayName: Nitori Kawashiro
 			NononJakuzure.DisplayName: 蛇崩乃音
-			NuclearThrone.DisplayName: Nuclear Throne
+			NuclearThrone.DisplayName: 核子王座
 			NueHoujuu.DisplayName: 封兽鵺
 			Oblivion.DisplayName: Oblivion
 			OerbaDiaVanille.DisplayName: Oerba Dia Vanille
 			OldLady.DisplayName: Old Lady
 			Pacman.DisplayName: Pacman
 			Padoru.DisplayName: Padoru
-			Papyrus.DisplayName: Papyrus
+			Papyrus.DisplayName: 帕派瑞斯
 			Patchouli.DisplayName: Patchouli
 			PatrickStar.DisplayName: Patrick Star
-			Peppino.DisplayName: Peppino
+			Peppino.DisplayName: 佩皮诺·斯巴盖
 			Pet1.DisplayName: Pet1
 			Pet10.DisplayName: Pet10
 			Pet11.DisplayName: Pet11
@@ -22906,7 +22909,7 @@ Mods: {
 			SerJunken5.DisplayName: Ser Junken5
 			SerJunken6.DisplayName: Ser Junken6
 			SerJunken7.DisplayName: Ser Junken7
-			SeventhAngel.DisplayName: Seventh Angel
+			SeventhAngel.DisplayName: 第七使徒
 			Shades.DisplayName: 墨镜君
 			ShadowMimic.DisplayName: Shadow Mimic
 			Shantae.DisplayName: Shantae
@@ -22955,7 +22958,7 @@ Mods: {
 			Undyne.DisplayName: Undyne
 			UNOwenWasher.DisplayName: U N Owen Washer
 			Utsuho.DisplayName: Utsuho
-			VampireBat.DisplayName: Vampire Bat
+			VampireBat.DisplayName: 吸血鬼蝙蝠
 			Wailord.DisplayName: Wailord
 			Wakasagihime.DisplayName: Wakasagihime
 			Waluigi.DisplayName: 瓦路易基
@@ -22971,7 +22974,7 @@ Mods: {
 			YorkshireTerrier.DisplayName: Yorkshire Terrier
 			Yoshi.DisplayName: Yoshi
 			YoshiIsland.DisplayName: Yoshi Island
-			Youmu.DisplayName: Youmu
+			Youmu.DisplayName: 魂魄妖梦
 			Yugi.DisplayName: Yugi
 			Yukari.DisplayName: 八云紫
 			Yuna.DisplayName: Yuna
@@ -22980,7 +22983,7 @@ Mods: {
 			YuyukoFumo.DisplayName: Yuyuko Fumo
 			Zack.DisplayName: Zack
 			Zero.DisplayName: Zero
-			Zombie.DisplayName: Zombie
+			Zombie.DisplayName: 僵尸
 			MiniPumpkinScythe.DisplayName: Mini Pumpkin Scythe
 			MirageStart.DisplayName: Mirage Start
 			BlueScarabShield.DisplayName: Blue Scarab Shield
@@ -23156,7 +23159,7 @@ Mods: {
 			SelfSacrificeFireball.DisplayName: Self Sacrifice Fireball
 			ArrowShooter.DisplayName: Arrow Shooter
 			BaumTree.DisplayName: Baum Tree
-			BowserStatue.DisplayName: Bowser雕像
+			BowserStatue.DisplayName: 库巴雕像
 			BullseyeBillBlaster.DisplayName: Bullseye Bill Blaster
 			ChippyCactus.DisplayName: Chippy Cactus
 			CirnoStar.DisplayName: 琪露诺 Star
