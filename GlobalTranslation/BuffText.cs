@@ -3,7 +3,7 @@ using AFKPETS.Buffs.PlayerDebuff;
 using AFKPETS.Buffs.EffectBuff;
 using AFKPETS.Buffs.Summoner;
 
-namespace AFKPETSandmorezhcn.Items
+namespace AFKPETSandmorezhcn.GlobalTranslation
 {
 	public class BuffText : GlobalBuff
 	{

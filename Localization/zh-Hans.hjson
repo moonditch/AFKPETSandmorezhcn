@@ -222,16 +222,16 @@ Mods: {
 			WeakBunnyNuke.DisplayName: 弱性胡萝卜核弹
 			BadCookie.DisplayName: 糟糕的饼干
 			BadGingerbreadCookie.DisplayName: 糟糕的姜饼饼干
-			CookieBox.DisplayName: 饼干盒
-			CookieBoxRest.DisplayName: 饼干盒底座
+			CookieBox.DisplayName: 饼干板条箱
+			CookieBoxRest.DisplayName: 饼干板条箱
 			CookieCrumblerBody.DisplayName: 饼干屑
 			CookieCrumblerHead.DisplayName: 饼干屑
 			CookieCrumblerTail.DisplayName: 饼干屑
 			CookieMan.DisplayName: 姜饼人
-			CookieSoul.DisplayName: 饼干魂
-			CookieSpirit.DisplayName: 饼干之魂
-			NightmareCookieBox.DisplayName: 梦魇饼干盒
-			RainbowCookieBox.DisplayName: 彩虹饼干盒
+			CookieSoul.DisplayName: 友好的饼干魂
+			CookieSpirit.DisplayName: 贪食之魂
+			NightmareCookieBox.DisplayName: 梦魇饼干板条箱
+			RainbowCookieBox.DisplayName: 彩虹饼干板条箱
 			HoneyBee.DisplayName: 甜美蜜蜂
 			IceFairy.DisplayName: 冰精灵
 			Parasitoid.DisplayName: 寄生蜂
@@ -283,7 +283,7 @@ Mods: {
 			}
 
 			ErrorFallenAngel2: {
-				DisplayName: 堕落天使
+				DisplayName: 坠落天使
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -297,7 +297,7 @@ Mods: {
 				}
 			}
 
-			ErrorFallenAngel.DisplayName: 堕落天使
+			ErrorFallenAngel.DisplayName: 坠落天使
 
 			GameGenie: {
 				DisplayName: 游戏精灵
@@ -454,7 +454,7 @@ Mods: {
 			SpinningBrokenWashingMachine.DisplayName: 破碎洗衣机
 
 			BossHunterMerchant: {
-				DisplayName: BOSS猎人
+				DisplayName: Boss狩猎商人
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -469,7 +469,7 @@ Mods: {
 			}
 
 			FallenAngel: {
-				DisplayName: 堕落天使
+				DisplayName: 坠落天使
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -720,7 +720,7 @@ Mods: {
 			OldTV.MapEntry: Old T V
 			OkikuMantle.MapEntry: 盘子女鬼悬挂纪念章
 			NopperabouEffect.MapEntry: Nopperabou Effect
-			NetheriteOre.MapEntry: Netherite Ore
+			NetheriteOre.MapEntry: 下界合金
 			NeonEffect.MapEntry: Neon Effect
 			NecromanticAmplifier.MapEntry: Necromantic Amplifier
 			NatsukiPainting.MapEntry: Natsuki Painting
@@ -1441,8 +1441,8 @@ Mods: {
 			}
 
 			Death: {
-				DisplayName: Death
-				Description: It hurts
+				DisplayName: 死亡
+				Description: 好疼啊
 			}
 
 			Death2: {
@@ -1926,8 +1926,8 @@ Mods: {
 			}
 
 			FireBreath: {
-				DisplayName: Hell Breath
-				Description: HOT HOT HOT!
+				DisplayName: 狱火吐息
+				Description: 烫烫烫！
 			}
 
 			Flex: {
@@ -2086,8 +2086,8 @@ Mods: {
 			}
 
 			PoopBuff: {
-				DisplayName: Holy $#!&
-				Description: All defensive stats up
+				DisplayName: 神圣$#!&
+				Description: 提升所有属性
 			}
 
 			Quickdrawdebuff: {
@@ -2384,7 +2384,7 @@ Mods: {
 
 			GoldMimic: {
 				DisplayName: 金宝箱怪
-				Description: "它似乎想把那枚硬币拿走"
+				Description: 它似乎想把那枚硬币拿走
 			}
 
 			GrandDad: {
@@ -2563,7 +2563,7 @@ Mods: {
 
 			IceMimic: {
 				DisplayName: Ice Mimic
-				Description: "它似乎想把那枚硬币拿走"
+				Description: 它似乎想把那枚硬币拿走
 			}
 
 			IchirinKumoi: {
@@ -3978,7 +3978,7 @@ Mods: {
 
 			ShadowMimic: {
 				DisplayName: Shadow Mimic
-				Description: "它似乎想把那枚硬币拿走"
+				Description: 它似乎想把那枚硬币拿走
 			}
 
 			Shantae: {
@@ -4653,7 +4653,7 @@ Mods: {
 
 			WoodenMimic: {
 				DisplayName: Wooden Mimic
-				Description: "它似乎想把那枚硬币拿走"
+				Description: 它似乎想把那枚硬币拿走
 			}
 
 			Wraith: {
@@ -6557,7 +6557,7 @@ Mods: {
 				Tooltip:
 					'''
 					装备后增加100召唤栏和哨兵栏
-					使用后解锁游戏商店的全部物品
+					使用后解锁Boss狩猎商人售卖的全部物品
 					'''
 			}
 
@@ -7474,7 +7474,7 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: 箱子
+				DisplayName: 以撒的箱子
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -7497,7 +7497,7 @@ Mods: {
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
 					'装满了她冒险中收集的许多宝物'
-					打开后获得随机数量的饼干、一些杂物和一件奖励物品 random amount of cookies, misc smaller items + 1 reward item
+					打开后获得随机数量的饼干、一些杂物和一件奖励物品
 					'''
 			}
 
@@ -7817,7 +7817,7 @@ Mods: {
 
 			AsphaltCoveredStonePlatform: {
 				DisplayName: 沥青平台
-				Tooltip: "提高移动速度"
+				Tooltip: 提高移动速度
 			}
 
 			CookieCrateBanner: {
@@ -7837,7 +7837,7 @@ Mods: {
 
 			BlastResistantGlass: {
 				DisplayName: 黑曜石玻璃
-				Tooltip: "它对爆炸免疫"
+				Tooltip: 它对爆炸免疫
 			}
 
 			DruidicArtifact: {
@@ -7846,7 +7846,7 @@ Mods: {
 					'''
 					'亿万年以前，由树妖制作的，用来阻止邪恶的传播'
 					似乎被他们赐予了大自然的力量，但这仍然不够
-					靠近时获得树妖祝福增益.
+					靠近时获得树妖祝福增益
 					'''
 			}
 
@@ -7889,7 +7889,7 @@ Mods: {
 
 			ChaosAmplifier: {
 				DisplayName: 混乱强化器
-				Tooltip: "放置后加强附近人的能力"
+				Tooltip: 放置后加强附近人的能力
 			}
 
 			ChaosTorch: {
@@ -7903,7 +7903,7 @@ Mods: {
 
 			Concrete: {
 				DisplayName: 混凝土
-				Tooltip: "免疫爆炸"
+				Tooltip: 免疫爆炸
 			}
 
 			CookieCharm: {
@@ -8120,7 +8120,7 @@ Mods: {
 
 			FirstYearBanner: {
 				DisplayName: 更多宠物一周年纪念旗帜
-				Tooltip: "放置时保佑附近的玩家"
+				Tooltip: 放置时保佑附近的玩家
 			}
 
 			FumoBoulder: {
@@ -8229,7 +8229,7 @@ Mods: {
 
 			JunglePlantBox: {
 				DisplayName: 杂草丛生的种植盆
-				Tooltip: "使用时可以在泥块上种植丛林草种"
+				Tooltip: 使用时可以在泥块上种植丛林草种
 			}
 
 			LunarRelocator: {
@@ -8292,7 +8292,7 @@ Mods: {
 
 			CraftingTable: {
 				DisplayName: 我的世界工作台
-				Tooltip: "它有九个空槽"
+				Tooltip: 它有九个空槽
 			}
 
 			DemonEffectEgg: {
@@ -8327,7 +8327,7 @@ Mods: {
 
 			GreenPhone: {
 				DisplayName: 绿色电话
-				Tooltip: "你觉得很古老，但又像月神夜一样神秘'"
+				Tooltip: 你觉得很古老，但又像月神夜一样神秘'
 			}
 
 			Grinder: {
@@ -8525,7 +8525,7 @@ Mods: {
 
 			MushroomPlantBox: {
 				DisplayName: 发光蘑菇种植盆
-				Tooltip: "使用时可以在泥块上种植蘑菇草种"
+				Tooltip: 使用时可以在泥块上种植蘑菇草种
 			}
 
 			NecromanticAmplifier: {
@@ -8629,7 +8629,7 @@ Mods: {
 
 			ScarletPressurePlate: {
 				DisplayName: 猩红压力板
-				Tooltip: "放置一次性压力板"
+				Tooltip: 放置一次性压力板
 			}
 
 			SCP1162: {
@@ -9162,7 +9162,7 @@ Mods: {
 			}
 
 			KeyPiece1: {
-				DisplayName: 破损钥匙：阿尔法
+				DisplayName: 破损钥匙-阿尔法
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9171,7 +9171,7 @@ Mods: {
 			}
 
 			KeyPiece2: {
-				DisplayName: 破损钥匙：贝塔
+				DisplayName: 破损钥匙-贝塔
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9180,7 +9180,7 @@ Mods: {
 			}
 
 			KeyPiece3: {
-				DisplayName: 破损钥匙：伽马
+				DisplayName: 破损钥匙-伽马
 				Tooltip:
 					'''
 					'它看起来很破旧，但很独特'
@@ -9217,7 +9217,7 @@ Mods: {
 			}
 
 			NetheriteOre: {
-				DisplayName: 下届残骸
+				DisplayName: 下界合金
 				Tooltip: ""
 			}
 
@@ -9270,7 +9270,7 @@ Mods: {
 
 			RainbowVial: {
 				DisplayName: 浓缩彩虹瓶
-				Tooltip: "包含烹星者残余的灵魂"
+				Tooltip: 包含烹星者残余的灵魂
 			}
 
 			RedThread: {
@@ -9280,12 +9280,12 @@ Mods: {
 
 			ScrapMetal: {
 				DisplayName: 废铁
-				Tooltip: "来自SATLA-001的装甲和电路的残余部分"
+				Tooltip: 来自SATLA-001的装甲和电路的残余部分
 			}
 
 			ShadeCinder: {
 				DisplayName: 暗影余烬
-				Tooltip: "含有生命的腐化本源"
+				Tooltip: 含有生命的腐化本源
 			}
 
 			AncientBell: {
@@ -9299,7 +9299,7 @@ Mods: {
 
 			AncientBoneKey: {
 				DisplayName: 远古骨头钥匙（出自:原版）
-				Tooltip: "召唤远古骷髅头宝宝"
+				Tooltip: 召唤远古骷髅头宝宝
 			}
 
 			AncientCheese: {
@@ -13000,7 +13000,7 @@ Mods: {
 				Tooltip:
 					'''
 					一本主要关注甜点的烹饪书
-					使用后召唤饼干盒，重新挑战
+					使用后召唤饼干板条箱，重新挑战
 					'''
 			}
 
@@ -13028,7 +13028,7 @@ Mods: {
 				Tooltip:
 					'''
 					能够汇集光线并产生光照
-					如果光照足够强烈，也许它能分散天空飞行的某种生物的注意力
+					如果光照足够强烈，也许它能吸引天空中天使的注意
 					'''
 			}
 
@@ -13285,7 +13285,7 @@ Mods: {
 				Tooltip:
 					'''
 					'由每个孩子的彩虹和梦想所驱动'
-					使用后召唤饼干之魂
+					使用后召唤贪食之魂
 					'''
 			}
 
@@ -14178,12 +14178,12 @@ Mods: {
 			}
 
 			ForgottenThing: {
-				DisplayName: 死神???(占位符)
+				DisplayName: ???的死亡圣器
 				Tooltip:
 					'''
-					'财富，但回报是什么?'
+					'你获得了财宝，但代价是什么?'
 					'???觉得向导很无辜'
-					牺牲也可以通过向导巫毒娃娃和使用这个物品来完成，如果物品栏没有向导巫毒娃娃会立刻死亡
+					献祭也可以通过向导巫毒娃娃来完成，如果不满足献祭完成的条件，则使用此物品后会立刻死亡
 					也许[c/FF1493:快乐]……
 					'''
 			}
@@ -14302,7 +14302,7 @@ Mods: {
 				Tooltip:
 					'''
 					'上面有一个开关按钮'
-					它会让你和渔夫感到困惑减益
+					使用后对你和渔夫施加困惑减益
 					渔夫会改变钓鱼任务
 					'''
 			}
@@ -14319,11 +14319,11 @@ Mods: {
 			}
 
 			PotraitofMarkov: {
-				DisplayName: 马尔科夫的肖像（占位符）
+				DisplayName: 马尔科夫的肖像
 				Tooltip:
 					'''
 					'从外面看很安全，但里面…'
-					当月亮被???染红，[c/FF1493:快乐的人]需要牺牲
+					当月亮被???染红，[c/FF1493:派对女孩]需要被献祭
 					'''
 			}
 
@@ -15958,7 +15958,7 @@ Mods: {
 			}
 
 			CookieBadge: {
-				DisplayName: Cookie Badge
+				DisplayName: 饼干徽章
 				Tooltip:
 					'''
 					'This signifies your friendship with the lost soul'
@@ -16212,7 +16212,7 @@ Mods: {
 				Tooltip:
 					'''
 					右键装备物品，左键栏位回收
-					装备后所有afkpets或原版的BOSS纪念章掉落概率提升10%
+					装备后所有模组或原版的BOSS纪念章掉落概率提升10%
 					'''
 			}
 
@@ -16242,7 +16242,7 @@ Mods: {
 					'''
 					'包含某些微处理器的真值表与数据库'
 					右键装备物品，左键栏位回收
-					装备后召唤一个防卫无人机，标记玩家的鼠标，以控制afkpets哨兵的瞄准方向
+					装备后召唤一个防卫无人机，标记玩家的鼠标，以控制模组哨兵的瞄准方向
 					如果玩家使用wrangler，它将转而周期性地朝鼠标方向发射能量束
 					'''
 			}
@@ -20104,9 +20104,9 @@ Mods: {
 					'''
 					'当你已经加入游戏，怎能拒绝继续玩下去？'
 					投掷扑克牌时有一定几率投掷出王牌
-					'方块A会掉落额外的金钱，生命心A在被击中时会为玩家恢复生命值'
-					'梅花A会掉落非破坏地形的炸弹，在被击中时爆炸'
-					'黑桃A可穿透三次'
+					方块A会掉落额外的金钱，红心A在被击中时会为玩家恢复生命值
+					梅花A会掉落非破坏地形的炸弹，在被击中时爆炸
+					黑桃A可穿透三次
 					如果在设置中启用了盗贼转化选项，玩家将一次性投掷所有四种王牌
 					'''
 			}
@@ -20255,8 +20255,8 @@ Mods: {
 				Tooltip:
 					'''
 					'友谊是唯一能使世界团结的粘合剂'
-					根据玩家所在的生物群落召唤小精灵，如果玩家离开该生物群落，它会稍微变弱
-					收藏此物品会定期检查所处环境并选出最优召唤物
+					根据玩家所在的生物群落召唤伙伴，如果玩家离开该生物群落，它会稍微变弱
+					收藏此物品会定期检查所处环境并选出最优伙伴
 					如果没有装备[c/ffff00:神秘配方]，它将无法展现其真实形态
 					'''
 			}
@@ -20788,7 +20788,7 @@ Mods: {
 				DisplayName: 老船长的步行手杖
 				Tooltip:
 					'''
-					'这根手杖曾被黑胡子船员的老船长使用，直到他在与黏液军团海军的战争中被枪杀'
+					'这根手杖曾被黑胡子船员的老船长使用，直到他在与黏液王国海军的战斗中被枪杀'
 					手持时，老船长的鹦鹉会坐在你的头上，左键会使其飞向光标，攻击附近的敌人
 					一段时间后，它会回到你的头上休息，并召唤它的一个船员战斗
 					如果玩家没有持有这根手杖，而鹦鹉正在休息，那么船员会消失，只有在玩家持有这根手杖时才会战斗
@@ -20932,7 +20932,7 @@ Mods: {
 					'幸好你不是一个BOSS、孩童或者房子，所以你是安全的'
 					使用时召唤一个小型灾难之魂来保护玩家，每为无上之主提供1k订阅便为其提供5%强化
 					此功能需要启用网络连接
-					大幅缩减领域内afk宠物的哨兵的冷却
+					大幅减少领域内模组哨兵的冷却
 					领域内的召唤物弹幕命中时有几率附上爆炸性化合物
 					玩家受伤时，若灾难之魂在屏幕内，它将爆发成一片高辐射区域，同时仅能存在一个区域
 					同时仅能有一个辅助之魂生效，右键解除召唤
@@ -21796,7 +21796,7 @@ Mods: {
 			CarrotRocket.DisplayName: Carrot Rocket
 			Carrot.DisplayName: Carrot
 			FlyingCarrot.DisplayName: Flying Carrot
-			LambSauce.DisplayName: Lamb Sauce
+			LambSauce.DisplayName: 羊酱汁
 			NukeExplosion.DisplayName: Nuke Explosion
 			RocketCounter.DisplayName: Rocket Counter
 			SphericalExplosion.DisplayName: Spherical Explosion
@@ -23515,7 +23515,7 @@ Mods: {
 			LizardKnife.DisplayName: Lizard Knife
 			LightBulb2.DisplayName: Light Bulb2
 			LightBulb.DisplayName: Light Bulb
-			LambSauce2.DisplayName: Lamb Sauce2
+			LambSauce2.DisplayName: 羊酱汁2
 			Kurumaken.DisplayName: Kurumaken
 			Kunai.DisplayName: Kunai
 			KnifePack2.DisplayName: Knife Pack2
