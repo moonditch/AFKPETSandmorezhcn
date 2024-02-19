@@ -741,7 +741,7 @@ Mods: {
 			LampEffect.MapEntry: Lamp Effect
 			KnifeEffect.MapEntry: Knife Effect
 			KindnessStatue.MapEntry: Kindness雕像
-			JunkoPainting.MapEntry: Junko Painting
+			JunkoPainting.MapEntry: 纯狐的肖像
 			ImpStatue.MapEntry: 火焰小鬼雕像
 			IbPainting.MapEntry: Ib Painting
 			HolographicWorkBench.MapEntry: 相移工作台
@@ -1017,8 +1017,8 @@ Mods: {
 			}
 
 			Blake: {
-				DisplayName: Blake Belladonna
-				Description: "'You feel you are protected'"
+				DisplayName: 布蕾克·贝拉多娜
+				Description: 你觉得自己受到了保护
 			}
 
 			BlessedBanana2: {
@@ -1127,7 +1127,7 @@ Mods: {
 			}
 
 			BrideJunko: {
-				DisplayName: 花嫁Junko
+				DisplayName: 花嫁纯狐
 				Description: 你不知道发生了什么，但你感到纯净和快乐
 			}
 
@@ -1172,23 +1172,23 @@ Mods: {
 			}
 
 			Bumbo1: {
-				DisplayName: Bumbo
-				Description: It's looking for coins
+				DisplayName: 乞丐宝一阶
+				Description: 它在找硬币
 			}
 
 			Bumbo2: {
-				DisplayName: Bumbo
-				Description: It's looking for coins
+				DisplayName: 乞丐宝二阶
+				Description: 它在找硬币
 			}
 
 			Bumbo3: {
-				DisplayName: Bumbo
-				Description: It's looking for coins
+				DisplayName: 乞丐宝三阶
+				Description: 它在找硬币
 			}
 
 			Bumbo4: {
-				DisplayName: Bumbo
-				Description: It's looking for coins
+				DisplayName: 乞丐宝四阶
+				Description: 它在找硬币
 			}
 
 			BunnyMight: {
@@ -1232,7 +1232,7 @@ Mods: {
 			}
 
 			ChargedBaby: {
-				DisplayName: Charged Baby
+				DisplayName: 电池宝宝
 				Description: 它将跟随你
 			}
 
@@ -1247,8 +1247,8 @@ Mods: {
 			}
 
 			Chen: {
-				DisplayName: Chen
-				Description: "'She is looking for Ran Yakumo'"
+				DisplayName: 橙
+				Description: 她在找八云蓝
 			}
 
 			ChibiPinky: {
@@ -1316,8 +1316,8 @@ Mods: {
 			}
 
 			ConcentratedNighmare: {
-				DisplayName: Concentrated Nightmare
-				Description: It will protect you from other nightmares
+				DisplayName: 聚集的恐惧
+				Description: 它会保护你远离其他噩梦
 			}
 
 			Cookiefied: {
@@ -1346,8 +1346,8 @@ Mods: {
 			}
 
 			Crow: {
-				DisplayName: Raven
-				Description: Raven将跟随你
+				DisplayName: 乌鸦
+				Description: 乌鸦将跟随你
 			}
 
 			CrowPrince: {
@@ -1361,8 +1361,8 @@ Mods: {
 			}
 
 			CrystalThresher: {
-				DisplayName: Crystal Thresher
-				Description: Crystal Thresher将跟随你
+				DisplayName: 水晶沙鲨
+				Description: 水晶沙鲨将跟随你
 			}
 
 			Cultist: {
@@ -1386,8 +1386,8 @@ Mods: {
 			}
 
 			Daiyousei: {
-				DisplayName: Daiyousei
-				Description: She looks happy
+				DisplayName: 大妖精
+				Description: 她看起来很开心
 			}
 
 			Dante: {
@@ -1436,8 +1436,8 @@ Mods: {
 			}
 
 			DeadCat2: {
-				DisplayName: Guppy's Head
-				Description: Do I really have 9 lives now?
+				DisplayName: 嗝屁猫的头
+				Description: 我现在真的有九条命吗?
 			}
 
 			Death: {
@@ -1737,7 +1737,7 @@ Mods: {
 
 			Dimentio: {
 				DisplayName: Dimentio
-				Description: Charming magician is looking around
+				Description: 迷人的魔术师正在环顾四周
 			}
 
 			DioBrando: {
@@ -1746,8 +1746,8 @@ Mods: {
 			}
 
 			DoremySweet: {
-				DisplayName: Doremy Sweet
-				Description: I hope your dreams are safe
+				DisplayName: 哆来咪·苏伊特
+				Description: 我希望你的梦想是美好的
 			}
 
 			DryBaby: {
@@ -2176,12 +2176,12 @@ Mods: {
 
 			Elly: {
 				DisplayName: 艾丽
-				Description: "'Gatekeeper将跟随你'"
+				Description: Gatekeeper将跟随你
 			}
 
 			Enchantress: {
-				DisplayName: Enchantress
-				Description: "'She wants you to join her'"
+				DisplayName: 女巫
+				Description: 她想让你加入她
 			}
 
 			Enlightenment: {
@@ -2239,8 +2239,8 @@ Mods: {
 			}
 
 			Fin: {
-				DisplayName: Finn
-				Description: You feel it's adventure time
+				DisplayName: 芬
+				Description: 你觉得这是冒险时间
 			}
 
 			FireClownCar: {
@@ -2452,8 +2452,8 @@ Mods: {
 			}
 
 			HatanoKokoro: {
-				DisplayName: Hata no Kokoro
-				Description: You feel a little scared
+				DisplayName: 秦心
+				Description: 你感到有点害怕
 			}
 
 			HatsuneMiku: {
@@ -2497,8 +2497,8 @@ Mods: {
 			}
 
 			HinaKagiyama: {
-				DisplayName: Hina Kagiyama
-				Description: You feel something is frightening you
+				DisplayName: 键山雏
+				Description: 你觉得有什么东西让你害怕
 			}
 
 			HolographicAmplifier: {
@@ -2572,8 +2572,8 @@ Mods: {
 			}
 
 			Iku: {
-				DisplayName: Iku Nagae
-				Description: "'She continues to observe the mood'"
+				DisplayName: 永江衣玖
+				Description: 她继续观察人们的情绪
 			}
 
 			Inkling: {
@@ -2652,7 +2652,7 @@ Mods: {
 			}
 
 			Junko: {
-				DisplayName: Junko
+				DisplayName: 纯狐
 				Description: 她将跟随你
 			}
 
@@ -2662,8 +2662,8 @@ Mods: {
 			}
 
 			Kagerou: {
-				DisplayName: Kagerou Imaizumi
-				Description: "'She is looking for the bamboo forest of the lost'"
+				DisplayName: 今泉影狼
+				Description: 她正在寻找那片迷途竹林
 			}
 
 			Kaguya: {
@@ -2717,13 +2717,13 @@ Mods: {
 			}
 
 			Knuckles: {
-				DisplayName: Knuckles
-				Description: He is looking for Sonic
+				DisplayName: 纳克鲁斯
+				Description: 他在找索尼克
 			}
 
 			Koakuma: {
-				DisplayName: Koakuma
-				Description: She is looking for Patchouli
+				DisplayName: 小恶魔
+				Description: 她在找帕秋莉
 			}
 
 			KoishiKomeiji: {
@@ -2732,8 +2732,8 @@ Mods: {
 			}
 
 			Konngara: {
-				DisplayName: Konngara
-				Description: "'It's looking for the silent shrine'"
+				DisplayName: 矜羯罗
+				Description: 它在寻找沉默的神龛
 			}
 
 			Koopa: {
@@ -2742,13 +2742,13 @@ Mods: {
 			}
 
 			Kosuzu: {
-				DisplayName: Kosuzu Motoori
-				Description: "'She is looking for demon books'"
+				DisplayName: 本居小铃
+				Description: 她在寻找找恶魔之书
 			}
 
 			Kotohime: {
-				DisplayName: Kotohime
-				Description: "'You feel something strange about her'"
+				DisplayName: 小兔姬
+				Description: 你觉得她有点奇怪
 			}
 
 			Kratos: {
@@ -2762,8 +2762,8 @@ Mods: {
 			}
 
 			Kurumi: {
-				DisplayName: Kurumi
-				Description: "'She is looking for the lake of blood'"
+				DisplayName: 胡桃
+				Description: 她在寻找血湖
 			}
 
 			Kyogre: {
@@ -2773,12 +2773,12 @@ Mods: {
 
 			Kyouko: {
 				DisplayName: 幽谷响子
-				Description: "'她在找命莲寺'"
+				Description: 她在找命莲寺
 			}
 
 			Lakitu: {
-				DisplayName: Lakitu
-				Description: He looks friendly
+				DisplayName: 朱盖木
+				Description: 他看起来很友好
 			}
 
 			Lancer: {
@@ -2832,8 +2832,8 @@ Mods: {
 			}
 
 			LilyWhite: {
-				DisplayName: Lily White
-				Description: She looks happy to see spring
+				DisplayName: 莉莉霍瓦特
+				Description: 她看见春天似乎很开心
 			}
 
 			Link: {
@@ -3032,8 +3032,8 @@ Mods: {
 			}
 
 			MamizouFutatsuiwa: {
-				DisplayName: Mamizou Futatsuiwa
-				Description: "'She将跟随你'"
+				DisplayName: 二岩猯藏
+				Description: 她将跟随你
 			}
 
 			Mari: {
@@ -3087,13 +3087,13 @@ Mods: {
 			}
 
 			MayaFey: {
-				DisplayName: Maya Fey
-				Description: She looks a little confused
+				DisplayName: 绫里真宵
+				Description: 她看起来有点困惑
 			}
 
 			MegaKnight: {
-				DisplayName: Mega Knight
-				Description: Mega Knight will crash what he see
+				DisplayName: 超级骑士
+				Description: 超级骑士他看到什么会崩溃
 			}
 
 			Megalovania: {
@@ -3162,13 +3162,13 @@ Mods: {
 			}
 
 			MinamitsuMurasa: {
-				DisplayName: Minamitsu Murasa
-				Description: "'The captain将跟随你'"
+				DisplayName: 村纱水蜜
+				Description: 村纱水蜜将跟随你
 			}
 
 			MiniDinosaur: {
-				DisplayName: Mini Dinosaur
-				Description: Mini Dinosaur将跟随你
+				DisplayName: 恐龙
+				Description: 恐龙将跟随你
 			}
 
 			MinigameTime: {
@@ -3202,8 +3202,8 @@ Mods: {
 			}
 
 			MomijiInubashiri: {
-				DisplayName: Momiji Inubashiri
-				Description: "'She is looking for Youkai Mountain'"
+				DisplayName: 犬走椛
+				Description: 她在寻找妖怪山脉
 			}
 
 			MoneyPortal: {
@@ -3212,8 +3212,8 @@ Mods: {
 			}
 
 			Monokuma: {
-				DisplayName: Monokuma
-				Description: "'IT'S PUNISHMENT TIME!'"
+				DisplayName: 黑白熊
+				Description: 惩 罚 时 间 到 了!
 			}
 
 			Morrigan: {
@@ -3238,7 +3238,7 @@ Mods: {
 
 			MrBright: {
 				DisplayName: Mr Bright
-				Description: It's looking for Mr Shine
+				Description: 它在找Mr Shine
 			}
 
 			MrGameandWatch: {
@@ -3272,8 +3272,8 @@ Mods: {
 			}
 
 			Nazrin: {
-				DisplayName: Nazrin
-				Description: She将跟随你
+				DisplayName: 娜兹玲
+				Description: 她将跟随你
 			}
 
 			NebulaBuff: {
@@ -3288,7 +3288,7 @@ Mods: {
 
 			Niko: {
 				DisplayName: Niko
-				Description: It is looking for a way to return home
+				Description: 它正在寻找回家的路
 			}
 
 			NitoriKawashiro: {
@@ -3362,8 +3362,8 @@ Mods: {
 			}
 
 			PatrickStar: {
-				DisplayName: Patrick Star
-				Description: He is looking for SpongeBob
+				DisplayName: 派大星
+				Description: 他在找海绵宝宝
 			}
 
 			Peppino: {
@@ -3653,12 +3653,12 @@ Mods: {
 
 			Precision: {
 				DisplayName: 精密
-				Description: 增加 10% 召唤和哨兵暴击率
+				Description: 增加10%召唤和哨兵暴击率
 			}
 
 			Pug: {
-				DisplayName: Pug
-				Description: Pug将跟随你
+				DisplayName: 哈巴狗
+				Description: 哈巴狗将跟随你
 			}
 
 			PuppetDebuff: {
@@ -3707,8 +3707,8 @@ Mods: {
 			}
 
 			Ralsei: {
-				DisplayName: Ralsei
-				Description: Darkner will help you for restoring the balance
+				DisplayName: 利艾尔斯
+				Description: Darkner会帮你恢复平衡
 			}
 
 			RalseiDPSCheck: {
@@ -3722,8 +3722,8 @@ Mods: {
 			}
 
 			RanYakumo: {
-				DisplayName: Ran Yakumo
-				Description: She is looking for Yukari Yakumo
+				DisplayName: 八云蓝
+				Description: 她在寻找八云紫
 			}
 
 			RatGod: {
@@ -3747,8 +3747,8 @@ Mods: {
 			}
 
 			ReisenUdongeinInaba: {
-				DisplayName: Reisen Udongein Inaba
-				Description: "'You start to see halucinations"
+				DisplayName: 铃仙·优昙华院·因幡
+				Description: 你开始看到幻觉
 			}
 
 			Remilia: {
@@ -3757,8 +3757,8 @@ Mods: {
 			}
 
 			RenkoUsami: {
-				DisplayName: Renko Usami
-				Description: "'She looks confused"
+				DisplayName: 宇佐见莲子
+				Description: 她看起来很困惑
 			}
 
 			ReverseCardRecharge: {
@@ -3782,8 +3782,8 @@ Mods: {
 			}
 
 			RikakoAsakura: {
-				DisplayName: Rikako Asakura
-				Description: "'She is looking for a scientist'"
+				DisplayName: 朝仓理香子
+				Description: 她正在找另一位科学家
 			}
 
 			Rikku: {
@@ -3792,8 +3792,8 @@ Mods: {
 			}
 
 			RinnosukeMorichika: {
-				DisplayName: Rinnosuke Morichika
-				Description: "'He's looking for a place to open a shop'"
+				DisplayName: 森近霖之助
+				Description: 他正在找一个开店的地方
 			}
 
 			Rozu: {
@@ -3807,8 +3807,8 @@ Mods: {
 			}
 
 			Rumia: {
-				DisplayName: Rumia
-				Description: Youkai of darkness将跟随你
+				DisplayName: 露米娅
+				Description: 露米娅将跟随你
 			}
 
 			RuneofIngwazCharge: {
@@ -3817,8 +3817,8 @@ Mods: {
 			}
 
 			Ruukoto: {
-				DisplayName: Ruukoto
-				Description: Where does she find a rocket?
+				DisplayName: 留琴
+				Description: 她在哪里找到火箭的?
 			}
 
 			Rydia: {
@@ -3827,8 +3827,8 @@ Mods: {
 			}
 
 			Ryuk: {
-				DisplayName: Ryuk
-				Description: It still looks for apple
+				DisplayName: 死神
+				Description: 它仍然在寻找苹果
 			}
 
 			Saber: {
@@ -3842,8 +3842,8 @@ Mods: {
 			}
 
 			SagumeKishin: {
-				DisplayName: Sagume Kishin
-				Description: "'She silently follow you'"
+				DisplayName: 稀神探女
+				Description: 稀神探女将跟随你
 			}
 
 			Sakuya: {
@@ -3862,8 +3862,8 @@ Mods: {
 			}
 
 			SanaeKochiya: {
-				DisplayName: Sanae Kochiya
-				Description: "'She is looking for Suwako"
+				DisplayName: 东风谷早苗
+				Description: 她看起来在找洩矢诹访子
 			}
 
 			SandShark: {
@@ -3917,8 +3917,8 @@ Mods: {
 			}
 
 			SeijaKijin: {
-				DisplayName: Seija Kijin
-				Description: She thinks opposide of what are you thinking
+				DisplayName: 鬼人正邪
+				Description: 她和你想的正好相反
 			}
 
 			Sekibanki: {
@@ -3992,8 +3992,8 @@ Mods: {
 			}
 
 			Shinki: {
-				DisplayName: Shinki
-				Description: "'She is looking for underworld"
+				DisplayName: 神绮
+				Description: 她在寻找地下洞穴
 			}
 
 			ShinmyoumaruSukuna: {
@@ -4067,8 +4067,8 @@ Mods: {
 			}
 
 			Slimer: {
-				DisplayName: Slimer
-				Description: Slimer将跟随你
+				DisplayName: 恶翅史莱姆
+				Description: 恶翅史莱姆将跟随你
 			}
 
 			SlimeWatcher: {
@@ -4147,8 +4147,8 @@ Mods: {
 			}
 
 			SpongeBob: {
-				DisplayName: SpongeBob Squarepants
-				Description: He looks happy
+				DisplayName: 海绵宝宝
+				Description: 他看起来很开心
 			}
 
 			StarCrusher: {
@@ -4187,8 +4187,8 @@ Mods: {
 			}
 
 			SumirekoUsami: {
-				DisplayName: Sumireko Usami
-				Description: "'You start to feel your psychic power is increasing"
+				DisplayName: 宇佐见堇子
+				Description: 你开始感觉到你的灵力在增强
 			}
 
 			AmberFlower: {
@@ -4317,8 +4317,8 @@ Mods: {
 			}
 
 			SuwakoMoriya: {
-				DisplayName: Suwako Moriya
-				Description: She is looking for 琪露诺
+				DisplayName: 洩矢诹访子
+				Description: 她在寻找琪露诺
 			}
 
 			Sweep: {
@@ -4423,12 +4423,12 @@ Mods: {
 
 			Terry: {
 				DisplayName: Terry Hintz
-				Description: Here's a hint, they suck. You rule
+				Description: 他们觉得你的规则烂透了。
 			}
 
 			TewiInaba: {
-				DisplayName: Tewi Inaba
-				Description: She is looking for other rabbit youkais
+				DisplayName: 因幡天为
+				Description: 她正在寻找其他的兔子
 			}
 
 			TheBrain: {
@@ -4572,8 +4572,8 @@ Mods: {
 			}
 
 			Wakasagihime: {
-				DisplayName: Wakasagihime
-				Description: She sings peacefully
+				DisplayName: 若鹭姬
+				Description: 她平静地歌唱
 			}
 
 			Waluigi: {
@@ -4657,8 +4657,8 @@ Mods: {
 			}
 
 			Wraith: {
-				DisplayName: Wraith
-				Description: Wraith将跟随你
+				DisplayName: 幻灵
+				Description: 幻灵将跟随你
 			}
 
 			Yang: {
@@ -4672,8 +4672,8 @@ Mods: {
 			}
 
 			YorkshireTerrier: {
-				DisplayName: Yorkshire Terrier
-				Description: It wants to play with you
+				DisplayName: 约克夏梗
+				Description: 它想和你一起玩
 			}
 
 			Yoshi: {
@@ -9950,7 +9950,7 @@ Mods: {
 				Tooltip:
 					'''
 					'九条命'
-					召唤嗝屁猫跟随你
+					召唤嗝屁猫的头跟随你
 					'''
 			}
 
@@ -9959,7 +9959,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这看起来像是神的掉落的'
-					召唤死神Ryuk跟随你
+					召唤死神跟随你
 					'''
 			}
 
@@ -10141,7 +10141,7 @@ Mods: {
 			}
 
 			ReisenUdongeinInabaDoll: {
-				DisplayName: 月球战士玩偶（出自:车万）
+				DisplayName: 紫色兔砸玩偶（出自:车万）
 				Tooltip: 召唤铃仙·优昙华院·因幡跟随你
 			}
 
@@ -10196,7 +10196,7 @@ Mods: {
 			}
 
 			TewiInabaDoll: {
-				DisplayName: 首领玩偶（出自:车万）
+				DisplayName: 捣蛋玩偶（出自:车万）
 				Tooltip: 召唤因幡天为跟随你
 			}
 
@@ -13442,7 +13442,7 @@ Mods: {
 			}
 
 			JunkoPainting: {
-				DisplayName: 纯洁淑女的肖像
+				DisplayName: 纯狐的肖像
 				Tooltip: 花簇
 			}
 
@@ -15280,6 +15280,7 @@ Mods: {
 					'''
 					'看来你是唯一一个拥有原始版本的人了'
 					使用时，它让每个城镇npc都接受当前光标所在的房间
+					（甚至不需要房子有墙就好了）
 					'''
 			}
 
@@ -22548,7 +22549,7 @@ Mods: {
 			Arno.DisplayName: 阿诺
 			Asriel.DisplayName: 艾斯利尔 逐梦
 			Ayame.DisplayName: Ayame
-			AyaShameimaru.DisplayName: Aya Shameimaru
+			AyaShameimaru.DisplayName: 射命丸文
 			Baba.DisplayName: Baba
 			BabyFishron.DisplayName: Baby Fishron
 			BabyPanda.DisplayName: Baby Panda
@@ -22561,7 +22562,7 @@ Mods: {
 			BirdRed.DisplayName: Bird Red
 			BirdWhite.DisplayName: Bird White
 			BlackMage.DisplayName: Black Mage
-			Blake.DisplayName: Blake
+			Blake.DisplayName: 布蕾克·贝拉多娜
 			BlessedBanana2.DisplayName: Blessed Banana2
 			BlessedBananaHalo.DisplayName: Blessed Banana Halo
 			BlessedBrokenWashingMachine.DisplayName: Blessed Broken Washing Machine
@@ -22575,24 +22576,24 @@ Mods: {
 			Brad.DisplayName: Brad
 			BrideCirno.DisplayName: 花嫁琪露诺
 			BrideFlandre.DisplayName: 花嫁芙兰朵露·斯卡雷特
-			BrideJunko.DisplayName: 花嫁Junko
+			BrideJunko.DisplayName: 花嫁纯狐
 			Bubsy.DisplayName: 巴比斯
 			Bucket.DisplayName: Bucket
 			Buddy.DisplayName: Buddy
 			BuilderMario.DisplayName: 建筑工马里奥
-			Bumbo1.DisplayName: Bumbo1
-			Bumbo2.DisplayName: Bumbo2
-			Bumbo3.DisplayName: Bumbo3
-			Bumbo4.DisplayName: Bumbo4
+			Bumbo1.DisplayName: 乞丐宝一阶
+			Bumbo2.DisplayName: 乞丐宝二阶
+			Bumbo3.DisplayName: 乞丐宝三阶
+			Bumbo4.DisplayName: 乞丐宝四阶
 			BunnyProjectile2.DisplayName: Bunny Projectile2
 			Cabbit.DisplayName: Cabbit
 			Callie.DisplayName: Callie
 			Castform.DisplayName: Castform
 			Celebi.DisplayName: Celebi
 			CharaGhost.DisplayName: Chara Ghost
-			ChargedBaby.DisplayName: Charged Baby
+			ChargedBaby.DisplayName: 电池宝宝
 			ChefsSpiritualEnergy.DisplayName: Chefs Spiritual Energy
-			Chen.DisplayName: Chen
+			Chen.DisplayName: 橙
 			ChibiPinky.DisplayName: Chibi Pinky
 			ChizuruUrashima.DisplayName: Chizuru Urashima
 			Cirno2.DisplayName: 琪露诺2
@@ -22600,18 +22601,18 @@ Mods: {
 			CloudStrife.DisplayName: Cloud Strife
 			Clown.DisplayName: Clown
 			Clownpiece.DisplayName: Clownpiece
-			ConcentratedNighmare.DisplayName: Concentrated Nighmare
+			ConcentratedNighmare.DisplayName: 聚集的恐惧
 			Courage.DisplayName: Courage
 			Creeper.DisplayName: Creeper
 			Crimera.DisplayName: Crimera
 			CrowMinion.DisplayName: Crow Minion
 			CrowPrince.DisplayName: 乌鸦王子
 			CryingChild.DisplayName: Crying Child
-			CrystalThresher.DisplayName: Crystal Thresher
+			CrystalThresher.DisplayName: 水晶沙鲨
 			Cuphead.DisplayName: Cuphead
 			Cupid.DisplayName: 丘比特
 			CuriousWisp.DisplayName: Curious Wisp
-			Daiyousei.DisplayName: Daiyousei
+			Daiyousei.DisplayName: 大妖精
 			Dante.DisplayName: Dante
 			Darkai.DisplayName: Darkai
 			DarkLamia.DisplayName: Dark Lamia
@@ -22622,7 +22623,7 @@ Mods: {
 			Diancie.DisplayName: Diancie
 			Dimentio.DisplayName: Dimentio
 			DioBrando.DisplayName: 迪奥·布兰度
-			DoremySweet.DisplayName: Doremy Sweet
+			DoremySweet.DisplayName: 哆来咪·苏伊特
 			DryBaby.DisplayName: Dry Baby
 			Eddie.DisplayName: 艾迪
 			Edgar.DisplayName: Edgar
@@ -22631,7 +22632,7 @@ Mods: {
 			Eirin.DisplayName: Eirin
 			Ellen.DisplayName: Ellen
 			Elly.DisplayName: 艾丽
-			Enchantress.DisplayName: Enchantress
+			Enchantress.DisplayName: 女巫
 			EtherianWyvern1.DisplayName: 埃特尼亚飞龙
 			EtherianWyvern2.DisplayName: 埃特尼亚飞龙
 			EtherianWyvern3.DisplayName: 埃特尼亚飞龙
@@ -22668,18 +22669,18 @@ Mods: {
 			GreaterDog.DisplayName: 大犬汪
 			Grillby.DisplayName: Grillby
 			GyroZeppeli.DisplayName: 杰洛·齐贝林
-			HatanoKokoro.DisplayName: Hatano Kokoro
+			HatanoKokoro.DisplayName: 秦心
 			HatsuneMiku.DisplayName: Hatsune Miku
 			HeadlessBaby.DisplayName: Headless Baby
 			HecatiaLapislazuli.DisplayName: 赫卡提亚·拉碧斯拉祖利
 			HelloKitty.DisplayName: Hello Kitty
-			HinaKagiyama.DisplayName: Hina Kagiyama
+			HinaKagiyama.DisplayName: 键山雏
 			Hooh.DisplayName: Hooh
 			Ib.DisplayName: Ib
 			IceBat.DisplayName: 冰雪蝙蝠
 			IceMimic.DisplayName: Ice Mimic
 			IchirinKumoi.DisplayName: 云居一轮
-			Iku.DisplayName: Iku
+			Iku.DisplayName: 永江衣玖
 			Inkling.DisplayName: Inkling
 			Innocent.DisplayName: Innocent
 			IrvineKinneas.DisplayName: Irvine Kinneas
@@ -22695,9 +22696,9 @@ Mods: {
 			JotaroKujo.DisplayName: Jotaro Kujo
 			Jowee.DisplayName: Jowee
 			JungleBat.DisplayName: 巨型飞狐
-			Junko.DisplayName: Junko
+			Junko.DisplayName: 纯狐
 			Kaga.DisplayName: 加贺
-			Kagerou.DisplayName: Kagerou
+			Kagerou.DisplayName: 今泉影狼
 			Kaguya.DisplayName: 蓬莱山辉夜
 			Kaho.DisplayName: Kaho
 			Kamek.DisplayName: Kamek
@@ -22709,19 +22710,19 @@ Mods: {
 			Kirlia.DisplayName: Kirlia
 			Kisume.DisplayName: 琪斯美
 			KnowledgeSlime.DisplayName: Knowledge Slime
-			Knuckles.DisplayName: Knuckles
-			Koakuma.DisplayName: Koakuma
+			Knuckles.DisplayName: 纳克鲁斯
+			Koakuma.DisplayName: 小恶魔
 			KoishiKomeiji.DisplayName: Koishi Komeiji
-			Konngara.DisplayName: Konngara
+			Konngara.DisplayName: 矜羯罗
 			Koopa.DisplayName: Koopa
-			Kosuzu.DisplayName: Kosuzu
-			Kotohime.DisplayName: Kotohime
+			Kosuzu.DisplayName: 本居小铃
+			Kotohime.DisplayName: 小兔姬
 			Kratos.DisplayName: Kratos
 			Kris.DisplayName: Kris
-			Kurumi.DisplayName: Kurumi
+			Kurumi.DisplayName: 胡桃
 			Kyogre.DisplayName: Kyogre
 			Kyouko.DisplayName: 幽谷响子
-			Lakitu.DisplayName: Lakitu
+			Lakitu.DisplayName: 朱盖木
 			Lancer.DisplayName: Lancer
 			LavaBat.DisplayName: 熔岩蝙蝠
 			Leap.DisplayName: Leap
@@ -22729,7 +22730,7 @@ Mods: {
 			LightLamia.DisplayName: Light Lamia
 			Lilac.DisplayName: 丁香
 			LilAmber.DisplayName: Lil Amber
-			LilyWhite.DisplayName: Lily White
+			LilyWhite.DisplayName: 莉莉霍瓦特
 			Link.DisplayName: 林克
 			Link2.DisplayName: 林克
 			LittleSnake.DisplayName: Little Snake
@@ -22766,7 +22767,7 @@ Mods: {
 			Madotsuki7.DisplayName: Madotsuki7
 			Madotsuki8.DisplayName: Madotsuki8
 			Madotsuki9.DisplayName: Madotsuki9
-			MamizouFutatsuiwa.DisplayName: Mamizou Futatsuiwa
+			MamizouFutatsuiwa.DisplayName: 二岩猯藏
 			Mariah.DisplayName: Mariah
 			Marie.DisplayName: Marie
 			Marisa.DisplayName: Marisa
@@ -22775,8 +22776,8 @@ Mods: {
 			Mary.DisplayName: Mary
 			MasterHand.DisplayName: Master Hand
 			Mawile.DisplayName: Mawile
-			MayaFey.DisplayName: Maya Fey
-			MegaKnight.DisplayName: Mega Knight
+			MayaFey.DisplayName: 绫里真宵
+			MegaKnight.DisplayName: 超级骑士
 			MegamanX.DisplayName: Megaman X
 			Megumin.DisplayName: Megumin
 			Meira.DisplayName: 明罗
@@ -22789,16 +22790,16 @@ Mods: {
 			Mewtwo.DisplayName: Mewtwo
 			MilesEdgeworth.DisplayName: Miles Edgeworth
 			Mimikyu.DisplayName: Mimikyu
-			MinamitsuMurasa.DisplayName: Minamitsu Murasa
-			MiniDinosaur.DisplayName: Mini Dinosaur
+			MinamitsuMurasa.DisplayName: 村纱水蜜
+			MiniDinosaur.DisplayName: 恐龙
 			MiniSATLA.DisplayName: Mini S A T L A
 			MiragePet.DisplayName: Mirage Pet
 			MisakaMitaro.DisplayName: Misaka Mitaro
 			Misao.DisplayName: Misao
 			Mismagius.DisplayName: Mismagius
-			MomijiInubashiri.DisplayName: Momiji Inubashiri
+			MomijiInubashiri.DisplayName: 犬走椛
 			MoneyPortal.DisplayName: Money Portal
-			Monokuma.DisplayName: Monokuma
+			Monokuma.DisplayName: 黑白熊
 			Morrigan.DisplayName: 苏格兰
 			MotherSlimeProjectile.DisplayName: Mother Slime Projectile
 			MothronBaby.DisplayName: Mothron Baby
@@ -22809,7 +22810,7 @@ Mods: {
 			MushiLadybug.DisplayName: Mushi Ladybug
 			Napstablook.DisplayName: Napstablook
 			Nasu.DisplayName: Nasu
-			Nazrin.DisplayName: Nazrin
+			Nazrin.DisplayName: 娜兹玲
 			Niko.DisplayName: Niko
 			NitoriKawashiro.DisplayName: Nitori Kawashiro
 			NononJakuzure.DisplayName: 蛇崩乃音
@@ -22822,7 +22823,7 @@ Mods: {
 			Padoru.DisplayName: Padoru
 			Papyrus.DisplayName: 帕派瑞斯
 			Patchouli.DisplayName: Patchouli
-			PatrickStar.DisplayName: Patrick Star
+			PatrickStar.DisplayName: 派大星
 			Peppino.DisplayName: 佩皮诺·斯巴盖
 			Pet1.DisplayName: Pet1
 			Pet10.DisplayName: Pet10
@@ -22861,37 +22862,37 @@ Mods: {
 			Pichu.DisplayName: Pichu
 			Poniko.DisplayName: 浅濑
 			Protection.DisplayName: Protection
-			Pug.DisplayName: Pug
+			Pug.DisplayName: 哈巴狗
 			PurpleGuy.DisplayName: Purple Guy
 			Quarble.DisplayName: Quarble
 			QueenBee.DisplayName: Queen Bee
 			RaikoHorikawa.DisplayName: 堀川雷鼓
-			Ralsei.DisplayName: Ralsei
+			Ralsei.DisplayName: 利艾尔斯
 			Rando.DisplayName: Rando
-			RanYakumo.DisplayName: Ran Yakumo
+			RanYakumo.DisplayName: 八云蓝
 			RatGod.DisplayName: Rat God
 			Ray.DisplayName: 瑞吉儿·加德纳
 			Reimu.DisplayName: Reimu
-			ReisenUdongeinInaba.DisplayName: Reisen Udongein Inaba
+			ReisenUdongeinInaba.DisplayName: 铃仙·优昙华院·因幡
 			Remilia.DisplayName: Remilia
-			RenkoUsami.DisplayName: Renko Usami
+			RenkoUsami.DisplayName: 宇佐见莲子
 			Rider.DisplayName: Rider
 			Rika.DisplayName: 里香
-			RikakoAsakura.DisplayName: Rikako Asakura
+			RikakoAsakura.DisplayName: 朝仓理香子
 			Rikku.DisplayName: Rikku
-			RinnosukeMorichika.DisplayName: Rinnosuke Morichika
+			RinnosukeMorichika.DisplayName: 森近霖之助
 			Rozu.DisplayName: Rozu
 			RozusShadow.DisplayName: Rozus Shadow
 			Ruby.DisplayName: Ruby
-			Rumia.DisplayName: Rumia
-			Ruukoto.DisplayName: Ruukoto
+			Rumia.DisplayName: 露米娅
+			Ruukoto.DisplayName: 留琴
 			Rydia.DisplayName: Rydia
-			Ryuk.DisplayName: Ryuk
+			Ryuk.DisplayName: 死神
 			Saber.DisplayName: 阿尔托莉雅·潘德拉贡
-			SagumeKishin.DisplayName: Sagume Kishin
+			SagumeKishin.DisplayName: 稀神探女
 			Sakuya.DisplayName: Sakuya
 			Sakuya2.DisplayName: Sakuya2
-			SanaeKochiya.DisplayName: Sanae Kochiya
+			SanaeKochiya.DisplayName: 东风谷早苗
 			SandShark.DisplayName: Sand Shark
 			Sans.DisplayName: Sans
 			Sariel.DisplayName: Sariel
@@ -22899,7 +22900,7 @@ Mods: {
 			SatoriKomeiji.DisplayName: Satori Komeiji
 			Scarecrow.DisplayName: Scarecrow
 			SCP173.DisplayName: S C P173
-			SeijaKijin.DisplayName: Seija Kijin
+			SeijaKijin.DisplayName: 鬼人正邪
 			Sekibanki.DisplayName: Sekibanki
 			Sephiroth.DisplayName: Sephiroth
 			SerJunken1.DisplayName: Ser Junken1
@@ -22914,7 +22915,7 @@ Mods: {
 			ShadowMimic.DisplayName: Shadow Mimic
 			Shantae.DisplayName: Shantae
 			SheerHeart.DisplayName: Sheer Heart
-			Shinki.DisplayName: Shinki
+			Shinki.DisplayName: 神绮
 			ShinmyoumaruSukuna.DisplayName: Shinmyoumaru Sukuna
 			Shopkeeper.DisplayName: Shopkeeper
 			ShovelKnight.DisplayName: Shovel Knight
@@ -22924,7 +22925,7 @@ Mods: {
 			SkeletonGoonie.DisplayName: Skeleton Goonie
 			Skeletron2.DisplayName: Skeletron2
 			Skeletron.DisplayName: Skeletron
-			Slimer.DisplayName: Slimer
+			Slimer.DisplayName: 恶翅史莱姆
 			SlimeWatcher.DisplayName: Slime Watcher
 			Slime.DisplayName: Slime
 			Smeargle.DisplayName: Smeargle
@@ -22932,18 +22933,18 @@ Mods: {
 			Sonic.DisplayName: Sonic
 			SpiritofFun.DisplayName: Spiritof Fun
 			Spiritomb.DisplayName: Spiritomb
-			SpongeBob.DisplayName: Sponge Bob
+			SpongeBob.DisplayName: 海绵宝宝
 			StardustCellTransformProjectile.DisplayName: Stardust Cell Transform Projectile
 			SuikaIbuki.DisplayName: 伊吹萃香
-			SumirekoUsami.DisplayName: Sumireko Usami
+			SumirekoUsami.DisplayName: 宇佐见堇子
 			Susie.DisplayName: Susie
-			SuwakoMoriya.DisplayName: Suwako Moriya
+			SuwakoMoriya.DisplayName: 洩矢诹访子
 			Sweep.DisplayName: Sweep
 			Temmie.DisplayName: 提米
 			tensecond.DisplayName: tensecond
 			Tenshi.DisplayName: 比那名居天子
 			Terry.DisplayName: Terry
-			TewiInaba.DisplayName: Tewi Inaba
+			TewiInaba.DisplayName: 因幡天为
 			TheBrain.DisplayName: The Brain
 			TifaLockheart.DisplayName: Tifa Lockheart
 			TinkerBell.DisplayName: Tinker Bell
@@ -22960,7 +22961,7 @@ Mods: {
 			Utsuho.DisplayName: Utsuho
 			VampireBat.DisplayName: 吸血鬼蝙蝠
 			Wailord.DisplayName: Wailord
-			Wakasagihime.DisplayName: Wakasagihime
+			Wakasagihime.DisplayName: 若鹭姬
 			Waluigi.DisplayName: 瓦路易基
 			Wario.DisplayName: Wario
 			Weavile.DisplayName: Weavile
@@ -22969,9 +22970,9 @@ Mods: {
 			WhiteMage.DisplayName: 白魔法师
 			Wilfe.DisplayName: Wilfe
 			WoodenMimic.DisplayName: Wooden Mimic
-			Wraith.DisplayName: Wraith
+			Wraith.DisplayName: 幻灵
 			Yang.DisplayName: 阳小龙
-			YorkshireTerrier.DisplayName: Yorkshire Terrier
+			YorkshireTerrier.DisplayName: 约克夏梗
 			Yoshi.DisplayName: Yoshi
 			YoshiIsland.DisplayName: Yoshi Island
 			Youmu.DisplayName: 魂魄妖梦
