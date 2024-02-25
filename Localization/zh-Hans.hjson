@@ -1106,12 +1106,12 @@ Mods: {
 				Description: 他现在和你在一起
 			}
 
-			Brain减益: {
+			BrainDebuff: {
 				DisplayName: Functionality loss
 				Description: It feels different
 			}
 
-			Brain减益2: {
+			BrainDebuff2: {
 				DisplayName: Functionality loss
 				Description: It feels different
 			}
@@ -1615,7 +1615,7 @@ Mods: {
 				Description: You feel frightened
 			}
 
-			Leech减益: {
+			LeechDebuff: {
 				DisplayName: Leech Plant
 				Description: Take random plant effect + slight true DoT
 			}
@@ -1640,17 +1640,17 @@ Mods: {
 				Description: Your body temperature decreases moderately
 			}
 
-			Roblox减益: {
+			RobloxDebuff: {
 				DisplayName: Remorse of the Souls
 				Description: Enemy will randomly form shadowflame tentacles
 			}
 
-			Roblox减益2: {
+			RobloxDebuff2: {
 				DisplayName: Recognition of the souls
 				Description: YOU DO NOT RECOGNIZE THE ROBLOXIANS IN THIS BOOK
 			}
 
-			Rot减益: {
+			RotDebuff: {
 				DisplayName: Rotten
 				Description: Enemies take more damage + slight true DoT
 			}
@@ -1660,7 +1660,7 @@ Mods: {
 				Description: Light Strike
 			}
 
-			Sap减益: {
+			SapDebuff: {
 				DisplayName: 削弱
 				Description: 敌怪获得更多的火属性减益伤害
 			}
@@ -1715,7 +1715,7 @@ Mods: {
 				Description: 你有一种奇怪的感觉
 			}
 
-			Weaker减益: {
+			WeakerDebuff: {
 				DisplayName: Marked
 				Description: Enemy will get weaker
 			}
@@ -2005,7 +2005,7 @@ Mods: {
 				Description: Energy Way Up
 			}
 
-			JudasReborn减益: {
+			JudasRebornDebuff: {
 				DisplayName: 黑暗形态
 				Description: 你渴望复仇
 			}
@@ -2090,7 +2090,7 @@ Mods: {
 				Description: 提升所有属性
 			}
 
-			Quickdraw减益: {
+			QuickdrawDebuff: {
 				DisplayName: 快斩刀鞘冷却
 				Description: 你需要休息才能再次挥舞刀光
 			}
@@ -3661,12 +3661,12 @@ Mods: {
 				Description: 哈巴狗将跟随你
 			}
 
-			Puppet减益: {
+			PuppetDebuff: {
 				DisplayName: Puppet's Joy
 				Description: You feel powerless
 			}
 
-			Puppet减益2: {
+			PuppetDebuff2: {
 				DisplayName: Baby's Joy
 				Description: You feel strange
 			}
