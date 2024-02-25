@@ -18226,12 +18226,10 @@ Mods: {
 				Tooltip:
 					'''
 					'一抹艳丽的红雾'
-					该武器在操作上，使用右键时保持普通攻击模式；使用左键时则会进行蓄力，当松开左手时，蓄力完成会有声音提示
-					在充能状态下，武器伤害逐步提升，一段时间后达到最大值，并伴有明确的声音反馈，一旦击中敌人，不仅会造成沸腾之血的效果，还能让玩家吸取敌人的生命力
-					[c/FFFF00:按住]: 手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:投掷]: 长矛对敌人造成猛烈的流血和灼烧伤害，每次命中都会额外增加14点真实持续伤害
-					当长矛蓄满能量时，将会释放出深红色光球，在身后形成一道激光。当长矛刺入敌人身体时，它能利用敌人的血液，对附近的敌人发动攻击
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待充能完毕，可以直接投掷已充满能量的长矛
+					[c/FFFF00:左键戳刺]: 刺击会施加沸腾之血，产生猩红爆炸，暴击有几率治疗玩家
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
+					[c/ADD8E6:右键蓄力]: 蓄力后扔出长矛对敌人施加沸腾之血，释放猩红光环
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待蓄力完毕，可以直接投掷满蓄力的长矛
 					'''
 			}
 
@@ -19309,34 +19307,18 @@ Mods: {
 				DisplayName: 绅士狩猎弩
 				Tooltip:
 					'''
-					发射威力强大、速度极高的飞镖，
-					使用飞镖作为弹药
+					'说你的话，瓦比特！'
+					右键装上/卸下消音器，根据世界邪恶群落的种类获得新能力
 					'''
 			}
 
 			HallowedDartlingGun: {
-				DisplayName: 神圣飞镖连射枪
-				Tooltip: 快速连续发射大量飞镖，但精度不高
-			}
-
-			LigamentEjector: {
-				DisplayName: 韧带弹射器
+				DisplayName: 黄铜野兽
 				Tooltip:
 					'''
-					发射的子弹能使敌人陷入混乱和流血状态
-					对无法造成混乱的敌人可额外造成5%伤害
-					使用飞镖作为弹药
-					'''
-			}
-
-			ObsidianFirepipe: {
-				DisplayName: 黑曜石火焰管
-				Tooltip:
-					'''
-					发射持续燃烧的火焰
-					同时射出造成75%武器伤害的持久火焰和飞镖
-					所发射的飞镖将灼烧敌人
-					使用飞镖作为弹药
+					'吼吼吼！'
+					快速连续发射大量精度不高的飞镖，将毒镖转化为神圣镖
+					达到最大射速时会过热
 					'''
 			}
 
@@ -19344,17 +19326,21 @@ Mods: {
 				DisplayName: 骨化大炮
 				Tooltip:
 					'''
-					有10%几率射出X形状的骨头
+					'嘟嘟咚'
+					射出飞镖和骨头，有几率射出火焰头骨
+					将毒镖转化为尖骨
 					使用飞镖作为弹药
 					'''
 			}
 
 			PortBoarder: {
-				DisplayName: 港口边界者
+				DisplayName: 港口巡检者
 				Tooltip:
 					'''
-					以高速率发射飞镖
-					有20%几率伴随飞镖射出能粘附在敌人身上的鱼叉
+					'我所有的手段都是理智的，我的动机和目标都是疯狂的'
+					有20%的几率射出粘附在敌人身上造成持续伤害的鱼叉，施加严重出血并减少防御
+					用油覆盖普通飞镖，在空气中留下气泡，命中时会造成额外的油伤害，并增加特殊能力计量条，最大为20
+					右键消耗特殊能力计量条使用声纳扫描仪发射快速飞镖
 					使用飞镖作为弹药
 					'''
 			}
@@ -19363,9 +19349,8 @@ Mods: {
 				DisplayName: 日落之影
 				Tooltip:
 					'''
-					发射散弹形式的飞镖
-					当附近存在敌人时，它会用暗影触手攻击它们
-					使用飞镖作为弹药
+					'当太阳落山时，没有蜡烛能代替它'
+					右键切换攻击模式，根据白天/黑夜改变其能力强度
 					'''
 			}
 
@@ -19373,8 +19358,8 @@ Mods: {
 				DisplayName: 沉睡者
 				Tooltip:
 					'''
-					每次击中敌人都会使目标产生脓液效果
-					使用此武器暴击时，将触发脓液浸染的地狱烈焰，造成一半的武器伤害
+					'对它来说是食物，对其他人来说是苦涩的毒药'
+					射出浸满酸性毒液的快速飞镖
 					使用飞镖作为弹药
 					'''
 			}
@@ -19384,24 +19369,6 @@ Mods: {
 				Tooltip:
 					'''
 					每发射五次后，会散射出一片叶子
-					使用飞镖作为弹药
-					'''
-			}
-
-			VileEruptor: {
-				DisplayName: 邪恶喷发器
-				Tooltip:
-					'''
-					每第五次射击会产生一枚微小食腐者，施加诅咒火焰效果
-					使用飞镖作为弹药
-					'''
-			}
-
-			VortexianDefenderSystem: {
-				DisplayName: 涡旋防御系统
-				Tooltip:
-					'''
-					发射一枚高爆导弹及两枚飞镖
 					使用飞镖作为弹药
 					'''
 			}
@@ -20034,6 +20001,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我的伙伴，所有真正的战士都追求这份和平'
+
 					扔出后释放幽灵，当它们击中任何敌人时，会碎裂成更小的灵魂
 					对附近靠近的敌人施加圣焰，击中任何敌人会使其获得救赎
 					击杀敌人会获得短暂的神圣保护
@@ -21211,6 +21179,45 @@ Mods: {
 				DisplayName: Knife Pack2
 			}
 
+			LigamentEjector: {
+				DisplayName: 韧带弹射器
+				Tooltip:
+					'''
+					发射的子弹能使敌人陷入混乱和流血状态
+					对无法造成混乱的敌人可额外造成5%伤害
+					使用飞镖作为弹药
+					'''
+			}
+
+			ObsidianFirepipe: {
+				DisplayName: 黑曜石火焰管
+				Tooltip:
+					'''
+					发射持续燃烧的火焰
+					同时射出造成75%武器伤害的持久火焰和飞镖
+					所发射的飞镖将灼烧敌人
+					使用飞镖作为弹药
+					'''
+			}
+
+			VileEruptor: {
+				DisplayName: 邪恶喷发器
+				Tooltip:
+					'''
+					每第五次射击会产生一枚微小食腐者，施加诅咒火焰效果
+					使用飞镖作为弹药
+					'''
+			}
+
+			VortexianDefenderSystem: {
+				DisplayName: 涡旋防御系统
+				Tooltip:
+					'''
+					发射一枚高爆导弹及两枚飞镖
+					使用飞镖作为弹药
+					'''
+			}
+
 			SharpenedGlass: {
 				Tooltip:
 					'''
@@ -22323,7 +22330,7 @@ Mods: {
 			GreySolution.DisplayName: 灰色溶液
 			GunShot.DisplayName: Gun Shot
 			HallowedDart.DisplayName: 神圣镖
-			HallowedDart2.DisplayName: 神圣镖2
+			HallowedDart2.DisplayName: 神圣镖
 			HallowedFireWork.DisplayName: Hallowed Fire Work
 			HallowedHwachaArrow.DisplayName: 神机箭
 			HallowedStar.DisplayName: Hallowed Star
@@ -23758,6 +23765,12 @@ Mods: {
 			FamineJavelin.DisplayName: Famine Javelin
 			DeathJavelin.DisplayName: Death Javelin
 			BadGas20.DisplayName: Bad Gas20
+			DartGunBase.DisplayName: Dart Gun Base
+			DartCurse.DisplayName: Dart Curse
+			RevolverDartBase.DisplayName: Revolver Dart Base
+			HallowedDartlingGun.DisplayName: Hallowed Dartling Gun
+			VenomExplosion.DisplayName: Venom Explosion
+			BadGas21.DisplayName: Bad Gas21
 		}
 
 		Configs: {

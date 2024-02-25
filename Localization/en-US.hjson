@@ -18184,12 +18184,9 @@ Mods: {
 				Tooltip:
 					'''
 					'A fine red mist'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Upon striking enemy it will inflict boiling blood along with allow player to drain enemies life
+					[c/FFFF00:RC Hold Stab]: Stabs will cause serious bleeding + scarlet explosions + crits may heal
 					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will cause serious bleeding and burning to enemy and each stick spear will increase true DoT by 14
-					When fully charged spear will scarlet orbs that will form laser behind along with when stick to enemy it will use enemies blood to attack close enemies
+					[c/ADD8E6:LC Charge Throw]:Spear inflict serious bleeding + release scarlet orbs
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
 					'''
 			}
@@ -19268,34 +19265,18 @@ Mods: {
 				DisplayName: Gentleman's Hunt
 				Tooltip:
 					'''
-					Shoots a powerful, high velocity dart
-					Uses darts as ammo
+					'Say your pwayers, wabbit!'
+					RC to attach/deattach its suppressor which gain new ability according to world evil
 					'''
 			}
 
 			HallowedDartlingGun: {
-				DisplayName: Hallowed Dartling Gun
-				Tooltip: Fires darts fast but in an inaccurate spread
-			}
-
-			LigamentEjector: {
-				DisplayName: Ligament Ejector
+				DisplayName: Brass Beast
 				Tooltip:
 					'''
-					Shots confuse and bleed enemies.
-					Enemies that cannot be confused take 5% more damage.
-					Uses darts as ammo
-					'''
-			}
-
-			ObsidianFirepipe: {
-				DisplayName: Obsidian Firepipe
-				Tooltip:
-					'''
-					It shoots lingering flames
-					It will shoot both lingering flame that will do 75% of weapons damage and dart at the same time
-					The darts it shoots will burn your enemies
-					Uses darts as ammo
+					'RAHRAHRAHRAH!'
+					Fires darts fast but in an inaccurate spread + convert poison darts into hallowed darts
+					Upon reach to full momentum heat ups the shot darts 
 					'''
 			}
 
@@ -19303,7 +19284,9 @@ Mods: {
 				DisplayName: Ossified Cannon
 				Tooltip:
 					'''
-					It has a 10% chance to shoot X shaped bones
+					'DOOT'
+					Shoots a mixture of darts and bones at the same time + may the mixture get spookified
+					Converts poison darts to pointy bones
 					Uses darts as ammo
 					'''
 			}
@@ -19312,8 +19295,10 @@ Mods: {
 				DisplayName: Port Boarder
 				Tooltip:
 					'''
-					It shoots dart at a fast rate
-					It have 20% chance to shot a harpoon with darts which will stick to enemy.
+					'All my means are sane, my motive and my object mad'
+					Has 20% chance to shot a harpoon that cause true DoT + serious bleeding +defense break on enemy hit
+					Covers normal darts with oil that leave bubbles in air + hits inflict oiled + each hit increase RC ability stack
+					RC will shoot a sonar scanner that doesn't use ammo and instead use RC ability stack which has max limit of 20
 					Uses darts as ammo
 					'''
 			}
@@ -19322,9 +19307,8 @@ Mods: {
 				DisplayName: Sunsets Shadow
 				Tooltip:
 					'''
-					Fires a shotgun blast of darts
-					If there are any enemy close to you it will attack them with shadow tentacles
-					Uses darts as ammo
+					'When the sun has set, no candle can replace it'
+					RC to change its barrel which grant ability + its stats change according to day/night
 					'''
 			}
 
@@ -19332,8 +19316,8 @@ Mods: {
 				DisplayName: The Sleeper
 				Tooltip:
 					'''
-					All enemy hits will ichor the target
-					Crits with this weapon will cause a ichor infused inferno which do 50% damage of weapon
+					'What is food to one man is bitter poison to others'
+					Shoots fast darts imbued with venom
 					Uses darts as ammo
 					'''
 			}
@@ -19343,24 +19327,6 @@ Mods: {
 				Tooltip:
 					'''
 					Shoots out a spread of leave after every 5th shot
-					Uses darts as ammo
-					'''
-			}
-
-			VileEruptor: {
-				DisplayName: Vile Eruptor
-				Tooltip:
-					'''
-					Every fifth shot will be tiny eater that will apply cursed flames.
-					Uses darts as ammo
-					'''
-			}
-
-			VortexianDefenderSystem: {
-				DisplayName: Vortexian Defender System
-				Tooltip:
-					'''
-					It will shoot a highly explosive missile and two dart
 					Uses darts as ammo
 					'''
 			}
@@ -19993,6 +19959,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Mah boi, this peace is what ALL true warriors strive FOR'
+
 					Upon being thrown spreads ectolings which shatters into smaller souls upon hitting any enemy
 					Any close enemy gets angelic flames + hitting any enemy inflicts inflicted enemies get salvation
 					Enemy kills will grant a short time holy protection
@@ -21169,6 +21136,45 @@ Mods: {
 			KnifePack2: {
 				Tooltip: ""
 				DisplayName: Knife Pack2
+			}
+
+			LigamentEjector: {
+				DisplayName: Ligament Ejector
+				Tooltip:
+					'''
+					Shots confuse and bleed enemies.
+					Enemies that cannot be confused take 5% more damage.
+					Uses darts as ammo
+					'''
+			}
+
+			ObsidianFirepipe: {
+				DisplayName: Obsidian Firepipe
+				Tooltip:
+					'''
+					It shoots lingering flames
+					It will shoot both lingering flame that will do 75% of weapons damage and dart at the same time
+					The darts it shoots will burn your enemies
+					Uses darts as ammo
+					'''
+			}
+
+			VileEruptor: {
+				DisplayName: Vile Eruptor
+				Tooltip:
+					'''
+					Every fifth shot will be tiny eater that will apply cursed flames.
+					Uses darts as ammo
+					'''
+			}
+
+			VortexianDefenderSystem: {
+				DisplayName: Vortexian Defender System
+				Tooltip:
+					'''
+					It will shoot a highly explosive missile and two dart
+					Uses darts as ammo
+					'''
 			}
 
 			SharpenedGlass: {
@@ -23719,6 +23725,12 @@ Mods: {
 			FamineJavelin.DisplayName: Famine Javelin
 			DeathJavelin.DisplayName: Death Javelin
 			BadGas20.DisplayName: Bad Gas20
+			DartGunBase.DisplayName: Dart Gun Base
+			DartCurse.DisplayName: Dart Curse
+			RevolverDartBase.DisplayName: Revolver Dart Base
+			HallowedDartlingGun.DisplayName: Hallowed Dartling Gun
+			VenomExplosion.DisplayName: Venom Explosion
+			BadGas21.DisplayName: Bad Gas21
 		}
 
 		Configs: {

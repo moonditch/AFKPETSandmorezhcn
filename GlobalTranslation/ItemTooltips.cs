@@ -15,6 +15,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			foreach (TooltipLine tooltipLine in tooltips)
 			{
 				StringBuilder sb = new StringBuilder(tooltipLine.Text);
+				//sb.Replace("", "");
 				sb.Replace("-Dedicated Content-", "-专属内容-");
 				sb.Replace("-Crossover Content-", "-联动内容-");
 				sb.Replace("Trinket", "密藏");
@@ -43,6 +44,14 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("'Gregg approves'\n'Critical hits will give player random buff for 20 second and increase number of alchemical flasks by 1'\n'RC will throw rainbow alchemical flask that will form different elemental clouds'\n'Player can maximum store 5 rainobw alchemical flask'\n'Each cloud will give 5 second of its respective debuff and decrease targets immunity frames'\n'Also if player have more than 50% life it will increase its damage by 5% and otherwise it will increase players life regen by 2'\n'Harvesting have a chance to give player random buff for 20 second'\n'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'",
 							"'Gregg赞成'\n暴击将使玩家获得20秒的随机增益，并使炼金瓶数量增加1\n右键将扔出彩虹炼金瓶，形成不同的元素云\n玩家最多可以储存5个彩虹炼金瓶\n每种元素云都将施加5秒的减益，并减少目标的无敌帧\n如果玩家的生命值超过50%，将增加5%伤害，否则增加2点生命再生\n收获时，玩家有几率获得一个20秒的随机增益\n使用此工具时，效率属性将提高植物和干草的收集速度");
 
+				//飞镖枪武器
+				sb.Replace("Uses darts as ammo", "使用飞镖作为弹药");
+				sb.Replace("Base: Shoots a powerful, high velocity dart", "基础模式: 射出强力的高速飞镖");
+				sb.Replace("Ligament Ejector: Hits sprays blood", "韧带弹射器: 命中后泼洒血液");
+				sb.Replace("Vile Eruptor: Breathes cursed flames along with dart", "邪恶喷发器: 享受诅咒焰的洗礼");
+				sb.Replace("Base: Cover the darts with darkness", "基础模式: 用暗影包裹飞镖");
+				sb.Replace("Obsidian: Burn the darts with unholy flames", "黑曜石: 用邪恶的火焰燃烧飞镖");
+
 				//绊之怒火
 				sb.Replace("LC allow player to throw baseball for strike and RC does slam and upon slamming enough enemy player enter into berserk state\nRC uses baseballs as ammo and while no ball is thrown RC will throw ball and when there is a ball RC will do strike to mouse direction\n[c/ffff00:Slam Ability]: Hitting any enemy will inflict electrified + has a small chance to inflict Kizuna's attraction\nAny enemy that have this debuff cause them to have gravitational power towards each other\nIf any enemy collide with each other this power crush their inner organs which cause increase in true DoT for each enemy being in the area\n[c/ffff00:Strike Ability]: Overcharges every ball type which could be observed from its outer energy area\nWhen any ball is being charged they will attract weaker hostile projectile to itself + when ball hit any enemy it will release lightnings and decharge\n[c/ffff00:BERSERK]: Weapon do 150% increased modifiers.FinalDamage.Flat + 50% increased melee speed and +10 increased crit\nWhile in bersek ability player slams have a greatly increased chance of inflicting Kizuna's attraction + no strike but kill heals + refill berserk\n                                                   -Page 1-",
 							"右键投出棒球，左键重击；当重击足够多敌人后，玩家进入狂暴状态\n左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击\n[c/ffff00:重击能力]: 攻击任何敌人将造成带电效果，并有很小的几率施加羁绊引力\n带有此减益的敌人之间会相互吸引\n如果它们相互碰撞，这种力量将粉碎它们的内脏器官，并增加附近敌人受到的持续伤害\n[c/ffff00:打击能力]: 对所有类型的棒球弹药进行过载充能，改变其外观\n过载充能的棒球弹药会吸引较弱的敌对射弹，并在击中任何敌人时释放链状闪电\n[c/ffff00:狂暴状态]: 武器造成额外 150% 伤害，增加 50% 近战攻速度和 10% 暴击率\n狂暴状态下，玩家的猛击有很高的几率施加羁绊引力，非直接攻击但击杀敌人会治疗玩家并延长狂暴状态\n                                                   - 第一页 -");
@@ -52,8 +61,120 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"收割植物时有很小的几率富集金属，额外产生矿石\n杀死敌人时，有很小的几率收获他们的灵魂\n效率属性将提升此工具用于收割植物和干草时的采集速度\n右键生成羁绊火花\n装备在密藏栏时，玩家可以使用闪电冲刺，1.5 秒冷却时间\n无视射弹，撞击敌人时释放闪电并造成带电效果\n[c/FFC0CB:收纳盒特殊能力]: 重击非Boss敌人造成强力击退，施加羁绊引力\n当玩家按下密藏快捷键时，将卸下所有密藏\n当玩家手持密藏按下密藏快捷键时，可以卸下密藏\n                             - 第二页 -");
 				
 				//妈妈的收纳盒产生的密藏特殊能力
-				sb.Replace("[c/FFC0CB:Mom's Box Effect]:",
-							"[c/FFC0CB:收纳盒特殊能力]: ");
+				sb.Replace("[c/FFC0CB:Mom's Box Effect]:", "[c/FFC0CB:收纳盒特殊能力]: ");
+
+				sb.Replace("An angelic sword will protect players back + if player holds true melee weapon additional angelic sword will spawn",
+							"召唤一把天使之剑将保护玩家，如果玩家持有真近战武器，将会产生额外的天使之剑");
+				/*sb.Replace("Instead of direct respawn it continue to protect player and slowly fades away",
+							"");
+				sb.Replace("Taking damage higher than 5% of life have 10% chance to call a S.A.T.L.A.-001 to strike",
+							"");
+				sb.Replace("Bats have a chance to throw 2 baseball at the same time while doing RC ball throw",
+							"");
+				sb.Replace("Instead of overheat damaging player it will now give player 20% increased mana usage + inferno buff",
+							"");
+				sb.Replace("Convert feral bite into a positive effect buff which increase damage by 15% instead of 20% but randomly gives buffs instead of debuffs",
+							"");
+				sb.Replace("When this effect happen player will also produce fart cloud which damage + poison any enemy that touch it",
+							"");
+				sb.Replace("Bomb effect activates twice",
+							"");
+				sb.Replace("Heal source now heal by 2 + immunity to bleeding",
+							"");
+				sb.Replace("Attacks have a chance to be true damage",
+							"");
+				sb.Replace("Bounce type damage increase by 200% + immunity against oozed and slime",
+							"");
+				sb.Replace("Player becomes a host and brain clot starts to attack close enemies",
+							"");
+				sb.Replace("Increases the catch rate of rare fishes",
+							"");
+				sb.Replace("Hitting enemy with true melee sword have a chance to activate its ability twice",
+							"");
+				sb.Replace("Consuming cookies will also make every buff that have 1-7 minute time left get refreshed to 7 minute",
+							"");
+				sb.Replace("Drastically increase damage bonus and penalty",
+							"");
+				sb.Replace("This effect activate while player is below 25% max hp",
+							"");
+				sb.Replace("Hyperactive buff will also make projectiles gain 50% increased velocity",
+							"");
+				sb.Replace("Player get random discounts and get part of its money back while buying from npc shop with RC",
+							"");
+				sb.Replace("Buff and debuff happen at the same time + debuffs duration is 5 second while buff duration is 15 second",
+							"");
+				sb.Replace("It may also appear between players and sentry or between sentries or minions",
+							"");
+				sb.Replace("It will not lose its heat",
+							"");
+				sb.Replace("Hook produce stench aura that poisons enemies + additional junk get possiblity increase",
+							"");
+				sb.Replace("Allows submerged with liquid effect with no restrictions",
+							"");
+				sb.Replace("Speed stat cannot get lower than its initial value (Unless any mod does hardcoded speed adjust)",
+							"");
+				sb.Replace("It provides immunity against chilled + gives warmth effect",
+							"");
+				sb.Replace("Player emit fear area and it turns into horror if player already have psychological aura",
+							"");
+				sb.Replace("Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction",
+							"");
+				sb.Replace("When any feared enemy does contact damage there is a small chance to they hit themselves instead",
+							"");
+				sb.Replace("It have a small chance to also protect player from death",
+							"");
+				sb.Replace("Taking projectile damage also hurt closest enemy with same amount + reflecting increase damage by 100%",
+							"");
+				sb.Replace("Taking hit while tarot cooldown is active have a small chance to activate random tarot major effect",
+							"");
+				sb.Replace("Berserk state swings have a chance to shoot nails",
+							"");
+				sb.Replace("Any bugs have a chance to be stronger",
+							"");
+				sb.Replace("Instead of glitching out and despawn it now attacks player",
+							"");
+				sb.Replace("Picking item from ground 25% chance to quadruple the amount and 75% chance to nullify the item",
+							"");
+				sb.Replace("Harvesters gain small chance to perform harvest crit which double efficiency",
+							"");
+				sb.Replace("Double tap down will spawn it to ground which spew out coins that inflict midas",
+							"");
+				sb.Replace("Trophy drop chance now increase by 20%",
+							"");
+				sb.Replace("Elite enemy spawn frequency increase + they give a guaranteed heart and star on death",
+							"");
+				sb.Replace("Taking damage higher than 5% of life have 10% chance to call a bunny zeppelin to strike",
+							"");
+				sb.Replace("A mediocre electrician will help you to charge your enemies along with decrease cooldown of afkpets aiming sentries",
+							"");
+				sb.Replace("Occurance of this effect will additionally give player life drain",
+							"");
+				sb.Replace("Double tap down will make player strike below with anchor",
+							"");
+				sb.Replace("Each active player get their soul shattered and piece of their soul protect the player and there can be max 5 active",
+							"");
+				sb.Replace("The spawned projectiles have 50% chance have base id -1 and 50% chance to have base id +1",
+							"");
+				sb.Replace("This ability do not affect from having life regen less than 0",
+							"");
+				sb.Replace("If player does not have any wing it grow harpy wings and if it does it gets increased wing time instead",
+							"");
+				sb.Replace("Player gain endurance buff instead + spawn with full hp",
+							"");
+				sb.Replace("Player gain aura with respect to 5 different time period of day which increase specific stats",
+							"");
+				sb.Replace("Player form dryad's bane aura around itself",
+							"");
+				sb.Replace("Minion hits have a chance to call a plane to do bloody rotor strike",
+							"");
+				sb.Replace("Effects will work until reaching below 75% of corresponding hp and mana",
+							"");
+				sb.Replace("If taking heart increase players life to above max it will make player grow snake head for a short time\nThere can be max 3 snake grow from player + after player have max snake taking heart from ground have a chance to clear debuffs",
+							"");
+				sb.Replace("Holding tools will also provide thorns effect + knockback immunity",
+							"");
+				sb.Replace("Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction\n",
+							"");*/
 
 				//特殊修饰语 - 等模组修Bug
 				//sb.Replace("", "");
@@ -107,8 +228,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 				//点金石
 				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
+				//雨伞
+				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
+				//暗影钥匙、圣骑士盾、圣骑士锤
+				sb.Replace("Can be traded with holy knight", "可与神圣骑士进行交易");
 
-				//wiki说明 sb.Replace("", "");
+				//wiki说明
 				sb.Replace("It drops from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy",
 							"[c/FF0000:饼干板条箱]掉落\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Box]\nIt become fishable in ocean after player equip [c/FF0000:Cookie Badge] which drop from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nIf player activate no fish mechanic option from mod config it bypass this",
@@ -170,6 +295,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"[c/FF0000:神圣]: 禁卫军 - 天降横祸\n[c/FF0000:沙漠]: 指挥官 - 魅力工程\n[c/FF0000:丛林]: 草药师 - 花园战争e\n[c/FF0000:地牢]: 服装师 - 守卫召唤\n[c/FF0000:海洋]: 星级厨师 - 过量治疗\n[c/FF0000:雪原]: 寒冰精灵 - 冰柱坠落\n[c/FF0000:地狱]: 突袭骑士 - 灾难仪式\n[c/FF0000:邪恶群落]: 哥布林弓手 - 厄运之箭\n[c/FF0000:默认森林]: 忍者 - 影分身突袭");
 				sb.Replace("[c/FF0000:Ship Crasher]: Targets and then strikes from targets above\n[c/FF0000:'Bat Eye' Shelley]: Target and attacks with baby bats\n[c/FF0000:S. Bones]: Attacks mouse direction with inkshots + generates aquatic tornados\n[c/FF0000:Bubble Raider]: Flies with Bubble and strikes with flies. When bubble get hit it pops but raider get more aggressive",
 							"[c/FF0000:跳帮者]: 瞄准并从目标上方攻击\n[c/FF0000:蝙蝠眼雪莉]: 用蝙蝠宝宝瞄准并攻击\n[c/FF0000:碎颅]: 用墨迹向光标位置攻击，生成水龙卷\n[c/FF0000:泡泡突袭者]: 用泡泡飞行，用苍蝇攻击。当泡泡被击中时，突袭者会变得更具攻击性");
+				
+				sb.Replace("[c/FF0000:Potted Baum]: DAW MAH GAWD Did you see that pro acorn planting?\nAttacks enemies with leaves and places explosive acorns around itself\n[c/FF0000:Potted Cactus]: Still trying to find a holiday between halloween and Christmas for England\nDoes 1000 needle technique against close targets and half alive tick needle agaist far away ones",
+							"");
 				
 				tooltipLine.Text = Regex.Replace(sb.ToString(), @"^Hold Shift while hovering on item to.*", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
 			}

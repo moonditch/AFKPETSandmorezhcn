@@ -1,6 +1,5 @@
 AFK宠物和更多模组汉化补丁已更新：v{ModVersion}，tML-v{tMLVersion} {tMLBuildPurpose}
 github：https://github.com/moonditch/AFKPETSandmorezhcn
 
-1. 适配AFKPets v9.9.9.70
+1. 适配AFKPets v9.9.9.71
 2. 文案更新
-3. 宠物
