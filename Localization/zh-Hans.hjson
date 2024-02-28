@@ -3457,8 +3457,8 @@ Mods: {
 			}
 
 			WatchCooldown: {
-				DisplayName: Shattered Time
-				Description: Player need to wait until time gets stabilized
+				DisplayName: 时间破碎
+				Description: 需要等待时间稳定下来
 			}
 
 			PoisonousGas: {
@@ -15709,121 +15709,121 @@ Mods: {
 			}
 
 			BrokenTime: {
-				DisplayName: Broken Time
+				DisplayName: 时间洪流怀表
 				Tooltip:
 					'''
-					'You will never find time for anything. If you want time you must make it'
-					<right>and <left>changes shift of time
+					'你永远不知道用时间做什么事，如果你想要时间，那必须争取时间'
+					右键加速时间倒流，左键加速时间流逝，放置物品栏内暂停时间
 					'''
 			}
 
 			DarkWatch: {
-				DisplayName: Night Ringer
+				DisplayName: 月光怀表
 				Tooltip:
 					'''
-					'Moon rises with calmness and mysticism'
-					Shift day to night with 20 second cooldown
+					'月亮升起时带着平静而神秘'
+					从白天切换到夜晚，有20秒的冷却时间
 					'''
 			}
 
 			FrozenWatch: {
-				DisplayName: Frozen Watch
+				DisplayName: 寒霜怀表
 				Tooltip:
 					'''
-					'Let it go……'
-					Upon being held shows time + using it may paint the night white……
-					Changes state of festive moon with 20 second cooldown
+					'随它吧……'
+					使用时将月亮染成冰蓝色……
+					切换成霜月事件，有20秒的冷却时间
 					'''
 			}
 
 			LightWatch: {
-				DisplayName: Day Dawner
+				DisplayName: 日耀怀表
 				Tooltip:
 					'''
-					'Sun rises with your hopes and dreams'
-					Shift night to day with 20 second cooldown
+					'太阳升起时带着希望与梦想'
+					从夜晚切换白天到，有20秒的冷却时间
 					'''
 			}
 
 			PocketWatchofBlood: {
-				DisplayName: Pocket Watch of Blood
+				DisplayName: 时间冻结怀表
 				Tooltip:
 					'''
-					'Silver Another Dimension'
-					Using it stops time for 6 second
+					'异次元空间'
+					让时间停止6秒
 					'''
 			}
 
 			PumpkinWatch: {
-				DisplayName: Harvest Watch
+				DisplayName: 收获怀表
 				Tooltip:
 					'''
-					'The fire within pumpkins burn eternal and now you shall feel……'
-					Upon being held shows time + using it may paint the night blood orange……
-					Changes state of festive moon with 20 second cooldown
+					'南瓜内的烈焰在燃烧，现在你将感受到……'
+					使用时将月亮染成橘黄色……
+					切换成南瓜月事件，有20秒的冷却时间
 					'''
 			}
 
 			RedWatch: {
-				DisplayName: Blood Watch
+				DisplayName: 血色怀表
 				Tooltip:
 					'''
-					'Let there be blood'
-					Upon being held shows time + using it may paint the night red……
-					Changes state of blood moon with 20 second cooldown
+					'让血，流成河'
+					使用时将月亮染成血红色……
+					切换成血月事件，有20秒的冷却时间
 					'''
 			}
 
 			SatelliteReachModule: {
-				DisplayName: Martian Satellite Reach Module
+				DisplayName: 卫星数据收集器
 				Tooltip:
 					'''
-					'It was once designed to gather data from martian satellites'
-					It also contains a sound record
-					'It's impressive to see you improve yourself every second CLA-0, I'm proud of you'
-					'Favoriting it will activate holographic time telling unit'
+					'曾被设计用来收集卫星的数据'
+					'还包含一个声音记录'
+					'看到你每秒钟都在进步，令人深刻的是CLA-0，我为你感到骄傲'
+					放在物品栏时显示位置和深度
 					'''
 			}
 
 			SolarWatch: {
-				DisplayName: Solar Watch
+				DisplayName: 日食怀表
 				Tooltip:
 					'''
-					'Can you see a resonance stronger than darkness now?'
-					Upon being held shows time + using it may paint the day black……
-					Changes state of sun with 20 second cooldown
+					'你现在能看到比黑暗更强烈的共鸣吗?'
+					使用时将太阳染成黑黄色……
+					切换成日食事件，有20秒的冷却时间
 					'''
 			}
 
 			TerraWatch: {
-				DisplayName: Terra & Co.
+				DisplayName: 泰拉怀表
 				Tooltip:
 					'''
-					'Terrarian another dimension'
-					<left>control day & time, pure <right>control blood moon + eclipse
-					<right>+ down control pumpkin moon, <right>+ up control frost moon
-					Each have 20 second cooldown
+					'泰拉瑞亚的异次元空间'
+					鼠标左键控制时间, 鼠标右键控制血月和日食
+					键盘下键+鼠标右键召唤南瓜月, 键盘上键+鼠标右键召唤霜月
+					每个都有20秒的冷却时间
 					'''
 			}
 
 			AngelicBrooch: {
-				DisplayName: Angelic Brooch
+				DisplayName: 天使的胸针(占位符)
 				Tooltip:
 					'''
-					'You are not sure if you are carrying it or it carries you'
+					'你不确定是你背负着它，还是它背负着你'
 					右键装备物品，左键栏位回收
 					While being equipped upon taken damage value is higher than 100 it will protect player instead with a cooldown
 					'''
 			}
 
 			AstralProjection: {
-				DisplayName: Astral Projection
+				DisplayName: 灵魂出窍
 				Tooltip:
 					'''
-					'The true out-of-body experience!'
+					'真正的灵魂出窍体验!'
 					右键装备物品，左键栏位回收
-					While being equipped upon death a ghost will be released which can attack to mouse direction + follows mouse location
-					It despawns with players respawn and player can attack by using RC
+					死亡时释放幽灵，右键攻击光标方向并跟随光标位置
+					随着重生而消失
 					'''
 			}
 
