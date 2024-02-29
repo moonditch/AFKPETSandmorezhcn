@@ -15990,43 +15990,42 @@ Mods: {
 			}
 
 			CuteCupcake: {
-				DisplayName: Cute Cupcake
+				DisplayName: 可爱小蛋糕
 				Tooltip:
 					'''
-					'You better bet that my cupcakes are going to be the best part of the whole event!'
+					'你最好打赌我的纸杯蛋糕会是整个活动中最棒的部分!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped consuming food sources or cookies will give additional hyperactive buff
-					This cause your mouse jitter but weapons have 25% chance to shoot additional inaccurate projectile
+					装备后进食或使用饼干会额外提供多动症增益，使你的鼠标抖动，但同时你的武器有25%概率额外发射不稳定的弹幕
 					'''
 			}
 
 			DiscountCoupon: {
-				DisplayName: Discount Coupon
+				DisplayName: 打折优惠券
 				Tooltip:
 					'''
-					'Brace yourself, summer sales are coming!'
+					'振作起来，夏季大促销来了!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped decreases nurse and reforge costs by 25%
+					装备后使护士治疗和哥布林工匠重铸的费用降低25%
 					'''
 			}
 
 			ExperimentalTube: {
-				DisplayName: Experimental Tube
+				DisplayName: 实验试管
 				Tooltip:
 					'''
-					'Caution: May Contain Highly Corrosive Chemical'
+					'警告：可能含有高腐蚀性化合物Caution: May Contain Highly Corrosive Chemical'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped every 10 second player get either a 10 second buff or nondamaging 减益
+					装备后玩家每10秒获得一个持续10秒的增益或非伤害性减益
 					'''
 			}
 
 			ExtensionCord: {
-				DisplayName: Extension Cord
+				DisplayName: 延长电线
 				Tooltip:
 					'''
-					'Best to connect with your friends'
+					'最好和你的朋友们绑在一起Best to connect with your friends'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped electric arc may appear between player and minion or between minions
+					装备后玩家与召唤物之间或召唤物与召唤物之间有几率出现电弧
 					'''
 			}
 
@@ -16042,53 +16041,53 @@ Mods: {
 			}
 
 			FishHead: {
-				DisplayName: Fish Head
+				DisplayName: 鱼头
 				Tooltip:
 					'''
-					'EWW, it stinks'
+					'呕，它在发臭'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					'While being equipped periodically spawn flies from hook + any fish loot may have additioal junk(You get normal loot + 1 junk along with it)
+					'装备后，钓鱼时鱼钩处会定时生成苍蝇且上钩时有概率额外钓到一个垃圾
 					'''
 			}
 
 			FishOutofWater: {
-				DisplayName: Fish Out of Water
+				DisplayName: 离水之鱼
 				Tooltip:
 					'''
-					'If there is magic on this planet, it is contained in water'
+					'如果这个星球上存在魔法，那么它一定蕴含在水中'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped while player have 潮湿 减益 or while raining it count player submerged with liquid
+					装备后，若玩家受潮湿减益影响或处于下雨天，则视为浸没在水中
 					'''
 			}
 
 			GoatHoof: {
-				DisplayName: Goat Hoof
+				DisplayName: 山羊蹄
 				Tooltip:
 					'''
-					'Gotta kick those sinners'
+					'我要踹翻那些罪人们'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped increases momentum + moving on a solid tile shoots dirt and stone shards backwards
+					装备后提高加速度，且在物块上移动时会向后发射泥土和石头碎片
 					'''
 			}
 
 			GrannySocks: {
-				DisplayName: Granny Socks
+				DisplayName: 奶奶袜
 				Tooltip:
 					'''
-					'Aww, these are so cozy and cute'
+					'噢~，它们真是舒适又可爱Aww, these are so cozy and cute'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped player gain immunity against spikes and hot blocks
+					装备后玩家免疫尖刺和炽热物块
 					'''
 			}
 
 			HysteriaVial: {
-				DisplayName: Hysteria Vial
+				DisplayName: 癫狂之瓶
 				Tooltip:
 					'''
-					'Contain remnants of the 梦魇史莱姆'
+					'包含梦魇史莱姆的碎片'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped fear inflicted enemies stay feared unless npc reaches the 减益 limit
-					Feared enemies may get 惊骇 which have a chance to inflict 恐惧 to close enemies
+					装备后恐惧减益会使敌人持续受到恐惧，除非减益数量达到了上限
+					被恐惧的敌人可能受到惊骇减益，使其有概率对附近的敌人造成恐惧减益
 					'''
 			}
 
