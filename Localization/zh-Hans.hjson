@@ -2046,8 +2046,8 @@ Mods: {
 			}
 
 			ManaOverheat: {
-				DisplayName: Mana Overheat
-				Description: Increased Mana Usage
+				DisplayName: 过热
+				Description: 增加法力使用
 			}
 
 			MimicCopper: {
@@ -6188,7 +6188,7 @@ Mods: {
 					-绿色: 稍微恢复生命值
 					-红色: 召唤初音未来为你战斗10秒
 					-粉色: 提供随机的原版或本模组增益
-					-黄色: 清除混乱状态、魔力病，大幅减少本模组武器的冷却时间
+					-黄色: 清除混乱状态、耐魔性，大幅减少本模组武器的冷却时间
 					-彩虹: 标记屏幕上的每个敌人，它们受到持续的真实伤害，降低防御力，非Boss敌人死亡时会掉落双倍战利品
 					提高游戏中的音乐音量大小将增加音符的出现速度
 					'''
@@ -15811,7 +15811,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你不确定是你背负着它，还是它背负着你'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped upon taken damage value is higher than 100 it will protect player instead with a cooldown
 					'''
 			}
@@ -15821,42 +15821,42 @@ Mods: {
 				Tooltip:
 					'''
 					'真正的灵魂出窍体验!'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					死亡时释放幽灵，右键攻击光标方向并跟随光标位置
 					随着重生而消失
 					'''
 			}
 
 			BadSector: {
-				DisplayName: Bad Sector
+				DisplayName: 腐败区域
 				Tooltip:
 					'''
-					'You donOt know the power of the data corruption! It can return the kindest creature into  the most bloodlusted one'
-					右键装备物品，左键栏位回收
-					While equipped accessories have a higher chance to get warding as prefix
+					'你不知道这是来自腐化的力量，他可以把善良的生物变成最邪恶的'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时有高概率获得护佑作为前缀
 					'''
 			}
 
 			BaseballGlove: {
-				DisplayName: Baseball Glove
+				DisplayName: 垒球手套
 				Tooltip:
 					'''
-					'Catching a fly ball is a pleasure, but knowing what to do with it after you catch it is a business'
-					右键装备物品，左键栏位回收
-					While being equipped baseball ammo have a chance to recoverable + missing balls have a chance to not cause any penalty
+					'接住一个飞来的球是一种乐趣，接住后该怎么处理它是另一种乐趣'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时棒球弹药有概率恢复并丢失的球有概率不会造成惩罚
 					'''
 			}
 
 			BatteryPack: {
-				DisplayName: Battery Pack
+				DisplayName: 电池组
 				Tooltip:
 					'''
-					'Instant energy!'
-					右键装备物品，左键栏位回收
-					While being equipped upon having 0 or less than hold items mana requirement players mana get instantly filled
-					This will not give mana sickness but it have a chance to overheat and make an explosion which hurt both player and any close enemy
-					When overheat occur its ability get deactivated
-					This explosion also cause it to make player have 10% increased mana usage for some time
+					'紧急能源!'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					拥有0或少于持有武器所需的法力值时，法力值会立即被填满
+					这不会造成耐魔性但有可能过热造成爆炸，伤害玩家和附近的敌人
+					过热发生时能力就会失效
+					爆炸会在一段时间增加10%的法力值
 					'''
 			}
 
@@ -15866,95 +15866,95 @@ Mods: {
 			}
 
 			BellyJelly: {
-				DisplayName: Belly Jelly
+				DisplayName: 果冻豆
 				Tooltip:
 					'''
-					'Bounce Away'
-					右键装备物品，左键栏位回收
-					While being equipped upon enemy contact there is 10% chance to not take damage and dynamic bounce enemy
-					Upon it does contact damage to another close enemy both take damage + makes bounces mightier
+					'弹跳离开'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时与敌人接触，有10%的几率不受伤害并让敌人弹跳
+					对另一个近距离的敌人造成接触伤害时，两者都受到伤害并反弹更强大
 					'''
 			}
 
 			BlastingCap: {
-				DisplayName: Blasting Cap
+				DisplayName: 起爆筒
 				Tooltip:
 					'''
-					'Pop! Pop!'
-					右键装备物品，左键栏位回收
-					While equipped each vanilla or afkpets used bomb become 10% chance to become recoverable
+					'轰，轰!'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时原版和本模组的炸弹有10%的几率回收
 					'''
 			}
 
 			Blooddrop: {
-				DisplayName: Blood Drop
+				DisplayName: 血滴（测试，占位符）
 				Tooltip:
 					'''
-					'Blood sample of a [c/FF1493:joyful] assassin'
-					右键装备物品，左键栏位回收
-					While being equipped it cause each healing source heal 1 more but life regen decrease by 1
+					'刺客的血液样本'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时cause each healing source heal 1 more但生命回复减少1
 					'''
 			}
 
 			BoneHammer: {
-				DisplayName: Bone Hammer
+				DisplayName: 骸骨锤
 				Tooltip:
 					'''
-					'Stay for some hammer you must'
-					右键装备物品，左键栏位回收
-					Equipping it give +4 true damage to each attack which bypass defense and enemy DR
+					'你必须留下来等锤子'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时每次无视防御和减伤的攻击增加4点的真实伤害
 					'''
 			}
 
 			BouncySlime: {
-				DisplayName: Bouncy Slime
+				DisplayName: 弹性史莱姆
 				Tooltip:
 					'''
-					'This cute little slime only knows one word : Higher!'
-					右键装备物品，左键栏位回收
-					While being equipped all afkpets bounce type damage increase by 100%
+					'这个可爱的小史莱姆只知道一个词:更高!'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时本模组的反弹型伤害增加100%
 					'''
 			}
 
 			BrainClot: {
-				DisplayName: Brain Clot
+				DisplayName: 大脑凝块
 				Tooltip:
 					'''
-					'It's best to keep an eye on this abomination'
-					右键装备物品，左键栏位回收
-					While being equipped regen walking pentalty and being stopped bonus will be removed
-					It will also grant immunity against mental based 减益s + bleeding
+					'最好盯紧这个可憎之物'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时移动会回血（Bug 占位符）
+					给予免疫精神类型减益和流血减益
 					'''
 			}
 
 			BrightPearl: {
-				DisplayName: Bright Pearl
+				DisplayName: 璀璨珍珠
 				Tooltip:
 					'''
-					'All art is autobiographical, the pearl is the oyster�s autobiography'
-					右键装备物品，左键栏位回收
-					While being equipped hooks emit strong light that inflict bioluminescence to close enemies
+					'所有的艺术都是有自传，珍珠是牡蛎的自传'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时钩爪散发强烈的光芒，对附近的敌人造成生物发光（Bug 占位符）
 					'''
 			}
 
 			ChlorophyteSheath: {
-				DisplayName: Chlorophyte Sheath
+				DisplayName: 绿叶剑鞘
 				Tooltip:
 					'''
-					'It takes great courage to pick up a sword, greater courage not to use it'
-					右键装备物品，左键栏位回收
-					While being equipped true melee weapons become 50% bigger and non melee weapons shoot projectile twice faster
+					'举剑需要勇气， 藏锋需要更大的勇气吧'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时真近战武器会变大50%，非近战武器的射速会快两倍
 					'''
 			}
 
 			ColdCharm: {
-				DisplayName: Cold Charm
+				DisplayName: 寒冰护身符
 				Tooltip:
 					'''
-					'It looks cursed'
-					右键装备物品，左键栏位回收
-					While being equipped it will decrease players stats
-					Throwing it to lava or making a nice cozy bath in lava while its being equipped will make it return back to normal
+					'看起来被诅咒了'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时会降低属性
+					扔到熔岩中会转化成正常状态
 					'''
 			}
 
@@ -15962,8 +15962,8 @@ Mods: {
 				DisplayName: 饼干徽章
 				Tooltip:
 					'''
-					'This signifies your friendship with the lost soul'
-					右键装备物品，左键栏位回收
+					'这象征着你与亡灵的友谊'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain 饼干板条箱s actual treasure
 					Still be careful to not burn it with any extra hot sauce in front of your new friend or she may get real upset
 					'''
@@ -15974,7 +15974,7 @@ Mods: {
 				Tooltip:
 					'''
 					'New power is rising. There will be no dawn'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped damage multiplier is being effected by the distance of enemy, closer it is the greater damage become and vice versa
 					'''
 			}
@@ -15984,7 +15984,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Ancient power'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
 					'''
 			}
@@ -15994,7 +15994,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You better bet that my cupcakes are going to be the best part of the whole event!'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped consuming food sources or cookies will give additional hyperactive buff
 					This cause your mouse jitter but weapons have 25% chance to shoot additional inaccurate projectile
 					'''
@@ -16005,7 +16005,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Brace yourself, summer sales are coming!'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped decreases nurse and reforge costs by 25%
 					'''
 			}
@@ -16015,7 +16015,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Caution: May Contain Highly Corrosive Chemical'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped every 10 second player get either a 10 second buff or nondamaging 减益
 					'''
 			}
@@ -16025,19 +16025,19 @@ Mods: {
 				Tooltip:
 					'''
 					'Best to connect with your friends'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped electric arc may appear between player and minion or between minions
 					'''
 			}
 
 			FieryCharm: {
-				DisplayName: Fiery Charm
+				DisplayName: 烈焰护身符
 				Tooltip:
 					'''
-					'The fire within me burns eternal, and now yours as well!'
-					右键装备物品，左键栏位回收
-					While being equipped all weapon classes gain new ability
-					When taking damage it have a chance to lose its heat which player need to make it gain its heat again
+					'我心中的火焰永远燃烧着，现在你的也一样!'
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
+					装备此密藏时所有职业都会获得新的技能
+					受到伤害时，它有概率失去烈焰，需要重新获得烈焰
 					'''
 			}
 
@@ -16046,7 +16046,7 @@ Mods: {
 				Tooltip:
 					'''
 					'EWW, it stinks'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					'While being equipped periodically spawn flies from hook + any fish loot may have additioal junk(You get normal loot + 1 junk along with it)
 					'''
 			}
@@ -16056,7 +16056,7 @@ Mods: {
 				Tooltip:
 					'''
 					'If there is magic on this planet, it is contained in water'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped while player have 潮湿 减益 or while raining it count player submerged with liquid
 					'''
 			}
@@ -16066,7 +16066,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Gotta kick those sinners'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped increases momentum + moving on a solid tile shoots dirt and stone shards backwards
 					'''
 			}
@@ -16076,7 +16076,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Aww, these are so cozy and cute'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped player gain immunity against spikes and hot blocks
 					'''
 			}
@@ -16086,7 +16086,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Contain remnants of the 梦魇史莱姆'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped fear inflicted enemies stay feared unless npc reaches the 减益 limit
 					Feared enemies may get 惊骇 which have a chance to inflict 恐惧 to close enemies
 					'''
@@ -16097,7 +16097,7 @@ Mods: {
 				Tooltip:
 					'''
 					'没有人眨眼！'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此物品时，玩家可以使用闪电冲刺
 					闪电冲刺过程中无视射弹，撞击敌人时释放闪电
 					'''
@@ -16108,7 +16108,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我能听见你……在呼吸'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家的负生命回复会以真实伤害的形式反弹给屏幕中的每一个敌人
 					真实伤害数值等于负生命回复的值乘以2
 					'''
@@ -16119,7 +16119,7 @@ Mods: {
 				Tooltip:
 					'''
 					'失落之智的庇护'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后npc不会死于死亡之???的献祭
 					'''
 			}
@@ -16129,7 +16129,7 @@ Mods: {
 				Tooltip:
 					'''
 					'远古之盾'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后敌人的弹幕有8%概率被反弹回去
 					'''
 			}
@@ -16139,7 +16139,7 @@ Mods: {
 				Tooltip:
 					'''
 					'即使是智者也无法看到所有的结局'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					使用后查看魔法8号球的答案
 					装备时，激活塔罗牌能力有15%的几率取消冷却
 					'''
@@ -16150,7 +16150,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Stick it to 'em'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped bat 全垒打 strikes will spawn additional nails which stick to enemy
 					Striking these nails with bat slam will do additional damage with respect to bats base damage
 					若同时装备了[c/ffff00:博士的单片眼镜] upon sticking to enemy they will do true DoT
@@ -16162,7 +16162,7 @@ Mods: {
 				Tooltip:
 					'''
 					'可爱的小伙伴'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后使用投手物品时有几率扔出一个额外的卵袋，放出大量小虫子
 					'''
 			}
@@ -16172,7 +16172,7 @@ Mods: {
 				Tooltip:
 					'''
 					'先生请给AFK添加细节'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后宝藏袋有小概率逃跑并在地图中产生第二个逃跑的宝藏袋
 					如果玩家成功在其消失前将其击杀，那么玩家会获得额外的宝藏袋
 					'''
@@ -16183,7 +16183,7 @@ Mods: {
 				Tooltip:
 					'''
 					'这游戏需要一点激情。你不同意吗？'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家每次拾起物品时都有50%概率使其数量翻倍，另外50%概率使其消失
 					'''
 			}
@@ -16193,7 +16193,7 @@ Mods: {
 				Tooltip:
 					'''
 					'最伟大的胜利是不需要战斗的'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后提升1点效率
 					'''
 			}
@@ -16203,7 +16203,7 @@ Mods: {
 				Tooltip:
 					'''
 					'可惜不包含逃税'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后受伤时有概率获得钱
 					'''
 			}
@@ -16212,7 +16212,7 @@ Mods: {
 				DisplayName: 悬赏奖金
 				Tooltip:
 					'''
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后所有模组或原版的BOSS纪念章掉落概率提升10%
 					'''
 			}
@@ -16222,7 +16222,7 @@ Mods: {
 				Tooltip:
 					'''
 					'又一个挑战者来了'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后敌人有几率变成精英敌人，精英敌人的数值更高且会掉落两倍战利品
 					'''
 			}
@@ -16232,7 +16232,7 @@ Mods: {
 				Tooltip:
 					'''
 					'现在你对兔子王国来说是个公认的恶魔了'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后饰品有更高概率获得'幸运的'词条
 					'''
 			}
@@ -16242,7 +16242,7 @@ Mods: {
 				Tooltip:
 					'''
 					'包含某些微处理器的真值表与数据库'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后召唤一个防卫无人机，标记玩家的鼠标，以控制模组哨兵的瞄准方向
 					如果玩家使用wrangler，它将转而周期性地朝鼠标方向发射能量束
 					'''
@@ -16253,7 +16253,7 @@ Mods: {
 				Tooltip:
 					'''
 					'涂满红色的东西更好看'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后近战攻击有25%概率造成流血，真近战攻击概率为50%
 					'''
 			}
@@ -16263,7 +16263,7 @@ Mods: {
 				Tooltip:
 					'''
 					'配有一根锚，以防你晕头转向'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后移除海水带来的减速
 					'''
 			}
@@ -16273,7 +16273,7 @@ Mods: {
 				Tooltip:
 					'''
 					'通往光辉纯净的钥匙'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家获得针对丛林陷阱的75%减伤
 					'''
 			}
@@ -16284,7 +16284,7 @@ Mods: {
 					'''
 					'REEROLLLLL!'
 					'(USE AT YOUR OWN RISK)'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped it will make every projectile spawned have id of normal spawned one -1
 					'''
 			}
@@ -16294,7 +16294,7 @@ Mods: {
 				Tooltip:
 					'''
 					'长大后他想成为一个像你一样的英雄'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后，玩家在回复生命值时每5秒提升1点生命再生
 					生命值回满，受到伤害或是生命再生降至0以下时重置此效果
 
@@ -16311,7 +16311,7 @@ Mods: {
 				Tooltip:
 					'''
 					'许多巫师经常携带的一种工艺品'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后，玩家在重生时获得再生增益并额外获得25%生命值
 					'''
 			}
@@ -16321,7 +16321,7 @@ Mods: {
 				Tooltip:
 					'''
 					'找寻你内心的平静'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后每个无敌帧有20%概率不消耗并延续下去
 					'''
 			}
@@ -16331,7 +16331,7 @@ Mods: {
 				Tooltip:
 					'''
 					'传说中它属于月亮尚未存在的时代'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后给予玩家树妖祝福增益
 					'''
 			}
@@ -16341,7 +16341,7 @@ Mods: {
 				Tooltip:
 					'''
 					'This is the greatest plan!'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					While being equipped every afk pets transformation gain new ability
 					'''
 			}
@@ -16351,7 +16351,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它需要能源'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后，生命值全满时略微提升所有属性，魔力值全满时魔力消耗减半
 					'''
 			}
@@ -16361,7 +16361,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一个古老的玻璃制品，常被用于抵御邪恶之灵与有毒动物的侵害'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后免疫中毒，生命值低于25%时所有减益衰减速度加快50%
 					'''
 			}
@@ -16371,7 +16371,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它也许看起来很小，但只有它有变成皇后的潜力'
-					右键装备物品，左键栏位回收
+					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后，玩家手持工具时提升防御力
 					'''
 			}
