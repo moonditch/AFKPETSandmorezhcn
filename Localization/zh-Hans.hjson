@@ -1356,8 +1356,8 @@ Mods: {
 			}
 
 			CryingChild: {
-				DisplayName: Crying Child
-				Description: He still remembers bite of 87
+				DisplayName: 哭泣小孩
+				Description: 他仍然记得87年的那一口
 			}
 
 			CrystalThresher: {
@@ -2388,8 +2388,8 @@ Mods: {
 			}
 
 			GrandDad: {
-				DisplayName: Grand Dad
-				Description: Grand dad将跟随你
+				DisplayName: 马里奥7
+				Description: 马里奥7将跟随你
 			}
 
 			GreaterDog: {
@@ -2548,7 +2548,7 @@ Mods: {
 
 			Ib: {
 				DisplayName: Ib
-				Description: She is looking for Garry
+				Description: 她在找咖喱
 			}
 
 			IceBat: {
@@ -2577,8 +2577,8 @@ Mods: {
 			}
 
 			Inkling: {
-				DisplayName: Inkling
-				Description: It wants to paint your world to orange
+				DisplayName: 乌贼娘
+				Description: 他想把你的世界涂成橙色
 			}
 
 			Innocent: {
@@ -3077,8 +3077,8 @@ Mods: {
 			}
 
 			MasterHand: {
-				DisplayName: Master Hand
-				Description: "'He is looking for worthy opponent'"
+				DisplayName: 大师手套
+				Description: 他在寻找有实力的对手
 			}
 
 			Mawile: {
@@ -4023,12 +4023,12 @@ Mods: {
 
 			SinGyoku: {
 				DisplayName: 神玉
-				Description: "'神玉跟随你'"
+				Description: 神玉跟随你
 			}
 
 			SkeletonGoonie: {
-				DisplayName: Skeleton Goonie
-				Description: How is it still alive?
+				DisplayName: 骨架信天翁
+				Description: 它怎么还活着?
 			}
 
 			SkeletonSniper: {
@@ -4107,8 +4107,8 @@ Mods: {
 			}
 
 			Sonic: {
-				DisplayName: Sonic
-				Description: He is looking for Tails
+				DisplayName: 索尼克
+				Description: 他在找尾巴
 			}
 
 			SoulEat: {
@@ -9612,11 +9612,11 @@ Mods: {
 			}
 
 			BlueInkling: {
-				DisplayName: 蓝鱿鱼（出自:任天堂明星大乱斗，喷射战士）
+				DisplayName: 蓝乌贼（出自:任天堂明星大乱斗，喷射战士）
 				Tooltip:
 					'''
 					'它仔细地看着你'
-					召唤乌贼跟随你
+					召唤乌贼娘跟随你
 					'''
 			}
 
@@ -10568,12 +10568,12 @@ Mods: {
 				Tooltip:
 					'''
 					'有人想拿这个'
-					召唤埃埃特尼亚飞龙跟随你
+					召唤埃特尼亚飞龙跟随你
 					'''
 			}
 
 			GreenInkling: {
-				DisplayName: 绿色鱿鱼（出自:喷射战士）
+				DisplayName: 绿乌贼（出自:喷射战士）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -11309,7 +11309,7 @@ Mods: {
 			}
 
 			OrangeInkling: {
-				DisplayName: 橙色章鱼（出自:任天堂明星大乱斗）
+				DisplayName: 橙乌贼（出自:任天堂明星大乱斗）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -11498,7 +11498,7 @@ Mods: {
 			}
 
 			PinkInkling: {
-				DisplayName: 粉色乌贼（出自:任天堂大乱斗）
+				DisplayName: 粉乌贼（出自:任天堂大乱斗）
 				Tooltip:
 					'''
 					'它仔细地看着你'
@@ -15959,7 +15959,7 @@ Mods: {
 			}
 
 			CookieBadge: {
-				DisplayName: 饼干徽章
+				DisplayName: 饼干徽章（测试，占位符）
 				Tooltip:
 					'''
 					'这象征着你与亡灵的友谊'
@@ -15975,17 +15975,17 @@ Mods: {
 					'''
 					'新的力量正在崛起，黎明将不复存在'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，距离越近的敌人会受到越高的伤害，反之亦然
+					装备此密藏时，敌人越近伤害越高，越远伤害越低
 					'''
 			}
 
 			CurvedHorn: {
-				DisplayName: Curved Horn
+				DisplayName: 号角（测试，第三行，占位符）
 				Tooltip:
 					'''
 					'远古之力'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，当玩家的血量低于10%时赋予巴比伦的诅咒效果，大幅提升各项属性
+					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
 					'''
 			}
 
@@ -15995,7 +15995,7 @@ Mods: {
 					'''
 					'你最好打赌我的纸杯蛋糕会是整个活动中最棒的部分!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后进食或使用饼干会额外提供多动症增益，使你的鼠标抖动，但同时你的武器有25%概率额外发射不稳定的弹幕
+					装备此密藏时进食或使用饼干会额外提供多动症增益，使你的鼠标抖动，但同时你的武器有25%概率额外发射不稳定的弹幕
 					'''
 			}
 
@@ -16005,17 +16005,17 @@ Mods: {
 					'''
 					'振作起来，夏季大促销来了!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后使护士治疗和哥布林工匠重铸的费用降低25%
+					装备此密藏时使护士治疗和哥布林工匠重铸的费用降低25%
 					'''
 			}
 
 			ExperimentalTube: {
-				DisplayName: 实验试管
+				DisplayName: 实验试管（测试，第三行，占位符）
 				Tooltip:
 					'''
 					'警告：可能含有高腐蚀性化合物'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家每10秒获得一个持续10秒的增益或非伤害性减益
+					While being equipped every 10 second player get either a 10 second buff or nondamaging debuff
 					'''
 			}
 
@@ -16025,7 +16025,7 @@ Mods: {
 					'''
 					'最好和你的朋友们绑在一起'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家与召唤物之间或召唤物与召唤物之间有几率出现电弧
+					装备此密藏时召唤师有概率和召唤物释放电弧
 					'''
 			}
 
@@ -16036,7 +16036,7 @@ Mods: {
 					'我心中的火焰永远燃烧着，现在你的也一样!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏时所有职业都会获得新的技能
-					受到伤害时，它有概率失去烈焰，需要重新获得烈焰
+					受到伤害时，它有概率失去烈焰，需要扔到熔岩中获得烈焰
 					'''
 			}
 
@@ -16046,7 +16046,7 @@ Mods: {
 					'''
 					'呕，它在发臭'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					'装备后，钓鱼时鱼钩处会定时生成苍蝇且上钩时有概率额外钓到一个垃圾
+					装备此密藏时，钓鱼会定时生成苍蝇并上钩并有概率得到额外垃圾
 					'''
 			}
 
@@ -16056,7 +16056,7 @@ Mods: {
 					'''
 					'如果这个星球上存在魔法，那么它一定蕴含在水中'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，若玩家受潮湿减益影响或处于下雨天，则视为浸没在水中
+					装备此密藏时，受潮湿减益影响或处于下雨天，被视为浸没在水中
 					'''
 			}
 
@@ -16066,7 +16066,7 @@ Mods: {
 					'''
 					'我要踹翻那些罪人们'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后提高加速度，且在物块上移动时会向后发射泥土和石头碎片
+					装备此密藏时，提高加速度并在物块上移动发射泥土和石头碎片
 					'''
 			}
 
@@ -16076,7 +16076,7 @@ Mods: {
 					'''
 					'噢~，它们真是舒适又可爱'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家免疫尖刺和炽热物块
+					装备此密藏时免疫尖刺和火块
 					'''
 			}
 
@@ -16086,7 +16086,7 @@ Mods: {
 					'''
 					'包含梦魇史莱姆的碎片'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后恐惧减益会使敌人持续受到恐惧，除非减益数量达到了上限
+					装备此密藏时，拥有恐惧减益的敌人会保持恐惧减益，除非减益数量达到了上限
 					被恐惧的敌人可能受到惊骇减益，使其有概率对附近的敌人造成恐惧减益
 					'''
 			}
@@ -16097,7 +16097,7 @@ Mods: {
 					'''
 					'没有人眨眼！'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此物品时，玩家可以使用闪电冲刺
+					装备此密藏时，可以获得闪电冲刺
 					闪电冲刺过程中无视射弹，撞击敌人时释放闪电
 					'''
 			}
@@ -16108,7 +16108,7 @@ Mods: {
 					'''
 					'我能听见你……在呼吸'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家的负生命回复会以真实伤害的形式反弹给屏幕中的每一个敌人
+					装备此密藏时玩家的负生命回复会以真实伤害的形式反弹给屏幕中的每一个敌人
 					真实伤害数值等于负生命回复的值乘以2
 					'''
 			}
@@ -16119,7 +16119,7 @@ Mods: {
 					'''
 					'失落之智的庇护'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后npc不会死于死亡之???的献祭
+					装备此密藏时npc不会死于死亡之???的献祭
 					'''
 			}
 
@@ -16129,7 +16129,7 @@ Mods: {
 					'''
 					'远古之盾'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后敌人的弹幕有8%概率被反弹回去
+					装备此密藏时敌人的弹幕有8%概率被反弹回去
 					'''
 			}
 
@@ -16140,12 +16140,12 @@ Mods: {
 					'即使是智者也无法看到所有的结局'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					使用后查看魔法8号球的答案
-					装备时，激活塔罗牌能力有15%的几率取消冷却
+					装备此密藏时，激活塔罗牌能力有15%的几率取消冷却
 					'''
 			}
 
 			OversizedNails: {
-				DisplayName: Oversized Nails
+				DisplayName: Oversized Nails（占位符）
 				Tooltip:
 					'''
 					'Stick it to 'em'
@@ -16162,18 +16162,18 @@ Mods: {
 					'''
 					'可爱的小伙伴'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后使用投手物品时有几率扔出一个额外的卵袋，放出大量小虫子
+					装备此密藏时，使用投手物品时有概率额外扔出卵巢袋，放出大量小蜜蜂
 					'''
 			}
 
 			PerfectlyGenericObject: {
-				DisplayName: 完美的普通之物
+				DisplayName: 完美的普通之物（测试，占位符3.4）
 				Tooltip:
 					'''
 					'先生请给AFK添加细节'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后宝藏袋有小概率逃跑并在地图中产生第二个逃跑的宝藏袋
-					如果玩家成功在其消失前将其击杀，那么玩家会获得额外的宝藏袋
+					装备此密藏时宝藏袋有小概率逃跑并在地图中产生第二个逃跑的宝藏袋
+					成功在消失前将其击杀，那么会获得额外的宝藏袋
 					'''
 			}
 
@@ -16183,7 +16183,7 @@ Mods: {
 					'''
 					'这游戏需要一点激情。你不同意吗？'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家每次拾起物品时都有50%概率使其数量翻倍，另外50%概率使其消失
+					装备此密藏时，每次拾起物品都有50%的概率让数量翻倍并有50%的概率消失
 					'''
 			}
 
@@ -16193,7 +16193,7 @@ Mods: {
 					'''
 					'最伟大的胜利是不需要战斗的'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后提升1点效率
+					装备此密藏时提升1点效率
 					'''
 			}
 
@@ -16203,7 +16203,7 @@ Mods: {
 					'''
 					'可惜不包含逃税'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后受伤时有概率获得钱
+					装备此密藏时受伤有概率获得钱币
 					'''
 			}
 
@@ -16212,7 +16212,7 @@ Mods: {
 				Tooltip:
 					'''
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后所有模组或原版的BOSS纪念章掉落概率提升10%
+					装备此密藏时模组和原版BOSS纪念章掉落概率提升10%
 					'''
 			}
 
@@ -16222,7 +16222,7 @@ Mods: {
 					'''
 					'又一个挑战者来了'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后敌人有几率变成精英敌人，精英敌人的数值更高且会掉落两倍战利品
+					装备此密藏时敌人有几率变成精英敌人，精英敌人的数值更高且会掉落两倍战利品
 					'''
 			}
 
@@ -16232,17 +16232,17 @@ Mods: {
 					'''
 					'现在你对兔子王国来说是个公认的恶魔了'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后饰品有更高概率获得'幸运的'词条
+					装备此密藏时饰品有更高概率获得'幸运的'词条
 					'''
 			}
 
 			ResearchNotes: {
-				DisplayName: 研究笔记
+				DisplayName: 研究笔记（占位符）
 				Tooltip:
 					'''
 					'包含某些微处理器的真值表与数据库'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后召唤一个防卫无人机，标记玩家的鼠标，以控制模组哨兵的瞄准方向
+					装备此密藏时召唤一个防卫无人机，标记玩家的鼠标，以控制模组哨兵的瞄准方向
 					如果玩家使用wrangler，它将转而周期性地朝鼠标方向发射能量束
 					'''
 			}
@@ -16253,7 +16253,7 @@ Mods: {
 					'''
 					'涂满红色的东西更好看'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后近战攻击有25%概率造成流血，真近战攻击概率为50%
+					装备此密藏时近战攻击有25%概率造成流血减益，真近战攻击概率为50%
 					'''
 			}
 
@@ -16263,7 +16263,7 @@ Mods: {
 					'''
 					'配有一根锚，以防你晕头转向'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后移除海水带来的减速
+					装备此密藏时移除海水带来的减速
 					'''
 			}
 
@@ -16273,7 +16273,7 @@ Mods: {
 					'''
 					'通往光辉纯净的钥匙'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后玩家获得针对丛林陷阱的75%减伤
+					装备此密藏时获得丛林陷阱的75%减伤
 					'''
 			}
 
@@ -16294,9 +16294,8 @@ Mods: {
 					'''
 					'长大后他想成为一个像你一样的英雄'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，玩家在回复生命值时每5秒提升1点生命再生
+					装备此密藏恢复生命时，每5秒提升1点生命再生
 					生命值回满，受到伤害或是生命再生降至0以下时重置此效果
-
 					'''
 			}
 
@@ -16311,7 +16310,7 @@ Mods: {
 					'''
 					'许多巫师经常携带的一种工艺品'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，玩家在重生时获得再生增益并额外获得25%生命值
+					装备此密藏时，重生获得再生增益并额外获得25%生命值
 					'''
 			}
 
@@ -16321,7 +16320,7 @@ Mods: {
 					'''
 					'找寻你内心的平静'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后每个无敌帧有20%概率不消耗并延续下去
+					装备此密藏时，每个无敌帧有20%概率不消耗并延续下去
 					'''
 			}
 
@@ -16331,7 +16330,7 @@ Mods: {
 					'''
 					'传说中它属于月亮尚未存在的时代'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后给予玩家树妖祝福增益
+					装备此密藏时赐予树妖祝福增益
 					'''
 			}
 
@@ -16351,7 +16350,7 @@ Mods: {
 					'''
 					'它需要能源'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，生命值全满时略微提升所有属性，魔力值全满时魔力消耗减半
+					装备此密藏时，生命值全满时略微提升所有属性，魔力值全满时魔力消耗减半
 					'''
 			}
 
@@ -16361,7 +16360,7 @@ Mods: {
 					'''
 					'一个古老的玻璃制品，常被用于抵御邪恶之灵与有毒动物的侵害'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后免疫中毒，生命值低于25%时所有减益衰减速度加快50%
+					装备此密藏时，免疫中毒，生命值低于25%时所有减益衰减速度加快50%
 					'''
 			}
 
@@ -16371,7 +16370,7 @@ Mods: {
 					'''
 					'它也许看起来很小，但只有它有变成皇后的潜力'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备后，玩家手持工具时提升防御力
+					装备此密藏时，手持工具提升防御力
 					'''
 			}
 
@@ -22565,7 +22564,7 @@ Mods: {
 			Bagon.DisplayName: Bagon
 			BenbenTsukumo.DisplayName: 九十九弁弁
 			BirdBlue.DisplayName: 冠蓝鸦
-			BirdGold.DisplayName: Bird Gold
+			BirdGold.DisplayName: 金鸟
 			BirdRed.DisplayName: Bird Red
 			BirdWhite.DisplayName: Bird White
 			BlackMage.DisplayName: Black Mage
@@ -22614,7 +22613,7 @@ Mods: {
 			Crimera.DisplayName: 小猩红喀迈拉
 			CrowMinion.DisplayName: Crow Minion
 			CrowPrince.DisplayName: 乌鸦王子
-			CryingChild.DisplayName: Crying Child
+			CryingChild.DisplayName: 哭泣小孩
 			CrystalThresher.DisplayName: 水晶沙鲨
 			Cuphead.DisplayName: Cuphead
 			Cupid.DisplayName: 丘比特
@@ -22672,7 +22671,7 @@ Mods: {
 			GingerBreadMan.DisplayName: 姜饼人
 			GoldBunny.DisplayName: 金兔
 			GoldMimic.DisplayName: 金宝箱怪
-			GrandDad.DisplayName: Grand Dad
+			GrandDad.DisplayName: 马里奥7
 			GreaterDog.DisplayName: 大犬汪
 			Grillby.DisplayName: Grillby
 			GyroZeppeli.DisplayName: 杰洛·齐贝林
@@ -22688,7 +22687,7 @@ Mods: {
 			IceMimic.DisplayName: 冰冻宝箱怪
 			IchirinKumoi.DisplayName: 云居一轮
 			Iku.DisplayName: 永江衣玖
-			Inkling.DisplayName: Inkling
+			Inkling.DisplayName: 乌贼娘
 			Innocent.DisplayName: Innocent
 			IrvineKinneas.DisplayName: Irvine Kinneas
 			Isabelle.DisplayName: 西施惠
@@ -22781,7 +22780,7 @@ Mods: {
 			Marx.DisplayName: Marx
 			Marx2.DisplayName: Marx2
 			Mary.DisplayName: Mary
-			MasterHand.DisplayName: Master Hand
+			MasterHand.DisplayName: 大师手套
 			Mawile.DisplayName: Mawile
 			MayaFey.DisplayName: 绫里真宵
 			MegaKnight.DisplayName: 超级骑士
@@ -22929,7 +22928,7 @@ Mods: {
 			Shrek.DisplayName: 史瑞克
 			ShyGuy.DisplayName: Shy Guy
 			SinGyoku.DisplayName: 神玉
-			SkeletonGoonie.DisplayName: Skeleton Goonie
+			SkeletonGoonie.DisplayName: 骨架信天翁
 			Skeletron2.DisplayName: 邪恶的骷髅
 			Skeletron.DisplayName: Skeletron
 			Slimer.DisplayName: 恶翅史莱姆
@@ -22937,7 +22936,7 @@ Mods: {
 			Slime.DisplayName: Slime
 			Smeargle.DisplayName: Smeargle
 			Snorlax.DisplayName: Snorlax
-			Sonic.DisplayName: Sonic
+			Sonic.DisplayName: 索尼克
 			SpiritofFun.DisplayName: Spiritof Fun
 			Spiritomb.DisplayName: Spiritomb
 			SpongeBob.DisplayName: 海绵宝宝
