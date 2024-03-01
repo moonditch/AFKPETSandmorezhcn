@@ -15970,12 +15970,12 @@ Mods: {
 			}
 
 			CrackedLens: {
-				DisplayName: Cracked Lens
+				DisplayName: 破碎透镜
 				Tooltip:
 					'''
-					'New power is rising. There will be no dawn'
+					'新的力量正在崛起，黎明将不复存在'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped damage multiplier is being effected by the distance of enemy, closer it is the greater damage become and vice versa
+					装备后，距离越近的敌人会受到越高的伤害，反之亦然
 					'''
 			}
 
@@ -15983,9 +15983,9 @@ Mods: {
 				DisplayName: Curved Horn
 				Tooltip:
 					'''
-					'Ancient power'
+					'远古之力'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
+					装备后，当玩家的血量低于10%时赋予巴比伦的诅咒效果，大幅提升各项属性
 					'''
 			}
 
@@ -16013,7 +16013,7 @@ Mods: {
 				DisplayName: 实验试管
 				Tooltip:
 					'''
-					'警告：可能含有高腐蚀性化合物Caution: May Contain Highly Corrosive Chemical'
+					'警告：可能含有高腐蚀性化合物'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家每10秒获得一个持续10秒的增益或非伤害性减益
 					'''
@@ -16023,7 +16023,7 @@ Mods: {
 				DisplayName: 延长电线
 				Tooltip:
 					'''
-					'最好和你的朋友们绑在一起Best to connect with your friends'
+					'最好和你的朋友们绑在一起'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家与召唤物之间或召唤物与召唤物之间有几率出现电弧
 					'''
@@ -16074,7 +16074,7 @@ Mods: {
 				DisplayName: 奶奶袜
 				Tooltip:
 					'''
-					'噢~，它们真是舒适又可爱Aww, these are so cozy and cute'
+					'噢~，它们真是舒适又可爱'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备后玩家免疫尖刺和炽热物块
 					'''
@@ -16301,7 +16301,7 @@ Mods: {
 			}
 
 			StormDiverRibbon: {
-				DisplayName: Storm Diver Ribbon
+				DisplayName: 驭风绶带
 				Tooltip: ""
 			}
 
