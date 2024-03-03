@@ -65,116 +65,114 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 				sb.Replace("An angelic sword will protect players back + if player holds true melee weapon additional angelic sword will spawn",
 							"召唤一把天使之剑将保护玩家，如果玩家持有真近战武器，将会产生额外的天使之剑");
-				/*sb.Replace("Instead of direct respawn it continue to protect player and slowly fades away",
-							"");
+				sb.Replace("Instead of direct respawn it continue to protect player and slowly fades away",
+							"重生后幽灵不会立刻消失，而是继续守护玩家一段时间，然后慢慢消失");
 				sb.Replace("Taking damage higher than 5% of life have 10% chance to call a S.A.T.L.A.-001 to strike",
-							"");
+							"受到超过生命值5%的伤害时，有10%的几率召唤SATLA-001进行反击");
 				sb.Replace("Bats have a chance to throw 2 baseball at the same time while doing RC ball throw",
-							"");
+							"使用棒球棍武器右键投球时，有几率同时投出两个棒球");
 				sb.Replace("Instead of overheat damaging player it will now give player 20% increased mana usage + inferno buff",
-							"");
+							"过热产生的爆炸不会伤害玩家，而是使玩家的魔力消耗增加20%，并赋予狱火增益");
 				sb.Replace("Convert feral bite into a positive effect buff which increase damage by 15% instead of 20% but randomly gives buffs instead of debuffs",
-							"");
+							"将野性咬噬转化为正面效果，增加15%伤害（而不是原版的20%），并随机赋予增益而不是减益");
 				sb.Replace("When this effect happen player will also produce fart cloud which damage + poison any enemy that touch it",
-							"");
+							"当此效果触发时，玩家还会产生毒气云，对任何接触到它的敌人造成伤害并施加中毒");
 				sb.Replace("Bomb effect activates twice",
-							"");
+							"炸弹效果触发两次");
 				sb.Replace("Heal source now heal by 2 + immunity to bleeding",
-							"");
+							"任意来源的生命恢复量增加2点并免疫流血");
 				sb.Replace("Attacks have a chance to be true damage",
-							"");
+							"任意攻击都有几率造成真实伤害");
 				sb.Replace("Bounce type damage increase by 200% + immunity against oozed and slime",
-							"");
+							"反弹型伤害增加200%，免疫史莱姆粘液和食人魔唾液减益");
 				sb.Replace("Player becomes a host and brain clot starts to attack close enemies",
-							"");
+							"玩家变成滴滴怪宿主，血栓触手开始攻击附近的敌人");
 				sb.Replace("Increases the catch rate of rare fishes",
-							"");
+							"增加钓到稀有渔获的几率");
 				sb.Replace("Hitting enemy with true melee sword have a chance to activate its ability twice",
-							"");
+							"用真近战剑命中敌人时，有几率触发其能力两次");
 				sb.Replace("Consuming cookies will also make every buff that have 1-7 minute time left get refreshed to 7 minute",
-							"");
+							"吃掉饼干后，会使所有剩余时间为1-7分钟增益的效果持续时间刷新为7分钟");
 				sb.Replace("Drastically increase damage bonus and penalty",
-							"");
+							"大幅增加伤害加成和惩罚的效果");
 				sb.Replace("This effect activate while player is below 25% max hp",
-							"");
+							"当玩家生命值低于25%时触发密藏效果");
 				sb.Replace("Hyperactive buff will also make projectiles gain 50% increased velocity",
-							"");
+							"多动症同时增加50%射弹的速度");
 				sb.Replace("Player get random discounts and get part of its money back while buying from npc shop with RC",
-							"");
+							"当玩家右键从NPC商店购买物品时，会有随机折扣并获得部分退款");
 				sb.Replace("Buff and debuff happen at the same time + debuffs duration is 5 second while buff duration is 15 second",
-							"");
+							"增益和减益会同时出现，增益持续15秒而减益持续5秒");
 				sb.Replace("It may also appear between players and sentry or between sentries or minions",
-							"");
+							"玩家和哨兵之间、哨兵和哨兵之间也有几率产生电弧");
 				sb.Replace("It will not lose its heat",
-							"");
+							"它将不会损失热量");
 				sb.Replace("Hook produce stench aura that poisons enemies + additional junk get possiblity increase",
-							"");
+							"鱼钩产生对敌人施加中毒的恶臭气场，提高额外垃圾出现的几率");
 				sb.Replace("Allows submerged with liquid effect with no restrictions",
-							"");
+							"可以无限制地视为浸没在液体中");
 				sb.Replace("Speed stat cannot get lower than its initial value (Unless any mod does hardcoded speed adjust)",
-							"");
+							"玩家的速度不会低于其初始值（除非有其它模组进行了速度的硬编码调整）");
 				sb.Replace("It provides immunity against chilled + gives warmth effect",
-							"");
+							"免疫冷冻并赋予保暖药水效果");
 				sb.Replace("Player emit fear area and it turns into horror if player already have psychological aura",
-							"");
+							"玩家散发出施加恐惧的气场，如果玩家装备了尤里之眼，则会施加惊骇");
 				sb.Replace("Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction",
-							"");
+							"撞击非Boss敌人产生强力击退并施加羁绊引力");
 				sb.Replace("When any feared enemy does contact damage there is a small chance to they hit themselves instead",
-							"");
+							"当任何受到恐惧减益的敌人造成接触伤害时，有很小的几率击伤自己");
 				sb.Replace("It have a small chance to also protect player from death",
-							"");
+							"它也有很小的几率可以保护玩家免于死亡");
 				sb.Replace("Taking projectile damage also hurt closest enemy with same amount + reflecting increase damage by 100%",
-							"");
+							"受到射弹伤害时，会以相同的数值伤害最近的敌人，并且反弹回去的射弹伤害增加100%");
 				sb.Replace("Taking hit while tarot cooldown is active have a small chance to activate random tarot major effect",
-							"");
+							"当塔罗牌处于冷却时间时，受到攻击有很小的几率触发随机的塔罗牌主要能力");
 				sb.Replace("Berserk state swings have a chance to shoot nails",
-							"");
+							"狂暴状态下的棒球棍攻击有几率射出钉子");
 				sb.Replace("Any bugs have a chance to be stronger",
-							"");
+							"小寄生蜂有几率变得更强");
 				sb.Replace("Instead of glitching out and despawn it now attacks player",
-							"");
+							"宝藏袋不会逃跑而是试图攻击玩家");
 				sb.Replace("Picking item from ground 25% chance to quadruple the amount and 75% chance to nullify the item",
-							"");
+							"每次拾起物品都有25%的概率让数量变为四倍并有75%的概率使其消失");
 				sb.Replace("Harvesters gain small chance to perform harvest crit which double efficiency",
-							"");
+							"有几率获得双倍效率提升");
 				sb.Replace("Double tap down will spawn it to ground which spew out coins that inflict midas",
-							"");
+							"双击下键释放施加迈达斯减益的钱币云");
 				sb.Replace("Trophy drop chance now increase by 20%",
-							"");
+							"纪念章掉落概率现在提升20%");
 				sb.Replace("Elite enemy spawn frequency increase + they give a guaranteed heart and star on death",
-							"");
+							"精英敌人的生成概率增加，死亡时必定掉落一颗生命心和魔力星");
 				sb.Replace("Taking damage higher than 5% of life have 10% chance to call a bunny zeppelin to strike",
-							"");
+							"受到超过生命值5%的伤害时，有10%的几率召唤兔子飞艇进行反击");
 				sb.Replace("A mediocre electrician will help you to charge your enemies along with decrease cooldown of afkpets aiming sentries",
-							"");
+							"一个平庸的电工将帮助你电击你的敌人，同时减少本模组瞄准类型哨兵的冷却时间");
 				sb.Replace("Occurance of this effect will additionally give player life drain",
-							"");
+							"此效果触发时还会使玩家的生命值流失");
 				sb.Replace("Double tap down will make player strike below with anchor",
-							"");
+							"双击下键释放猛击地面的船锚");
 				sb.Replace("Each active player get their soul shattered and piece of their soul protect the player and there can be max 5 active",
-							"");
+							"每个活跃玩家破碎灵魂的一部分都被用来保护玩家，最多同时存在5个灵魂碎片");
 				sb.Replace("The spawned projectiles have 50% chance have base id -1 and 50% chance to have base id +1",
-							"");
+							"实际生成射弹的序号有50%的几率会比正常生成的少1位，有50%的几率会比正常生成的多1位");
 				sb.Replace("This ability do not affect from having life regen less than 0",
-							"");
+							"当生命再生速率低于0时，此效果不受影响");
 				sb.Replace("If player does not have any wing it grow harpy wings and if it does it gets increased wing time instead",
-							"");
+							"如果玩家没有翅膀，则长出鸟妖之翼；如果已经有翅膀，则增加翅膀的飞行时间");
 				sb.Replace("Player gain endurance buff instead + spawn with full hp",
-							"");
+							"重生时恢复全部生命值，获得伤害减免而不是生命再生增益");
 				sb.Replace("Player gain aura with respect to 5 different time period of day which increase specific stats",
-							"");
+							"玩家根据一天中的五个不同时间段获得光环，增加特定属性");
 				sb.Replace("Player form dryad's bane aura around itself",
-							"");
+							"玩家生成围绕自身的树妖之环");
 				sb.Replace("Minion hits have a chance to call a plane to do bloody rotor strike",
-							"");
+							"召唤物的攻击有几率召唤一架飞机进行血腥旋翼打击");
 				sb.Replace("Effects will work until reaching below 75% of corresponding hp and mana",
-							"");
+							"在生命值和魔力值低于75%前，效果将持续激活");
 				sb.Replace("If taking heart increase players life to above max it will make player grow snake head for a short time\nThere can be max 3 snake grow from player + after player have max snake taking heart from ground have a chance to clear debuffs",
-							"");
+							"如果拾取生命心后玩家的生命值超过最大值，则会在短时间内长出蛇头\n最多可以长出3条蛇头，此时从地面拾取生命心有几率直接清除减益");
 				sb.Replace("Holding tools will also provide thorns effect + knockback immunity",
-							"");
-				sb.Replace("Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction\n",
-							"");*/
+							"手持工具额外获得荆棘效果并免疫击退");
 
 				//特殊修饰语 - 等模组修Bug
 				//sb.Replace("", "");
@@ -202,7 +200,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("[c/ffff00:Tiny Ice Fairy]\nShe will strike close enemies by icicles\n[c/ffff00:Biome specific Ability]: Icicles and frost flames start to rain below her",
 							"[c/ffff00:寒冰精灵]\n用冰柱攻击附近的敌人\n[c/ffff00:群落特殊能力]: 在她下方降下冰柱和冰霜火焰");
 				sb.Replace("[c/ffff00:Tiny Raid Knight]\nHe marks closest enemy to form a forbidden ritual around that enemy\n[c/ffff00:Biome specific Ability]: Generates a calamitous area around himself which cause minion projectiles in this area may get marked\nThis projectiles have a chance to inflict soulblight + weaken them but make damage dealt become true damage",
-							"[c/ffff00:突袭骑士]\n标记最近的敌人，在该敌人周围形成禁忌仪式\n[c/ffff00:群落特殊能力]: 在他周围生成一个灾难区域，经国该区域的召唤物可能被标记\n标记后被削弱，但所有攻击造成真实伤害，同时有几率施加灵魂枯萎");
+							"[c/ffff00:突袭骑士]\n标记最近的敌人，在该敌人周围形成禁忌仪式\n[c/ffff00:群落特殊能力]: 在他周围生成一个灾难区域，经过该区域的召唤物可能被标记\n标记后被削弱，但所有攻击造成真实伤害，同时有几率施加灵魂枯萎");
 				sb.Replace("[c/ffff00:Tiny Ninja]\nHe will strike close enemies with shurikens + RC will teleport them around your mouse location\n[c/ffff00:Biome specific Ability]: He will form shadow clones around the enemy that do katana strike",
 							"[c/ffff00:忍者]\n用手里剑攻击附近的敌人，右键会将他们传送到光标位置\n[c/ffff00:群落特殊能力]: 在敌人周围生成用武士刀攻击的影分身");
 				sb.Replace("[c/ffff00:Tiny Goblin Archer]\nHe will shoot your foes down with arrows which gets changed with respect to enviromental conditions\n[c/ffff00:Biome specific Ability]: Upon hitting enemy the arrows will split into 2 weaker that moves backwards",
@@ -239,7 +237,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("It drops from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy",
 							"[c/FF0000:饼干板条箱]掉落\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Box]\nIt become fishable in ocean after player equip [c/FF0000:Cookie Badge] which drop from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nIf player activate no fish mechanic option from mod config it bypass this",
-							"可以从 [c/FF0000:饼干盒] 获得\n装备 [c/FF0000:饼干板条箱] 掉落的 [c/FF0000:饼干徽章] 后，可以通过钓鱼获得\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n如果在设置中启用了禁用额外的钓鱼机制选项，将绕过此限制");
+							"可以从 [c/FF0000:饼干盒] 获得\n装备 [c/FF0000:饼干板条箱] 掉落的 [c/FF0000:饼干徽章] 后，钓鱼有几率获得 [c/FF0000:饼干盒]\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n如果在设置中启用了禁用额外的钓鱼机制选项，将绕过此限制");
 				sb.Replace("It drops from [c/FF0000:Spirit of Gluttory]\nFirst defeat [c/FF0000:Cookie Crate]\nThen burn [c/FF0000:Cookie Badge] item with [c/FF0000:Lamb Sauce][c/FF0000:Cookie Crate] could be awoken from fishing her in ocean",
 							"[c/FF0000:贪食之魂]掉落\n首先击败 [c/FF0000:饼干板条箱]\n然后在友好的饼干魂面前用 [c/FF0000:羊酱汁] 燃烧 [c/FF0000:饼干徽章] 以激怒它\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Crate] and [c/FF0000:Cookie Box]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nCheck [c/FF0000:Cookie Box] lil wiki entry for more info for it",

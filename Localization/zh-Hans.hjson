@@ -155,7 +155,7 @@ Mods: {
 			SpiritBird.DisplayName: 灵鸟
 
 			Assassin: {
-				DisplayName: 暗杀者
+				DisplayName: 刺客
 
 				TownNPCMood: {
 					Content: 我很满足.
@@ -344,7 +344,7 @@ Mods: {
 				}
 			}
 
-			AstralGhost.DisplayName: 精神幽灵
+			AstralGhost.DisplayName: 幽灵
 			BabyBlazer.DisplayName: 小滚轮
 			CharaEnemy.DisplayName: 被藻类植物束缚的人
 			CyberPlayerShield.DisplayName: Cyber Player Shield
@@ -793,7 +793,7 @@ Mods: {
 			CourageStatue.MapEntry: 胆小狗雕像
 			CoughingCatPainting.MapEntry: Coughing Cat Painting
 			CookieCharm.MapEntry: Cookie Charm
-			CookieBox.MapEntry: Cookie Box
+			CookieBox.MapEntry: 饼干盒
 			Computer.MapEntry: Computer
 			ChaosTorch.MapEntry: 混乱火把
 			ChallengerDeep.MapEntry: Challenger Deep
@@ -1502,17 +1502,17 @@ Mods: {
 
 			BeatSaberBlue: {
 				DisplayName: Beat Saber Blue
-				Description: npc will take more damage
+				Description: NPC will take more damage
 			}
 
 			BeatSaberRed: {
 				DisplayName: Beat Saber Red
-				Description: npcs damage will decrease
+				Description: NPCs damage will decrease
 			}
 
 			BioShine: {
-				DisplayName: Bioluminescence
-				Description: Enemy will shine
+				DisplayName: 生物荧光
+				Description: 敌人会发光
 			}
 
 			BloodCrush: {
@@ -1631,8 +1631,8 @@ Mods: {
 			}
 
 			Oozed2: {
-				DisplayName: Oozed
-				Description: Movement is significantly reduced
+				DisplayName: 食人魔唾液
+				Description: 大幅减少移动速度
 			}
 
 			Overfrozen: {
@@ -2001,8 +2001,8 @@ Mods: {
 			}
 
 			Hyperactive: {
-				DisplayName: Hyperactive
-				Description: Energy Way Up
+				DisplayName: 多动症
+				Description: 活力四射
 			}
 
 			JudasRebornDebuff: {
@@ -2012,12 +2012,12 @@ Mods: {
 
 			Kendama: {
 				DisplayName: Success
-				Description: 10% increased summon damage
+				Description: 增加 10% 召唤伤害
 			}
 
 			KizunasLightning: {
-				DisplayName: Lightning Strike
-				Description: Dash Through Projectile + Charge Slam
+				DisplayName: 闪电猛击
+				Description: 无视射弹，撞击敌人时释放闪电
 			}
 
 			Lean: {
@@ -2047,7 +2047,7 @@ Mods: {
 
 			ManaOverheat: {
 				DisplayName: 过热
-				Description: 增加法力使用
+				Description: 增加魔力消耗
 			}
 
 			MimicCopper: {
@@ -2090,7 +2090,7 @@ Mods: {
 				Description: 提升所有属性
 			}
 
-			QuickdrawDebuff: {
+			Quickdrawdebuff: {
 				DisplayName: 快斩刀鞘冷却
 				Description: 你需要休息才能再次挥舞刀光
 			}
@@ -2558,7 +2558,7 @@ Mods: {
 
 			IceKing: {
 				DisplayName: 寒冰王
-				Description: 他正在寻找女性npc
+				Description: 他正在寻找女性NPC
 			}
 
 			IceMimic: {
@@ -3593,7 +3593,7 @@ Mods: {
 
 			Glorified: {
 				DisplayName: 荣耀
-				Description: 增大 25% 剑和射弹的大小
+				Description: 增加 25% 剑的大小和射速
 			}
 
 			Ironclad: {
@@ -3613,7 +3613,7 @@ Mods: {
 
 			Milk: {
 				DisplayName: 闪亮
-				Description: 发光，附近的敌人受到生物光影响
+				Description: 散发强烈的光芒，并对附近的敌人施加生物荧光减益
 			}
 
 			Nutty: {
@@ -4083,7 +4083,7 @@ Mods: {
 
 			SlowEnemy: {
 				DisplayName: Mirage Adjuster
-				Description: It cause npc to get slower
+				Description: It cause NPC to get slower
 			}
 
 			Smeargle: {
@@ -5618,7 +5618,7 @@ Mods: {
 					'让他们的辉煌过去守护你的未来'
 					哨兵栏≥2时，获得1个额外召唤栏并增加5%召唤伤害
 					哨兵栏≥4时，接触类型哨兵在被击中时有几率产生蓝色圣甲虫
-					哨兵栏≥6时，哨兵获得生物发光光环
+					哨兵栏≥6时，哨兵获得生物荧光光环
 					哨兵栏≥8时，召唤一个守护者来协助你
 					'''
 			}
@@ -6188,7 +6188,7 @@ Mods: {
 					-绿色: 稍微恢复生命值
 					-红色: 召唤初音未来为你战斗10秒
 					-粉色: 提供随机的原版或本模组增益
-					-黄色: 清除混乱状态、耐魔性，大幅减少本模组武器的冷却时间
+					-黄色: 清除混乱状态、魔力疾病，大幅减少本模组武器的冷却时间
 					-彩虹: 标记屏幕上的每个敌人，它们受到持续的真实伤害，降低防御力，非Boss敌人死亡时会掉落双倍战利品
 					提高游戏中的音乐音量大小将增加音符的出现速度
 					'''
@@ -8021,7 +8021,7 @@ Mods: {
 					'''
 					来自博丽神社
 					右键捐赠一枚金币是件好事
-					捐赠一次给予1天的祝福，增加运气和旅行npc的生成概率
+					捐赠一次给予1天的祝福，增加运气和旅行NPC的生成概率
 					任何额外的捐赠都有概率给予幻想乡类的宠物+物品
 					神社的捐款只在白天接受
 					'''
@@ -8068,7 +8068,7 @@ Mods: {
 				DisplayName: 光莓种子
 				Tooltip:
 					'''
-					'喜欢生物发光、深、有机质含量高的土壤'
+					'喜欢荧光、深、有机质含量高的土壤'
 					为了能够正常生长，种植的土壤需要与固化肥料相连
 					'''
 			}
@@ -11042,7 +11042,7 @@ Mods: {
 			}
 
 			Masterball4: {
-				DisplayName: 大师球（出自:口袋妖怪） 
+				DisplayName: 大师球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'拿着它会让你感觉很温暖'
@@ -11051,7 +11051,7 @@ Mods: {
 			}
 
 			Masterball5: {
-				DisplayName: 大师球（出自:口袋妖怪） 
+				DisplayName: 大师球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'拿着它会让你觉得很奇怪'
@@ -11060,7 +11060,7 @@ Mods: {
 			}
 
 			Masterball6: {
-				DisplayName: 大师球（出自:口袋妖怪） 
+				DisplayName: 大师球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'拿着它会让你会听到一段微弱的旋律'
@@ -11070,7 +11070,7 @@ Mods: {
 			}
 
 			Masterball7: {
-				DisplayName: 大师球（出自:口袋妖怪） 
+				DisplayName: 大师球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'拿着它也会影响时间和空间的形态'
@@ -11079,7 +11079,7 @@ Mods: {
 			}
 
 			Masterball8: {
-				DisplayName: 大师球（出自:口袋妖怪） 
+				DisplayName: 大师球（出自:口袋妖怪）
 				Tooltip:
 					'''
 					'它像钻石一样闪闪发光'
@@ -13871,7 +13871,7 @@ Mods: {
 				Tooltip:
 					'''
 					'如果我吃了它，我的内脏会发光吗？'
-					使用后获得强烈发光能力，伤害附近的敌人
+					使用后散发强烈的光芒，并对附近的敌人施加生物荧光减益
 					'''
 			}
 
@@ -14130,7 +14130,7 @@ Mods: {
 					'''
 					'它曾经形成，然后被亘古领主保佑'
 					'甚至它还戴着一顶红帽子'
-					放在物品栏中会让其他npc成为爱好者并记住亘古领主
+					放在物品栏中会让其他NPC成为爱好者并记住亘古领主
 					放在物品栏中时，进入世界会听到传奇的介绍
 					'''
 			}
@@ -14185,7 +14185,7 @@ Mods: {
 					'你获得了财宝，但代价是什么?'
 					'???觉得向导很无辜'
 					献祭也可以通过向导巫毒娃娃来完成，如果不满足献祭完成的条件，则使用此物品后会立刻死亡
-					也许[c/FF1493:快乐]……
+					也许他们去了[c/FF1493:极乐之地]……
 					'''
 			}
 
@@ -14519,7 +14519,7 @@ Mods: {
 				Tooltip:
 					'''
 					'钓鱼很有趣……抓鱼更好'
-					有更高的概率捕捉npc和在困难模式下，它有轻微的机会钓到猪龙鱼公爵
+					有更高的概率捕捉NPC和在困难模式下，它有轻微的机会钓到猪龙鱼公爵
 					'''
 			}
 
@@ -15280,7 +15280,7 @@ Mods: {
 				Tooltip:
 					'''
 					'看来你是唯一一个拥有原始版本的人了'
-					使用时，它让每个城镇npc都接受当前光标所在的房间
+					使用时，它让每个城镇NPC都接受当前光标所在的房间
 					（甚至不需要房子有墙就好了）
 					'''
 			}
@@ -15290,8 +15290,8 @@ Mods: {
 				Tooltip:
 					'''
 					你可能是这个宇宙中第一个使用这把枪的人
-					使用时，它会召唤一个传送门，生成当前入住需要达成的城镇npc
-					这个传送门在光标处生成，如果所有的城镇npc都在场，它会召唤兔子
+					使用时，它会召唤一个传送门，生成当前入住需要达成的城镇NPC
+					这个传送门在光标处生成，如果所有的城镇NPC都在场，它会召唤兔子
 					它需要次元能量胶囊作为弹药
 					'''
 			}
@@ -15812,7 +15812,7 @@ Mods: {
 					'''
 					'你不确定是你背负着它，还是它背负着你'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped upon taken damage value is higher than 100 it will protect player instead with a cooldown
+					当受到的伤害高于100时，会代替玩家承受伤害，并进入冷却
 					'''
 			}
 
@@ -15823,7 +15823,7 @@ Mods: {
 					'真正的灵魂出窍体验!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					死亡时释放幽灵，右键攻击光标方向并跟随光标位置
-					随着重生而消失
+					玩家重生后消失
 					'''
 			}
 
@@ -15833,7 +15833,7 @@ Mods: {
 					'''
 					'你不知道这是来自腐化的力量，他可以把善良的生物变成最邪恶的'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时有高概率获得护佑作为前缀
+					装备此密藏时，重铸有高概率获得护佑词缀
 					'''
 			}
 
@@ -15843,7 +15843,7 @@ Mods: {
 					'''
 					'接住一个飞来的球是一种乐趣，接住后该怎么处理它是另一种乐趣'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时棒球弹药有概率恢复并丢失的球有概率不会造成惩罚
+					装备此密藏时，有几率不消耗棒球弹药，未击中目标的攻击有几率不会受到惩罚
 					'''
 			}
 
@@ -15853,10 +15853,10 @@ Mods: {
 					'''
 					'紧急能源!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					拥有0或少于持有武器所需的法力值时，法力值会立即被填满
-					这不会造成耐魔性但有可能过热造成爆炸，伤害玩家和附近的敌人
-					过热发生时能力就会失效
-					爆炸会在一段时间增加10%的法力值
+					装备此密藏时，若玩家手持物品的魔力消耗为0或更低，则玩家的魔力会立刻恢复
+					不会使玩家产生魔力疾病，但有几率过热并引发爆炸，对玩家和附近的敌人造成伤害
+					过热时，此能力就会失效
+					爆炸会导致玩家在一段时间内的魔力消耗增加10%
 					'''
 			}
 
@@ -15871,8 +15871,8 @@ Mods: {
 					'''
 					'弹跳离开'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时与敌人接触，有10%的几率不受伤害并让敌人弹跳
-					对另一个近距离的敌人造成接触伤害时，两者都受到伤害并反弹更强大
+					装备此密藏时与敌人接触，有10%的几率不受伤害并弹开敌人
+					对另一个近距离的敌人造成接触伤害时，两者都受到伤害并且弹开的力度更大
 					'''
 			}
 
@@ -15882,17 +15882,17 @@ Mods: {
 					'''
 					'轰，轰!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时原版和本模组的炸弹有10%的几率回收
+					装备此密藏时有10%的几率不消耗原版和本模组的炸弹
 					'''
 			}
 
 			Blooddrop: {
-				DisplayName: 血滴（测试，占位符）
+				DisplayName: 血滴
 				Tooltip:
 					'''
-					'刺客的血液样本'
+					'[c/FF1493:快乐]刺客的血液样本'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时cause each healing source heal 1 more但生命回复减少1
+					装备此密藏时，任意来源的生命恢复量增加1点，但减少1点生命再生
 					'''
 			}
 
@@ -15902,7 +15902,7 @@ Mods: {
 					'''
 					'你必须留下来等锤子'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时每次无视防御和减伤的攻击增加4点的真实伤害
+					装备此密藏时，为所有无视敌人防御和减伤的攻击增加4点真实伤害
 					'''
 			}
 
@@ -15910,20 +15910,20 @@ Mods: {
 				DisplayName: 弹性史莱姆
 				Tooltip:
 					'''
-					'这个可爱的小史莱姆只知道一个词:更高!'
+					'这个可爱的小史莱姆只知道一个词：更高！'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏时本模组的反弹型伤害增加100%
 					'''
 			}
 
 			BrainClot: {
-				DisplayName: 大脑凝块
+				DisplayName: 脑血栓
 				Tooltip:
 					'''
 					'最好盯紧这个可憎之物'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时移动会回血（Bug 占位符）
-					给予免疫精神类型减益和流血减益
+					装备此密藏时，移动时的生命再生惩罚和静止时的生命再生加成将被移除
+					免疫精神类减益和流血减益
 					'''
 			}
 
@@ -15933,7 +15933,7 @@ Mods: {
 					'''
 					'所有的艺术都是有自传，珍珠是牡蛎的自传'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时钩爪散发强烈的光芒，对附近的敌人造成生物发光（Bug 占位符）
+					装备此密藏时钩爪散发强烈的光芒，对附近的敌人施加生物荧光减益
 					'''
 			}
 
@@ -15943,7 +15943,7 @@ Mods: {
 					'''
 					'举剑需要勇气， 藏锋需要更大的勇气吧'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时真近战武器会变大50%，非近战武器的射速会快两倍
+					装备此密藏时真近战武器会变大50%，非近战武器的射速会提高一倍
 					'''
 			}
 
@@ -15959,13 +15959,13 @@ Mods: {
 			}
 
 			CookieBadge: {
-				DisplayName: 饼干徽章（测试，占位符）
+				DisplayName: 饼干徽章
 				Tooltip:
 					'''
 					'这象征着你与亡灵的友谊'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While equipped it allow you to get cookie boxes instead of ambushes + cookie boxes contain 饼干板条箱s actual treasure
-					Still be careful to not burn it with any extra hot sauce in front of your new friend or she may get real upset
+					装备此密藏时，钓鱼有几率获得饼干盒，其中装有饼干板条箱真正的宝物
+					不过要小心，不要在你的新朋友面前用羊酱汁去烧饼干徽章，否则她真的会生气
 					'''
 			}
 
@@ -15980,12 +15980,12 @@ Mods: {
 			}
 
 			CurvedHorn: {
-				DisplayName: 号角（测试，第三行，占位符）
+				DisplayName: 号角
 				Tooltip:
 					'''
 					'远古之力'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped it will activate curse of babylon while player is below 10% max hp which greatly increase its stats
+					装备此密藏时，当玩家生命值低于10%时将激活巴比伦的诅咒，大幅提升玩家的属性
 					'''
 			}
 
@@ -15995,7 +15995,8 @@ Mods: {
 					'''
 					'你最好打赌我的纸杯蛋糕会是整个活动中最棒的部分!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时进食或使用饼干会额外提供多动症增益，使你的鼠标抖动，但同时你的武器有25%概率额外发射不稳定的弹幕
+					装备此密藏时，吃食物或饼干会额外获得多动症增益
+					使你的光标不受控制的抖动，但同时你的武器有25%概率额外发射不稳定的弹幕
 					'''
 			}
 
@@ -16005,17 +16006,17 @@ Mods: {
 					'''
 					'振作起来，夏季大促销来了!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时使护士治疗和哥布林工匠重铸的费用降低25%
+					装备此密藏时，护士治疗和哥布林工匠重铸的费用降低25%
 					'''
 			}
 
 			ExperimentalTube: {
-				DisplayName: 实验试管（测试，第三行，占位符）
+				DisplayName: 实验试管
 				Tooltip:
 					'''
 					'警告：可能含有高腐蚀性化合物'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped every 10 second player get either a 10 second buff or nondamaging debuff
+					装备此密藏时，玩家每10秒钟随机获得一个增益或非伤害减益
 					'''
 			}
 
@@ -16025,7 +16026,7 @@ Mods: {
 					'''
 					'最好和你的朋友们绑在一起'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时召唤师有概率和召唤物释放电弧
+					装备此密藏时，玩家和召唤物之间、召唤物和召唤物之间有几率产生电弧
 					'''
 			}
 
@@ -16036,7 +16037,7 @@ Mods: {
 					'我心中的火焰永远燃烧着，现在你的也一样!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏时所有职业都会获得新的技能
-					受到伤害时，它有概率失去烈焰，需要扔到熔岩中获得烈焰
+					受到伤害时有几率损失热量，需要扔到熔岩中重新获得热量
 					'''
 			}
 
@@ -16046,7 +16047,7 @@ Mods: {
 					'''
 					'呕，它在发臭'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，钓鱼会定时生成苍蝇并上钩并有概率得到额外垃圾
+					装备此密藏时，鱼钩上会产生苍蝇，渔获上钩时有几率获得一件额外的垃圾
 					'''
 			}
 
@@ -16066,7 +16067,7 @@ Mods: {
 					'''
 					'我要踹翻那些罪人们'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，提高加速度并在物块上移动发射泥土和石头碎片
+					装备此密藏时，提高加速度并在物块上移动时发射泥土和石头碎片
 					'''
 			}
 
@@ -16103,7 +16104,7 @@ Mods: {
 			}
 
 			KleidiphilicMask: {
-				DisplayName: Kleidiphilic面具
+				DisplayName: Kleidiphilic面具（出自:以撒的结合）
 				Tooltip:
 					'''
 					'我能听见你……在呼吸'
@@ -16119,7 +16120,7 @@ Mods: {
 					'''
 					'失落之智的庇护'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时npc不会死于死亡之???的献祭
+					装备此密藏时NPC不会因???的死亡圣器的献祭而死亡
 					'''
 			}
 
@@ -16145,14 +16146,14 @@ Mods: {
 			}
 
 			OversizedNails: {
-				DisplayName: Oversized Nails（占位符）
+				DisplayName: 大号钉子
 				Tooltip:
 					'''
-					'Stick it to 'em'
+					'黏住它们'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped bat 全垒打 strikes will spawn additional nails which stick to enemy
-					Striking these nails with bat slam will do additional damage with respect to bats base damage
-					若同时装备了[c/ffff00:博士的单片眼镜] upon sticking to enemy they will do true DoT
+					装备此密藏时，棒球棍的全垒打攻击会额外生成黏在敌人身上的钉子
+					使用棒球棍猛击这些钉子将会根据武器的基础伤害造成额外的伤害
+					若同时装备了[c/ffff00:博士的单片眼镜]，黏在敌人身上的钉子将造成持续伤害
 					'''
 			}
 
@@ -16162,12 +16163,12 @@ Mods: {
 					'''
 					'可爱的小伙伴'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，使用投手物品时有概率额外扔出卵巢袋，放出大量小蜜蜂
+					装备此密藏时，使用投手物品时有几率额外扔出蜂巢，放出大量小寄生蜂
 					'''
 			}
 
 			PerfectlyGenericObject: {
-				DisplayName: 完美的普通之物（测试，占位符3.4）
+				DisplayName: 完美的普通之物
 				Tooltip:
 					'''
 					'先生请给AFK添加细节'
@@ -16183,7 +16184,7 @@ Mods: {
 					'''
 					'这游戏需要一点激情。你不同意吗？'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，每次拾起物品都有50%的概率让数量翻倍并有50%的概率消失
+					装备此密藏时，每次拾起物品都有50%的概率让数量翻倍并有50%的概率使其消失
 					'''
 			}
 
@@ -16232,18 +16233,18 @@ Mods: {
 					'''
 					'现在你对兔子王国来说是个公认的恶魔了'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时饰品有更高概率获得'幸运的'词条
+					装备此密藏时，重铸有高概率获得幸运词缀
 					'''
 			}
 
 			ResearchNotes: {
-				DisplayName: 研究笔记（占位符）
+				DisplayName: 研究笔记
 				Tooltip:
 					'''
 					'包含某些微处理器的真值表与数据库'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时召唤一个防卫无人机，标记玩家的鼠标，以控制模组哨兵的瞄准方向
-					如果玩家使用wrangler，它将转而周期性地朝鼠标方向发射能量束
+					装备此密藏时召唤一个防卫无人机，标记玩家的光标，以控制模组哨兵的瞄准方向
+					如果玩家在使用电波控制器，它将转而周期性地朝光标方向发射能量束
 					'''
 			}
 
@@ -16253,7 +16254,7 @@ Mods: {
 					'''
 					'涂满红色的东西更好看'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时近战攻击有25%概率造成流血减益，真近战攻击概率为50%
+					装备此密藏时，近战攻击有25%几率造成流血减益，真近战攻击的几率为50%
 					'''
 			}
 
@@ -16273,18 +16274,18 @@ Mods: {
 					'''
 					'通往光辉纯净的钥匙'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时获得丛林陷阱的75%减伤
+					装备此密藏时，减少75%丛林神庙陷阱的伤害
 					'''
 			}
 
 			SpindownDice: {
-				DisplayName: Spindown Dice（占位符）
+				DisplayName: 旋转骰子
 				Tooltip:
 					'''
-					'REEROLLLLL!'
-					'(USE AT YOUR OWN RISK)'
+					'再投一次！'
+					'风险自负'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped it will make every projectile spawned have id of normal spawned one -1
+					装备此密藏时，实际生成射弹的序号会比正常生成的少1位
 					'''
 			}
 
@@ -16295,7 +16296,7 @@ Mods: {
 					'长大后他想成为一个像你一样的英雄'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏恢复生命时，每5秒提升1点生命再生
-					生命值回满，受到伤害或是生命再生降至0以下时重置此效果
+					当生命值回满、受到伤害或生命再生速率低于0时重置此效果
 					'''
 			}
 
@@ -16310,7 +16311,7 @@ Mods: {
 					'''
 					'许多巫师经常携带的一种工艺品'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，重生获得再生增益并额外获得25%生命值
+					装备此密藏重生时，额外恢复25%生命值并获得生命再生增益
 					'''
 			}
 
@@ -16335,12 +16336,12 @@ Mods: {
 			}
 
 			ValorantHeadphone: {
-				DisplayName: Valorant Headphone（占位符）
+				DisplayName: 无畏契约耳机
 				Tooltip:
 					'''
-					'This is the greatest plan!'
+					'这是最棒的计划！'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					While being equipped every afk pets transformation gain new ability
+					装备此密藏时，变身召唤武器获得新能力
 					'''
 			}
 
@@ -16360,7 +16361,7 @@ Mods: {
 					'''
 					'一个古老的玻璃制品，常被用于抵御邪恶之灵与有毒动物的侵害'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，免疫中毒，生命值低于25%时所有减益衰减速度加快50%
+					装备此密藏时免疫中毒，生命值低于25%时所有减益衰减速度加快50%
 					'''
 			}
 
@@ -19072,7 +19073,7 @@ Mods: {
 					'可爱，可爱又柔软'
 					攻击敌人有概率掉落黄金胡萝卜，拾取时将治疗玩家
 					暴击有可能导致可爱过敏
-					对可爱过敏，如果敌人靠近可爱的npc会造成真正的萌过敏
+					对可爱过敏，如果敌人靠近可爱的NPC会造成真正的萌过敏
 					'''
 			}
 
@@ -20036,8 +20037,8 @@ Mods: {
 				Tooltip:
 					'''
 					'了解一万种缺陷设计能帮你找到正确的设计'
-					击中敌人会让它们产生生物荧光效果，有一定几率使附近敌人陷入混乱
-					持有时，一个灯泡会在你的头顶出现，它会自动攻击附近的敌人，并有机会使其变得具有生物荧光效果
+					击中敌人会对它们施加生物荧光减益，有一定几率使附近敌人陷入混乱
+					持有时，一个灯泡会在你的头顶出现，它会自动攻击附近的敌人，并有几率施加生物荧光减益
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你将在周围生成强烈的光线，使近身的敌人晕眩
 					'''
 			}
