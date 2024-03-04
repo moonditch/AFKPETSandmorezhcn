@@ -315,7 +315,7 @@ Mods: {
 			}
 
 			GhostLady: {
-				DisplayName: 幽灵夫人
+				DisplayName: 幽灵陶伊
 
 				TownNPCMood: {
 					Content: 我很满足.
