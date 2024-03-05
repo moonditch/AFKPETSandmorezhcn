@@ -5,6 +5,8 @@ using Terraria;
 using Terraria.ModLoader;
 using AFKPETS.NPCs.BiomeNPCs;
 using AFKPETS.NPCs.Antony;
+using AFKPETS.NPCs.MiniGameNPCs;
+using AFKPETS.NPCs.Misc;
 
 namespace AFKPETSandmorezhcn.GlobalTranslation
 {
@@ -137,7 +139,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "实际上，我是一个有自我意识的机器人。虽然机器人不算是生命体，但我更喜欢被称为“她”，因为我觉得自己是一个有着丰富遗传学和工程学知识的优雅女性。";
 					break;
 					case "Sometimes I also see dreams but I'm not sure if I actually see them or professor just programmed me so that I see some images while I'm resting":
-					chat = "有时我也会做梦，但我不确定我是否真的看到了它们，或者教授只是在我休息时编写程序让我看到的一些图像。";
+					chat = "有时我也会做梦，但我不确定我是否真的看到了它们，或者只是教授在我休息时编写程序的一些图像。";
 					break;
 					case "Do you ask who is the professor? She is called lady of light in these lands and she is the mastermind behind me and sadly mechanical trio but she design their ai to make them protect the Earth when martians attack and then cultists stole them by force and force a human to make them body and fuse these things shattered souls to make them go for blood.":
 					chat = "你问谁是教授吗？在这片土地上，她被称为光明女士，她是我和可怜的旧日三重唱的设计者。她调整了旧日三重唱的AI逻辑，让他们保护泰拉世界免受火星人的攻击。但邪教徒偷走了他们，强迫机械师为他们制作了身体，融合了地牢的破碎灵魂，让他们变成了杀戮机器。";
@@ -145,8 +147,148 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					case "I'm here to make research about the ancient civilizations one lived in these places. It's sad to see humans attack and cause extinction against the people think different then them.":
 					chat = "我来这里是为了研究曾经生活在这些地方的古老文明。看到泰拉人攻击并灭绝与其思想不同的文明，真是令人难过。";
 					break;
-					case "If you ever visit jungle and see a neko quantum scientist could you tell that I miss designing circuit with him."
+					case "If you ever visit jungle and see a neko quantum scientist could you tell that I miss designing circuit with him.":
 					chat = "如果你在丛林看到一个量子科学家，你能告诉他我很想和他一起设计电路吗？";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<AquaticWiseman>())
+			{
+				switch (chat)
+				{
+					case "It's nice to meet you adventurer. After I watch the around some more I will return back to where I come from.":
+					chat = "很高兴认识你，冒险家。我再多看几眼后，就会回到我来的地方。";
+					break;
+					case "I expect no less from an adventurer like you. The strength is the combination of both brain, heart and muscles and by both showing mercy to that fish and your skills at challenge I shall bestow my respect to you with this.":
+					chat = "我对你这样的冒险家也抱有同样的期望。力量是智慧、心灵和身体的结合，通过你对那条鱼的仁慈以及在挑战中展示的技巧，我在此向你致敬。";
+					break;
+					case "You are not bad but also not what I expect from the chosen one. Still as showing my respect to my lord Blossom's decision please accept this as a gift for your further journey.":
+					chat = "你变表现的还不错，但不是我所期望的那个人。不过，鉴于对我领主布洛森决定的尊重，请接受这份礼物，作为你未来旅程的礼物。";
+					break;
+					case "I'm sorry but I'm slightly disappointed by that. I have heard stories of you from the mermaid scouts and I didn't expect you to be defeated this fast. Still I can see the light in your eyes so I believe in time you will get much better.":
+					chat = "我很抱歉这么说，但我感到有些失望。我从美人鱼侦察兵那里听说过你的故事，我没想到你会这么快就被打败了。不过，我能看到你眼中的光芒，所以我相信随着时间的推移，你会变得更好。";
+					break;
+					case "I never expect such an elegant move from any human. Wait, you are... Greetings adventurer. The name is Noelani and I'm being sent by lord Blossom to further analyse the marine lifeforms. I have heard your bravery so I also want to see what you can do with my eyes. If you accept I would like to challenge you in a minigame.":
+					chat = "我从没期望过任何人类能做出如此优雅的动作。等等，你是……你好，冒险家。我叫诺埃拉尼，奉领主布洛森之命，前来进一步分析海洋生物。我想看看你是不是真如传说中那么勇敢，如果你接受的话，我想在迷你游戏中挑战你。";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<ErrorFallenAngel2>())
+			{
+				switch (chat)
+				{
+					case "Important! Read Carefully!!":
+					chat = "这很重要！仔细阅读！！";
+					break;
+					case "LOVE-LETTER-FOR-YOU":
+					chat = "";
+					break;
+					case "LOVER ALERT":
+					chat = "";
+					break;
+					case "CRITICAL_HEART_DIED":
+					chat = "";
+					break;
+					case "SYSTEM_LOVER_EXCEPTION":
+					chat = "";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<GameGenie>())
+			{
+				switch (chat)
+				{
+					case "Do you want to fight me? Well I am 4 Parallel Universes ahead of you...":
+					chat = "你想挑战我吗？我比你领先四个个平行宇宙……";
+					break;
+					case "Those shining eyes... I have similar spirit with you but I have seen the end. I have a elegant yet warrior spirited master and we try to bring justice to this world but they... I guess its best for me to rest my soul with these games since I cannot forgive myself to not being able to protect her.":
+					chat = "那双闪闪发光的眼睛……我有着和你相似的经历，但我已经迎来了结局。我曾经有一位优雅但充满战士精神的大师，我们试图为这个世界伸张正义，但……我想我最好在这些游戏中休息一下，因为我无法原谅自己无法保护她";
+					break;
+					case "Your speed and power is only temporary but mine builds for eternity...":
+					chat = "你的速度和力量只是暂时的，但我的是永恒的……";
+					break;
+					case "The Scuttlebug is the key to the Multiverse so if you find one never throw it away.":
+					chat = "疾行虫是多元宇宙的关键，所以如果你找到了，永远不要把它扔掉。";
+					break;
+					case "Do you ever go out of bounds? I have seen a spirit, human and slime and being shattered until they are being saved by him but still they only exist in specific impulsive time and space coordinate. You ask who I talk about? Well, you will meet them soon, pretty pretty soon...":
+					chat = "你曾经踏出过边界吗？我看到了一个灵魂，人类和史莱姆被粉碎，直到它们被他拯救，但它们仍然只存在于特定的超动时空坐标中。你问我在说谁？好吧，你很快就会见到他们，很快很快……";
+					break;
+					case "NOO!!! MY QPUS ARE MISALIGNED!! Wait I can position my qpus to raise another Scuttlebug from the U-137.":
+					chat = "不！！！我的量子处理单元错位了！！等等，我可以重新定位它们，从U-137上升起另一只疾行虫。";
+					break;
+					case "This talk start to bore me. Now show your skils on the arcade machine.":
+					chat = "这些对话开始让我厌烦了。现在去街机上展示你的滑雪技巧。";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<GhostLady>())
+			{
+				switch (chat)
+				{
+					case "It's honour for me to meet with such a kind soul":
+					chat = "我很荣幸能遇到这样一个善良的人。";
+					break;
+					case "You did good compared with skeletons but looking at you, I belive you can do much better":
+					chat = "与骷髅相比你做得很好，但看着你，我相信你可以做得更好。";
+					break;
+					case "You may only answer correct one time but don't feel sad. By reading this nice book I believe next time we met you could do much better.":
+					chat = "你可能只答对一次，但不要感到悲伤。看看这本书，我相信下次我们见面时你会做得更好。";
+					break;
+					case "You couldn't answer any question correct but don't feel sad you will prepare yourself and next time you will be much better":
+					chat = "你没有正确回答任何问题，但不要感到难过。你会做好准备的，下次你会好得多。";
+					break;
+					case "It makes me feel really happy and honored to see such a wise person after months. I would like to share my happiness with you a little gift so please keep this book. I used to read it a lot but I feel I memorize every story so maybe I feel sharing it will be much better.":
+					chat = "经过这么长时间的等待，终于看到这样一位智者，我感到非常高兴和荣幸。我想和你分享我的快乐，请收下这本书作为一个小礼物。我以前经常读它，但我觉得我记住了每一个故事，所以也许我觉得分享它会更好。";
+					break;
+					case "While I was wandering caverns I have found a wise wizard named Tim and he give me this relic as a gift for our friendship. After I meet with you I feel this will be a gift for our friendship like with that kind skeleton. It's filled with so many nice books so I believe it will put a smile on your face":
+					chat = "当我在洞穴里游荡时，我发现了一个名叫蒂姆的聪明巫师，他把这件遗物送给我作为我们友谊的礼物。当我和你见面后，我觉得这将是我们友谊的礼物，就像我和那个善良的骷髅一样。里面装满了这么多好看的书，我相信它会让你满意。";
+					break;
+					case "Few weeks ago, I have found this cute little phantom wandering around frightened and seeking for home and I bring it with me and calm down but it seeks the adventures it had with its master which is a samurai before. Since I'm a assistant before they believe I'm a witch and kill me I want you to keep it and have fun together.":
+					chat = "几周前，我发现这个小可爱在四处游荡，惊慌失措地寻找家。我把它带在身边好让它冷静下来，但它在寻找以前与主人（一名武士）的冒险经历。由于我是教授的首席助教，在他们相信我是女巫并杀了我之前，我想让你带走它，祝你们玩得开心。";
+					break;
+					case "Do you ever know some wizards use magic to form shelter rather than science. I also didn't know until I met a funny skeleton calls himself rune wizard. He show me how to do and even give me a spare tome. Since I live inside of the laboratory that my professor uses before things happen I believe it will be really helpful to you.":
+					chat = "你知道吗？有些巫师用魔法而不是科技来建造庇护所。我也不知道，直到我遇到一个自称符文巫师的有趣骷髅。他教我怎么做，甚至给了我一本多余的书。由于我住在教授之前使用的实验室里，我相信这对你会更有帮助。";
+					break;
+					case "Sorry but I couldn't give any hint":
+					chat = "对不起，我不能给任何提示。";
+					break;
+					case "Oh, your timing is perfect. I have been searching for the caves to share some knowledge in a quiz style. If you are interested could you tell me? If interested you will answer by '/answer [answer]'. For questions could you only use numbers in aswer like '/answer 5' as example and for others use no capital letters and in singular form like '/answer bat' and not '/answer bats' as example? Thank you for your patience and if you want lets get started.":
+					chat = "哦，你出现的刚刚好。我一直在寻找以问答的方式来分享一些知识。如果你感兴趣，可以告诉我吗？\n你可以用“/answer 答案”的形式来回答。\n对于问题，你只能用数字提问，例如“/answer 5”。\n还有，你不能使用大写字母和复数，使用“/answer bat”，而不是“/answer BATs”。\n谢谢你的耐心，如果你准备好了，让我们开始吧。";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<HunterDog>())
+			{
+				switch (chat)
+				{
+					case "That hunt was fun partner.":
+					chat = "你是个很有趣的狩猎伙伴。";
+					break;
+					case "Hey. Stop talking and show them who is boss.":
+					chat = "嘿，别说话了，让他们看看谁才是老大。";
+					break;
+					case "Not bad at all but you need to practise on your aim.":
+					chat = "还不赖，但你需要练习你的瞄准。";
+					break;
+					case "The bullets you shoot cost more than the prey we get. Next time shoot the ducks not the sun.":
+					chat = "你射出的子弹比我们得到的猎物还贵。下次记得射鸭子而不是太阳。";
+					break;
+					case "Wait, you don't have a knife to dividing the valuable meat? Borrow this one and after the division you can keep it for yourself. I could always make another one for myself.":
+					chat = "等等，你没有刀来分这珍贵的肉吗？给你这把，分完后你可以自己留着。我可以再为自己做一把。";
+					break;
+					case "Your style remind me of someone I really care of. I was not a lone wolf. We go hunts with my master and I never see he miss any shot. While he never misses the life span also don't miss. Even tough time flows so cruel still I miss him so much and your style remind me of him so I want you to keep his gun.":
+					chat = "你的风格让我想起了某个我非常关心的人。我并不是孤犬。我和我的主人一起狩猎，我见证了他的每一次射击。他从不浪费时间，生命也不容错过。即使时间流逝得如此残酷，我还是非常想念他，而你让我想起了他，所以我希望你能带上他的猎枪。";
+					break;
+					case "Do you every think more eyes increase precision? Well I did but it didn't go well. So I want you to keep this to try if it will work for you or not.":
+					chat = "你有没有想过多只眼睛会瞄的更准？我确实想过，但结果并不理想。所以我想让你留着这个试试看是否对你有用。";
+					break;
+					case "Don't you also smell something juicy. Don't look me like that. We eat therefore we hunt. So let's make a deal. I call those birds and you shoot'em down. Why not me? Well, I enjoy freaking them out by myself. So me as mind and you as muscle we will be nice team and after hunt we will divide the prey.":
+					chat = "你不也闻到了些美味的气息吗。别那样看着我。我们为了吃而狩猎。所以让我们做个交易。我把那些鸟赶飞，你把它们射下来。为什么不是我去射？嗯，因为我喜欢吓唬它们。我出工，你出力，我们会是出色的团队，狩猎后我们会平分猎物。";
 					break;
 				}
 			}

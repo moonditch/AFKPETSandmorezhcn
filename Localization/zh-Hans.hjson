@@ -215,8 +215,8 @@ Mods: {
 			}
 
 			BlessedBossRush.DisplayName: Blessed Boss Rush
-			AngryBunny.DisplayName: 愤怒小兔子
-			BUNE.DisplayName: B U N E
+			AngryBunny.DisplayName: 愤怒爆炸兔
+			BUNE.DisplayName: 爆炸兔
 			BUNI.DisplayName: B U N I
 			BunnyNuke.DisplayName: 胡萝卜核弹
 			WeakBunnyNuke.DisplayName: 弱性胡萝卜核弹
@@ -346,10 +346,10 @@ Mods: {
 
 			AstralGhost.DisplayName: 幽灵
 			BabyBlazer.DisplayName: 小滚轮
-			CharaEnemy.DisplayName: 被藻类植物束缚的人
+			CharaEnemy.DisplayName: 被滴滴怪寄生的赏金猎人
 			CyberPlayerShield.DisplayName: Cyber Player Shield
 			EnemyShadow.DisplayName: Enemy Shadow
-			FriendlyHarpy.DisplayName: 友好的鹰身女妖
+			FriendlyHarpy.DisplayName: 友好的鸟妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
 			RalseiDummy.DisplayName: 利艾尔斯傀儡
@@ -371,7 +371,7 @@ Mods: {
 
 			SoulBird.DisplayName: 心灵鸟
 			SoulBlossom.DisplayName: 灵魂绽放
-			TiedYandere.DisplayName: 受缚猎手
+			TiedYandere.DisplayName: 受缚黑暗女猎手
 			TreasureBagBoi.DisplayName: Treasure Bag Boi
 			BadMafia.DisplayName: 黑手党
 			FakeNightmareSlime.DisplayName: 梦魇史莱姆
@@ -394,30 +394,30 @@ Mods: {
 			PoliticianSlime.DisplayName: 史莱姆总统
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
-			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
-			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
-			PoliticianSlimeArmor.DisplayName: 史莱姆总统装甲
-			BoundGuardian.DisplayName: 受缚守护者
+			GuardianofSlimeNationEnergyCore.DisplayName: 机甲自然之力核心
+			MechanicalDragonHead.DisplayName: 机械龙头
+			PoliticianSlimeArmor.DisplayName: 史莱姆总统机甲
+			BoundGuardian.DisplayName: 受缚人质
 			FallingGoldfish.DisplayName: 堕落的金鱼
 			FallingSquid.DisplayName: 堕落的鱿鱼
-			FlashLightCore.DisplayName: Flash Light Core
+			FlashLightCore.DisplayName: 皇家鸟妖闪光
 			GoldfishBucket.DisplayName: 金鱼桶
-			GoldfishWarrior.DisplayName: 金鱼的战士
-			HarpyCall.DisplayName: 鹰身女妖
-			HarpyTornadoCore.DisplayName: Harpy Tornado Core
-			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
+			GoldfishWarrior.DisplayName: 金鱼战士
+			HarpyCall.DisplayName: Harpy Call
+			HarpyTornadoCore.DisplayName: 皇家鸟妖龙卷风
+			HomingHarpyRocket.DisplayName: 皇家鸟妖追踪火箭
 			SeaHorseBubble.DisplayName: 海马泡泡
 			SeaHorseBucket.DisplayName: 海马桶
 			StormDiverSummon.DisplayName: 皇家鸟妖风暴号
-			StormTinkererH.DisplayName: 风暴修补匠
-			YoukaiBucket.DisplayName: Youkai Bucket
-			YoukaiBucket2.DisplayName: Youkai Bucket2
+			StormTinkererH.DisplayName: 皇家鸟妖风暴号
+			YoukaiBucket.DisplayName: 妖精桶
+			YoukaiBucket2.DisplayName: 妖精桶
 			FunSATLA001.DisplayName: SATLA-001
 			SATLASummon.DisplayName: SATLA-001
-			FakeSecurityBot.DisplayName: Fake 安全机器人
-			JumpscareFella.DisplayName: Jumpscare Fella
-			NoEscape.DisplayName: No Escape
-			SecurityBotSummon.DisplayName: 安全机器人 Summon
+			FakeSecurityBot.DisplayName: 安全机器人
+			JumpscareFella.DisplayName: 逃避恐惧
+			NoEscape.DisplayName: 无处可逃
+			SecurityBotSummon.DisplayName: 安全机器人诱饵
 			BomberSlime.DisplayName: 矿工史莱姆
 			CrimsonSlime.DisplayName: 猩红史莱姆
 			DarkCandleSlime.DisplayName: 蜡烛史莱姆
@@ -1192,8 +1192,8 @@ Mods: {
 			}
 
 			BunnyMight: {
-				DisplayName: Might of the Forest Lord
-				Description: Your wisdom lets you know carrot will not hop into you
+				DisplayName: 森林领主的力量
+				Description: 你的智慧让你知道胡萝卜不会跳到你身上
 			}
 
 			Cabbit: {
@@ -2442,7 +2442,7 @@ Mods: {
 			}
 
 			Harpy: {
-				DisplayName: 小鹰身女妖
+				DisplayName: 小鸟妖
 				Description: 她将跟随你
 			}
 
@@ -3462,8 +3462,8 @@ Mods: {
 			}
 
 			PoisonousGas: {
-				DisplayName: Poisonous Gas
-				Description: You can't breathe but bubbles could give some air
+				DisplayName: 有毒气体
+				Description: 你无法呼吸，但气泡可以提供一些空气
 			}
 
 			Poniko: {
@@ -5955,7 +5955,7 @@ Mods: {
 				Tooltip:
 					'''
 					'哦！这真的没什么奇怪的！我是一名灵媒……还在训练中'
-					在城镇、小游戏或旅行NPC附近时，获得快乐和热恋增益
+					在城镇NPC、游戏NPC或旅行NPC附近时，获得快乐和热恋增益
 					继承智者的抗辩效果，城镇NPC死亡时会生成一个友好的幽灵，为玩家战斗30秒
 					城镇和旅行NPC增加50%伤害减免和10%伤害
 					当城镇NPC在玩家两个屏幕范围内受到致命一击时，玩家会大喊“反对”
@@ -6658,7 +6658,7 @@ Mods: {
 				DisplayName: 真实飞翔之证
 				Tooltip:
 					'''
-					'一件包含强大鹰身女妖女王羽毛的遗物'
+					'一件包含强大鸟妖女王羽毛的遗物'
 					使每个射弹都具有轻微的追踪能力并增加15%飞行时间
 					'''
 			}
@@ -10650,7 +10650,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你能感觉到它的妈妈现在很担心'
-					召唤小鹰身女妖跟随你
+					召唤小鸟妖跟随你
 					'''
 			}
 
@@ -13154,10 +13154,10 @@ Mods: {
 			}
 
 			SeveredHarpyHead: {
-				DisplayName: 鹰身女妖头
+				DisplayName: 鸟妖头
 				Tooltip:
 					'''
-					'无辜的鹰身女妖之死可能会唤醒某个恐怖的存在'
+					'无辜的鸟妖之死可能会唤醒某个恐怖的存在'
 					只能在白天使用，召唤一个空中Boss，请小心应对
 					'''
 			}
@@ -13655,7 +13655,7 @@ Mods: {
 			}
 
 			YandereSpiderPainting: {
-				DisplayName: Yandere蜘蛛绘画
+				DisplayName: 黑暗女猎手蜘蛛绘画
 				Tooltip: 玫瑰
 			}
 
@@ -14868,7 +14868,7 @@ Mods: {
 			}
 
 			TacticalWoodKnife: {
-				DisplayName: 赫伊科的猎刀
+				DisplayName: 猎犬的分肉刀
 				Tooltip:
 					'''
 					'唯有真正的猎人才能打造如此角度与锋利度兼具的利器'
@@ -18026,7 +18026,7 @@ Mods: {
 				DisplayName: 羽翼风暴
 				Tooltip:
 					'''
-					'一种结合了鹰身女妖之力和人类精湛工艺的双重科技产物'
+					'一种结合了鸟妖之力和人类精湛工艺的双重科技产物'
 					使用时，仍出一个将敌人劈开的嗜血转子，并从转子向光标位置发射风暴羽毛
 					在转子旋转时，会推开敌人的射弹，一段时间后返回玩家
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下额外的羽毛将如雨般从天空落下，沿着光标飞向敌人
@@ -21548,7 +21548,7 @@ Mods: {
 			KitchenKnife.DisplayName: Kitchen Knife
 			KobanCoin.DisplayName: Koban Coin
 			LeechPlant.DisplayName: Leech Plant
-			LostPhantomSoul.DisplayName: Lost Phantom Soul
+			LostPhantomSoul.DisplayName: 失落幻影
 			LuckyCatMoney.DisplayName: 招财猫 Money
 			LuckyCatMoney2.DisplayName: 招财猫 Money2
 			MadotsukiEffect.DisplayName: Madotsuki Effect
@@ -22341,7 +22341,7 @@ Mods: {
 			HarmonyArrow.DisplayName: 调和箭
 			HarmonyArrow2.DisplayName: Harmony Arrow2
 			HarpyFeatherSummon.DisplayName: Harpy Feather Summon
-			Harpy.DisplayName: 小鹰身女妖
+			Harpy.DisplayName: 小鸟妖
 			Hay.DisplayName: Hay
 			HealCall.DisplayName: Heal Call
 			HealCrystal.DisplayName: Heal Crystal
