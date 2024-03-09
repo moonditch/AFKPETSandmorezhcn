@@ -19,6 +19,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 		public override void GetChat(NPC npc, ref string chat)
 		{
 			int Dryad = NPC.FindFirstNPC(20);
+			int Clothier = NPC.FindFirstNPC(54);
+			int Nurse = NPC.FindFirstNPC(18);
 
 			if (npc.type == ModContent.NPCType<NecromancerDummyNpc>())
 			{
@@ -74,10 +76,10 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "我知道这里很热，但安全是第一位的。所以永远不要试图脱下你的盔甲，否则可能发生不测。至于我？我有他们的保护和我自己的神圣防御魔咒。";
 					break;
 					case "Why you see no succubus? Well after the era of demon king Zerokk ends the era of succubus queen Moira started and succubusses start to use demons for low jobs such as guarding areas and carrying desired things while they start to live in mansions once being used by demon generals.":
-					chat = "你之所以看不到梦魔，是因为在恶魔王泽罗克的时代结束后，梦魔女王莫伊拉的时代开始了。在这个新的时代里，梦魔们开始奴役恶魔来执行一些低贱的工作，比如守卫区域和搬运它们想要的东西。与此同时，梦魔们开始居住在曾经恶魔将军们的豪宅里。";
+					chat = "你之所以看不到魅魔，是因为在恶魔王泽罗克的时代结束后，魅魔女王莫伊拉的时代开始了。在这个新的时代里，魅魔们开始奴役恶魔来执行一些低贱的工作，比如守卫区域和搬运它们想要的东西。与此同时，魅魔们开始居住在曾经恶魔将军们的豪宅里。";
 					break;
 					case "It's much nicer to make trades with any lifeform other than succubusses. That desire driven lifeforms look at your eyes with such lust you start to sweat and look for any way to escape.":
-					chat = "与除了梦魔以外的任何生命进行交易都要愉快得多。那些被欲望驱使的梦魔用眼睛直勾勾地盯着你，你会汗流浃背并寻找任何能从它们面前逃跑的方法。";
+					chat = "与除了魅魔以外的任何生命进行交易都要愉快得多。那些被欲望驱使的魅魔用眼睛直勾勾地盯着你，你会汗流浃背并寻找任何能从它们面前逃跑的方法。";
 					break;
 					case "I miss making experiments about the higher dimentional fabric of the universe with my professor. I wish he could fix the time and space interval soon and return back to his cute little house but knowing what happened in voidal incident I feel that would be a dream.":
 					chat = "我怀念和教授一起进行关于宇宙高维度结构的实验。我希望他能尽快修复时间和空间的间隔，带我回到他可爱的小房子。但在虚空事件发生后，我觉得这愿望只能在梦里想想了。";
@@ -108,7 +110,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "在击败怪物之前，我有时会故意承受他们的攻击，看看受伤的感觉如何。";
 					break;
 					case "Do you ever wonder what happens if a demon king takes you as a slave? Since underworld is currently being ruled by a succubus I think I never know.":
-					chat = "你有没有想过，如果恶魔领主把你当奴隶该怎么办？因为目前地狱是由梦魔女王莫伊拉统治的，我想我永远也不会知道。";
+					chat = "你有没有想过，如果恶魔领主把你当奴隶该怎么办？因为目前地狱是由魅魔女王莫伊拉统治的，我想我永远也不会知道。";
 					break;
 					case "I feel sad for these people. Even tough cultist rip their skeleton from their flesh and reanimate with necromancy they still contain shattered memories and they often look they are missing their family and friends.":
 					chat = "我为这些人感到难过。即使邪教徒把他们的骨头从肉里撕出来，用巫术复活，他们仍然保留着破碎的记忆。他们常常看起来像是失去了家人和朋友的活人。";
@@ -651,6 +653,177 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					break;
 					case "More trophy you bring, more things you get.":
 					chat = "你带来的纪念章越多，得到的东西就越多。";
+					break;
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<FallenAngel>())
+			{
+				if (chat == "I feel also " + Main.npc[Dryad].GivenName + "s soul is blessed.")
+					chat = "我感到树妖的灵魂是纯洁的。";
+				if (chat == "How do you believe " + Main.npc[Clothier].GivenName + " ? I can still feel his sinned soul.")
+					chat = "你怎么能相信服装商？我感到他的灵魂充满了罪恶";
+
+				switch (chat)
+				{
+					case "Why everyone are looking so cursed?":
+					chat = "为什么大家看起来气色都不太好？";
+					break;
+					case "*looks frightened* In our village there are no such horrific creatures":
+					chat = "*瑟瑟发抖* 在我们那里没有这种可怕的生物。";
+					break;
+					case "I'm not sure why but it looks like humans affect from the shine of the moon":
+					chat = "我不知道为什么，但看起来人们受到了月球光芒的影响。";
+					break;
+					case "In my village we can stop blood moon with holy magic but sadly I haven't learned them.":
+					chat = "在我们那里可以用神圣的魔法阻止血月，但遗憾的是我还没有学会。";
+					break;
+					case "Where does they come from?":
+					chat = "它们是从哪里来的？";
+					break;
+					case "I heard there was once a happy spirit which then lose it's sanity. I want to ask you only one thing. Could you not try to figt with it since I feel a strange but kind reality caused by that thing.":
+					chat = "我听说曾经有一个快乐的灵魂，但后来失去了理智。我只向请求你一件事，不要伤害它，因为我感到它造成了一种奇怪但纯真善良的影响。";
+					break;
+					case "Greetings. What are you looking for friend?":
+					chat = "你好。你在找什么，朋友？";
+					break;
+					case "I'm not sure what caused but something shined my eyes.":
+					chat = "我不确定发生了什么，但有东西闪到了我的眼睛。";
+					break;
+					case "I feel one of my wing is broken. Could you help me?":
+					chat = "我感觉我的一只翅膀断了。你能帮我吗？";
+					break;
+					case "I missed where I come from.":
+					chat = "我想念了我的来处。";
+					break;
+					case "I haven't visited the surface for 600 years. I feel this place have been changed quite a lot.":
+					chat = "我已经600年没有降临尘世了。我觉得这里已经发生了很大的变化。";
+					break;
+					case "Do you also want to go to my village? Sorry human but that place is restricted to humans.":
+					chat = "你也想拜访我的来处吗？对不起，但那个地方不允许泰拉人进入。";
+					break;
+					case "Maybe one day my wings will be healed and I can visit my town again.":
+					chat = "也许有一天我的翅膀会愈合，我可以重回天堂。";
+					break;
+					case "Did you saw any angel other than me?":
+					chat = "除了我，你看到其他天使了吗？";
+					break;
+					case "I feel boss hunter merchant is looking for someone":
+					chat = "我感觉Boss狩猎商人在找寻什么人。";
+					break;
+					case "Strangely I feel something is having fun but I'm not sure what is that thing.":
+					chat = "奇怪的是，我感到有些事情很有趣，但我不确定那是什么。";
+					break;
+					case "I feel the something is awakening the ancient trio. You should be careful since I can feel their wrath.":
+					chat = "我感觉有什么东西在唤醒旧日三重唱。你要小心，因为我能感觉到它们的愤怒。";
+					break;
+					case "I feel an ancient soul disturbed with the sins of the world. Maybe you should be careful while slaying the monster since it's soul burning with judgement and determination. Strangely I feel it's reality have been changed a little.":
+					chat = "我感觉到一个古老的灵魂被世界的罪恶所扰乱。也许你在杀死怪物时应该小心，因为它的灵魂燃烧着公正和决断。奇怪的是，我感到它的影响发生了一些变化。";
+					break;
+					case "After you beat down the guardians maybe I can awake the forgotten angelic artifact with the shattered piece of their souls.":
+					chat = "在你打倒守护者之后，也许我可以用他们破碎的灵魂唤醒被遗忘的天使神器。";
+					break;
+					case "Hello. How are you?":
+					chat = "你好。最近怎么样？";
+					break;
+				}
+			}
+			
+			if (npc.type == ModContent.NPCType<Yandere>())
+			{
+				if (chat == "Could you just tell " + Main.npc[Dryad].GivenName + " to try to stop affecting yo- I mean others by walking nearly complete naked? If you don't I will fix problem with my own solution.")
+					chat = "你能不能告诉树妖，让她尽量不要以近乎全裸的方式在你——我是说其他人面前出现？如果你做不到，我会用我的方法来解决这个问题。";
+				if (chat == "Sorry but I don't need to visit " + Main.npc[Nurse].GivenName + ". This world is ruled after kill or be killed in if you cannot heal yourself in the end you will just get hunted in the end.")
+					chat = "抱歉，但我并不需要去找护士。这个世界奉行的是丛林法则，如果无法自力更生，你最终只会成为被猎杀的对象。";
+
+				switch (chat)
+				{
+					case "Senpai if all of the ocean become ink it will be still not enough for me to tell how much I love you":
+					chat = "天地合，乃敢与君绝。";
+					break;
+					case "Still you didn't tell me where we go for honeymoon. I hope that place will contain only me and you.":
+					chat = "你还是没告诉我要去哪里度蜜月。我希望那个地方只有我和你。";
+					break;
+					case "HAHAHAHAHAHAH- wait its still alive. Sorry darling I will be a little busy for next few minutes":
+					chat = "哈哈哈哈—等等它还活着。抱歉，亲爱的，接下来几分钟我会有点忙。";
+					break;
+					case "I can feel your breath.":
+					chat = "我能感受到你的呼吸。";
+					break;
+					case "*sharpens her knife* You know that Dryad really needs to get a nice lesson.":
+					chat = "*磨着她的刀* 你知道树妖真的需要好好上一课。";
+					break;
+					case "*Starts to slowly walk towards you* Isn't the night is lovely?":
+					chat = "*慢慢向你走来* 如此良辰美景，不如我们？";
+					break;
+					case "*Blushes* Do you come here to visit me? How kind.":
+					chat = "*脸红* 你是来找我的吗？真好。";
+					break;
+					case "After you defeat that kid high on neurochemicals and streoids the order have determined to let me move here and help you whenever you need. I hope this will make you happy.":
+					chat = "在你打败了那个服用神经化学物质和类固醇的孩子之后，教团决定让我搬到这里，在你需要的时候帮助你。我希望这会让你高兴。";
+					break;
+					case "Do you come here to buy or you come here for me?":
+					chat = "你是来买东西的还是来找我的？";
+					break;
+					case "I miss you when you are not here.":
+					chat = "你不在的时候我好想你。";
+					break;
+					case "Hunting animals and humans are same. At first their screams and cries affect your heart but with time you start to feel nothing.":
+					chat = "狩猎动物和人类是一样的。起初，它们的尖叫和哭泣会影响你的心，但随着时间的推移，你开始什么都感觉不到。";
+					break;
+					case "What a lovely day. Isn't it? After you finish your job what about we drink something together?":
+					chat = "多么美好的一天。不是吗？你完成工作后，我们一起喝点什么？";
+					break;
+					case "Always be careful about slimes. They may look weak but their actual men that fight hits quite hard. I wish I don't need to fight against that half cat half slime thing.":
+					chat = "是要小心史莱姆。它们可能看起来很弱，但实际的战斗力却很强。我希望我不需要对抗那种半猫半史的东西。";
+					break;
+					case "While I was searching the caves for assassinating a high tier dwarfs that is responsible for the mine slavery I have heard crying sounds of a child. I wish he's safe in there.":
+					chat = "当我在洞穴里搜寻负责矿场奴隶制的高阶矮人，准备刺杀他时，我听到了孩子的哭声。我希望他能在那里安然无恙。";
+					break;
+					case "Wait, you visit underworld and come here that easily. I have never heard that bit- I mean that succubus queen to let people that easily before examining them.":
+					chat = "等等，你去过地狱还能来到这儿。我从没听说那个表……我是说，魅魔女王会这么轻易地在不经过检查的情况下就让人通过。";
+					break;
+					case "I don't know whoever design that zeppelin but bunnies knows how to use it well. Actually too well...":
+					chat = "我不知道齐柏林飞艇是谁设计的，但兔子们知道如何使用它。确实，用的有点太好了…";
+					break;
+					case "While I was watching sky while resting I have seen a harpy racing with a tinkerer on a small plane. Strangely they look like they are both having fun. I wish we also get along with other nations rather than killing.":
+					chat = "当我休息时，我看到天上有一架竖琴在一架小飞机上和一个修补匠比赛。奇怪的是，它们看起来都很开心。我希望我们也能与其他国家这样相处，而不是杀戮。";
+					break;
+					case "Senpai please be safe.":
+					chat = "前辈，请注意安全。";
+					break;
+					case "I wish I could make a dinner for you but these hands only trained for killing for years":
+					chat = "我希望自己能为你做一顿晚餐，但这双手多年来只会杀人。";
+					break;
+					case "It's too late to go outside. Please stay with me. I can protect you from the darkness of the night":
+					chat = "现在出门太晚了。请和我呆在一起。我可以保护你免受黑暗的侵袭。";
+					break;
+					case "What, you want to kill that thing? You are so brave senpai.":
+					chat = "什么，你想杀了那个东西？你太勇敢了，前辈。";
+					break;
+					case "The order loves these kinds of nights. People get sleepy and assassinating them gets much easier.":
+					chat = "教团喜欢这种夜晚。人们会昏昏欲睡，暗杀他们会变得容易得多。";
+					break;
+					case "Should we make a nice walk in this lovely night?":
+					chat = "在这个美好的夜晚，我们应该好好散步吗？";
+					break;
+					case "Listening the winds at night make me hear the screams of my people that are being slaughtered by the kingdom. You are pretty lucky for not hearing that.":
+					chat = "晚上听着风，我听到了我的人民被王国屠杀的惨叫声。你很幸运没有听到。";
+					break;
+					case "What, a scarlet eyed bounty hunter you ask? Never trust that megalovaniac. It ones worked for us but when kingdom pay her more it have changed the team and stab us from behind. It only truely cares chocolate.":
+					chat = "什么，你问的是一个红眼睛的赏金猎人？永远不要相信那个自大狂。她曾为我们工作过，但当王国付给她更多的钱时，她背叛了我们。她现在只关心巧克力。";
+					break;
+					case "We, the order of chaos have gathered to save these lands from the cruelty of the kingdom. While our leader is a little... insane but maybe this keeps the hunters ready to strike. Honestly she have a specific taste for torturing so never go against her.":
+					chat = "我们，混团教团已经聚集在一起，将这些土地从王国的残酷中拯救出来。虽然我们的领袖有点……疯狂，但也许这让猎人们做好了打击的准备。老实说，她对折磨有着特殊的品味，所以永远不要反对她。";
+					break;
+					case "What, Akatsuki clan? That half shinigami half human thingies have strong connections with each other, their clan leader and order of past. Not gonna lie I quite like them but due to they have problems with the order I couldn't visit their town.":
+					chat = "什么？赤月一族？那些半死神半人类的家伙们彼此之间的联系确实很紧密，他们这一族引领了远古的时代。我不会撒谎，我很喜欢他们，但由于他们和教团之间有些问题，我不能拜访他们的城镇。";
+					break;
+					case "Wait, my dear why not we talk for some more. You know you are always welcome here and you don't need to leave so soon.":
+					chat = "等等，亲爱的，我们为什么不多聊几句呢？你知道这里总是欢迎你的，你不需要这么快就离开。";
+					break;
+					case "Please be safe.":
+					chat = "请注意安全。";
 					break;
 				}
 			}
