@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions; 
 using Terraria;
 using Terraria.ModLoader;
 using AFKPETS.NPCs.BiomeNPCs;
@@ -18,9 +15,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 	{
 		public override void GetChat(NPC npc, ref string chat)
 		{
-			int Dryad = NPC.FindFirstNPC(20);
-			int Clothier = NPC.FindFirstNPC(54);
 			int Nurse = NPC.FindFirstNPC(18);
+			int Dryad = NPC.FindFirstNPC(20);
+			int Guide = NPC.FindFirstNPC(22);
+			int Clothier = NPC.FindFirstNPC(54);
+			int Pirate = NPC.FindFirstNPC(229);
+			int WanderingSamurai = NPC.FindFirstNPC(ModContent.NPCType<WanderingSamurai>());
 
 			if (npc.type == ModContent.NPCType<NecromancerDummyNpc>())
 			{
@@ -358,7 +358,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			if (npc.type == ModContent.NPCType<BossHunterMerchant>())
 			{
-				if (chat == "Why is " + Main.npc[Dryad].GivenName + " not selling any weapon?")
+				if (Dryad >= 0 && chat == "Why is " + Main.npc[Dryad].GivenName + " not selling any weapon?")
 					chat = "为什么树妖不售卖任何武器？";
 
 				switch (chat)
@@ -659,9 +659,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			if (npc.type == ModContent.NPCType<FallenAngel>())
 			{
-				if (chat == "I feel also " + Main.npc[Dryad].GivenName + "s soul is blessed.")
+				if (Dryad >= 0 && chat == "I feel also " + Main.npc[Dryad].GivenName + "s soul is blessed.")
 					chat = "我感到树妖的灵魂是纯洁的。";
-				if (chat == "How do you believe " + Main.npc[Clothier].GivenName + " ? I can still feel his sinned soul.")
+				if (Clothier >= 0 && chat == "How do you believe " + Main.npc[Clothier].GivenName + " ? I can still feel his sinned soul.")
 					chat = "你怎么能相信服装商？我感到他的灵魂充满了罪恶";
 
 				switch (chat)
@@ -728,12 +728,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					break;
 				}
 			}
-			
-			if (npc.type == ModContent.NPCType<Yandere>())
+
+            if (npc.type == ModContent.NPCType<Yandere>())
 			{
-				if (chat == "Could you just tell " + Main.npc[Dryad].GivenName + " to try to stop affecting yo- I mean others by walking nearly complete naked? If you don't I will fix problem with my own solution.")
+				if (Dryad >= 0 && chat == "Could you just tell " + Main.npc[Dryad].GivenName + " to try to stop affecting yo- I mean others by walking nearly complete naked? If you don't I will fix problem with my own solution.")
 					chat = "你能不能告诉树妖，让她尽量不要以近乎全裸的方式在你——我是说其他人面前出现？如果你做不到，我会用我的方法来解决这个问题。";
-				if (chat == "Sorry but I don't need to visit " + Main.npc[Nurse].GivenName + ". This world is ruled after kill or be killed in if you cannot heal yourself in the end you will just get hunted in the end.")
+                if (Nurse >= 0 && chat == "Sorry but I don't need to visit " + Main.npc[Nurse].GivenName + ". This world is ruled after kill or be killed in if you cannot heal yourself in the end you will just get hunted in the end.")
 					chat = "抱歉，但我并不需要去找护士。这个世界奉行的是丛林法则，如果无法自力更生，你最终只会成为被猎杀的对象。";
 
 				switch (chat)
@@ -817,7 +817,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "我们，混团教团已经聚集在一起，将这些土地从王国的残酷中拯救出来。虽然我们的领袖有点……疯狂，但也许这让猎人们做好了打击的准备。老实说，她对折磨有着特殊的品味，所以永远不要反对她。";
 					break;
 					case "What, Akatsuki clan? That half shinigami half human thingies have strong connections with each other, their clan leader and order of past. Not gonna lie I quite like them but due to they have problems with the order I couldn't visit their town.":
-					chat = "什么？赤月一族？那些半死神半人类的家伙们彼此之间的联系确实很紧密，他们这一族引领了远古的时代。我不会撒谎，我很喜欢他们，但由于他们和教团之间有些问题，我不能拜访他们的城镇。";
+					chat = "什么？晓之一族？那些半死神半人类的家伙们彼此之间的联系确实很紧密，他们这一族引领了远古的时代。我不会撒谎，我很喜欢他们，但由于他们和教团之间有些问题，我不能拜访他们的城镇。";
 					break;
 					case "Wait, my dear why not we talk for some more. You know you are always welcome here and you don't need to leave so soon.":
 					chat = "等等，亲爱的，我们为什么不多聊几句呢？你知道这里总是欢迎你的，你不需要这么快就离开。";
@@ -828,43 +828,134 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			/*if (npc.type == ModContent.NPCType<>())
+			if (npc.type == ModContent.NPCType<BountyHunter>())
 			{
 				switch (chat)
 				{
-					case "":
-					chat = "";
+					case "Oh you're approaching me? Well then partner, what you need?":
+					chat = "哦，你在说我？好吧，伙计，你需要什么？";
 					break;
-					case "":
-					chat = "";
+					case "I used to live in a beautiful village with my family and lil bro... Wait why I'm telling you this? If you are looking for someone to make fun just find another person.":
+					chat = "我曾经和我的家人以及我的小弟弟住在一个美丽的村庄……等等，我为什么要告诉你这些？如果你只是想找乐子，那就去找别人吧。";
 					break;
-					case "":
-					chat = "";
+					case "DOES SOMEONE SAID CHOCOLATE?":
+					chat = "有人在说巧克力？";
 					break;
-					case "":
-					chat = "";
+					case "After all these adventures the only reward I ever get is see my opponents fall and let their eyes fade slowly. Maybe thats what power gives you":
+					chat = "经历了这些冒险之后，我唯一得到的奖励就是看着我的对手倒下，让他们的眼神慢慢黯淡。也许这就是力量给你的东西吧。";
 					break;
-					case "":
-					chat = "";
+					case "What, how this town can have no chef? How you guys even get chocolate cake from?":
+					chat = "什么，这个小镇怎么会没有厨师？你们要怎么才能吃到巧克力蛋糕？";
 					break;
-					case "":
-					chat = "";
+					case "Do you ever see that weirdo high on neurochemicals? Last time he ambushed I hardly save my life. I would like to make him a little coversation with my knife.":
+					chat = "你有没有见过那个神经化学物质过量的怪人？上次他偷袭我，我差点没保住自己的性命。我想用我的刀跟他好好聊聊。";
 					break;
-					case "":
-					chat = "";
+					case "Do you ever think about if you can change what did you do in before what will be happened in future? I used to think but later I see it only damages by determination to kill so I stop thinking such thigs.":
+					chat = "你是否有过这样的想法，如果能改变过去所做的事情，未来会发生什么？我以前会这样想，但后来我发现，只有下定决心去做才会带来改变，所以我不再想这样的事了。";
+					break;		
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<Designer>())
+			{
+				if (Pirate >= 0 && chat == "Please do not believe what " + Main.npc[Pirate].GivenName + " says. He used to tell me he will show me far lands but now you can see the result. I was being tortured and used as a slave.")
+					chat = "请不要相信海盗说的话。他以前告诉我他会带我去远方的陆地，但现在你可以看到结果。我被折磨并被当作奴隶。";
+                if (Nurse >= 0 && chat == "After " + Main.npc[Nurse].GivenName + " see my skin she tell that maybe acid burn can be healed with some Eastern medicine. I hope they will.")
+					chat = "护士看了我的皮肤后说，也许用一些中药可以治愈酸烧伤。我希望如此。";
+
+				switch (chat)
+				{
+					case "I have missed you so much my love. I hope you are doing well.":
+					chat = "亲爱的我好想你，我希望你最近过的还好。";
 					break;
-					case "":
-					chat = "";
+					case "They may look human but when pirates kidnap humans and they torture them until they either lose their sanity or their heart cannot stand anymore and they die from heart attack. How I survived? I don't want to tell this.":
+					chat = "尽管他们外表看起来和人类无异，但海盗们会绑架人类，并对他们进行残酷的折磨，直到他们精神崩溃或是心脏无法承受而死于心脏病。我是如何生存下来的？我不想再提起这件事了。";
 					break;
-					case "":
-					chat = "";
+					case "Thank you again for everything. What you want to buy today?":
+					chat = "再次感谢你为我做的一切。你今天想买些什么？";
 					break;
-					case "":
-					chat = "";
+					case "You ask those wounds, they are being made by pirate captain while he's testing how sharp his sword on me.":
+					chat = "你问那些伤口吗？那是海盗船长用剑在我身上试剑时留下的。";
+					break;
+					case "Please don't abandon me, I'm still afraid that one day they will come.":
+					chat = "请不要抛弃我，我还是很怕他们有一天会找来。";
+					break;
+					case "...Um what are you doing? Are you patting my head? That's fine, but ...":
+					chat = "……嗯，你在做什么？你在拍我的头吗？这样挺好，但……";
+					break;
+					case "I will do anything I can do to help you.":
+					chat = "我会尽我所能帮助你";
 					break;
 				}
-			}*/
-		}
+			}
 
-	}
+			if (npc.type == ModContent.NPCType<Elitist>())
+			{
+				if (Pirate >= 0 && chat == "Don't tell me you are keeping " + Main.npc[Pirate].GivenName + " inside of your town. " + Main.npc[Pirate].GivenName + "will attack you in the first opportunity as they did to my kingdom. I never expect our royal guards will be beaten by such low tier raiders.")
+					chat = "别告诉我你把海盗留在了你们镇子里。海盗一旦有机会，就会像攻击我的王国一样攻击你们。我从没想到我们的皇家守卫会被这种低级的劫掠者打败。";
+                if (Guide >= 0 && chat == "It's really interesting " + Main.npc[Guide].GivenName + " also have such knowledge on surreal arts.")
+					chat = "向导对超现实主义艺术也有这样的了解，真是有趣。";
+
+				switch (chat)
+				{
+					case "Wait, do you tell me that slime is dead? Oh my god thank you so much hero. I never expect a slime have such economy tactics and because of their life spawn have no limit according to royal records slimes have been controlling kingdoms economy for nearly a thousand years. Now with this they have lost their most important economist. I have a bad feeling that this will cause them to send their army after you. Please be safe hero.":
+					chat = "等等，你是说史莱姆总统已经死了吗？天哪，太感谢你了，英雄。我从没想到史莱姆会有这样的经济策略，而且根据皇家记载，由于史莱姆的生命繁殖没有限制，它们已经控制了王国近千年的经济。现在，随着它们的这位重要经济学家死去，我有种不好的预感，它们可能会派军队来追杀你。请英雄保重。";
+					break;
+					case "Greetings human. Is there anything I can help you?":
+					chat = "你好，泰拉人。有什么我可以帮助你的吗？";
+					break;
+					case "Thanks to you now that demonic thing cannot hunt our merchants and maybe kingdoms economy return back once again. Actually if that weird haired slime didn't cause devaluation and own the black market to kill our local markets and economy kingdom have already return to its gold eras.":
+					chat = "多亏了你，现在那个恶魔般的东西不能再猎杀我们的商人了，也许王国的经济能够再次恢复。实际上，如果那个头发奇怪的史莱姆没有造成贬值，没有垄断黑市以扼杀我们的本地市场和经济，王国早就已经回到它的黄金时代了。";
+					break;
+					case "Don't look me with such eyes. Blue period is an art period which is taken its name from one of our famous painter. Why people think such weird things when they hear that?":
+					chat = "不要用那样的眼神看着我。蓝色时期是一个艺术时期，它的名字来源于我们的一位著名画家。为什么人们听到这个名字会想到这么奇怪的事情呢？";
+					break;
+					case "Well... That thing on that painting is just happy accident":
+					chat = "嗯……那幅画上的那个东西只是个巧合";
+					break;
+					case "Wait, it's tea time. Tell me where I can find tea in this town?":
+					chat = "等等，现在是喝茶时间了。告诉我这个镇子哪里可以找到茶？";
+					break;
+					case "Why I'm pale? Well because of the assasinations wealthy families make their kids raise inside of where they found safe and I mostly raise inside of an art gallery. After the king give order to make copy of important paintings and spread the culture I volunteered to see both the outer world and spread the art.":
+					chat = "为什么我看起来脸色苍白？嗯，这是因为富裕的家庭为了防止暗杀，会让孩子在他们认为安全的地方长大，而我主要是在一个艺术画廊里长大的。在国王下令复制重要画作并传播文化之后，我自愿出来看看外面的世界并传播艺术。";
+					break;
+					
+				}
+			}
+
+			if (npc.type == ModContent.NPCType<WanderingSamurai>())
+			{
+				if (Nurse >= 0 && chat == "Can you tell " + Main.npc[Nurse].GivenName + " that this is our natural skin colour and I'm not ill. ")
+					chat = "你能告诉护士我们的肤色天生就是这样吗，我并没有生病。";
+				 if (chat == "Watashi wa " + Main.npc[WanderingSamurai].GivenName + " sam- wait you don't know our local language. Sorry for that. My name is " + Main.npc[WanderingSamurai].GivenName + " and its honor to meet a hunter like you.")
+					chat = "瓦塔西瓦" + Main.npc[WanderingSamurai].GivenName + "萨米，等等你不会说我们的语言。 抱歉，我的名字是" + Main.npc[WanderingSamurai].GivenName + "，很荣幸见到你。";
+
+				switch (chat)
+				{
+					case "Wait, you kill gooki? For few things my clans and slimes politics are different but he's brave and kind shinobi. I will pray for him.":
+					chat = "等等，你杀了古奇？我的部族和权贵政治几乎没有什么不同，但他是勇敢善良的忍者。我会为他祈祷。";
+					break;
+					case "Do you kill Neko sama? She have slayed hundred men in less than 5 second in front of my eyes. It seems you are really getting stronger.":
+					chat = "你杀了奈子吗？她在我眼前不到5秒钟的时间里杀死了100名男子。看来你真的越来越强壮了。";
+					break;
+					case "You ask why I look different. Well, eons ago our ancestors live where sakura trees blossom and filled with rei's. Legends tell one day one farmer have cut down a kodama to returning that place farm and cause that yokai to curse my nation with the illness of melting bones. After the painful death of half of our people the clan leader Akatsuki have make a deal with shinigamis to give her immortality and half of our humanity she have broken that curse and after that day we become half human half shinigami.":
+					chat = "你问为什么我看起来与众不同。嗯，很久很久以前，我们的祖先生活在樱花盛开、充满神灵的地方。传说有一天，一个农夫砍倒了一棵神木，为了在那个地方开垦农田，结果惹怒了妖怪，导致我的国家被诅咒。在我们的人民痛苦地死去一半之后，氏族首领晓与死神达成了一个协议，她献出了自己的不朽和一半的人性，打破了那个诅咒。从那天起，我们就变成了半人半死神的一族。";
+					break;
+					case "Thank you so much to put her to rest. I have also beaten Okiku several times before but because of her innocence and youth my pity always stop me to do the deathblow but thanks to you her soul can rest now.":
+					chat = "非常感谢你让她安息。我之前也打败过盘子女鬼几次，但因为她的无辜和年轻，我的怜悯之心总是阻止我给她致命一击。但多亏了你，她的灵魂现在可以安息了。";
+					break;
+					case "Why you look like that? Actually being around thousand year old is a young age when compared with the others in my clan.":
+					chat = "你为什么那么惊讶？其实，在我们氏族里，活上千年算是年轻的。";
+					break;
+					case "Actually we are send other areas to observe what is happening and clear any threat against our clan. Well, why I choose this place? Since I'm aware of your presense you can do the cleaning stuff while I'm resting for some time. Well, if you find another person to do the work it won't accept as sleeping at job.":
+					chat = "实际上，我们被派往其他地区观察情况，清除任何威胁我们氏族的威胁。嗯，为什么我选择这个地方？既然我知道你在这儿，你可以在我休息的时候负责清理工作。嗯，如果你找到其他人来做这份工作，那可就不算是偷懒了。";
+					break;
+					case "*Yawns* Since you are here I believe you can do the job to clean yokai's and other monsters. Fighting with royal guards at high noon tire me a little bit so I will rest in your town for some time.":
+					chat = "*打哈欠* 既然你在这儿，我相信你能胜任清理妖怪和其他怪物的任务。与皇家守卫在正午时分交战让我有点累，所以我会在你的镇子里休息一段时间。";
+					break;
+				}
+			}
+        }
+
+    }
 }
