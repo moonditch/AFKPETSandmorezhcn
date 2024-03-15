@@ -988,7 +988,7 @@ Mods: {
 
 			BenbenTsukumo: {
 				DisplayName: 九十九弁弁
-				Description: "'她自己表演'"
+				Description: 她自己表演
 			}
 
 			BirdBlue: {
@@ -1257,8 +1257,8 @@ Mods: {
 			}
 
 			ChizuruUrashima: {
-				DisplayName: Chizuru Urashima
-				Description: "'She将跟随你'"
+				DisplayName: 茉雪千鹤
+				Description: 她将跟随你
 			}
 
 			ChochinObakeBlessing: {
@@ -2235,7 +2235,7 @@ Mods: {
 
 			FemaleAncientWarlord: {
 				DisplayName: 亘古领主
-				Description: She's still observing this dimention
+				Description: 她还在观察这个维度
 			}
 
 			Fin: {
@@ -2374,7 +2374,7 @@ Mods: {
 
 			GingerBreadMan: {
 				DisplayName: 姜饼人
-				Description: "'他还是想杀了你'"
+				Description: 他还是想杀了你
 			}
 
 			GoldBunny: {
@@ -3062,18 +3062,18 @@ Mods: {
 			}
 
 			Marx: {
-				DisplayName: Marx
-				Description: I hope it won't destroy this world
+				DisplayName: 魔噜酷灵魂
+				Description: 我希望它不会毁灭这个世界
 			}
 
 			Marx2: {
-				DisplayName: Marx
-				Description: I hope it won't destroy this world
+				DisplayName: 魔噜酷灵魂
+				Description: 我希望它不会毁灭这个世界
 			}
 
 			Mary: {
-				DisplayName: Mary
-				Description: She feels happy but she also misses Ib
+				DisplayName: 梅阿丽
+				Description: 她很开心，但也很想念Ib
 			}
 
 			MasterHand: {
@@ -3973,7 +3973,7 @@ Mods: {
 
 			Shades: {
 				DisplayName: 墨镜君
-				Description: He is looking for his brother
+				Description: 他在找他的哥哥
 			}
 
 			ShadowMimic: {
@@ -4002,8 +4002,8 @@ Mods: {
 			}
 
 			Shopkeeper: {
-				DisplayName: Shopkeeper
-				Description: "'You feel you see that hat before"
+				DisplayName: 店主
+				Description: 你觉得你以前见过那顶帽子
 			}
 
 			ShovelKnight: {
@@ -4412,8 +4412,8 @@ Mods: {
 			}
 
 			tensecond: {
-				DisplayName: Cute box
-				Description: It seems it has only ten seconds
+				DisplayName: 可爱的盒子
+				Description: 似乎只有十秒钟
 			}
 
 			Tenshi: {
@@ -4432,8 +4432,8 @@ Mods: {
 			}
 
 			TheBrain: {
-				DisplayName: The Brain
-				Description: It's looking for critters to make experiments
+				DisplayName: 大脑
+				Description: 它在寻找动物来做实验
 			}
 
 			TifaLockheart: {
@@ -4527,7 +4527,7 @@ Mods: {
 			}
 
 			UNOwenWasher: {
-				DisplayName: 芙兰式洗衣机
+				DisplayName: 芙兰牌洗衣机
 				Description: 它将跟随你
 			}
 
@@ -12224,7 +12224,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你想知道里面是什么'
-					召唤Chizuru Urashima跟随你
+					召唤茉雪千鹤跟随你
 					'''
 			}
 
@@ -12361,7 +12361,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它看起来是生命的'
-					召唤Marx跟随你
+					召唤魔噜酷灵魂跟随你
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -12458,7 +12458,7 @@ Mods: {
 
 			Switch: {
 				DisplayName: 灯光开关
-				Tooltip: "'???'"
+				Tooltip: ???
 			}
 
 			Tank: {
@@ -12484,7 +12484,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它看起来又大又奇怪'
-					召唤cute box跟随你
+					召唤可爱的盒子跟随你
 					'''
 			}
 
@@ -12498,11 +12498,11 @@ Mods: {
 			}
 
 			TimeShard: {
-				DisplayName: Time Shard（出自:信使）
+				DisplayName: 时光碎片（出自:信使）
 				Tooltip:
 					'''
 					'也许你可以用它升级一些东西'
-					召唤Shopkeeper跟随你
+					召唤店主跟随你
 					'''
 			}
 
@@ -12599,7 +12599,7 @@ Mods: {
 
 			TurkeyFeather: {
 				DisplayName: 火鸡羽毛（出自:pe版1.1~1.2）
-				Tooltip: "'召唤宠物火鸡'"
+				Tooltip: 召唤宠物火鸡
 			}
 
 			UboaDoll: {
@@ -12653,12 +12653,12 @@ Mods: {
 				Tooltip:
 					'''
 					'已经有495年没人用了'
-					召唤芙兰式洗衣机跟随你
+					召唤芙兰牌洗衣机跟随你
 					'''
 			}
 
 			VoidalSingularity: {
-				DisplayName: 虚空奇点（占位符）
+				DisplayName: 虚空奇点
 				Tooltip:
 					'''
 					'虚空之父曾经用它来制造不稳定的织物，从而打破时间和空间的间隔'
@@ -22576,7 +22576,7 @@ Mods: {
 			Blizzarus.DisplayName: 精灵
 			BlueInkling.DisplayName: 蓝鱿鱼
 			BlueScarab2.DisplayName: 蓝甲虫
-			Bobomb.DisplayName: Bobomb
+			Bobomb.DisplayName: 炸弹兵
 			BobsBrain.DisplayName: 鲍勃的脑浆子
 			BoneBiter.DisplayName: 噬骨沙鲨
 			Bowser.DisplayName: 库巴
@@ -22602,7 +22602,7 @@ Mods: {
 			ChefsSpiritualEnergy.DisplayName: 厨师怒火
 			Chen.DisplayName: 橙
 			ChibiPinky.DisplayName: Chibi Pinky
-			ChizuruUrashima.DisplayName: Chizuru Urashima
+			ChizuruUrashima.DisplayName: 茉雪千鹤
 			Cirno2.DisplayName: 琪露诺
 			CirnoLight.DisplayName: 琪露诺
 			CloudStrife.DisplayName: Cloud Strife
@@ -22778,9 +22778,9 @@ Mods: {
 			Mariah.DisplayName: 玛莱雅
 			Marie.DisplayName: Marie
 			Marisa.DisplayName: 雾雨魔理沙
-			Marx.DisplayName: Marx
-			Marx2.DisplayName: Marx2
-			Mary.DisplayName: Mary
+			Marx.DisplayName: 魔噜酷灵魂
+			Marx2.DisplayName: 魔噜酷灵魂
+			Mary.DisplayName: 梅阿丽
 			MasterHand.DisplayName: 大师手套
 			Mawile.DisplayName: 大嘴娃
 			MayaFey.DisplayName: 绫里真宵
@@ -22809,7 +22809,7 @@ Mods: {
 			Monokuma.DisplayName: 黑白熊
 			Morrigan.DisplayName: 苏格兰
 			MotherSlimeProjectile.DisplayName: Mother Slime Projectile
-			MothronBaby.DisplayName: Mothron Baby
+			MothronBaby.DisplayName: 蛾怪宝宝
 			MrBright.DisplayName: Mr Bright
 			MrGameandWatch.DisplayName: 小黑人
 			Mudkip.DisplayName: 水跃鱼
@@ -22924,7 +22924,7 @@ Mods: {
 			SheerHeart.DisplayName: Sheer Heart
 			Shinki.DisplayName: 神绮
 			ShinmyoumaruSukuna.DisplayName: 少名针妙丸
-			Shopkeeper.DisplayName: Shopkeeper
+			Shopkeeper.DisplayName: 店主
 			ShovelKnight.DisplayName: 铲子骑士
 			Shrek.DisplayName: 史瑞克
 			ShyGuy.DisplayName: 害羞小子
@@ -22952,7 +22952,7 @@ Mods: {
 			Tenshi.DisplayName: 比那名居天子
 			Terry.DisplayName: Terry
 			TewiInaba.DisplayName: 因幡天为
-			TheBrain.DisplayName: The Brain
+			TheBrain.DisplayName: 大脑
 			TifaLockheart.DisplayName: Tifa Lockheart
 			TinkerBell.DisplayName: 奇妙仙子
 			TinyGolem.DisplayName: 石小人
@@ -22960,11 +22960,11 @@ Mods: {
 			Trashy.DisplayName: Trashy
 			TrickyDark.DisplayName: 黑暗形态的霍夫纳
 			TruffleWorm.DisplayName: 松露虫
-			Turkey.DisplayName: Turkey
+			Turkey.DisplayName: 宠物火鸡
 			Uboa.DisplayName: Uboa
 			UkulelePichu.DisplayName: 乌克丽丽皮丘
 			Undyne.DisplayName: 安黛因
-			UNOwenWasher.DisplayName: U N Owen Washer
+			UNOwenWasher.DisplayName: 芙兰牌洗衣机
 			Utsuho.DisplayName: 灵乌路空
 			VampireBat.DisplayName: 吸血鬼蝙蝠
 			Wailord.DisplayName: 吼鲸王
