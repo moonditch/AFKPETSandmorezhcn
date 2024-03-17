@@ -30,10 +30,14 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Thin Ice", "薄冰");  
             text = Regex.Replace(text, "THIN ICE", "薄 冰");  
             text = Regex.Replace(text, "Skill Issue", "重置");  
-            text = Regex.Replace(text, "Retry", "重置");  
-            text = Regex.Replace(text, " Mines Placed", "个地雷");  
+            text = Regex.Replace(text, " Mines Placed", "个地雷"); 
+            text = Regex.Replace(text, "Sorry, you press to the mine", "不好意思你按到地雷了");  
+            text = Regex.Replace(text, "Congrats you find all of the mines", "恭喜你找到了所有的地雷"); 
+            text = Regex.Replace(text, "Press retry to start again", "按重新开始重新开始");
+            text = Regex.Replace(text, "Retry", "重置");     
             text = Regex.Replace(text, "Start Playing", "开始游戏");  
-            text = Regex.Replace(text, "Level", "关卡");    
+            text = Regex.Replace(text, "Level", "关卡");  
+            text = Regex.Replace(text, " is solved", " 已完成");    
             //NPCUI 
             //游戏精灵
             text = Regex.Replace(text, "Prize Shop", "奖励商店"); 
