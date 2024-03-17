@@ -20,6 +20,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("-Crossover Content-", "-联动内容-");
 				sb.Replace("Trinket", "密藏");
 				sb.Replace("Artifact", "祭品");
+				sb.Replace("Prize Token", "游戏币");
 				sb.Replace("Current Reward:", "当前奖励: ");
 
 				sb.Replace("True Melee ", "真");
