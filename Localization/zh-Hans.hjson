@@ -5,9 +5,9 @@ Mods: {
 				DisplayName: 史莱姆复仇联盟
 
 				BossChecklistIntegration: {
+					SpawnInfo: 在白天使用 [i:AFKPETS/SlimeinaGlassCube] 召唤
+					DespawnMessage: 史莱姆为它们的国王复仇了
 					EntryName: 史莱姆王国最后的希望
-					SpawnInfo: Use Slime in a glass cube at day
-					DespawnMessage: Slimes take their fallen kings revenge
 				}
 			}
 
@@ -24,9 +24,9 @@ Mods: {
 				DisplayName: 胎儿博士
 
 				BossChecklistIntegration: {
+					SpawnInfo: 没有击败他时, 邪恶环境敌人有几率掉落 [i:AFKPETS/TinyMeatIdol], 使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/TinyMeatIdol].
+					DespawnMessage: 胎儿博士击溃了玩家的策略
 					EntryName: 胎儿博士
-					SpawnInfo: Use Tiny meat idol which have a chance to drop from enemies in corruption or crimson if Dr Fetus haven't defeated. After it's defeat it can be bought from dark huntress.
-					DespawnMessage: Dr Fetus found the players skill issue
 				}
 			}
 
@@ -34,7 +34,7 @@ Mods: {
 				BossChecklistIntegration: {
 					EntryName: 旧日三重唱
 					SpawnInfo: 在夜晚使用 [i:AFKPETS/BlackenedHeart] 召唤
-					DespawnMessage: 所有的玩家都被吃掉了
+					DespawnMessage: 所有的玩家都被吞没了
 				}
 
 				DisplayName: 魂幡守望者
@@ -53,12 +53,7 @@ Mods: {
 			SlayerofEvil: {
 				BossChecklistIntegration: {
 					DespawnMessage: 所有的坏人都被英雄消灭了
-					SpawnInfo:
-						'''
-						被束缚的黑暗女猎手有概率在 [c/8E236B:下午1:30] 之前在地表生成，点击帮助按钮后召唤恶魔杀手。
-						树妖死后有概率掉落 [i:AFKPETS/SeveredDryadHead]，使用后召唤。
-						在玩家击败他一次之后，将无法自然生成，但可以通过黑暗女猎手出售的 [i:AFKPETS/SeveredDryadHead] 重新召唤。
-						'''
+					SpawnInfo: 被束缚的黑暗女猎手有概率在 [c/8E236B:下午1:30] 之前在地表生成, 点击帮助按钮后召唤恶魔杀手. 树妖死后有概率掉落 [i:AFKPETS/SeveredDryadHead], 使用后召唤. 在玩家击败他一次之后, 将无法自然生成, 但可以通过黑暗女猎手出售的 [i:AFKPETS/SeveredDryadHead] 重新召唤.
 					EntryName: 恶魔杀手
 				}
 
@@ -69,9 +64,9 @@ Mods: {
 				DisplayName: 英勇史莱姆
 
 				BossChecklistIntegration: {
-					EntryName: 英勇史莱姆
-					SpawnInfo: Spawns at the end of slime troop event. After their defeat dark huntress sell their summon item
-					DespawnMessage: The slime hero has surpassed the human one.
+					SpawnInfo: 在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/HolographicSlimeReplica].
+					DespawnMessage: 英勇史莱姆已经击退了泰拉人
+					EntryName: 史莱姆军队 1 阶段迷你Boss
 				}
 			}
 
@@ -79,9 +74,9 @@ Mods: {
 				DisplayName: 皇家鸟妖风暴号
 
 				BossChecklistIntegration: {
+					SpawnInfo: 使用鸟妖掉落的 [i:AFKPETS/SeveredHarpyHead] 召唤, 未击败时有几率自然生成.
+					DespawnMessage: 皇家鸟妖空军胜利返航
 					EntryName: 皇家鸟妖风暴号
-					SpawnInfo: Use severed harpy head which drop from harpies to summon the boss or if it hasn't defeated it could spawn naturally.
-					DespawnMessage: Royal harpy force has return back to base
 				}
 			}
 
@@ -89,22 +84,17 @@ Mods: {
 				DisplayName: 以撒
 
 				BossChecklistIntegration: {
+					SpawnInfo: 使用 [i:AFKPETS/SuspiciousLookingChest] 召唤. 击败邪恶Boss后有低概率在地下生成. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/SuspiciousLookingChest].
+					DespawnMessage: 日记：今天我活了下来
 					EntryName: 以撒
-					SpawnInfo: It have low chance to spawn in underground after EoW/BoC have been defeated. After it's defeat dark huntress sell its summon item.
-					DespawnMessage: Dear diary today I survived
 				}
 			}
 
 			Okiku: {
 				BossChecklistIntegration: {
-					SpawnInfo:
-						'''
-						击败克苏鲁之眼后，有小概率在血月自然生成。
-						没有击败她时，滴滴怪、血腥僵尸有概率掉落 [i:AFKPETS/BrokenDelftPlate]，使用后召唤。
-						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/BrokenDelftPlate]。
-						'''
+					SpawnInfo: 击败克苏鲁之眼后, 有小概率在血月自然生成. 没有击败她时, 滴滴怪、血腥僵尸有概率掉落 [i:AFKPETS/BrokenDelftPlate], 使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/BrokenDelftPlate].
 					DespawnMessage: 盘子女鬼的灵魂开始寻找新的罪人
-					EntryName: Okiku
+					EntryName: 盘子女鬼
 				}
 
 				DisplayName: 盘子女鬼
@@ -114,21 +104,17 @@ Mods: {
 				DisplayName: 死灵傀儡法师
 
 				BossChecklistIntegration: {
-					EntryName: 死灵傀儡法师
-					SpawnInfo: It have a rare chance to spawn in surface at night or use story book to summon him.
-					DespawnMessage: Antony apologizes for killing the player. Hope it could forgive after it spawns back
+					SpawnInfo: 使用 [i:AFKPETS/StoryBook] 召唤. 有小概率在夜晚地表自然生成.
+					DespawnMessage: 安东尼为杀死玩家而道歉。希望它重生后能得到原谅
+					EntryName: 死灵傀儡法师安东尼
 				}
 			}
 
 			BunnyZepplin: {
 				BossChecklistIntegration: {
 					EntryName: 兔子飞艇
-					SpawnInfo:
-						'''
-						击败克苏鲁之眼后，在白天击杀兔子有小概率自然生成，或制作 [i:AFKPETS/TiedBunny] 使用后召唤。
-						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/TiedBunny]。
-						'''
-					DespawnMessage: 兔子飞艇他们的国王收集所有烧焦的头颅
+					SpawnInfo: 击败克苏鲁之眼后, 在白天击杀兔子有小概率自然生成, 或制作 [i:AFKPETS/TiedBunny] 使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/TiedBunny].
+					DespawnMessage: 兔子飞艇为它们的国王收集所有烧焦的头颅
 				}
 
 				DisplayName: 兔子飞艇
@@ -137,12 +123,7 @@ Mods: {
 			SecurityBot: {
 				BossChecklistIntegration: {
 					EntryName: 地牢 1 阶段迷你Boss
-					SpawnInfo:
-						'''
-						根据世界的邪恶地形种类，小概率在地牢自然生成。
-						制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤。
-						在玩家成功击败一次之后，黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate]。
-						'''
+					SpawnInfo: 根据世界的邪恶地形种类, 小概率在地牢自然生成. 制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate].
 					DespawnMessage: 地牢威胁解除
 				}
 
@@ -153,9 +134,9 @@ Mods: {
 				DisplayName: 冰之守护者
 
 				BossChecklistIntegration: {
+					SpawnInfo: 雪人军团件的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/IceBossCrystal].
+					DespawnMessage: 守护者捍卫了它种族的尊严
 					EntryName: 冰之守护者
-					SpawnInfo: Spawns at the end of frost legion. After its defeat dark huntress sell its spawn item
-					DespawnMessage: The guardian protect its races pride
 				}
 			}
 
@@ -163,20 +144,16 @@ Mods: {
 				DisplayName: 梦魇史莱姆
 
 				BossChecklistIntegration: {
-					EntryName: 梦魇史莱姆
-					SpawnInfo: Spawns in the slime troop after slimes last hope + slime troop tier 1 miniboss have been defeated.
-					DespawnMessage: Slimes has neutralize the threat
+					SpawnInfo: 击败史莱姆复仇联盟和史莱姆军队 1 阶段迷你Boss后, 在史莱姆军队入侵事件的末尾生成.
+					DespawnMessage: 史莱姆已经消除了威胁
+					EntryName: 史莱姆军队 2 阶段迷你Boss
 				}
 			}
 
 			AncientGuardian: {
 				BossChecklistIntegration: {
 					EntryName: 远古守护者
-					SpawnInfo:
-						'''
-						击败克苏鲁之脑或世界吞噬怪后，在雪地小概率自然生成。
-						成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/SeveredClothierHead]。
-						'''
+					SpawnInfo: 击败克苏鲁之脑或世界吞噬怪后, 有小概率在雪地自然生成. 成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/SeveredClothierHead].
 					DespawnMessage: 远古守护者等待着它的主人回归
 				}
 
@@ -13222,7 +13199,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一面被史莱姆军队世代使用的古老旗帜'
-					使用这面战旗会导致附近的一支史莱姆部队对你发动进攻，将会强制结束正在进行的任何事件
+					使用这面战旗会导致附近的一支史莱姆军队对你发动进攻，将会强制结束正在进行的任何事件
 					退出世界将会结束此事件
 					'''
 			}
@@ -15437,37 +15414,23 @@ Mods: {
 					'''
 			}
 
-			AdventurersPickaxe: {
-				DisplayName: 冒险者镐
-				Tooltip: 它的速度、伤害和镐力是随机的
-			}
-
-			BloodSeekerPickaxe: {
-				DisplayName: 寻血稿
-				Tooltip: 用愚蠢之人的血喂养我，否则……
-			}
-
 			BrokenHeroPickaxe: {
 				DisplayName: 断裂英雄镐
-				Tooltip: 第一位皇帝时代曾经使用过的镐头的残骸
+				Tooltip:
+					'''
+					'第一位皇帝时代曾经使用过的镐头的残骸'
+					它的速度、伤害和镐力是随机的
+					'''
 			}
 
 			CalderaBreaker: {
 				DisplayName: 火山口破坏者
 				Tooltip:
 					'''
-					'我开采熔岩，但遗憾的是，它们无法忍受我的高温'
-					<right>投出稿子，破坏沿途低于它镐力的物块
-					真近战对敌人施加狱火并产生爆炸
-					'''
-			}
-
-			ConfettiPickaxe: {
-				DisplayName: 派对镐
-				Tooltip:
-					'''
-					愉快的挖矿
-					<left>挖掘物块，<right>喷洒彩纸屑
+					'真是个熔岩般的神器，希望它不会造成太大的混乱。'
+					<right>将其用作鞭子，破坏沿途低于它镐力的物块
+					收藏此物品以启用其对物块的破坏能力
+					真近战对敌人施加狱火并产生爆炸，召唤物将集中攻击被鞭子标记的敌人
 					'''
 			}
 
@@ -15476,7 +15439,9 @@ Mods: {
 				Tooltip:
 					'''
 					'它们不是岩石，而是矿物'
-					可以挖掘装有物品的箱子
+					有了开发者的祝福，它强大到足以破坏装有物品的宝箱
+					击中较小的史莱姆会使它们结晶化，打碎它们可能会掉落水晶碎片和光明之魂
+					攻击可能会生成水晶尖刺
 					'''
 			}
 
@@ -15485,19 +15450,9 @@ Mods: {
 				Tooltip:
 					'''
 					'它让你感觉奇怪'
-					有机会从世界上挖掘比特币
-					伤害随机从 100 到 400
 					攻击敌人会使他们解码
-					'''
-			}
-
-			DeadMansPickaxe: {
-				DisplayName: 亡者镐
-				Tooltip:
-					'''
-					'看来他的灵魂只有在做他以前的事情时才能找到平静'
-					手持时显示附近的陷阱和敌人，挖掘物块将为玩家提供 3 秒的快速治疗增益效果
-					攻击施加流血，开采矿石后将破坏它周围41x41区域内的同类型矿石
+					伤害随机从 100 到 400
+					有机会从世界上挖掘比特币
 					'''
 			}
 
@@ -15511,12 +15466,13 @@ Mods: {
 			}
 
 			FleshPicker: {
-				DisplayName: 肉体采集者
+				DisplayName: 血肉采集者
 				Tooltip:
 					'''
-					'看来你们有共同的目标和敌人'
-					手持时显示附近的陷阱和敌人
-					暴击对敌人施加流血
+					'我要全部挖走！'
+					破坏物块会提高玩家的生命再生，并稍微恢复生命值
+					手持时，显示附近的陷阱和敌人，攻击对敌人施加流血
+					每挥动六次，射出寻血之稿
 					'''
 			}
 
@@ -15541,7 +15497,6 @@ Mods: {
 					'''
 					'一个闪亮的神器，曾被海盗偷走'
 					<right>发射金片，捡起碰到的物品放入背包
-					暴击对敌人施加迈达斯
 					手持时显示附近的宝藏
 					'''
 			}
@@ -15567,18 +15522,15 @@ Mods: {
 					'''
 			}
 
-			MandibleDigger: {
-				DisplayName: 下颚挖掘者
-				Tooltip: 挖掘物块有 10% 的几率获得淤泥
-			}
-
 			NightsShadow: {
 				DisplayName: 永夜镐
 				Tooltip:
 					'''
-					'这把镐头似乎对你带来的恐怖感到满意'
-					<right>发射寻血飞弹
-					手持时永夜之力会保护你，减少 10% 受到的伤害
+					'挖掘新点子的最佳方式'
+					破坏物块会提高玩家的魔力再生，并稍微恢复魔力
+					破坏物块会对附近的敌人施加暗影焰
+					每挥动八次，射出暗影之稿
+					收藏此物品以按住左键持续挖掘
 					'''
 			}
 
@@ -15586,23 +15538,19 @@ Mods: {
 				DisplayName: 神梦镐
 				Tooltip:
 					'''
-					'一个神圣的遗物，用于挖掘这个世界暗影面的矿藏'
+					'这么多年后，你终于找到了它'
 					暴击对敌人施加圣焰
-					奇怪的是，你觉得神梦后面应该还有两个字，但遗憾的是你不能证明这一点
 					开采游戏早期阶段的矿石会获得狱石或其对应等级的困难模式矿石
+					挖掘物块有几率额外获得淤泥
+					每挥动四次，射出神圣之稿
 					'''
-			}
-
-			ShadowPickaxe: {
-				DisplayName: 暗影镐
-				Tooltip: 手持时，减少 10% 受到的伤害
 			}
 
 			StressCheckerPickaxe: {
 				DisplayName: 压力分析器
 				Tooltip:
 					'''
-					'它的头部装有压电传感器'
+					'它的镐头上装有压电传感器'
 					<right>附近的物块时，它会显示需要多少镐力才能破坏
 					'''
 			}
@@ -15612,11 +15560,9 @@ Mods: {
 				Tooltip:
 					'''
 					'终极之镐'
-					右键+下键 发射金片，捡起碰到的物品放入背包
-					右键附近的物块时，它会显示需要多少镐力才能破坏
-					右键发射寻血飞弹
-					手持时泰拉之力会保护你，减少 10% 受到的伤害
-					手持时显示附近的宝藏、陷阱和敌人
+					挖掘物块有几率额外获得淤泥
+					收藏此物品后，开采矿石后将破坏它周围41x41区域内的同类型矿石
+					在玩家周围召唤攻击附近敌人的泰拉之稿
 					'''
 			}
 
@@ -21218,6 +21164,45 @@ Mods: {
 			KnifePack2: {
 				Tooltip: ""
 				DisplayName: Knife Pack2
+			}
+
+			AdventurersPickaxe: {
+				DisplayName: 冒险者镐
+				Tooltip: 它的速度、伤害和镐力是随机的
+			}
+
+			BloodSeekerPickaxe: {
+				DisplayName: 寻血稿
+				Tooltip: 用愚蠢之人的血喂养我，否则……
+			}
+
+			ConfettiPickaxe: {
+				DisplayName: 派对镐
+				Tooltip:
+					'''
+					愉快的挖矿
+					<left>挖掘物块，<right>喷洒彩纸屑
+					'''
+			}
+
+			DeadMansPickaxe: {
+				DisplayName: 亡者镐
+				Tooltip:
+					'''
+					'看来他的灵魂只有在做他以前的事情时才能找到平静'
+					手持时显示附近的陷阱和敌人，挖掘物块将为玩家提供 3 秒的快速治疗增益效果
+					攻击施加流血，开采矿石后将破坏它周围41x41区域内的同类型矿石
+					'''
+			}
+
+			MandibleDigger: {
+				DisplayName: 下颚挖掘者
+				Tooltip: 挖掘物块有 10% 的几率获得淤泥
+			}
+
+			ShadowPickaxe: {
+				DisplayName: 暗影镐
+				Tooltip: 手持时，减少 10% 受到的伤害
 			}
 
 			LigamentEjector: {
