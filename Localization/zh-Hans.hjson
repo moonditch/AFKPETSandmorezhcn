@@ -3,7 +3,12 @@ Mods: {
 		NPCs: {
 			UWUSlime: {
 				DisplayName: 史莱姆复仇联盟
-				BossChecklistIntegration.EntryName: 史莱姆王国最后的希望
+
+				BossChecklistIntegration: {
+					EntryName: 史莱姆王国最后的希望
+					SpawnInfo: Use Slime in a glass cube at day
+					DespawnMessage: Slimes take their fallen kings revenge
+				}
 			}
 
 			LavalGolem: {
@@ -17,7 +22,12 @@ Mods: {
 
 			DrFetusFirstPhase: {
 				DisplayName: 胎儿博士
-				BossChecklistIntegration.EntryName: 胎儿博士
+
+				BossChecklistIntegration: {
+					EntryName: 胎儿博士
+					SpawnInfo: Use Tiny meat idol which have a chance to drop from enemies in corruption or crimson if Dr Fetus haven't defeated. After it's defeat it can be bought from dark huntress.
+					DespawnMessage: Dr Fetus found the players skill issue
+				}
 			}
 
 			FlagCarrier: {
@@ -57,17 +67,32 @@ Mods: {
 
 			HeroicSlime: {
 				DisplayName: 英勇史莱姆
-				BossChecklistIntegration.EntryName: 英勇史莱姆
+
+				BossChecklistIntegration: {
+					EntryName: 英勇史莱姆
+					SpawnInfo: Spawns at the end of slime troop event. After their defeat dark huntress sell their summon item
+					DespawnMessage: The slime hero has surpassed the human one.
+				}
 			}
 
 			StormDiver: {
 				DisplayName: 皇家鸟妖风暴号
-				BossChecklistIntegration.EntryName: 皇家鸟妖风暴号
+
+				BossChecklistIntegration: {
+					EntryName: 皇家鸟妖风暴号
+					SpawnInfo: Use severed harpy head which drop from harpies to summon the boss or if it hasn't defeated it could spawn naturally.
+					DespawnMessage: Royal harpy force has return back to base
+				}
 			}
 
 			Isaac: {
 				DisplayName: 以撒
-				BossChecklistIntegration.EntryName: 以撒
+
+				BossChecklistIntegration: {
+					EntryName: 以撒
+					SpawnInfo: It have low chance to spawn in underground after EoW/BoC have been defeated. After it's defeat dark huntress sell its summon item.
+					DespawnMessage: Dear diary today I survived
+				}
 			}
 
 			Okiku: {
@@ -79,6 +104,7 @@ Mods: {
 						在玩家成功击败一次之后，黑暗女猎手开始出售 [i:AFKPETS/BrokenDelftPlate]。
 						'''
 					DespawnMessage: 盘子女鬼的灵魂开始寻找新的罪人
+					EntryName: Okiku
 				}
 
 				DisplayName: 盘子女鬼
@@ -86,7 +112,12 @@ Mods: {
 
 			NecromancerDummy: {
 				DisplayName: 死灵傀儡法师
-				BossChecklistIntegration.EntryName: 死灵傀儡法师
+
+				BossChecklistIntegration: {
+					EntryName: 死灵傀儡法师
+					SpawnInfo: It have a rare chance to spawn in surface at night or use story book to summon him.
+					DespawnMessage: Antony apologizes for killing the player. Hope it could forgive after it spawns back
+				}
 			}
 
 			BunnyZepplin: {
@@ -120,12 +151,22 @@ Mods: {
 
 			IceGuardian: {
 				DisplayName: 冰之守护者
-				BossChecklistIntegration.EntryName: 冰之守护者
+
+				BossChecklistIntegration: {
+					EntryName: 冰之守护者
+					SpawnInfo: Spawns at the end of frost legion. After its defeat dark huntress sell its spawn item
+					DespawnMessage: The guardian protect its races pride
+				}
 			}
 
 			NightmareAmplifierSlime: {
 				DisplayName: 梦魇史莱姆
-				BossChecklistIntegration.EntryName: 梦魇史莱姆
+
+				BossChecklistIntegration: {
+					EntryName: 梦魇史莱姆
+					SpawnInfo: Spawns in the slime troop after slimes last hope + slime troop tier 1 miniboss have been defeated.
+					DespawnMessage: Slimes has neutralize the threat
+				}
 			}
 
 			AncientGuardian: {
@@ -23771,6 +23812,15 @@ Mods: {
 			HallowedDartlingGun.DisplayName: Hallowed Dartling Gun
 			VenomExplosion.DisplayName: Venom Explosion
 			BadGas21.DisplayName: Bad Gas21
+			GoldRushPortal.DisplayName: Gold Rush Portal
+			ShadowPickaxe.DisplayName: Shadow Pickaxe
+			FleshPicker.DisplayName: Flesh Picker
+			BloodSeekerPickaxe.DisplayName: Blood Seeker Pickaxe
+			SpiningPickaxe.DisplayName: Spining Pickaxe
+			SpiningPickaxe2.DisplayName: Spining Pickaxe2
+			Pickaxe4.DisplayName: Pickaxe4
+			MandibleDigger.DisplayName: Mandible Digger
+			HolyStriker.DisplayName: Holy Striker
 		}
 
 		Configs: {
