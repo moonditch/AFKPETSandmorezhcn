@@ -21148,320 +21148,321 @@ Mods: {
 				DisplayName: Knife Pack2
 			}
 
-			Batarang: {
-				DisplayName: 蝙蝠镖
+			AdventurersPickaxe: {
+				DisplayName: Adventurers Pickaxe
+				Tooltip: It's speed, damage and pickaxe power is random
+			}
+
+			BloodSeekerPickaxe: {
+				DisplayName: Bloodseeker Pickaxe
+				Tooltip: Feed me with the blood of fools or else ...
+			}
+
+			ConfettiPickaxe: {
+				DisplayName: Confetti Pickaxe
 				Tooltip:
 					'''
-					'除非你能成为蝙蝠侠，否则请保持自我'
-					投掷一枚锋利的蝙蝠镖，当造成暴击时会爆炸为一群蝙蝠，并对敌人施加恐惧效果
-					击中敌人时，它将使敌人陷入恐惧并降低其防御力2点
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下投掷，你将会在自身周围生成蝙蝠群
+					Mining with confetties
+					LC to mine and RC to celebrate and feel happy
 					'''
 			}
 
-			DroneShuriken: {
-				DisplayName: 无人机手里剑
+			DeadMansPickaxe: {
+				DisplayName: Dead Man's Pickaxe
 				Tooltip:
 					'''
-					'目标锁定'
-					投掷后，它将自动追踪并锁定目标，直至目标死亡或电池电量耗尽前，会在目标周围旋转并发射激光
-					若目标死亡，它会扫描其他附加目标，如果没有近距离目标则返回至玩家处
-					在低电量或无近距离目标的情况下，也会自动返回到玩家身边
-					如果在设置中启用了盗贼转化选项，在潜行攻击时，它将额外投掷3枚无人机手里剑
+					'It seems his soul only find peace with what he is doing before'
+					Holding it show you both traps and enemies and mining will give rapid healing buff for 3 seconds
+					Hits inflict bleeding + breaking an ore will break every ore with same type in 41x41 area around it
 					'''
 			}
 
-			Hitarang: {
-				DisplayName: 皮可皮可锤
+			MandibleDigger: {
+				DisplayName: Mandible Digger
+				Tooltip: Mining ores have 10% chance to contain silt
+			}
+
+			ShadowPickaxe: {
+				DisplayName: Shadow Pickaxe
+				Tooltip: While it's being hold it will make player take 10% less damage
+			}
+
+			LigamentEjector: {
+				DisplayName: Ligament Ejector
 				Tooltip:
 					'''
-					'邦邦梆！'
-					当击中任何敌人或地形时，它会失去动能并向反方向弹射
-					成功命中后，你可以提前发送下一次攻击，无需等待第一次投掷物返回
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下使用，它会让非首领敌人短暂眩晕
+					Shots confuse and bleed enemies.
+					Enemies that cannot be confused take 5% more damage.
+					Uses darts as ammo
 					'''
 			}
 
-			ChlorophyteFlail: {
-				DisplayName: 叶绿石链锤
-				Tooltip: "'投掷时会在自身周围产生孢子'"
-			}
-
-			OldComputer: {
-				DisplayName: 老式电脑
+			ObsidianFirepipe: {
+				DisplayName: Obsidian Firepipe
 				Tooltip:
 					'''
-					'这是曾经在MS-DOS时代被使用的遗物'
-					击中敌人会释放微型内存吞噬者
-					同时，击中敌人会使它们在6秒内增加静电荷
+					It shoots lingering flames
+					It will shoot both lingering flame that will do 75% of weapons damage and dart at the same time
+					The darts it shoots will burn your enemies
+					Uses darts as ammo
 					'''
 			}
 
-			SpectreFlail: {
-				DisplayName: 幽灵连枷
+			VileEruptor: {
+				DisplayName: Vile Eruptor
 				Tooltip:
 					'''
-					'投掷时会形成追踪敌人的幽灵'
-					暴击有50%几率使其脱离锁链
-					'''
-			}
-
-			ThornBall: {
-				DisplayName: 荆棘球
-				Tooltip:
-					'''
-					'有一定几率使敌人中毒'
-					击中造成暴击时，有可能附着在敌人身上
-					'''
-			}
-
-			TongueofFlesh: {
-				DisplayName: 血肉之舌
-				Tooltip:
-					'''
-					这是那位被诅咒的守护者众多残片之一
-					知识女神施加的诅咒使其直至终焉仍存活性命
-					使用时，会召唤一只饥渴的存在紧咬住敌人
-					暴击攻击有50%几率为玩家恢复1点生命值
-					'''
-			}
-
-			SouthPole: {
-				DisplayName: 南极之枪
-				Tooltip:
-					'''
-					'它只是众多汲取寒冰精华之力的武器之一'
-					当你用右键稳稳握住这把武器，左键则负责为它注入冰冷的力量
-					放手之后，蓄力进程便告一段落，随着能量充盈至极限，会触发一声悦耳的音效提示
-					[c/FFFF00:按住]: 由于它的极寒属性，每一次攻击都将施加霜冻灼伤效果，而暴击更能让非首领级敌人瞬间陷入冻结状态
-					若当前战场上尚未形成巨大的冰锥，你的每次有效打击都会生成一根能短暂穿透一定距离的无限穿透型小冰锥
-					手握此冰寒长矛时，你仿佛身披守护者光环，防御力将提高3%，同时获得免疫一切击退的能力
-					[c/ADD8E6:投掷]: 长矛如刺骨寒风般席卷而去，对敌人造成霜冻灼伤的同时，每一下精准命中还将叠加9点真实持续伤害
-					当长矛充满无尽寒气，蓄力完毕后释放出的一击，将会从天际撒下片片雪花
-					而在长矛深深刺入敌人心脏之际，一股冰雪力量在其周围凝聚成南极极地般的冰封景象
-					'''
-			}
-
-			ThrowingStoneSpear: {
-				DisplayName: 古代狩猎长矛
-				Tooltip:
-					'''
-					'人类借助黑曜石的锋利，化身为猎手'
-					右键使用时保持持有武器，左键则用于蓄力，松开左键后停止蓄力
-					蓄力期间武器伤害会逐渐提升，达到最大值时会有声音提示
-					[c/FFFF00:按住]: 由于极度锐利,它会略微减少敌人的免疫帧数.你的穿透攻击能降低敌人防御力2点,并附加流血效果
-					当玩家持有长矛时，将会获得'守护者'增益，提高3%的伤害减免并赋予免疫击退的能力
-					[c/ADD8E6:投掷w]:长矛将造成流血效果，每次命中都会使真实持续伤害增加6点
-					当长矛完全蓄力后，挥舞时会在身后留下具有伤害性的黑曜石尘埃，同时命中的敌人会被恐惧，而玩家在攻击中也会轻微恢复生命值
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你无需等待充能完毕即可直接投掷满蓄力的长矛
-					'''
-			}
-
-			WaterTrident: {
-				DisplayName: 水生三叉戟
-				Tooltip:
-					'''
-					'奇怪的是，它的尖端有一些腐烂的肉'
-					右键快速投掷武器 而左键将对武器进行蓄力，再次按下左键会停止蓄力并投掷武器
-					在一段时间后达到最大值，这将有声音指示
-					[c/FFFF00:快速投掷]:当击中任何敌人或任意物块时，它会返回给玩家，只能投掷出一把
-					如果它击中任何敌人，它将释放并从上面召唤闪电，当它在水中时，它造成的伤害增加5%
-					[c/ADD8E6:投掷]:矛将造成潮湿效果，每杆矛将增加6点持续伤害
-					当蓄力满时，矛击将形成漩涡，伤害近距离的敌人，并继续吸附非Boss的敌人进行攻击
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你会抛出完全蓄力而不是等待蓄力
-					'''
-			}
-
-			ChefKnife: {
-				DisplayName: 厨房刀具
-				Tooltip:
-					'''
-					'曾于地狱厨房中致命的一把利器'
-					投掷时，根据离光标最近的敌人位置的镜像方向，你会额外投掷一把刀
-					若无靠近的敌人，则第二把刀将随机朝光标位置的方向投掷
-					击中会施加燃烧状态，用这些刀具击杀敌人会在其周围形成燃烧肉体的残迹
-					如果在设置中启用了盗贼转化选项，在潜行攻击时它会额外射出6把随机目标的飞刀
-					'''
-			}
-
-			FleshBall3: {
-				DisplayName: 血肉球
-				Tooltip:
-					'''
-					'要抱抱'
-					投掷后，血肉球会跟随光标的移动方向并在死亡时孵化成小型饥饿怪
-					它们无法穿越平台，击中会造成流血效果，而饥饿怪的攻击则会造成严重流血
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下投掷的血肉球在击中时会爆炸为血液触须，造成50%的额外伤害
-					'''
-			}
-
-			FrostburninaBottle: {
-				DisplayName: 霜冻瓶
-				Tooltip:
-					'''
-					警告：高活性化学物质
-					击中任意敌人后，会产生霜冻爆炸
-					击中任意方块时，会生成冷冻雾气，减缓非Boss敌人的移动速度并对Boss造成霜冻效果
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你将沿同一轨迹高速投掷多个瓶子
-					'''
-			}
-
-			Hive: {
-				DisplayName: 黄蜂窝
-				Tooltip:
-					'''
-					'时刻善待朋友，分享你的玩具'
-					飞行过程中会泄露蜂蜜
-					击中任意敌人后，蜂巢将附着在敌人身上，对其施加中毒效果，并且每有一个蜂巢附加物就会降低其防御率2.5%
-					当敌人携带过多的蜂巢或触碰到任何方块时，蜂巢会爆炸成蜂蜜滴和愤怒的红黄蜂，造成严重流血状态
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你还将释放额外的蜜蜂
-					'''
-			}
-
-			HolidayThrower: {
-				DisplayName: 精灵切割机
-				Tooltip:
-					'''
-					'希望今年你表现得不那么淘气'
-					使用时，会向光标方向发射1枚直接瞄准的精灵切割器，并向屏幕边缘各发射4枚切割器
-					击中敌人时会对其造成严重流血
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下将有3枚精灵切割器直接瞄准光标，同时向屏幕边缘各发射12枚切割器
-					'''
-			}
-
-			LizardKnife: {
-				DisplayName: 神祇恩赐的炽炎刀锋
-				Tooltip:
-					'''
-					'一把古老的祭祀工具，用于取悦远古的神祇'
-					投掷后，它会瞄准最近的敌人，并在匕首周围生成额外的太阳反射光刃
-					击中时，这些太阳飞刀将爆炸，同时诅咒敌人受到远古神祇的愤怒
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下更多的太阳反射光刃将在匕首周围旋转
-					'''
-			}
-
-			NanoKnife: {
-				DisplayName: 纳米飞刃
-				Tooltip:
-					'''
-					'这个名字是基于纳米技术还是它的尺寸呢？'
-					击中任意敌人后，所有纳米飞刃都会改变轨迹瞄准最后命中的敌人，并使敌人陷入混乱
-					你可以一次性投掷多把纳米飞刃
-					'''
-			}
-
-			RaidersDagger: {
-				DisplayName: 掠夺者之匕首
-				Tooltip:
-					'''
-					'这把传奇武器曾由冻土领主亲自锻造'
-					这些匕首飞行1秒后开始围绕自身旋转，并调整其轨迹以指向最近的敌人
-					这种旋转状态持续半秒，如果没有近距离敌人，则会朝向玩家光标方向前进
-					它可以穿透4次，前三次命中会使匕首变得更锋利，每次增加5%伤害并造成流血效果
-					当匕首足够锋利，在最后两次命中时会施加严重流血状态
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下它将始终造成严重流血，并且每次命中增加5%伤害
-					'''
-			}
-
-			ShadowIchorKnife: {
-				DisplayName: 影脓仪式匕首
-				Tooltip:
-					'''
-					'为了牺牲痛苦与灵魂献给他们的主人，它结束了众多生命'
-					持有此匕首时，你的头顶会出现一颗头骨，直接打击敌人会使头骨通过噩梦通道攻击同一目标
-					匕首首先会围绕自身旋转，然后发动直接攻击
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你会额外投掷一把匕首，同时头骨会发动噩梦通道攻击
-					'''
-			}
-
-			SharpenedGlass: {
-				DisplayName: 魔法玻璃碎片
-				Tooltip:
-					'''
-					'它看起来极其锋利，最好小心持有'
-					持有此物品时，你的光标会变为玻璃光标形态，能够切割敌人并使其流血
-					使用该物品时，你和你的光标都会投掷出追踪目标的魔法玻璃碎片
-					光标有一定几率反射较弱敌人的射弹
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你会生成一个玻璃碎片护盾
+					Every fifth shot will be tiny eater that will apply cursed flames.
+					Uses darts as ammo
 					'''
 			}
 
 			VortexianDefenderSystem: {
+				DisplayName: Vortexian Defender System
 				Tooltip:
 					'''
-					发射一枚高爆导弹及两枚飞镖
-					使用飞镖作为弹药
+					It will shoot a highly explosive missile and two dart
+					Uses darts as ammo
 					'''
-				DisplayName: 涡旋防御系统
 			}
 
-			VileEruptor: {
+			SharpenedGlass: {
 				Tooltip:
 					'''
-					每第五次射击会产生一枚微小食腐者，施加诅咒火焰效果
-					使用飞镖作为弹药
+					'It looks extremely sharp, its best to hold carefully'
+					Holding it will convert your cursor to glass cursor which cut enemies and inflict bleeding
+					Upon using item both you and your cursor will throw magical glass shard which aim you
+					Cursor have a chance to reflect weaker enemy projectiles
+					If rogue config is active and calamity is enabled in stealth you will generate shield of glass shards
 					'''
-				DisplayName: 邪恶喷发器
+				DisplayName: Magical Glass Shard
 			}
 
-			ObsidianFirepipe: {
+			ShadowIchorKnife: {
 				Tooltip:
 					'''
-					发射持续燃烧的火焰
-					同时射出造成75%武器伤害的持久火焰和飞镖
-					所发射的飞镖将灼烧敌人
-					使用飞镖作为弹药
+					'It ended the life of many to sacrifice agony and soul for their lord'
+					While holding the dagger a skull appear above your head and direct strikes will cause skull to attack same target via nightmare channel
+					The dagger will first rotate around itself and then activate its direct strike
+					If rogue config is active and calamity is enabled in stealth you throw additional knife along with skull will do nigtmare channel
 					'''
-				DisplayName: 黑曜石火焰管
+				DisplayName: Ritual Dagger
 			}
 
-			LigamentEjector: {
+			RaidersDagger: {
 				Tooltip:
 					'''
-					发射的子弹能使敌人陷入混乱和流血状态
-					对无法造成混乱的敌人可额外造成5%伤害
-					使用飞镖作为弹药
+					'The legendary weapon once forged by the lords of the tundra'
+					These daggers will move 1 second and then start to rotate around themselves and change their trajectory to closest enemy
+					This rotation state continues for half second and if there is no close enemy it will aim players mouse direction
+					It can penetrate 4 more time and first 3 hits it get sharpened and increase its damage by 5% and inflict bleeding
+					After it get sharp enough in last 2 hits it inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth it will always inflict serious bleeding + 5% damage increase per hit
 					'''
-				DisplayName: 韧带弹射器
+				DisplayName: Raider's Dagger
 			}
 
-			ShadowPickaxe: {
-				Tooltip: 手持时，减少 10% 受到的伤害
-				DisplayName: 暗影镐
-			}
-
-			MandibleDigger: {
-				Tooltip: 挖掘物块有 10% 的几率获得淤泥
-				DisplayName: 下颚挖掘者
-			}
-
-			DeadMansPickaxe: {
+			NanoKnife: {
 				Tooltip:
 					'''
-					'看来他的灵魂只有在做他以前的事情时才能找到平静'
-					手持时显示附近的陷阱和敌人，挖掘物块将为玩家提供 3 秒的快速治疗增益效果
-					攻击施加流血，开采矿石后将破坏它周围41x41区域内的同类型矿石
+					'Is its name based on nanites or its size?'
+					Upon hitting any enemy all nanifes will change their trajectory to aim the last hit enemy and also enemy get confused
+					You may throw multiple at once
 					'''
-				DisplayName: 亡者镐
+				DisplayName: Nanife
 			}
 
-			ConfettiPickaxe: {
+			LizardKnife: {
 				Tooltip:
 					'''
-					愉快的挖矿
-					<left>挖掘物块，<right>喷洒彩纸屑
+					'An ancient sacrificial tool to please the elder ones'
+					Upon thrown it will aim to closest enemy and additional solar reflections will rotate around the dagger
+					Upon hit these solar daggers will explode along with cursing the enemy with the wrath of elder one
+					If rogue config is active and calamity is enabled in stealth more solar reflections will rotate around the dagger
 					'''
-				DisplayName: 派对镐
+				DisplayName: Gift of the Fifth Sun
 			}
 
-			BloodSeekerPickaxe: {
-				Tooltip: 用愚蠢之人的血喂养我，否则……
-				DisplayName: 寻血稿
+			HolidayThrower: {
+				Tooltip:
+					'''
+					'You hope you are not naughty this year'
+					When used 1 elf cutter that directly aimed towards your mouse and 4 cutter aimed towards edges of screen
+					When it hit any enemy it will seriously bleed them
+					If rogue config is active and calamity is enabled in stealth 3 elf cutter aimed to mouse while 12 aimed towards edges of screen
+					'''
+				DisplayName: Elf Cutter
 			}
 
-			AdventurersPickaxe: {
-				Tooltip: 它的速度、伤害和镐力是随机的
-				DisplayName: 冒险者镐
+			Hive: {
+				Tooltip:
+					'''
+					'Always bee nice to your friends and share your toys'
+					While flying it will leak honey
+					Upon hit any enemy the hive will attach to enemy and both envenom it and decrease its DR by 2.5% for each stick nest
+					After enemy carry too much nest or hit any tile it will explode into honey droplets and angry red hornets which inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth you will also release additional bees
+					'''
+				DisplayName: Hornet Nest
+			}
+
+			FrostburninaBottle: {
+				Tooltip:
+					'''
+					Caution: Highly Reactive Chemical
+					Upon hit any enemy it will leak into an frosburn explosion
+					Upon hit any tile it will form an freezing mist that will slow the non boss enemies and frostburn bosses
+					If rogue config is active and calamity is enabled in stealth you will throw multiple bottles with increased velocity on same trajectory
+					'''
+				DisplayName: Frostburn in a Bottle
+			}
+
+			FleshBall3: {
+				Tooltip:
+					'''
+					'Looking for hugs'
+					Upon thrown the fleshlings will follow your mouse direction and hatch into small hungries upon their death
+					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
+					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
+					'''
+				DisplayName: Flesh Ball
+			}
+
+			ChefKnife: {
+				Tooltip:
+					'''
+					'A deadly tool once used in the Hell's kitchen'
+					Upon being thrown you will throw an additional knive with respect to the mirror side of the closest enemy to your cursor
+					If there is no close enemy the second knife will thrown in random direction with respect to your cursor location
+					Hits will inflict on fire and killing enemies with these knives will form lingers of their burning flesh
+					If rogue support is enabled it will shoot 6 additional knife randomly targetting around the mouse as stealth attack
+					'''
+				DisplayName: Kitchen Knives
+			}
+
+			WaterTrident: {
+				Tooltip:
+					'''
+					'Strangely there are some rotten flesh on its tip'
+					RC use will fast throw the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Fast Throw]: Upon hit any enemy or tile it will return back to player and only 1 can be active
+					If it hits any enemy will will decharge and call lightning from above and while being in water it deal 5% increased damage
+					[c/ADD8E6:Throw]:Spear will inflict wet and each stick spear will increase true DoT by 6
+					When fully charged spear strike will form whirlpool that damage close enemies and continue to suck close non boss enemies to strike enemy location
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: Aquatic Trident
+			}
+
+			ThrowingStoneSpear: {
+				Tooltip:
+					'''
+					'By using the sharpness of obsidian humans become predators'
+					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Hold]: Due to extreme sharpness it will slightly decrease enemy immunity frames
+					 your penetrating will decrease enemy defense by 2 and also inflict bleeding
+					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
+					[c/ADD8E6:Throw]:Spear will inflict bleeding and each stick spear will increase true DoT by 6
+					When fully charged spear will leave damaging obsidian dust behind along with hit cause close enemies to get fear and player slightly heal by attack
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: Ancient Hunting Spear
+			}
+
+			SouthPole: {
+				Tooltip:
+					'''
+					'One of many weapon being fueled by his cryo essense'
+					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
+					Weapon damage in charge increase and after a while its maximized which will have sound indication
+					[c/FFFF00:Hold]: Due to its extreme cold it will frostburn and crits will start to freeze nonboss enemies
+					If there is no active big icicle hits will form one which will penetrate infinitely for a short distance
+					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
+					[c/ADD8E6:Throw]:Spear will inflict frostburn and each stick spear will increase true DoT by 9
+					When fully charged spear hit will rain snowflakes from above while being stick it forms cryo image of south pole around enemy
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+				DisplayName: South Pole
+			}
+
+			TongueofFlesh: {
+				Tooltip:
+					'''
+					One of the many piece of the damned guardian
+					Still the curse putten by lady knowledge keeps them alive until the end
+					Upon being used a hungry being thrown to latch on the enemy
+					Critical attacks have 50% chance to heal the player by 1
+					'''
+				DisplayName: Tongue of Flesh
+			}
+
+			ThornBall: {
+				Tooltip:
+					'''
+					'Has a chance to poison the enemies'
+					Upon doing critical hit it have a chance to stick to the enemy
+					'''
+				DisplayName: Thorn Ball
+			}
+
+			SpectreFlail: {
+				Tooltip:
+					'''
+					'While being thrown it will form spiritual essenses that will home to enemies'
+					'Critical hits have 50% chance to release it from its chain'
+					'''
+				DisplayName: Spectre Flail
+			}
+
+			OldComputer: {
+				Tooltip:
+					'''
+					'A relic once being used in MS-DOS era'
+					Upon hitting enemy it will release tiny eater of ram
+					Also hitting enemies will increase their static charge for 6 seconds
+					'''
+				DisplayName: Old Computer
+			}
+
+			ChlorophyteFlail: {
+				Tooltip: "'While being thrown it will produce spores around itself'"
+				DisplayName: Chlorophyte Flail
+			}
+
+			Hitarang: {
+				Tooltip:
+					'''
+					'BONK!'
+					Upon hitting any enemy or tile it will lose its momentum and ricochet opposite direction
+					After successful hit you can send next one earlier instead of waiting first sent to return
+					If rogue config is active and calamity is enabled in stealth it will make your nonboss enemies get dizzy
+					'''
+				DisplayName: Piko Piko Hammer
+			}
+
+			DroneShuriken: {
+				Tooltip:
+					'''
+					'TARGET LOCKED'
+					Upon being thrown it will seek target and when find one until that target dies or its battery get low rotate and shoot laser around it
+					If the target dies it will scan any additional targets and if there is no close it will return back to player
+					In low battery or no close target it will also return back to player
+					If rogue support is enabled it will throw 3 additional drone shuriken as stealth attack
+					'''
+				DisplayName: Drone Shuriken
+			}
+
+			Batarang: {
+				Tooltip:
+					'''
+					'Always be yourself unless you can be batman'
+					You will throw a sharp batarang which will explode into bats upon critical hit and inflicts fear to your enemies
+					Upon enemy hits it will inflict fear and decrease their defense by 2
+					If rogue config is active and calamity is enabled in stealth you will form bats around you
+					'''
+				DisplayName: Batarang
 			}
 		}
 
