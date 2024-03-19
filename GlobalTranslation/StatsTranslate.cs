@@ -88,12 +88,70 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Do you really wish this", "你真的希望这样吗"); 
             text = Regex.Replace(text, "I only want to help you", "我只是想帮你"); 
             text = Regex.Replace(text, "Could we make a friendly duel before we stop", "我们能不能先友好地决斗一下");
-            text = Regex.Replace(text, "Antony's spirit find a way to escape", "安东尼的灵魂找到了逃跑的路线");  
+
+            //恶魔杀手
+            text = Regex.Replace(text, "-Secret Art- Wind of Justice", "-秘密艺术-正义之风"); 
+            text = Regex.Replace(text, "You feel now you can help the tied dark huntress without any problem", "现在你可以直接地帮助束缚黑暗女猎手"); 
+            text = Regex.Replace(text, "Why did you kill that Dryad", "你为什么要杀那个树妖"); 
+            text = Regex.Replace(text, "They are so kind to every creature around them", "她对周围的每一个人都很好");
+            text = Regex.Replace(text, "Maybe it's time for cleaning this world from one more bandit", "也许是时候让我让这个世界再少一个邪恶了"); 
+
+            //盘子女鬼
+            text = Regex.Replace(text, "Even rats are more useful than you, Akiko", "老鼠都比你有用，明子");
+            text = Regex.Replace(text, "AKIKO BREAK THE PLATE, SHE IS THE CUILT", "明子 打 碎 了 盘 子，她 是 祭 品");  
+            text = Regex.Replace(text, "Akiko, how you menage to be good at nothing", "明子，你就是废物"); 
+            text = Regex.Replace(text, "You greedy pig, isn't half bowl is enough for you Akiko", "你这贪吃的猪，明子，半碗还不够你吃吗");
+            text = Regex.Replace(text, "You will sleep outside Akiko, you have on worth here", "你睡外面，明子，你在这里没有价值"); 
+
+            //皇家风暴鸟号
+            text = Regex.Replace(text, "Collect clear air bubbles to survive", "请收集干净的气泡存活"); 
+            text = Regex.Replace(text, "Brother, we have a problem here", "兄弟，我们有麻烦了");  
+            text = Regex.Replace(text, "Storm Diver roger, target locked", "风暴潜水员收到，目标锁定");  
+            text = Regex.Replace(text, "Sister you look hurt", "妹妹，你看起来受伤了");
+            text = Regex.Replace(text, "Retreat to the distance and recover", "先退到远处然后恢复"); 
+            text = Regex.Replace(text, "Now this is personal", "这是我个人问题"); 
+            text = Regex.Replace(text, "I no longer care for ethics", "我不再需要道德底线了");
+            text = Regex.Replace(text, "Look at my face and keep that hook away. I have a surprise for you", "看着我的脸，把武器拿开，我有惊喜要给你");  
+            /*（无法读写）text = Regex.Replace(text, "Other Harpies find me childish and idiotic but you've shown me ture care", "其他鹰身女妖觉得我幼稚愚蠢但你给了我真正的关心");  
+            text = Regex.Replace(text, "Use Movement Keys to Pop Bubbles", "使用移动键击碎气泡");            
+            text = Regex.Replace(text, "Thank you for shining as a summer sun in my foolish life, brother", "感谢你在我愚蠢的生命中像夏日的太阳照耀着我，兄弟"); */
+
+            //不死厨师
+            text = Regex.Replace(text, "Go away, I'm busy with choosing the dessert", "走开，我正忙着选甜点呢");
+            text = Regex.Replace(text, "How you even manage to burn down such a beauty", "你是怎么烧出这么好的东西的");  
+            text = Regex.Replace(text, "let me show our hospitality", "让我来表示我们的热情"); 
+
+            //史莱姆王国最后的希望
+            text = Regex.Replace(text, "Let's beat", "朋友们");
+            text = Regex.Replace(text, "this murderer", "让我们一起");  
+            text = Regex.Replace(text, "together friends", "杀死这个杀人犯"); 
+            text = Regex.Replace(text, "I will hide our aura", "我会隐藏我们的气味");
+            text = Regex.Replace(text, "Shadow Clone Jutsu", "影分身の術"); 
+            text = Regex.Replace(text, "How you kill him you heartless monster", "你怎么把他杀了，你这个无情的怪物");
+            text = Regex.Replace(text, "Time for the shinobi execution", "是时候处决你了");  
+            text = Regex.Replace(text, "Oh no, Shogun slime please don't left us", "不，幕府将军，请不要离开我们");
+            text = Regex.Replace(text, "You...Let's finish this in Danmaku style", "你……让我们用这种状态谢幕"); 
+            text = Regex.Replace(text, "FRIENDS CANNOT FOUND. SADNESS MODULE ACTIVATED.", "朋 友 不 见 了，悲 伤 模 式 激 活."); 
+            text = Regex.Replace(text, "ENRAGEMEND PROTOCOL ACTIVATED", "暴 怒 模 式 激 活.");
+            text = Regex.Replace(text, "She couldn't manage to protect her bodys density", "她无法保护自己的身体");  
+
+            //冰之守护者
+            text = Regex.Replace(text, "I'm sorry human but I cannot let ice elementals extinct one more time", "很抱歉，人类，但我不能让冰元素灭绝了"); 
+            text = Regex.Replace(text, "You may kill me but please don't hurt my little sister", "你可以杀了我，但请不要伤害我的妹妹"); 
+            text = Regex.Replace(text, "She may be a little wild but she have a heart of gold", "她也许有点野，但她有一颗善良的心");
+            text = Regex.Replace(text, "I feel my primal instincts start to take control over my mind", "我的原始本能开始控制我的思想");
+            text = Regex.Replace(text, "I'm sorry for things that happen next", "接下来发生的事我很抱歉"); 
+            text = Regex.Replace(text, "Primal instincts start to take control of his mind", "原始本能开始控制他的思想"); 
+
+            //史莱姆二阶段
+            text = Regex.Replace(text, "I have been given flesh by all lifeforms horrors, To be your tormentor", "我被所有生命形式的恐怖思想赋予肉体，把你作为折磨者"); 
+            text = Regex.Replace(text, "Your end is nigh", "你的末日即将来临"); 
+              
             //001
             text = Regex.Replace(text, "Hello there. Thank you for your kindness to invite me.", "你好。谢谢你盛情邀请我");  
             text = Regex.Replace(text, "Before I give you your reward shall we play a nice game", "在我给你奖励之前，我们玩个游戏可以吗");  
             text = Regex.Replace(text, "For the game please cancel the answer buff for the answer you think is correct before time out.", "关于游戏，请在暂停前取消你认为正确的答案。"); 
-  
+
             text = Regex.Replace(text, "Let's start with easy one", "让我们从简单的开始"); 
             text = Regex.Replace(text, "What is 91 divided by 7", "91除以7等于多少"); 
              /*（无法读写）text = Regex.Replace(text, "What is 2", "2加4等于多少");  
@@ -160,7 +218,35 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Wrong Answer", "回答错误"); 
             text = Regex.Replace(text, "Correct", "回答正确"); 
             text = Regex.Replace(text, "Time for the great reward and final question", "是时候问最后一个问题了"); 
-            text = Regex.Replace(text, "W H Y  Y O U  A R E  S T I L L  A L I V E", "你 为 什 么 还 活 着");                  
+            text = Regex.Replace(text, "W H Y  Y O U  A R E  S T I L L  A L I V E", "你 为 什 么 还 活 着");
+  
+            //npc击败并离开这个世界
+            //死灵傀儡法师
+            text = Regex.Replace(text, "Antony's spirit find a way to escape", "安东尼的灵魂找到了逃跑的路线"); 
+
+            //恶魔杀手
+            text = Regex.Replace(text, "It seems chemicals leaked from his jetpack burn him alive", "喷气背包泄露的化学物质似乎把他活活烧死了");
+
+            //盘子女鬼
+            text = Regex.Replace(text, "Scarlet nights are fueled with her blood", "猩红之夜沾染上了她的血液"); 
+
+            //以撒
+            text = Regex.Replace(text, "Isaac start to see the bigger picture and remeber the souls warn", "以撒开始看到更大的世界并记住灵魂的警告"); 
+            text = Regex.Replace(text, "He reject the heavens to take his friend back, NOW", "现在他正在拒绝上天接纳他的朋友");
+            text = Regex.Replace(text, "As he rejected above for seeing his friend again", "因为他拒绝上天接纳他的朋友"); 
+            text = Regex.Replace(text, "Below awaits until he is being forgiven", "在火湖等待着被他宽恕"); 
+
+            //皇家鸟妖风暴号
+            text = Regex.Replace(text, "Brother...NO", "哥哥...不");
+            text = Regex.Replace(text, "Please don't leave me alone", "请不要丢下我一个人");  
+            text = Regex.Replace(text, "It hurts...but that's ok...I will see brother again instead of being alone", "这让我很伤心……不过没关系……我将再次见到哥哥，而不是自己一个"); 
+            text = Regex.Replace(text, "Thank you human...For ending my life...Rather than ending my honor", "谢谢你，人类……为了结束我的生命…而不是结束荣誉"); 
+            text = Regex.Replace(text, "This is the end...Sister...I'll be there soon", "这就结束了……妹妹……我马上就到"); 
+            text = Regex.Replace(text, "A man that cannot protect his family...Has no right to live...", "一个不能保护家人的我…没有生存的权利...");  
+
+            //胎儿博士
+            text = Regex.Replace(text, "Dr Fetus start to get serious", "胎儿博士开始变得严肃起来"); 
+            text = Regex.Replace(text, "It's now defenseless", "它现在毫无防备"); 
             return orig.Invoke(text, baseColor);
         }       
     }
