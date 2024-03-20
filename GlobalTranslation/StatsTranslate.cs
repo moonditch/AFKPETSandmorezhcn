@@ -71,9 +71,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Weapon Imbue Fear Toxin", "武器灌注恐惧毒素");  
             //神圣骑士，黑暗女猎手，皇家卫士，刺客
             text = Regex.Replace(text, "Shop", "商店"); 
+            
+
             //npc语句UI
             //死灵傀儡法师
-            text = Regex.Replace(text, "Since contact is obvious I mostly want to talk about two specific magic attacks", "由于接触是显而易见的，我主要想谈谈两个具体的魔法攻击"); 
+            /* text = Regex.Replace(text, "Since contact is obvious I mostly want to talk about two specific magic attacks", "由于接触是显而易见的，我主要想谈谈两个具体的魔法攻击"); 
             text = Regex.Replace(text, "While magic can be used to bring happiness and welfare, it also have a dark side", "虽然魔法可以带来快乐和幸福，但它也有黑暗的一面"); 
             text = Regex.Replace(text, "So it would be nice if we test your dodging skills", "所以最好测试一下你的闪避技巧");
             text = Regex.Replace(text, "Could you dodge the upcoming attack", "你能闪避即将到来的攻击吗我们能不能先友好地决斗一下"); 
@@ -112,9 +114,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Now this is personal", "这是我个人问题"); 
             text = Regex.Replace(text, "I no longer care for ethics", "我不再需要道德底线了");
             text = Regex.Replace(text, "Look at my face and keep that hook away. I have a surprise for you", "看着我的脸，把武器拿开，我有惊喜要给你");  
-            /*（无法读写）text = Regex.Replace(text, "Other Harpies find me childish and idiotic but you've shown me ture care", "其他鹰身女妖觉得我幼稚愚蠢但你给了我真正的关心");  
+            （无法读写）text = Regex.Replace(text, "Other Harpies find me childish and idiotic but you've shown me ture care", "其他鹰身女妖觉得我幼稚愚蠢但你给了我真正的关心");  
             text = Regex.Replace(text, "Use Movement Keys to Pop Bubbles", "使用移动键击碎气泡");            
-            text = Regex.Replace(text, "Thank you for shining as a summer sun in my foolish life, brother", "感谢你在我愚蠢的生命中像夏日的太阳照耀着我，兄弟"); */
+            text = Regex.Replace(text, "Thank you for shining as a summer sun in my foolish life, brother", "感谢你在我愚蠢的生命中像夏日的太阳照耀着我，兄弟"); ////
 
             //不死厨师
             text = Regex.Replace(text, "Go away, I'm busy with choosing the dessert", "走开，我正忙着选甜点呢");
@@ -154,9 +156,10 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
             text = Regex.Replace(text, "Let's start with easy one", "让我们从简单的开始"); 
             text = Regex.Replace(text, "What is 91 divided by 7", "91除以7等于多少"); 
-             /*（无法读写）text = Regex.Replace(text, "What is 2", "2加4等于多少");  
+
+            text = Regex.Replace(text, "What is 2", "2加4等于多少");  
             text = Regex.Replace(text, "What is the billionth digit of pi", "π的10亿位数是多少");  
-            text = Regex.Replace(text, "How many equal sides do lcosahedrons have", "十面体有多少条等边"); */
+            text = Regex.Replace(text, "How many equal sides do lcosahedrons have", "十面体有多少条等边"); ////////
 
             text = Regex.Replace(text, "What is the percentage of metals in periodic table", "元素周期表中金属占用多少");
 
@@ -165,7 +168,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, " MOSFET", " 金属氧化物半导体场效应晶体管");  
             text = Regex.Replace(text, " BJT", " 双极结晶体管");  
 
-            /*（无法读写） text = Regex.Replace(text, "What is the average lifespan of a red blood cell in human body", "红细胞在人体内的平均寿命是多少");*/ 
+           （无法读写） text = Regex.Replace(text, "What is the average lifespan of a red blood cell in human body", "红细胞在人体内的平均寿命是多少"); /////
             text = Regex.Replace(text, " Around 1 day", " 大约 1 天");  
             text = Regex.Replace(text, " Around 1 week", " 大约 1 星期");  
             text = Regex.Replace(text, " Around 120 days", " 大约 120 天"); 
@@ -246,7 +249,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
             //胎儿博士
             text = Regex.Replace(text, "Dr Fetus start to get serious", "胎儿博士开始变得严肃起来"); 
-            text = Regex.Replace(text, "It's now defenseless", "它现在毫无防备"); 
+            text = Regex.Replace(text, "It's now defenseless", "它现在毫无防备"); */
             return orig.Invoke(text, baseColor);
         }       
     }
