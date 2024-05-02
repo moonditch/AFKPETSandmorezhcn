@@ -4822,16 +4822,13 @@ Mods: {
 			}
 
 			BlueScarab: {
-				DisplayName: Blue Scarab
+				DisplayName: A Blue Scarab
 				Tooltip:
 					'''
-					Gives you the true power of scarabs
-					'Thanks to abluescarab for helping update the mod.'
-					'When you take damage you have 25% chance to spawn 4 blue scarabs'
-					'Enemies has a low chance to drop Ankh rune which will give you immortality for few seconds'
-					'Your attacks increases by 8%, movement by 10%, defense by 5 and life regen by 3 during daylight'
-					'The sun may protect you'
-					-Unobtainable-
+					'Blessing of the Ancients'
+					Crits has 10% chance to drop a cystal ankh that picking it will prevent player from death
+					Crystal Ankh's will fade away after some time
+					Each day of the week grant different ability
 					'''
 			}
 
@@ -15077,12 +15074,11 @@ Mods: {
 			}
 
 			EyeofNullifier: {
-				DisplayName: "'Eye of Nullifier'"
+				DisplayName: His True Eye
 				Tooltip:
 					'''
-					Capable of returning everything zero
-					'It belongs to ancient warlord AFK'
-					'Using it will nullify every projectile'
+					'A fine remnant from his past self'
+					Upon use nullify every projectile with a cooldown
 					'''
 			}
 
@@ -15245,6 +15241,15 @@ Mods: {
 					'''
 					Using the item on a note block will cycle through its insturment type with 13 different ones
 					Pressing RC will open an UI that show notes for some of the melodies
+					'''
+			}
+
+			OldBell: {
+				DisplayName: Old Bell
+				Tooltip:
+					'''
+					'Sound Dull... Yet delightful'
+					Using the bell will respawn a dead ally with 1 ability cooldown for both players
 					'''
 			}
 
@@ -17641,8 +17646,8 @@ Mods: {
 				Tooltip:
 					'''
 					It's not just a flag, it's an idea
-					'Upon being used it will shoot three star of liberty to your mouse direction'
-					After they hit any enemy they will shatter into smaller stars of liberty
+					Casts multiple stars that shatter into smaller ones
+					Hits may drop money + Inflicts midas & nullify defense
 					'''
 			}
 
@@ -19356,8 +19361,10 @@ Mods: {
 				DisplayName: Forest Fire
 				Tooltip:
 					'''
+					'Let's heat things up'
 					Shoot both flames and small lingering flames
-					'10% chance to not consume ammo and uses gel as ammo'
+					RC to spew from matchstick that has shorter duration but higher damage output
+					10% chance to not consume ammo + uses gel as ammo
 					'''
 			}
 
@@ -19365,45 +19372,19 @@ Mods: {
 				DisplayName: Honey Crisper
 				Tooltip:
 					'''
-					Shoots flames that slows enemies and inflicts On fire
-					Enemies killed with this gun explode into bees
-					Gain honey buff when hitting a enemy for 2 seconds
+					'Don’t forget to say hi to your honey'
+					RC to spread honey and LC to shoot nectar flames
+					Nectar flames call bees + does additional true damage on honeyed enemies
 					'30% chance to not consume ammo and uses gel as ammo'
 					'''
-			}
-
-			Krakatoa: {
-				DisplayName: Krakatoa
-				Tooltip:
-					'''
-					Shoots a cone of fire with smaller flames that inflicts on fire
-					'30% chance to not consume ammo and uses gel as ammo'
-					'''
-			}
-
-			LittleInferno: {
-				DisplayName: Little Inferno
-				Tooltip:
-					'''
-					Shoots flames that inflict On fire
-					Enemies killed by this weapon spawn a small inferno that lasts for a short time
-					'30% chance to not consume ammo and uses gel as ammo'
-					'''
-			}
-
-			Matchstick: {
-				DisplayName: Matchstick
-				Tooltip: It's fires are lit with the dreams of the little match girl
 			}
 
 			SoulStarvedFurnace: {
 				DisplayName: Soul Starved Furnace
 				Tooltip:
 					'''
-					'It burns with their last wishes'
-					It has a chance to shoot homing soul
-					Upon enemies being consumed by this weapons flames it will call their soul back
-					This soul will damage any enemy it touches
+					'Burns with their last wishes'
+					Hits inflict inferno & soulblight + may release tormented souls
 					40% chance to not consume ammo and uses gel as ammo
 					'''
 			}
@@ -19412,7 +19393,7 @@ Mods: {
 				DisplayName: Spaztinazer
 				Tooltip:
 					'''
-					It was built with the power of the Twins
+					'This is going to be a terrible death...'
 					Uses gel as ammo
 					'40% chance to not consume ammo'
 					'''
@@ -19422,8 +19403,8 @@ Mods: {
 				DisplayName: Star Blazer
 				Tooltip:
 					'''
-					Light inside you drowns out all but the brightest stars.
-					Shoots a flame that inflicts star crusher debuff
+					'Light inside you drowns out all but the brightest stars'
+					Shoots a spread of lightning bolts that spread starcrusher debuff
 					'70% chance to not consume ammo and uses gel as ammo'
 					'''
 			}
@@ -19443,8 +19424,9 @@ Mods: {
 				DisplayName: Zharrin
 				Tooltip:
 					'''
-					Shoots fire that inflicts Shadowflame
-					It occasionally shoots Betsy's wrath
+					'My breath death!'
+					Occasionally spews additional flame balls
+					Crits cause infernal explosion + hits weaken enemy against fire + greatly burns them
 					'50% chance to not consume ammo and uses gel as ammo'
 					'''
 			}
@@ -21146,323 +21128,6 @@ Mods: {
 			KnifePack2: {
 				Tooltip: ""
 				DisplayName: Knife Pack2
-			}
-
-			AdventurersPickaxe: {
-				DisplayName: Adventurers Pickaxe
-				Tooltip: It's speed, damage and pickaxe power is random
-			}
-
-			BloodSeekerPickaxe: {
-				DisplayName: Bloodseeker Pickaxe
-				Tooltip: Feed me with the blood of fools or else ...
-			}
-
-			ConfettiPickaxe: {
-				DisplayName: Confetti Pickaxe
-				Tooltip:
-					'''
-					Mining with confetties
-					LC to mine and RC to celebrate and feel happy
-					'''
-			}
-
-			DeadMansPickaxe: {
-				DisplayName: Dead Man's Pickaxe
-				Tooltip:
-					'''
-					'It seems his soul only find peace with what he is doing before'
-					Holding it show you both traps and enemies and mining will give rapid healing buff for 3 seconds
-					Hits inflict bleeding + breaking an ore will break every ore with same type in 41x41 area around it
-					'''
-			}
-
-			MandibleDigger: {
-				DisplayName: Mandible Digger
-				Tooltip: Mining ores have 10% chance to contain silt
-			}
-
-			ShadowPickaxe: {
-				DisplayName: Shadow Pickaxe
-				Tooltip: While it's being hold it will make player take 10% less damage
-			}
-
-			LigamentEjector: {
-				DisplayName: Ligament Ejector
-				Tooltip:
-					'''
-					Shots confuse and bleed enemies.
-					Enemies that cannot be confused take 5% more damage.
-					Uses darts as ammo
-					'''
-			}
-
-			ObsidianFirepipe: {
-				DisplayName: Obsidian Firepipe
-				Tooltip:
-					'''
-					It shoots lingering flames
-					It will shoot both lingering flame that will do 75% of weapons damage and dart at the same time
-					The darts it shoots will burn your enemies
-					Uses darts as ammo
-					'''
-			}
-
-			VileEruptor: {
-				DisplayName: Vile Eruptor
-				Tooltip:
-					'''
-					Every fifth shot will be tiny eater that will apply cursed flames.
-					Uses darts as ammo
-					'''
-			}
-
-			VortexianDefenderSystem: {
-				DisplayName: Vortexian Defender System
-				Tooltip:
-					'''
-					It will shoot a highly explosive missile and two dart
-					Uses darts as ammo
-					'''
-			}
-
-			SharpenedGlass: {
-				Tooltip:
-					'''
-					'It looks extremely sharp, its best to hold carefully'
-					Holding it will convert your cursor to glass cursor which cut enemies and inflict bleeding
-					Upon using item both you and your cursor will throw magical glass shard which aim you
-					Cursor have a chance to reflect weaker enemy projectiles
-					If rogue config is active and calamity is enabled in stealth you will generate shield of glass shards
-					'''
-				DisplayName: Magical Glass Shard
-			}
-
-			ShadowIchorKnife: {
-				Tooltip:
-					'''
-					'It ended the life of many to sacrifice agony and soul for their lord'
-					While holding the dagger a skull appear above your head and direct strikes will cause skull to attack same target via nightmare channel
-					The dagger will first rotate around itself and then activate its direct strike
-					If rogue config is active and calamity is enabled in stealth you throw additional knife along with skull will do nigtmare channel
-					'''
-				DisplayName: Ritual Dagger
-			}
-
-			RaidersDagger: {
-				Tooltip:
-					'''
-					'The legendary weapon once forged by the lords of the tundra'
-					These daggers will move 1 second and then start to rotate around themselves and change their trajectory to closest enemy
-					This rotation state continues for half second and if there is no close enemy it will aim players mouse direction
-					It can penetrate 4 more time and first 3 hits it get sharpened and increase its damage by 5% and inflict bleeding
-					After it get sharp enough in last 2 hits it inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth it will always inflict serious bleeding + 5% damage increase per hit
-					'''
-				DisplayName: Raider's Dagger
-			}
-
-			NanoKnife: {
-				Tooltip:
-					'''
-					'Is its name based on nanites or its size?'
-					Upon hitting any enemy all nanifes will change their trajectory to aim the last hit enemy and also enemy get confused
-					You may throw multiple at once
-					'''
-				DisplayName: Nanife
-			}
-
-			LizardKnife: {
-				Tooltip:
-					'''
-					'An ancient sacrificial tool to please the elder ones'
-					Upon thrown it will aim to closest enemy and additional solar reflections will rotate around the dagger
-					Upon hit these solar daggers will explode along with cursing the enemy with the wrath of elder one
-					If rogue config is active and calamity is enabled in stealth more solar reflections will rotate around the dagger
-					'''
-				DisplayName: Gift of the Fifth Sun
-			}
-
-			HolidayThrower: {
-				Tooltip:
-					'''
-					'You hope you are not naughty this year'
-					When used 1 elf cutter that directly aimed towards your mouse and 4 cutter aimed towards edges of screen
-					When it hit any enemy it will seriously bleed them
-					If rogue config is active and calamity is enabled in stealth 3 elf cutter aimed to mouse while 12 aimed towards edges of screen
-					'''
-				DisplayName: Elf Cutter
-			}
-
-			Hive: {
-				Tooltip:
-					'''
-					'Always bee nice to your friends and share your toys'
-					While flying it will leak honey
-					Upon hit any enemy the hive will attach to enemy and both envenom it and decrease its DR by 2.5% for each stick nest
-					After enemy carry too much nest or hit any tile it will explode into honey droplets and angry red hornets which inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth you will also release additional bees
-					'''
-				DisplayName: Hornet Nest
-			}
-
-			FrostburninaBottle: {
-				Tooltip:
-					'''
-					Caution: Highly Reactive Chemical
-					Upon hit any enemy it will leak into an frosburn explosion
-					Upon hit any tile it will form an freezing mist that will slow the non boss enemies and frostburn bosses
-					If rogue config is active and calamity is enabled in stealth you will throw multiple bottles with increased velocity on same trajectory
-					'''
-				DisplayName: Frostburn in a Bottle
-			}
-
-			FleshBall3: {
-				Tooltip:
-					'''
-					'Looking for hugs'
-					Upon thrown the fleshlings will follow your mouse direction and hatch into small hungries upon their death
-					They cannot pass through platforms and their hits inflict bleeding while hungry hits will inflict serious bleeding
-					If rogue config is active and calamity is enabled in stealth thrown fleshling hit will explode into blood tentacles with 50% increased damage
-					'''
-				DisplayName: Flesh Ball
-			}
-
-			ChefKnife: {
-				Tooltip:
-					'''
-					'A deadly tool once used in the Hell's kitchen'
-					Upon being thrown you will throw an additional knive with respect to the mirror side of the closest enemy to your cursor
-					If there is no close enemy the second knife will thrown in random direction with respect to your cursor location
-					Hits will inflict on fire and killing enemies with these knives will form lingers of their burning flesh
-					If rogue support is enabled it will shoot 6 additional knife randomly targetting around the mouse as stealth attack
-					'''
-				DisplayName: Kitchen Knives
-			}
-
-			WaterTrident: {
-				Tooltip:
-					'''
-					'Strangely there are some rotten flesh on its tip'
-					RC use will fast throw the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Fast Throw]: Upon hit any enemy or tile it will return back to player and only 1 can be active
-					If it hits any enemy will will decharge and call lightning from above and while being in water it deal 5% increased damage
-					[c/ADD8E6:Throw]:Spear will inflict wet and each stick spear will increase true DoT by 6
-					When fully charged spear strike will form whirlpool that damage close enemies and continue to suck close non boss enemies to strike enemy location
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-				DisplayName: Aquatic Trident
-			}
-
-			ThrowingStoneSpear: {
-				Tooltip:
-					'''
-					'By using the sharpness of obsidian humans become predators'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Due to extreme sharpness it will slightly decrease enemy immunity frames
-					 your penetrating will decrease enemy defense by 2 and also inflict bleeding
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will inflict bleeding and each stick spear will increase true DoT by 6
-					When fully charged spear will leave damaging obsidian dust behind along with hit cause close enemies to get fear and player slightly heal by attack
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-				DisplayName: Ancient Hunting Spear
-			}
-
-			SouthPole: {
-				Tooltip:
-					'''
-					'One of many weapon being fueled by his cryo essense'
-					RC use will hold the weapon while LC will charge the weapon and upon you stop holding LC
-					Weapon damage in charge increase and after a while its maximized which will have sound indication
-					[c/FFFF00:Hold]: Due to its extreme cold it will frostburn and crits will start to freeze nonboss enemies
-					If there is no active big icicle hits will form one which will penetrate infinitely for a short distance
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:Throw]:Spear will inflict frostburn and each stick spear will increase true DoT by 9
-					When fully charged spear hit will rain snowflakes from above while being stick it forms cryo image of south pole around enemy
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-				DisplayName: South Pole
-			}
-
-			TongueofFlesh: {
-				Tooltip:
-					'''
-					One of the many piece of the damned guardian
-					Still the curse putten by lady knowledge keeps them alive until the end
-					Upon being used a hungry being thrown to latch on the enemy
-					Critical attacks have 50% chance to heal the player by 1
-					'''
-				DisplayName: Tongue of Flesh
-			}
-
-			ThornBall: {
-				Tooltip:
-					'''
-					'Has a chance to poison the enemies'
-					Upon doing critical hit it have a chance to stick to the enemy
-					'''
-				DisplayName: Thorn Ball
-			}
-
-			SpectreFlail: {
-				Tooltip:
-					'''
-					'While being thrown it will form spiritual essenses that will home to enemies'
-					'Critical hits have 50% chance to release it from its chain'
-					'''
-				DisplayName: Spectre Flail
-			}
-
-			OldComputer: {
-				Tooltip:
-					'''
-					'A relic once being used in MS-DOS era'
-					Upon hitting enemy it will release tiny eater of ram
-					Also hitting enemies will increase their static charge for 6 seconds
-					'''
-				DisplayName: Old Computer
-			}
-
-			ChlorophyteFlail: {
-				Tooltip: "'While being thrown it will produce spores around itself'"
-				DisplayName: Chlorophyte Flail
-			}
-
-			Hitarang: {
-				Tooltip:
-					'''
-					'BONK!'
-					Upon hitting any enemy or tile it will lose its momentum and ricochet opposite direction
-					After successful hit you can send next one earlier instead of waiting first sent to return
-					If rogue config is active and calamity is enabled in stealth it will make your nonboss enemies get dizzy
-					'''
-				DisplayName: Piko Piko Hammer
-			}
-
-			DroneShuriken: {
-				Tooltip:
-					'''
-					'TARGET LOCKED'
-					Upon being thrown it will seek target and when find one until that target dies or its battery get low rotate and shoot laser around it
-					If the target dies it will scan any additional targets and if there is no close it will return back to player
-					In low battery or no close target it will also return back to player
-					If rogue support is enabled it will throw 3 additional drone shuriken as stealth attack
-					'''
-				DisplayName: Drone Shuriken
-			}
-
-			Batarang: {
-				Tooltip:
-					'''
-					'Always be yourself unless you can be batman'
-					You will throw a sharp batarang which will explode into bats upon critical hit and inflicts fear to your enemies
-					Upon enemy hits it will inflict fear and decrease their defense by 2
-					If rogue config is active and calamity is enabled in stealth you will form bats around you
-					'''
-				DisplayName: Batarang
 			}
 		}
 
@@ -23789,6 +23454,12 @@ Mods: {
 			Pickaxe4.DisplayName: Pickaxe4
 			MandibleDigger.DisplayName: Mandible Digger
 			HolyStriker.DisplayName: Holy Striker
+			ParticleFlame.DisplayName: Particle Flame
+			Matchstick.DisplayName: Matchstick
+			SpaztinatorLaser.DisplayName: Spaztinator Laser
+			SpazLaser.DisplayName: Spaz Laser
+			SapGlob2.DisplayName: Sap Glob2
+			LightningParticle.DisplayName: Lightning Particle
 		}
 
 		Configs: {
