@@ -11,12 +11,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
     {
         public override void Load()
         {
-            On_ChatManager.ParseMessage += Translate;            
+            On_ChatManager.ParseMessage += Translate;
         }
         public override void Unload()
         {
             On_ChatManager.ParseMessage -= Translate;
-        }       
+        }
         private static List<TextSnippet> Translate(On_ChatManager.orig_ParseMessage orig, string text, Color baseColor)
         {
             //UI
@@ -157,8 +157,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Let's start with easy one", "让我们从简单的开始"); 
             text = Regex.Replace(text, "What is 91 divided by 7", "91除以7等于多少"); 
 
-            text = Regex.Replace(text, "What is 2", "2加4等于多少");  
-            text = Regex.Replace(text, "What is the billionth digit of pi", "π的10亿位数是多少");  
+            text = Regex.Replace(text, "What is 2+4", "2加4等于多少");  
+            text = Regex.Replace(text, "What is the billionth digit of Pi", "π的10亿位数是多少");  
             text = Regex.Replace(text, "How many equal sides do lcosahedrons have", "十面体有多少条等边"); ////////
 
             text = Regex.Replace(text, "What is the percentage of metals in periodic table", "元素周期表中金属占用多少");

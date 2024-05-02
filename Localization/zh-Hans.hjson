@@ -4130,12 +4130,12 @@ Mods: {
 			}
 
 			SoulEat: {
-				DisplayName: 灵魂消耗
-				Description: 你继续使用眼睛灵魂将会消耗
+				DisplayName: 灵魂殆尽
+				Description: 如果你接着使用真视之瞳，灵魂将会被吞噬
 			}
 
 			SoulEat2: {
-				DisplayName: 没有灵魂
+				DisplayName: 魂飞魄散
 				Description: 你不应该这样做
 			}
 
@@ -4821,10 +4821,10 @@ Mods: {
 				DisplayName: 蓝圣甲虫
 				Tooltip:
 					'''
-					'Blessing of the Ancients'
-					Crits has 10% chance to drop a cystal ankh that picking it will prevent player from death
-					Crystal Ankh's will fade away after some time
-					Each day of the week grant different ability
+					'远古祝福'
+					暴击有10%的几率掉落一个让玩家免受死亡的水晶圣甲虫
+					未拾取的水晶圣甲虫一段时间后会消失
+					每天会额外赋予不同的能力
 					'''
 			}
 
@@ -15089,11 +15089,11 @@ Mods: {
 			}
 
 			EyeofNullifier: {
-				DisplayName: 否定之瞳
+				DisplayName: 真视之瞳
 				Tooltip:
 					'''
 					'这是他过去的美好遗留物'
-					使用后使每一发弹幕都有冷却时间
+					使用后清空所有射弹，此能力冷却时间为2分钟
 					'''
 			}
 
@@ -15250,21 +15250,21 @@ Mods: {
 					'''
 			}
 
-			OldBell: {
-				DisplayName: Old Bell
-				Tooltip:
-					'''
-					'Sound Dull... Yet delightful'
-					Using the bell will respawn a dead ally with 1 ability cooldown for both players
-					'''
-			}
-
-			PortableCannonRemote: {
+			NoteBlockTuner: {
 				DisplayName: 音符方块调谐器
 				Tooltip:
 					'''
-					在音符方块上使用该物品可以循环切换其13种不同的乐器类型
-					<right>将会打开一个UI，显示部分预设旋律的音符
+					在音符方块上使用该物品可以循环切换其13种不同类型的乐器音色
+					<right>打开菜单，显示部分预设旋律的音符
+					'''
+			}
+
+			OldBell: {
+				DisplayName: 古老铃铛
+				Tooltip:
+					'''
+					'声音沉闷... 但又令人愉悦'
+					使用铃铛将复活一个死去的队友，双方都会进入此能力的冷却时间
 					'''
 			}
 
@@ -17660,8 +17660,8 @@ Mods: {
 				Tooltip:
 					'''
 					'这不仅仅是一面旗帜，更是一个理念'
-					Casts multiple stars that shatter into smaller ones
-					Hits may drop money + Inflicts midas & nullify defense
+					射出多颗可以破碎成更小的星星
+					命中后有几率掉落钱币并施加迈达斯减益，并清空敌人的防御
 					'''
 			}
 
@@ -19380,10 +19380,10 @@ Mods: {
 				DisplayName: 森林之火
 				Tooltip:
 					'''
-					'Let's heat things up'
+					'让我们嗨起来'
 					同时射出火焰和小型持久火焰
-					RC to spew from matchstick that has shorter duration but higher damage output
-					"10%几率不消耗弹药，使用凝胶作为弹药"
+					右键喷射出持续时间较短但伤害较高的火焰
+					10%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
 
@@ -19391,9 +19391,9 @@ Mods: {
 				DisplayName: 蜂蜜脆皮枪
 				Tooltip:
 					'''
-					'Don’t forget to say hi to your honey'
-					RC to spread honey and LC to shoot nectar flames
-					Nectar flames call bees + does additional true damage on honeyed enemies
+					'别忘了向你的甜心打个招呼'
+					右键喷洒蜂蜜，左键发射花蜜火焰
+					花蜜火焰会召唤蜜蜂，并对被蜂蜜覆盖的敌人造成额外的伤害
 					30%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
@@ -19403,7 +19403,7 @@ Mods: {
 				Tooltip:
 					'''
 					'燃烧着他们的临终愿望'
-					Hits inflict inferno & soulblight + may release tormented souls
+					命中施加狱火和灵魂枯萎，并有几率释放
 					40%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
@@ -19412,7 +19412,7 @@ Mods: {
 				DisplayName: 斯帕兹泰纳泽尔
 				Tooltip:
 					'''
-					'This is going to be a terrible death...'
+					'这将是一场可怕的死亡...'
 					使用凝胶作为弹药
 					"40%几率不消耗弹药"
 					'''
@@ -19423,7 +19423,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你内心的光芒将淹没一切，唯独最亮的星辰得以幸存。'
-					Shoots a spread of lightning bolts that spread starcrusher debuff
+					发射一束传播星辰粉碎减益的闪电
 					'有70%几率不消耗弹药，并使用凝胶作为弹药'
 					'''
 			}
@@ -19443,9 +19443,9 @@ Mods: {
 				DisplayName: 炙焰
 				Tooltip:
 					'''
-					'My breath death!'
-					Occasionally spews additional flame balls
-					Crits cause infernal explosion + hits weaken enemy against fire + greatly burns them
+					'我是死亡的化身'
+					有几率额外喷出火球
+					暴击造成狱火爆炸，命中时削弱敌人对火焰的抗性并造成严重烧伤
 					'有50%几率不消耗弹药，使用凝胶作为弹药'
 					'''
 			}
@@ -23472,6 +23472,12 @@ Mods: {
 			Pickaxe4.DisplayName: Pickaxe4
 			MandibleDigger.DisplayName: Mandible Digger
 			HolyStriker.DisplayName: Holy Striker
+			ParticleFlame.DisplayName: Particle Flame
+			Matchstick.DisplayName: Matchstick
+			SpaztinatorLaser.DisplayName: Spaztinator Laser
+			SpazLaser.DisplayName: Spaz Laser
+			SapGlob2.DisplayName: Sap Glob2
+			LightningParticle.DisplayName: Lightning Particle
 		}
 
 		Configs: {
