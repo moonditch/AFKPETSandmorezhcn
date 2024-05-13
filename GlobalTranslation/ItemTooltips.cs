@@ -175,8 +175,98 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Holding tools will also provide thorns effect + knockback immunity",
 							"手持工具额外获得荆棘效果并免疫击退");
 
-				//特殊修饰语 - 等模组修Bug
-				//sb.Replace("", "");
+				//特殊词缀-来源于晦暝祭坛
+				//真近战修饰语：
+				sb.Replace("Random damage + inflicted buff + enemy location",
+							"随机造成伤害、获得增益、敌人的位置");//随机
+				sb.Replace("Hearts buff melee + Crit Kill heal + make happy",
+							"生命心增强近战，暴击获得治疗");//欢乐
+				sb.Replace("Flowers bloom, breaking summon guardian soul",
+							"鲜花盛开，召唤守护之魂");//绽放
+				sb.Replace("Defense increase by weapon base damage/8",
+							"增加基础伤害八分之一的防御");//掩护
+				sb.Replace("Hitting same enemy increase damage",
+							"攻击同一敌人会增加伤害");//勾连
+				sb.Replace("True damage but divided equal to any close enemy",
+							"对附近的敌人造成平分的真实伤害");//共产
+				sb.Replace("Attacks burn + may charm close enemies to become passive",
+							"点燃敌人，有几率使附近的敌人变得消极");//摩托
+				sb.Replace("Crit give flex which allow reflection of weaker projectiles",
+							"暴击可以反弹较弱的射弹");//健美
+				sb.Replace("Crit rain icicle + inflict frostburn",
+							"暴击时有冰柱从天而降并施加霜冻");//高冷
+				sb.Replace("Penetration III\nBlast Protection\nEfficiency II",
+							"穿透 III\n爆炸保护\n效率 II");//附魔
+				sb.Replace("Size increases by 250%",
+							"物品大小变为2.5倍");//稽大
+				sb.Replace("Crit have crit and its chance is determined by rarity",
+							"根据物品稀有度，暴击时有几率造成额外伤害");//无政府主义
+				sb.Replace("Hits have a chance to reflect one of your debuff back to enemy\nVanilla + AFKPets buffs are supported",
+							"攻击有几率将减益反弹给敌人\n适配原版减益和本模组减益");//剑豪的
+				sb.Replace("Hits form confusing shiny dust",
+							"攻击产生令人困惑的闪光");//炫目
+				sb.Replace("Attacks have a chance to inflict oiled\nPlayer have a chance to slip throw its weapon",
+							"攻击有几率施加涂油\n玩家有几率扔出浸油剑");//浸油
+				//魔法修饰语：
+				sb.Replace("Mana stars also call fairies for help",
+							"魔力星会召唤仙子帮助");//魔法师的
+				sb.Replace("non boss enemies get unique ai, bosses get stat change",
+							"攻击有几率使非Boss敌人获得独特AI并更改Boss的属性");//独特
+				sb.Replace("No hitting and graze increase magic damage, taking hit reset",
+							"无伤时增加魔法伤害，受击时重置");//灾劫
+				sb.Replace("Weapon shoot twice with 45 degree difference and with 60% base damage",
+							"魔杖以45度角发射造成60%基础伤害的两次攻击");//超频
+				sb.Replace("Attacks have small chance to inflict soulblight",
+							"攻击有几率施加灵魂枯萎");//灾厄
+				sb.Replace("Hit enemies debuffs have small chance to spread",
+							"攻击使敌人的减益有几率传播");//恶毒
+				sb.Replace("Damage become true damage which bypass defense + DR",
+							"攻击造成无视防御和减伤的真实伤害");//现实主义
+				sb.Replace("Attacks have small chance to call rainbow stars",
+							"攻击有几率召唤彩虹星星");//闪亮
+				sb.Replace("Attacks have small chance to spook your foes",
+							"攻击有几率惊吓敌人");//战兢
+				sb.Replace("Coins also give mana",
+							"钱币可以恢复魔力");//贪婪
+				sb.Replace("Hostile spiritual pigeons may spawn but these also drop soul heart + arcane mana",
+							"有几率生成掉落灵魂之心和奥术法力的灵鸽");//魔术师
+				sb.Replace("Attacks have small chance to inflict explosive chemical",
+							"攻击有几率施加化学易爆性");//泄露
+				sb.Replace("Player drain town npc life for increased mana + life regen while not have max mana",
+							"伤害城镇NPC可以增加魔力和生命再生");//虐待狂
+				sb.Replace("Attacks form shadows that channel damage to actual one",
+							"攻击形成暗影，暗影受到伤害时敌人也会受到伤害");//扭曲
+				sb.Replace("Weapon have chance to shoot additional spell",
+							"攻击有几率额外释放魔法射弹");//古老
+				//射手修饰语：
+				sb.Replace("Arrow gain slight homing",
+							"箭矢可以轻微追踪");//神射手的
+				sb.Replace("Arrow may bounce to closest enemy",
+							"箭矢不能穿甲但有几率弹射攻击最近的敌人");//弹力
+				sb.Replace("Shoot copy of shot arrow 180 degrees from its trajectory angle",
+							"发射相反的额外箭矢");//对称
+				sb.Replace("25% chance to not use ammo + hits have 10% chance to refund arrow",
+							"25%的几率不消耗弹药，攻击有10%的几率回收箭矢");//节约
+				sb.Replace("Pierce up + first pierce attack ignore half of enemy defense",
+							"穿刺，第一次攻击忽视敌人一半的防御");//穿透
+				sb.Replace("1000% increased arow size",
+							"箭矢大小变为10倍");//龙爪？
+				sb.Replace("First hit inflict random afk pets or vanilla debuff",
+							"第一次攻击随机施加原版或本模组的减益");//涂刷
+				sb.Replace("Shooting bow have 20% chance to make an orbiting arrow as same type",
+							"有20%几率射出相同类型的轨道箭");//轨道
+				sb.Replace("Crit will rain cluster of arrow from sky that target same",
+							"暴击将降下攻击相同目标的箭雨");//暴雨
+				sb.Replace("Aim get inaccurate",
+							"瞄准变得不准确");//酒醉
+				sb.Replace(" Non boss hits cause dynamic knockback + 20% of enemy defense is ignored",
+							"命中非Boss敌人造成强力击退，忽视敌人20%的防御");//主宰
+				sb.Replace("No penetration + no tile collision + same type arrow hit trajectory aim",
+							"相同类型的箭矢会修正弹道，无护甲穿透但可以穿墙");//自瞄
+				sb.Replace("Hit make arrow divide into smaller arrows in different directions",
+							"命中后分裂成不同方向的箭矢");//弹片
+				sb.Replace(" Hitting a new npc do 15% more damage but same npc do 10% less damage",
+							"击中新的敌人造成15%额外伤害，击中相同敌人降低10%伤害");//扩散
 
 				//婚戒
 				sb.Replace("A beautiful ring designed for owner of your heart\nYour heart is beating one with the designer\nWhen you take damage you have 5% chance to take half from it and 5% take 75% of it\nHer love will increase your maximum health and life regen\nBeing close to your love will increase your endurance by 4% and protect her from taking damage",

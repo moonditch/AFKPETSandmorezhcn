@@ -385,10 +385,12 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			SoulBird.DisplayName: 心灵鸟
-			SoulBlossom.DisplayName: 灵魂绽放
+			SoulBlossom.DisplayName: 盛放之灵
 			TiedYandere.DisplayName: 受缚黑暗女猎手
 			TreasureBagBoi.DisplayName: Treasure Bag Boi
 			BadMafia.DisplayName: 黑手党
@@ -484,6 +486,8 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				Census.SpawnCondition: 击败史莱姆王或克苏鲁之眼
 			}
 
 			FallenAngel: {
@@ -499,6 +503,8 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				Census.SpawnCondition: 在白天使用伊卡洛斯的镜子闪亮她的双眼
 			}
 
 			GuideoftheEnd: {
@@ -529,6 +535,8 @@ Mods: {
 					LikeNPC_Princess: 我喜欢{NPCName}.
 					Princess_LovesNPC: 我喜欢{NPCName}.
 				}
+
+				Census.SpawnCondition: 击败恶魔杀手
 			}
 
 			BountyHunter: {
@@ -804,7 +812,7 @@ Mods: {
 			DisgustCatPainting.MapEntry: Disgust Cat Painting
 			DerpCatPainting.MapEntry: Derp Cat Painting
 			DemonEffect.MapEntry: Demon Effect
-			DarkAltar2.MapEntry: Dark Altar2
+			DarkAltar2.MapEntry: 晦暝祭坛
 			DappingGuideStatue.MapEntry: Dapping Guide雕像
 			CrimsonAmplifier2.MapEntry: Crimson Amplifier2
 			CrawdadStatue.MapEntry: 龙虾雕像
@@ -1564,13 +1572,13 @@ Mods: {
 			}
 
 			Dried: {
-				DisplayName: Dried
-				Description: Contact DMG + DR decrease
+				DisplayName: 干枯
+				Description: 减少接触伤害和伤害减免
 			}
 
 			ExplosiveChemical: {
-				DisplayName: Explosive Chemical
-				Description: It may periodically react with air
+				DisplayName: 化学易爆性
+				Description: 它可能会周期性地与空气发生反应
 			}
 
 			Fear: {
@@ -4195,8 +4203,8 @@ Mods: {
 			}
 
 			StrongLove: {
-				DisplayName: Strong Love
-				Description: You feel your heart is beating for someone
+				DisplayName: 爱意汹涌
+				Description: 你感到自己对某人怦然心动
 			}
 
 			SuikaIbuki: {
@@ -4802,6 +4810,11 @@ Mods: {
 			TimeJump: {
 				Description: Mods.AFKPETS.Buffs.TimeJump.Description
 				DisplayName: 时间跳跃
+			}
+
+			ElectricDebuff: {
+				DisplayName: 电击
+				Description: Mods.AFKPETS.Buffs.ElectricDebuff.Description
 			}
 		}
 
@@ -5464,8 +5477,8 @@ Mods: {
 					生命值低于50%时，增加8防御和5%伤害减免
 					真近战暴击形成生命精华，围绕玩家旋转
 					在生命精华存在时受到伤害，每个存在的生命精华会恢复2点生命值
-					最多只能同时存在6个生命精华
-					生命精华可以穿透2次，前两次攻击施加树神诅咒，最后一次攻击造成爆炸
+					最多只能同时存在6个生命精华，生命精华可以穿透2次
+					前两次攻击施加树妖祸害，最后一次攻击施加化学易爆性
 					'''
 			}
 
@@ -5665,7 +5678,7 @@ Mods: {
 					'你感到自己和机械之魂被阿吉多特领主连接在一起'
 					双击下键召唤一个额外的哨兵，最多只能同时存在一个
 					靠近机械师会略微增加你的生命再生速度
-					接触类型哨兵有几率产生爆炸
+					接触类型哨兵有几率施加化学易爆性
 					'''
 			}
 
@@ -8929,8 +8942,8 @@ Mods: {
 			}
 
 			TestTile: {
-				DisplayName: Prefix Test Tile（占位符）
-				Tooltip: "'<right>allow change through different special prefixes'"
+				DisplayName: 特殊修饰语测试方块
+				Tooltip: "'<right>更换所持物品的模组特殊修饰语'"
 			}
 
 			TileScanner: {
@@ -12868,7 +12881,7 @@ Mods: {
 					使用后召唤可骑乘的蛾怪宝宝
 					骑乘时，右键进行冲刺，冷却时间为1.5秒 
 					冲刺时，授予玩家0.33秒的无敌帧
-					冲刺时，蛾怪宝宝产生日蚀尘，造成爆炸并施加狱火
+					冲刺时，蛾怪宝宝产生日蚀尘，施加狱火和化学易爆性
 					'''
 			}
 
@@ -14589,7 +14602,7 @@ Mods: {
 					'''
 					'浓缩于血、汗、泪'
 					增加外来植物的生长速度
-					造成扭曲减益，减少接触伤害和减伤，非BOSS史莱姆系和眼球系得到持续伤害
+					施加干枯减益，减少接触伤害和减伤；非Boss史莱姆和飞眼类敌人受到持续伤害
 					'''
 			}
 
@@ -17599,8 +17612,8 @@ Mods: {
 				DisplayName: 迷你魔法锅炉
 				Tooltip:
 					'''
-					射击时，将你的精神集中，轻轻地向迷你魔法锅炉念咒语
-					当瞄准你不喜欢的人时，将会释放出爱的魔炮！
+					'瞄准你不喜欢的人，爱的魔力就会释放出来！'
+					发射爱的火花，可能会吸引彩虹之星
 					'''
 			}
 
@@ -18057,7 +18070,7 @@ Mods: {
 					在连击激活状态下受到伤害可能会使玩家发誓并召唤蝙蝠
 					连击命中将使敌人恐惧，连击暴击有一定几率让非首领敌人眩晕
 					若同时装备了[c/ffff00:博士的单片眼镜]，连击命中也有一定几率召唤蝙蝠
-					若同时装备了[c/ffff00:博士的单片眼镜]，玩家将投掷//，命中时爆炸并释放蝙蝠
+					若同时装备了[c/ffff00:博士的单片眼镜]，玩家将投掷回旋飞蝠，命中时爆炸并释放蝙蝠
 					'''
 			}
 
@@ -18686,7 +18699,7 @@ Mods: {
 					'''
 					'以善良可爱之人的嫉妒为动力的武器'
 					杀死敌人会使敌人有40%的几率掉落战利品2次，boss免疫此效果
-					如果他们的生命百分比高于你，你的嫉妒会导致你的攻击造成森林女神的痛苦和诅咒的火焰，它会造成中毒效果
+					如果他们的生命百分比高于你，你的嫉妒会使你的攻击施加树妖祸害和诅咒焰，并造成中毒
 					'''
 			}
 
@@ -19629,7 +19642,7 @@ Mods: {
 					'''
 					'无论你在某方面有多差劲，总会有擅长的一面'
 					它的瞄准精度足以让冲锋队员折服，并且其子弹会被赋予以下一种前缀效果：
-					- 腐蚀：子弹造成爆炸性化学伤害，同时释放孢子
+					- 腐蚀：子弹施加化学易爆性，同时释放孢子
 					- 闪光弹：暴击时产生闪光区域，使非Boss敌人短暂眩晕
 					- 故障：子弹命中后解除编码，分裂成两枚无附加效果的小子弹
 					- 绯红：投射物在暴击时吸血并导致敌人严重流血
@@ -20870,7 +20883,7 @@ Mods: {
 					使用时召唤一个小型灾难之魂来保护玩家，每为无上之主提供1k订阅便为其提供5%强化
 					此功能需要启用网络连接
 					大幅减少领域内模组哨兵的冷却
-					领域内的召唤物弹幕命中时有几率附上爆炸性化合物
+					领域内的召唤物弹幕命中时有几率施加化学易爆性
 					玩家受伤时，若灾难之魂在屏幕内，它将爆发成一片高辐射区域，同时仅能存在一个区域
 					同时仅能有一个辅助之魂生效，右键解除召唤
 					'''
@@ -21150,56 +21163,56 @@ Mods: {
 		}
 
 		Prefixes: {
-			Aimbot.DisplayName: Aimbot
-			Anarchist.DisplayName: Anarchist
-			Ancient.DisplayName: Ancient
+			Aimbot.DisplayName: 自瞄
+			Anarchist.DisplayName: 无政府主义
+			Ancient.DisplayName: 古老
 			BlessedPrefix.DisplayName: Blessed Prefix
-			Blossoms.DisplayName: Blossom's
-			Calamitous.DisplayName: Calamitous
-			Cataclysmic.DisplayName: Cataclysmic
-			Chad.DisplayName: Chad
-			Channeling.DisplayName: Channeling
-			Coated.DisplayName: Coated
-			ComicallyLarge.DisplayName: Comically Large
-			Communist.DisplayName: Communist
-			CursedPrefix.DisplayName: Cursed Prefix
-			Distorted.DisplayName: Distorted
-			Dragonators.DisplayName: Dragonators
-			Drunken.DisplayName: Drunken
-			Enchanted.DisplayName: Enchanted
-			Flashy.DisplayName: Flashy
-			Fletchers.DisplayName: Fletchers
-			Glittering.DisplayName: Glittering
-			Greedy.DisplayName: Greedy
-			Hylias.DisplayName: Hylia's
-			Joyful.DisplayName: Joyful
-			Juggernaut.DisplayName: Juggernaut
-			Leaking.DisplayName: Leaking
-			Malicious.DisplayName: Malicious
-			MotoMoto.DisplayName: Moto Moto
-			Oiled.DisplayName: Oiled
-			Orbiting.DisplayName: Orbiting
-			Overloaded.DisplayName: Overloaded
-			Perforators.DisplayName: Perforators
-			Quickfire.DisplayName: Quickfire
-			Rainstorm.DisplayName: Rainstorm
-			Randomized.DisplayName: Randomized
+			Blossoms.DisplayName: 绽放
+			Calamitous.DisplayName: 灾厄
+			Cataclysmic.DisplayName: 灾劫
+			Chad.DisplayName: 健美
+			Channeling.DisplayName: 勾连
+			Coated.DisplayName: 涂刷
+			ComicallyLarge.DisplayName: 稽大
+			Communist.DisplayName: 共产
+			CursedPrefix.DisplayName: 被诅咒的
+			Distorted.DisplayName: 扭曲
+			Dragonators.DisplayName: 龙爪
+			Drunken.DisplayName: 酒醉
+			Enchanted.DisplayName: 附魔
+			Flashy.DisplayName: 闪亮
+			Fletchers.DisplayName: 节约
+			Glittering.DisplayName: 炫目
+			Greedy.DisplayName: 贪婪
+			Hylias.DisplayName: 魔法师的
+			Joyful.DisplayName: 欢乐
+			Juggernaut.DisplayName: 主宰
+			Leaking.DisplayName: 泄露
+			Malicious.DisplayName: 恶毒
+			MotoMoto.DisplayName: 摩托
+			Oiled.DisplayName: 浸油
+			Orbiting.DisplayName: 轨道
+			Overloaded.DisplayName: 超频
+			Perforators.DisplayName: 穿透
+			Quickfire.DisplayName: 速射
+			Rainstorm.DisplayName: 暴雨
+			Randomized.DisplayName: 随机
 			RBPrefixes.DisplayName: R B Prefixes
-			Realistic.DisplayName: Realistic
-			Ricochet.DisplayName: Ricochet
-			Sadistic.DisplayName: Sadistic
-			Sharpshooters.DisplayName: Sharpshooters
-			Shielding.DisplayName: Shielding
-			Shrapnel.DisplayName: Shrapnel
+			Realistic.DisplayName: 现实主义
+			Ricochet.DisplayName: 弹力
+			Sadistic.DisplayName: 虐待狂
+			Sharpshooters.DisplayName: 神射手的
+			Shielding.DisplayName: 掩护
+			Shrapnel.DisplayName: 弹片
 			SMPrefixes.DisplayName: S M Prefixes
-			Spreading.DisplayName: Spreading
-			Strongest.DisplayName: Strongest
-			Symmetrical.DisplayName: Symmetrical
+			Spreading.DisplayName: 扩散
+			Strongest.DisplayName: 高冷
+			Symmetrical.DisplayName: 对称
 			TMPrefixes.DisplayName: T M Prefixes
-			Trickster.DisplayName: Trickster
-			TwoSp00ky.DisplayName: 2Spo0ky
-			Unique.DisplayName: Unique
-			Yrimirs.DisplayName: Yrimir's
+			Trickster.DisplayName: 魔术师
+			TwoSp00ky.DisplayName: 战兢
+			Unique.DisplayName: 独特
+			Yrimirs.DisplayName: 剑豪的
 		}
 
 		Projectiles: {
@@ -21310,7 +21323,7 @@ Mods: {
 			AquaticSpell.DisplayName: Aquatic Spell
 			AquaticTornado.DisplayName: Aquatic Tornado
 			Aqua.DisplayName: 阿库娅
-			ArcaneMeteor.DisplayName: Arcane Meteor
+			ArcaneMeteor.DisplayName: 奥数流星
 			MicroPlayerDasher.DisplayName: Micro Player Dasher
 			MicroPlayerFlyer.DisplayName: Micro Player Flyer
 			ArrowDesummoner.DisplayName: Arrow Desummoner
@@ -21954,9 +21967,9 @@ Mods: {
 			FriendlinessPellet2.DisplayName: Friendliness Pellet2
 			FriendlinessPellet.DisplayName: Friendliness Pellet
 			FrostBubble.DisplayName: Frost Bubble
-			FrostBurnBlizzard.DisplayName: Frost Burn Blizzard
-			FrostBurnBlizzard2.DisplayName: Frost Burn Blizzard2
-			FrostBurnBlizzard3.DisplayName: Frost Burn Blizzard3
+			FrostBurnBlizzard.DisplayName: 冰柱
+			FrostBurnBlizzard2.DisplayName: 冰柱
+			FrostBurnBlizzard3.DisplayName: 冰柱
 			FrostburnInferno.DisplayName: Frostburn Inferno
 			FrostburnInferno2.DisplayName: Frostburn Inferno2
 			FrostCloud.DisplayName: Frost Cloud
@@ -22701,7 +22714,7 @@ Mods: {
 			EssenceSoulCounter.DisplayName: Essence Soul Counter
 			FrozenMouse.DisplayName: Frozen Mouse
 			FujinWind.DisplayName: Fujin Wind
-			Glitter.DisplayName: Glitter
+			Glitter.DisplayName: 闪光
 			HangoverEffect.DisplayName: 宿醉
 			ItemProjectile.DisplayName: Item Projectile
 			KasaObake.DisplayName: Kasa Obake
@@ -22711,7 +22724,7 @@ Mods: {
 			MothPrefix.DisplayName: Moth Prefix
 			MultimeterMouse.DisplayName: Multimeter Mouse
 			NeonAngel.DisplayName: 霓虹天使
-			OiledSword.DisplayName: Oiled Sword
+			OiledSword.DisplayName: 浸油剑
 			ParasoulHeld.DisplayName: Parasoul Held
 			ParasoulHeld2.DisplayName: Parasoul Held2
 			PoisonLeaf.DisplayName: Poison Leaf
@@ -23246,7 +23259,7 @@ Mods: {
 			BioLight2.DisplayName: Bio Light2
 			BioLight.DisplayName: Bio Light
 			BigMeteor.DisplayName: Big Meteor
-			Batarang.DisplayName: Batarang
+			Batarang.DisplayName: 回旋飞蝠
 			ThornDart.DisplayName: 荆棘镖
 			ThornBall2.DisplayName: Thorn Ball2
 			TheFourthDegreeInferno.DisplayName: The Fourth Degree Inferno
@@ -23478,6 +23491,9 @@ Mods: {
 			SpazLaser.DisplayName: Spaz Laser
 			SapGlob2.DisplayName: Sap Glob2
 			LightningParticle.DisplayName: Lightning Particle
+			MagicSpin2.DisplayName: Magic Spin2
+			MagicSpin.DisplayName: Magic Spin
+			MagicSpinStar2.DisplayName: Magic Spin Star2
 		}
 
 		Configs: {

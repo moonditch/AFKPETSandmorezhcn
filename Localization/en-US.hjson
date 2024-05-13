@@ -385,6 +385,8 @@ Mods: {
 					LikeNPC_Princess: I like {NPCName}.
 					Princess_LovesNPC: I like {NPCName}.
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			SoulBird.DisplayName: Soul Bird
@@ -484,6 +486,8 @@ Mods: {
 					LikeNPC_Princess: I like {NPCName}.
 					Princess_LovesNPC: I like {NPCName}.
 				}
+
+				Census.SpawnCondition: Defeat King Slime or Eye of Cthulhu
 			}
 
 			FallenAngel: {
@@ -499,6 +503,8 @@ Mods: {
 					LikeNPC_Princess: I like {NPCName}.
 					Princess_LovesNPC: I like {NPCName}.
 				}
+
+				Census.SpawnCondition: Shine her eyes by using Icarus's mirror in desert at day time
 			}
 
 			GuideoftheEnd: {
@@ -529,6 +535,8 @@ Mods: {
 					LikeNPC_Princess: I like {NPCName}.
 					Princess_LovesNPC: I like {NPCName}.
 				}
+
+				Census.SpawnCondition: Defeat Slayer of Evil
 			}
 
 			BountyHunter: {
@@ -4806,6 +4814,11 @@ Mods: {
 			TimeJump: {
 				Description: Mods.AFKPETS.Buffs.TimeJump.Description
 				DisplayName: Time Jump
+			}
+
+			ElectricDebuff: {
+				DisplayName: Electric Debuff
+				Description: Mods.AFKPETS.Buffs.ElectricDebuff.Description
 			}
 		}
 
@@ -17585,8 +17598,8 @@ Mods: {
 				DisplayName: Mini-Hakkero
 				Tooltip:
 					'''
-					While shooting concentrate your mind, gently muttering the spell to the Mini-Hakkero.
-					Aiming at someone you don't like, a magicannon of love will be unleashed!
+					'Aiming at someone you don't like, a magicannon of love will be unleashed!'
+					Upon cast shoots a love-colored spark may that attract rainbow stars
 					'''
 			}
 
@@ -17615,7 +17628,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Your very own Bede'
-					Upon use casts a necromantic area that gets bigger and stronger as player continues to hold the attack button
+					Hold use to casts a necromantic area that gets bigger and stronger as player continues to use
 					Upon release or not having enough mana damages all enemies in its area
 					player also get damage with respect to size + when any enemy dies it will release pins and player gets healed
 					This pins could stick to other enemies or tiles
@@ -23460,6 +23473,9 @@ Mods: {
 			SpazLaser.DisplayName: Spaz Laser
 			SapGlob2.DisplayName: Sap Glob2
 			LightningParticle.DisplayName: Lightning Particle
+			MagicSpin2.DisplayName: Magic Spin2
+			MagicSpin.DisplayName: Magic Spin
+			MagicSpinStar2.DisplayName: Magic Spin Star2
 		}
 
 		Configs: {
