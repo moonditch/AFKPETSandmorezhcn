@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+/* using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Terraria.ModLoader;
@@ -11,12 +11,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
     {
         public override void Load()
         {
-            On_ChatManager.ParseMessage += Translate;
+            On_ChatManager.ParseMessage += Translate;            
         }
         public override void Unload()
         {
             On_ChatManager.ParseMessage -= Translate;
-        }
+        }       
         private static List<TextSnippet> Translate(On_ChatManager.orig_ParseMessage orig, string text, Color baseColor)
         {
             //UI
@@ -75,7 +75,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
             //npc语句UI
             //死灵傀儡法师
-            /* text = Regex.Replace(text, "Since contact is obvious I mostly want to talk about two specific magic attacks", "由于接触是显而易见的，我主要想谈谈两个具体的魔法攻击"); 
+            text = Regex.Replace(text, "Since contact is obvious I mostly want to talk about two specific magic attacks", "由于接触是显而易见的，我主要想谈谈两个具体的魔法攻击"); 
             text = Regex.Replace(text, "While magic can be used to bring happiness and welfare, it also have a dark side", "虽然魔法可以带来快乐和幸福，但它也有黑暗的一面"); 
             text = Regex.Replace(text, "So it would be nice if we test your dodging skills", "所以最好测试一下你的闪避技巧");
             text = Regex.Replace(text, "Could you dodge the upcoming attack", "你能闪避即将到来的攻击吗我们能不能先友好地决斗一下"); 
@@ -157,8 +157,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
             text = Regex.Replace(text, "Let's start with easy one", "让我们从简单的开始"); 
             text = Regex.Replace(text, "What is 91 divided by 7", "91除以7等于多少"); 
 
-            text = Regex.Replace(text, "What is 2+4", "2加4等于多少");  
-            text = Regex.Replace(text, "What is the billionth digit of Pi", "π的10亿位数是多少");  
+            text = Regex.Replace(text, "What is 2", "2加4等于多少");  
+            text = Regex.Replace(text, "What is the billionth digit of pi", "π的10亿位数是多少");  
             text = Regex.Replace(text, "How many equal sides do lcosahedrons have", "十面体有多少条等边"); ////////
 
             text = Regex.Replace(text, "What is the percentage of metals in periodic table", "元素周期表中金属占用多少");
@@ -249,8 +249,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
             //胎儿博士
             text = Regex.Replace(text, "Dr Fetus start to get serious", "胎儿博士开始变得严肃起来"); 
-            text = Regex.Replace(text, "It's now defenseless", "它现在毫无防备"); */
+            text = Regex.Replace(text, "It's now defenseless", "它现在毫无防备"); 
             return orig.Invoke(text, baseColor);
         }       
     }
-}
+}*/
