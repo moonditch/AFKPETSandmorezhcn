@@ -605,6 +605,8 @@ Mods: {
 				DisplayName: Undead Chef
 				BossChecklistIntegration.EntryName: Tier1 Dungeon Miniboss
 			}
+
+			OnDemandScanner.DisplayName: On Demand Scanner
 		}
 
 		Tiles: {
@@ -17590,7 +17592,7 @@ Mods: {
 					'''
 					'The best things in life are sweet, just like honey'
 					Shoots a mixture of nectar and pollen which cause critical hits produce honey and attract bees
-					Converts water into honey
+					When being favourited converts water into honey
 					'''
 			}
 
@@ -17698,7 +17700,7 @@ Mods: {
 					'''
 					Using it casts a chaos sphere that inflicta discordian mark which cause the enemy to get +5 true DoT
 					If player presses RC while holding weapon it will teleport npc to its mouse location
-					When boss is teleported to mouse direction it will explode also spread unstable arcane energy bolts around
+					When enemy is teleported to mouse direction it will explode also spread unstable arcane energy bolts around
 					There can be max 1 active enemy could be cursed with discordian mark and bosses are immune to this effect
 					'''
 			}
@@ -18287,7 +18289,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Help me...'
-					Attacks may cause blood stream
+					Attacks may cause blood streaks
 					'''
 			}
 
@@ -23476,6 +23478,14 @@ Mods: {
 			MagicSpin2.DisplayName: Magic Spin2
 			MagicSpin.DisplayName: Magic Spin
 			MagicSpinStar2.DisplayName: Magic Spin Star2
+			LambSauceEmber.DisplayName: Lamb Sauce Ember
+			SinisterWave.DisplayName: Sinister Wave
+			SinisterSlash.DisplayName: Sinister Slash
+			BadBeastMount2.DisplayName: Bad Beast Mount2
+			SBBombExplosion.DisplayName: S B Bomb Explosion
+			SBEnergyBolt.DisplayName: S B Energy Bolt
+			SBBombExplosion2.DisplayName: S B Bomb Explosion2
+			SBDrone2.DisplayName: S B Drone2
 		}
 
 		Configs: {
