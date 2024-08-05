@@ -17764,7 +17764,11 @@ Mods: {
 
 			TornadoTip: {
 				DisplayName: 龙卷风之尖
-				Tooltip: 控制并引导一场可控风暴
+				Tooltip:
+					'''
+					控制并引导一场可控风暴
+					距离龙卷风较远的敌人受到的伤害更大
+					'''
 			}
 
 			MechanicArm: {

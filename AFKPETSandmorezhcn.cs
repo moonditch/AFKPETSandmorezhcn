@@ -11,7 +11,7 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			Main.NewText("AFK模组更新 v9.9.9.75 之后，模组的一些Boss得到了调整，快去试试吧！", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.76 ，修复了一些Bug.", Color.Orange);
 		}
 	}
 }

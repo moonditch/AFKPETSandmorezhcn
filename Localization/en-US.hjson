@@ -17750,7 +17750,11 @@ Mods: {
 
 			TornadoTip: {
 				DisplayName: Tornado Tip
-				Tooltip: Channels a controllable storm
+				Tooltip:
+					'''
+					Channels a controllable storm
+					Enemies further from tornados spiral inflow take more damage
+					'''
 			}
 
 			MechanicArm: {
