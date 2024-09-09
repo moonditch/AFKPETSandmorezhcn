@@ -927,7 +927,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				if (Nurse >= 0 && chat == "Can you tell " + Main.npc[Nurse].GivenName + " that this is our natural skin colour and I'm not ill. ")
 					chat = "你能告诉护士我们的肤色天生就是这样吗，我并没有生病。";
-				 if (chat == "Watashi wa " + Main.npc[WanderingSamurai].GivenName + " sam- wait you don't know our local language. Sorry for that. My name is " + Main.npc[WanderingSamurai].GivenName + " and its honor to meet a hunter like you.")
+				if (chat == "Watashi wa " + Main.npc[WanderingSamurai].GivenName + " sam- wait you don't know our local language. Sorry for that. My name is " + Main.npc[WanderingSamurai].GivenName + " and its honor to meet a hunter like you.")
 					chat = "瓦塔西瓦" + Main.npc[WanderingSamurai].GivenName + "萨米，等等你不会说我们的语言。 抱歉，我的名字是" + Main.npc[WanderingSamurai].GivenName + "，很荣幸见到你。";
 
 				switch (chat)

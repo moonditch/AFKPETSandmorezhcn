@@ -607,6 +607,7 @@ Mods: {
 			}
 
 			OnDemandScanner.DisplayName: On Demand Scanner
+			SpiritSkull.DisplayName: Spirit Skull
 		}
 
 		Tiles: {
@@ -23490,6 +23491,23 @@ Mods: {
 			SBEnergyBolt.DisplayName: S B Energy Bolt
 			SBBombExplosion2.DisplayName: S B Bomb Explosion2
 			SBDrone2.DisplayName: S B Drone2
+			CloudController.DisplayName: Cloud Controller
+			GreenDummy2.DisplayName: Green Dummy2
+			GreenDummy3.DisplayName: Green Dummy3
+			AntonySlash.DisplayName: Antony Slash
+			AntonyDragon.DisplayName: Antony Dragon
+			AntonySkull.DisplayName: Antony Skull
+			OrangeRocket.DisplayName: Orange Rocket
+			CyanRocket.DisplayName: Cyan Rocket
+			DrFetusHeat.DisplayName: Dr Fetus Heat
+			DrFetusPoisonCloud.DisplayName: Dr Fetus Poison Cloud
+			DrEnergy.DisplayName: Dr Energy
+			BackSmoke.DisplayName: Back Smoke
+			DrEnergy2.DisplayName: Dr Energy2
+			DrFetusEnergy.DisplayName: Dr Fetus Energy
+			DrEnergyEffect.DisplayName: Dr Energy Effect
+			DrFetusBat2.DisplayName: Dr Fetus Bat2
+			DrFetusWarpZone.DisplayName: Dr Fetus Warp Zone
 		}
 
 		Configs: {
