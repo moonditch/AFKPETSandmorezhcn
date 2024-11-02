@@ -8,6 +8,11 @@ using AFKPETS.NPCs.RoyalHarpyAirForce;
 using AFKPETS.NPCs.SecurityBot;
 using AFKPETS.NPCs.TownNPCs;
 using AFKPETS.NPCs.TravellingNPCs;
+using System.Collections.Generic;
+using System;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using AFKPETS.Items.Accessories;
+using AFKPETS.Items.Special;
 
 namespace AFKPETSandmorezhcn.GlobalTranslation
 {
@@ -76,7 +81,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "我知道这里很热，但安全是第一位的。所以永远不要试图脱下你的盔甲，否则可能发生不测。至于我？我有他们的保护和我自己的神圣防御魔咒。";
 					break;
 					case "Why you see no succubus? Well after the era of demon king Zerokk ends the era of succubus queen Moira started and succubusses start to use demons for low jobs such as guarding areas and carrying desired things while they start to live in mansions once being used by demon generals.":
-					chat = "你之所以看不到魅魔，是因为在恶魔王泽罗克的时代结束后，魅魔女王莫伊拉的时代开始了。在这个新的时代里，魅魔们开始奴役恶魔来执行一些低贱的工作，比如守卫区域和搬运它们想要的东西。与此同时，魅魔们开始居住在曾经恶魔将军们的豪宅里。";
+					chat = "你之所以看不到魅魔，是因为在恶魔领主泽罗克的时代结束后，魅魔女王莫伊拉的时代开始了。在这个新的时代里，魅魔们开始奴役恶魔来执行一些低贱的工作，比如守卫区域和搬运它们想要的东西。与此同时，魅魔们开始居住在曾经恶魔将军们的豪宅里。";
 					break;
 					case "It's much nicer to make trades with any lifeform other than succubusses. That desire driven lifeforms look at your eyes with such lust you start to sweat and look for any way to escape.":
 					chat = "与除了魅魔以外的任何生命进行交易都要愉快得多。那些被欲望驱使的魅魔用眼睛直勾勾地盯着你，你会汗流浃背并寻找任何能从它们面前逃跑的方法。";
@@ -275,7 +280,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				switch (chat)
 				{
 					case "That hunt was fun partner.":
-					chat = "你是个很有趣的狩猎伙伴。";
+					chat = "你是个很有趣的狩猎伙计。";
 					break;
 					case "Hey. Stop talking and show them who is boss.":
 					chat = "嘿，别说话了，让他们看看谁才是老大。";
@@ -729,11 +734,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-            if (npc.type == ModContent.NPCType<Yandere>())
+			if (npc.type == ModContent.NPCType<Yandere>())
 			{
 				if (Dryad >= 0 && chat == "Could you just tell " + Main.npc[Dryad].GivenName + " to try to stop affecting yo- I mean others by walking nearly complete naked? If you don't I will fix problem with my own solution.")
 					chat = "你能不能告诉树妖，让她尽量不要以近乎全裸的方式在你——我是说其他人面前出现？如果你做不到，我会用我的方法来解决这个问题。";
-                if (Nurse >= 0 && chat == "Sorry but I don't need to visit " + Main.npc[Nurse].GivenName + ". This world is ruled after kill or be killed in if you cannot heal yourself in the end you will just get hunted in the end.")
+				if (Nurse >= 0 && chat == "Sorry but I don't need to visit " + Main.npc[Nurse].GivenName + ". This world is ruled after kill or be killed in if you cannot heal yourself in the end you will just get hunted in the end.")
 					chat = "抱歉，但我并不需要去找护士。这个世界奉行的是丛林法则，如果无法自力更生，你最终只会成为被猎杀的对象。";
 
 				switch (chat)
@@ -781,7 +786,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "当我在洞穴里搜寻负责矿场奴隶制的高阶矮人，准备刺杀他时，我听到了孩子的哭声。我希望他能在那里安然无恙。";
 					break;
 					case "Wait, you visit underworld and come here that easily. I have never heard that bit- I mean that succubus queen to let people that easily before examining them.":
-					chat = "等等，你去过地狱还能来到这儿。我从没听说那个表……我是说，魅魔女王会这么轻易地在不经过检查的情况下就让人通过。";
+					chat = "等等，你去过地狱还能来到这儿。我从没听说那个婊……我是说，魅魔女王会这么轻易地在不经过检查的情况下就让人通过。";
 					break;
 					case "I don't know whoever design that zeppelin but bunnies knows how to use it well. Actually too well...":
 					chat = "我不知道齐柏林飞艇是谁设计的，但兔子们知道如何使用它。确实，用的有点太好了…";
@@ -814,7 +819,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "什么，你问的是一个红眼睛的赏金猎人？永远不要相信那个自大狂。她曾为我们工作过，但当王国付给她更多的钱时，她背叛了我们。她现在只关心巧克力。";
 					break;
 					case "We, the order of chaos have gathered to save these lands from the cruelty of the kingdom. While our leader is a little... insane but maybe this keeps the hunters ready to strike. Honestly she have a specific taste for torturing so never go against her.":
-					chat = "我们，混团教团已经聚集在一起，将这些土地从王国的残酷中拯救出来。虽然我们的领袖有点……疯狂，但也许这让猎人们做好了打击的准备。老实说，她对折磨有着特殊的品味，所以永远不要反对她。";
+					chat = "我们，混沌教团已经聚集在一起，将这些土地从王国的残酷中拯救出来。虽然我们的领袖有点……疯狂，但也许这让猎人们做好了打击的准备。老实说，她对折磨有着特殊的品味，所以永远不要反对她。";
 					break;
 					case "What, Akatsuki clan? That half shinigami half human thingies have strong connections with each other, their clan leader and order of past. Not gonna lie I quite like them but due to they have problems with the order I couldn't visit their town.":
 					chat = "什么？晓之一族？那些半死神半人类的家伙们彼此之间的联系确实很紧密，他们这一族引领了远古的时代。我不会撒谎，我很喜欢他们，但由于他们和教团之间有些问题，我不能拜访他们的城镇。";
@@ -860,7 +865,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				if (Pirate >= 0 && chat == "Please do not believe what " + Main.npc[Pirate].GivenName + " says. He used to tell me he will show me far lands but now you can see the result. I was being tortured and used as a slave.")
 					chat = "请不要相信海盗说的话。他以前告诉我他会带我去远方的陆地，但现在你可以看到结果。我被折磨并被当作奴隶。";
-                if (Nurse >= 0 && chat == "After " + Main.npc[Nurse].GivenName + " see my skin she tell that maybe acid burn can be healed with some Eastern medicine. I hope they will.")
+				if (Nurse >= 0 && chat == "After " + Main.npc[Nurse].GivenName + " see my skin she tell that maybe acid burn can be healed with some Eastern medicine. I hope they will.")
 					chat = "护士看了我的皮肤后说，也许用一些中药可以治愈酸烧伤。我希望如此。";
 
 				switch (chat)
@@ -893,7 +898,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				if (Pirate >= 0 && chat == "Don't tell me you are keeping " + Main.npc[Pirate].GivenName + " inside of your town. " + Main.npc[Pirate].GivenName + "will attack you in the first opportunity as they did to my kingdom. I never expect our royal guards will be beaten by such low tier raiders.")
 					chat = "别告诉我你把海盗留在了你们镇子里。海盗一旦有机会，就会像攻击我的王国一样攻击你们。我从没想到我们的皇家守卫会被这种低级的劫掠者打败。";
-                if (Guide >= 0 && chat == "It's really interesting " + Main.npc[Guide].GivenName + " also have such knowledge on surreal arts.")
+				if (Guide >= 0 && chat == "It's really interesting " + Main.npc[Guide].GivenName + " also have such knowledge on surreal arts.")
 					chat = "向导对超现实主义艺术也有这样的了解，真是有趣。";
 
 				switch (chat)
@@ -955,7 +960,428 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					break;
 				}
 			}
-        }
+		}
+		
+		public override void OnChatButtonClicked(NPC npc, bool firstButton)
+		{
+			if (npc.type == ModContent.NPCType<Assassin>())
+			{
+				ReplaceChatText(Assassin, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<Assistant>())
+			{
+				ReplaceChatText(Assistant, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<HolyKnight>())
+			{
+				ReplaceChatText(HolyKnight, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<Researcher>())
+			{
+				ReplaceChatText(Researcher, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<BossHunterMerchant>())
+			{
+				ReplaceChatText(BossHunterMerchant, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<Yandere>())
+			{
+				ReplaceChatText(Yandere, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<BountyHunter>())
+			{
+				ReplaceChatText(BountyHunter, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<Designer>())
+			{
+				ReplaceChatText(Designer, ref Main.npcChatText);
+			}
+			else if (npc.type == ModContent.NPCType<Elitist>())
+			{
+				ReplaceChatText(Elitist, ref Main.npcChatText);
+			}
+		}
 
-    }
+		public static void ReplaceChatText(Dictionary<string, string> replacementDict, ref string chatText)
+		{
+			string tempText = chatText;
+			foreach (var kvp in replacementDict)
+			{
+				tempText = tempText.Replace(kvp.Key, kvp.Value);
+			}
+			chatText = tempText;
+		}
+
+		public static readonly Dictionary<string, string> Assassin = new ()
+		{
+			{
+				"Here you go. Since I eliminate my targets silently this may be more useful for you to play with them.",
+				"给你。由于我悄无声息地消灭了我的目标，这可能对你更有用。"
+			}
+		};
+		public static readonly Dictionary<string, string> Assistant = new ()
+		{
+			{
+				"Other than checking the stability of the core of this planet known as Earth I have been collecting datas about the short memory of the lifeforms that have been living on this place but since I haven't visited the surface for decades I feel it would be nice to make a little test with you and take your data as reference. If you want to help could you tell start?",
+				"除了检查这个被称为" + Main.worldName + "的星球的核心稳定性之外，我一直在收集生活在这里的生命体的短期记忆数据。但因为我几十年没有访问过地表了，所以我觉得和你做个小测试，把你的数据作为参考会很不错。如果你想帮忙的话，可以点击 Start"
+			},
+			{
+				"I haven't seen such good results so I feel I should reward you with something. I use this relic to calm myself when I can't find coffee but since I make agreement with the miners to trade knowledge with cofee I feel you could keep this",
+				"我从没见过这么好的结果，所以我觉得我应该奖励你点什么。我用翡翠之戒来在找不到咖啡时让自己平静下来，不过我现在与矿工达成了用知识换取咖啡的协议，所以我不再需要它了，送给你吧。"
+			},
+			{
+				"I don't know what is this but it keeps freaking me out a lot. Since I'm busy with making research on the core of this planet and lifeforms that are living in here could you help that scroll?",
+				"我不知道这是什么，但它总是让我很害怕。因为我正忙着研究这个星球的核心和这里的生命体，所以你能帮我保管这个卷轴吗？"
+			},
+			{
+				"I would like to show you my thanks so why not keep one of my invention. It may look small but comes handy in certain situations",
+				"我想向你表示感谢，那么为什么不保留我的一个发明呢？它可能看起来不起眼，但在某些情况下会很有用。"
+			},
+			{
+				"Long time ago I met with a skeleton that is quite an engineer and we agree to share our knowledge with each other. Since I'm more of a natural science guy maybe this will help you on your journey",
+				"很久以前，我遇到了一个富有工程才华的骷髅，我们同意互相分享知识。因为我更擅长自然科学，也许这会对你的旅程有所帮助。"
+			},
+			{
+				"Hmm. Your score is similar to demons. I guess that is good to take as reference. Thank you for helping.",
+				"嗯...你的分数和恶魔相近。我想把它作为参考数据很有价值。谢谢你的帮助。"
+			},
+			{
+				"Hmm. Thanks for your help but I couldn't use these values since they are slightly higher than the score that imps make.",
+				"嗯...谢谢你的帮助，但我不能使用这些数据，因为它们略高于小恶魔的分数。"
+			}
+		};
+		public static readonly Dictionary<string, string> HolyKnight = new ()
+		{
+			{
+				"Thank you. As a gift for your kindness you can keep this artifact.",
+				"谢谢你。作为对你善举的回报，你可以保留这个吊坠。"
+			},
+			{
+				"Thank you. Since I prefer hammer more than that you can keep it.",
+				"谢谢你。因为我更喜欢锤子，所以你可以留着这把剑。"
+			},
+			{
+				"Oh my... Where did you find such horrific artifact, actually I don't want to know but it needs to be destroyed. Well don't look like that if you really need a grail for drinking you can keep this.",
+				"哦，我的天...你在哪里找到这么可怕的神器的？其实我不想知道，但它必须被销毁。哎，别那副表情，如果你真的需要一个圣杯来喝酒的话，你可以留着它。"
+			},
+			{
+				"Wait, I have been looking for this. Legends tell the cultists manage to steal few of these from the commanders of demon army and it seems legends are correct. Its said that these could open the chests of underworld which contain weapons of lower class demons. It would be nice for kingdom to get their hands on them so thanks. Please accept this as a reward to your service.",
+				"等等，我一直在找这个。传说邪教徒们从恶魔军队首领那里偷走了几个这样的东西，现在看来传说是真的。据说这些东西可以打开地狱的宝箱，里面装着低级恶魔的武器。如果王国能拿到它们就好了，所以谢谢你。请接受这个作为你辛勤奉献的奖励。"
+			},
+			{
+				"Warrior, after all those year I feel both my weapon and shield start to getting old so if you could find me never ones I will gladly exchange them with something valuable in return. For exchanging could you hold [i:329], [i:1513] or [i:938] and tell exchange?",
+				"战士，经过这么多年，我觉得我的武器和盾牌都开始变旧了。如果你能为我找到新的，我会很乐意用有价值的东西来交换。你可以带着[i:329]、[i:1513] 或 [i:938]，并点击 Exchange"
+			}
+		};
+		public static readonly Dictionary<string, string> Researcher = new ()
+		{
+			{
+				"With my current tools I feel I can fix it up to this point. I hope it will be useful for you.",
+				"凭借我目前手中的工具，我觉得我可以修复到这个程度。希望它对你有用。"
+			},
+			{
+				"For restorating the antiques I find I carry few tools from the lab and if you want I can also try them on your weapon as a price of seeing your smile friend. If your weapon have bad prefix with no stat increase could you hold them and ask for me to fix your weapon?",
+				"在修复古董时，我发现我从实验室带了一些工具出来。如果你愿意，我也可以尝试用它们来修复你的武器。如果你的武器前缀不好，没有任何属性加成，你能不能拿着它们来找我，让我帮你修复武器呢？"
+			}
+		};
+		public static readonly Dictionary<string, string> BossHunterMerchant = new ()
+		{
+			{
+				"Oh boy. While you stop cultists buffing the squid daddy via dark arts still reality of him bounded with reality of this universe and this only cause it to reincarnate. You probably need to explain this to the wizard of hope aka the lad that kick his butt into moon. I hope she will listen first before think you are another cultist.",
+				"哦，小子。虽然你阻止了邪教徒通过黑魔法增强那只月亮“乌贼”领主的力量，但它仍然与这个宇宙的现实相连，这只会让它转世重生。你可能需要向希望之巫（解释这件事，就是那个把他踢上月球的家伙。我希望她会先听你解释，而不是把你当成另一个邪教徒。"
+			},
+			{
+				"he's just one of many worthless pawn but still it seems the myth about the cultists manage to break the seal spell is correct. It seems now he believe he's strong enough to finish what he have started before. While the big boy is divided into pieces by the 3 ancient warlord still it doesn't mean the remnant is weak. Probably for observing your fighting style the dude will first cause some mess. Good luck with that.",
+				"这只是众多无价值棋子中的一个，但看来关于邪教徒打破封印咒语的传说似乎是正确的。现在，看来月亮领主又觉得自己行了，要开始作妖了。虽然那个大家伙被三位亘古领主分尸了，但这并不意味着残余的部分就很弱。为了观察你的弱点，那家伙可能会先制造一些混乱。祝你好运吧。"
+			},
+			{
+				"It seems after breaking both of the entities that hold souls cultists start their ritual to collect these lost souls and use their spiritual energy to buff the sealed one. Before everything gets much worse I suggest you to show them their place.",
+				"在你击败两个拥有强大灵魂之力的敌人后，邪教徒们开始举行仪式来收集这些迷失的灵魂，并利用它们的灵魂能量来增强那个被封印的家伙。在事情变得更糟之前，我建议你给他们点颜色瞧瞧。"
+			},
+			{
+				"I'm not sure if the curse can be broken physically but still I hope their souls are at rest. Also after you clean the guardian of nature lihzahrds start to get weird ideas on gathering army for world domination so when you find time could you slap the mechanism they have been praying for generations with back of your hand? Buddy I understand using the knowledge of past you genocided but why you pray a literally a battery powered stone doll.",
+				"我不确定诅咒能否从物理上被打破，但我仍然希望他们的灵魂能得到安息。另外，在你清理了自然守护者-世纪之花后，丛林蜥蜴部落开始有了集结军队征服世界的奇怪想法。所以，当你有时间的时候，能不能用顺手拍碎他们世代祈祷的神像呢？老兄，我能理解蜥蜴们试图探寻过去酿成惨剧的强力力量，但它们为什么对着一个电池驱动的石制玩具祈祷呢？"
+			},
+			{
+				"It seems releasing one unfortunate soul cause others to awake and get her place. You ask what I talk about? Well, long time ago first owners of the jungle temple have some weird religion to sacrifice their own people in front of a statue. After demon lordi Zerokk observe this he put a curse on this and cause the unfortunate souls burn in agony and went rampage on any human they see.",
+				"看来释放一个不幸的灵魂会唤醒其它恶灵并取代她的位置。你问我在说什么？很久以前，丛林神庙的建造者们有一种奇怪的宗教，他们会在神像前献祭自己的人。恶魔领主泽洛克观察到这一点后施加了诅咒，让那些不幸的灵魂在地狱中痛苦地燃烧，并对他们看到的任何人发起攻击。"
+			},
+			{
+				"Centuries ago dryads believe this world is being sinned by lower lifeform and it should be cleansed by extinction of many and putting hierarchical order to rest so they start a world war with humans against other lifeforms. Due to they need more power they make agreement with cultists to experiment a dryad among them and infuse it with star-spawned horror so they have chosen 1 lone child among them and send it to cultists. After cultists both tortures and experiments, her body couldn't contain the pain and have reincarnated something more dangerous than death itself and devour anyone who did this to her. Then it return back to where she live once and become guardian of nature but her soul is still in agony. I believe only you can put her in rest.",
+				"几个世纪前，树妖们认为这个世界被低级生命形态所玷污，应该通过消灭许多生命并建立等级秩序来净化它。因此，他们和泰拉人对其它的生命发动了世界大战。由于他们需要更多的力量，他们与邪教徒达成协议，在他们之中选择一个树妖进行实验，并将其与星生恐怖融合。他们选择了其中一个孤独的孩子，并将其送往邪教徒那里。经过邪教徒的折磨和实验后，她的身体无法承受痛苦，并转世重生为比死亡本身更危险的东西，吞噬了所有对她这样做的人。然后，她回到了她曾经生活过的地方，成为了自然的守护者，但她的灵魂仍然处于痛苦之中。我相信只有你能让她安息。"
+			},
+			{
+				"I thought it will unleash the elements but I didn't expect the souls also affect from that. It may cause the awakening of the ancient weapons once being designed by lady of light aka another self aware robot for the protection against martians planetary drain. Sadly she didn't expect these machines can be imbued with souls and after cultists do exactly that to make them went rogue and attack humans to weaken them she lock them away. It seems this souls have awaken their inner desier to devour more so prepare before they come for you.",
+				"我以为它会释放元素之力，但我没想到灵魂也会受到影响。这可能会唤醒曾经由光之女神（也是另一个自我意识的机器人）用于保护地球免受火星人掠夺而设计的古代武器。可悲的是，她没有预料到这些机器可以被赋予灵魂，而邪教徒们确实这么做了，使它们变得狂暴并攻击人类以削弱他们。她将它们锁了起来。看来这些灵魂已经唤醒了它们吞噬更多的欲望，所以在它们来找你之前做好准备吧。"
+			},
+			{
+				"You found some notes about the great secrets of the underworld? Well, that place is the realm of demons and succubuss but there is something way worse then bot of them so do whatever you do but never be part of any ritual. From looking at your face you will do the opposide of what I tell. Well then have fun with the remnants of best and most cruel army of their own time which is cursed by immortality to suffer endlessly by lady of knowledge for crossing the line.",
+				"你发现了关于地下世界伟大秘密的一些笔记？好吧，那个地方是恶魔和魅魔的领地，但还有比它们更可怕的东西。所以，无论你做什么，都不要参与任何仪式。从你的表情来看，你会做与我说的相反的事情。那么，祝你与那个时代最强大也是最残忍的军队的残余部分（被知识女神诅咒而永生受苦）玩得愉快吧。"
+			},
+			{
+				"I never understand why you kill their kind king but you somewhat manage to piss the 3 elite guardian being sent to protect the fourth kingdom by capital. They want a duel to claim their honor back so be warned. Unlike other guys you fight before this people specifically train to fill each others weakness and combine their strenght.",
+				"我不理解你为什么要杀死他们的国王，但你确实在某种程度上激怒了史莱姆王国的三位精英守护者。他们想要通过决斗来夺回他们的荣誉，所以你要小心了。与你之前战斗过的史莱姆不同，它们接受过专门训练，以填补彼此的弱点并发挥各自的优势。"
+			},
+			{
+				"You ask me what is on the end side of this land? Well once cultists are on their golden era they built dungeons to kidnap humans to make an army of undead people to control all but their lust for power cause them to make facilities filled with bones and empty souls. Then after their fall against many enemy they get against they need to protect these places since they also contain many information about them so they still do what they do best and kidnap more people to use their life energy to summoning higher level beasts so if you feel bad for that old man maybe you can beat down the beast that devours his life energy.",
+				"你问我这片土地的尽头是什么？好吧，在邪教徒的黄金时代，他们建造了地牢来绑架人类，以制造一支不死军队来控制一切。但他们对权力的渴望导致他们建造了充满骨头和空壳灵魂的设施。然后，在他们对抗许多敌人的过程中失败后，他们需要保护这些地方，因为它们也包含了许多关于他们的信息。因此，他们仍然在做他们最擅长的事情：绑架更多的人，利用他们的生命能量来召唤更高级别的邪灵。如果你为那位老人感到难过，也许你可以打败吞噬他生命能量的骷髅王。"
+			},
+			{
+				"Do you know when the worker bee larvae's are being fed with royal jelly it fully develops itself and become queen bee and know think about if these royal jelies being formed from digesting the pollen of guardian of nature Plantera? I guess you get the idea and yeah in centuries the bees evolve into something more monstrous and the queen bees went top on the food chain. I think you may use her might for your own quest.",
+				"你知道当工蜂幼虫被喂食蜂王浆时，它会完全发育并成为蜂后吗？想象一下，如果这些蜂王浆是由自然守护者-世纪之花的花粉酿成的呢？我想你已经明白了。几个世纪以来，蜜蜂进化成了更可怕的生物，而蜂后则登上了食物链的顶端。我想你可以利用她的力量来完成你的任务。"
+			},
+			{
+				"It seems these lifeforms are only the visible face of the worlds and someone cause the spread behind. The weirder part is actually that guy doesn't belong to these lands and actually being carried by an entity with dream of making perfect mirror from the shattered pieces of all others. While I believe this guy does do this because of his hatred against human kind still you may gather his attention by finding something that he hates even more.",
+				"看来这些生命形态只是这个世界的可见面孔，而有人在背后推动了它们的传播。更奇怪的是，那个家伙并不属于这片土地，而是被一个梦想着用其他人的碎片创造完美镜像的实体所携带。虽然我相信这个家伙这么做是因为他对泰拉人的仇恨，但你仍然可以通过找到他更恨的东西来吸引他的注意。"
+			},
+			{
+				"You have defeated the embodiment of cruelty but still you are far too away from changing the balance of these lands. The mistakes of both humans and dryads on understanding the difference between different lifeforms cause the nature to tremble with these sins and make a birth to evil. You cannot stop what is being done but you can slow the process. I suggest you to find and defeat the lifeform that spreads the madness.",
+				"你已击败了残酷的象征，但你离改变这片土地的平衡还差得很远。泰拉人和树妖在理解不同生命形态上的差异时所犯的错误，使得大自然因这些罪恶而颤抖，并催生了邪恶。你无法阻止已经发生的事情，但你可以减缓这个过程。我建议你找到并击败那个散播疯狂的生命体。"
+			},
+			{
+				"Afer hearing your heroic behaviour some people from the town that is close to these lands come here to ask your help. It seems that self aware bot continue to collect human and use them for its own enjoyment so let it taste what it have done to others.",
+				"在听说你的英勇行为后，来自这片土地附近城镇的一些人来到这里寻求你的帮助。似乎有一个有自我意识的机器人一直在抓捕人类，并用他们取乐，所以让它尝尝它对别人所做之事的滋味吧。"
+			},
+			{
+				"Congrats on killing twelve year old child with burning him to death. Well you have a bigger problem then that. It seems the remnants of the dark Eldritch have reincarnated in another form and spread horror. Only if dryads do their job as lord Blossom order them these mess will be never happened. Could you fix their mistakes?",
+				"恭喜你杀死了一个十二岁的孩子。不过，你现在面对更棘手的麻烦。看来月亮领主的残余部分已经以另一种形式转世重生，并散播恐怖。如果树妖真有按照领主布洛森的命令行事，这些混乱根本不会发生。你能纠正他们的错误吗？"
+			},
+			{
+				"Hey, do you know what? You once ask me for someone to help you and I find a perfect candidate. Do you know the kid that call himself slayer of evil? After his town is being raided by order of chaos he give himself a promise to get stronger and take his revenge. So he went into journey similar to you to collect artifacts and hunt bandits down so if you see him you can ask to become team. Also be warned due to he's much weaker than mature people he uses steroids and neurochemicals which he produces. Don't look like that his dream is becoming chemist. Also a second note never support any people which he believes is evil. He's kinda blinded with his own belief about judgement and believes only death can clean their soul.",
+				"嘿，你知道吗？你曾经让我帮你找人，我找到了一个完美的人选。你知道那个自称恶魔杀手的孩子吗？在他的城镇被混沌教团袭击后，他发誓要变得更强大并复仇。所以他踏上了一段与你相似的旅程，收集装备并猎杀强盗。如果你见到他，你可以邀请他加入你的队伍。不过要小心，因为他比成年人弱得多，所以他使用自己制造的类固醇和神经化学物质。别看他那样，他的梦想是成为化学家。另外，第二个重点是，永远不要支持他认为邪恶的人。他在公平正义问题上有些偏激，认为只有死亡才能净化他们的灵魂。"
+			},
+			{
+				"You don't have any trophy that I'm being interested fella, sorry",
+				"你没有任何我感兴趣的纪念章，伙计，抱歉。"
+			}
+		};
+		public static readonly Dictionary<string, string> Yandere = new ()
+		{
+			{
+				"*Blushes* Did you read all of it...Sempai? That words are only fragment of my love. If you accept I want to share my heart with you but I want it to be how I was dreamed. In my dreams I wear bride costume as white as swans so could you find me?",
+				"*脸红*你…前辈，你都看完了吗？那些话只是我爱意的一小部分。如果你愿意接受，我想与你分享我的心，但我希望它能像我梦中那样实现。在我的梦里，我穿着像天鹅一样洁白的婚纱，你能找到我吗？"
+			},
+			{
+				"*Blushes*Senpai that's as white as your heart. Looking at it only makes me love you even more. Now could you bring me [i:" + ModContent.ItemType<WeddingRing>() + "] and finally let us become a perfect couple?",
+				"*脸红*前辈，你的心就像那婚纱一样洁白无瑕。看着它，让我更加爱你。现在，你能给我带来 [i:" + ModContent.ItemType<WeddingRing>() + "]，让我们终于成为一对完美的情侣吗？"
+			},
+			{
+				"Senpai if I remember right there is a zombie that wearing bride costume but maybe It was a dream but still could you check?",
+				"前辈，如果我记得没错的话，那有一个穿着婚纱的僵尸，但也许那只是我的梦。不过，你能帮我确认一下吗？"
+			},
+			{
+				"That looks as elegant as you. Thank you and I accept you as my couple. Please after you finish your job let's settle into a place that's consist only me and you.",
+				"你看起来和我一样高雅. 谢谢你，我接受你成为我的伴侣. 等你完成工作后，我们找一个只属于我们两个人的地方安定下来吧."
+			},
+			{
+				"Don't feel sad. I will wait you like how I wait in before.",
+				"不要难过。我会一直等着你。"
+			}
+		};
+		public static readonly Dictionary<string, string> BountyHunter = new ()
+		{
+			{
+				"Ewww. Don't directly give that to me and just throw it to the bag over there.",
+				"呃，别直接递给我，扔到那边的袋子里就行。"
+			},
+			{
+				"CHOCOLATE,CHOCOLATE,CHOCOLATE,CHOCOLATE...",
+				"巧克力，巧克力，巧克力，巧克力..."
+			},
+			{
+				"Finally. Now if you don't mind me I need to bring these back to her.",
+				"终于拿到了。如果你不介意的话，我现在得把这些给她送回去。"
+			},
+			{
+				"They say an elemental only dies if you break their heart but I don't want her to die that easily. I will torture it until its mind break...Wait why I'm telling these to you? Still thank you partner.",
+				"他们说元素精灵只有心碎时才会死去，但我不想让她这么轻易地死去。我要折磨她，直到她的精神崩溃...等等，我为什么要跟你说这些？不过还是谢谢你，伙计。"
+			},
+			{
+				"Oh. Really nice. Thanks partner.",
+				"哦，真不错。谢谢你，伙计。"
+			},
+			{
+				"Hmm. That's why. Thanks partner.",
+				"嗯...这就是为什么。谢谢你，伙计。"
+			},
+			{
+				"I feel this will do the job. I hope finally I could get that promotion. Thanks partner.",
+				"我觉得这应该能行。希望这次我能得到晋升。谢谢你，伙计。"
+			},
+			{
+				"You ask me to do I like jazz? Well, let's assume I didn't hear this since last time someone make me this joke I cut his head.",
+				"你问我喜欢爵士乐吗？嗯，就当我没听见吧，上次有人跟我开这种玩笑时，我把他的头给砍了。"
+			},
+			{
+				"Thanks partner. Now time to do test and become a dermatologist.",
+				"谢谢你，伙计。现在该做测试，成为皮肤科医生了。"
+			},
+			{
+				"Thanks partner. Time for the stonks.",
+				"谢谢你，伙计。是时候进行冲击试验了。"
+			},
+			{
+				"That's what I needed. Thanks partner.",
+				"这正是我需要的。谢谢你，伙计。"
+			},
+			{
+				"Looks spooky. Thanks partner.",
+				"看起来很诡异。谢谢你，伙计。"
+			},
+			{
+				"Finally. Now I could mix this with egg white and protein dust",
+				"终于。现在我可以把它和蛋清、蛋白粉混合在一起了。"
+			},
+			{
+				"Good. Did you also bring its memory unit? Wait does it get damaged? Oh. Maybe I could fi- I mean destroy fully.",
+				"很好。你也把它的记忆单元带来了吗？等等，它损坏了吗？哦，也许我可以...我是说，彻底摧毁它。"
+			},
+			{
+				"Thanks partner. Now I believe I can fly.",
+				"谢谢你，伙计。现在我相信我能飞了。"
+			},
+			{
+				"Thanks partner. That will really help.",
+				"谢谢你，伙计。那真的很有帮助。"
+			},
+			{
+				"Thanks partner. I hope it will work on princess.",
+				"谢谢你，伙计。我希望它对公主有效。"
+			},
+			{
+				"Thanks partner. The children will be really happy",
+				"谢谢你，伙计。孩子们会很高兴的。"
+			},
+			{
+				"Partner I don't require any more help. Thanks for asking.",
+				"伙计，我不需要更多的帮助了。谢谢你的关心。"
+			},
+			{
+				"You looking for job? Well if you accept I have one for you due to the request of royal designer. Since running behind of a freaking bug is pathetic for me why not you do that job while I was sle-I mean protecting your town? One of cyan husk will be enough for me.",
+				"你在找工作吗？如果你愿意的话，我这里有一份皇家设计师委托的工作。我觉得追捕那些烦人的虫子对我来说太可笑了，不如你去做这份工作，而我则去保护你的城镇，一只青色的外壳就足够了。"
+			},
+			{
+				"This time I need something for myself. I'm sorta out of chocolate and I'm start to lose my mind. So please at least find me 10 of chocolate to control my instincts.",
+				"我这次需要为自己找点东西。我巧克力吃完了，快要失去理智了。所以，请至少帮我找到 10 块巧克力来控制我的猎杀本能。"
+			},
+			{
+				"I honestly don't know why I'm even signed for this while I can be an outlaw but royal chef wants me to bring some carrot to her AND THAT FREAK WANTS ROYAL ONES...I'm sorry since I can't hold myself. I can easily beat demons but they kept send me to hunt some bunnies. Could you bring 2 of them for me? Royal men of the bunny king carry these as show their status so in that freakin zeppelin there are at least one of them.",
+				"我真的不知道为什么我会接这种任务，我明明可以当个不法之徒，但皇家厨师却让我给她带些胡萝卜，而且她还要皇家专用的……对不起，我控制不住了。我能轻易打败恶魔，但他们却让我去打猎兔子。你能帮我带两只回来吗？兔子国王的手下都携带这种象征身份地位的胡萝卜，所以在那艘该死的飞艇上，至少有一根。"
+			},
+			{
+				"Well I normally prefer hunting monsters by myself but I have a special request for you today. While I was visiting one of desert town a sand lady thingy attack me. She is not a threat but then she formed a mirage of my dead brother Azzy. I...Mis him so much and that freak break my heart by showing who I truly care. I attack but that thing freak out and fly away. So I want you to hunt her down and bring her heart which is called as forbidden fragment to me.",
+				"我通常喜欢独自猎杀怪物，但今天我有个特别的任务要交给你。我去沙漠城镇时，被一个元素精灵袭击了。她并不构成威胁，但她却用幻象模仿了我死去的哥哥Azzy。我……非常想念他，而那个家伙却用我最在乎的人来伤害我。我攻击了她，但她却吓得飞走了。所以，我想请你帮我猎杀她，并把她的心，也就是被称为禁忌碎片的东西带给我。"
+			},
+			{
+				"Do you ever see an metal plated flying egg? I feel that thingy call itself satla or something. Royal blacksmiths are interested with that things plating for alloys so why not bringing 5 of scrap metal for me.Why I do it myself? Well as you can see I cannot fly and that thing don't get close to my attack distance neither so I feel you can do it better than me.",
+				"你见过金属外壳的飞行蛋吗？我觉得那家伙自称 SALTA 之类的。皇家铁匠对这种外壳的合金很感兴趣，所以你能帮我带 5 块废铁回来吗？为什么我自己不去？嗯，你看，我不会飞，而且那家伙也不会靠近我的攻击范围，所以我觉得你能比我做得更好。"
+			},
+			{
+				"Do you mean tribals call giant tortoises as inevitable death due to their exteremely dangerous spin attack. I'm more curious about how their shell does not break while doing it so could you bring 1 turtle shell for me partner?",
+				"你是说巨型海龟被称为命定之死，因为它们的旋转攻击极其危险？我更好奇的是，它们的壳在旋转时为什么不会破裂。所以，伙伴，你能帮我带 1 个海龟壳回来吗？"
+			},
+			{
+				"You got any spare time? I have a job for you. Some vikings request me to kill a ice golem that is freezing their animals to death but since I don't enjoy walking in middle of a freaking blizzard I believe you can do it. So if you bring me 1 frost core that is enough for me to give that thing to vikings and finally get promotion in kingdom.",
+				"你有空吗？我有份工作给你。一些维京人请求我杀死一只冰巨人，它正在把他们的动物冻死。但我不喜欢在暴风雪中行走，所以我觉得你能胜任这项工作。所以，如果你能给我带 1 个寒霜核回来，我就可以把这个东西交给维京人，并终于在王国里得到晋升。"
+			},
+			{
+				"Do you know that the bees that are fed with plantera's polen grow enormously and become the future political leader of the hive? Well now you know and since I have allergy to bees I want you to hunt it down to keep bee population controlled. If you bring 5 bee wax that will be enough for me convince.",
+				"你知道吗，被世纪之花的花粉喂养的蜜蜂会变得巨大，并成为蜂巢未来的领袖？现在你知道了，由于我对蜜蜂过敏，我想请你猎杀它们，以控制蜜蜂的数量。如果你能带来 5 个蜂蜡，那就足够了。"
+			},
+			{
+				"They say applying some mucus to your skin it can make you look 10 year younger so I'm curious what will happen if I apply it to a baby and can I finally learn how people look in negative ages? Well if you could find 1 purple mucus it will be enough for me.",
+				"他们说，把某些粘液涂在皮肤上可以让你看起来年轻10岁，所以我想知道，如果我把它涂在婴儿身上，我会不会看到负年龄的人？嗯，如果你能找到1 个紫黏液，那就足够了。"
+			},
+			{
+				"Do you know selling gel in kingdom is quite profitable? It may sell low in these lands but due to there is no slimy lifeform near to kingdom due to they make them extinct they are being sold in much better prices so could you bring me 50 gel? Thanks partner.",
+				"你知道吗，在王国里卖凝胶是相当赚钱的？虽然在这片土地上它的售价不高，但由于王国附近没有粘稠的生命体，它们已经被灭绝了，所以在王国里它们被卖出了更高的价格。所以，你能帮我带 50 个凝胶回来吗？谢谢，伙伴。"
+			},
+			{
+				"Well partner this time due to royal guards freak out from reanimated skeletons I was sent to gather some ectoplasm from the first dungeon I found . Since last time I visit one a glowy eyed skeleton with weird sense of humor have stalked me and...Well lets say it didn't end well. So if you collect 5 of them and give me I would be grateful.",
+				"嗯，伙伴，这次由于皇家卫兵对复活的骷髅感到害怕，我被派去从我发现的第一个地牢里收集一些灵质。上次我去的时候，一个发光的眼睛、幽默感奇怪的骷髅跟踪了我……嗯，我们不要说结局了。所以，如果你能收集 5 个灵气并给我，我会非常感激的。"
+			},
+			{
+				"From what I have heard the cultists really eject souls inside of mechanical guardians to make them went rogue and does not listen orders of the lady of light. I'm more interested with a specific type called soul of fright so could you bring 5 of them to me. Thanks partner.",
+				"我听说，邪教徒真的会把灵魂注入机械守卫体内，使它们变得叛逆，不再听从光之女神的命令。我对一种叫做恐惧之魂的特定类型很感兴趣，所以你能帮我带5个回来吗？谢谢，伙伴。"
+			},
+			{
+				"I kinda feel sad for that mech lady. You make robots to guard this planet from the weird aliens called martians but then few nerd puts soul to your creations with ritual and force them to slaughter. Not gonna lie I want to inject a specific type of soul to get bigger biceps for stronger slashes. So partner could you bring 5 soul of might?",
+				"我有点为光之女神感到难过。你们制造机器人来保护这个星球免受那些被称为火星人的奇怪外星人的威胁，但一些书呆子却用仪式把灵魂注入到你们的创造物中，强迫它们屠杀。不得不说，我想注入一种特定的灵魂来获得更大的二头肌，以便更有力地挥舞。所以，伙伴，你能帮我带 5 个力量之魂回来吗？"
+			},
+			{
+				"Hehe. I have heard two weird robotic eye secretly watching people while doing bath and take photos. Well since they also take photo of the princess the king order me to slay them but due to they know what happen when they mess me they always fly and escape. So could you break them apart. If you bring 5 soul of sight it will convince me.",
+				"呵呵，我听说有两个奇怪的机械眼睛在偷偷观察人们洗澡并偷拍。嗯，由于它们也拍了公主的照片，国王命令我杀死它们，但由于它们知道惹怒我的下场，所以总是飞走并逃跑。所以，你能把它们摧毁吗？如果你能带来 5 个视域之魂，那就足够了。"
+			},
+			{
+				"Do you know there are worm looking dragons fly in skies that contain souls of flight? I always wanted to fly but due to that tinkere's rage against people from kingdom I never find a chance. So could you bring me 5 soul of flight? Maybe it could help.",
+				"你知道吗，天空中有一种像虫子一样的飞龙，它们的体内含有飞行之魂？我一直想飞，但由于那些鸟妖对王国怀恨在心，我从未有机会飞行过。所以，你能帮我带 5 个飞翔之魂回来吗？也许它们能帮到我。"
+			},
+			{
+				"Greetings partner. Today I was sent to hunt some squid to bring some ink until the princess's next math lesson but due to I don't like things with tentacles could you bring 1 black ink for me? Thank you.",
+				"你好，伙伴。今天我被派去猎杀一些乌贼，以获取墨水，供公主下次上数学课使用。但由于我不喜欢有触手的东西，所以你能帮我带 1 瓶黑墨水回来吗？谢谢。"
+			},
+			{
+				"I HATE THIS, I HAT-You ask what happened? Well, today is the fish day so I was sent to find fish to feed the babies that are too lazy to catch by themselves. But sadly last time I try to catch I accidentally catch a baby fish and then a lady with tentacles come and beat me up. Don't look me like that if I want I could easily defeat her but she's *blushes* quite a lady and I enjoy woman that can beat my ass. So could you fish 10 bass for me?",
+				"我恨这个，我恨……你问我发生了什么？嗯，今天是吃鱼的日子，所以我被派去找鱼来喂那些懒得自己动手的孩子们。但遗憾的是，上次我试图捕鱼时，不小心捕到了一条小鱼，然后一个带着触手的女士就过来打了我一顿。别那样看着我，如果我想的话，我可以轻易打败她，但她……嗯，她是个挺不错的女士，而且我喜欢能打败我的女人。所以，你能帮我钓 10 条鲈鱼回来吗？"
+			},
+			{
+				"From what I have learnt from the royal wizard there is a special potion that can make people fall in love with you so I need that for some scientific purposes so could you bring me 4 of them? Thanks partner.",
+				"我从皇家巫师那里了解到，有一种特殊的药水可以让人爱上你，所以我需要它来做一些科学研究。所以，你能帮我带 4 瓶爱情药水回来吗？谢谢，伙伴。"
+			},
+			{
+				"I have heard shrimps of this coasts are quite tasty so could you bring me 4 shrimp to make a nice meal for a lovely lady. Our first meeting is not too kind so I want to give her a nice gift for making her forgive me.",
+				"我听说这片海岸的虾很好吃，所以你能帮我带 4 只虾回来吗？我想为一位可爱的女士做一顿美味的饭菜。我们第一次见面时不太愉快，所以我想送她一份礼物，让她原谅我。"
+			},
+			{
+				"Hello partner. I normally don't ask something like this but some children in kingdom have some eye problems. Since their parents could not afford I feel it would be nice if I could bring them some glasses but due to I cannot fly and the eyes now what I can do them from my aura could you defeat them and bring 2 lens to me? Thank you.",
+				"你好，伙伴。我通常不会提出这样的要求，但王国里有些孩子眼睛有问题。由于他们的父母负担不起治疗费用，我觉得如果我能给他们带些眼镜回来会更好。但由于我不会飞，而且我现在也不能用我的光环来治疗眼睛了，所以你能打败那些怪物，并给我带 2 个晶状体回来吗？谢谢。"
+			}
+		};
+		public static readonly Dictionary<string, string> Designer = new ()
+		{
+			{
+				"Do you ask why I look sad. Seeing that pirate make me remember some memories. Once I have a beautiful snowflake necklace that have been passed from generations and my mother give it as a gift but after they kidnap me he beat me down and take it. If he still have it could you bring it back to me?",
+				"你问我为什么这么伤心吗？看到那个海盗让我想起了一些往事。我曾经有一个代代相传的美丽五彩羽毛项链，是我母亲送给我的礼物，但他们在绑架我之后打了我一顿并抢走了它。如果他还有的话，你能帮我找回来吗？"
+			},
+			{
+				"*Starts to cry*Thank you so much. That necklace have so much meaning for me. Please tell me is there anything I can do for you?",
+				"*开始哭泣* 非常感谢你。那个项链对我来说意义非凡。请问我能为你做些什么吗？"
+			},
+			{
+				"You couldn't found it? Don't feel sad you have done so much thing for me.",
+				"你没找到它吗？别难过，你已经为我做了很多。"
+			},
+			{
+				"*Looks blushed* I... I will.... *Starts to cry* I will always carry you in my heart. Thank you so much for sharing your heart with me. Even though I need to return back to my home I will come to visit you and when I put everything into order I will come to share memories and live with you in rest of my life",
+				"脸红* 我……我会…… *开始哭泣* 我会永远把你放在心里。非常感谢你与我分享你的内心。虽然我需要回到我的家，但我会来看望你，当我处理好一切后，我会来与你共度余生。"
+			},
+			{
+				"*You feel before telling this you should bring [i:" + ModContent.ItemType<WeddingRing>() + "] to tell her your love so you look at her face without telling anything.*",
+				"你感到在告诉她之前应该带上 [i:" + ModContent.ItemType<WeddingRing>() + "] 来表达你的爱意，所以你看着她的脸，但没有说什么。）"
+			},
+			{
+				"Thank you so much. I have been looking for this. I hope this will be cure to both wounds in my soul and body. Please accept this as a little gift for your kindness",
+				"非常感谢你。我一直在找这个。我希望它能治愈我心灵和身体的创伤。请接受这份小礼物，以表达我对你的感激之情。"
+			},
+			{
+				"I honestly don't want to ask you this but some of my wounds start to get worse and nurse's medicine won't make them get better but she mentioned maybe [i:" + ModContent.ItemType<EasternMedicine>() + "] start them to heal so if you find me one of it I will feel really happy.",
+				"我真的不想麻烦你，但我的一些伤口开始恶化，护士的药也不管用，但她提到也许 [i:" + ModContent.ItemType<EasternMedicine>() + "] 能让它们愈合，所以如果你能帮我找到一份，我会非常开心的。"
+			},
+			{
+				"Thank you so much for your kindness but now I don't need any more medicine",
+				"非常感谢你的好意，但现在我不需要更多的药了。"
+			}
+		};
+		public static readonly Dictionary<string, string> Elitist = new ()
+		{
+			{
+				"Thank you hero. You don't know the shame it cause my kingdom to not even be able to keep antiques that have such importance. So please keep this. Its designed by a well known artist which have her master in psychoanalysis. She also mention he couldn't find any unfortunate innocent soul for last touch but I'm uncertain what she meant by that.",
+				"谢谢你，英雄。你无法想象，连如此重要的古董都无法保护，给我的王国带来了多大的耻辱。所以，请收下这个。它是由一位著名的艺术家设计的，她在精神分析领域有着深厚的造诣。她还提到，她找不到任何一个不幸的无辜灵魂来进行最后的润色，但我不太明白她这话是什么意思。"
+			},
+			{
+				"Centuries ago in both royal pavilion and other pavilions owned by wealthy families that use golden furniture to show their status and these are designed by experts but after the kingdom wage war against slimes and divine children kingdoms military weakened and the kingdom become open to raid. So the pirates have seen this opportunity and first attack to dock and then raided the kingdom. They still own these and if you bring them to me I can exchange them with rare functional statues.",
+				"几个世纪前，在皇家亭台以及富有家庭所拥有的其他亭台中，都使用着由专家设计的金色家具来彰显他们的地位。但是，自从王国与史莱姆和神之子王国开战以来，军事力量逐渐削弱，王国变得容易遭受袭击。海盗们看到了这个机会，先是袭击了码头，然后洗劫了整个王国。他们至今仍拥有这些金色家具，如果你能把它们带给我，我可以用罕见的彩蛋来交换。"
+			}
+		};
+	}
 }
