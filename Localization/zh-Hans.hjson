@@ -47,7 +47,7 @@ Mods: {
 					EntryName: SATLA-001
 				}
 
-				DisplayName: S A T L A001
+				DisplayName: SATLA-001
 			}
 
 			SlayerofEvil: {
@@ -64,7 +64,7 @@ Mods: {
 				DisplayName: 英勇史莱姆
 
 				BossChecklistIntegration: {
-					SpawnInfo: 在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/HolographicSlimeReplica].
+					SpawnInfo: 在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/SlimeinaGlassCube]
 					DespawnMessage: 英勇史莱姆已经击退了泰拉人
 					EntryName: 史莱姆军队 1 阶段迷你Boss
 				}
@@ -101,7 +101,7 @@ Mods: {
 			}
 
 			NecromancerDummy: {
-				DisplayName: 死灵傀儡法师
+				DisplayName: 安东尼-死灵傀儡法师
 
 				BossChecklistIntegration: {
 					SpawnInfo: 使用 [i:AFKPETS/StoryBook] 召唤. 有小概率在夜晚地表自然生成.
@@ -167,9 +167,9 @@ Mods: {
 			ServantofOcram.DisplayName: 奥库瑞姆的仆人
 			TurkorBody.DisplayName: 不感恩的火鸡
 			TurkorHead.DisplayName: 不感恩的火鸡
-			NecromancerDummyDeath.DisplayName: 死灵傀儡法师
-			NecromancerDummyDespawn.DisplayName: 死灵傀儡法师
-			NecromancerDummyNpc.DisplayName: 死灵傀儡法师
+			NecromancerDummyDeath.DisplayName: 死灵傀儡法师安东尼
+			NecromancerDummyDespawn.DisplayName: 死灵傀儡法师安东尼
+			NecromancerDummyNpc.DisplayName: 死灵傀儡法师安东尼
 			SpiritBird.DisplayName: 灵鸟
 
 			Assassin: {
@@ -235,9 +235,9 @@ Mods: {
 			BlessedBossRush.DisplayName: Blessed Boss Rush
 			AngryBunny.DisplayName: 愤怒爆炸兔
 			BUNE.DisplayName: 爆炸兔
-			BUNI.DisplayName: B U N I
+			BUNI.DisplayName: B.U.N.I.
 			BunnyNuke.DisplayName: 胡萝卜核弹
-			WeakBunnyNuke.DisplayName: 弱性胡萝卜核弹
+			WeakBunnyNuke.DisplayName: 胡萝卜核弹
 			BadCookie.DisplayName: 糟糕的饼干
 			BadGingerbreadCookie.DisplayName: 糟糕的姜饼饼干
 			CookieBox.DisplayName: 饼干板条箱
@@ -255,7 +255,6 @@ Mods: {
 			Parasitoid.DisplayName: 寄生蜂
 			TinySpider.DisplayName: 小蜘蛛
 			CameraLocker.DisplayName: 相机储物柜
-			DrFetusFlying.DisplayName: 胎儿博士
 			DrFetusSecondPhase.DisplayName: 胎儿博士
 			DrFetusShadow.DisplayName: 胎儿博士
 			DrFetusThirdPhase.DisplayName: 胎儿博士
@@ -267,14 +266,13 @@ Mods: {
 			IceGuardianHandLeft.DisplayName: 冰之守护者
 			IceGuardianHandRight.DisplayName: 冰之守护者
 			IceTimer.DisplayName: 冰之守护者
-			IceWormB.DisplayName: 冰之守护者
 			IceWormH.DisplayName: 冰之守护者
 			IceWormT.DisplayName: 冰之守护者
 			AngelicBaby.DisplayName: 婴儿天使
 			DemonIsaac.DisplayName: 阿撒泻勒
 			IsaacArenaLocker.DisplayName: Isaac Arena Locker
-			IsaacChest.DisplayName: 以撒的玩具箱
 			IsaacChest2.DisplayName: 以撒的玩具箱
+			IsaacChest.DisplayName: 以撒的玩具箱
 			IsaacDeath.DisplayName: 阿撒泻勒
 			IsaacShadow.DisplayName: 阿撒泻勒
 			AncientObserver3.DisplayName: 远古观察者
@@ -284,21 +282,6 @@ Mods: {
 			CuriousSoul.DisplayName: Curious Soul
 			MechanicalSlime2.DisplayName: 机械史莱姆
 			MechanicalSlime.DisplayName: 机械史莱姆
-
-			AquaticWiseman: {
-				DisplayName: 水族智者
-
-				TownNPCMood: {
-					Content: 我很满足.
-					NoHome: 我讨厌没有家.
-					FarFromHome: 我离家太远了.
-					LoveSpace: 我喜欢有这么大的空间.
-					DislikeCrowded: 我不喜欢这么拥挤.
-					HateCrowded: 我讨厌这里这么拥挤.
-					LikeNPC_Princess: 我喜欢{NPCName}.
-					Princess_LovesNPC: 我喜欢{NPCName}.
-				}
-			}
 
 			ErrorFallenAngel2: {
 				DisplayName: 坠落天使
@@ -366,7 +349,6 @@ Mods: {
 			BabyBlazer.DisplayName: 小滚轮
 			CharaEnemy.DisplayName: 被滴滴怪寄生的赏金猎人
 			CyberPlayerShield.DisplayName: Cyber Player Shield
-			EnemyShadow.DisplayName: Enemy Shadow
 			FriendlyHarpy.DisplayName: 友好的鸟妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
@@ -400,13 +382,11 @@ Mods: {
 			NightmareAmplifierSlimeDeath.DisplayName: 梦魇史莱姆
 			NightmareAmplifierSlimesShadow.DisplayName: 梦魇史莱姆
 			NightmareCameraLocker.DisplayName: Nightmare Camera Locker
-			NightmareSoul.DisplayName: 梦魇幽灵
 			ShadowSpirit.DisplayName: Shadow Spirit
-			SlimeHuman.DisplayName: 史莱姆人类
 			DarkOkiku.DisplayName: 盘子女鬼
 			OkikuDeath.DisplayName: 盘子女鬼
-			OkikuSoul.DisplayName: 盘子女鬼
-			OkikuSoulDeath.DisplayName: 盘子女鬼
+			OkikuSoul.DisplayName: 遗忘之忆
+			OkikuSoulDeath.DisplayName: 遗忘之忆
 			OkikuSummon.DisplayName: 盘子女鬼
 			BodyguardSlime.DisplayName: 保镖史莱姆
 			FallingSlimeSoldier.DisplayName: 保镖史莱姆
@@ -466,12 +446,12 @@ Mods: {
 			SlimeWatcher.DisplayName: 史莱姆观测者
 			UWUSlimeSoul.DisplayName: 史莱姆复仇联盟之魂
 			AncientGuardianSpawn.DisplayName: 远古守护者之子
-			BlessedBrokenWashingMachine.DisplayName: 被祝福的破碎洗衣机
-			BrokenWashingMachine.DisplayName: 破碎洗衣机
-			BrokenWashingMachinewithHat.DisplayName: 带帽子的破碎洗衣机
-			BrokenWashingMachinewithWings.DisplayName: 带翅膀的破碎洗衣机
-			BrokenWashingMachinewithWings2.DisplayName: 带翅膀的破碎洗衣机
-			SpinningBrokenWashingMachine.DisplayName: 破碎洗衣机
+			BlessedBrokenWashingMachine.DisplayName: 被祝福的近古守卫
+			BrokenWashingMachine.DisplayName: 近古守卫
+			BrokenWashingMachinewithHat.DisplayName: 带帽子的近古守卫
+			BrokenWashingMachinewithWings.DisplayName: 带翅膀的近古守卫
+			BrokenWashingMachinewithWings2.DisplayName: 带翅膀的近古守卫
+			SpinningBrokenWashingMachine.DisplayName: 近古守卫
 
 			BossHunterMerchant: {
 				DisplayName: Boss狩猎商人
@@ -608,6 +588,27 @@ Mods: {
 
 			OnDemandScanner.DisplayName: 病毒扫描仪
 			SpiritSkull.DisplayName: 幽魂骷髅头
+
+			AquaticWiseman: {
+				DisplayName: 水族智者
+
+				TownNPCMood: {
+					Princess_LovesNPC: 我喜欢{NPCName}.
+					LikeNPC_Princess: 我喜欢{NPCName}.
+					HateCrowded: 我讨厌这里这么拥挤.
+					DislikeCrowded: 我不喜欢这么拥挤.
+					LoveSpace: 我喜欢有这么大的空间.
+					FarFromHome: 我离家太远了.
+					NoHome: 我讨厌没有家.
+					Content: 我很满足.
+				}
+			}
+
+			DrFetusFlying.DisplayName: 胎儿博士
+			IceWormB.DisplayName: 冰之守护者
+			EnemyShadow.DisplayName: 暗影
+			NightmareSoul.DisplayName: 梦魇之魂
+			SlimeHuman.DisplayName: 梦魇史莱姆
 		}
 
 		Tiles: {
@@ -625,17 +626,17 @@ Mods: {
 			YukionnaEffect.MapEntry: Yukionna Effect
 			YandereSpiderPainting.MapEntry: Yandere Spider Painting
 			WitchEffect.MapEntry: Witch Effect
-			WhiteHolographicWorkBench.MapEntry: White 相移工作台
-			WhiteHolographicTorch.MapEntry: White 相移火把
-			WhiteHolographicDoorOpened.MapEntry: White 相移门
-			WhiteHolographicDoorClosed.MapEntry: White 相移门
+			WhiteHolographicWorkBench.MapEntry: 白色相移工作台
+			WhiteHolographicTorch.MapEntry: 白色相移火把
+			WhiteHolographicDoorOpened.MapEntry: 白色相移门
+			WhiteHolographicDoorClosed.MapEntry: 白色相移门
 
 			WhiteHolographicChest: {
 				MapEntry0: Mods.AFKPETS.Tiles.WhiteHolographicChest.MapEntry0
-				MapEntry: White 相移箱
+				MapEntry: 白色相移箱
 			}
 
-			WhiteHolographicChair.MapEntry: White 相移椅
+			WhiteHolographicChair.MapEntry: 白色相移椅
 			VocaloidWink.MapEntry: Vocaloid Wink
 			VocaloidCaptain.MapEntry: Vocaloid Captain
 			VocaloidBlush.MapEntry: Vocaloid Blush
@@ -680,7 +681,7 @@ Mods: {
 
 			TileScanner.MapEntry: Tile Scanner
 			TestTile.MapEntry: Test Tile
-			TemmieDoll.MapEntry: 相移提米雕像
+			TemmieDoll.MapEntry: 全息提米雕像
 			TechniciansTable.MapEntry: 技术员工作桌
 			StrongestWink.MapEntry: Strongest Wink
 			StrongestHappiness.MapEntry: Strongest Happiness
@@ -700,7 +701,7 @@ Mods: {
 			SpectralHolographicChair.MapEntry: 光谱全息椅
 			SnowPapyrus.MapEntry: Snow Papyrus
 			SlimesLastHopeTrophy.MapEntry: 史莱姆复仇联盟纪念章
-			SlayerofEvilTrophy.MapEntry: Slayerof Evil纪念章
+			SlayerofEvilTrophy.MapEntry: 恶魔杀手纪念章
 			SkullStatue.MapEntry: 诅咒骷髅头雕像
 			SewingMachine.MapEntry: Sewing Machine
 			SeveredHeadEffect.MapEntry: Severed Head Effect
@@ -769,16 +770,16 @@ Mods: {
 			LancerPainting.MapEntry: 兰瑟的肖像
 			LampEffect.MapEntry: Lamp Effect
 			KnifeEffect.MapEntry: Knife Effect
-			KindnessStatue.MapEntry: Kindness雕像
+			KindnessStatue.MapEntry: 仁爱雕像
 			JunkoPainting.MapEntry: 纯狐的肖像
 			ImpStatue.MapEntry: 火焰小鬼雕像
 			IbPainting.MapEntry: Ib Painting
 			HolographicWorkBench.MapEntry: 相移工作台
-			HolographicTable.MapEntry: 相移椅桌
-			HolographicSofa.MapEntry: 相移椅沙发
-			HolographicSink.MapEntry: 相移椅水槽
-			HolographicPiano.MapEntry: 相移椅钢琴
-			HolographicDresser.MapEntry: 相移椅梳妆台
+			HolographicTable.MapEntry: 相移桌
+			HolographicSofa.MapEntry: 相移沙发
+			HolographicSink.MapEntry: 相移水槽
+			HolographicPiano.MapEntry: 相移钢琴
+			HolographicDresser.MapEntry: 相移梳妆台
 			HolographicDoorOpened.MapEntry: 相移门
 			HolographicDoorClosed.MapEntry: 相移门
 
@@ -790,7 +791,7 @@ Mods: {
 			HolographicChair.MapEntry: 相移椅
 			HolographicBookcase.MapEntry: 相移椅书架
 			HolographicBed.MapEntry: 相移椅床
-			HolographicAmplifier.MapEntry: 双相观测器
+			HolographicAmplifier.MapEntry: 相移观测器
 			HatandScarfEffect.MapEntry: Hatand Scarf Effect
 			HappyCirnoPainting.MapEntry: Happy 琪露诺 Painting
 			HappyCatPainting.MapEntry: Happy Cat Painting
@@ -1056,7 +1057,7 @@ Mods: {
 			}
 
 			BlessedBrokenWashingMachine: {
-				DisplayName: 被祝福破碎洗衣机
+				DisplayName: 被祝福近古守卫
 				Description: 它会保护泰拉瑞亚爱好者
 			}
 
@@ -2531,7 +2532,7 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: 双相观测器
+				DisplayName: 相移观测器
 				Description: 一个遗物被散布在宇宙各地，以观察他的下一步行动
 			}
 
@@ -5359,11 +5360,10 @@ Mods: {
 			}
 
 			HolographicBoots: {
-				DisplayName: 全息靴
+				DisplayName: 相位隔离靴
 				Tooltip:
 					'''
-					'它让你感觉自己像是在赤脚走路一样
-					也不在乎重力'
+					'感觉就像在阳光上行走'
 					可以在空中行走并免疫坠落伤害（类似脚下一个隐形平台）
 					'''
 			}
@@ -6140,8 +6140,8 @@ Mods: {
 				DisplayName: 星啸
 				Tooltip:
 					'''
-					'史莱姆和宝藏的残余物仍在一起脉动'
-					每个魔力星有25%的概率转化为相位之星，（并减少25魔力星恢复的魔力，待测试占位符）
+					'陨落英雄的残迹仍在脉动'
+					每个魔力星有25%的概率转化为相位之星，并减少25魔力星恢复的魔力
 					当拾取相位之星时，会对屏幕上的每个敌人造成伤害，并施加4秒的星击减益
 					'''
 			}
@@ -7506,7 +7506,7 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: 以撒的箱子
+				DisplayName: 以撒的蜘蛛箱
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -7602,17 +7602,8 @@ Mods: {
 				DisplayName: 全息袋
 				Tooltip:
 					'''
-					{$CommonItemTooltip.RightClickToOpen}
-					'它装满了相移块，但奇怪的是，它看起来却是空的'
-					'''
-			}
-
-			HolographicSlimePouch: {
-				DisplayName: 宝藏袋（全息史莱姆）
-				Tooltip:
-					'''
-					{$CommonItemTooltip.RightClickToOpen}
-					'你觉得这会激怒国王'
+					'00111010 01111100'
+					将石块转化为全息碎片，并对敌人施加星辰迷醉效果
 					'''
 			}
 
@@ -7757,10 +7748,10 @@ Mods: {
 				DisplayName: 薛定谔之盒
 				Tooltip:
 					'''
-					'自1935年以来，猫一直在这盒子里'
-					它可能是死的，也可能是活的，但你永远不会知道
 					{$CommonItemTooltip.RightClickToOpen}
-					弗雷迪熊可能会引导你走向宇宙的尽头
+					'自1935年以来，猫一直在这盒子里'
+					'它可能是死的，也可能是活的，但打开前你永远不会知道'
+					同样的<实体>不能同时占据同一空间
 					'''
 			}
 
@@ -8176,10 +8167,10 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: 双相观测器
+				DisplayName: 相移观测器
 				Tooltip:
 					'''
-					'奇怪的是，它与远离银河系的某个地方相连'
+					'它似乎在与英雄的美好旧日回忆共鸣着'
 					当玩家靠近它时，它将激活全息薄雾
 					'''
 			}
@@ -9188,11 +9179,6 @@ Mods: {
 					'''
 			}
 
-			HolographicShard: {
-				DisplayName: 相移晶体
-				Tooltip: "'宇宙的结晶尘埃'"
-			}
-
 			KeyPiece1: {
 				DisplayName: 破损钥匙-阿尔法
 				Tooltip:
@@ -9739,7 +9725,7 @@ Mods: {
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: 被祝福破碎洗衣机（出自:Chippy）
+				DisplayName: 被祝福近古守卫（出自:Chippy）
 				Tooltip:
 					'''
 					'其他的物品都在它的库存里'
@@ -13076,7 +13062,11 @@ Mods: {
 
 			FallingSlimeReplica: {
 				DisplayName: 堕落的粘液复制品
-				Tooltip: "'某人的一部分……'"
+				Tooltip:
+					'''
+					'某人的一部分……'
+					召唤英勇史莱姆
+					'''
 			}
 
 			FrozenSkull: {
@@ -13615,36 +13605,6 @@ Mods: {
 					'''
 			}
 
-			SpectralHolographicBlock: {
-				DisplayName: 光谱全息块
-				Tooltip: ""
-			}
-
-			SpectralHolographicChair: {
-				DisplayName: 光谱全息椅
-				Tooltip: ""
-			}
-
-			SpectralHolographicChest: {
-				DisplayName: 光谱全息箱
-				Tooltip: ""
-			}
-
-			SpectralHolographicDoor: {
-				DisplayName: 光谱全息门
-				Tooltip: ""
-			}
-
-			SpectralHolographicPlatform: {
-				DisplayName: 光谱全息平台
-				Tooltip: ""
-			}
-
-			SpectralHolographicWall: {
-				DisplayName: 光谱全息墙
-				Tooltip: ""
-			}
-
 			StrawberryPimpPainting: {
 				DisplayName: 恶魔画像
 				Tooltip: 玫瑰
@@ -14142,6 +14102,15 @@ Mods: {
 					'''
 			}
 
+			GoldenGrail: {
+				DisplayName: 金色圣杯
+				Tooltip:
+					'''
+					'老兄，这饮料是所有真正战士梦寐以求的'
+					在随机时间内获得少量随机原版增益
+					'''
+			}
+
 			AmblemofFun: {
 				DisplayName: 趣味徽章
 				Tooltip:
@@ -14326,6 +14295,7 @@ Mods: {
 					'''
 					'它的颜色似乎会随着加入的化学物质而改变'
 					使用时会变成物品栏中排序第一的原版染料
+					如果找不到任何染料，就会转化为随机的原版染料
 					'''
 			}
 
@@ -17340,9 +17310,8 @@ Mods: {
 					'''
 					'抱歉，到底是Y型还是Δ型来着？'
 					使用后召唤一个全息变换器来平衡负载
-					它会周期性地生成一个不平衡能量块，当击中该能量块时，区域内所有敌人都将受到真实伤害
-					若没有能量块激活，则它会向附近的敌人释放储存的电荷
-					最多只能同时存在1个全息变换器
+					在该范围内的近距离敌人，其最大生命值、防御力和伤害值
+					会趋向于该区域内所有非BOSS敌人这些属性的平均值
 					'''
 			}
 
@@ -17963,9 +17932,9 @@ Mods: {
 					左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击
 					当在快捷栏中选中棒球棍时，按下控件中绑定的隐藏信息键，可以获取更多关于棒球棍子类的信息
 					[c/ffff00:重击能力]：对敌人造成伤害时有10%几率触发一道穿透多个敌人的神圣波纹
-					这道神圣波纹会施加天使之火，并有一定几率引发短暂的天使地狱烈焰
+					这道神圣波纹会施加圣焰，并有一定几率引发短暂的天使地狱烈焰
 					[c/ffff00:打击能力]：将软球转化为净化球，首个命中的敌人周围将形成神圣启示领域
-					其他命中有可能产生天使之火的光柱
+					其他命中有可能产生圣焰的光柱
 					[c/ffff00:狂暴状态]: 武器造成的伤害增加150%，近战速度提高50%，暴击率提升10%
 					在狂暴状态下，玩家的重击击杀敌人有可能赋予短时间内的神圣保护或快速治疗效果
 					玩家在狂暴状态下失去投掷棒球的能力，但每次击败敌人将轻微恢复自身生命值并刷新狂暴增益
@@ -18026,7 +17995,7 @@ Mods: {
 					实体方块受到攻击时会传递能量，暴击造成强力击退
 					敌人受到攻击时随机触发以下一种效果：
 					- 自动瞄准最近未被电击的敌人改变弹道，如果没有近处的敌人，则延长电击持续时间
-					- 爆炸为无害的五彩纸屑，同时释放天堂火花，点燃天使之火
+					- 爆炸为无害的五彩纸屑，同时释放天堂火花，点燃圣焰
 					- 让敌人短暂眩晕，对Boss造成20%伤害加成
 					- 通过传递动能强制推动非Boss敌人，若推中的敌人碰到其他敌人，则双方都会受到伤害，并削弱Boss防御5点
 					- 形成一个短暂存在的电场区域
@@ -18563,7 +18532,7 @@ Mods: {
 					'''
 					是太阳又出来玩了呢，还是这把剑在发光呢?
 					击中敌人会阻止免疫帧，闪电会像雨一样落下，造成75%的武器伤害
-					击中敌人也会燃烧暗影火焰和天使火焰，闪电会对他们造成严重冲击
+					击中敌人也会燃烧暗影火焰和圣焰，闪电会对他们造成严重冲击
 					攻击将在你周围形成能量切割，造成75%的物品基础伤害
 					这把剑被认为是真近战武器，尽管可能出现的投射物
 					'''
@@ -18590,7 +18559,7 @@ Mods: {
 					'''
 					'仍然在寻找异教徒
 					攻击敌人会造成恐惧
-					暴击会使你周围的敌人燃烧天使之火
+					暴击会对周围的敌人施加圣焰
 					剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%
 					'''
 			}
@@ -18739,9 +18708,9 @@ Mods: {
 					'一把被光明和黑暗的灵魂碎片唤醒的遗迹武器'
 					右键会改变剑的模式
 					两种模式下的暴击都会击碎敌人的灵魂
-					在神圣模式下，击中任何敌人都会撕裂他们的灵魂向玩家移动，并在击中时造成天使火焰
+					在神圣模式下，击中任何敌人都会撕裂他们的灵魂向玩家移动，并在击中时施加圣焰
 					它也会对3个近距离的敌人造成60%的基础伤害
-					在黑暗模式下，玩家攻击形成2个黑暗灵魂，具有60%的基础伤害，将攻击并造成恐惧
+					在黑暗模式下，玩家攻击形成2个黑暗灵魂，具有60%的基础伤害，将攻击并施加恐惧
 					'''
 			}
 
@@ -18805,10 +18774,10 @@ Mods: {
 				Tooltip:
 					'''
 					'作为生者，你有责任维护过去的荣耀'
-					攻击敌人会使他们燃烧天使之火，他们的罪恶会使武器储存能量
+					攻击敌人会施加圣焰，他们的罪恶会使武器储存能量
 					当武器储存了足够的能量，右键以进行神圣打击，分为三个阶段
 					当玩家的灵魂因正义而燃烧时，其伤害减免和防御会随着能量的增加而提升，但有一定的上限
-					在第一阶段，剑会用天使的火焰燃烧任何靠近玩家的敌人
+					在第一阶段，剑会用圣焰燃烧任何靠近玩家的敌人
 					在第二阶段，向你的光标方向召唤天使光束
 					在第三阶段，发射一股天使能量冲击，击中敌人后会爆炸成地狱般的火焰
 					'''
@@ -19065,8 +19034,8 @@ Mods: {
 			}
 
 			HolographicYoyo: {
-				DisplayName: 双相悠悠球
-				Tooltip: 使用时将形成双相线，悠悠球收回时将对敌人造成伤害
+				DisplayName: 宇宙绝缘悠悠球
+				Tooltip: 使用时将形成相移线，悠悠球收回时将对敌人造成伤害
 			}
 
 			NagaFireball: {
@@ -19728,11 +19697,13 @@ Mods: {
 			}
 
 			HolographicGun: {
-				DisplayName: 全息投影枪
+				DisplayName: 异常处理器
 				Tooltip:
 					'''
-					它会将你的子弹装进泡泡里发射出去
-					飞行2.5秒后，泡泡破裂，子弹将在光标指向的方向射出
+					'修复Bug的最佳方法'
+					手持此物品时，在玩家光标上方形成一个瞄准目标
+					按下左键，它会像拍子一样，攻击光标所在位置
+					第一个被攻击的敌人会释放出多个电球、电矢，对所有受到伤害的敌人施加电击
 					'''
 			}
 
@@ -19839,8 +19810,8 @@ Mods: {
 				Tooltip:
 					'''
 					'来吧！让我高兴一下……！'
-					击中敌人将使敌人受到脓液伤害
-					暴击会使子弹爆炸
+					攻击施加恐惧
+					暴击召唤神圣制裁，对敌人施加圣焰
 					不消耗任何弹药
 					'''
 			}
@@ -21166,6 +21137,55 @@ Mods: {
 			KnifePack2: {
 				Tooltip: ""
 				DisplayName: Knife Pack2
+			}
+
+			BoxofSpiders: {
+				Tooltip: ""
+				DisplayName: 以撒的蜘蛛箱
+			}
+
+			SpectralHolographicWall: {
+				DisplayName: 光谱全息墙
+				Tooltip: ""
+			}
+
+			SpectralHolographicPlatform: {
+				Tooltip: ""
+				DisplayName: 光谱全息平台
+			}
+
+			SpectralHolographicDoor: {
+				Tooltip: ""
+				DisplayName: 光谱全息门
+			}
+
+			SpectralHolographicChest: {
+				Tooltip: ""
+				DisplayName: 光谱全息箱
+			}
+
+			SpectralHolographicChair: {
+				Tooltip: ""
+				DisplayName: 光谱全息椅
+			}
+
+			SpectralHolographicBlock: {
+				Tooltip: ""
+				DisplayName: 光谱全息块
+			}
+
+			HolographicShard: {
+				Tooltip: "'宇宙的结晶尘埃'"
+				DisplayName: 相移晶体
+			}
+
+			HolographicSlimePouch: {
+				Tooltip:
+					'''
+					{$CommonItemTooltip.RightClickToOpen}
+					'你觉得这会激怒国王'
+					'''
+				DisplayName: 宝藏袋（全息史莱姆）
 			}
 		}
 
@@ -23095,7 +23115,7 @@ Mods: {
 			YangDart.DisplayName: 阳镖
 			WitchPumpkin.DisplayName: Witch Pumpkin
 			WispInferno.DisplayName: Wisp Inferno
-			WhiteBeam.DisplayName: White Beam
+			WhiteBeam.DisplayName: 白色Beam
 			RottenKnout.DisplayName: Rotten Knout
 			RalseiScarf.DisplayName: Ralsei Scarf
 			LongCat.DisplayName: Long Cat
@@ -23509,23 +23529,50 @@ Mods: {
 			SBEnergyBolt.DisplayName: S B Energy Bolt
 			SBBombExplosion2.DisplayName: S B Bomb Explosion2
 			SBDrone2.DisplayName: S B Drone2
-			// CloudController.DisplayName: Cloud Controller
-			// GreenDummy2.DisplayName: Green Dummy2
-			// GreenDummy3.DisplayName: Green Dummy3
-			// AntonySlash.DisplayName: Antony Slash
-			// AntonyDragon.DisplayName: Antony Dragon
-			// AntonySkull.DisplayName: Antony Skull
-			// OrangeRocket.DisplayName: Orange Rocket
-			// CyanRocket.DisplayName: Cyan Rocket
-			// DrFetusHeat.DisplayName: Dr Fetus Heat
-			// DrFetusPoisonCloud.DisplayName: Dr Fetus Poison Cloud
-			// DrEnergy.DisplayName: Dr Energy
-			// BackSmoke.DisplayName: Back Smoke
-			// DrEnergy2.DisplayName: Dr Energy2
-			// DrFetusEnergy.DisplayName: Dr Fetus Energy
-			// DrEnergyEffect.DisplayName: Dr Energy Effect
-			// DrFetusBat2.DisplayName: Dr Fetus Bat2
-			// DrFetusWarpZone.DisplayName: Dr Fetus Warp Zone
+			CloudController.DisplayName: Cloud Controller
+			GreenDummy2.DisplayName: Green Dummy2
+			GreenDummy3.DisplayName: Green Dummy3
+			AntonySlash.DisplayName: Antony Slash
+			AntonyDragon.DisplayName: Antony Dragon
+			AntonySkull.DisplayName: Antony Skull
+			OrangeRocket.DisplayName: Orange Rocket
+			CyanRocket.DisplayName: Cyan Rocket
+			DrFetusHeat.DisplayName: Dr Fetus Heat
+			DrFetusPoisonCloud.DisplayName: Dr Fetus Poison Cloud
+			DrEnergy.DisplayName: Dr Energy
+			BackSmoke.DisplayName: Back Smoke
+			DrEnergy2.DisplayName: Dr Energy2
+			DrFetusEnergy.DisplayName: Dr Fetus Energy
+			DrEnergyEffect.DisplayName: Dr Energy Effect
+			DrFetusBat2.DisplayName: Dr Fetus Bat2
+			DrFetusWarpZone.DisplayName: Dr Fetus Warp Zone
+			BoneThrowerBone.DisplayName: Bone Thrower Bone
+			JusticeLight.DisplayName: Justice Light
+			BombWaterSmoke.DisplayName: Bomb Water Smoke
+			HSSword.DisplayName: H S Sword
+			HSSpike.DisplayName: H S Spike
+			HSScorchedGel.DisplayName: H S Scorched Gel
+			HSLandEffect.DisplayName: H S Land Effect
+			HSDreadBolt.DisplayName: H S Dread Bolt
+			HSDangerSign.DisplayName: H S Danger Sign
+			HSBowCharge.DisplayName: H S Bow Charge
+			HSArrow.DisplayName: H S Arrow
+			HSSword3.DisplayName: H S Sword3
+			HSSword2.DisplayName: H S Sword2
+			HSCandle.DisplayName: H S Candle
+			HSFlameCaller.DisplayName: H S Flame Caller
+			HSSun.DisplayName: H S Sun
+			HolographicStar2.DisplayName: Holographic Star2
+			HoloFallingSlime.DisplayName: Holo Falling Slime
+			HSArrow2.DisplayName: H S Arrow2
+			HSDiscoLaser.DisplayName: H S Disco Laser
+			HSSunRay.DisplayName: H S Sun Ray
+			HSInferno.DisplayName: H S Inferno
+			HSFlameExplosion.DisplayName: H S Flame Explosion
+			HSWallExplosion.DisplayName: H S Wall Explosion
+			HoloFallingSlime2.DisplayName: Holo Falling Slime2
+			HSItemDrop.DisplayName: H S Item Drop
+			GunShot2.DisplayName: Gun Shot2
 		}
 
 		Configs: {

@@ -2,7 +2,7 @@ Mods: {
 	AFKPETS: {
 		NPCs: {
 			UWUSlime: {
-				DisplayName: U W U Slime
+				DisplayName: Serenity Slime
 
 				BossChecklistIntegration: {
 					SpawnInfo: Use Slime in a glass cube at day
@@ -21,7 +21,7 @@ Mods: {
 			}
 
 			DrFetusFirstPhase: {
-				DisplayName: Dr Fetus First Phase
+				DisplayName: Dr Fetus
 
 				BossChecklistIntegration: {
 					SpawnInfo: Use Tiny meat idol which have a chance to drop from enemies in corruption or crimson if Dr Fetus haven't defeated. After it's defeat it can be bought from dark huntress.
@@ -37,7 +37,7 @@ Mods: {
 					DespawnMessage: All players have been devoured by the beasts
 				}
 
-				DisplayName: Flag Carrier
+				DisplayName: Forsaken Messenger
 			}
 
 			SATLA001: {
@@ -47,7 +47,7 @@ Mods: {
 					EntryName: SATLA-001
 				}
 
-				DisplayName: S A T L A001
+				DisplayName: SATLA-001
 			}
 
 			SlayerofEvil: {
@@ -57,7 +57,7 @@ Mods: {
 					EntryName: Slayer of Evil
 				}
 
-				DisplayName: Slayerof Evil
+				DisplayName: Slayer of Evil
 			}
 
 			HeroicSlime: {
@@ -101,7 +101,7 @@ Mods: {
 			}
 
 			NecromancerDummy: {
-				DisplayName: Necromancer Dummy
+				DisplayName: Antony, the Novice Necromancer
 
 				BossChecklistIntegration: {
 					SpawnInfo: It have a rare chance to spawn in surface at night or use story book to summon him.
@@ -131,7 +131,7 @@ Mods: {
 			}
 
 			IceGuardian: {
-				DisplayName: Ice Guardian
+				DisplayName: Guardian of Frost
 
 				BossChecklistIntegration: {
 					SpawnInfo: Spawns at the end of frost legion. After its defeat dark huntress sell its spawn item
@@ -157,19 +157,19 @@ Mods: {
 					DespawnMessage: The Ancient Guardian return back to wait for its masters return
 				}
 
-				DisplayName: Ancient Guardian
+				DisplayName: The Ancient Guardian
 			}
 
 			DiseasterBunny.DisplayName: Diseaster Bunny
 			Lepus.DisplayName: Lepus
 			LepusEgg.DisplayName: Lepus Egg
 			Ocram.DisplayName: Ocram
-			ServantofOcram.DisplayName: Servantof Ocram
-			TurkorBody.DisplayName: Turkor Body
-			TurkorHead.DisplayName: Turkor Head
-			NecromancerDummyDeath.DisplayName: Necromancer Dummy Death
-			NecromancerDummyDespawn.DisplayName: Necromancer Dummy Despawn
-			NecromancerDummyNpc.DisplayName: Necromancer Dummy Npc
+			ServantofOcram.DisplayName: Servant of Ocram
+			TurkorBody.DisplayName: Turkor, the Ungrateful
+			TurkorHead.DisplayName: Turkor's Head
+			NecromancerDummyDeath.DisplayName: Antony, the Novice Necromancer
+			NecromancerDummyDespawn.DisplayName: Antony, the Novice Necromancer
+			NecromancerDummyNpc.DisplayName: Antony, the Novice Necromancer
 			SpiritBird.DisplayName: Spirit Bird
 
 			Assassin: {
@@ -234,71 +234,54 @@ Mods: {
 
 			BlessedBossRush.DisplayName: Blessed Boss Rush
 			AngryBunny.DisplayName: Angry Bunny
-			BUNE.DisplayName: B U N E
-			BUNI.DisplayName: B U N I
+			BUNE.DisplayName: B.U.N.E.
+			BUNI.DisplayName: B.U.N.I.
 			BunnyNuke.DisplayName: Bunny Nuke
-			WeakBunnyNuke.DisplayName: Weak Bunny Nuke
-			BadCookie.DisplayName: Bad Cookie
-			BadGingerbreadCookie.DisplayName: Bad Gingerbread Cookie
+			WeakBunnyNuke.DisplayName: Bunny Nuke
+			BadCookie.DisplayName: Cookie
+			BadGingerbreadCookie.DisplayName: Gingerbread Cookie
 			CookieBox.DisplayName: Cookie Box
-			CookieBoxRest.DisplayName: Cookie Box Rest
-			CookieCrumblerBody.DisplayName: Cookie Crumbler Body
-			CookieCrumblerHead.DisplayName: Cookie Crumbler Head
-			CookieCrumblerTail.DisplayName: Cookie Crumbler Tail
+			CookieBoxRest.DisplayName: Cookie Box
+			CookieCrumblerBody.DisplayName: Cookie Crumbler
+			CookieCrumblerHead.DisplayName: Cookie Crumbler
+			CookieCrumblerTail.DisplayName: Cookie Crumbler
 			CookieMan.DisplayName: Cookie Man
 			CookieSoul.DisplayName: Cookie Soul
 			CookieSpirit.DisplayName: Cookie Spirit
-			NightmareCookieBox.DisplayName: Nightmare Cookie Box
-			RainbowCookieBox.DisplayName: Rainbow Cookie Box
+			NightmareCookieBox.DisplayName: Lesser Cookie Box
+			RainbowCookieBox.DisplayName: Lesser Cookie Box
 			HoneyBee.DisplayName: Honey Bee
 			IceFairy.DisplayName: Ice Fairy
 			Parasitoid.DisplayName: Parasitoid
 			TinySpider.DisplayName: Tiny Spider
-			CameraLocker.DisplayName: Camera Locker
-			DrFetusFlying.DisplayName: Dr Fetus Flying
-			DrFetusSecondPhase.DisplayName: Dr Fetus Second Phase
-			DrFetusShadow.DisplayName: Dr Fetus Shadow
-			DrFetusThirdPhase.DisplayName: Dr Fetus Third Phase
-			FurretBody.DisplayName: Furret Body
-			FurretHead.DisplayName: Furret Head
-			FurretTail.DisplayName: Furret Tail
+			CameraLocker.DisplayName: DrFetusFlying.DisplayName: Dr Fetus
+			DrFetusSecondPhase.DisplayName: Dr Fetus
+			DrFetusShadow.DisplayName: Dr Fetus
+			DrFetusThirdPhase.DisplayName: Dr Fetus
+			FurretBody.DisplayName: Furret
+			FurretHead.DisplayName: Furret
+			FurretTail.DisplayName: Furret
 			HolographicSlime.DisplayName: Holographic Slime
 			BadSnow.DisplayName: Bad Snow
-			IceGuardianHandLeft.DisplayName: Ice Guardian Hand Left
-			IceGuardianHandRight.DisplayName: Ice Guardian Hand Right
-			IceTimer.DisplayName: Ice Timer
-			IceWormB.DisplayName: Ice Worm B
-			IceWormH.DisplayName: Ice Worm H
-			IceWormT.DisplayName: Ice Worm T
+			IceGuardianHandLeft.DisplayName: Guardian of Frost's Hand
+			IceGuardianHandRight.DisplayName: Guardian of Frost's Hand
+			IceTimer.DisplayName: IceWormB.DisplayName: Guardian of Frost
+			IceWormH.DisplayName: Guardian of Frost
+			IceWormT.DisplayName: Guardian of Frost
 			AngelicBaby.DisplayName: Angelic Baby
-			DemonIsaac.DisplayName: Demon Isaac
-			IsaacArenaLocker.DisplayName: Isaac Arena Locker
+			DemonIsaac.DisplayName: Azazel
+			IsaacArenaLocker.DisplayName: IsaacChest.DisplayName: Chest?
+			IsaacChest2.DisplayName: Chest?
 			IsaacChest.DisplayName: Isaac Chest
-			IsaacChest2.DisplayName: Isaac Chest2
-			IsaacDeath.DisplayName: Isaac Death
-			IsaacShadow.DisplayName: Isaac Shadow
-			AncientObserver3.DisplayName: Ancient Observer3
-			AncientWormBody.DisplayName: Ancient Worm Body
-			AncientWormHead.DisplayName: Ancient Worm Head
-			AncientWormTail.DisplayName: Ancient Worm Tail
+			IsaacDeath.DisplayName: Isaac
+			IsaacShadow.DisplayName: Isaac?
+			AncientObserver3.DisplayName: Ancient Observer
+			AncientWormBody.DisplayName: Immolator
+			AncientWormHead.DisplayName: Immolator
+			AncientWormTail.DisplayName: Immolator
 			CuriousSoul.DisplayName: Curious Soul
-			MechanicalSlime2.DisplayName: Mechanical Slime2
-			MechanicalSlime.DisplayName: Mechanical Slime
-
-			AquaticWiseman: {
-				DisplayName: Aquatic Wiseman
-
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
-			}
+			MechanicalSlime2.DisplayName: Iron Maiden
+			MechanicalSlime.DisplayName: Iron Maiden
 
 			ErrorFallenAngel2: {
 				DisplayName: Error Fallen Angel2
@@ -364,13 +347,12 @@ Mods: {
 
 			AstralGhost.DisplayName: Astral Ghost
 			BabyBlazer.DisplayName: Baby Blazer
-			CharaEnemy.DisplayName: Chara Enemy
-			CyberPlayerShield.DisplayName: Cyber Player Shield
-			EnemyShadow.DisplayName: Enemy Shadow
+			CharaEnemy.DisplayName: Bounty Hunter?
+			CyberPlayerShield.DisplayName: EnemyShadow.DisplayName:
 			FriendlyHarpy.DisplayName: Friendly Harpy
 			GalacticRift.DisplayName: Galactic Rift
 			HolographicChunk.DisplayName: Holographic Chunk
-			RalseiDummy.DisplayName: Ralsei Dummy
+			RalseiDummy.DisplayName: Training Dummy
 
 			RoyalGuard: {
 				DisplayName: Royal Guard
@@ -391,31 +373,29 @@ Mods: {
 
 			SoulBird.DisplayName: Soul Bird
 			SoulBlossom.DisplayName: Soul Blossom
-			TiedYandere.DisplayName: Tied Yandere
-			TreasureBagBoi.DisplayName: Treasure Bag Boi
-			BadMafia.DisplayName: Bad Mafia
-			FakeNightmareSlime.DisplayName: Fake Nightmare Slime
+			TiedYandere.DisplayName: Tied Dark Huntress
+			TreasureBagBoi.DisplayName: REDACTED
+			BadMafia.DisplayName: Mafia
+			FakeNightmareSlime.DisplayName: Nightmare Slime
 			NekoSlime.DisplayName: Neko Slime
-			NekoSlime2.DisplayName: Neko Slime2
-			NightmareAmplifierSlimeDeath.DisplayName: Nightmare Amplifier Slime Death
-			NightmareAmplifierSlimesShadow.DisplayName: Nightmare Amplifier Slimes Shadow
-			NightmareCameraLocker.DisplayName: Nightmare Camera Locker
-			NightmareSoul.DisplayName: Nightmare Soul
-			ShadowSpirit.DisplayName: Shadow Spirit
-			SlimeHuman.DisplayName: Slime Human
-			DarkOkiku.DisplayName: Dark Okiku
-			OkikuDeath.DisplayName: Okiku Death
-			OkikuSoul.DisplayName: Okiku Soul
-			OkikuSoulDeath.DisplayName: Okiku Soul Death
-			OkikuSummon.DisplayName: Okiku Summon
+			NekoSlime2.DisplayName: Neko Slime
+			NightmareAmplifierSlimeDeath.DisplayName: Nightmare Amplifier Slime
+			NightmareAmplifierSlimesShadow.DisplayName: Nightmare Amplifier Slime?
+			NightmareCameraLocker.DisplayName: NightmareSoul.DisplayName:
+			ShadowSpirit.DisplayName: SlimeHuman.DisplayName:
+			DarkOkiku.DisplayName: Okiku?
+			OkikuDeath.DisplayName: Okiku
+			OkikuSoul.DisplayName: Remembrance of Forgotten
+			OkikuSoulDeath.DisplayName: Remembrance of Forgotten
+			OkikuSummon.DisplayName: Okiku
 			BodyguardSlime.DisplayName: Bodyguard Slime
-			FallingSlimeSoldier.DisplayName: Falling Slime Soldier
+			FallingSlimeSoldier.DisplayName: Soldier Slime
 			MoneyPortal.DisplayName: Money Portal
 			PoliticianSlime.DisplayName: Politician Slime
-			SoldierSlime1.DisplayName: Soldier Slime1
-			SoldierSlime2.DisplayName: Soldier Slime2
-			GuardianofSlimeNationEnergyCore.DisplayName: Guardianof Slime Nation Energy Core
-			MechanicalDragonHead.DisplayName: Mechanical Dragon Head
+			SoldierSlime1.DisplayName: Soldier Slime
+			SoldierSlime2.DisplayName: Soldier Slime
+			GuardianofSlimeNationEnergyCore.DisplayName: Guardian of Slime Nation
+			MechanicalDragonHead.DisplayName: Mechanical Dragon
 			PoliticianSlimeArmor.DisplayName: Politician Slime Armor
 			BoundGuardian.DisplayName: Bound Guardian
 			FallingGoldfish.DisplayName: Falling Goldfish
@@ -423,55 +403,55 @@ Mods: {
 			FlashLightCore.DisplayName: Flash Light Core
 			GoldfishBucket.DisplayName: Goldfish Bucket
 			GoldfishWarrior.DisplayName: Goldfish Warrior
-			HarpyCall.DisplayName: Harpy Call
-			HarpyTornadoCore.DisplayName: Harpy Tornado Core
+			HarpyCall.DisplayName: Harpy
+			HarpyTornadoCore.DisplayName: Harpy Tornado
 			HomingHarpyRocket.DisplayName: Homing Harpy Rocket
-			SeaHorseBubble.DisplayName: Sea Horse Bubble
-			SeaHorseBucket.DisplayName: Sea Horse Bucket
-			StormDiverSummon.DisplayName: Storm Diver Summon
-			StormTinkererH.DisplayName: Storm Tinkerer H
+			SeaHorseBubble.DisplayName: Sea Horse
+			SeaHorseBucket.DisplayName: Sea Horse
+			StormDiverSummon.DisplayName: Storm Diver
+			StormTinkererH.DisplayName: Royal Peace Keeper
 			YoukaiBucket.DisplayName: Youkai Bucket
-			YoukaiBucket2.DisplayName: Youkai Bucket2
-			FunSATLA001.DisplayName: Fun S A T L A001
-			SATLASummon.DisplayName: S A T L A Summon
-			FakeSecurityBot.DisplayName: Fake Security Bot
+			YoukaiBucket2.DisplayName: Youkai Bucket
+			FunSATLA001.DisplayName: SATLA-001?
+			SATLASummon.DisplayName: SATLA
+			FakeSecurityBot.DisplayName: Security B0t
 			JumpscareFella.DisplayName: Jumpscare Fella
 			NoEscape.DisplayName: No Escape
-			SecurityBotSummon.DisplayName: Security Bot Summon
+			SecurityBotSummon.DisplayName: Security Bot
 			BomberSlime.DisplayName: Bomber Slime
 			CrimsonSlime.DisplayName: Crimson Slime
 			DarkCandleSlime.DisplayName: Dark Candle Slime
 			GiantPinkie.DisplayName: Giant Pinkie
-			GiantPinkie2.DisplayName: Giant Pinkie2
+			GiantPinkie2.DisplayName: Giant Pinkie
 			OldSlime.DisplayName: Old Slime
-			ShadowSlime2.DisplayName: Shadow Slime2
+			ShadowSlime2.DisplayName: Shadow Slime
 			TinyBloodSlime.DisplayName: Tiny Blood Slime
 			VikingSlime.DisplayName: Viking Slime
 			BouncySlime.DisplayName: Bouncy Slime
 			BubbleSlime.DisplayName: Bubble Slime
-			BubbleSlime2.DisplayName: Bubble Slime2
+			BubbleSlime2.DisplayName: Bubble Slime
 			HiveCarrierJungleSlime.DisplayName: Hive Carrier Jungle Slime
 			LaserSlime.DisplayName: Laser Slime
 			PinkyTank.DisplayName: Pinky Tank
-			ShadowSlime3.DisplayName: Shadow Slime3
-			ShadowSlime4.DisplayName: Shadow Slime4
+			ShadowSlime3.DisplayName: Shadow Slime
+			ShadowSlime4.DisplayName: Shadow Slime
 			SuspiciousSlime.DisplayName: Suspicious Slime
 			SuspiciousSlime2.DisplayName: Suspicious Slime2
 			WitchSlime.DisplayName: Witch Slime
-			MechanicalSlimeDeath.DisplayName: Mechanical Slime Death
+			MechanicalSlimeDeath.DisplayName: Iron Maiden
 			ShinobiSlime.DisplayName: Shinobi Slime
-			ShinobiSlimeDasher.DisplayName: Shinobi Slime Dasher
-			ShinobiSlimeShuriken.DisplayName: Shinobi Slime Shuriken
-			ShinobiSlimeSoul.DisplayName: Shinobi Slime Soul
+			ShinobiSlimeDasher.DisplayName: Shinobi Slime
+			ShinobiSlimeShuriken.DisplayName: Shinobi Slime
+			ShinobiSlimeSoul.DisplayName: Shinobi Slime
 			SlimeWatcher.DisplayName: Slime Watcher
-			UWUSlimeSoul.DisplayName: U W U Slime Soul
-			AncientGuardianSpawn.DisplayName: Ancient Guardian Spawn
-			BlessedBrokenWashingMachine.DisplayName: Blessed Broken Washing Machine
-			BrokenWashingMachine.DisplayName: Broken Washing Machine
-			BrokenWashingMachinewithHat.DisplayName: Broken Washing Machinewith Hat
-			BrokenWashingMachinewithWings.DisplayName: Broken Washing Machinewith Wings
-			BrokenWashingMachinewithWings2.DisplayName: Broken Washing Machinewith Wings2
-			SpinningBrokenWashingMachine.DisplayName: Spinning Broken Washing Machine
+			UWUSlimeSoul.DisplayName: Serenity Slime
+			AncientGuardianSpawn.DisplayName: Ancient Guardian
+			BlessedBrokenWashingMachine.DisplayName: Lesser Ancient Guardian
+			BrokenWashingMachine.DisplayName: Lesser Ancient Guardian
+			BrokenWashingMachinewithHat.DisplayName: Lesser Ancient Guardian
+			BrokenWashingMachinewithWings.DisplayName: Lesser Ancient Guardian
+			BrokenWashingMachinewithWings2.DisplayName: Lesser Ancient Guardian
+			SpinningBrokenWashingMachine.DisplayName: Lesser Ancient Guardian
 
 			BossHunterMerchant: {
 				DisplayName: Boss Hunter Merchant
@@ -608,6 +588,27 @@ Mods: {
 
 			OnDemandScanner.DisplayName: On Demand Scanner
 			SpiritSkull.DisplayName: Spirit Skull
+
+			AquaticWiseman: {
+				DisplayName: Aquatic Wiseman
+
+				TownNPCMood: {
+					Princess_LovesNPC: I like {NPCName}.
+					LikeNPC_Princess: I like {NPCName}.
+					HateCrowded: I hate how crowded I am.
+					DislikeCrowded: I dislike how crowded I am.
+					LoveSpace: I love having so much space.
+					FarFromHome: I am too far from home.
+					NoHome: I hate not having a home.
+					Content: I am content.
+				}
+			}
+
+			DrFetusFlying.DisplayName: Dr Fetus Flying
+			IceWormB.DisplayName: Ice Worm B
+			EnemyShadow.DisplayName: Enemy Shadow
+			NightmareSoul.DisplayName: Nightmare Soul
+			SlimeHuman.DisplayName: Slime Human
 		}
 
 		Tiles: {
@@ -699,7 +700,7 @@ Mods: {
 
 			SpectralHolographicChair.MapEntry: Spectral Holographic Chair
 			SnowPapyrus.MapEntry: Snow Papyrus
-			SlimesLastHopeTrophy.MapEntry: Slimes Last Hope Trophy
+			SlimesLastHopeTrophy.MapEntry: Slimes Troop Trophy
 			SlayerofEvilTrophy.MapEntry: Slayerof Evil Trophy
 			SkullStatue.MapEntry: Skull Statue
 			SewingMachine.MapEntry: Sewing Machine
@@ -773,7 +774,7 @@ Mods: {
 			JunkoPainting.MapEntry: Junko Painting
 			ImpStatue.MapEntry: Imp Statue
 			IbPainting.MapEntry: Ib Painting
-			HolographicWorkBench.MapEntry: Holographic Work Bench
+			HolographicWorkBench.MapEntry: Biphase Work Bench
 			HolographicTable.MapEntry: Holographic Table
 			HolographicSofa.MapEntry: Holographic Sofa
 			HolographicSink.MapEntry: Holographic Sink
@@ -2535,7 +2536,7 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: Double Phased Observer
+				DisplayName: Biphase Observer
 				Description: A relic being scattered all over universe to observe his next step
 			}
 
@@ -5363,12 +5364,11 @@ Mods: {
 			}
 
 			HolographicBoots: {
-				DisplayName: Holographic Boots
+				DisplayName: Phase Isolator
 				Tooltip:
 					'''
-					'It makes you feel like you are walking barefoot'
-					'Also it doesn't care about gravity'
-					'While not pressing down player will not fall and walk in air and player is immune to fall damage'
+					'Feels like walking on a sunshine'
+					While not pressing down player will not fall and walk in air and player is immune to fall damage
 					'''
 			}
 
@@ -5376,8 +5376,8 @@ Mods: {
 				DisplayName: Town Bell Necklace
 				Tooltip:
 					'''
-					Do you feel alone? Not anymore.
-					'It allows you to play human train game with your town NPC's'
+					'Do you feel alone? Not anymore'
+					It allows you to play human train game with your town NPC's
 
 					'''
 			}
@@ -5386,7 +5386,7 @@ Mods: {
 				DisplayName: Legacy Paintbrush
 				Tooltip:
 					'''
-					There is nothing wrong with having tree a friend
+					'There is nothing wrong with having tree as a friend'
 					While equipped player will have 60% chance to not consume paint
 					Painter and elitist will become stronger
 					'''
@@ -6140,8 +6140,8 @@ Mods: {
 				DisplayName: Starscream
 				Tooltip:
 					'''
-					'Remnants of the slime and its treasure still continues to pulse together'
-					Each vanilla mana star have 25% chance to converted to phase star and mana stars also give 25 less mana
+					'Remnants of the fallen hero continues to pulse periodically'
+					Each vanilla mana star have 25% chance to converted to biphase star and mana stars also give 25 less mana
 					Upon phase star being picked up will damage every enemy on screen along with giving them starstruck debuff for 4 second
 					'''
 			}
@@ -7506,11 +7506,11 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: Box
+				DisplayName: Box of Spiders
 				Tooltip:
 					'''
 					Right click to open
-					'Filled with stuff'
+					'Filled with friends'
 					'''
 			}
 
@@ -7599,20 +7599,11 @@ Mods: {
 			}
 
 			HolographicBag: {
-				DisplayName: Holographic Bag
+				DisplayName: Biphase Bag
 				Tooltip:
 					'''
-					Right click to open
-					'It's filled with holographic blocks but strangely it looks empty.'
-					'''
-			}
-
-			HolographicSlimePouch: {
-				DisplayName: Treasure Pouch (Holographic Slime)
-				Tooltip:
-					'''
-					Right click to open
-					'You feel this will enrage the capital'
+					'00111010 01111100'
+					Converts stone blocks into holographic chunks + inflicts starstuck to enemies
 					'''
 			}
 
@@ -7638,7 +7629,7 @@ Mods: {
 				DisplayName: Crystal Prison
 				Tooltip:
 					'''
-					'There is a keyhole on it.'
+					'There is a keyhole on it'
 					'Talking with merchant when the stars don't shine may help you'
 					'Also Carie Careless says the cake is eaten by floating mouth in morning'
 					'''
@@ -7757,10 +7748,10 @@ Mods: {
 				DisplayName: Shrodinger's Box
 				Tooltip:
 					'''
-					'The cat has been inside of this box since 1935'
-					'It may be either death or alive but you can't understand from there.'
-					'Right click to open.'
-					'Fredbear may guide you to the end of the universe.'
+					Right click to open
+					'WARNING:CONTAINS A FLUFFY CAT SINCE 1935'
+					'It may be either death or alive but can't understand without opening'
+					'the same <redacted> can't occupy the same space at the same time'
 					'''
 			}
 
@@ -8176,86 +8167,86 @@ Mods: {
 			}
 
 			HolographicAmplifier: {
-				DisplayName: Double Phased Observer
+				DisplayName: Biphase Observer
 				Tooltip:
 					'''
-					'Strangely its connected to somewhere far away from your galaxy'
+					'It seems its pulsing with heros good old memories'
 					While player is being near to it will activate holographic mist
 					'''
 			}
 
 			HolographicBed: {
-				DisplayName: Phase Shifting Bed
+				DisplayName: Biphase Bed
 				Tooltip: ""
 			}
 
 			HolographicBlock: {
-				DisplayName: Phase Shifting Chunk
+				DisplayName: Biphase Chunk
 				Tooltip:
 					'''
-					Remnants of Cosmos imbued creatures
+					Remnants of Cosmos imbued hero
 					Upon being placed it may grow crystal rock formations
 					It will slowly spread touching stone tiles
 					'''
 			}
 
 			HolographicBookcase: {
-				DisplayName: Phase Shifting Bookcase
+				DisplayName: Biphase Bookcase
 				Tooltip: ""
 			}
 
 			HolographicChair: {
-				DisplayName: Phase Shifting Chair
+				DisplayName: Biphase Chair
 				Tooltip: ""
 			}
 
 			HolographicChest: {
-				DisplayName: Phase Shifting Chest
+				DisplayName: Biphase Chest
 				Tooltip: ""
 			}
 
 			HolographicDoor: {
-				DisplayName: Phase Shifting Door
+				DisplayName: Biphase Door
 				Tooltip: ""
 			}
 
 			HolographicDresser: {
-				DisplayName: Phase Shifting Dresser
+				DisplayName: Biphase Dresser
 				Tooltip: ""
 			}
 
 			HolographicPiano: {
-				DisplayName: Phase Shifting Piano
+				DisplayName: Biphase Piano
 				Tooltip: ""
 			}
 
 			HolographicPlatform: {
-				DisplayName: Phase Shifting Platform
+				DisplayName: Biphase Platform
 				Tooltip: ""
 			}
 
 			HolographicSink: {
-				DisplayName: Phase Shifting Sink
+				DisplayName: Biphase Sink
 				Tooltip: ""
 			}
 
 			HolographicSofa: {
-				DisplayName: Phase Shifting Sofa
+				DisplayName: Biphase Sofa
 				Tooltip: ""
 			}
 
 			HolographicTable: {
-				DisplayName: Phase Shifting Table
+				DisplayName: Biphase Table
 				Tooltip: ""
 			}
 
 			HolographicWorkBench: {
-				DisplayName: Phase Shifting Work Bench
+				DisplayName: Biphase Work Bench
 				Tooltip: ""
 			}
 
 			TemmieDoll: {
-				DisplayName: Phase Shifting Doll
+				DisplayName: Biphase Doll
 				Tooltip: ""
 			}
 
@@ -9004,7 +8995,7 @@ Mods: {
 			}
 
 			SlimesLastHopeTrophy: {
-				DisplayName: Slimes Last Hope Trophy
+				DisplayName: Slimes Troop Trophy
 				Tooltip: ""
 			}
 
@@ -9184,11 +9175,6 @@ Mods: {
 					'It looks forgotten and ancient but still holds impressive spiritual power'
 					'May be exchanged with elite rewards'
 					'''
-			}
-
-			HolographicShard: {
-				DisplayName: Double Phased Shard
-				Tooltip: "'A crystalized dust of cosmos'"
 			}
 
 			KeyPiece1: {
@@ -11957,7 +11943,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks for its master'
-					It summons Shanghai to follow you
+					It summons Alice Margatroid to follow you
 					'''
 			}
 
@@ -13601,36 +13587,6 @@ Mods: {
 					'''
 			}
 
-			SpectralHolographicBlock: {
-				DisplayName: Spectral Holographic Block
-				Tooltip: ""
-			}
-
-			SpectralHolographicChair: {
-				DisplayName: Spectral Holographic Chair
-				Tooltip: ""
-			}
-
-			SpectralHolographicChest: {
-				DisplayName: Spectral Holographic Chest
-				Tooltip: ""
-			}
-
-			SpectralHolographicDoor: {
-				DisplayName: Spectral Holographic Door
-				Tooltip: ""
-			}
-
-			SpectralHolographicPlatform: {
-				DisplayName: Spectral Holographic Platform
-				Tooltip: ""
-			}
-
-			SpectralHolographicWall: {
-				DisplayName: Spectral Holographic Wall
-				Tooltip: ""
-			}
-
 			StrawberryPimpPainting: {
 				DisplayName: Portrait of a Demon
 				Tooltip: "'Rose'"
@@ -14128,6 +14084,15 @@ Mods: {
 					'''
 			}
 
+			GoldenGrail: {
+				DisplayName: Golden Grail
+				Tooltip:
+					'''
+					'Mah boi, this drink is what all true warriors strive for'
+					Grants few random vanilla buffs for a random time
+					'''
+			}
+
 			AmblemofFun: {
 				DisplayName: Emblem of Fun
 				Tooltip:
@@ -14311,8 +14276,9 @@ Mods: {
 				DisplayName: Mimic Dye
 				Tooltip:
 					'''
-					'It seems it changes it's colour with respect to the chemical it have been mixed.'
-					'When it's used it will clone itself to first vanilla dye it finds inside of players inventory'
+					'Adapts it's colour with respect to the chemical it has been mixed'
+					'When used clone itself to first found dye in players inventory'
+					'If any dye could not be found transforms into a random vanilla dye'
 					'''
 			}
 
@@ -17320,13 +17286,13 @@ Mods: {
 			}
 
 			HolographicStaff: {
-				DisplayName: Dicyclic Staff
+				DisplayName: Dicyclic Configurator
 				Tooltip:
 					'''
 					'Sorry, is it Wye or delta again?'
-					Upon used it summons a holographic transformer to balance the loads
-					It periodically generates an unbalanced chunk and upon hitting chunk every enemy in its area take true damage
-					While there is no chunk active it instead unload its charge to close enemies
+					Upon used it summons a holographic transformer to balance the entity loads
+					Close enemies get their max life, defense & damage gets closer to mean of those stats in cluster
+					Cluster consist of every non boss enemy inside of the region
 					There can max 1 holographic transformer active
 					'''
 			}
@@ -19046,8 +19012,8 @@ Mods: {
 			}
 
 			HolographicYoyo: {
-				DisplayName: Double Phased Yoyo
-				Tooltip: Using will form double phased lines which will damage enemies upon yoyo retraction
+				DisplayName: Cosmos Insulated Cable Yoyo
+				Tooltip: Using will form load line which will damage enemies upon yoyo retraction
 			}
 
 			NagaFireball: {
@@ -19710,11 +19676,13 @@ Mods: {
 			}
 
 			HolographicGun: {
-				DisplayName: Holographic Gun
+				DisplayName: Exception Handler
 				Tooltip:
 					'''
-					It will shoot your bullets in bubbles
-					After flying for 2.5 second the bubbles pop and bullets will be shot in your mouse direction
+					'Best way to fix the bugs'
+					Upon being held it will form a aim on top of players cursor
+					When LC is being pressed it will bug racket to strike to cursor position
+					First enemy being strike releases multiple electric bolts + all enemies take damage get charged debuff
 					'''
 			}
 
@@ -19724,7 +19692,7 @@ Mods: {
 					'''
 					'The thrill of the hunt... The promise of payment...'
 					Upon being held it will form a aim on top of players cursor
-					When LC is being pressed it will cause a area shot on the mouse direction
+					When LC is being pressed it will cause a area shot on the cursor position
 					While weapon is being held there is a small chance for purple headed ducks to fly above player
 					When player shoot any of these ducks they drop a soul heart that get shatter in 5 second + give player hunters rampage
 					This buff will empower your shots along with cause all of your guns hits inflict fear
@@ -19821,8 +19789,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Go ahead! Make my day...!'
-					Hitting enemies will inflict them ichor
-					Critical hit will make the bullet explode
+					Hits inflict fear
+					Critical hits may call divine justice from above which inflict angelic flames
 					Does not use any ammo
 					'''
 			}
@@ -21148,6 +21116,55 @@ Mods: {
 			KnifePack2: {
 				Tooltip: ""
 				DisplayName: Knife Pack2
+			}
+
+			BoxofSpiders: {
+				Tooltip: ""
+				DisplayName: Boxof Spiders
+			}
+
+			SpectralHolographicWall: {
+				DisplayName: Spectral Holographic Wall
+				Tooltip: ""
+			}
+
+			SpectralHolographicPlatform: {
+				Tooltip: ""
+				DisplayName: Spectral Holographic Platform
+			}
+
+			SpectralHolographicDoor: {
+				Tooltip: ""
+				DisplayName: Spectral Holographic Door
+			}
+
+			SpectralHolographicChest: {
+				Tooltip: ""
+				DisplayName: Spectral Holographic Chest
+			}
+
+			SpectralHolographicChair: {
+				Tooltip: ""
+				DisplayName: Spectral Holographic Chair
+			}
+
+			SpectralHolographicBlock: {
+				Tooltip: ""
+				DisplayName: Spectral Holographic Block
+			}
+
+			HolographicShard: {
+				Tooltip: "'A crystalized dust of cosmos'"
+				DisplayName: Double Phased Shard
+			}
+
+			HolographicSlimePouch: {
+				Tooltip:
+					'''
+					Right click to open
+					'You feel this will enrage the capital'
+					'''
+				DisplayName: Treasure Pouch (Holographic Slime)
 			}
 		}
 
@@ -23508,6 +23525,33 @@ Mods: {
 			DrEnergyEffect.DisplayName: Dr Energy Effect
 			DrFetusBat2.DisplayName: Dr Fetus Bat2
 			DrFetusWarpZone.DisplayName: Dr Fetus Warp Zone
+			BoneThrowerBone.DisplayName: Bone Thrower Bone
+			JusticeLight.DisplayName: Justice Light
+			BombWaterSmoke.DisplayName: Bomb Water Smoke
+			HSSword.DisplayName: H S Sword
+			HSSpike.DisplayName: H S Spike
+			HSScorchedGel.DisplayName: H S Scorched Gel
+			HSLandEffect.DisplayName: H S Land Effect
+			HSDreadBolt.DisplayName: H S Dread Bolt
+			HSDangerSign.DisplayName: H S Danger Sign
+			HSBowCharge.DisplayName: H S Bow Charge
+			HSArrow.DisplayName: H S Arrow
+			HSSword3.DisplayName: H S Sword3
+			HSSword2.DisplayName: H S Sword2
+			HSCandle.DisplayName: H S Candle
+			HSFlameCaller.DisplayName: H S Flame Caller
+			HSSun.DisplayName: H S Sun
+			HolographicStar2.DisplayName: Holographic Star2
+			HoloFallingSlime.DisplayName: Holo Falling Slime
+			HSArrow2.DisplayName: H S Arrow2
+			HSDiscoLaser.DisplayName: H S Disco Laser
+			HSSunRay.DisplayName: H S Sun Ray
+			HSInferno.DisplayName: H S Inferno
+			HSFlameExplosion.DisplayName: H S Flame Explosion
+			HSWallExplosion.DisplayName: H S Wall Explosion
+			HoloFallingSlime2.DisplayName: Holo Falling Slime2
+			HSItemDrop.DisplayName: H S Item Drop
+			GunShot2.DisplayName: Gun Shot2
 		}
 
 		Configs: {
