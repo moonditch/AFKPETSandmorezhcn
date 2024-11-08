@@ -1,4 +1,4 @@
-displayName = AFK宠物和更多模组汉化补丁
+displayName = AFK拓展和宠物模组汉化补丁
 author = moon.ditch，nobody
 version = 0.0.0.23
 translationMod = true

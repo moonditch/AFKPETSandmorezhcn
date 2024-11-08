@@ -1,7 +1,7 @@
 This mod is a Chinese Translation Patch of AFK's PETS and more(Early Alpha)
 
 介绍
-这是重启版本的afk宠物汉化
+这是重启版本的AFK拓展和宠物
 
 使用方法
 1.同时订阅AFK's PETS and more(Early Alpha)和本Mod
