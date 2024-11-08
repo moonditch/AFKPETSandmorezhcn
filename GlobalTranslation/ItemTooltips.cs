@@ -318,7 +318,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				//点金石
 				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
 				//卫星数据收集器
-				sb.Replace("Players current position: ", "玩家当前位置: ");
+				Player player = Main.player[Main.myPlayer];
+				sb.Replace("Players current position: " + (int)player.position.X + " X and " + (int)player.position.Y + " Y",
+							"玩家当前位置坐标: (" + (int)player.position.X/16 + ", " + (int)player.position.Y/16 + ")");
 				//雨伞
 				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
 				//暗影钥匙、圣骑士盾、圣骑士锤
