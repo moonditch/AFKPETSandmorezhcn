@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TigerForceLocalizationLib</name>
+    </assembly>
+    <members>
+        <member name="T:TigerForceLocalizationLib.Filters.FilterBase`1">
+            <summary>
+            用以筛选一个类型 <typeparamref name="T"/>
+            </summary>
+            <param name="filter">筛选规则, 返回 <see langword="true"/> 代表通过筛选</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.FilterBase`1.#ctor(System.Func{`0,System.Boolean})">
+            <summary>
+            用以筛选一个类型 <typeparamref name="T"/>
+            </summary>
+            <param name="filter">筛选规则, 返回 <see langword="true"/> 代表通过筛选</param>
+        </member>
+        <member name="P:TigerForceLocalizationLib.Filters.FilterBase`1.Filter">
+            <summary>
+            筛选规则, 返回 <see langword="true"/> 代表通过筛选
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.Filters.ILCursorFilter">
+            <summary>
+            用以筛选<see cref="T:MonoMod.Cil.ILCursor"/>
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.#ctor(System.Func{MonoMod.Cil.ILCursor,System.Boolean})">
+            <summary>
+            用以筛选<see cref="T:MonoMod.Cil.ILCursor"/>
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.op_BitwiseOr(TigerForceLocalizationLib.Filters.ILCursorFilter,TigerForceLocalizationLib.Filters.ILCursorFilter)">
+            <summary>
+            两个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.op_BitwiseAnd(TigerForceLocalizationLib.Filters.ILCursorFilter,TigerForceLocalizationLib.Filters.ILCursorFilter)">
+            <summary>
+            两个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.op_LogicalNot(TigerForceLocalizationLib.Filters.ILCursorFilter)">
+            <summary>
+            筛选规则不满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.MatchAll(TigerForceLocalizationLib.Filters.ILCursorFilter[])">
+            <summary>
+            多个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.MatchAny(TigerForceLocalizationLib.Filters.ILCursorFilter[])">
+            <summary>
+            多个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.Filters.ILCursorFilter.NoLanguageMethods">
+            <summary>
+            忽略在 Language.Xxx 方法中的字符串
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.Filters.ILCursorFilter.NoCommonLanguageMethods">
+            <summary>
+            忽略通常的调用本地化相关的字符串
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.Filters.ILCursorFilter.CommonCursorFilter">
+            <summary>
+            能够筛除一些基本不可能需要本地化的字符串
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.ILCursorFilter.MatchMethodUsage(System.Func{Mono.Cecil.MethodReference,System.Boolean})">
+            <summary>
+            筛选对此字符串的方法调用
+            </summary>
+            <param name="methodFilter">如果找不到方法调用, 那么参数为 <see langword="null"/></param>
+        </member>
+        <member name="T:TigerForceLocalizationLib.Filters.MethodFilter">
+            <summary>
+            用以筛选方法
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.#ctor(System.Func{System.Reflection.MethodInfo,System.Boolean})">
+            <summary>
+            用以筛选方法
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.op_BitwiseOr(TigerForceLocalizationLib.Filters.MethodFilter,TigerForceLocalizationLib.Filters.MethodFilter)">
+            <summary>
+            两个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.op_BitwiseAnd(TigerForceLocalizationLib.Filters.MethodFilter,TigerForceLocalizationLib.Filters.MethodFilter)">
+            <summary>
+            两个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.op_LogicalNot(TigerForceLocalizationLib.Filters.MethodFilter)">
+            <summary>
+            筛选规则不满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchAll(TigerForceLocalizationLib.Filters.MethodFilter[])">
+            <summary>
+            多个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchAny(TigerForceLocalizationLib.Filters.MethodFilter[])">
+            <summary>
+            多个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchName(System.String)">
+            <summary>
+            方法的名称是<paramref name="name"/>
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MismatchName(System.String)">
+            <summary>
+            方法的名称不是<paramref name="name"/>
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchNames(System.String[])">
+            <summary>
+            方法的名称是这些名称中的一个
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MismatchNames(System.String[])">
+            <summary>
+            方法的名称不是这些名称中的任意一个
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchDeclaringTypes(System.Boolean,System.Type[])">
+            <summary>
+            匹配 method.DeclaringType
+            </summary>
+            <param name="useDerivedCheck">是否检查是否是继承的类</param>
+            <param name="types">所匹配的类型</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchDeclaringTypes(System.Type[])">
+            <summary>
+            匹配 method.DeclaringType 是否是 <paramref name="types"/> 中任意类或其子类
+            </summary>
+            <param name="types">所匹配的类型</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchDeclaringType(System.Boolean,System.Type)">
+            <summary>
+            匹配 method.DeclaringType
+            </summary>
+            <param name="useDerivedCheck">是否检查是否是继承的类</param>
+            <param name="type">所匹配的类型</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.MatchDeclaringType(System.Type)">
+            <summary>
+            匹配 method.DeclaringType 是否是 <paramref name="type"/> 或其子类
+            </summary>
+            <param name="type">所匹配的类型</param>
+        </member>
+        <member name="P:TigerForceLocalizationLib.Filters.MethodFilter.CommonMethodFilter">
+            <summary>
+            能够筛除一些基本不可能需要本地化的方法
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.Filters.TypeFilter">
+            <summary>
+            用以筛选类型
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.#ctor(System.Func{System.Type,System.Boolean})">
+            <summary>
+            用以筛选类型
+            </summary>
+            <inheritdoc/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.op_BitwiseOr(TigerForceLocalizationLib.Filters.TypeFilter,TigerForceLocalizationLib.Filters.TypeFilter)">
+            <summary>
+            两个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.op_BitwiseAnd(TigerForceLocalizationLib.Filters.TypeFilter,TigerForceLocalizationLib.Filters.TypeFilter)">
+            <summary>
+            两个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.op_LogicalNot(TigerForceLocalizationLib.Filters.TypeFilter)">
+            <summary>
+            筛选规则不满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MatchAll(TigerForceLocalizationLib.Filters.TypeFilter[])">
+            <summary>
+            多个筛选规则需同时满足
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MatchAny(TigerForceLocalizationLib.Filters.TypeFilter[])">
+            <summary>
+            多个筛选规则满足其一即可
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MatchFullName(System.String)">
+            <summary>
+            类型的全名是<paramref name="fullName"/>
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MismatchFullName(System.String)">
+            <summary>
+            类型的全名不是<paramref name="fullName"/>
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames(System.String[])">
+            <summary>
+            类型的全名是这些名称中的一个
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.Filters.TypeFilter.MismatchFullNames(System.String[])">
+            <summary>
+            类型的全名不是这些名称中的任意一个
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystem`1">
+            <summary>
+            <br/>继承此类然后使用此类的 Localize 等方法以本地化方法中的硬编码字符串
+            <br/>如果是弱依赖的话要加上 <see cref="T:Terraria.ModLoader.JITWhenModsEnabledAttribute"/>
+            <br/>单例的初始化默认使用无参构造, 如果需要自定义构造则需要一个类型为 <see cref="T:TigerForceLocalizationLib.ForceLocalizeSystem`1.CustomInitializeFunctionDelegate"/>, 名字为 CustomInitializeFunction 的静态字段, 以描述如何构造此实例
+            </summary>
+            <typeparam name="TSelf">继承了此类的类自己</typeparam>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystem`1.CustomInitializeFunctionDelegate">
+            <summary>
+            自定义初始化构造的委托
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.Instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            <br/>替换一个方法中的字符串
+            <br/>只能在加载阶段使用
+            <br/>如果不想用反射, 可以使用<see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <br/>或 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <br/>或 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <br/>注意如果此方法有多个重载 (即多个重名的方法), 则上述三个无法使用 (只能用这个)
+            </summary>
+            <param name="methodInfo">此方法, 由反射得到</param>
+            <param name="localizations">需要替换的字符串, 键为替换前, 值为替换后</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            <br/>替换一个方法中的字符串
+            <br/>只能在加载阶段使用
+            </summary>
+            <param name="type">包含此方法的类型</param>
+            <param name="methodName">此方法名</param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="localizations"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <param name="typeName">包含此方法的类型的名字, 注意此类型必须在需汉化的模组中</param>
+            <param name="methodName">此方法名</param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="localizations"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <param name="typeFullName">
+            <br/>包含此方法的类型的全名, 注意此类型必须在需汉化的模组中
+            <br/>包含命名空间, 由 '.' 分隔
+            <br/>例: LunarVeilChinesePack.Systems.ForceLocalizeSystem
+            <br/>如果是内嵌类型, 则用 '+' 连接
+            <br/>例: LunarVeilChinesePack.Systems.ForceLocalizeSystem+TypeHelper
+            </param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="methodName"></param>
+            <param name="localizations"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodInfo,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+            <summary>
+            <br/>替换一个方法中的字符串
+            <br/>只能在加载阶段使用
+            <br/>如果不想用反射, 可以使用<see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByTypeFullName(System.String,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <br/>或 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByTypeName(System.String,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <br/>或 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <br/>注意如果此方法有多个重载 (即多个重名的方法), 则上述三个无法使用 (只能用这个)
+            </summary>
+            <param name="localizationsInOrder">
+            <br/>需要替换的字符串, 需按顺序装有 (替换前, 替换后) 的值
+            <br/>即使不需要替换也要写上一项 (替换前和替换后相同的值)
+            </param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodInfo,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByTypeName(System.String,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByTypeFullName(System.String,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
+            <summary>
+            <br/>替换所有子类中此方法的重写中的字符串
+            <br/>只能在加载阶段使用
+            <br/>如果不想用反射, 可以使用<see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
+            <br/>注意如果此方法有多个重载 (即多个重名的方法), 则上面那个无法使用 (只能用这个)
+            </summary>
+            <param name="includeSelf">是否同时替换此方法下的字符串</param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="methodInfo"></param>
+            <param name="localizations"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
+            <summary>
+            <br/>替换所有子类中此方法的重写中的字符串
+            <br/>只能在加载阶段使用
+            </summary>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.ReplaceString(System.String,System.String)">
+            <summary>
+            <br/>重写此方法以自定义如何替换字符串
+            <br/>默认直接返回 <paramref name="new"/>, 代表直接用新字符串替代旧字符串
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.ReplaceString_IL(MonoMod.Cil.ILCursor,System.String,System.String)">
+            <summary>
+            <br/>重写此方法以自定义在 IL 中如何替换字符串
+            <br/>默认为调用 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.ReplaceString(System.String,System.String)"/> 方法后直接将其返回值赋予 cursor.Next
+            </summary>
+            <param name="cursor">IL 指针, 它指向的语句为 ldstr <paramref name="old"/> (如果要插入语句的话需先调用 <see cref="M:MonoMod.Cil.ILCursor.MoveAfterLabels"/>)</param>
+            <param name="old">原字符串</param>
+            <param name="new">通过 Localize 系方法转入的新字符串</param>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.ModName">
+            <summary>
+            要汉化的模组的名字
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.NeedLog">
+            <summary>
+            是否报告错误和警告
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.ThrowException">
+            <summary>
+            是否在有错误时抛出
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.Logger">
+            <summary>
+            使用什么以报告日志
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper">
+            <summary>
+            用以辅助获取类型等
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper.ModAssembly">
+            <summary>
+            模组的程序集
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper.TypeByName">
+            <summary>
+            通过 Type.Name 为键构造的字典
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper.DuplicatedNames">
+            <summary>
+            在 <see cref="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper.TypeByName"/> 中有重复的键
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystem`1.TypeHelper.TypeByFullName">
+            <summary>
+            通过 <see cref="P:System.Type.FullName"/> 为键构造的字典
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystemByMod`2">
+            <summary>
+            <br/>此类需继承后使用, 这样不用重写 <see cref="P:TigerForceLocalizationLib.ForceLocalizeSystemByMod`2.ModName"/>, 其他与 <see cref="T:TigerForceLocalizationLib.ForceLocalizeSystem`1"/> 一致
+            <br/>同样需注意弱引用的处理, 而且由于在继承时直接使用了其他模组中的类, 所以弱引用时必须使用 <see cref="T:Terraria.ModLoader.ExtendsFromModAttribute"/>
+            </summary>
+            <typeparam name="TMod">要汉化的模组</typeparam>
+            <inheritdoc cref="T:TigerForceLocalizationLib.ForceLocalizeSystem`1"/>
+            <typeparam name="TSelf"></typeparam>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystemByMod`2.ModName">
+            <inheritdoc/>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystemImpl`1">
+            <summary>
+            <br/>此类可直接使用, 规则基本与 <see cref="T:TigerForceLocalizationLib.ForceLocalizeSystem`1"/> 一致
+            </summary>
+            <inheritdoc cref="T:TigerForceLocalizationLib.ForceLocalizeSystemByMod`2"/>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeText`1">
+            <summary>
+            <br/>此类需继承后使用
+            <br/>此类使用 Language.GetTextValue(key) 代替原字符串, 使用 Localize 系方法时传入的新字符串默认应是 hjson 中的键
+            </summary>
+            <inheritdoc cref="T:TigerForceLocalizationLib.ForceLocalizeSystem`1"/>
+        </member>
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeText`1.ReplaceString_IL(MonoMod.Cil.ILCursor,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeText`2">
+            <summary>
+            <br/>此类需继承后使用, 这样不用重写 <see cref="P:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeText`2.ModName"/>
+            <br/>此类使用 Language.GetTextValue(key) 代替原字符串, 使用 Localize 系方法时传入的新字符串默认应是 hjson 中的键
+            </summary>
+            <inheritdoc cref="T:TigerForceLocalizationLib.ForceLocalizeSystemImpl`1"/>
+        </member>
+        <member name="P:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeText`2.ModName">
+            <inheritdoc/>
+        </member>
+        <member name="T:TigerForceLocalizationLib.ForceLocalizeSystemByLocalizeTextImpl`1">
+            <summary>
+            <br/>此类可直接使用
+            <br/>此类使用 Language.GetTextValue(key) 代替原字符串, 使用 Localize 系方法时传入的新字符串应是 hjson 中的键
+            </summary>
+            <inheritdoc cref="T:TigerForceLocalizationLib.ForceLocalizeSystemImpl`1"/>
+        </member>
+        <member name="T:TigerForceLocalizationLib.TigerForceLocalizationHelper">
+            <summary>
+            用以辅助本地化的一些方法
+            </summary>
+        </member>
+        <member name="T:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters">
+            <summary>
+            筛选需要本地化的内容
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters.TypeFilter">
+            <summary>
+            筛选一个类型
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters.MethodFilter">
+            <summary>
+            筛选一个方法
+            </summary>
+        </member>
+        <member name="P:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters.CursorFilter">
+            <summary>
+            筛选特定字符串处的<see cref="T:MonoMod.Cil.ILCursor"/>
+            此时 <see cref="P:MonoMod.Cil.ILCursor.Next"/> 一般会指向一处 ldstr
+            </summary>
+        </member>
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeAll(System.String,System.String,System.Boolean,System.String,System.Boolean,TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters)">
+            <summary>
+            <br/>以 hjson 的方式本地化一个模组中的所有方法
+            <br/>在 PostSetup 阶段使用
+            <para/>
+            <br/>一对本地化字符串会存在 <paramref name="localizationRoot"/>.&lt;type.FullName>.&lt;method name>.&lt;i>.OldString/NewString 中
+            <br/>"i"必须从 1 开始逐一增加, 不能间断
+            <br/>如果有 NewString_&lt;j>, 那么代表方法中第 j 个出现的字符串会被替换为此字符串
+            <br/>j 同样需从 1 开始, 逐一增加, 不能间断
+            <br/>默认会将 OldString 对应的字符串替换为 NewString 或 NewString_1 所对应的字符串
+            </summary>
+            <param name="selfModName">
+            <br/>本地化模组自身的名字
+            <br/>用以自动设置本地化键名, 如果设置了 <paramref name="localizationRoot"/> 则此参数无效
+            </param>
+            <param name="modName">需本地化的目标模组的名字</param>
+            <param name="registerKey">
+            <br/>是否自动注册键
+            <br/>如果将其设置为 true 那么初次加载时如果目标模组较大可能会在加载时和"添加合成配方"时卡较长的时间
+            <br/>此时分别在添加 IL 钩子 和 注册本地化键
+            <br/>在"添加合成配方"后如果 <paramref name="localizationRoot"/> 以 "Mods.&lt;<paramref name="selfModName"/>>" 开头
+            <br/>那么本地化模组自身的 hjson 文件将会自动更新
+            </param>
+            <param name="localizationRoot">
+            <br/>本地化键名的根
+            <br/>默认为 "Mods.&lt;<paramref name="selfModName"/>>.ForceLocalizations"
+            <br/>建议以 "Mods.&lt;<paramref name="selfModName"/>>" 开头
+            <br/>实际的键名会是 &lt;<paramref name="localizationRoot"/>>.&lt;type.FullName>.&lt;method name>.&lt;序号>.OldString/NewString
+            </param>
+            <param name="useLocalizedText">
+            <br/>是否使用 <see cref="P:Terraria.Localization.LocalizedText.Value"/> 代替代码中的字符串
+            <br/>否则直接使用字符串替换
+            <br/>如果设置为 true 可能会稍微影响性能, 但是支持 hjson 热重载和多语言切换
+            </param>
+            <param name="filters">筛选需要本地化的内容</param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)">
+            <summary>
+            本地化特定方法, 具体规则见 <see cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeAll(System.String,System.String,System.Boolean,System.String,System.Boolean,TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters)"/>
+            </summary>
+            <param name="method">本地化的目标方法</param>
+            <param name="methodKey">
+            <br/>此方法的键名
+            <br/>实际的键名会是 &lt;<paramref name="methodKey"/>>.&lt;序号>.OldString/NewString
+            </param>
+            <param name="cursorFilter">
+            筛选特定字符串处的<see cref="T:MonoMod.Cil.ILCursor"/>
+            此时 <see cref="P:MonoMod.Cil.ILCursor.Next"/> 一般会指向一处 ldstr
+            </param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeAll(System.String,System.String,System.Boolean,System.String,System.Boolean,TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters)"/>
+            <param name="registerKey"></param>
+            <param name="useLocalizedText"></param>
+        </member>
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethodByRoot(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean)">
+            <param name="localizationRoot">
+            <br/>本地化键名的根
+            <br/>建议以 "Mods.&lt;selfModName>" 开头
+            <br/>实际的键名会是 &lt;<paramref name="localizationRoot"/>>.&lt;type.FullName>.&lt;method name>.&lt;序号>.OldString/NewString
+            </param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)"/>
+            <param name="method"></param>
+            <param name="registerKey"></param>
+            <param name="useLocalizedText"></param>
+            <exception cref="T:System.NullReferenceException"></exception>
+        </member>
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.ShowLocalizationRegisterProgress(System.String,System.String)">
+            <summary>
+            <br/>在加载模组的最后阶段显示添加键的进度
+            <br/>当 <see cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeAll(System.String,System.String,System.Boolean,System.String,System.Boolean,TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters)"/> 的 registerKey 为 <see langword="true"/> 时,
+            <br/>第一次注册键往往是一个漫长的过程
+            <br/>此方法可以在此过程中显示其进度
+            </summary>
+            <param name="progressTextFormat">进度文字的格式, 显示在进度条上方的大字, 其中 {0} 表示模组名</param>
+            <param name="subProgressTextFormat">副进度文字的格式, 显示在进度条下方的小字, 其中 {0} 表示本地化键名</param>
+        </member>
+        <member name="T:TigerForceLocalizationLib.TigerForceLocalizationLib">
+            <summary>
+            模组本类
+            </summary>
+        </member>
+    </members>
+</doc>

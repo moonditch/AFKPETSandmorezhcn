@@ -44,8 +44,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"", ""},
 			{"", ""},
 			*/
-			//UI
-			{"Trinket", "密藏"},
 			//街机游戏UI
 			{"MINIGAMES", "迷 你 小 游 戏"},
 			{"Sokoban", "推箱子"},

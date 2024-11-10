@@ -196,16 +196,16 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "这很重要！仔细阅读！！";
 					break;
 					case "LOVE-LETTER-FOR-YOU":
-					chat = "";
+					chat = "LOVE-LETTER-FOR-YOU";
 					break;
 					case "LOVER ALERT":
-					chat = "";
+					chat = "LOVER ALERT";
 					break;
 					case "CRITICAL_HEART_DIED":
-					chat = "";
+					chat = "CRITICAL_HEART_DIED";
 					break;
 					case "SYSTEM_LOVER_EXCEPTION":
-					chat = "";
+					chat = "SYSTEM_LOVER_EXCEPTION";
 					break;
 				}
 			}
