@@ -7676,7 +7676,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
-					'Yasuraka ni nemuru'
+					'安息'
 					'''
 			}
 

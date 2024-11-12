@@ -75,7 +75,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Angelic Shop", "天使商店"},
 			//设计师
 			{"Vanity Shop", "外观商店"},
+			{"You can share your heart with me", "你可以和我说说心里话"},
 			{"Help Her", "帮助她"},
+			//助教
+			{"Memory Test", "记忆测试"},
+			{"Start", "开始"},
+			{"Talk about Minigame", "关于小游戏"},
 			//研究员
 			{"Research Shop", "研究员商店"},
 			{"Fix Weapon", "修理武器"},
@@ -84,45 +89,57 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Reward Shop", "奖励商店"},
 			{"Next Boss", "下个Boss"},
 			{"Give Trophy", "给予纪念章"},
+			{"Boss Bag Shop", "宝藏袋商店"},
 			{"Change Option Type", "更改选项类型"},
+			//赏金猎人
+			{"Quest", "任务"},
 			//死灵傀儡法师
 			{"Start Training", "开始训练"},
 			//水族智者
 			{"Start the Challenge", "开始挑战"},
 			//幽灵陶伊
-			{"Start Trivia", "冷知识开始"},
+			{"Start Trivia", "冷知识提问开始"},
 			//神圣骑士，艺术家
 			{"Exchange", "交换"},
 			//刺客
 			{"Weapon Imbue Fear Toxin", "武器灌注恐惧毒素"},
+			//黑暗女猎手，受缚人质
+			{"Help", "帮助"},
+			{"Give Her Letter", "给她情书"},
+			{"Give Her Bride Costume", "给她婚裙和面纱"},
+			{"Give Her Both Your Heart and Ring", "将镌刻爱的戒指给她"},
+			//安全机器人
+			{"You are an Idiot", "你是个笨蛋"},
 			//神圣骑士，黑暗女猎手，皇家卫士，刺客
 			{"Shop", "商店"},
 			#endregion
 			
+			#region NPC离开
+			//设计师
+			{" return back to her home", "回到了她家"},
+			//艺术家
+			{" return back to her kingdom", "回到了她的王国"},
+			//流浪武士
+			{" return back to her clan", "回到了他的氏族"},
+			#endregion
 
 			#region Boss聊天语句
 			//死灵傀儡法师
 			{"Since contact is obvious I mostly want to talk about two specific magic attacks", "由于接触是显而易见的，我主要想谈谈两个具体的魔法攻击"},
 			{"While magic can be used to bring happiness and welfare, it also have a dark side", "虽然魔法可以带来快乐和幸福，但它也有黑暗的一面"},
 			{"So it would be nice if we test your dodging skills", "所以最好测试一下你的闪避技巧"},
-			{"Could you dodge the upcoming attack", "你能闪避即将到来的攻击吗我们能不能先友好地决斗一下"},
-			{"For next attack could you not move", "下次进攻可以不移动吗"},
-			{"For next attack could you continuously move", "下次进攻可以连续移动吗"},
+			{"For next attack could you not move", "可以不闪避"},
+			{"For next attack could you continuously move", "能躲开我的下次攻击吗"},
+			{"Hmm, other attack types are obvious so no need for showing", "嗯，其它类型的攻击很明显，所以不需要演示了"},
 			{"I guess this much knowledge is enough for today", "我想今天讲这么多就可以了"},
 			{"What, I have never fight with anyone but if you think it will be helpful", "什么，我从来没有和其他人打架过，但你认为这对你有帮助的话"},
-			{"What is happening", "发生了什么"},
-			{"Human please help me, it hurts", "人类，请帮帮我，很疼"},
-			{"I feel like something ripping apart", "我好像有什么东西要裂开了"},
-			{"That look on your face", "你脸上的表情"},
-			{"Do you really wish this", "你真的希望这样吗"},
-			{"I only want to help you", "我只是想帮你"},
-			{"Could we make a friendly duel before we stop", "我们能不能先友好地决斗一下"},
+			{"Then let's get started", "让我们开始吧"},
+			{"Could we make a friendly duel before we stop", "我们的战斗最好点到为止"},
 
 			//恶魔杀手
-			{"-Secret Art- Wind of Justice", "-秘密艺术-正义之风"},
-			{"You feel now you can help the tied dark huntress without any problem", "现在你可以直接地帮助束缚黑暗女猎手"},
-			{"Why did you kill that Dryad", "你为什么要杀那个树妖"},
-			{"They are so kind to every creature around them", "她对周围的每一个人都很好"},
+			{"-Secret Art- Wind of Justice", "-正义必杀技- 龙卷风摧毁停车场！"},
+			{"You feel now you can help the tied dark huntress without any problem", "现在你可以帮助受缚黑暗女猎手了"},
+			{"Why did you kill that Dryad? They are so kind to every creature around them", "你为什么要杀那个树妖?她对周围的每一个人都很好"},
 			{"Maybe it's time for cleaning this world from one more bandit", "也许是时候让我让这个世界再少一个邪恶了"},
 
 			//盘子女鬼
@@ -134,16 +151,16 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			//皇家风暴鸟号
 			{"Collect clear air bubbles to survive", "请收集干净的气泡存活"},
-			{"Brother, we have a problem here", "兄弟，我们有麻烦了"},
+			{"Brother, we have a problem here", "哥哥，我们有麻烦了"},
 			{"Storm Diver roger, target locked", "风暴潜水员收到，目标锁定"},
 			{"Sister you look hurt", "妹妹，你看起来受伤了"},
-			{"Retreat to the distance and recover", "先退到远处然后恢复"},
-			{"Now this is personal", "这是我个人问题"},
+			{"Retreat to the distance and recover", "先退到远处然后重整旗鼓"},
+			{"Now this is personal", "现在这是私人恩怨了"},
 			{"I no longer care for ethics", "我不再需要道德底线了"},
 			{"Look at my face and keep that hook away. I have a surprise for you", "看着我的脸，把武器拿开，我有惊喜要给你"},
-			//（无法读写）{"Other Harpies find me childish and idiotic but you've shown me ture care", "其他鹰身女妖觉得我幼稚愚蠢但你给了我真正的关心"},
+			// {"Other Harpies find me childish and idiotic but you've shown me ture care", "其他鹰身女妖觉得我幼稚愚蠢但你给了我真正的关心"},
 			{"Use Movement Keys to Pop Bubbles", "使用移动键击碎气泡"},			
-			{"Thank you for shining as a summer sun in my foolish life, brother", "感谢你在我愚蠢的生命中像夏日的太阳照耀着我，兄弟"},
+			{"Thank you for shining as a summer sun in my foolish life, brother", "感谢你在我愚蠢的生命中像夏日的太阳照耀着我，哥哥"},
 
 			//不死厨师
 			{"Go away, I'm busy with choosing the dessert", "走开，我正忙着选甜点呢"},
@@ -218,9 +235,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Which instrument below detects electric current?\nA. Galvanometer\nB. Voltmeter\nC. Wattmeter", "下面哪个仪器可以检测电流?\nA. 电流计\nB. 电压表\nC. 瓦特计"},
 			#endregion
 
-			//npc击败并离开这个世界
+			#region Boss被击败
 			//死灵傀儡法师
-			{"Antony's spirit find a way to escape", "安东尼的灵魂找到了逃跑的路线"},
+			{"What is happening?Human please help me, it hurts", "发生了什么?泰拉人，请帮帮我，很疼"},
+			{"I feel like something ripping apart", "我感到好像有什么东西要裂开了"},
+			{"That look on your face... Do you really wish this? I only want to help you", "你脸上的表情...你真的希望这样吗?我只是想帮你"},
+			{"Antony's spirit find a way to escape", "安东尼的灵魂得到到了解脱"},
 
 			//恶魔杀手
 			{"It seems chemicals leaked from his jetpack burn him alive", "喷气背包泄露的化学物质似乎把他活活烧死了"},
@@ -235,16 +255,16 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Below awaits until he is being forgiven", "在火湖等待着被他宽恕"},
 
 			//皇家鸟妖风暴号
-			{"Brother...NO", "哥哥...不"},
-			{"Please don't leave me alone", "请不要丢下我一个人"},
-			{"It hurts...but that's ok...I will see brother again instead of being alone", "这让我很伤心……不过没关系……我将再次见到哥哥，而不是自己一个"},
-			{"Thank you human...For ending my life...Rather than ending my honor", "谢谢你，人类……为了结束我的生命…而不是结束荣誉"},
-			{"This is the end...Sister...I'll be there soon", "这就结束了……妹妹……我马上就到"},
+			{"Brother...NO! Please don't leave me alone.", "哥哥...不！请不要丢下我一个人"},
+			{"It hurts...but that's ok...I will see brother again instead of being alone...", "这很痛...但没关系...我将再次见到哥哥，而不是孤单一人..."},
+			{"Thank you human...For ending my life...Rather than ending my honor...", "谢谢你，泰拉人...因为你结束了我的生命...而不是玷污了我的荣誉"},
+			{"This is the end...Sister...I'll be there soon...", "这就结束了……妹妹……我马上就到"},
 			{"A man that cannot protect his family...Has no right to live...", "一个不能保护家人的我…没有生存的权利..."},
 
 			//胎儿博士
 			{"Dr Fetus start to get serious", "胎儿博士开始变得严肃起来"},
 			{"It's now defenseless", "它现在毫无防备"}
+			#endregion
 		};
 	}
 }
