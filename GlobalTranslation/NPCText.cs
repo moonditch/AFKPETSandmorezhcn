@@ -886,7 +886,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "请不要抛弃我，我还是很怕他们有一天会找来。";
 					break;
 					case "...Um what are you doing? Are you patting my head? That's fine, but ...":
-					chat = "……嗯，你在做什么？你在拍我的头吗？这样挺好，但……";
+					chat = "嗯，你在做什么？你在拍我的头吗？这样挺好，但...";
 					break;
 					case "I will do anything I can do to help you.":
 					chat = "我会尽我所能帮助你";

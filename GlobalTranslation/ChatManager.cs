@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.UI.Chat;
 
@@ -168,10 +169,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"let me show our hospitality", "让我来表示我们的热情"},
 
 			//史莱姆复仇联盟
-			{"Let's beat", "朋友们"},
-			{"this murderer", "让我们一起"},
-			{"together friends", "杀死这个杀人犯"},
-			{"I will hide our aura", "我会隐藏我们的气味"},
 			{"Shadow Clone Jutsu", "影分身の術"},
 			{"How you kill him you heartless monster", "你怎么把他杀了，你这个无情的怪物"},
 			{"Time for the shinobi execution", "是时候处决你了"},
@@ -263,7 +260,129 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			//胎儿博士
 			{"Dr Fetus start to get serious", "胎儿博士开始变得严肃起来"},
-			{"It's now defenseless", "它现在毫无防备"}
+			{"It's now defenseless", "它现在毫无防备"},
+			#endregion
+
+			#region ModPlayer Prekill
+			//空白塔罗牌
+			{"Blank card vibrates similar to heart beat", "空白塔罗牌如心跳般颤动"},
+			{"Blank card vibrates with released magical essense", "空白塔罗牌随着魔法精华的释放而颤动"},
+			//智者的抗辩
+			{" endured killing blow", "受了致命的一击"},
+			{" find the path of Yuri.", "踏上了尤里之道"},
+			//英格瓦斯的符文
+			{"Rune have shown" + Main.LocalPlayer.name + " a new beginning", "符文给了" + Main.LocalPlayer.name + "一个新的开始"},
+			//仙酿
+			{"... Not now!", "还不够！"},
+			//救赎之杖
+			{" have escaped from death", "逃脱了死亡"},
+			//呼唤之花
+			{"... but it refused.", "...但它拒绝了"},
+			//隙间、德尔塔符文、粉红色的伞
+			{"Spell Card:Barrier \"Boundary of Life and Death\"", "法术牌：屏障 \"生与死的界限\""},
+			//PID、德尔塔符文
+			{"OMFG YOU DO NOT KILL Player! Player KILLS YOU!!!!!", "我的天啊！你不该杀了玩家！泰拉人会杀了你！！！！"},
+			#endregion
+
+			#region 模组指令
+			//AnswerCommand
+			{"Player give answer as", "玩家回答"},
+			//BossLifeAdjustCommand
+			{"Boss life have been adjusted", "Boss生命值已调整"},
+			//FunActivateCommand
+			{"The air is filled with [c/ffff00:fun]", "空气中充满了[c/ffff00:趣味]的气氛"},
+			{"You feel they return back to normal", "你感到有些事物离去了"},
+			{"You feel something went wrong", "你感到刚才的指令不对劲"},
+			//LastFrameAdjustCommand = 幻影镜
+			{"Last frame have been adjusted", "结束帧已调整"},
+			//WikiSearchWikiCommand
+			{"Wiki have been adjusted to", "Wiki 已切换"},
+			//WikiSearchWordCommand
+			{"Search word have been adjusted to", "检索词已切换"},
+			#endregion
+
+			//被祝福近古守卫
+			{"Broken Washing Machine sacrifice itself to protect" + Main.LocalPlayer.name + "'s soul", "献祭了自己来保护" + Main.LocalPlayer.name + "的灵魂"},
+			
+
+			#region 物品
+			//空白塔罗牌
+			{"Blank card empowered with greed", "空白塔罗牌注满了贪婪"},
+			{"Blank card shines with the light of the stars", "空白塔罗牌沐浴着星光，熠熠生辉"},
+			{"Blank card enjoys the journey", "空白塔罗牌享受与你的这段旅程"},
+			{"Blank card enlighted with your hobby", "空白塔罗牌因你的爱好而焕发光彩"},
+			//垃圾
+			{"There is nothing valuable here", "这里没有什么值钱的东西"},
+			//邪恶之心
+			{"Unholy artifact have been destroyed by the flames of hell ", "邪恶的神器已被地狱之火摧毁"},
+			{"But you still feel his powers are growing", "但你仍然觉得它的力量在增长"},
+			//礼物袋
+			{"I heard you like pillar fragments.", "我听说你喜欢四柱碎片"},
+			{"Looks Spooky", "看起来阴森可怖"},
+			{"Who put souls here", "谁把魂放在这里了"},
+			{"Inside shines like sun .", "亮晶晶的宝石"},
+			{"Wait ... WHAT?", "等等...这是什么？"},
+			{"Cosmic Stardust surronds you", "宇宙星辰环绕于你"},
+			{"How even this bag didn't burn ?", "这袋子怎么没被点燃？"},
+			{"A meteorite has landed into your pocket!", "一颗陨石落入你的口袋！"},
+			//痛苦的地球
+			{"The blood lusted souls are now free", "嗜血的灵魂现在自由了"},
+			//水晶监牢
+			{"The crystal shattered into million little pieces", "水晶碎成了无数小块"},
+			//黏液的玻璃囚笼
+			{"[c/ffff00:Let's beat] [c/FF0000:this murderer] [c/0009FF:together friends]", "[c/ffff00:伙伴们，][c/0009FF:让我们一起][c/FF0000:惩罚这个凶手]"},
+			{"I will hide our aura", "我会隐藏我们的踪迹"},
+			//史莱姆战旗
+			{"Slime troop have located your position", "史莱姆军队发现了你的位置"},
+			//趣味徽章
+			{"It seems someone left vac active", "现在还不是时候"},
+			{"Maybe you should try it when there is no boss active", "也许你应该在没有Boss时再试试"},
+			//混沌观察者
+			{"You are not worthy for now.", "你现在不配"},
+			//瓶中星系
+			{"Now you can't drain fragments power", "现在你不能吸取四柱碎片的能量"},
+			{"Now you can drain fragments power", "现在你可以吸取四柱碎片的能量"},
+			//植物学手册
+			{"This is a ", "这是一株"},
+			{"not grown", "未成熟的"},
+			{"fully grown", "成熟的"},
+			{" carrot plant", "胡罗卜"},
+			{" potato plant", "土豆"},
+			{" glow berry plant", "光莓"},
+			{" flax plant", "亚麻"},
+			{" beet plant", "甜菜"},
+			{" miracle fruit plant", "奇迹之果"},
+			//无线电探测器
+			{"First found plantera bulb is in ", "世纪花苞的坐标是 ("},
+			{"X and ", ", "},
+			{"Y location", ")"},
+			{"Your world does not contain any Plantera bulb", "你的世界未找到世纪花苞"},
+			{"First found lihzahrd altar is in ", "丛林蜥蜴祭坛的坐标是 ("},
+			{"Your world does not contain any Lihzahrd altar", "你的世界未找到丛林蜥蜴祭坛"},
+			//微型房屋定位器
+			{"Your world does not contain any tiny house", "你的世界未找到微型房屋"},
+			{"With respect to their remaining empty slots items have been sent", "已将所有未收藏的物品放到微型房屋里"},
+			//符卡
+			{"All active bosses have been sealed away", "当前存在的Boss已被封印"},
+			//皓月的皎洁
+			{"Majora's Mask Moon have been adjusted.", "已变幻为《塞尔达传说：时之笛》中的月之面具"},
+			{"[c/FF8C00:Pumpkin Moon] have been adjusted.", "已变幻为[c/FF8C00:南瓜月]"},
+			{"[c/00FFFF:Snow Moon] have been adjusted.", "已变幻为[c/00FFFF:雪月]"},
+			{"[c/0000FF:Blue Moon] have been adjusted.", "已变幻为[c/0000FF:蓝月]"},
+			{"[c/ffff00:PopStar] have been adjusted.", "已变幻为[c/ffff00:流行之星]"},
+			{"[c/FF1493:Eye of ???] have been adjusted.", "已变幻为[c/FF1493:???之眼]"},
+			{"[c/008000:Dusa Moon] have been adjusted.", "已变幻为[c/008000:杜莎月]"},
+			{"Vanilla Moon have been adjusted.", "已变幻为原版月亮"},
+			{"[c/FF1493:Natsuki Moon] have been adjusted.", "已变幻为[c/FF1493:夏树月]"},
+			//日耀的光辉
+			{"[c/FFFF00:Teletubbies Sun] have been adjusted.", "已变幻为[c/FFFF00:天线宝宝太阳]"},
+			{"[c/FFFF00:Sunglasses Sun] have been adjusted.", "已变幻为[c/FFFF00:墨镜太阳]"},
+			{"[c/FFFF00:Eclipse Sun] have been adjusted.", "已变幻为[c/FFFF00:日食]"},
+			{"[c/FFFF00:Realistic Sun] have been adjusted.", "已变幻为[c/FFFF00:写实太阳]"},
+			{"[c/008000:Dusa Sun] have been adjusted.", "已变幻为[c/008000:杜莎太阳]"},
+			{"[c/FFFF00:Old Sun] have been adjusted.", "已变幻为[c/FFFF00:古老太阳]"},
+			{"Vanilla Sun have been adjusted.", "已变幻为原版太阳"},
+			{"[c/FF1493:Natsuki Sun] have been adjusted.", "已变幻为[c/FF1493:夏树太阳]"}
 			#endregion
 		};
 	}

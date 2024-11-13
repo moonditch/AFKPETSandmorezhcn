@@ -3202,13 +3202,13 @@ Mods: {
 			}
 
 			MinigameTime: {
-				DisplayName: Remaining Time
-				Description: You should answer question before time ends
+				DisplayName: 时限
+				Description: 你应该在时限内回到问题
 			}
 
 			MiniSATLA: {
-				DisplayName: Mini-SATLA-001
-				Description: SATLA is observing various data
+				DisplayName: 迷你SATLA-001
+				Description: SATLA 正在观察不同维度
 			}
 
 			MiragePet: {
@@ -3307,8 +3307,8 @@ Mods: {
 			}
 
 			NebulaBuff: {
-				DisplayName: Nebula Fragment
-				Description: Your magic attack damages increase by 7%
+				DisplayName: 星云碎片
+				Description: 增加 7% 魔法伤害
 			}
 
 			Nightmare: {
@@ -4132,8 +4132,8 @@ Mods: {
 			}
 
 			SolarBuff: {
-				DisplayName: Solar Fragment
-				Description: Your melee attack damages increase by 7%
+				DisplayName: 日耀碎片
+				Description: 增加 7% 近战伤害
 			}
 
 			Sonic: {
@@ -4187,13 +4187,13 @@ Mods: {
 			}
 
 			StardustBuff: {
-				DisplayName: Stardust Fragment
-				Description: Your maximum number of minions increase by 1
+				DisplayName: 星尘碎片
+				Description: 增加 1 最大仆从栏
 			}
 
 			StardustCellTransform: {
-				DisplayName: Stardust Cell Transform
-				Description: You feel strange
+				DisplayName: 星尘细胞变身
+				Description: 你感到有些奇贵啊
 			}
 
 			StarHeartShield: {
@@ -4592,8 +4592,8 @@ Mods: {
 			}
 
 			VortexBuff: {
-				DisplayName: Vortex Fragment
-				Description: Your ranged attack damages increase by 7%
+				DisplayName: 星璇碎片
+				Description: 增加y 7% 远程伤害
 			}
 
 			Wailord: {
@@ -7396,7 +7396,7 @@ Mods: {
 					'''
 					'M7A3防爆CS'
 					受冲击波影响的的敌人暂时失明
-					暴击会让非BOSS敌人感到头晕，对于BOSS或非暴击，施加困惑
+					暴击会让非Boss敌人感到头晕，对于Boss或非暴击，施加困惑
 					'''
 			}
 
@@ -8785,7 +8785,7 @@ Mods: {
 					'''
 					'等等，白名单不是冒名顶替者......'
 					右键传送器传送到其他传送器，如果没有其他传送器，传送到相同的传送器
-					BOSS存在时不能使用该道具
+					Boss存在时不能使用该道具
 					'''
 			}
 
@@ -14116,9 +14116,9 @@ Mods: {
 					'''
 					'就连现实也在微笑'
 					使用它将激活或关闭趣味模式
-					有BOSS存在时无法激活或关闭趣味模式
-					在趣味模式下，BOSS获得新的攻击方式
-					在趣味模式下，击败BOSS有25%的概率获得掉落趣味模式专属宠物”
+					有Boss存在时无法激活或关闭趣味模式
+					在趣味模式下，Boss获得新的攻击方式
+					在趣味模式下，击败Boss有25%的概率获得掉落趣味模式专属宠物”
 					当前版本需要重做，讽刺的是它并不有趣，所以建议在得到改进之前不要使用它
 					'''
 			}
@@ -14434,12 +14434,12 @@ Mods: {
 			}
 
 			Twilightinabottle: {
-				DisplayName: 瓶中星系（不理解什么碎片，以后测试）
+				DisplayName: 瓶中星系
 				Tooltip:
 					'''
 					'里面充满了古代恒星的残骸'
 					'它看起来既漂亮又强大'
-					使用它将使你通过吸取碎片能量或失去吸取碎片能量
+					使用后，使玩家通过右键点击四柱碎片获取增益或失去增益
 					'''
 			}
 
@@ -14791,7 +14791,7 @@ Mods: {
 					'''
 					'无法触碰'
 					收藏后破坏 19x19 的墙壁
-					猛击地面会生成一个排斥非BOSS敌人的射弹，施加软弱、霜冻和狱火
+					猛击地面会生成一个排斥非Boss敌人的射弹，施加软弱、霜冻和狱火
 					'''
 			}
 
@@ -15111,7 +15111,7 @@ Mods: {
 					'''
 					'当他们说你被禁足的时候不要笑'
 					它允许玩家在AFK宠物特殊UI未激活的情况下，通过使用此功能在任何地方的街机迷你游戏
-					在没有BOSS或小BOSS的情况下玩街机游戏或检查任何信息UI时，玩家获得无敌
+					在没有Boss或小Boss的情况下玩街机游戏或检查任何信息UI时，玩家获得无敌
 					'''
 			}
 
@@ -15325,8 +15325,8 @@ Mods: {
 				DisplayName: 符卡
 				Tooltip:
 					'''
-					'它是灵梦用来封印妖怪众多符卡之一
-					使用它会消灭(另一种意义的消灭)当前存在的BOSS
+					'它是灵梦用来封印妖怪众多符卡之一'
+					使用它会消灭(另一种意义的消灭)当前存在的Boss
 					'''
 			}
 
@@ -15380,7 +15380,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它曾经是由月亮能量和力量形成的'
-					使用它会将您的月亮更改为自定义类型。
+					使用它会将您的月亮更改为自定义类型
 					重启游戏时，重置原版月亮的类型
 					'''
 			}
@@ -16190,7 +16190,7 @@ Mods: {
 				Tooltip:
 					'''
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时模组和原版BOSS纪念章掉落概率提升10%
+					装备此密藏时模组和原版Boss纪念章掉落概率提升10%
 					'''
 			}
 
@@ -17310,7 +17310,7 @@ Mods: {
 					'抱歉，到底是Y型还是Δ型来着？'
 					使用后召唤一个全息变换器来平衡负载
 					在该范围内的近距离敌人，其最大生命值、防御力和伤害值
-					会趋向于该区域内所有非BOSS敌人这些属性的平均值
+					会趋向于该区域内所有非Boss敌人这些属性的平均值
 					'''
 			}
 
@@ -20856,7 +20856,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:辅助之魂]
-					'幸好你不是一个BOSS、孩童或者房子，所以你是安全的'
+					'幸好你不是一个Boss、孩童或者房子，所以你是安全的'
 					使用时召唤一个小型灾难之魂来保护玩家，每为无上之主提供1k订阅便为其提供5%强化
 					此功能需要启用网络连接
 					大幅减少领域内模组哨兵的冷却
