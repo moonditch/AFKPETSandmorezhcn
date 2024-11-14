@@ -328,13 +328,13 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 				//wiki说明
 				sb.Replace("It drops from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy",
-							"[c/FF0000:饼干板条箱]掉落\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
+							"[c/FF0000:饼干板条箱]掉落\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Box]\nIt become fishable in ocean after player equip [c/FF0000:Cookie Badge] which drop from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nIf player activate no fish mechanic option from mod config it bypass this",
-							"可以从 [c/FF0000:饼干盒] 获得\n装备 [c/FF0000:饼干板条箱] 掉落的 [c/FF0000:饼干徽章] 后，钓鱼有几率获得 [c/FF0000:饼干盒]\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n如果在设置中启用了禁用额外的钓鱼机制选项，将绕过此限制");
+							"可以从 [c/FF0000:饼干盒] 获得\n装备 [c/FF0000:饼干板条箱] 掉落的 [c/FF0000:饼干徽章] 后，钓鱼有几率获得 [c/FF0000:饼干盒]\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n如果在设置中启用了禁用额外的钓鱼机制选项，将绕过此限制");
 				sb.Replace("It drops from [c/FF0000:Spirit of Gluttory]\nFirst defeat [c/FF0000:Cookie Crate]\nThen burn [c/FF0000:Cookie Badge] item with [c/FF0000:Lamb Sauce][c/FF0000:Cookie Crate] could be awoken from fishing her in ocean",
-							"[c/FF0000:贪食之魂]掉落\n首先击败 [c/FF0000:饼干板条箱]\n然后在友好的饼干魂面前用 [c/FF0000:羊酱汁] 燃烧 [c/FF0000:饼干徽章] 以激怒它\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
+							"[c/FF0000:贪食之魂]掉落\n首先击败 [c/FF0000:饼干板条箱]\n然后在友好的饼干魂面前用 [c/FF0000:羊酱汁] 燃烧 [c/FF0000:饼干徽章] 以激怒它\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Crate] and [c/FF0000:Cookie Box]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nCheck [c/FF0000:Cookie Box] lil wiki entry for more info for it",
-							"可以从 [c/FF0000:饼干板条箱] 和 [c/FF0000:饼干盒] 获得\n海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n查看 [c/FF0000:饼干盒] 以获取更多信息");
+							"可以从 [c/FF0000:饼干板条箱] 和 [c/FF0000:饼干盒] 获得\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人\n查看 [c/FF0000:饼干盒] 以获取更多信息");
 
 				sb.Replace("It requires at least 50% full fishing power to be caught\nFull fishing power = fishing power + bait power\n",
 							"要求最少有50%的总渔力才能钓到\n总渔力包括药水、饰品、套装和鱼饵\n");

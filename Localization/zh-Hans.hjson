@@ -1137,13 +1137,13 @@ Mods: {
 			}
 
 			BrainDebuff: {
-				DisplayName: Functionality loss
-				Description: It feels different
+				DisplayName: 功能丧失
+				Description: 它让你感觉奇异
 			}
 
 			BrainDebuff2: {
-				DisplayName: Functionality loss
-				Description: It feels different
+				DisplayName: 功能丧失
+				Description: 它让你感觉奇异
 			}
 
 			BrideCirno: {
@@ -6400,7 +6400,7 @@ Mods: {
 				DisplayName: 激活密钥
 				Tooltip:
 					'''
-					'看起来黏液王国没有使用云激活验证系统'
+					'看起来史莱姆王国没有使用云激活验证系统'
 					装备后，召唤精英小坦克为你而战，拥有36点基础伤害
 					它将瞄准最近的敌人攻击，然后爆炸成剧毒的紫色凝胶
 					'''
@@ -13183,7 +13183,7 @@ Mods: {
 			}
 
 			ShogunSlimesHelmet: {
-				DisplayName: 史莱姆战士的头盔
+				DisplayName: 史莱姆将军的头盔
 				Tooltip: "'戏弄它的门徒会让猫猫头前来复仇'"
 			}
 
@@ -14515,11 +14515,11 @@ Mods: {
 			}
 
 			Spinnerbait: {
-				DisplayName: 柳叶形复合亮片
+				DisplayName: 复合亮片诱饵
 				Tooltip:
 					'''
 					'钓鱼很有趣……抓鱼更好'
-					有更高的概率捕捉NPC和在困难模式下，它有轻微的机会钓到猪龙鱼公爵
+					有更高的概率捕捉NPC,在困难模式下有极低钓到猪龙鱼公爵
 					'''
 			}
 
@@ -14710,7 +14710,7 @@ Mods: {
 				Tooltip:
 					'''
 					海洋中的公爵，正在寻找一种稀有的美味的鱼
-					一次抛出5条线（测试结果只有一根）
+					一次抛出 5 条线
 					它的线永远不会断，它增加了捕获板条箱的机会，同时减少了诱饵的使用
 					拿着鱼竿的猪龙鱼宝宝会保护你
 					'''
@@ -15470,7 +15470,7 @@ Mods: {
 				DisplayName: 狂怒至镐
 				Tooltip:
 					'''
-					'它曾经由亘古领主的怒火锻造，以塑造他的宇宙'
+					'它曾经由亘古领主狂怒锻造，以塑造他的宇宙'
 					根据斯卡莱多德象形文字，它是在宇宙黑暗时代锻造的
 					<left>允许你将其用作镐头，而<right>激活特殊能力
 					鼠标右键+键盘上键 点亮你的灵魂，3 秒内用狂怒之火照亮周围
@@ -19527,7 +19527,7 @@ Mods: {
 			}
 
 			ForgottenRevolver: {
-				DisplayName: 远古智慧的带来者
+				DisplayName: 远古智慧之源
 				Tooltip:
 					'''
 					'它曾由亘古领主博洛丝姆从虚无中铸就而成，至今仍忠诚于其战主'
@@ -20715,7 +20715,7 @@ Mods: {
 				DisplayName: 老船长的步行手杖
 				Tooltip:
 					'''
-					'这根手杖曾被黑胡子船员的老船长使用，直到他在与黏液王国海军的战斗中被枪杀'
+					'这根手杖曾被黑胡子船员的老船长使用，直到他在与史莱姆王国海军的战斗中被枪杀'
 					手持时，老船长的鹦鹉会坐在你的头上，左键会使其飞向光标，攻击附近的敌人
 					一段时间后，它会回到你的头上休息，并召唤它的一个船员战斗
 					如果玩家没有持有这根手杖，而鹦鹉正在休息，那么船员会消失，只有在玩家持有这根手杖时才会战斗
