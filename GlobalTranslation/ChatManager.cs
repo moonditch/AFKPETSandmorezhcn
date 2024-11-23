@@ -134,7 +134,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			//皇家风暴鸟号
 			{"Collect clear air bubbles to survive", "请收集干净的气泡存活"},
 			{"Brother, we have a problem here", "哥哥，我们有麻烦了"},
-			{"Storm Diver roger, target locked", "风暴潜水员收到，目标锁定"},
+			{"Storm Diver roger, target locked", "皇家鸟妖风暴号收到，目标锁定"},
 			{"Sister you look hurt! Retreat to the distance and recover", "妹妹，你看起来受伤了！先退到远处然后重整旗鼓"},
 			{"Now this is personal! I no longer care for ethics!", "现在这是私人恩怨了！我不再顾及道德底线了"},
 			{"Look at my face and keep that hook away. I have a surprise for you", "看着我的脸，把武器拿开，我有惊喜要给你"},
@@ -161,6 +161,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Go away, I'm busy with choosing the dessert", "走开，我正忙着选甜点呢"},
 			{"How you even manage to burn down such a beauty", "你是怎么烧出这么好的东西的"},
 			{"let me show our hospitality", "让我来表示我们的热情"},
+
+			//英勇史莱姆
+			{"If you kill the light only darkness remain...", "如果你熄灭了光，只剩下黑暗..."},
+			{"I can see where this ends, human", "泰拉人，我对这个结局早有预料"},
+			{"I choose dying with my honor", "我选择带着荣誉而死"},
 
 			//史莱姆复仇联盟
 			{"Shadow Clone Jutsu", "影分身の術"},

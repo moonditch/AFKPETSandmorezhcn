@@ -31,11 +31,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				if (tip == "Player get small amount of offensive + defensive + movement")
 					tip = "小幅提升威胁度、防御和移动速度";
 			}
-			/*if (type == ModContent.BuffType<Guardian>())
-			{
-				if (tip == "")
-					tip = "";
-			}*/
 		}
 	}
 }	

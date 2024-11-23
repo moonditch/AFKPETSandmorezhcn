@@ -43,7 +43,7 @@ namespace AFKPETSandmorezhcn
 		}
 		public static void LocalizeMethod_LocalizeAll(string targetModName)
 		{
-			TigerForceLocalizationHelper.LocalizeAll(nameof(AFKPETSandmorezhcn), targetModName, registerKey: false);
+			TigerForceLocalizationHelper.LocalizeAll(nameof(AFKPETSandmorezhcn), targetModName, registerKey: false, "Mods.AFKPETSandmorezhcn");
 		}
 	}
 	public class AFKPETSandmorezhcnPlayer : ModPlayer
@@ -51,7 +51,7 @@ namespace AFKPETSandmorezhcn
 		public override void OnEnterWorld()
 		{
 			//Main.NewText("AFK模组更新 v9.9.9.78 ，物品重做和战斗改进，具体参照模组创意工坊的更新日志.", Color.Orange);
-			Main.NewText("汉化模组更新，增加更多汉化\n使用复合亮片诱饵有5%几率掉到饼干板条箱", Color.Orange);
+			Main.NewText("汉化模组更新，增加更多汉化\n汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}
 }

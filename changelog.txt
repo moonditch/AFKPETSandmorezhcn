@@ -3,4 +3,3 @@ Github：https://github.com/moonditch/AFKPETSandmorezhcn
 = 适配AFKPets v9.9.9.78
 
 = 汉化模组更新，增加更多汉化
-= 提示：使用复合亮片诱饵有5%几率掉到饼干板条箱

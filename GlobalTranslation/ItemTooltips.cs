@@ -33,6 +33,17 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Taking heart while having full hp spawn dolls that attack close enemies\nIf player have ability to flight they also gain that ability",
 							"满血状态获得心时，生成攻击敌人的玩偶\n玩偶会复制玩家的攻击手段");
 				
+				//点金石
+				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
+				//卫星数据收集器
+				Player player = Main.player[Main.myPlayer];
+				sb.Replace("Players current position: " + (int)player.position.X + " X and " + (int)player.position.Y + " Y",
+							"玩家当前位置坐标: (" + (int)player.position.X/16 + ", " + (int)player.position.Y/16 + ")");
+				//雨伞
+				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
+				//暗影钥匙、圣骑士盾、圣骑士锤
+				sb.Replace("Can be traded with holy knight", "可与神圣骑士进行交易");
+
 				//血月
 				sb.Replace("There are few notes being take in red but sadly they are not readable\nMaybe they become readable in scarlet nights",
 							"有一些字迹是用红色写的，但遗憾的是无法辨认\n也许在猩红的夜晚它们会变得可以阅读");
@@ -61,7 +72,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Harvesting plants have a small chance to concentrate metals in their molecules which cause player to be able to collect ores from them\nKilling enemies have a small chance to harvest their souls\nEfficiency stat will increase the collection rate of the plants + hay when this tool will be used\nWhile equipped as trinket it will allow player to form electric dash with 1.5 second cooldown\nWhile doing electric dash player bypass projectile modifiers.FinalDamage.Flat + slamming enemy both generate lightning bolts + inflict electrified\n[c/FFC0CB:Mom's Box Effect]:Non boss enemy slam gain dynamic knockback + inflict Kizuna's Attraction\nRC to item to generate pure enegy to use it as trinket\nWhen player press down along with trinket hotkey player will drop all trinkets and else cycle new one with olders\nWhen player is holding trinket by pressing trinket key it can unequip the trinket\n                                                   -Page 2-",
 							"收割植物时有很小的几率富集金属，额外产生矿石\n杀死敌人时，有很小的几率收获他们的灵魂\n效率属性将提升此工具用于收割植物和干草时的采集速度\n右键生成羁绊火花\n装备在密藏栏时，玩家可以使用闪电冲刺，1.5 秒冷却时间\n无视射弹，撞击敌人时释放闪电并造成带电效果\n[c/FFC0CB:收纳盒特殊能力]: 重击非Boss敌人造成强力击退，施加羁绊引力\n当玩家按下密藏快捷键时，将卸下所有密藏\n当玩家手持密藏按下密藏快捷键时，可以卸下密藏\n                             - 第二页 -");
 				
-				//妈妈的收纳盒产生的密藏特殊能力
+				#region 妈妈的收纳盒产生的密藏特殊能力
 				sb.Replace("[c/FFC0CB:Mom's Box Effect]:", "[c/FFC0CB:收纳盒特殊能力]: ");
 
 				sb.Replace("An angelic sword will protect players back + if player holds true melee weapon additional angelic sword will spawn",
@@ -174,8 +185,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"如果拾取生命心后玩家的生命值超过最大值，则会在短时间内长出蛇头\n最多可以长出3条蛇头，此时从地面拾取生命心有几率直接清除减益");
 				sb.Replace("Holding tools will also provide thorns effect + knockback immunity",
 							"手持工具额外获得荆棘效果并免疫击退");
+				#endregion
 
-				//特殊词缀-来源于晦暝祭坛
+				#region 特殊词缀-来源于晦暝祭坛
 				//真近战修饰语：
 				sb.Replace("Random damage + inflicted buff + enemy location",
 							"随机造成伤害、获得增益、敌人的位置");//随机
@@ -250,7 +262,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Pierce up + first pierce attack ignore half of enemy defense",
 							"穿刺，第一次攻击忽视敌人一半的防御");//穿透
 				sb.Replace("1000% increased arow size",
-							"箭矢大小变为10倍");//龙爪？
+							"箭矢大小变为10倍");//龙爪
 				sb.Replace("First hit inflict random afk pets or vanilla debuff",
 							"第一次攻击随机施加原版或本模组的减益");//涂刷
 				sb.Replace("Shooting bow have 20% chance to make an orbiting arrow as same type",
@@ -267,6 +279,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"命中后分裂成不同方向的箭矢");//弹片
 				sb.Replace(" Hitting a new npc do 15% more damage but same npc do 10% less damage",
 							"击中新的敌人造成15%额外伤害，击中相同敌人降低10%伤害");//扩散
+				#endregion
 
 				//婚戒
 				sb.Replace("A beautiful ring designed for owner of your heart\nYour heart is beating one with the designer\nWhen you take damage you have 5% chance to take half from it and 5% take 75% of it\nHer love will increase your maximum health and life regen\nBeing close to your love will increase your endurance by 4% and protect her from taking damage",
@@ -276,7 +289,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("A beautiful ring designed for owner of your heart\nIt will have no effect until your heart have enough love",
 							"一枚为你心爱之人设计的美丽戒指\n除非你的心有足够的爱，否则它不会起作用");
 				
-				//盒中伙伴
+				#region 盒中伙伴
 				sb.Replace("Current Buddy: ", "当前伙伴: ");
 				sb.Replace("[c/ffff00:Tiny Janissary]\nHe will shoot your enemies down with respect to the bullet player holds\nWhile player is below 50% life he gets angry and start to deal contact damage + its attacks get faster\n[c/ffff00:Biome specific Ability]: He will order the army to rain down arrows and cannon shoots",
 							"[c/ffff00:禁卫军]\n根据玩家持有的子弹射击敌人\n当玩家生命值低于50%时进入愤怒状态，造成接触伤害并提高攻击速度\n[c/ffff00:群落特殊能力]: 命令军队降下箭雨和炮火掩护");
@@ -296,8 +309,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"[c/ffff00:忍者]\n用手里剑攻击附近的敌人，右键会将他们传送到光标位置\n[c/ffff00:群落特殊能力]: 在敌人周围生成用武士刀攻击的影分身");
 				sb.Replace("[c/ffff00:Tiny Goblin Archer]\nHe will shoot your foes down with arrows which gets changed with respect to enviromental conditions\n[c/ffff00:Biome specific Ability]: Upon hitting enemy the arrows will split into 2 weaker that moves backwards",
 							"[c/ffff00:哥布林弓手]\n射出根据环境群落改变的箭攻击你的敌人\n[c/ffff00:群落特殊能力]: 击中敌人后分裂出两个较弱的向后移动的箭");
+				#endregion
 
-				//塔罗牌
+				#region 塔罗牌
 				sb.Replace("Millenium: Double Tab down while being on a solid block to call tiny imp to help. Max 1 can be active", "隐藏: 站在物块上双击<下>键召唤小恶魔，最多只能同时存在1个");
 				sb.Replace("Millenium: All of potion based buffs get disabled", "隐藏: 禁用所有药水增益");
 				sb.Replace("Millenium: Taking money gives buff with respect to money type", "隐藏: 根据获得的钱币种类获得增益");
@@ -309,24 +323,15 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Millenium: +100 extra max mana", "隐藏: 最大魔力值 +100");
 				sb.Replace("Millenium: You stop time for 1 second", "隐藏: 暂停 1 秒时间");
 
-				sb.Replace("A divine relic which made from great harpy bars", "这是由鹰身女妖制成的圣物");
+				sb.Replace("'A divine relic which made from great harpy bars'", "'这是由鹰身女妖制成的圣物'");
+				sb.Replace("'The legends tell if you sip from the chocolate milk you will bless with the wisdom of how to find Pandaen Ore'\nWhen you use item when the lord have already awoken she will light your path with true wisdom.", "''传说，如果你品尝这巧克力牛奶，你将会被赐予寻找潘达恩矿石智慧的祝福'\n当你使用这件物品时，如果领主已经觉醒，她将会用真正的智慧照亮你的道路");
 				sb.Replace("It has been cursed by a powerful Hell Beast'", "它被地狱的血肉之墙诅咒了");
 				sb.Replace("It has been cursed by the Eldritch of Darkness'", "它被月亮领主的黑暗神秘力量诅咒了");
 				sb.Replace("It has been cursed by a powerful jungle creature'", "它被强大的丛林之花诅咒了");
 				sb.Replace("Become usable after you prove yourself via taking head of the false lunatic cultist'", "当你击败拜月邪教后，可以使用此物品");
+				#endregion
 
-				//点金石
-				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
-				//卫星数据收集器
-				Player player = Main.player[Main.myPlayer];
-				sb.Replace("Players current position: " + (int)player.position.X + " X and " + (int)player.position.Y + " Y",
-							"玩家当前位置坐标: (" + (int)player.position.X/16 + ", " + (int)player.position.Y/16 + ")");
-				//雨伞
-				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
-				//暗影钥匙、圣骑士盾、圣骑士锤
-				sb.Replace("Can be traded with holy knight", "可与神圣骑士进行交易");
-
-				//wiki说明
+				#region wiki说明
 				sb.Replace("It drops from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy",
 							"[c/FF0000:饼干板条箱]掉落\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");
 				sb.Replace("Could be obtained from [c/FF0000:Cookie Box]\nIt become fishable in ocean after player equip [c/FF0000:Cookie Badge] which drop from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy\nIf player activate no fish mechanic option from mod config it bypass this",
@@ -393,18 +398,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"");
 				
 				tooltipLine.Text = Regex.Replace(sb.ToString(), @"^Hold Shift while hovering on item to.*", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
+				#endregion
 			}
 		}
-
-		/*public override void HoldItem(Item item, Player player)
-		{
-			if (item.type == ModContent.ItemType<BlankCard>())
-			{
-				string text = "                                     [c/FF00FF:-塔罗牌获取-]\n0.愚者: 击杀死灵傀儡法师会转化此塔罗牌\nI.魔术师: 击杀提姆或符文巫师会转化此塔罗牌\nVI.恋人: 生命值低于一半时找护士治疗会转化此塔罗牌\nIX.隐者: 找哥布林工匠重铸物品会转化此塔罗牌\nXV.恶魔: 击杀血肉之墙会转化此塔罗牌\nXVI.塔: 用物块建造有低概率转化此塔罗牌\nXVII.星星: 击杀全息史莱姆会转化此塔罗牌\nXVIII.月亮: 在夜晚的天空有低概率转化此塔罗牌\nXIX.太阳: 击杀英勇史莱姆会转化此塔罗牌\nXXI.世界: 没有激活的Boss时有低概率转化此塔罗牌\n";
-
-				//"                                     [c/FF00FF:-Obtaining Cards-]\n0.Fool:Killing Antony, the Novice Necromancer will transform the card\nI.Magician:Killing Tim or rune wizard will transform the card\nVI.Lovers: Healing from nurse while having less than 50% life will transform it\nIX.Hermit:Doing a reforge from goblin tinkerer will transform it\nXVI.Devil:Killing Wall of Flesh will transform it\nXVI.Tower:Building stuff with tiles have a small chance to transform it\nXVII.Stars:Killing holographic slime will transform it\nXVIII.Moon:Visiting sky at night have a small chance to transform it\nXIX.Sun:Killing heroic slime will transform it\nXXI.World: Making a trip while no boss is active have small chance to transform it\n")
-			}
-
-		}*/
 	}
 }
