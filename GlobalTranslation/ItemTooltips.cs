@@ -375,7 +375,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("It could bought from witch doctor after plantera has been defeated", "击败 [c/FF0000:世纪之花] 后，[c/FF0000:巫医]售卖");
 				sb.Replace("Has a chance to sold by [c/FF0000:Wandering Samurai]", "[c/FF0000:流浪武士]有几率售卖");
 				sb.Replace("Sold by [c/FF0000:Fallen Angel] after [c/FF0000:Laval Golem]", "击败 [c/FF0000:拉瓦尔傀儡] 后，[c/FF0000:坠落天使]售卖");
-				sb.Replace("Sold by [c/FF0000:Cyborg]", "[c/FF0000:机器侠]在自然生成的派对期间售卖");
+				sb.Replace("Sold by [c/FF0000:Cyborg]", "[c/FF0000:机器侠]在派对期间售卖（当前有BUG不会售卖，请等待AFK本体更新）");
 				sb.Replace("Sold by [c/FF0000:Pirate Captain(Vanilla Town NPC)]\n", "[c/FF0000:海盗船长]售卖");
 
 				sb.Replace("Drops from [c/FF0000:Mothron]", "[c/FF0000:蛾怪]掉落");
