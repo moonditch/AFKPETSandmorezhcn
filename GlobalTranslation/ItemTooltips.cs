@@ -331,6 +331,26 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Become usable after you prove yourself via taking head of the false lunatic cultist'", "当你击败拜月邪教后，可以使用此物品");
 				#endregion
 
+				#region 失落-彩蛋
+				sb.Replace("1.Neutral:If you do not do any emotional change for some time it convert back to default and have following effects:\n-Nopperabou: Enemy aggro decrease + all ghost type enemies show no aggro\n-Towel: Immunity to being we + chilled + you may sneeze which inflict every close enemy fear due to coronavirus\n-Cat: A koban coin rotate around you which inflict midas + enemy aggro increase\n-Lamp: You generate light + when non boss enemies get close to you they may feel dizzy",
+							"1.中立: 如果你一段时间内没有情绪变化，它将回归初始状态并获得以下效果:\n-幽灵: 减少敌人仇恨，所有鬼魂类敌人对你无仇恨\n-毛巾: 免疫虚弱和寒冷，打喷嚏可使周围敌人因冠状病毒而恐惧\n-猫: 一个异域硬币围绕你旋转，对敌人施加迈达斯并增加仇恨\n-灯: 你发出光芒，非Boss敌人靠近你可能会眩晕");
+
+				sb.Replace("2.Happy:If you drink potion, get heal with heart or talk to any town npc you get this emotion and it have following effects:\n-Bicycle: While on mount your defensive stats increase + you produce light and while not on mount your speed increase\n-Buyo Buyo: There is a 10% chance to not take damage from any attack and instead make squish sound\n-Neon: RAINBOW + gain flight based stat increase\n-Long Hair: You feel happy + crit chance increase + your beauty convince shop keepers to decrease the price",
+							"2.快乐: 当你饮用药水、被生命心治疗或与城镇NPC交谈，则获得此状态并获得以下效果:\n-自行车: 使用坐骑时防御提升并发光，不使用坐骑时速度增加\n-槟榔: 10%几率免疫任何攻击，发出咯吱声\n-氖: 彩虹效果，飞行属性提升\n-长发: 感到快乐，暴击率提升，你的美貌使得商店降级售价");
+
+				sb.Replace("3.Sad:When any friendly npc or any player in mp dies you get this emotion and it have following effects:\n-Poop Hair: You periodically generate flies + flying bug type enemies show no aggro on you\n-Severed Head: A severed head will point to your mouse direction along with hurting enemies + having a chance to reflect enemy projectiles\n-Fat: Gain defensive stat increase but movement speed decrease\n-Midget: +1 minion + minions may spray blood",
+							"3.悲伤: 如果友好NPC或多人游戏中的玩家死亡，则获得此状态并获得以下效果:\n-脏发: 周期性生成苍蝇，飞行虫类敌人对你无仇恨\n-断头: 被斩首的头颅指向光标方向，伤害敌人，有机会反弹敌人的射弹\n-肥胖: 防御提升，但移动速度下降\n-侏儒: 增加一个仆从栏，仆从可能喷血");
+
+				sb.Replace("4.Angry: When you take hit while there is no boss you get this emotion and it have following effects:\n-Knife: A kitchen knife will protect you and its attacks counted as minion damage\n-Demon: Generate lightnings around you periodically\n-Witch: Your magic casts may form additional dark based spells\n-Yuki-onna: Rain snow from above + enemies that get close have a chance to get frozen",
+							"4.愤怒: 当你在无Boss时受到攻击，则获得此状态并获得以下效果:\n-刀: 一把厨房刀会保护你，其攻击算作召唤伤害\n-恶魔: 周期性生成闪电环绕你\n-巫师: 魔法攻击可能形成额外的黑暗系法术\n-雪女: 从天空中降下雪花，有几率冰冻靠近的敌人");
+
+				sb.Replace("5.Stressed: When you take hit while there is boss you get this emotion and it have following effects:\n-Frog: Gain autojump + jump stat increase + walking on water\n-Umbrella: Forms a cloud that above your mouse which periodically rains\n-Hat and Scarf: Gain immunity against cold based debuffs + defensive stat increase + warmth effect\n-Flute: Cause living human based enemies show no aggro on you + periodically generate music notes in random direction",
+							"5.紧张: 当你在有Boss时受到攻击，则获得此状态并获得以下效果:\n-青蛙: 自动跳跃，跳跃属性提升，能在水上行走\n-伞: 在光标上方形成云，周期性降雨\n-帽子和围巾: 免疫寒冷减益效果，防御提升，有温暖效果\n-笛子: 使人形敌人对你无仇恨，周期性在随机方向生成音符");
+
+				sb.Replace("6.Afraid: When you are close to death you get this emotion and it have following effects:\n-Medamaude: You gain immunity against chaos state + your location get unstable\n-Blonde Hair: Collect all town npc close you periodically to fight for you + periodically heal them\n-Triangle Kerchief: Lose DR but you periodically gain immunity frames\n-Stoplight: Briefly stop time",
+							"6.恐惧: 当你接近死亡时，则获得此状态并获得以下效果:\n-梅达莫德: 免疫混乱状态，你的位置变得不稳定\n-金发: 定期召集周围城镇NPC为你而战，并治疗他们\n-三角头巾: 失去伤害减免，但定期获得无敌帧\n-交通信号灯: 短暂停止时间");
+				#endregion
+				
 				#region wiki说明
 				sb.Replace("It drops from [c/FF0000:Cookie Crate]\n[c/FF0000:Cookie Crate] could be fished from ocean and its a strong enemy",
 							"[c/FF0000:饼干板条箱]掉落\n使用复合亮片诱饵或在海洋环境有几率钓到 [c/FF0000:饼干板条箱]，它是一个强大的敌人");

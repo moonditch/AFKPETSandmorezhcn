@@ -7984,7 +7984,7 @@ Mods: {
 				Tooltip:
 					'''
 					'不要害怕...你并不孤单...'右键获得10分钟灵视和1分钟树妖祝福
-					使用璀璨星辰右键，赠送你幸运转盘抽取的物品
+					当玩家持有璀璨星辰时，右键森林之心可启动命运之轮游戏
 					也可以算作水晶球，书柜，生命木织机
 					'''
 			}
@@ -23842,6 +23842,35 @@ Mods: {
 					}
 
 					Misc: {
+						IchorArrowShooterStaff: {
+							PostDrawInInventory: {
+								1: {
+									NewString: 吸收
+									// OldString: Absorb
+								}
+
+								2: {
+									NewString: 水
+									// OldString: Water
+								}
+
+								3: {
+									NewString: 蜂蜜
+									// OldString: Lava
+								}
+
+								4: {
+									NewString: 岩浆
+									// OldString: Honey
+								}
+
+								5: {
+									NewString: 微光
+									// OldString: Shimmer
+								}
+							}
+						}
+
 						RentalAgreementContract: {
 							CanUseItem: {
 								1: {
@@ -24328,6 +24357,52 @@ Mods: {
 								}
 							}
 						}
+
+						Misc: {
+							IBS: {
+								PostDrawInInventory: {
+									1: {
+										NewString: 下一个:正常
+										// OldString: Next:Normal
+									}
+
+									2: {
+										NewString: 下一个:石头
+										// OldString: Next:Stone
+									}
+
+									3: {
+										NewString: 下一个:恶臭
+										// OldString: Next:Stinky
+									}
+
+									4: {
+										NewString: 下一个:谷物
+										// OldString: Next:Corn
+									}
+
+									5: {
+										NewString: 下一个:黑色
+										// OldString: Next:Black
+									}
+
+									6: {
+										NewString: 下一个:白色
+										// OldString: Next:White
+									}
+
+									7: {
+										NewString: 下一个:炽热
+										// OldString: Next:Fiery
+									}
+
+									8: {
+										NewString: 下一个:炸弹
+										// OldString: Next:Bomb
+									}
+								}
+							}
+						}
 					}
 
 					Summoner: {
@@ -24351,6 +24426,27 @@ Mods: {
 								}
 							}
 						}
+
+						Misc: {
+							TacticalTelephone: {
+								PostDrawInInventory: {
+									1: {
+										NewString: 攻击最弱的
+										// OldString: Aim Weakest
+									}
+
+									2: {
+										NewString: 攻击最近的
+										// OldString: Aim Closest
+									}
+
+									3: {
+										NewString: 攻击最强的
+										// OldString: Aim Strongest
+									}
+								}
+							}
+						}
 					}
 
 					Classless: {
@@ -24366,13 +24462,6 @@ Mods: {
 				}
 
 				AFKPETSGlobalItem: {
-					ReforgePrice: {
-						1: {
-							// NewString: Blank card empowered with greed
-							// OldString: Blank card empowered with greed
-						}
-					}
-
 					OnHitNPC: {
 						1: {
 							NewString: 暴击+
@@ -25224,6 +25313,130 @@ Mods: {
 						}
 					}
 				}
+
+				MadotsukiEffect: {
+					PostDraw: {
+						1: {
+							NewString: 幽灵
+							// OldString: Nopperabou
+						}
+
+						2: {
+							NewString: 毛巾
+							// OldString: Towel
+						}
+
+						3: {
+							NewString: 猫
+							// OldString: Cat
+						}
+
+						4: {
+							NewString: 灯
+							// OldString: Lamp
+						}
+
+						5: {
+							NewString: 自行车
+							// OldString: Bicycle
+						}
+
+						6: {
+							NewString: 槟榔
+							// OldString: Buyo Buyo
+						}
+
+						7: {
+							NewString: 氖
+							// OldString: Neon
+						}
+
+						8: {
+							NewString: 长发
+							// OldString: Long Hair
+						}
+
+						9: {
+							NewString: 脏发
+							// OldString: Poop Hair
+						}
+
+						10: {
+							NewString: 断头
+							// OldString: Severed Head
+						}
+
+						11: {
+							NewString: 肥胖
+							// OldString: Fat
+						}
+
+						12: {
+							NewString: 侏儒
+							// OldString: Midget
+						}
+
+						13: {
+							NewString: 刀
+							// OldString: Knife
+						}
+
+						14: {
+							NewString: 恶魔
+							// OldString: Demon
+						}
+
+						15: {
+							NewString: 巫师
+							// OldString: Witch
+						}
+
+						16: {
+							NewString: 雪女
+							// OldString: Yuki-onna
+						}
+
+						17: {
+							NewString: 青蛙
+							// OldString: Frog
+						}
+
+						18: {
+							NewString: 伞
+							// OldString: Umbrella
+						}
+
+						19: {
+							NewString: 帽子和围巾
+							// OldString: Hat and Scarf
+						}
+
+						20: {
+							NewString: 笛子
+							// OldString: Flute
+						}
+
+						21: {
+							NewString: 梅达莫德
+							// OldString: Medamaude
+						}
+
+						22: {
+							NewString: 金发
+							// OldString: Blonde Hair
+						}
+
+						23: {
+							NewString: 三角头巾
+							// OldString: Triangle Kerchief
+						}
+
+						24: {
+							NewString: 交通信号灯
+							// OldString: Stoplight
+						}
+					}
+				}
 			}
 
 			Arrows: {
@@ -25302,6 +25515,45 @@ Mods: {
 							NewString: 完全充能
 							// OldString: FULL CHARGE
 						}
+					}
+				}
+			}
+
+			SadCatWave: {
+				PostDraw: {
+					1: {
+						NewString: 死亡
+						// OldString: Die
+					}
+
+					2: {
+						NewString: 死吧，永远消亡
+						// OldString: Die, perish even
+					}
+
+					3: {
+						NewString: 恐惧吧
+						// OldString: FEAR
+					}
+
+					4: {
+						NewString: 那个灵魂怎么样了”
+						// OldString: Hows that sprite goin
+					}
+
+					5: {
+						NewString: 我爱我的猫猫
+						// OldString: I love my lemmy
+					}
+
+					6: {
+						NewString: 应对
+						// OldString: Cope.
+					}
+
+					7: {
+						NewString: 你怎敢
+						// OldString: Don't you dare
 					}
 				}
 			}
@@ -25612,6 +25864,35 @@ Mods: {
 				}
 			}
 
+			WheelofFortune: {
+				PostDraw: {
+					1: {
+						NewString: 当前奖励：彩虹晶体
+						// OldString: Current Reward:Rainbow Lattice
+					}
+
+					2: {
+						NewString: 当前奖励：彩虹心形项链
+						// OldString: Current Reward:Rainbow Heart Necklace
+					}
+
+					3: {
+						NewString: 当前奖励：神秘配方
+						// OldString: Current Reward:Secret Formula
+					}
+
+					4: {
+						NewString: 当前奖励：可爱小蛋糕
+						// OldString: Current Reward:Cute Cupcake
+					}
+
+					5: {
+						NewString: 当前奖励：无尽饼干袋
+						// OldString: Current Reward:Endless Cookie Pouch
+					}
+				}
+			}
+
 			Whips: {
 				Kendama: {
 					AI: {
@@ -25632,6 +25913,13 @@ Mods: {
 								// OldString: " died from heart attack"
 							}
 						}
+
+						PostDraw: {
+							1: {
+								NewString: 甜度
+								// OldString: SUGAR LEVEL
+							}
+						}
 					}
 
 					CookieArena: {
@@ -25639,6 +25927,29 @@ Mods: {
 							1: {
 								NewString: 拜
 								// OldString: Bye
+							}
+						}
+
+						PostDraw: {
+							1: {
+								NewString: 将光标持续放在单色饼干上以解除它们的危险
+								// OldString: Keep mouse on mono colored cookies to defuse them
+							}
+
+							2: {
+								NewString: 不要被迷惑
+								// OldString: Don't stimulate your senses
+							}
+						}
+					}
+				}
+
+				HSProjectiles: {
+					HSFlameCaller: {
+						PostDraw: {
+							1: {
+								NewString: 围绕玩家旋转光标以推动火焰
+								// OldString: Rotate Mouse Around Player to Push Fire
 							}
 						}
 					}
@@ -25680,6 +25991,28 @@ Mods: {
 					}
 				}
 
+				RHAFProjectiles: {
+					WindSlice2: {
+						PreDraw: {
+							1: {
+								NewString: 使用移动键触碰气泡
+								// OldString: Use Movement Keys to Pop Bubbles
+							}
+						}
+					}
+				}
+
+				SatlaProjectiles: {
+					SatlaDeathBeam: {
+						PreDraw: {
+							1: {
+								NewString: 警告
+								// OldString: WARNING
+							}
+						}
+					}
+				}
+
 				SBProjectiles: {
 					SBLoverScreen: {
 						AI: {
@@ -25712,6 +26045,22 @@ Mods: {
 					4: {
 						NewString: "我是谁？我记得我叫 "
 						// OldString: "Who am I? Wait I remember it's "
+					}
+				}
+			}
+
+			FishingRods: {
+				FishingMeter: {
+					PostDraw: {
+						1: {
+							NewString: 脱钩
+							// OldString: MISS
+						}
+
+						2: {
+							NewString: 上钩
+							// OldString: CATCH
+						}
 					}
 				}
 			}
@@ -25773,6 +26122,51 @@ Mods: {
 					1: {
 						NewString: 火焰免疫已被打破
 						// OldString: Fire immunity have been broken
+					}
+				}
+			}
+
+			Misc: {
+				TacticChecker: {
+					PostDraw: {
+						1: {
+							NewString: 攻击最弱的
+							// OldString: Aim Weakest
+						}
+
+						2: {
+							NewString: 攻击最近的
+							// OldString: Aim Closest
+						}
+
+						3: {
+							NewString: 攻击最强的
+							// OldString: Aim Strongest
+						}
+					}
+				}
+
+				WaterChecker: {
+					PostDraw: {
+						1: {
+							NewString: 吸收
+							// OldString: Absorb
+						}
+
+						2: {
+							NewString: 水
+							// OldString: Water
+						}
+
+						3: {
+							NewString: 岩浆
+							// OldString: Lava
+						}
+
+						4: {
+							NewString: 蜂蜜
+							// OldString: Honey
+						}
 					}
 				}
 			}

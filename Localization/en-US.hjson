@@ -23823,6 +23823,35 @@ Mods: {
 					}
 
 					Misc: {
+						IchorArrowShooterStaff: {
+							PostDrawInInventory: {
+								1: {
+									NewString: Absorb
+									OldString: Absorb
+								}
+
+								2: {
+									NewString: Water
+									OldString: Water
+								}
+
+								3: {
+									NewString: Lava
+									OldString: Lava
+								}
+
+								4: {
+									NewString: Honey
+									OldString: Honey
+								}
+
+								5: {
+									NewString: Shimmer
+									OldString: Shimmer
+								}
+							}
+						}
+
 						RentalAgreementContract: {
 							CanUseItem: {
 								1: {
@@ -24309,6 +24338,52 @@ Mods: {
 								}
 							}
 						}
+
+						Misc: {
+							IBS: {
+								PostDrawInInventory: {
+									1: {
+										NewString: Next:Normal
+										OldString: Next:Normal
+									}
+
+									2: {
+										NewString: Next:Stone
+										OldString: Next:Stone
+									}
+
+									3: {
+										NewString: Next:Stinky
+										OldString: Next:Stinky
+									}
+
+									4: {
+										NewString: Next:Corn
+										OldString: Next:Corn
+									}
+
+									5: {
+										NewString: Next:Black
+										OldString: Next:Black
+									}
+
+									6: {
+										NewString: Next:White
+										OldString: Next:White
+									}
+
+									7: {
+										NewString: Next:Fiery
+										OldString: Next:Fiery
+									}
+
+									8: {
+										NewString: Next:Bomb
+										OldString: Next:Bomb
+									}
+								}
+							}
+						}
 					}
 
 					Summoner: {
@@ -24332,6 +24407,27 @@ Mods: {
 								}
 							}
 						}
+
+						Misc: {
+							TacticalTelephone: {
+								PostDrawInInventory: {
+									1: {
+										NewString: Aim Weakest
+										OldString: Aim Weakest
+									}
+
+									2: {
+										NewString: Aim Closest
+										OldString: Aim Closest
+									}
+
+									3: {
+										NewString: Aim Strongest
+										OldString: Aim Strongest
+									}
+								}
+							}
+						}
 					}
 
 					Classless: {
@@ -24347,13 +24443,6 @@ Mods: {
 				}
 
 				AFKPETSGlobalItem: {
-					ReforgePrice: {
-						1: {
-							NewString: Blank card empowered with greed
-							OldString: Blank card empowered with greed
-						}
-					}
-
 					OnHitNPC: {
 						1: {
 							NewString: CRIT+
@@ -25203,6 +25292,130 @@ Mods: {
 						}
 					}
 				}
+
+				MadotsukiEffect: {
+					PostDraw: {
+						1: {
+							NewString: Nopperabou
+							OldString: Nopperabou
+						}
+
+						2: {
+							NewString: Towel
+							OldString: Towel
+						}
+
+						3: {
+							NewString: Cat
+							OldString: Cat
+						}
+
+						4: {
+							NewString: Lamp
+							OldString: Lamp
+						}
+
+						5: {
+							NewString: Bicycle
+							OldString: Bicycle
+						}
+
+						6: {
+							NewString: Buyo Buyo
+							OldString: Buyo Buyo
+						}
+
+						7: {
+							NewString: Neon
+							OldString: Neon
+						}
+
+						8: {
+							NewString: Long Hair
+							OldString: Long Hair
+						}
+
+						9: {
+							NewString: Poop Hair
+							OldString: Poop Hair
+						}
+
+						10: {
+							NewString: Severed Head
+							OldString: Severed Head
+						}
+
+						11: {
+							NewString: Fat
+							OldString: Fat
+						}
+
+						12: {
+							NewString: Midget
+							OldString: Midget
+						}
+
+						13: {
+							NewString: Knife
+							OldString: Knife
+						}
+
+						14: {
+							NewString: Demon
+							OldString: Demon
+						}
+
+						15: {
+							NewString: Witch
+							OldString: Witch
+						}
+
+						16: {
+							NewString: Yuki-onna
+							OldString: Yuki-onna
+						}
+
+						17: {
+							NewString: Frog
+							OldString: Frog
+						}
+
+						18: {
+							NewString: Umbrella
+							OldString: Umbrella
+						}
+
+						19: {
+							NewString: Hat and Scarf
+							OldString: Hat and Scarf
+						}
+
+						20: {
+							NewString: Flute
+							OldString: Flute
+						}
+
+						21: {
+							NewString: Medamaude
+							OldString: Medamaude
+						}
+
+						22: {
+							NewString: Blonde Hair
+							OldString: Blonde Hair
+						}
+
+						23: {
+							NewString: Triangle Kerchief
+							OldString: Triangle Kerchief
+						}
+
+						24: {
+							NewString: Stoplight
+							OldString: Stoplight
+						}
+					}
+				}
 			}
 
 			Arrows: {
@@ -25281,6 +25494,45 @@ Mods: {
 							NewString: FULL CHARGE
 							OldString: FULL CHARGE
 						}
+					}
+				}
+			}
+
+			SadCatWave: {
+				PostDraw: {
+					1: {
+						NewString: Die
+						OldString: Die
+					}
+
+					2: {
+						NewString: Die, perish even
+						OldString: Die, perish even
+					}
+
+					3: {
+						NewString: FEAR
+						OldString: FEAR
+					}
+
+					4: {
+						NewString: Hows that sprite goin
+						OldString: Hows that sprite goin
+					}
+
+					5: {
+						NewString: I love my lemmy
+						OldString: I love my lemmy
+					}
+
+					6: {
+						NewString: Cope.
+						OldString: Cope.
+					}
+
+					7: {
+						NewString: Don't you dare
+						OldString: Don't you dare
 					}
 				}
 			}
@@ -25591,6 +25843,35 @@ Mods: {
 				}
 			}
 
+			WheelofFortune: {
+				PostDraw: {
+					1: {
+						NewString: Current Reward:Rainbow Lattice
+						OldString: Current Reward:Rainbow Lattice
+					}
+
+					2: {
+						NewString: Current Reward:Rainbow Heart Necklace
+						OldString: Current Reward:Rainbow Heart Necklace
+					}
+
+					3: {
+						NewString: Current Reward:Secret Formula
+						OldString: Current Reward:Secret Formula
+					}
+
+					4: {
+						NewString: Current Reward:Cute Cupcake
+						OldString: Current Reward:Cute Cupcake
+					}
+
+					5: {
+						NewString: Current Reward:Endless Cookie Pouch
+						OldString: Current Reward:Endless Cookie Pouch
+					}
+				}
+			}
+
 			Whips: {
 				Kendama: {
 					AI: {
@@ -25611,6 +25892,13 @@ Mods: {
 								OldString: " died from heart attack"
 							}
 						}
+
+						PostDraw: {
+							1: {
+								NewString: SUGAR LEVEL
+								OldString: SUGAR LEVEL
+							}
+						}
 					}
 
 					CookieArena: {
@@ -25618,6 +25906,29 @@ Mods: {
 							1: {
 								NewString: Bye
 								OldString: Bye
+							}
+						}
+
+						PostDraw: {
+							1: {
+								NewString: Keep mouse on mono colored cookies to defuse them
+								OldString: Keep mouse on mono colored cookies to defuse them
+							}
+
+							2: {
+								NewString: Don't stimulate your senses
+								OldString: Don't stimulate your senses
+							}
+						}
+					}
+				}
+
+				HSProjectiles: {
+					HSFlameCaller: {
+						PostDraw: {
+							1: {
+								NewString: Rotate Mouse Around Player to Push Fire
+								OldString: Rotate Mouse Around Player to Push Fire
 							}
 						}
 					}
@@ -25659,6 +25970,28 @@ Mods: {
 					}
 				}
 
+				RHAFProjectiles: {
+					WindSlice2: {
+						PreDraw: {
+							1: {
+								NewString: Use Movement Keys to Pop Bubbles
+								OldString: Use Movement Keys to Pop Bubbles
+							}
+						}
+					}
+				}
+
+				SatlaProjectiles: {
+					SatlaDeathBeam: {
+						PreDraw: {
+							1: {
+								NewString: WARNING
+								OldString: WARNING
+							}
+						}
+					}
+				}
+
 				SBProjectiles: {
 					SBLoverScreen: {
 						AI: {
@@ -25691,6 +26024,22 @@ Mods: {
 					4: {
 						NewString: "Who am I? Wait I remember it's "
 						OldString: "Who am I? Wait I remember it's "
+					}
+				}
+			}
+
+			FishingRods: {
+				FishingMeter: {
+					PostDraw: {
+						1: {
+							NewString: MISS
+							OldString: MISS
+						}
+
+						2: {
+							NewString: CATCH
+							OldString: CATCH
+						}
 					}
 				}
 			}
@@ -25752,6 +26101,51 @@ Mods: {
 					1: {
 						NewString: Fire immunity have been broken
 						OldString: Fire immunity have been broken
+					}
+				}
+			}
+
+			Misc: {
+				TacticChecker: {
+					PostDraw: {
+						1: {
+							NewString: Aim Weakest
+							OldString: Aim Weakest
+						}
+
+						2: {
+							NewString: Aim Closest
+							OldString: Aim Closest
+						}
+
+						3: {
+							NewString: Aim Strongest
+							OldString: Aim Strongest
+						}
+					}
+				}
+
+				WaterChecker: {
+					PostDraw: {
+						1: {
+							NewString: Absorb
+							OldString: Absorb
+						}
+
+						2: {
+							NewString: Water
+							OldString: Water
+						}
+
+						3: {
+							NewString: Lava
+							OldString: Lava
+						}
+
+						4: {
+							NewString: Honey
+							OldString: Honey
+						}
 					}
 				}
 			}
