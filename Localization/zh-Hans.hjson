@@ -7969,12 +7969,12 @@ Mods: {
 			}
 
 			FuriousAnvil: {
-				DisplayName: 暴怒的铁砧
+				DisplayName: 狂怒领主的铁砧
 				Tooltip:
 					'''
 					'一个传说中的铁砧曾经被斯卡莱多德用来锻造他们的军阀所需要的东西'
 					武器或饰品右键时会分解成材料
-					右键会告诉你返回哪些材料
+					按住下键的同时右键，会告诉你返回哪些材料
 					只会分解手持的物品，也可以作为秘银砧使用
 					'''
 			}
@@ -9271,7 +9271,7 @@ Mods: {
 				Tooltip:
 					'''
 					'仍燃烧着陨落者的痛苦'
-					使用它会释放凤凰灰烬云，将狱石转化为下届残骸，狱石锭转化为下界合金锭
+					使用它会释放凤凰灰烬云，将狱石转化为下界残骸，狱石锭转化为下界合金锭
 					'''
 			}
 
@@ -24772,1765 +24772,1765 @@ Mods: {
 					}
 				}
 			}
-		}
 
-		NPCs: {
-			AncientTrio: {
-				FlagCarrier: {
-					OnKill: {
-						1: {
-							NewString: 谢谢你
-							// OldString: Thank you
-						}
-					}
-				}
-			}
-
-			Antony: {
-				NecromancerDummyDeath: {
-					AI: {
-						1: {
-							NewString: 贝德，请不要留下我一个人
-							// OldString: Bede please don't leave me alone
+			NPCs: {
+				AncientTrio: {
+					FlagCarrier: {
+						OnKill: {
+							1: {
+								NewString: 谢谢你
+								// OldString: Thank you
+							}
 						}
 					}
 				}
 
-				NecromancerDummy: {
-					AI: {
-						1: {
-							NewString: 灵能四射
-							// OldString: Expecto Anima
-						}
-
-						2: {
-							NewString: 突刺
-							// OldString: Custodia
-						}
-
-						3: {
-							NewString: 灵鸟
-							// OldString: Accio Aaves
-						}
-
-						4: {
-							NewString: 死灵傀儡术
-							// OldString: dormientem excitet
-						}
-
-						5: {
-							NewString: 灵气喷发
-							// OldString: Anima excitatio
-						}
-
-						6: {
-							NewString: 让我们开始吧
-							// OldString: Then let's get started
-						}
-					}
-				}
-			}
-
-			BiomeNPCs: {
-				Assistant: {
-					AdjustCode: {
-						1: {
-							NewString: 右
-							// OldString: Move Right
-						}
-
-						2: {
-							NewString: 左
-							// OldString: Move Left
-						}
-
-						3: {
-							NewString: 上
-							// OldString: Move Up
-						}
-
-						4: {
-							NewString: 下
-							// OldString: Move Down
+				Antony: {
+					NecromancerDummyDeath: {
+						AI: {
+							1: {
+								NewString: 贝德，请不要留下我一个人
+								// OldString: Bede please don't leave me alone
+							}
 						}
 					}
 
-					FormCode: {
-						1: {
-							NewString: 下
-							// OldString: Move Down
-						}
+					NecromancerDummy: {
+						AI: {
+							1: {
+								NewString: 灵能四射
+								// OldString: Expecto Anima
+							}
 
-						2: {
-							NewString: 上
-							// OldString: Move Up
-						}
+							2: {
+								NewString: 突刺
+								// OldString: Custodia
+							}
 
-						3: {
-							NewString: 左
-							// OldString: Move Left
-						}
+							3: {
+								NewString: 灵鸟
+								// OldString: Accio Aaves
+							}
 
-						4: {
-							NewString: 右
-							// OldString: Move Right
-						}
-					}
+							4: {
+								NewString: 死灵傀儡术
+								// OldString: dormientem excitet
+							}
 
-					PostAI: {
-						1: {
-							NewString: 现在按相同顺序按下按键
-							// OldString: Now press the buttons in same order
-						}
-					}
-				}
-			}
+							5: {
+								NewString: 灵气喷发
+								// OldString: Anima excitatio
+							}
 
-			CookieBox: {
-				CookieSpirit: {
-					HitEffect: {
-						1: {
-							NewString: 呃啊
-							// OldString: OUCHIE
-						}
-					}
-
-					AI: {
-						1: {
-							NewString: 准备好了
-							// OldString: GET READY
-						}
-
-						2: {
-							NewString: 呃啊
-							// OldString: OUCHIE
-						}
-
-						3: {
-							NewString: 让我们开始吧
-							// OldString: LET'S GO
+							6: {
+								NewString: 让我们开始吧
+								// OldString: Then let's get started
+							}
 						}
 					}
 				}
 
-				CookieBoxRest: {
-					HitEffect: {
-						1: {
-							NewString: 哦...你好
-							// OldString: OH... HELLO
+				BiomeNPCs: {
+					Assistant: {
+						AdjustCode: {
+							1: {
+								NewString: 右
+								// OldString: Move Right
+							}
+
+							2: {
+								NewString: 左
+								// OldString: Move Left
+							}
+
+							3: {
+								NewString: 上
+								// OldString: Move Up
+							}
+
+							4: {
+								NewString: 下
+								// OldString: Move Down
+							}
+						}
+
+						FormCode: {
+							1: {
+								NewString: 下
+								// OldString: Move Down
+							}
+
+							2: {
+								NewString: 上
+								// OldString: Move Up
+							}
+
+							3: {
+								NewString: 左
+								// OldString: Move Left
+							}
+
+							4: {
+								NewString: 右
+								// OldString: Move Right
+							}
+						}
+
+						PostAI: {
+							1: {
+								NewString: 现在按相同顺序按下按键
+								// OldString: Now press the buttons in same order
+							}
 						}
 					}
 				}
 
 				CookieBox: {
-					HitEffect: {
-						1: {
-							NewString: 呃啊
-							// OldString: OUCHIE
+					CookieSpirit: {
+						HitEffect: {
+							1: {
+								NewString: 呃啊
+								// OldString: OUCHIE
+							}
+						}
+
+						AI: {
+							1: {
+								NewString: 准备好了
+								// OldString: GET READY
+							}
+
+							2: {
+								NewString: 呃啊
+								// OldString: OUCHIE
+							}
+
+							3: {
+								NewString: 让我们开始吧
+								// OldString: LET'S GO
+							}
 						}
 					}
 
-					AI: {
-						1: {
-							NewString: 呃啊
-							// OldString: OUCHIE
+					CookieBoxRest: {
+						HitEffect: {
+							1: {
+								NewString: 哦...你好
+								// OldString: OH... HELLO
+							}
+						}
+					}
+
+					CookieBox: {
+						HitEffect: {
+							1: {
+								NewString: 呃啊
+								// OldString: OUCHIE
+							}
+						}
+
+						AI: {
+							1: {
+								NewString: 呃啊
+								// OldString: OUCHIE
+							}
 						}
 					}
 				}
-			}
 
-			LavalGolem: {
 				LavalGolem: {
-					AI: {
-						1: {
-							NewString: 无处可逃
-							// OldString: THERE IS NO ESCAPE
+					LavalGolem: {
+						AI: {
+							1: {
+								NewString: 无处可逃
+								// OldString: THERE IS NO ESCAPE
+							}
 						}
 					}
 				}
-			}
 
-			PoliticianSlime: {
 				PoliticianSlime: {
-					AI: {
-						1: {
-							NewString:
-								'''
-								你或许能击败王国的一些顶尖战士
-								但将你驱逐出这个世界已是裁定的命定之举！
-								'''
-							/* OldString:
-								'''
-								You may kill some of the finest warriors of the Capital
-								but the desicion to deport you from life is final!
-								''' */
-						}
-					}
-				}
-			}
-
-			RoyalHarpyAirForce: {
-				StormTinkererH: {
-					HitEffect: {
-						1: {
-							NewString:
-								'''
-								作为一名被流放的科学家，你与其它人不同，你向我敞开了你的心灵
-								我们的血脉或许不同，但我们的灵魂却紧紧相连，再见了，我亲爱的妹妹
-								'''
-							/* OldString:
-								'''
-								As an exiled scientist, Unlike humans you open both your life and heart to me
-								Our blood may different but we're connected by soul, Farawell my dear sister
-								''' */
+					PoliticianSlime: {
+						AI: {
+							1: {
+								NewString:
+									'''
+									你或许能击败王国的一些顶尖战士
+									但将你驱逐出这个世界已是裁定的命定之举！
+									'''
+								/* OldString:
+									'''
+									You may kill some of the finest warriors of the Capital
+									but the desicion to deport you from life is final!
+									''' */
+							}
 						}
 					}
 				}
 
-				StormDiverSummon: {
-					AI: {
-						1: {
-							NewString: 否则，一分钟后我将不得不执行命令
-							// OldString: Or else I need to follow the order after 1 minute
+				RoyalHarpyAirForce: {
+					StormTinkererH: {
+						HitEffect: {
+							1: {
+								NewString:
+									'''
+									作为一名被流放的科学家，你与其它人不同，你向我敞开了你的心灵
+									我们的血脉或许不同，但我们的灵魂却紧紧相连，再见了，我亲爱的妹妹
+									'''
+								/* OldString:
+									'''
+									As an exiled scientist, Unlike humans you open both your life and heart to me
+									Our blood may different but we're connected by soul, Farawell my dear sister
+									''' */
+							}
+						}
+					}
+
+					StormDiverSummon: {
+						AI: {
+							1: {
+								NewString: 否则，一分钟后我将不得不执行命令
+								// OldString: Or else I need to follow the order after 1 minute
+							}
+
+							2: {
+								NewString: 所以，如果你现在离开，就不会有任何麻烦
+								// OldString: So if you leave now there will be no trouble
+							}
+
+							3: {
+								NewString: 很抱歉，但根据我们女王的命令，这些土地禁止泰拉人踏入
+								// OldString: Sorry but by order of our queen these lands are prohibited to humans
+							}
+
+							4: {
+								NewString: 你好啊，泰拉人
+								// OldString: Greetings human
+							}
+						}
+					}
+
+					StormDiver: {
+						HitEffect: {
+							1: {
+								NewString:
+									'''
+									其它的鸟妖都觉得我幼稚又愚蠢，但你给了我真正的关怀
+									谢谢你像夏日的阳光一样照亮了我这愚笨的生活，哥哥
+									'''
+								/* OldString:
+									'''
+									Other Harpies find me childish and idiotic but you've shown me true care
+									Thank you for shining as a summer sun in my foolish life, brother
+									''' */
+							}
 						}
 
-						2: {
-							NewString: 所以，如果你现在离开，就不会有任何麻烦
-							// OldString: So if you leave now there will be no trouble
+						AI: {
+							1: {
+								NewString: 哥哥，我累了，轮到你了
+								// OldString: Bro I got tired, its your turn
+							}
 						}
+					}
 
-						3: {
-							NewString: 很抱歉，但根据我们女王的命令，这些土地禁止泰拉人踏入
-							// OldString: Sorry but by order of our queen these lands are prohibited to humans
-						}
+					BoundGuardian: {
+						AI: {
+							1: {
+								NewString: 请不要丢下我一个人
+								// OldString: Please don't leave me alone
+							}
 
-						4: {
-							NewString: 你好啊，泰拉人
-							// OldString: Greetings human
+							2: {
+								NewString: 有人能帮帮我吗
+								// OldString: Please someone help
+							}
+
+							3: {
+								NewString: 救命...
+								// OldString: HELP...
+							}
 						}
 					}
 				}
 
-				StormDiver: {
-					HitEffect: {
-						1: {
-							NewString:
-								'''
-								其它的鸟妖都觉得我幼稚又愚蠢，但你给了我真正的关怀
-								谢谢你像夏日的阳光一样照亮了我这愚笨的生活，哥哥
-								'''
-							/* OldString:
-								'''
-								Other Harpies find me childish and idiotic but you've shown me true care
-								Thank you for shining as a summer sun in my foolish life, brother
-								''' */
-						}
-					}
-
-					AI: {
-						1: {
-							NewString: 哥哥，我累了，轮到你了
-							// OldString: Bro I got tired, its your turn
-						}
-					}
-				}
-
-				BoundGuardian: {
-					AI: {
-						1: {
-							NewString: 请不要丢下我一个人
-							// OldString: Please don't leave me alone
-						}
-
-						2: {
-							NewString: 有人能帮帮我吗
-							// OldString: Please someone help
-						}
-
-						3: {
-							NewString: 救命...
-							// OldString: HELP...
-						}
-					}
-				}
-			}
-
-			SATLA001: {
 				SATLA001: {
-					AI: {
-						1: {
-							NewString: 看来它们只是过热了，但别担心。我还有足够的玩具
-							// OldString: It seems they just get overheat but don't worry. I still have enough toys
-						}
-					}
-				}
-			}
-
-			SecurityBot: {
-				SecurityBotSummon: {
-					AI: {
-						1: {
-							NewString: 强烈建议离开
-							// OldString: LEAVING IS STRONGLY ADVISED
-						}
-
-						2: {
-							NewString: 一分钟后，执行协议将被激活
-							// OldString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
-						}
-
-						3: {
-							NewString: 由于邪教分子的持续威胁，此区域禁止任何人进入
-							// OldString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
-						}
-
-						4: {
-							NewString: 向你问好，冒险者
-							// OldString: GREETINGS ADVENTURER
+					SATLA001: {
+						AI: {
+							1: {
+								NewString: 看来它们只是过热了，但别担心。我还有足够的玩具
+								// OldString: It seems they just get overheat but don't worry. I still have enough toys
+							}
 						}
 					}
 				}
 
 				SecurityBot: {
-					AI: {
-						1: {
-							NewString: 存储核心超载...
-							// OldString: MEMORY OVERLOAD...
-						}
-
-						2: {
-							NewString: " 回归了尘土"
-							// OldString: " return into ashes"
-						}
-
-						3: {
-							NewString:
-								'''
-								泰拉人并未上当
-								启动自毁程序
-								'''
-							/* OldString:
-								'''
-								     HUMAN NOT FOOLED     
-								INITIALIZING SELF DESTRUCT
-								''' */
-						}
-
-						4: {
-							NewString: 初始化电子对抗措施
-							// OldString: INITIATING ECM
-						}
-
-						5: {
-							NewString: 正在强制编码程序...
-							// OldString: IL EDITING THE OCCIPITAL LOBE...
-						}
-
-						6: {
-							NewString: 电磁波已就绪
-							// OldString: EM WAVE IS READY
-						}
-
-						7: {
-							NewString: 生成护盾
-							// OldString: GENERATING SHIELD
-						}
-
-						8: {
-							NewString: 需要进行扫描
-							// OldString: SCAN REQUIRED
-						}
-					}
-				}
-
-				NoEscape: {
-					AI: {
-						1: {
-							NewString: " 无法逃脱"
-							// OldString: " cannot escape"
-						}
-					}
-				}
-			}
-
-			SlayerofEvil: {
-				SlayerofEvil: {
-					AI: {
-						1: {
-							NewString: 我不能输给你这样的强盗，朋友们都相信我能行
-							// OldString: I cannot lose to a bandit like you. They believe in me
-						}
-					}
-				}
-			}
-
-			SlimeArmy: {
-				Tier2: {
-					SuspiciousSlime: {
+					SecurityBotSummon: {
 						AI: {
 							1: {
-								NewString: 帮帮我
-								// OldString: Help
-							}
-						}
-					}
-				}
-			}
-
-			SlimesLastHope: {
-				UWUSlime: {
-					AI: {
-						1: {
-							NewString: 忍者史莱姆，你能为我掩护几秒钟吗？
-							// OldString: Shogun slime could you cover me for few seconds?
-						}
-
-						2: {
-							NewString: 感觉累了，我们能过几秒钟再继续吗？
-							// OldString: I feel tired, could we continue few second later?
-						}
-
-						3: {
-							NewString: 我们能停下来，试着通过谈话来解决这个问题吗？
-							// OldString: Could we stop and try to solve this by talking?
-						}
-					}
-				}
-
-				ShinobiSlimeShuriken: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " 已被消灭"
-							// OldString: " have been eliminated"
-						}
-					}
-				}
-
-				ShinobiSlimeDasher: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " 已被消灭"
-							// OldString: " have been eliminated"
-						}
-					}
-				}
-
-				ShinobiSlime: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " 已被消灭"
-							// OldString: " have been eliminated"
-						}
-					}
-
-					ModifyHitByItem: {
-						1: {
-							NewString: 暴击
-							// OldString: Critical Strike
-						}
-					}
-				}
-
-				MechanicalSlime: {
-					AI: {
-						1: {
-							NewString: 请求空袭
-							// OldString: AIR STRIKE REQUIRED
-						}
-					}
-				}
-			}
-
-			TownNPCs: {
-				Yandere: {
-					PostAI: {
-						1: {
-							NewString: 前辈，你在找我吗？
-							// OldString: Senpai are you looking for me?
-						}
-
-						2: {
-							NewString: 前辈，前辈...
-							// OldString: Senpai, senpai...
-						}
-
-						3: {
-							NewString: 嘿嘿嘿嘿...
-							// OldString: HEHEHEHE...
-						}
-					}
-				}
-
-				BossHunterMerchant: {
-					addTrophy: {
-						1: {
-							NewString: 商店解锁新物品
-							// OldString: New item unlocked in shop
-						}
-					}
-				}
-			}
-
-			UndeadChef: {
-				UndeadChef: {
-					AI: {
-						1: {
-							NewString: 我应该做中餐还是西餐？
-							// OldString: Should I go with eastern or western style?
-						}
-
-						2: {
-							NewString: 我把羊肉酱放在哪里了？
-							// OldString: Where did I put the lamb sauce?
-						}
-
-						3: {
-							NewString: 也许酸奶配水果作为甜点很不错
-							// OldString: Maybe youghurt with fruit go well as dessert
-						}
-
-						4: {
-							NewString: 也许我应该少放一点红辣椒
-							// OldString: Maybe I should put less red pepper
-						}
-
-						5: {
-							NewString: 额额额...
-							// OldString: Hmmm...
-						}
-					}
-				}
-			}
-		}
-
-		Projectiles: {
-			Accessory: {
-				YuriDagger: {
-					AI: {
-						1: {
-							NewString: " 刺穿了自己"
-							// OldString: " stabbed itself"
-						}
-					}
-				}
-
-				MadotsukiEffect: {
-					PostDraw: {
-						1: {
-							NewString: 幽灵
-							// OldString: Nopperabou
-						}
-
-						2: {
-							NewString: 毛巾
-							// OldString: Towel
-						}
-
-						3: {
-							NewString: 猫
-							// OldString: Cat
-						}
-
-						4: {
-							NewString: 灯
-							// OldString: Lamp
-						}
-
-						5: {
-							NewString: 自行车
-							// OldString: Bicycle
-						}
-
-						6: {
-							NewString: 槟榔
-							// OldString: Buyo Buyo
-						}
-
-						7: {
-							NewString: 氖
-							// OldString: Neon
-						}
-
-						8: {
-							NewString: 长发
-							// OldString: Long Hair
-						}
-
-						9: {
-							NewString: 脏发
-							// OldString: Poop Hair
-						}
-
-						10: {
-							NewString: 断头
-							// OldString: Severed Head
-						}
-
-						11: {
-							NewString: 肥胖
-							// OldString: Fat
-						}
-
-						12: {
-							NewString: 侏儒
-							// OldString: Midget
-						}
-
-						13: {
-							NewString: 刀
-							// OldString: Knife
-						}
-
-						14: {
-							NewString: 恶魔
-							// OldString: Demon
-						}
-
-						15: {
-							NewString: 巫师
-							// OldString: Witch
-						}
-
-						16: {
-							NewString: 雪女
-							// OldString: Yuki-onna
-						}
-
-						17: {
-							NewString: 青蛙
-							// OldString: Frog
-						}
-
-						18: {
-							NewString: 伞
-							// OldString: Umbrella
-						}
-
-						19: {
-							NewString: 帽子和围巾
-							// OldString: Hat and Scarf
-						}
-
-						20: {
-							NewString: 笛子
-							// OldString: Flute
-						}
-
-						21: {
-							NewString: 梅达莫德
-							// OldString: Medamaude
-						}
-
-						22: {
-							NewString: 金发
-							// OldString: Blonde Hair
-						}
-
-						23: {
-							NewString: 三角头巾
-							// OldString: Triangle Kerchief
-						}
-
-						24: {
-							NewString: 交通信号灯
-							// OldString: Stoplight
-						}
-					}
-				}
-			}
-
-			Arrows: {
-				SatlaArrowCharger: {
-					AI: {
-						1: {
-							NewString: 已充能
-							// OldString: CHARGED
-						}
-					}
-				}
-			}
-
-			Baseballs: {
-				TitaniumBall: {
-					ModifyHitNPC: {
-						1: {
-							NewString: 梆
-							// OldString: BONK
-						}
-					}
-				}
-
-				BallBase: {
-					OnKill: {
-						1: {
-							NewString: 丢球
-							// OldString: MISS
-						}
-
-						2: {
-							NewString: 本垒打
-							// OldString: HOME RUN
-						}
-					}
-				}
-			}
-
-			Classless: {
-				Pokey: {
-					AI: {
-						1: {
-							NewString: 嗨
-							// OldString: Hello
-						}
-					}
-				}
-			}
-
-			Magic: {
-				MagicSmoke: {
-					AI: {
-						1: {
-							NewString: " 被吸干了血"
-							// OldString: " bite to dust"
-						}
-					}
-				}
-			}
-
-			Minions: {
-				ChibiPinky: {
-					AI: {
-						1: {
-							NewString: 鸟妖的死亡会影响到潘达恩矿石，现在别再问了
-							// OldString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
-						}
-					}
-				}
-			}
-
-			Ranged: {
-				MeatMincer: {
-					AI: {
-						1: {
-							NewString: 完全充能
-							// OldString: FULL CHARGE
-						}
-					}
-				}
-			}
-
-			SadCatWave: {
-				PostDraw: {
-					1: {
-						NewString: 死亡
-						// OldString: Die
-					}
-
-					2: {
-						NewString: 死吧，永远消亡
-						// OldString: Die, perish even
-					}
-
-					3: {
-						NewString: 恐惧吧
-						// OldString: FEAR
-					}
-
-					4: {
-						NewString: 那个灵魂怎么样了”
-						// OldString: Hows that sprite goin
-					}
-
-					5: {
-						NewString: 我爱我的猫猫
-						// OldString: I love my lemmy
-					}
-
-					6: {
-						NewString: 应对
-						// OldString: Cope.
-					}
-
-					7: {
-						NewString: 你怎敢
-						// OldString: Don't you dare
-					}
-				}
-			}
-
-			Summoner: {
-				VerdeliteCrystal: {
-					AI: {
-						1: {
-							NewString: 最大
-							// OldString: MAX
-						}
-
-						2: {
-							NewString: 升级
-							// OldString: LEVEL UP
-						}
-
-						3: {
-							NewString: 重置
-							// OldString: RESET
-						}
-					}
-				}
-
-				TinyDukeRainbow: {
-					CheckActive: {
-						1: {
-							NewString: 混蛋
-							// OldString: B*TCH
-						}
-					}
-				}
-
-				Jello: {
-					PostAI: {
-						1: {
-							NewString: 运动饮料浓度增加
-							// OldString: JELLO UP
-						}
-
-						2: {
-							NewString: 多人协调能力增加
-							// OldString: MP COMPABILITY UP
-						}
-
-						3: {
-							NewString: 独特的智力提升
-							// OldString: UNIQUE AI UP
-						}
-
-						4: {
-							NewString: 声望增加
-							// OldString: RESPECT UP
-						}
-
-						5: {
-							NewString: 反应能力增加
-							// OldString: REACTION UP
-						}
-
-						6: {
-							NewString: 知名度增加
-							// OldString: FAME UP
-						}
-
-						7: {
-							NewString: 支持度增加
-							// OldString: FAVOR UP
-						}
-
-						8: {
-							NewString: 等级提升
-							// OldString: RANK UP
-						}
-
-						9: {
-							NewString: 钍浓度增加
-							// OldString: THORIUM UP
-						}
-
-						10: {
-							NewString: 空气阻力增加
-							// OldString: AIR RESISTANCE UP
-						}
-
-						11: {
-							NewString: 反应速度增强
-							// OldString: GAMER SPEED UP
-						}
-
-						12: {
-							NewString: 认可度增加
-							// OldString: ACCEPTANCE UP
-						}
-
-						13: {
-							NewString: 酷值增加
-							// OldString: RADNESS UP
-						}
-
-						14: {
-							NewString: 清晰度增加
-							// OldString: SHARPNESS UP
-						}
-
-						15: {
-							NewString: 音量增加
-							// OldString: VOLUME UP
-						}
-
-						16: {
-							NewString: G值增加
-							// OldString: G UP
-						}
-
-						17: {
-							NewString: 你被强化了
-							// OldString: BUMBO UP
-						}
-
-						18: {
-							NewString: 睡眠减少
-							// OldString: SLEEP HOURS DOWN
-						}
-					}
-				}
-
-				Guardian: {
-					AI: {
-						1: {
-							NewString: 神圣护盾已就绪
-							// OldString: Divine Shield is Ready
-						}
-					}
-				}
-			}
-
-			SummonProj: {
-				GnomeRise: {
-					OnKill: {
-						1: {
-							NewString: 不要把我和高布林混淆
-							// OldString: Confuse me with g'n'oblin
-						}
-
-						2: {
-							NewString: 我是个矮人儿
-							// OldString: I'm a gn'ome
-						}
-
-						3: {
-							NewString: 你被矮人戏弄了！
-							// OldString: You've been GNOOOMED
-						}
-
-						4: {
-							NewString: 你好，我的捞朋友！
-							// OldString: Hullo me old chum!
-						}
-					}
-				}
-
-				AustraliumWrench: {
-					AI: {
-						1: {
-							NewString: 烫烫烫！
-							// OldString: HOT! HOT! HOT!
-						}
-
-						2: {
-							NewString: 完全充能
-							// OldString: FULL CHARGE
-						}
-					}
-				}
-			}
-
-			SummonWeapon: {
-				CaptainParot: {
-					AI: {
-						1: {
-							NewString: 我准备好了
-							// OldString: I'M READY
-						}
-
-						2: {
-							NewString: 抓住它们
-							// OldString: GET THEM
-						}
-
-						3: {
-							NewString: 我累了
-							// OldString: I'M TIRED
-						}
-
-						4: {
-							NewString: 我想老朋友
-							// OldString: I MISS OLD FRIEND
-						}
-
-						5: {
-							NewString: 哦吼
-							// OldString: YARRR
-						}
-					}
-				}
-			}
-
-			SupporterSouls: {
-				TinyCata: {
-					AI: {
-						1: {
-							NewString: k订阅来支持他
-							// OldString: k souls support him
-						}
-					}
-				}
-			}
-
-			Tarot: {
-				TarotEcho: {
-					AI: {
-						1: {
-							NewString: 魔术师
-							// OldString: The Magician
-						}
-
-						2: {
-							NewString: 月亮
-							// OldString: The Moon
-						}
-
-						3: {
-							NewString: 恶魔
-							// OldString: The Devil
-						}
-
-						4: {
-							NewString: 星星
-							// OldString: The Stars
-						}
-
-						5: {
-							NewString: 太阳
-							// OldString: The Sun
-						}
-
-						6: {
-							NewString: 世界
-							// OldString: The World
-						}
-
-						7: {
-							NewString: 高塔
-							// OldString: The Tower
-						}
-
-						8: {
-							NewString: 隐者
-							// OldString: The Hermit
-						}
-
-						9: {
-							NewString: 恋人
-							// OldString: The Lovers
-						}
-					}
-				}
-			}
-
-			Throwing: {
-				Francisca: {
-					AI: {
-						1: {
-							NewString: 完全充能
-							// OldString: FULL CHARGE
-						}
-					}
-				}
-
-				DroneShuriken: {
-					seektarget: {
-						1: {
-							NewString: 目标锁定
-							// OldString: TARGET LOCKED
-						}
-					}
-				}
-			}
-
-			Transformations: {
-				TransformAbility: {
-					AI: {
-						1: {
-							NewString: 传送就绪
-							// OldString: TELEPORTATON IS READY
-						}
-					}
-				}
-
-				BeastMount: {
-					AI: {
-						1: {
-							NewString: 冲刺就绪
-							// OldString: DASH IS READY
-						}
-					}
-				}
-			}
-
-			WheelofFortune: {
-				PostDraw: {
-					1: {
-						NewString: 当前奖励：彩虹晶体
-						// OldString: Current Reward:Rainbow Lattice
-					}
-
-					2: {
-						NewString: 当前奖励：彩虹心形项链
-						// OldString: Current Reward:Rainbow Heart Necklace
-					}
-
-					3: {
-						NewString: 当前奖励：神秘配方
-						// OldString: Current Reward:Secret Formula
-					}
-
-					4: {
-						NewString: 当前奖励：可爱小蛋糕
-						// OldString: Current Reward:Cute Cupcake
-					}
-
-					5: {
-						NewString: 当前奖励：无尽饼干袋
-						// OldString: Current Reward:Endless Cookie Pouch
-					}
-				}
-			}
-
-			Whips: {
-				Kendama: {
-					AI: {
-						1: {
-							NewString: 尖刺
-							// OldString: SPIKE
-						}
-					}
-				}
-			}
-
-			BossProjectiles: {
-				CBProjectiles: {
-					SugarLevel: {
-						AI: {
-							1: {
-								NewString: " 死于心脏病"
-								// OldString: " died from heart attack"
-							}
-						}
-
-						PostDraw: {
-							1: {
-								NewString: 甜度
-								// OldString: SUGAR LEVEL
-							}
-						}
-					}
-
-					CookieArena: {
-						AI: {
-							1: {
-								NewString: 拜
-								// OldString: Bye
-							}
-						}
-
-						PostDraw: {
-							1: {
-								NewString: 将光标持续放在单色饼干上以解除它们的危险
-								// OldString: Keep mouse on mono colored cookies to defuse them
+								NewString: 强烈建议离开
+								// OldString: LEAVING IS STRONGLY ADVISED
 							}
 
 							2: {
-								NewString: 不要被迷惑
-								// OldString: Don't stimulate your senses
-							}
-						}
-					}
-				}
-
-				HSProjectiles: {
-					HSFlameCaller: {
-						PostDraw: {
-							1: {
-								NewString: 围绕玩家旋转光标以推动火焰
-								// OldString: Rotate Mouse Around Player to Push Fire
-							}
-						}
-					}
-				}
-
-				OkikuProjectiles: {
-					OkikuFallenSoul3: {
-						AI: {
-							1: {
-								NewString: 你这个贪心的小猪，难道半碗对你来说还不够吗，Akiko？
-								// OldString: You greedy pig, isn't half bowl is enough for you Akiko
-							}
-
-							2: {
-								NewString: Akiko，你今晚得睡在外面，你在这里一无是处
-								// OldString: You will sleep outside Akiko, you have no worth here
+								NewString: 一分钟后，执行协议将被激活
+								// OldString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
 							}
 
 							3: {
-								NewString: Akiko打碎了盘子，她是罪魁祸首
-								// OldString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+								NewString: 由于邪教分子的持续威胁，此区域禁止任何人进入
+								// OldString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
 							}
 
 							4: {
-								NewString: Akiko，你怎么一件事也做不好呢？
-								// OldString: Akiko, how you menage to be good at nothing
+								NewString: 向你问好，冒险者
+								// OldString: GREETINGS ADVENTURER
+							}
+						}
+					}
+
+					SecurityBot: {
+						AI: {
+							1: {
+								NewString: 存储核心超载...
+								// OldString: MEMORY OVERLOAD...
+							}
+
+							2: {
+								NewString: " 回归了尘土"
+								// OldString: " return into ashes"
+							}
+
+							3: {
+								NewString:
+									'''
+									泰拉人并未上当
+									启动自毁程序
+									'''
+								/* OldString:
+									'''
+										HUMAN NOT FOOLED     
+									INITIALIZING SELF DESTRUCT
+									''' */
+							}
+
+							4: {
+								NewString: 初始化电子对抗措施
+								// OldString: INITIATING ECM
 							}
 
 							5: {
-								NewString: Akiko，现在立刻把这个烂摊子收拾干净！
-								// OldString: CLEAN THIS MESS NOW AKIKO
+								NewString: 正在强制编码程序...
+								// OldString: IL EDITING THE OCCIPITAL LOBE...
 							}
 
 							6: {
-								NewString: Akiko，你甚至还不如老鼠有用
-								// OldString: Even rats are more useful than you, Akiko
+								NewString: 电磁波已就绪
+								// OldString: EM WAVE IS READY
+							}
+
+							7: {
+								NewString: 生成护盾
+								// OldString: GENERATING SHIELD
+							}
+
+							8: {
+								NewString: 需要进行扫描
+								// OldString: SCAN REQUIRED
 							}
 						}
 					}
-				}
 
-				RHAFProjectiles: {
-					WindSlice2: {
-						PreDraw: {
-							1: {
-								NewString: 使用移动键触碰气泡
-								// OldString: Use Movement Keys to Pop Bubbles
-							}
-						}
-					}
-				}
-
-				SatlaProjectiles: {
-					SatlaDeathBeam: {
-						PreDraw: {
-							1: {
-								NewString: 警告
-								// OldString: WARNING
-							}
-						}
-					}
-				}
-
-				SBProjectiles: {
-					SBLoverScreen: {
+					NoEscape: {
 						AI: {
 							1: {
-								NewString: 让我们永远在一起
-								// OldString: LETS BE TOGETHER FOREVER
+								NewString: " 无法逃脱"
+								// OldString: " cannot escape"
+							}
+						}
+					}
+				}
+
+				SlayerofEvil: {
+					SlayerofEvil: {
+						AI: {
+							1: {
+								NewString: 我不能输给你这样的强盗，朋友们都相信我能行
+								// OldString: I cannot lose to a bandit like you. They believe in me
+							}
+						}
+					}
+				}
+
+				SlimeArmy: {
+					Tier2: {
+						SuspiciousSlime: {
+							AI: {
+								1: {
+									NewString: 帮帮我
+									// OldString: Help
+								}
+							}
+						}
+					}
+				}
+
+				SlimesLastHope: {
+					UWUSlime: {
+						AI: {
+							1: {
+								NewString: 忍者史莱姆，你能为我掩护几秒钟吗？
+								// OldString: Shogun slime could you cover me for few seconds?
+							}
+
+							2: {
+								NewString: 感觉累了，我们能过几秒钟再继续吗？
+								// OldString: I feel tired, could we continue few second later?
+							}
+
+							3: {
+								NewString: 我们能停下来，试着通过谈话来解决这个问题吗？
+								// OldString: Could we stop and try to solve this by talking?
+							}
+						}
+					}
+
+					ShinobiSlimeShuriken: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " 已被消灭"
+								// OldString: " have been eliminated"
+							}
+						}
+					}
+
+					ShinobiSlimeDasher: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " 已被消灭"
+								// OldString: " have been eliminated"
+							}
+						}
+					}
+
+					ShinobiSlime: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " 已被消灭"
+								// OldString: " have been eliminated"
+							}
+						}
+
+						ModifyHitByItem: {
+							1: {
+								NewString: 暴击
+								// OldString: Critical Strike
+							}
+						}
+					}
+
+					MechanicalSlime: {
+						AI: {
+							1: {
+								NewString: 请求空袭
+								// OldString: AIR STRIKE REQUIRED
+							}
+						}
+					}
+				}
+
+				TownNPCs: {
+					Yandere: {
+						PostAI: {
+							1: {
+								NewString: 前辈，你在找我吗？
+								// OldString: Senpai are you looking for me?
+							}
+
+							2: {
+								NewString: 前辈，前辈...
+								// OldString: Senpai, senpai...
+							}
+
+							3: {
+								NewString: 嘿嘿嘿嘿...
+								// OldString: HEHEHEHE...
+							}
+						}
+					}
+
+					BossHunterMerchant: {
+						addTrophy: {
+							1: {
+								NewString: 商店解锁新物品
+								// OldString: New item unlocked in shop
+							}
+						}
+					}
+				}
+
+				UndeadChef: {
+					UndeadChef: {
+						AI: {
+							1: {
+								NewString: 我应该做中餐还是西餐？
+								// OldString: Should I go with eastern or western style?
+							}
+
+							2: {
+								NewString: 我把羊肉酱放在哪里了？
+								// OldString: Where did I put the lamb sauce?
+							}
+
+							3: {
+								NewString: 也许酸奶配水果作为甜点很不错
+								// OldString: Maybe youghurt with fruit go well as dessert
+							}
+
+							4: {
+								NewString: 也许我应该少放一点红辣椒
+								// OldString: Maybe I should put less red pepper
+							}
+
+							5: {
+								NewString: 额额额...
+								// OldString: Hmmm...
 							}
 						}
 					}
 				}
 			}
 
-			NameChange: {
-				PostAI: {
-					1: {
-						NewString: " ！"
-						// OldString: " now!"
+			Projectiles: {
+				Accessory: {
+					YuriDagger: {
+						AI: {
+							1: {
+								NewString: " 刺穿了自己"
+								// OldString: " stabbed itself"
+							}
+						}
 					}
 
-					2: {
-						NewString: "我觉得我现在应该把名字改为 "
-						// OldString: "I feel I should change my name to "
-					}
+					MadotsukiEffect: {
+						PostDraw: {
+							1: {
+								NewString: 幽灵
+								// OldString: Nopperabou
+							}
 
-					3: {
-						NewString: "你可以叫我 "
-						// OldString: "No worries can call me "
-					}
+							2: {
+								NewString: 毛巾
+								// OldString: Towel
+							}
 
-					4: {
-						NewString: "我是谁？我记得我叫 "
-						// OldString: "Who am I? Wait I remember it's "
+							3: {
+								NewString: 猫
+								// OldString: Cat
+							}
+
+							4: {
+								NewString: 灯
+								// OldString: Lamp
+							}
+
+							5: {
+								NewString: 自行车
+								// OldString: Bicycle
+							}
+
+							6: {
+								NewString: 槟榔
+								// OldString: Buyo Buyo
+							}
+
+							7: {
+								NewString: 氖
+								// OldString: Neon
+							}
+
+							8: {
+								NewString: 长发
+								// OldString: Long Hair
+							}
+
+							9: {
+								NewString: 脏发
+								// OldString: Poop Hair
+							}
+
+							10: {
+								NewString: 断头
+								// OldString: Severed Head
+							}
+
+							11: {
+								NewString: 肥胖
+								// OldString: Fat
+							}
+
+							12: {
+								NewString: 侏儒
+								// OldString: Midget
+							}
+
+							13: {
+								NewString: 刀
+								// OldString: Knife
+							}
+
+							14: {
+								NewString: 恶魔
+								// OldString: Demon
+							}
+
+							15: {
+								NewString: 巫师
+								// OldString: Witch
+							}
+
+							16: {
+								NewString: 雪女
+								// OldString: Yuki-onna
+							}
+
+							17: {
+								NewString: 青蛙
+								// OldString: Frog
+							}
+
+							18: {
+								NewString: 伞
+								// OldString: Umbrella
+							}
+
+							19: {
+								NewString: 帽子和围巾
+								// OldString: Hat and Scarf
+							}
+
+							20: {
+								NewString: 笛子
+								// OldString: Flute
+							}
+
+							21: {
+								NewString: 梅达莫德
+								// OldString: Medamaude
+							}
+
+							22: {
+								NewString: 金发
+								// OldString: Blonde Hair
+							}
+
+							23: {
+								NewString: 三角头巾
+								// OldString: Triangle Kerchief
+							}
+
+							24: {
+								NewString: 交通信号灯
+								// OldString: Stoplight
+							}
+						}
 					}
 				}
-			}
 
-			FishingRods: {
-				FishingMeter: {
+				Arrows: {
+					SatlaArrowCharger: {
+						AI: {
+							1: {
+								NewString: 已充能
+								// OldString: CHARGED
+							}
+						}
+					}
+				}
+
+				Baseballs: {
+					TitaniumBall: {
+						ModifyHitNPC: {
+							1: {
+								NewString: 梆
+								// OldString: BONK
+							}
+						}
+					}
+
+					BallBase: {
+						OnKill: {
+							1: {
+								NewString: 丢球
+								// OldString: MISS
+							}
+
+							2: {
+								NewString: 本垒打
+								// OldString: HOME RUN
+							}
+						}
+					}
+				}
+
+				Classless: {
+					Pokey: {
+						AI: {
+							1: {
+								NewString: 嗨
+								// OldString: Hello
+							}
+						}
+					}
+				}
+
+				Magic: {
+					MagicSmoke: {
+						AI: {
+							1: {
+								NewString: " 被吸干了血"
+								// OldString: " bite to dust"
+							}
+						}
+					}
+				}
+
+				Minions: {
+					ChibiPinky: {
+						AI: {
+							1: {
+								NewString: 鸟妖的死亡会影响到潘达恩矿石，现在别再问了
+								// OldString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
+							}
+						}
+					}
+				}
+
+				Ranged: {
+					MeatMincer: {
+						AI: {
+							1: {
+								NewString: 完全充能
+								// OldString: FULL CHARGE
+							}
+						}
+					}
+				}
+
+				SadCatWave: {
 					PostDraw: {
 						1: {
-							NewString: 脱钩
-							// OldString: MISS
+							NewString: 死亡
+							// OldString: Die
 						}
 
 						2: {
-							NewString: 上钩
-							// OldString: CATCH
-						}
-					}
-				}
-			}
-
-			GoldenKunai2: {
-				ModifyHitPlayer: {
-					1: {
-						NewString: " 已被消灭"
-						// OldString: " have been eliminated"
-					}
-				}
-			}
-
-			DarkSoul: {
-				AI: {
-					1: {
-						NewString: 好多了
-						// OldString: Much Better
-					}
-				}
-			}
-
-			Click: {
-				AI: {
-					1: {
-						NewString: 点击
-						// OldString: CLICK
-					}
-				}
-			}
-
-			BadGoldenShuriken2: {
-				ModifyHitPlayer: {
-					1: {
-						NewString: " 已被消灭"
-						// OldString: " have been eliminated"
-					}
-				}
-			}
-
-			AngelicBeamofLight2: {
-				OnHitNPC: {
-					1: {
-						NewString: 情绪伤害
-						// OldString: EMOTIONAL DAMAGE
-					}
-				}
-			}
-
-			AFKPETSGlobalProjectile: {
-				OnHitNPC: {
-					1: {
-						NewString: 计量条已满
-						// OldString: MAX STACK
-					}
-				}
-
-				ModifyHitNPC: {
-					1: {
-						NewString: 火焰免疫已被打破
-						// OldString: Fire immunity have been broken
-					}
-				}
-			}
-
-			Misc: {
-				TacticChecker: {
-					PostDraw: {
-						1: {
-							NewString: 攻击最弱的
-							// OldString: Aim Weakest
-						}
-
-						2: {
-							NewString: 攻击最近的
-							// OldString: Aim Closest
+							NewString: 死吧，永远消亡
+							// OldString: Die, perish even
 						}
 
 						3: {
-							NewString: 攻击最强的
-							// OldString: Aim Strongest
-						}
-					}
-				}
-
-				WaterChecker: {
-					PostDraw: {
-						1: {
-							NewString: 吸收
-							// OldString: Absorb
-						}
-
-						2: {
-							NewString: 水
-							// OldString: Water
-						}
-
-						3: {
-							NewString: 岩浆
-							// OldString: Lava
+							NewString: 恐惧吧
+							// OldString: FEAR
 						}
 
 						4: {
-							NewString: 蜂蜜
-							// OldString: Honey
+							NewString: 那个灵魂怎么样了”
+							// OldString: Hows that sprite goin
+						}
+
+						5: {
+							NewString: 我爱我的猫猫
+							// OldString: I love my lemmy
+						}
+
+						6: {
+							NewString: 应对
+							// OldString: Cope.
+						}
+
+						7: {
+							NewString: 你怎敢
+							// OldString: Don't you dare
+						}
+					}
+				}
+
+				Summoner: {
+					VerdeliteCrystal: {
+						AI: {
+							1: {
+								NewString: 最大
+								// OldString: MAX
+							}
+
+							2: {
+								NewString: 升级
+								// OldString: LEVEL UP
+							}
+
+							3: {
+								NewString: 重置
+								// OldString: RESET
+							}
+						}
+					}
+
+					TinyDukeRainbow: {
+						CheckActive: {
+							1: {
+								NewString: 混蛋
+								// OldString: B*TCH
+							}
+						}
+					}
+
+					Jello: {
+						PostAI: {
+							1: {
+								NewString: 运动饮料浓度增加
+								// OldString: JELLO UP
+							}
+
+							2: {
+								NewString: 多人协调能力增加
+								// OldString: MP COMPABILITY UP
+							}
+
+							3: {
+								NewString: 独特的智力提升
+								// OldString: UNIQUE AI UP
+							}
+
+							4: {
+								NewString: 声望增加
+								// OldString: RESPECT UP
+							}
+
+							5: {
+								NewString: 反应能力增加
+								// OldString: REACTION UP
+							}
+
+							6: {
+								NewString: 知名度增加
+								// OldString: FAME UP
+							}
+
+							7: {
+								NewString: 支持度增加
+								// OldString: FAVOR UP
+							}
+
+							8: {
+								NewString: 等级提升
+								// OldString: RANK UP
+							}
+
+							9: {
+								NewString: 钍浓度增加
+								// OldString: THORIUM UP
+							}
+
+							10: {
+								NewString: 空气阻力增加
+								// OldString: AIR RESISTANCE UP
+							}
+
+							11: {
+								NewString: 反应速度增强
+								// OldString: GAMER SPEED UP
+							}
+
+							12: {
+								NewString: 认可度增加
+								// OldString: ACCEPTANCE UP
+							}
+
+							13: {
+								NewString: 酷值增加
+								// OldString: RADNESS UP
+							}
+
+							14: {
+								NewString: 清晰度增加
+								// OldString: SHARPNESS UP
+							}
+
+							15: {
+								NewString: 音量增加
+								// OldString: VOLUME UP
+							}
+
+							16: {
+								NewString: G值增加
+								// OldString: G UP
+							}
+
+							17: {
+								NewString: 你被强化了
+								// OldString: BUMBO UP
+							}
+
+							18: {
+								NewString: 睡眠减少
+								// OldString: SLEEP HOURS DOWN
+							}
+						}
+					}
+
+					Guardian: {
+						AI: {
+							1: {
+								NewString: 神圣护盾已就绪
+								// OldString: Divine Shield is Ready
+							}
+						}
+					}
+				}
+
+				SummonProj: {
+					GnomeRise: {
+						OnKill: {
+							1: {
+								NewString: 不要把我和高布林混淆
+								// OldString: Confuse me with g'n'oblin
+							}
+
+							2: {
+								NewString: 我是个矮人儿
+								// OldString: I'm a gn'ome
+							}
+
+							3: {
+								NewString: 你被矮人戏弄了！
+								// OldString: You've been GNOOOMED
+							}
+
+							4: {
+								NewString: 你好，我的捞朋友！
+								// OldString: Hullo me old chum!
+							}
+						}
+					}
+
+					AustraliumWrench: {
+						AI: {
+							1: {
+								NewString: 烫烫烫！
+								// OldString: HOT! HOT! HOT!
+							}
+
+							2: {
+								NewString: 完全充能
+								// OldString: FULL CHARGE
+							}
+						}
+					}
+				}
+
+				SummonWeapon: {
+					CaptainParot: {
+						AI: {
+							1: {
+								NewString: 我准备好了
+								// OldString: I'M READY
+							}
+
+							2: {
+								NewString: 抓住它们
+								// OldString: GET THEM
+							}
+
+							3: {
+								NewString: 我累了
+								// OldString: I'M TIRED
+							}
+
+							4: {
+								NewString: 我想老朋友
+								// OldString: I MISS OLD FRIEND
+							}
+
+							5: {
+								NewString: 哦吼
+								// OldString: YARRR
+							}
+						}
+					}
+				}
+
+				SupporterSouls: {
+					TinyCata: {
+						AI: {
+							1: {
+								NewString: k订阅来支持他
+								// OldString: k souls support him
+							}
+						}
+					}
+				}
+
+				Tarot: {
+					TarotEcho: {
+						AI: {
+							1: {
+								NewString: 魔术师
+								// OldString: The Magician
+							}
+
+							2: {
+								NewString: 月亮
+								// OldString: The Moon
+							}
+
+							3: {
+								NewString: 恶魔
+								// OldString: The Devil
+							}
+
+							4: {
+								NewString: 星星
+								// OldString: The Stars
+							}
+
+							5: {
+								NewString: 太阳
+								// OldString: The Sun
+							}
+
+							6: {
+								NewString: 世界
+								// OldString: The World
+							}
+
+							7: {
+								NewString: 高塔
+								// OldString: The Tower
+							}
+
+							8: {
+								NewString: 隐者
+								// OldString: The Hermit
+							}
+
+							9: {
+								NewString: 恋人
+								// OldString: The Lovers
+							}
+						}
+					}
+				}
+
+				Throwing: {
+					Francisca: {
+						AI: {
+							1: {
+								NewString: 完全充能
+								// OldString: FULL CHARGE
+							}
+						}
+					}
+
+					DroneShuriken: {
+						seektarget: {
+							1: {
+								NewString: 目标锁定
+								// OldString: TARGET LOCKED
+							}
+						}
+					}
+				}
+
+				Transformations: {
+					TransformAbility: {
+						AI: {
+							1: {
+								NewString: 传送就绪
+								// OldString: TELEPORTATON IS READY
+							}
+						}
+					}
+
+					BeastMount: {
+						AI: {
+							1: {
+								NewString: 冲刺就绪
+								// OldString: DASH IS READY
+							}
+						}
+					}
+				}
+
+				WheelofFortune: {
+					PostDraw: {
+						1: {
+							NewString: 当前奖励：彩虹晶体
+							// OldString: Current Reward:Rainbow Lattice
+						}
+
+						2: {
+							NewString: 当前奖励：彩虹心形项链
+							// OldString: Current Reward:Rainbow Heart Necklace
+						}
+
+						3: {
+							NewString: 当前奖励：神秘配方
+							// OldString: Current Reward:Secret Formula
+						}
+
+						4: {
+							NewString: 当前奖励：可爱小蛋糕
+							// OldString: Current Reward:Cute Cupcake
+						}
+
+						5: {
+							NewString: 当前奖励：无尽饼干袋
+							// OldString: Current Reward:Endless Cookie Pouch
+						}
+					}
+				}
+
+				Whips: {
+					Kendama: {
+						AI: {
+							1: {
+								NewString: 尖刺
+								// OldString: SPIKE
+							}
+						}
+					}
+				}
+
+				BossProjectiles: {
+					CBProjectiles: {
+						SugarLevel: {
+							AI: {
+								1: {
+									NewString: " 死于心脏病"
+									// OldString: " died from heart attack"
+								}
+							}
+
+							PostDraw: {
+								1: {
+									NewString: 甜度
+									// OldString: SUGAR LEVEL
+								}
+							}
+						}
+
+						CookieArena: {
+							AI: {
+								1: {
+									NewString: 拜
+									// OldString: Bye
+								}
+							}
+
+							PostDraw: {
+								1: {
+									NewString: 将光标持续放在单色饼干上以解除它们的危险
+									// OldString: Keep mouse on mono colored cookies to defuse them
+								}
+
+								2: {
+									NewString: 不要被迷惑
+									// OldString: Don't stimulate your senses
+								}
+							}
+						}
+					}
+
+					HSProjectiles: {
+						HSFlameCaller: {
+							PostDraw: {
+								1: {
+									NewString: 围绕玩家旋转光标以推动火焰
+									// OldString: Rotate Mouse Around Player to Push Fire
+								}
+							}
+						}
+					}
+
+					OkikuProjectiles: {
+						OkikuFallenSoul3: {
+							AI: {
+								1: {
+									NewString: 你这个贪心的小猪，难道半碗对你来说还不够吗，Akiko？
+									// OldString: You greedy pig, isn't half bowl is enough for you Akiko
+								}
+
+								2: {
+									NewString: Akiko，你今晚得睡在外面，你在这里一无是处
+									// OldString: You will sleep outside Akiko, you have no worth here
+								}
+
+								3: {
+									NewString: Akiko打碎了盘子，她是罪魁祸首
+									// OldString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+								}
+
+								4: {
+									NewString: Akiko，你怎么一件事也做不好呢？
+									// OldString: Akiko, how you menage to be good at nothing
+								}
+
+								5: {
+									NewString: Akiko，现在立刻把这个烂摊子收拾干净！
+									// OldString: CLEAN THIS MESS NOW AKIKO
+								}
+
+								6: {
+									NewString: Akiko，你甚至还不如老鼠有用
+									// OldString: Even rats are more useful than you, Akiko
+								}
+							}
+						}
+					}
+
+					RHAFProjectiles: {
+						WindSlice2: {
+							PreDraw: {
+								1: {
+									NewString: 使用移动键触碰气泡
+									// OldString: Use Movement Keys to Pop Bubbles
+								}
+							}
+						}
+					}
+
+					SatlaProjectiles: {
+						SatlaDeathBeam: {
+							PreDraw: {
+								1: {
+									NewString: 警告
+									// OldString: WARNING
+								}
+							}
+						}
+					}
+
+					SBProjectiles: {
+						SBLoverScreen: {
+							AI: {
+								1: {
+									NewString: 让我们永远在一起
+									// OldString: LETS BE TOGETHER FOREVER
+								}
+							}
+						}
+					}
+				}
+
+				NameChange: {
+					PostAI: {
+						1: {
+							NewString: " ！"
+							// OldString: " now!"
+						}
+
+						2: {
+							NewString: "我觉得我现在应该把名字改为 "
+							// OldString: "I feel I should change my name to "
+						}
+
+						3: {
+							NewString: "你可以叫我 "
+							// OldString: "No worries can call me "
+						}
+
+						4: {
+							NewString: "我是谁？我记得我叫 "
+							// OldString: "Who am I? Wait I remember it's "
+						}
+					}
+				}
+
+				FishingRods: {
+					FishingMeter: {
+						PostDraw: {
+							1: {
+								NewString: 脱钩
+								// OldString: MISS
+							}
+
+							2: {
+								NewString: 上钩
+								// OldString: CATCH
+							}
+						}
+					}
+				}
+
+				GoldenKunai2: {
+					ModifyHitPlayer: {
+						1: {
+							NewString: " 已被消灭"
+							// OldString: " have been eliminated"
+						}
+					}
+				}
+
+				DarkSoul: {
+					AI: {
+						1: {
+							NewString: 好多了
+							// OldString: Much Better
+						}
+					}
+				}
+
+				Click: {
+					AI: {
+						1: {
+							NewString: 点击
+							// OldString: CLICK
+						}
+					}
+				}
+
+				BadGoldenShuriken2: {
+					ModifyHitPlayer: {
+						1: {
+							NewString: " 已被消灭"
+							// OldString: " have been eliminated"
+						}
+					}
+				}
+
+				AngelicBeamofLight2: {
+					OnHitNPC: {
+						1: {
+							NewString: 情绪伤害
+							// OldString: EMOTIONAL DAMAGE
+						}
+					}
+				}
+
+				AFKPETSGlobalProjectile: {
+					OnHitNPC: {
+						1: {
+							NewString: 计量条已满
+							// OldString: MAX STACK
+						}
+					}
+
+					ModifyHitNPC: {
+						1: {
+							NewString: 火焰免疫已被打破
+							// OldString: Fire immunity have been broken
+						}
+					}
+				}
+
+				Misc: {
+					TacticChecker: {
+						PostDraw: {
+							1: {
+								NewString: 攻击最弱的
+								// OldString: Aim Weakest
+							}
+
+							2: {
+								NewString: 攻击最近的
+								// OldString: Aim Closest
+							}
+
+							3: {
+								NewString: 攻击最强的
+								// OldString: Aim Strongest
+							}
+						}
+					}
+
+					WaterChecker: {
+						PostDraw: {
+							1: {
+								NewString: 吸收
+								// OldString: Absorb
+							}
+
+							2: {
+								NewString: 水
+								// OldString: Water
+							}
+
+							3: {
+								NewString: 岩浆
+								// OldString: Lava
+							}
+
+							4: {
+								NewString: 蜂蜜
+								// OldString: Honey
+							}
 						}
 					}
 				}
 			}
-		}
 
-		Tiles: {
-			Holographic: {
-				HolographicDresser: {
+			Tiles: {
+				Holographic: {
+					HolographicDresser: {
+						MouseOver: {
+							1: {
+								NewString: Phase Shifting Dresser
+								// OldString: Phase Shifting Dresser
+							}
+						}
+
+						MouseOverFar: {
+							1: {
+								NewString: Phase Shifting Dresser
+								// OldString: Phase Shifting Dresser
+							}
+						}
+					}
+
+					HolographicChest: {
+						MouseOver: {
+							1: {
+								NewString: Phase Shifting Chest
+								// OldString: Phase Shifting Chest
+							}
+						}
+					}
+				}
+
+				WhiteHolographicChest: {
 					MouseOver: {
 						1: {
-							NewString: Phase Shifting Dresser
-							// OldString: Phase Shifting Dresser
-						}
-					}
-
-					MouseOverFar: {
-						1: {
-							NewString: Phase Shifting Dresser
-							// OldString: Phase Shifting Dresser
+							NewString: Tiny Factory
+							// OldString: Tiny Factory
 						}
 					}
 				}
 
-				HolographicChest: {
+				TinyShop: {
 					MouseOver: {
 						1: {
-							NewString: Phase Shifting Chest
-							// OldString: Phase Shifting Chest
+							NewString: Tiny Shop
+							// OldString: Tiny Shop
+						}
+					}
+				}
+
+				TinyMine: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Mine
+							// OldString: Tiny Mine
+						}
+					}
+				}
+
+				TinyHouse: {
+					MouseOver: {
+						1: {
+							NewString: Tiny House
+							// OldString: Tiny House
+						}
+					}
+				}
+
+				TinyFactory: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Factory
+							// OldString: Tiny Factory
+						}
+					}
+				}
+
+				TinyCastle: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Castle
+							// OldString: Tiny Castle
+						}
+					}
+				}
+
+				TinyBank: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Bank
+							// OldString: Tiny Bank
+						}
+					}
+				}
+
+				SCP1162: {
+					RightClick: {
+						1: {
+							NewString: " 失去了自己的右肺"
+							// OldString: " have lost it's right lung"
+						}
+					}
+				}
+
+				NoteBlock: {
+					RightClick: {
+						1: {
+							NewString: 空
+							// OldString: Empty
+						}
+					}
+				}
+
+				MusicBlockStarter: {
+					RightClick: {
+						1: {
+							NewString: 上
+							// OldString: Up
+						}
+
+						2: {
+							NewString: 下
+							// OldString: Down
+						}
+
+						3: {
+							NewString: 左
+							// OldString: Left
+						}
+
+						4: {
+							NewString: 右
+							// OldString: Right
+						}
+					}
+				}
+
+				MagneticStorageUnit: {
+					MouseOver: {
+						1: {
+							NewString: Magnetic Storage Unit
+							// OldString: Magnetic Storage Unit
+						}
+					}
+				}
+
+				FuriousAnvil: {
+					RightClick: {
+						1: {
+							NewString:
+								'''
+								该物品将会分解成以下材料:
+
+								'''
+							/* OldString:
+								'''
+								Item will shatter to following materials:
+
+								''' */
+						}
+					}
+				}
+
+				DarkAltar2: {
+					RightClick: {
+						1: {
+							NewString: 祭品已接受
+							// OldString: Relic Accepted
+						}
+					}
+				}
+
+				AFKPETSGlobalTile: {
+					CanDrop: {
+						1: {
+							NewString: 大丰收
+							// OldString: Harvester Crit
+						}
+					}
+
+					RightClick: {
+						1: {
+							NewString: % 镐力来打破此物块
+							// OldString: % Pickaxe power to break this tile
+						}
+
+						2: {
+							NewString: "你需要最少 "
+							// OldString: "You need at least "
 						}
 					}
 				}
 			}
 
-			WhiteHolographicChest: {
-				MouseOver: {
-					1: {
-						NewString: Tiny Factory
-						// OldString: Tiny Factory
+			Common: {
+				Commands: {
+					FunActivateCommand: {
+						get_Description: {
+							1: {
+								NewString: 输入"/funactivated true ""/funactivated false"，来开启/关闭趣味模式
+								// OldString: activate or deactivate fun mode wit /funactivated true or false
+							}
+						}
+					}
+
+					FirstFrameAdjustCommand: {
+						get_Description: {
+							1: {
+								NewString: 调整幻影镜的起始帧
+								// OldString: Adjust the first frame of the mirage petfirstframe
+							}
+						}
+					}
+
+					BossLifeAdjustCommand: {
+						get_Description: {
+							1: {
+								NewString: 调整Boss的生命值
+								// OldString: Adjust the maximum boss lifebosslife
+							}
+						}
+					}
+
+					AnswerCommand: {
+						get_Description: {
+							1: {
+								NewString: 用来回答小游戏冷知识问答
+								// OldString: Adjust the word for trivia minigame byanswer
+							}
+						}
 					}
 				}
 			}
 
-			TinyShop: {
-				MouseOver: {
+			FunCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Shop
-						// OldString: Tiny Shop
+						NewString: 在趣味模式掉落
+						// OldString: Drops in fun mode
 					}
 				}
 			}
 
-			TinyMine: {
-				MouseOver: {
+			AnyMechCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Mine
-						// OldString: Tiny Mine
+						NewString: 在击败任意机械Boss后掉落
+						// OldString: Drops after any one of mechanical bosses have been defeated
 					}
 				}
 			}
 
-			TinyHouse: {
-				MouseOver: {
+			AllMechCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny House
-						// OldString: Tiny House
+						NewString: 在击败所有机械Boss后掉落
+						// OldString: Drops after all mechanical bosses have been defeated
 					}
 				}
 			}
 
-			TinyFactory: {
-				MouseOver: {
+			OkikuCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Factory
-						// OldString: Tiny Factory
+						NewString: 在击败盘子女鬼后掉落
+						// OldString: Drops after Okiku have been defeated
 					}
 				}
 			}
 
-			TinyCastle: {
-				MouseOver: {
+			EvilBossCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Castle
-						// OldString: Tiny Castle
+						NewString: 在击败邪恶环境Boss后掉落
+						// OldString: Drops after evil biome boss have been defeated
 					}
 				}
 			}
 
-			TinyBank: {
-				MouseOver: {
+			HardmodeCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Bank
-						// OldString: Tiny Bank
+						NewString: 在困难模式（击败血肉之墙后）掉落
+						// OldString: Drops in hardmode
 					}
 				}
 			}
 
-			SCP1162: {
-				RightClick: {
+			AFKPetsPlayer: {
+				CanConsumeBait: {
 					1: {
-						NewString: " 失去了自己的右肺"
-						// OldString: " have lost it's right lung"
+						NewString: " 崩溃瓦解了"
+						// OldString: " rip itself into pieces"
 					}
 				}
-			}
 
-			NoteBlock: {
-				RightClick: {
+				ModifyHitByNPC: {
 					1: {
-						NewString: 空
-						// OldString: Empty
-					}
-				}
-			}
-
-			MusicBlockStarter: {
-				RightClick: {
-					1: {
-						NewString: 上
-						// OldString: Up
+						NewString: " 为了爱人牺牲了自己"
+						// OldString: " died for its lover"
 					}
 
 					2: {
-						NewString: 下
-						// OldString: Down
+						NewString: 失误
+						// OldString: Miss
 					}
 
 					3: {
-						NewString: 左
-						// OldString: Left
+						NewString: 躲避攻击
+						// OldString: Attack Dodged
 					}
 
 					4: {
-						NewString: 右
-						// OldString: Right
-					}
-				}
-			}
-
-			MagneticStorageUnit: {
-				MouseOver: {
-					1: {
-						NewString: Magnetic Storage Unit
-						// OldString: Magnetic Storage Unit
-					}
-				}
-			}
-
-			FuriousAnvil: {
-				RightClick: {
-					1: {
-						NewString:
-							'''
-							该物品将会分解成以下材料:
-
-							'''
-						/* OldString:
-							'''
-							Item will shatter to following materials:
-
-							''' */
-					}
-				}
-			}
-
-			DarkAltar2: {
-				RightClick: {
-					1: {
-						NewString: 祭品已接受
-						// OldString: Relic Accepted
-					}
-				}
-			}
-
-			AFKPETSGlobalTile: {
-				CanDrop: {
-					1: {
-						NewString: 大丰收
-						// OldString: Harvester Crit
+						NewString: 闪避
+						// OldString: Dodge
 					}
 				}
 
-				RightClick: {
+				CatchFish: {
 					1: {
-						NewString: % 镐力来打破此物块
-						// OldString: % Pickaxe power to break this tile
+						NewString: 饼干板条箱?
+						// OldString: Cookie Crate?
 					}
 
 					2: {
-						NewString: "你需要最少 "
-						// OldString: "You need at least "
+						NewString: 猪龙鱼公爵?
+						// OldString: The Duke?
 					}
 				}
 			}
-		}
 
-		Common: {
-			Commands: {
-				FunActivateCommand: {
-					get_Description: {
-						1: {
-							NewString: 输入"/funactivated true ""/funactivated false"，来开启/关闭趣味模式
-							// OldString: activate or deactivate fun mode wit /funactivated true or false
-						}
-					}
-				}
-
-				FirstFrameAdjustCommand: {
-					get_Description: {
-						1: {
-							NewString: 调整幻影镜的起始帧
-							// OldString: Adjust the first frame of the mirage petfirstframe
-						}
-					}
-				}
-
-				BossLifeAdjustCommand: {
-					get_Description: {
-						1: {
-							NewString: 调整Boss的生命值
-							// OldString: Adjust the maximum boss lifebosslife
-						}
-					}
-				}
-
-				AnswerCommand: {
-					get_Description: {
-						1: {
-							NewString: 用来回答小游戏冷知识问答
-							// OldString: Adjust the word for trivia minigame byanswer
-						}
+			AFKPETSMapLayer: {
+				Draw: {
+					1: {
+						NewString: 标记地点
+						// OldString: Marked Location
 					}
 				}
 			}
-		}
 
-		FunCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在趣味模式掉落
-					// OldString: Drops in fun mode
-				}
-			}
-		}
-
-		AnyMechCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在击败任意机械Boss后掉落
-					// OldString: Drops after any one of mechanical bosses have been defeated
-				}
-			}
-		}
-
-		AllMechCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在击败所有机械Boss后掉落
-					// OldString: Drops after all mechanical bosses have been defeated
-				}
-			}
-		}
-
-		OkikuCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在击败盘子女鬼后掉落
-					// OldString: Drops after Okiku have been defeated
-				}
-			}
-		}
-
-		EvilBossCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在击败邪恶环境Boss后掉落
-					// OldString: Drops after evil biome boss have been defeated
-				}
-			}
-		}
-
-		HardmodeCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在困难模式（击败血肉之墙后）掉落
-					// OldString: Drops in hardmode
-				}
-			}
-		}
-
-		AFKPetsPlayer: {
-			CanConsumeBait: {
-				1: {
-					NewString: " 崩溃瓦解了"
-					// OldString: " rip itself into pieces"
+			DefeatEvilBoss: {
+				GetConditionDescription: {
+					1: {
+						NewString: 在击败邪恶环境Boss后掉落
+						// OldString: Drops after evil biome boss has been defeated
+					}
 				}
 			}
 
-			ModifyHitByNPC: {
-				1: {
-					NewString: " 为了爱人牺牲了自己"
-					// OldString: " died for its lover"
-				}
-
-				2: {
-					NewString: 失误
-					// OldString: Miss
-				}
-
-				3: {
-					NewString: 躲避攻击
-					// OldString: Attack Dodged
-				}
-
-				4: {
-					NewString: 闪避
-					// OldString: Dodge
+			AFKPetsCurrency2: {
+				GetPriceText: {
+					1: {
+						NewString: 精英游戏币
+						// OldString: Game Mastery Token
+					}
 				}
 			}
 
-			CatchFish: {
-				1: {
-					NewString: 饼干板条箱?
-					// OldString: Cookie Crate?
-				}
-
-				2: {
-					NewString: 猪龙鱼公爵?
-					// OldString: The Duke?
-				}
-			}
-		}
-
-		AFKPETSMapLayer: {
-			Draw: {
-				1: {
-					NewString: 标记地点
-					// OldString: Marked Location
-				}
-			}
-		}
-
-		DefeatEvilBoss: {
-			GetConditionDescription: {
-				1: {
-					NewString: 在击败邪恶环境Boss后掉落
-					// OldString: Drops after evil biome boss has been defeated
-				}
-			}
-		}
-
-		AFKPetsCurrency2: {
-			GetPriceText: {
-				1: {
-					NewString: 精英游戏币
-					// OldString: Game Mastery Token
-				}
-			}
-		}
-
-		AFKPetsCurrency: {
-			GetPriceText: {
-				1: {
-					NewString: 游戏币
-					// OldString: Prize Token
+			AFKPetsCurrency: {
+				GetPriceText: {
+					1: {
+						NewString: 游戏币
+						// OldString: Prize Token
+					}
 				}
 			}
 		}

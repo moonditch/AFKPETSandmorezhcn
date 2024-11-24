@@ -24751,1765 +24751,1765 @@ Mods: {
 					}
 				}
 			}
-		}
 
-		NPCs: {
-			AncientTrio: {
-				FlagCarrier: {
-					OnKill: {
-						1: {
-							NewString: Thank you
-							OldString: Thank you
-						}
-					}
-				}
-			}
-
-			Antony: {
-				NecromancerDummyDeath: {
-					AI: {
-						1: {
-							NewString: Bede please don't leave me alone
-							OldString: Bede please don't leave me alone
+			NPCs: {
+				AncientTrio: {
+					FlagCarrier: {
+						OnKill: {
+							1: {
+								NewString: Thank you
+								OldString: Thank you
+							}
 						}
 					}
 				}
 
-				NecromancerDummy: {
-					AI: {
-						1: {
-							NewString: Expecto Anima
-							OldString: Expecto Anima
-						}
-
-						2: {
-							NewString: Custodia
-							OldString: Custodia
-						}
-
-						3: {
-							NewString: Accio Aaves
-							OldString: Accio Aaves
-						}
-
-						4: {
-							NewString: dormientem excitet
-							OldString: dormientem excitet
-						}
-
-						5: {
-							NewString: Anima excitatio
-							OldString: Anima excitatio
-						}
-
-						6: {
-							NewString: Then let's get started
-							OldString: Then let's get started
-						}
-					}
-				}
-			}
-
-			BiomeNPCs: {
-				Assistant: {
-					AdjustCode: {
-						1: {
-							NewString: Move Right
-							OldString: Move Right
-						}
-
-						2: {
-							NewString: Move Left
-							OldString: Move Left
-						}
-
-						3: {
-							NewString: Move Up
-							OldString: Move Up
-						}
-
-						4: {
-							NewString: Move Down
-							OldString: Move Down
+				Antony: {
+					NecromancerDummyDeath: {
+						AI: {
+							1: {
+								NewString: Bede please don't leave me alone
+								OldString: Bede please don't leave me alone
+							}
 						}
 					}
 
-					FormCode: {
-						1: {
-							NewString: Move Down
-							OldString: Move Down
-						}
+					NecromancerDummy: {
+						AI: {
+							1: {
+								NewString: Expecto Anima
+								OldString: Expecto Anima
+							}
 
-						2: {
-							NewString: Move Up
-							OldString: Move Up
-						}
+							2: {
+								NewString: Custodia
+								OldString: Custodia
+							}
 
-						3: {
-							NewString: Move Left
-							OldString: Move Left
-						}
+							3: {
+								NewString: Accio Aaves
+								OldString: Accio Aaves
+							}
 
-						4: {
-							NewString: Move Right
-							OldString: Move Right
-						}
-					}
+							4: {
+								NewString: dormientem excitet
+								OldString: dormientem excitet
+							}
 
-					PostAI: {
-						1: {
-							NewString: Now press the buttons in same order
-							OldString: Now press the buttons in same order
-						}
-					}
-				}
-			}
+							5: {
+								NewString: Anima excitatio
+								OldString: Anima excitatio
+							}
 
-			CookieBox: {
-				CookieSpirit: {
-					HitEffect: {
-						1: {
-							NewString: OUCHIE
-							OldString: OUCHIE
-						}
-					}
-
-					AI: {
-						1: {
-							NewString: GET READY
-							OldString: GET READY
-						}
-
-						2: {
-							NewString: OUCHIE
-							OldString: OUCHIE
-						}
-
-						3: {
-							NewString: LET'S GO
-							OldString: LET'S GO
+							6: {
+								NewString: Then let's get started
+								OldString: Then let's get started
+							}
 						}
 					}
 				}
 
-				CookieBoxRest: {
-					HitEffect: {
-						1: {
-							NewString: OH... HELLO
-							OldString: OH... HELLO
+				BiomeNPCs: {
+					Assistant: {
+						AdjustCode: {
+							1: {
+								NewString: Move Right
+								OldString: Move Right
+							}
+
+							2: {
+								NewString: Move Left
+								OldString: Move Left
+							}
+
+							3: {
+								NewString: Move Up
+								OldString: Move Up
+							}
+
+							4: {
+								NewString: Move Down
+								OldString: Move Down
+							}
+						}
+
+						FormCode: {
+							1: {
+								NewString: Move Down
+								OldString: Move Down
+							}
+
+							2: {
+								NewString: Move Up
+								OldString: Move Up
+							}
+
+							3: {
+								NewString: Move Left
+								OldString: Move Left
+							}
+
+							4: {
+								NewString: Move Right
+								OldString: Move Right
+							}
+						}
+
+						PostAI: {
+							1: {
+								NewString: Now press the buttons in same order
+								OldString: Now press the buttons in same order
+							}
 						}
 					}
 				}
 
 				CookieBox: {
-					HitEffect: {
-						1: {
-							NewString: OUCHIE
-							OldString: OUCHIE
+					CookieSpirit: {
+						HitEffect: {
+							1: {
+								NewString: OUCHIE
+								OldString: OUCHIE
+							}
+						}
+
+						AI: {
+							1: {
+								NewString: GET READY
+								OldString: GET READY
+							}
+
+							2: {
+								NewString: OUCHIE
+								OldString: OUCHIE
+							}
+
+							3: {
+								NewString: LET'S GO
+								OldString: LET'S GO
+							}
 						}
 					}
 
-					AI: {
-						1: {
-							NewString: OUCHIE
-							OldString: OUCHIE
+					CookieBoxRest: {
+						HitEffect: {
+							1: {
+								NewString: OH... HELLO
+								OldString: OH... HELLO
+							}
+						}
+					}
+
+					CookieBox: {
+						HitEffect: {
+							1: {
+								NewString: OUCHIE
+								OldString: OUCHIE
+							}
+						}
+
+						AI: {
+							1: {
+								NewString: OUCHIE
+								OldString: OUCHIE
+							}
 						}
 					}
 				}
-			}
 
-			LavalGolem: {
 				LavalGolem: {
-					AI: {
-						1: {
-							NewString: THERE IS NO ESCAPE
-							OldString: THERE IS NO ESCAPE
+					LavalGolem: {
+						AI: {
+							1: {
+								NewString: THERE IS NO ESCAPE
+								OldString: THERE IS NO ESCAPE
+							}
 						}
 					}
 				}
-			}
 
-			PoliticianSlime: {
 				PoliticianSlime: {
-					AI: {
-						1: {
-							NewString:
-								'''
-								You may kill some of the finest warriors of the Capital
-								but the desicion to deport you from life is final!
-								'''
-							OldString:
-								'''
-								You may kill some of the finest warriors of the Capital
-								but the desicion to deport you from life is final!
-								'''
-						}
-					}
-				}
-			}
-
-			RoyalHarpyAirForce: {
-				StormTinkererH: {
-					HitEffect: {
-						1: {
-							NewString:
-								'''
-								As an exiled scientist, Unlike humans you open both your life and heart to me
-								Our blood may different but we're connected by soul, Farawell my dear sister
-								'''
-							OldString:
-								'''
-								As an exiled scientist, Unlike humans you open both your life and heart to me
-								Our blood may different but we're connected by soul, Farawell my dear sister
-								'''
+					PoliticianSlime: {
+						AI: {
+							1: {
+								NewString:
+									'''
+									You may kill some of the finest warriors of the Capital
+									but the desicion to deport you from life is final!
+									'''
+								OldString:
+									'''
+									You may kill some of the finest warriors of the Capital
+									but the desicion to deport you from life is final!
+									'''
+							}
 						}
 					}
 				}
 
-				StormDiverSummon: {
-					AI: {
-						1: {
-							NewString: Or else I need to follow the order after 1 minute
-							OldString: Or else I need to follow the order after 1 minute
+				RoyalHarpyAirForce: {
+					StormTinkererH: {
+						HitEffect: {
+							1: {
+								NewString:
+									'''
+									As an exiled scientist, Unlike humans you open both your life and heart to me
+									Our blood may different but we're connected by soul, Farawell my dear sister
+									'''
+								OldString:
+									'''
+									As an exiled scientist, Unlike humans you open both your life and heart to me
+									Our blood may different but we're connected by soul, Farawell my dear sister
+									'''
+							}
+						}
+					}
+
+					StormDiverSummon: {
+						AI: {
+							1: {
+								NewString: Or else I need to follow the order after 1 minute
+								OldString: Or else I need to follow the order after 1 minute
+							}
+
+							2: {
+								NewString: So if you leave now there will be no trouble
+								OldString: So if you leave now there will be no trouble
+							}
+
+							3: {
+								NewString: Sorry but by order of our queen these lands are prohibited to humans
+								OldString: Sorry but by order of our queen these lands are prohibited to humans
+							}
+
+							4: {
+								NewString: Greetings human
+								OldString: Greetings human
+							}
+						}
+					}
+
+					StormDiver: {
+						HitEffect: {
+							1: {
+								NewString:
+									'''
+									Other Harpies find me childish and idiotic but you've shown me true care
+									Thank you for shining as a summer sun in my foolish life, brother
+									'''
+								OldString:
+									'''
+									Other Harpies find me childish and idiotic but you've shown me true care
+									Thank you for shining as a summer sun in my foolish life, brother
+									'''
+							}
 						}
 
-						2: {
-							NewString: So if you leave now there will be no trouble
-							OldString: So if you leave now there will be no trouble
+						AI: {
+							1: {
+								NewString: Bro I got tired, its your turn
+								OldString: Bro I got tired, its your turn
+							}
 						}
+					}
 
-						3: {
-							NewString: Sorry but by order of our queen these lands are prohibited to humans
-							OldString: Sorry but by order of our queen these lands are prohibited to humans
-						}
+					BoundGuardian: {
+						AI: {
+							1: {
+								NewString: Please don't leave me alone
+								OldString: Please don't leave me alone
+							}
 
-						4: {
-							NewString: Greetings human
-							OldString: Greetings human
+							2: {
+								NewString: Please someone help
+								OldString: Please someone help
+							}
+
+							3: {
+								NewString: HELP...
+								OldString: HELP...
+							}
 						}
 					}
 				}
 
-				StormDiver: {
-					HitEffect: {
-						1: {
-							NewString:
-								'''
-								Other Harpies find me childish and idiotic but you've shown me true care
-								Thank you for shining as a summer sun in my foolish life, brother
-								'''
-							OldString:
-								'''
-								Other Harpies find me childish and idiotic but you've shown me true care
-								Thank you for shining as a summer sun in my foolish life, brother
-								'''
-						}
-					}
-
-					AI: {
-						1: {
-							NewString: Bro I got tired, its your turn
-							OldString: Bro I got tired, its your turn
-						}
-					}
-				}
-
-				BoundGuardian: {
-					AI: {
-						1: {
-							NewString: Please don't leave me alone
-							OldString: Please don't leave me alone
-						}
-
-						2: {
-							NewString: Please someone help
-							OldString: Please someone help
-						}
-
-						3: {
-							NewString: HELP...
-							OldString: HELP...
-						}
-					}
-				}
-			}
-
-			SATLA001: {
 				SATLA001: {
-					AI: {
-						1: {
-							NewString: It seems they just get overheat but don't worry. I still have enough toys
-							OldString: It seems they just get overheat but don't worry. I still have enough toys
-						}
-					}
-				}
-			}
-
-			SecurityBot: {
-				SecurityBotSummon: {
-					AI: {
-						1: {
-							NewString: LEAVING IS STRONGLY ADVISED
-							OldString: LEAVING IS STRONGLY ADVISED
-						}
-
-						2: {
-							NewString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
-							OldString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
-						}
-
-						3: {
-							NewString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
-							OldString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
-						}
-
-						4: {
-							NewString: GREETINGS ADVENTURER
-							OldString: GREETINGS ADVENTURER
+					SATLA001: {
+						AI: {
+							1: {
+								NewString: It seems they just get overheat but don't worry. I still have enough toys
+								OldString: It seems they just get overheat but don't worry. I still have enough toys
+							}
 						}
 					}
 				}
 
 				SecurityBot: {
-					AI: {
-						1: {
-							NewString: MEMORY OVERLOAD...
-							OldString: MEMORY OVERLOAD...
-						}
-
-						2: {
-							NewString: " return into ashes"
-							OldString: " return into ashes"
-						}
-
-						3: {
-							NewString:
-								'''
-								     HUMAN NOT FOOLED     
-								INITIALIZING SELF DESTRUCT
-								'''
-							OldString:
-								'''
-								     HUMAN NOT FOOLED     
-								INITIALIZING SELF DESTRUCT
-								'''
-						}
-
-						4: {
-							NewString: INITIATING ECM
-							OldString: INITIATING ECM
-						}
-
-						5: {
-							NewString: IL EDITING THE OCCIPITAL LOBE...
-							OldString: IL EDITING THE OCCIPITAL LOBE...
-						}
-
-						6: {
-							NewString: EM WAVE IS READY
-							OldString: EM WAVE IS READY
-						}
-
-						7: {
-							NewString: GENERATING SHIELD
-							OldString: GENERATING SHIELD
-						}
-
-						8: {
-							NewString: SCAN REQUIRED
-							OldString: SCAN REQUIRED
-						}
-					}
-				}
-
-				NoEscape: {
-					AI: {
-						1: {
-							NewString: " cannot escape"
-							OldString: " cannot escape"
-						}
-					}
-				}
-			}
-
-			SlayerofEvil: {
-				SlayerofEvil: {
-					AI: {
-						1: {
-							NewString: I cannot lose to a bandit like you. They believe in me
-							OldString: I cannot lose to a bandit like you. They believe in me
-						}
-					}
-				}
-			}
-
-			SlimeArmy: {
-				Tier2: {
-					SuspiciousSlime: {
+					SecurityBotSummon: {
 						AI: {
 							1: {
-								NewString: Help
-								OldString: Help
-							}
-						}
-					}
-				}
-			}
-
-			SlimesLastHope: {
-				UWUSlime: {
-					AI: {
-						1: {
-							NewString: Shogun slime could you cover me for few seconds?
-							OldString: Shogun slime could you cover me for few seconds?
-						}
-
-						2: {
-							NewString: I feel tired, could we continue few second later?
-							OldString: I feel tired, could we continue few second later?
-						}
-
-						3: {
-							NewString: Could we stop and try to solve this by talking?
-							OldString: Could we stop and try to solve this by talking?
-						}
-					}
-				}
-
-				ShinobiSlimeShuriken: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " have been eliminated"
-							OldString: " have been eliminated"
-						}
-					}
-				}
-
-				ShinobiSlimeDasher: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " have been eliminated"
-							OldString: " have been eliminated"
-						}
-					}
-				}
-
-				ShinobiSlime: {
-					ModifyHitPlayer: {
-						1: {
-							NewString: " have been eliminated"
-							OldString: " have been eliminated"
-						}
-					}
-
-					ModifyHitByItem: {
-						1: {
-							NewString: Critical Strike
-							OldString: Critical Strike
-						}
-					}
-				}
-
-				MechanicalSlime: {
-					AI: {
-						1: {
-							NewString: AIR STRIKE REQUIRED
-							OldString: AIR STRIKE REQUIRED
-						}
-					}
-				}
-			}
-
-			TownNPCs: {
-				Yandere: {
-					PostAI: {
-						1: {
-							NewString: Senpai are you looking for me?
-							OldString: Senpai are you looking for me?
-						}
-
-						2: {
-							NewString: Senpai, senpai...
-							OldString: Senpai, senpai...
-						}
-
-						3: {
-							NewString: HEHEHEHE...
-							OldString: HEHEHEHE...
-						}
-					}
-				}
-
-				BossHunterMerchant: {
-					addTrophy: {
-						1: {
-							NewString: New item unlocked in shop
-							OldString: New item unlocked in shop
-						}
-					}
-				}
-			}
-
-			UndeadChef: {
-				UndeadChef: {
-					AI: {
-						1: {
-							NewString: Should I go with eastern or western style?
-							OldString: Should I go with eastern or western style?
-						}
-
-						2: {
-							NewString: Where did I put the lamb sauce?
-							OldString: Where did I put the lamb sauce?
-						}
-
-						3: {
-							NewString: Maybe youghurt with fruit go well as dessert
-							OldString: Maybe youghurt with fruit go well as dessert
-						}
-
-						4: {
-							NewString: Maybe I should put less red pepper
-							OldString: Maybe I should put less red pepper
-						}
-
-						5: {
-							NewString: Hmmm...
-							OldString: Hmmm...
-						}
-					}
-				}
-			}
-		}
-
-		Projectiles: {
-			Accessory: {
-				YuriDagger: {
-					AI: {
-						1: {
-							NewString: " stabbed itself"
-							OldString: " stabbed itself"
-						}
-					}
-				}
-
-				MadotsukiEffect: {
-					PostDraw: {
-						1: {
-							NewString: Nopperabou
-							OldString: Nopperabou
-						}
-
-						2: {
-							NewString: Towel
-							OldString: Towel
-						}
-
-						3: {
-							NewString: Cat
-							OldString: Cat
-						}
-
-						4: {
-							NewString: Lamp
-							OldString: Lamp
-						}
-
-						5: {
-							NewString: Bicycle
-							OldString: Bicycle
-						}
-
-						6: {
-							NewString: Buyo Buyo
-							OldString: Buyo Buyo
-						}
-
-						7: {
-							NewString: Neon
-							OldString: Neon
-						}
-
-						8: {
-							NewString: Long Hair
-							OldString: Long Hair
-						}
-
-						9: {
-							NewString: Poop Hair
-							OldString: Poop Hair
-						}
-
-						10: {
-							NewString: Severed Head
-							OldString: Severed Head
-						}
-
-						11: {
-							NewString: Fat
-							OldString: Fat
-						}
-
-						12: {
-							NewString: Midget
-							OldString: Midget
-						}
-
-						13: {
-							NewString: Knife
-							OldString: Knife
-						}
-
-						14: {
-							NewString: Demon
-							OldString: Demon
-						}
-
-						15: {
-							NewString: Witch
-							OldString: Witch
-						}
-
-						16: {
-							NewString: Yuki-onna
-							OldString: Yuki-onna
-						}
-
-						17: {
-							NewString: Frog
-							OldString: Frog
-						}
-
-						18: {
-							NewString: Umbrella
-							OldString: Umbrella
-						}
-
-						19: {
-							NewString: Hat and Scarf
-							OldString: Hat and Scarf
-						}
-
-						20: {
-							NewString: Flute
-							OldString: Flute
-						}
-
-						21: {
-							NewString: Medamaude
-							OldString: Medamaude
-						}
-
-						22: {
-							NewString: Blonde Hair
-							OldString: Blonde Hair
-						}
-
-						23: {
-							NewString: Triangle Kerchief
-							OldString: Triangle Kerchief
-						}
-
-						24: {
-							NewString: Stoplight
-							OldString: Stoplight
-						}
-					}
-				}
-			}
-
-			Arrows: {
-				SatlaArrowCharger: {
-					AI: {
-						1: {
-							NewString: CHARGED
-							OldString: CHARGED
-						}
-					}
-				}
-			}
-
-			Baseballs: {
-				TitaniumBall: {
-					ModifyHitNPC: {
-						1: {
-							NewString: BONK
-							OldString: BONK
-						}
-					}
-				}
-
-				BallBase: {
-					OnKill: {
-						1: {
-							NewString: MISS
-							OldString: MISS
-						}
-
-						2: {
-							NewString: HOME RUN
-							OldString: HOME RUN
-						}
-					}
-				}
-			}
-
-			Classless: {
-				Pokey: {
-					AI: {
-						1: {
-							NewString: Hello
-							OldString: Hello
-						}
-					}
-				}
-			}
-
-			Magic: {
-				MagicSmoke: {
-					AI: {
-						1: {
-							NewString: " bite to dust"
-							OldString: " bite to dust"
-						}
-					}
-				}
-			}
-
-			Minions: {
-				ChibiPinky: {
-					AI: {
-						1: {
-							NewString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
-							OldString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
-						}
-					}
-				}
-			}
-
-			Ranged: {
-				MeatMincer: {
-					AI: {
-						1: {
-							NewString: FULL CHARGE
-							OldString: FULL CHARGE
-						}
-					}
-				}
-			}
-
-			SadCatWave: {
-				PostDraw: {
-					1: {
-						NewString: Die
-						OldString: Die
-					}
-
-					2: {
-						NewString: Die, perish even
-						OldString: Die, perish even
-					}
-
-					3: {
-						NewString: FEAR
-						OldString: FEAR
-					}
-
-					4: {
-						NewString: Hows that sprite goin
-						OldString: Hows that sprite goin
-					}
-
-					5: {
-						NewString: I love my lemmy
-						OldString: I love my lemmy
-					}
-
-					6: {
-						NewString: Cope.
-						OldString: Cope.
-					}
-
-					7: {
-						NewString: Don't you dare
-						OldString: Don't you dare
-					}
-				}
-			}
-
-			Summoner: {
-				VerdeliteCrystal: {
-					AI: {
-						1: {
-							NewString: MAX
-							OldString: MAX
-						}
-
-						2: {
-							NewString: LEVEL UP
-							OldString: LEVEL UP
-						}
-
-						3: {
-							NewString: RESET
-							OldString: RESET
-						}
-					}
-				}
-
-				TinyDukeRainbow: {
-					CheckActive: {
-						1: {
-							NewString: B*TCH
-							OldString: B*TCH
-						}
-					}
-				}
-
-				Jello: {
-					PostAI: {
-						1: {
-							NewString: JELLO UP
-							OldString: JELLO UP
-						}
-
-						2: {
-							NewString: MP COMPABILITY UP
-							OldString: MP COMPABILITY UP
-						}
-
-						3: {
-							NewString: UNIQUE AI UP
-							OldString: UNIQUE AI UP
-						}
-
-						4: {
-							NewString: RESPECT UP
-							OldString: RESPECT UP
-						}
-
-						5: {
-							NewString: REACTION UP
-							OldString: REACTION UP
-						}
-
-						6: {
-							NewString: FAME UP
-							OldString: FAME UP
-						}
-
-						7: {
-							NewString: FAVOR UP
-							OldString: FAVOR UP
-						}
-
-						8: {
-							NewString: RANK UP
-							OldString: RANK UP
-						}
-
-						9: {
-							NewString: THORIUM UP
-							OldString: THORIUM UP
-						}
-
-						10: {
-							NewString: AIR RESISTANCE UP
-							OldString: AIR RESISTANCE UP
-						}
-
-						11: {
-							NewString: GAMER SPEED UP
-							OldString: GAMER SPEED UP
-						}
-
-						12: {
-							NewString: ACCEPTANCE UP
-							OldString: ACCEPTANCE UP
-						}
-
-						13: {
-							NewString: RADNESS UP
-							OldString: RADNESS UP
-						}
-
-						14: {
-							NewString: SHARPNESS UP
-							OldString: SHARPNESS UP
-						}
-
-						15: {
-							NewString: VOLUME UP
-							OldString: VOLUME UP
-						}
-
-						16: {
-							NewString: G UP
-							OldString: G UP
-						}
-
-						17: {
-							NewString: BUMBO UP
-							OldString: BUMBO UP
-						}
-
-						18: {
-							NewString: SLEEP HOURS DOWN
-							OldString: SLEEP HOURS DOWN
-						}
-					}
-				}
-
-				Guardian: {
-					AI: {
-						1: {
-							NewString: Divine Shield is Ready
-							OldString: Divine Shield is Ready
-						}
-					}
-				}
-			}
-
-			SummonProj: {
-				GnomeRise: {
-					OnKill: {
-						1: {
-							NewString: Confuse me with g'n'oblin
-							OldString: Confuse me with g'n'oblin
-						}
-
-						2: {
-							NewString: I'm a gn'ome
-							OldString: I'm a gn'ome
-						}
-
-						3: {
-							NewString: You've been GNOOOMED
-							OldString: You've been GNOOOMED
-						}
-
-						4: {
-							NewString: Hullo me old chum!
-							OldString: Hullo me old chum!
-						}
-					}
-				}
-
-				AustraliumWrench: {
-					AI: {
-						1: {
-							NewString: HOT! HOT! HOT!
-							OldString: HOT! HOT! HOT!
-						}
-
-						2: {
-							NewString: FULL CHARGE
-							OldString: FULL CHARGE
-						}
-					}
-				}
-			}
-
-			SummonWeapon: {
-				CaptainParot: {
-					AI: {
-						1: {
-							NewString: I'M READY
-							OldString: I'M READY
-						}
-
-						2: {
-							NewString: GET THEM
-							OldString: GET THEM
-						}
-
-						3: {
-							NewString: I'M TIRED
-							OldString: I'M TIRED
-						}
-
-						4: {
-							NewString: I MISS OLD FRIEND
-							OldString: I MISS OLD FRIEND
-						}
-
-						5: {
-							NewString: YARRR
-							OldString: YARRR
-						}
-					}
-				}
-			}
-
-			SupporterSouls: {
-				TinyCata: {
-					AI: {
-						1: {
-							NewString: k souls support him
-							OldString: k souls support him
-						}
-					}
-				}
-			}
-
-			Tarot: {
-				TarotEcho: {
-					AI: {
-						1: {
-							NewString: The Magician
-							OldString: The Magician
-						}
-
-						2: {
-							NewString: The Moon
-							OldString: The Moon
-						}
-
-						3: {
-							NewString: The Devil
-							OldString: The Devil
-						}
-
-						4: {
-							NewString: The Stars
-							OldString: The Stars
-						}
-
-						5: {
-							NewString: The Sun
-							OldString: The Sun
-						}
-
-						6: {
-							NewString: The World
-							OldString: The World
-						}
-
-						7: {
-							NewString: The Tower
-							OldString: The Tower
-						}
-
-						8: {
-							NewString: The Hermit
-							OldString: The Hermit
-						}
-
-						9: {
-							NewString: The Lovers
-							OldString: The Lovers
-						}
-					}
-				}
-			}
-
-			Throwing: {
-				Francisca: {
-					AI: {
-						1: {
-							NewString: FULL CHARGE
-							OldString: FULL CHARGE
-						}
-					}
-				}
-
-				DroneShuriken: {
-					seektarget: {
-						1: {
-							NewString: TARGET LOCKED
-							OldString: TARGET LOCKED
-						}
-					}
-				}
-			}
-
-			Transformations: {
-				TransformAbility: {
-					AI: {
-						1: {
-							NewString: TELEPORTATON IS READY
-							OldString: TELEPORTATON IS READY
-						}
-					}
-				}
-
-				BeastMount: {
-					AI: {
-						1: {
-							NewString: DASH IS READY
-							OldString: DASH IS READY
-						}
-					}
-				}
-			}
-
-			WheelofFortune: {
-				PostDraw: {
-					1: {
-						NewString: Current Reward:Rainbow Lattice
-						OldString: Current Reward:Rainbow Lattice
-					}
-
-					2: {
-						NewString: Current Reward:Rainbow Heart Necklace
-						OldString: Current Reward:Rainbow Heart Necklace
-					}
-
-					3: {
-						NewString: Current Reward:Secret Formula
-						OldString: Current Reward:Secret Formula
-					}
-
-					4: {
-						NewString: Current Reward:Cute Cupcake
-						OldString: Current Reward:Cute Cupcake
-					}
-
-					5: {
-						NewString: Current Reward:Endless Cookie Pouch
-						OldString: Current Reward:Endless Cookie Pouch
-					}
-				}
-			}
-
-			Whips: {
-				Kendama: {
-					AI: {
-						1: {
-							NewString: SPIKE
-							OldString: SPIKE
-						}
-					}
-				}
-			}
-
-			BossProjectiles: {
-				CBProjectiles: {
-					SugarLevel: {
-						AI: {
-							1: {
-								NewString: " died from heart attack"
-								OldString: " died from heart attack"
-							}
-						}
-
-						PostDraw: {
-							1: {
-								NewString: SUGAR LEVEL
-								OldString: SUGAR LEVEL
-							}
-						}
-					}
-
-					CookieArena: {
-						AI: {
-							1: {
-								NewString: Bye
-								OldString: Bye
-							}
-						}
-
-						PostDraw: {
-							1: {
-								NewString: Keep mouse on mono colored cookies to defuse them
-								OldString: Keep mouse on mono colored cookies to defuse them
+								NewString: LEAVING IS STRONGLY ADVISED
+								OldString: LEAVING IS STRONGLY ADVISED
 							}
 
 							2: {
-								NewString: Don't stimulate your senses
-								OldString: Don't stimulate your senses
-							}
-						}
-					}
-				}
-
-				HSProjectiles: {
-					HSFlameCaller: {
-						PostDraw: {
-							1: {
-								NewString: Rotate Mouse Around Player to Push Fire
-								OldString: Rotate Mouse Around Player to Push Fire
-							}
-						}
-					}
-				}
-
-				OkikuProjectiles: {
-					OkikuFallenSoul3: {
-						AI: {
-							1: {
-								NewString: You greedy pig, isn't half bowl is enough for you Akiko
-								OldString: You greedy pig, isn't half bowl is enough for you Akiko
-							}
-
-							2: {
-								NewString: You will sleep outside Akiko, you have no worth here
-								OldString: You will sleep outside Akiko, you have no worth here
+								NewString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
+								OldString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
 							}
 
 							3: {
-								NewString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
-								OldString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+								NewString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
+								OldString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
 							}
 
 							4: {
-								NewString: Akiko, how you menage to be good at nothing
-								OldString: Akiko, how you menage to be good at nothing
+								NewString: GREETINGS ADVENTURER
+								OldString: GREETINGS ADVENTURER
+							}
+						}
+					}
+
+					SecurityBot: {
+						AI: {
+							1: {
+								NewString: MEMORY OVERLOAD...
+								OldString: MEMORY OVERLOAD...
+							}
+
+							2: {
+								NewString: " return into ashes"
+								OldString: " return into ashes"
+							}
+
+							3: {
+								NewString:
+									'''
+										HUMAN NOT FOOLED     
+									INITIALIZING SELF DESTRUCT
+									'''
+								OldString:
+									'''
+										HUMAN NOT FOOLED     
+									INITIALIZING SELF DESTRUCT
+									'''
+							}
+
+							4: {
+								NewString: INITIATING ECM
+								OldString: INITIATING ECM
 							}
 
 							5: {
-								NewString: CLEAN THIS MESS NOW AKIKO
-								OldString: CLEAN THIS MESS NOW AKIKO
+								NewString: IL EDITING THE OCCIPITAL LOBE...
+								OldString: IL EDITING THE OCCIPITAL LOBE...
 							}
 
 							6: {
-								NewString: Even rats are more useful than you, Akiko
-								OldString: Even rats are more useful than you, Akiko
+								NewString: EM WAVE IS READY
+								OldString: EM WAVE IS READY
+							}
+
+							7: {
+								NewString: GENERATING SHIELD
+								OldString: GENERATING SHIELD
+							}
+
+							8: {
+								NewString: SCAN REQUIRED
+								OldString: SCAN REQUIRED
 							}
 						}
 					}
-				}
 
-				RHAFProjectiles: {
-					WindSlice2: {
-						PreDraw: {
-							1: {
-								NewString: Use Movement Keys to Pop Bubbles
-								OldString: Use Movement Keys to Pop Bubbles
-							}
-						}
-					}
-				}
-
-				SatlaProjectiles: {
-					SatlaDeathBeam: {
-						PreDraw: {
-							1: {
-								NewString: WARNING
-								OldString: WARNING
-							}
-						}
-					}
-				}
-
-				SBProjectiles: {
-					SBLoverScreen: {
+					NoEscape: {
 						AI: {
 							1: {
-								NewString: LETS BE TOGETHER FOREVER
-								OldString: LETS BE TOGETHER FOREVER
+								NewString: " cannot escape"
+								OldString: " cannot escape"
+							}
+						}
+					}
+				}
+
+				SlayerofEvil: {
+					SlayerofEvil: {
+						AI: {
+							1: {
+								NewString: I cannot lose to a bandit like you. They believe in me
+								OldString: I cannot lose to a bandit like you. They believe in me
+							}
+						}
+					}
+				}
+
+				SlimeArmy: {
+					Tier2: {
+						SuspiciousSlime: {
+							AI: {
+								1: {
+									NewString: Help
+									OldString: Help
+								}
+							}
+						}
+					}
+				}
+
+				SlimesLastHope: {
+					UWUSlime: {
+						AI: {
+							1: {
+								NewString: Shogun slime could you cover me for few seconds?
+								OldString: Shogun slime could you cover me for few seconds?
+							}
+
+							2: {
+								NewString: I feel tired, could we continue few second later?
+								OldString: I feel tired, could we continue few second later?
+							}
+
+							3: {
+								NewString: Could we stop and try to solve this by talking?
+								OldString: Could we stop and try to solve this by talking?
+							}
+						}
+					}
+
+					ShinobiSlimeShuriken: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " have been eliminated"
+								OldString: " have been eliminated"
+							}
+						}
+					}
+
+					ShinobiSlimeDasher: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " have been eliminated"
+								OldString: " have been eliminated"
+							}
+						}
+					}
+
+					ShinobiSlime: {
+						ModifyHitPlayer: {
+							1: {
+								NewString: " have been eliminated"
+								OldString: " have been eliminated"
+							}
+						}
+
+						ModifyHitByItem: {
+							1: {
+								NewString: Critical Strike
+								OldString: Critical Strike
+							}
+						}
+					}
+
+					MechanicalSlime: {
+						AI: {
+							1: {
+								NewString: AIR STRIKE REQUIRED
+								OldString: AIR STRIKE REQUIRED
+							}
+						}
+					}
+				}
+
+				TownNPCs: {
+					Yandere: {
+						PostAI: {
+							1: {
+								NewString: Senpai are you looking for me?
+								OldString: Senpai are you looking for me?
+							}
+
+							2: {
+								NewString: Senpai, senpai...
+								OldString: Senpai, senpai...
+							}
+
+							3: {
+								NewString: HEHEHEHE...
+								OldString: HEHEHEHE...
+							}
+						}
+					}
+
+					BossHunterMerchant: {
+						addTrophy: {
+							1: {
+								NewString: New item unlocked in shop
+								OldString: New item unlocked in shop
+							}
+						}
+					}
+				}
+
+				UndeadChef: {
+					UndeadChef: {
+						AI: {
+							1: {
+								NewString: Should I go with eastern or western style?
+								OldString: Should I go with eastern or western style?
+							}
+
+							2: {
+								NewString: Where did I put the lamb sauce?
+								OldString: Where did I put the lamb sauce?
+							}
+
+							3: {
+								NewString: Maybe youghurt with fruit go well as dessert
+								OldString: Maybe youghurt with fruit go well as dessert
+							}
+
+							4: {
+								NewString: Maybe I should put less red pepper
+								OldString: Maybe I should put less red pepper
+							}
+
+							5: {
+								NewString: Hmmm...
+								OldString: Hmmm...
 							}
 						}
 					}
 				}
 			}
 
-			NameChange: {
-				PostAI: {
-					1: {
-						NewString: " now!"
-						OldString: " now!"
+			Projectiles: {
+				Accessory: {
+					YuriDagger: {
+						AI: {
+							1: {
+								NewString: " stabbed itself"
+								OldString: " stabbed itself"
+							}
+						}
 					}
 
-					2: {
-						NewString: "I feel I should change my name to "
-						OldString: "I feel I should change my name to "
-					}
+					MadotsukiEffect: {
+						PostDraw: {
+							1: {
+								NewString: Nopperabou
+								OldString: Nopperabou
+							}
 
-					3: {
-						NewString: "No worries can call me "
-						OldString: "No worries can call me "
-					}
+							2: {
+								NewString: Towel
+								OldString: Towel
+							}
 
-					4: {
-						NewString: "Who am I? Wait I remember it's "
-						OldString: "Who am I? Wait I remember it's "
+							3: {
+								NewString: Cat
+								OldString: Cat
+							}
+
+							4: {
+								NewString: Lamp
+								OldString: Lamp
+							}
+
+							5: {
+								NewString: Bicycle
+								OldString: Bicycle
+							}
+
+							6: {
+								NewString: Buyo Buyo
+								OldString: Buyo Buyo
+							}
+
+							7: {
+								NewString: Neon
+								OldString: Neon
+							}
+
+							8: {
+								NewString: Long Hair
+								OldString: Long Hair
+							}
+
+							9: {
+								NewString: Poop Hair
+								OldString: Poop Hair
+							}
+
+							10: {
+								NewString: Severed Head
+								OldString: Severed Head
+							}
+
+							11: {
+								NewString: Fat
+								OldString: Fat
+							}
+
+							12: {
+								NewString: Midget
+								OldString: Midget
+							}
+
+							13: {
+								NewString: Knife
+								OldString: Knife
+							}
+
+							14: {
+								NewString: Demon
+								OldString: Demon
+							}
+
+							15: {
+								NewString: Witch
+								OldString: Witch
+							}
+
+							16: {
+								NewString: Yuki-onna
+								OldString: Yuki-onna
+							}
+
+							17: {
+								NewString: Frog
+								OldString: Frog
+							}
+
+							18: {
+								NewString: Umbrella
+								OldString: Umbrella
+							}
+
+							19: {
+								NewString: Hat and Scarf
+								OldString: Hat and Scarf
+							}
+
+							20: {
+								NewString: Flute
+								OldString: Flute
+							}
+
+							21: {
+								NewString: Medamaude
+								OldString: Medamaude
+							}
+
+							22: {
+								NewString: Blonde Hair
+								OldString: Blonde Hair
+							}
+
+							23: {
+								NewString: Triangle Kerchief
+								OldString: Triangle Kerchief
+							}
+
+							24: {
+								NewString: Stoplight
+								OldString: Stoplight
+							}
+						}
 					}
 				}
-			}
 
-			FishingRods: {
-				FishingMeter: {
+				Arrows: {
+					SatlaArrowCharger: {
+						AI: {
+							1: {
+								NewString: CHARGED
+								OldString: CHARGED
+							}
+						}
+					}
+				}
+
+				Baseballs: {
+					TitaniumBall: {
+						ModifyHitNPC: {
+							1: {
+								NewString: BONK
+								OldString: BONK
+							}
+						}
+					}
+
+					BallBase: {
+						OnKill: {
+							1: {
+								NewString: MISS
+								OldString: MISS
+							}
+
+							2: {
+								NewString: HOME RUN
+								OldString: HOME RUN
+							}
+						}
+					}
+				}
+
+				Classless: {
+					Pokey: {
+						AI: {
+							1: {
+								NewString: Hello
+								OldString: Hello
+							}
+						}
+					}
+				}
+
+				Magic: {
+					MagicSmoke: {
+						AI: {
+							1: {
+								NewString: " bite to dust"
+								OldString: " bite to dust"
+							}
+						}
+					}
+				}
+
+				Minions: {
+					ChibiPinky: {
+						AI: {
+							1: {
+								NewString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
+								OldString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
+							}
+						}
+					}
+				}
+
+				Ranged: {
+					MeatMincer: {
+						AI: {
+							1: {
+								NewString: FULL CHARGE
+								OldString: FULL CHARGE
+							}
+						}
+					}
+				}
+
+				SadCatWave: {
 					PostDraw: {
 						1: {
-							NewString: MISS
-							OldString: MISS
+							NewString: Die
+							OldString: Die
 						}
 
 						2: {
-							NewString: CATCH
-							OldString: CATCH
-						}
-					}
-				}
-			}
-
-			GoldenKunai2: {
-				ModifyHitPlayer: {
-					1: {
-						NewString: " have been eliminated"
-						OldString: " have been eliminated"
-					}
-				}
-			}
-
-			DarkSoul: {
-				AI: {
-					1: {
-						NewString: Much Better
-						OldString: Much Better
-					}
-				}
-			}
-
-			Click: {
-				AI: {
-					1: {
-						NewString: CLICK
-						OldString: CLICK
-					}
-				}
-			}
-
-			BadGoldenShuriken2: {
-				ModifyHitPlayer: {
-					1: {
-						NewString: " have been eliminated"
-						OldString: " have been eliminated"
-					}
-				}
-			}
-
-			AngelicBeamofLight2: {
-				OnHitNPC: {
-					1: {
-						NewString: EMOTIONAL DAMAGE
-						OldString: EMOTIONAL DAMAGE
-					}
-				}
-			}
-
-			AFKPETSGlobalProjectile: {
-				OnHitNPC: {
-					1: {
-						NewString: MAX STACK
-						OldString: MAX STACK
-					}
-				}
-
-				ModifyHitNPC: {
-					1: {
-						NewString: Fire immunity have been broken
-						OldString: Fire immunity have been broken
-					}
-				}
-			}
-
-			Misc: {
-				TacticChecker: {
-					PostDraw: {
-						1: {
-							NewString: Aim Weakest
-							OldString: Aim Weakest
-						}
-
-						2: {
-							NewString: Aim Closest
-							OldString: Aim Closest
+							NewString: Die, perish even
+							OldString: Die, perish even
 						}
 
 						3: {
-							NewString: Aim Strongest
-							OldString: Aim Strongest
-						}
-					}
-				}
-
-				WaterChecker: {
-					PostDraw: {
-						1: {
-							NewString: Absorb
-							OldString: Absorb
-						}
-
-						2: {
-							NewString: Water
-							OldString: Water
-						}
-
-						3: {
-							NewString: Lava
-							OldString: Lava
+							NewString: FEAR
+							OldString: FEAR
 						}
 
 						4: {
-							NewString: Honey
-							OldString: Honey
+							NewString: Hows that sprite goin
+							OldString: Hows that sprite goin
+						}
+
+						5: {
+							NewString: I love my lemmy
+							OldString: I love my lemmy
+						}
+
+						6: {
+							NewString: Cope.
+							OldString: Cope.
+						}
+
+						7: {
+							NewString: Don't you dare
+							OldString: Don't you dare
+						}
+					}
+				}
+
+				Summoner: {
+					VerdeliteCrystal: {
+						AI: {
+							1: {
+								NewString: MAX
+								OldString: MAX
+							}
+
+							2: {
+								NewString: LEVEL UP
+								OldString: LEVEL UP
+							}
+
+							3: {
+								NewString: RESET
+								OldString: RESET
+							}
+						}
+					}
+
+					TinyDukeRainbow: {
+						CheckActive: {
+							1: {
+								NewString: B*TCH
+								OldString: B*TCH
+							}
+						}
+					}
+
+					Jello: {
+						PostAI: {
+							1: {
+								NewString: JELLO UP
+								OldString: JELLO UP
+							}
+
+							2: {
+								NewString: MP COMPABILITY UP
+								OldString: MP COMPABILITY UP
+							}
+
+							3: {
+								NewString: UNIQUE AI UP
+								OldString: UNIQUE AI UP
+							}
+
+							4: {
+								NewString: RESPECT UP
+								OldString: RESPECT UP
+							}
+
+							5: {
+								NewString: REACTION UP
+								OldString: REACTION UP
+							}
+
+							6: {
+								NewString: FAME UP
+								OldString: FAME UP
+							}
+
+							7: {
+								NewString: FAVOR UP
+								OldString: FAVOR UP
+							}
+
+							8: {
+								NewString: RANK UP
+								OldString: RANK UP
+							}
+
+							9: {
+								NewString: THORIUM UP
+								OldString: THORIUM UP
+							}
+
+							10: {
+								NewString: AIR RESISTANCE UP
+								OldString: AIR RESISTANCE UP
+							}
+
+							11: {
+								NewString: GAMER SPEED UP
+								OldString: GAMER SPEED UP
+							}
+
+							12: {
+								NewString: ACCEPTANCE UP
+								OldString: ACCEPTANCE UP
+							}
+
+							13: {
+								NewString: RADNESS UP
+								OldString: RADNESS UP
+							}
+
+							14: {
+								NewString: SHARPNESS UP
+								OldString: SHARPNESS UP
+							}
+
+							15: {
+								NewString: VOLUME UP
+								OldString: VOLUME UP
+							}
+
+							16: {
+								NewString: G UP
+								OldString: G UP
+							}
+
+							17: {
+								NewString: BUMBO UP
+								OldString: BUMBO UP
+							}
+
+							18: {
+								NewString: SLEEP HOURS DOWN
+								OldString: SLEEP HOURS DOWN
+							}
+						}
+					}
+
+					Guardian: {
+						AI: {
+							1: {
+								NewString: Divine Shield is Ready
+								OldString: Divine Shield is Ready
+							}
+						}
+					}
+				}
+
+				SummonProj: {
+					GnomeRise: {
+						OnKill: {
+							1: {
+								NewString: Confuse me with g'n'oblin
+								OldString: Confuse me with g'n'oblin
+							}
+
+							2: {
+								NewString: I'm a gn'ome
+								OldString: I'm a gn'ome
+							}
+
+							3: {
+								NewString: You've been GNOOOMED
+								OldString: You've been GNOOOMED
+							}
+
+							4: {
+								NewString: Hullo me old chum!
+								OldString: Hullo me old chum!
+							}
+						}
+					}
+
+					AustraliumWrench: {
+						AI: {
+							1: {
+								NewString: HOT! HOT! HOT!
+								OldString: HOT! HOT! HOT!
+							}
+
+							2: {
+								NewString: FULL CHARGE
+								OldString: FULL CHARGE
+							}
+						}
+					}
+				}
+
+				SummonWeapon: {
+					CaptainParot: {
+						AI: {
+							1: {
+								NewString: I'M READY
+								OldString: I'M READY
+							}
+
+							2: {
+								NewString: GET THEM
+								OldString: GET THEM
+							}
+
+							3: {
+								NewString: I'M TIRED
+								OldString: I'M TIRED
+							}
+
+							4: {
+								NewString: I MISS OLD FRIEND
+								OldString: I MISS OLD FRIEND
+							}
+
+							5: {
+								NewString: YARRR
+								OldString: YARRR
+							}
+						}
+					}
+				}
+
+				SupporterSouls: {
+					TinyCata: {
+						AI: {
+							1: {
+								NewString: k souls support him
+								OldString: k souls support him
+							}
+						}
+					}
+				}
+
+				Tarot: {
+					TarotEcho: {
+						AI: {
+							1: {
+								NewString: The Magician
+								OldString: The Magician
+							}
+
+							2: {
+								NewString: The Moon
+								OldString: The Moon
+							}
+
+							3: {
+								NewString: The Devil
+								OldString: The Devil
+							}
+
+							4: {
+								NewString: The Stars
+								OldString: The Stars
+							}
+
+							5: {
+								NewString: The Sun
+								OldString: The Sun
+							}
+
+							6: {
+								NewString: The World
+								OldString: The World
+							}
+
+							7: {
+								NewString: The Tower
+								OldString: The Tower
+							}
+
+							8: {
+								NewString: The Hermit
+								OldString: The Hermit
+							}
+
+							9: {
+								NewString: The Lovers
+								OldString: The Lovers
+							}
+						}
+					}
+				}
+
+				Throwing: {
+					Francisca: {
+						AI: {
+							1: {
+								NewString: FULL CHARGE
+								OldString: FULL CHARGE
+							}
+						}
+					}
+
+					DroneShuriken: {
+						seektarget: {
+							1: {
+								NewString: TARGET LOCKED
+								OldString: TARGET LOCKED
+							}
+						}
+					}
+				}
+
+				Transformations: {
+					TransformAbility: {
+						AI: {
+							1: {
+								NewString: TELEPORTATON IS READY
+								OldString: TELEPORTATON IS READY
+							}
+						}
+					}
+
+					BeastMount: {
+						AI: {
+							1: {
+								NewString: DASH IS READY
+								OldString: DASH IS READY
+							}
+						}
+					}
+				}
+
+				WheelofFortune: {
+					PostDraw: {
+						1: {
+							NewString: Current Reward:Rainbow Lattice
+							OldString: Current Reward:Rainbow Lattice
+						}
+
+						2: {
+							NewString: Current Reward:Rainbow Heart Necklace
+							OldString: Current Reward:Rainbow Heart Necklace
+						}
+
+						3: {
+							NewString: Current Reward:Secret Formula
+							OldString: Current Reward:Secret Formula
+						}
+
+						4: {
+							NewString: Current Reward:Cute Cupcake
+							OldString: Current Reward:Cute Cupcake
+						}
+
+						5: {
+							NewString: Current Reward:Endless Cookie Pouch
+							OldString: Current Reward:Endless Cookie Pouch
+						}
+					}
+				}
+
+				Whips: {
+					Kendama: {
+						AI: {
+							1: {
+								NewString: SPIKE
+								OldString: SPIKE
+							}
+						}
+					}
+				}
+
+				BossProjectiles: {
+					CBProjectiles: {
+						SugarLevel: {
+							AI: {
+								1: {
+									NewString: " died from heart attack"
+									OldString: " died from heart attack"
+								}
+							}
+
+							PostDraw: {
+								1: {
+									NewString: SUGAR LEVEL
+									OldString: SUGAR LEVEL
+								}
+							}
+						}
+
+						CookieArena: {
+							AI: {
+								1: {
+									NewString: Bye
+									OldString: Bye
+								}
+							}
+
+							PostDraw: {
+								1: {
+									NewString: Keep mouse on mono colored cookies to defuse them
+									OldString: Keep mouse on mono colored cookies to defuse them
+								}
+
+								2: {
+									NewString: Don't stimulate your senses
+									OldString: Don't stimulate your senses
+								}
+							}
+						}
+					}
+
+					HSProjectiles: {
+						HSFlameCaller: {
+							PostDraw: {
+								1: {
+									NewString: Rotate Mouse Around Player to Push Fire
+									OldString: Rotate Mouse Around Player to Push Fire
+								}
+							}
+						}
+					}
+
+					OkikuProjectiles: {
+						OkikuFallenSoul3: {
+							AI: {
+								1: {
+									NewString: You greedy pig, isn't half bowl is enough for you Akiko
+									OldString: You greedy pig, isn't half bowl is enough for you Akiko
+								}
+
+								2: {
+									NewString: You will sleep outside Akiko, you have no worth here
+									OldString: You will sleep outside Akiko, you have no worth here
+								}
+
+								3: {
+									NewString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+									OldString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+								}
+
+								4: {
+									NewString: Akiko, how you menage to be good at nothing
+									OldString: Akiko, how you menage to be good at nothing
+								}
+
+								5: {
+									NewString: CLEAN THIS MESS NOW AKIKO
+									OldString: CLEAN THIS MESS NOW AKIKO
+								}
+
+								6: {
+									NewString: Even rats are more useful than you, Akiko
+									OldString: Even rats are more useful than you, Akiko
+								}
+							}
+						}
+					}
+
+					RHAFProjectiles: {
+						WindSlice2: {
+							PreDraw: {
+								1: {
+									NewString: Use Movement Keys to Pop Bubbles
+									OldString: Use Movement Keys to Pop Bubbles
+								}
+							}
+						}
+					}
+
+					SatlaProjectiles: {
+						SatlaDeathBeam: {
+							PreDraw: {
+								1: {
+									NewString: WARNING
+									OldString: WARNING
+								}
+							}
+						}
+					}
+
+					SBProjectiles: {
+						SBLoverScreen: {
+							AI: {
+								1: {
+									NewString: LETS BE TOGETHER FOREVER
+									OldString: LETS BE TOGETHER FOREVER
+								}
+							}
+						}
+					}
+				}
+
+				NameChange: {
+					PostAI: {
+						1: {
+							NewString: " now!"
+							OldString: " now!"
+						}
+
+						2: {
+							NewString: "I feel I should change my name to "
+							OldString: "I feel I should change my name to "
+						}
+
+						3: {
+							NewString: "No worries can call me "
+							OldString: "No worries can call me "
+						}
+
+						4: {
+							NewString: "Who am I? Wait I remember it's "
+							OldString: "Who am I? Wait I remember it's "
+						}
+					}
+				}
+
+				FishingRods: {
+					FishingMeter: {
+						PostDraw: {
+							1: {
+								NewString: MISS
+								OldString: MISS
+							}
+
+							2: {
+								NewString: CATCH
+								OldString: CATCH
+							}
+						}
+					}
+				}
+
+				GoldenKunai2: {
+					ModifyHitPlayer: {
+						1: {
+							NewString: " have been eliminated"
+							OldString: " have been eliminated"
+						}
+					}
+				}
+
+				DarkSoul: {
+					AI: {
+						1: {
+							NewString: Much Better
+							OldString: Much Better
+						}
+					}
+				}
+
+				Click: {
+					AI: {
+						1: {
+							NewString: CLICK
+							OldString: CLICK
+						}
+					}
+				}
+
+				BadGoldenShuriken2: {
+					ModifyHitPlayer: {
+						1: {
+							NewString: " have been eliminated"
+							OldString: " have been eliminated"
+						}
+					}
+				}
+
+				AngelicBeamofLight2: {
+					OnHitNPC: {
+						1: {
+							NewString: EMOTIONAL DAMAGE
+							OldString: EMOTIONAL DAMAGE
+						}
+					}
+				}
+
+				AFKPETSGlobalProjectile: {
+					OnHitNPC: {
+						1: {
+							NewString: MAX STACK
+							OldString: MAX STACK
+						}
+					}
+
+					ModifyHitNPC: {
+						1: {
+							NewString: Fire immunity have been broken
+							OldString: Fire immunity have been broken
+						}
+					}
+				}
+
+				Misc: {
+					TacticChecker: {
+						PostDraw: {
+							1: {
+								NewString: Aim Weakest
+								OldString: Aim Weakest
+							}
+
+							2: {
+								NewString: Aim Closest
+								OldString: Aim Closest
+							}
+
+							3: {
+								NewString: Aim Strongest
+								OldString: Aim Strongest
+							}
+						}
+					}
+
+					WaterChecker: {
+						PostDraw: {
+							1: {
+								NewString: Absorb
+								OldString: Absorb
+							}
+
+							2: {
+								NewString: Water
+								OldString: Water
+							}
+
+							3: {
+								NewString: Lava
+								OldString: Lava
+							}
+
+							4: {
+								NewString: Honey
+								OldString: Honey
+							}
 						}
 					}
 				}
 			}
-		}
 
-		Tiles: {
-			Holographic: {
-				HolographicDresser: {
+			Tiles: {
+				Holographic: {
+					HolographicDresser: {
+						MouseOver: {
+							1: {
+								NewString: Phase Shifting Dresser
+								OldString: Phase Shifting Dresser
+							}
+						}
+
+						MouseOverFar: {
+							1: {
+								NewString: Phase Shifting Dresser
+								OldString: Phase Shifting Dresser
+							}
+						}
+					}
+
+					HolographicChest: {
+						MouseOver: {
+							1: {
+								NewString: Phase Shifting Chest
+								OldString: Phase Shifting Chest
+							}
+						}
+					}
+				}
+
+				WhiteHolographicChest: {
 					MouseOver: {
 						1: {
-							NewString: Phase Shifting Dresser
-							OldString: Phase Shifting Dresser
-						}
-					}
-
-					MouseOverFar: {
-						1: {
-							NewString: Phase Shifting Dresser
-							OldString: Phase Shifting Dresser
+							NewString: Tiny Factory
+							OldString: Tiny Factory
 						}
 					}
 				}
 
-				HolographicChest: {
+				TinyShop: {
 					MouseOver: {
 						1: {
-							NewString: Phase Shifting Chest
-							OldString: Phase Shifting Chest
+							NewString: Tiny Shop
+							OldString: Tiny Shop
+						}
+					}
+				}
+
+				TinyMine: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Mine
+							OldString: Tiny Mine
+						}
+					}
+				}
+
+				TinyHouse: {
+					MouseOver: {
+						1: {
+							NewString: Tiny House
+							OldString: Tiny House
+						}
+					}
+				}
+
+				TinyFactory: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Factory
+							OldString: Tiny Factory
+						}
+					}
+				}
+
+				TinyCastle: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Castle
+							OldString: Tiny Castle
+						}
+					}
+				}
+
+				TinyBank: {
+					MouseOver: {
+						1: {
+							NewString: Tiny Bank
+							OldString: Tiny Bank
+						}
+					}
+				}
+
+				SCP1162: {
+					RightClick: {
+						1: {
+							NewString: " have lost it's right lung"
+							OldString: " have lost it's right lung"
+						}
+					}
+				}
+
+				NoteBlock: {
+					RightClick: {
+						1: {
+							NewString: Empty
+							OldString: Empty
+						}
+					}
+				}
+
+				MusicBlockStarter: {
+					RightClick: {
+						1: {
+							NewString: Up
+							OldString: Up
+						}
+
+						2: {
+							NewString: Down
+							OldString: Down
+						}
+
+						3: {
+							NewString: Left
+							OldString: Left
+						}
+
+						4: {
+							NewString: Right
+							OldString: Right
+						}
+					}
+				}
+
+				MagneticStorageUnit: {
+					MouseOver: {
+						1: {
+							NewString: Magnetic Storage Unit
+							OldString: Magnetic Storage Unit
+						}
+					}
+				}
+
+				FuriousAnvil: {
+					RightClick: {
+						1: {
+							NewString:
+								'''
+								Item will shatter to following materials:
+
+								'''
+							OldString:
+								'''
+								Item will shatter to following materials:
+
+								'''
+						}
+					}
+				}
+
+				DarkAltar2: {
+					RightClick: {
+						1: {
+							NewString: Relic Accepted
+							OldString: Relic Accepted
+						}
+					}
+				}
+
+				AFKPETSGlobalTile: {
+					CanDrop: {
+						1: {
+							NewString: Harvester Crit
+							OldString: Harvester Crit
+						}
+					}
+
+					RightClick: {
+						1: {
+							NewString: % Pickaxe power to break this tile
+							OldString: % Pickaxe power to break this tile
+						}
+
+						2: {
+							NewString: "You need at least "
+							OldString: "You need at least "
 						}
 					}
 				}
 			}
 
-			WhiteHolographicChest: {
-				MouseOver: {
-					1: {
-						NewString: Tiny Factory
-						OldString: Tiny Factory
+			Common: {
+				Commands: {
+					FunActivateCommand: {
+						get_Description: {
+							1: {
+								NewString: activate or deactivate fun mode wit /funactivated true or false
+								OldString: activate or deactivate fun mode wit /funactivated true or false
+							}
+						}
+					}
+
+					FirstFrameAdjustCommand: {
+						get_Description: {
+							1: {
+								NewString: Adjust the first frame of the mirage petfirstframe
+								OldString: Adjust the first frame of the mirage petfirstframe
+							}
+						}
+					}
+
+					BossLifeAdjustCommand: {
+						get_Description: {
+							1: {
+								NewString: Adjust the maximum boss lifebosslife
+								OldString: Adjust the maximum boss lifebosslife
+							}
+						}
+					}
+
+					AnswerCommand: {
+						get_Description: {
+							1: {
+								NewString: Adjust the word for trivia minigame byanswer
+								OldString: Adjust the word for trivia minigame byanswer
+							}
+						}
 					}
 				}
 			}
 
-			TinyShop: {
-				MouseOver: {
+			FunCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Shop
-						OldString: Tiny Shop
+						NewString: Drops in fun mode
+						OldString: Drops in fun mode
 					}
 				}
 			}
 
-			TinyMine: {
-				MouseOver: {
+			AnyMechCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Mine
-						OldString: Tiny Mine
+						NewString: Drops after any one of mechanical bosses have been defeated
+						OldString: Drops after any one of mechanical bosses have been defeated
 					}
 				}
 			}
 
-			TinyHouse: {
-				MouseOver: {
+			AllMechCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny House
-						OldString: Tiny House
+						NewString: Drops after all mechanical bosses have been defeated
+						OldString: Drops after all mechanical bosses have been defeated
 					}
 				}
 			}
 
-			TinyFactory: {
-				MouseOver: {
+			OkikuCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Factory
-						OldString: Tiny Factory
+						NewString: Drops after Okiku have been defeated
+						OldString: Drops after Okiku have been defeated
 					}
 				}
 			}
 
-			TinyCastle: {
-				MouseOver: {
+			EvilBossCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Castle
-						OldString: Tiny Castle
+						NewString: Drops after evil biome boss have been defeated
+						OldString: Drops after evil biome boss have been defeated
 					}
 				}
 			}
 
-			TinyBank: {
-				MouseOver: {
+			HardmodeCondition: {
+				GetConditionDescription: {
 					1: {
-						NewString: Tiny Bank
-						OldString: Tiny Bank
+						NewString: Drops in hardmode
+						OldString: Drops in hardmode
 					}
 				}
 			}
 
-			SCP1162: {
-				RightClick: {
+			AFKPetsPlayer: {
+				CanConsumeBait: {
 					1: {
-						NewString: " have lost it's right lung"
-						OldString: " have lost it's right lung"
+						NewString: " rip itself into pieces"
+						OldString: " rip itself into pieces"
 					}
 				}
-			}
 
-			NoteBlock: {
-				RightClick: {
+				ModifyHitByNPC: {
 					1: {
-						NewString: Empty
-						OldString: Empty
-					}
-				}
-			}
-
-			MusicBlockStarter: {
-				RightClick: {
-					1: {
-						NewString: Up
-						OldString: Up
+						NewString: " died for its lover"
+						OldString: " died for its lover"
 					}
 
 					2: {
-						NewString: Down
-						OldString: Down
+						NewString: Miss
+						OldString: Miss
 					}
 
 					3: {
-						NewString: Left
-						OldString: Left
+						NewString: Attack Dodged
+						OldString: Attack Dodged
 					}
 
 					4: {
-						NewString: Right
-						OldString: Right
-					}
-				}
-			}
-
-			MagneticStorageUnit: {
-				MouseOver: {
-					1: {
-						NewString: Magnetic Storage Unit
-						OldString: Magnetic Storage Unit
-					}
-				}
-			}
-
-			FuriousAnvil: {
-				RightClick: {
-					1: {
-						NewString:
-							'''
-							Item will shatter to following materials:
-
-							'''
-						OldString:
-							'''
-							Item will shatter to following materials:
-
-							'''
-					}
-				}
-			}
-
-			DarkAltar2: {
-				RightClick: {
-					1: {
-						NewString: Relic Accepted
-						OldString: Relic Accepted
-					}
-				}
-			}
-
-			AFKPETSGlobalTile: {
-				CanDrop: {
-					1: {
-						NewString: Harvester Crit
-						OldString: Harvester Crit
+						NewString: Dodge
+						OldString: Dodge
 					}
 				}
 
-				RightClick: {
+				CatchFish: {
 					1: {
-						NewString: % Pickaxe power to break this tile
-						OldString: % Pickaxe power to break this tile
+						NewString: Cookie Crate?
+						OldString: Cookie Crate?
 					}
 
 					2: {
-						NewString: "You need at least "
-						OldString: "You need at least "
+						NewString: The Duke?
+						OldString: The Duke?
 					}
 				}
 			}
-		}
 
-		Common: {
-			Commands: {
-				FunActivateCommand: {
-					get_Description: {
-						1: {
-							NewString: activate or deactivate fun mode wit /funactivated true or false
-							OldString: activate or deactivate fun mode wit /funactivated true or false
-						}
-					}
-				}
-
-				FirstFrameAdjustCommand: {
-					get_Description: {
-						1: {
-							NewString: Adjust the first frame of the mirage petfirstframe
-							OldString: Adjust the first frame of the mirage petfirstframe
-						}
-					}
-				}
-
-				BossLifeAdjustCommand: {
-					get_Description: {
-						1: {
-							NewString: Adjust the maximum boss lifebosslife
-							OldString: Adjust the maximum boss lifebosslife
-						}
-					}
-				}
-
-				AnswerCommand: {
-					get_Description: {
-						1: {
-							NewString: Adjust the word for trivia minigame byanswer
-							OldString: Adjust the word for trivia minigame byanswer
-						}
+			AFKPETSMapLayer: {
+				Draw: {
+					1: {
+						NewString: Marked Location
+						OldString: Marked Location
 					}
 				}
 			}
-		}
 
-		FunCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops in fun mode
-					OldString: Drops in fun mode
-				}
-			}
-		}
-
-		AnyMechCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops after any one of mechanical bosses have been defeated
-					OldString: Drops after any one of mechanical bosses have been defeated
-				}
-			}
-		}
-
-		AllMechCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops after all mechanical bosses have been defeated
-					OldString: Drops after all mechanical bosses have been defeated
-				}
-			}
-		}
-
-		OkikuCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops after Okiku have been defeated
-					OldString: Drops after Okiku have been defeated
-				}
-			}
-		}
-
-		EvilBossCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops after evil biome boss have been defeated
-					OldString: Drops after evil biome boss have been defeated
-				}
-			}
-		}
-
-		HardmodeCondition: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops in hardmode
-					OldString: Drops in hardmode
-				}
-			}
-		}
-
-		AFKPetsPlayer: {
-			CanConsumeBait: {
-				1: {
-					NewString: " rip itself into pieces"
-					OldString: " rip itself into pieces"
+			DefeatEvilBoss: {
+				GetConditionDescription: {
+					1: {
+						NewString: Drops after evil biome boss has been defeated
+						OldString: Drops after evil biome boss has been defeated
+					}
 				}
 			}
 
-			ModifyHitByNPC: {
-				1: {
-					NewString: " died for its lover"
-					OldString: " died for its lover"
-				}
-
-				2: {
-					NewString: Miss
-					OldString: Miss
-				}
-
-				3: {
-					NewString: Attack Dodged
-					OldString: Attack Dodged
-				}
-
-				4: {
-					NewString: Dodge
-					OldString: Dodge
+			AFKPetsCurrency2: {
+				GetPriceText: {
+					1: {
+						NewString: Game Mastery Token
+						OldString: Game Mastery Token
+					}
 				}
 			}
 
-			CatchFish: {
-				1: {
-					NewString: Cookie Crate?
-					OldString: Cookie Crate?
-				}
-
-				2: {
-					NewString: The Duke?
-					OldString: The Duke?
-				}
-			}
-		}
-
-		AFKPETSMapLayer: {
-			Draw: {
-				1: {
-					NewString: Marked Location
-					OldString: Marked Location
-				}
-			}
-		}
-
-		DefeatEvilBoss: {
-			GetConditionDescription: {
-				1: {
-					NewString: Drops after evil biome boss has been defeated
-					OldString: Drops after evil biome boss has been defeated
-				}
-			}
-		}
-
-		AFKPetsCurrency2: {
-			GetPriceText: {
-				1: {
-					NewString: Game Mastery Token
-					OldString: Game Mastery Token
-				}
-			}
-		}
-
-		AFKPetsCurrency: {
-			GetPriceText: {
-				1: {
-					NewString: Prize Token
-					OldString: Prize Token
+			AFKPetsCurrency: {
+				GetPriceText: {
+					1: {
+						NewString: Prize Token
+						OldString: Prize Token
+					}
 				}
 			}
 		}
