@@ -17,11 +17,11 @@ namespace AFKPETSandmorezhcn
 
 			// ↓↓↓用于初次构建时筛选
 			string[] PreDraw = {"PreDraw", "PreDrawInInventory", "PreDrawInWorld", "PreDrawExtras", "PreDrawTooltipLine", "PreDrawExtras"};
-			string[] PostDraw = {"PostDraw", "PostDrawInInventory", "PostDrawInWorld"};//先整体筛掉PostDraw，有文字的部分单独翻译
-			string[] Tooltip = {"ModifyTooltips", "AdditionalTooltip"};
+			string[] PostDraw = {"PostDraw", "PostDrawInInventory", "PostDrawInWorld", "PostUpdate"};//先整体筛掉PostDraw，有文字的部分单独翻译
+			string[] Tooltip = {"ModifyTooltips", "AdditionalTooltip", "ChangeLine"};
 			string[] Accessory = {"UpdateAccessory", "CanEquipAccessory"};
 			string[] NPCs = {"SetNPCNameList", "get_HeadTexture", "GetChat", "OnChatButtonClicked"};
-			string[] Misc = {"AFKPetsWingDraw"};
+			string[] Misc = {"AFKPetsWingDraw", "get_FunctionalBackgroundTexture", "get_FunctionalTexture", "ReforgePrice", "ModifyInterfaceLayers", "BossChecklistSupport", "CensusSupport", "HandlePacket", "PreKill", "OnInitialize", "OnLoad"};
 
 			if (!ModLoader.HasMod(targetModName))
 			{

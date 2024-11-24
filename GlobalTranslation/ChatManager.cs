@@ -132,7 +132,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"You will sleep outside Akiko, you have on worth here", "你睡外面，明子，你在这里没有价值"},
 
 			//皇家风暴鸟号
-			{"Collect clear air bubbles to survive", "请收集干净的气泡存活"},
+			{"Collect clear air bubbles to survive", "请触碰干净的气泡以存活"},
 			{"Brother, we have a problem here", "哥哥，我们有麻烦了"},
 			{"Storm Diver roger, target locked", "皇家鸟妖风暴号收到，目标锁定"},
 			{"Sister you look hurt! Retreat to the distance and recover", "妹妹，你看起来受伤了！先退到远处然后重整旗鼓"},
