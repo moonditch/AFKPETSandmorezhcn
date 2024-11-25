@@ -5,13 +5,33 @@ using Terraria;
 using Terraria.ModLoader;
 using AFKPETS.Items.Weapons.Melee.Bats;
 using AFKPETS.Items.Tools.Tarots;
+using Terraria.Localization;
+using System;
+using System.Drawing;
 
 namespace AFKPETSandmorezhcn.GlobalTranslation
 {
 	public class ItemTooltips : GlobalItem
 	{
+		public static void CompassDepthMeter(Player player, out string Xcoordinate, out string Ycoordinate)
+		{
+			int num1 = (int)(player.position.X + (float)(player.width / 2)) * 2 / 16 - Main.maxTilesX;
+			Xcoordinate = (num1 > 0) ? Language.GetTextValue("GameUI.CompassEast", num1) : ((num1 >= 0) ? Language.GetTextValue("GameUI.CompassCenter") : Language.GetTextValue("GameUI.CompassWest", -num1-1));
+
+			int num2 = (int)(((player.position.Y + player.height) * 2f / 16f) - Main.worldSurface * 2);
+			float num3 = Main.maxTilesX / 4200;
+			num3 *= num3;
+			int num4 = 1200;
+			float num5 = (float)(((Main.screenPosition.Y + Main.screenHeight / 2) / 16f - (65f + 10f * num3)) / (Main.worldSurface / 5.0));
+			string BiomeName = (player.position.Y > (float)((Main.maxTilesY - 204) * 16)) ? Language.GetTextValue("GameUI.LayerUnderworld") : ((player.position.Y > Main.rockLayer * 16 + num4 / 2 + 16.0) ? Language.GetTextValue("GameUI.LayerCaverns") : ((num2 > 0) ? Language.GetTextValue("GameUI.LayerUnderground") : ((!(num5 >= 1f)) ? Language.GetTextValue("GameUI.LayerSpace") : Language.GetTextValue("GameUI.LayerSurface"))));
+			num2 = Math.Abs(num2);
+			string depth = ((num2 != 0) ? Language.GetTextValue("GameUI.Depth", num2) : Language.GetTextValue("GameUI.DepthLevel"));
+			Ycoordinate = depth + BiomeName;
+		}
 		public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 		{
+			Player player = Main.player[Main.myPlayer];
+			CompassDepthMeter(player, out string Xcoordinate, out string Ycoordinate);
 			foreach (TooltipLine tooltipLine in tooltips)
 			{
 				StringBuilder sb = new StringBuilder(tooltipLine.Text);
@@ -36,9 +56,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				//点金石
 				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
 				//卫星数据收集器
-				Player player = Main.player[Main.myPlayer];
 				sb.Replace("Players current position: " + (int)player.position.X + " X and " + (int)player.position.Y + " Y",
-							"玩家当前位置坐标: (" + (int)player.position.X/16 + ", " + (int)player.position.Y/16 + ")");
+							"玩家当前位置坐标: (" + Xcoordinate + ", " + Ycoordinate + ")");
 				//雨伞
 				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
 				//暗影钥匙、圣骑士盾、圣骑士锤
