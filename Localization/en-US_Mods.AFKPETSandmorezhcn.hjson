@@ -1,0 +1,2864 @@
+AFKPETS: {
+	Items: {
+		Trinkets: {
+			TrinketBase: {
+				HoldItem: {
+					1: {
+						NewString:
+							'''
+																					[c/008000:-Trinkets-]
+							Trinkets are special equippables that each of them contains specific ability. In order to equip
+							player need to press trinket hotkey while holding the item in hotbar. When player press down
+							along with trinket hotkey player will drop all trinkets  or RC to trinket slot. If player press
+							trinket hotkey it will cycle the new one with olders and give player the oldest if equip limit
+							is reached. These trinkets have following abilities:
+							[c/008000:-Major]: This type of abilities activate after player equip the trinket
+							[c/FFC0CB:-Mom's Box Effect]: This abilities become visible and activated while player have mom's box
+							activation player will get 1 minute cooldown for be able to activate any tarot card again
+							[c/FFFF00:-Hidden]: Some trinkets may get stronger with other stuff + they may have hidden synergies
+							'''
+						OldString:
+							'''
+																					[c/008000:-Trinkets-]
+							Trinkets are special equippables that each of them contains specific ability. In order to equip
+							player need to press trinket hotkey while holding the item in hotbar. When player press down
+							along with trinket hotkey player will drop all trinkets  or RC to trinket slot. If player press
+							trinket hotkey it will cycle the new one with olders and give player the oldest if equip limit
+							is reached. These trinkets have following abilities:
+							[c/008000:-Major]: This type of abilities activate after player equip the trinket
+							[c/FFC0CB:-Mom's Box Effect]: This abilities become visible and activated while player have mom's box
+							activation player will get 1 minute cooldown for be able to activate any tarot card again
+							[c/FFFF00:-Hidden]: Some trinkets may get stronger with other stuff + they may have hidden synergies
+							'''
+					}
+				}
+			}
+
+			Magic8Ball: {
+				UseItem: {
+					1: {
+						NewString: " You may rely on it."
+						OldString: " You may rely on it."
+					}
+
+					2: {
+						NewString: Ask again later.
+						OldString: Ask again later.
+					}
+
+					3: {
+						NewString: " Yes - definitely."
+						OldString: " Yes - definitely."
+					}
+
+					4: {
+						NewString: Yes.
+						OldString: Yes.
+					}
+
+					5: {
+						NewString: Without a doubt.
+						OldString: Without a doubt.
+					}
+
+					6: {
+						NewString: Very doubtful.
+						OldString: Very doubtful.
+					}
+
+					7: {
+						NewString: Signs point to yes.
+						OldString: Signs point to yes.
+					}
+
+					8: {
+						NewString: Reply hazy, try again.
+						OldString: Reply hazy, try again.
+					}
+
+					9: {
+						NewString: Outlook good.
+						OldString: Outlook good.
+					}
+
+					10: {
+						NewString: Outlook not so good.
+						OldString: Outlook not so good.
+					}
+
+					11: {
+						NewString: My sources say no.
+						OldString: My sources say no.
+					}
+
+					12: {
+						NewString: My reply is no.
+						OldString: My reply is no.
+					}
+
+					13: {
+						NewString: As I see it, yes.
+						OldString: As I see it, yes.
+					}
+
+					14: {
+						NewString: Most likely.
+						OldString: Most likely.
+					}
+
+					15: {
+						NewString: It is decidedly so.
+						OldString: It is decidedly so.
+					}
+
+					16: {
+						NewString: It is certain.
+						OldString: It is certain.
+					}
+
+					17: {
+						NewString: DonOt count on it.
+						OldString: DonOt count on it.
+					}
+
+					18: {
+						NewString: Concentrate and ask again.
+						OldString: Concentrate and ask again.
+					}
+
+					19: {
+						NewString: Cannot predict now.
+						OldString: Cannot predict now.
+					}
+
+					20: {
+						NewString: Better not tell you now.
+						OldString: Better not tell you now.
+					}
+				}
+			}
+
+			AFKPetsTrinketSlot2: {
+				OnMouseHover: {
+					1: {
+						NewString: Trinket
+						OldString: Trinket
+					}
+				}
+			}
+
+			AFKPetsTrinketSlot: {
+				OnMouseHover: {
+					1: {
+						NewString: Trinket
+						OldString: Trinket
+					}
+				}
+			}
+		}
+
+		Tools: {
+			Harvesters: {
+				CrystalHoe: {
+					CanUseItem: {
+						1: {
+							NewString: POTATO FOR THE POTATO LORD
+							OldString: POTATO FOR THE POTATO LORD
+						}
+					}
+				}
+			}
+
+			Misc: {
+				IchorArrowShooterStaff: {
+					PostDrawInInventory: {
+						1: {
+							NewString: Absorb
+							OldString: Absorb
+						}
+
+						2: {
+							NewString: Water
+							OldString: Water
+						}
+
+						3: {
+							NewString: Lava
+							OldString: Lava
+						}
+
+						4: {
+							NewString: Honey
+							OldString: Honey
+						}
+
+						5: {
+							NewString: Shimmer
+							OldString: Shimmer
+						}
+					}
+				}
+
+				RentalAgreementContract: {
+					CanUseItem: {
+						1: {
+							NewString: House is valid, town NPCs has been forced
+							OldString: House is valid, town NPCs has been forced
+						}
+
+						2: {
+							NewString: Mouse location is not a valid house
+							OldString: Mouse location is not a valid house
+						}
+					}
+				}
+
+				NoteBlockTuner: {
+					UseItem: {
+						1: {
+							NewString: Xylophone
+							OldString: Xylophone
+						}
+
+						2: {
+							NewString: Pling
+							OldString: Pling
+						}
+
+						3: {
+							NewString: Iron Xylophone
+							OldString: Iron Xylophone
+						}
+
+						4: {
+							NewString: Chimes
+							OldString: Chimes
+						}
+
+						5: {
+							NewString: Guitar
+							OldString: Guitar
+						}
+
+						6: {
+							NewString: Flute
+							OldString: Flute
+						}
+
+						7: {
+							NewString: Didgeridoo
+							OldString: Didgeridoo
+						}
+
+						8: {
+							NewString: Cow Bell
+							OldString: Cow Bell
+						}
+
+						9: {
+							NewString: Bit
+							OldString: Bit
+						}
+
+						10: {
+							NewString: Bell
+							OldString: Bell
+						}
+
+						11: {
+							NewString: Bass
+							OldString: Bass
+						}
+
+						12: {
+							NewString: Banjo
+							OldString: Banjo
+						}
+
+						13: {
+							NewString: Harp
+							OldString: Harp
+						}
+
+						14: {
+							NewString:
+								'''
+																		[c/FF00FF:-Some Melodies-]
+								- M1:CDFDAAG CDFDGGF CDFDFGEDCCGF CDFDAAG CDFDCEFED CDFDFGEDCCGF
+								- M2:D D A G F E  E F G  F E D  D F E F E F   D  D F E F E F
+								- M3:C C D C F E, C C D C G F, C C C A F E D, G G D E D C
+								- M4:GACCC CC CC GACCC CC CC GACCC CC CC CCB
+								- M5:E A B C A  E A B C A  E A B C B A C B A E E E
+								- M6:DD FF AA G CCC EE GG F FF AA CC D DC FF AA CC D DC
+								- M7:A C E C F A C A D F A F E G B G
+								- M8:EA B C-D-C E E-A B C E C A E D
+								- M9:E GD  CDE GD  E GD CG  FEDE
+								- M10:D DD AG  F  E  D    DD AB G A
+								- M11:EDCDEEE DDD EGG EDCDEEEEDDEDC
+								- M12:C   B   AE  EEEE  AAAA  AGAF  FFFF AAAAB C G GGGG CCC DD B  C B A E
+								- M13:DEFAGAC DEFE GAGF FFFAAGF AAAGAGF FFFAAGF AAA CCC FFFAAGF
+								- M14:E E G A G    E G A G E D E A G E D E
+								- M15:C  A  C  B  C  B  G      C  E  D  C  B  C  B  G
+								- M16:C C G G A A G    F F E E D D C
+								- M17:BBB BBB BDGAB CCCCCBBBBAABA D
+								- M18:DDFE CC DDFEC AF GE FD EC AF GE FD EC
+								- M19:A C E D C A A C E E E D C A
+								'''
+							OldString:
+								'''
+																		[c/FF00FF:-Some Melodies-]
+								- M1:CDFDAAG CDFDGGF CDFDFGEDCCGF CDFDAAG CDFDCEFED CDFDFGEDCCGF
+								- M2:D D A G F E  E F G  F E D  D F E F E F   D  D F E F E F
+								- M3:C C D C F E, C C D C G F, C C C A F E D, G G D E D C
+								- M4:GACCC CC CC GACCC CC CC GACCC CC CC CCB
+								- M5:E A B C A  E A B C A  E A B C B A C B A E E E
+								- M6:DD FF AA G CCC EE GG F FF AA CC D DC FF AA CC D DC
+								- M7:A C E C F A C A D F A F E G B G
+								- M8:EA B C-D-C E E-A B C E C A E D
+								- M9:E GD  CDE GD  E GD CG  FEDE
+								- M10:D DD AG  F  E  D    DD AB G A
+								- M11:EDCDEEE DDD EGG EDCDEEEEDDEDC
+								- M12:C   B   AE  EEEE  AAAA  AGAF  FFFF AAAAB C G GGGG CCC DD B  C B A E
+								- M13:DEFAGAC DEFE GAGF FFFAAGF AAAGAGF FFFAAGF AAA CCC FFFAAGF
+								- M14:E E G A G    E G A G E D E A G E D E
+								- M15:C  A  C  B  C  B  G      C  E  D  C  B  C  B  G
+								- M16:C C G G A A G    F F E E D D C
+								- M17:BBB BBB BDGAB CCCCCBBBBAABA D
+								- M18:DDFE CC DDFEC AF GE FD EC AF GE FD EC
+								- M19:A C E D C A A C E E E D C A
+								'''
+						}
+					}
+				}
+
+				EyeofNullifier: {
+					UseItem: {
+						1: {
+							NewString: " nullify its own existance"
+							OldString: " nullify its own existance"
+						}
+					}
+				}
+
+				BookofBotany: {
+					HoldItem: {
+						1: {
+							NewString:
+								'''
+
+									-Beet:Grows faster on sand in surface layer, grown plant gives the following
+								'''
+							OldString:
+								'''
+
+									-Beet:Grows faster on sand in surface layer, grown plant gives the following
+								'''
+						}
+
+						2: {
+							NewString:
+								'''
+
+									-Potato:Grows faster on mud in cavern layer, grown plant gives the following
+								'''
+							OldString:
+								'''
+
+									-Potato:Grows faster on mud in cavern layer, grown plant gives the following
+								'''
+						}
+
+						3: {
+							NewString:
+								'''
+
+									-Miracle Fruit:Grows faster on hallow grass in surface layer, grown plant gives the following
+								'''
+							OldString:
+								'''
+
+									-Miracle Fruit:Grows faster on hallow grass in surface layer, grown plant gives the following
+								'''
+						}
+
+						4: {
+							NewString:
+								'''
+
+									-Glow Berry:Grows faster on mushroom grass in cavern layer, grown plant gives the following
+								'''
+							OldString:
+								'''
+
+									-Glow Berry:Grows faster on mushroom grass in cavern layer, grown plant gives the following
+								'''
+						}
+
+						5: {
+							NewString:
+								'''
+
+									-Flax:Grows faster on clay, grown plant gives the following
+								'''
+							OldString:
+								'''
+
+									-Flax:Grows faster on clay, grown plant gives the following
+								'''
+						}
+
+						6: {
+							NewString:
+								'''
+																					[c/00A300:-EXOTIC PLANTS-]
+									Info:Exotic plants are plants that does not originate from these lands but instead being
+									carried in birds stomach. Upon killing birds they have a chance to drop mysterious
+									seeds which grow one of these. Due to the difference of nutricient on these lands
+									their tile need to be adjacent to solidifed fertilizer in order to grow.
+									-TYPES-
+									-Carrot:Grows faster on dirt in surface layer, grown plant gives the following
+								'''
+							OldString:
+								'''
+																					[c/00A300:-EXOTIC PLANTS-]
+									Info:Exotic plants are plants that does not originate from these lands but instead being
+									carried in birds stomach. Upon killing birds they have a chance to drop mysterious
+									seeds which grow one of these. Due to the difference of nutricient on these lands
+									their tile need to be adjacent to solidifed fertilizer in order to grow.
+									-TYPES-
+									-Carrot:Grows faster on dirt in surface layer, grown plant gives the following
+								'''
+						}
+					}
+				}
+			}
+
+			Tarots: {
+				TarotBase: {
+					HoldItem: {
+						1: {
+							NewString:
+								'''
+																		[c/FF00FF:-Tarot Cards-]
+								By activating of tarot cards player will be able to get the following abilities
+								[c/FFFF00:-Minor]: This abilities passively activate via activation of the tarot card and
+								they will continue their effect until the deactivation of the tarot card
+								[c/FF0000:-Major]: This abilities activate by pressing to the binded key and via their
+								activation player will get 1 minute cooldown for be able to activate any tarot card again
+								[c/FFFF00:-Hidden]: By finding the eye of Anubis one may see what is hidden before...
+								'''
+							OldString:
+								'''
+																		[c/FF00FF:-Tarot Cards-]
+								By activating of tarot cards player will be able to get the following abilities
+								[c/FFFF00:-Minor]: This abilities passively activate via activation of the tarot card and
+								they will continue their effect until the deactivation of the tarot card
+								[c/FF0000:-Major]: This abilities activate by pressing to the binded key and via their
+								activation player will get 1 minute cooldown for be able to activate any tarot card again
+								[c/FFFF00:-Hidden]: By finding the eye of Anubis one may see what is hidden before...
+								'''
+						}
+					}
+				}
+
+				BlankCard: {
+					HoldItem: {
+						1: {
+							NewString:
+								'''
+																		[c/FF00FF:-Obtaining Cards-]
+								0.Fool:Killing Antony, the Novice Necromancer will transform the card
+								I.Magician:Killing Tim or rune wizard will transform the card
+								VI.Lovers: Healing from nurse while having less than 50% life will transform it
+								IX.Hermit:Doing a reforge from goblin tinkerer will transform it
+								XVI.Devil:Killing Wall of Flesh will transform it
+								XVI.Tower:Building stuff with tiles have a small chance to transform it
+								XVII.Stars:Killing holographic slime will transform it
+								XVIII.Moon:Visiting sky at night have a small chance to transform it
+								XIX.Sun:Killing heroic slime will transform it
+								XXI.World: Making a trip while no boss is active have small chance to transform it
+
+								'''
+							OldString:
+								'''
+																		[c/FF00FF:-Obtaining Cards-]
+								0.Fool:Killing Antony, the Novice Necromancer will transform the card
+								I.Magician:Killing Tim or rune wizard will transform the card
+								VI.Lovers: Healing from nurse while having less than 50% life will transform it
+								IX.Hermit:Doing a reforge from goblin tinkerer will transform it
+								XVI.Devil:Killing Wall of Flesh will transform it
+								XVI.Tower:Building stuff with tiles have a small chance to transform it
+								XVII.Stars:Killing holographic slime will transform it
+								XVIII.Moon:Visiting sky at night have a small chance to transform it
+								XIX.Sun:Killing heroic slime will transform it
+								XXI.World: Making a trip while no boss is active have small chance to transform it
+
+								'''
+						}
+					}
+				}
+			}
+		}
+
+		Weapons: {
+			Melee: {
+				Bats: {
+					JeremysBat: {
+						ModifyHitNPC: {
+							1: {
+								NewString: BONK
+								OldString: BONK
+							}
+						}
+					}
+
+					BatBase: {
+						BerserkAdjust: {
+							1: {
+								NewString: BERSERK
+								OldString: BERSERK
+							}
+						}
+
+						HoldItem: {
+							1: {
+								NewString:
+									'''
+																								[c/ff0000:-BATS-]
+
+									The bat weapons are part of a subclass of the Melee class. Bats have an additional right click function to
+									strike which allow you to throw a baseball type ammo above and with left click you can strike it.
+									This requires baseball ammo unless the weapon have a special right click ability. If player misses the ball
+									player get miss penalty to not be able to throw another one for 10 seconds. Left click will swing the
+									weapon and upon doing 40 hit it will activate berserk and while in berserk weapon greatly empower itself.
+									While in berserk state weapon lose its right click function but upon killing any enemy in berserk player
+									gets slight healing along with berserk duration gets refilled.
+									'''
+								OldString:
+									'''
+																								[c/ff0000:-BATS-]
+
+									The bat weapons are part of a subclass of the Melee class. Bats have an additional right click function to
+									strike which allow you to throw a baseball type ammo above and with left click you can strike it.
+									This requires baseball ammo unless the weapon have a special right click ability. If player misses the ball
+									player get miss penalty to not be able to throw another one for 10 seconds. Left click will swing the
+									weapon and upon doing 40 hit it will activate berserk and while in berserk weapon greatly empower itself.
+									While in berserk state weapon lose its right click function but upon killing any enemy in berserk player
+									gets slight healing along with berserk duration gets refilled.
+									'''
+							}
+						}
+					}
+				}
+
+				Fists: {
+					FistPlayer: {
+						ConsumeCombo: {
+							1: {
+								NewString: " combo"
+								OldString: " combo"
+							}
+						}
+
+						ResetVariables: {
+							1: {
+								NewString: " hits"
+								OldString: " hits"
+							}
+						}
+					}
+				}
+
+				TrueMelee: {
+					DiamondSword: {
+						ModifyHitNPC: {
+							1: {
+								NewString: Level Up
+								OldString: Level Up
+							}
+						}
+					}
+
+					SelfSacrifice: {
+						CanUseItem: {
+							1: {
+								NewString: " sacrificed its own life"
+								OldString: " sacrificed its own life"
+							}
+						}
+					}
+				}
+
+				Yoyos: {
+					Triyo: {
+						CanUseItem: {
+							1: {
+								NewString: Spread
+								OldString: Spread
+							}
+
+							2: {
+								NewString: Concentrated
+								OldString: Concentrated
+							}
+						}
+					}
+				}
+			}
+
+			Ranged: {
+				DartGuns: {
+					SunsetsShadow: {
+						CanUseItem: {
+							1: {
+								NewString: BARREL: BASE
+								OldString: BARREL: BASE
+							}
+
+							2: {
+								NewString: BARREL: HEATED
+								OldString: BARREL: HEATED
+							}
+						}
+					}
+
+					GentlemansHunt: {
+						CanUseItem: {
+							1: {
+								NewString: Suppressor OFF
+								OldString: Suppressor OFF
+							}
+
+							2: {
+								NewString: Suppressor ON
+								OldString: Suppressor ON
+							}
+						}
+					}
+				}
+
+				Guns: {
+					ForgottenRevolver: {
+						CanUseItem: {
+							1: {
+								NewString: " cannot surive from the last sacrifice."
+								OldString: " cannot surive from the last sacrifice."
+							}
+						}
+					}
+
+					ForgottenGun: {
+						CanUseItem: {
+							1: {
+								NewString: Level 1
+								OldString: Level 1
+							}
+
+							2: {
+								NewString: Level 2
+								OldString: Level 2
+							}
+
+							3: {
+								NewString: Level 3
+								OldString: Level 3
+							}
+						}
+					}
+
+					BernardelliModelShortPistol: {
+						CanUseItem: {
+							1: {
+								NewString: Messing with one member means messing with the whole family
+								OldString: Messing with one member means messing with the whole family
+							}
+
+							2: {
+								NewString: A man who doesn't care his brothers can never be a real man
+								OldString: A man who doesn't care his brothers can never be a real man
+							}
+
+							3: {
+								NewString: Let's do this in Italian Style.
+								OldString: Let's do this in Italian Style.
+							}
+						}
+					}
+				}
+
+				Misc: {
+					IBS: {
+						PostDrawInInventory: {
+							1: {
+								NewString: Next:Normal
+								OldString: Next:Normal
+							}
+
+							2: {
+								NewString: Next:Stone
+								OldString: Next:Stone
+							}
+
+							3: {
+								NewString: Next:Stinky
+								OldString: Next:Stinky
+							}
+
+							4: {
+								NewString: Next:Corn
+								OldString: Next:Corn
+							}
+
+							5: {
+								NewString: Next:Black
+								OldString: Next:Black
+							}
+
+							6: {
+								NewString: Next:White
+								OldString: Next:White
+							}
+
+							7: {
+								NewString: Next:Fiery
+								OldString: Next:Fiery
+							}
+
+							8: {
+								NewString: Next:Bomb
+								OldString: Next:Bomb
+							}
+						}
+					}
+				}
+			}
+
+			Summoner: {
+				SummonWeapon: {
+					ModularController: {
+						CanUseItem: {
+							1: {
+								NewString: EXTERMINATE
+								OldString: EXTERMINATE
+							}
+
+							2: {
+								NewString: CHARGE
+								OldString: CHARGE
+							}
+
+							3: {
+								NewString: REINFORCEMENT CALL
+								OldString: REINFORCEMENT CALL
+							}
+						}
+					}
+				}
+
+				Misc: {
+					TacticalTelephone: {
+						PostDrawInInventory: {
+							1: {
+								NewString: Aim Weakest
+								OldString: Aim Weakest
+							}
+
+							2: {
+								NewString: Aim Closest
+								OldString: Aim Closest
+							}
+
+							3: {
+								NewString: Aim Strongest
+								OldString: Aim Strongest
+							}
+						}
+					}
+				}
+			}
+
+			Classless: {
+				HallowedStarWand: {
+					UseItem: {
+						1: {
+							NewString: " has been purified"
+							OldString: " has been purified"
+						}
+					}
+				}
+			}
+		}
+
+		AFKPETSGlobalItem: {
+			OnHitNPC: {
+				1: {
+					NewString: CRIT+
+					OldString: CRIT+
+				}
+
+				2: {
+					NewString: FLEX
+					OldString: FLEX
+				}
+			}
+		}
+
+		Materials: {
+			Fishes: {
+				ArcherFish: {
+					HoldItem: {
+						1: {
+							NewString:
+								'''
+																	[c/FF00FF:-RANGED BOW REFORGES-]
+								-Sharpshooter's: 100% Arrow Velocity, Arrows gain slight homing
+								-Ricochet: Arrow lose piercing ability but may bounce to nearest enemy
+								-Symmetrical: Shoot copy of your arrow 180 degrees from its trajectory angle
+								-Fletcher's: 25% chance to not use ammo + hits have 10% chance to refund arrow
+								-Perforators: Pierce up + first pierce attack ignore half of enemy defense
+								-Dragonator's: Butchered arrow speed but double damage + 1000% size
+								-Coated: Arrows inflict random afk pets or vanilla debuff on first hit
+								-Quickfire: Greatly increased shooting speed + 50% damage decrease
+								-Orbiting: Shooting bow have 20% chance to make an orbiting arrow as same type
+								-Rainstorm: Hitting a crit will rain cluster of arrow from sky that target same
+								-Drunken: Attack speed greatly increase but arrow aim get more inaccurate
+								-Juggernaut: Non boss hits cause dynamic knockback + 20% of enemy defense is ignored
+								-Aimbot: no penetration + can move through tiles + hitting 1 enemy cause speed adjust.
+								When speed adjust happen each projectile with same type change trajectory towards enemy
+								-Shrapnel: Upon hitting enemy arrow divide into smaller arrows in different directions
+								-Spreading: Hitting a new npc do 15% more damage but same npc do 10% less damage
+								'''
+							OldString:
+								'''
+																	[c/FF00FF:-RANGED BOW REFORGES-]
+								-Sharpshooter's: 100% Arrow Velocity, Arrows gain slight homing
+								-Ricochet: Arrow lose piercing ability but may bounce to nearest enemy
+								-Symmetrical: Shoot copy of your arrow 180 degrees from its trajectory angle
+								-Fletcher's: 25% chance to not use ammo + hits have 10% chance to refund arrow
+								-Perforators: Pierce up + first pierce attack ignore half of enemy defense
+								-Dragonator's: Butchered arrow speed but double damage + 1000% size
+								-Coated: Arrows inflict random afk pets or vanilla debuff on first hit
+								-Quickfire: Greatly increased shooting speed + 50% damage decrease
+								-Orbiting: Shooting bow have 20% chance to make an orbiting arrow as same type
+								-Rainstorm: Hitting a crit will rain cluster of arrow from sky that target same
+								-Drunken: Attack speed greatly increase but arrow aim get more inaccurate
+								-Juggernaut: Non boss hits cause dynamic knockback + 20% of enemy defense is ignored
+								-Aimbot: no penetration + can move through tiles + hitting 1 enemy cause speed adjust.
+								When speed adjust happen each projectile with same type change trajectory towards enemy
+								-Shrapnel: Upon hitting enemy arrow divide into smaller arrows in different directions
+								-Spreading: Hitting a new npc do 15% more damage but same npc do 10% less damage
+								'''
+						}
+					}
+				}
+			}
+
+			FrozenCoin: {
+				HoldItem: {
+					1: {
+						NewString:
+							'''
+																[c/FF00FF:-TRUE MELEE REFORGES-]
+							-Randomized: Random stat + random inflicted debuff + random enemy location shuffle
+							-Joyful: Taking heart give melee positive buffs + crit kill heal + make happy
+							-Blossom's: Harmless flower bloom. Breaking this will give protecting souls
+							-Shielding: Defense increase by weapon base damage/8
+							-Channeling: Hitting same enemy increase weapon damage. Hitting other enemy reset
+							-Communist: Damage become true but divided close enemies equally
+							-Moto Moto: Attacks inflict fire + close enemies get charmed which make them passive
+							-Chad: Crits may make you flex and when its active player reflect weak projectiles
+							-Strongest: Crits rain icicle + weapon inflict frostburn
+							-Enchanted: Armor penetration + bomb immunity + loot II
+							-Comically Large: Makes weapon a lot bigger
+							-Anarchist: Crits will have crits. Crit chance is determined by rarity
+							-Yrimir's: Attacks have chance to reflect one of players vanilla or afk debuff to back
+							-Glittering: Hits form shiny dust that cause close enemies to get confused + take damage
+							-Oiled: Attacks inflict oiled + player have a chance to throw sword
+							'''
+						OldString:
+							'''
+																[c/FF00FF:-TRUE MELEE REFORGES-]
+							-Randomized: Random stat + random inflicted debuff + random enemy location shuffle
+							-Joyful: Taking heart give melee positive buffs + crit kill heal + make happy
+							-Blossom's: Harmless flower bloom. Breaking this will give protecting souls
+							-Shielding: Defense increase by weapon base damage/8
+							-Channeling: Hitting same enemy increase weapon damage. Hitting other enemy reset
+							-Communist: Damage become true but divided close enemies equally
+							-Moto Moto: Attacks inflict fire + close enemies get charmed which make them passive
+							-Chad: Crits may make you flex and when its active player reflect weak projectiles
+							-Strongest: Crits rain icicle + weapon inflict frostburn
+							-Enchanted: Armor penetration + bomb immunity + loot II
+							-Comically Large: Makes weapon a lot bigger
+							-Anarchist: Crits will have crits. Crit chance is determined by rarity
+							-Yrimir's: Attacks have chance to reflect one of players vanilla or afk debuff to back
+							-Glittering: Hits form shiny dust that cause close enemies to get confused + take damage
+							-Oiled: Attacks inflict oiled + player have a chance to throw sword
+							'''
+					}
+				}
+			}
+		}
+
+		Potions: {
+			Crops: {
+				MiracleFruit: {
+					HoldItem: {
+						1: {
+							NewString:
+								'''
+																		[c/228B22:-STAVE MAGIC REFORGE ABILITIES-]
+								-Hylia's: Taking mana star summon various fairies with offensive, supportive or healing abilities
+								-Unique: Hits have small chance to make nonboss enemies ai unique + bosses stats get changed
+								-Cataclysmic: Not taking damage or graze increase damage, taking damage resets
+								-Overloaded: Magic staves attack twice with 45 degree with 60% base damage 
+								-Calamitous: Attacks have a small chance to inflict soulblight for a short time
+								-Malicious: Attacks make their current active debuffs spread to closer enemies
+								-Realistic: damage down but projectiles will now do true damage and bypass DR + defense
+								-Flashy: Attacks have a random chance to call rainbow stars from outside of screen
+								-2Sp00ky: Attacks have small chance to inflict fear. If enemy have fear it inflict horror instead
+								-Greedy: Taking coin also gives mana
+								-Trickster: Hostile spiritual pigeons may spawn but defeating this will drop soul heart + arcane mana
+								-Leaking: Attacks have a small chance to inflict explosive chemical
+								-Sadistic: While any town npc is near player drain their life for increased mana + life regen
+								-Distorted: Hits may form enemies harmless shadow and when these take damage enemy also take damage 
+								-Ancient: Weapon have a chance to shoot additional magic projectile from a list of projectile types
+
+								'''
+							OldString:
+								'''
+																		[c/228B22:-STAVE MAGIC REFORGE ABILITIES-]
+								-Hylia's: Taking mana star summon various fairies with offensive, supportive or healing abilities
+								-Unique: Hits have small chance to make nonboss enemies ai unique + bosses stats get changed
+								-Cataclysmic: Not taking damage or graze increase damage, taking damage resets
+								-Overloaded: Magic staves attack twice with 45 degree with 60% base damage 
+								-Calamitous: Attacks have a small chance to inflict soulblight for a short time
+								-Malicious: Attacks make their current active debuffs spread to closer enemies
+								-Realistic: damage down but projectiles will now do true damage and bypass DR + defense
+								-Flashy: Attacks have a random chance to call rainbow stars from outside of screen
+								-2Sp00ky: Attacks have small chance to inflict fear. If enemy have fear it inflict horror instead
+								-Greedy: Taking coin also gives mana
+								-Trickster: Hostile spiritual pigeons may spawn but defeating this will drop soul heart + arcane mana
+								-Leaking: Attacks have a small chance to inflict explosive chemical
+								-Sadistic: While any town npc is near player drain their life for increased mana + life regen
+								-Distorted: Hits may form enemies harmless shadow and when these take damage enemy also take damage 
+								-Ancient: Weapon have a chance to shoot additional magic projectile from a list of projectile types
+
+								'''
+						}
+					}
+				}
+			}
+
+			VoidBottle: {
+				UseItem: {
+					1: {
+						NewString: " have been nullified"
+						OldString: " have been nullified"
+					}
+				}
+			}
+		}
+
+		Special: {
+			GameButton: {
+				UseItem: {
+					1: {
+						NewString: " cannot contain the fun"
+						OldString: " cannot contain the fun"
+					}
+				}
+			}
+		}
+	}
+
+	AFKPetsWorld: {
+		SlimeArmyProgressBar: {
+			1: {
+				NewString: Slime Troop
+				OldString: Slime Troop
+			}
+
+			2: {
+				NewString: "Cleared "
+				OldString: "Cleared "
+			}
+		}
+	}
+
+	Buffs: {
+		Debuff: {
+			Decoded: {
+				Update_NPC_Int32&: {
+					1: {
+						NewString: DECODED
+						OldString: DECODED
+					}
+				}
+			}
+		}
+
+		EffectBuff: {
+			JudasRebornDebuff: {
+				Update: {
+					1: {
+						NewString: " found unworthy by the soul"
+						OldString: " found unworthy by the soul"
+					}
+				}
+			}
+
+			GFuel: {
+				Update: {
+					1: {
+						NewString: HEALTH DOWN
+						OldString: HEALTH DOWN
+					}
+				}
+			}
+		}
+	}
+
+	Potion: {
+		SusyBrew: {
+			Update: {
+				1: {
+					NewString: SUS
+					OldString: SUS
+				}
+			}
+		}
+
+		Clampicated: {
+			Update_Player_Int32&: {
+				1: {
+					NewString: " could not stand the power"
+					OldString: " could not stand the power"
+				}
+			}
+		}
+	}
+
+	Summoner: {
+		Guardian: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						You feel you are being protected
+						'''
+					OldString:
+						'''
+
+						You feel you are being protected
+						'''
+				}
+
+				2: {
+					NewString: "Guardian "
+					OldString: "Guardian "
+				}
+			}
+		}
+	}
+
+	FakeBuff: {
+		Update: {
+			1: {
+				NewString: I'm getting stronger in the wind
+				OldString: I'm getting stronger in the wind
+			}
+
+			2: {
+				NewString: Why I feel much better
+				OldString: Why I feel much better
+			}
+
+			3: {
+				NewString: Wind smell wonderful
+				OldString: Wind smell wonderful
+			}
+		}
+	}
+
+	DeathBlow2: {
+		Update: {
+			1: {
+				NewString: " have been eliminated"
+				OldString: " have been eliminated"
+			}
+		}
+	}
+
+	Antlion: {
+		Update: {
+			1: {
+				NewString: DASH IS READY
+				OldString: DASH IS READY
+			}
+		}
+	}
+
+	NPCs: {
+		AncientTrio: {
+			FlagCarrier: {
+				OnKill: {
+					1: {
+						NewString: Thank you
+						OldString: Thank you
+					}
+				}
+			}
+		}
+
+		Antony: {
+			NecromancerDummyDeath: {
+				AI: {
+					1: {
+						NewString: Bede please don't leave me alone
+						OldString: Bede please don't leave me alone
+					}
+				}
+			}
+
+			NecromancerDummy: {
+				AI: {
+					1: {
+						NewString: Expecto Anima
+						OldString: Expecto Anima
+					}
+
+					2: {
+						NewString: Custodia
+						OldString: Custodia
+					}
+
+					3: {
+						NewString: Accio Aaves
+						OldString: Accio Aaves
+					}
+
+					4: {
+						NewString: dormientem excitet
+						OldString: dormientem excitet
+					}
+
+					5: {
+						NewString: Anima excitatio
+						OldString: Anima excitatio
+					}
+
+					6: {
+						NewString: Then let's get started
+						OldString: Then let's get started
+					}
+				}
+			}
+		}
+
+		BiomeNPCs: {
+			Assistant: {
+				AdjustCode: {
+					1: {
+						NewString: Move Right
+						OldString: Move Right
+					}
+
+					2: {
+						NewString: Move Left
+						OldString: Move Left
+					}
+
+					3: {
+						NewString: Move Up
+						OldString: Move Up
+					}
+
+					4: {
+						NewString: Move Down
+						OldString: Move Down
+					}
+				}
+
+				FormCode: {
+					1: {
+						NewString: Move Down
+						OldString: Move Down
+					}
+
+					2: {
+						NewString: Move Up
+						OldString: Move Up
+					}
+
+					3: {
+						NewString: Move Left
+						OldString: Move Left
+					}
+
+					4: {
+						NewString: Move Right
+						OldString: Move Right
+					}
+				}
+
+				PostAI: {
+					1: {
+						NewString: Now press the buttons in same order
+						OldString: Now press the buttons in same order
+					}
+				}
+			}
+		}
+
+		CookieBox: {
+			CookieSpirit: {
+				HitEffect: {
+					1: {
+						NewString: OUCHIE
+						OldString: OUCHIE
+					}
+				}
+
+				AI: {
+					1: {
+						NewString: GET READY
+						OldString: GET READY
+					}
+
+					2: {
+						NewString: OUCHIE
+						OldString: OUCHIE
+					}
+
+					3: {
+						NewString: LET'S GO
+						OldString: LET'S GO
+					}
+				}
+			}
+
+			CookieBoxRest: {
+				HitEffect: {
+					1: {
+						NewString: OH... HELLO
+						OldString: OH... HELLO
+					}
+				}
+			}
+
+			CookieBox: {
+				HitEffect: {
+					1: {
+						NewString: OUCHIE
+						OldString: OUCHIE
+					}
+				}
+
+				AI: {
+					1: {
+						NewString: OUCHIE
+						OldString: OUCHIE
+					}
+				}
+			}
+		}
+
+		LavalGolem: {
+			LavalGolem: {
+				AI: {
+					1: {
+						NewString: THERE IS NO ESCAPE
+						OldString: THERE IS NO ESCAPE
+					}
+				}
+			}
+		}
+
+		PoliticianSlime: {
+			PoliticianSlime: {
+				AI: {
+					1: {
+						NewString:
+							'''
+							You may kill some of the finest warriors of the Capital
+							but the desicion to deport you from life is final!
+							'''
+						OldString:
+							'''
+							You may kill some of the finest warriors of the Capital
+							but the desicion to deport you from life is final!
+							'''
+					}
+				}
+			}
+		}
+
+		RoyalHarpyAirForce: {
+			StormTinkererH: {
+				HitEffect: {
+					1: {
+						NewString:
+							'''
+							As an exiled scientist, Unlike humans you open both your life and heart to me
+							Our blood may different but we're connected by soul, Farawell my dear sister
+							'''
+						OldString:
+							'''
+							As an exiled scientist, Unlike humans you open both your life and heart to me
+							Our blood may different but we're connected by soul, Farawell my dear sister
+							'''
+					}
+				}
+			}
+
+			StormDiverSummon: {
+				AI: {
+					1: {
+						NewString: Or else I need to follow the order after 1 minute
+						OldString: Or else I need to follow the order after 1 minute
+					}
+
+					2: {
+						NewString: So if you leave now there will be no trouble
+						OldString: So if you leave now there will be no trouble
+					}
+
+					3: {
+						NewString: Sorry but by order of our queen these lands are prohibited to humans
+						OldString: Sorry but by order of our queen these lands are prohibited to humans
+					}
+
+					4: {
+						NewString: Greetings human
+						OldString: Greetings human
+					}
+				}
+			}
+
+			StormDiver: {
+				HitEffect: {
+					1: {
+						NewString:
+							'''
+							Other Harpies find me childish and idiotic but you've shown me true care
+							Thank you for shining as a summer sun in my foolish life, brother
+							'''
+						OldString:
+							'''
+							Other Harpies find me childish and idiotic but you've shown me true care
+							Thank you for shining as a summer sun in my foolish life, brother
+							'''
+					}
+				}
+
+				AI: {
+					1: {
+						NewString: Bro I got tired, its your turn
+						OldString: Bro I got tired, its your turn
+					}
+				}
+			}
+
+			BoundGuardian: {
+				AI: {
+					1: {
+						NewString: Please don't leave me alone
+						OldString: Please don't leave me alone
+					}
+
+					2: {
+						NewString: Please someone help
+						OldString: Please someone help
+					}
+
+					3: {
+						NewString: HELP...
+						OldString: HELP...
+					}
+				}
+			}
+		}
+
+		SATLA001: {
+			SATLA001: {
+				AI: {
+					1: {
+						NewString: It seems they just get overheat but don't worry. I still have enough toys
+						OldString: It seems they just get overheat but don't worry. I still have enough toys
+					}
+				}
+			}
+		}
+
+		SecurityBot: {
+			SecurityBotSummon: {
+				AI: {
+					1: {
+						NewString: LEAVING IS STRONGLY ADVISED
+						OldString: LEAVING IS STRONGLY ADVISED
+					}
+
+					2: {
+						NewString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
+						OldString: AFTER ONE MINUTE EXECTURE PROTOCOL WILL BE ACTIVATED
+					}
+
+					3: {
+						NewString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
+						OldString: THIS AREA IS PROHIBITED TO HUMANS DUE TO ONGOING CULSTIST THREAT
+					}
+
+					4: {
+						NewString: GREETINGS ADVENTURER
+						OldString: GREETINGS ADVENTURER
+					}
+				}
+			}
+
+			SecurityBot: {
+				AI: {
+					1: {
+						NewString: MEMORY OVERLOAD...
+						OldString: MEMORY OVERLOAD...
+					}
+
+					2: {
+						NewString: " return into ashes"
+						OldString: " return into ashes"
+					}
+
+					3: {
+						NewString:
+							'''
+								HUMAN NOT FOOLED     
+							INITIALIZING SELF DESTRUCT
+							'''
+						OldString:
+							'''
+								HUMAN NOT FOOLED     
+							INITIALIZING SELF DESTRUCT
+							'''
+					}
+
+					4: {
+						NewString: INITIATING ECM
+						OldString: INITIATING ECM
+					}
+
+					5: {
+						NewString: IL EDITING THE OCCIPITAL LOBE...
+						OldString: IL EDITING THE OCCIPITAL LOBE...
+					}
+
+					6: {
+						NewString: EM WAVE IS READY
+						OldString: EM WAVE IS READY
+					}
+
+					7: {
+						NewString: GENERATING SHIELD
+						OldString: GENERATING SHIELD
+					}
+
+					8: {
+						NewString: SCAN REQUIRED
+						OldString: SCAN REQUIRED
+					}
+				}
+			}
+
+			NoEscape: {
+				AI: {
+					1: {
+						NewString: " cannot escape"
+						OldString: " cannot escape"
+					}
+				}
+			}
+		}
+
+		SlayerofEvil: {
+			SlayerofEvil: {
+				AI: {
+					1: {
+						NewString: I cannot lose to a bandit like you. They believe in me
+						OldString: I cannot lose to a bandit like you. They believe in me
+					}
+				}
+			}
+		}
+
+		SlimeArmy: {
+			Tier2: {
+				SuspiciousSlime: {
+					AI: {
+						1: {
+							NewString: Help
+							OldString: Help
+						}
+					}
+				}
+			}
+		}
+
+		SlimesLastHope: {
+			UWUSlime: {
+				AI: {
+					1: {
+						NewString: Shogun slime could you cover me for few seconds?
+						OldString: Shogun slime could you cover me for few seconds?
+					}
+
+					2: {
+						NewString: I feel tired, could we continue few second later?
+						OldString: I feel tired, could we continue few second later?
+					}
+
+					3: {
+						NewString: Could we stop and try to solve this by talking?
+						OldString: Could we stop and try to solve this by talking?
+					}
+				}
+			}
+
+			ShinobiSlimeShuriken: {
+				ModifyHitPlayer: {
+					1: {
+						NewString: " have been eliminated"
+						OldString: " have been eliminated"
+					}
+				}
+			}
+
+			ShinobiSlimeDasher: {
+				ModifyHitPlayer: {
+					1: {
+						NewString: " have been eliminated"
+						OldString: " have been eliminated"
+					}
+				}
+			}
+
+			ShinobiSlime: {
+				ModifyHitPlayer: {
+					1: {
+						NewString: " have been eliminated"
+						OldString: " have been eliminated"
+					}
+				}
+
+				ModifyHitByItem: {
+					1: {
+						NewString: Critical Strike
+						OldString: Critical Strike
+					}
+				}
+			}
+
+			MechanicalSlime: {
+				AI: {
+					1: {
+						NewString: AIR STRIKE REQUIRED
+						OldString: AIR STRIKE REQUIRED
+					}
+				}
+			}
+		}
+
+		TownNPCs: {
+			Yandere: {
+				PostAI: {
+					1: {
+						NewString: Senpai are you looking for me?
+						OldString: Senpai are you looking for me?
+					}
+
+					2: {
+						NewString: Senpai, senpai...
+						OldString: Senpai, senpai...
+					}
+
+					3: {
+						NewString: HEHEHEHE...
+						OldString: HEHEHEHE...
+					}
+				}
+			}
+
+			BossHunterMerchant: {
+				addTrophy: {
+					1: {
+						NewString: New item unlocked in shop
+						OldString: New item unlocked in shop
+					}
+				}
+			}
+		}
+
+		UndeadChef: {
+			UndeadChef: {
+				AI: {
+					1: {
+						NewString: Should I go with eastern or western style?
+						OldString: Should I go with eastern or western style?
+					}
+
+					2: {
+						NewString: Where did I put the lamb sauce?
+						OldString: Where did I put the lamb sauce?
+					}
+
+					3: {
+						NewString: Maybe youghurt with fruit go well as dessert
+						OldString: Maybe youghurt with fruit go well as dessert
+					}
+
+					4: {
+						NewString: Maybe I should put less red pepper
+						OldString: Maybe I should put less red pepper
+					}
+
+					5: {
+						NewString: Hmmm...
+						OldString: Hmmm...
+					}
+				}
+			}
+		}
+	}
+
+	Projectiles: {
+		Accessory: {
+			YuriDagger: {
+				AI: {
+					1: {
+						NewString: " stabbed itself"
+						OldString: " stabbed itself"
+					}
+				}
+			}
+
+			GhostDog: {
+				PostDraw: {
+					1: {
+						NewString: MAX
+						OldString: MAX
+					}
+				}
+			}
+
+			MadotsukiEffect: {
+				PostDraw: {
+					1: {
+						NewString: Nopperabou
+						OldString: Nopperabou
+					}
+
+					2: {
+						NewString: Towel
+						OldString: Towel
+					}
+
+					3: {
+						NewString: Cat
+						OldString: Cat
+					}
+
+					4: {
+						NewString: Lamp
+						OldString: Lamp
+					}
+
+					5: {
+						NewString: Bicycle
+						OldString: Bicycle
+					}
+
+					6: {
+						NewString: Buyo Buyo
+						OldString: Buyo Buyo
+					}
+
+					7: {
+						NewString: Neon
+						OldString: Neon
+					}
+
+					8: {
+						NewString: Long Hair
+						OldString: Long Hair
+					}
+
+					9: {
+						NewString: Poop Hair
+						OldString: Poop Hair
+					}
+
+					10: {
+						NewString: Severed Head
+						OldString: Severed Head
+					}
+
+					11: {
+						NewString: Fat
+						OldString: Fat
+					}
+
+					12: {
+						NewString: Midget
+						OldString: Midget
+					}
+
+					13: {
+						NewString: Knife
+						OldString: Knife
+					}
+
+					14: {
+						NewString: Demon
+						OldString: Demon
+					}
+
+					15: {
+						NewString: Witch
+						OldString: Witch
+					}
+
+					16: {
+						NewString: Yuki-onna
+						OldString: Yuki-onna
+					}
+
+					17: {
+						NewString: Frog
+						OldString: Frog
+					}
+
+					18: {
+						NewString: Umbrella
+						OldString: Umbrella
+					}
+
+					19: {
+						NewString: Hat and Scarf
+						OldString: Hat and Scarf
+					}
+
+					20: {
+						NewString: Flute
+						OldString: Flute
+					}
+
+					21: {
+						NewString: Medamaude
+						OldString: Medamaude
+					}
+
+					22: {
+						NewString: Blonde Hair
+						OldString: Blonde Hair
+					}
+
+					23: {
+						NewString: Triangle Kerchief
+						OldString: Triangle Kerchief
+					}
+
+					24: {
+						NewString: Stoplight
+						OldString: Stoplight
+					}
+				}
+			}
+		}
+
+		Arrows: {
+			SatlaArrowCharger: {
+				AI: {
+					1: {
+						NewString: CHARGED
+						OldString: CHARGED
+					}
+				}
+			}
+		}
+
+		Baseballs: {
+			TitaniumBall: {
+				ModifyHitNPC: {
+					1: {
+						NewString: BONK
+						OldString: BONK
+					}
+				}
+			}
+
+			BallBase: {
+				OnKill: {
+					1: {
+						NewString: MISS
+						OldString: MISS
+					}
+
+					2: {
+						NewString: HOME RUN
+						OldString: HOME RUN
+					}
+				}
+			}
+		}
+
+		Classless: {
+			Pokey: {
+				AI: {
+					1: {
+						NewString: Hello
+						OldString: Hello
+					}
+				}
+			}
+		}
+
+		Magic: {
+			MagicSmoke: {
+				AI: {
+					1: {
+						NewString: " bite to dust"
+						OldString: " bite to dust"
+					}
+				}
+			}
+		}
+
+		Minions: {
+			ChibiPinky: {
+				AI: {
+					1: {
+						NewString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
+						OldString: Death of Valdaris will affect the Mineral Mirror for Pandaen ore, now stop asking
+					}
+				}
+			}
+		}
+
+		Ranged: {
+			MeatMincer: {
+				AI: {
+					1: {
+						NewString: FULL CHARGE
+						OldString: FULL CHARGE
+					}
+				}
+			}
+		}
+
+		SadCatWave: {
+			PostDraw: {
+				1: {
+					NewString: Die
+					OldString: Die
+				}
+
+				2: {
+					NewString: Die, perish even
+					OldString: Die, perish even
+				}
+
+				3: {
+					NewString: FEAR
+					OldString: FEAR
+				}
+
+				4: {
+					NewString: Hows that sprite goin
+					OldString: Hows that sprite goin
+				}
+
+				5: {
+					NewString: I love my lemmy
+					OldString: I love my lemmy
+				}
+
+				6: {
+					NewString: Cope.
+					OldString: Cope.
+				}
+
+				7: {
+					NewString: Don't you dare
+					OldString: Don't you dare
+				}
+			}
+		}
+
+		Summoner: {
+			VerdeliteCrystal: {
+				AI: {
+					1: {
+						NewString: MAX
+						OldString: MAX
+					}
+
+					2: {
+						NewString: LEVEL UP
+						OldString: LEVEL UP
+					}
+
+					3: {
+						NewString: RESET
+						OldString: RESET
+					}
+				}
+			}
+
+			TinyDukeRainbow: {
+				CheckActive: {
+					1: {
+						NewString: B*TCH
+						OldString: B*TCH
+					}
+				}
+			}
+
+			Jello: {
+				PostAI: {
+					1: {
+						NewString: JELLO UP
+						OldString: JELLO UP
+					}
+
+					2: {
+						NewString: MP COMPABILITY UP
+						OldString: MP COMPABILITY UP
+					}
+
+					3: {
+						NewString: UNIQUE AI UP
+						OldString: UNIQUE AI UP
+					}
+
+					4: {
+						NewString: RESPECT UP
+						OldString: RESPECT UP
+					}
+
+					5: {
+						NewString: REACTION UP
+						OldString: REACTION UP
+					}
+
+					6: {
+						NewString: FAME UP
+						OldString: FAME UP
+					}
+
+					7: {
+						NewString: FAVOR UP
+						OldString: FAVOR UP
+					}
+
+					8: {
+						NewString: RANK UP
+						OldString: RANK UP
+					}
+
+					9: {
+						NewString: THORIUM UP
+						OldString: THORIUM UP
+					}
+
+					10: {
+						NewString: AIR RESISTANCE UP
+						OldString: AIR RESISTANCE UP
+					}
+
+					11: {
+						NewString: GAMER SPEED UP
+						OldString: GAMER SPEED UP
+					}
+
+					12: {
+						NewString: ACCEPTANCE UP
+						OldString: ACCEPTANCE UP
+					}
+
+					13: {
+						NewString: RADNESS UP
+						OldString: RADNESS UP
+					}
+
+					14: {
+						NewString: SHARPNESS UP
+						OldString: SHARPNESS UP
+					}
+
+					15: {
+						NewString: VOLUME UP
+						OldString: VOLUME UP
+					}
+
+					16: {
+						NewString: G UP
+						OldString: G UP
+					}
+
+					17: {
+						NewString: BUMBO UP
+						OldString: BUMBO UP
+					}
+
+					18: {
+						NewString: SLEEP HOURS DOWN
+						OldString: SLEEP HOURS DOWN
+					}
+				}
+			}
+
+			Guardian: {
+				AI: {
+					1: {
+						NewString: Divine Shield is Ready
+						OldString: Divine Shield is Ready
+					}
+				}
+			}
+		}
+
+		SummonProj: {
+			GnomeRise: {
+				OnKill: {
+					1: {
+						NewString: Confuse me with g'n'oblin
+						OldString: Confuse me with g'n'oblin
+					}
+
+					2: {
+						NewString: I'm a gn'ome
+						OldString: I'm a gn'ome
+					}
+
+					3: {
+						NewString: You've been GNOOOMED
+						OldString: You've been GNOOOMED
+					}
+
+					4: {
+						NewString: Hullo me old chum!
+						OldString: Hullo me old chum!
+					}
+				}
+			}
+
+			AustraliumWrench: {
+				AI: {
+					1: {
+						NewString: HOT! HOT! HOT!
+						OldString: HOT! HOT! HOT!
+					}
+
+					2: {
+						NewString: FULL CHARGE
+						OldString: FULL CHARGE
+					}
+				}
+			}
+		}
+
+		SummonWeapon: {
+			CaptainParot: {
+				AI: {
+					1: {
+						NewString: I'M READY
+						OldString: I'M READY
+					}
+
+					2: {
+						NewString: GET THEM
+						OldString: GET THEM
+					}
+
+					3: {
+						NewString: I'M TIRED
+						OldString: I'M TIRED
+					}
+
+					4: {
+						NewString: I MISS OLD FRIEND
+						OldString: I MISS OLD FRIEND
+					}
+
+					5: {
+						NewString: YARRR
+						OldString: YARRR
+					}
+				}
+			}
+		}
+
+		SupporterSouls: {
+			TinyCata: {
+				AI: {
+					1: {
+						NewString: k souls support him
+						OldString: k souls support him
+					}
+				}
+			}
+		}
+
+		Tarot: {
+			TarotEcho: {
+				AI: {
+					1: {
+						NewString: The Magician
+						OldString: The Magician
+					}
+
+					2: {
+						NewString: The Moon
+						OldString: The Moon
+					}
+
+					3: {
+						NewString: The Devil
+						OldString: The Devil
+					}
+
+					4: {
+						NewString: The Stars
+						OldString: The Stars
+					}
+
+					5: {
+						NewString: The Sun
+						OldString: The Sun
+					}
+
+					6: {
+						NewString: The World
+						OldString: The World
+					}
+
+					7: {
+						NewString: The Tower
+						OldString: The Tower
+					}
+
+					8: {
+						NewString: The Hermit
+						OldString: The Hermit
+					}
+
+					9: {
+						NewString: The Lovers
+						OldString: The Lovers
+					}
+				}
+			}
+		}
+
+		Throwing: {
+			Francisca: {
+				AI: {
+					1: {
+						NewString: FULL CHARGE
+						OldString: FULL CHARGE
+					}
+				}
+			}
+
+			DroneShuriken: {
+				seektarget: {
+					1: {
+						NewString: TARGET LOCKED
+						OldString: TARGET LOCKED
+					}
+				}
+			}
+		}
+
+		Transformations: {
+			TransformAbility: {
+				AI: {
+					1: {
+						NewString: TELEPORTATON IS READY
+						OldString: TELEPORTATON IS READY
+					}
+				}
+			}
+
+			BeastMount: {
+				AI: {
+					1: {
+						NewString: DASH IS READY
+						OldString: DASH IS READY
+					}
+				}
+			}
+		}
+
+		WheelofFortune: {
+			PostDraw: {
+				1: {
+					NewString: Current Reward:Rainbow Lattice
+					OldString: Current Reward:Rainbow Lattice
+				}
+
+				2: {
+					NewString: Current Reward:Rainbow Heart Necklace
+					OldString: Current Reward:Rainbow Heart Necklace
+				}
+
+				3: {
+					NewString: Current Reward:Secret Formula
+					OldString: Current Reward:Secret Formula
+				}
+
+				4: {
+					NewString: Current Reward:Cute Cupcake
+					OldString: Current Reward:Cute Cupcake
+				}
+
+				5: {
+					NewString: Current Reward:Endless Cookie Pouch
+					OldString: Current Reward:Endless Cookie Pouch
+				}
+			}
+		}
+
+		Whips: {
+			Kendama: {
+				AI: {
+					1: {
+						NewString: SPIKE
+						OldString: SPIKE
+					}
+				}
+			}
+		}
+
+		BossProjectiles: {
+			CBProjectiles: {
+				SugarLevel: {
+					AI: {
+						1: {
+							NewString: " died from heart attack"
+							OldString: " died from heart attack"
+						}
+					}
+
+					PostDraw: {
+						1: {
+							NewString: "SUGAR LEVEL: "
+							OldString: "SUGAR LEVEL: "
+						}
+					}
+				}
+
+				CookieArena: {
+					PostDraw: {
+						1: {
+							NewString: Keep mouse on mono colored cookies to defuse them
+							OldString: Keep mouse on mono colored cookies to defuse them
+						}
+
+						2: {
+							NewString: Don't stimulate your senses
+							OldString: Don't stimulate your senses
+						}
+					}
+				}
+			}
+
+			HSProjectiles: {
+				HSFlameCaller: {
+					PostDraw: {
+						1: {
+							NewString: Rotate Mouse Around Player to Push Fire
+							OldString: Rotate Mouse Around Player to Push Fire
+						}
+					}
+				}
+			}
+
+			OkikuProjectiles: {
+				OkikuFallenSoul3: {
+					AI: {
+						1: {
+							NewString: You greedy pig, isn't half bowl is enough for you Akiko
+							OldString: You greedy pig, isn't half bowl is enough for you Akiko
+						}
+
+						2: {
+							NewString: You will sleep outside Akiko, you have no worth here
+							OldString: You will sleep outside Akiko, you have no worth here
+						}
+
+						3: {
+							NewString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+							OldString: AKIKO BREAK THE PLATE, SHE IS THE GUILT
+						}
+
+						4: {
+							NewString: Akiko, how you menage to be good at nothing
+							OldString: Akiko, how you menage to be good at nothing
+						}
+
+						5: {
+							NewString: CLEAN THIS MESS NOW AKIKO
+							OldString: CLEAN THIS MESS NOW AKIKO
+						}
+
+						6: {
+							NewString: Even rats are more useful than you, Akiko
+							OldString: Even rats are more useful than you, Akiko
+						}
+					}
+				}
+			}
+
+			RHAFProjectiles: {
+				WindSlice2: {
+					PreDraw: {
+						1: {
+							NewString: Use Movement Keys to Pop Bubbles
+							OldString: Use Movement Keys to Pop Bubbles
+						}
+					}
+				}
+			}
+
+			SatlaProjectiles: {
+				SatlaDeathBeam: {
+					PreDraw: {
+						1: {
+							NewString: WARNING
+							OldString: WARNING
+						}
+					}
+				}
+			}
+
+			SBProjectiles: {
+				SBLoverScreen: {
+					AI: {
+						1: {
+							NewString: LETS BE TOGETHER FOREVER
+							OldString: LETS BE TOGETHER FOREVER
+						}
+					}
+				}
+			}
+		}
+
+		NameChange: {
+			PostAI: {
+				1: {
+					NewString: " now!"
+					OldString: " now!"
+				}
+
+				2: {
+					NewString: "I feel I should change my name to "
+					OldString: "I feel I should change my name to "
+				}
+
+				3: {
+					NewString: "No worries can call me "
+					OldString: "No worries can call me "
+				}
+
+				4: {
+					NewString: "Who am I? Wait I remember it's "
+					OldString: "Who am I? Wait I remember it's "
+				}
+			}
+		}
+
+		FishingRods: {
+			FishingMeter: {
+				PostDraw: {
+					1: {
+						NewString: MISS
+						OldString: MISS
+					}
+
+					2: {
+						NewString: CATCH
+						OldString: CATCH
+					}
+				}
+			}
+		}
+
+		GoldenKunai2: {
+			ModifyHitPlayer: {
+				1: {
+					NewString: " have been eliminated"
+					OldString: " have been eliminated"
+				}
+			}
+		}
+
+		DarkSoul: {
+			AI: {
+				1: {
+					NewString: Much Better
+					OldString: Much Better
+				}
+			}
+		}
+
+		Click: {
+			AI: {
+				1: {
+					NewString: CLICK
+					OldString: CLICK
+				}
+			}
+		}
+
+		BadGoldenShuriken2: {
+			ModifyHitPlayer: {
+				1: {
+					NewString: " have been eliminated"
+					OldString: " have been eliminated"
+				}
+			}
+		}
+
+		AngelicBeamofLight2: {
+			OnHitNPC: {
+				1: {
+					NewString: EMOTIONAL DAMAGE
+					OldString: EMOTIONAL DAMAGE
+				}
+			}
+		}
+
+		AFKPETSGlobalProjectile: {
+			OnHitNPC: {
+				1: {
+					NewString: MAX STACK
+					OldString: MAX STACK
+				}
+			}
+
+			ModifyHitNPC: {
+				1: {
+					NewString: Fire immunity have been broken
+					OldString: Fire immunity have been broken
+				}
+			}
+		}
+
+		Misc: {
+			TacticChecker: {
+				PostDraw: {
+					1: {
+						NewString: Aim Weakest
+						OldString: Aim Weakest
+					}
+
+					2: {
+						NewString: Aim Closest
+						OldString: Aim Closest
+					}
+
+					3: {
+						NewString: Aim Strongest
+						OldString: Aim Strongest
+					}
+				}
+			}
+
+			WaterChecker: {
+				PostDraw: {
+					1: {
+						NewString: Absorb
+						OldString: Absorb
+					}
+
+					2: {
+						NewString: Water
+						OldString: Water
+					}
+
+					3: {
+						NewString: Lava
+						OldString: Lava
+					}
+
+					4: {
+						NewString: Honey
+						OldString: Honey
+					}
+				}
+			}
+		}
+	}
+
+	Tiles: {
+		Holographic: {
+			HolographicDresser: {
+				MouseOver: {
+					1: {
+						NewString: Phase Shifting Dresser
+						OldString: Phase Shifting Dresser
+					}
+				}
+
+				MouseOverFar: {
+					1: {
+						NewString: Phase Shifting Dresser
+						OldString: Phase Shifting Dresser
+					}
+				}
+			}
+
+			HolographicChest: {
+				MouseOver: {
+					1: {
+						NewString: Phase Shifting Chest
+						OldString: Phase Shifting Chest
+					}
+				}
+			}
+		}
+
+		WhiteHolographicChest: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Factory
+					OldString: Tiny Factory
+				}
+			}
+		}
+
+		TinyShop: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Shop
+					OldString: Tiny Shop
+				}
+			}
+		}
+
+		TinyMine: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Mine
+					OldString: Tiny Mine
+				}
+			}
+		}
+
+		TinyHouse: {
+			MouseOver: {
+				1: {
+					NewString: Tiny House
+					OldString: Tiny House
+				}
+			}
+		}
+
+		TinyFactory: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Factory
+					OldString: Tiny Factory
+				}
+			}
+		}
+
+		TinyCastle: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Castle
+					OldString: Tiny Castle
+				}
+			}
+		}
+
+		TinyBank: {
+			MouseOver: {
+				1: {
+					NewString: Tiny Bank
+					OldString: Tiny Bank
+				}
+			}
+		}
+
+		SCP1162: {
+			RightClick: {
+				1: {
+					NewString: " have lost it's right lung"
+					OldString: " have lost it's right lung"
+				}
+			}
+		}
+
+		NoteBlock: {
+			RightClick: {
+				1: {
+					NewString: Empty
+					OldString: Empty
+				}
+			}
+		}
+
+		MusicBlockStarter: {
+			RightClick: {
+				1: {
+					NewString: Up
+					OldString: Up
+				}
+
+				2: {
+					NewString: Down
+					OldString: Down
+				}
+
+				3: {
+					NewString: Left
+					OldString: Left
+				}
+
+				4: {
+					NewString: Right
+					OldString: Right
+				}
+			}
+		}
+
+		MagneticStorageUnit: {
+			MouseOver: {
+				1: {
+					NewString: Magnetic Storage Unit
+					OldString: Magnetic Storage Unit
+				}
+			}
+		}
+
+		FuriousAnvil: {
+			RightClick: {
+				1: {
+					NewString:
+						'''
+						Item will shatter to following materials:
+
+						'''
+					OldString:
+						'''
+						Item will shatter to following materials:
+
+						'''
+				}
+			}
+		}
+
+		DarkAltar2: {
+			RightClick: {
+				1: {
+					NewString: Relic Accepted
+					OldString: Relic Accepted
+				}
+			}
+		}
+
+		AFKPETSGlobalTile: {
+			CanDrop: {
+				1: {
+					NewString: Harvester Crit
+					OldString: Harvester Crit
+				}
+			}
+
+			RightClick: {
+				1: {
+					NewString: % Pickaxe power to break this tile
+					OldString: % Pickaxe power to break this tile
+				}
+
+				2: {
+					NewString: "You need at least "
+					OldString: "You need at least "
+				}
+			}
+		}
+	}
+
+	Common: {
+		Commands: {
+			FunActivateCommand: {
+				get_Description: {
+					1: {
+						NewString: activate or deactivate fun mode wit /funactivated true or false
+						OldString: activate or deactivate fun mode wit /funactivated true or false
+					}
+				}
+			}
+
+			FirstFrameAdjustCommand: {
+				get_Description: {
+					1: {
+						NewString: Adjust the first frame of the mirage petfirstframe
+						OldString: Adjust the first frame of the mirage petfirstframe
+					}
+				}
+			}
+
+			BossLifeAdjustCommand: {
+				get_Description: {
+					1: {
+						NewString: Adjust the maximum boss lifebosslife
+						OldString: Adjust the maximum boss lifebosslife
+					}
+				}
+			}
+
+			AnswerCommand: {
+				get_Description: {
+					1: {
+						NewString: Adjust the word for trivia minigame byanswer
+						OldString: Adjust the word for trivia minigame byanswer
+					}
+				}
+			}
+		}
+	}
+
+	FunCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops in fun mode
+				OldString: Drops in fun mode
+			}
+		}
+	}
+
+	AnyMechCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops after any one of mechanical bosses have been defeated
+				OldString: Drops after any one of mechanical bosses have been defeated
+			}
+		}
+	}
+
+	AllMechCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops after all mechanical bosses have been defeated
+				OldString: Drops after all mechanical bosses have been defeated
+			}
+		}
+	}
+
+	OkikuCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops after Okiku have been defeated
+				OldString: Drops after Okiku have been defeated
+			}
+		}
+	}
+
+	EvilBossCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops after evil biome boss have been defeated
+				OldString: Drops after evil biome boss have been defeated
+			}
+		}
+	}
+
+	HardmodeCondition: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops in hardmode
+				OldString: Drops in hardmode
+			}
+		}
+	}
+
+	AFKPetsPlayer: {
+		CanConsumeBait: {
+			1: {
+				NewString: " rip itself into pieces"
+				OldString: " rip itself into pieces"
+			}
+		}
+
+		ModifyHitByNPC: {
+			1: {
+				NewString: " died for its lover"
+				OldString: " died for its lover"
+			}
+
+			2: {
+				NewString: Miss
+				OldString: Miss
+			}
+
+			3: {
+				NewString: Attack Dodged
+				OldString: Attack Dodged
+			}
+
+			4: {
+				NewString: Dodge
+				OldString: Dodge
+			}
+		}
+
+		CatchFish: {
+			1: {
+				NewString: Cookie Crate?
+				OldString: Cookie Crate?
+			}
+
+			2: {
+				NewString: The Duke?
+				OldString: The Duke?
+			}
+		}
+	}
+
+	AFKPETSMapLayer: {
+		Draw: {
+			1: {
+				NewString: Marked Location
+				OldString: Marked Location
+			}
+		}
+	}
+
+	DefeatEvilBoss: {
+		GetConditionDescription: {
+			1: {
+				NewString: Drops after evil biome boss has been defeated
+				OldString: Drops after evil biome boss has been defeated
+			}
+		}
+	}
+
+	AFKPetsCurrency2: {
+		GetPriceText: {
+			1: {
+				NewString: Game Mastery Token
+				OldString: Game Mastery Token
+			}
+		}
+	}
+
+	AFKPetsCurrency: {
+		GetPriceText: {
+			1: {
+				NewString: Prize Token
+				OldString: Prize Token
+			}
+		}
+	}
+}
