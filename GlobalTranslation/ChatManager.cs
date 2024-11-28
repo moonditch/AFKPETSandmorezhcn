@@ -133,6 +133,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			//皇家风暴鸟号
 			{"Collect clear air bubbles to survive", "请触碰干净的气泡以存活"},
+			{"Use hook to pass this wind by hooking to a tile in other side", "使用钩爪来度过强风"},
+			{"Use hook or block to immobilize yourself until wind stops", "使用钩爪或物块来阻挡强风"},
 			{"Brother, we have a problem here", "哥哥，我们有麻烦了"},
 			{"Storm Diver roger, target locked", "皇家鸟妖风暴号收到，目标锁定"},
 			{"Sister you look hurt! Retreat to the distance and recover", "妹妹，你看起来受伤了！先退到远处然后重整旗鼓"},
@@ -154,13 +156,27 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Turkor strikes with the heat", "火鸡以炽热之力发动攻击"},
 			{"Ocram fuels the night with horror", "奥库瑞姆用恐怖为夜晚增添色彩"},
 			{"Flag Carrier is now defenseless", "魂幡守望者现在毫无防备"},
+			{"The air smells like bravery as another challenger rises", "空气中弥漫着勇敢的气息，又一位挑战者挺身而出"},
+			{"Without knowing what awaits it in future or does it even have one", "它不知道未来等待着它的是什么，甚至不知道是否有未来"},
+			{"Still this deal sealed with losers blood have accepted by the elder ones", "然而，这个以败者之血为誓的约定已被旧日守望者们接受"},
+			{"As one fall the remains get enraged with the arrogance of the challenger", "当一人倒下时，其余的会因挑战者的傲慢而愤怒"},
+			{"Let this bloodshed continue until one side falls", "让这场血战继续，直到一方倒下"},
+			{"Winds bring the rotten smell of the remnant of fallen", "风带来了倒下者遗骸的腐烂气味"},
+			{"The end is night as there will be only one survivor left", "黑夜是战斗的结局，因为最后只会留下一个幸存者"},
+			{"As elders said sun will rise after the darkest of night", "如守望者们所说，最黑暗的夜晚之后太阳会升起"},
+			{"Without story the storyteller will have no importance so finish the job", "如果没有故事，讲故事的人就没有意义，所以完成你的任务吧"},
+			{"My universe already fell into darkness so this will only make me rest my soul", "我的世界已经陷入了黑暗，所以这将只会让我的灵魂安息"},
 			{"Lepus have been defeated", "天兔已被击败"},
 			{"Turkor the Ungrateful have been defeated", "不感恩的火鸡已被击败"},
 			
 			//不死厨师
 			{"Go away, I'm busy with choosing the dessert", "走开，我正忙着选甜点呢"},
+			{"Wait, this smell...", "等等，这个味道..."},
 			{"How you even manage to burn down such a beauty", "你是怎么烧出这么好的东西的"},
+			{"Wait, I feel I find the last ingredient for soup", "等等，我想我找到汤的最后一味材料了"},
+			{"Wait, you are a human... What you are doing here?", "等等，你这泰拉人来这里干什么？"},
 			{"let me show our hospitality", "让我来表示我们的热情"},
+			{"I think pressure\ufffds healthy, let's see if you can handle it", "我认为压力是有益的，让我看看你能承受多少"},
 
 			//英勇史莱姆
 			{"If you kill the light only darkness remain...", "如果你熄灭了光，只剩下黑暗..."},
@@ -207,6 +223,23 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Do you think you can escape from your nightmares?", "你以为你能从你的噩梦中逃脱吗？"},
 			{"The very dreams you've crumbled have come to cleanse your impure soul", "你曾经摧毁的梦想现在来净化你肮脏的灵魂"},
 			{"Do you think your nightmares will die?", "你以为你的噩梦会消失吗？"},
+			{"You cannot escape from your shadow", "你无法逃脱你的阴影"},
+			{"Fighting will only cause you to die tired", "战斗只会让你疲惫而死"},
+			{"You won't get tired of dying, will you?", "你不会厌倦死亡的，对吧？"},
+			{"I wonder what you taste like?", "我想知道你尝起来是什么味道？"},
+			{"Don't be afraid, Nothing will be left of you", "别害怕，你什么都不会剩下"},
+			{"The light can't save you now", "现在光明无法拯救你"},
+			{"Lets see how many times you can be pulled apart", "让我们看看你能被撕裂多少次"},
+			{"I'm here to claim your worthless flesh", "我来这里是要夺走你那毫无价值的肉体"},
+			{"All shall learn to fear me", "所有人都将学会害怕我"},
+			{"This nightmare is just beginning", "这个噩梦才刚刚开始"},
+			{"It will all be over soon", "一切很快就会结束"},
+			{"Your head would be nice for my collection", "你的项上人头会是我收藏的好东西"},
+			{"You know what you have done...", "你知道你做了什么..."},
+			{"Lets count how many bones you have by ripping them out", "让我们拔出你的骨头来数一数有多少根"},
+			{"You're hungry? Don't worry I'll feed you with your own organs", "你饿了吗？别担心，我会用你自己的身体来喂你"},
+			{"Why so serious, Stress only makes your flesh lose its taste", "为什么这么紧张，压力只会让你的肉失去味道"},
+			{"I really should stop playing with my meals", "我真的应该停止玩弄我的食物了"},
 
 			//史莱姆总统
 			{"Finally, the military take my signal", "终于，军队接收到了我的信号"},
@@ -268,18 +301,25 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"RELEASING THE QUARANTINE...", "正在解除隔离..."},
 			{"-Cyber Art- Deceptive Jammer", "-赛博技术- 欺骗性干扰器"},
 			{"INEFFICIENT MUST BE REPLACED TO OPEN PLACE FOR BETTER", "低效的必须被替换，以为更好的留下空间"},
+			{"FREE FULL HEALING", "免费治疗生命值"},
+			{"BREAK THE BOSS SHIELD", "打破Boss护盾"},
+			{"YOU GOT 1 MAIL", "你收到一封邮件"},
+			{"FREE DISCORD NITRO", "免费的Steam余额"},
+			{"PRESS HERE TO FIX YOUR SKILL ISSUE", "点击这里解决你的技术问题"},
+			{"LEARN WHAT DRYAD DOES WHILE SHE IS ALONE", "了解树妖独处时都在做什么"},
+			{"RC TO GET ME AS YOUR COMPANION", "右键让我成为你的同伴"},
+			{"RC TO BYPASS SECURITY BOTS LAST PHASE", "右键绕过安全机器人的最后阶段"},
+			{"CLICK ON ME FOR DEAL", "点击此处进行交易"},
 			{"Security Bot has been defeated!!!", "安全机器人已被击败！！！"},
 			{"By RC to it player could open its panel to defuse the bot", "右键打开机器人的面板以解除其武装"},
 			{"FAREWELL ADMIN...", "管理员，再见..."},
 			//FakeSBBag
 			{"OLDEST TRICK IN THE BOOK! USE THEIR GREED AGAIST THEMSELVES", "此乃陈年旧计！以其贪念，反噬其身"},
 
-			//不死厨师
-			{"I think pressure\ufffds healthy, let's see if you can handle it", "我认为压力是有益的，让我看看你能承受多少"},
-
 			//猫猫头
 			{"I expect no less from a hunter like you", "从你的身份来看，一个像你这样的猎人，我并不感到意外"},
-			{"You even kill my student, I can't let you go away", "你竟然杀害了我的学生，我不能让你就这样离开"},
+			{"You even kill my student, I can't let you go away", "你竟然杀害了我的弟子，我不能让你就这样离开"},
+			{"It's not over yet", "还没结束"},
 			{"I.. At least I will die with my honor", "我...至少我会带着我的荣誉死去"},
 			#endregion
 
@@ -295,6 +335,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			//盘子女鬼
 			{"Scarlet nights are fueled with her blood", "猩红之夜沾染上了她的血液"},
+			{"I start to see mamma in white flash", "我看到妈妈白色的身影一闪而过"},
+			{"*Sobs*Finally she could comb my hair like old days", "抽泣着说）她终于能像以前那样给我梳头了"},
+			{"Arigato gozaimasu ", "非常感谢"},
+			{" kun", "君"},
+			{" chan", "酱"},
 
 			//以撒
 			{"Isaac start to see the bigger picture and remeber the souls warn", "以撒开始看到更大的世界并回想起灵魂的警告"},
@@ -323,6 +368,13 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Soul of the star-spawned terror have been fused with blank Card", "灵魂之星催生的恐怖已与空白塔罗牌融为一体"},
 			//梦魇史莱姆
 			{"'s hope consume the darkest nightmares", "的希望能够驱散最深沉的噩梦"},
+			{"What is happening? You suppose to feel fear, not me", "发生什么事了？你才应该感到害怕，而不是我"},
+			{"Your hope makes me sick...STOP IT!", "你的希望让我感到恶心...停下来！"},
+			{"HAH, I KNOW IT'S NOTHING. I'M INEVITABLE", "哈，我知道这没什么，我是无敌的"},
+			{"I have family, please show mercy", "我有家人，请手下留情"},
+			{"This country belong to us,not yours to take", "这个王国属于我们，不是你们能夺走的"},
+			{"Even I die this is not the end for our country", "即使我死了，这也不是我们王国的终结"},
+			{"I don't want to die please I accept your terms", "我不想死，请接受我的条件"},
 			#endregion
 
 			#region NPC被攻击
@@ -403,6 +455,16 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			//饼干盒
 			{"A gluttory-spawned possession gain consciousness to nourish", "一个由贪婪催生的实体获得了滋养自身的意识"},
 			{"You feel you shouldn't get overfed with delicious cookies", "你觉得自己不应该因为美味的饼干而吃得过饱"},
+			{"Uh Oh, time to find another wooden crate", "哦哟，是时候去找另一个木箱了"},
+			{"Bye, friend", "再见，朋友"},
+			{"Wait, only a single thing could burn my cookies, the forbidden lamb sauce", "等等，只有一样东西能烧掉我的饼干，那就是羊酱汁"},
+			{"You... I see you stole from him, the big man himself right?", "你……我看到你从他那偷了东西，就是那个大块头对吧？"},
+			{"Now its time to see not an avatar but the true me, ", "现在是时候展现真正的技术，而不是我那弱小的化身了"},
+			{"[c/FF0000:Why don't] [c/FFA500:you die?] [c/ffff00:Wait I] [c/00FF00:forget to] [c/0009FF:follow unique] [c/A020F0:ai instructions]", "[c/FF0000:你为什么][c/FFA500:不死呢？][c/ffff00:等等，][c/00FF00:我忘记][c/0009FF:遵循][c/A020F0:独特的AI指令了]"},
+			{"[c/FF0000:Edgy ] [c/FFA500:talk and] [c/ffff00: random] [c/00FF00:worm] [c/0009FF:phase] [c/A020F0:check]", "[c/FF0000:废话] [c/FFA500:少说] [c/A020F0:准备][c/ffff00:进入][c/00FF00:狂暴][c/0009FF:阶段]"},
+			{"[c/FF0000:Abusing] [c/FFA500:npc limit] [c/ffff00:with basic] [c/00FF00:movement] [c/0009FF:check, good] [c/A020F0:to go now]", "[c/FF0000:解除] [c/FFA500:NPC] [c/ffff00:基本移动] [c/00FF00:限制，] [c/0009FF:现在] [c/A020F0:可以了]"},
+			{"[c/FF0000:I can't] [c/FFA500:let you] [c/ffff00:go away] [c/00FF00:after what] [c/0009FF:have you] [c/A020F0:done to him]", "[c/FF0000:我不能][c/FFA500:让你在][c/00FF00:对他做了][c/0009FF:那些][c/A020F0:事情后][c/ffff00:一走了之]"},
+			{"[c/FF0000:I'm sorry] [c/FFA500:but it] [c/ffff00:has] [c/00FF00:to be] [c/0009FF:this] [c/A020F0:way]", "[c/FF0000:抱歉，][c/FFA500:但][c/ffff00:事情][c/00FF00:必须][c/0009FF:这样][c/A020F0:解决]"},
 			{"Possession remember how it died from starvation", "饼干板条箱记得它是如何因饥饿而死的"},
 			{"It will not let same thing happen to its newfound friend", "它不会让同样的事情发生在它新结交的朋友身上"},
 			{"What truely hurt me is I will also forget his smile before I fade, farewell chef...", "真正让我心痛的是，在我消逝之前，我也会忘记他的笑容，再见了，饼干师..."},
@@ -617,6 +679,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{" have opened their eyes to see...", "睁开眼看到了新的世界..."},
 			//被祝福近古守卫
 			{"Broken Washing Machine sacrifice itself to protect" + Main.LocalPlayer.name + "'s soul", "献祭了自己来保护" + Main.LocalPlayer.name + "的灵魂"},
+			//物块扫描仪
+			{"m distance left to scanned tile", " 米距离所扫描物块"},
 			#endregion
 		};
 	}

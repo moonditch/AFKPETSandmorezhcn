@@ -6,6 +6,15 @@ using TigerForceLocalizationLib.Filters;
 
 namespace AFKPETSandmorezhcn
 {
+	public class AFKPETSandmorezhcnPlayer : ModPlayer
+	{
+		public override void OnEnterWorld()
+		{
+			//Main.NewText("AFK模组更新 v9.9.9.79 ，新增物品和战斗改进，具体参照模组创意工坊的更新日志.", Color.Orange);
+			Main.NewText("汉化模组更新，增加更多汉化；汉化问题进群反馈：895423665", Color.Orange);
+			Main.NewText("趣味模式当前版本需要重做，讽刺的是它并不有趣，建议在得到改进之前都不要使用它\n聊天栏里输入'/funactivated true'或'/funactivated false'来开启/关闭趣味模式", Color.Orange);
+		}
+	}
 	public class AFKPETSandmorezhcn : Mod
 	{
 		// ↓↓↓将此值设置为 true 并且清空 .hjson 文件中的内容 (不要删除 .hjson 文件) 以进行初次构建
@@ -44,14 +53,6 @@ namespace AFKPETSandmorezhcn
 		public static void LocalizeMethod_LocalizeAll(string targetModName)
 		{
 			TigerForceLocalizationHelper.LocalizeAll(nameof(AFKPETSandmorezhcn), targetModName, registerKey: false, "Mods.AFKPETSandmorezhcn");
-		}
-	}
-	public class AFKPETSandmorezhcnPlayer : ModPlayer
-	{
-		public override void OnEnterWorld()
-		{
-			//Main.NewText("AFK模组更新 v9.9.9.78 ，物品重做和战斗改进，具体参照模组创意工坊的更新日志.", Color.Orange);
-			Main.NewText("汉化模组更新，增加更多汉化\n汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}
 }
