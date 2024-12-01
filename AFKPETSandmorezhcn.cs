@@ -10,9 +10,9 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			//Main.NewText("AFK模组更新 v9.9.9.79 ，新增物品和战斗改进，具体参照模组创意工坊的更新日志.", Color.Orange);
-			Main.NewText("汉化模组更新，增加更多汉化；汉化问题进群反馈：895423665", Color.Orange);
-			Main.NewText("趣味模式当前版本需要重做，讽刺的是它并不有趣，建议在得到改进之前都不要使用它\n聊天栏里输入'/funactivated true'或'/funactivated false'来开启/关闭趣味模式", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.79 ，新增物品和英勇史莱姆战斗改进，具体参照模组创意工坊的更新日志\n满足条件后NPC商店不售卖部分物品的问题已修复", Color.Orange);
+			//Main.NewText("汉化模组更新，增加更多汉化；汉化问题进群反馈：895423665", Color.Orange);
+			//Main.NewText("趣味模式当前版本需要重做，讽刺的是它并不有趣，建议在得到改进之前都不要使用它\n聊天栏里输入'/funactivated true'或'/funactivated false'来开启/关闭趣味模式", Color.Orange);
 		}
 	}
 	public class AFKPETSandmorezhcn : Mod

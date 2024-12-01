@@ -588,22 +588,7 @@ Mods: {
 
 			OnDemandScanner.DisplayName: On Demand Scanner
 			SpiritSkull.DisplayName: Spirit Skull
-
-			AquaticWiseman: {
-				DisplayName: Aquatic Wiseman
-
-				TownNPCMood: {
-					Princess_LovesNPC: I like {NPCName}.
-					LikeNPC_Princess: I like {NPCName}.
-					HateCrowded: I hate how crowded I am.
-					DislikeCrowded: I dislike how crowded I am.
-					LoveSpace: I love having so much space.
-					FarFromHome: I am too far from home.
-					NoHome: I hate not having a home.
-					Content: I am content.
-				}
-			}
-
+			AquaticWiseman.DisplayName: Aquatic Wiseman
 			DrFetusFlying.DisplayName: Dr Fetus Flying
 			IceWormB.DisplayName: Ice Worm B
 			EnemyShadow.DisplayName: Enemy Shadow
@@ -1629,11 +1614,6 @@ Mods: {
 				Description: Shiny Death
 			}
 
-			GreenGelFriendlyFire: {
-				DisplayName: Marked
-				Description: Friendly fire will be activated
-			}
-
 			GreenGelified: {
 				DisplayName: Gelified
 				Description: The enemy will lose 5% of it's DR
@@ -2553,11 +2533,6 @@ Mods: {
 			HolyStrike3: {
 				DisplayName: Holy Strike
 				Description: Your soul is burning with justice
-			}
-
-			HonorofDynasty: {
-				DisplayName: Honor of Joeseon Dynasty
-				Description: You feel honored
 			}
 
 			Hooh: {
@@ -4824,6 +4799,26 @@ Mods: {
 				DisplayName: Electric Debuff
 				Description: Mods.AFKPETS.Buffs.ElectricDebuff.Description
 			}
+
+			funnyFlame: {
+				Description: Mods.AFKPETS.Buffs.funnyFlame.Description
+				DisplayName: funny Flame
+			}
+
+			PhotoMark: {
+				DisplayName: Photo Mark
+				Description: Photo has been taken
+			}
+
+			Ionized: {
+				DisplayName: Ionized
+				Description: 8% decrease in endurance
+			}
+
+			GreenGelFriendlyFire: {
+				Description: Mods.AFKPETS.Buffs.GreenGelFriendlyFire.Description
+				DisplayName: Green Gel Friendly Fire
+			}
 		}
 
 		Items: {
@@ -4984,7 +4979,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Ravioli, ravioli. Give me the formuoli'
-					It improves spirited buff to additionally give minorly increase movement based stats and blessed double jump
+					It improves spirited buff to additionally give minor increase in movement based stats + blessed double jump
 					Upon being equipped it unlocks cookie box arsenals true potential
 					'''
 			}
@@ -5085,7 +5080,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Every rose has its thorns'
-					Attackers take 50% of contact damage + cause sand shard erruption
+					Attackers take 25% of contact damage
+					Desert thorns periodically rise from ground while moving
 					'''
 			}
 
@@ -5104,12 +5100,10 @@ Mods: {
 				Tooltip:
 					'''
 					'The Scroll has given him power... NOOO!'
-					Player generate a nuclear explosion after getting hit
-					Players projectile speed increase by 15% and attacker get 100% of contact damage back
+					Players projectile speed increase by 30% and attacker get 100% of contact damage back
 					Taking damage increase dodge chance by 5% each time but it reset to base after having a successful dodge
-					This explosion will hurt close enemies and burn all enemies on the screen
-					In this contact enemy will do more damage but after that the damage will return to normal
-					This ability have 1 minute cooldown
+					After taking hit player generate spiritual energy explosion which hurt close enemies + burn all that are close
+					This ability have 1 minute cooldown + while under cooldown players endurance gets decreased by 8%
 					'''
 			}
 
@@ -5118,9 +5112,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Now I am become Death, the destroyer of worlds'
-					After taking hit player generate nuclear explosion which hurt close enemies + burn all on screen
-					After the nuclear explosion players skin get unstable and its contact DR decreases slightly
-					This ability have 1 minute cooldown
+					After taking hit player generate nuclear explosion which hurt close enemies + poison all that are close
+					This ability have 1 minute cooldown + while under cooldown players endurance gets decreased by 8%
 					'''
 			}
 
@@ -5171,7 +5164,7 @@ Mods: {
 				DisplayName: Pendant of Nature
 				Tooltip:
 					'''
-					'It contains petals of all flowers'
+					'Smells like a flower garden'
 					If player have negative life regen or 0 player will get dryad's blessing buff
 					Hitting any enemy have 10% chance to grow a parasitic plant which slowly drain their life
 					'''
@@ -5211,8 +5204,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Don't worry its bark is worse than its bite'
-					Attacker get 50% of contact damage back + increases movement speed + errupts rabid fangs
-					These rabid fangs inflict shattered defense which decrease defense for 10 seconds
+					Attacker get 33% of contact damage back + increases movement speed
+					Raises rabid fangs from ground periodically while moving
+					Upon enemy hit fang reduces damage + cause bleeding + activate vanilla and afkpets player on hit abilities
 					'''
 			}
 
@@ -5274,11 +5268,13 @@ Mods: {
 			}
 
 			EmblemofRunners: {
-				DisplayName: Runners Shoes
+				DisplayName: Runner's Shoes
 				Tooltip:
 					'''
-					These shoes don't exactly fit in anywhere, maybe that's what make it special
-					It have the ability of its materials
+					'These don't exactly fit in anywhere, maybe that's what make them special'
+					While not pressing down player walk in air and gain immunity against fall damage and burning debuff
+					Player gain extra igniting jump that has 10 second cooldown which acivates by double tap up
+					While cooldown is deactive + below certain horizontal speed player gain wooden geta abilities
 					'''
 			}
 
@@ -5368,18 +5364,13 @@ Mods: {
 				Tooltip:
 					'''
 					'Feels like walking on a sunshine'
-					While not pressing down player will not fall and walk in air and player is immune to fall damage
+					While not pressing down player will walk in air and gain immunity against fall damage
 					'''
 			}
 
 			HumanTownBell: {
-				DisplayName: Town Bell Necklace
-				Tooltip:
-					'''
-					'Do you feel alone? Not anymore'
-					It allows you to play human train game with your town NPC's
-
-					'''
+				DisplayName: Strange Attractor
+				Tooltip: Allows player to play human train game with it's town NPC's
 			}
 
 			LegacyPaintbrush: {
@@ -5408,7 +5399,13 @@ Mods: {
 
 			EtherealOffering: {
 				DisplayName: Ethereal Offering
-				Tooltip: ""
+				Tooltip:
+					'''
+					"'A relic being filled with spiritual remnants of the beasts to make them taste death again... and again... and again'
+					It will return every mana star to arcane stars which give 75 mana and inflict shadowflames to any close enemy upon being picked up
+					If you get hit player will return to an soul sentinel for 5 second which give flight + 5% increased magic damage for 5 seconds
+					Using the magic weapon with all bad prefix will make the elder lord bless its prefix to celestial
+					'''
 			}
 
 			SlimyTENG: {
@@ -5557,7 +5554,6 @@ Mods: {
 				Tooltip:
 					'''
 					'Shut your eyes and let your soul guide your move'
-					Increases melee speed and crit chance by 5%
 					Calls upon a phantom to haunt your enemies which cause melee hits to shatter their soul
 					'''
 			}
@@ -5599,9 +5595,8 @@ Mods: {
 					'''
 					'If there is something you can't make clear, try cutting it!'
 					True melee strikes against enemies with full health is guaranteed to do critical hit
-					Increases melee speed and crit chance by 5%
-					Calls upon a phantom to haunt your enemies which cause melee hits to shatter their soul
-					Player periodically produces blossoms around the player while holding true melee weapon which do petal strike upon enemy hit
+					Attacker take 50% of contact damage back + Sanguine thorns rotate around player
+					Upon their strike player activate vanilla and afkpets on hit effects + deal damage + decrease enemy defense
 					'''
 			}
 
@@ -5891,7 +5886,7 @@ Mods: {
 			}
 
 			GazeoftheLost: {
-				DisplayName: Gazeofthe Lost
+				DisplayName: Gaze of the Lost
 				Tooltip:
 					'''
 					'When the abyss stares back, sometimes it's best to look away'
@@ -5966,11 +5961,7 @@ Mods: {
 
 			MagicalHourglass: {
 				DisplayName: Magical Hourglass
-				Tooltip:
-					'''
-					'Strangely the sand does not flow'
-					Stops the flow of the time
-					'''
+				Tooltip: Stops the flow of the time
 			}
 
 			MaxRepel: {
@@ -5986,7 +5977,8 @@ Mods: {
 				DisplayName: Maya's Pendant
 				Tooltip:
 					'''
-					'Oh! It's nothing strange, really! I'm a spirit medium ....In training'nBeing around to town, minigame or travelling npc will give happy and lovestruck buffs
+					'Oh! It's nothing strange, really! I'm a spirit medium ....In training'
+					Being around to town, minigame or travelling npc will give happy and lovestruck buffs
 					Knowledger's plea effect + death of town npc spawns a friendly ghost that fights for player for 30 seconds
 					Town and traveling npcs gain 50% more DR and 10% more damage
 					When a town takes lethal hit in player's radius of double screen size the player will shout OBJECTION
@@ -6194,7 +6186,7 @@ Mods: {
 				DisplayName: Vigor Booster
 				Tooltip:
 					'''
-					'It contain neuro chemicals that he used to greatly enhance his both mental and physical abilities'
+					'Contains high dosage of neuro chemicals and steroids'
 					Each tick buffs have 25% chance to not lose duration
 					Taking damage give one of the vanilla buff for 5 seconds which has 5 second cooldown
 					'''
@@ -6311,7 +6303,7 @@ Mods: {
 				Tooltip:
 					'''
 					'For them royalty is earned by their cuteness'
-					While being on soft soil blocks players movement speed will increase by 10%
+					While being on soft soil blocks players movement speed will increase by 20%
 					While placed below vanilla shoes it increases acceleration by 15%
 					Increases movement speed by 5% + moving grant mana regen that cannot be nullified
 					This mana regen increase with respect to movement speed
@@ -6323,7 +6315,7 @@ Mods: {
 				Tooltip:
 					'''
 					'They look both cute and cosy'
-					While being on soft soil blocks players movement speed will increase by 10%
+					While being on soft soil blocks players movement speed will increase by 15%
 					'''
 			}
 
@@ -6389,7 +6381,7 @@ Mods: {
 				DisplayName: Paci-fier
 				Tooltip:
 					'''
-					Even though he's a genocidal he still have the needs of a baby
+					'Even though he's a genocidal he still has the needs of a baby'
 					While not attacking, player will gain 0.5½ endurance and 1 defense for each second
 					At 10 second it will be maxed and player will also gain bonus +1 regen along with these
 					'Summons doing damage while player is not being used any weapon does not count'
@@ -6400,7 +6392,7 @@ Mods: {
 				DisplayName: Activation Key
 				Tooltip:
 					'''
-					It seems the slime capital didn't utilized the cloud activation status system
+					'It seems the slime capital didn't utilized the cloud activation status system'
 					Upon being equipped it will elite pinky tank to fight for you which have 36 base damage
 					It's attacks will home to closest enemy and then explode into venomous purple gels
 					'''
@@ -6410,7 +6402,7 @@ Mods: {
 				DisplayName: Pendant of the Crusader
 				Tooltip:
 					'''
-					Paladins walk in darkness so the others may see the light
+					'Paladins walk in darkness so the others may see the light'
 					Player will take 5% less damage from unholy projectiles which contain dark, demonic or unholy inside of their name
 					When player take damage higher than 5% of it's maximum life the artifact start to absorb some of it
 					'This effect stack until it absorbs 18% of the damage taken and it will increase each time by 2%'
@@ -6423,7 +6415,7 @@ Mods: {
 				DisplayName: PID
 				Tooltip:
 					'''
-					It stands for 'Portable Improbability Drive' 
+					'It stands for Portable Improbability Drive'
 					It connected to Auditor's Improbability drive
 					'Your attack, speed, defence, regen increaes over time but if you take damage this resets.'
 					'You have 10% chance to resurrect from your death with 25% life in enraged mode.'
@@ -6456,13 +6448,12 @@ Mods: {
 			}
 
 			SnowflakeNecklace: {
-				DisplayName: Five Colored Feather Necklace
+				DisplayName: Feather Necklace
 				Tooltip:
 					'''
-					From looking at its elegance only a designer can make such art
-					'It will increase your endurance by 3% and defense by 2 and movement speed by 5%'
-					'While it's being equipped health potions will heal 20 more life'
-					'While it's being equipped mana potions will give 50 more mana'
+					'Looks cozy'
+					While equipped health potions heal 10 more life and mana potions restore 50 more mana
+					While under potion or mana sickness slightly increase stats related to survival
 					'''
 			}
 
@@ -6904,16 +6895,6 @@ Mods: {
 					'''
 			}
 
-			YukariVoid: {
-				DisplayName: Boundary
-				Tooltip:
-					'''
-					It seems it's connected with Gensokyo
-					It also 5% chance nullify all projectiles when you take damage
-					-Unobtainable-
-					'''
-			}
-
 			DarknessArrow: {
 				DisplayName: Arrow of Darkness
 				Tooltip:
@@ -7043,8 +7024,8 @@ Mods: {
 				DisplayName: Blood Shot
 				Tooltip:
 					'''
-					'Hitting enemy have a chance to return bullet to blood'
-					'Bullets have 50% chance to inflict boiling blood for 1 second'
+					Hitting enemy have a chance to return bullet to blood
+					Bullets have 50% chance to inflict boiling blood for 2 seconds
 					'''
 			}
 
@@ -7100,7 +7081,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Death by glamour'
-					It will split into two after a short distance which have 55% of the base projectiles damage
+					It will split into two after a short distance which have 75% of the base projectiles damage
+					Split shots inflict midas
 					'''
 			}
 
@@ -9048,21 +9030,6 @@ Mods: {
 				Tooltip: "'Soon, the ultimate doll should be complete'"
 			}
 
-			BrokenRealityPieceA: {
-				DisplayName: Broken Reality Piece A
-				Tooltip: "'You are not sure what is this but it make you feel strange'"
-			}
-
-			BrokenRealityPieceB: {
-				DisplayName: Broken Reality Piece B
-				Tooltip: "'You don't know where does this come but it makes you feel strange'"
-			}
-
-			BrokenRealityPieceD: {
-				DisplayName: Broken Reality Piece C
-				Tooltip: "'You don't know where does this come but it makes you feel E.N.D is near'"
-			}
-
 			Broochofthevoid: {
 				DisplayName: Brooch of the Void
 				Tooltip:
@@ -9244,7 +9211,7 @@ Mods: {
 
 			Pine: {
 				DisplayName: Pine Branch
-				Tooltip: "'ItOs as sharp as the never ending winter"
+				Tooltip: "'It's as sharp as the never ending winter"
 			}
 
 			PlantBox: {
@@ -12911,7 +12878,7 @@ Mods: {
 					'''
 					'A charm being used by farmers to bring the merciful rain upon drylands'
 					Using it summon rideable tiny nimbus spirit to carry you
-					When there is any boss alive or player take damage it feel scared and left player alone
+					When player takes damage or any boss is active it feel scared and hide
 					'''
 			}
 
@@ -13782,7 +13749,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I burn! Can't hold me now'
-					Inflicts on fire to enemies that are close to you
+					Spew out fire and inflict spreading fire to close enemies
 					'''
 			}
 
@@ -14107,13 +14074,11 @@ Mods: {
 			}
 
 			BlessedRedHat: {
-				DisplayName: Blessed Red Hat
+				DisplayName: Clothier's Spectre
 				Tooltip:
 					'''
-					'It was once formed and then blessed by an ancient warlord.'
-					'Even it wears a red hat.'
-					'While it's in your inventory it may make other npcs become enthusiasts and remember ancient warlord.'
-					'Also having it inside of your inventory will make you hear the legendary intro upon entering your world'
+					'Hello, Terraria Enthusiasts'
+					While it's in players inventory and favourited grants every npc a red hat + change world enter sound
 					'''
 			}
 
@@ -14121,9 +14086,8 @@ Mods: {
 				DisplayName: Cleansed Crystal Mirror
 				Tooltip:
 					'''
-					'A perfect tool for performing a judgement.'
-					'When a sinner is reflected in the mirror, it reflects all of the sinner's past deeds.'
-					'While you are holding it your minions will do 5% more damage and their attacks will judge the sinners with angelic flames.'
+					'When a sinner is reflected in the mirror, it reflects all of the sinner's past deeds'
+					When used it will despawn every active boss
 					'''
 			}
 
@@ -14149,9 +14113,9 @@ Mods: {
 				DisplayName: Eastern Medicine
 				Tooltip:
 					'''
-					'An alternative medicine developed with the wisdom of ancient civilizations'
-					'When it's being used it will cure poisoned, darkness, bleeding, confused debuffs'
-					'When it's being used it will cure  slow, weak, chilled, silenced, stinky debuffs'
+					'A herbal medicine from ancient lands'
+					When used it will cure following debuffs:
+					poisoned, darkness, bleeding, confused, slow, weak, chilled, silenced, stinky
 					'''
 			}
 
@@ -14212,11 +14176,11 @@ Mods: {
 			}
 
 			GuideSoulContainer: {
-				DisplayName: Guide's soul container
+				DisplayName: Guide's Skull
 				Tooltip:
 					'''
-					'Maybe it may protect his soul from dark magic'
-					'While it's in your inventory dropping Guide Voodoo Doll to lava won't summon WoF'
+					'May he finally found the true peace'
+					While in inventory and favourited prevents Guide Voodoo Doll to summon WoF
 
 					'''
 			}
@@ -14283,24 +14247,11 @@ Mods: {
 			}
 
 			OrbofConfusion: {
-				DisplayName: Orb of Confusion
+				DisplayName: Fisherman Association Badge
 				Tooltip:
 					'''
-					'There is a switch button on it'
-					'It will confuse you and angler upon use.'
-					'Angler will change it's fishing quest'
-
-					'''
-			}
-
-			PerfectEye: {
-				DisplayName: Eye of Perfect Slime
-				Tooltip:
-					'''
-					'It's once being used by perfect slime'
-					'Strangely you feel it's still alive'
-					'When it's in your invetory vanilla slimes become friendly and being near to vanilla slimes will increase stats slightly'
-					'Also you can detect treasures and danger.'
+					'He who wants to catch fish must not mind getting wet'
+					Upon used angler will refresh the fishing quest
 
 					'''
 			}
@@ -14358,32 +14309,9 @@ Mods: {
 					'''
 			}
 
-			RuneofKaunaz: {
-				DisplayName: Rune of Kaunaz
-				Tooltip:
-					'''
-					'May your soul empower with the Fury of ancient flames.'
-					'Carrying it inside your inventory imbues your weapon with fire and gives you rage buff.'
-					'''
-			}
-
-			RuneofLaguz: {
-				DisplayName: Rune of Laguz
-				Tooltip: "'It may affect clouds'"
-			}
-
 			RuneofSowulo: {
 				DisplayName: Rune of Sowulo
 				Tooltip: "'The power it contains may bring attention of someone'"
-			}
-
-			RuneofWunjo: {
-				DisplayName: Rune of Wunjo
-				Tooltip:
-					'''
-					'It's concentrated from [c/FF1493:joy] of Yuno Gasai.'
-					'It still whispers Yuki's name over and over again.'
-					'''
 			}
 
 			RustedKey: {
@@ -14402,17 +14330,15 @@ Mods: {
 
 			ShatteredSoul: {
 				DisplayName: Faint Essence
-				Tooltip: "'It was formed from kindness and innocence of the fallen.'"
+				Tooltip: "'It was formed from kindness and innocence of the fallen'"
 			}
 
 			StoneofSol: {
-				DisplayName: Piece of Sol
+				DisplayName: Darude 'Bell'
 				Tooltip:
 					'''
-					'It's once formed by magicians with the flames of Sun.'
-					'You can enable or disable sandstorm by using it.'
-					'While it's being equipped you are being immune to on fire and strong wind debuffs.'
-					'Also when you take damage you have a chance to errupt fire and when you have less than 50% life inferno effect activates.'
+					'A Storm is Coming...'
+					Allows enabling/disabling the sandstorm
 					'''
 			}
 
@@ -15023,7 +14949,12 @@ Mods: {
 
 			DarkMirror: {
 				DisplayName: Dark Mirror
-				Tooltip: "'The mirror shows you different places in 1080p.'"
+				Tooltip:
+					'''
+					'Caught entropy in 4k'
+					RC teleport player to random location with progression constraints
+					LC teleport player to home
+					'''
 			}
 
 			DataBit: {
@@ -15040,9 +14971,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Wait, is autopause on or off?'
-					'While being favourited it will allow active pets to become AFK pets'
-					'Taking hit while having any AFK pets increase [i:6220] by 20%'
-					'You gain immunity against the fear that ulong spread upon the humanity'
+					While being favourited it will allow active pets to become AFK pets
+					You gain immunity against the fear that ulong spread upon the humanity
 					'''
 			}
 
@@ -15065,16 +14995,13 @@ Mods: {
 			}
 
 			FabricofSpace: {
-				DisplayName: Fabric of the Space
+				DisplayName: Space Regulator
 				Tooltip:
 					'''
-					It look like it's one of it's image of reality in this universe.
-					Even holding it makes you feel your body have been exist multiple place in space.
-					'LC allows you to teleport to the position of the mouse'
-					'RC + Up button teleport you back to home.'
-					'RC + down button teleport you to random location.'
-					'RC + left button teleport you to your death location.'
-					'RC + right button allow you to make blink'
+					'This is an intergalactic emergency'
+					Allows enabling/disabling the selected mode of category by LC
+					Allow change of mode of category by RC without pressing down
+					Allow change of category by RC along with pressing down
 					'''
 			}
 
@@ -15121,8 +15048,8 @@ Mods: {
 				Tooltip:
 					'''
 					'A utility tier spell tome being used by wandering wizards to protect from elements'
-					'Upon use it will form a 4x10 house which will take the mouse position its right lowest point'
-					'It will not break blocks while forming and the blocks that form the house are breakable'
+					Upon use it will form a 4x10 house which will take the mouse position its right lowest point
+					It will not break blocks while forming and the blocks that form the house are breakable
 					'''
 			}
 
@@ -15131,8 +15058,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Tiny house which can be crafted from scrap metal and some more is required'
-					'Upon use it will put every not favourited item inside of players inventory to tiny houses'
-					'It will not check ammo slot and coin slot and it will send message after being used'
+					Upon use it will put every not favourited item inside of players inventory to tiny houses
+					It will not check ammo slot and coin slot and it will send message after being used
 					'''
 			}
 
@@ -15160,29 +15087,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It's once used by SATLA-001 to mark the location of villages'
-					'When you LC you will mark your mouse position in the mark and when you RC you will clear the mark
-					'When you mark a location it will show that location in the map
+					LC you mark mouse position on map whike RC clear the mark
 					'''
-			}
-
-			MagicBouncyGlowStick: {
-				DisplayName: Tome of Magical Bouncy Glowstick
-				Tooltip: ""
-			}
-
-			MagicGlowStick: {
-				DisplayName: Tome of Magical Glowstick
-				Tooltip: ""
-			}
-
-			MagicSpelunkerGlowStick: {
-				DisplayName: Tome of Magical Spelunker Glowstick
-				Tooltip: ""
-			}
-
-			MagicStickyGlowStick: {
-				DisplayName: Tome of Magical Sticky Glowstick
-				Tooltip: ""
 			}
 
 			MedicineKit: {
@@ -15198,7 +15104,7 @@ Mods: {
 				DisplayName: Mirror of Mirages
 				Tooltip:
 					'''
-					It's once being used by sand elementals to bring their preys to sandstorm.
+					'It's once being used by sand elementals to bring their preys to sandstorm'
 					When you click on an enemy it will form a flying mirage pet that clones that enemies appearence.
 					It will adjust itself to the cloned enemies maximum amount of frame by default.
 					With '/firstframe Number' and '/lastframe Number' commands player can adjust starting and finishing frames of the pet.
@@ -15260,8 +15166,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Best for surprise hug trainings'
-					'Using it will spawn a training dummy that minions target and activate DPS meter'
-					'RC and any active boss will despawn the dummy'
+					Using it will spawn a training dummy that minions target and activate DPS meter
+					RC and any active boss will despawn the dummy
 					'''
 			}
 
@@ -15270,7 +15176,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It seems now you are the only person who has the original version'
-					'When used, it will force every town npc to accept home where your mouse is'
+					When used, it will force every town npc to accept home where your mouse is
 					'''
 			}
 
@@ -15278,7 +15184,7 @@ Mods: {
 				DisplayName: Galactic Rift Bender
 				Tooltip:
 					'''
-					Strangely you may be the first person in this universe that use this gun
+					'Strangely you may be the first person in this universe that use this gun'
 					When used it will summon a portal that will spawn the town npcs that have their requirements done(like mechanic is being saved in before etc)
 					This portal is being formed in your mouse direction and if all npcs are present it will summon bunny
 					It needs dimentional energy capsules as ammo
@@ -15307,13 +15213,13 @@ Mods: {
 				Tooltip:
 					'''
 					'One of many talisman used by mikos to seal away onis and yokais
-					'When used it will despawn every active boss'
+					When used it will despawn every active boss
 					'''
 			}
 
 			SkullCrystal: {
 				DisplayName: Skull Crystal
-				Tooltip: "'It returns you where your end was.'"
+				Tooltip: It returns you where your end was
 			}
 
 			SmokePellet: {
@@ -15330,9 +15236,8 @@ Mods: {
 				DisplayName: Storytellers Book
 				Tooltip:
 					'''
-					'It's filled with stories of happy ends and heroes.'
-					'It makes you feel every nice person will have nice friends.'
-					'While it's in your inventory it you can summon more than one pet.'
+					'It's filled with stories of friends ,heroes and cute animals'
+					While it's in your inventory and favourited allow to summon more than one pet
 					'''
 			}
 
@@ -15341,8 +15246,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It's springs look strong'
-					'Let's the player jump a great height'
-					'Only one can be active at a time and RC to desummon'
+					Let's the player jump a great height
+					Only one can be active at a time and RC to desummon
 					'''
 			}
 
@@ -15351,8 +15256,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It's looking to you'
-					Using it will make you immune to contact and projectile damage for 5 second
-					[c/ffff00:Fun mode exclusive item]
+					Grants immunity to contact + projectile damage for 5 second
 					'''
 			}
 
@@ -15361,8 +15265,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once formed from the calmness and mysticism of the Moon'
-					'Using it will change your moon type to custom ones.
-					''When the game is closed moon type is resetted to vanilla moon.'
+					Using it will change your moon type to custom ones
+					When the game is closed moon type is resetted to vanilla moon.
 					'''
 			}
 
@@ -15371,8 +15275,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It was once formed from the energy and power of the Sun'
-					'Using it will change your sun type to custom ones.
-					''When the game is closed sun type is resetted to vanilla moon.'
+					Using it will change your sun type to custom ones
+					When the game is closed sun type is resetted to vanilla moon
 					'''
 			}
 
@@ -15380,8 +15284,8 @@ Mods: {
 				DisplayName: Town bell
 				Tooltip:
 					'''
-					'It was once used in town center to protect both villagers and town center.'
-					'When it is used it spawns all of your npcs into players location'
+					'It was once used in town center to protect both villagers and town center'
+					When used spawns all of your npcs into players location
 					'''
 			}
 
@@ -15420,10 +15324,9 @@ Mods: {
 				DisplayName: Data Miner
 				Tooltip:
 					'''
-					Hitting enemy will make them decode.
-					Has a chance to mine bitcoin from the world.
-					Its damage change from 100 to 400 
-					It makes you feel strange.
+					'Hope it's legal in these lands'
+					Mining may also grant bitcoins + hitting enemies make them get decoded
+					RC to any tile will show the percentage of pickaxe need to mine them
 					'''
 			}
 
@@ -17580,6 +17483,7 @@ Mods: {
 					Upon held forms dark orbs that rotate around player + pressing attack button shoot them towards mouse direction
 					If [c/ffff00:Doctor's Monocle] is equipped with RC player can levitate in mouse direction that can pass through enemies
 					In RC it disable players auto mana usage and uses players own life if there is not enough mana
+					In RC grant player 50% increased endurance
 					'''
 			}
 
@@ -17643,11 +17547,13 @@ Mods: {
 			}
 
 			SliceofIceKing: {
-				DisplayName: Slice of Ice King
+				DisplayName: Ice King's Diary
 				Tooltip:
 					'''
-					'Now it find it's true potential for kidnapping princesses'
-					'Also strangely holding it makes you slowly lose your memories'
+					'KEEP OUT!'
+					Upon held causes all of the sentries rotate around mouse
+					Any enemy that get closes to mouse get frostburn inferno
+					If aiming sentries does not have any empowering it empower them by 30%
 					'''
 			}
 
@@ -17960,11 +17866,11 @@ Mods: {
 			}
 
 			MetalSlicer: {
-				DisplayName: Metal Slicer
+				DisplayName: Razor Ripper
 				Tooltip:
 					'''
-					'Strangely its mostly used on humans'
-					It's sharpness will increase its armor penetration by 2 and hits has a chance to inflict bleeding
+					'Out of all meats, it prefer humans most'
+					It's sharpness will increase its armor penetration by 5 and hits has a chance to inflict bleeding
 					Crits may activate its internal circuitry and activate drone shuriken protocol
 					If rogue config is active and calamity is enabled stealth hits will form additional scarlet metal slicers
 					'''
@@ -18103,7 +18009,7 @@ Mods: {
 			}
 
 			MeteoriteFlail: {
-				DisplayName: Meteorite Flail
+				DisplayName: Bollide Collider
 				Tooltip:
 					'''
 					'Com-et me bro'
@@ -18274,43 +18180,6 @@ Mods: {
 					'''
 			}
 
-			HolographicArkhalis: {
-				DisplayName: Holographic Arkhalis
-				Tooltip:
-					'''
-					'Even holding it fills you with hope.'
-
-					'''
-			}
-
-			NaturePartySword: {
-				DisplayName: Celebration of the Nature
-				Tooltip:
-					'''
-					'Forged with the knowledge of both dryad and party girl combined'
-					'Happiness make RCA, dryad make LCA stronger and blesses you while holding it'
-					'It become craftable only when you are blessed with dryad's power'
-					'''
-			}
-
-			PumpkinSword: {
-				DisplayName: Pumpkin knife
-				Tooltip:
-					'''
-					'It looks small and strange'
-					'How even this forged?'
-					'''
-			}
-
-			PumpkinSword2: {
-				DisplayName: Pumpkin Sword
-				Tooltip:
-					'''
-					'Strangely it's sharp enough to cut titanium'
-					'Also you feel it's magical power is getting stronger'
-					'''
-			}
-
 			Vampiomere: {
 				DisplayName: Vampiomere
 				Tooltip: Shoots life drainer vampire cats
@@ -18387,6 +18256,7 @@ Mods: {
 					'A divine relic being cursed by the innocent lifes it took'
 					While being held calls 7 souls of the fallen + upon hit enemy they inflict their own debuff
 					RC call all of the souls back
+					If all souls call from same enemy they cause an overload on enemies soul
 					'''
 			}
 
@@ -18453,16 +18323,6 @@ Mods: {
 					'''
 			}
 
-			AdmiralSword: {
-				DisplayName: Admiral's katana
-				Tooltip:
-					'''
-					'It was once used by Admiral Yi Shun-shin to protect his nation in Imjin war.'
-					Holding the sword shall bless your soul with the honor of Joseon Dynasty.
-					Attacks have a chance to make Geobukseon fire their cannons.
-					'''
-			}
-
 			AncientScarabSword: {
 				DisplayName: Ancient Scarab Sword
 				Tooltip:
@@ -18471,15 +18331,6 @@ Mods: {
 					True melee hits have 50% chance spawn solar scarabs crits will form cross shaped heat lasers
 					Defeated enemies by this sword they will explode into blue scarabs
 					Attacks form solar scarabs which explode into an inferno
-					'''
-			}
-
-			ArcaneBlade: {
-				DisplayName: Arcane Blade
-				Tooltip:
-					'''
-					Critical hits shoot 2 arcane bolts
-					Holding increases max mana by 20
 					'''
 			}
 
@@ -18524,11 +18375,6 @@ Mods: {
 					Allows you to go into stealth mode and hitting from enemies behind will deal 20% more damage
 					Gives immunity to On Fire and killing enemies will form icicles
 					'''
-			}
-
-			ConjuristsSword: {
-				DisplayName: Conjurist's Blade
-				Tooltip: Attacks have 10% chance to rise shadowflame tentacles from the ground
 			}
 
 			CrusadersSword: {
@@ -18604,19 +18450,6 @@ Mods: {
 					'''
 			}
 
-			FrozenKatana: {
-				DisplayName: Tsurara's Frozen Dagger of Hate
-				Tooltip:
-					'''
-					Wars are to be won with swords not with rice
-					'Legends tell that the sword is being coated by tears of a yokai after her husband left her alone'
-					'Attacks will inflict frostburn and they have 10% chance to form slices and have a chance to rain icicle from sky that will have 75% of base damage'
-					'Critical hits have 10% chance to reflect vanilla or afkpets debuff back to enemy'
-					'While holding the dagger most ice type lifeforms become friendly to you'
-					When player RC you will form frost shield around you which will stop projectiles when they get inside of it for 4 seconds
-					'''
-			}
-
 			GildedSword: {
 				DisplayName: Gilded Sword
 				Tooltip:
@@ -18625,15 +18458,6 @@ Mods: {
 					Critical hits have a chance to reflect one of vanilla or afkpets inflicted debuff back to enemy
 					Swords size will increse with the decrease of players life
 					If players life is below 10% it will give increased life regen which will not stack with crimson armor
-					'''
-			}
-
-			GoblinDagger: {
-				DisplayName: Gremlin Gouger
-				Tooltip:
-					'''
-					'A light weapon being utilized by the goblins for quicker strikes'
-					'Hits have a chance to drop extra money'
 					'''
 			}
 
@@ -18704,39 +18528,6 @@ Mods: {
 					'''
 			}
 
-			KissakiMorohaZukuriStyleKatana: {
-				DisplayName: Boudica's Might
-				Tooltip:
-					'''
-					'Let them taste what they have done to your people'
-					'Attacks inflict frostburn and critical hits will increase your rage which caps at 5'
-					'RC will allow you to shout with rage and activate nordic rage mode'
-					'Each stored rage will increase its duration by 1 second and it will increase your melee speed by 10% and damage by 5%'
-					'If you are using this weapon your crits will deal 10% more damage while this buff is being activated'
-					'Also when you shout you will inflict fear to close enemies'
-					'''
-			}
-
-			LivingTreeGreatsword: {
-				DisplayName: Living Wood Greatsword
-				Tooltip:
-					'''
-					'At day it will get slightly stronger and faster'
-					'At night hitting enemies will inflict dryad's bane for 2 seconds'
-					'With RC you could point it towards your mouse direction'
-					'Due to its tip is sharper than its side it will do more damage in this form'
-					'''
-			}
-
-			MeteorSword: {
-				DisplayName: Bollide Collider
-				Tooltip:
-					'''
-					'It strangely attracts other space rock'
-					'Hits will inflict on fire and each third hit will rain meteor from above with 60% base damage'
-					'''
-			}
-
 			MisaoKnife: {
 				DisplayName: Knife of the Onigawara
 				Tooltip:
@@ -18758,15 +18549,6 @@ Mods: {
 					'In first stage the sword will burn any enemy that is close to the player with angelic flames'
 					'In second stage it will rain angelic beams to your mouse direction'
 					'In third stage it will shoot an angelic energy that will explode into infernal flames upon hit to enemy'
-					'''
-			}
-
-			RustyKatana: {
-				DisplayName: Ancient Tachi
-				Tooltip:
-					'''
-					It may look rusted but still its enough to slice through your enemy
-					Hitting enemy will inflict poisoned
 					'''
 			}
 
@@ -18812,35 +18594,6 @@ Mods: {
 					'When your enemies have less than 10% life you make deathblow to them'
 					'You can't make deathblow to bosses
 					''If their life is above 10% or they are boss your strikes will inflict fear'
-					'''
-			}
-
-			SolFlamberge: {
-				DisplayName: Sol Khopesh
-				Tooltip:
-					'''
-					'Hitting enemies will burn them and holding it will emit light from player'
-					Critical hits will form a sword beam that will penetrate 1 enemy and upon either hit enemy or tile it will fade away
-					'''
-			}
-
-			SparkingJustice: {
-				DisplayName: Sparkling Justice
-				Tooltip:
-					'''
-					'Justice may come late but it never misses'
-					'Critical hits will form lighting that will strike closest enemy other than the hit one'
-					'If there is no near enemy the lightning will strike to the enemy player hits'
-					'''
-			}
-
-			SpookyWoodSword: {
-				DisplayName: Hephaestus�s Renewal
-				Tooltip:
-					'''
-					Spread the nightmare before christmas
-					'Enemy hits burts out greek fire and inflicts On Fire!'
-					'Hitting enemies under the Fear Debuff will convert into the Horror Debuff'
 					'''
 			}
 
@@ -19007,6 +18760,7 @@ Mods: {
 					'''
 					'It's over Duke, I have the high tide...'
 					Pulls non-boss enemies + projectiles towards the yoyo
+					While being submerged with water gets faster
 					Hitting enemies may call water droplets from sea
 					'''
 			}
@@ -19060,7 +18814,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Here comes the big boy'
-					Every fourth hit makes the yoyo shoot short range spikes.
+					Every fourth hit makes the yoyo shoot short range spikes
+					If spin enough rips its own string and drop as a spikeball
 					'''
 			}
 
@@ -19091,18 +18846,6 @@ Mods: {
 					'You are not sure what this thing is capable of
 					'Too OP please nerf.'
 
-					'''
-			}
-
-			AncientBow: {
-				DisplayName: Greatbow of Meliae
-				Tooltip:
-					'''
-					A relic bow expertly forged in the heart of the forest
-					After they failed protecting their habitat against the first emperor this was taken as a loot along with their head
-					But who knows carrying cultists in your army also bring another predators that are seeking fun upon you
-					It will shoot spore producing arrows that will rain down arrows on your enemies
-					The arrows that will rain will be determined by the first arrow it finds inside of your inventory
 					'''
 			}
 
@@ -19160,6 +18903,7 @@ Mods: {
 					'''
 					'Sous vide? Heh It's a little too late now'
 					Converts wood arrow into stream of magma along with shoot 2 at once
+					Equipping [c/ffff00:Secret Formula] will awoken its true form
 					'''
 			}
 
@@ -19215,15 +18959,6 @@ Mods: {
 					'There is no storm I can't weather...'
 					It will convert wooden arrows to beet arrows
 					Beet arrows will home to the enemy which have lowest hp
-					'''
-			}
-
-			Sharanga: {
-				DisplayName: Sharanga
-				Tooltip:
-					'''
-					'A celestial bow also being known as Kodanda'
-					Converts wooden arrows to hellfire arrows + oscillates number of arrows being shoot
 					'''
 			}
 
@@ -19299,7 +19034,8 @@ Mods: {
 					'All my means are sane, my motive and my object mad'
 					Has 20% chance to shot a harpoon that cause true DoT + serious bleeding +defense break on enemy hit
 					Covers normal darts with oil that leave bubbles in air + hits inflict oiled + each hit increase RC ability stack
-					RC will shoot a sonar scanner that doesn't use ammo and instead use RC ability stack which has max limit of 20
+					Each normal hit strike grant a sonar scanner ammo which has max limit of 20
+					RC will shoot a sonar scanner that doesn't use ammo and instead use RC ability stack 
 					Uses darts as ammo
 					'''
 			}
@@ -19339,7 +19075,7 @@ Mods: {
 					'Hibernation! Cold sleep! Did you know?'
 					Shoots chill mists that may freeze(nonboss) or frostburn enemies
 					The mist may condensate on enemy and return into damaging rain
-					40% chance to not consume ammo and uses gel as ammo'
+					40% chance to not consume ammo and uses gel as ammo
 					'''
 			}
 
@@ -19349,7 +19085,7 @@ Mods: {
 					'''
 					'Let's heat things up'
 					Shoot both flames and small lingering flames
-					RC to spew from matchstick that has shorter duration but higher damage output
+					Upon hit inflict a special spreading fire debuff that deal true DoT
 					10% chance to not consume ammo + uses gel as ammo
 					'''
 			}
@@ -19361,7 +19097,7 @@ Mods: {
 					'Don’t forget to say hi to your honey'
 					RC to spread honey and LC to shoot nectar flames
 					Nectar flames call bees + does additional true damage on honeyed enemies
-					'30% chance to not consume ammo and uses gel as ammo'
+					30% chance to not consume ammo and uses gel as ammo
 					'''
 			}
 
@@ -19381,7 +19117,7 @@ Mods: {
 					'''
 					'This is going to be a terrible death...'
 					Uses gel as ammo
-					'40% chance to not consume ammo'
+					40% chance to not consume ammo
 					'''
 			}
 
@@ -19391,7 +19127,7 @@ Mods: {
 					'''
 					'Light inside you drowns out all but the brightest stars'
 					Shoots a spread of lightning bolts that spread starcrusher debuff
-					'70% chance to not consume ammo and uses gel as ammo'
+					70% chance to not consume ammo and uses gel as ammo
 					'''
 			}
 
@@ -19402,7 +19138,7 @@ Mods: {
 					The winds of the North is howling for you
 					Shoots icy flame that inflicts hypothermia
 					Hitting enemies will also cause blizzard shards to rain
-					'50% chance to not consume ammo and uses gel as ammo'
+					50% chance to not consume ammo and uses gel as ammo
 					'''
 			}
 
@@ -19413,7 +19149,7 @@ Mods: {
 					'My breath death!'
 					Occasionally spews additional flame balls
 					Crits cause infernal explosion + hits weaken enemy against fire + greatly burns them
-					'50% chance to not consume ammo and uses gel as ammo'
+					50% chance to not consume ammo and uses gel as ammo
 					'''
 			}
 
@@ -19435,7 +19171,6 @@ Mods: {
 					LC will shoot dual pistol while RC will throw a concentrated dynamite pack
 					If player is on ground RC will call the brothers to solve the problem in Sicilian style
 					This ability has 20 second cooldown + Their existance makes you feel stronger
-
 					'''
 			}
 
@@ -19522,8 +19257,11 @@ Mods: {
 				Tooltip:
 					'''
 					'A gun is a gun even though its completely frozen'
-					If any enemy have full health the bullets it shoots have guaranteed to do critical hit
-					It will convert normal bullets to frostburn bullets and upon hitting any enemy these bullets will form snowflake at opposite direction
+					Converts every bullet into shattering frozen bullets
+					If any enemy have full health the bullets it shoots have following abilities;
+					- Guaranteed to do crit + inflict overfrozen which cause enemy to cannot move for 3 seconds
+					- Additional hits via this weapon against enemy additionall take 3% of its max hp while its frozen
+					- While enemy is on ground ice spikes will rise from its behind
 					'''
 			}
 
@@ -19680,9 +19418,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Best way to fix the bugs'
-					Upon being held it will form a aim on top of players cursor
-					When LC is being pressed it will bug racket to strike to cursor position
-					First enemy being strike releases multiple electric bolts + all enemies take damage get charged debuff
+					Covers bullets with dicyclic mass that may try and catch the exception upon critical hits
+					If item is favorited all shot bullets gain holographic properties
 					'''
 			}
 
@@ -19728,7 +19465,6 @@ Mods: {
 					Holding charge the sawblade + releasing will make it rirochet from tiles and slash enemies
 					Full charge gets indicated with sound
 					If [c/ffff00:Doctor's Monocle] is equipped it gain a RC ability which will slash the mincer with its back chain
-					RC to its item to convert it to close ranged form
 					'''
 			}
 
@@ -19737,7 +19473,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Say Cheese'
-					'Upon taking photo enemies have a chance to confuse by its flash'
+					When photo is taken it will expose the vulnerabilities of that enemy type which fades away
+					This will increase damage & crit chance against that kind of enemy
+					There can be max 1 npc type photographed
 					'''
 			}
 
@@ -19746,7 +19484,7 @@ Mods: {
 				Tooltip:
 					'''
 					'It carries the mark of the Northern Star'
-					Each enemy kill increase xp + leveling up empower weapon while taking hit or change weapon lose experience
+					Each enemy hit increase xp + leveling up empower weapon while taking hit or change weapon lose experience
 					'''
 			}
 
@@ -19839,11 +19577,14 @@ Mods: {
 			}
 
 			TheGrandCelebration: {
-				DisplayName: The Grand Celebration
+				DisplayName: Birthday Signal Pistol
 				Tooltip:
 					'''
-					Fueled with birthday wishes of humanity
-					Uses rockets as ammo
+					'Make a wish'
+					Converts flares into flareworks that explodes upon hitting enemy or tile
+					Hits inflict party shyness which cause them to get true DoT by getting closer to female npcs
+					Upon being shot if there is at least 4 town npc + party girl are alive starts party
+					Uses flares as ammo
 					'''
 			}
 
@@ -19939,7 +19680,6 @@ Mods: {
 				Tooltip:
 					'''
 					'Mah boi, this peace is what ALL true warriors strive FOR'
-
 					Upon being thrown spreads ectolings which shatters into smaller souls upon hitting any enemy
 					Any close enemy gets angelic flames + hitting any enemy inflicts inflicted enemies get salvation
 					Enemy kills will grant a short time holy protection
@@ -20009,10 +19749,10 @@ Mods: {
 				Tooltip:
 					'''
 					'How can you refuse, when you are already playing'
-					Upon throwing cards there is a chance to throw ace cards
-					'Ace of diamonds will drop additional money and ace of hearts will heal player upon being hit'
-					'Ace of clubs will drop non tile breaking bombs that will explode upon being hit'
-					'Ace of spades will penetrate 3 times'
+					Upon throwing cards there is a chance to throw one of ace cards
+					- Ace of Diamonds: Drop additional money and ace of hearts will heal player upon being hit
+					- Ace of Clubs: Drop non tile breaking bombs that will explode upon being hit
+					- Ace of Spades: Penetrate 3 times
 					If rogue support is enabled player will throw all for aces at once
 					'''
 			}
@@ -20436,6 +20176,16 @@ Mods: {
 					If [c/ffff00:Doctor's Monocle] is equipped it gain a RC use ability
 					RC use will put a saw blade between the sentry closest to player and one closest to mouse
 					There can be max 1 sawblade active + it won't take any minion or sentry slot
+					'''
+			}
+
+			HallowedControlUnit: {
+				DisplayName: Dell's Control Unit
+				Tooltip:
+					'''
+					'Move 'em out!'
+					Upon held causes all of the sentries rotate around player
+					If aiming sentries does not have any empowering it empower them by 20% 
 					'''
 			}
 
@@ -21098,7 +20848,6 @@ Mods: {
 					'It is staring at you'
 					'Will change it's data to the first item in the inventory when it is used.'
 					'If that place is empty you get nothing'
-
 					'''
 				DisplayName: Voidal Thing
 			}
@@ -21119,52 +20868,60 @@ Mods: {
 			}
 
 			BoxofSpiders: {
-				Tooltip: ""
-				DisplayName: Boxof Spiders
-			}
-
-			SpectralHolographicWall: {
-				DisplayName: Spectral Holographic Wall
-				Tooltip: ""
-			}
-
-			SpectralHolographicPlatform: {
-				Tooltip: ""
-				DisplayName: Spectral Holographic Platform
-			}
-
-			SpectralHolographicDoor: {
-				Tooltip: ""
-				DisplayName: Spectral Holographic Door
-			}
-
-			SpectralHolographicChest: {
-				Tooltip: ""
-				DisplayName: Spectral Holographic Chest
-			}
-
-			SpectralHolographicChair: {
-				Tooltip: ""
-				DisplayName: Spectral Holographic Chair
-			}
-
-			SpectralHolographicBlock: {
-				Tooltip: ""
-				DisplayName: Spectral Holographic Block
-			}
-
-			HolographicShard: {
-				Tooltip: "'A crystalized dust of cosmos'"
-				DisplayName: Double Phased Shard
-			}
-
-			HolographicSlimePouch: {
 				Tooltip:
 					'''
-					Right click to open
-					'You feel this will enrage the capital'
+					'Filled with tiny friends'
+					Upon opened spawns random bug themed critters in random amount
+					RC to open
 					'''
-				DisplayName: Treasure Pouch (Holographic Slime)
+				DisplayName: Box of Spiders
+			}
+
+			HotChocolate: {
+				Tooltip:
+					'''
+					'Nah, I'd tank'
+					Increase true melee base stats while decrease max life and life regen slighly
+					'''
+				DisplayName: Hot Chocolate
+			}
+
+			RainMaker: {
+				Tooltip:
+					'''
+					'Every dance tells a story'
+					Allows enabling/disabling the rain
+					'''
+				DisplayName: Rain Maker
+			}
+
+			Furin: {
+				Tooltip:
+					'''
+					'There are winds of destiny that blow when we least expect them'
+					Allows enabling/disabling the windy day
+					'''
+				DisplayName: Furin
+			}
+
+			CharmofTempestas: {
+				Tooltip:
+					'''
+					'Climate is what we expect, weather is what we get'
+					Allows enabling/disabling the selected environment by LC
+					Allow change windy day/sandstorm/rain as selected environment by RC
+					'''
+				DisplayName: Charm of Tempestas
+			}
+
+			GroundSurveillanceRadar: {
+				Tooltip:
+					'''
+					'SCANNING...'
+					LC you mark mouse position on map whike RC clear the mark
+					While being held show location of treasure and danger sources and grant biome sight
+					'''
+				DisplayName: Ground Surveillance Radar
 			}
 		}
 
@@ -23552,6 +23309,17 @@ Mods: {
 			HoloFallingSlime2.DisplayName: Holo Falling Slime2
 			HSItemDrop.DisplayName: H S Item Drop
 			GunShot2.DisplayName: Gun Shot2
+			HSSword4.DisplayName: H S Sword4
+			HoloFallingSlime3.DisplayName: Holo Falling Slime3
+			HSSoulGrasp.DisplayName: H S Soul Grasp
+			Flarework.DisplayName: Flarework
+			TheSpikeball2.DisplayName: The Spikeball2
+			SBDeathBeam2.DisplayName: S B Death Beam2
+			SalvationLaser2.DisplayName: Salvation Laser2
+			DynastyEnergy.DisplayName: Dynasty Energy
+			LunaStarBullet.DisplayName: Luna Star Bullet
+			BlossomThorn.DisplayName: Blossom Thorn
+			holoHeat.DisplayName: holo Heat
 		}
 
 		Configs: {

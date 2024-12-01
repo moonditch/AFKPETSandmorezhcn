@@ -260,7 +260,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				sb.Replace("Coins also give mana",
 							"钱币可以恢复魔力");//贪婪
 				sb.Replace("Hostile spiritual pigeons may spawn but these also drop soul heart + arcane mana",
-							"有几率生成掉落灵魂之心和奥术法力的灵鸽");//魔术师
+							"有几率生成掉落灵魂之心和奥术星的灵鸽");//魔术师
 				sb.Replace("Attacks have small chance to inflict explosive chemical",
 							"攻击有几率施加化学易爆性");//泄露
 				sb.Replace("Player drain town npc life for increased mana + life regen while not have max mana",

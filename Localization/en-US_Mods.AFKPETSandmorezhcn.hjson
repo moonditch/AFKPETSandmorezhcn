@@ -169,6 +169,71 @@ AFKPETS: {
 				}
 			}
 
+			Event: {
+				CharmofTempestas: {
+					PostDrawInInventory: {
+						1: {
+							NewString: Control: Sand
+							OldString: Control: Sand
+						}
+
+						2: {
+							NewString: Control: Rain
+							OldString: Control: Rain
+						}
+
+						3: {
+							NewString: Control: Wind
+							OldString: Control: Wind
+						}
+					}
+				}
+
+				FabricofSpace: {
+					PostDrawInInventory: {
+						1: {
+							NewString: Teleport: Random
+							OldString: Teleport: Random
+						}
+
+						2: {
+							NewString: Teleport: Death
+							OldString: Teleport: Death
+						}
+
+						3: {
+							NewString: Teleport: Beach
+							OldString: Teleport: Beach
+						}
+
+						4: {
+							NewString: Teleport: Hell
+							OldString: Teleport: Hell
+						}
+
+						5: {
+							NewString: Teleport: Spawn
+							OldString: Teleport: Spawn
+						}
+
+						6: {
+							NewString: Control: Sand
+							OldString: Control: Sand
+						}
+
+						7: {
+							NewString: Control: Rain
+							OldString: Control: Rain
+						}
+
+						8: {
+							NewString: Control: Wind
+							OldString: Control: Wind
+						}
+					}
+				}
+			}
+
 			Misc: {
 				IchorArrowShooterStaff: {
 					PostDrawInInventory: {
@@ -2725,6 +2790,20 @@ AFKPETS: {
 						OldString: Adjust the word for trivia minigame byanswer
 					}
 				}
+			}
+		}
+	}
+
+	AFKPETSRecipes: {
+		AddRecipes: {
+			1: {
+				NewString: Become craftable after Moon Lord have been defeated
+				OldString: Become craftable after Moon Lord have been defeated
+			}
+
+			2: {
+				NewString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
+				OldString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
 			}
 		}
 	}

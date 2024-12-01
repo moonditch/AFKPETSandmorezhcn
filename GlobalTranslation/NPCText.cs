@@ -13,6 +13,7 @@ using System;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using AFKPETS.Items.Accessories;
 using AFKPETS.Items.Special;
+using AFKPETS.Items.Potions;
 
 namespace AFKPETSandmorezhcn.GlobalTranslation
 {

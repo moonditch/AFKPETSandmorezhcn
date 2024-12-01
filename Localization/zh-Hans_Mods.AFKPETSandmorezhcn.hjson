@@ -168,6 +168,71 @@ AFKPETS: {
 				}
 			}
 
+			Event: {
+				CharmofTempestas: {
+					PostDrawInInventory: {
+						1: {
+							NewString: 控制: 沙尘暴
+							// OldString: Control: Sand
+						}
+
+						2: {
+							NewString: 控制: 下雨
+							// OldString: Control: Rain
+						}
+
+						3: {
+							NewString: 控制: 刮风
+							// OldString: Control: Wind
+						}
+					}
+				}
+
+				FabricofSpace: {
+					PostDrawInInventory: {
+						1: {
+							NewString: 传送: 随机
+							// OldString: Teleport: Random
+						}
+
+						2: {
+							NewString: 传送: 死亡地点
+							// OldString: Teleport: Death
+						}
+
+						3: {
+							NewString: 传送: 海边
+							// OldString: Teleport: Beach
+						}
+
+						4: {
+							NewString: 传送: 地狱
+							// OldString: Teleport: Hell
+						}
+
+						5: {
+							NewString: 传送: 出生地
+							// OldString: Teleport: Spawn
+						}
+
+						6: {
+							NewString: 控制: 沙尘暴
+							// OldString: Control: Sand
+						}
+
+						7: {
+							NewString: 控制: 下雨
+							// OldString: Control: Rain
+						}
+
+						8: {
+							NewString: 控制: 刮风
+							// OldString: Control: Wind
+						}
+					}
+				}
+			}
+
 			Misc: {
 				IchorArrowShooterStaff: {
 					PostDrawInInventory: {
@@ -919,7 +984,7 @@ AFKPETS: {
 								-闪亮: 攻击有几率召唤彩虹星星
 								-战兢: 攻击有几率惊吓敌人
 								-贪婪: 拾取钱币可以恢复魔力
-								-魔术师: 有几率生成掉落灵魂之心和奥术法力的灵鸽
+								-魔术师: 有几率生成掉落灵魂之心和奥术星的灵鸽
 								-泄露: 攻击有几率施加化学易爆性
 								-虐待狂: 伤害城镇NPC可以增加魔力和生命再生
 								-扭曲: 攻击形成暗影，暗影受到伤害时敌人也会受到伤害
@@ -2726,6 +2791,20 @@ AFKPETS: {
 						// OldString: Adjust the word for trivia minigame byanswer
 					}
 				}
+			}
+		}
+	}
+
+	AFKPETSRecipes: {
+		AddRecipes: {
+			1: {
+				NewString: 击败月亮领主后可制作
+				// OldString: Become craftable after Moon Lord have been defeated
+			}
+
+			2: {
+				NewString: 卡米拉之杯或伊吹萃香的酒葫芦在背包中且被收藏后可制作
+				// OldString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
 			}
 		}
 	}

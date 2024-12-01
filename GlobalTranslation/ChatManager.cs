@@ -81,8 +81,29 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Shop", "商店"},
 			#endregion
 			
-			#region NPC离开
+			#region 模组指令
+			//AnswerCommand
+			{"Player give answer as", "玩家回答"},
+			//BossLifeAdjustCommand
+			{"Boss life have been adjusted", "Boss生命值已调整"},
+			//FunActivateCommand
+			{"The air is filled with [c/ffff00:fun]", "空气中充满了[c/ffff00:趣味]的气氛"},
+			{"You feel they return back to normal", "你感到有些事物离去了"},
+			{"You feel something went wrong", "你感到刚才的指令不对劲"},
+			//幻影镜
+			//FirstFrameAdjustCommand
+			{"First frame have been adjusted", "起始帧已调整"},
+			//LastFrameAdjustCommand
+			{"Last frame have been adjusted", "结束帧已调整"},
+			//WikiSearchWikiCommand
+			{"Wiki have been adjusted to", "Wiki 已切换"},
+			//WikiSearchWordCommand
+			{"Search word have been adjusted to", "检索词已切换"},
+			//NPCNameChangeCommand
+			{"New have been adjusted to", "新名字是"},
+			#endregion
 			
+			#region NPC离开
 			//设计师
 			{" return back to her home", "回到了她家"},
 			//艺术家
@@ -198,7 +219,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			//远古守护者
 			{"You start to feel your presense is disturbing someone", "你开始感到自己惊扰了某个存在"},
 			{"They say ignorance is bliss but they forget to count the corpses", "人们说无知是福，但他们却忘记了计算那些尸体"},
-			{"One may fall but many will stand", "一个人可能会倒下，但很多人会站起来"},
+			{"One may fall but many will stand", "一个人可能会倒下，但更多人会站起来"},
 			{"Everything become white and black after he go", "他走后，一切都变得黑白分明"},
 			{"But I know one day he will return and pat my head like good old times", "但我知道有一天他会回来，像从前那样拍拍我的头"},
 			{"Every new become old and alive become dead", "新事物终将变老，活物终将死亡"},
@@ -490,28 +511,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"OMFG YOU DO NOT KILL Player! Player KILLS YOU!!!!!", "我的天啊！你不该杀了玩家！泰拉人会杀了你！！！！"},
 			#endregion
 
-			#region 模组指令
-			//AnswerCommand
-			{"Player give answer as", "玩家回答"},
-			//BossLifeAdjustCommand
-			{"Boss life have been adjusted", "Boss生命值已调整"},
-			//FunActivateCommand
-			{"The air is filled with [c/ffff00:fun]", "空气中充满了[c/ffff00:趣味]的气氛"},
-			{"You feel they return back to normal", "你感到有些事物离去了"},
-			{"You feel something went wrong", "你感到刚才的指令不对劲"},
-			//幻影镜
-			//FirstFrameAdjustCommand
-			{"First frame have been adjusted", "起始帧已调整"},
-			//LastFrameAdjustCommand
-			{"Last frame have been adjusted", "结束帧已调整"},
-			//WikiSearchWikiCommand
-			{"Wiki have been adjusted to", "Wiki 已切换"},
-			//WikiSearchWordCommand
-			{"Search word have been adjusted to", "检索词已切换"},
-			//NPCNameChangeCommand
-			{"New have been adjusted to", "新名字是"},
-			#endregion
-
 			#region 物品
 			//空白塔罗牌
 			{"Blank card empowered with greed", "空白塔罗牌注满了贪婪"},
@@ -681,6 +680,17 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Broken Washing Machine sacrifice itself to protect" + Main.LocalPlayer.name + "'s soul", "献祭了自己来保护" + Main.LocalPlayer.name + "的灵魂"},
 			//物块扫描仪
 			{"m distance left to scanned tile", " 米距离所扫描物块"},
+			//空间校准器系列
+			{"Player hasn't died yet", ""},
+			{"Rain has been ended", "雨天开始了"},
+			{"Rain has been started", "雨天结束了"},
+			{"Wind has been ended", "刮风天开始了"},
+			{"Wind has been started", "刮风天结束了"},
+			{"Sandstorm has been ended", "沙尘暴开始了"},
+			{"Sandstorm has been started", "沙尘暴结束了"},
+			//坐标定位器
+			{"Location registered", "坐标已添加"},
+			{"Location cleared", "坐标已移除"},
 			#endregion
 		};
 	}
