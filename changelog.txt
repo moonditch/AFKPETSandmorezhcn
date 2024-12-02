@@ -2,5 +2,4 @@ AFK拓展和宠物模组汉化补丁已更新：v{ModVersion}，tML-v{tMLVersion
 Github：https://github.com/moonditch/AFKPETSandmorezhcn
 = 适配AFKPets v9.9.9.80
 
-= 修复魂幡守望者相关的崩溃问题
-= 补全缺少的Boss日志
+= 汉化修复："按下隐藏信息键查看更多信息"的面板

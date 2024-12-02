@@ -359,8 +359,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"I start to see mamma in white flash", "我看到妈妈白色的身影一闪而过"},
 			{"*Sobs*Finally she could comb my hair like old days", "抽泣着说）她终于能像以前那样给我梳头了"},
 			{"Arigato gozaimasu ", "非常感谢"},
-			{" kun", "君"},
-			{" chan", "酱"},
 
 			//以撒
 			{"Isaac start to see the bigger picture and remeber the souls warn", "以撒开始看到更大的世界并回想起灵魂的警告"},

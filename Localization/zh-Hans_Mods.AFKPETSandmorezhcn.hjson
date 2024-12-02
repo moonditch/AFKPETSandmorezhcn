@@ -6,7 +6,8 @@ AFKPETS: {
 					1: {
 						NewString:
 							'''
-																						[c/008000:- 密藏 -]
+							                                                        [c/008000:- 密藏 -]
+
 							密藏是特殊的可装备物品，每个密藏都拥有特定的能力
 							在物品栏内右键装备密藏，在密藏栏内左键回收密藏右键
 
@@ -18,7 +19,7 @@ AFKPETS: {
 							'''
 						/* OldString:
 							'''
-																					[c/008000:-Trinkets-]
+							                                                     [c/008000:-Trinkets-]
 							Trinkets are special equippables that each of them contains specific ability. In order to equip
 							player need to press trinket hotkey while holding the item in hotbar. When player press down
 							along with trinket hotkey player will drop all trinkets  or RC to trinket slot. If player press
@@ -409,13 +410,23 @@ AFKPETS: {
 						1: {
 							NewString:
 								'''
+								                                                    [c/00A300:- 奇特植物 -]
+								    
+								它们并非起源本地，而是通过鸟类的消化系统被带到新的地方
+								当这些鸟类被杀死时，它们有机会掉落神秘种子，这些种子能够长出以下奇特植物的一种
+								由于这些土地的营养成分与原生地不同，这些植物需要被种植在紧邻特定的土壤上才能生长
 
-									-甜菜: 在地标的沙地上生长得更快，成熟的植物会产出特定物品: 
+								胡萝卜: 在地表的土块上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
-
-									-Beet:Grows faster on sand in surface layer, grown plant gives the following
+								                                                    [c/00A300:-EXOTIC PLANTS-]
+								    Info:Exotic plants are plants that does not originate from these lands but instead being
+								    carried in birds stomach. Upon killing birds they have a chance to drop mysterious
+								    seeds which grow one of these. Due to the difference of nutricient on these lands
+								    their tile need to be adjacent to solidifed fertilizer in order to grow.
+								    -TYPES-
+								    -Carrot:Grows faster on dirt in surface layer, grown plant gives the following
 								''' */
 						}
 
@@ -423,12 +434,12 @@ AFKPETS: {
 							NewString:
 								'''
 
-									-土豆: 在洞穴层的泥地上生长得更快，成熟的植物会产出特定物品: 
+								亚麻: 在粘土上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
 
-									-Potato:Grows faster on mud in cavern layer, grown plant gives the following
+								    -Flax:Grows faster on clay, grown plant gives the following
 								''' */
 						}
 
@@ -436,12 +447,12 @@ AFKPETS: {
 							NewString:
 								'''
 
-									-奇迹之果: 在地表的神圣草皮上生长得更快，成熟的植物会产出特定物品: 
+								光莓: 在洞穴层的蘑菇草皮上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
 
-									-Miracle Fruit:Grows faster on hallow grass in surface layer, grown plant gives the following
+								    -Glow Berry:Grows faster on mushroom grass in cavern layer, grown plant gives the following
 								''' */
 						}
 
@@ -449,12 +460,12 @@ AFKPETS: {
 							NewString:
 								'''
 
-									-光莓: 在洞穴层的蘑菇草皮上生长得更快，成熟的植物会产出特定物品: 
+								奇迹之果: 在地表的神圣草皮上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
 
-									-Glow Berry:Grows faster on mushroom grass in cavern layer, grown plant gives the following
+								    -Miracle Fruit:Grows faster on hallow grass in surface layer, grown plant gives the following
 								''' */
 						}
 
@@ -462,35 +473,25 @@ AFKPETS: {
 							NewString:
 								'''
 
-									-亚麻: 在粘土上生长得更快，成熟的植物会产出特定物品: 
+								土豆: 在洞穴层的泥地上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
 
-									-Flax:Grows faster on clay, grown plant gives the following
+								    -Potato:Grows faster on mud in cavern layer, grown plant gives the following
 								''' */
 						}
 
 						6: {
 							NewString:
 								'''
-																					[c/00A300:-奇特植物-]
-									它们并非起源本地，而是通过鸟类的消化系统被带到新的地方
-									当这些鸟类被杀死时，它们有机会掉落神秘种子，这些种子能够长出以下奇特植物的一种
-									由于这些土地的营养成分与原生地不同，这些植物需要被种植在紧邻特定的土壤上才能生长
-
-									- 种类 -
-									-胡萝卜: 在地表的土块上生长得更快，成熟的植物会产出特定物品: 
+								 
+								甜菜: 在地标的沙地上生长得更快，成熟的植物会产出特定物品: 
 								'''
 							/* OldString:
 								'''
-																					[c/00A300:-EXOTIC PLANTS-]
-									Info:Exotic plants are plants that does not originate from these lands but instead being
-									carried in birds stomach. Upon killing birds they have a chance to drop mysterious
-									seeds which grow one of these. Due to the difference of nutricient on these lands
-									their tile need to be adjacent to solidifed fertilizer in order to grow.
-									-TYPES-
-									-Carrot:Grows faster on dirt in surface layer, grown plant gives the following
+
+								    -Beet:Grows faster on sand in surface layer, grown plant gives the following
 								''' */
 						}
 					}
@@ -503,15 +504,16 @@ AFKPETS: {
 						1: {
 							NewString:
 								'''
-																		[c/FF00FF:-塔罗牌-]
+								                                                       [c/FF00FF:-塔罗牌-]
+
 								通过激活塔罗牌，玩家将获得以下能力：
-								[c/FFFF00:-次要能力]: 在塔罗牌被左键激活后自动生效，并将持续其效果，直到塔罗牌被停用
-								[c/FF0000:-主要能力]: 玩家按下绑定的快捷键后激活。每次激活后，需要 1 分钟的冷却时间才能再次激活任何塔罗牌
+								[c/FFFF00:-被动能力]: 在塔罗牌被左键激活后自动生效，并将持续其效果，直到塔罗牌被停用
+								[c/FF0000:-主动能力]: 玩家按下绑定的快捷键后激活。每次激活后，需要 1 分钟的冷却时间才能再次激活任何塔罗牌
 								[c/FFFF00:-隐藏]: 找到阿努比斯之眼后，人们或许能够看见隐藏于眼前的事物……
 								'''
 							/* OldString:
 								'''
-																		[c/FF00FF:-Tarot Cards-]
+								                                       [c/FF00FF:-Tarot Cards-]
 								By activating of tarot cards player will be able to get the following abilities
 								[c/FFFF00:-Minor]: This abilities passively activate via activation of the tarot card and
 								they will continue their effect until the deactivation of the tarot card
@@ -528,7 +530,7 @@ AFKPETS: {
 						1: {
 							NewString:
 								'''
-														[c/FF00FF:- 塔罗牌获取- ]
+								                            [c/FF00FF:- 塔罗牌获取- ]
 
 								0.愚者: 击杀死灵傀儡法师会转化此塔罗牌
 								I.魔术师: 击杀提姆或符文巫师会转化此塔罗牌
@@ -544,9 +546,9 @@ AFKPETS: {
 
 								XXI.世界: 没有激活的Boss时有低概率转化此塔罗牌
 								'''
-							/* OldString:
+							OldString:
 								'''
-																		[c/FF00FF:-Obtaining Cards-]
+								                                     [c/FF00FF:-Obtaining Cards-]
 								0.Fool:Killing Antony, the Novice Necromancer will transform the card
 								I.Magician:Killing Tim or rune wizard will transform the card
 								VI.Lovers: Healing from nurse while having less than 50% life will transform it
@@ -558,7 +560,7 @@ AFKPETS: {
 								XIX.Sun:Killing heroic slime will transform it
 								XXI.World: Making a trip while no boss is active have small chance to transform it
 
-								''' */
+								'''
 						}
 					}
 				}
@@ -589,7 +591,7 @@ AFKPETS: {
 							1: {
 								NewString:
 									'''
-																				[c/ff0000:- 球棍 -]
+									                                           [c/ff0000:- 球棍 -]
 
 									球棍是近战类武器的一个子类，玩家可以右键投出棒球，左键挥舞击打棒球
 									除非武器具有特殊的右键能力，否则此操作需要消耗棒球弹药
@@ -600,7 +602,7 @@ AFKPETS: {
 									'''
 								/* OldString:
 									'''
-																								[c/ff0000:-BATS-]
+									                                                         [c/ff0000:-BATS-]
 
 									The bat weapons are part of a subclass of the Melee class. Bats have an additional right click function to
 									strike which allow you to throw a baseball type ammo above and with left click you can strike it.
@@ -874,7 +876,7 @@ AFKPETS: {
 						1: {
 							NewString:
 								'''
-																	[c/FF00FF:- 远程弓词缀 -]
+								                                   [c/FF00FF:- 远程弓词缀 -]
 
 								-神射手的: 100% 箭矢速度，箭矢获得轻微追踪能力
 								-弹力: 箭矢失去穿透能力但可能反弹至最近敌人
@@ -895,7 +897,7 @@ AFKPETS: {
 								'''
 							/* OldString:
 								'''
-																	[c/FF00FF:-RANGED BOW REFORGES-]
+								                                   [c/FF00FF:-RANGED BOW REFORGES-]
 								-Sharpshooter's: 100% Arrow Velocity, Arrows gain slight homing
 								-Ricochet: Arrow lose piercing ability but may bounce to nearest enemy
 								-Symmetrical: Shoot copy of your arrow 180 degrees from its trajectory angle
@@ -923,7 +925,7 @@ AFKPETS: {
 					1: {
 						NewString:
 							'''
-																[c/FF00FF:- 真近战词缀 -]
+							                                   [c/FF00FF:- 真近战词缀 -]
 
 							-随机: 随机造成伤害、获得增益、敌人的位置
 							-欢乐: 生命心增强近战，暴击获得治疗
@@ -943,7 +945,7 @@ AFKPETS: {
 							'''
 						/* OldString:
 							'''
-																[c/FF00FF:-TRUE MELEE REFORGES-]
+							                                   [c/FF00FF:-TRUE MELEE REFORGES-]
 							-Randomized: Random stat + random inflicted debuff + random enemy location shuffle
 							-Joyful: Taking heart give melee positive buffs + crit kill heal + make happy
 							-Blossom's: Harmless flower bloom. Breaking this will give protecting souls
@@ -972,7 +974,7 @@ AFKPETS: {
 						1: {
 							NewString:
 								'''
-																	[c/228B22:- 魔法杖词缀 -]
+								                                [c/228B22:- 魔法杖词缀 -]
 
 								-魔法师的: 使用魔力星召唤具有进攻、支援或治疗能力的仙子
 								-独特: 攻击有几率使非Boss敌人获得独特AI并更改Boss的属性
@@ -992,7 +994,7 @@ AFKPETS: {
 								'''
 							/* OldString:
 								'''
-																		[c/228B22:-STAVE MAGIC REFORGE ABILITIES-]
+								                                       [c/228B22:-STAVE MAGIC REFORGE ABILITIES-]
 								-Hylia's: Taking mana star summon various fairies with offensive, supportive or healing abilities
 								-Unique: Hits have small chance to make nonboss enemies ai unique + bosses stats get changed
 								-Cataclysmic: Not taking damage or graze increase damage, taking damage resets
@@ -1172,6 +1174,22 @@ AFKPETS: {
 					1: {
 						NewString: 谢谢你
 						// OldString: Thank you
+					}
+				}
+			}
+		}
+
+		Okiku: {
+			OkikuDeath: {
+				PostDraw: {
+					1: {
+						NewString: 君
+						// OldString: " kun"
+					}
+
+					2: {
+						NewString: 酱
+						// OldString: " chan"
 					}
 				}
 			}
