@@ -540,11 +540,11 @@ AFKPETS: {
 								XV.恶魔: 击杀血肉之墙会转化此塔罗牌
 								XVI.塔: 用物块建造有低概率转化此塔罗牌
 
-								XVII.星星: 击杀全息史莱姆会转化此塔罗牌
-								XVIII.月亮: 在夜晚的天空有低概率转化此塔罗牌
-								XIX.太阳: 击杀英勇史莱姆会转化此塔罗牌
+								XIX.太阳: 击杀英勇史莱姆会转化此塔罗牌（暂时无法获取）
+								XVII.星星: 击杀全息史莱姆会转化此塔罗牌（暂时无法获取）
+								XVIII.月亮: 在夜晚的天空有低概率转化此塔罗牌（暂时无法获取）
 
-								XXI.世界: 没有激活的Boss时有低概率转化此塔罗牌
+								XXI.世界: 没有Boss存活时在世界中漫步有低概率转化此塔罗牌
 								'''
 							OldString:
 								'''
@@ -1735,122 +1735,218 @@ AFKPETS: {
 			MadotsukiEffect: {
 				PostDraw: {
 					1: {
-						NewString: 幽灵
+						NewString:
+							'''
+
+							幽灵
+							'''
 						// OldString: Nopperabou
 					}
 
 					2: {
-						NewString: 毛巾
+						NewString:
+							'''
+
+							毛巾
+							'''
 						// OldString: Towel
 					}
 
 					3: {
-						NewString: 猫
+						NewString:
+							'''
+
+							猫
+							'''
 						// OldString: Cat
 					}
 
 					4: {
-						NewString: 灯
+						NewString:
+							'''
+
+							灯
+							'''
 						// OldString: Lamp
 					}
 
 					5: {
-						NewString: 自行车
+						NewString:
+							'''
+
+							自行车
+							'''
 						// OldString: Bicycle
 					}
 
 					6: {
-						NewString: 槟榔
+						NewString:
+							'''
+
+							槟榔
+							'''
 						// OldString: Buyo Buyo
 					}
 
 					7: {
-						NewString: 氖
+						NewString:
+							'''
+
+							氖
+							'''
 						// OldString: Neon
 					}
 
 					8: {
-						NewString: 长发
+						NewString:
+							'''
+
+							长发
+							'''
 						// OldString: Long Hair
 					}
 
 					9: {
-						NewString: 脏发
+						NewString:
+							'''
+
+							脏发
+							'''
 						// OldString: Poop Hair
 					}
 
 					10: {
-						NewString: 断头
+						NewString:
+							'''
+
+							断头
+							'''
 						// OldString: Severed Head
 					}
 
 					11: {
-						NewString: 肥胖
+						NewString:
+							'''
+
+							肥胖
+							'''
 						// OldString: Fat
 					}
 
 					12: {
-						NewString: 侏儒
+						NewString:
+							'''
+
+							侏儒
+							'''
 						// OldString: Midget
 					}
 
 					13: {
-						NewString: 刀
+						NewString:
+							'''
+
+							刀
+							'''
 						// OldString: Knife
 					}
 
 					14: {
-						NewString: 恶魔
+						NewString:
+							'''
+
+							恶魔
+							'''
 						// OldString: Demon
 					}
 
 					15: {
-						NewString: 巫师
+						NewString:
+							'''
+
+							巫师
+							'''
 						// OldString: Witch
 					}
 
 					16: {
-						NewString: 雪女
+						NewString:
+							'''
+
+							雪女
+							'''
 						// OldString: Yuki-onna
 					}
 
 					17: {
-						NewString: 青蛙
+						NewString:
+							'''
+
+							青蛙
+							'''
 						// OldString: Frog
 					}
 
 					18: {
-						NewString: 伞
+						NewString:
+							'''
+
+							伞
+							'''
 						// OldString: Umbrella
 					}
 
 					19: {
-						NewString: 帽子和围巾
+						NewString:
+							'''
+
+							帽子和围巾
+							'''
 						// OldString: Hat and Scarf
 					}
 
 					20: {
-						NewString: 笛子
+						NewString:
+							'''
+
+							笛子
+							'''
 						// OldString: Flute
 					}
 
 					21: {
-						NewString: 梅达莫德
+						NewString:
+							'''
+
+							梅达莫德
+							'''
 						// OldString: Medamaude
 					}
 
 					22: {
-						NewString: 金发
+						NewString:
+							'''
+
+							金发
+							'''
 						// OldString: Blonde Hair
 					}
 
 					23: {
-						NewString: 三角头巾
+						NewString:
+							'''
+
+							三角头巾
+							'''
 						// OldString: Triangle Kerchief
 					}
 
 					24: {
-						NewString: 交通信号灯
+						NewString:
+							'''
+
+							交通信号灯
+							'''
 						// OldString: Stoplight
 					}
 				}

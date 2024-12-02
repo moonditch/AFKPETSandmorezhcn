@@ -346,7 +346,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			#region Boss被击败
 			//死灵傀儡法师
-			{"What is happening?Human please help me, it hurts", "发生了什么?泰拉人，请帮帮我，很疼"},
+			{"What is happening? Human please help me, it hurts", "发生了什么?泰拉人，请帮帮我，很疼"},
 			{"I feel like something ripping apart", "我感到好像有什么东西要裂开了"},
 			{"That look on your face... Do you really wish this? I only want to help you", "你脸上的表情...你真的希望这样吗?我只是想帮你"},
 			{"Antony's spirit find a way to escape", "安东尼的灵魂得到到了解脱"},
