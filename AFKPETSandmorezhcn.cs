@@ -3,6 +3,15 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using TigerForceLocalizationLib;
 using TigerForceLocalizationLib.Filters;
+using AFKPETS;
+using AFKPETS.NPCs.TheAncientGuardian;
+using AFKPETS.Items.Vanity;
+using AFKPETS.Items.NPCSummon;
+using Terraria.Localization;
+using System.Collections.Generic;
+using AFKPETS.NPCs.UndeadChef;
+using AFKPETS.NPCs.SecurityBot;
+using AFKPETS.NPCs.PoliticianSlime;
 
 namespace AFKPETSandmorezhcn
 {
@@ -10,9 +19,8 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			Main.NewText("AFK模组更新 v9.9.9.79 ，新增物品和英勇史莱姆战斗改进，具体参照模组创意工坊的更新日志\n满足条件后NPC商店不售卖部分物品的问题已修复", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.80 ，修复'旧日三重奏'相关的崩溃问题，补全缺少的Boss日志", Color.Orange);
 			//Main.NewText("汉化模组更新，增加更多汉化；汉化问题进群反馈：895423665", Color.Orange);
-			//Main.NewText("趣味模式当前版本需要重做，讽刺的是它并不有趣，建议在得到改进之前都不要使用它\n聊天栏里输入'/funactivated true'或'/funactivated false'来开启/关闭趣味模式", Color.Orange);
 		}
 	}
 	public class AFKPETSandmorezhcn : Mod
@@ -48,7 +56,68 @@ namespace AFKPETSandmorezhcn
 				return;
 			}
 			LocalizeMethod_LocalizeAll(targetModName);
-			
+
+			//补全原模组缺少的BossChecklist条目
+			Mod bossChecklist;
+			if (!ModContent.GetInstance<AFKPetsConfiguration>().LiteMode && !ModContent.GetInstance<AFKPetsConfiguration>().BossLiteMode)
+			{
+				if (ModLoader.TryGetMod("BossChecklist", out bossChecklist))
+				{
+					bossChecklist.Call(
+						"LogMiniBoss",
+						this,
+						"TheAncientGuardian",
+						3.04f,
+						() => AFKPetsWorld.downedTheAncientGuardian,
+						ModContent.NPCType<AncientGuardian>(),
+						new Dictionary<string, object>()
+						{
+							["collectibles"] = ModContent.ItemType<AncientGuardianMask>(),
+							["spawnItems"] = ModContent.ItemType<SeveredClothierHead>(),
+							["spawnInfo"] = Language.GetTextValue("Mods.AFKPETS.NPCs.AncientGuardian.BossChecklistIntegration.SpawnInfo"),
+							["despawnMessage"] = Language.GetTextValue("Mods.AFKPETS.NPCs.AncientGuardian.BossChecklistIntegration.DespawnMessage")
+						}
+					);
+
+					bossChecklist.Call(
+						"LogMiniBoss",
+						this,
+						"Tier1DungeonMinibossSecurityBot",
+						5.02f,
+						() => AFKPetsWorld.downedSecurityBot,
+						new List<int>
+						{
+							ModContent.NPCType<SecurityBot>(),
+							ModContent.NPCType<UndeadChef>()
+						},
+						new Dictionary<string, object>
+						{
+							["spawnItems"] = new List<int>
+							{
+								ModContent.ItemType<CorruptedServer>(),
+								ModContent.ItemType<RoastChickenPlate>()
+							},
+							["spawnInfo"] = Language.GetTextValue("Mods.AFKPETS.NPCs.SecurityBot.BossChecklistIntegration.SpawnInfo"),
+							["despawnMessage"] = Language.GetTextValue("Mods.AFKPETS.NPCs.SecurityBot.BossChecklistIntegration.DespawnMessage")
+						}
+					);
+
+					bossChecklist.Call(
+						"LogBoss",
+						this,
+						"PoliticianSlime",
+						11.02f,
+						() => AFKPetsWorld.downedPoliticianSlime,
+						ModContent.NPCType<PoliticianSlime>(),
+						new Dictionary<string, object>
+						{
+							["spawnItems"] = ModContent.ItemType<GoldenKingSlimeIdol>(),
+							["spawnInfo"] = Language.GetTextValue("Mods.AFKPETS.PoliticianSlime.BossChecklistIntegration.SpawnInfo"),
+							["despawnMessage"] = Language.GetTextValue("Mods.AFKPETS.PoliticianSlime.BossChecklistIntegration.DespawnMessage")
+						}
+					);
+				}
+			}			
 		}
 		public static void LocalizeMethod_LocalizeAll(string targetModName)
 		{

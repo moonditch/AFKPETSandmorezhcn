@@ -156,7 +156,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "有时我也会做梦，但我不确定我是否真的看到了它们，或者只是教授在我休息时编写程序的一些图像。";
 					break;
 					case "Do you ask who is the professor? She is called lady of light in these lands and she is the mastermind behind me and sadly mechanical trio but she design their ai to make them protect the Earth when martians attack and then cultists stole them by force and force a human to make them body and fuse these things shattered souls to make them go for blood.":
-					chat = "你问谁是教授吗？在这片土地上，她被称为光明女士，她是我和可怜的旧日三重唱的设计者。她调整了旧日三重唱的AI逻辑，让他们保护泰拉世界免受火星人的攻击。但邪教徒偷走了他们，强迫机械师为他们制作了身体，融合了地牢的破碎灵魂，让他们变成了杀戮机器。";
+					chat = "你问谁是教授吗？在这片土地上，她被称为光明女士，她是我和可怜的日三重奏的设计者。她调整了日三重奏的AI逻辑，让他们保护泰拉世界免受火星人的攻击。但邪教徒偷走了他们，强迫机械师为他们制作了身体，融合了地牢的破碎灵魂，让他们变成了杀戮机器。";
 					break;
 					case "I'm here to make research about the ancient civilizations one lived in these places. It's sad to see humans attack and cause extinction against the people think different then them.":
 					chat = "我来这里是为了研究曾经生活在这些地方的古老文明。看到泰拉人攻击并灭绝与其思想不同的文明，真是令人难过。";
@@ -721,7 +721,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "奇怪的是，我感到有些事情很有趣，但我不确定那是什么。";
 					break;
 					case "I feel the something is awakening the ancient trio. You should be careful since I can feel their wrath.":
-					chat = "我感觉有什么东西在唤醒旧日三重唱。你要小心，因为我能感觉到它们的愤怒。";
+					chat = "我感觉有什么东西在唤醒日三重奏。你要小心，因为我能感觉到它们的愤怒。";
 					break;
 					case "I feel an ancient soul disturbed with the sins of the world. Maybe you should be careful while slaying the monster since it's soul burning with judgement and determination. Strangely I feel it's reality have been changed a little.":
 					chat = "我感觉到一个古老的灵魂被世界的罪恶所扰乱。也许你在杀死怪物时应该小心，因为它的灵魂燃烧着公正和决断。奇怪的是，我感到它的影响发生了一些变化。";

@@ -208,7 +208,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Shadow Clone Jutsu", "影分身の術"},
 			{"How you kill him you heartless monster", "你怎么把他杀了，你这个无情的怪物"},
 			{"Time for the shinobi execution", "是时候处决你了"},
-			{"Oh no, Shogun slime please don't left us", "不，将军，请不要离开我们"},
+			{"Oh no, Shogun slime please don't left us", "不，忍者史莱姆，请不要离开我们"},
 			{"You...Let's finish this in Danmaku style", "你...让我们用这种方式谢幕吧"},
 			//机械史莱姆
 			{"FRIENDS CANNOT FOUND. SADNESS MODULE ACTIVATED.", "朋 友 不 见 了，悲 伤 模 式 激 活."},
@@ -339,7 +339,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 
 			//猫猫头
 			{"I expect no less from a hunter like you", "从你的身份来看，一个像你这样的猎人，我并不感到意外"},
-			{"You even kill my student, I can't let you go away", "你竟然杀害了我的弟子，我不能让你就这样离开"},
+			{"You even kill my student, I can't let you go away", "你竟然杀害了我的门徒，我不能让你就这样离开"},
 			{"It's not over yet", "还没结束"},
 			{"I.. At least I will die with my honor", "我...至少我会带着我的荣誉死去"},
 			#endregion

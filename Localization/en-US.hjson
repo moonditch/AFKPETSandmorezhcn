@@ -160,6 +160,15 @@ Mods: {
 				DisplayName: The Ancient Guardian
 			}
 
+			PoliticianSlime: {
+				BossChecklistIntegration: {
+					SpawnInfo: After defeating any Mech Boss，craft [i:AFKPETS/GoldenKingSlimeIdol] and use in night to summon. After it's defeat dark huntress sell its summon item.
+					DespawnMessage: The kingdom hasn't been conquered.
+				}
+
+				DisplayName: Politician Slime
+			}
+
 			DiseasterBunny.DisplayName: Diseaster Bunny
 			Lepus.DisplayName: Lepus
 			LepusEgg.DisplayName: Lepus Egg
@@ -391,7 +400,6 @@ Mods: {
 			BodyguardSlime.DisplayName: Bodyguard Slime
 			FallingSlimeSoldier.DisplayName: Soldier Slime
 			MoneyPortal.DisplayName: Money Portal
-			PoliticianSlime.DisplayName: Politician Slime
 			SoldierSlime1.DisplayName: Soldier Slime
 			SoldierSlime2.DisplayName: Soldier Slime
 			GuardianofSlimeNationEnergyCore.DisplayName: Guardian of Slime Nation
@@ -583,7 +591,12 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: Undead Chef
-				BossChecklistIntegration.EntryName: Tier1 Dungeon Miniboss
+
+				BossChecklistIntegration: {
+					EntryName: Tier 1 Dungeon Miniboss
+					SpawnInfo: It have a low chance to spawn in dungeon with respect to world evil. They could also summon with their respective summon item. After their defeat summon item of both of them can be bought from dark huntress.
+					DespawnMessage: Dungeon take down the threat
+				}
 			}
 
 			OnDemandScanner.DisplayName: On Demand Scanner

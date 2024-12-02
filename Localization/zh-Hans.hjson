@@ -7,7 +7,7 @@ Mods: {
 				BossChecklistIntegration: {
 					SpawnInfo: 在白天使用 [i:AFKPETS/SlimeinaGlassCube] 召唤
 					DespawnMessage: 史莱姆为它们的国王复仇了
-					EntryName: 史莱姆王国最后的希望
+					EntryName: 史莱姆复仇联盟
 				}
 			}
 
@@ -32,7 +32,7 @@ Mods: {
 
 			FlagCarrier: {
 				BossChecklistIntegration: {
-					EntryName: 旧日三重唱
+					EntryName: 旧日三重奏
 					SpawnInfo: 在夜晚使用 [i:AFKPETS/BlackenedHeart] 召唤
 					DespawnMessage: 所有的玩家都被吞没了
 				}
@@ -64,7 +64,7 @@ Mods: {
 				DisplayName: 英勇史莱姆
 
 				BossChecklistIntegration: {
-					SpawnInfo: 在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/SlimeinaGlassCube]
+					SpawnInfo: 根据世界邪恶地形种类，在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/SlimeinaGlassCube]
 					DespawnMessage: 英勇史莱姆已经击退了泰拉人
 					EntryName: 史莱姆军队 1 阶段迷你Boss
 				}
@@ -122,7 +122,7 @@ Mods: {
 
 			SecurityBot: {
 				BossChecklistIntegration: {
-					EntryName: 地牢 1 阶段迷你Boss
+					EntryName: 安全机器人
 					SpawnInfo: 根据世界的邪恶地形种类, 小概率在地牢自然生成. 制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate].
 					DespawnMessage: 地牢威胁解除
 				}
@@ -144,7 +144,7 @@ Mods: {
 				DisplayName: 梦魇史莱姆
 
 				BossChecklistIntegration: {
-					SpawnInfo: 击败史莱姆复仇联盟和史莱姆军队 1 阶段迷你Boss后, 在史莱姆军队入侵事件的末尾生成.
+					SpawnInfo: 击败史莱姆军队 1 阶段迷你Boss后, 根据世界邪恶地形种类, 在史莱姆军队事件 2 阶段的末尾生成.
 					DespawnMessage: 史莱姆已经消除了威胁
 					EntryName: 史莱姆军队 2 阶段迷你Boss
 				}
@@ -158,6 +158,15 @@ Mods: {
 				}
 
 				DisplayName: 远古守护者
+			}
+
+			PoliticianSlime: {
+				BossChecklistIntegration: {
+					SpawnInfo: 击败任意机械Boss后，制作 [i:AFKPETS/GoldenKingSlimeIdol] 在夜晚使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/GoldenKingSlimeIdol].
+					DespawnMessage: 史莱姆王国还没有被征服
+				}
+
+				DisplayName: 史莱姆总统
 			}
 
 			DiseasterBunny.DisplayName: 小天兔
@@ -391,7 +400,6 @@ Mods: {
 			BodyguardSlime.DisplayName: 保镖史莱姆
 			FallingSlimeSoldier.DisplayName: 保镖史莱姆
 			MoneyPortal.DisplayName: 金币传送门
-			PoliticianSlime.DisplayName: 史莱姆总统
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
 			GuardianofSlimeNationEnergyCore.DisplayName: 机甲自然之力核心
@@ -583,7 +591,12 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: 不死厨师
-				BossChecklistIntegration.EntryName: 地牢 1 阶段迷你Boss
+
+				BossChecklistIntegration: {
+					EntryName: 不死厨师
+					SpawnInfo: 根据世界的邪恶地形种类, 小概率在地牢自然生成. 制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate].
+					DespawnMessage: 地牢威胁解除
+				}
 			}
 
 			OnDemandScanner.DisplayName: 病毒扫描仪
@@ -3102,7 +3115,7 @@ Mods: {
 			}
 
 			Megalovania: {
-				DisplayName: 狂妄之人仇恨之火
+				DisplayName: 狂妄之人
 				Description: 你渴望力量...
 			}
 
@@ -13150,7 +13163,7 @@ Mods: {
 			}
 
 			ShogunSlimesHelmet: {
-				DisplayName: 史莱姆将军的头盔
+				DisplayName: 忍者史莱姆的头盔
 				Tooltip: "'戏弄它的门徒会让猫猫头前来复仇'"
 			}
 
