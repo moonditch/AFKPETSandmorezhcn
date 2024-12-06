@@ -3200,8 +3200,8 @@ Mods: {
 			}
 
 			MiragePet: {
-				DisplayName: Desert Mirage
-				Description: "'You know it's not real but it still makes you feel happy'"
+				DisplayName: 海市蜃楼
+				Description: "'你知道这不是真的，但它仍然让你感到快乐'"
 			}
 
 			MisakaMitaro: {
@@ -7308,7 +7308,7 @@ Mods: {
 				DisplayName: 木炭
 				Tooltip:
 					'''
-					'你觉得你不应该把这个给森林女神看'
+					'你觉得你不应该把这个给树妖看'
 					有10%的概率产生一个火花，燃烧其它敌人
 					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
@@ -7338,7 +7338,7 @@ Mods: {
 				DisplayName: 阴森木炭
 				Tooltip:
 					'''
-					'你觉得你不应该把这个给森林女神看'
+					'你觉得你不应该把这个给树妖看'
 					暴击会召唤鬼魂为你而战
 					使用其它模组的喷火器时，弹药的效果可能不会生效
 					'''
@@ -20730,7 +20730,7 @@ Mods: {
 					让他们的恐惧吞噬他们
 					使用后你将变成一只噩梦之眼
 					变身后<right>，向光标的方向猛冲，造成双倍伤害，1 秒冷却时间
-					<left> 将喷出噩梦之焰
+					<left>将喷出噩梦之焰
 					'''
 			}
 

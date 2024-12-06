@@ -259,6 +259,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"You know what you have done...", "你知道你做了什么..."},
 			{"Lets count how many bones you have by ripping them out", "让我们拔出你的骨头来数一数有多少根"},
 			{"You're hungry? Don't worry I'll feed you with your own organs", "你饿了吗？别担心，我会用你自己的身体来喂你"},
+			{"Why so serious, stress only makes your flesh lose its taste", "为什么这么紧张，压力只会让你的肉失去味道"},
 			{"Why so serious, Stress only makes your flesh lose its taste", "为什么这么紧张，压力只会让你的肉失去味道"},
 			{"I really should stop playing with my meals", "我真的应该停止玩弄我的食物了"},
 

@@ -432,9 +432,29 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"[c/FF0000:神圣]: 禁卫军 - 天降横祸\n[c/FF0000:沙漠]: 指挥官 - 魅力工程\n[c/FF0000:丛林]: 草药师 - 花园战争e\n[c/FF0000:地牢]: 服装师 - 守卫召唤\n[c/FF0000:海洋]: 星级厨师 - 过量治疗\n[c/FF0000:雪原]: 寒冰精灵 - 冰柱坠落\n[c/FF0000:地狱]: 突袭骑士 - 灾难仪式\n[c/FF0000:邪恶群落]: 哥布林弓手 - 厄运之箭\n[c/FF0000:默认森林]: 忍者 - 影分身突袭");
 				sb.Replace("[c/FF0000:Ship Crasher]: Targets and then strikes from targets above\n[c/FF0000:'Bat Eye' Shelley]: Target and attacks with baby bats\n[c/FF0000:S. Bones]: Attacks mouse direction with inkshots + generates aquatic tornados\n[c/FF0000:Bubble Raider]: Flies with Bubble and strikes with flies. When bubble get hit it pops but raider get more aggressive",
 							"[c/FF0000:跳帮者]: 瞄准并从目标上方攻击\n[c/FF0000:蝙蝠眼雪莉]: 用蝙蝠宝宝瞄准并攻击\n[c/FF0000:碎颅]: 用墨迹向光标位置攻击，生成水龙卷\n[c/FF0000:泡泡突袭者]: 用泡泡飞行，用苍蝇攻击。当泡泡被击中时，突袭者会变得更具攻击性");
-				
+				//戴夫的遥控器
 				sb.Replace("[c/FF0000:Potted Baum]: DAW MAH GAWD Did you see that pro acorn planting?\nAttacks enemies with leaves and places explosive acorns around itself\n[c/FF0000:Potted Cactus]: Still trying to find a holiday between halloween and Christmas for England\nDoes 1000 needle technique against close targets and half alive tick needle agaist far away ones",
-							"");
+							"[c/FF0000:盆栽土豆]: 天哪，你看到那个厉害的土豆了吗？\n用叶子攻击敌人，并在自己周围放置爆炸性的土豆地雷\n[c/FF0000:盆栽仙人掌]: 我还在努力为英国在万圣节和圣诞节之间找到一个合适的节日\n对近距离目标使用1000根尖刺，对远距离目标发射一半尖刺");
+				//凯特琳的信念
+				sb.Replace("1.Blessing of Faith: 2 dove spirit which have 36 base damage will fight for you\n2.Blessing of Eden: Player repel projectiles and change their trajectory\n3.Blessing of Soul: Your DR increase by 5% and you gain holy aura\n4.Blessing of Light: Sky shatter and randomly holy light rains\nThese blessings activate only while you are holding Caitlyn's faith and otherwise become passive",
+							"1.信仰祝福: 两只36点基础伤害的灵鸽会为你而战\n2.伊甸祝福: 玩家免疫射弹并改变其轨迹\n3.灵魂祝福: 增加 5% 伤害减免并获得圣光\n4.光明祝福: 天空破碎，随机降下圣光雨\n这些祝福只有在你持有凯特琳的信念时才会激活");
+				//无畏契约耳机效果-变身召唤
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Plague frogs have a chance to explode into poison cloud",
+							"[c/FFC0CB:无畏契约耳机效果]: 瘟疫青蛙有几率爆炸成毒云");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Taking damage get moderate level charge + charging speed increase",
+							"[c/FFC0CB:无畏契约耳机效果]: 受到伤害时，获得充能并增加充能速度");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: An angry bunny start to protect the cannon carrier",
+							"[c/FFC0CB:无畏契约耳机效果]: 一只愤怒的兔子开始保护加农炮");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Ice flail hits have a chance to overfrozen non boss enemies",
+							"[c/FFC0CB:无畏契约耳机效果]: 链球有几率使非Boss敌人深度冰冻");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Getting life have a chance to give present",
+							"[c/FFC0CB:无畏契约耳机效果]: 恢复生命有几率送出礼物");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Periodically player have a chance to produce tiny slimes",
+							"[c/FFC0CB:无畏契约耳机效果]: 玩家有几率产生微小史莱姆");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Upon activating dash player gain additional immunity frames",
+							"[c/FFC0CB:无畏契约耳机效果]: 猛冲时获得额外无敌帧");
+				sb.Replace("[c/FFC0CB:Valorant Headphone Effect]: Concentrated gem shoot gem bolt to close enemies",
+							"[c/FFC0CB:无畏契约耳机效果]: 激光束会攻击附近敌人");
 				
 				tooltipLine.Text = Regex.Replace(sb.ToString(), @"^Hold Shift while hovering on item to.*", "光标放在物品上并按住Shift键，查看 Wiki 上的详细说明");
 				#endregion

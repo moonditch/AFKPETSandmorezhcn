@@ -20,7 +20,7 @@ namespace AFKPETSandmorezhcn
 		public override void OnEnterWorld()
 		{
 			//Main.NewText("AFK模组更新 v9.9.9.80 ，修复'旧日三重奏'相关的崩溃问题，补全缺少的Boss日志", Color.Orange);
-			Main.NewText("汉化模组更新，'按下隐藏信息键查看更多信息'，汉化问题进群反馈：895423665", Color.Orange);
+			Main.NewText("汉化模组更新，汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}
 	public class AFKPETSandmorezhcn : Mod
