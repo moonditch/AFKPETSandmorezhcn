@@ -1071,7 +1071,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			},
 			{
 				"Warrior, after all those year I feel both my weapon and shield start to getting old so if you could find me never ones I will gladly exchange them with something valuable in return. For exchanging could you hold [i:329], [i:1513] or [i:938] and tell exchange?",
-				"战士，经过这么多年，我觉得我的武器和盾牌都开始变旧了。如果你能为我找到新的，我会很乐意用有价值的东西来交换。你可以带着[i:329]、[i:1513] 或 [i:938]，并点击 Exchange"
+				"战士，经过这么多年，我觉得我的武器和盾牌都开始变旧了。如果你能为我找到新的，我会很乐意用有价值的东西来交换。你可以带着[i:329]、[i:1513] 或 [i:938]，并点击交换"
 			}
 		};
 		public static readonly Dictionary<string, string> Researcher = new ()

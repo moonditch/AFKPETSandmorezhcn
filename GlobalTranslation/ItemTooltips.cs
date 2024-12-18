@@ -61,7 +61,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				//雨伞
 				sb.Replace("At the hands of nuclear moth it can break the solar storms", "在光辉蛾的手中，它可以打破太阳风暴");
 				//暗影钥匙、圣骑士盾、圣骑士锤
-				sb.Replace("Can be traded with holy knight", "可与神圣骑士进行交易");
+				sb.Replace("Can be traded with holy knight", "可与神圣骑士进行交换");
 
 				//血月
 				sb.Replace("There are few notes being take in red but sadly they are not readable\nMaybe they become readable in scarlet nights",

@@ -1065,6 +1065,15 @@ AFKPETS: {
 			}
 		}
 
+		Antlion: {
+			Update: {
+				1: {
+					NewString: 冲刺就绪
+					// OldString: DASH IS READY
+				}
+			}
+		}
+
 		EffectBuff: {
 			JudasRebornDebuff: {
 				Update: {
@@ -1154,15 +1163,6 @@ AFKPETS: {
 			1: {
 				NewString: " 被消除了"
 				// OldString: " have been eliminated"
-			}
-		}
-	}
-
-	Antlion: {
-		Update: {
-			1: {
-				NewString: 冲刺就绪
-				// OldString: DASH IS READY
 			}
 		}
 	}
@@ -1959,6 +1959,15 @@ AFKPETS: {
 					1: {
 						NewString: 已充能
 						// OldString: CHARGED
+					}
+				}
+			}
+
+			VulcanCharge: {
+				PostDraw: {
+					1: {
+						NewString: 蓄满
+						// OldString: MAX
 					}
 				}
 			}
