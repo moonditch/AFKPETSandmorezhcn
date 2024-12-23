@@ -19,8 +19,8 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			//Main.NewText("AFK模组更新 v9.9.9.80 ，修复'旧日三重奏'相关的崩溃问题，补全缺少的Boss日志", Color.Orange);
-			Main.NewText("汉化模组更新，汉化问题进群反馈：895423665", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.81 ，弹药重做和添加新物品，暂时移除史莱姆战旗，史莱姆军队事件Boss的召唤物现在可以制作", Color.Orange);
+			//Main.NewText("汉化模组更新，汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}
 	public class AFKPETSandmorezhcn : Mod

@@ -34,7 +34,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "你好啊，泰拉人！我叫安东尼。嘿，别那样看着我。我可不是什么妖魔鬼怪，实际上，我是一个被困在我的人偶朋友贝德身体里的孩子。但我并不难过，这让我能够毫无麻烦地去任何我想去的地方，我可以帮助任何需要帮助的泰拉人。等等，你知道应该怎么在这个危险的泰拉世界里保护自己吗？如果不知道，我会很乐意教会你。";
 			}
 
-			if (npc.type == ModContent.NPCType<Assassin>())
+			/*if (npc.type == ModContent.NPCType<Assassin>())
 			{
 				switch (chat)
 				{
@@ -63,7 +63,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "混沌教团曾经被称为维序者，那时我们为国王工作，成为他的剑，惩罚那些无法通过政治手段惩治的腐败贵族。但随着王国的衰落，我们的先辈选择自我放逐。";
 					break;
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<Assistant>())
 			{
@@ -133,7 +133,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			if (npc.type == ModContent.NPCType<Researcher>())
+			/*if (npc.type == ModContent.NPCType<Researcher>())
 			{
 				switch (chat)
 				{
@@ -187,7 +187,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "我从没期望过任何人类能做出如此优雅的动作。等等，你是……你好，冒险家。我叫诺埃拉尼，奉领主布洛森之命，前来进一步分析海洋生物。我想看看你是不是真如传说中那么勇敢，如果你接受的话，我想在迷你游戏中挑战你。";
 					break;
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<ErrorFallenAngel2>())
 			{
@@ -239,7 +239,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			if (npc.type == ModContent.NPCType<GhostLady>())
+			/*if (npc.type == ModContent.NPCType<GhostLady>())
 			{
 				switch (chat)
 				{
@@ -274,7 +274,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "哦，你出现的刚刚好。我一直在寻找以问答的方式来分享一些知识。如果你感兴趣，可以告诉我吗？\n你可以用“/answer 答案”的形式来回答。\n对于问题，你只能用数字提问，例如“/answer 5”。\n还有，你不能使用大写字母和复数，使用“/answer bat”，而不是“/answer BATs”。\n谢谢你的耐心，如果你准备好了，让我们开始吧。";
 					break;
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<HunterDog>())
 			{
@@ -965,11 +965,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 		
 		public override void OnChatButtonClicked(NPC npc, bool firstButton)
 		{
-			if (npc.type == ModContent.NPCType<Assassin>())
+			/*if (npc.type == ModContent.NPCType<Assassin>())
 			{
 				ReplaceChatText(Assassin, ref Main.npcChatText);
-			}
-			else if (npc.type == ModContent.NPCType<Assistant>())
+			}*/
+			if (npc.type == ModContent.NPCType<Assistant>())
 			{
 				ReplaceChatText(Assistant, ref Main.npcChatText);
 			}
@@ -977,10 +977,10 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				ReplaceChatText(HolyKnight, ref Main.npcChatText);
 			}
-			else if (npc.type == ModContent.NPCType<Researcher>())
+			/*else if (npc.type == ModContent.NPCType<Researcher>())
 			{
 				ReplaceChatText(Researcher, ref Main.npcChatText);
-			}
+			}*/
 			else if (npc.type == ModContent.NPCType<BossHunterMerchant>())
 			{
 				ReplaceChatText(BossHunterMerchant, ref Main.npcChatText);

@@ -64,7 +64,7 @@ Mods: {
 				DisplayName: 英勇史莱姆
 
 				BossChecklistIntegration: {
-					SpawnInfo: 根据世界邪恶地形种类，在史莱姆军队事件 1 阶段的末尾生成. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/SlimeinaGlassCube]
+					SpawnInfo: 根据世界邪恶地形种类，制作 [i:AFKPETS/FallingSlimeReplica] 或 [i:AFKPETS/SlimeinaGlassCube]召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/FallingSlimeReplica] 和 [i:AFKPETS/SlimeinaGlassCube]
 					DespawnMessage: 英勇史莱姆已经击退了泰拉人
 					EntryName: 史莱姆军队 1 阶段迷你Boss
 				}
@@ -144,7 +144,7 @@ Mods: {
 				DisplayName: 梦魇史莱姆
 
 				BossChecklistIntegration: {
-					SpawnInfo: 击败史莱姆军队 1 阶段迷你Boss后, 根据世界邪恶地形种类, 在史莱姆军队事件 2 阶段的末尾生成.
+					SpawnInfo: 击败史莱姆军队 1 阶段迷你Boss后, 制作 [i:AFKPETS/NightmareFuel] 或 [i:AFKPETS/ShogunSlimesHelmet] 召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/NightmareFuel] 和 [i:AFKPETS/ShogunSlimesHelmet].
 					DespawnMessage: 史莱姆已经消除了威胁
 					EntryName: 史莱姆军队 2 阶段迷你Boss
 				}
@@ -829,6 +829,7 @@ Mods: {
 			CatEffect.MapEntry: Cat Effect
 			AntlionStatue.MapEntry: Antlion雕像
 			AntonyMantle.MapEntry: 死灵傀儡法师悬挂纪念章
+			DivineResonator2.MapEntry: Divine Resonator2
 		}
 
 		Keybinds: {
@@ -1679,8 +1680,8 @@ Mods: {
 			}
 
 			SalvationCharge: {
-				DisplayName: Salvation Charge
-				Description: Light Strike
+				DisplayName: 救赎之击
+				Description: 光明
 			}
 
 			SapDebuff: {
@@ -2059,8 +2060,8 @@ Mods: {
 			}
 
 			LoveSick: {
-				DisplayName: Love Sick
-				Description: LOVER ALERT!!
+				DisplayName: 相思病
+				Description: 真爱警报！！
 			}
 
 			LunaTransform: {
@@ -3390,8 +3391,13 @@ Mods: {
 			}
 
 			Perception: {
-				DisplayName: Perception
-				Description: 10% increased DR and +5 defense
+				DisplayName: 感知
+				Description: 增加 10% 伤害减免和 5 点防御
+			}
+
+			AquaticWiseman: {
+				DisplayName: 水族智者
+				Description: "'她怀念自己作为迷你Boss的日子'"
 			}
 
 			BabyPanda: {
@@ -3827,11 +3833,6 @@ Mods: {
 			Rumia: {
 				DisplayName: 露米娅
 				Description: 露米娅将跟随你
-			}
-
-			RuneofIngwazCharge: {
-				DisplayName: 符文冷却
-				Description: 符文没有足够的灵魂能量
 			}
 
 			Ruukoto: {
@@ -4828,6 +4829,21 @@ Mods: {
 				Description: ""
 				DisplayName: Green Gel Friendly Fire
 			}
+
+			DarkInferno: {
+				Description: ""
+				DisplayName: 地狱黯炎
+			}
+
+			PetBUNI: {
+				DisplayName: Mecha-Plushie
+				Description: ACTIVE COMMAND: FOLLOW THE TRAITOR
+			}
+
+			RuneofIngwazCharge: {
+				Description: ""
+				DisplayName: Rune of Ingwaz Charge
+			}
 		}
 
 		Items: {
@@ -5335,36 +5351,15 @@ Mods: {
 					'''
 			}
 
-			GasterRune: {
-				DisplayName: 黑暗之卷
-				Tooltip:
-					'''
-					黑暗不断蔓延，阴影越来越深……
-					关于这个卷轴的唯一已知之事是，它会找到听话的仆人
-					你感觉它试图与倾听这个现实结构的人见面
-					装备此卷轴时，击杀生命值高于66666的Boss，有概率掉落一些有趣的东西……
-					'''
-			}
-
-			GreenHeartNecklace: {
-				DisplayName: 可爱毛绒玩具
-				Tooltip:
-					'''
-					'不考虑它的感受就将其称为Keter级收容物真令人难过'
-					任何靠近的敌人都会感受到恐惧
-					如果敌人靠得太近，极端的恐惧会使其受到周期性伤害
-					'''
-			}
-
 			HeartofEvil: {
-				DisplayName: 邪恶之心
+				DisplayName: 奥库瑞姆之心
 				Tooltip:
 					'''
-					'它会让你像她一样失去理智'
-					增加8%伤害、魔力再生速度5、最大魔力值增加80
-					攻击有5%的几率用炼金火焰灼烧敌人
-					减少20%天界生物的接触伤害，幻影球将围绕你旋转
-					但这个神器也会慢慢吸取你的生命
+					'被遗忘的巨人的遗迹'
+					召唤奥库瑞姆仆从为你而战
+					原版和本模组冲刺的冷却时间减半
+					增加100最大魔力值、5魔力再生速度、8%魔法伤害
+					魔法暴击施加恐惧和地狱黯炎
 					'''
 			}
 
@@ -5818,6 +5813,16 @@ Mods: {
 					'''
 			}
 
+			ActivationKey: {
+				DisplayName: 激活密钥
+				Tooltip:
+					'''
+					'哈希码可信吗？'
+					装备后杀死敌人有概率掉落错误区块
+					右键会克隆成随机物品并堆叠在背包中
+					'''
+			}
+
 			ArcaneStone: {
 				DisplayName: 魔力石
 				Tooltip:
@@ -5831,7 +5836,17 @@ Mods: {
 
 			BackupFlashDriver: {
 				DisplayName: 备份闪存驱动器
-				Tooltip: ""
+				Tooltip:
+					'''
+					'[c/FF0000:爱你的信.TXT].vbs'
+					装备后，如果未隐藏其外观效果，玩家将陷入热恋状态
+					每次玩家从生命心获得治疗时获得相思病增益，提高本模组饰品效果的触发几率（次要能力）
+					仆从攻击和接触伤害有一定几率传播相思病减益（主要能力）
+					相思病会削弱敌人，并传播给附近的敌人，敌人越强，造成的持续伤害越高
+					被相思病影响的敌人死亡时，会掉落生命心
+					死亡时，它将直接编辑生命数据以挽救你的生命，此能力有5分钟的冷却时间
+					如果同时装备多个变身饰品，只会激活最后一个主要能力，次要能力不受影响
+					'''
 			}
 
 			BandofRelocation: {
@@ -6271,12 +6286,12 @@ Mods: {
 					'''
 			}
 
-			DerplingLeg: {
-				DisplayName: 跳跳兽腿
+			DruidicBoots: {
+				DisplayName: 德鲁伊靴
 				Tooltip:
 					'''
-					'好吧，我现在得走了！我有很多跳跃要做！呼-呼-呼-呼'
-					大幅增加跳跃速度和距离，但减少正常行走速度
+					'去接触草地'
+					行走时将邪恶环境和神圣环境的草皮转化为普通草皮
 					'''
 			}
 
@@ -6398,16 +6413,6 @@ Mods: {
 					在不攻击的情况下，每秒获得0.5%伤害减免和1点防御
 					10秒后达到最大值，额外获得1点生命再生
 					未使用武器和召唤物造成的伤害不计算，
-					'''
-			}
-
-			PacKey: {
-				DisplayName: 激活密钥
-				Tooltip:
-					'''
-					'看起来史莱姆王国没有使用云激活验证系统'
-					装备后，召唤精英小坦克为你而战，拥有36点基础伤害
-					它将瞄准最近的敌人攻击，然后爆炸成剧毒的紫色凝胶
 					'''
 			}
 
@@ -6713,6 +6718,11 @@ Mods: {
 				Tooltip: "'大脑时刻'"
 			}
 
+			StackofCoin: {
+				DisplayName: 史莱姆硬币
+				Tooltip: "'所以请你们明天都出去投票吧'"
+			}
+
 			VoidCrystalNecklace: {
 				DisplayName: 虚空水晶项链
 				Tooltip:
@@ -6911,8 +6921,8 @@ Mods: {
 				DisplayName: 暗影箭
 				Tooltip:
 					'''
-					命中后生成一支相反方向的暗影箭
-					造成90%伤害
+					命中后生成一支相反方向造成一半伤害的黑暗箭
+					暗影箭施加暗影焰，黑暗箭施加双足翼龙诅咒
 					'''
 			}
 
@@ -6930,22 +6940,12 @@ Mods: {
 				Tooltip: 命中后缓慢消失
 			}
 
-			GreenArrow: {
-				DisplayName: 绿皮箭
-				Tooltip:
-					'''
-					'哥布林已经是濒危物种了'
-					穿透1次
-					有概率射出拳击手套，对单个目标造成双倍伤害
-					'''
-			}
-
 			HallowedHwachaArrow: {
 				DisplayName: 神机箭
 				Tooltip:
 					'''
 					'最好用来对付入侵者'
-					命中后爆炸产生碎片，造成75%伤害
+					命中后爆炸产生碎片，造成75%的基础伤害和额外的攻击
 					'''
 			}
 
@@ -6953,8 +6953,8 @@ Mods: {
 				DisplayName: 调和箭
 				Tooltip:
 					'''
-					射出相互交织的两支箭
-					每支箭造成70%伤害
+					射出两支造成60%基础伤害的调和箭
+					相互交织的轨迹代表了内在的平衡
 					'''
 			}
 
@@ -6963,14 +6963,17 @@ Mods: {
 				Tooltip:
 					'''
 					一种被设计用于在火星上追捕原始生命体的弹药
-					追踪最近的敌人，命中后产成能量波伤害附近的敌人
-					能量波造成90%伤害
+					靠近敌人后释放电击能量场
 					'''
 			}
 
 			PoisonedArrow: {
-				DisplayName: 毒箭
-				Tooltip: 命中后施加中毒
+				DisplayName: 毒孢箭
+				Tooltip:
+					'''
+					命中后施加中毒
+					击杀中毒的敌人会产生毒云
+					'''
 			}
 
 			SeveredHand: {
@@ -7039,12 +7042,8 @@ Mods: {
 					'''
 					命中后有几率将子弹转化为血液
 					有50%的概率造成持续2秒的沸血
+					可作为子弹使用
 					'''
-			}
-
-			BlueGlassBullet: {
-				DisplayName: 净化弹
-				Tooltip: 碰撞后释放出净化粉
 			}
 
 			BroBullet: {
@@ -7053,6 +7052,7 @@ Mods: {
 					'''
 					'这是赠予詹姆斯勋爵的礼物，以感谢他在大战中的帮助'
 					命中后有几率生成由溴铁矿构成的拳头
+					可作为子弹使用
 					'''
 			}
 
@@ -7060,32 +7060,9 @@ Mods: {
 				DisplayName: 废料弹
 				Tooltip:
 					'''
-					'可能没有火枪子弹那么好，但你觉得它可能有用'
+					'痛苦循环'
 					对敌人的伤害从近距离的200%递减至远距离50%
-					'''
-			}
-
-			IceBullet: {
-				DisplayName: 寒霜弹
-				Tooltip: "'它看起来很神奇，但摸起来仍然冻手'"
-			}
-
-			MartianEnergyCapsule: {
-				DisplayName: 火星核能子弹
-				Tooltip:
-					'''
-					'由火星科学家为军队节能减排需求而开发的
-					有了这项技术，他们的物流和物资成本都将降低'
-					使玩家能够发射无穷无尽的高能子弹，命中时电击范围内的所有敌人
-					'''
-			}
-
-			MilitaryBullet: {
-				DisplayName: 精灵弹
-				Tooltip:
-					'''
-					'大出血，救不回来了'
-					命中后射出两个随机方向的子弹
+					可作为子弹使用
 					'''
 			}
 
@@ -7094,32 +7071,20 @@ Mods: {
 				Tooltip:
 					'''
 					'魅力致死'
-					飞行短距离后，分裂成两个造成75%伤害的碎片
-					碎片对敌人施加迈达斯
+					飞行短距离后，分裂成两个造成75%伤害的碎片并对敌人施加迈达斯
+					可作为子弹使用
 					'''
 			}
 
-			PurpleGlassBullet: {
-				DisplayName: 腐化弹
-				Tooltip: 碰撞后释放出魔粉
-			}
-
-			RedGlassBullet: {
-				DisplayName: 猩红弹
-				Tooltip: 碰撞后释放出毒粉
-			}
-
-			SpectreBullet: {
-				DisplayName: 幽灵弹
-				Tooltip: 穿透物块
-			}
-
-			TEB: {
-				DisplayName: TEB
+			TheDevilsBullet: {
+				DisplayName: 恶魔弹
 				Tooltip:
 					'''
-					'它代表摩擦电子子弹'
-					击中敌人会增加它们的静电荷
+					'所以这就是一颗子弹的代价…'
+					命中后施加地狱黯炎，由1/7的几率产生一道持久追踪光束
+					光束在发射初始阶段会消耗7点生命值，造成双倍伤害并无限穿透敌人
+					对任何友方玩家/NPC造成10%伤害
+					可作为子弹使用
 					'''
 			}
 
@@ -7128,55 +7093,28 @@ Mods: {
 				Tooltip:
 					'''
 					'一闪一闪亮晶晶！'
-					无尽的星星弹药
+					可作为星星弹药使用
 					'''
 			}
 
 			BoneDart: {
-				DisplayName: 骨镖
+				DisplayName: 碎骨
 				Tooltip:
 					'''
-					'看起来它还含有少量的魔法精华'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			ChlorophyteDart: {
-				DisplayName: 叶绿镖
-				Tooltip:
-					'''
-					'你感到它们好像还有生命'
-					白天获得加强
-					可以作为飞镖使用
+					命中后分裂成多个碎片
+					可作为飞镖弹药使用
 					'''
 			}
 
 			ConcentratedCharge: {
-				DisplayName: 激电镖
+				DisplayName: 漏电电池
 				Tooltip:
 					'''
-					'高斯认可'
-					击中敌人时，在10秒内增加它们的静电荷
-					如果附近敌人也带有这种电荷，则也对它们造成伤害
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			EnergyDart: {
-				DisplayName: 幽灵镖
-				Tooltip:
-					'''
-					'你的灵魂燃烧着正义之火'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			FungalDart: {
-				DisplayName: 真菌镖
-				Tooltip:
-					'''
-					'你希望这不是他的一部分'
-					可以作为飞镖弹药使用
+					'它得到了一个公告'
+					击中敌人施加金属病毒，略微增加敌人的防御力并伤害附近所有被感染的敌人
+					被感染的敌人会掉落造成伤害的齿轮
+					当敌人处于潮湿状态时，受到额外的持续伤害
+					可作为飞镖弹药使用
 					'''
 			}
 
@@ -7186,38 +7124,17 @@ Mods: {
 					'''
 					'做个好梦'
 					减缓敌人的速度，Boss不受影响
-					'''
-			}
-
-			HallowedDart: {
-				DisplayName: 神圣镖
-				Tooltip: 可以作为飞镖弹药使用
-			}
-
-			HellfireDart: {
-				DisplayName: 狱火镖
-				Tooltip:
-					'''
-					'它的核心仍然燃烧着火元素的余烬'
-					可以作为飞镖弹药使用
+					可作为飞镖弹药使用
 					'''
 			}
 
 			IceDart: {
-				DisplayName: 寒冰镖
+				DisplayName: 寒冰猎犬尖牙
 				Tooltip:
 					'''
-					'奇怪的是，它变得越来越冷'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			JudgementBoneDart: {
-				DisplayName: 受福骨镖
-				Tooltip:
-					'''
-					'现在更强了'
-					可以作为飞镖弹药使用
+					'遗憾的是，它的叫声比它的撕咬更吓人'
+					暴击时召唤出一片降下冰霜碎片的暴风雪云
+					可作为飞镖弹药使用
 					'''
 			}
 
@@ -7225,45 +7142,22 @@ Mods: {
 				DisplayName: 蜥蜴镖
 				Tooltip:
 					'''
-					'你有一种奇怪的感觉，它还包含一个陷阱'
-					可以作为飞镖弹药使用
+					'我听说它们喜欢陷阱'
+					飞镖内有包含长矛尖刺的爆炸陷阱
+					飞镖的飞行时间越长，在爆炸陷阱激活后掉落的尖刺球数量就越多
+					可作为飞镖弹药使用
 					'''
-			}
-
-			ShadowDart: {
-				DisplayName: 暗黑镖
-				Tooltip: 可以作为飞镖弹药使用
-			}
-
-			ShadowflameDart: {
-				DisplayName: 暗影焰镖
-				Tooltip: 可以作为飞镖弹药使用
 			}
 
 			SpiderFangDart: {
-				DisplayName: 蜘蛛镖
+				DisplayName: 鳌肢折刀
 				Tooltip:
 					'''
-					'它仍然含有足够的毒液，可以麻痹它接触到的任何东西'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			SunplateDart: {
-				DisplayName: 日盘镖
-				Tooltip:
-					'''
-					'小而锋利'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			ThornDart: {
-				DisplayName: 荆棘镖
-				Tooltip:
-					'''
-					'它仍然充满魔力的精髓'
-					可以作为飞镖弹药使用
+					'含有足够的毒液，可以麻痹它接触到的任何东西'
+					满血的非Boss敌人被击中时，会被网住并无法移动
+					如果敌人在蛛网上死亡，它的尸体会腐烂，并掉落一颗生命心
+					最多同时存在一个蛛网
+					可作为飞镖弹药使用
 					'''
 			}
 
@@ -7272,25 +7166,9 @@ Mods: {
 				Tooltip:
 					'''
 					'少一个障碍，多一个尸体'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			VortexDart: {
-				DisplayName: 星璇镖
-				Tooltip:
-					'''
-					'一旦敌人向你投掷飞镖，就扔出它'
-					可以作为飞镖弹药使用
-					'''
-			}
-
-			YangDart: {
-				DisplayName: 阳镖
-				Tooltip:
-					'''
-					'阴阳相生'
-					可以作为飞镖弹药使用
+					击中敌人施加大出血，暴击有几率治疗玩家
+					致命一击会使敌人爆炸成血雾，治疗并强化进入的玩家
+					可作为飞镖弹药使用
 					'''
 			}
 
@@ -7298,9 +7176,10 @@ Mods: {
 				DisplayName: 星璇尘
 				Tooltip:
 					'''
-					施加燃烧、霜冻、圣焰
-					狱火、诅咒焰和暗影焰
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					'格雷格，我不认为这应该是合法的'
+					攻击施加造成30点持续伤害的减益
+					非Boss敌人的AI会变得迟钝，Boss的伤害抗性和接触伤害会降低
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7308,20 +7187,9 @@ Mods: {
 				DisplayName: 木炭
 				Tooltip:
 					'''
-					'你觉得你不应该把这个给树妖看'
-					有10%的概率产生一个火花，燃烧其它敌人
-					使用其它模组的喷火器时，弹药的效果可能不会生效
-					'''
-			}
-
-			ConcentratedSwampGas: {
-				DisplayName: 浓缩沼气
-				Tooltip:
-					'''
-					'高爆炸性和有毒化学品的浓缩物'
-					增加火焰喷射的范围
-					施加酸性毒液
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					'点燃未来'
+					有10%的概率产生一个火花
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7330,7 +7198,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我将帮助你，凡人'
-					无尽的凝胶弹药
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7338,9 +7206,10 @@ Mods: {
 				DisplayName: 阴森木炭
 				Tooltip:
 					'''
-					'你觉得你不应该把这个给树妖看'
-					暴击会召唤鬼魂为你而战
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					'燃烧神圣'
+					攻击施加狱火和恐惧
+					有20%的几率召唤鬼魂为你而战
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7349,19 +7218,8 @@ Mods: {
 				Tooltip:
 					'''
 					'太冷了，不能触摸'
-					施加霜冻
-					减缓敌人速度，Boss不受影响
-					使用其它模组的喷火器时，弹药的效果可能不会生效
-					'''
-			}
-
-			PropaneVial: {
-				DisplayName: 丙烷罐
-				Tooltip:
-					'''
-					'现在你只需要找到丙烷饰品了'
-					增加火焰喷射的范围
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					施加冻伤，冻结生命值低于5%的非Boss敌人
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7371,7 +7229,9 @@ Mods: {
 					'''
 					'伟大英雄的遗物'
 					暴击会施加持续半秒的诅咒焰
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					攻击会破坏敌人对火焰类减益免疫
+					Boss可能掉落更多物品
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7379,9 +7239,8 @@ Mods: {
 				DisplayName: 易爆凝胶
 				Tooltip:
 					'''
-					'和TNT一样具有爆炸性'
-					击杀敌人产生爆炸
-					使用其它模组的喷火器时，弹药的效果可能不会生效
+					暴击产生造成真实伤害的爆炸并施加火焰
+					可作为喷火器弹药使用
 					'''
 			}
 
@@ -7392,6 +7251,7 @@ Mods: {
 					'M7A3防爆CS'
 					受冲击波影响的的敌人暂时失明
 					暴击会让非Boss敌人感到头晕，对于Boss或非暴击，施加困惑
+					可作为手雷使用
 					'''
 			}
 
@@ -7400,29 +7260,24 @@ Mods: {
 				Tooltip:
 					'''
 					'上帝选择的武器'
-					击中敌人后，会使任何较弱的敌人感到头晕，并施加圣焰
-					暴击会产生哈利路亚过载，使手榴弹和天空都爆发圣焰
+					审判爆炸范围内的任何人
+					暴击可能导致哈利路亚过载，使目标爆发圣焰
+					可作为手榴弹使用
 					'''
-			}
-
-			LunarDartPocket: {
-				DisplayName: 无尽弹力手榴弹袋
-				Tooltip: "'无尽的弹力手榴弹'"
-			}
-
-			SpiderFangDartPocket: {
-				DisplayName: 无尽粘性手榴弹袋
-				Tooltip: "'无尽的粘性手榴弹'"
 			}
 
 			SunplateShardDartPocket: {
 				DisplayName: 无尽手榴弹袋
-				Tooltip: "'无尽的手榴弹'"
+				Tooltip: 可作为无尽的手榴弹使用
 			}
 
 			GreyRocket: {
 				DisplayName: 原型火箭
-				Tooltip: "'一个基本的壳体和炸药核心构成的的概念火箭'"
+				Tooltip:
+					'''
+					'一个基本的壳体和炸药核心构成的的概念火箭'
+					可作为火箭弹药使用
+					'''
 			}
 
 			RocketinaJar: {
@@ -7430,17 +7285,7 @@ Mods: {
 				Tooltip:
 					'''
 					'尽管它只是一个罐子，但却不停地冒出无数的火箭'
-					无尽的火箭弹药
-					'''
-			}
-
-			TurtleBomb: {
-				DisplayName: 海龟壳炸弹
-				Tooltip:
-					'''
-					'用于战争的高端弹药'
-					发射后可在物块表面反弹三次
-					可用作火箭弹药
+					可作为无尽火箭弹药使用
 					'''
 			}
 
@@ -7552,16 +7397,6 @@ Mods: {
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
 					'看起来不太妙，但它确实很稀有'
-					'''
-			}
-
-			GlobeofAgony: {
-				DisplayName: 痛苦的地球
-				Tooltip:
-					'''
-					'球体内部有一个带有钥匙孔的小地牢'
-					它会让你听到来自另一个世界的痛苦和折磨的尖叫声
-					也许一把小钥匙会给被诅咒的邪教文化带来厄运
 					'''
 			}
 
@@ -7970,7 +7805,7 @@ Mods: {
 					'一个传说中的铁砧曾经被斯卡莱多德用来锻造他们的军阀所需要的东西'
 					武器或饰品右键时会分解成材料
 					按住下键的同时右键，会告诉你返回哪些材料
-					只会分解手持的物品，也可以作为秘银砧使用
+					只会分解手持的物品，也可作为秘银砧使用
 					'''
 			}
 
@@ -8028,7 +7863,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你不确定它是基于力量的能量还是精神的能量'
-					放置后提高自身周围11x11方块的更新速度
+					放置后提高自身周围37x37方块的更新速度
 					'''
 			}
 
@@ -8137,8 +7972,8 @@ Mods: {
 			}
 
 			FirstYearBanner: {
-				DisplayName: 更多宠物一周年纪念旗帜
-				Tooltip: 放置时保佑附近的玩家
+				DisplayName: 纯净狂怒
+				Tooltip: 月球公主的永恒燃烧遗迹
 			}
 
 			FumoBoulder: {
@@ -11434,6 +11269,15 @@ Mods: {
 					'''
 					'看起来有点像素化但很会吃'
 					召唤吃豆人跟随你
+					'''
+			}
+
+			AquaticPouch: {
+				DisplayName: 水族袋
+				Tooltip:
+					'''
+					'里面有你刚交的朋友'
+					召唤水族智者跟随你
 					'''
 			}
 
@@ -14894,8 +14738,8 @@ Mods: {
 				DisplayName: 炼金师手套
 				Tooltip:
 					'''
-					当玩家使用时，会投掷出玩家背包中找到的第一个药水瓶
-					药水瓶爆炸后将形成一片云雾，对范围内目标施加该药水效果的75%持续时间，此云雾持续2.5秒
+					当玩家使用时，会投掷出玩家背包中找到的第一个药水
+					药水爆炸后将形成一片云雾，对范围内目标施加该药水效果的75%持续时间，此云雾持续2.5秒
 					'''
 			}
 
@@ -14904,7 +14748,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它由亘古领主“游戏之恋者”的善良与力量所孕育而成'
-					'你感觉到它散发出的强大精神力量'
+					你感觉到它散发出的强大精神力量
 					[c/ffff00:趣味模式专属物品]
 					'''
 			}
@@ -20880,26 +20724,20 @@ Mods: {
 			VoidalThing: {
 				Tooltip:
 					'''
-					'它正在盯着你'
+					'标识符_缺少'
 					使用后，它会复制物品栏中的第一个物品
-					如果物品栏是空的，则什么也得不到
 					'''
-				DisplayName: 虚无之物
+				DisplayName: 错误区块
 			}
 
 			DabbingGuideStatueitem: {
-				Tooltip: ""
+				Tooltip: "'它的背面有一个小纸条: 加油吖'"
 				DisplayName: 有灰尘的向导雕像
 			}
 
 			VengefulHeart: {
 				Tooltip: ""
 				DisplayName: 复仇之心
-			}
-
-			KnifePack2: {
-				Tooltip: ""
-				DisplayName: Knife Pack2
 			}
 
 			BoxofSpiders: {
@@ -20957,6 +20795,30 @@ Mods: {
 					手持时，会显示宝藏和危险，并赋予生物群落观测增益
 					'''
 				DisplayName: 地面监视无线电
+			}
+
+			MyceliumSlugs: {
+				Tooltip:
+					'''
+					根据距离敌人的远近造成+200%至-25%伤害
+					敌人攻击会使子弹碎裂成血色的玻璃云
+					'''
+				DisplayName: 菌丝蜗牛
+			}
+
+			PetBUNI: {
+				DisplayName: 可爱的机械毛绒玩具
+				Tooltip:
+					'''
+					'目前状态: KETER_PASSIVE'
+					召唤一个机械毛绒玩具跟随你
+					根据距离敌人的远近造成伤害或施加恐惧减益
+					'''
+			}
+
+			DerplingLeg: {
+				Tooltip: ""
+				DisplayName: 跳跳兽腿
 			}
 		}
 
@@ -23355,6 +23217,19 @@ Mods: {
 			LunaStarBullet.DisplayName: Luna Star Bullet
 			BlossomThorn.DisplayName: Blossom Thorn
 			holoHeat.DisplayName: holo Heat
+			MyceliumBullet.DisplayName: Mycelium Bullet
+			GlassCloud.DisplayName: Glass Cloud
+			Hellspear.DisplayName: Hellspear
+			IceDart2.DisplayName: Ice Dart2
+			MetalCog.DisplayName: Metal Cog
+			BloodDartInferno.DisplayName: Blood Dart Inferno
+			FallenGelEnergy.DisplayName: Fallen Gel Energy
+			DevilsBullet2.DisplayName: Devils Bullet2
+			DevilsBullet.DisplayName: Devils Bullet
+			DrillerArrow2.DisplayName: Driller Arrow2
+			TinyOcramServant.DisplayName: Tiny Ocram Servant
+			PetBUNI.DisplayName: Pet B U N I
+			AquaticWiseman.DisplayName: Aquatic Wiseman
 		}
 
 		Configs: {

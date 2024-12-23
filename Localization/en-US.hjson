@@ -829,6 +829,7 @@ Mods: {
 			CatEffect.MapEntry: Cat Effect
 			AntlionStatue.MapEntry: Antlion Statue
 			AntonyMantle.MapEntry: Antony Mantle
+			DivineResonator2.MapEntry: Divine Resonator2
 		}
 
 		Keybinds: {
@@ -3398,6 +3399,11 @@ Mods: {
 				Description: 10% increased DR and +5 defense
 			}
 
+			AquaticWiseman: {
+				DisplayName: Aquatic Wiseman
+				Description: "'She misses her miniboss days'"
+			}
+
 			BabyPanda: {
 				DisplayName: hefty the Little Panda
 				Description: "'hefty love to follow player'"
@@ -3831,11 +3837,6 @@ Mods: {
 			Rumia: {
 				DisplayName: Rumia
 				Description: Youkai of darkness will follow you
-			}
-
-			RuneofIngwazCharge: {
-				DisplayName: Rune of Ingaz Cooldown
-				Description: The rune does not have enough spiritual energy
 			}
 
 			Ruukoto: {
@@ -4832,6 +4833,21 @@ Mods: {
 				Description: Mods.AFKPETS.Buffs.GreenGelFriendlyFire.Description
 				DisplayName: Green Gel Friendly Fire
 			}
+
+			DarkInferno: {
+				Description: Mods.AFKPETS.Buffs.DarkInferno.Description
+				DisplayName: Dark Inferno
+			}
+
+			PetBUNI: {
+				DisplayName: Mecha-Plushie
+				Description: ACTIVE COMMAND: FOLLOW THE TRAITOR
+			}
+
+			RuneofIngwazCharge: {
+				Description: Mods.AFKPETS.Buffs.RuneofIngwazCharge.Description
+				DisplayName: Runeof Ingwaz Charge
+			}
 		}
 
 		Items: {
@@ -5339,36 +5355,15 @@ Mods: {
 					'''
 			}
 
-			GasterRune: {
-				DisplayName: Scroll of Darkness
-				Tooltip:
-					'''
-					The darkness keep growing, the shadows cutting deeper...
-					The only thing known about the scroll is it find the assistant, not the assistant find him
-					You feel it seeks to meet with someone that is listening the fabric of this reality
-					'While its equipped killing bosses that have maximum life higher than 66666 they have a chance to drop something interesting...'
-					'''
-			}
-
-			GreenHeartNecklace: {
-				DisplayName: Cute Plushie
-				Tooltip:
-					'''
-					It's sad that it's refered as a keter type artifact without thinking about its feelings
-					'It will inflict fear to any enemy that get closer.'
-					'If any enemy get too close the extreme fear will cause it to take periodical damages'
-					'''
-			}
-
 			HeartofEvil: {
-				DisplayName: Heart of Evil
+				DisplayName: Ocram's Heart
 				Tooltip:
 					'''
-					It makes you lose your sanity like her.
-					'It will increase your mana by 80 , mana regen by 5 and all of your attack by 8%'
-					'All of your attacks have 5% chance to burn your enemy with alchemical flames'
-					'Celestial creatures will do 20% less contact damage and phantasmal spheres will rotate around you'
-					'But the artifact will also drain your life energy slowly'
+					'Remnants of the long forgotten titan'
+					Summons tiny Servants of Ocram to protect you
+					Halves AFKPets + vanilla dash cooldown
+					Increase max mana by 100 , mana regen bonus by 10 and magic attacks by 8%
+					Magic crits inflict fear + dark inferno
 					'''
 			}
 
@@ -5820,6 +5815,16 @@ Mods: {
 					'''
 			}
 
+			ActivationKey: {
+				DisplayName: Activation Key
+				Tooltip:
+					'''
+					'Hash code trusted?'
+					Upon equipped enemies has a chance to glitch out and MISSING_IDENTIFIER
+					Upon RC to this item it will clone itself to a random item & stack inside inventory
+					'''
+			}
+
 			ArcaneStone: {
 				DisplayName: Arcane Stone
 				Tooltip:
@@ -5833,7 +5838,17 @@ Mods: {
 
 			BackupFlashDriver: {
 				DisplayName: Backup Flash Driver
-				Tooltip: ""
+				Tooltip:
+					'''
+					'[c/FF0000:LOVE-LETTER-FOR-YOU.TXT].vbs'
+					Upon equipped if visual are not hidden it will transform player into ENTITY_ILOVEYOU
+					Each time player heal from heart it gives lovesick which modifies some afk pets accessories effect chances on players favor(Minor)
+					Minion hits + contact damage have a chance to spread lovesick virus(Major)
+					Lovesick virus will weaken enemies along with spread any close enemies and the stronger they are the more true DoT it does
+					Upon enemies with lovesick virus die they drop short lived hearts
+					Upon player dies it will IL edit the life itself to return back to its host with 5 minute cooldown
+					If multiple transformation accessory is being worn major ability of last one will activate while all minors will activate
+					'''
 			}
 
 			BandofRelocation: {
@@ -6088,7 +6103,7 @@ Mods: {
 			}
 
 			RulesofNature: {
-				DisplayName: Rulesof Nature
+				DisplayName: Rules of Nature
 				Tooltip:
 					'''
 					'The goal of life is living in agreement with nature'
@@ -6271,12 +6286,12 @@ Mods: {
 					'''
 			}
 
-			DerplingLeg: {
-				DisplayName: Derpling Leg
+			DruidicBoots: {
+				DisplayName: Druidic Boots
 				Tooltip:
 					'''
-					'Well, I gotta go now! I got a lot of bouncing to do! Hoo-hoo-hoo-hoo'
-					Greatly increases jumping speed + distance but decreases normal walking speed
+					'Go touch grass'
+					While walking converts corrupt + hallowed grass into pure grass
 					'''
 			}
 
@@ -6398,16 +6413,6 @@ Mods: {
 					While not attacking, player will gain 0.5½ endurance and 1 defense for each second
 					At 10 second it will be maxed and player will also gain bonus +1 regen along with these
 					'Summons doing damage while player is not being used any weapon does not count'
-					'''
-			}
-
-			PacKey: {
-				DisplayName: Activation Key
-				Tooltip:
-					'''
-					'It seems the slime capital didn't utilized the cloud activation status system'
-					Upon being equipped it will elite pinky tank to fight for you which have 36 base damage
-					It's attacks will home to closest enemy and then explode into venomous purple gels
 					'''
 			}
 
@@ -6714,6 +6719,11 @@ Mods: {
 				Tooltip: "'It's big brain time'"
 			}
 
+			StackofCoin: {
+				DisplayName: Stack of Slimy Coins
+				Tooltip: "'So please get your asses out tomorrow and vote'"
+			}
+
 			VoidCrystalNecklace: {
 				DisplayName: Void Crystal Necklace
 				Tooltip:
@@ -6909,11 +6919,11 @@ Mods: {
 			}
 
 			DarknessArrow: {
-				DisplayName: Arrow of Darkness
+				DisplayName: Umbral Arrow
 				Tooltip:
 					'''
-					Upon being shot it will form another arrow of darkness that will go opposide direction with it
-					That arrow will have 90% of the main arrows damage
+					Upon being shot forms arrow of darkness that will go opposide direction of it which deal halved damage
+					Umbral strike inflict shadowflames while darkness strike inflicts betsy's curse
 					'''
 			}
 
@@ -6931,22 +6941,12 @@ Mods: {
 				Tooltip: "'Hitting enemy or a tile will cause the arrow to fade away'"
 			}
 
-			GreenArrow: {
-				DisplayName: Green Arrow
-				Tooltip:
-					'''
-					And creeps like goblins are an endangered species
-					While shooting player have a chance to shoot boxing glove arrow
-					Normal ones will penetrate 1 more time while boxing glove arrows will deal two times more damage to a single target
-					'''
-			}
-
 			HallowedHwachaArrow: {
 				DisplayName: Hwacha Arrow
 				Tooltip:
 					'''
 					Best to use against invaders
-					Upon hitting enemy it will explode into few explosive shards that will do 75% of the projectiles damage
+					Hits explode into explosive shards that do 75% of base damage + inflict additive salvation
 					'''
 			}
 
@@ -6954,24 +6954,27 @@ Mods: {
 				DisplayName: Arrow of Harmony
 				Tooltip:
 					'''
-					It will shoot two arrow at the same time that find their inner balance
-					Each arrow will do 70% of their base damage
+					It shoots 2 harmony arrow at the same time with 60% of base damage
+					They periodically find inner balance
 					'''
 			}
 
 			MartianArrow: {
-				DisplayName: Energy Arrow
+				DisplayName: Energy Bolt
 				Tooltip:
 					'''
 					An ammo designed to hunt down primal lifeforms on the lands of Mars
-					It will home to near enemy and upon contact it will form an electrical area that will hurt near enemies
-					Electrical area will do 90% damage of the projectiles damage
+					Upon get close to any enemy it will get aggressive zoom + inflict electrified
 					'''
 			}
 
 			PoisonedArrow: {
-				DisplayName: Poisoned Arrow
-				Tooltip: "'Hitting enemies will inflict poison'"
+				DisplayName: Toxic Spore Arrow
+				Tooltip:
+					'''
+					Hitting enemies inflict poisoned
+					Killing enemies with poisoned debuff cause enemy to burst into poison clouds
+					'''
 			}
 
 			SeveredHand: {
@@ -7039,20 +7042,17 @@ Mods: {
 					'''
 					Hitting enemy have a chance to return bullet to blood
 					Bullets have 50% chance to inflict boiling blood for 2 seconds
+					Count as a bullet ammunition type
 					'''
-			}
-
-			BlueGlassBullet: {
-				DisplayName: Blue Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
 			}
 
 			BroBullet: {
 				DisplayName: Bullet of Bromite
 				Tooltip:
 					'''
-					'It's being gifted to lord James by his help on the great war'
-					Hitting enemies have a chance to form fists made from Bromite.
+					'Colab?'
+					Hitting enemies have a chance to form fists made from Bromite
+					Count as a bullet ammunition type
 					'''
 			}
 
@@ -7060,32 +7060,9 @@ Mods: {
 				DisplayName: Scrap Slug
 				Tooltip:
 					'''
-					'It may not be as hard as musket balls but you feel it may be useful'
+					'Recycled pain'
 					The more it travel the less damage it does and it will start from 200% damage to close enemies and do 50% damage to far enemies
-					'''
-			}
-
-			IceBullet: {
-				DisplayName: Overfrost Crystal Bullet
-				Tooltip: "'It looks magical but still it freezes your hand'"
-			}
-
-			MartianEnergyCapsule: {
-				DisplayName: Nuclear Energy Capsule
-				Tooltip:
-					'''
-					It was developed by Martian scientist for militaries dynamic ammo needs'
-					With this technology their both logistic and material cost decrease moderately
-					It allow player to form endless high energy bullets and upon hitting they will charge any enemy inside of its radius
-					'''
-			}
-
-			MilitaryBullet: {
-				DisplayName: Green Bullet
-				Tooltip:
-					'''
-					Upon hitting enemy it will cause them seriously bleed'
-					Upon being hit it will shatter to two bullet that will go through random direction
+					Count as a bullet ammunition type
 					'''
 			}
 
@@ -7094,89 +7071,50 @@ Mods: {
 				Tooltip:
 					'''
 					'Death by glamour'
-					It will split into two after a short distance which have 75% of the base projectiles damage
-					Split shots inflict midas
+					Splits into two after a short distance which have 75% of base damage + split shots inflict midas
+					Count as a bullet ammunition type
 					'''
 			}
 
-			PurpleGlassBullet: {
-				DisplayName: Purple Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
-			}
-
-			RedGlassBullet: {
-				DisplayName: Red Glass Bullet
-				Tooltip: Upon being contact with tile or enemy it will release the powder inside of it'
-			}
-
-			SpectreBullet: {
-				DisplayName: Spectre Bullet
-				Tooltip: It can go through tiles'
-			}
-
-			TEB: {
-				DisplayName: TEB
+			TheDevilsBullet: {
+				DisplayName: The Devil's Bullet
 				Tooltip:
 					'''
-					'It stands for Tribo Electric Bullet'
-					Hitting enemies will increase their static charge
+					'So this is the price for a bullet…'
+					Hits inflict Dark Inferno + Each shot has 1/7 chance to be a Lingering tracer beam
+					This beam do twice the damage + pierce infinitely but it devours 7 hp in initial shot stage
+					It can damage any friendly player/npc while dealing 10% damage
+					Count as a bullet ammunition type
 					'''
 			}
 
 			CuteLittleStar: {
-				DisplayName: Cute Little Star
+				DisplayName: Starmin
 				Tooltip:
 					'''
 					'Wow, so shiny!'
-					'It behaves as endless star ammo'
+					Count as a star ammunition type
 					'''
 			}
 
 			BoneDart: {
-				DisplayName: Broken Bone
+				DisplayName: Bone Fracture
 				Tooltip:
 					'''
-					'Looks like it still contains small amout of magic essense'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			ChlorophyteDart: {
-				DisplayName: Chlorophyte Dart
-				Tooltip:
-					'''
-					'You feel they are still alive'
-					'The dart will get stronger during daylight'
-					'It can be used as a dart ammunition
+					Upon collide with enemy it cracks into multiple shards
+					Count as a dart ammunition type
 					'''
 			}
 
 			ConcentratedCharge: {
-				DisplayName: Concentrated Electric Charge
+				DisplayName: Leaking Battery
 				Tooltip:
 					'''
-					'Gauss approves'
-					'When it hit enemies it will increase their static charge for 10 seconds'
-					'Hitting enemies will hurt also near enemies if they are charged with this'
+					'It got an announcement'
+					Hitting enemies inflict metal virus to them which slightly increase their defense + damage every close infected enemy
+					Metalized enemies start to drop gears which could damage enemies excluding original owner
+					While being wet enemies start to take additional True Dot
 					'It can be used as a dart ammunition'
-					'''
-			}
-
-			EnergyDart: {
-				DisplayName: Tiny Energy spear
-				Tooltip:
-					'''
-					'Your soul burning with justice'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			FungalDart: {
-				DisplayName: Fungal Dart
-				Tooltip:
-					'''
-					'You hope it's not piece of him'
-					'It can be used as a dart ammunition
 					'''
 			}
 
@@ -7184,40 +7122,19 @@ Mods: {
 				DisplayName: Tranquilizer Dart
 				Tooltip:
 					'''
-					'Have a nice dream
-					'Hitting enemy will slightly slow them and bosses are immune to this effect
-					'''
-			}
-
-			HallowedDart: {
-				DisplayName: Hallowed Dart
-				Tooltip: "'It can be used as a dart ammunition'"
-			}
-
-			HellfireDart: {
-				DisplayName: Molten Dart
-				Tooltip:
-					'''
-					'It's core still burning with the remains of fire elementals'
-					'It can be used as a dart ammunition
+					'Have a nice dream'
+					Hitting enemy will slightly slow them and bosses are immune to this effect
+					Count as a dart ammunition type
 					'''
 			}
 
 			IceDart: {
-				DisplayName: Ice Dart
+				DisplayName: Ice Hound Fang
 				Tooltip:
 					'''
-					'Strangely it's only getting colder'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			JudgementBoneDart: {
-				DisplayName: Metal Plated Broken Bone
-				Tooltip:
-					'''
-					'Now with armor'
-					'It can be used as a dart ammunition
+					'Sadly its bite is worse than its bark'
+					Crits call upon a blizzard cloud + on flight forms frost shards periodically
+					Count as a dart ammunition type
 					'''
 			}
 
@@ -7225,72 +7142,33 @@ Mods: {
 				DisplayName: Lihzahrd Nail
 				Tooltip:
 					'''
-					'You have a strange feeling that it also contain a trap'
-					'It can be used as a dart ammunition'
+					'I heard they like traps'
+					Darts contain explosive trap that contain spiky trap which contain spear traps...
+					Flight time increases the amount of spiky ball drop after explosive trap activates
+					Count as a dart ammunition type
 					'''
-			}
-
-			ShadowDart: {
-				DisplayName: Shadow Dart
-				Tooltip: "'It can be used as a dart ammunition'"
-			}
-
-			ShadowflameDart: {
-				DisplayName: Shadowflame Dart
-				Tooltip: "'It can be used as a dart ammunition'"
 			}
 
 			SpiderFangDart: {
-				DisplayName: Tiny Jackknife Chelicerae
+				DisplayName: Jackknife Chelicerae
 				Tooltip:
 					'''
-					'It still contains enough venom to paralyse anything it touch'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			SunplateDart: {
-				DisplayName: Sunplate shard
-				Tooltip:
-					'''
-					'Small but sharpened'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			ThornDart: {
-				DisplayName: Thorn Dart
-				Tooltip:
-					'''
-					'It's still alive with its magical essense'
-					'It can be used as a dart ammunition
+					'Contains enough venom to paralyse anything it touches'
+					Striking nonboss enemies with full hp gets them captured into net and cannot move
+					If enemy dies while on web its corpse rot and short living heart will drop
+					There can be max 1 web active
+					Count as a dart ammunition type
 					'''
 			}
 
 			VampireDart: {
-				DisplayName: Vampiric Cuspid Dart
+				DisplayName: Blood Licker Dart
 				Tooltip:
 					'''
 					'One less obtacle, one more corpse'
+					Hitting enemies iflict serious bleeding + Crits may heal player slightly
+					Killing blows cause enemies to explode into blood inferno that heals + empowers player upon entering it
 					'It can be used as a dart ammunition
-					'''
-			}
-
-			VortexDart: {
-				DisplayName: Vortex Dart
-				Tooltip:
-					'''
-					'As soon as a enemy darts you throw it down'
-					'It can be used as a dart ammunition
-					'''
-			}
-
-			YangDart: {
-				DisplayName: Yang Dart
-				Tooltip:
-					'''
-					'For every Yang there is Yin'
-					'It can be used as a dart ammunition'
 					'''
 			}
 
@@ -7298,9 +7176,10 @@ Mods: {
 				DisplayName: Alchemical Dust
 				Tooltip:
 					'''
-					Cause your weapon to inflict on fire, frostburn, angelic flames,
-					inferno,cursed flames and shadow flames
-					It's ability may not be activated on other mods flamethrowers
+					'Gregg, I don't think this should be legal'
+					Hits inflict a debuff which deal 30 True Dot + apply following ability;
+					Nonboss enemies AI start to lag while bosses have weaker damage resistance + contact damage
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7308,20 +7187,9 @@ Mods: {
 				DisplayName: Charcoal
 				Tooltip:
 					'''
-					'You feel you shouldn't show this to Dryad'
-					'10% chance on a enemy to drop a ember to hurt other enemies
-					It's ability may not be activated on other mods flamethrowers
-					'''
-			}
-
-			ConcentratedSwampGas: {
-				DisplayName: Concentrated Swamp Gas Tube
-				Tooltip:
-					'''
-					Concentration of both highly explosive and poisonous chemicals
-					It's concetration will increase length of your flamethrower flames
-					It will also give venom to your targets
-					It's ability may not be activated on other mods flamethrowers
+					'Burnt future'
+					Strikes has 10% chance to drop ember
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7329,8 +7197,8 @@ Mods: {
 				DisplayName: Cute Little Slime
 				Tooltip:
 					'''
-					'I will help you, human.'
-					'It behaves as endless gel ammo'
+					'I will help you, human'
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7338,9 +7206,10 @@ Mods: {
 				DisplayName: Haunted Charcoal
 				Tooltip:
 					'''
-					'You feel you shouldn't show this to Dryad'
-					'Crits will cause souls to fight for your
-					It's ability may not be activated on other mods flamethrowers
+					'Burnt hallowen'
+					Hits inflict inferno + fear debuffs
+					Has 20% chance to release agony souls
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7349,19 +7218,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It's too cold to touch'
-					'It will cause your enemies to get frostburned and slower
-					Slowing enemy effect will not work on bosses
-					It's ability may not be activated on other mods flamethrowers
-					'''
-			}
-
-			PropaneVial: {
-				DisplayName: Propane Tank
-				Tooltip:
-					'''
-					Now you only need to find propane accessories
-					It's concetration will increase length of your flamethrower flames
-					It's ability may not be activated on other mods flamethrowers
+					Inflicts frostbite + if nonboss enemy has below 5% life strikes freeze out completely
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7370,8 +7228,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Remnants of a great hero'
-					'Critical hits will inflict cursed inferno for half second
-					It's ability may not be activated on other mods flamethrowers
+					Crits inflict cursed inferno for half second
+					Strikes break enemies fire type debuff immunity
+					Bosses may drop additional loot
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7379,9 +7239,8 @@ Mods: {
 				DisplayName: Volatile Gel
 				Tooltip:
 					'''
-					'As explosive as TNT'
-					'Killing blow will cause enemies to explode
-					It's ability may not be activated on other mods flamethrowers
+					Crits cause true damge explosion + inflict spreading fire
+					Count as a gel ammunition type
 					'''
 			}
 
@@ -7392,6 +7251,7 @@ Mods: {
 					'M7A3 RIOT CS'
 					It temporarily blinds anybody within its concussive blast
 					Crits will make non boss enemies dizy and for boss or not crits it will inflict confused
+					Count as a grenade ammunition type
 					'''
 			}
 
@@ -7400,47 +7260,32 @@ Mods: {
 				Tooltip:
 					'''
 					'The Lord's chosen weapon'
-					Upon being hit to enemy it will cause any weaker enemy to get dizzy along with burning them with angelic flames
-					Crits cause hallelujah overload which cause angelic flames to errupt from both grenade and sky
+					It judges anybody within its concussive blast
+					Crits may cause hallelujah overload which cause angelic flames to errupt from the target
+					Count as a grenade ammunition type
 					'''
-			}
-
-			LunarDartPocket: {
-				DisplayName: Endless Bouncy Grenade Pouch
-				Tooltip: "'Acts as infinite bouncy grenades and bouncy grenade ammo'"
-			}
-
-			SpiderFangDartPocket: {
-				DisplayName: Endless Sticky Grenade Pouch
-				Tooltip: "'Acts as infinite sticky grenades and sticky grenade ammo'"
 			}
 
 			SunplateShardDartPocket: {
 				DisplayName: Endless Grenade Pouch
-				Tooltip: "'Acts as infinite grenades and grenade ammo'"
+				Tooltip: Count as an endless grenade ammunition type
 			}
 
 			GreyRocket: {
 				DisplayName: Prototype Rocket
-				Tooltip: "'A basic shell and explosive core rocket design'"
+				Tooltip:
+					'''
+					'A basic shell and explosive core rocket design'
+					Count as a rocket ammunition type
+					'''
 			}
 
 			RocketinaJar: {
 				DisplayName: Rocket in a Jar
 				Tooltip:
 					'''
-					Despite being only a jar, it is fuming to the brim with endless rockets'
-					Acts as endless rocket ammo
-					'''
-			}
-
-			TurtleBomb: {
-				DisplayName: Turtle Shell Bomb
-				Tooltip:
-					'''
-					'A High tier ammo being used for the wars of raft'
-					Upon being shot it could be able to bounce from tiles 3 times
-					It could be used as a rocket ammo
+					'Despite being only a jar, it is fuming to the brim with endless rockets'
+					Count as an endless rocket ammunition type
 					'''
 			}
 
@@ -7501,11 +7346,11 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: Box of Spiders
+				DisplayName: Box
 				Tooltip:
 					'''
+					'Stuff'
 					Right click to open
-					'Filled with friends'
 					'''
 			}
 
@@ -7513,8 +7358,8 @@ Mods: {
 				DisplayName: Treasure Pouch (Bunny Zeppelin)
 				Tooltip:
 					'''
-					Right click to open
 					'Smells like carrot and black powder'
+					Right click to open
 					'''
 			}
 
@@ -7522,8 +7367,8 @@ Mods: {
 				DisplayName: Cookie Box
 				Tooltip:
 					'''
+					'Filled with many goodies she collect in her adventure'
 					Right click to open
-					Filled with many goodies she collect in her adventure
 					Upon RC you get random amount of cookies, misc smaller items + 1 reward item
 					'''
 			}
@@ -7532,8 +7377,8 @@ Mods: {
 				DisplayName: Treasure Bag (Dr Fetus)
 				Tooltip:
 					'''
-					Right click to open
 					'You feel this is only the beginning'
+					Right click to open
 					'''
 			}
 
@@ -7541,8 +7386,8 @@ Mods: {
 				DisplayName: Gift Bag
 				Tooltip:
 					'''
-					Right click to open
 					'It seems someone want to help me'
+					Right click to open
 					'''
 			}
 
@@ -7555,22 +7400,12 @@ Mods: {
 					'''
 			}
 
-			GlobeofAgony: {
-				DisplayName: Globe of Agony
-				Tooltip:
-					'''
-					'There is a tiny dungeon inside of globe with key hole.'
-					'It makes you hear otherwordly screams of agony and suffering'
-					'Maybe a little key may bring doom to cursed culture of cultists'
-					'''
-			}
-
 			GuardianofFrostPouch: {
 				DisplayName: Treasure Pouch (Guardian of Frost)
 				Tooltip:
 					'''
-					Right click to open
 					'You feel you will meet with his sister soon'
+					Right click to open
 					'''
 			}
 
@@ -7578,7 +7413,7 @@ Mods: {
 				DisplayName: Happy Meal
 				Tooltip:
 					'''
-					I'm lovin' it
+					'I'm lovin' it'
 					RC to open the packet to get your meal along with a toy from FF collectibles
 					Do not direct item use to eat all, toy may contain small pieces
 					'''
@@ -8027,8 +7862,8 @@ Mods: {
 				DisplayName: Divine Resonator
 				Tooltip:
 					'''
-					You are not sure if it amplify the power based or spiritual based energy
-					'Upon being placed it will increase the update rate of 11x11 block around itself'
+					'Critical Mew'
+					'Upon being placed it will increase the update rate of 37x37 block around itself'
 					'''
 			}
 
@@ -8137,8 +7972,8 @@ Mods: {
 			}
 
 			FirstYearBanner: {
-				DisplayName: More Pets First Year Anniversary Banner
-				Tooltip: "'While its being placed it will bless the near players'"
+				DisplayName: Pure Furies
+				Tooltip: "'Remnants of lunarian princess burning eternal'"
 			}
 
 			FumoBoulder: {
@@ -8542,8 +8377,8 @@ Mods: {
 			}
 
 			MushroomPlantBox: {
-				DisplayName: Multishroom in a Planter
-				Tooltip: "'Using it will plant mushroom grass on mud blocks'"
+				DisplayName: Papa-Shroom in a Planter
+				Tooltip: Plants mushroom grass on mud blocks
 			}
 
 			NecromanticAmplifier: {
@@ -11426,6 +11261,15 @@ Mods: {
 					'''
 					'It looks pixelated but tasty'
 					It summons Pacman to follow you
+					'''
+			}
+
+			AquaticPouch: {
+				DisplayName: Aquatic Pouch
+				Tooltip:
+					'''
+					'Contains fresh chums'
+					It summons the aquatic wiseman to follow you
 					'''
 			}
 
@@ -14817,7 +14661,7 @@ Mods: {
 				DisplayName: Drogger
 				Tooltip:
 					'''
-					'An elegant member of 	Salientia that fed upon birds and small harpies'
+					'An elegant member of Salientia that fed upon birds and small harpies'
 					While under water its hook distance and speed greatly increase and due to its skin get dry it will have less distance and slower on land
 					'''
 			}
@@ -14876,8 +14720,8 @@ Mods: {
 				DisplayName: Alchemist's Glove
 				Tooltip:
 					'''
-					'When used player will throw the first found potion inside of players inventory'
-					'When the bottle explodes it will form a cloud which will inflict that buff with 75% duration and this cloud last for 2.5 seconds'
+					When used player will throw the first found potion in it's inventory
+					When the bottle explodes it forms a cloud that grant potions buff with 75% duration + this cloud lasts for 2.5 seconds
 					'''
 			}
 
@@ -14885,8 +14729,8 @@ Mods: {
 				DisplayName: Blessed Banana
 				Tooltip:
 					'''
-					'It was once formed from the kindness and power of ancient warlord loverofgames.'
-					'You feel strong spiritual power comes from it.'
+					'It was once formed from the kindness and power of ancient warlord loverofgames'
+					You feel strong spiritual power comes from it
 					[c/ffff00:Fun mode exclusive item]
 					'''
 			}
@@ -20227,8 +20071,8 @@ Mods: {
 				DisplayName: Neon Genesis
 				Tooltip:
 					'''
-					Shining more than these stars that bathe the galaxy Go forth, and you'll become a legend
-					While item being held it summons a neon angel to bless your sentries
+					'Shining more than these stars that bathe the galaxy Go forth, and you'll become a legend'
+					While item being held summons a neon angel to bless your sentries
 					Upon using it will mark closest afkpets aiming type sentry to your mouse and greatly empower it + increase its fire rate
 					If player goes too far away it will instead return back to player + enemies close to it will get angelic flames
 					'''
@@ -20858,26 +20702,20 @@ Mods: {
 			VoidalThing: {
 				Tooltip:
 					'''
-					'It is staring at you'
-					'Will change it's data to the first item in the inventory when it is used.'
-					'If that place is empty you get nothing'
+					'MISSING_IDENTIFIER'
+					Upon RC clone one of the item inside of the inventory
 					'''
-				DisplayName: Voidal Thing
+				DisplayName: Unloaded Chunk
 			}
 
 			DabbingGuideStatueitem: {
-				Tooltip: ""
-				DisplayName: Dabbing Guide Statueitem
+				Tooltip: "'There is a little note on it's back: Git Gud'"
+				DisplayName: Dabbing Guide Statue
 			}
 
 			VengefulHeart: {
 				Tooltip: ""
 				DisplayName: Vengeful Heart
-			}
-
-			KnifePack2: {
-				Tooltip: ""
-				DisplayName: Knife Pack2
 			}
 
 			BoxofSpiders: {
@@ -20935,6 +20773,30 @@ Mods: {
 					While being held show location of treasure and danger sources and grant biome sight
 					'''
 				DisplayName: Ground Surveillance Radar
+			}
+
+			MyceliumSlugs: {
+				Tooltip:
+					'''
+					Deals +200% to -25% according to closeness of the enemy
+					Enemy strikes cause bullet to shatter into bleeding glass cloud
+					'''
+				DisplayName: Mycelium Slugs
+			}
+
+			PetBUNI: {
+				DisplayName: Cute Mecha-Plushie
+				Tooltip:
+					'''
+					'CURRENT STATUS: KETER_PASSIVE'
+					Summons a mecha-plushie to follow you
+					Periodically damage and/or inflict fear to enemies according to their closeness
+					'''
+			}
+
+			DerplingLeg: {
+				Tooltip: ""
+				DisplayName: Derpling Leg
 			}
 		}
 
@@ -23333,6 +23195,19 @@ Mods: {
 			LunaStarBullet.DisplayName: Luna Star Bullet
 			BlossomThorn.DisplayName: Blossom Thorn
 			holoHeat.DisplayName: holo Heat
+			MyceliumBullet.DisplayName: Mycelium Bullet
+			GlassCloud.DisplayName: Glass Cloud
+			Hellspear.DisplayName: Hellspear
+			IceDart2.DisplayName: Ice Dart2
+			MetalCog.DisplayName: Metal Cog
+			BloodDartInferno.DisplayName: Blood Dart Inferno
+			FallenGelEnergy.DisplayName: Fallen Gel Energy
+			DevilsBullet2.DisplayName: Devils Bullet2
+			DevilsBullet.DisplayName: Devils Bullet
+			DrillerArrow2.DisplayName: Driller Arrow2
+			TinyOcramServant.DisplayName: Tiny Ocram Servant
+			PetBUNI.DisplayName: Pet B U N I
+			AquaticWiseman.DisplayName: Aquatic Wiseman
 		}
 
 		Configs: {
