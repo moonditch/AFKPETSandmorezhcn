@@ -160,15 +160,6 @@ Mods: {
 				DisplayName: 远古守护者
 			}
 
-			PoliticianSlime: {
-				BossChecklistIntegration: {
-					SpawnInfo: 击败任意机械Boss后，制作 [i:AFKPETS/GoldenKingSlimeIdol] 在夜晚使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始出售 [i:AFKPETS/GoldenKingSlimeIdol].
-					DespawnMessage: 史莱姆王国还没有被征服
-				}
-
-				DisplayName: 史莱姆总统
-			}
-
 			DiseasterBunny.DisplayName: 小天兔
 			Lepus.DisplayName: 天兔
 			LepusEgg.DisplayName: 天兔蛋
@@ -400,6 +391,7 @@ Mods: {
 			BodyguardSlime.DisplayName: 保镖史莱姆
 			FallingSlimeSoldier.DisplayName: 保镖史莱姆
 			MoneyPortal.DisplayName: 金币传送门
+			PoliticianSlime.DisplayName: 史莱姆总统
 			SoldierSlime1.DisplayName: 士兵史莱姆
 			SoldierSlime2.DisplayName: 士兵史莱姆
 			GuardianofSlimeNationEnergyCore.DisplayName: 机甲自然之力核心
@@ -1950,7 +1942,7 @@ Mods: {
 			}
 
 			FireBreath: {
-				DisplayName: 狱火吐息
+				DisplayName: 热辣滚烫
 				Description: 烫烫烫！
 			}
 
@@ -4422,7 +4414,7 @@ Mods: {
 
 			TechnoBuff: {
 				DisplayName: 血腥领主的祝福
-				Description: IV 效率，无敌，提高 5% 近战伤害
+				Description: 效率 IV，提高收割工具使用速度
 			}
 
 			Temmie: {
@@ -4840,9 +4832,19 @@ Mods: {
 				Description: ACTIVE COMMAND: FOLLOW THE TRAITOR
 			}
 
+			NightmareTransform: {
+				Description: 毫不留情
+				DisplayName: Memento Mori
+			}
+
 			RuneofIngwazCharge: {
 				Description: ""
 				DisplayName: Rune of Ingwaz Charge
+			}
+
+			AlchemicalMixture: {
+				Description: Mods.AFKPETS.Buffs.AlchemicalMixture.Description
+				DisplayName: Alchemical Mixture
 			}
 		}
 
@@ -12650,8 +12652,8 @@ Mods: {
 				Tooltip:
 					'''
 					'库巴皇室家族一如既往地强大！'
-					当玩家生命值低于50%时，小丑车会变得异常愤怒
-					它愤怒时，向光标位置发射火球
+					当玩家生命值低于50%时
+					小丑车会变得异常愤怒，并向最近的敌人吐出火球
 					'''
 			}
 
@@ -12681,7 +12683,6 @@ Mods: {
 					'''
 					'一款独特的产品，通常由 Gale Club 的成员使用'
 					速度足够快会产生火焰粒子，当移动并有玩家离开此坐骑，会进行跳跃
-					造成28倍召唤伤害，撞击物块时会产生爆炸
 					'''
 			}
 
@@ -12693,7 +12694,7 @@ Mods: {
 					使用后召唤可骑乘的蛾怪宝宝
 					骑乘时，右键进行冲刺，冷却时间为1.5秒 
 					冲刺时，授予玩家0.33秒的无敌帧
-					冲刺时，蛾怪宝宝产生日蚀尘，施加狱火和化学易爆性
+					冲刺时，蛾怪宝宝产生日蚀尘，施加化学易爆性
 					'''
 			}
 
@@ -12702,7 +12703,6 @@ Mods: {
 				Tooltip:
 					'''
 					召唤可骑乘的试验性伐木机，可以砍伐树木和敌怪
-					锯子有16点基础伤害，受到玩家宠物伤害乘算加成，树木和方块可直接被摧毁
 					若同时装备了[c/ffff00:博士的单片眼镜]，对敌怪造成伤害时会授予玩家无敌帧
 					'''
 			}
@@ -13675,8 +13675,9 @@ Mods: {
 					'赢！'
 					使用后召唤游戏玩家，近战攻击你的敌人
 					每次使用都使游戏玩家更加强大，在达到一定次数后，游戏玩家会升级并获得新技能
-					当持续时间少于4秒时，它成为可消耗品，否则可能导致过量
+					当持续时间少于4秒时，成为可消耗品，否则可能导致过量
 					每次使用都会增加上瘾程度，如果没有及时饮用，血液中的放射性毒素可能会指数级增长
+					当持续时间少于4秒时，右键可安全的驱散增益
 					'''
 			}
 
@@ -14600,10 +14601,11 @@ Mods: {
 				Tooltip:
 					'''
 					'想成为英雄？那就像个英雄一样去战斗吧!'
-					可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果
+					可用于收集藤曼，免疫蛛网缠绕、虚弱和惊吓减益效果
+					在地面上暴击时，产生土豆攻击敌人，有几率产生会爆炸的热土豆
 					攻击敌人会使其流血，并且对带有恐惧减益的敌人有30%几率造成暴击
-					按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟
-					效率属性将提升使用此工具收割植物和干草时的采集速度
+					按下右键将暂时提升效率等级IV并提高收割工具使用速度，此技能冷却时间为30秒
+					效率属性将提升使用此工具收割植物和干草时的采集速度和收获率
 					'''
 			}
 
@@ -14612,11 +14614,12 @@ Mods: {
 				Tooltip:
 					'''
 					'这次，你所恐惧的不只是幻象'
-					可用于收集藤绳，持有时可免疫蛛网缠绕、虚弱和惊吓减益效果
-					攻击敌人将施加恐惧效果，暴击则会造成恐怖效果，该武器造成的伤害无视敌人的防御力并视为真实伤害
-					按下右键将暂时提升效率等级IV并赋予一段时间的无敌状态，此技能冷却时间为1分钟
+					可用于收集藤曼，免疫蛛网缠绕、虚弱和惊吓减益效果
+					攻击敌人将施加恐惧效果，暴击则会造成恐怖效果，减少疲劳减益的持续时间
+					右键将玩家转变为死神形态，此形态下免疫伤害，攻击施加黑暗炼狱和灵魂枯萎
+					此形态持续1.5秒，允许穿墙，可通过按下坐骑按键提前解除此形态，此技能有15秒冷却时间
 					收割植物或击杀敌人有一定几率同时收割它们的灵魂
-					效率属性将提升使用此工具收割植物和干草时的采集速度
+					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
 
@@ -14624,8 +14627,9 @@ Mods: {
 				DisplayName: 幽瞳镰刀
 				Tooltip:
 					'''
-					攻击敌人将使下次攻击召唤一个微小仆从为你战斗
-					效率属性将提升使用此工具收割植物和干草时的采集速度
+					'我看到了克苏鲁在那里的所作所为'
+					攻击敌人将使下次攻击召唤一个微小仆从为你战斗并施加流血
+					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
 
@@ -14634,10 +14638,10 @@ Mods: {
 				Tooltip:
 					'''
 					'丰收月夜的最佳助手'
-					可用于收集藤绳，持握时可免疫蛛网缠绕状态
-					攻击敌人会使其流血
-					收割植物时有一定几率额外掉落神秘种子
-					效率属性将提升此工具用于收割植物和干草时的采集速度
+					可用于收集藤曼，免疫蛛网缠绕
+					收割植物时有一定几率额外掉落神秘种子，攻击施加中毒
+					每第五次攻击会掷出镰刀，有几率召唤自然之灵
+					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
 
@@ -14645,9 +14649,10 @@ Mods: {
 				DisplayName: 南瓜镰刀
 				Tooltip:
 					'''
-					'南瓜王的专属武器'
-					收割植物时有一定几率额外掉落南瓜
-					效率属性将提升此工具用于收割植物和干草时的采集速度
+					'这是进行不祥收割的完美工具'
+					暴击和击杀会生成南瓜王的烈焰镰刀
+					收割植物时有一定几率额外掉落神秘种子，攻击施加着火
+					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
 
@@ -14659,7 +14664,7 @@ Mods: {
 					可用于从藤蔓上收集藤绳
 					配备远程控制功能可进行强力短距离刺击
 					持有时玩家将免疫被蛛网缠绕，并且暴击会造成流血效果
-					效率属性将提升此工具用于收割植物和干草时的采集速度
+					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
 
@@ -19581,11 +19586,9 @@ Mods: {
 				Tooltip:
 					'''
 					'现在你知道羊酱汁在哪里了'
-					可以用左键投掷，也可通过右键饮用
-					饮用后你会获得地狱呼吸增益，持续5秒内喷射火焰，此能力有30秒冷却时间
-					这种火焰威力强大，足以熔化任何由纯净意愿形成的曲奇饼干
-					投掷后与目标碰撞时，它会释放地狱热力，破坏敌人的防御并将其活活烧死
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以同时投掷2瓶羊酱汁，并获得持续20秒的地狱呼吸增益
+					左键投掷，右键饮用
+					饮用后获得热辣滚烫减益，大幅提升攻击速度但增加法力消耗，提高20%移动速度，受到轻微的持续伤害
+					右键使用有1分钟冷却时间
 					'''
 			}
 
@@ -20512,11 +20515,10 @@ Mods: {
 			}
 
 			CorruptedMemoryDriver: {
-				DisplayName: 损坏的记忆驱动器
+				DisplayName: 赛博钥匙
 				Tooltip:
 					'''
-					'为抵御火星人而准备的多项发明之一'
-					'不幸的是，邪教分子将迷失的灵魂注入了这些机器，导致其AI变得疯狂，会攻击任何它们看到的东西'
+					'验证你是否为人类'
 					使用后你将变成机械观察者
 					变身后你可以按下攻击键，根据你的充能进度，释放强大的攻击
 					充能进度显示在玩家的头顶上方，根据颜色指示攻击的类型
@@ -20536,10 +20538,10 @@ Mods: {
 			}
 
 			FrostsEdge: {
-				DisplayName: 极寒仪式刃
+				DisplayName: Khione的馈赠
 				Tooltip:
 					'''
-					一把注入寒霜精魄和光明与暗影之魂的元素剑
+					'很高兴和你冰肩作战'
 					使用后你将变成源初冰元素
 					变身后你可以挥舞冰枷来攻击敌人，冰枷速度越快造成的伤害就越高，并碎裂成冰刺
 					与物块碰撞时，冰刺会生成更大的冰柱
@@ -20556,15 +20558,23 @@ Mods: {
 					'''
 			}
 
+			MechaStave: {
+				Tooltip:
+					'''
+					'已经太迟了...'
+					使用后你将变成毁灭者
+					有几率召唤无人机保护自己
+					'''
+				DisplayName: 机械破灭杖
+			}
+
 			MonarchsPride: {
 				DisplayName: 君主之傲
 				Tooltip:
 					'''
-					一根带有皇家宝石的权杖，只授予那些已经证明自己的人
-					使用后你将变成史莱姆王子
+					'是啊，这里的王是谁？是你还是我？'
+					使用后你将变成史莱姆王子，左键射出凝胶尖刺
 					变身后落在敌人头上时会弹起，其它史莱姆不会对你产生敌意
-					变身后当你落地时射出凝胶尖刺，4 秒冷却时间
-					<right>主动向敌人射出凝胶尖刺
 					'''
 			}
 
@@ -20573,9 +20583,8 @@ Mods: {
 				Tooltip:
 					'''
 					让他们的恐惧吞噬他们
-					使用后你将变成一只噩梦之眼
-					变身后<right>，向光标的方向猛冲，造成双倍伤害，1 秒冷却时间
-					<left>将喷出噩梦之焰
+					使用后你将变成一只噩梦之眼，左键喷出噩梦焰
+					变身后右键向光标的方向猛冲，造成双倍伤害，1 秒冷却时间
 					'''
 			}
 
@@ -20583,7 +20592,7 @@ Mods: {
 				DisplayName: 猩红宝石
 				Tooltip:
 					'''
-					一颗由纯净血液驱动的宝石
+					'一颗由纯净血液驱动的宝石'
 					使用后你将变成血腥水晶
 					变身后你可以进行有限时间的飞行，射出跟随光标的激光束进行攻击
 					'''
@@ -20817,8 +20826,41 @@ Mods: {
 			}
 
 			DerplingLeg: {
-				Tooltip: ""
+				Tooltip:
+					'''
+					'好了，我现在得走了！我还有很多弹跳要做！呼-呼-呼-呼'
+					大幅增加跳跃速度和距离，但降低正常行走速度
+					'''
 				DisplayName: 跳跳兽腿
+			}
+
+			BakersDozen: {
+				Tooltip:
+					'''
+					'希望你已经为你的‘应得甜点’腾出空间了'
+					发射13发随机组合的子弹，包括飞镖、爆炸纸杯蛋糕和穿刺威化饼
+					'''
+				DisplayName: 面包一打
+			}
+
+			IronChef: {
+				Tooltip:
+					'''
+					'嘿，帕尼尼脑袋，你到底有没有在听我说话？'
+					投掷的菜刀可以插入地面或敌人
+					每次攻击叠加流血并造成持续伤害
+					'''
+				DisplayName: 铁厨菜刀
+			}
+
+			FarmerEmblem: {
+				Tooltip:
+					'''
+					'如果你把'人'换成'众'，illness就会变成wellness'
+					手持收割工具时，增加防御和移动速度
+					手持收割工具时，提高15%收割速度，效率提升II级
+					'''
+				DisplayName: Kapital的祝福
 			}
 		}
 
@@ -22469,6 +22511,7 @@ Mods: {
 			PumpkinLaser2.DisplayName: Pumpkin Laser2
 			PumpkinScythe.DisplayName: Pumpkin Scythe
 			PumpkinSickleScythe.DisplayName: Pumpkin Sickle Scythe
+			PumpkinSickle.DisplayName: Pumpkin Sickle
 			PumpkinSniperBullet.DisplayName: Pumpkin Sniper Bullet
 			PumpkinSniperBulletExplosion.DisplayName: Pumpkin Sniper Bullet Explosion
 			PurpleBeam.DisplayName: Purple Beam
@@ -23230,6 +23273,34 @@ Mods: {
 			TinyOcramServant.DisplayName: Tiny Ocram Servant
 			PetBUNI.DisplayName: Pet B U N I
 			AquaticWiseman.DisplayName: Aquatic Wiseman
+			FarmersScythe.DisplayName: Farmers Scythe
+			FarmersScytheChain.DisplayName: Farmers Scythe Chain
+			FarmerMark.DisplayName: Farmer Mark
+			EyeSickle.DisplayName: Eye Sickle
+			EyeSickle2.DisplayName: Eye Sickle2
+			SickleEye2.DisplayName: Sickle Eye2
+			SickleEye.DisplayName: Sickle Eye
+			DeathsTouchSlash.DisplayName: Deaths Touch Slash
+			DeathsTouch.DisplayName: Deaths Touch
+			DeathsTouch2.DisplayName: Deaths Touch2
+			CrystalHoe.DisplayName: Crystal Hoe
+			CrystalHoePotato.DisplayName: Crystal Hoe Potato
+			RainbowFlaskGas.DisplayName: Rainbow Flask Gas
+			AlchemistSickle.DisplayName: Alchemist Sickle
+			KizunasWrath.DisplayName: Kizunas Wrath
+			PumpkinHeatMark.DisplayName: Pumpkin Heat Mark
+			PumpkinSword.DisplayName: Pumpkin Sword
+			Wafer1.DisplayName: Wafer1
+			Wafer2.DisplayName: Wafer2
+			Wafer3.DisplayName: Wafer3
+			Wafer4.DisplayName: Wafer4
+			IronChef.DisplayName: Iron Chef
+			Wafer5.DisplayName: Wafer5
+			IronChef2.DisplayName: Iron Chef2
+			EnergyAreaElectric.DisplayName: Energy Area Electric
+			ApacheChopper.DisplayName: Apache Chopper
+			LightDestroyer.DisplayName: Light Destroyer
+			LightProbe.DisplayName: Light Probe
 		}
 
 		Configs: {

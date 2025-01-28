@@ -7,7 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AFKPETS">
-      <HintPath>..\..\..\..\..\..\AFKPETS\AFKPETS.dll</HintPath>
+      <HintPath>lib\AFKPETS\AFKPETS.dll</HintPath>
     </Reference>
     <Reference Include="TigerForceLocalizationLib">
       <HintPath>lib\TigerForceLocalizationLib.dll</HintPath>

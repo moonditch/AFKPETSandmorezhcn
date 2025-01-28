@@ -7,6 +7,7 @@ This mod is a Chinese Translation Patch of AFK's PETS and more(Early Alpha)
 1.同时订阅AFK's PETS and more(Early Alpha)和本Mod
 2.进入tml，在模组管理中同时启用AFK's PETS and more(Early Alpha)和本Mod
 3.安装完成，进行游戏
+4.如果模组更新导致汉化出问题，请耐心等待汉化更新
 
 有问题
 选择1.评论区告诉我

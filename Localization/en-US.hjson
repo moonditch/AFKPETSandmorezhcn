@@ -160,15 +160,6 @@ Mods: {
 				DisplayName: The Ancient Guardian
 			}
 
-			PoliticianSlime: {
-				BossChecklistIntegration: {
-					SpawnInfo: After defeating any Mech Boss，craft [i:AFKPETS/GoldenKingSlimeIdol] and use in night to summon. After it's defeat dark huntress sell its summon item.
-					DespawnMessage: The kingdom hasn't been conquered.
-				}
-
-				DisplayName: Politician Slime
-			}
-
 			DiseasterBunny.DisplayName: Diseaster Bunny
 			Lepus.DisplayName: Lepus
 			LepusEgg.DisplayName: Lepus Egg
@@ -400,6 +391,7 @@ Mods: {
 			BodyguardSlime.DisplayName: Bodyguard Slime
 			FallingSlimeSoldier.DisplayName: Soldier Slime
 			MoneyPortal.DisplayName: Money Portal
+			PoliticianSlime.DisplayName: Politician Slime
 			SoldierSlime1.DisplayName: Soldier Slime
 			SoldierSlime2.DisplayName: Soldier Slime
 			GuardianofSlimeNationEnergyCore.DisplayName: Guardian of Slime Nation
@@ -1954,7 +1946,7 @@ Mods: {
 			}
 
 			FireBreath: {
-				DisplayName: Hell Breath
+				DisplayName: Spicy
 				Description: HOT HOT HOT!
 			}
 
@@ -4426,7 +4418,7 @@ Mods: {
 
 			TechnoBuff: {
 				DisplayName: Blessing of the Blood Lord
-				Description: +IV efficiency + immortality + 5% increased melee damage
+				Description: +IV efficiency + double hoe speed
 			}
 
 			Temmie: {
@@ -4844,9 +4836,19 @@ Mods: {
 				Description: ACTIVE COMMAND: FOLLOW THE TRAITOR
 			}
 
+			NightmareTransform: {
+				Description: Show no mercy
+				DisplayName: Memento Mori
+			}
+
 			RuneofIngwazCharge: {
 				Description: Mods.AFKPETS.Buffs.RuneofIngwazCharge.Description
 				DisplayName: Runeof Ingwaz Charge
+			}
+
+			AlchemicalMixture: {
+				Description: Mods.AFKPETS.Buffs.AlchemicalMixture.Description
+				DisplayName: Alchemical Mixture
 			}
 		}
 
@@ -12635,9 +12637,8 @@ Mods: {
 				DisplayName: Clown Car Key
 				Tooltip:
 					'''
-					'The royal Koopa line is strong as ever!'
-					'While player have less than 50% of its max life the clown car will get enraged'
-					'While its enraged it will start to shoot fireball to mouse direction'
+					'The Royal Koopa line is strong as ever!'
+					While player have less than 50% of its max life the clown car gets enraged + spews fireball to close enemies
 					'''
 			}
 
@@ -12661,9 +12662,8 @@ Mods: {
 				DisplayName: Motorcycle Key
 				Tooltip:
 					'''
-					An unique product which is often used by  members of Gale Club
+					'An unique product which is often used by the members of Gale Club'
 					Upon gain enough velocity it will start to produce flames and when dismount is pressed player will jump from mount
-					It have 28 * players minion damage multiplier damage and it will explode when it hits any enemy or tile
 					'''
 			}
 
@@ -12673,9 +12673,8 @@ Mods: {
 					'''
 					'Smells like Chernobyl'
 					Using it will atract a ridable young mothron
-					pressing RC while its dashing cooldown is over will activate its dash ability with 1.5 second cooldown
-					When player dashes its activates players immunity frame for 0.33 second
-					While immunity frames are active moth start to produce eclypse dust which inflicts inferno and explosive chemical
+					Pressing RC while activates its dash ability with 1.5 second cooldown
+					Before dashing activates players immunity frame for 0.33 second + dash spread eclypse dust that inflicts chemical debuffs
 					'''
 			}
 
@@ -12684,7 +12683,6 @@ Mods: {
 				Tooltip:
 					'''
 					Summons a rideable Lil Slugger that can chop both trees and enemies
-					The saws will do 16 base damage which multiplied with players minion multiplier and trees tiles get 1 shotted
 					If [c/ffff00:Doctor's Monocle] is equipped cutting enemies give player small immunity time
 					'''
 			}
@@ -13647,7 +13645,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Increases Efficiency by I'
-					'Efficiency stat will increase the collection rate of the plants + hay when any harvester tool will be used'
+					'Efficiency stat will increase the collection rate of the plants and hay when any harvester tool will be used'
 					'''
 			}
 
@@ -13660,6 +13658,7 @@ Mods: {
 					Each consumption empower chad + after certain consumption chad gets level up and gain new ability
 					It become consumable after it have less than 4 second duration or else may cause overdose
 					Each use increase addiction + losing it without any medicine could increase radioactive toxins in blood exponentially
+					RC use while having less than 4 second duration to deactivate it safely
 					'''
 			}
 
@@ -14583,10 +14582,11 @@ Mods: {
 				Tooltip:
 					'''
 					'You want to become a hero? Then die like one!'
-					'It allows the collection of vine ropes and holding it will give immunity to webbed, weak and jumpscared debuff'
-					'Hitting enemies will cause them to bleed and this have 30% increased chance to do crit against enemies with fear debuff'
-					'Pressing RC will increase your efficiency by IV for a short time + give immortality and this have 1 minute cooldown'
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					Allows collection of vine + grant immunity against webbed, weak and jumpscared
+					Crits while on ground cause potatoes to errupt from soil + some may be hot potato which explodes upon splash
+					Hitting enemies inflict bleeding + strikes against enemies with fear debuff has 30% increased crit chance
+					Pressing RC increase efficiency by IV + greatly increase attack speed of the hoe and this has 30 second cooldown
+					Efficiency stat increase the collection rate of the plants and hay + efficiency of efficiency stat increase
 					'''
 			}
 
@@ -14595,11 +14595,12 @@ Mods: {
 				Tooltip:
 					'''
 					'This time, there is more than an illusion to fear'
-					'It allows the collection of vine ropes and holding it will give immunity to webbed, weak and jumpscared debuff'
-					'Hitting enemies will inflict fear and crits will inflict horror and this weapons damage bypass enemies DR and inflict as true damage'
-					'Pressing RC will increase your efficiency by IV for a short time + give immortality and this have 1 minute cooldown'
-					'Harvesting plants and killing enemies have a small chance to also reap their souls'
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					Allows collection of vine + grant immunity against webbed, weak and jumpscared
+					Hits inflict fear, crits inflict horror + decrease duration of tired debuff
+					Pressing RC transform player into reaper that negate damage + strikes inflict dark inferno + soul blight
+					This form last 1.5 second, grant phasing through objects + can deactivated with mount button + has 15 second cooldown
+					Harvesting and killing have a small chance to reap their souls
+					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
 
@@ -14607,8 +14608,9 @@ Mods: {
 				DisplayName: Eye Sickle
 				Tooltip:
 					'''
-					'Hitting enemy will grant next hit to spawn a tiny servant to fight on your side
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					'Eye see what Cthulhu did there'
+					Hits may call tiny servants to fight on your side + inflict bleeding
+					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
 
@@ -14617,10 +14619,10 @@ Mods: {
 				Tooltip:
 					'''
 					'A perfect tool for the harvest moon'
-					'It allows the collection of vine ropes and holding it will give immunity to webbed debuff'
-					'Hitting enemies will cause them to bleed'
-					'While harvesting plants have a small chance to drop additional mysterious seeds'
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					Allows collection of vine + grant immunity against webbed
+					Harvests may contain additional mysterious seeds + strikes inflict poison
+					Each 5th strike vine throw the scythe instead which may call nature spirits
+					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
 
@@ -14628,9 +14630,10 @@ Mods: {
 				DisplayName: Pumpkin Sickle
 				Tooltip:
 					'''
-					'Pumpking's special weapon'
-					'While harvesting plants have a small chance to drop additional pumpkins'
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					'A perfect tool for the baleful harvest'
+					Crits + killing strikes generates Pumpking's mark
+					Harvests may contain additional pumpkins + strikes burns enemies alive
+					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
 
@@ -14642,7 +14645,7 @@ Mods: {
 					'It can collect vine ropes from cutting vines'
 					'With RC you can do a stronger short distance stab'
 					'While holding it player will be immune to be webbed and critical hits will inflict bleeding'
-					'Efficiency stat will increase the collection rate of the plants + hay when this tool will be used'
+					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
 
@@ -19559,11 +19562,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Now you know where is the lamb sauce'
-					It could be thrown with LC and can be drink with RC
-					Upon drink you gain hell breath buff which make you breath flame for 5 seconds and this ability have 30 second cooldown
-					This breath is strong enough to melt any cookies even though they are formed via pure intentions
-					When thrown upon collide it will release the hells heat which both shatters defense and burns your enemies alive
-					If rogue config is active and calamity is enabled in stealth you throw 2 at the same time along with getting hell breath buff for 20 second
+					Throw with LC and drink with RC + Upon drink grant Spicy debuff
+					Drink grant great attack speed increase but increased mana usage + player move 20% faster + take slight DoT
+					RC use have 1 minute cooldown
 					'''
 			}
 
@@ -20481,23 +20482,19 @@ Mods: {
 				DisplayName: Corroded Barometer
 				Tooltip:
 					'''
-					Fog don't last forever but also your enemies too
-					'Using it will transform you into a plague cloud'
-					'When transformed you can rain down rain and plagued frogs by pressing to attack button'
-					'You can fly but your flight time is limited'
+					'Fog don't last forever but also your enemies'
+					Transforms into plague cloud that pressing attack button rain down acid rain + plague frogs
+					While being transformed grants limited flight time
 					'''
 			}
 
 			CorruptedMemoryDriver: {
-				DisplayName: Corrupted Memory Driver
+				DisplayName: Cyber Key
 				Tooltip:
 					'''
-					One of many inventions of her which is being preperation against martians
-					Sadly by imbuing lost souls to these machines cultists cause their AI went rogue and strike whatever they observe
-					'Using it will transform you into a mechanical observer'
-					'When transformed you can press attack button to do attack but with respect to your charge level you can do stronger attacks'
-					'The charge level will be shown above head and the change of colour in charge meter means stornger attack will be done'
-					'RC will allow you to teleport to your mouse direction with 5 second cooldown along and it unlocks when transformation time > 5 second'
+					'Verify if you are human'
+					Transforms into mechanical observer that charges until LC pressed + attack changes according to charge percentage
+					RC allows player to insta-teleport with 5 second cooldown + has been transformed for more than 5 second
 					'''
 			}
 
@@ -20506,20 +20503,18 @@ Mods: {
 				Tooltip:
 					'''
 					'These banners are carried by the royal men of the mighty bunny king'
-					'It allows you to transform into a cannon carrier bunny'
-					'Pressing attack button will make it use its saddle cannon shoot explosive seed'
-					While being transformed B.U.N.-E's will get 10% stronger and you gain additional double jump
+					Transforms into royal cannon carrier that pressing attack button shoots explosive seed
+					While being transformed mecha hares get 10% stronger + player gain additional jump
 					'''
 			}
 
 			FrostsEdge: {
-				DisplayName: Frost's Edge
+				DisplayName: Khione's Gift
 				Tooltip:
 					'''
-					An elemental sword that is imbued with cold hearted elementals essense and spirits of night and light
-					'Using it will transform you into a primal ice elemental'
-					'When transformed you can swirl your ice flail to damage enemies and more faster you swing more damage it does and shatter into icicles'
-					Upon touch tiles these icicles will grow bigger icicles from them
+					'Ice to meet you'
+					Transforms into primal ice elemental that can swirl ice flail
+					Strikes may shatter into icicles that can grow bigger upon colliding
 					'''
 			}
 
@@ -20528,21 +20523,28 @@ Mods: {
 				Tooltip:
 					'''
 					'The others are like animals, but I am really aware'
-					Using it will transform you into a soul infused puppet
-					When transformed you gain ability to phase through objects and form nightmares of your own
+					Transforms into soul infused puppet
+					While being transformed grant ability to phase through objects + form nightmares around player
 					'''
+			}
+
+			MechaStave: {
+				Tooltip:
+					'''
+					'It's too late...'
+					Transforms into stabilized destroyer
+					Destroyers segments may call drones to protect itself
+					'''
+				DisplayName: Mecha Stave
 			}
 
 			MonarchsPride: {
 				DisplayName: Monarch's Pride
 				Tooltip:
 					'''
-					A staff that carries a royal jewel which is being awarded only those that have proven themselves
-					'It allows you to transform into a slime prince'
-					'When transformed you will shoot gel spikes when land which have 4 second cooldown'
-					'With right click you could shoot gel spikes to your enemies'
-					'You also gain ability to bounce on enemies heads and other vanilla slimes will show no aggro to you'
-					'When you transform you cannot use any item and after you return normal you cannot use transformation weapon for 10 seconds'
+					'Yeah, and who's the king 'round here? You or me?'
+					Transforms into slime prince that pressing attack button shoots gel spikes
+					While being transformed gain ability to slimy bounce + vanilla slimes show no aggro
 					'''
 			}
 
@@ -20550,10 +20552,9 @@ Mods: {
 				DisplayName: Nightmare Scales
 				Tooltip:
 					'''
-					Let their fear consume them
-					'It allows you to transform into a beast'
-					'When transformed if you RC the beast will dash into that direction wit 100% increased damge and it have 1 second cooldown'
-					'LC will allow you to breath poisonous flames'
+					'Let their fear consume them'
+					Transforms into beast that pressing attack button breathes nightmare fuel
+					While being transformed RC allow dash into mouse direction with 1 second cooldown
 					'''
 			}
 
@@ -20561,9 +20562,9 @@ Mods: {
 				DisplayName: Scarlet Gem
 				Tooltip:
 					'''
-					A gem being fueled by pure blood
-					'Using it will transform you into a scarlet prince'
-					'When transformed you can fly for a limited time and you can do concentrated gem attack which follow your mouse'
+					'A gem being fueled by pure blood'
+					Transforms into scarlet prince that allow controling concentrated scarlet ray
+					While being transformed grants limited flight time
 					'''
 			}
 
@@ -20795,8 +20796,41 @@ Mods: {
 			}
 
 			DerplingLeg: {
-				Tooltip: ""
+				Tooltip:
+					'''
+					'Well, I gotta go now! I got a lot of bouncing to do! Hoo-hoo-hoo-hoo'
+					Greatly increases jumping speed + distance but decreases normal walking speed
+					'''
 				DisplayName: Derpling Leg
+			}
+
+			BakersDozen: {
+				Tooltip:
+					'''
+					'Hope you made room for your just desserts'
+					Fires a 13 shot randomized burst based on darts, explosive cupcakes and impaling wafers
+					'''
+				DisplayName: Bakers Dozen
+			}
+
+			IronChef: {
+				Tooltip:
+					'''
+					'Hey, panini head, are you even listening to me?'
+					Thrown knives can be lodged into tiles and enemies
+					Each strike cause stacking bleeding + additional true DoT
+					'''
+				DisplayName: Iron Chef
+			}
+
+			FarmerEmblem: {
+				Tooltip:
+					'''
+					'If you change 'I' with 'We' illness become wellness'
+					While holding a harverster increase defensive + movement stats
+					While holding a harvester increase harvesting speed by 15% and efficiency by II
+					'''
+				DisplayName: Kapital's Blessing
 			}
 		}
 
@@ -22447,6 +22481,7 @@ Mods: {
 			PumpkinLaser2.DisplayName: Pumpkin Laser2
 			PumpkinScythe.DisplayName: Pumpkin Scythe
 			PumpkinSickleScythe.DisplayName: Pumpkin Sickle Scythe
+			PumpkinSickle.DisplayName: Pumpkin Sickle
 			PumpkinSniperBullet.DisplayName: Pumpkin Sniper Bullet
 			PumpkinSniperBulletExplosion.DisplayName: Pumpkin Sniper Bullet Explosion
 			PurpleBeam.DisplayName: Purple Beam
@@ -23208,6 +23243,34 @@ Mods: {
 			TinyOcramServant.DisplayName: Tiny Ocram Servant
 			PetBUNI.DisplayName: Pet B U N I
 			AquaticWiseman.DisplayName: Aquatic Wiseman
+			FarmersScythe.DisplayName: Farmers Scythe
+			FarmersScytheChain.DisplayName: Farmers Scythe Chain
+			FarmerMark.DisplayName: Farmer Mark
+			EyeSickle.DisplayName: Eye Sickle
+			EyeSickle2.DisplayName: Eye Sickle2
+			SickleEye2.DisplayName: Sickle Eye2
+			SickleEye.DisplayName: Sickle Eye
+			DeathsTouchSlash.DisplayName: Deaths Touch Slash
+			DeathsTouch.DisplayName: Deaths Touch
+			DeathsTouch2.DisplayName: Deaths Touch2
+			CrystalHoe.DisplayName: Crystal Hoe
+			CrystalHoePotato.DisplayName: Crystal Hoe Potato
+			RainbowFlaskGas.DisplayName: Rainbow Flask Gas
+			AlchemistSickle.DisplayName: Alchemist Sickle
+			KizunasWrath.DisplayName: Kizunas Wrath
+			PumpkinHeatMark.DisplayName: Pumpkin Heat Mark
+			PumpkinSword.DisplayName: Pumpkin Sword
+			Wafer1.DisplayName: Wafer1
+			Wafer2.DisplayName: Wafer2
+			Wafer3.DisplayName: Wafer3
+			Wafer4.DisplayName: Wafer4
+			IronChef.DisplayName: Iron Chef
+			Wafer5.DisplayName: Wafer5
+			IronChef2.DisplayName: Iron Chef2
+			EnergyAreaElectric.DisplayName: Energy Area Electric
+			ApacheChopper.DisplayName: Apache Chopper
+			LightDestroyer.DisplayName: Light Destroyer
+			LightProbe.DisplayName: Light Probe
 		}
 
 		Configs: {
