@@ -796,7 +796,7 @@ Mods: {
 			FatEffect.MapEntry: Fat Effect
 			FallingSlimeStatue.MapEntry: Falling Slime雕像
 			FallenSoulContainer.MapEntry: Fallen Soul Container
-			EchoFlower.MapEntry: 呼唤之花
+			EchoFlower.MapEntry: 回音花
 			DrWilyBossSign.MapEntry: Dr Wily Boss Sign
 			DruidicArtifact.MapEntry: Druidic Artifact
 			DrFetusTrophy.MapEntry: 胎儿博士纪念章
@@ -1917,7 +1917,7 @@ Mods: {
 			}
 
 			EchoFlower: {
-				DisplayName: 呼唤之花
+				DisplayName: 回音花
 				Description: 低语着别人的希望和梦想
 			}
 
@@ -6259,7 +6259,7 @@ Mods: {
 			}
 
 			BalletShoes: {
-				DisplayName: 芭蕾鞋
+				DisplayName: 芭蕾舞鞋
 				Tooltip:
 					'''
 					'属于邪教徒的受害者之一，至少她现在在天堂……'
@@ -6443,7 +6443,7 @@ Mods: {
 			}
 
 			PinkHeart: {
-				DisplayName: 恐惧之魂
+				DisplayName: 恐惧之魂（出自：UTAU：glitchtale）
 				Tooltip:
 					'''
 					'它曾由一个无辜的容器、种族灭绝的灵魂和禁忌的魔法铸造而成'
@@ -6741,7 +6741,7 @@ Mods: {
 			}
 
 			CrystalVampireWings: {
-				DisplayName: 水晶吸血之翼
+				DisplayName: 水晶吸血之翼（出自：东方 芙兰朵露）
 				Tooltip:
 					'''
 					'会流血的'
@@ -6805,10 +6805,10 @@ Mods: {
 			}
 
 			NeoWings: {
-				DisplayName: Neo之翼
+				DisplayName: NEO之翼
 				Tooltip:
 					'''
-					'准 备 好 了 吗 ？ 表 演 开 始 了 ！！！'
+					'准 备 好 了 吗 ？ 好 戏 登 场  了 ！！！'
 					受到伤害时释放充能线圈，但减少10%伤害减免
 					受到伤害前无限飞行
 					'''
@@ -6825,7 +6825,7 @@ Mods: {
 			}
 
 			NueWings: {
-				DisplayName: 危险之翼
+				DisplayName: 畏惧之翼（出自：东方 鵺）
 				Tooltip:
 					'''
 					'一个在宇宙中穿越的残物，但闻起来仍然像新鲜出炉的面包'
@@ -6856,7 +6856,7 @@ Mods: {
 			}
 
 			OverfrozenWings: {
-				DisplayName: 冰封水晶之翼
+				DisplayName: 零度冰晶之翼（出自：东方 琪诺露）
 				Tooltip:
 					'''
 					'冰真棒！'
@@ -6890,7 +6890,7 @@ Mods: {
 			}
 
 			SpiritualWings: {
-				DisplayName: 九尾焰翼
+				DisplayName: 心灵之翼（出自：东方 纯狐）
 				Tooltip:
 					'''
 					'火焰会净化一切'
@@ -7706,7 +7706,7 @@ Mods: {
 			}
 
 			EchoFlower: {
-				DisplayName: 呼唤之花
+				DisplayName: 回音花（出自：传说之下）
 				Tooltip:
 					'''
 					'呼应着逝去的人们的希望和梦想'
@@ -15612,10 +15612,10 @@ Mods: {
 			}
 
 			BatteryPack: {
-				DisplayName: 电池组
+				DisplayName: 电池组（出自：以撒的结合）
 				Tooltip:
 					'''
-					'紧急能源!'
+					'即刻充能!'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏时，若玩家手持物品的魔力消耗为0或更低，则玩家的魔力会立刻恢复
 					不会使玩家产生魔力疾病，但有几率过热并引发爆炸，对玩家和附近的敌人造成伤害
@@ -15630,7 +15630,7 @@ Mods: {
 			}
 
 			BellyJelly: {
-				DisplayName: 果冻豆
+				DisplayName: 肚肚软糖（出自：以撒的结合）
 				Tooltip:
 					'''
 					'弹跳离开'
@@ -15641,7 +15641,7 @@ Mods: {
 			}
 
 			BlastingCap: {
-				DisplayName: 起爆筒
+				DisplayName: 雷管（出自：以撒的结合）
 				Tooltip:
 					'''
 					'轰，轰!'
@@ -15785,7 +15785,7 @@ Mods: {
 			}
 
 			ExtensionCord: {
-				DisplayName: 延长电线
+				DisplayName: 延长电线（出自：以撒的结合）
 				Tooltip:
 					'''
 					'最好和你的朋友们绑在一起'
@@ -15806,7 +15806,7 @@ Mods: {
 			}
 
 			FishHead: {
-				DisplayName: 鱼头
+				DisplayName: 鱼头（出自：以撒的结合）
 				Tooltip:
 					'''
 					'呕，它在发臭'
