@@ -25,6 +25,11 @@ namespace AFKPETSandmorezhcn
 	}
 	public class AFKPETSandmorezhcn : Mod
 	{
+		public override void Load()
+		{
+			AFKPETSTranslator.AFKPETSTranslator.LoadTranslator();
+			base.Load();
+		}
 		// ↓↓↓将此值设置为 true 并且清空 .hjson 文件中的内容 (不要删除 .hjson 文件) 以进行初次构建
 		// 初次构建后记得改为 false
 		private readonly static bool firstRegister = false;

@@ -30,55 +30,17 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 		private static readonly Dictionary<string, string> ChatManagerText = new()
 		{
 			#region NPC对话按钮
-			//游戏精灵
-			{"Prize Shop", "奖励商店"},
-			//猎犬
-			{"Start the hunt", "开始狩猎"},
-			//流浪武士
-			{"Eastern Shop", "车万商店"},
-			//艺术家
-			{"Art Shop", "艺术商店"},
-			//坠落天使
-			{"Angelic Shop", "天使商店"},
-			//设计师
-			{"Vanity Shop", "外观商店"},
-			{"You can share your heart with me", "你可以和我说说心里话"},
-			{"Help Her", "帮助她"},
-			//助教
-			{"Memory Test", "记忆测试"},
-			{"Start", "开始"},
-			{"Talk about Minigame", "关于小游戏"},
 			//研究员
 			{"Research Shop", "研究员商店"},
 			{"Fix Weapon", "修理武器"},
-			//Boss狩猎商人
-			{"Base Shop", "基础商店"},
-			{"Reward Shop", "奖励商店"},
-			{"Next Boss", "下个Boss"},
-			{"Give Trophy", "给予纪念章"},
-			{"Boss Bag Shop", "宝藏袋商店"},
-			{"Change Option Type", "更改选项类型"},
-			//赏金猎人
-			{"Quest", "任务"},
 			//死灵傀儡法师
 			{"Start Training", "开始训练"},
 			//水族智者
 			{"Start the Challenge", "开始挑战"},
 			//幽灵陶伊
 			{"Start Trivia", "冷知识问答开始"},
-			//神圣骑士，艺术家
-			{"Exchange", "交换"},
 			//刺客
 			{"Weapon Imbue Fear Toxin", "武器灌注恐惧毒素"},
-			//黑暗女猎手，受缚人质
-			{"Help", "帮助"},
-			{"Give Her Letter", "给她情书"},
-			{"Give Her Bride Costume", "给她婚裙和面纱"},
-			{"Give Her Both Your Heart and Ring", "将镌刻爱的戒指给她"},
-			//安全机器人
-			{"You are an Idiot", "你是个笨蛋"},
-			//神圣骑士，黑暗女猎手，皇家卫士，刺客
-			{"Shop", "商店"},
 			#endregion
 			
 			#region 模组指令
@@ -274,47 +236,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{"Let me show you its potential.", "让我来展示它的潜力"},
 			{"Do you think I will die after my armor break?", "你以为我的机甲破碎后我就会死吗？"},
 			{"Guardian of the Slime Nation have been defeated", "史莱姆王国的守护者已被击败"},
-
-			//SATLA-001
-			{"No need to escape while we are having fun together", "我们在一起玩的时候，没必要逃跑"},
-			{"Hello there. Thank you for your kindness to invite me.", "你好，谢谢你盛情邀请我"},
-			{"Before I give you your reward shall we play a nice game", "在我给你奖励之前，我们玩个游戏可以吗"},
-			{"For the game please cancel the answer buff for the answer you think is correct before time out.", "请在时间截至前，在左上角增益栏右键取消你认为正确的答案"},
-			{"Wrong Answer", "回答错误"},
-			{"Correct", "回答正确"},
-			{"Time is up. Have a nice gift", "时间到，接受礼物吧"},
-			{"It's quite interesting that you answer the questions upon now correct.", "非常有趣的是，你现在回答的问题是正确的"},
-			{"Even through final question waits, I will reward your efford with a tras- I mean small gift.", "即使在最后一个问题等待期间，我也会用一份小礼物来奖励你的努力"},
-			{"W H Y  Y O U  A R E  S T I L L  A L I V E ?", "你 为 什 么 还 活 着？"},
-			{"It seems I cannot play with you without breaking your resistance first", "看来我好像得先粉碎你的抵抗才能跟你一起玩"},
-			{"Recharge units, show my hospitality", "充能单元，展示我的好客之道"},
-			{"I even send Martians false information to make them believe this planet is worthless", "我甚至给火星人发送虚假信息，让他们相信这个星球一文不值"},
-			{"Because this planet is full of lifeforms to play", "因为这个星球上充满了可供玩乐的泰拉人"},
-			{"How ironic that the lifeform I played most will bring my end", "真是讽刺，我最喜爱的玩具最终将终结我"},
-			{"Let's dance one last time, shall we", "让我们最后再跳一支舞，好吗"},
-			{"SYSTEM DAMAGED. CONNECTION TO MLA IS LOST.", "系统受损，与火星的连接已断开"},
-
-			{"Let's start with easy one", "让我们从简单的开始"},
-			{"Time for the great reward and final question", "是时候问最后一个问题了"},
-			{"What is 91 divided by 7?\nA. 169^0.5\nB. 12.33337\nC. 0x192C", "91除以7等于多少?\nA. 根号169\nB. 12.33337\nC. 0x192C"},
-			{"What is 2+4", "2加4等于多少"},
-			{"What is the billionth digit of pi", "π的10亿位数是多少"},
-			{"How many equal sides do Icosahedrons have", "十面体有多少条等边"},
-
-			{"Which organ can regenerate naturally from half of itself?\nA. Heart\nB. Brain\nC. Liver", "哪个器官可以自己再生?\nA. 心脏\nB. 脑子\nC. 肝脏"},
-			{"In which part of the human body do the smallest bones occur?\nA. Leg\nB. Finger\nC. Ear", "人体的哪个部位有最小的骨骼?\nA. 腿\nB. 手指\nC. 耳朵"},
-			{"Which is the largest organ in human body?\nA. Eye\nB. Lung\nC. Skin", "人体最大的器官是什么?\nA. 眼\nB. 肺\nC. 皮肤"},
-			{"What is the average lifespan of a red blood cell in human body?\nA. Around 1 day\nB. Around 1 week\nC. Around 120 days", "红细胞在人体内的平均寿命是多少?\nA. 大约 1 天\nB. 大约 1 星期\nC. 大约 120 天"},
-
-			{"Which metal have the highest tensile strength?\nA. Titanium\nB. Tungsten\nC. Gold", "哪种金属的拉力强度最高?\nA. 钛\nB. 钨\nC. 金"},
-			{"What is the percentage of metals in periodic table", "元素周期表中金属元素占多少"},
-			{"Which metal is ferromagnetic?\nA. Gold\nB. Iron\nC. Copper", "哪种金属是有磁性的?\nA. 金\nB. 铁\nC. 铜"},
-			{"Which metal is liquid in room temperature?\nA. Lead\nB. Mercury\nC. Silver", "哪种金属在常温下是液态的?\nA. 铅\nB. 汞\nC. 银"},
-
-			{"Which of the component doesn't have a specific region condition?\nA. Resistor\nB. MOSFET\nC. BJT", "哪个组件没有特定的工作条件?\nA. 电阻器\nB. 金属氧化物半导体场效应晶体管\nC. 双极结晶体管"},
-			{"What is a dual-element fuse is used for?\nA. Operate in higher current\nB. Operate in lower current\nC. Protect the transistor", "双元件保险丝的用途是什么?\nA. 在高电流下工作\nB. 在低电流下工作\nC. 保护晶体管"}, 
-			{"What happens when AC voltage is applied to pure resistive circuit?\nA. Current is in phase with voltage\nB. Current leads voltage\nC. Current lags voltage", "当交流电压遇到电阻会发生什么?\nA. 电流与电压相一致\nB. 电流引线电压\nC. 电流滞后电压"},
-			{"Which instrument below detects electric current?\nA. Galvanometer\nB. Voltmeter\nC. Wattmeter", "下面哪个仪器可以检测电流?\nA. 电流计\nB. 电压表\nC. 瓦特计"},
 
 			//安全机器人
 			{"-Cyber Art- Old Machines Perspective", "-赛博技术- 老旧机器的视角"},
@@ -648,26 +569,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			#region UI相关
 			//安全机器人击败后的炸弹面板
 			{"SYSTEM RESET...INITIALIZING PASSIVE STATE", "系统初始化...正在重置为出厂状态"},
-			//街机游戏UI
-			{"MINIGAMES", "迷 你 小 游 戏"},
-			{"Sokoban", "推箱子"},
-			{"SOKOBAN", "推 箱 子"},
-			{"Minesweepers", "扫雷"},
-			{"MINESWEEPERS", "扫 雷"},
-			{"Thin Ice", "薄冰"},
-			{"THIN ICE", "薄 冰"},
-			{"Skill Issue", "重置"},
-			{" Mines Placed", "个地雷"},
-			{"Retry", "重置"},
-			{"Start Playing", "开始游戏"},
-			{"Level ", "第 "},
-			{" is solved", " 已完成"},
-			{"Congrats you beat all of the levels", "恭喜你通关！"},
-			{"There is an error so please tell Sir AFK", "程序发生错误，请通知作者或汉化组"},
-			//扫雷
-			{"Congrats you find all of the mines", "恭喜你找到了所有地雷"},
-			{"Press retry to start again", "点击重新开始"},
-			{"Sorry, you press to the mine", "不好意思你按到地雷了"},
 			#endregion
 
 			#region 杂项
