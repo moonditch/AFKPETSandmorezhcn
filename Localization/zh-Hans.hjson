@@ -5369,13 +5369,13 @@ Mods: {
 				DisplayName: 相位隔离靴
 				Tooltip:
 					'''
-					'感觉就像在阳光上行走'
+					'感觉像漫步在阳光之下'
 					可以在空中行走并免疫坠落伤害（类似脚下一个隐形平台）
 					'''
 			}
 
 			HumanTownBell: {
-				DisplayName: NPC诱捕花
+				DisplayName: NPC诱捕花（形象出自：pvz里的磁力菇）
 				Tooltip: 装备后已经存的城镇NPC跟随在你身边
 			}
 
@@ -5424,10 +5424,10 @@ Mods: {
 			}
 
 			StarofBethlehem: {
-				DisplayName: 伯利恒之星
+				DisplayName: 伯列恒之星
 				Tooltip:
 					'''
-					'跟随光明'
+					'跟随光'
 					受到伤害时，魔力星从天空中坠落，触碰到玩家时，恢复50魔力值
 					自动使用魔力药水，减少10%魔力值消耗
 					拥有无敌帧时，使用魔法武器不会消耗魔力值
@@ -5803,7 +5803,7 @@ Mods: {
 			}
 
 			SentryPack: {
-				DisplayName: 哨兵打包盒
+				DisplayName: 哨兵打包盒(出自：军团要塞)
 				Tooltip:
 					'''
 					'让开！让开！'
@@ -6119,7 +6119,7 @@ Mods: {
 			}
 
 			Salvation: {
-				DisplayName: 救赎
+				DisplayName: 救恩（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
 					'神圣庇护'
@@ -6190,7 +6190,7 @@ Mods: {
 			}
 
 			ThirdEye: {
-				DisplayName: 第三只眼
+				DisplayName: 第三只眼（出自：东方）
 				Tooltip:
 					'''
 					'现在，带着这让你失眠的苦痛入睡吧！'
@@ -6492,7 +6492,7 @@ Mods: {
 			}
 
 			DeckHolder: {
-				DisplayName: 牌夹
+				DisplayName: 牌夹（出自：游戏王）
 				Tooltip:
 					'''
 					'轮到我了，抽牌'
@@ -6502,7 +6502,7 @@ Mods: {
 			}
 
 			DuelDisk: {
-				DisplayName: 决斗盘
+				DisplayName: 决斗盘（出自：游戏王）
 				Tooltip:
 					'''
 					'那么，带着你剩余的尊严，滚出去！'
@@ -6514,7 +6514,7 @@ Mods: {
 			}
 
 			EchoChamber: {
-				DisplayName: 回声室
+				DisplayName: 回声室（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
 					'我看到了未来的未来未来……'
@@ -6524,7 +6524,7 @@ Mods: {
 			}
 
 			EyeofAnubis: {
-				DisplayName: 阿努比斯之眼
+				DisplayName: 阿努比斯之眼（出自：游戏王）
 				Tooltip:
 					'''
 					'愿你能看到隐藏之物……'
@@ -6533,7 +6533,7 @@ Mods: {
 			}
 
 			MilleniumCloak: {
-				DisplayName: 千禧斗篷
+				DisplayName: 千年斗篷（出自：游戏王）
 				Tooltip:
 					'''
 					'如果有决心，就有希望'
@@ -6546,7 +6546,7 @@ Mods: {
 			}
 
 			OrichalcosPendant: {
-				DisplayName: 奥里哈鲁根吊坠
+				DisplayName: 奥里哈钢吊坠（出自：游戏王）
 				Tooltip:
 					'''
 					'你心中的黑暗越来越强大……'
@@ -6557,7 +6557,7 @@ Mods: {
 			}
 
 			PotofGreed: {
-				DisplayName: 贪婪之壶
+				DisplayName: 贪欲之壶（出自：游戏王）
 				Tooltip:
 					'''
 					'对于贪婪而言，所有的自然都是微不足道的'
@@ -6566,7 +6566,7 @@ Mods: {
 			}
 
 			RevealingLight: {
-				DisplayName: 光之启示剑
+				DisplayName: 光之护封剑（出自:游戏王）
 				Tooltip:
 					'''
 					'破碎穹顶……'
@@ -6576,7 +6576,7 @@ Mods: {
 			}
 
 			TarotCloth: {
-				DisplayName: 塔罗布
+				DisplayName: 塔罗牌桌布（出自：以撒的结合忏悔）
 				Tooltip:
 					'''
 					'我看到了未来'
@@ -6589,7 +6589,7 @@ Mods: {
 				Tooltip:
 					'''
 					使用或装备它会赋予破碎空间增益
-					当智能光标被禁用时，获得无限的防止距离
+					当智能光标被禁用时，获得无限的放置距离
 					当没有Boss存活时，免疫混沌状态减益
 					-测试物品-
 					'''
@@ -7348,7 +7348,7 @@ Mods: {
 			}
 
 			Box: {
-				DisplayName: 以撒的蜘蛛箱
+				DisplayName: 盒子（来自：以撒的结合 0级道具）
 				Tooltip:
 					'''
 					{$CommonItemTooltip.RightClickToOpen}
@@ -7725,7 +7725,7 @@ Mods: {
 			}
 
 			PortableRocketLauncher: {
-				DisplayName: 分发器
+				DisplayName: 分发器（出自：军团要塞）
 				Tooltip:
 					'''
 					'金属，金属，金属……让我们以德克萨斯州的方式来完成！'
@@ -15847,7 +15847,7 @@ Mods: {
 			}
 
 			KleidiphilicMask: {
-				DisplayName: Kleidiphilic面具（出自:以撒的结合）
+				DisplayName: Kleidiphilic面具（出自:超级马里奥兄弟2）
 				Tooltip:
 					'''
 					'我能听见你……在呼吸'
@@ -17346,11 +17346,11 @@ Mods: {
 			}
 
 			MiniHakkero: {
-				DisplayName: 迷你魔法锅炉
+				DisplayName: 迷你八卦炉
 				Tooltip:
 					'''
 					'瞄准你不喜欢的人，爱的魔力就会释放出来！'
-					发射爱的火花，可能会吸引彩虹之星
+					发射恋符「极限火花」，可能会吸引彩虹之星
 					'''
 			}
 
@@ -18020,7 +18020,7 @@ Mods: {
 			}
 
 			BeatSabers: {
-				DisplayName: 极光双刃剑
+				DisplayName: 节奏光剑（出自：节奏光剑）
 				Tooltip:
 					'''
 					即使拿着它们，你也能听到微弱的节奏
@@ -20036,7 +20036,7 @@ Mods: {
 			}
 
 			AustraliumWrench: {
-				DisplayName: 澳元素扳手
+				DisplayName: 澳元素扳手（出自：军团要塞）
 				Tooltip:
 					'''
 					'我要像租来的骡子一样打你，小子！'
@@ -20072,7 +20072,7 @@ Mods: {
 			}
 
 			EngineersWrench: {
-				DisplayName: 工程师扳手
+				DisplayName: 工程师扳手(出自：军团要塞)
 				Tooltip:
 					'''
 					'像个男人一样挥舞它'
