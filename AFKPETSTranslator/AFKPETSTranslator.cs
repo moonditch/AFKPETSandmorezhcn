@@ -46,7 +46,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.UI.SokobanUI", "OnInitialize", new ()
 				{
 					{"-SOKOBAN-","-推  箱  子-"},
-					{"Level:","阶级："},
+					{"Level:","关卡："},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.UI.SokobanUI", "Update", new ()
 				{
@@ -66,7 +66,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.UI.ThinIceUI", "OnInitialize", new ()
 				{
 					{"-THIN ICE-","-薄      冰-"},
-					{"Level:","阶级："},
+					{"Level:","关卡："},
 					{"Skill Issue?","技术问题？"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.UI.ThinIceUI", "Update", new ()
@@ -223,7 +223,8 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.NPCs.SATLA001.SATLA001", "PostDraw", new ()
 				{
 					{"Let's start with easy one. How many equal sides do Icosahedrons have?\nA. 20\nB. 0xFFF\nC. i","让我们从简单的开始。十面体有多少条等边？\nA. 20\nB. 0xFFF\nC. i"},
-					{"Let's start with easy one. What is the billionth digit of Pi?\nA. 9\n0xA\nC. 0.5","让我们从简单的开始。π的10亿位数是多少？\nA. 9\nB.0xA\nC. 0.5"},
+					{"Let's start with easy one. What is 2+4?\nA. 20\nB. 0xFFF\nC. i","让我们从简单的开始。2+4等于多少？\nA.(0!+0!+0!)!\nB. 0001 + 0100\nC. 24"},
+					{"Let's start with easy one. What is the billionth digit of Pi?\nA. 9\n0xA\nC. 0.5","让我们从简单的开始。圆周率的第10亿位数是多少？\nA. 9\nB.0xA\nC. 0.5"},
 					{"Let's start with easy one. What is 91 divided by 7?\nA. 169^0.5\nB. 12.33337\nC. 0x192C","让我们从简单的开始。91除以7等于多少?\nA. 根号169\nB. 12.33337\nC. 0x192C"},
 					{"Which organ can regenerate naturally from half of itself?\nA. Heart\nB. Brain\nC. Liver","哪个器官可以自己再生?\nA. 心脏\nB. 脑子\nC. 肝脏"},
 					{"In which part of the human body do the smallest bones occur?\nA. Leg\nB. Finger\nC. Ear","人体的哪个部位有最小的骨骼?\nA. 腿\nB. 手指\nC. 耳朵"},
@@ -236,7 +237,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 					{"Which of the component doesn't have a specific region condition?\nA. Resistor\nB. MOSFET\nC. BJT","哪个组件没有特定的工作条件?\nA. 电阻器\nB. 金属氧化物半导体场效应晶体管\nC. 双极结晶体管"},
 					{"What is a dual-element fuse is used for?\nA. Operate in higher current\nB. Operate in lower current\nC. Protect the transistor","双元件保险丝的用途是什么?\nA. 在高电流下工作\nB. 在低电流下工作\nC. 保护晶体管"},
 					{"What happens when AC voltage is applied to pure resistive circuit?\nA. Current is in phase with voltage\nB. Current leads voltage\nC. Current lags voltage","当交流电压遇到电阻会发生什么?\nA. 电流与电压相一致\nB. 电流引线电压\nC. 电流滞后电压"},
-					{"Which instrument below detects electric current?\nA. Galvanometer\nB. Voltmeter\nC. Wattmeter","下面哪个仪器可以检测电流?\nA. 电流计\nB. 电压表\nC. 瓦特计"},
+					{"Which instrument below detects electric current?\nA. Galvanometer\nB. Voltmeter\nC. Wattmeter","下面哪个仪器可以检测电流?\nA. 电流表\nB. 电压表\nC. 瓦特计"},
 				});
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.NPCs.SATLA001.SATLA001", "OnKill", new ()
 				{
