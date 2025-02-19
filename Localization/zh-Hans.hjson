@@ -8612,11 +8612,12 @@ Mods: {
 			}
 
 			SpaceshipVent: {
-				DisplayName: 宇宙飞船传送器
+				DisplayName: 太空飞船通风管道（出自：among us）
 				Tooltip:
 					'''
-					'等等，白名单不是冒名顶替者......'
-					右键传送器传送到其他传送器，如果没有其他传送器，传送到相同的传送器
+					'等等，白色不是伪装者......'
+					右键点击它的贴图，玩家将传送到下一个发现的通风口，
+					如果没有发现其他通风口，玩家将传送到相同的通风口。
 					Boss存在时不能使用该道具
 					'''
 			}
@@ -13690,7 +13691,7 @@ Mods: {
 			}
 
 			GFuel: {
-				DisplayName: 电竞功能饮料
+				DisplayName: 电竞功能饮料(出自以撒联动 Gfuel)
 				Tooltip:
 					'''
 					'赢！'
@@ -13784,7 +13785,7 @@ Mods: {
 			}
 
 			SoyMilk: {
-				DisplayName: 豆浆
+				DisplayName: 豆浆（出自以撒）
 				Tooltip:
 					'''
 					'缺钙？'
@@ -15754,7 +15755,7 @@ Mods: {
 			}
 
 			CuteCupcake: {
-				DisplayName: 可爱小蛋糕
+				DisplayName: 可爱小蛋糕（出自：小马宝莉）
 				Tooltip:
 					'''
 					'你最好打赌我的纸杯蛋糕会是整个活动中最棒的部分!'
@@ -15899,7 +15900,7 @@ Mods: {
 			}
 
 			Magic8Ball: {
-				DisplayName: 魔力八号球
+				DisplayName: 魔力八号球(出自：以撒的结合)
 				Tooltip:
 					'''
 					'即使是智者也无法看到所有的结局'
@@ -16013,7 +16014,7 @@ Mods: {
 			}
 
 			ScarletBracelet: {
-				DisplayName: 斯卡蕾特之镯
+				DisplayName: 斯卡蕾特之镯（出自：东方）
 				Tooltip:
 					'''
 					'涂满红色的东西更好看'
@@ -16054,7 +16055,7 @@ Mods: {
 			}
 
 			StemCell: {
-				DisplayName: 干细胞
+				DisplayName: 干细胞（出自：以撒的结合）
 				Tooltip:
 					'''
 					'长大后他想成为一个像你一样的英雄'
@@ -16110,10 +16111,10 @@ Mods: {
 			}
 
 			VibrantBulb: {
-				DisplayName: 活力灯泡
+				DisplayName: 亮灯泡（出自：以撒的结合）
 				Tooltip:
 					'''
-					'它需要能源'
+					'它需要电力'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
 					装备此密藏时，生命值全满时略微提升所有属性，魔力值全满时魔力消耗减半
 					'''
@@ -17158,7 +17159,7 @@ Mods: {
 			}
 
 			GhostBomb: {
-				DisplayName: 幽灵炸弹
+				DisplayName: 幽灵炸弹（出自：以撒的结合）
 				Tooltip:
 					'''
 					'Ka-BOOOO'
@@ -17168,7 +17169,7 @@ Mods: {
 			}
 
 			MamaMega: {
-				DisplayName: 妈妈超级炸弹
+				DisplayName: 妈咪炸弹（出自：以撒的结合）
 				Tooltip:
 					'''
 					'BOOOOOOM!'
@@ -17272,7 +17273,7 @@ Mods: {
 			}
 
 			DivineRodofRemorse: {
-				DisplayName: 悔恨神杖
+				DisplayName: 悔悟棒（出自：东方 四季映姬）
 				Tooltip: 这曾是阎罗用来执行审判的神圣权杖
 			}
 
@@ -17409,10 +17410,10 @@ Mods: {
 			}
 
 			UrnofSouls: {
-				DisplayName: 灵魂之瓮
+				DisplayName: 灵魂之瓮（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
-					'释放他们的哀伤'
+					'释放他们的悲恸'
 					使用时会发出灵魂火焰流，对敌人造成冰霜灼烧伤害
 					击杀敌人可以获得灵魂，增加玩家的魔力值
 					'''
@@ -17547,10 +17548,10 @@ Mods: {
 			}
 
 			ThirdArm: {
-				DisplayName: 第三条腿
+				DisplayName: 第三条腿（出自：东方 灵乌路空）
 				Tooltip:
 					'''
-					'它曾属于一只地狱乌鸦'
+					'它曾属于一只地狱鸦'
 					<left>进行普通攻击，而<right>则引发无法控制的核反应
 					'''
 			}
@@ -17731,7 +17732,7 @@ Mods: {
 			}
 
 			SamsonsJawbone: {
-				DisplayName: 参孙之力·兽牙
+				DisplayName: 参孙·驴腮骨（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
 					'徒手从野兽身上撕裂出的一块血淋淋的骨头'
