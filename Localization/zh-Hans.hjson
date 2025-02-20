@@ -5530,7 +5530,7 @@ Mods: {
 			}
 
 			DustyMask: {
-				DisplayName: 尘埃面具
+				DisplayName: 尘埃面具（出自:莉莎：苦痛之旅）
 				Tooltip:
 					'''
 					'它属于封建家族的仁慈领袖'
@@ -5741,7 +5741,7 @@ Mods: {
 			}
 
 			Idol: {
-				DisplayName: 偶像
+				DisplayName: 偶像（出自：东方 埴安神袿姬）
 				Tooltip:
 					'''
 					'我们应该把这个世界托付给他们吗？'
@@ -5995,7 +5995,7 @@ Mods: {
 			}
 
 			MaxRepel: {
-				DisplayName: 黄金喷雾
+				DisplayName: 黄金喷雾（出自：宝可梦）
 				Tooltip:
 					'''
 					'开始…'
@@ -6004,7 +6004,7 @@ Mods: {
 			}
 
 			MayasPendant: {
-				DisplayName: 玛雅的吊坠
+				DisplayName: 玛雅的吊坠（出自：逆转裁判）
 				Tooltip:
 					'''
 					'哦！这真的没什么奇怪的！我是一名灵媒……还在训练中'
@@ -6032,7 +6032,7 @@ Mods: {
 			}
 
 			MomsBox: {
-				DisplayName: 妈妈的收纳盒
+				DisplayName: 妈妈的收纳盒（出自：以撒的结合）
 				Tooltip:
 					'''
 					'里面有什么？'
@@ -6042,7 +6042,7 @@ Mods: {
 			}
 
 			MomsPurse: {
-				DisplayName: 妈妈的钱包
+				DisplayName: 妈妈的钱包（出自：以撒的结合）
 				Tooltip:
 					'''
 					'更多的密藏'
@@ -13928,7 +13928,7 @@ Mods: {
 			}
 
 			SuikasGourd: {
-				DisplayName: 伊吹萃香的酒葫芦
+				DisplayName: 伊吹瓢（出自：东方 伊吹萃香）
 				Tooltip:
 					'''
 					'喝酒能激发我最强大的力量！'
@@ -14119,7 +14119,7 @@ Mods: {
 				Tooltip:
 					'''
 					'它看起来是修好了'
-					觉得世界在旋转
+					觉得天旋地转
 					'''
 			}
 
@@ -14194,7 +14194,7 @@ Mods: {
 			}
 
 			RuneofHakurei: {
-				DisplayName: 博丽符文
+				DisplayName: 博丽符文 （出自：东方 博丽灵梦）
 				Tooltip:
 					'''
 					'它纯净而强大，足以杜绝任何异变'
@@ -15582,7 +15582,7 @@ Mods: {
 			}
 
 			AstralProjection: {
-				DisplayName: 灵魂出窍
+				DisplayName: 灵魂出窍（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
 					'真正的灵魂出窍体验!'
@@ -15745,7 +15745,7 @@ Mods: {
 			}
 
 			CurvedHorn: {
-				DisplayName: 号角
+				DisplayName: 弯角（出自：以撒的结合）
 				Tooltip:
 					'''
 					'远古之力'
@@ -15923,7 +15923,7 @@ Mods: {
 			}
 
 			Parasitoid: {
-				DisplayName: 寄生蜂
+				DisplayName: 拟寄生物（出自：以撒的结合）
 				Tooltip:
 					'''
 					'可爱的小伙伴'
@@ -16101,7 +16101,7 @@ Mods: {
 			}
 
 			ValorantHeadphone: {
-				DisplayName: 无畏契约耳机
+				DisplayName: 无畏契约耳机(出自：火柴人亨利)
 				Tooltip:
 					'''
 					'这是最棒的计划！'
@@ -16281,7 +16281,7 @@ Mods: {
 			}
 
 			CharaCostume: {
-				DisplayName: Genocidist's上衣
+				DisplayName: Genocidist's短袖T恤
 				Tooltip: "'奇怪的是，它是中性的'"
 			}
 
@@ -17994,7 +17994,7 @@ Mods: {
 			}
 
 			TrueGungnir: {
-				DisplayName: 真·冈格尼尔
+				DisplayName: 真·冈格尼尔（出自：东方 蕾米莉亚）
 				Tooltip:
 					'''
 					'一抹艳丽的红雾'
@@ -18006,7 +18006,7 @@ Mods: {
 			}
 
 			ArmsofDusk: {
-				DisplayName: 黄昏之臂
+				DisplayName: 黄昏之臂（出自以撒的结合mod 邪魔典纸）
 				Tooltip:
 					'''
 					'当你感到虚弱时，你可以逃到我们创造的这个世界，变得强大起来'
@@ -18157,7 +18157,7 @@ Mods: {
 			}
 
 			FallenKingsLament: {
-				DisplayName: 堕落之王的哀叹
+				DisplayName: 堕落之王的哀叹（出自：传说之下）
 				Tooltip:
 					'''
 					'被夺走的无辜生命所诅咒的神圣遗物'
@@ -18514,7 +18514,7 @@ Mods: {
 			}
 
 			TheRealKnife: {
-				DisplayName: 血色短匕
+				DisplayName: 真刀（出自：传说之下）
 				Tooltip:
 					'''
 					'我们到了!现在事情变得有趣了'
@@ -19342,7 +19342,7 @@ Mods: {
 			}
 
 			IBS: {
-				DisplayName: 肠易激综合症
+				DisplayName: 肠易激综合症（出自：以撒的结合）
 				Tooltip:
 					'''
 					'你的肚子咕噜噜响'
