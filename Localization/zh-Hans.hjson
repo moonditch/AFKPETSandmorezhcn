@@ -4938,7 +4938,7 @@ Mods: {
 			}
 
 			DrFetusMonocle: {
-				DisplayName: 博士的单片眼镜
+				DisplayName: 博士的单片眼镜（出自：超级食肉男孩）
 				Tooltip:
 					'''
 					'首先画一个讨厌鬼，然后让他去[哔——]……'
@@ -5123,7 +5123,7 @@ Mods: {
 			}
 
 			DynastyScroll: {
-				DisplayName: 王朝卷轴
+				DisplayName: 王朝卷轴（出自：功夫熊猫）
 				Tooltip:
 					'''
 					'卷轴给了他力量……不！'
@@ -5969,7 +5969,7 @@ Mods: {
 			}
 
 			JudasShadow: {
-				DisplayName: 犹大的阴影
+				DisplayName: 犹大之影（出自：以撒的结合）
 				Tooltip:
 					'''
 					'甜蜜的复仇'
@@ -6259,7 +6259,7 @@ Mods: {
 			}
 
 			BalletShoes: {
-				DisplayName: 芭蕾舞鞋
+				DisplayName: 芭蕾舞鞋（出自：传说之下 蓝魂）
 				Tooltip:
 					'''
 					'属于邪教徒的受害者之一，至少她现在在天堂……'
@@ -6408,7 +6408,7 @@ Mods: {
 			}
 
 			Pacifier: {
-				DisplayName: 安抚奶嘴
+				DisplayName: 安抚奶嘴（出自：超级食肉男孩）
 				Tooltip:
 					'''
 					'尽管是一个种族灭绝者，但他仍然是个胎儿'
@@ -7734,7 +7734,7 @@ Mods: {
 			}
 
 			SacrificialAltar: {
-				DisplayName: 祭祀祭坛
+				DisplayName: 祭坛（出自：以撒的结合：忏悔）
 				Tooltip:
 					'''
 					'活着的人将站在倒下的人的肩膀上'
@@ -7870,7 +7870,7 @@ Mods: {
 			}
 
 			DonationBox: {
-				DisplayName: 捐款箱
+				DisplayName: 捐款箱（出自：东方）
 				Tooltip:
 					'''
 					来自博丽神社
@@ -7979,7 +7979,7 @@ Mods: {
 			}
 
 			FumoBoulder: {
-				DisplayName: 灵梦玩偶
+				DisplayName: 灵梦fumo（出自：东方）
 				Tooltip:
 					'''
 					'她看着你的钱包和灵魂'
@@ -12700,7 +12700,7 @@ Mods: {
 			}
 
 			PersonalDefenseKey: {
-				DisplayName: 私人防御钥匙
+				DisplayName: 私人防御钥匙（出自：超级食肉男孩）
 				Tooltip:
 					'''
 					召唤可骑乘的试验性伐木机，可以砍伐树木和敌怪
@@ -16986,7 +16986,7 @@ Mods: {
 			}
 
 			StormDiverMinibossMask: {
-				DisplayName: 胎儿博士的面具
+				DisplayName: 胎儿博士的面具（出自：超级食肉男孩）
 				Tooltip: ""
 			}
 
@@ -20072,7 +20072,7 @@ Mods: {
 			}
 
 			DoctorsRemoteControl: {
-				DisplayName: 博士的远程遥控器
+				DisplayName: 博士的远程遥控器（出自：超级食肉男孩）
 				Tooltip:
 					'''
 					'认为自己的故事即将结束的人大错特错'
