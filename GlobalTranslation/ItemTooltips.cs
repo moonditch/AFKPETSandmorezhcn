@@ -35,19 +35,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			foreach (TooltipLine tooltipLine in tooltips)
 			{
 				StringBuilder sb = new StringBuilder(tooltipLine.Text);
-				//sb.Replace("", "");
-				sb.Replace("-Dedicated Content-", "-专属内容-");
-				sb.Replace("-Crossover Content-", "-联动内容-");
-				sb.Replace("Trinket", "密藏");
-				sb.Replace("Artifact", "祭品");
-				sb.Replace("Prize Token", "游戏币");
-				sb.Replace("Current Reward:", "当前奖励: ");
-
-				sb.Replace("True Melee ", "真");
-				sb.Replace("active summon ", "主动");
-				sb.Replace("transformation summon ", "变身");
-				sb.Replace("No Random Crit Chance", "无暴击率");
-				sb.Replace(" combo power cost", "点连击能量消耗");
 
 				//上海套装效果
 				sb.Replace("Taking heart while having full hp spawn dolls that attack close enemies\nIf player have ability to flight they also gain that ability",

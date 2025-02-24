@@ -2,9 +2,5 @@ AFK拓展和宠物模组汉化补丁已更新：v{ModVersion}，tML-v{tMLVersion
 Github：https://github.com/moonditch/AFKPETSandmorezhcn
 = 适配AFKPets v9.9.9.82
 
-= 农具更新
-= 添加面包一打，由不死厨师处掉落
-= 添加铁厨菜刀，由不死厨师处掉落
-= 添加机械破灭杖，由生锈的晴雨表和其它材料制作
-= 羊酱汁转变为魔法武器
-= 改进变身召唤武器和坐骑
+= 重置一些代码
+= 修正一些汉化
