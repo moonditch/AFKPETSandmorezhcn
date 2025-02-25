@@ -694,6 +694,14 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				#endregion AFKPETS.Items.Accessories.Combat.BlueScarab
 
 
+				#region AFKPETS.Items.Accessories.Combat.SecretFormula
+				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.Items.Accessories.Combat.SecretFormula", "ModifyTooltips", new ()
+				{
+					{"Could be obtained from rainbow wheel of fortune\nWheel of fortune could be activated via RC to heart of forest while holding a radiant star\nRadiant star could be obtained from cookie crates secret phase","在命运之轮中获得"},
+				});
+				#endregion AFKPETS.Items.Accessories.Combat.SecretFormula
+
+
 			}
 		}
 	}
