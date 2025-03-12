@@ -412,8 +412,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			#endregion
 
 			#region ModPlayer Prekill
-			//空白塔罗牌
-			{"Blank card vibrates similar to heart beat", "空白塔罗牌如心跳般颤动"},
 			//智者的抗辩
 			{" endured killing blow", "受了致命的一击"},
 			{" find the path of Yuri.", "踏上了尤里之道"},

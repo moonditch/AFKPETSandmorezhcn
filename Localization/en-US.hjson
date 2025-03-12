@@ -4153,7 +4153,7 @@ Mods: {
 
 			SpiritofFun: {
 				DisplayName: Spirit of Fun
-				Description: Strangely it's looking for someone
+				Description: It's planning to start a crowdfunding for its CGI 3d full hd 4k premium boss battle budget
 			}
 
 			Spiritomb: {
@@ -4850,6 +4850,31 @@ Mods: {
 				Description: Mods.AFKPETS.Buffs.AlchemicalMixture.Description
 				DisplayName: Alchemical Mixture
 			}
+
+			ManaOverload: {
+				Description: Mods.AFKPETS.Buffs.ManaOverload.Description
+				DisplayName: Mana Overload
+			}
+
+			GreedDebuff: {
+				Description: Mods.AFKPETS.Buffs.GreedDebuff.Description
+				DisplayName: Greed Debuff
+			}
+
+			ArgaliaCrush: {
+				Description: Mods.AFKPETS.Buffs.ArgaliaCrush.Description
+				DisplayName: Argalia Crush
+			}
+
+			SurvivalInstinct: {
+				Description: Mods.AFKPETS.Buffs.SurvivalInstinct.Description
+				DisplayName: Survival Instinct
+			}
+
+			RadarDebuff: {
+				Description: Mods.AFKPETS.Buffs.RadarDebuff.Description
+				DisplayName: Radar Debuff
+			}
 		}
 
 		Items: {
@@ -4935,9 +4960,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Take up arms to me... Come to me...'
-					Unless enemies all debuff slots are filled it will cause fire type buffs last permanent
-					If they are filled in order to make a place for a new buff it will take weakest type out
-					On fire and frostburn gain additional true DoT
+					Selective Fire Debuffs last indefinitely onto the target unless the player dies
+					On Fire and Frostburn gain +4 additional DoT
 					'''
 			}
 
@@ -5164,8 +5188,8 @@ Mods: {
 				Tooltip:
 					'''
 					'A relic often being used by guards and miners to calm their mind in hard situations'
-					Decrease players movement speed by 10% and damage by 10% but grants immunity agains vanilla and afk pets mental based debuffs
-					Converts vanilla and afkpets chemical based debuffs into buffs that give player new abilities
+					Decrease movement speed and damage by 10% but grants immunity agains vanilla + afk pets mental based debuffs
+					Converts vanilla and afkpets chemical based debuffs into buffs that grant new abilities
 					For example while being on fire it convert to its good form which increase your movement and jump speed along with player leave lingering fire while moving
 					When its taken off these converted buffs will return back to their debuff form
 					'''
@@ -5275,8 +5299,8 @@ Mods: {
 				Tooltip:
 					'''
 					'The extraordinary is in what we do not what we are'
-					When player has >25% life its speed increase by 10% and defense by 5
-					Player take half damage from boulders and other traps
+					When at 25% health or below, gain the Survival Instinct which provide 35% speed + 10% DR
+					Player take 33% less damage from basic traps
 					'''
 			}
 
@@ -5286,15 +5310,6 @@ Mods: {
 					'''
 					'If there is the will, then there is hope'
 					-50% duration of debuffs excluding potion sickness
-					'''
-			}
-
-			DeltaRune: {
-				DisplayName: Delta Rune
-				Tooltip:
-					'''
-					Something is whispering to your soul about the legend of hopes and dreams
-					'Hiding visual will deactivate ??? Effect'
 					'''
 			}
 
@@ -5358,14 +5373,13 @@ Mods: {
 			}
 
 			HeartofEvil: {
-				DisplayName: Ocram's Heart
+				DisplayName: Fiendish Heart
 				Tooltip:
 					'''
 					'Remnants of the long forgotten titan'
 					Summons tiny Servants of Ocram to protect you
 					Halves AFKPets + vanilla dash cooldown
-					Increase max mana by 100 , mana regen bonus by 10 and magic attacks by 8%
-					Magic crits inflict fear + dark inferno
+					Increase max mana by 60 , mana regen bonus by 5 and magic attacks by 8%
 					'''
 			}
 
@@ -5528,8 +5542,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Pieces around it? Sorry mate, we are not doing Newtonian physics here'
-					Your melee damage multiplier increases with respect to your built momentum
-					It can be at maximum 2 times more
+					Melee speed multiplier increases according to built momentum which can be max x1.5
 					'''
 			}
 
@@ -5537,14 +5550,13 @@ Mods: {
 				DisplayName: Dusty Mask
 				Tooltip:
 					'''
-					'It belongs to merciful leader of a feodal clan'
-					+5 defense while holding a melee weapon + gain immunity agains weakness
-					Increases enemy aggro a lot
-					The multiplier for this can be maximum 2 times
-					Increases enemy aggro a lot and also increases defense by 4
-					Being master in Armstrong style allow players melee attacks burn enemies + not attacking built up melee damage
-					When you start to attack the built up melee damage multiplier will start to fall sharply and its up to 500%
-					Immune to chilled and weak debuffs
+					'Remnant from a merciful leader which mastered in Armstrong style'
+					Defense increase by 4, if true melee is being held by 9
+					Gain immunity against chilled & weak debuffs while increase enemy aggro moderately
+					Melee attacks burn enemies
+					Melee multiplier increases according to following two factors
+					- Movement momentum which can be max x1.5 melee speed multiplier
+					- Not attacking increase melee damage multiplier up to x5 + when attacking sharply decrease
 					'''
 			}
 
@@ -5698,10 +5710,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Feel like first of the empire and last of the republicans'
-					Take 5% less damage from front but 5% more damage from back
-					With political intelligence any minion you persue will increase your maximum life, mana and defense
-					This effect will make each used minion slot will give 10 hp, 2 defense and 10 mana
-					Military campaigns will cause you to take 10% less damage from undead legion countrymen and pirates
+					Each used minion slot will give 20 hp, 2 defense and 10 mana + inflict midas
 					'''
 			}
 
@@ -6478,17 +6487,14 @@ Mods: {
 			}
 
 			ChangeofHeart: {
-				DisplayName: Change of Heart
+				DisplayName: Millennium Necklace
 				Tooltip:
 					'''
 					'It will do no good to fight with hate in your heart'
 					Increases length of invincibility after taking damage
-					Activation of tarot cards major ability will also do the following:
-					-Upon activating tarot cards major effect a seal will appear around player
-					This seal will increase damage of all weapons by 8% + contact damage attacker take double damage back
-					The seal will damage every enemy around its area and it last for 15 seconds
-					-3 magical light sword shatter the sky
-					-Player gain holy protection for 8 seconds
+					Activation of tarot major ability additionally apply following:
+					- Generate a seal that increase damage by 8% + attacker take double damage back + damage near enemies
+					- 3 magical light sword shatter the sky + provide holy protection for 8 seconds
 					'''
 			}
 
@@ -7563,16 +7569,6 @@ Mods: {
 					'''
 					Right click to open
 					'They will take revenge of their friend'
-					'''
-			}
-
-			SpiritofFunTreasureBag: {
-				DisplayName: Treasure Bag (Spirit of Fun)
-				Tooltip:
-					'''
-					Right click to open
-					There is a small note on it's back
-					'I hope you have [c/ffff00:Fun]'
 					'''
 			}
 
@@ -8793,12 +8789,12 @@ Mods: {
 
 			AntonyMantle: {
 				DisplayName: Antony, the Novice Necromancer Mantle
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			BZMantle: {
 				DisplayName: Bunny Zeppelin Mantle
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			DrFetusTrophy: {
@@ -8813,7 +8809,7 @@ Mods: {
 
 			OkikuMantle: {
 				DisplayName: Okiku Mantle
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			SatlaTrophy: {
@@ -9070,15 +9066,6 @@ Mods: {
 					'''
 					'It seems little guy like it's place'
 					'It can be used to grow other exotic plants'
-					'''
-			}
-
-			PopsickleStick: {
-				DisplayName: Popsickle Stick
-				Tooltip:
-					'''
-					'It seems spirit of fun really likes popsickles'
-					'It's still being used as a currency by the spirit of fun other than cultist skull'
 					'''
 			}
 
@@ -12781,7 +12768,7 @@ Mods: {
 
 			OldPhotoAlbum: {
 				DisplayName: Old Photo Album
-				Tooltip: "'It's filled with photos of spirit of fun and its friend before cultists drive it insane'"
+				Tooltip: You don’t take a photograph, you make it
 			}
 
 			RareGem: {
@@ -15317,8 +15304,15 @@ Mods: {
 			}
 
 			DevilTarot: {
-				DisplayName: Devil Tarot
-				Tooltip: ""
+				DisplayName: The Devil
+				Tooltip:
+					'''
+					[c/00FF00:Tarot Card]
+					'Reveal the power of darkness'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Transform into a demon that lose defensive stats but gain slight flight + offensive stats
+					[c/FF0000:Major]: The demonic beast strike enemies around
+					'''
 			}
 
 			FoolTarot: {
@@ -15326,8 +15320,8 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					Let go and move on
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
+					'Let go and move on'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
 					[c/FFFF00:Minor]:When you take hit your major ability activates
 					[c/FF0000:Major]:You die
 					'''
@@ -15340,8 +15334,8 @@ Mods: {
 					[c/00FF00:Tarot Card]
 					'Make you see what life has to offer'
 					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
-					[c/FFFF00:Minor]:Decreased shop prices (Not compatible with discount card) + nurse + reforge prices
-					[c/FF0000:Major]:Every close enemy get midas debuff
+					[c/FFFF00:Minor]:Decreased shop + nurse + reforge prices
+					[c/FF0000:Major]: Any nonboss enemy that stole players coin get marked and explode into coin (insta kills) + drop double loot
 					'''
 			}
 
@@ -15350,10 +15344,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					May you prosper and be in good health
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Player will have healing aura around for other players + town npcs
-					[c/FF0000:Major]:All red hearts on ground be converted to golden hearts which heal 30
+					'May you prosper and be in good health'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Periodically heal close town npc + players slightly
+					[c/FF0000:Major]: Heal every town npc + all hearts return into gold hearts
 					'''
 			}
 
@@ -15362,10 +15356,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					May you find what you lost
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Your crit increases
-					[c/FF0000:Major]:For a short time your attacks are guaranteed to crit
+					'May you find all you have lost'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: At night defensive stats + crit chance At night moon shine around player which increase players defensive statsincrease by 5
+					[c/FF0000:Major]: Moonlight strike around player
 					'''
 			}
 
@@ -15374,10 +15368,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					Reveal the power of darkness
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Mana stars will restore +50 more mana
-					[c/FF0000:Major]:5 star start to rotate around player for some time
+					'May you find what you desire'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Taking mana increase max mana for short time (which stacks)
+					[c/FF0000:Major]: Stars rain from sky which damage enemies
 					'''
 			}
 
@@ -15386,10 +15380,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					May the light heal and enlighten you
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Farming Efficiency + fishing skill increase
-					[c/FF0000:Major]:You get random heal between 5-30
+					'May the light heal and enlighten you'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Farming + fishing + protection from cold + regen
+					[c/FF0000:Major]: Solar ray strike around player
 					'''
 			}
 
@@ -15398,10 +15392,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					Destruction brings creation
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Increased block placement range + mining speed
-					[c/FF0000:Major]:Bombs rain from sky
+					'Destruction brings creation'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Gain weakening scouting vision
+					[c/FF0000:Major]: generate random troll bombs around
 					'''
 			}
 
@@ -15410,10 +15404,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					May you never miss your goal
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:A magician hat will help you
-					[c/FF0000:Major]:Any close enemy projectiles be transformed into harmless butterflies
+					'May you never miss your goal'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Magic attacks home into closest enemy
+					[c/FF0000:Major]: Transform close hostile projectiles into harmless butterflies
 					'''
 			}
 
@@ -15422,10 +15416,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:Tarot Card]
-					Open your eyes and see
-					'Press binded info key while this item being selected in hotbar to get more information about tarot abilities'
-					[c/FFFF00:Minor]:Tiny sun + moon rotate around you
-					[c/FF0000:Major]:Good portion of map become visible
+					'Open your eyes and see'
+					Press binded info key while this item being selected in hotbar to get more information about tarot abilities
+					[c/FFFF00:Minor]: Sun and moon rotate around player
+					[c/FF0000:Major]: Good portion of map become visible
 					'''
 			}
 
@@ -18457,15 +18451,6 @@ Mods: {
 					'''
 			}
 
-			TheFuture: {
-				DisplayName: The Future
-				Tooltip:
-					'''
-					'This book could read the future,but its pages are glued together,so do what you know.'
-					'Hitting enemies have a chance to inflict bleeding and confusion'
-					'''
-			}
-
 			TheRealKnife: {
 				DisplayName: The Real Knife
 				Tooltip:
@@ -18498,13 +18483,10 @@ Mods: {
 				DisplayName: Yatagan
 				Tooltip:
 					'''
-					'A special type of sword being both forged and used by Ottoman army'
-					'Players velocity will build momentum which will increase its damage and while being on mount its damage increase by 10%'
-					'Attacks have 10% chance to cause serious bleeding and while enemy is heavy bleeding the blood will make blade much faster'
-					'Due to swords sharpness attacks have 50% chance to also deal internal damage which will bypass enemies both defense and DR'
-					'It's velocity will increase while enemy is under any damaging debuff and it have 5% chance to form slice in air'
-					'With RC the player could do Ottoman slap which will cause the enemy to get dizzy which cause it to lose its ability to attack for 2 second'
-					'This ability have 15 second cooldown and it will not work on bosses'
+					'I warn you against shedding blood, indulging in it and making a habit of it, for blood never sleeps'
+					Swords of your fallen comrades rotate around you + make ghost based enemies show no aggro
+					Momentum increase attack power up to 50%
+					Attacks inflict bleeding + crits release the swords to slash through enemies
 					'''
 			}
 
@@ -19024,7 +19006,7 @@ Mods: {
 			}
 
 			BernardelliModelShortPistol: {
-				DisplayName: Bernardelli Model Short Pistol
+				DisplayName: Borgata Bernardelli
 				Tooltip:
 					'''
 					'Perfect weapon for protecting your families honour'
@@ -19594,9 +19576,10 @@ Mods: {
 				DisplayName: Monkey Paw
 				Tooltip:
 					'''
-					'Seems the Eye has visited the jungle for the desert'
-					It have 10% chance to throw triple dart and not moving will increase damage + defense slightly
-					Converts poison darts into rainbow darts that inflict their own respective debuff
+					'The hand curls for the destruction of helium based rubber'
+					25% chance to throw triple dart + standing provide concentration which increase to 33% + 12% attack speed + 1 defense
+					Different colour baloons float in screen which fade away after switching weapon
+					Hitting these baloons pop then, dealing a small DoT Aoe along with inflicting debuff according to the color
 					If rogue config is active and calamity is enabled in stealth you went full monke and activate random buls**t go mode
 					Uses darts as ammo
 					'''
@@ -20831,6 +20814,50 @@ Mods: {
 					While holding a harvester increase harvesting speed by 15% and efficiency by II
 					'''
 				DisplayName: Kapital's Blessing
+			}
+
+			ProfessorsCoat: {
+				DisplayName: Professor's Coat
+				Tooltip: If you want to find the secrets of the universe, think in terms of energy, frequency and vibration
+			}
+
+			ArachneFlightPack: {
+				Tooltip:
+					'''
+					'Seeing a spider isn't a problem. It's when it's on your back'
+					Allows crawling on the walls with infinite flight time
+					Double press down release the Arachne to strike down your enemies
+					Double press down again call it back
+					'''
+				DisplayName: Arachne Movement Pack
+			}
+
+			SlicedBambooStalk: {
+				Tooltip:
+					'''
+					'If it can't be done with bamboo, it probably shouldn't be done'
+					Upon tile collision become environment hazard for 6 seconds
+					'''
+				DisplayName: Sliced Bamboo Stalk
+			}
+
+			QuantumforDummies: {
+				Tooltip:
+					'''
+					'Schrodinger's cat reads this notes, and doesn't'
+					Favouriting this item allows skipping S.A.T.L.A.-001's quiz
+					'''
+				DisplayName: Quantum Physics for Dummies
+			}
+
+			ProfessorsPallet: {
+				Tooltip: Everyone ask motion of emf but no one ask emotion of emf
+				DisplayName: Professors Palet
+			}
+
+			ProfessorsProcessor: {
+				Tooltip: Secure. Contain. Protect.
+				DisplayName: Professors Processor
 			}
 		}
 
@@ -23271,6 +23298,27 @@ Mods: {
 			ApacheChopper.DisplayName: Apache Chopper
 			LightDestroyer.DisplayName: Light Destroyer
 			LightProbe.DisplayName: Light Probe
+			ArachneLegs.DisplayName: Arachne Legs
+			YataganSlash.DisplayName: Yatagan Slash
+			Kilij.DisplayName: Kilij
+			MouseStars.DisplayName: Mouse Stars
+			TarotMoonHeadShine.DisplayName: Tarot Moon Head Shine
+			TarotMoonHead.DisplayName: Tarot Moon Head
+			TarotMoonLight.DisplayName: Tarot Moon Light
+			TarotTinyLover.DisplayName: Tarot Tiny Lover
+			TarotSunShine.DisplayName: Tarot Sun Shine
+			TarotSolarShield.DisplayName: Tarot Solar Shield
+			TarotLoverSlash.DisplayName: Tarot Lover Slash
+			FireBolt2.DisplayName: Fire Bolt2
+			TarotWallSight.DisplayName: Tarot Wall Sight
+			TarotSunShine2.DisplayName: Tarot Sun Shine2
+			MagicalHatLaser.DisplayName: Magical Hat Laser
+			TarotWoFStrike.DisplayName: Tarot Wo F Strike
+			SlicedBambooProj.DisplayName: Sliced Bamboo Proj
+			PrimitiveDart.DisplayName: Primitive Dart
+			DartBaloon2.DisplayName: Dart Baloon2
+			DartBaloon.DisplayName: Dart Baloon
+			TarotSeal.DisplayName: Tarot Seal
 		}
 
 		Configs: {

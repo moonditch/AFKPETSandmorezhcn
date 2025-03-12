@@ -1254,87 +1254,87 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"谢谢你，伙计。孩子们会很高兴的。"
 			},
 			{
-				"Partner I don't require any more help. Thanks for asking.",
-				"伙计，我不需要更多的帮助了。谢谢你的关心。"
+				"Got it, partner. If you ever need anything down the line, don't hesitate to reach out. Take care!",
+				"明白了，伙伴。如果你以后需要任何帮助，尽管联系我。保重！"
 			},
 			{
-				"You looking for job? Well if you accept I have one for you due to the request of royal designer. Since running behind of a freaking bug is pathetic for me why not you do that job while I was sle-I mean protecting your town? One of cyan husk will be enough for me.",
-				"你在找工作吗？如果你愿意的话，我这里有一份皇家设计师委托的工作。我觉得追捕那些烦人的虫子对我来说太可笑了，不如你去做这份工作，而我则去保护你的城镇，一只青色的外壳就足够了。"
+				"You looking for a job? Well, if you're up for it, I've got one for you. The royal designer needs something, and since chasing down a freakin' bug is beneath me, I figured you could handle it while I… ahem... protect the town. One cyan husk will be enough for me. Appreciate it, partner!",
+				"你在找工作吗？好吧，如果你有兴趣，我这儿有一个任务给你。皇家设计师需要一些东西，而追捕一只该死的虫子对我来说太掉价了，所以我想你可以处理这件事，而我……咳咳……保护城镇。一只青色外壳就够了。谢了，伙伴！"
 			},
 			{
-				"This time I need something for myself. I'm sorta out of chocolate and I'm start to lose my mind. So please at least find me 10 of chocolate to control my instincts.",
-				"我这次需要为自己找点东西。我巧克力吃完了，快要失去理智了。所以，请至少帮我找到 10 块巧克力来控制我的猎杀本能。"
+				"This time, it's for me. I'm seriously running low on chocolate, and I'm starting to lose my mind here. I need it, partner. So, please, could you find me 10 pieces of chocolate to keep my instincts in check? I'd owe you one!",
+				"这次是为了我自己。我的巧克力快吃完了，我快要疯了。我需要它，伙伴。所以，你能帮我找10块巧克力来控制我的猎杀本能吗？我会欠你一个人情！"
 			},
 			{
-				"I honestly don't know why I'm even signed for this while I can be an outlaw but royal chef wants me to bring some carrot to her AND THAT FREAK WANTS ROYAL ONES...I'm sorry since I can't hold myself. I can easily beat demons but they kept send me to hunt some bunnies. Could you bring 2 of them for me? Royal men of the bunny king carry these as show their status so in that freakin zeppelin there are at least one of them.",
-				"我真的不知道为什么我会接这种任务，我明明可以当个不法之徒，但皇家厨师却让我给她带些胡萝卜，而且她还要皇家专用的……对不起，我控制不住了。我能轻易打败恶魔，但他们却让我去打猎兔子。你能帮我带两只回来吗？兔子国王的手下都携带这种象征身份地位的胡萝卜，所以在那艘该死的飞艇上，至少有一根。"
+				"I honestly don't even know why I signed up for this when I could just be an outlaw, but the royal chef insists I bring her some carrots… AND SHE WANTS THE ROYAL ONES. I'm sorry, I just can't hold it in. I can take down demons no problem, but they keep sending me after bunnies. Could you grab 2 of them for me? The royal men of the bunny king carry them to show their status, so there's at least one on that freakin' zeppelin. Appreciate it, partner!",
+				"我真的不知道我为什么要接下这个任务，明明我可以当个亡命之徒，但皇家厨师坚持要我带些胡萝卜给她……而且她要的是皇家胡萝卜。对不起，我实在忍不住了。我可以轻松干掉恶魔，但他们却让我去追兔子。你能帮我抓2只吗？兔子国王的手下都携带这种象征身份地位的胡萝卜，所以在那艘该死的飞艇上至少有一根。谢了，伙伴！"
 			},
 			{
-				"Well I normally prefer hunting monsters by myself but I have a special request for you today. While I was visiting one of desert town a sand lady thingy attack me. She is not a threat but then she formed a mirage of my dead brother Azzy. I...Mis him so much and that freak break my heart by showing who I truly care. I attack but that thing freak out and fly away. So I want you to hunt her down and bring her heart which is called as forbidden fragment to me.",
-				"我通常喜欢独自猎杀怪物，但今天我有个特别的任务要交给你。我去沙漠城镇时，被一个元素精灵袭击了。她并不构成威胁，但她却用幻象模仿了我死去的哥哥Azzy。我……非常想念他，而那个家伙却用我最在乎的人来伤害我。我攻击了她，但她却吓得飞走了。所以，我想请你帮我猎杀她，并把她的心，也就是被称为禁忌碎片的东西带给我。"
+				"I usually prefer hunting monsters on my own, but I've got a special request for you today. While I was in a desert town, a sand lady attacked me. She's no real threat, but then she made a mirage of my dead brother, Azzy. That freaked me out—seeing him again, I miss him so much—and it broke my heart. I attacked her, but she panicked and flew off. Now, I want you to hunt her down and bring me her heart, the Forbidden Fragment. It would mean a lot.",
+				"我通常喜欢独自猎杀怪物，但今天我有个特别的请求给你。当我在沙漠小镇时，一个沙元素精灵攻击了我。她没什么威胁，但她却用幻象模仿了我死去的哥哥Azzy。那让我吓坏了，我……非常想念哥哥。我攻击了她，但她惊慌失措飞走了。所以，我想请你帮我猎杀她，并把她的心，也就是被称为禁忌碎片的东西带给我。这对我来说意义重大。"
 			},
 			{
-				"Do you ever see an metal plated flying egg? I feel that thingy call itself satla or something. Royal blacksmiths are interested with that things plating for alloys so why not bringing 5 of scrap metal for me.Why I do it myself? Well as you can see I cannot fly and that thing don't get close to my attack distance neither so I feel you can do it better than me.",
-				"你见过金属外壳的飞行蛋吗？我觉得那家伙自称 SALTA 之类的。皇家铁匠对这种外壳的合金很感兴趣，所以你能帮我带 5 块废铁回来吗？为什么我自己不去？嗯，你看，我不会飞，而且那家伙也不会靠近我的攻击范围，所以我觉得你能比我做得更好。"
+				"Ever seen a metal-plated flying egg? I think it calls itself a 'Satla' or something. The royal blacksmiths are pretty interested in its plating for alloys, so I figured, why not bring me 5 pieces of scrap metal from it? Why don't I do it myself? Well, as you can see, I can't fly, and that thing never gets close enough for me to land a hit. I'm sure you'd have a better shot at it. Appreciate it, partner!",
+				"你见过金属外壳的飞行蛋吗？我想它自称‘Satla’什么的。皇家铁匠对它的外壳合金很感兴趣，所以我想，能给我顺便带5块废铁回来呢？为什么我不自己去？嗯，如你所见，我不会飞，而那东西从不会靠近到我能打到它的距离。我相信你更有机会搞定它。谢了，伙伴！"
 			},
 			{
-				"Do you mean tribals call giant tortoises as inevitable death due to their exteremely dangerous spin attack. I'm more curious about how their shell does not break while doing it so could you bring 1 turtle shell for me partner?",
-				"你是说巨型海龟被称为命定之死，因为它们的旋转攻击极其危险？我更好奇的是，它们的壳在旋转时为什么不会破裂。所以，伙伴，你能帮我带 1 个海龟壳回来吗？"
+				"Yeah, those tribals call giant tortoises 'inevitable death' because of their crazy spin attack—those things are deadly. I'm more curious about how their shell doesn't crack while they're doing it. So, partner, if you could bring me 1 turtle shell, I'd be really interested to take a closer look. Appreciate it!",
+				"是的，那些部落人把巨型陆龟称为‘命定之死’，因为它们疯狂的旋转攻击——那些东西真的很致命。我更好奇的是它们的壳在旋转时怎么不会裂开。所以，伙伴，如果你能给我带1个海龟壳吗，我很感兴趣想仔细研究一下。谢了！"
 			},
 			{
-				"You got any spare time? I have a job for you. Some vikings request me to kill a ice golem that is freezing their animals to death but since I don't enjoy walking in middle of a freaking blizzard I believe you can do it. So if you bring me 1 frost core that is enough for me to give that thing to vikings and finally get promotion in kingdom.",
-				"你有空吗？我有份工作给你。一些维京人请求我杀死一只冰巨人，它正在把他们的动物冻死。但我不喜欢在暴风雪中行走，所以我觉得你能胜任这项工作。所以，如果你能给我带 1 个寒霜核回来，我就可以把这个东西交给维京人，并终于在王国里得到晋升。"
+				"Got some spare time? I've got a job for you. Some vikings asked me to take down an ice golem that's been freezing their animals to death, but I'm not too keen on trudging through a damn blizzard. I think you'd be the perfect one for the job. If you bring me 1 frost core, that'll be enough for me to hand it over to the vikings and finally get that promotion in the kingdom. Appreciate it!",
+				"有空吗？我有个任务给你。一些维京人让我去干掉一只冰巨人，它把他们的动物都冻死了，但我不太想在暴风雪中跋涉。我觉得你是这份工作的完美人选。如果你能给我带1个冰霜核心，那就足够我交给维京人并最终在王国里升职了。谢了！"
 			},
 			{
-				"Do you know that the bees that are fed with plantera's polen grow enormously and become the future political leader of the hive? Well now you know and since I have allergy to bees I want you to hunt it down to keep bee population controlled. If you bring 5 bee wax that will be enough for me convince.",
-				"你知道吗，被世纪之花的花粉喂养的蜜蜂会变得巨大，并成为蜂巢未来的领袖？现在你知道了，由于我对蜜蜂过敏，我想请你猎杀它们，以控制蜜蜂的数量。如果你能带来 5 个蜂蜡，那就足够了。"
+				"Did you know that bees fed with Plantera's pollen grow enormous and end up becoming the future political leaders of the hive? Well, now you do. And since I'm allergic to bees, I'd prefer to keep their population in check. So, if you could hunt a few down and bring me 5 bee waxes, that'll be enough for me to be convinced you handled it. Appreciate it, partner!",
+				"你知道吗，被世纪之花的花粉喂养的蜜蜂会变得巨大，并成为蜂巢未来的领袖？现在你知道了，由于我对蜜蜂过敏，我想请你猎杀它们，以控制蜜蜂的数量。如果你能带来 5 个蜂蜡，那就足够了。谢了，伙伴！"
 			},
 			{
-				"They say applying some mucus to your skin it can make you look 10 year younger so I'm curious what will happen if I apply it to a baby and can I finally learn how people look in negative ages? Well if you could find 1 purple mucus it will be enough for me.",
-				"他们说，把某些粘液涂在皮肤上可以让你看起来年轻10岁，所以我想知道，如果我把它涂在婴儿身上，我会不会看到负年龄的人？嗯，如果你能找到1 个紫黏液，那就足够了。"
+				"They say applying mucus to your skin can make you look 10 years younger, and I'm curious what might happen if I put it on a baby. Could I finally figure out what people look like in negative ages? If you could find me 1 purple mucus, that would be enough for my little experiment. Thanks, partner!",
+				"他们说，把某些粘液涂在皮肤上可以让你看起来年轻10岁，所以我想知道，如果我把它涂在婴儿身上，我会不会看到负年龄的人？嗯，如果你能找到1 个紫黏液，那就足够我做这个小实验了。谢了，伙伴！"
 			},
 			{
-				"Do you know selling gel in kingdom is quite profitable? It may sell low in these lands but due to there is no slimy lifeform near to kingdom due to they make them extinct they are being sold in much better prices so could you bring me 50 gel? Thanks partner.",
+				"Did you know selling gel in the kingdom is pretty profitable? It might not go for much around here, but since there are no slimy lifeforms near the kingdom—thanks to them being wiped out—it's being sold for much higher prices elsewhere. So, could you bring me 50 gels? I'd really appreciate it, partner!",
 				"你知道吗，在王国里卖凝胶是相当赚钱的？虽然在这片土地上它的售价不高，但由于王国附近没有粘稠的生命体，它们已经被灭绝了，所以在王国里它们被卖出了更高的价格。所以，你能帮我带 50 个凝胶回来吗？谢谢，伙伴。"
 			},
 			{
-				"Well partner this time due to royal guards freak out from reanimated skeletons I was sent to gather some ectoplasm from the first dungeon I found . Since last time I visit one a glowy eyed skeleton with weird sense of humor have stalked me and...Well lets say it didn't end well. So if you collect 5 of them and give me I would be grateful.",
-				"嗯，伙伴，这次由于皇家卫兵对复活的骷髅感到害怕，我被派去从我发现的第一个地牢里收集一些灵质。上次我去的时候，一个发光的眼睛、幽默感奇怪的骷髅跟踪了我……嗯，我们不要说结局了。所以，如果你能收集 5 个灵气并给我，我会非常感激的。"
+				"Well, partner, this time I've been sent out to gather some ectoplasm from the first dungeon I come across. The royal guards are freaking out over those reanimated skeletons. Problem is, last time I visited one of those places, a glowy-eyed skeleton with a twisted sense of humor decided to stalk me, and... let's just say it didn't end too well. So, if you could collect 5 ectoplasms and hand them over, I'd be grateful. Appreciate it!",
+				"好吧，伙伴，这次我被派去从第一个地牢里收集一些灵质。皇家守卫对那些复活的骷髅感到恐慌。问题是，上次我去那种地方时，一个有着扭曲幽默感的发光眼睛骷髅决定跟踪我，然后……只能说结果不太好。所以，如果你能收集5个灵气并交给我，我会很感激。谢了！"
 			},
 			{
-				"From what I have heard the cultists really eject souls inside of mechanical guardians to make them went rogue and does not listen orders of the lady of light. I'm more interested with a specific type called soul of fright so could you bring 5 of them to me. Thanks partner.",
+				"From what I've heard, those cultists are really out here stuffing souls into mechanical guardians, making them go rogue and ignore the Lady of Light's commands. Messed up, huh? But what really interests me is a specific type—Soul of Fright. So, could you bring me 5 of them, partner? I'd appreciate it.",
 				"我听说，邪教徒真的会把灵魂注入机械守卫体内，使它们变得叛逆，不再听从光之女神的命令。我对一种叫做恐惧之魂的特定类型很感兴趣，所以你能帮我带5个回来吗？谢谢，伙伴。"
 			},
 			{
-				"I kinda feel sad for that mech lady. You make robots to guard this planet from the weird aliens called martians but then few nerd puts soul to your creations with ritual and force them to slaughter. Not gonna lie I want to inject a specific type of soul to get bigger biceps for stronger slashes. So partner could you bring 5 soul of might?",
-				"我有点为光之女神感到难过。你们制造机器人来保护这个星球免受那些被称为火星人的奇怪外星人的威胁，但一些书呆子却用仪式把灵魂注入到你们的创造物中，强迫它们屠杀。不得不说，我想注入一种特定的灵魂来获得更大的二头肌，以便更有力地挥舞。所以，伙伴，你能帮我带 5 个力量之魂回来吗？"
+				"Gotta say, I feel kinda bad for that mech lady. Imagine building robots to protect the planet from those weird Martians, only for a couple of nerds to shove souls into them with some ritual and turn them into killing machines. Rough deal. Not gonna lie, though—I've been thinking about injecting a specific type of soul myself… y'know, to bulk up my biceps for stronger slashes. So, partner, could you bring me 5 Souls of Might?",
+				"我有点为光之女神感到难过。想象一下，建造机器人来保护地球免受那些奇怪的火星人侵害，结果几个书呆子用某种仪式把灵魂塞进去，把它们变成杀人机器。真是糟糕的交易。不过，说实话——我也在考虑注射一种特定的灵魂……你知道的，为了让我的二头肌更强壮，挥出更有力的斩击。所以，伙伴，你能给我带5个力量之魂回来吗？"
 			},
 			{
-				"Hehe. I have heard two weird robotic eye secretly watching people while doing bath and take photos. Well since they also take photo of the princess the king order me to slay them but due to they know what happen when they mess me they always fly and escape. So could you break them apart. If you bring 5 soul of sight it will convince me.",
-				"呵呵，我听说有两个奇怪的机械眼睛在偷偷观察人们洗澡并偷拍。嗯，由于它们也拍了公主的照片，国王命令我杀死它们，但由于它们知道惹怒我的下场，所以总是飞走并逃跑。所以，你能把它们摧毁吗？如果你能带来 5 个视域之魂，那就足够了。"
+				"Hehe. I've heard there are two weird robotic eyes secretly spying on people while they bathe—snapping photos, too. Well, since they even took a picture of the princess, the king ordered me to take them down. But those sneaky things know better than to mess with me, so they always fly off before I can get to them. So, could you break them apart for me? If you bring me 5 Souls of Sight, I'll be convinced you got the job done.",
+				"呵呵，我听说有两个奇怪的机械眼睛在偷偷观察人们洗澡并偷拍。嗯，由于它们也拍了公主的照片，国王命令我杀死它们，但那些狡猾的东西知道不该惹我，所以它们总是在我靠近之前飞走。所以，你能帮我拆了它们吗？如果你给我带5个视域之魂，那就足够了。"
 			},
 			{
-				"Do you know there are worm looking dragons fly in skies that contain souls of flight? I always wanted to fly but due to that tinkere's rage against people from kingdom I never find a chance. So could you bring me 5 soul of flight? Maybe it could help.",
-				"你知道吗，天空中有一种像虫子一样的飞龙，它们的体内含有飞行之魂？我一直想飞，但由于那些鸟妖对王国怀恨在心，我从未有机会飞行过。所以，你能帮我带 5 个飞翔之魂回来吗？也许它们能帮到我。"
+				"Did you know there are worm-like dragons soaring through the skies that carry Souls of Flight? I've always wanted to fly, but thanks to that tinkerer's grudge against people from the kingdom, I've never had the chance. So, could you bring me 5 Souls of Flight? Maybe they'll help me finally take to the skies.",
+				"你知道吗，天空中有一种像虫子一样的飞龙，它们的体内含有飞行之魂？我一直想飞，但由于那些鸟妖对王国怀恨在心，我从未有机会飞行过。所以，你能帮我带 5 个飞翔之魂回来吗？也许它们能帮我最终飞上天空。"
 			},
 			{
-				"Greetings partner. Today I was sent to hunt some squid to bring some ink until the princess's next math lesson but due to I don't like things with tentacles could you bring 1 black ink for me? Thank you.",
-				"你好，伙伴。今天我被派去猎杀一些乌贼，以获取墨水，供公主下次上数学课使用。但由于我不喜欢有触手的东西，所以你能帮我带 1 瓶黑墨水回来吗？谢谢。"
+				"Greetings, partner. I got sent to hunt some squid for ink since the princess needs it for her next math lesson. But… I'm not a fan of things with tentacles. So, could you bring me one black ink instead? I'd appreciate it. Thanks!",
+				"你好，伙伴。今天我被派去猎杀一些乌贼，以获取墨水，供公主下次上数学课使用。但……我不喜欢有触手的东西，所以你能帮我带 1 瓶黑墨水回来吗？我会很感激的。谢谢！"
 			},
 			{
-				"I HATE THIS, I HAT-You ask what happened? Well, today is the fish day so I was sent to find fish to feed the babies that are too lazy to catch by themselves. But sadly last time I try to catch I accidentally catch a baby fish and then a lady with tentacles come and beat me up. Don't look me like that if I want I could easily defeat her but she's *blushes* quite a lady and I enjoy woman that can beat my ass. So could you fish 10 bass for me?",
-				"我恨这个，我恨……你问我发生了什么？嗯，今天是吃鱼的日子，所以我被派去找鱼来喂那些懒得自己动手的孩子们。但遗憾的是，上次我试图捕鱼时，不小心捕到了一条小鱼，然后一个带着触手的女士就过来打了我一顿。别那样看着我，如果我想的话，我可以轻易打败她，但她……嗯，她是个挺不错的女士，而且我喜欢能打败我的女人。所以，你能帮我钓 10 条鲈鱼回来吗？"
+				"I HATE THIS, I HAT—Huh? You wanna know what happened? Well, today's Fish Day, and I got sent to catch fish for the little ones too lazy to do it themselves. But last time I tried, I accidentally caught a baby fish… and then some lady with tentacles showed up and beat me senseless. Don't give me that look! I could have taken her down if I wanted to, but… blushes she's quite the lady, and, well, I've got a thing for women who can kick my ass. Anyway, could you fish up 10 bass for me? I'd owe you one.",
+				"我恨这个，我恨……你问我发生了什么？嗯，今天是吃鱼的日子，所以我被派去找鱼来喂那些懒得自己动手的孩子们。但遗憾的是，上次我试图捕鱼时，不小心捕到了一条小鱼，然后一个带着触手的女士就过来把我打得半死。别那样看着我，如果我想的话，我可以轻易打败她，但她……嗯，她是个挺不错的女士，我对能把我打趴下的女人有点好感。所以，你能帮我钓 10 条鲈鱼回来吗？我会再欠你一个人情。"
 			},
 			{
-				"From what I have learnt from the royal wizard there is a special potion that can make people fall in love with you so I need that for some scientific purposes so could you bring me 4 of them? Thanks partner.",
+				"From what I've learned from the royal wizard, there's a special potion that can make people fall in love with you. I need it for, uh… scientific purposes. So, could you bring me four of them? Appreciate it, partner.",
 				"我从皇家巫师那里了解到，有一种特殊的药水可以让人爱上你，所以我需要它来做一些科学研究。所以，你能帮我带 4 瓶爱情药水回来吗？谢谢，伙伴。"
 			},
 			{
-				"I have heard shrimps of this coasts are quite tasty so could you bring me 4 shrimp to make a nice meal for a lovely lady. Our first meeting is not too kind so I want to give her a nice gift for making her forgive me.",
+				"I've heard the shrimp off these coasts are pretty tasty, so could you bring me four of them? I want to cook up a nice meal for a lovely lady. Our first meeting didn't go too well, and I'd like to make it up to her with a gift.",
 				"我听说这片海岸的虾很好吃，所以你能帮我带 4 只虾回来吗？我想为一位可爱的女士做一顿美味的饭菜。我们第一次见面时不太愉快，所以我想送她一份礼物，让她原谅我。"
 			},
 			{
-				"Hello partner. I normally don't ask something like this but some children in kingdom have some eye problems. Since their parents could not afford I feel it would be nice if I could bring them some glasses but due to I cannot fly and the eyes now what I can do them from my aura could you defeat them and bring 2 lens to me? Thank you.",
+				"Howdy, partner. I don't usually ask for favors, but some kids in the kingdom are having trouble with their eyesight. Their parents can't afford to help, so I figured I'd do something about it. Problem is, I can't fly, and their eyes need something I can't fix with just my aura. Could you take down those creatures and bring me two lenses? I'd appreciate it.",
 				"你好，伙伴。我通常不会提出这样的要求，但王国里有些孩子眼睛有问题。由于他们的父母负担不起治疗费用，我觉得如果我能给他们带些眼镜回来会更好。但由于我不会飞，而且我现在也不能用我的光环来治疗眼睛了，所以你能打败那些怪物，并给我带 2 个晶状体回来吗？谢谢。"
 			}
 		};

@@ -603,7 +603,7 @@ Mods: {
 
 		Tiles: {
 			AquaPainting.MapEntry: 水彩绘
-			ArcadeMachine.MapEntry: 商场游戏机
+			ArcadeMachine.MapEntry: 街机
 			ArticAmplifier.MapEntry: 霜雾感应器
 			Banners.MapEntry: 旗帜
 			BicycleEffect.MapEntry: 自行车效应
@@ -4149,7 +4149,7 @@ Mods: {
 
 			SpiritofFun: {
 				DisplayName: 娱乐之魂
-				Description: 奇怪的是它在寻找某人
+				Description: 它计划众筹用于制作3D全高清4K级别的高品质Boss战的预算
 			}
 
 			Spiritomb: {
@@ -4846,6 +4846,31 @@ Mods: {
 				Description: Mods.AFKPETS.Buffs.AlchemicalMixture.Description
 				DisplayName: Alchemical Mixture
 			}
+
+			ManaOverload: {
+				Description: Mods.AFKPETS.Buffs.ManaOverload.Description
+				DisplayName: Mana Overload
+			}
+
+			GreedDebuff: {
+				Description: Mods.AFKPETS.Buffs.GreedDebuff.Description
+				DisplayName: Greed Debuff
+			}
+
+			ArgaliaCrush: {
+				Description: Mods.AFKPETS.Buffs.ArgaliaCrush.Description
+				DisplayName: Argalia Crush
+			}
+
+			SurvivalInstinct: {
+				Description: Mods.AFKPETS.Buffs.SurvivalInstinct.Description
+				DisplayName: Survival Instinct
+			}
+
+			RadarDebuff: {
+				Description: Mods.AFKPETS.Buffs.RadarDebuff.Description
+				DisplayName: Radar Debuff
+			}
 		}
 
 		Items: {
@@ -4931,9 +4956,8 @@ Mods: {
 				Tooltip:
 					'''
 					'拿起武器……向我走来……'
-					除非敌人的减益栏位已满，否则将受到永久的火焰类型减益
-					如果减益栏已满，将移除最弱的减益
-					着火和霜冻造成额外的真实持续伤害
+					在玩家死亡前，敌人将受到永久的火焰类型减益
+					着火和霜冻造成额外4点真实持续伤害
 					'''
 			}
 
@@ -5271,8 +5295,8 @@ Mods: {
 				Tooltip:
 					'''
 					'非凡之处不在于我们是谁，而在于我们做了什么'
-					当生命值高于25%时，增加10%速度，增加5%防御
-					受到巨石和其它陷阱的伤害减半
+					当生命值低于25%时获得生存本能增益，增加35%移动速度和10%伤害减免
+					减少66%陷阱的伤害
 					'''
 			}
 
@@ -5282,15 +5306,6 @@ Mods: {
 					'''
 					'如果有信念，那么就有希望'
 					减益效果的持续时间减少50%，耐药性除外
-					'''
-			}
-
-			DeltaRune: {
-				DisplayName: 德尔塔符文
-				Tooltip:
-					'''
-					'有什么东西在耳边低语，讲述着希望与梦想的传说'
-					隐藏可见性将停用 ??? 效果
 					'''
 			}
 
@@ -5360,8 +5375,7 @@ Mods: {
 					'被遗忘的巨人的遗迹'
 					召唤奥库瑞姆仆从为你而战
 					原版和本模组冲刺的冷却时间减半
-					增加100最大魔力值、5魔力再生速度、8%魔法伤害
-					魔法暴击施加恐惧和地狱黯炎
+					增加60最大魔力值、5魔力再生速度、8%魔法伤害
 					'''
 			}
 
@@ -5524,8 +5538,8 @@ Mods: {
 				Tooltip:
 					'''
 					'周围的碎片？抱歉，我们这儿不搞牛顿物理学'
-					你的近战伤害倍率会随着挥舞积累的动量而增加
-					最多增加2倍
+					近战攻速会随着挥舞积累的动量而增加
+					最多增加1.5倍
 					'''
 			}
 
@@ -5533,15 +5547,13 @@ Mods: {
 				DisplayName: 尘埃面具（出自:莉莎：苦痛之旅）
 				Tooltip:
 					'''
-					'它属于封建家族的仁慈领袖'
-					免疫冷冻和虚弱
-					手持近战武器时增加5防御
-					大幅增加了敌人的仇恨值
-					你的近战伤害倍率会随着挥舞积累的动量而增加，最多增加2倍
-					敌人更有可能以你为目标并增加4防御
-					精通阿姆斯特朗风格的玩家可以让近战攻击点燃敌人
-					不使用武器时，增加近战伤害倍率，最高上限为500%
-					使用武器时，累积的近战伤害倍率会快速下降
+					'精通阿姆斯特朗风格的仁慈领袖的遗物'
+					增加4点防御，手持真近战武器时增加9点
+					免疫冷冻和虚弱，大幅增加了敌人的仇恨值
+					近战攻击点燃敌人
+					根据以下两个因素提升近战伤害倍率：
+					- 移动动量：最高可提升至1.5倍近战攻速
+					- 蓄力机制：不攻击时，近战伤害倍率逐渐提升至5倍；攻击后倍率会迅速下降
 					'''
 			}
 
@@ -5696,10 +5708,8 @@ Mods: {
 				Tooltip:
 					'''
 					'就像帝国的开始，共和的结束'
-					减少5%正面受到伤害，增加5%背面受到伤害
-					借助花环蕴藏的政治智慧，你所统领的召唤物会提升你的最大生命值、魔力和防御
-					每使用一个的召唤栏，提供10点生命值、2点防御力和10点魔力值
-					减少10%不死生物和海盗的伤害
+					每使用一个的召唤栏，提供20点生命值、2点防御力和10点魔力值
+					攻击施加迈达斯减益
 					'''
 			}
 
@@ -6477,7 +6487,7 @@ Mods: {
 			}
 
 			ChangeofHeart: {
-				DisplayName: 变幻之心
+				DisplayName: 千禧之心
 				Tooltip:
 					'''
 					'你心中的恨意对战斗不会有帮助'
@@ -7566,16 +7576,6 @@ Mods: {
 					'''
 			}
 
-			SpiritofFunTreasureBag: {
-				DisplayName: 宝藏袋（娱乐之魂）
-				Tooltip:
-					'''
-					{$CommonItemTooltip.RightClickToOpen}
-					它的背面有一张小纸条
-					'我希望你感受到了[c/ffff00:乐趣]'
-					'''
-			}
-
 			SuspiciousBox: {
 				DisplayName: 薛定谔之盒
 				Tooltip:
@@ -7651,7 +7651,7 @@ Mods: {
 			}
 
 			ArcadeMachine: {
-				DisplayName: 商场游戏机
+				DisplayName: 街机
 				Tooltip:
 					'''
 					'以电力和玩家的生命残留物为燃料'
@@ -8795,12 +8795,12 @@ Mods: {
 
 			AntonyMantle: {
 				DisplayName: 死灵傀儡法师悬挂纪念章
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			BZMantle: {
 				DisplayName: 兔子飞艇悬挂纪念章
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			DrFetusTrophy: {
@@ -8815,7 +8815,7 @@ Mods: {
 
 			OkikuMantle: {
 				DisplayName: 盘子女鬼悬挂纪念章
-				Tooltip: ""
+				Tooltip: "'Soft'"
 			}
 
 			SatlaTrophy: {
@@ -9072,15 +9072,6 @@ Mods: {
 					'''
 					'这小家伙好像是其他地方的'
 					可以用来种植外来植物
-					'''
-			}
-
-			PopsickleStick: {
-				DisplayName: 冰棍棒
-				Tooltip:
-					'''
-					'娱乐之魂似乎真的很喜欢冰棍'
-					'它仍然被娱乐之魂用作货币，而不是邪教头骨'
 					'''
 			}
 
@@ -12802,7 +12793,7 @@ Mods: {
 
 			OldPhotoAlbum: {
 				DisplayName: 旧相册
-				Tooltip: 里面装满了娱乐之魂和它的朋友的照片
+				Tooltip: 睹物思人，不如以心为镜，雕琢时光
 			}
 
 			RareGem: {
@@ -14918,7 +14909,7 @@ Mods: {
 			}
 
 			Gameboy: {
-				DisplayName: 街机游戏机
+				DisplayName: 便携游戏机
 				Tooltip:
 					'''
 					'当他们说你被禁足的时候不要笑'
@@ -15362,7 +15353,14 @@ Mods: {
 
 			DevilTarot: {
 				DisplayName: 恶魔
-				Tooltip: ""
+				Tooltip:
+					'''
+					[c/00FF00:塔罗牌]
+					'揭示黑暗之力'
+					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
+					[c/FFFF00:被动能力]: 化身为深渊恶魔，降低防御属性但获得短暂飞行能力并增加伤害
+					[c/FF0000:主动能力]: 恶魔之兽撕裂四方
+					'''
 			}
 
 			FoolTarot: {
@@ -15384,8 +15382,8 @@ Mods: {
 					[c/00FF00:塔罗牌]
 					'愿您看破红尘'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 降低商店、护士和重铸的价格（与折扣卡不兼容）
-					[c/FF0000:主动能力]: 对靠近的敌人施加迈达斯减益
+					[c/FFFF00:被动能力]: 降低商店、护士和重铸的价格
+					[c/FF0000:主动能力]: 所有偷走玩家钱币的非Boss敌人将爆炸并掉落双倍战利品
 					'''
 			}
 
@@ -15396,8 +15394,8 @@ Mods: {
 					[c/00FF00:塔罗牌]
 					'愿您健康繁盛'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 靠近其他玩家或城镇NPC时，获得治疗光环
-					[c/FF0000:主动能力]: 所有的生命心将转化为金心，治疗30生命值
+					[c/FFFF00:被动能力]: 治疗附近的其他玩家或城镇NPC
+					[c/FF0000:主动能力]: 治疗所有城镇NPC，生命心将转化为金心
 					'''
 			}
 
@@ -15408,8 +15406,8 @@ Mods: {
 					[c/00FF00:塔罗牌]
 					'愿你失而复得'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 增加暴击率
-					[c/FF0000:主动能力]: 短时间内，你的攻击必定暴击
+					[c/FFFF00:被动能力]: 在夜晚增加暴击率和防御力
+					[c/FF0000:主动能力]: 月光会守护玩家
 					'''
 			}
 
@@ -15418,10 +15416,10 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
-					'揭示黑暗的力量'
+					'得偿所愿'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 魔力星额外恢复50点魔力
-					[c/FF0000:主动能力]: 召唤围绕玩家旋转的5颗星星
+					[c/FFFF00:被动能力]: 恢复魔力时短暂提高最大魔力值（可叠加）
+					[c/FF0000:主动能力]: 召唤陨星对敌人造成伤害
 					'''
 			}
 
@@ -15432,8 +15430,8 @@ Mods: {
 					[c/00FF00:塔罗牌]
 					'愿光赐你启示'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 提升耕作和钓鱼效率
-					[c/FF0000:主动能力]: 随机治疗5-30点生命值
+					[c/FFFF00:被动能力]: 免疫，提升耕作和钓鱼效率
+					[c/FF0000:主动能力]: 日光会守护玩家
 					'''
 			}
 
@@ -15445,7 +15443,7 @@ Mods: {
 					'毁灭带来创造'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
 					[c/FFFF00:被动能力]: 增加放置距离和挖掘速度
-					[c/FF0000:主动能力]: 炸弹从天而降
+					[c/FF0000:主动能力]: 随机生成滚动炸弹
 					'''
 			}
 
@@ -15456,8 +15454,8 @@ Mods: {
 					[c/00FF00:塔罗牌]
 					'愿您弹无虚发'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
-					[c/FFFF00:被动能力]: 一顶魔术帽会帮助你
-					[c/FF0000:主动能力]: 任何靠近玩家的敌人射弹都会变成无害的蝴蝶
+					[c/FFFF00:被动能力]: 释放魔法飞弹攻击附近的敌人
+					[c/FF0000:主动能力]: 任何靠近玩家的敌对射弹都会变成无害的蝴蝶
 					'''
 			}
 
@@ -16191,7 +16189,7 @@ Mods: {
 			}
 
 			AncientSatlaMask: {
-				DisplayName: 古老的S.A.T.L.A.-001面具
+				DisplayName: 古老的SATLA-001面具
 				Tooltip: ""
 			}
 
@@ -16891,7 +16889,7 @@ Mods: {
 			}
 
 			SatlaMask: {
-				DisplayName: S.A.T.L.A.-001面具
+				DisplayName: SATLA-001面具
 				Tooltip: ""
 			}
 
@@ -18504,15 +18502,6 @@ Mods: {
 					'''
 			}
 
-			TheFuture: {
-				DisplayName: 未来
-				Tooltip:
-					'''
-					'这本书可以预知未来，但它的书页是粘在一起的，所以你知道什么就做什么'
-					击中敌人有概率造成流血和混乱
-					'''
-			}
-
 			TheRealKnife: {
 				DisplayName: 真刀（出自：传说之下）
 				Tooltip:
@@ -18545,13 +18534,10 @@ Mods: {
 				DisplayName: 奥斯曼弯刀
 				Tooltip:
 					'''
-					'一种特殊的剑，被奥斯曼军队锻造和使用'
-					玩家的速度将产生动量，从而增加其伤害，当你在坐骑时伤害增加至10%
-					攻击有10%的概率造成重创流血效果，当敌人重创流血时，血会使刀刃更快
-					由于剑的锋利，攻击附带50%的几率造成内部伤害，无视敌人的防御和减伤
-					当敌人处于任何伤害型减益时，它的攻击速度会增加，并且有5%的几率在空中形成切割
-					右键后，玩家可以释放奥斯曼耳光，敌人进入眩晕状态，使其失去2秒的攻击能力
-					这个技能有15秒的冷却时间，对Boss无效
+					'我警告你，不要沉溺于杀戮，不要习惯于流血，因为鲜血永远不会沉睡'
+					你倒下的战友的剑围绕着你旋转，幽灵敌人变得友好
+					积累动量增加伤害，最高50%
+					攻击施加流血，暴击时释放剑刃斩击敌人
 					'''
 			}
 
@@ -19640,9 +19626,10 @@ Mods: {
 				DisplayName: 猴爪
 				Tooltip:
 					'''
-					'看来这只眼睛也曾为了寻找美味零食造访过丛林'
-					有10%几率投掷三倍数量的飞镖，静止不动时将略微提升伤害与防御力
-					将毒镖转化为彩虹镖，造成它们各自相应的减益效果
+					'手握成拳，摧毁氦基橡胶'
+					有25%的几率投掷三倍数量的飞镖，静止不动时几率增加至33%并增加12%攻击速度和1防御
+					不同颜色的气球在屏幕上漂浮，切换武器后消失
+					击中这些气球会使它们爆裂，造成小范围持续伤害，并根据颜色施加减益效果
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你将完全化身猴子，进入随机乱斗模式
 					使用飞镖作为弹药
 					'''
@@ -20370,7 +20357,7 @@ Mods: {
 				Tooltip:
 					'''
 					'一个光子发射装置，被火星侦察兵用于向基地发送行星参数'
-					'讽刺的是，S.A.T.L.A.-001消灭了那些侦察兵以保护其玩具，但只在对他们感到愧疚时，才将其停用'
+					'讽刺的是，SATLA-001消灭了那些侦察兵以保护其玩具，但只在对他们感到愧疚时，才将其停用'
 					手持时召唤一个等待你命令的迷你火星飞碟
 					左键发射激光，右键会使它标记离光标最近的模组哨兵，大幅增强其能力和射速
 					飞碟会携带它标记的哨兵，但在携带时，它会发射电击矢
@@ -20883,6 +20870,50 @@ Mods: {
 					手持收割工具时，提高15%收割速度，效率提升II级
 					'''
 				DisplayName: Kapital的祝福
+			}
+
+			ProfessorsCoat: {
+				DisplayName: 教授的外套
+				Tooltip: 如果你想揭开宇宙的秘密，就要从能量、频率和振动的角度去思考
+			}
+
+			ArachneFlightPack: {
+				Tooltip:
+					'''
+					'看到蜘蛛不是问题，问题是它在你背上'
+					允许在墙上爬行，拥有无限飞行时间
+					双击下键释放阿拉克涅攻击敌人
+					再次双击下键召回它
+					'''
+				DisplayName: 阿拉克涅移动包
+			}
+
+			SlicedBambooStalk: {
+				Tooltip:
+					'''
+					'如果竹子做不到，那可能就不该做'
+					与物块碰撞后成为环境危险，持续6秒
+					'''
+				DisplayName: 切开的竹竿
+			}
+
+			QuantumforDummies: {
+				Tooltip:
+					'''
+					'薛定谔的猫可能读了这些笔记，也可能没读'
+					收藏此物品可跳过SATLA-001的测验
+					'''
+				DisplayName: 量子物理入门
+			}
+
+			ProfessorsPallet: {
+				Tooltip: 每个人都问电磁力的运动，但没人问电磁力的情感
+				DisplayName: 教授的移动履带
+			}
+
+			ProfessorsProcessor: {
+				Tooltip: 安全.收容.保护.
+				DisplayName: 教授的头脑处理器
 			}
 		}
 
@@ -23323,6 +23354,27 @@ Mods: {
 			ApacheChopper.DisplayName: Apache Chopper
 			LightDestroyer.DisplayName: Light Destroyer
 			LightProbe.DisplayName: Light Probe
+			ArachneLegs.DisplayName: Arachne Legs
+			YataganSlash.DisplayName: Yatagan Slash
+			Kilij.DisplayName: Kilij
+			MouseStars.DisplayName: Mouse Stars
+			TarotMoonHeadShine.DisplayName: Tarot Moon Head Shine
+			TarotMoonHead.DisplayName: Tarot Moon Head
+			TarotMoonLight.DisplayName: Tarot Moon Light
+			TarotTinyLover.DisplayName: Tarot Tiny Lover
+			TarotSunShine.DisplayName: Tarot Sun Shine
+			TarotSolarShield.DisplayName: Tarot Solar Shield
+			TarotLoverSlash.DisplayName: Tarot Lover Slash
+			FireBolt2.DisplayName: Fire Bolt2
+			TarotWallSight.DisplayName: Tarot Wall Sight
+			TarotSunShine2.DisplayName: Tarot Sun Shine2
+			MagicalHatLaser.DisplayName: Magical Hat Laser
+			TarotWoFStrike.DisplayName: Tarot Wo F Strike
+			SlicedBambooProj.DisplayName: Sliced Bamboo Proj
+			PrimitiveDart.DisplayName: Primitive Dart
+			DartBaloon2.DisplayName: Dart Baloon2
+			DartBaloon.DisplayName: Dart Baloon
+			TarotSeal.DisplayName: Tarot Seal
 		}
 
 		Configs: {

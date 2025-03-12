@@ -532,33 +532,33 @@ AFKPETS: {
 								'''
 								                            [c/FF00FF:- 塔罗牌获取- ]
 
-								0.愚者: 击杀死灵傀儡法师会转化此塔罗牌
-								I.魔术师: 击杀提姆或符文巫师会转化此塔罗牌
-								VI.恋人: 生命值低于一半时找护士治疗会转化此塔罗牌
+								0.愚者: 答错SATLA-001的每一个问题
+								I.魔术师: 击杀提姆或符文巫师
+								VI.恋人: 生命值低于一半时找护士治疗
 
-								IX.隐者: 找哥布林工匠重铸物品会转化此塔罗牌
-								XV.恶魔: 击杀血肉之墙会转化此塔罗牌
-								XVI.塔: 用物块建造有低概率转化此塔罗牌
+								IX.隐者: 找哥布林工匠重铸物品
+								XV.恶魔: 在胎儿博士最虚弱的时候击败它
+								XVI.塔: 靠近训练假人并凝视它
 
-								XIX.太阳: 击杀英勇史莱姆会转化此塔罗牌（暂时无法获取）
-								XVII.星星: 击杀全息史莱姆会转化此塔罗牌（暂时无法获取）
-								XVIII.月亮: 在夜晚的天空有低概率转化此塔罗牌（暂时无法获取）
+								XIX.太阳: 被英勇史莱姆的阳光射线击中
+								XVII.星星: 使用“和平主义者的手杖”作为最后一击来安抚以撒
+								XVIII.月亮: 在盘子女鬼处于中立状态时轻拍她的肩膀
 
-								XXI.世界: 没有Boss存活时在世界中漫步有低概率转化此塔罗牌
+								XXI.世界: 在街机上输入科乐美秘籍代码
 								'''
 							OldString:
 								'''
 								                                     [c/FF00FF:-Obtaining Cards-]
-								0.Fool:Killing Antony, the Novice Necromancer will transform the card
-								I.Magician:Killing Tim or rune wizard will transform the card
-								VI.Lovers: Healing from nurse while having less than 50% life will transform it
-								IX.Hermit:Doing a reforge from goblin tinkerer will transform it
-								XVI.Devil:Killing Wall of Flesh will transform it
-								XVI.Tower:Building stuff with tiles have a small chance to transform it
-								XVII.Stars:Killing holographic slime will transform it
-								XVIII.Moon:Visiting sky at night have a small chance to transform it
-								XIX.Sun:Killing heroic slime will transform it
-								XXI.World: Making a trip while no boss is active have small chance to transform it
+								0.Fool: Answer every questions of SATLA's wrong.
+								I.Magician: Defeat Tim/Rune Wizard
+								VI.Lovers: Healing from nurse while having less than 50% life.
+								IX.Hermit: Reforge any item.
+								XVI.Devil: Killing Dr Fetus while he's in his weakest form.
+								XVI.Tower: Get close to training dummy and stare to it
+								XVII.Stars: Pacify Isaac via using pacifist's Cane as last strike.
+								XVIII.Moon: Pat Okiku's shoulder while she is neutral.
+								XIX.Sun: Get hit to sunray attack of Heroic Slime.
+								XXI.World: Apply Konami code to the arcade machine.
 
 								'''
 						}
@@ -968,6 +968,102 @@ AFKPETS: {
 		}
 
 		Potions: {
+			BuffPotions: {
+				GFuel: {
+					UseItem: {
+						1: {
+							NewString: 运动饮料浓度增加
+							// OldString: JELLO UP
+						}
+
+						2: {
+							NewString: 多人协调能力增加
+							// OldString: MP COMPABILITY UP
+						}
+
+						3: {
+							NewString: 独特的智力提升
+							// OldString: UNIQUE AI UP
+						}
+
+						4: {
+							NewString: 声望增加
+							// OldString: RESPECT UP
+						}
+
+						5: {
+							NewString: 反应能力增加
+							// OldString: REACTION UP
+						}
+
+						6: {
+							NewString: 知名度增加
+							// OldString: FAME UP
+						}
+
+						7: {
+							NewString: 支持度增加
+							// OldString: FAVOR UP
+						}
+
+						8: {
+							NewString: 等级提升
+							// OldString: RANK UP
+						}
+
+						9: {
+							NewString: 钍浓度增加
+							// OldString: THORIUM UP
+						}
+
+						10: {
+							NewString: 空气阻力增加
+							// OldString: AIR RESISTANCE UP
+						}
+
+						11: {
+							NewString: 反应速度增强
+							// OldString: GAMER SPEED UP
+						}
+
+						12: {
+							NewString: 认可度增加
+							// OldString: ACCEPTANCE UP
+						}
+
+						13: {
+							NewString: 酷值增加
+							// OldString: RADNESS UP
+						}
+
+						14: {
+							NewString: 清晰度增加
+							// OldString: SHARPNESS UP
+						}
+
+						15: {
+							NewString: 音量增加
+							// OldString: VOLUME UP
+						}
+
+						16: {
+							NewString: G值增加
+							// OldString: G UP
+						}
+
+						17: {
+							NewString: 你被强化了
+							// OldString: BUMBO UP
+						}
+
+						18: {
+							NewString: 睡眠减少
+							// OldString: SLEEP HOURS DOWN
+						}
+					}
+				}
+			}
+
 			Crops: {
 				MiracleFruit: {
 					HoldItem: {
@@ -2110,100 +2206,6 @@ AFKPETS: {
 				}
 			}
 
-			Jello: {
-				PostAI: {
-					1: {
-						NewString: 运动饮料浓度增加
-						// OldString: JELLO UP
-					}
-
-					2: {
-						NewString: 多人协调能力增加
-						// OldString: MP COMPABILITY UP
-					}
-
-					3: {
-						NewString: 独特的智力提升
-						// OldString: UNIQUE AI UP
-					}
-
-					4: {
-						NewString: 声望增加
-						// OldString: RESPECT UP
-					}
-
-					5: {
-						NewString: 反应能力增加
-						// OldString: REACTION UP
-					}
-
-					6: {
-						NewString: 知名度增加
-						// OldString: FAME UP
-					}
-
-					7: {
-						NewString: 支持度增加
-						// OldString: FAVOR UP
-					}
-
-					8: {
-						NewString: 等级提升
-						// OldString: RANK UP
-					}
-
-					9: {
-						NewString: 钍浓度增加
-						// OldString: THORIUM UP
-					}
-
-					10: {
-						NewString: 空气阻力增加
-						// OldString: AIR RESISTANCE UP
-					}
-
-					11: {
-						NewString: 反应速度增强
-						// OldString: GAMER SPEED UP
-					}
-
-					12: {
-						NewString: 认可度增加
-						// OldString: ACCEPTANCE UP
-					}
-
-					13: {
-						NewString: 酷值增加
-						// OldString: RADNESS UP
-					}
-
-					14: {
-						NewString: 清晰度增加
-						// OldString: SHARPNESS UP
-					}
-
-					15: {
-						NewString: 音量增加
-						// OldString: VOLUME UP
-					}
-
-					16: {
-						NewString: G值增加
-						// OldString: G UP
-					}
-
-					17: {
-						NewString: 你被强化了
-						// OldString: BUMBO UP
-					}
-
-					18: {
-						NewString: 睡眠减少
-						// OldString: SLEEP HOURS DOWN
-					}
-				}
-			}
-
 			Guardian: {
 				AI: {
 					1: {
@@ -2926,8 +2928,13 @@ AFKPETS: {
 			}
 
 			2: {
-				NewString: 卡米拉之杯或伊吹萃香的酒葫芦在背包中且被收藏后可制作
+				NewString: 卡米拉之杯或伊吹瓢在背包中且被收藏后可制作
 				// OldString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
+			}
+
+			3: {
+				NewString: 伊吹瓢在背包中且被收藏后可制作
+				// OldString: Become craftable while Suika's Gourd or its upgrade is inside inventory + favourited
 			}
 		}
 	}

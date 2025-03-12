@@ -532,31 +532,31 @@ AFKPETS: {
 							NewString:
 								'''
 								                                     [c/FF00FF:-Obtaining Cards-]
-								0.Fool:Killing Antony, the Novice Necromancer will transform the card
-								I.Magician:Killing Tim or rune wizard will transform the card
-								VI.Lovers: Healing from nurse while having less than 50% life will transform it
-								IX.Hermit:Doing a reforge from goblin tinkerer will transform it
-								XVI.Devil:Killing Wall of Flesh will transform it
-								XVI.Tower:Building stuff with tiles have a small chance to transform it
-								XVII.Stars:Killing holographic slime will transform it
-								XVIII.Moon:Visiting sky at night have a small chance to transform it
-								XIX.Sun:Killing heroic slime will transform it
-								XXI.World: Making a trip while no boss is active have small chance to transform it
+								0.Fool: Answer every questions of SATLA's wrong.
+								I.Magician: Defeat Tim/Rune Wizard
+								VI.Lovers: Healing from nurse while having less than 50% life.
+								IX.Hermit: Reforge any item.
+								XVI.Devil: Killing Dr Fetus while he's in his weakest form.
+								XVI.Tower: Get close to training dummy and stare to it
+								XVII.Stars: Pacify Isaac via using pacifist's Cane as last strike.
+								XVIII.Moon: Pat Okiku's shoulder while she is neutral.
+								XIX.Sun: Get hit to sunray attack of Heroic Slime.
+								XXI.World: Apply Konami code to the arcade machine.
 
 								'''
 							OldString:
 								'''
 								                                     [c/FF00FF:-Obtaining Cards-]
-								0.Fool:Killing Antony, the Novice Necromancer will transform the card
-								I.Magician:Killing Tim or rune wizard will transform the card
-								VI.Lovers: Healing from nurse while having less than 50% life will transform it
-								IX.Hermit:Doing a reforge from goblin tinkerer will transform it
-								XVI.Devil:Killing Wall of Flesh will transform it
-								XVI.Tower:Building stuff with tiles have a small chance to transform it
-								XVII.Stars:Killing holographic slime will transform it
-								XVIII.Moon:Visiting sky at night have a small chance to transform it
-								XIX.Sun:Killing heroic slime will transform it
-								XXI.World: Making a trip while no boss is active have small chance to transform it
+								0.Fool: Answer every questions of SATLA's wrong.
+								I.Magician: Defeat Tim/Rune Wizard
+								VI.Lovers: Healing from nurse while having less than 50% life.
+								IX.Hermit: Reforge any item.
+								XVI.Devil: Killing Dr Fetus while he's in his weakest form.
+								XVI.Tower: Get close to training dummy and stare to it
+								XVII.Stars: Pacify Isaac via using pacifist's Cane as last strike.
+								XVIII.Moon: Pat Okiku's shoulder while she is neutral.
+								XIX.Sun: Get hit to sunray attack of Heroic Slime.
+								XXI.World: Apply Konami code to the arcade machine.
 
 								'''
 						}
@@ -965,6 +965,102 @@ AFKPETS: {
 		}
 
 		Potions: {
+			BuffPotions: {
+				GFuel: {
+					UseItem: {
+						1: {
+							NewString: JELLO UP
+							OldString: JELLO UP
+						}
+
+						2: {
+							NewString: MP COMPABILITY UP
+							OldString: MP COMPABILITY UP
+						}
+
+						3: {
+							NewString: UNIQUE AI UP
+							OldString: UNIQUE AI UP
+						}
+
+						4: {
+							NewString: RESPECT UP
+							OldString: RESPECT UP
+						}
+
+						5: {
+							NewString: REACTION UP
+							OldString: REACTION UP
+						}
+
+						6: {
+							NewString: FAME UP
+							OldString: FAME UP
+						}
+
+						7: {
+							NewString: FAVOR UP
+							OldString: FAVOR UP
+						}
+
+						8: {
+							NewString: RANK UP
+							OldString: RANK UP
+						}
+
+						9: {
+							NewString: THORIUM UP
+							OldString: THORIUM UP
+						}
+
+						10: {
+							NewString: AIR RESISTANCE UP
+							OldString: AIR RESISTANCE UP
+						}
+
+						11: {
+							NewString: GAMER SPEED UP
+							OldString: GAMER SPEED UP
+						}
+
+						12: {
+							NewString: ACCEPTANCE UP
+							OldString: ACCEPTANCE UP
+						}
+
+						13: {
+							NewString: RADNESS UP
+							OldString: RADNESS UP
+						}
+
+						14: {
+							NewString: SHARPNESS UP
+							OldString: SHARPNESS UP
+						}
+
+						15: {
+							NewString: VOLUME UP
+							OldString: VOLUME UP
+						}
+
+						16: {
+							NewString: G UP
+							OldString: G UP
+						}
+
+						17: {
+							NewString: BUMBO UP
+							OldString: BUMBO UP
+						}
+
+						18: {
+							NewString: SLEEP HOURS DOWN
+							OldString: SLEEP HOURS DOWN
+						}
+					}
+				}
+			}
+
 			Crops: {
 				MiracleFruit: {
 					HoldItem: {
@@ -2011,100 +2107,6 @@ AFKPETS: {
 				}
 			}
 
-			Jello: {
-				PostAI: {
-					1: {
-						NewString: JELLO UP
-						OldString: JELLO UP
-					}
-
-					2: {
-						NewString: MP COMPABILITY UP
-						OldString: MP COMPABILITY UP
-					}
-
-					3: {
-						NewString: UNIQUE AI UP
-						OldString: UNIQUE AI UP
-					}
-
-					4: {
-						NewString: RESPECT UP
-						OldString: RESPECT UP
-					}
-
-					5: {
-						NewString: REACTION UP
-						OldString: REACTION UP
-					}
-
-					6: {
-						NewString: FAME UP
-						OldString: FAME UP
-					}
-
-					7: {
-						NewString: FAVOR UP
-						OldString: FAVOR UP
-					}
-
-					8: {
-						NewString: RANK UP
-						OldString: RANK UP
-					}
-
-					9: {
-						NewString: THORIUM UP
-						OldString: THORIUM UP
-					}
-
-					10: {
-						NewString: AIR RESISTANCE UP
-						OldString: AIR RESISTANCE UP
-					}
-
-					11: {
-						NewString: GAMER SPEED UP
-						OldString: GAMER SPEED UP
-					}
-
-					12: {
-						NewString: ACCEPTANCE UP
-						OldString: ACCEPTANCE UP
-					}
-
-					13: {
-						NewString: RADNESS UP
-						OldString: RADNESS UP
-					}
-
-					14: {
-						NewString: SHARPNESS UP
-						OldString: SHARPNESS UP
-					}
-
-					15: {
-						NewString: VOLUME UP
-						OldString: VOLUME UP
-					}
-
-					16: {
-						NewString: G UP
-						OldString: G UP
-					}
-
-					17: {
-						NewString: BUMBO UP
-						OldString: BUMBO UP
-					}
-
-					18: {
-						NewString: SLEEP HOURS DOWN
-						OldString: SLEEP HOURS DOWN
-					}
-				}
-			}
-
 			Guardian: {
 				AI: {
 					1: {
@@ -2829,6 +2831,11 @@ AFKPETS: {
 			2: {
 				NewString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
 				OldString: Become craftable while Cami's cup or its upgrade is inside inventory + favourited
+			}
+
+			3: {
+				NewString: Become craftable while Suika's Gourd or its upgrade is inside inventory + favourited
+				OldString: Become craftable while Suika's Gourd or its upgrade is inside inventory + favourited
 			}
 		}
 	}

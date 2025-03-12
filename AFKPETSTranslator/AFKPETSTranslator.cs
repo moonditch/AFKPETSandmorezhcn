@@ -231,17 +231,17 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 					{"No need to escape while we are having fun together","我们在一起玩的时候，没必要逃跑"},
 					{"Hello there. Thank you for your kindness to invite me.","你好，谢谢你盛情邀请我。"},
 					{"Before I give you your reward shall we play a nice game?","在我给你奖励之前，我们玩个游戏可以吗？"},
-					{"For the game please cancel the answer buff for the answer you think is correct before time out.","请在时间截至前，在左上角增益栏右键取消你认为正确的答案."},
+					{"For the game please cancel the answer buff for the answer you think is correct before time out.","请在时间截至前，在左上角增益栏右键取消你认为正确的答案"},
 					{"Correct","回答正确"},
 					{"Wrong Answer","回答错误"},
 					{"Time is up. Have a nice gift","时间到，接受礼物吧"},
 					{"It's quite interesting that you answer the questions upon now correct.","真厉害，你现在回答的问题是正确的"},
-					{"Even through final question waits, I will reward your efford with a tras- I mean small gift.","即使在最后一个问题等待期间，我也会用一份小礼物来奖励你的努力."},
+					{"Even through final question waits, I will reward your efford these tras- I mean small gifts","即使在最后一个问题等待期间，我也会用一些小礼物来奖励你的努力"},
 					{"Time for the great reward and final question","是时候问最后一个问题了"},
 					{"W H Y  Y O U  A R E  S T I L L  A L I V E ?","你 为 什 么 还 活 着？"},
-					{"It seems I cannot play with you without breaking your resistance first","看来我好像得先粉碎你的抵抗才能跟你一起玩."},
-					{"Recharge units, show my hospitality","充能单元，展示我的好客之道."},
-					{"I even send Martians false information to make them believe this planet is worthless","我甚至给火星人发送虚假信息，让他们相信这个星球一文不值."},
+					{"It seems I cannot play with you without breaking your resistance first","看来我好像得先粉碎你的抵抗才能跟你一起玩"},
+					{"Recharge units, show my hospitality","充能单元，展示我的好客之道"},
+					{"I even send Martians false information to make them believe this planet is worthless","我甚至给火星人发送虚假信息，让他们相信这个星球一文不值"},
 					{"Because this planet is full of lifeforms to play","因为这个星球上充满了可供玩乐的泰拉人"},
 					{"How ironic that the lifeform I played most will bring my end","真是讽刺，我最喜爱的玩具最终将终结我"},
 					{"Let's dance one last time, shall we?","让我们最后再跳一支舞，好吗？"},
@@ -372,7 +372,6 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				#region AFKPETS.Items.AFKPETSGlobalItem
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.Items.AFKPETSGlobalItem", "ModifyTooltips", new ()
 				{
-					{" True Melee ","真近战"},
 					{"Penetration III\nBlast Protection\nEfficiency II","穿透 III\n防爆\n效率II"},
 				});
 				#endregion AFKPETS.Items.AFKPETSGlobalItem
@@ -415,7 +414,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.Items.Weapons.Melee.Bats.KizunasWrath", "ModifyTooltips", new ()
 				{
 					{"\nEfficiency ","\n效率"},
-					{"RC to item to generate pure enegy to use it as trinket\nWhen player press down along with trinket hotkey player will drop all trinkets and else cycle new one with olders\nWhen player is holding trinket by pressing trinket key it can unequip the trinket\n                                                   -Page 2-","右键投出棒球，左键重击；当重击足够多敌人后，玩家进入狂暴状态\n左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击\n[c/ffff00:重击能力]: 攻击任何敌人将造成带电效果，并有很小的几率施加羁绊引力\n带有此减益的敌人之间会相互吸引\n如果它们相互碰撞，这种力量将粉碎它们的内脏器官，并增加附近敌人受到的持续伤害\n[c/ffff00:打击能力]: 对所有类型的棒球弹药进行过载充能，改变其外观\n过载充能的棒球弹药会吸引较弱的敌对射弹，并在击中任何敌人时释放链状闪电\n[c/ffff00:狂暴状态]: 武器造成额外 150% 伤害，增加 50% 近战攻速度和 10% 暴击率\n狂暴状态下，玩家的猛击有很高的几率施加羁绊引力，非直接攻击但击杀敌人会治疗玩家并延长狂暴状态        - 第一页 -\n\n收割植物时有很小的几率富集金属，额外产生矿石\n杀死敌人时，有很小的几率收获他们的灵魂\n效率属性将提升此工具用于收割植物和干草时的采集速度\n右键生成羁绊火花\n装备在密藏栏时，玩家可以使用闪电冲刺，1.5 秒冷却时间\n无视射弹，撞击敌人时释放闪电并造成带电效果\n[c/FFC0CB:收纳盒特殊能力]: 重击非Boss敌人造成强力击退，施加羁绊引力\n当玩家按下密藏快捷键时，将卸下所有密藏\n当玩家手持密藏按下密藏快捷键时，可以卸下密藏   - 第二页 -"},
+					/*{"RC to item to generate pure enegy to use it as trinket\nWhen player press down along with trinket hotkey player will drop all trinkets and else cycle new one with olders\nWhen player is holding trinket by pressing trinket key it can unequip the trinket\n                                                   -Page 2-","右键投出棒球，左键重击；当重击足够多敌人后，玩家进入狂暴状态\n左键消耗棒球作为弹药，空中无棒球时扔出棒球，而有棒球时则向光标方向进行打击\n[c/ffff00:重击能力]: 攻击任何敌人将造成带电效果，并有很小的几率施加羁绊引力\n带有此减益的敌人之间会相互吸引\n如果它们相互碰撞，这种力量将粉碎它们的内脏器官，并增加附近敌人受到的持续伤害\n[c/ffff00:打击能力]: 对所有类型的棒球弹药进行过载充能，改变其外观\n过载充能的棒球弹药会吸引较弱的敌对射弹，并在击中任何敌人时释放链状闪电\n[c/ffff00:狂暴状态]: 武器造成额外 150% 伤害，增加 50% 近战攻速度和 10% 暴击率\n狂暴状态下，玩家的猛击有很高的几率施加羁绊引力，非直接攻击但击杀敌人会治疗玩家并延长狂暴状态        - 第一页 -\n\n收割植物时有很小的几率富集金属，额外产生矿石\n杀死敌人时，有很小的几率收获他们的灵魂\n效率属性将提升此工具用于收割植物和干草时的采集速度\n右键生成羁绊火花\n装备在密藏栏时，玩家可以使用闪电冲刺，1.5 秒冷却时间\n无视射弹，撞击敌人时释放闪电并造成带电效果\n[c/FFC0CB:收纳盒特殊能力]: 重击非Boss敌人造成强力击退，施加羁绊引力\n当玩家按下密藏快捷键时，将卸下所有密藏\n当玩家手持密藏按下密藏快捷键时，可以卸下密藏   - 第二页 -"},*/
 					{"-Dedicated Content-","-专属内容-"},
 				});
 				#endregion AFKPETS.Items.Weapons.Melee.Bats.KizunasWrath
