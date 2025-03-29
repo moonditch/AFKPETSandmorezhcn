@@ -15352,11 +15352,11 @@ Mods: {
 			}
 
 			DevilTarot: {
-				DisplayName: 恶魔
+				DisplayName: ⅩⅤ- 恶魔
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
-					'揭示黑暗之力'
+					'沉迷黑暗之力'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
 					[c/FFFF00:被动能力]: 化身为深渊恶魔，降低防御属性但获得短暂飞行能力并增加伤害
 					[c/FF0000:主动能力]: 恶魔之兽撕裂四方
@@ -15364,7 +15364,7 @@ Mods: {
 			}
 
 			FoolTarot: {
-				DisplayName: 愚者
+				DisplayName: 0- 愚者
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15376,7 +15376,7 @@ Mods: {
 			}
 
 			HermitTarot: {
-				DisplayName: 隐者
+				DisplayName: Ⅸ- 隐者
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15388,7 +15388,7 @@ Mods: {
 			}
 
 			LoversTarot: {
-				DisplayName: 恋人
+				DisplayName: Ⅵ- 恋人
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15400,7 +15400,7 @@ Mods: {
 			}
 
 			MoonTarot: {
-				DisplayName: 月亮
+				DisplayName: ⅩⅧ- 月亮
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15412,11 +15412,11 @@ Mods: {
 			}
 
 			StarsTarot: {
-				DisplayName: 星星
+				DisplayName: ⅩⅦ- 星星
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
-					'得偿所愿'
+					'愿你心想事成'
 					手持此物品时，按下控件中绑定的隐藏信息键，可以获取更多关于塔罗牌的信息
 					[c/FFFF00:被动能力]: 恢复魔力时短暂提高最大魔力值（可叠加）
 					[c/FF0000:主动能力]: 召唤陨星对敌人造成伤害
@@ -15424,7 +15424,7 @@ Mods: {
 			}
 
 			SunTarot: {
-				DisplayName: 太阳
+				DisplayName: ⅩⅨ- 太阳
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15436,7 +15436,7 @@ Mods: {
 			}
 
 			TowerTarot: {
-				DisplayName: 高塔
+				DisplayName: ⅩⅥ- 塔
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15448,7 +15448,7 @@ Mods: {
 			}
 
 			WizardTarot: {
-				DisplayName: 魔术师
+				DisplayName: Ⅰ- 魔术师
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -15460,7 +15460,7 @@ Mods: {
 			}
 
 			WorldTarot: {
-				DisplayName: 世界
+				DisplayName: ⅩⅪ- 世界
 				Tooltip:
 					'''
 					[c/00FF00:塔罗牌]
@@ -20264,7 +20264,7 @@ Mods: {
 			}
 
 			SpikeweedSeed: {
-				DisplayName: 地刺法杖
+				DisplayName: 地刺法杖（出自：植物大战僵尸）
 				Tooltip:
 					'''
 					'你会为踩到它的生物感到难过'
