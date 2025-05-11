@@ -352,7 +352,7 @@ Mods: {
 			FriendlyHarpy.DisplayName: Friendly Harpy
 			GalacticRift.DisplayName: Galactic Rift
 			HolographicChunk.DisplayName: Holographic Chunk
-			RalseiDummy.DisplayName: Training Dummy
+			RalseiDummy.DisplayName: Plush Dummy
 
 			RoyalGuard: {
 				DisplayName: Royal Guard
@@ -585,7 +585,7 @@ Mods: {
 				DisplayName: Undead Chef
 
 				BossChecklistIntegration: {
-					EntryName: Tier 1 Dungeon Miniboss
+					EntryName: Tier1 Dungeon Miniboss
 					SpawnInfo: It have a low chance to spawn in dungeon with respect to world evil. They could also summon with their respective summon item. After their defeat summon item of both of them can be bought from dark huntress.
 					DespawnMessage: Dungeon take down the threat
 				}
@@ -3732,7 +3732,7 @@ Mods: {
 			}
 
 			RalseiDPSCheck: {
-				DisplayName: Training Dummy's Blessing
+				DisplayName: Plush Dummy's Blessing
 				Description: You gain ability to learn your DPS
 			}
 
@@ -14628,10 +14628,8 @@ Mods: {
 				DisplayName: Hayco's knife
 				Tooltip:
 					'''
-					'From both its angle and sharpness only a true hunter can make this'
-					'It can collect vine ropes from cutting vines'
-					'With RC you can do a stronger short distance stab'
-					'While holding it player will be immune to be webbed and critical hits will inflict bleeding'
+					'Who gets the bird, the hunter or the dog?'
+					Hits inflict bleeding + nonboss kills 50% chance to drop double loot
 					Efficiency stat increase the collection rate of the plants and hay
 					'''
 			}
@@ -15009,11 +15007,11 @@ Mods: {
 			}
 
 			RalseiDummy: {
-				DisplayName: Training dummy
+				DisplayName: Plush dummy
 				Tooltip:
 					'''
 					'Best for surprise hug trainings'
-					Using it will spawn a training dummy that minions target and activate DPS meter
+					Using it will spawn a plush dummy that minions target and activate DPS meter
 					RC and any active boss will despawn the dummy
 					'''
 			}
@@ -17527,16 +17525,6 @@ Mods: {
 					'''
 			}
 
-			GrimoireofCirno: {
-				DisplayName: Grimoire of Cirno
-				Tooltip:
-					'''
-					'Glorious Winter Morning'
-					Each time damage taken tome fuel with the pain of its owner and get empowered
-					Slowly weapon gets calmed down to its original state
-					'''
-			}
-
 			Motherboard: {
 				DisplayName: Motherboard
 				Tooltip:
@@ -18181,10 +18169,9 @@ Mods: {
 				DisplayName: Ancient Scarab Sword
 				Tooltip:
 					'''
-					'It was forged with unusual knowledge of blue scarabs...'
-					True melee hits have 50% chance spawn solar scarabs crits will form cross shaped heat lasers
-					Defeated enemies by this sword they will explode into blue scarabs
-					Attacks form solar scarabs which explode into an inferno
+					'Forged with wisdom of blue scarabs...'
+					Generates a flame tornado around which summon solar scarabs to closest enemy to mouse if no minion tag exist
+					Slashes may spawn blue scarabs + enemy kills cause explosion
 					'''
 			}
 
@@ -18192,9 +18179,9 @@ Mods: {
 				DisplayName: Gelatine Slasher
 				Tooltip:
 					'''
-					Remaining from a knight after being digested by king slime during duel
-					Luckily the tables have turned
-					Attacks have a 10% chance to inflict slimed and hitting an enemy that is slimed its speed will greatly increase
+					'Remnant of the ninja after being digested by king slime during duel. Luckily the tables have turned.'
+					Attacks inflict slimed & successful hits make slashes faster for short time and slashes may shoot goo around
+					RC to get assist from king slime to strike to mouse location with 20 second cooldown 
 					'''
 			}
 
@@ -18203,21 +18190,9 @@ Mods: {
 				Tooltip:
 					'''
 					'A legendary sword once forged for the Bunny King to symbolize his might'
-					'Even though it's too heavy for the king you can carry it easily.'
-					Holding the weapon will grant an additional jump and movement speed increase
-					When this special jump is being made closer enemies will get poisoned
-					'''
-			}
-
-			CoderHand: {
-				DisplayName: Sandalphon
-				Tooltip:
-					'''
-					Did the sun come out to play again, or is it just the shine of this sword?
-					Hitting an enemy will prevent immunity frames and lightning will rain down that will deals 75% of weapons damage
-					Hitting an enemy will also burn with both shadowflames and angelic flames and lightning will heavily charge them
-					Attacks will form energy slices around you that deal 75% damage of items base damage
-					This sword is considered a true melee weapon, despite the projectiles that may appear.
+					Each third strike performs a gush that push projectiles away
+					Provide each minion its own mini sword that they may attack to mouse direction while attacking
+					Holding the weapon grant an additional poisonous jump and movement speed increase
 					'''
 			}
 
@@ -18225,29 +18200,20 @@ Mods: {
 				DisplayName: Cold Shoulder
 				Tooltip:
 					'''
-					'A perfect gift for the man who has everything!'
-					Allows you to go into stealth mode and hitting from enemies behind will deal 20% more damage
-					Gives immunity to On Fire and killing enemies will form icicles
-					'''
-			}
-
-			CrusadersSword: {
-				DisplayName: Crusader's Blade
-				Tooltip:
-					'''
-					'Still seeks the heretics'
-					'Hitting enemy will inflict fear'
-					'Critical hits will cause the any enemy that is close to you to burn with angelic flames'
-					'Swords damage increase by 10% in evil biome and decrease by 10% in hallow'
+					'A perfect gift for the fairy who has everything!'
+					Allows stealth mode + backstabs deal 20% more damage
+					Dash strikes rain icicles from above + direct hits have 10% chance to snowgrave the opponent
+					While dash cooldown is active RC instead throws overfrozen icicles
 					'''
 			}
 
 			CrystalSlasher: {
-				DisplayName: Crystal Slasher
+				DisplayName: Crystal Sting
 				Tooltip:
 					'''
-					Attacks will restore mana and critical hits will cure mana sickness
-					Right Click to perform a stronger attack with a wave of mana
+					'You don’t need more mana; you need better spells'
+					if player has less than 50% mana attacks may restore mana, otherwise may cure mana sickness
+					if player has less than 50% mana crits generate mana field, otherwise summon magical sword
 					'''
 			}
 
@@ -18267,10 +18233,9 @@ Mods: {
 				DisplayName: Diamond Greatsword
 				Tooltip:
 					'''
-					'According to the laws of chemistry, there is no way you could've figured out how to make the hilt with just a hammer.'
-					Guaranteed crits while falling but critical hits deal 20% less damage.
-					Every 10 enemies killed will level up the sword, increasing it's damage by 5% up to a maximum of 15%.'
-					Dying will reset the sword's level.
+					'According to the laws of chemistry, there is no way you could've figured out how to make the hilt with just a hammer'
+					Fall strike grant crit with lesser base damage + killing enemies level up the sword (max 3)
+					Each level grant melee speed + damage increase and last level grant each enemy to 10% chance to drop double loot
 					'''
 			}
 
@@ -18278,9 +18243,9 @@ Mods: {
 				DisplayName: Plasma Blade
 				Tooltip:
 					'''
-					'A noble and ancient weapon, wielded by the strongest of Mars'
-					Each hit have a 10% chance to rain down plasma particles that will do 75% of base damage and will cause an energy area upon collision.
-					Attacks inflict Electrified and critical hits will rain down lightning to a random nearby location
+					'Asking's Not My Strong Suit'
+					Each hit increase static change of the target. After 20 hit target overcharges and gets electrified
+					While target is electrified crits may call a cyber after image to strike it down
 					'''
 			}
 
@@ -18288,7 +18253,7 @@ Mods: {
 				DisplayName: Extase
 				Tooltip:
 					'''
-					'You are always useful my faithful comrade'
+					'As a wiseman once said, our job is not to create masterpieces, but instead, piece together a master'
 					'Attacks will inflict serious bleeding and decrease enemy defense by 10'
 					With RC player could dash to its mouse direction with 10 seconds cooldown
 					'''
@@ -18299,19 +18264,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Guts and Glory, Lads'
-					'Upon killing an enemy its stats will increase and it will reach maximum at 5 kills'
-					'Taking damage have 10% chance to decrease number of heads by 1'
-					'''
-			}
-
-			GildedSword: {
-				DisplayName: Gilded Sword
-				Tooltip:
-					'''
-					'As a wiseman once said, our job is not to create masterpieces, but instead, piece together a master'
-					Critical hits have a chance to reflect one of vanilla or afkpets inflicted debuff back to enemy
-					Swords size will increse with the decrease of players life
-					If players life is below 10% it will give increased life regen which will not stack with crimson armor
+					Enemy kills increase stat (max 5) while taking damage may decrase stats + damage nearby enemies
+					Upon crit next sword get empowered and its first strike generate a tiny tornado that suck enemies in
+					Normal first strike against grounded target shoot rumbles in strike direction
+					Charging sword increase its damage + grant debuff (buff gets stronger according to sword empower status)
 					'''
 			}
 
@@ -18319,31 +18275,9 @@ Mods: {
 				DisplayName: Goorandal
 				Tooltip:
 					'''
-					The legendary sword which was used by a great hero in the war between slimes and humans
-					Your true melee strikes will break their contact damage immunity against other enemies for 2.5 seconds
-					Upon hitting enemy it have 10% chance to inflict slimed and after hitting enemy that is slimed its speed will greatly increase
-					'''
-			}
-
-			GreenEyedZweihander: {
-				DisplayName: Green-Eyed Zweihander
-				Tooltip:
-					'''
-					'A weapon that is fueled by the jealousy of the kind and lovely'
-					Killing enemies will drop the enemies have 40% chance to drop loot 2 times and bosses are immune to this effect
-					If their life percentage is higher than you your envy will cause your hits to inflict dryads bane and cursed flames and else it will inflict poison
-					'''
-			}
-
-			Havoc: {
-				DisplayName: Havoc
-				Tooltip:
-					'''
-					'Make a wish'
-					'Hits have 20% chance to rain arcane meteor from sky'
-					'When this meteor hit any enemy it will shatter into two arcane bolt which do 50% of meteors base damage'
-					'Hitting enemies will inflict shadowflames'
-					'Each debuff increase its damage by 4% and it caps at 12%'
+					'The legendary sword wielded by the great slime hero'
+					Upon full charge generates a slash that inflicts cursed inferno + strikes inflict a debuff that cause enemies to have friendly fire
+					LC dives with sword that release ancient spirits from below which has cooldown
 					'''
 			}
 
@@ -18351,34 +18285,8 @@ Mods: {
 				DisplayName: Jutte
 				Tooltip:
 					'''
-					'A weapon specifically designed for the palace guardians'
-					'LC will allow player to swing it which will block projectiles weaker than this weapons base damage'
-					'RC to stab it with higher speed and damage'
-					'''
-			}
-
-			JzBoyElKatana: {
-				DisplayName: Duality
-				Tooltip:
-					'''
-					'A relic weapon that is awakened with the spirits of light and dark'
-					RC will change the mode of the sword
-					For both modes critical hits will shatter enemies soul
-					While in light mode hitting any enemy will rip their soul to move towards player which will inflict angelic flames upon hit
-					It will also deal 60% of its base damage to 3 close enemy
-					In dark mode players attacks form 2 dark souls with 60% base damage that will attack and inflict fear
-					'''
-			}
-
-			Kilij: {
-				DisplayName: Kilij
-				Tooltip:
-					'''
-					'A symbol for power and kingdom being carried by Turkish rulers'
-					'It's invented by Hun's and then improved by Seljuks and Ottomans to find its true form'
-					'Attacks will inflict bleeding and players velocity will build momentum which will increase its damage'
-					'While being on a mount due to player have high ground its attacks will inflict bleeding and crits deal 20% more damage'
-					'While being on a mount It will also gain 5% increased crit chance which cannot be nullified by any debuff'
+					'He will win who knows when to fight and when not to fight'
+					While not moving attacking generates slash area which deflect weaker projectiles back
 					'''
 			}
 
@@ -18386,9 +18294,9 @@ Mods: {
 				DisplayName: Knife of the Onigawara
 				Tooltip:
 					'''
-					'It's burning with the sins of its previous user
-					'Hitting enemies will inflict bleeding and crits will curse their souls briefly'
-					'Hitting enemies have a chance to rip little bloody gifts for yourself'
+					'Slash them with your hate'
+					Enemy slashes inflict bleeding + may cut yummy gifts from them for yourself
+					Player could also cut town npcs which slightly heal player + give rapid healing for short time
 					'''
 			}
 
@@ -18417,18 +18325,6 @@ Mods: {
 					'''
 			}
 
-			ScarabSword: {
-				DisplayName: Sacred Sealer
-				Tooltip:
-					'''
-					'May their soul finally find peace'
-					'Critical hits have 5% chance to drop crystal ankh'
-					'Crystal ankh will give immunity to most vanilla debuffs and protect you from death for 1 second'
-					'Hitting enemies will inflict on shadow flames'
-					'If there is no active sand tornado it will form one with 50% item base damage and this ability will deactivate until that tornado disappears'
-					'''
-			}
-
 			SelfSacrifice: {
 				DisplayName: Self Sacrifice
 				Tooltip:
@@ -18444,10 +18340,9 @@ Mods: {
 				DisplayName: Kogarasu Maru
 				Tooltip:
 					'''
-					'It have used for exectuion for protecting the kingdom'
-					'When your enemies have less than 10% life you make deathblow to them'
-					'You can't make deathblow to bosses
-					''If their life is above 10% or they are boss your strikes will inflict fear'
+					'War is peace. Freedom is slavery. Gelatinous is strength'
+					Deathblow the nonboss enemies that have less than 10% max life + strikes inflict fear
+					RC to form horizontal slash strike according to mouse side with 20 second cooldown
 					'''
 			}
 
@@ -18456,7 +18351,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Here we are! Now things are getting interesting'
-					'Upon hitting any enemy you will inflict fear to then and if that attack is deathblow any close enemy will also get fear debuff'
+					Hits inflict fear + strikes may slash enemies on screen with the same type
+					RC to generate a save point that last 10 second before fade away and RC again to load that point
+					Save point saves players life and mana on that moment and loading it will grant highest value between current and saved
+					When load occur all enemies on screen burns with their sins and load ability has 30 second cooldown
 					'''
 			}
 
@@ -18464,8 +18362,8 @@ Mods: {
 				DisplayName: Tizona
 				Tooltip:
 					'''
-					Legends tell its power depend on its wielder
-					'Upon striking enemy it will ignite, burn with shadowflames and seriously bleed them'
+					'Legendary sword that is as old as the beast itself'
+					According to charge level weapons damage level and strike effect changes
 					'''
 			}
 
@@ -18474,8 +18372,10 @@ Mods: {
 				Tooltip:
 					'''
 					'A cursed sword being forged for old goblin king'
-					'Upon hit it will inflict shadowflame for 4 seconds and flame duration increases 2 secound by each debuff and caps at 4 debuff'
-					'It will get 4% stronger with each debuff does the player have and caps at 4 debuff'
+					Hit inflict shadowflame which get stronger with each active debuff + each active debuff increase swords stats
+					If active debuff is higher than 0 sword generate debuff inflicting curse field
+					If active debuff is higher than 2 swings generate additional slash
+					If active debuff is higher than 4 each hit against nonboss enemy have 1% (2% if crit) has chance to instakill the enemy
 					'''
 			}
 
@@ -18484,9 +18384,9 @@ Mods: {
 				Tooltip:
 					'''
 					'I warn you against shedding blood, indulging in it and making a habit of it, for blood never sleeps'
-					Swords of your fallen comrades rotate around you + make ghost based enemies show no aggro
+					Grant Spectre of Mehmetcik Protection + make ghost based enemies show no aggro
 					Momentum increase attack power up to 50%
-					Attacks inflict bleeding + crits release the swords to slash through enemies
+					Attacks inflict bleeding + crits release the spectres to slash through enemies
 					'''
 			}
 
@@ -18559,7 +18459,7 @@ Mods: {
 				DisplayName: Engineer's Paragon
 				Tooltip:
 					'''
-					Should've renamed to Engineer's Champion after the buffs.'
+					'Should've renamed to Engineer's Champion after the buffs'
 					Leaves a damaging electric trail around.
 					Electricity can leak through water
 					'''
@@ -18633,10 +18533,10 @@ Mods: {
 			}
 
 			SunSlicer: {
-				DisplayName: Sun Slicer
+				DisplayName: Betelgeuse
 				Tooltip:
 					'''
-					'It appears that the core still continues to fuse hydrogene.'
+					'Ah yes, our lively hydrogen friends are once again fusing today, to great acclaim!'
 					Yoyo movements form concentrated flames that will home in on nearby enemies
 					Critical hits will form flames around the yoyo
 					'''
@@ -19579,7 +19479,7 @@ Mods: {
 					'The hand curls for the destruction of helium based rubber'
 					25% chance to throw triple dart + standing provide concentration which increase to 33% + 12% attack speed + 1 defense
 					Different colour baloons float in screen which fade away after switching weapon
-					Hitting these baloons pop then, dealing a small DoT Aoe along with inflicting debuff according to the color
+					Hitting these baloons pop then, dealing a small DoT Aoe along with inflicting debuff according to the color				
 					If rogue config is active and calamity is enabled in stealth you went full monke and activate random buls**t go mode
 					Uses darts as ammo
 					'''
@@ -20858,6 +20758,109 @@ Mods: {
 			ProfessorsProcessor: {
 				Tooltip: Secure. Contain. Protect.
 				DisplayName: Professors Processor
+			}
+
+			GrimoireofCirno: {
+				DisplayName: Grimoire of Cirno
+				Tooltip:
+					'''
+					'Glorious Winter Morning'
+					Each time damage taken tome fuel with the pain of its owner and get empowered
+					Slowly weapon gets calmed down to its original state
+					'''
+			}
+
+			CoderHand: {
+				DisplayName: Sandalphon
+				Tooltip:
+					'''
+					Did the sun come out to play again, or is it just the shine of this sword?
+					Hitting an enemy will prevent immunity frames and lightning will rain down that will deals 75% of weapons damage
+					Hitting an enemy will also burn with both shadowflames and angelic flames and lightning will heavily charge them
+					Attacks will form energy slices around you that deal 75% damage of items base damage
+					This sword is considered a true melee weapon, despite the projectiles that may appear.
+					'''
+			}
+
+			CrusadersSword: {
+				DisplayName: Crusader's Blade
+				Tooltip:
+					'''
+					'Still seeks the heretics'
+					'Hitting enemy will inflict fear'
+					'Critical hits will cause the any enemy that is close to you to burn with angelic flames'
+					'Swords damage increase by 10% in evil biome and decrease by 10% in hallow'
+					'''
+			}
+
+			GildedSword: {
+				DisplayName: Gilded Sword
+				Tooltip:
+					'''
+					'As a wiseman once said, our job is not to create masterpieces, but instead, piece together a master'
+					Critical hits have a chance to reflect one of vanilla or afkpets inflicted debuff back to enemy
+					Swords size will increse with the decrease of players life
+					If players life is below 10% it will give increased life regen which will not stack with crimson armor
+					'''
+			}
+
+			GreenEyedZweihander: {
+				DisplayName: Green-Eyed Zweihander
+				Tooltip:
+					'''
+					'A weapon that is fueled by the jealousy of the kind and lovely'
+					Killing enemies will drop the enemies have 40% chance to drop loot 2 times and bosses are immune to this effect
+					If their life percentage is higher than you your envy will cause your hits to inflict dryads bane and cursed flames and else it will inflict poison
+					'''
+			}
+
+			Havoc: {
+				DisplayName: Havoc
+				Tooltip:
+					'''
+					'Make a wish'
+					'Hits have 20% chance to rain arcane meteor from sky'
+					'When this meteor hit any enemy it will shatter into two arcane bolt which do 50% of meteors base damage'
+					'Hitting enemies will inflict shadowflames'
+					'Each debuff increase its damage by 4% and it caps at 12%'
+					'''
+			}
+
+			JzBoyElKatana: {
+				DisplayName: Duality
+				Tooltip:
+					'''
+					'A relic weapon that is awakened with the spirits of light and dark'
+					RC will change the mode of the sword
+					For both modes critical hits will shatter enemies soul
+					While in light mode hitting any enemy will rip their soul to move towards player which will inflict angelic flames upon hit
+					It will also deal 60% of its base damage to 3 close enemy
+					In dark mode players attacks form 2 dark souls with 60% base damage that will attack and inflict fear
+					'''
+			}
+
+			Kilij: {
+				DisplayName: Kilij
+				Tooltip:
+					'''
+					'A symbol for power and kingdom being carried by Turkish rulers'
+					'It's invented by Hun's and then improved by Seljuks and Ottomans to find its true form'
+					'Attacks will inflict bleeding and players velocity will build momentum which will increase its damage'
+					'While being on a mount due to player have high ground its attacks will inflict bleeding and crits deal 20% more damage'
+					'While being on a mount It will also gain 5% increased crit chance which cannot be nullified by any debuff'
+					'''
+			}
+
+			ScarabSword: {
+				DisplayName: Sacred Sealer
+				Tooltip:
+					'''
+					'May their soul finally find peace'
+					'Critical hits have 5% chance to drop crystal ankh'
+					'Crystal ankh will give immunity to most vanilla debuffs and protect you from death for 1 second'
+					'Hitting enemies will inflict on shadow flames'
+					'If there is no active sand tornado it will form one with 50% item base damage and this ability will deactivate until that tornado disappears'
+					'''
 			}
 		}
 
@@ -23319,6 +23322,48 @@ Mods: {
 			DartBaloon2.DisplayName: Dart Baloon2
 			DartBaloon.DisplayName: Dart Baloon
 			TarotSeal.DisplayName: Tarot Seal
+			WoodSlash.DisplayName: Wood Slash
+			CrystalSwordSlash.DisplayName: Crystal Sword Slash
+			ManaSword.DisplayName: Mana Sword
+			ExtaseSlash.DisplayName: Extase Slash
+			JutteSlash.DisplayName: Jutte Slash
+			JutteSlash2.DisplayName: Jutte Slash2
+			JutteSlash3.DisplayName: Jutte Slash3
+			BunnySwordSlash.DisplayName: Bunny Sword Slash
+			BunnySwordSlash2.DisplayName: Bunny Sword Slash2
+			BunnySwordSlash3.DisplayName: Bunny Sword Slash3
+			CuteBunnySlash.DisplayName: Cute Bunny Slash
+			DiamondSwordSlash2.DisplayName: Diamond Sword Slash2
+			DiamondSwordSlash.DisplayName: Diamond Sword Slash
+			BatBase.DisplayName: Bat Base
+			TizonaSlash.DisplayName: Tizona Slash
+			EyelanderSlash.DisplayName: Eyelander Slash
+			EyelanderSlash2.DisplayName: Eyelander Slash2
+			EyelanderDamage.DisplayName: Eyelander Damage
+			EyelanderTornado.DisplayName: Eyelander Tornado
+			EyelanderRumble.DisplayName: Eyelander Rumble
+			MisaoKnifeSlash.DisplayName: Misao Knife Slash
+			GoorandalSlash3.DisplayName: Goorandal Slash3
+			GoorandalSlash2.DisplayName: Goorandal Slash2
+			GoorandalSlash.DisplayName: Goorandal Slash
+			WhispersofShadowsSlash.DisplayName: Whispersof Shadows Slash
+			WhispersofShadowsSlash2.DisplayName: Whispersof Shadows Slash2
+			WhispersofShadowsSigil.DisplayName: Whispersof Shadows Sigil
+			QuickdrawSlash2.DisplayName: Quickdraw Slash2
+			BeeHiveSlash.DisplayName: Bee Hive Slash
+			GelGlob.DisplayName: Gel Glob
+			ShinobiKatanaSlash2.DisplayName: Shinobi Katana Slash2
+			ShinobiKatanaSlash.DisplayName: Shinobi Katana Slash
+			ShinobiKatanaSlash3.DisplayName: Shinobi Katana Slash3
+			BeeHiveSlash2.DisplayName: Bee Hive Slash2
+			EnergySwordSlash.DisplayName: Energy Sword Slash
+			CyberSkeletronPunch2.DisplayName: Cyber Skeletron Punch2
+			CyberSkeletronPunch.DisplayName: Cyber Skeletron Punch
+			CyberSkeletronDrone.DisplayName: Cyber Skeletron Drone
+			AncientScarabSlash2.DisplayName: Ancient Scarab Slash2
+			AncientScarabSlash.DisplayName: Ancient Scarab Slash
+			RealKnifeSlice.DisplayName: Real Knife Slice
+			PortableSavePoint.DisplayName: Portable Save Point
 		}
 
 		Configs: {

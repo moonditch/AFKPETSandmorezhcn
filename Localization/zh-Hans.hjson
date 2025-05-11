@@ -352,7 +352,7 @@ Mods: {
 			FriendlyHarpy.DisplayName: 友好的鸟妖
 			GalacticRift.DisplayName: 星盈时空裂痕
 			HolographicChunk.DisplayName: 全息之眼
-			RalseiDummy.DisplayName: 利艾尔斯傀儡
+			RalseiDummy.DisplayName: 玩偶假人
 
 			RoyalGuard: {
 				DisplayName: 皇家卫士
@@ -3728,8 +3728,8 @@ Mods: {
 			}
 
 			RalseiDPSCheck: {
-				DisplayName: Training Dummy's Blessing
-				Description: You gain ability to learn your DPS
+				DisplayName: 玩偶假人的祝福
+				Description: 你获得了测试召唤物伤害的能力
 			}
 
 			Rando: {
@@ -6482,7 +6482,7 @@ Mods: {
 					'''
 					'看上去很舒服'
 					装备时，治疗药水额外恢复20点生命值，魔力药水额外恢复50点魔力
-					在耐药性药或魔力病期间，与生存相关的属性会略有增加
+					在耐药性药或魔力疾病期间，与生存相关的属性会略有增加
 					'''
 			}
 
@@ -14673,10 +14673,8 @@ Mods: {
 				DisplayName: 猎犬的分肉刀
 				Tooltip:
 					'''
-					'唯有真正的猎人才能打造如此角度与锋利度兼具的利器'
-					可用于从藤蔓上收集藤绳
-					配备远程控制功能可进行强力短距离刺击
-					持有时玩家将免疫被蛛网缠绕，并且暴击会造成流血效果
+					'谁得到鸟，猎人还是猎犬？'
+					攻击施加流血，击杀非Boss敌人有50%的几率掉落双倍战利品
 					效率属性将提升使用此工具收割植物和干草时的收获率
 					'''
 			}
@@ -15056,11 +15054,11 @@ Mods: {
 			}
 
 			RalseiDummy: {
-				DisplayName: 高级训练假人（出自：三角符文）
+				DisplayName: 玩偶假人（出自：三角符文）
 				Tooltip:
 					'''
 					'最适合进行惊喜拥抱训练'
-					使用它会生成一个让召唤物攻击的假人，并激活伤害计时器
+					使用它会生成一个让召唤物攻击的玩偶假人，并激活伤害计数器
 					右键或召唤任何Boss会让假人立即消失
 					'''
 			}
@@ -17572,16 +17570,6 @@ Mods: {
 					'''
 			}
 
-			GrimoireofCirno: {
-				DisplayName: 水晶宫的魔导书
-				Tooltip:
-					'''
-					'辉煌的冬日早晨'
-					每当受到伤害时，此书会汲取其主人的痛苦作为燃料并变得更强大
-					随着时间推移，武器会逐渐平静下来恢复到原始状态
-					'''
-			}
-
 			Motherboard: {
 				DisplayName: 主板
 				Tooltip:
@@ -18232,10 +18220,9 @@ Mods: {
 				DisplayName: 上古圣甲虫之剑
 				Tooltip:
 					'''
-					'它是用对蓝色圣甲虫非同寻常的知识锻造出来的……'
-					真近战命中有50%的几率产生太阳圣甲虫的暴击会形成十字形的热激光
-					被这把剑打败的敌人会散发出蓝色的圣甲虫
-					攻击形成太阳圣甲虫，爆炸出圣甲虫耀斑
+					'以蓝色圣甲虫的智慧熔铸而成……'
+					在离光标最近的无召唤标记的敌人周围生成火焰龙卷风，并召唤太阳甲虫
+					斩击有几率散发出蓝色的圣甲虫，击杀敌人引发耀斑爆炸
 					'''
 			}
 
@@ -18243,9 +18230,9 @@ Mods: {
 				DisplayName: 明胶切割刀
 				Tooltip:
 					'''
-					骑士在决斗中被史莱姆国王消化后留下的残留物
-					幸运的是，形势发生了转变
-					攻击有10%的几率造成黏液，击中被黏液的敌人，攻击速度将大大提高
+					'忍者在决斗中被史莱姆国王消化后留下的残留物，幸运的是，局势已经逆转'
+					攻击施加黏液，命中会短暂提升斩击速度，且斩击可能向四周喷射粘液
+					右键召唤史莱姆王攻击光标位置，冷却时间20秒
 					'''
 			}
 
@@ -18254,21 +18241,9 @@ Mods: {
 				Tooltip:
 					'''
 					'一把曾经为兔王铸造的象征他力量的传奇宝剑'
-					'尽管它对兔王来说太重了，但你可以轻松地拿着它'
-					持有武器将获得额外的跳跃和移动速度提高
-					当这个特殊的跳跃发生时，靠近的敌人会中毒
-					'''
-			}
-
-			CoderHand: {
-				DisplayName: 桑德枫
-				Tooltip:
-					'''
-					是太阳又出来玩了呢，还是这把剑在发光呢?
-					击中敌人会阻止免疫帧，闪电会像雨一样落下，造成75%的武器伤害
-					击中敌人也会燃烧暗影火焰和圣焰，闪电会对他们造成严重冲击
-					攻击将在你周围形成能量切割，造成75%的物品基础伤害
-					这把剑被认为是真近战武器，尽管可能出现射弹
+					每第三次攻击会释放一股击退射弹的冲击波
+					为每个召唤物提供一柄迷你剑，使其在攻击时可朝光标方向发动额外攻击
+					持有该武器时，提升移动速度及获得额外跳跃能力
 					'''
 			}
 
@@ -18276,29 +18251,20 @@ Mods: {
 				DisplayName: 冷落
 				Tooltip:
 					'''
-					'对于一个拥有一切的男人来说，这是一份完美的礼物!'
-					持有时获得潜行状态，从敌人后面攻击会造成20%以上的伤害
-					对火焰免疫，杀死敌人会形成冰柱
-					'''
-			}
-
-			CrusadersSword: {
-				DisplayName: 十字军之刃
-				Tooltip:
-					'''
-					'仍然在寻找异教徒
-					攻击敌人会造成恐惧
-					暴击会对周围的敌人施加圣焰
-					剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%
+					'送给那位拥有一切的仙子的完美礼物！'
+					可以隐身，背刺额外造成20%伤害
+					冲刺斩击会召唤从天而降的冰锥，直接命中时有10%概率触发雪葬
+					冲刺冷却期间，右键改为投掷过冻冰锥
 					'''
 			}
 
 			CrystalSlasher: {
-				DisplayName: 晶体短匕
+				DisplayName: 水晶钉
 				Tooltip:
 					'''
-					攻击将恢复魔力值，暴击将治愈魔力疾病
-					右键使用魔法波进行更强的攻击
+					'你需要的不是更多魔力，而是更强的法术！'
+					当玩家魔力低于50%时，攻击有几率恢复魔力或者治愈魔力疾病
+					当玩家魔力低于50%时，暴击会生成魔力领域或召唤魔法剑
 					'''
 			}
 
@@ -18319,9 +18285,8 @@ Mods: {
 				Tooltip:
 					'''
 					'根据化学定律，你不可能仅凭一把锤子就弄清楚如何制作剑柄'
-					在坠落时必定造成暴击，但暴击造成的伤害降低20%
-					每杀死10个敌人就会升级这把剑，使它的伤害提高5%，最高上限为15%
-					死亡会重置剑的等级
+					坠落时攻击必定暴击，但会降低基础伤害，击杀敌人可升级剑（最高3级）
+					每级提升近战攻速与伤害，满级时敌人有10%概率掉落双倍战利品
 					'''
 			}
 
@@ -18329,9 +18294,9 @@ Mods: {
 				DisplayName: 等离子双叶刃
 				Tooltip:
 					'''
-					'高贵而古老的兵器，由火星最强之人所持'
-					每次攻击有10%的几率溅落等离子粒子，造成75%的基础伤害，并在碰撞时造成一个能量区域
-					攻击时附加触电效果，暴击时将向周围随机区域降下雷雨
+					'我可不会好声好气商量'
+					每次命中增加目标的静电充能层数，20层后目标过载并进入感电状态
+					目标感电期间，暴击有概率召唤赛博残影对其发动终结攻击
 					'''
 			}
 
@@ -18339,7 +18304,7 @@ Mods: {
 				DisplayName: 恍惚
 				Tooltip:
 					'''
-					'你总是有用的，我忠实的伙伴'
+					'智者有云：吾等之命，非为创杰作，乃聚碎成真章'
 					攻击将造成重创流血并降低敌人防御10点
 					右键可以冲向光标方向，冷却时间为10秒
 					'''
@@ -18350,19 +18315,10 @@ Mods: {
 				Tooltip:
 					'''
 					'勇气和荣耀，伙计们'
-					杀死一个敌人后，它的属性会增加，并且在杀死5个敌人时达到最大值
-					受到伤害有10%的几率使武器增益减少1
-					'''
-			}
-
-			GildedSword: {
-				DisplayName: 武士镀金刀
-				Tooltip:
-					'''
-					'正如一位智者所说，我们的工作不是创造杰作，而是拼凑出一个大师'
-					暴击有一定几率将造成的减益反弹回敌人身上
-					剑的尺寸会随着玩家生命的减少而增加
-					如果玩家的生命值低于10%，它将增加生命回复，不会与猩红盔甲叠加
+					击杀敌人可提升属性（上限5层），受伤时可能失去层数并对周围敌人造成伤害
+					暴击后强化下一次剑击，首次攻击生成吸附敌人的小型旋风
+					对地面目标的首次普通攻击会沿斩击方向引发地裂波
+					蓄力斩击提升伤害并附加减益（效果强度随剑的强化等级提升）
 					'''
 			}
 
@@ -18370,31 +18326,9 @@ Mods: {
 				DisplayName: 戈兰达尔
 				Tooltip:
 					'''
-					在人类和史莱姆的战争中，一个伟大的英雄使用的传说中的剑
-					你的真近战攻击将会打破他们对其他敌人的接触伤害免疫，持续2.5秒
-					在攻击敌人时有10%的几率造成黏液，在攻击被黏液攻击的敌人后，其速度将大大提高
-					'''
-			}
-
-			GreenEyedZweihander: {
-				DisplayName: 绿眼诅咒剑
-				Tooltip:
-					'''
-					'以善良可爱之人的嫉妒为动力的武器'
-					杀死敌人会使敌人有40%的几率掉落战利品2次，boss免疫此效果
-					如果他们的生命百分比高于你，你的嫉妒会使你的攻击施加树妖祸害和诅咒焰，并造成中毒
-					'''
-			}
-
-			Havoc: {
-				DisplayName: 混乱巨剑
-				Tooltip:
-					'''
-					'许个愿望'
-					命中有20%的几率从天而降奥术流星
-					当这颗流星击中任何敌人时，它将粉碎成两个奥术气流，造成50%的流星基础伤害
-					击中敌人会造成暗影火焰
-					每次减益的伤害增加4%，上限为12%
+					'由史莱姆英雄执掌的传说之剑'
+					蓄力完成后，攻击会施加诅咒焰并对敌人施加混乱，使其可能误伤同伴
+					左键发动下劈时，会从地底召唤远古英灵
 					'''
 			}
 
@@ -18402,34 +18336,8 @@ Mods: {
 				DisplayName: 朱特
 				Tooltip:
 					'''
-					'专为宫殿守卫设计的武器'
-					左键挥舞阻挡低于其基础伤害的射弹
-					右键以更高的速度和伤害刺它
-					'''
-			}
-
-			JzBoyElKatana: {
-				DisplayName: 二元性
-				Tooltip:
-					'''
-					'一把被光明和黑暗的灵魂碎片唤醒的遗迹武器'
-					右键会改变剑的模式
-					两种模式下的暴击都会击碎敌人的灵魂
-					在神圣模式下，击中任何敌人都会撕裂他们的灵魂向玩家移动，并在击中时施加圣焰
-					它也会对3个近距离的敌人造成60%的基础伤害
-					在黑暗模式下，玩家攻击形成2个黑暗灵魂，具有60%的基础伤害，将攻击并施加恐惧
-					'''
-			}
-
-			Kilij: {
-				DisplayName: 基利杰弯刀
-				Tooltip:
-					'''
-					'这是土耳其统治者的权力和王国的象征'
-					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
-					攻击会造成流血，玩家的速度会产生动力，从而增加伤害
-					当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害
-					当骑在坐骑上时，它也会获得5%的暴击率，并且不会被任何减益抵消
+					'知进退者，方为胜者'
+					静止攻击时生成剑气领域，可反弹低级弹幕
 					'''
 			}
 
@@ -18437,9 +18345,9 @@ Mods: {
 				DisplayName: 奥尼加瓦拉之刀
 				Tooltip:
 					'''
-					'它燃烧着前任使用者的罪恶'
-					击中敌人会造成流血，暴击会短暂地诅咒他们的灵魂
-					击中敌人有机会为自己撕开一点血腥的礼物
+					'用你的仇恨斩碎他们'
+					击中敌人施加流血，有几率从敌人身上斩落美味赠礼供你拾取
+					可攻击城镇NPC，每次命中微量恢复生命值并提供短暂的治愈
 					'''
 			}
 
@@ -18468,23 +18376,11 @@ Mods: {
 					'''
 			}
 
-			ScarabSword: {
-				DisplayName: 神圣封印者
-				Tooltip:
-					'''
-					'愿他们的灵魂最终得到安宁'
-					暴击有5%的几率掉落水晶护身符
-					水晶护身符免疫大多数原版减益，并获得1秒的无敌时间
-					击中敌人会造成阴影火焰
-					如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失
-					'''
-			}
-
 			SelfSacrifice: {
 				DisplayName: 赤色血刃
 				Tooltip:
 					'''
-					'但回报是什么呢?'
+					'但代价是什么呢?'
 					每次挥砍消耗10点生命，击中敌人回复5点生命
 					暴击时，敌人身上会爆发火球
 					杀死一个敌人将使他的生命成为一种牺牲，并让剑摆动得更快，并且在3秒内不消耗生命
@@ -18495,10 +18391,9 @@ Mods: {
 				DisplayName: 小乌丸
 				Tooltip:
 					'''
-					'它曾被用来执行保护王国的任务'
-					当你的敌人生命值低于10%时，你会对他们进行致命一击
-					无法对boss生效
-					如果他们的生命值超过10%或者目标是Boss，你的攻击会造成恐惧减益
+					'战争即和平，自由即奴役，凝胶即力量'
+					对非boss的敌人生命值低于10%时，可造成致命一击
+					右键根据光标方向发动水平斩击，冷却时间20秒
 					'''
 			}
 
@@ -18507,7 +18402,11 @@ Mods: {
 				Tooltip:
 					'''
 					'我们到了!现在事情变得有趣了'
-					当你击中敌人时，你会对他们造成恐惧减益，如果这个攻击是致命一击，附近的敌人也会受到恐惧减益
+					命中附加恐惧，斩击可能波及屏幕上同类敌人
+					右键生成持续10秒的存档点，再次右键读取存档
+					存档点会自动保存该时刻玩家生命值和魔力值状态
+					读档时回溯数值较高的状态，冷却时间30秒
+					触发全屏敌人罪孽灼烧
 					'''
 			}
 
@@ -18515,8 +18414,8 @@ Mods: {
 				DisplayName: 缇佐纳
 				Tooltip:
 					'''
-					'传说中它的力量取决于持有者'
-					在攻击时，它会点燃敌人，燃烧阴影火焰，并施加重创流血
+					'与巨兽同寿的传说之剑'
+					伤害与攻击特效随蓄力阶段变化
 					'''
 			}
 
@@ -18525,8 +18424,11 @@ Mods: {
 				Tooltip:
 					'''
 					'为老妖精王锻造的诅咒之剑'
-					在攻击敌人时，它将造成4秒的阴影火焰，火焰持续时间每减少一点减益增加2秒，上限为4点减益
-					玩家的每一次减益都会增强4%，并且上限为4次减益
+					攻击施加暗影焰，伤害随减益效果数量而提升
+					每有一个减益效果，提升剑的基础属性
+					减益≥1个时：攻击会生成施加诅咒的领域
+					减益≥3个时：每次挥砍追加一道额外斩击
+					减益≥5个时：对非Boss敌人有1%概率触发即死（暴击时概率提升至2%）
 					'''
 			}
 
@@ -18535,9 +18437,9 @@ Mods: {
 				Tooltip:
 					'''
 					'我警告你，不要沉溺于杀戮，不要习惯于流血，因为鲜血永远不会沉睡'
-					你倒下的战友的剑围绕着你旋转，幽灵敌人变得友好
+					获得穆罕默德之魂的庇护，幽灵敌人变得友好
 					积累动量增加伤害，最高50%
-					攻击施加流血，暴击时释放剑刃斩击敌人
+					攻击施加流血，暴击时释放幽灵斩击敌人
 					'''
 			}
 
@@ -18610,7 +18512,7 @@ Mods: {
 				DisplayName: 工程师的典范
 				Tooltip:
 					'''
-					'应该以buffs的名字重新命名为工程师的拥护者'
+					'这波加强后，该改名叫工程师之荣光了'
 					会留下破坏性的电痕迹
 					电可以通过水泄漏
 					'''
@@ -18684,10 +18586,10 @@ Mods: {
 			}
 
 			SunSlicer: {
-				DisplayName: 太阳耀斑
+				DisplayName: 参宿四
 				Tooltip:
 					'''
-					'看来核心仍在继续融合氢'
+					'啊哈！我们活泼的氢元素朋友们今天又在热烈核聚变了，真是普天同庆'
 					投掷悠悠球会形成集中的火焰核心，对周围的敌人造成伤害
 					溜溜球暴击将形成炽热爆裂
 					'''
@@ -19595,7 +19497,7 @@ Mods: {
 					'''
 					'现在你知道羊酱汁在哪里了'
 					左键投掷，右键饮用
-					饮用后获得热辣滚烫减益，大幅提升攻击速度但增加法力消耗，提高20%移动速度，受到轻微的持续伤害
+					饮用后获得热辣滚烫减益，大幅提升攻击速度但增加魔力消耗，提高20%移动速度，受到轻微的持续伤害
 					右键使用有1分钟冷却时间
 					'''
 			}
@@ -20914,6 +20816,109 @@ Mods: {
 			ProfessorsProcessor: {
 				Tooltip: 安全.收容.保护.
 				DisplayName: 教授的头脑处理器
+			}
+
+			GrimoireofCirno: {
+				DisplayName: 水晶宫的魔导书
+				Tooltip:
+					'''
+					'辉煌的冬日早晨'
+					每当受到伤害时，此书会汲取其主人的痛苦作为燃料并变得更强大
+					随着时间推移，武器会逐渐平静下来恢复到原始状态
+					'''
+			}
+
+			CoderHand: {
+				DisplayName: 桑德枫
+				Tooltip:
+					'''
+					是太阳又出来玩了呢，还是这把剑在发光呢?
+					击中敌人会阻止免疫帧，闪电会像雨一样落下，造成75%的武器伤害
+					击中敌人也会燃烧暗影火焰和圣焰，闪电会对他们造成严重冲击
+					攻击将在你周围形成能量切割，造成75%的物品基础伤害
+					这把剑被认为是真近战武器，尽管可能出现射弹
+					'''
+			}
+
+			CrusadersSword: {
+				DisplayName: 十字军之刃
+				Tooltip:
+					'''
+					'仍然在寻找异教徒
+					攻击敌人会造成恐惧
+					暴击会对周围的敌人施加圣焰
+					剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%
+					'''
+			}
+
+			GildedSword: {
+				DisplayName: 武士镀金刀
+				Tooltip:
+					'''
+					'正如一位智者所说，我们的工作不是创造杰作，而是拼凑出一个大师'
+					暴击有一定几率将造成的减益反弹回敌人身上
+					剑的尺寸会随着玩家生命的减少而增加
+					如果玩家的生命值低于10%，它将增加生命回复，不会与猩红盔甲叠加
+					'''
+			}
+
+			GreenEyedZweihander: {
+				DisplayName: 绿眼诅咒剑
+				Tooltip:
+					'''
+					'以善良可爱之人的嫉妒为动力的武器'
+					杀死敌人会使敌人有40%的几率掉落战利品2次，boss免疫此效果
+					如果他们的生命百分比高于你，你的嫉妒会使你的攻击施加树妖祸害和诅咒焰，并造成中毒
+					'''
+			}
+
+			Havoc: {
+				DisplayName: 混乱巨剑
+				Tooltip:
+					'''
+					'许个愿望'
+					命中有20%的几率从天而降奥术流星
+					当这颗流星击中任何敌人时，它将粉碎成两个奥术气流，造成50%的流星基础伤害
+					击中敌人会造成暗影火焰
+					每次减益的伤害增加4%，上限为12%
+					'''
+			}
+
+			JzBoyElKatana: {
+				DisplayName: 二元性
+				Tooltip:
+					'''
+					'一把被光明和黑暗的灵魂碎片唤醒的遗迹武器'
+					右键会改变剑的模式
+					两种模式下的暴击都会击碎敌人的灵魂
+					在神圣模式下，击中任何敌人都会撕裂他们的灵魂向玩家移动，并在击中时施加圣焰
+					它也会对3个近距离的敌人造成60%的基础伤害
+					在黑暗模式下，玩家攻击形成2个黑暗灵魂，具有60%的基础伤害，将攻击并施加恐惧
+					'''
+			}
+
+			Kilij: {
+				DisplayName: 基利杰弯刀
+				Tooltip:
+					'''
+					'这是土耳其统治者的权力和王国的象征'
+					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
+					攻击会造成流血，玩家的速度会产生动力，从而增加伤害
+					当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害
+					当骑在坐骑上时，它也会获得5%的暴击率，并且不会被任何减益抵消
+					'''
+			}
+
+			ScarabSword: {
+				DisplayName: 神圣封印者
+				Tooltip:
+					'''
+					'愿他们的灵魂最终得到安宁'
+					暴击有5%的几率掉落水晶护身符
+					水晶护身符免疫大多数原版减益，并获得1秒的无敌时间
+					击中敌人会造成阴影火焰
+					如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失
+					'''
 			}
 		}
 
@@ -23375,6 +23380,48 @@ Mods: {
 			DartBaloon2.DisplayName: Dart Baloon2
 			DartBaloon.DisplayName: Dart Baloon
 			TarotSeal.DisplayName: Tarot Seal
+			WoodSlash.DisplayName: Wood Slash
+			CrystalSwordSlash.DisplayName: Crystal Sword Slash
+			ManaSword.DisplayName: Mana Sword
+			ExtaseSlash.DisplayName: Extase Slash
+			JutteSlash.DisplayName: Jutte Slash
+			JutteSlash2.DisplayName: Jutte Slash2
+			JutteSlash3.DisplayName: Jutte Slash3
+			BunnySwordSlash.DisplayName: Bunny Sword Slash
+			BunnySwordSlash2.DisplayName: Bunny Sword Slash2
+			BunnySwordSlash3.DisplayName: Bunny Sword Slash3
+			CuteBunnySlash.DisplayName: Cute Bunny Slash
+			DiamondSwordSlash2.DisplayName: Diamond Sword Slash2
+			DiamondSwordSlash.DisplayName: Diamond Sword Slash
+			BatBase.DisplayName: Bat Base
+			TizonaSlash.DisplayName: Tizona Slash
+			EyelanderSlash.DisplayName: Eyelander Slash
+			EyelanderSlash2.DisplayName: Eyelander Slash2
+			EyelanderDamage.DisplayName: Eyelander Damage
+			EyelanderTornado.DisplayName: Eyelander Tornado
+			EyelanderRumble.DisplayName: Eyelander Rumble
+			MisaoKnifeSlash.DisplayName: Misao Knife Slash
+			GoorandalSlash3.DisplayName: Goorandal Slash3
+			GoorandalSlash2.DisplayName: Goorandal Slash2
+			GoorandalSlash.DisplayName: Goorandal Slash
+			WhispersofShadowsSlash.DisplayName: Whispersof Shadows Slash
+			WhispersofShadowsSlash2.DisplayName: Whispersof Shadows Slash2
+			WhispersofShadowsSigil.DisplayName: Whispersof Shadows Sigil
+			QuickdrawSlash2.DisplayName: Quickdraw Slash2
+			BeeHiveSlash.DisplayName: Bee Hive Slash
+			GelGlob.DisplayName: Gel Glob
+			ShinobiKatanaSlash2.DisplayName: Shinobi Katana Slash2
+			ShinobiKatanaSlash.DisplayName: Shinobi Katana Slash
+			ShinobiKatanaSlash3.DisplayName: Shinobi Katana Slash3
+			BeeHiveSlash2.DisplayName: Bee Hive Slash2
+			EnergySwordSlash.DisplayName: Energy Sword Slash
+			CyberSkeletronPunch2.DisplayName: Cyber Skeletron Punch2
+			CyberSkeletronPunch.DisplayName: Cyber Skeletron Punch
+			CyberSkeletronDrone.DisplayName: Cyber Skeletron Drone
+			AncientScarabSlash2.DisplayName: Ancient Scarab Slash2
+			AncientScarabSlash.DisplayName: Ancient Scarab Slash
+			RealKnifeSlice.DisplayName: Real Knife Slice
+			PortableSavePoint.DisplayName: Portable Save Point
 		}
 
 		Configs: {

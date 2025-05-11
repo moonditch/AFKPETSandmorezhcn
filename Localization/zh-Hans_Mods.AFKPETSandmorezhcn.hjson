@@ -166,6 +166,13 @@ AFKPETS: {
 							// OldString: POTATO FOR THE POTATO LORD
 						}
 					}
+
+					UseItem: {
+						1: {
+							// OldString: POTATO FOR THE POTATO LORD
+							NewString: 向“土豆领主”致敬
+						}
+					}
 				}
 			}
 
@@ -392,6 +399,55 @@ AFKPETS: {
 								- M18:DDFE CC DDFEC AF GE FD EC AF GE FD EC
 								- M19:A C E D C A A C E E E D C A
 								''' */
+						}
+
+						15: {
+							/* OldString:
+								'''
+								                                      [c/FF00FF:-Some Melodies-]
+								- M1:CDFDAAG CDFDGGF CDFDFGEDCCGF CDFDAAG CDFDCEFED CDFDFGEDCCGF
+								- M2:D D A G F E  E F G  F E D  D F E F E F   D  D F E F E F
+								- M3:C C D C F E, C C D C G F, C C C A F E D, G G D E D C
+								- M4:GACCC CC CC GACCC CC CC GACCC CC CC CCB
+								- M5:E A B C A  E A B C A  E A B C B A C B A E E E
+								- M6:DD FF AA G CCC EE GG F FF AA CC D DC FF AA CC D DC
+								- M7:A C E C F A C A D F A F E G B G
+								- M8:EA B C-D-C E E-A B C E C A E D
+								- M9:E GD  CDE GD  E GD CG  FEDE
+								- M10:D DD AG  F  E  D    DD AB G A
+								- M11:EDCDEEE DDD EGG EDCDEEEEDDEDC
+								- M12:C   B   AE  EEEE  AAAA  AGAF  FFFF AAAAB C G GGGG CCC DD B  C B A E
+								- M13:DEFAGAC DEFE GAGF FFFAAGF AAAGAGF FFFAAGF AAA CCC FFFAAGF
+								- M14:E E G A G    E G A G E D E A G E D E
+								- M15:C  A  C  B  C  B  G      C  E  D  C  B  C  B  G
+								- M16:C C G G A A G    F F E E D D C
+								- M17:BBB BBB BDGAB CCCCCBBBBAABA D
+								- M18:DDFE CC DDFEC AF GE FD EC AF GE FD EC
+								- M19:A C E D C A A C E E E D C A
+								''' */
+							NewString:
+								'''
+																			[c/FF00FF:- 旋律示例 -]
+								- M1:CDFDAAG CDFDGGF CDFDFGEDCCGF CDFDAAG CDFDCEFED CDFDFGEDCCGF
+								- M2:D D A G F E  E F G  F E D  D F E F E F   D  D F E F E F
+								- M3:C C D C F E, C C D C G F, C C C A F E D, G G D E D C
+								- M4:GACCC CC CC GACCC CC CC GACCC CC CC CCB
+								- M5:E A B C A  E A B C A  E A B C B A C B A E E E
+								- M6:DD FF AA G CCC EE GG F FF AA CC D DC FF AA CC D DC
+								- M7:A C E C F A C A D F A F E G B G
+								- M8:EA B C-D-C E E-A B C E C A E D
+								- M9:E GD  CDE GD  E GD CG  FEDE
+								- M10:D DD AG  F  E  D    DD AB G A
+								- M11:EDCDEEE DDD EGG EDCDEEEEDDEDC
+								- M12:C   B   AE  EEEE  AAAA  AGAF  FFFF AAAAB C G GGGG CCC DD B  C B A E
+								- M13:DEFAGAC DEFE GAGF FFFAAGF AAAGAGF FFFAAGF AAA CCC FFFAAGF
+								- M14:E E G A G    E G A G E D E A G E D E
+								- M15:C  A  C  B  C  B  G      C  E  D  C  B  C  B  G
+								- M16:C C G G A A G    F F E E D D C
+								- M17:BBB BBB BDGAB CCCCCBBBBAABA D
+								- M18:DDFE CC DDFEC AF GE FD EC AF GE FD EC
+								- M19:A C E D C A A C E E E D C A
+								'''
 						}
 					}
 				}
@@ -666,6 +722,57 @@ AFKPETS: {
 							2: {
 								NewString: 集中型
 								// OldString: Concentrated
+							}
+						}
+					}
+				}
+
+				Stabbers: {
+					TheRealKnife: {
+						HoldItem: {
+							1: {
+								// OldString: SAVE
+								NewString: 存档
+							}
+
+							2: {
+								// OldString: LOAD
+								NewString: 读档
+							}
+						}
+					}
+				}
+
+				Slashers: {
+					DiamondSword: {
+						OnHitNPC: {
+							1: {
+								// OldString: Level Up
+								NewString: 升级
+							}
+						}
+					}
+
+					MisaoKnife: {
+						OnHitNPC: {
+							1: {
+								// OldString: It hurts, please stop hitting
+								NewString: 好疼，请停止攻击
+							}
+
+							2: {
+								// OldString: I thought you care about us
+								NewString: 我以为你会关心我们
+							}
+
+							3: {
+								// OldString: Guess this is the end...
+								NewString: 我想这就是结局了...
+							}
+
+							4: {
+								// OldString: I didn't deserve this
+								NewString: 我不值得这样
 							}
 						}
 					}
@@ -1386,6 +1493,36 @@ AFKPETS: {
 					1: {
 						NewString: 现在按相同顺序按下按键
 						// OldString: Now press the buttons in same order
+					}
+
+					2: {
+						// OldString: Correct code. Lets continue test with 4 word code
+						NewString: 正确，让我们再试试其余4个
+					}
+
+					3: {
+						// OldString: Wrong code. Lets continue test with 4 word code
+						NewString: 错误，让我们再试试其余4个
+					}
+
+					4: {
+						// OldString: Correct code. Lets continue test with 6 word code
+						NewString: 正确，让我们再试试其余6个
+					}
+
+					5: {
+						// OldString: Wrong code. Lets continue test with 6 word code
+						NewString: 错误，让我们再试试其余6个
+					}
+
+					6: {
+						// OldString: Correct code. Test have been ended. Could you talk with me for results?
+						NewString: 正确，测试结束，你能和我聊聊结果吗？
+					}
+
+					7: {
+						// OldString: Wrong code. Test have been ended. Could you talk with me for results?
+						NewString: 错误，测试结束，你能和我聊聊结果吗？
 					}
 				}
 			}

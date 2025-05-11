@@ -19,7 +19,7 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			Main.NewText("AFK模组更新 v9.9.9.83 ，塔罗牌能力改版，塔罗牌获取方式变更", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.84 ，部分真近战武器重置", Color.Orange);
 			//Main.NewText("汉化模组更新，汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}
