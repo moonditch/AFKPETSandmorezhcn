@@ -1,6 +1,6 @@
 displayName = AFK拓展和宠物模组汉化补丁
 author = moon.ditch，nobody
-version = 0.0.0.37
+version = 0.0.0.38
 translationMod = true
 side = Client
 hideCode = true

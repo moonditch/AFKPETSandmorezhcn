@@ -608,9 +608,9 @@ Mods: {
 			Banners.MapEntry: 旗帜
 			BicycleEffect.MapEntry: 自行车效应
 			BlondeHairEffect.MapEntry: 金发效果
-			BookofAlchemy.MapEntry: 炼金术之书
+			BookofAlchemy.MapEntry: 转化工作台
 			BuyoBuyoEffect.MapEntry: Buyo Buyo Effect
-			BZMantle.MapEntry: B Z悬挂纪念章
+			BZMantle.MapEntry: 兔子飞艇悬挂纪念章
 			Cat2Painting.MapEntry: Cat2绘画
 			YuriPainting.MapEntry: Yuri绘画
 			YukionnaEffect.MapEntry: Yukionna Effect
@@ -3287,11 +3287,6 @@ Mods: {
 				Description: 她将跟随你
 			}
 
-			NebulaBuff: {
-				DisplayName: 星云碎片
-				Description: 增加 7% 魔法伤害
-			}
-
 			Nightmare: {
 				DisplayName: 梦魇
 				Description: 你觉得连现实都在失去理智
@@ -3847,11 +3842,6 @@ Mods: {
 				Description: 她正在寻找她的主人
 			}
 
-			SacrificeBuff: {
-				DisplayName: 自我牺牲
-				Description: 你的牺牲已被接受
-			}
-
 			SagumeKishin: {
 				DisplayName: 稀神探女
 				Description: 稀神探女将跟随你
@@ -4112,11 +4102,6 @@ Mods: {
 				Description: 卡比兽将跟随你
 			}
 
-			SolarBuff: {
-				DisplayName: 日耀碎片
-				Description: 增加 7% 近战伤害
-			}
-
 			Sonic: {
 				DisplayName: 索尼克
 				Description: 他在找尾巴
@@ -4165,11 +4150,6 @@ Mods: {
 			StarCrusher: {
 				DisplayName: 星辰粉碎
 				Description: 恒星的引力正在压垮你
-			}
-
-			StardustBuff: {
-				DisplayName: 星尘碎片
-				Description: 增加 1 最大仆从栏
 			}
 
 			StardustCellTransform: {
@@ -4572,11 +4552,6 @@ Mods: {
 				Description: You feel your body shattered in space
 			}
 
-			VortexBuff: {
-				DisplayName: 星璇碎片
-				Description: 增加y 7% 远程伤害
-			}
-
 			Wailord: {
 				DisplayName: 吼鲸王
 				Description: 这个会飞?
@@ -4863,13 +4838,23 @@ Mods: {
 			}
 
 			SurvivalInstinct: {
-				Description: Mods.AFKPETS.Buffs.SurvivalInstinct.Description
-				DisplayName: Survival Instinct
+				Description: 你的每一次呼吸都是我的礼物
+				DisplayName: 生存本能
 			}
 
 			RadarDebuff: {
 				Description: Mods.AFKPETS.Buffs.RadarDebuff.Description
 				DisplayName: Radar Debuff
+			}
+
+			WellCheersBuff: {
+				Description: 拿的近一点，你可以听到海鸥叫
+				DisplayName: 干杯
+			}
+
+			SwordWind: {
+				DisplayName: 旋风乱舞
+				Description: 持有时提高移动能力
 			}
 		}
 
@@ -8805,12 +8790,12 @@ Mods: {
 
 			DrFetusTrophy: {
 				DisplayName: 胎儿博士纪念章
-				Tooltip: ""
+				Tooltip: 在快捷栏选中后可交给Boss狩猎商人，解锁商店新物品
 			}
 
 			LavalGolemTrophy: {
 				DisplayName: 拉瓦尔傀儡纪念章
-				Tooltip: ""
+				Tooltip: 在快捷栏选中后可交给Boss狩猎商人，解锁商店新物品
 			}
 
 			OkikuMantle: {
@@ -8820,12 +8805,12 @@ Mods: {
 
 			SatlaTrophy: {
 				DisplayName: SATLA-001纪念章
-				Tooltip: ""
+				Tooltip: 在快捷栏选中后可交给Boss狩猎商人，解锁商店新物品
 			}
 
 			SlayerofEvilTrophy: {
 				DisplayName: 恶魔杀手纪念章
-				Tooltip: ""
+				Tooltip: 在快捷栏选中后可交给Boss狩猎商人，解锁商店新物品
 			}
 
 			SlimesLastHopeTrophy: {
@@ -12832,8 +12817,8 @@ Mods: {
 				DisplayName: 烹饪的乐趣
 				Tooltip:
 					'''
-					一本主要关注甜点的烹饪书
-					使用后召唤饼干板条箱，重新挑战
+					'一本主要关注甜点的烹饪书'
+					在海边使用后召唤饼干板条箱，来一场友好决斗
 					'''
 			}
 
@@ -14218,7 +14203,7 @@ Mods: {
 			}
 
 			ShatteredSoul: {
-				DisplayName: 弱小的魂灵
+				DisplayName: 破碎魂灵
 				Tooltip: "'它是由堕落者的善良和纯真形成的'"
 			}
 
@@ -14232,12 +14217,11 @@ Mods: {
 			}
 
 			Twilightinabottle: {
-				DisplayName: 瓶中星系
+				DisplayName: 干杯牌美酒
 				Tooltip:
 					'''
-					'里面充满了古代恒星的残骸'
-					'它看起来既漂亮又强大'
-					使用后，使玩家通过右键点击四柱碎片获取增益或失去增益
+					'虾怎么做都好吃，水煮、油炸，随便！'
+					有几率使附近敌人陷入睡眠，并提升20%生命值、魔法值恢复效果
 					'''
 			}
 
@@ -18067,9 +18051,9 @@ Mods: {
 				DisplayName: 盖亚沙暴双刀
 				Tooltip:
 					'''
-					胜利……这是我的命运……
-					左键使用时作为真近战武器，而右键将化身沙尘卷
-					沙尘卷将持续3秒，冷却时间为30秒
+					'胜利……是我的命运……'
+					左键旋风乱劈，施加恐惧和彩虹诅咒
+					旋风乱劈提高玩家移动速度和伤害减免
 					'''
 			}
 
@@ -18263,6 +18247,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你需要的不是更多魔力，而是更强的法术！'
+					命中时消耗10点魔力产生一道魔力剑辉
 					当玩家魔力低于50%时，攻击有几率恢复魔力或者治愈魔力疾病
 					当玩家魔力低于50%时，暴击会生成魔力领域或召唤魔法剑
 					'''
@@ -18337,7 +18322,9 @@ Mods: {
 				Tooltip:
 					'''
 					'知进退者，方为胜者'
-					静止攻击时生成剑气领域，可反弹低级弹幕
+					左键刺击（Jutte），右键可短暂反弹射弹
+					成功反弹时，将触发一道猩红斩击，可再次反弹射弹并撕裂敌人
+					仅可反弹伤害低于当前武器两倍倍的敌对射弹
 					'''
 			}
 
@@ -18346,7 +18333,7 @@ Mods: {
 				Tooltip:
 					'''
 					'用你的仇恨斩碎他们'
-					击中敌人施加流血，有几率从敌人身上斩落美味赠礼供你拾取
+					击中敌人施加流血，有几率从敌人身上斩落伤害他人的美味赠礼
 					可攻击城镇NPC，每次命中微量恢复生命值并提供短暂的治愈
 					'''
 			}
@@ -18356,12 +18343,8 @@ Mods: {
 				Tooltip:
 					'''
 					'作为生者，你有责任维护过去的荣耀'
-					攻击敌人会施加圣焰，他们的罪恶会使武器储存能量
-					当武器储存了足够的能量，右键以进行神圣打击，分为三个阶段
-					当玩家的灵魂因正义而燃烧时，其伤害减免和防御会随着能量的增加而提升，但有一定的上限
-					在第一阶段，剑会用圣焰燃烧任何靠近玩家的敌人
-					在第二阶段，向你的光标方向召唤天使光束
-					在第三阶段，发射一股天使能量冲击，击中敌人后会爆炸成地狱般的火焰
+					右键同时挥舞长剑与幽灵剑，施加圣焰，并有概率召唤光柱
+					左键举起天使之剑施展天裂斩，该技能有冷却时间
 					'''
 			}
 
@@ -18381,9 +18364,7 @@ Mods: {
 				Tooltip:
 					'''
 					'但代价是什么呢?'
-					每次挥砍消耗10点生命，击中敌人回复5点生命
-					暴击时，敌人身上会爆发火球
-					杀死一个敌人将使他的生命成为一种牺牲，并让剑摆动得更快，并且在3秒内不消耗生命
+					攻击施加狱火和灵魂枯萎，并有概率对敌人施加灵魂诅咒，将其罪孽撕裂而出
 					'''
 			}
 
@@ -20818,107 +20799,14 @@ Mods: {
 				DisplayName: 教授的头脑处理器
 			}
 
-			GrimoireofCirno: {
-				DisplayName: 水晶宫的魔导书
+			SuenoImposible: {
 				Tooltip:
 					'''
-					'辉煌的冬日早晨'
-					每当受到伤害时，此书会汲取其主人的痛苦作为燃料并变得更强大
-					随着时间推移，武器会逐渐平静下来恢复到原始状态
+					'英雄不可能是真实存在的...'
+					高速击杀敌人时恢复5点生命值并提高突进攻击速度
+					根据攻击速度对敌人施加流血或大出血
 					'''
-			}
-
-			CoderHand: {
-				DisplayName: 桑德枫
-				Tooltip:
-					'''
-					是太阳又出来玩了呢，还是这把剑在发光呢?
-					击中敌人会阻止免疫帧，闪电会像雨一样落下，造成75%的武器伤害
-					击中敌人也会燃烧暗影火焰和圣焰，闪电会对他们造成严重冲击
-					攻击将在你周围形成能量切割，造成75%的物品基础伤害
-					这把剑被认为是真近战武器，尽管可能出现射弹
-					'''
-			}
-
-			CrusadersSword: {
-				DisplayName: 十字军之刃
-				Tooltip:
-					'''
-					'仍然在寻找异教徒
-					攻击敌人会造成恐惧
-					暴击会对周围的敌人施加圣焰
-					剑的伤害在邪恶生物群落中增加10%，在神圣生物群落中减少10%
-					'''
-			}
-
-			GildedSword: {
-				DisplayName: 武士镀金刀
-				Tooltip:
-					'''
-					'正如一位智者所说，我们的工作不是创造杰作，而是拼凑出一个大师'
-					暴击有一定几率将造成的减益反弹回敌人身上
-					剑的尺寸会随着玩家生命的减少而增加
-					如果玩家的生命值低于10%，它将增加生命回复，不会与猩红盔甲叠加
-					'''
-			}
-
-			GreenEyedZweihander: {
-				DisplayName: 绿眼诅咒剑
-				Tooltip:
-					'''
-					'以善良可爱之人的嫉妒为动力的武器'
-					杀死敌人会使敌人有40%的几率掉落战利品2次，boss免疫此效果
-					如果他们的生命百分比高于你，你的嫉妒会使你的攻击施加树妖祸害和诅咒焰，并造成中毒
-					'''
-			}
-
-			Havoc: {
-				DisplayName: 混乱巨剑
-				Tooltip:
-					'''
-					'许个愿望'
-					命中有20%的几率从天而降奥术流星
-					当这颗流星击中任何敌人时，它将粉碎成两个奥术气流，造成50%的流星基础伤害
-					击中敌人会造成暗影火焰
-					每次减益的伤害增加4%，上限为12%
-					'''
-			}
-
-			JzBoyElKatana: {
-				DisplayName: 二元性
-				Tooltip:
-					'''
-					'一把被光明和黑暗的灵魂碎片唤醒的遗迹武器'
-					右键会改变剑的模式
-					两种模式下的暴击都会击碎敌人的灵魂
-					在神圣模式下，击中任何敌人都会撕裂他们的灵魂向玩家移动，并在击中时施加圣焰
-					它也会对3个近距离的敌人造成60%的基础伤害
-					在黑暗模式下，玩家攻击形成2个黑暗灵魂，具有60%的基础伤害，将攻击并施加恐惧
-					'''
-			}
-
-			Kilij: {
-				DisplayName: 基利杰弯刀
-				Tooltip:
-					'''
-					'这是土耳其统治者的权力和王国的象征'
-					'它是由匈奴人发明的，然后由塞尔柱人和奥斯曼人改进，以找到它的真正形式'
-					攻击会造成流血，玩家的速度会产生动力，从而增加伤害
-					当玩家在坐骑上时，由于玩家有高地，它的攻击提升20%流血和暴击伤害
-					当骑在坐骑上时，它也会获得5%的暴击率，并且不会被任何减益抵消
-					'''
-			}
-
-			ScarabSword: {
-				DisplayName: 神圣封印者
-				Tooltip:
-					'''
-					'愿他们的灵魂最终得到安宁'
-					暴击有5%的几率掉落水晶护身符
-					水晶护身符免疫大多数原版减益，并获得1秒的无敌时间
-					击中敌人会造成阴影火焰
-					如果没有活跃的沙龙卷，它将形成一个有50%物品基础伤害的沙龙卷，这个技能将失效，直到沙龙卷消失
-					'''
+				DisplayName: 幻梦
 			}
 		}
 
@@ -23422,6 +23310,22 @@ Mods: {
 			AncientScarabSlash.DisplayName: Ancient Scarab Slash
 			RealKnifeSlice.DisplayName: Real Knife Slice
 			PortableSavePoint.DisplayName: Portable Save Point
+			// PaladinSwordSlash2.DisplayName: Paladin Sword Slash2
+			// PaladinSwordSlash.DisplayName: Paladin Sword Slash
+			// PaladinSwordSigil.DisplayName: Paladin Sword Sigil
+			// PaladinSwordSlash3.DisplayName: Paladin Sword Slash3
+			// DarkArtsSlash2.DisplayName: Dark Arts Slash2
+			// DarkArtsSlash.DisplayName: Dark Arts Slash
+			// SelfSacrificeSlash.DisplayName: Self Sacrifice Slash
+			// SelfSacrificeSlash2.DisplayName: Self Sacrifice Slash2
+			// SelfSacrificeSigil.DisplayName: Self Sacrifice Sigil
+			// SelfSacrificeSkull.DisplayName: Self Sacrifice Skull
+			// GalaxiaSlash3.DisplayName: Galaxia Slash3
+			// GalaxiaSlash2.DisplayName: Galaxia Slash2
+			// GalaxiaSlash.DisplayName: Galaxia Slash
+			// CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
+			// SuenoImposible.DisplayName: Sueno Imposible
+			// JutteSlash4.DisplayName: Jutte Slash4
 		}
 
 		Configs: {

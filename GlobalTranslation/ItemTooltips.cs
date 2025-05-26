@@ -37,6 +37,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				StringBuilder sb = new StringBuilder(tooltipLine.Text);
 
+				//纪念章
+				sb.Replace("Could be given to Big Game Hunter while being selected in hotbar unlocks new items in his shop", "在快捷栏选中后可交给Boss狩猎商人，解锁商店新物品");
 				//上海套装效果
 				sb.Replace("Taking heart while having full hp spawn dolls that attack close enemies\nIf player have ability to flight they also gain that ability",
 							"满血状态获得心时，生成攻击敌人的玩偶\n玩偶会复制玩家的攻击手段");

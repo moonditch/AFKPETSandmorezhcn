@@ -608,9 +608,9 @@ Mods: {
 			Banners.MapEntry: Banners
 			BicycleEffect.MapEntry: Bicycle Effect
 			BlondeHairEffect.MapEntry: Blonde Hair Effect
-			BookofAlchemy.MapEntry: Bookof Alchemy
+			BookofAlchemy.MapEntry: Philosopher's Work Bench
 			BuyoBuyoEffect.MapEntry: Buyo Buyo Effect
-			BZMantle.MapEntry: B Z Mantle
+			BZMantle.MapEntry: Bunny Zepplin Mantle
 			Cat2Painting.MapEntry: Cat2 Painting
 			YuriPainting.MapEntry: Yuri Painting
 			YukionnaEffect.MapEntry: Yukionna Effect
@@ -3291,11 +3291,6 @@ Mods: {
 				Description: She will follow you
 			}
 
-			NebulaBuff: {
-				DisplayName: Nebula Fragment
-				Description: Your magic attack damages increase by 7%
-			}
-
 			Nightmare: {
 				DisplayName: Nightmare
 				Description: You feel even the reality is losing sanity
@@ -3851,11 +3846,6 @@ Mods: {
 				Description: She is looking for her master
 			}
 
-			SacrificeBuff: {
-				DisplayName: Self Sacrifice
-				Description: Your sacrifice have been accepted
-			}
-
 			SagumeKishin: {
 				DisplayName: Sagume Kishin
 				Description: "'She silently follow you'"
@@ -4116,11 +4106,6 @@ Mods: {
 				Description: Snorlax is following you
 			}
 
-			SolarBuff: {
-				DisplayName: Solar Fragment
-				Description: Your melee attack damages increase by 7%
-			}
-
 			Sonic: {
 				DisplayName: Sonic
 				Description: He is looking for Tails
@@ -4169,11 +4154,6 @@ Mods: {
 			StarCrusher: {
 				DisplayName: Star Crusher
 				Description: The gravitational force of stars are crushing you
-			}
-
-			StardustBuff: {
-				DisplayName: Stardust Fragment
-				Description: Your maximum number of minions increase by 1
 			}
 
 			StardustCellTransform: {
@@ -4576,11 +4556,6 @@ Mods: {
 				Description: You feel your body shattered in space
 			}
 
-			VortexBuff: {
-				DisplayName: Vortex Fragment
-				Description: Your ranged attack damages increase by 7%
-			}
-
 			Wailord: {
 				DisplayName: Wailord
 				Description: How is it flying?
@@ -4867,13 +4842,23 @@ Mods: {
 			}
 
 			SurvivalInstinct: {
-				Description: Mods.AFKPETS.Buffs.SurvivalInstinct.Description
+				Description: Every breath you take is a gift from me
 				DisplayName: Survival Instinct
 			}
 
 			RadarDebuff: {
 				Description: Mods.AFKPETS.Buffs.RadarDebuff.Description
 				DisplayName: Radar Debuff
+			}
+
+			WellCheersBuff: {
+				Description: Somewhere in the distance, you can hear seagulls
+				DisplayName: Well Cheers Buff
+			}
+
+			SwordWind: {
+				DisplayName: Tornado Slash
+				Description: Held item grant mobility
 			}
 		}
 
@@ -8799,12 +8784,12 @@ Mods: {
 
 			DrFetusTrophy: {
 				DisplayName: Dr Fetus Trophy
-				Tooltip: ""
+				Tooltip: Could be given to Big Game Hunter while being selected in hotbar unlocks new items in his shop
 			}
 
 			LavalGolemTrophy: {
 				DisplayName: Laval Golem Trophy
-				Tooltip: ""
+				Tooltip: Could be given to Big Game Hunter while being selected in hotbar unlocks new items in his shop
 			}
 
 			OkikuMantle: {
@@ -8814,12 +8799,12 @@ Mods: {
 
 			SatlaTrophy: {
 				DisplayName: S.A.T.L.A.-001 Trophy
-				Tooltip: ""
+				Tooltip: Could be given to Big Game Hunter while being selected in hotbar unlocks new items in his shop
 			}
 
 			SlayerofEvilTrophy: {
 				DisplayName: Slayer of Evil Trophy
-				Tooltip: ""
+				Tooltip: Could be given to Big Game Hunter while being selected in hotbar unlocks new items in his shop
 			}
 
 			SlimesLastHopeTrophy: {
@@ -12808,8 +12793,8 @@ Mods: {
 				DisplayName: Cooking Delight
 				Tooltip:
 					'''
-					A cooking book being focused mostly on desserts
-					Using it may call a soul for rematch
+					'A cooking book being focused mostly on desserts'
+					Using it at ocean summons the cookie crate for a friendly duel
 					'''
 			}
 
@@ -14186,12 +14171,11 @@ Mods: {
 			}
 
 			Twilightinabottle: {
-				DisplayName: Twilight in a bottle
+				DisplayName: Well-Cheers
 				Tooltip:
 					'''
-					'It's filled with the remains of the ancient stars.'
-					'It looks both beautiful and powerful'
-					'Using it will enable or disable you to take the power of the fragments by using them'
+					'Shrimp are delicious no matter how you cook them. Boil ‘em, fry ‘em, whatever!'
+					May put a close enemy asleep and hearts/manas heal 20% more
 					'''
 			}
 
@@ -18016,9 +18000,9 @@ Mods: {
 				DisplayName: Galaxia
 				Tooltip:
 					'''
-					Victory... is my destiny...
-					Holding LC will use it as a weapon while holding RC will allow you to make slash tornado
-					Slash tornado will last 3 second and it have 30 second cooldown
+					'Victory... is my destiny...'
+					LC generate tornado of slashes that inflict fear and rainbow curse
+					Tornado of slashes increase players momentum and endurance
 					'''
 			}
 
@@ -18212,6 +18196,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You don’t need more mana; you need better spells'
+					Hits generate a mana slash which uses 10 mana
 					if player has less than 50% mana attacks may restore mana, otherwise may cure mana sickness
 					if player has less than 50% mana crits generate mana field, otherwise summon magical sword
 					'''
@@ -18286,7 +18271,9 @@ Mods: {
 				Tooltip:
 					'''
 					'He will win who knows when to fight and when not to fight'
-					While not moving attacking generates slash area which deflect weaker projectiles back
+					LC stabs the jutte while RC grants a small window to reflect the projectile
+					When successful reflect occurs, it causes scarlet slash that can reflect projectiles + rip enemies
+					Only hostile projectiles that has less than 2 times damage of current item damage could be reflected
 					'''
 			}
 
@@ -18295,7 +18282,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Slash them with your hate'
-					Enemy slashes inflict bleeding + may cut yummy gifts from them for yourself
+					Enemy slashes inflict bleeding + cut damaging gifts for others and may cut yummy ones for yourself
 					Player could also cut town npcs which slightly heal player + give rapid healing for short time
 					'''
 			}
@@ -18305,12 +18292,8 @@ Mods: {
 				Tooltip:
 					'''
 					'As a living its your duty to save the honor of the past
-					'Hitting enemies will cause them to burn with angelic flames and their sins will make weapon store enery'
-					'When the weapon store enough energy it will be ready to do holy strike with RC and it have 3 stages'
-					'Also when players soul is burning with justie its endurance and defense increase as it charge more and it have a limit'
-					'In first stage the sword will burn any enemy that is close to the player with angelic flames'
-					'In second stage it will rain angelic beams to your mouse direction'
-					'In third stage it will shoot an angelic energy that will explode into infernal flames upon hit to enemy'
+					RC slashes both the sword and a ghastly sword that inflict angelic flames and may call a pillar of light
+					LC raises the angelic sword that shatter the sky which has a cooldown
 					'''
 			}
 
@@ -18330,9 +18313,7 @@ Mods: {
 				Tooltip:
 					'''
 					'But what in return?'
-					Each swing will take 10 life and hitting an enemy will return 5 back
-					Critical hits errupt fireball from enemies
-					Killing an enemy will make its life a sacrifice and let the sword swing faster and not drain life for 3 second
+					Hits inflict inferno + soulblight and may damn the enemies soul which rips out its sins after some time
 					'''
 			}
 
@@ -20760,107 +20741,14 @@ Mods: {
 				DisplayName: Professors Processor
 			}
 
-			GrimoireofCirno: {
-				DisplayName: Grimoire of Cirno
+			SuenoImposible: {
 				Tooltip:
 					'''
-					'Glorious Winter Morning'
-					Each time damage taken tome fuel with the pain of its owner and get empowered
-					Slowly weapon gets calmed down to its original state
+					'Heroes cannot be real...'
+					Enemy kills at higher speed restore 5 hp + increase movement strikes
+					According to speed inflicts either bleeding or serious bleeding
 					'''
-			}
-
-			CoderHand: {
-				DisplayName: Sandalphon
-				Tooltip:
-					'''
-					Did the sun come out to play again, or is it just the shine of this sword?
-					Hitting an enemy will prevent immunity frames and lightning will rain down that will deals 75% of weapons damage
-					Hitting an enemy will also burn with both shadowflames and angelic flames and lightning will heavily charge them
-					Attacks will form energy slices around you that deal 75% damage of items base damage
-					This sword is considered a true melee weapon, despite the projectiles that may appear.
-					'''
-			}
-
-			CrusadersSword: {
-				DisplayName: Crusader's Blade
-				Tooltip:
-					'''
-					'Still seeks the heretics'
-					'Hitting enemy will inflict fear'
-					'Critical hits will cause the any enemy that is close to you to burn with angelic flames'
-					'Swords damage increase by 10% in evil biome and decrease by 10% in hallow'
-					'''
-			}
-
-			GildedSword: {
-				DisplayName: Gilded Sword
-				Tooltip:
-					'''
-					'As a wiseman once said, our job is not to create masterpieces, but instead, piece together a master'
-					Critical hits have a chance to reflect one of vanilla or afkpets inflicted debuff back to enemy
-					Swords size will increse with the decrease of players life
-					If players life is below 10% it will give increased life regen which will not stack with crimson armor
-					'''
-			}
-
-			GreenEyedZweihander: {
-				DisplayName: Green-Eyed Zweihander
-				Tooltip:
-					'''
-					'A weapon that is fueled by the jealousy of the kind and lovely'
-					Killing enemies will drop the enemies have 40% chance to drop loot 2 times and bosses are immune to this effect
-					If their life percentage is higher than you your envy will cause your hits to inflict dryads bane and cursed flames and else it will inflict poison
-					'''
-			}
-
-			Havoc: {
-				DisplayName: Havoc
-				Tooltip:
-					'''
-					'Make a wish'
-					'Hits have 20% chance to rain arcane meteor from sky'
-					'When this meteor hit any enemy it will shatter into two arcane bolt which do 50% of meteors base damage'
-					'Hitting enemies will inflict shadowflames'
-					'Each debuff increase its damage by 4% and it caps at 12%'
-					'''
-			}
-
-			JzBoyElKatana: {
-				DisplayName: Duality
-				Tooltip:
-					'''
-					'A relic weapon that is awakened with the spirits of light and dark'
-					RC will change the mode of the sword
-					For both modes critical hits will shatter enemies soul
-					While in light mode hitting any enemy will rip their soul to move towards player which will inflict angelic flames upon hit
-					It will also deal 60% of its base damage to 3 close enemy
-					In dark mode players attacks form 2 dark souls with 60% base damage that will attack and inflict fear
-					'''
-			}
-
-			Kilij: {
-				DisplayName: Kilij
-				Tooltip:
-					'''
-					'A symbol for power and kingdom being carried by Turkish rulers'
-					'It's invented by Hun's and then improved by Seljuks and Ottomans to find its true form'
-					'Attacks will inflict bleeding and players velocity will build momentum which will increase its damage'
-					'While being on a mount due to player have high ground its attacks will inflict bleeding and crits deal 20% more damage'
-					'While being on a mount It will also gain 5% increased crit chance which cannot be nullified by any debuff'
-					'''
-			}
-
-			ScarabSword: {
-				DisplayName: Sacred Sealer
-				Tooltip:
-					'''
-					'May their soul finally find peace'
-					'Critical hits have 5% chance to drop crystal ankh'
-					'Crystal ankh will give immunity to most vanilla debuffs and protect you from death for 1 second'
-					'Hitting enemies will inflict on shadow flames'
-					'If there is no active sand tornado it will form one with 50% item base damage and this ability will deactivate until that tornado disappears'
-					'''
+				DisplayName: Sueño Imposible
 			}
 		}
 
@@ -23364,6 +23252,22 @@ Mods: {
 			AncientScarabSlash.DisplayName: Ancient Scarab Slash
 			RealKnifeSlice.DisplayName: Real Knife Slice
 			PortableSavePoint.DisplayName: Portable Save Point
+			PaladinSwordSlash2.DisplayName: Paladin Sword Slash2
+			PaladinSwordSlash.DisplayName: Paladin Sword Slash
+			PaladinSwordSigil.DisplayName: Paladin Sword Sigil
+			PaladinSwordSlash3.DisplayName: Paladin Sword Slash3
+			DarkArtsSlash2.DisplayName: Dark Arts Slash2
+			DarkArtsSlash.DisplayName: Dark Arts Slash
+			SelfSacrificeSlash.DisplayName: Self Sacrifice Slash
+			SelfSacrificeSlash2.DisplayName: Self Sacrifice Slash2
+			SelfSacrificeSigil.DisplayName: Self Sacrifice Sigil
+			SelfSacrificeSkull.DisplayName: Self Sacrifice Skull
+			GalaxiaSlash3.DisplayName: Galaxia Slash3
+			GalaxiaSlash2.DisplayName: Galaxia Slash2
+			GalaxiaSlash.DisplayName: Galaxia Slash
+			CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
+			SuenoImposible.DisplayName: Sueno Imposible
+			JutteSlash4.DisplayName: Jutte Slash4
 		}
 
 		Configs: {
