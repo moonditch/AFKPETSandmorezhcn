@@ -1043,8 +1043,8 @@ Mods: {
 			}
 
 			BlessedBanana2: {
-				DisplayName: 神圣的香蕉
-				Description: 它将照亮你的道路
+				DisplayName: 天罚悔悟之杖
+				Description: 阎罗与圣徒常持之圣物
 			}
 
 			BlessedBrokenWashingMachine: {
@@ -1055,11 +1055,6 @@ Mods: {
 			BlessedBrokenWashingMachineCooldown: {
 				DisplayName: Broken Broken Washing Machine
 				Description: It need to rest to gather its power
-			}
-
-			BlessedBurger: {
-				DisplayName: Blessed Burger
-				Description: Lord Gabe blesses your soul with the power of sacred meal
 			}
 
 			BlessedSoul: {
@@ -1523,12 +1518,12 @@ Mods: {
 
 			BeatSaberBlue: {
 				DisplayName: Beat Saber Blue
-				Description: NPC will take more damage
+				Description: ...
 			}
 
 			BeatSaberRed: {
 				DisplayName: Beat Saber Red
-				Description: NPCs damage will decrease
+				Description: ...
 			}
 
 			BioShine: {
@@ -4856,6 +4851,11 @@ Mods: {
 				DisplayName: 旋风乱舞
 				Description: 持有时提高移动能力
 			}
+
+			BlessedBurger: {
+				DisplayName: 汉堡圣餐
+				Description: 亘古领主Gabe以圣餐的力量祝福你的灵魂
+			}
 		}
 
 		Items: {
@@ -5037,7 +5037,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤围绕旋转的英雄残念，任何穿过它们的射弹将获得以下效果
-					绿: 玩家的射弹减少10%伤害，但回复造成伤害5%的生命值，敌方射弹也减少10%伤害
+					绿: 玩家的射弹减少10%伤害，但恢复造成伤害5%的生命值，敌方射弹也减少10%伤害
 					蓝: 玩家的射弹增加15%伤害，敌方射弹增加10%伤害
 					紫: 玩家的射弹增加100%的速度和10%暴击率，敌方射弹减少50%速度
 					'''
@@ -5533,9 +5533,8 @@ Mods: {
 				Tooltip:
 					'''
 					'精通阿姆斯特朗风格的仁慈领袖的遗物'
-					增加4点防御，手持真近战武器时增加9点
 					免疫冷冻和虚弱，大幅增加了敌人的仇恨值
-					近战攻击点燃敌人
+					近战攻击对敌人施加恐惧
 					根据以下两个因素提升近战伤害倍率：
 					- 移动动量：最高可提升至1.5倍近战攻速
 					- 蓄力机制：不攻击时，近战伤害倍率逐渐提升至5倍；攻击后倍率会迅速下降
@@ -8830,6 +8829,11 @@ Mods: {
 			Junk: {
 				DisplayName: 垃圾
 				Tooltip: 只是一些垃圾
+			}
+
+			SlimyToken: {
+				DisplayName: 史莱姆代币
+				Tooltip: "'摧毁资本主义制度的最好办法是让货币贬值，但暗杀也是有效的'"
 			}
 
 			Bakamite: {
@@ -12231,11 +12235,11 @@ Mods: {
 			}
 
 			SuspiciousLookingTrash: {
-				DisplayName: 可疑的垃圾
+				DisplayName: 通灵法杖
 				Tooltip:
 					'''
 					'非常适合模仿模组的 wiki 编辑者！'
-					'它在观察你'
+					'愿你寻回所失之物'
 					'''
 			}
 
@@ -14260,12 +14264,9 @@ Mods: {
 				Tooltip:
 					'''
 					'我要从他们美丽的粉红色脸上喝下红色的血'
-					攻击造成 4 秒中毒和沸血
-					暴击获得 3 秒渴血和快速治疗增益
-					允许玩家长出可以飞行 2 秒的蝙蝠翅膀，如果玩家有翅膀，则增加 0.5 秒最长飞行时间
-					暴击会在玩家周围形成血色音符，并持续6秒
-					<right>，会将这些血色音符射向玩家的光标方向
-					击中敌人时，血色音符造成沸血，并让恢复玩家 1 点生命值，最多可以存在6个血色音符
+					使用时在光标位置生成斩击领域，造施加大出血与酸性毒液
+					黑魔法生成蝙蝠翅膀获得飞行能力（若已具备飞行能力则延长最大飞行时间）
+					攻击溅射鲜血，暴击提高生命再生
 					'''
 			}
 
@@ -14550,7 +14551,7 @@ Mods: {
 				Tooltip:
 					'''
 					'你破坏了我们的协议……现在轮到我来打碎你了！！！'
-					破坏墙壁可以治疗并增强玩家
+					破坏墙壁获得狱火增益，收藏后破坏19x19墙壁
 					免疫爆炸、火块和岩浆
 					猛击地面会引起火焰，暴击获得狱火增益
 					'''
@@ -14564,27 +14565,6 @@ Mods: {
 					'非常适合模仿模组的画师！'
 					<right>的同时<left>挥动，释放跳跃重击
 					<right>释放爆炸火柱，30 秒冷却时间
-					'''
-			}
-
-			MCHammer: {
-				DisplayName: MC之锤
-				Tooltip:
-					'''
-					'无法触碰'
-					收藏后破坏 19x19 的墙壁
-					猛击地面会生成一个排斥非Boss敌人的射弹，施加软弱、霜冻和狱火
-					'''
-			}
-
-			RoyalCrusher: {
-				DisplayName: 皇家粉粹机
-				Tooltip:
-					'''
-					'现在你知道该做什么了'
-					手持时增加 4 点防御，猛击地面引发火焰冲击波
-					攻击敌人减少其防御
-					收藏后破坏 9x9 的墙壁
 					'''
 			}
 
@@ -15994,12 +15974,13 @@ Mods: {
 			}
 
 			ScarletBracelet: {
-				DisplayName: 斯卡蕾特之镯（出自：东方）
+				DisplayName: 寄生冠冕
 				Tooltip:
 					'''
-					'涂满红色的东西更好看'
+					'万物染红之时，方显至美'
 					在物品栏内右键装备密藏，在密藏栏内左键回收密藏
-					装备此密藏时，近战攻击有25%几率造成流血减益，真近战攻击的几率为50%
+					装备此密藏时，近战攻击25%概率施加出血或爱慕
+					真近战攻击25%概率恢复1点生命
 					'''
 			}
 
@@ -17252,11 +17233,6 @@ Mods: {
 					'''
 			}
 
-			DivineRodofRemorse: {
-				DisplayName: 悔悟棒（出自：东方 四季映姬）
-				Tooltip: 这曾是阎罗用来执行审判的神圣权杖
-			}
-
 			FairyWand: {
 				DisplayName: 仙女棒
 				Tooltip:
@@ -17910,71 +17886,6 @@ Mods: {
 				Tooltip: 击中任何敌人或方块时会破碎成橡果碎片
 			}
 
-			DemonsTorch: {
-				DisplayName: 恶魔炽炎之炬
-				Tooltip:
-					'''
-					'以罪恶之火焚烧敌人的灵魂'
-					[c/FFFF00:左键戳刺]: 击中任何敌人时施加着火，并使它们更容易受到火属性减益的影响
-					持续命中会引发火焰爆炸，暴击有几率召唤一条古老的骨蛇
-					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:右键蓄力]: 火炬将会灼烧你的敌人，每次命中都将增加8点真实持续伤害，同时诅咒敌人降低其2%的伤害减免
-					满蓄力攻击会使敌人着火并向四周释放火花
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以直接投掷满蓄力的火炬，无需等待蓄力完成
-					'''
-			}
-
-			Pilum: {
-				DisplayName: 破甲穿心标枪
-				Tooltip:
-					'''
-					'幸运和爱眷顾勇者'
-					[c/FFFF00:左键戳刺]: 击中敌人会增加标枪的攻击力和护甲穿透
-					刺击会减慢非Boss敌人的速度，持续命中或暴击会施加严重出血并粉碎敌人的防御
-					[c/ADD8E6:右键蓄力]: 蓄力投出的标枪会施加严重出血，并增加6点真实持续伤害
-					满蓄力攻击会留下毒芹粉尘，命中会增强敌人恐惧感并稍微恢复玩家生命值
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的标枪
-					'''
-			}
-
-			SwampTrident: {
-				DisplayName: 湿地毒沼三叉戟
-				Tooltip:
-					'''
-					'奇怪的是，它的尖端有一些腐烂的肉'
-					[c/FFFF00:左键戳刺]: 攻击会施加出血和中毒
-					持续命中敌人时释放毒气，暴击会施加酸性毒液
-					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:右键投掷]: 命中时产生闪电，并浸泡在水中时变得更加强大
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的三叉戟
-					'''
-			}
-
-			TheFourthDegree: {
-				DisplayName: 第四度烈焰
-				Tooltip:
-					'''
-					'无火焰，不热烈……那还有何乐趣可言？'
-					[c/FFFF00:左键戳刺]: 刺击使敌人在恶魔之焰中燃烧，并大幅削弱防御力
-					持续命中会施加狱火，并在周围引发爆炸
-					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:右键蓄力]: 蓄力后扔出其中一种四骑士风格的标枪，每种标枪都有自己独特的能力
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的长矛
-					'''
-			}
-
-			TrueGungnir: {
-				DisplayName: 真·冈格尼尔（出自：东方 蕾米莉亚）
-				Tooltip:
-					'''
-					'一抹艳丽的红雾'
-					[c/FFFF00:左键戳刺]: 刺击会施加沸腾之血，产生猩红爆炸，暴击有几率治疗玩家
-					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:右键蓄力]: 蓄力后扔出长矛对敌人施加沸腾之血，释放猩红光环
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待蓄力完毕，可以直接投掷满蓄力的长矛
-					'''
-			}
-
 			ArmsofDusk: {
 				DisplayName: 黄昏之臂（出自以撒的结合mod 邪魔典纸）
 				Tooltip:
@@ -18008,18 +17919,17 @@ Mods: {
 
 			Akitanagi: {
 				DisplayName: 狗尾丙剑
-				Tooltip: "'它会射出狗头，并在暴击时咬人'"
+				Tooltip: "'猜猜现在谁是好孩子？反正不会是那些尸体'"
 			}
 
 			BeatSabers: {
 				DisplayName: 节奏光剑（出自：节奏光剑）
 				Tooltip:
 					'''
-					即使拿着它们，你也能听到微弱的节奏
-					左键允许你使用蓝色光剑，右键允许你使用红色光剑
+					'锵-锵-锵哩咪噜，人家还有余力呢！'
+					以光标位置为轴心生成可攻击的残影
 					蓝色光剑会降低敌人的防御，红色光剑会降低敌人的伤害
-					使用相同颜色的光剑攻击敌人将使光剑威力提高10%
-					一个敌人只能给予一层光剑减益
+					使用相同颜色的光剑攻击敌人将触发共振：提升50%伤害并生成音爆音符
 					'''
 			}
 
@@ -18028,14 +17938,13 @@ Mods: {
 				Tooltip:
 					'''
 					'来了!'
-					'左键将发射遥控手榴弹，并在击中任何敌人时爆炸'
-					'右键显示所有遥控手榴弹'
+					左键扔出多个遥控手榴弹，右键引爆
 					'''
 			}
 
 			CactusSword: {
-				DisplayName: 存护仙刃掌
-				Tooltip: "'它是由一个拥有仙人掌力量的古代军阀铸造的'"
+				DisplayName: 巨颚针牙
+				Tooltip: "'千针噬身之刑'"
 			}
 
 			CruelMistress: {
@@ -18069,11 +17978,6 @@ Mods: {
 					切物质与反物质
 					'点击右键进行不同的攻击'
 					'''
-			}
-
-			WatermelonIcicle: {
-				DisplayName: 冰雪西瓜刀
-				Tooltip: 它是为最强者打造的
 			}
 
 			Antarctica: {
@@ -18258,10 +18162,10 @@ Mods: {
 				Tooltip:
 					'''
 					'与阴影融为一体'
-					攻击有10%的几率形成阴影切割
-					右键点击会使玩家变为暗影状态，2秒内不会受到伤害
-					当处于暗影形态时，该武器总是会造成暴击并释放痛苦的阴影切割
-					暗影形态有30秒的冷却时间
+					攻击施加恐惧并生成剑光
+					右键与光标位置附近的敌人交换位置
+					传送时目标敌人陷入眩晕，玩家获得短暂无敌帧
+					暗影形态有15秒的冷却时间
 					'''
 			}
 
@@ -18352,10 +18256,10 @@ Mods: {
 				DisplayName: 樱花下的血刃
 				Tooltip:
 					'''
-					'和你这种对手战斗很容易，因为你总是把自己插进我的剑里'
-					当你的敌人生命值不足10%你的暴击会对敌人造成斩杀效果，boss对这个效果免疫
-					当你的敌人生命值超过10%或者是Boss，你的功击会造成恐惧减益，它有10%的概率在空中形成斜线
-					暴击将召唤幽灵，幽灵会直接瞄准你砍伤的敌人
+					'对付你这类对手最是轻松，总有人主动往剑锋上撞'
+					攻击施加恐惧，并有几率对同类型敌人发动全屏斩击
+					对生命值低于10%的非Boss敌人发动即死攻击，且该攻击必定施加恐惧
+					攻击有几率（暴击必触发）将敌人灵魂震碎为各色蝴蝶，每种颜色施加不同减益
 					'''
 			}
 
@@ -18850,6 +18754,7 @@ Mods: {
 					'冬眠！冷睡！你知道吗？'
 					发射冷冻雾气，可能冻结（非Boss）敌人或造成霜烧伤害
 					雾气在敌人身上凝结后会化为具有伤害效果的雨滴
+					在雪原环境时凝结化为雪花
 					40%几率不消耗弹药，使用凝胶作为弹药
 					'''
 			}
@@ -19005,13 +18910,9 @@ Mods: {
 				DisplayName: 元素净化者
 				Tooltip:
 					'''
-					曾经被传奇女英雄安德莉亚用来清除世界上的原始生物
-					使用它会提升其等级，每积累40经验值增加一级
-					最大可升至3级，受到攻击时会减少经验值
-					当等级高于1级时，玩家可以通过按右键激活特殊攻击
-					- 等级2：形成一道能穿透多个敌人的激光，并附带高度爆炸性化学物质
-					- 等级3：产生一道地波，反弹射弹且附加50%伤害增幅，但会降低自身的穿透能力
-					- 当玩家生命值低于15%时，它会召唤一只蜂后为你战斗
+					'传说女英雄安德莉亚曾以此净化丛林中蔓延的黑黯'
+					'多亏她生态系统才保持平衡...然而...'
+					发射微型掠食者咬住目标注入毒液，暴击有几率召唤蜂后协同攻击
 					'''
 			}
 
@@ -19139,13 +19040,21 @@ Mods: {
 					持有时会召唤一个支援无人机，右键标记敌人
 					如果玩家离得太远，无人机将返回到玩家身边
 					当有敌人被标记后，所有附近的子弹会周期性自动瞄准该敌人
-					将火枪转换为破片子弹，击中造成严重流血效果，并且在暴击时爆炸
+					将火枪子弹转化为破片子弹，击中造成严重流血效果，并且在暴击时爆炸
 					'''
 			}
 
 			SummerSaleMinigun: {
 				DisplayName: 钱包吸尘器
-				Tooltip: 人类力量与夏季大促的结合体
+				Tooltip:
+					'''
+					'让夏日特卖再次伟大'
+					有时自动将击杀获得的银币及以上货币计入钱包
+					钱包余额≥1金币时自动消耗，为子弹注入奥金
+					奥金子弹将非Boss敌人暂时金化5秒，被击敌人额外掉落金钱
+					每发子弹10%几率转化为追踪关税弹
+					将火枪子弹转化为爆炸弹
+					'''
 			}
 
 			AirHorn: {
@@ -19277,7 +19186,7 @@ Mods: {
 					'''
 					'喵喵，喵喵喵喵喵！'
 					'喵喵喵-喵喵，喵喵喵喵喵'
-					[i:6220] [i:6194] [i:6217] [i:6194] [i:6220]
+					'喵喵喵喵喵，喵喵-喵喵喵'
 					-安德烈，喵喵喵喵喵
 					'''
 			}
@@ -19854,16 +19763,6 @@ Mods: {
 					- 防御模式：靠近玩家并形成能量护盾，同时留下短暂持续的火花
 					这个护盾将提高玩家的防御和减伤能力
 					右键使用该物品会切换其模式
-					'''
-			}
-
-			StaffoftheSpiritualist: {
-				DisplayName: 通灵师之杖
-				Tooltip:
-					'''
-					'愿你找回所有失去的一切'
-					使用它将召唤一只迷你灵魂收集者和一只酷炫的乌鸦来保护你
-					同一时间只能激活一对这样的组合，它们占用1.5个仆从栏
 					'''
 			}
 
@@ -20807,6 +20706,122 @@ Mods: {
 					根据攻击速度对敌人施加流血或大出血
 					'''
 				DisplayName: 幻梦
+			}
+
+			WatermelonIcicle: {
+				DisplayName: 冰雪西瓜矛
+				Tooltip:
+					'''
+					'在我手中，连莲花都会战栗！'
+					降下高速冰瓜切片，提升移动攻击速度
+					命中有几率获得无敌帧并施加霜火
+					'''
+			}
+
+			DemonsTorch: {
+				DisplayName: 恶魔炽炎之炬
+				Tooltip:
+					'''
+					'以罪恶之火焚烧敌人的灵魂'
+					[c/FFFF00:左键戳刺]: 击中任何敌人时施加着火，并使它们更容易受到火属性减益的影响
+					持续命中会引发火焰爆炸，暴击有几率召唤一条古老的骨蛇
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
+					[c/ADD8E6:右键蓄力]: 火炬将会灼烧你的敌人，每次命中都将增加8点真实持续伤害，同时诅咒敌人降低其2%的伤害减免
+					满蓄力攻击会使敌人着火并向四周释放火花
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以直接投掷满蓄力的火炬，无需等待蓄力完成
+					'''
+			}
+
+			Pilum: {
+				DisplayName: 破甲穿心标枪
+				Tooltip:
+					'''
+					'幸运和爱眷顾勇者'
+					[c/FFFF00:左键戳刺]: 击中敌人会增加标枪的攻击力和护甲穿透
+					刺击会减慢非Boss敌人的速度，持续命中或暴击会施加严重出血并粉碎敌人的防御
+					[c/ADD8E6:右键蓄力]: 蓄力投出的标枪会施加严重出血，并增加6点真实持续伤害
+					满蓄力攻击会留下毒芹粉尘，命中会增强敌人恐惧感并稍微恢复玩家生命值
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的标枪
+					'''
+			}
+
+			SwampTrident: {
+				DisplayName: 湿地毒沼三叉戟
+				Tooltip:
+					'''
+					'奇怪的是，它的尖端有一些腐烂的肉'
+					[c/FFFF00:左键戳刺]: 攻击会施加出血和中毒
+					持续命中敌人时释放毒气，暴击会施加酸性毒液
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
+					[c/ADD8E6:右键投掷]: 命中时产生闪电，并浸泡在水中时变得更加强大
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的三叉戟
+					'''
+			}
+
+			TrueGungnir: {
+				DisplayName: 真·冈格尼尔（出自：东方 蕾米莉亚）
+				Tooltip:
+					'''
+					'一抹艳丽的红雾'
+					[c/FFFF00:左键戳刺]: 刺击会施加沸腾之血，产生猩红爆炸，暴击有几率治疗玩家
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
+					[c/ADD8E6:右键蓄力]: 蓄力后扔出长矛对敌人施加沸腾之血，释放猩红光环
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待蓄力完毕，可以直接投掷满蓄力的长矛
+					'''
+			}
+
+			SharkTeeth: {
+				Tooltip: ""
+				DisplayName: 鲨牙
+			}
+
+			MCHammer: {
+				DisplayName: MC之锤
+				Tooltip:
+					'''
+					'无法触碰'
+					收藏后破坏 19x19 的墙壁
+					猛击地面会生成一个排斥非Boss敌人的射弹，施加软弱、霜冻和狱火
+					'''
+			}
+
+			RoyalCrusher: {
+				DisplayName: 皇家粉粹机
+				Tooltip:
+					'''
+					'现在你知道该做什么了'
+					手持时增加 4 点防御，猛击地面引发火焰冲击波
+					攻击敌人减少其防御
+					收藏后破坏 9x9 的墙壁
+					'''
+			}
+
+			DivineRodofRemorse: {
+				DisplayName: 悔悟棒（出自：东方 四季映姬）
+				Tooltip: 这曾是阎罗用来执行审判的神圣权杖
+			}
+
+			TheFourthDegree: {
+				DisplayName: 第四度烈焰
+				Tooltip:
+					'''
+					'无火焰，不热烈……那还有何乐趣可言？'
+					[c/FFFF00:左键戳刺]: 刺击使敌人在恶魔之焰中燃烧，并大幅削弱防御力
+					持续命中会施加狱火，并在周围引发爆炸
+					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
+					[c/ADD8E6:右键蓄力]: 蓄力后扔出其中一种四骑士风格的标枪，每种标枪都有自己独特的能力
+					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的长矛
+					'''
+			}
+
+			StaffoftheSpiritualist: {
+				DisplayName: 通灵师之杖
+				Tooltip:
+					'''
+					'愿你找回所有失去的一切'
+					使用它将召唤一只迷你灵魂收集者和一只酷炫的乌鸦来保护你
+					同一时间只能激活一对这样的组合，它们占用1.5个仆从栏
+					'''
 			}
 		}
 
@@ -23326,6 +23341,45 @@ Mods: {
 			// CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
 			// SuenoImposible.DisplayName: Sueno Imposible
 			// JutteSlash4.DisplayName: Jutte Slash4
+			// WatermelonIcicle.DisplayName: Watermelon Icicle
+			// AkitanagiSlash.DisplayName: Akitanagi Slash
+			// AkitanagiProj.DisplayName: Akitanagi Proj
+			// AkitanagiSlash2.DisplayName: Akitanagi Slash2
+			// AkitanagiGhostDog.DisplayName: Akitanagi Ghost Dog
+			// AkitanagiSlash3.DisplayName: Akitanagi Slash3
+			// BomberSwordSlash.DisplayName: Bomber Sword Slash
+			// BomberGrenade2.DisplayName: Bomber Grenade2
+			// BeatSaberSlash3.DisplayName: Beat Saber Slash3
+			// BeatSaberSlash.DisplayName: Beat Saber Slash
+			// BeatSaberShadow.DisplayName: Beat Saber Shadow
+			// BeatSaberSong.DisplayName: Beat Saber Song
+			// CactusSwordSlash.DisplayName: Cactus Sword Slash
+			// CactusSwordSting.DisplayName: Cactus Sword Sting
+			// CactusSwordSlash3.DisplayName: Cactus Sword Slash3
+			// CactusSwordSlash2.DisplayName: Cactus Sword Slash2
+			// CactusPotato.DisplayName: Cactus Potato
+			// CactusGroundFire.DisplayName: Cactus Ground Fire
+			// CactusVenomCloud.DisplayName: Cactus Venom Cloud
+			// CactusSwordSlash4.DisplayName: Cactus Sword Slash4
+			// ForgottenGunEater.DisplayName: Forgotten Gun Eater
+			// ForgottenGunQB.DisplayName: Forgotten Gun Q B
+			// GnomeLord.DisplayName: Gnome Lord
+			// GnomeLordLaser.DisplayName: Gnome Lord Laser
+			// SadCatLetter.DisplayName: Sad Cat Letter
+			// MagmaticCrusherSlam.DisplayName: Magmatic Crusher Slam
+			// AncientWarhammerSlam.DisplayName: Ancient Warhammer Slam
+			// Pilum2.DisplayName: Pilum2
+			// VikingSwordSlam2.DisplayName: Viking Sword Slam2
+			// VikingSwordSlam.DisplayName: Viking Sword Slam
+			// SanguineDesiresSlam.DisplayName: Sanguine Desires Slam
+			// NicksChopperSlam.DisplayName: Nicks Chopper Slam
+			// TrueGungnir2.DisplayName: True Gungnir2
+			// SpikeBallLauncherSlash.DisplayName: Spike Ball Launcher Slash
+			// SakuraSlasherSlash2.DisplayName: Sakura Slasher Slash2
+			// SakuraSlasherSlash1.DisplayName: Sakura Slasher Slash1
+			// SakuraButterfly.DisplayName: Sakura Butterfly
+			// SakuraSlasherSlash3.DisplayName: Sakura Slasher Slash3
+			// SharkTeeth.DisplayName: Shark Teeth
 		}
 
 		Configs: {

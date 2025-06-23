@@ -196,6 +196,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 							"如果拾取生命心后玩家的生命值超过最大值，则会在短时间内长出蛇头\n最多可以长出3条蛇头，此时从地面拾取生命心有几率直接清除减益");
 				sb.Replace("Holding tools will also provide thorns effect + knockback immunity",
 							"手持工具额外获得荆棘效果并免疫击退");
+				sb.Replace("Hp gained from true melee increased to 2, and gives occasional life player drain when holding a melee weapon",
+							"真近战攻击恢复的生命提高到2点，并在手持近战武器时有几率吸取敌人生命");
 				#endregion
 
 				#region 特殊词缀-来源于晦暝祭坛

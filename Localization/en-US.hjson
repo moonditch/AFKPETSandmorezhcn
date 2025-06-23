@@ -1061,11 +1061,6 @@ Mods: {
 				Description: It need to rest to gather its power
 			}
 
-			BlessedBurger: {
-				DisplayName: Blessed Burger
-				Description: Lord Gabe blesses your soul with the power of sacred meal
-			}
-
 			BlessedSoul: {
 				DisplayName: Blessed Soul
 				Description: Your survival stats will increase
@@ -1527,12 +1522,12 @@ Mods: {
 
 			BeatSaberBlue: {
 				DisplayName: Beat Saber Blue
-				Description: npc will take more damage
+				Description: ...
 			}
 
 			BeatSaberRed: {
 				DisplayName: Beat Saber Red
-				Description: npcs damage will decrease
+				Description: ...
 			}
 
 			BioShine: {
@@ -4860,6 +4855,11 @@ Mods: {
 				DisplayName: Tornado Slash
 				Description: Held item grant mobility
 			}
+
+			BlessedBurger: {
+				DisplayName: Blessed Burger
+				Description: Lord Gabe blesses your soul with the power of sacred meal
+			}
 		}
 
 		Items: {
@@ -5536,9 +5536,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Remnant from a merciful leader which mastered in Armstrong style'
-					Defense increase by 4, if true melee is being held by 9
 					Gain immunity against chilled & weak debuffs while increase enemy aggro moderately
-					Melee attacks burn enemies
+					Melee attacks fuel fear on enemies
 					Melee multiplier increases according to following two factors
 					- Movement momentum which can be max x1.5 melee speed multiplier
 					- Not attacking increase melee damage multiplier up to x5 + when attacking sharply decrease
@@ -8826,6 +8825,11 @@ Mods: {
 				Tooltip: Just some junk.
 			}
 
+			SlimyToken: {
+				DisplayName: Slimy Token
+				Tooltip: "'The best way to destroy the capitalist system is to debauch the currency but assassination also works"
+			}
+
 			Bakamite: {
 				DisplayName: Bakamite
 				Tooltip: "'Colder than absolute zero'"
@@ -9283,8 +9287,8 @@ Mods: {
 			}
 
 			BlessedBanana2: {
-				DisplayName: Divine Banana
-				Tooltip: "'Even holding it makes you feel you are being consecrated'"
+				DisplayName: Divine Rod of Remorse
+				Tooltip: "'A relic often being carried by Yama and Saints'"
 			}
 
 			BlizzardWand: {
@@ -12213,11 +12217,11 @@ Mods: {
 			}
 
 			SuspiciousLookingTrash: {
-				DisplayName: Suspicious Looking trash
+				DisplayName: Spiritual Stave
 				Tooltip:
 					'''
 					'Great for impersonating wiki lords!'
-					'You feel it's observing you'
+					'May you find all you have lost'
 					'''
 			}
 
@@ -14213,13 +14217,10 @@ Mods: {
 				DisplayName: Ax Bass
 				Tooltip:
 					'''
-					'I'm gonna drink the red from their pretty pink faces
-					'Hitting enemies will inflict venom and boiling blood for 4 seconds'
-					'Critical hits will make player give blood and rapid healing buffs for 3 second'
-					'It will allow player to grow bat wings that can fly for 2 seconds and if player have wings it will increase max flight time by 0.5 second'
-					'Critical hits will form blood notes around the player that will stay for 6 seconds'
-					'Upon using with RC will shoot these notes to players mouse direction'
-					'Upon hitting enemy blood notes will inflict boiling blood and heal player by 1 and there can be maximum 6 blood notes'
+					'I'm gonna drink the red from their pretty pink faces'
+					Playing it generates a slash area around the mouse position which inflict serious bleeding and venom
+					Dark magic grows bat wings that provide flight (if player already has flight increase max flight time)
+					Hits splash blood + crits increase regen of player
 					'''
 			}
 
@@ -14505,7 +14506,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You broke our deal... now it's my turn to break you!!!'
-					Breaking walls both heals and empower players
+					Breaking walls give inferno buff + while item being favourited breaks 19x19 walls
 					Grants immunity against explosion, hot blocks and lava
 					Slamming to ground errupt flames + crits cause damned inferno with slight cooldown
 					'''
@@ -14519,27 +14520,6 @@ Mods: {
 					'Great for impersonating kind spriters!'
 					LC swing the hammer while RC does a jump slam
 					RC form an explosion pillar with 30 second cooldown
-					'''
-			}
-
-			MCHammer: {
-				DisplayName: MC Hammer
-				Tooltip:
-					'''
-					'Can't touch this'
-					While being favourited breaks 19x19 walls
-					Slams generate a projectile repelling nonboss enemies + hits inflict both weakened + frostburn inferno
-					'''
-			}
-
-			RoyalCrusher: {
-				DisplayName: Royal Crusher
-				Tooltip:
-					'''
-					'Now you know what time it is'
-					Holding weapon increase defense by 4 + slamming ground errupt a flamy shockwave
-					Hits break enemies resistance
-					While being favourited breaks 9x9 walls
 					'''
 			}
 
@@ -15946,12 +15926,13 @@ Mods: {
 			}
 
 			ScarletBracelet: {
-				DisplayName: Scarlet Bracelet
+				DisplayName: Parasitic Circlet
 				Tooltip:
 					'''
 					'Things become much prettier when they are covered in red'
 					RC to the item to equip it and LC to its slot to get back
-					While equipped melee hits have 25% chance and true melee hits have 50% chance to bleed enemy
+					Hitting with melee has a chance to inflict Bleeding or Love Stuck (25%)
+					Hitting with true melee has a 25% chance to heal 1 hp
 					'''
 			}
 
@@ -17206,11 +17187,6 @@ Mods: {
 					'''
 			}
 
-			DivineRodofRemorse: {
-				DisplayName: Divine Rod of Remorse
-				Tooltip: It was once used by a Yama to do her judgement
-			}
-
 			FairyWand: {
 				DisplayName: Fairy Wand
 				Tooltip:
@@ -17859,71 +17835,6 @@ Mods: {
 				Tooltip: Shatters into acorn shrapnels when hitting any enemy or tile
 			}
 
-			DemonsTorch: {
-				DisplayName: Demon's Torch
-				Tooltip:
-					'''
-					'Let their sin consume them'
-					[c/FFFF00:RC Hold Stab]: Enemy hits inflict fire + cause them get weaker against fire based debuffs
-					Empoweverd stabs causes heat explosion + Crits may call an ancient bone serpent from below
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:LC Charge Throw]:each strike decrease DR by 2% + increase True DoT by 8
-					Full charge strikes cause enemy to get ignited + release flames
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			Pilum: {
-				DisplayName: Pilum
-				Tooltip:
-					'''
-					'Fortune and love favor the brave'
-					[c/FFFF00:RC Hold Stab]: Hitting enemies increase pilums offensive stats + penetration 
-					Stabs slow down nonboss enemies + crits or empowered stabs cause serious bleeding and shatter enemies defense
-					[c/ADD8E6:LC Charge Throw]: Charges an angon that inflict heavy bleeding + increase True DoT by 6
-					Full charge leave colchicum dust + hits fuel fear & slightly heal player
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			SwampTrident: {
-				DisplayName: Trident of Palustia
-				Tooltip:
-					'''
-					'Strangely there are some rotten flesh on its tip'
-					[c/FFFF00:RC Hold Stab]: Strikes inflict bleeding + poison
-					Holding grant defender buff + empower stabs release gasses from enemies & crits inflict venom instead
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:LC Instant Throw]:Throws an aquatic trident that call lightning + get stronger while submerged with water
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			TheFourthDegree: {
-				DisplayName: The Fourth Degree
-				Tooltip:
-					'''
-					'No flame, no real heat... what fun is that?'
-					[c/FFFF00:RC Hold Stab]: Stabs burn enemy in demonic flames + greatly weaken their defensive stats
-					Holding grant defender buff + empower stabs inflict inferno + causing explosions around
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:LC Charge Throw]: Allow player to charge one of four different horsemen themed javelin that each come with its own ability
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
-			TrueGungnir: {
-				DisplayName: True Gungnir
-				Tooltip:
-					'''
-					'A fine red mist'
-					[c/FFFF00:RC Hold Stab]: Stabs will cause serious bleeding + scarlet explosions + crits may heal
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:LC Charge Throw]:Spear inflict serious bleeding + release scarlet orbs
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					'''
-			}
-
 			ArmsofDusk: {
 				DisplayName: Arms of Dusk
 				Tooltip:
@@ -17957,34 +17868,32 @@ Mods: {
 
 			Akitanagi: {
 				DisplayName: Akitanagi
-				Tooltip: "'It will shoot dog heads that will bite on critical hits'"
+				Tooltip: "'Guess who is the good boy now? Definitely not their corpses'"
 			}
 
 			BeatSabers: {
 				DisplayName: Beat Sabers
 				Tooltip:
 					'''
-					Even holding them makes you hear a faint rythm
-					LC allows you to use blue saber and RC allows you to use red saber
+					'Chi-chi-chirumiru, I still have energy!'
+					Generates an after image by taking mouse location as axis which could also slash
 					Blue saber will decrease enemies endurance while red saber will decrease enemies damage
-					Hitting enemy with the same saber colour will increase sabers power by 10%
-					An enemy can have only have one saber debuff
+					Hitting enemy with alternate same saber colour cause oscillation which increase damage by 50% + generate damaging notes
 					'''
 			}
 
 			BomberSword: {
-				DisplayName: Bomber Sword
+				DisplayName: Bombersword
 				Tooltip:
 					'''
 					'Incoming!'
-					'LC will shoot remote controlled grenades which will explode upon hitting any enemy'
-					'RC denotes all of the remote controlled grenades'
+					LC throws multiple grenades and RC empower detonate them
 					'''
 			}
 
 			CactusSword: {
-				DisplayName: Protector of Cactuars
-				Tooltip: "'It was forged by an ancient warlord with the power of the Cactuar'"
+				DisplayName: Jumbo Needlefang
+				Tooltip: "'Death by Thousand Needles'"
 			}
 
 			CruelMistress: {
@@ -18018,11 +17927,6 @@ Mods: {
 					Slice material with antimatter
 					'Right click to do a different attack'
 					'''
-			}
-
-			WatermelonIcicle: {
-				DisplayName: Watermelon Icicle
-				Tooltip: It is forged for the strongest
 			}
 
 			Antarctica: {
@@ -18207,10 +18111,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Be one with shadows'
-					Attacks have 10% chance to form dark slices
-					Right clicking will transform the player into a shadow form that will prevent damage for 2 seconds
-					While in shadow form, this weapon will always deal critical hits and deliver painful dark slices
-					Shadow form has a 30 second cooldown
+					Attacks inflict fear + generate slashes
+					RC change location with players position with enemy close to mouse location
+					When RC occur teleported enemy get dizzy + player get short invincibility frames
+					Shadow form has a 15 second cooldown
 					'''
 			}
 
@@ -18301,10 +18205,10 @@ Mods: {
 				DisplayName: Sakura Slasher
 				Tooltip:
 					'''
-					'Fighting opponents of your sort is easy, because you always come thrusting yourself into my sword.'
-					'When your enemies have less than 10% life and your strike crit you maeke deathblow to them and bosses are immune to this effect'
-					'If their life is above 10% or they are boss your strikes will inflict fear and it have 10% chance to form a slash in air'
-					'Critical hits will call phantoms that will aim directly the enemy you cut'
+					'Fighting opponents of your sort is easy, because you always come thrusting yourself into my sword'
+					Hits inflict fear + strikes may slash enemies on screen with the same type
+					Deathblow the nonboss enemies that have less than 10% max life + strikes inflict fear
+					Hits may (crit hits always trigger) shatter enemies soul into various colored butterflies that each inflict different debuff
 					'''
 			}
 
@@ -18798,6 +18702,7 @@ Mods: {
 					'Hibernation! Cold sleep! Did you know?'
 					Shoots chill mists that may freeze(nonboss) or frostburn enemies
 					The mist may condensate on enemy and return into damaging rain
+					While being in snow biome condensation turn into damaging snow
 					40% chance to not consume ammo and uses gel as ammo
 					'''
 			}
@@ -18953,13 +18858,9 @@ Mods: {
 				DisplayName: Terrarian 2k
 				Tooltip:
 					'''
-					Once being used by legendary heroine Audrina to clean the world from primal ones
-					It's level will increase by using it and each 40 xp will increase by 1
-					It can have maximum 3 level and taking hit will decrease its xp
-					If its level is higher than 1 with RC player can activate its special attack
-					Level 2 will form a laser that will penetrate multiple enemy and imbue them with highly explosive chemicals
-					Level 3 will form a terra wave that will reflect projectiles with 50% increased damage but it will eat its penetration
-					If player have less than 15% life it will call a queen bee to fight for you
+					'Once used by legendary heroine Audrina to cleanse the darkness spread over the jungle'
+					'Thanks to her the ecosystem is still balanced... Yet...'
+					Shoots tiny snatchers that bite on target and inject venom + crits may call the queen for strike
 					'''
 			}
 
@@ -19093,8 +18994,16 @@ Mods: {
 			}
 
 			SummerSaleMinigun: {
-				DisplayName: Wallet drainer
-				Tooltip: The combination of the power of mankind and summersales
+				DisplayName: Wallet Drainer
+				Tooltip:
+					'''
+					'Make Summersales Great Again'
+					While being held each silver+ coin tier get from enemy also gets registered by the wallet
+					Each time wallet has higher than 1 gold wallet drain itself and imbue bullet with Australium
+					Australium bullets convert nonboss enemies into gold for 5 second + enemy hits drop money
+					Each shot has a 10% chance to be converted into homing tariff
+					Converts muskets into explosive bullets
+					'''
 			}
 
 			AirHorn: {
@@ -19225,8 +19134,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Meow Meow, meoow mew meow meow me!'
-					'Meow Mew-Meow meow, meeeow meoow mew.'
-					[i:6220] [i:6194] [i:6217] [i:6194] [i:6220]
+					Meow Mew-Meow meow, meeeow meoow mew
+					Mew meew meow, meow meow-meow meeew
 					-Andre, Meow meew mew
 					'''
 			}
@@ -19802,16 +19711,6 @@ Mods: {
 					Defensive: Get close to player and form energy shield + leave short timed sparks
 					This shield will increase players defense + DR
 					RC use the item will change its mode
-					'''
-			}
-
-			StaffoftheSpiritualist: {
-				DisplayName: Staff of the Spiritualist
-				Tooltip:
-					'''
-					May you find all you have lost
-					Using it will summon a tiny spirit collector and a cool crow to protect you
-					There can be only one pair be active and they will take 1.5 minion slots
 					'''
 			}
 
@@ -20749,6 +20648,118 @@ Mods: {
 					According to speed inflicts either bleeding or serious bleeding
 					'''
 				DisplayName: Sueño Imposible
+			}
+
+			WatermelonIcicle: {
+				DisplayName: Watermelon Icicle
+				Tooltip:
+					'''
+					'In my hands, even a lotus gets anxious!'
+					High velocity rain watermelon slices above + increases movement strikes
+					Hits may grant invincibility frames + speed empower frostburn debuff
+					'''
+			}
+
+			DemonsTorch: {
+				DisplayName: Demon's Torch
+				Tooltip:
+					'''
+					'Let their sins consume them'
+					LC allow using as lance where high speed strikes cause heat explosion + give weakeness against heat
+					LC allow using as lance where high speed crits call an ancient serpent from below
+					According to speed the strength of fire debuff is determined
+					RC allow throwing to charge one of four different horsemen themed javelin that each come with its own ability
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+			}
+
+			Pilum: {
+				DisplayName: Pilum
+				Tooltip:
+					'''
+					'Fortune and love favor the brave'
+					LC allow using as lance where high speed grant defender buff + strikes may break enemy defense
+					According to speed either inflict bleeding or serious bleeding
+					RC allow charge throw an angon that increase DoT by 6 + inflict heavy bleeding
+					Full charge throw leave colchicum dust + hits fuel fear & slightly heal player
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+			}
+
+			SwampTrident: {
+				DisplayName: Trident of Palustia
+				Tooltip:
+					'''
+					'Strangely there are some rotten flesh on its tip'
+					LC allow using as lance where if submerged with water crit cause lightning otherwise may cause swamp gas release
+					According to speed either inflict poison or rot + strike kill enemy with rot debuff leave a poisonous explosive husk
+					RC allow throwing the trident that call lightning + get stronger while submerged with water
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+			}
+
+			TrueGungnir: {
+				DisplayName: True Gungnir
+				Tooltip:
+					'''
+					'A fine red mist'
+					Charge throws infict boiling blood, fear along with form damaging area
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+			}
+
+			SharkTeeth: {
+				Tooltip: ""
+				DisplayName: Shark Teeth
+			}
+
+			MCHammer: {
+				DisplayName: MC Hammer
+				Tooltip:
+					'''
+					'Can't touch this'
+					While being favourited breaks 19x19 walls
+					Slams generate a projectile repelling nonboss enemies + hits inflict both weakened + frostburn inferno
+					'''
+			}
+
+			RoyalCrusher: {
+				DisplayName: Royal Crusher
+				Tooltip:
+					'''
+					'Now you know what time it is'
+					Holding weapon increase defense by 4 + slamming ground errupt a flamy shockwave
+					Hits break enemies resistance
+					While being favourited breaks 9x9 walls
+					'''
+			}
+
+			DivineRodofRemorse: {
+				DisplayName: Divine Rod of Remorse
+				Tooltip: It was once used by a Yama to do her judgement
+			}
+
+			TheFourthDegree: {
+				DisplayName: The Fourth Degree
+				Tooltip:
+					'''
+					'No flame, no real heat... what fun is that?'
+					[c/FFFF00:RC Hold Stab]: Stabs burn enemy in demonic flames + greatly weaken their defensive stats
+					Holding grant defender buff + empower stabs inflict inferno + causing explosions around
+					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
+					[c/ADD8E6:LC Charge Throw]: Allow player to charge one of four different horsemen themed javelin that each come with its own ability
+					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'''
+			}
+
+			StaffoftheSpiritualist: {
+				DisplayName: Staff of the Spiritualist
+				Tooltip:
+					'''
+					May you find all you have lost
+					Using it will summon a tiny spirit collector and a cool crow to protect you
+					There can be only one pair be active and they will take 1.5 minion slots
+					'''
 			}
 		}
 
@@ -23268,6 +23279,45 @@ Mods: {
 			CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
 			SuenoImposible.DisplayName: Sueno Imposible
 			JutteSlash4.DisplayName: Jutte Slash4
+			WatermelonIcicle.DisplayName: Watermelon Icicle
+			AkitanagiSlash.DisplayName: Akitanagi Slash
+			AkitanagiProj.DisplayName: Akitanagi Proj
+			AkitanagiSlash2.DisplayName: Akitanagi Slash2
+			AkitanagiGhostDog.DisplayName: Akitanagi Ghost Dog
+			AkitanagiSlash3.DisplayName: Akitanagi Slash3
+			BomberSwordSlash.DisplayName: Bomber Sword Slash
+			BomberGrenade2.DisplayName: Bomber Grenade2
+			BeatSaberSlash3.DisplayName: Beat Saber Slash3
+			BeatSaberSlash.DisplayName: Beat Saber Slash
+			BeatSaberShadow.DisplayName: Beat Saber Shadow
+			BeatSaberSong.DisplayName: Beat Saber Song
+			CactusSwordSlash.DisplayName: Cactus Sword Slash
+			CactusSwordSting.DisplayName: Cactus Sword Sting
+			CactusSwordSlash3.DisplayName: Cactus Sword Slash3
+			CactusSwordSlash2.DisplayName: Cactus Sword Slash2
+			CactusPotato.DisplayName: Cactus Potato
+			CactusGroundFire.DisplayName: Cactus Ground Fire
+			CactusVenomCloud.DisplayName: Cactus Venom Cloud
+			CactusSwordSlash4.DisplayName: Cactus Sword Slash4
+			ForgottenGunEater.DisplayName: Forgotten Gun Eater
+			ForgottenGunQB.DisplayName: Forgotten Gun Q B
+			GnomeLord.DisplayName: Gnome Lord
+			GnomeLordLaser.DisplayName: Gnome Lord Laser
+			SadCatLetter.DisplayName: Sad Cat Letter
+			MagmaticCrusherSlam.DisplayName: Magmatic Crusher Slam
+			AncientWarhammerSlam.DisplayName: Ancient Warhammer Slam
+			Pilum2.DisplayName: Pilum2
+			VikingSwordSlam2.DisplayName: Viking Sword Slam2
+			VikingSwordSlam.DisplayName: Viking Sword Slam
+			SanguineDesiresSlam.DisplayName: Sanguine Desires Slam
+			NicksChopperSlam.DisplayName: Nicks Chopper Slam
+			TrueGungnir2.DisplayName: True Gungnir2
+			SpikeBallLauncherSlash.DisplayName: Spike Ball Launcher Slash
+			SakuraSlasherSlash2.DisplayName: Sakura Slasher Slash2
+			SakuraSlasherSlash1.DisplayName: Sakura Slasher Slash1
+			SakuraButterfly.DisplayName: Sakura Butterfly
+			SakuraSlasherSlash3.DisplayName: Sakura Slasher Slash3
+			SharkTeeth.DisplayName: Shark Teeth
 		}
 
 		Configs: {
