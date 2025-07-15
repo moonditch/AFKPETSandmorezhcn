@@ -4851,11 +4851,6 @@ Mods: {
 				DisplayName: 旋风乱舞
 				Description: 持有时提高移动能力
 			}
-
-			BlessedBurger: {
-				DisplayName: 汉堡圣餐
-				Description: 亘古领主Gabe以圣餐的力量祝福你的灵魂
-			}
 		}
 
 		Items: {
@@ -5191,8 +5186,8 @@ Mods: {
 				Tooltip:
 					'''
 					'虽然看起来很小，但它是SATLA-001控制不同充电状态的关键之一'
-					持有真近战武器时，释放一个带电的生物血液光环，对处于光环范围内的敌人施加触电
-					免疫触电
+					持有近战武器时生成生物血液光环，对处于光环范围内的敌人施加触电
+					免疫触电，真近战暴击时恢复生命值
 					'''
 			}
 
@@ -5231,7 +5226,8 @@ Mods: {
 				Tooltip:
 					'''
 					'古代勇士使用的盾牌'
-					减少10%正面受到伤害，装备角斗士护甲时额外增加2点防御
+					减少10%正面受到伤害
+					手持近战武器时，武器击退减半
 					'''
 			}
 
@@ -5509,7 +5505,8 @@ Mods: {
 					'一款配备多种机制的仿生手臂复制品，显然是为了改装而重新设计的'
 					增加5%真近战伤害
 					每次真近战攻击同一个目标时，增加4%近战攻击速度，最高上限为40%
-					更换目标或10秒内不使用真近战武器重置此效果
+					达到最高时，真近战武器额外造成5点伤害
+					未攻击或未使用真近战武器时重置此效果
 					使用工具时，每秒增加2%使用速度，最高上限为20%
 					10秒内不使用工具重置增益效果
 					使用真近战武器时，挥舞一道刀光
@@ -5523,6 +5520,7 @@ Mods: {
 				Tooltip:
 					'''
 					'周围的碎片？抱歉，我们这儿不搞牛顿物理学'
+					提高20%加速度
 					近战攻速会随着挥舞积累的动量而增加
 					最多增加1.5倍
 					'''
@@ -5547,7 +5545,7 @@ Mods: {
 					'''
 					'现在你真正拥有了正义的拳头'
 					近战攻击施加圣焰
-					增加10%近战伤害和攻击速度，同时增加近战击退力也增加
+					增加12%近战伤害和攻击速度，同时增加近战击退力也增加
 					真近战暴击无视敌人50%防御，近战暴击无视25%防御
 					'''
 			}
@@ -5568,7 +5566,8 @@ Mods: {
 					'印象深刻，太让我印象深刻了—达斯·维达'
 					增加5%真近战伤害
 					真近战攻击同一个目标时，增加3%近战攻击速度，最高上限为30%
-					更换目标或10秒内不使用真近战武器重置此效果
+					达到最高时，真近战武器额外造成5点伤害
+					未攻击或未使用真近战武器时重置此效果
 					'''
 			}
 
@@ -18014,7 +18013,8 @@ Mods: {
 				Tooltip:
 					'''
 					'一切都在坠落，坠落……'
-					右键可投掷标枪，击中敌人后释放闪电
+					突刺会在枪尖积聚热能，引发空气热激波
+					本能力有4次突刺冷却限制
 					'''
 			}
 
@@ -18277,7 +18277,8 @@ Mods: {
 				Tooltip:
 					'''
 					'战争即和平，自由即奴役，凝胶即力量'
-					对非boss的敌人生命值低于10%时，可造成致命一击
+					击杀敌人后进入死亡遴选状态，提升攻速并施加死亡标记
+					生命值低于20%的标记目标将被即刻处决
 					右键根据光标方向发动水平斩击，冷却时间20秒
 					'''
 			}
@@ -20771,57 +20772,157 @@ Mods: {
 			}
 
 			SharkTeeth: {
-				Tooltip: ""
+				Tooltip: 海洋传奇掠食者的遗物
 				DisplayName: 鲨牙
 			}
 
-			MCHammer: {
-				DisplayName: MC之锤
+			ChivalrousGlove: {
 				Tooltip:
 					'''
-					'无法触碰'
-					收藏后破坏 19x19 的墙壁
-					猛击地面会生成一个排斥非Boss敌人的射弹，施加软弱、霜冻和狱火
+					'尽管放马过来...'
+					提高33%标枪蓄力速度
+					真近战武器可反弹伤害值小于武器两倍的射弹
+					'''
+				DisplayName: 骑士手套
+			}
+
+			OniBreaker: {
+				Tooltip:
+					'''
+					'别急别急！休息时间到'
+					提高33%标枪蓄力速度
+					真近战武器可反弹伤害值小于武器两倍的射弹
+					增加敌人仇恨与击退并启用自动挥舞
+					手持近战武器时提高8点防御，真近战武器提高12点
+					提高25%近战范围与8%攻击速度
+					'''
+				DisplayName: 鬼王破
+			}
+
+			HellsKitchen: {
+				DisplayName: 地狱厨房
+				Tooltip:
+					'''
+					'别碰我的鸡肉！'
+					投掷可嵌入地形与敌人的炼狱菜刀
+					一段时间后充能并返回玩家手中
+					充能时施加沸腾之血并粉碎防御
+					返回时点燃并提升基础伤害
 					'''
 			}
 
-			RoyalCrusher: {
-				DisplayName: 皇家粉粹机
+			CanyonClaymore: {
+				DisplayName: 峡谷巨剑
 				Tooltip:
 					'''
-					'现在你知道该做什么了'
-					手持时增加 4 点防御，猛击地面引发火焰冲击波
-					攻击敌人减少其防御
-					收藏后破坏 9x9 的墙壁
+					'扬沙逆风，风必还之'
+					蓄力砸地攻击并产生沙暴龙卷风
+					在沙尘暴环境中提升伤害，手持时免疫强风
 					'''
 			}
 
-			DivineRodofRemorse: {
-				DisplayName: 悔悟棒（出自：东方 四季映姬）
-				Tooltip: 这曾是阎罗用来执行审判的神圣权杖
-			}
-
-			TheFourthDegree: {
-				DisplayName: 第四度烈焰
+			Dawnlight: {
 				Tooltip:
 					'''
-					'无火焰，不热烈……那还有何乐趣可言？'
-					[c/FFFF00:左键戳刺]: 刺击使敌人在恶魔之焰中燃烧，并大幅削弱防御力
-					持续命中会施加狱火，并在周围引发爆炸
-					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
-					[c/ADD8E6:右键蓄力]: 蓄力后扔出其中一种四骑士风格的标枪，每种标枪都有自己独特的能力
-					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的长矛
+					'唤醒灵魂中不灭的光芒！'
+					攻击释放扩散的救赎光波
+					'''
+				DisplayName: 晨曦
+			}
+
+			NetherRite: {
+				Tooltip:
+					'''
+					'跟我念：根·本·不·够·看'
+					下落攻击提升暴击率但降低基础伤害，击杀敌人可升级武器（最高3级）
+					每级提升攻速与伤害，第三级击杀敌人有10%几率掉落双倍战利品
+					每级赋予不同武器附魔
+					'''
+				DisplayName: 幽冥咒刃
+			}
+
+			LaSangre: {
+				DisplayName: 赤血骑枪
+				Tooltip:
+					'''
+					'并肩驰骋，永不停歇'
+					左键突刺，右键挥砍
+					达到一定速度后，突刺施加沸腾之血并开启猩红传送门攻击
 					'''
 			}
 
-			StaffoftheSpiritualist: {
-				DisplayName: 通灵师之杖
+			DoomShroom: {
 				Tooltip:
 					'''
-					'愿你找回所有失去的一切'
-					使用它将召唤一只迷你灵魂收集者和一只酷炫的乌鸦来保护你
-					同一时间只能激活一对这样的组合，它们占用1.5个仆从栏
+					'它们愤怒、野蛮、毫无怜悯，但你更胜一筹'
+					手持近战武器时产生环绕玩家的孢子
+					手持真近战武器额外提升孢子伤害与击退力
+					每10秒随机标记一名屏幕内敌人
+					被标记者受到8%额外伤害，其对玩家的接触伤害降低8%
+					击杀标记目标额外掉落50金币，并有概率掉落魔力星或生命心
+					受伤时触发孢子爆炸释放剧毒孢子
 					'''
+				DisplayName: 末日菇
+			}
+
+			DrFetusRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.DrFetusFirstPhase.DisplayName}圣物"
+			}
+
+			RoyalHarpyAirForceRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.StormDiver.DisplayName}圣物"
+			}
+
+			SlayerOfEvilRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.SlayerofEvil.DisplayName}圣物"
+			}
+
+			SatlaRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.SATLA001.DisplayName}圣物"
+			}
+
+			OkikuRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.Okiku.DisplayName}圣物"
+			}
+
+			LavalGolemRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.LavalGolem.DisplayName}圣物"
+			}
+
+			IsaacRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.Isaac.DisplayName}圣物"
+			}
+
+			GuardianOfFrostRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.IceGuardian.DisplayName}圣物"
+			}
+
+			BunnyZepplinRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.BunnyZepplin.DisplayName}圣物"
+			}
+
+			AntonyNoviceNecromancerRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.NecromancerDummy.DisplayName}圣物"
+			}
+
+			AncientTrioRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.FlagCarrier.BossChecklistIntegration.EntryName}圣物"
+			}
+
+			AncientGuardianRelic: {
+				Tooltip: ""
+				DisplayName: "{$NPCs.AncientGuardian.DisplayName}圣物"
 			}
 		}
 
@@ -21788,7 +21889,7 @@ Mods: {
 			TheFourthDegree.DisplayName: The Fourth Degree
 			TheFourthDegree2.DisplayName: The Fourth Degree2
 			ThrowingStoneSpear.DisplayName: Throwing Stone Spear
-			TrueGungnir.DisplayName: True Gungnir
+			TrueGungnir.DisplayName: 真·冈格尼尔
 			WaterTrident.DisplayName: Water Trident
 			WaterTrident2.DisplayName: Water Trident2
 			JudgementBoneDart.DisplayName: 受福骨镖
@@ -23255,9 +23356,9 @@ Mods: {
 			Wafer2.DisplayName: Wafer2
 			Wafer3.DisplayName: Wafer3
 			Wafer4.DisplayName: Wafer4
-			IronChef.DisplayName: Iron Chef
+			IronChef.DisplayName: 铁厨菜刀
 			Wafer5.DisplayName: Wafer5
-			IronChef2.DisplayName: Iron Chef2
+			IronChef2.DisplayName: 铁厨菜刀
 			EnergyAreaElectric.DisplayName: Energy Area Electric
 			ApacheChopper.DisplayName: Apache Chopper
 			LightDestroyer.DisplayName: Light Destroyer
@@ -23325,61 +23426,84 @@ Mods: {
 			AncientScarabSlash.DisplayName: Ancient Scarab Slash
 			RealKnifeSlice.DisplayName: Real Knife Slice
 			PortableSavePoint.DisplayName: Portable Save Point
-			// PaladinSwordSlash2.DisplayName: Paladin Sword Slash2
-			// PaladinSwordSlash.DisplayName: Paladin Sword Slash
-			// PaladinSwordSigil.DisplayName: Paladin Sword Sigil
-			// PaladinSwordSlash3.DisplayName: Paladin Sword Slash3
-			// DarkArtsSlash2.DisplayName: Dark Arts Slash2
-			// DarkArtsSlash.DisplayName: Dark Arts Slash
-			// SelfSacrificeSlash.DisplayName: Self Sacrifice Slash
-			// SelfSacrificeSlash2.DisplayName: Self Sacrifice Slash2
-			// SelfSacrificeSigil.DisplayName: Self Sacrifice Sigil
-			// SelfSacrificeSkull.DisplayName: Self Sacrifice Skull
-			// GalaxiaSlash3.DisplayName: Galaxia Slash3
-			// GalaxiaSlash2.DisplayName: Galaxia Slash2
-			// GalaxiaSlash.DisplayName: Galaxia Slash
-			// CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
-			// SuenoImposible.DisplayName: Sueno Imposible
-			// JutteSlash4.DisplayName: Jutte Slash4
-			// WatermelonIcicle.DisplayName: Watermelon Icicle
-			// AkitanagiSlash.DisplayName: Akitanagi Slash
-			// AkitanagiProj.DisplayName: Akitanagi Proj
-			// AkitanagiSlash2.DisplayName: Akitanagi Slash2
-			// AkitanagiGhostDog.DisplayName: Akitanagi Ghost Dog
-			// AkitanagiSlash3.DisplayName: Akitanagi Slash3
-			// BomberSwordSlash.DisplayName: Bomber Sword Slash
-			// BomberGrenade2.DisplayName: Bomber Grenade2
-			// BeatSaberSlash3.DisplayName: Beat Saber Slash3
-			// BeatSaberSlash.DisplayName: Beat Saber Slash
-			// BeatSaberShadow.DisplayName: Beat Saber Shadow
-			// BeatSaberSong.DisplayName: Beat Saber Song
-			// CactusSwordSlash.DisplayName: Cactus Sword Slash
-			// CactusSwordSting.DisplayName: Cactus Sword Sting
-			// CactusSwordSlash3.DisplayName: Cactus Sword Slash3
-			// CactusSwordSlash2.DisplayName: Cactus Sword Slash2
-			// CactusPotato.DisplayName: Cactus Potato
-			// CactusGroundFire.DisplayName: Cactus Ground Fire
-			// CactusVenomCloud.DisplayName: Cactus Venom Cloud
-			// CactusSwordSlash4.DisplayName: Cactus Sword Slash4
-			// ForgottenGunEater.DisplayName: Forgotten Gun Eater
-			// ForgottenGunQB.DisplayName: Forgotten Gun Q B
-			// GnomeLord.DisplayName: Gnome Lord
-			// GnomeLordLaser.DisplayName: Gnome Lord Laser
-			// SadCatLetter.DisplayName: Sad Cat Letter
-			// MagmaticCrusherSlam.DisplayName: Magmatic Crusher Slam
-			// AncientWarhammerSlam.DisplayName: Ancient Warhammer Slam
-			// Pilum2.DisplayName: Pilum2
-			// VikingSwordSlam2.DisplayName: Viking Sword Slam2
-			// VikingSwordSlam.DisplayName: Viking Sword Slam
-			// SanguineDesiresSlam.DisplayName: Sanguine Desires Slam
-			// NicksChopperSlam.DisplayName: Nicks Chopper Slam
-			// TrueGungnir2.DisplayName: True Gungnir2
-			// SpikeBallLauncherSlash.DisplayName: Spike Ball Launcher Slash
-			// SakuraSlasherSlash2.DisplayName: Sakura Slasher Slash2
-			// SakuraSlasherSlash1.DisplayName: Sakura Slasher Slash1
-			// SakuraButterfly.DisplayName: Sakura Butterfly
-			// SakuraSlasherSlash3.DisplayName: Sakura Slasher Slash3
-			// SharkTeeth.DisplayName: Shark Teeth
+			PaladinSwordSlash2.DisplayName: Paladin Sword Slash2
+			PaladinSwordSlash.DisplayName: Paladin Sword Slash
+			PaladinSwordSigil.DisplayName: Paladin Sword Sigil
+			PaladinSwordSlash3.DisplayName: Paladin Sword Slash3
+			DarkArtsSlash2.DisplayName: Dark Arts Slash2
+			DarkArtsSlash.DisplayName: Dark Arts Slash
+			SelfSacrificeSlash.DisplayName: Self Sacrifice Slash
+			SelfSacrificeSlash2.DisplayName: Self Sacrifice Slash2
+			SelfSacrificeSigil.DisplayName: Self Sacrifice Sigil
+			SelfSacrificeSkull.DisplayName: Self Sacrifice Skull
+			GalaxiaSlash3.DisplayName: Galaxia Slash3
+			GalaxiaSlash2.DisplayName: Galaxia Slash2
+			GalaxiaSlash.DisplayName: Galaxia Slash
+			CrystalSwordSlash2.DisplayName: Crystal Sword Slash2
+			SuenoImposible.DisplayName: Sueno Imposible
+			JutteSlash4.DisplayName: Jutte Slash4
+			WatermelonIcicle.DisplayName: Watermelon Icicle
+			AkitanagiSlash.DisplayName: Akitanagi Slash
+			AkitanagiProj.DisplayName: Akitanagi Proj
+			AkitanagiSlash2.DisplayName: Akitanagi Slash2
+			AkitanagiGhostDog.DisplayName: Akitanagi Ghost Dog
+			AkitanagiSlash3.DisplayName: Akitanagi Slash3
+			BomberSwordSlash.DisplayName: Bomber Sword Slash
+			BomberGrenade2.DisplayName: Bomber Grenade2
+			BeatSaberSlash3.DisplayName: Beat Saber Slash3
+			BeatSaberSlash.DisplayName: Beat Saber Slash
+			BeatSaberShadow.DisplayName: Beat Saber Shadow
+			BeatSaberSong.DisplayName: Beat Saber Song
+			CactusSwordSlash.DisplayName: Cactus Sword Slash
+			CactusSwordSting.DisplayName: Cactus Sword Sting
+			CactusSwordSlash3.DisplayName: Cactus Sword Slash3
+			CactusSwordSlash2.DisplayName: Cactus Sword Slash2
+			CactusPotato.DisplayName: Cactus Potato
+			CactusGroundFire.DisplayName: Cactus Ground Fire
+			CactusVenomCloud.DisplayName: Cactus Venom Cloud
+			CactusSwordSlash4.DisplayName: Cactus Sword Slash4
+			ForgottenGunEater.DisplayName: Forgotten Gun Eater
+			ForgottenGunQB.DisplayName: Forgotten Gun Q B
+			GnomeLord.DisplayName: Gnome Lord
+			GnomeLordLaser.DisplayName: Gnome Lord Laser
+			SadCatLetter.DisplayName: Sad Cat Letter
+			MagmaticCrusherSlam.DisplayName: Magmatic Crusher Slam
+			AncientWarhammerSlam.DisplayName: Ancient Warhammer Slam
+			Pilum2.DisplayName: Pilum2
+			VikingSwordSlam2.DisplayName: Viking Sword Slam2
+			VikingSwordSlam.DisplayName: Viking Sword Slam
+			SanguineDesiresSlam.DisplayName: Sanguine Desires Slam
+			NicksChopperSlam.DisplayName: Nicks Chopper Slam
+			TrueGungnir2.DisplayName: 真·冈格尼尔
+			SpikeBallLauncherSlash.DisplayName: Spike Ball Launcher Slash
+			SakuraSlasherSlash2.DisplayName: Sakura Slasher Slash2
+			SakuraSlasherSlash1.DisplayName: Sakura Slasher Slash1
+			SakuraButterfly.DisplayName: Sakura Butterfly
+			SakuraSlasherSlash3.DisplayName: Sakura Slasher Slash3
+			SharkTeeth.DisplayName: Shark Teeth
+			HellsKitchen.DisplayName: Hells Kitchen
+			HellsKitchen2.DisplayName: Hells Kitchen2
+			AncientArtifactSoul.DisplayName: Ancient Artifact Soul
+			CanyonClaymoreSlash.DisplayName: Canyon Claymore Slash
+			CanyonClaymoreTornado.DisplayName: Canyon Claymore Tornado
+			CanyonClaymoreRumble.DisplayName: Canyon Claymore Rumble
+			ShinobiKatanaSlasher.DisplayName: Shinobi Katana Slasher
+			ShinobiKatanaSlash4.DisplayName: Shinobi Katana Slash4
+			DawnlightSlash.DisplayName: Dawnlight Slash
+			DawnlightSlash2.DisplayName: Dawnlight Slash2
+			NetherRiteSlash.DisplayName: Nether Rite Slash
+			NetherRiteSlash2.DisplayName: Nether Rite Slash2
+			NetherRiteSlash3.DisplayName: Nether Rite Slash3
+			NetherRiteSlash4.DisplayName: Nether Rite Slash4
+			CruelThesisSlash.DisplayName: Cruel Thesis Slash
+			CruelThesisSlash2.DisplayName: Cruel Thesis Slash2
+			LaSangre.DisplayName: La Sangre
+			LaSangrePortal.DisplayName: La Sangre Portal
+			LaSangreBolt.DisplayName: La Sangre Bolt
+			LaSangreBolt2.DisplayName: La Sangre Bolt2
+			LaSangre2.DisplayName: La Sangre2
+			LaSangreExplosion.DisplayName: La Sangre Explosion
+			RollingPot.DisplayName: Rolling Pot
 		}
 
 		Configs: {

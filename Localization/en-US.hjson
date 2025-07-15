@@ -4855,11 +4855,6 @@ Mods: {
 				DisplayName: Tornado Slash
 				Description: Held item grant mobility
 			}
-
-			BlessedBurger: {
-				DisplayName: Blessed Burger
-				Description: Lord Gabe blesses your soul with the power of sacred meal
-			}
 		}
 
 		Items: {
@@ -5195,8 +5190,8 @@ Mods: {
 				Tooltip:
 					'''
 					'May look small but one of essential for SATLA-001 to control different charge states'
-					While holding true melee a charged bio-blood ring that will inflict charged to enemies while they are in area
-					Player gain immunity to being charged
+					While holding melee weapon generates bio-blood ring that inflict charged to enemies within ring
+					Player gain immunity to being charged + true melee crits heal player
 					'''
 			}
 
@@ -5235,7 +5230,8 @@ Mods: {
 				Tooltip:
 					'''
 					'An ancient type of shield being used by ancient warriors'
-					Provides 10% front DR protection which does not stack + with gladiator armor increase defense by 2
+					Provides 10% front DR protection which does not stack
+					While holding melee weapon taking decrease halve damage knocback
 					'''
 			}
 
@@ -5513,7 +5509,8 @@ Mods: {
 					'A replica of a human arm fitted with a variety of mechanisms, apparently designed with modification in mind'
 					True melee damage increase by 5%
 					Each time you hit to same target true melee speed increase 4% up to 40% max
-					Switching target, not hitting or not holding true melee weapon will reset this
+					Not hitting or not holding true melee weapon will reset this
+					At max stack true melee hits do additional 5 true damage
 					Using a tool increase its speed by 2% each second up to 20%
 					Not using a tool for 10 seconds reset the buff
 					When swinging true melee weapon it does a large slash before
@@ -5527,6 +5524,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Pieces around it? Sorry mate, we are not doing Newtonian physics here'
+					Increases acceleration by 20%
 					Melee speed multiplier increases according to built momentum which can be max x1.5
 					'''
 			}
@@ -5550,7 +5548,7 @@ Mods: {
 					'''
 					'Now you truly have fists of justice'
 					All melee attacks inflict angelic flames
-					Melee damage and speed increased by 10% and melee knockback is also being increased
+					Melee damage and speed increased by 12% and melee knockback is also being increased
 					True melee crits ignore half of defense and regular melee crits ignore 25% defense
 					'''
 			}
@@ -5571,7 +5569,8 @@ Mods: {
 					'Impressive... Most impressive...'
 					True melee damage increase by 5%
 					Each time you hit to same target true melee speed increase 3% up to 30% max
-					Switching target, not hitting for 10 seconds or not holding true melee weapon will reset this
+					At max stack true melee hits do additional 5 true damage
+					Not hitting for 10 seconds or not holding true melee weapon will reset this
 					'''
 			}
 
@@ -13436,7 +13435,7 @@ Mods: {
 			}
 
 			Ambrosia: {
-				DisplayName: Ambrosia
+				DisplayName: Amrta
 				Tooltip:
 					'''
 					'Small cheer and great welcome makes a merry feast'
@@ -17963,7 +17962,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It all comes tumbling down, tumbling down...'
-					Right click to use this Spear as a Javelin
+					Spear thrust generate heat at the tip and may excite air thermally
+					This ability has 4 thrust cooldown
 					'''
 			}
 
@@ -18226,7 +18226,8 @@ Mods: {
 				Tooltip:
 					'''
 					'War is peace. Freedom is slavery. Gelatinous is strength'
-					Deathblow the nonboss enemies that have less than 10% max life + strikes inflict fear
+					When getting a kill, become death culled which increase attack speed + inflict death mark
+					Any npc that has death mark which has less than 20% of its max hp will get instantly killed
 					RC to form horizontal slash strike according to mouse side with 20 second cooldown
 					'''
 			}
@@ -20709,57 +20710,157 @@ Mods: {
 			}
 
 			SharkTeeth: {
-				Tooltip: ""
+				Tooltip: Remnants of the apex predator of the seas
 				DisplayName: Shark Teeth
 			}
 
-			MCHammer: {
-				DisplayName: MC Hammer
+			ChivalrousGlove: {
 				Tooltip:
 					'''
-					'Can't touch this'
-					While being favourited breaks 19x19 walls
-					Slams generate a projectile repelling nonboss enemies + hits inflict both weakened + frostburn inferno
+					'Bring it on...'
+					Increases charge speed of javelins by 33%
+					True melee weapons may reflect projectiles that has less than 2x damage of item
+					'''
+				DisplayName: Chivalrous Glove
+			}
+
+			OniBreaker: {
+				Tooltip:
+					'''
+					'No rush no rush! Break time, break time'
+					Increases charge speed of javelins by 33%
+					True melee weapons may reflect projectiles that has less than 2x damage of item
+					Increased enemy aggro and knockback + grant melee autoswing
+					+8 defense when holding a melee weapon, +12 for holding a true Melee weapon
+					25% increased melee size and 8% melee speed
+					'''
+				DisplayName: Oni Breaker
+			}
+
+			HellsKitchen: {
+				DisplayName: Hells Kitchen
+				Tooltip:
+					'''
+					'GET YOUR HANDS OFF MY CHICKEN!'
+					Thrown infernal knives can be lodged into tiles and enemies
+					After some time passed it gain momentum and return back to player
+					While gaining momentum inflict boiling blood and shatter defense
+					While turning back each hit ignite air along with projectiles base damage increase
 					'''
 			}
 
-			RoyalCrusher: {
-				DisplayName: Royal Crusher
+			CanyonClaymore: {
+				DisplayName: Canyon Claymore
 				Tooltip:
 					'''
-					'Now you know what time it is'
-					Holding weapon increase defense by 4 + slamming ground errupt a flamy shockwave
-					Hits break enemies resistance
-					While being favourited breaks 9x9 walls
+					'You throw the sand against the wind and the wind blows it back again'
+					Empower ground slamming produce a damaging sandstorm tornado
+					Becomes empowered in sandstorms, and grants immunity to Strong wind while being held
 					'''
 			}
 
-			DivineRodofRemorse: {
-				DisplayName: Divine Rod of Remorse
-				Tooltip: It was once used by a Yama to do her judgement
-			}
-
-			TheFourthDegree: {
-				DisplayName: The Fourth Degree
+			Dawnlight: {
 				Tooltip:
 					'''
-					'No flame, no real heat... what fun is that?'
-					[c/FFFF00:RC Hold Stab]: Stabs burn enemy in demonic flames + greatly weaken their defensive stats
-					Holding grant defender buff + empower stabs inflict inferno + causing explosions around
-					When holding the spear player will gain defender buff which will increase DR by 3% and give immunity to knockback
-					[c/ADD8E6:LC Charge Throw]: Allow player to charge one of four different horsemen themed javelin that each come with its own ability
-					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					'Search your soul and re-awaken the undying light!'
+					Slashes light beams that spread the salvation
+					'''
+				DisplayName: Dawnlight
+			}
+
+			NetherRite: {
+				Tooltip:
+					'''
+					'Say it with me. Not. Even. Close.'
+					Fall strike grant crit with lesser base damage + killing enemies level up the sword (max 3)
+					Each level grant melee speed + damage increase and last level grant each enemy to 10% chance to drop double loot
+					Each level grant different enchant on the sword
+					'''
+				DisplayName: Nether-Rite
+			}
+
+			LaSangre: {
+				DisplayName: La Sangre
+				Tooltip:
+					'''
+					'Gallop on together, forever onward'
+					RC to use as a lance LC to slash it forward
+					After certain speed lance strikes inflict boiling blood and open scarlet portals to strike
 					'''
 			}
 
-			StaffoftheSpiritualist: {
-				DisplayName: Staff of the Spiritualist
+			DoomShroom: {
 				Tooltip:
 					'''
-					May you find all you have lost
-					Using it will summon a tiny spirit collector and a cool crow to protect you
-					There can be only one pair be active and they will take 1.5 minion slots
+					'They are rage, brutal, without mercy. But you, you will be worse'
+					While holding melee weapon you start to produce spores around player
+					If weapon is true melee mushroom spores will have higher base damage and base knockback
+					Each 10 second a random enemy on screen is being death marked and this effect rotates after next 10 second arrives
+					The marked enemies take 8% more damage while dealing 8% less contact damage
+					Killing a deathmarked enemy will make enemy drop 50% more coin + drop a heart or mana star
+					Taking damage cause player to spore explode and release venomous doom spores
 					'''
+				DisplayName: Doom Shroom
+			}
+
+			DrFetusRelic: {
+				Tooltip: ""
+				DisplayName: Dr Fetus Relic
+			}
+
+			RoyalHarpyAirForceRelic: {
+				Tooltip: ""
+				DisplayName: Royal Harpy Air Force Relic
+			}
+
+			SlayerOfEvilRelic: {
+				Tooltip: ""
+				DisplayName: Slayer Of Evil Relic
+			}
+
+			SatlaRelic: {
+				Tooltip: ""
+				DisplayName: Satla Relic
+			}
+
+			OkikuRelic: {
+				Tooltip: ""
+				DisplayName: Okiku Relic
+			}
+
+			LavalGolemRelic: {
+				Tooltip: ""
+				DisplayName: Laval Golem Relic
+			}
+
+			IsaacRelic: {
+				Tooltip: ""
+				DisplayName: Isaac Relic
+			}
+
+			GuardianOfFrostRelic: {
+				Tooltip: ""
+				DisplayName: Guardian Of Frost Relic
+			}
+
+			BunnyZepplinRelic: {
+				Tooltip: ""
+				DisplayName: Bunny Zepplin Relic
+			}
+
+			AntonyNoviceNecromancerRelic: {
+				Tooltip: ""
+				DisplayName: Antony Novice Necromancer Relic
+			}
+
+			AncientTrioRelic: {
+				Tooltip: ""
+				DisplayName: Ancient Trio Relic
+			}
+
+			AncientGuardianRelic: {
+				Tooltip: ""
+				DisplayName: Ancient Guardian Relic
 			}
 		}
 
@@ -23318,6 +23419,29 @@ Mods: {
 			SakuraButterfly.DisplayName: Sakura Butterfly
 			SakuraSlasherSlash3.DisplayName: Sakura Slasher Slash3
 			SharkTeeth.DisplayName: Shark Teeth
+			HellsKitchen.DisplayName: Hells Kitchen
+			HellsKitchen2.DisplayName: Hells Kitchen2
+			AncientArtifactSoul.DisplayName: Ancient Artifact Soul
+			CanyonClaymoreSlash.DisplayName: Canyon Claymore Slash
+			CanyonClaymoreTornado.DisplayName: Canyon Claymore Tornado
+			CanyonClaymoreRumble.DisplayName: Canyon Claymore Rumble
+			ShinobiKatanaSlasher.DisplayName: Shinobi Katana Slasher
+			ShinobiKatanaSlash4.DisplayName: Shinobi Katana Slash4
+			DawnlightSlash.DisplayName: Dawnlight Slash
+			DawnlightSlash2.DisplayName: Dawnlight Slash2
+			NetherRiteSlash.DisplayName: Nether Rite Slash
+			NetherRiteSlash2.DisplayName: Nether Rite Slash2
+			NetherRiteSlash3.DisplayName: Nether Rite Slash3
+			NetherRiteSlash4.DisplayName: Nether Rite Slash4
+			CruelThesisSlash.DisplayName: Cruel Thesis Slash
+			CruelThesisSlash2.DisplayName: Cruel Thesis Slash2
+			LaSangre.DisplayName: La Sangre
+			LaSangrePortal.DisplayName: La Sangre Portal
+			LaSangreBolt.DisplayName: La Sangre Bolt
+			LaSangreBolt2.DisplayName: La Sangre Bolt2
+			LaSangre2.DisplayName: La Sangre2
+			LaSangreExplosion.DisplayName: La Sangre Explosion
+			RollingPot.DisplayName: Rolling Pot
 		}
 
 		Configs: {
