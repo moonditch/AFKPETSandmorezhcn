@@ -2022,8 +2022,18 @@ Mods: {
 			}
 
 			Kendama: {
-				DisplayName: Success
-				Description: 增加 10% 召唤伤害
+				DisplayName: 尖刺之契
+				Description: 增加 10% 召唤伤害和 12% 鞭子攻击速度
+			}
+
+			Kendama2: {
+				DisplayName: 爱之羁绊
+				Description: 召唤伤害施加热恋，召唤物攻击时恢复玩家生命值
+			}
+
+			Kendama3: {
+				DisplayName: 二重视野
+				Description: 增加 1 召唤栏位
 			}
 
 			KizunasLightning: {
@@ -2083,7 +2093,7 @@ Mods: {
 
 			NymphTransform: {
 				DisplayName: Nymph
-				Description: 10% increased movement speed + inflict poison
+				Description: 增加 10% 移动速度并施加中毒
 			}
 
 			ObsoleekTransform: {
@@ -2093,7 +2103,7 @@ Mods: {
 
 			ParryBuff: {
 				DisplayName: Parry
-				Description: Your next attack will be stronger
+				Description: 增强你的下一次攻击
 			}
 
 			PoopBuff: {
@@ -2107,18 +2117,18 @@ Mods: {
 			}
 
 			QuickScopeCooldown: {
-				DisplayName: Quick Scope Cooldown
-				Description: You need to focus to perform it again
+				DisplayName: 速反瞄准冷却
+				Description: 你需要专注才能再次触发
 			}
 
 			QuickScopeLeft: {
-				DisplayName: Quick Scope
-				Description: Guarateed crit + 10% increased damage to right
+				DisplayName: 速反瞄准
+				Description: 必定暴击并增加 10% 右侧的伤害
 			}
 
 			QuickScopeRight: {
-				DisplayName: Quick Scope
-				Description: Guarateed crit + 10% increased damage to right
+				DisplayName: 速反瞄准
+				Description: 必定暴击并增加 10% 右侧的伤害
 			}
 
 			SacrificialAltar: {
@@ -2138,12 +2148,12 @@ Mods: {
 
 			TheLambBuff: {
 				DisplayName: Empowered
-				Description: 15% increased damage but no life regen
+				Description: 增加 15% 伤害但取消生命再生
 			}
 
 			TheLambCooldown: {
 				DisplayName: The Lamb Cooldown
-				Description: You need to rest to perform it again
+				Description: 你需要休息才能再次触发
 			}
 
 			ThornsEmpower: {
@@ -2162,8 +2172,8 @@ Mods: {
 			}
 
 			WatchTimeStop: {
-				DisplayName: Time Manipulation
-				Description: Control the flow of the time
+				DisplayName: 时间操纵
+				Description: 控制时间的流逝
 			}
 
 			EGadd: {
@@ -2234,8 +2244,8 @@ Mods: {
 				DisplayName: Mighty
 				Description:
 					'''
-					You feel you are getting stronger
-					You should stay more in wind
+					你感到自己变强了
+					你应该在风中停留更久
 					'''
 			}
 
@@ -6879,7 +6889,12 @@ Mods: {
 
 			SparklyWings: {
 				DisplayName: 闪耀之翼
-				Tooltip: 可飞行和缓慢坠落
+				Tooltip:
+					'''
+					'别让任何人遮掩你的光芒'
+					可飞行和缓慢坠落并大幅增加运气
+					手持收割农具时，赋予效率II
+					'''
 			}
 
 			SpiritualWings: {
@@ -14654,10 +14669,9 @@ Mods: {
 			}
 
 			Drogger: {
-				DisplayName: 蛙钩
+				DisplayName: 利维坦的握把
 				Tooltip:
 					'''
-					'一种优雅的生物，以鸟类和小精灵为食'
 					在水下时，钩爪的距离和速度大幅增加
 					在陆地上，由于其皮肤变干，钩爪的距离较短且速度较慢
 					'''
@@ -18544,9 +18558,9 @@ Mods: {
 				DisplayName: 丘比特之弓
 				Tooltip:
 					'''
-					空气中弥漫着爱的气息
-					将你的箭矢转化为爱心箭矢，它们会追踪那些陷入爱情迷恋的敌人
-					造成暴击时会在目标处形成一个巨大的心形爆炸
+					'空气中弥漫着爱的气息'
+					将你的箭矢转化为爱心箭矢，攻击陷入爱情迷恋的敌人时治愈玩家和城镇NPC
+					治愈时恢复的生命值可按照正常爆率暴击
 					'''
 			}
 
@@ -20287,7 +20301,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/00FFFF:辅助之魂]
-					'你-只有你能拥有其他人所没有的星辰……'
+					'你，只有你能拥有其他人所没有的星辰……'
 					使用时召唤一位星之天使来点亮你的灵魂
 					当一位星之天使在屏幕内时，玩家获得多种赐福，生命值较低时额外获得一个赐福
 					它会周期性地释放星座攻击附近的敌人
@@ -20405,7 +20419,10 @@ Mods: {
 				Tooltip:
 					'''
 					'它会教你集中注意力并培养协调能力'
-					每次使用时，它有很小的几率让球变成尖刺并赋予玩家一个增益效果
+					攻击时随机获得一种强化并自动连击
+					- 爱之羁绊: 召唤物与鞭子施加热恋，召唤物每次攻击为玩家回复1点生命
+					- 尖刺之契: 增加 10% 召唤伤害和 12% 鞭子攻击速度
+					- 二重视野: 增加 1 召唤栏位
 					'''
 			}
 
@@ -20923,6 +20940,45 @@ Mods: {
 			AncientGuardianRelic: {
 				Tooltip: ""
 				DisplayName: "{$NPCs.AncientGuardian.DisplayName}圣物"
+			}
+
+			Justitia: {
+				Tooltip:
+					'''
+					'即便最微小的罪孽，也逃不过这正义之剑的审判'
+					攻击积累救赎并造成真实伤害
+					对非Boss敌人造成5%最大生命值的额外伤害，对Boss造成0.5%
+					'''
+				DisplayName: 正义之剑
+			}
+
+			RocheLimit: {
+				Tooltip:
+					'''
+					'耐心耗尽，此刻起...吞噬万物'
+					左键突刺，右键蓄力投出
+					突刺攻击附带短暂无敌帧
+					'''
+				DisplayName: 洛希极限
+			}
+
+			SolemnLament: {
+				Tooltip:
+					'''
+					'逝者终将归于何处？'
+					攻击召唤蝴蝶，击杀时对周围敌人造成溅射伤害
+					'''
+				DisplayName: 悲恸挽歌
+			}
+
+			FleshyRib: {
+				Tooltip:
+					'''
+					'直到死亡将我们分离...对吧，亚当？'
+					以玩家攻击敌人
+					攻击施加大出血，触发所有本模组及原版的玩家被命中效果
+					'''
+				DisplayName: 血肉之肋
 			}
 		}
 
@@ -23504,6 +23560,19 @@ Mods: {
 			LaSangre2.DisplayName: La Sangre2
 			LaSangreExplosion.DisplayName: La Sangre Explosion
 			RollingPot.DisplayName: Rolling Pot
+			JustitiaSlash.DisplayName: Justitia Slash
+			JustitiaSlash2.DisplayName: Justitia Slash2
+			RocheLimit3.DisplayName: Roche Limit3
+			RocheLimit2.DisplayName: Roche Limit2
+			RocheLimit.DisplayName: Roche Limit
+			RocheLimit4.DisplayName: Roche Limit4
+			RocheLimit5.DisplayName: Roche Limit5
+			SolemnSpark.DisplayName: Solemn Spark
+			SolemnButterfly2.DisplayName: Solemn Butterfly2
+			SolemnButterfly.DisplayName: Solemn Butterfly
+			SolemnScreen.DisplayName: Solemn Screen
+			SolemnSplash.DisplayName: Solemn Splash
+			FleshyRibSlash.DisplayName: Fleshy Rib Slash
 		}
 
 		Configs: {

@@ -1,7 +1,7 @@
 [h1]This mod is a Chinese Translation Patch of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK's PETS and more(Early Alpha)[/url][/h1]
 
 [h1]介绍[/h1]
-这是重启版本的AFK拓展和宠物汉化，适配 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK拓展和宠物v9.9.9.88[/url]
+这是重启版本的AFK拓展和宠物汉化，适配 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK拓展和宠物v9.9.9.89[/url]
 
 [h1]使用方法[/h1]
 1.同时订阅AFK's PETS and more(Early Alpha)和本Mod

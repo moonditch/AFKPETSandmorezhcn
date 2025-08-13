@@ -2026,8 +2026,18 @@ Mods: {
 			}
 
 			Kendama: {
-				DisplayName: Success
-				Description: 10% increased summon damage
+				DisplayName: Spike
+				Description: +10% Summon Damage & +12% Whip Speed
+			}
+
+			Kendama2: {
+				DisplayName: Loving Bond
+				Description: Summoner inflict Lovestruck, minions heal player per hit
+			}
+
+			Kendama3: {
+				DisplayName: Double Vision
+				Description: +1 Minion
 			}
 
 			KizunasLightning: {
@@ -6876,7 +6886,12 @@ Mods: {
 
 			SparklyWings: {
 				DisplayName: Sparkly Wings
-				Tooltip: Allows flight and slow fall
+				Tooltip:
+					'''
+					'Don't let anyone dull your sparkle'
+					Allows flight and slow fall + greatly increase player luck
+					While harvester is being held increase efficiency by II
+					'''
 			}
 
 			SpiritualWings: {
@@ -14609,12 +14624,8 @@ Mods: {
 			}
 
 			Drogger: {
-				DisplayName: Drogger
-				Tooltip:
-					'''
-					'An elegant member of Salientia that fed upon birds and small harpies'
-					While under water its hook distance and speed greatly increase and due to its skin get dry it will have less distance and slower on land
-					'''
+				DisplayName: Leviathan’s Grasp
+				Tooltip: While under water its hook distance and speed greatly increase and due to its skin get dry it will have less distance and slower on land
 			}
 
 			FrostBiter: {
@@ -18491,9 +18502,9 @@ Mods: {
 				DisplayName: Cupid's Bow
 				Tooltip:
 					'''
-					It smells like love is in air
-					It will convert you arrows to heart arrows which will home to any enemy that are lovestruck
-					Crtical hits will form a giant heart
+					'Smells like love is in air'
+					Converts arrows into heart arrows that heal town npcs and other players while enemies get allergy to the love
+					Healing also has crit heal which has same percentage with hit crit
 					'''
 			}
 
@@ -20347,7 +20358,10 @@ Mods: {
 				Tooltip:
 					'''
 					'It will teach you to focus and develop coordination'
-					Upon each call it have a small chance for ball to spike and when that happen player get a slightly empowering buff
+					On spikes, gain one of three empowering buffs which max 1 can be active + autoswing;
+					- Loving Bond: Minions and Whip inflict Lovestruck, minions heal the player 1 hp per hit
+					- Spike: 10% Summon Damage, +12% Whip speed and range
+					- Double Vision: +1 Minion slot, pre summons the last minion you summoned 
 					'''
 			}
 
@@ -20754,7 +20768,7 @@ Mods: {
 				Tooltip:
 					'''
 					'You throw the sand against the wind and the wind blows it back again'
-					Empower ground slamming produce a damaging sandstorm tornado
+					Empower ground slamming produce a damaging sandstorm tornado while on ground
 					Becomes empowered in sandstorms, and grants immunity to Strong wind while being held
 					'''
 			}
@@ -20861,6 +20875,45 @@ Mods: {
 			AncientGuardianRelic: {
 				Tooltip: ""
 				DisplayName: Ancient Guardian Relic
+			}
+
+			Justitia: {
+				Tooltip:
+					'''
+					'Its scale would never neglect the weight of even the smallest sin'
+					Attacks build up salvation + deals true damage
+					Deals an extra 5% of the enemies max HP as bonus damage, 0.5% for bosses
+					'''
+				DisplayName: Justitia
+			}
+
+			RocheLimit: {
+				Tooltip:
+					'''
+					'No more patience. Instead... EVERYTHING. SHALL BE. CONSUMED.'
+					LC uses it as spear while RC use it as javelin
+					LC thrust strikes grant small window of invincibility frames
+					'''
+				DisplayName: Roche Limit
+			}
+
+			SolemnLament: {
+				Tooltip:
+					'''
+					'Where does one go when they die?'
+					Strikes with temporary butterflies + kills cause splash damage nearby enemies
+					'''
+				DisplayName: Solemn Lament
+			}
+
+			FleshyRib: {
+				Tooltip:
+					'''
+					'Now, until the moment they die! Right, Adam...'
+					Sword strikes the enemies with the player
+					Each hit inflict serious bleeding as well as activate afkpets and vanilla player on hit effects
+					'''
+				DisplayName: Fleshy Rib
 			}
 		}
 
@@ -23442,6 +23495,19 @@ Mods: {
 			LaSangre2.DisplayName: La Sangre2
 			LaSangreExplosion.DisplayName: La Sangre Explosion
 			RollingPot.DisplayName: Rolling Pot
+			JustitiaSlash.DisplayName: Justitia Slash
+			JustitiaSlash2.DisplayName: Justitia Slash2
+			RocheLimit3.DisplayName: Roche Limit3
+			RocheLimit2.DisplayName: Roche Limit2
+			RocheLimit.DisplayName: Roche Limit
+			RocheLimit4.DisplayName: Roche Limit4
+			RocheLimit5.DisplayName: Roche Limit5
+			SolemnSpark.DisplayName: Solemn Spark
+			SolemnButterfly2.DisplayName: Solemn Butterfly2
+			SolemnButterfly.DisplayName: Solemn Butterfly
+			SolemnScreen.DisplayName: Solemn Screen
+			SolemnSplash.DisplayName: Solemn Splash
+			FleshyRibSlash.DisplayName: Fleshy Rib Slash
 		}
 
 		Configs: {

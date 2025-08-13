@@ -693,6 +693,14 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				#endregion AFKPETS.Items.Accessories.Combat.BlueScarab
 
 
+				#region AFKPETS.Items.Weapons.Melee.Slashers.FleshyRib
+				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.Items.Weapons.Melee.Slashers.FleshyRib", "ModifyTooltips", new ()
+				{
+					{"-Dedicated Content-","-专属内容-"},
+				});
+				#endregion AFKPETS.Items.Weapons.Melee.Slashers.FleshyRib
+
+
 				#region AFKPETS.Items.Accessories.Combat.SecretFormula
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.Items.Accessories.Combat.SecretFormula", "ModifyTooltips", new ()
 				{
