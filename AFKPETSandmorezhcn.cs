@@ -19,7 +19,7 @@ namespace AFKPETSandmorezhcn
 	{
 		public override void OnEnterWorld()
 		{
-			Main.NewText("AFK模组更新 v9.9.9.89 ，添加新的可制作物品", Color.Orange);
+			Main.NewText("AFK模组更新 v9.9.9.90 ，添加新的可制作物品", Color.Orange);
 			//Main.NewText("汉化模组更新，汉化问题进群反馈：895423665", Color.Orange);
 		}
 	}

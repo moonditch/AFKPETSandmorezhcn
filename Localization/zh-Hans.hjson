@@ -2033,7 +2033,7 @@ Mods: {
 
 			Kendama3: {
 				DisplayName: 二重视野
-				Description: 增加 1 召唤栏位
+				Description: 增加 1 召唤栏
 			}
 
 			KizunasLightning: {
@@ -2133,7 +2133,7 @@ Mods: {
 
 			SacrificialAltar: {
 				DisplayName: 牺牲
-				Description: 所有未使用的仆从栏会增强召唤的仆从.
+				Description: 所有未使用的仆从栏会增强召唤的仆从
 			}
 
 			SoulSteal: {
@@ -3569,7 +3569,7 @@ Mods: {
 
 			CookieCharged: {
 				DisplayName: 饼干赐福
-				Description: 提高 10% 球棒和标枪的充能速度，免疫缓慢
+				Description: 提高 10% 球棒和标枪的蓄力速度，免疫缓慢
 			}
 
 			Corona: {
@@ -4823,22 +4823,22 @@ Mods: {
 			}
 
 			AlchemicalMixture: {
-				Description: Mods.AFKPETS.Buffs.AlchemicalMixture.Description
+				Description: ""
 				DisplayName: Alchemical Mixture
 			}
 
 			ManaOverload: {
-				Description: Mods.AFKPETS.Buffs.ManaOverload.Description
+				Description: ""
 				DisplayName: Mana Overload
 			}
 
 			GreedDebuff: {
-				Description: Mods.AFKPETS.Buffs.GreedDebuff.Description
+				Description: ""
 				DisplayName: Greed Debuff
 			}
 
 			ArgaliaCrush: {
-				Description: Mods.AFKPETS.Buffs.ArgaliaCrush.Description
+				Description: ""
 				DisplayName: Argalia Crush
 			}
 
@@ -4848,7 +4848,7 @@ Mods: {
 			}
 
 			RadarDebuff: {
-				Description: Mods.AFKPETS.Buffs.RadarDebuff.Description
+				Description: ""
 				DisplayName: Radar Debuff
 			}
 
@@ -4860,6 +4860,21 @@ Mods: {
 			SwordWind: {
 				DisplayName: 旋风乱舞
 				Description: 持有时提高移动能力
+			}
+
+			TwilightInferno: {
+				DisplayName: 地狱救赎
+				Description: ""
+			}
+
+			SewingTarget: {
+				DisplayName: 缝纫标记
+				Description: ""
+			}
+
+			FreezeOut2: {
+				DisplayName: 灵焰灼烧
+				Description: ""
 			}
 		}
 
@@ -5513,10 +5528,11 @@ Mods: {
 				Tooltip:
 					'''
 					'一款配备多种机制的仿生手臂复制品，显然是为了改装而重新设计的'
-					增加5%真近战伤害
 					每次真近战攻击同一个目标时，增加4%近战攻击速度，最高上限为40%
+					蓄力阔剑的蓄力速度额外提升25%
+					且每次攻击同一个目标时再增加2%蓄力速度，最高叠加至20%
 					达到最高时，真近战武器额外造成5点伤害
-					未攻击或未使用真近战武器时重置此效果
+					10秒内不攻击或未使用真近战武器时将重置增益
 					使用工具时，每秒增加2%使用速度，最高上限为20%
 					10秒内不使用工具重置增益效果
 					使用真近战武器时，挥舞一道刀光
@@ -5574,10 +5590,11 @@ Mods: {
 				Tooltip:
 					'''
 					'印象深刻，太让我印象深刻了—达斯·维达'
-					增加5%真近战伤害
-					真近战攻击同一个目标时，增加3%近战攻击速度，最高上限为30%
+					每次真近战攻击同一个目标时，增加3%近战攻击速度，最高上限为30%
+					蓄力阔剑的蓄力速度额外提升25%
+					且每次攻击同一个目标时再增加2%蓄力速度，最高叠加至20%
 					达到最高时，真近战武器额外造成5点伤害
-					未攻击或未使用真近战武器时重置此效果
+					10秒内不攻击或未使用真近战武器时将重置增益
 					'''
 			}
 
@@ -5658,7 +5675,7 @@ Mods: {
 				Tooltip:
 					'''
 					'让他们的辉煌过去守护你的未来'
-					哨兵栏≥2时，获得1个额外召唤栏并增加5%召唤伤害
+					哨兵栏≥2时，获得一个额外召唤栏并增加5%召唤伤害
 					哨兵栏≥4时，接触类型哨兵在被击中时有几率产生蓝色圣甲虫
 					哨兵栏≥6时，哨兵获得生物荧光光环
 					哨兵栏≥8时，召唤一个守护者来协助你
@@ -5701,7 +5718,7 @@ Mods: {
 				Tooltip:
 					'''
 					'就像帝国的开始，共和的结束'
-					每使用一个的召唤栏，提供20点生命值、2点防御力和10点魔力值
+					每使用一个召唤栏，提供20点生命值、2点防御力和10点魔力值
 					攻击施加迈达斯减益
 					'''
 			}
@@ -14243,6 +14260,18 @@ Mods: {
 					'''
 			}
 
+			Twilight: {
+				Tooltip:
+					'''
+					'小鸟的喙无止境地低语…'
+					造成100%近战伤害，每存在一个原版职业额外增加25%伤害，同时触发职业专属效果
+					攻击会施加地狱救赎，持续造成伤害并释放审判法球
+					地狱救赎可将非Boss敌人焚烧至虚无，造成即死效果
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
+					'''
+				DisplayName: 暮景残光
+			}
+
 			UnderworldSolution: {
 				DisplayName: 紫色溶液
 				Tooltip:
@@ -18204,12 +18233,12 @@ Mods: {
 			}
 
 			Extase: {
-				DisplayName: 恍惚
+				DisplayName: 恍惚之剪
 				Tooltip:
 					'''
 					'智者有云：吾等之命，非为创杰作，乃聚碎成真章'
-					攻击将造成重创流血并降低敌人防御10点
-					右键可以冲向光标方向，冷却时间为10秒
+					攻击施加流血并有概率使敌人体内喷涌出血液
+					玩家可能获得缝纫标记，提升受到流血敌人的接触伤害，但会使仆从攻击也施加流血效果
 					'''
 			}
 
@@ -18222,6 +18251,7 @@ Mods: {
 					暴击后强化下一次剑击，首次攻击生成吸附敌人的小型旋风
 					对地面目标的首次普通攻击会沿斩击方向引发地裂波
 					蓄力斩击提升伤害并附加减益（效果强度随剑的强化等级提升）
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -18232,6 +18262,7 @@ Mods: {
 					'由史莱姆英雄执掌的传说之剑'
 					蓄力完成后，攻击会施加诅咒焰并对敌人施加混乱，使其可能误伤同伴
 					左键发动下劈时，会从地底召唤远古英灵
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -18316,6 +18347,7 @@ Mods: {
 					'''
 					'与巨兽同寿的传说之剑'
 					伤害与攻击特效随蓄力阶段变化
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20422,7 +20454,7 @@ Mods: {
 					攻击时随机获得一种强化并自动连击
 					- 爱之羁绊: 召唤物与鞭子施加热恋，召唤物每次攻击为玩家回复1点生命
 					- 尖刺之契: 增加 10% 召唤伤害和 12% 鞭子攻击速度
-					- 二重视野: 增加 1 召唤栏位
+					- 二重视野: 增加 1 召唤栏
 					'''
 			}
 
@@ -20747,6 +20779,7 @@ Mods: {
 					[c/ADD8E6:右键蓄力]: 火炬将会灼烧你的敌人，每次命中都将增加8点真实持续伤害，同时诅咒敌人降低其2%的伤害减免
 					满蓄力攻击会使敌人着火并向四周释放火花
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以直接投掷满蓄力的火炬，无需等待蓄力完成
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20760,6 +20793,7 @@ Mods: {
 					[c/ADD8E6:右键蓄力]: 蓄力投出的标枪会施加严重出血，并增加6点真实持续伤害
 					满蓄力攻击会留下毒芹粉尘，命中会增强敌人恐惧感并稍微恢复玩家生命值
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的标枪
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20773,6 +20807,7 @@ Mods: {
 					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键投掷]: 命中时产生闪电，并浸泡在水中时变得更加强大
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的三叉戟
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20785,6 +20820,7 @@ Mods: {
 					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键蓄力]: 蓄力后扔出长矛对敌人施加沸腾之血，释放猩红光环
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待蓄力完毕，可以直接投掷满蓄力的长矛
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20835,6 +20871,7 @@ Mods: {
 					'扬沙逆风，风必还之'
 					蓄力砸地攻击并产生沙暴龙卷风
 					在沙尘暴环境中提升伤害，手持时免疫强风
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 			}
 
@@ -20948,6 +20985,7 @@ Mods: {
 					'即便最微小的罪孽，也逃不过这正义之剑的审判'
 					攻击积累救赎并造成真实伤害
 					对非Boss敌人造成5%最大生命值的额外伤害，对Boss造成0.5%
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
 					'''
 				DisplayName: 正义之剑
 			}
@@ -20979,6 +21017,31 @@ Mods: {
 					攻击施加大出血，触发所有本模组及原版的玩家被命中效果
 					'''
 				DisplayName: 血肉之肋
+			}
+
+			Raven: {
+				Tooltip: ""
+				DisplayName: 乌鸦
+			}
+
+			Decadenza: {
+				Tooltip:
+					'''
+					'在你主宰的游戏中，我将重设战场规则'
+					左键挥剑斩击，右键召剑引渡狼魂
+					攻击施加惊骇和地狱黯炎
+					'''
+				DisplayName: 颓华
+			}
+
+			MiserableMessenger: {
+				Tooltip:
+					'''
+					'但什么才是未经扭曲的自由意志？'
+					攻击可能锁链敌人的灵魂并施加灵焰灼烧
+					近战暴击会使下一次攻击转化为3倍伤害的回旋斩，并释放灵魂之花
+					'''
+				DisplayName: 悲恸信使
 			}
 		}
 
@@ -23573,6 +23636,20 @@ Mods: {
 			SolemnScreen.DisplayName: Solemn Screen
 			SolemnSplash.DisplayName: Solemn Splash
 			FleshyRibSlash.DisplayName: Fleshy Rib Slash
+			TwilightSlash.DisplayName: Twilight Slash
+			TwilightSpark.DisplayName: Twilight Spark
+			TwilightStrike.DisplayName: Twilight Strike
+			TwilightFireball.DisplayName: Twilight Fireball
+			ExtaseSlash2.DisplayName: Extase Slash2
+			DecadenzaWolf.DisplayName: Decadenza Wolf
+			DecadenzaSlash.DisplayName: Decadenza Slash
+			DecadenzaWolf2.DisplayName: Decadenza Wolf2
+			DecadenzaSlash2.DisplayName: Decadenza Slash2
+			DecadenzaSlash3.DisplayName: Decadenza Slash3
+			MiserableMessengerSlash.DisplayName: Miserable Messenger Slash
+			MiserableMessengerSlash2.DisplayName: Miserable Messenger Slash2
+			MiserableFlower.DisplayName: Miserable Flower
+			MiserableLaser.DisplayName: Miserable Laser
 		}
 
 		Configs: {

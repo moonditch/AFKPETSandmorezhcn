@@ -4865,6 +4865,21 @@ Mods: {
 				DisplayName: Tornado Slash
 				Description: Held item grant mobility
 			}
+
+			TwilightInferno: {
+				DisplayName: Twilight Inferno
+				Description: Mods.AFKPETS.Buffs.TwilightInferno.Description
+			}
+
+			SewingTarget: {
+				DisplayName: Sewing Target
+				Description: Mods.AFKPETS.Buffs.SewingTarget.Description
+			}
+
+			FreezeOut2: {
+				DisplayName: Freeze Out2
+				Description: Mods.AFKPETS.Buffs.FreezeOut2.Description
+			}
 		}
 
 		Items: {
@@ -5517,10 +5532,11 @@ Mods: {
 				Tooltip:
 					'''
 					'A replica of a human arm fitted with a variety of mechanisms, apparently designed with modification in mind'
-					True melee damage increase by 5%
 					Each time you hit to same target true melee speed increase 4% up to 40% max
-					Not hitting or not holding true melee weapon will reset this
-					At max stack true melee hits do additional 5 true damage
+					Slammer melee weapons charge 25% faster additionally hitting same target increase charge speed					
+					Each hit provide 2% up to 20% max
+					At max stack true melee strikes do additional 5 true damage
+					Being peaceful for 10 seconds or not holding true melee reset the stack
 					Using a tool increase its speed by 2% each second up to 20%
 					Not using a tool for 10 seconds reset the buff
 					When swinging true melee weapon it does a large slash before
@@ -5577,10 +5593,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Impressive... Most impressive...'
-					True melee damage increase by 5%
-					Each time you hit to same target true melee speed increase 3% up to 30% max
-					At max stack true melee hits do additional 5 true damage
-					Not hitting for 10 seconds or not holding true melee weapon will reset this
+					Hitting to same target true melee speed increase 3% up to 30% max
+					Slammer melee weapons charge 25% faster additionally hitting same target increase charge speed
+					Each hit provide 2% up to 20% max
+					At max stack true melee strikes do additional 5 true damage
+					Being peaceful for 10 seconds or not holding true melee reset the stack
 					'''
 			}
 
@@ -14197,6 +14214,18 @@ Mods: {
 					'''
 			}
 
+			Twilight: {
+				Tooltip:
+					'''
+					'And the Small Bird’s beak whispered, endlessly…'
+					Deals 100% melee damage + 25% additional damage for each vanilla class along with activating class specific effects
+					Strikes inflict infernal salvation which greatly damage them + release judgement spheres
+					Infernal salvation may burn nonboss entities into nothingness and instakill them
+					If item is favourited allows autouse accessories to release weapon when its fully charged
+					'''
+				DisplayName: Twilight
+			}
+
 			UnderworldSolution: {
 				DisplayName: Violet Solution
 				Tooltip:
@@ -18154,8 +18183,8 @@ Mods: {
 				Tooltip:
 					'''
 					'As a wiseman once said, our job is not to create masterpieces, but instead, piece together a master'
-					'Attacks will inflict serious bleeding and decrease enemy defense by 10'
-					With RC player could dash to its mouse direction with 10 seconds cooldown
+					Attacks inflict bleeding and may cause blood to gush out from enemy
+					May player get sewing target which increase contact damage from bleeding enemies but cause minions to inflict bleeding
 					'''
 			}
 
@@ -18168,6 +18197,7 @@ Mods: {
 					Upon crit next sword get empowered and its first strike generate a tiny tornado that suck enemies in
 					Normal first strike against grounded target shoot rumbles in strike direction
 					Charging sword increase its damage + grant debuff (buff gets stronger according to sword empower status)
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -18178,6 +18208,7 @@ Mods: {
 					'The legendary sword wielded by the great slime hero'
 					Upon full charge generates a slash that inflicts cursed inferno + strikes inflict a debuff that cause enemies to have friendly fire
 					LC dives with sword that release ancient spirits from below which has cooldown
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -18261,6 +18292,7 @@ Mods: {
 					'''
 					'Legendary sword that is as old as the beast itself'
 					According to charge level weapons damage level and strike effect changes
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20685,6 +20717,7 @@ Mods: {
 					According to speed the strength of fire debuff is determined
 					RC allow throwing to charge one of four different horsemen themed javelin that each come with its own ability
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20698,6 +20731,7 @@ Mods: {
 					RC allow charge throw an angon that increase DoT by 6 + inflict heavy bleeding
 					Full charge throw leave colchicum dust + hits fuel fear & slightly heal player
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20710,6 +20744,7 @@ Mods: {
 					According to speed either inflict poison or rot + strike kill enemy with rot debuff leave a poisonous explosive husk
 					RC allow throwing the trident that call lightning + get stronger while submerged with water
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20720,6 +20755,7 @@ Mods: {
 					'A fine red mist'
 					Charge throws infict boiling blood, fear along with form damaging area
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20770,6 +20806,7 @@ Mods: {
 					'You throw the sand against the wind and the wind blows it back again'
 					Empower ground slamming produce a damaging sandstorm tornado while on ground
 					Becomes empowered in sandstorms, and grants immunity to Strong wind while being held
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 			}
 
@@ -20883,6 +20920,7 @@ Mods: {
 					'Its scale would never neglect the weight of even the smallest sin'
 					Attacks build up salvation + deals true damage
 					Deals an extra 5% of the enemies max HP as bonus damage, 0.5% for bosses
+					If item is favourited allows autouse accessories to release weapon when its fully charged
 					'''
 				DisplayName: Justitia
 			}
@@ -20914,6 +20952,31 @@ Mods: {
 					Each hit inflict serious bleeding as well as activate afkpets and vanilla player on hit effects
 					'''
 				DisplayName: Fleshy Rib
+			}
+
+			Raven: {
+				Tooltip: ""
+				DisplayName: Raven
+			}
+
+			Decadenza: {
+				Tooltip:
+					'''
+					'In your own game you made the rules but I will set the stage'
+					LC slash the sword, RC raise the sword that calls the rogue wolf spirits
+					Hits inflict horror and dark inferno
+					'''
+				DisplayName: Decadenza
+			}
+
+			MiserableMessenger: {
+				Tooltip:
+					'''
+					'But what is undistorted free will?'
+					Strikes may chain enemies soul + apply spirit burn
+					Close crits cause next attack to be x3 damage spin strike that release spiritual flowers
+					'''
+				DisplayName: Miserable Messenger
 			}
 		}
 
@@ -23508,6 +23571,20 @@ Mods: {
 			SolemnScreen.DisplayName: Solemn Screen
 			SolemnSplash.DisplayName: Solemn Splash
 			FleshyRibSlash.DisplayName: Fleshy Rib Slash
+			TwilightSlash.DisplayName: Twilight Slash
+			TwilightSpark.DisplayName: Twilight Spark
+			TwilightStrike.DisplayName: Twilight Strike
+			TwilightFireball.DisplayName: Twilight Fireball
+			ExtaseSlash2.DisplayName: Extase Slash2
+			DecadenzaWolf.DisplayName: Decadenza Wolf
+			DecadenzaSlash.DisplayName: Decadenza Slash
+			DecadenzaWolf2.DisplayName: Decadenza Wolf2
+			DecadenzaSlash2.DisplayName: Decadenza Slash2
+			DecadenzaSlash3.DisplayName: Decadenza Slash3
+			MiserableMessengerSlash.DisplayName: Miserable Messenger Slash
+			MiserableMessengerSlash2.DisplayName: Miserable Messenger Slash2
+			MiserableFlower.DisplayName: Miserable Flower
+			MiserableLaser.DisplayName: Miserable Laser
 		}
 
 		Configs: {
