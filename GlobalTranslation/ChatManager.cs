@@ -68,8 +68,8 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			#region NPC离开
 			//设计师
 			{" return back to her home", "回到了她家"},
-			//艺术家
-			{" return back to her kingdom", "回到了她的王国"},
+			/*艺术家
+			{" return back to her kingdom", "回到了她的王国"},*/
 			//流浪武士
 			{" return back to her clan", "回到了他的氏族"},
 			//赏金猎人

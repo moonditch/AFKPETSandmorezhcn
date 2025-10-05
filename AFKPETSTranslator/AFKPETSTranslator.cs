@@ -131,7 +131,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				#endregion AFKPETS.NPCs.TravellingNPCs.Designer
 
 
-				#region AFKPETS.NPCs.TravellingNPCs.Elitist
+				/*#region AFKPETS.NPCs.TravellingNPCs.Elitist
 				TranslatorLoad.LocalizeByTypeFullName("AFKPETS.NPCs.TravellingNPCs.Elitist", "SetChatButtons", new ()
 				{
 					{"Art Shop","艺术商店"},
@@ -141,7 +141,7 @@ namespace AFKPETSandmorezhcn.AFKPETSTranslator
 				{
 					{"Art Shop","艺术商店"},
 				});
-				#endregion AFKPETS.NPCs.TravellingNPCs.Elitist
+				#endregion AFKPETS.NPCs.TravellingNPCs.Elitist*/
 
 
 				#region AFKPETS.NPCs.TravellingNPCs.WanderingSamurai

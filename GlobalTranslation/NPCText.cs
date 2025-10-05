@@ -895,7 +895,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			if (npc.type == ModContent.NPCType<Elitist>())
+			/*if (npc.type == ModContent.NPCType<Elitist>())
 			{
 				if (Pirate >= 0 && chat == "Don't tell me you are keeping " + Main.npc[Pirate].GivenName + " inside of your town. " + Main.npc[Pirate].GivenName + "will attack you in the first opportunity as they did to my kingdom. I never expect our royal guards will be beaten by such low tier raiders.")
 					chat = "别告诉我你把海盗留在了你们镇子里。海盗一旦有机会，就会像攻击我的王国一样攻击你们。我从没想到我们的皇家守卫会被这种低级的劫掠者打败。";
@@ -927,7 +927,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					break;
 					
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<WanderingSamurai>())
 			{
@@ -962,7 +962,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 		}
-		
+
 		public override void OnChatButtonClicked(NPC npc, bool firstButton)
 		{
 			/*if (npc.type == ModContent.NPCType<Assassin>())
@@ -997,10 +997,10 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				ReplaceChatText(Designer, ref Main.npcChatText);
 			}
-			else if (npc.type == ModContent.NPCType<Elitist>())
+			/*else if (npc.type == ModContent.NPCType<Elitist>())
 			{
 				ReplaceChatText(Elitist, ref Main.npcChatText);
-			}
+			}*/
 		}
 
 		public static void ReplaceChatText(Dictionary<string, string> replacementDict, ref string chatText)
@@ -1373,7 +1373,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"非常感谢你的好意，但现在我不需要更多的药了。"
 			}
 		};
-		public static readonly Dictionary<string, string> Elitist = new ()
+		/*public static readonly Dictionary<string, string> Elitist = new ()
 		{
 			{
 				"Thank you hero. You don't know the shame it cause my kingdom to not even be able to keep antiques that have such importance. So please keep this. Its designed by a well known artist which have her master in psychoanalysis. She also mention he couldn't find any unfortunate innocent soul for last touch but I'm uncertain what she meant by that.",
@@ -1383,6 +1383,6 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"Centuries ago in both royal pavilion and other pavilions owned by wealthy families that use golden furniture to show their status and these are designed by experts but after the kingdom wage war against slimes and divine children kingdoms military weakened and the kingdom become open to raid. So the pirates have seen this opportunity and first attack to dock and then raided the kingdom. They still own these and if you bring them to me I can exchange them with rare functional statues.",
 				"几个世纪前，在皇家亭台以及富有家庭所拥有的其他亭台中，都使用着由专家设计的金色家具来彰显他们的地位。但是，自从王国与史莱姆和神之子王国开战以来，军事力量逐渐削弱，王国变得容易遭受袭击。海盗们看到了这个机会，先是袭击了码头，然后洗劫了整个王国。他们至今仍拥有这些金色家具，如果你能把它们带给我，我可以用罕见的彩蛋来交换。"
 			}
-		};
+		};*/
 	}
 }

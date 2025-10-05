@@ -549,21 +549,6 @@ Mods: {
 				}
 			}
 
-			Elitist: {
-				DisplayName: Elitist
-
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
-			}
-
 			WanderingSamurai: {
 				DisplayName: Wandering Samurai
 
@@ -1936,8 +1921,8 @@ Mods: {
 			}
 
 			FallenSoul: {
-				DisplayName: Fallen Souls
-				Description: You feel you are being protected by many
+				DisplayName: Essence Decay
+				Description: Mouse burn enemies soul away
 			}
 
 			FireBreath: {
@@ -4873,12 +4858,22 @@ Mods: {
 
 			SewingTarget: {
 				DisplayName: Sewing Target
-				Description: Mods.AFKPETS.Buffs.SewingTarget.Description
+				Description: Bloody Art
 			}
 
 			FreezeOut2: {
 				DisplayName: Freeze Out2
 				Description: Mods.AFKPETS.Buffs.FreezeOut2.Description
+			}
+
+			TerraInferno: {
+				Description: Mods.AFKPETS.Buffs.TerraInferno.Description
+				DisplayName: Terra Inferno
+			}
+
+			FallenMonkBuff: {
+				Description: Death Awaits...
+				DisplayName: Remembrance of the Forgotten
 			}
 		}
 
@@ -5083,14 +5078,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Empire wants them death'
-					While there are any active boss player gain 4% damage, crit, movement speed and 4 defense
+					While there are any active boss/rare enemy player gain 4% damage, crit, movement speed and 4 defense
 					In hardmode the stat increase doubles
 					'''
-			}
-
-			DeceitfulFaith: {
-				DisplayName: Deceitful Faith
-				Tooltip: Every 12th hit will cause a classless black inferno that will deal half of the hits damage
 			}
 
 			AthenasFortress: {
@@ -5105,12 +5095,12 @@ Mods: {
 					'''
 			}
 
-			BeeSmoker: {
-				DisplayName: Bee Smoker
+			Smoker: {
+				DisplayName: Smoker
 				Tooltip:
 					'''
-					'A little device for calming little friends'
-					Until their queen is being awakened the small bees are friendly + hornets do 10% less damage
+					'Poor little ones'
+					RC allow pouch dust selection LC allow player to smoke the dust
 					'''
 			}
 
@@ -5126,12 +5116,12 @@ Mods: {
 					'''
 			}
 
-			ChippedGlacier: {
+			ChippedGlacier2: {
 				DisplayName: Chipped Glacier
 				Tooltip:
 					'''
 					'Poor glacier, it has no chance against the global warming'
-					Gives immunity to frostburn and enemies that do contact damage will get frostburn buff for 5 second
+					Counts as infinite snowball source + converts snowballs into frostburn inflict icicles
 					'''
 			}
 
@@ -5369,15 +5359,6 @@ Mods: {
 				Tooltip: Detects the objects on the hook
 			}
 
-			ForgottenBoulder: {
-				DisplayName: Mad Boulder
-				Tooltip:
-					'''
-					Being invincible makes boulders fall from the sky
-					The boulders does not care what is on their path
-					'''
-			}
-
 			HeartofEvil: {
 				DisplayName: Fiendish Heart
 				Tooltip:
@@ -5409,7 +5390,7 @@ Mods: {
 					'''
 					'There is nothing wrong with having tree as a friend'
 					While equipped player will have 60% chance to not consume paint
-					Painter and elitist will become stronger
+					Painter and designer will become stronger
 					'''
 			}
 
@@ -5729,7 +5710,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Great for impersonating rad guys!'
-					'It was once formed by ancient warlord Mendeleev to guide it's followers when they need her help'
+					'A silent gift of the Ancient One to guide it's followers'
 					Upon equipped it will summon a follower that will attack close enemies and guide your path
 					After lunatic cultist have been defeated it will empower with fallen foes essense and also call additional sigil to protect you
 					Both of the followers will become enraged as players life decrease
@@ -6461,31 +6442,6 @@ Mods: {
 					'''
 			}
 
-			PinkHeart: {
-				DisplayName: Soul of fear
-				Tooltip:
-					'''
-					It was once formed from an innocent vessel, genocidal soul and forbidden magic
-					'Enemies have a chance to drop souls which will amplifiy your damage and survival stats'
-					'When you eat enough, your Rhapdophobia will activate'
-					'You are immune to being distorted and jumpscared and you are being immune to orange and blue attacks'
-					'''
-			}
-
-			RuneofIngwaz: {
-				DisplayName: Rune of Ingwas
-				Tooltip:
-					'''
-					Their begining in this universe is filled with the ashes of their fallen home
-					After the common lose of what they care the enemies become friends for one simple goal
-					And they believe one day [c/FF0000:she] will collect all of the pieces together as how it's in before
-					When you take death blow it will save you with 10% of your life and it have a cooldown of 5 minutes
-					'Also If your damage is higher than enemies remaining life it will be added to your next attack'
-					'The next attack have damage cap of twice damage of the original attack'
-
-					'''
-			}
-
 			SnowflakeNecklace: {
 				DisplayName: Feather Necklace
 				Tooltip:
@@ -6501,6 +6457,12 @@ Mods: {
 				Tooltip:
 					'''
 					'It will do no good to fight with hate in your heart'
+					Empowers both constellation stars and other stars that are being formed by player
+					Reveals the secret third ability of tarot cards
+					Upon equipped player can activate 2 tarot instead of 1
+					Activating tarot major ability while constellation are active them aim to closest enemy + they stay longer
+					Using tarot activate previous tarots major ability + potion drink give previous used potions effect
+					Upon player take fatal damage if any tarot card is active this card chains the tarot card and negates the damage
 					Increases length of invincibility after taking damage
 					Activation of tarot major ability additionally apply following:
 					- Generate a seal that increase damage by 8% + attacker take double damage back + damage near enemies
@@ -6535,8 +6497,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I see see the future future future...'
-					When tarot major is being used it will activate previous tarots major used effects
-					When potion is being used it will also give previous used potion effects
+					Using tarot activate previous tarots major ability + potion drink give previous used potions effect
 					'''
 			}
 
@@ -6557,8 +6518,9 @@ Mods: {
 					Empowers both constellation stars and other stars that are being formed by player
 					Reveals the secret third ability of tarot cards
 					Upon equipped player can activate 2 tarot instead of 1
-					Activating tarot major ability before the constellation stars disappear will make the constellation stars aim to closest enemy
-					While this has been equipped any constellation stars appear after will stay longer
+					Activating tarot major ability while constellation are active them aim to closest enemy + they stay longer
+					Using tarot activate previous tarots major ability + potion drink give previous used potions effect
+					Upon player take fatal damage if any tarot card is active this card chains the tarot card and negates the damage
 					'''
 			}
 
@@ -7727,11 +7689,11 @@ Mods: {
 			}
 
 			FallenSoulContainer: {
-				DisplayName: Fallen Soul Container
+				DisplayName: Container of Burnt Dreams
 				Tooltip:
 					'''
-					Being close to it will give a buff so that it will spawn fallen souls which have 30 base damage
-					These will with respect to players maximum minion slot and they will not take minion slot but when player take damage they instead attack player
+					'Spirit away'
+					Right click to let your mouse burn your enemies soul
 					'''
 			}
 
@@ -7740,7 +7702,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Metal, metal, metal... Let's do this Texas style!
-					'Right click to have more sentries
+					Right click to have more sentries
 					'''
 			}
 
@@ -7749,7 +7711,7 @@ Mods: {
 				Tooltip:
 					'''
 					The alive will rise on the shoulders of the fallen
-					RC to the tile will make player gain 10hp and 20% minion damage per unused minion slot
+					Right click to provide 10hp and 20% minion damage per unused minion slot
 					'''
 			}
 
@@ -10760,7 +10722,7 @@ Mods: {
 			}
 
 			SigilofCirno: {
-				DisplayName: Sigil of Cirno
+				DisplayName: Hidden Snowflake in Four Seasons
 				Tooltip:
 					'''
 					'A tribute belong to lord of all bakas'
@@ -12872,8 +12834,8 @@ Mods: {
 			}
 
 			FallingSlimeReplica: {
-				DisplayName: Falling Slime Replica
-				Tooltip: "'A piece of someone...'"
+				DisplayName: Slimy Pager
+				Tooltip: "'An old device utilized by lone wolves of slime nation'"
 			}
 
 			FrozenSkull: {
@@ -14737,20 +14699,17 @@ Mods: {
 			}
 
 			BookofAncientKnowledge: {
-				DisplayName: Book of Ancient Knowledge
+				DisplayName: Charm of Deceitful Knowledge
 				Tooltip:
 					'''
-					'It was once formed by ancient warlord Mendeleev to share her knowledge with her librarians.'
-					'Using this item will search the adjusted word in the adjested wiki
-					''For adjusting word use '/searchwiki [Thing to Search]'
-					''For adjusting wiki use '/adjustwiki [Key word]'
-					''van = terraria vanilla wiki, cal = calamity wiki, eni = enigma wiki, far = fargo wiki, tho = thorium wiki,'
-					'gre = grealm wiki , soa = sacredtools wiki, spi = spirit mod wiki, ea = elements awoken wiki, termod = terraria mods wiki.gg'
-					'For example: firs writing '/searchwiki Mechanic' to chat then writing '/adjustwiki van' to chat
-					'and then using the item will open terraria wiki mechanic page in your web browser'
-					'If the word you search couldn't found it will put it to search page and show you the results
-					'It's adjusted vanilla terraria wiki as default and player need to adjust wiki only they want to search in different wiki.
-					'It will remember the adjusted wiki and word until player adjusts them with command.
+					'A library pass awarded to those whom are found worthy by the ancient one'
+					Allows search in associated wiki if internet connection exist, and item use opens associated wiki page or search results
+					Remember lastly adjusted settings + default is vanilla wiki
+					Adjust Word: '/searchwiki [Thing to Search]', adjust wiki: '/adjustwiki [Key word]'
+					van = terraria vanilla wiki, cal = calamity wiki, eni = enigma wiki, far = fargo wiki, tho = thorium wiki,
+					gre = grealm wiki , soa = sacredtools wiki, spi = spirit mod wiki, ea = elements awoken wiki, termod = terraria mods wiki.gg
+					Example: Writing following to chat result opening terraria wiki mechanic page;
+					- '/searchwiki Mechanic' + '/adjustwiki van'
 					'''
 			}
 
@@ -20643,6 +20602,18 @@ Mods: {
 				DisplayName: Kapital's Blessing
 			}
 
+			OldMansHataru: {
+				Tooltip:
+					'''
+					''
+					''
+					holding a harverster increase harvesting + defensive stats
+					Provides a faint light + allow collection of vine
+					Also work on vanity slot with weaker defensive stats increase
+					'''
+				DisplayName: Hotaru Barrette
+			}
+
 			ProfessorsCoat: {
 				DisplayName: Professor's Coat
 				Tooltip: If you want to find the secrets of the universe, think in terms of energy, frequency and vibration
@@ -20717,7 +20688,7 @@ Mods: {
 					According to speed the strength of fire debuff is determined
 					RC allow throwing to charge one of four different horsemen themed javelin that each come with its own ability
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					If item is favourited allows autouse accessories to release weapon when its fully charged
+					When favourited autouse accessories grant ability to charge throw automatically, otherwise require release for throwing
 					'''
 			}
 
@@ -20731,7 +20702,7 @@ Mods: {
 					RC allow charge throw an angon that increase DoT by 6 + inflict heavy bleeding
 					Full charge throw leave colchicum dust + hits fuel fear & slightly heal player
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					If item is favourited allows autouse accessories to release weapon when its fully charged
+					When favourited autouse accessories grant ability to charge throw automatically, otherwise require release for throwing
 					'''
 			}
 
@@ -20744,7 +20715,7 @@ Mods: {
 					According to speed either inflict poison or rot + strike kill enemy with rot debuff leave a poisonous explosive husk
 					RC allow throwing the trident that call lightning + get stronger while submerged with water
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					If item is favourited allows autouse accessories to release weapon when its fully charged
+					When favourited autouse accessories grant ability to charge throw automatically, otherwise require release for throwing
 					'''
 			}
 
@@ -20755,7 +20726,7 @@ Mods: {
 					'A fine red mist'
 					Charge throws infict boiling blood, fear along with form damaging area
 					If rogue config is active and calamity is enabled in stealth you throw fully charged instead of waiting for charge
-					If item is favourited allows autouse accessories to release weapon when its fully charged
+					When favourited autouse accessories grant ability to charge throw automatically, otherwise require release for throwing
 					'''
 			}
 
@@ -20948,8 +20919,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Now, until the moment they die! Right, Adam...'
-					Sword strikes the enemies with the player
+					Sword strikes the enemies with the player as well as may release flesh
 					Each hit inflict serious bleeding as well as activate afkpets and vanilla player on hit effects
+					Item scale effect empower the flesh
 					'''
 				DisplayName: Fleshy Rib
 			}
@@ -20977,6 +20949,171 @@ Mods: {
 					Close crits cause next attack to be x3 damage spin strike that release spiritual flowers
 					'''
 				DisplayName: Miserable Messenger
+			}
+
+			Snowspitter: {
+				Tooltip:
+					'''
+					'Frozen truths, straight to their face'
+					While pressing RC or LC periodically shoot snowball to mouse direction
+					Snowball has 12 base damage and do held items damage type with damage bonus
+					This happen only when mouse direction is on the same side with player direction
+					'''
+				DisplayName: Snowspitter
+			}
+
+			TechS: {
+				Tooltip:
+					'''
+					'The phase is familiar but I don't remember the gain'
+					While pressing RC or LC periodically shoot laser to mouse direction
+					lasers inflict debuff according to their respective color + do held items damage type with bonus
+					This happen only when mouse direction is on the same side with player direction
+					'''
+				DisplayName: Tech S
+			}
+
+			WidowsThread: {
+				Tooltip:
+					'''
+					'And your tragedy begins'
+					Main yoyo string damage enemy + inflict venom for short time
+					Only one special thread could be equipped
+					'''
+				DisplayName: Widow's Thread
+			}
+
+			BarbedFilament: {
+				Tooltip:
+					'''
+					'It's time to spin my web'
+					Main yoyo string damage enemy + may inflict bleeding for short time
+					Only one special thread could be equipped
+					'''
+				DisplayName: Barbed Filament
+			}
+
+			Stormreel: {
+				Tooltip:
+					'''
+					'Let the performance begin'
+					Main yoyo string damage enemy + get additional damage according to enemy speed
+					According to enemy speed cause enemy to get statical charge or release it
+					Only one special thread could be equipped
+					'''
+				DisplayName: Stormreel
+			}
+
+			TrapCard: {
+				DisplayName: Trap Card
+				Tooltip:
+					'''
+					'You activated my trap card...'
+					Upon player take fatal damage if any tarot card is active this card chains the tarot card and negates the damage
+					'''
+			}
+
+			EastosMight: {
+				DisplayName: Eastos' Protection
+				Tooltip:
+					'''
+					'Guardian Treasure'
+					Upon player take fatal damage if any tarot card is active this card chains the tarot card and negates the damage
+					Using tarot activate previous tarots major ability + potion drink give previous used potions effect
+					Upon equipped player can activate 2 tarot instead of 1
+					'''
+			}
+
+			YoyoStick: {
+				Tooltip:
+					'''
+					'Also known as sky bamboo'
+					Provide AFKPets and vanilla yoyos either new ability or ability tweaks
+					'''
+				DisplayName: Yoyo Stick
+			}
+
+			PocketBattery: {
+				Tooltip:
+					'''
+					'Dead battery? At least free of charge'
+					Upon yoyo max lifetime reached yoyo release sparks and return back and strike faster
+					Sparks do 150% of yoyo base damage
+					'''
+				DisplayName: Pocket Battery
+			}
+
+			BabyOuroboros: {
+				Tooltip:
+					'''
+					'It's full of itself'
+					Yoyos get infinite lifetime
+					'''
+				DisplayName: Baby Ouroboros
+			}
+
+			Databus: {
+				Tooltip:
+					'''
+					'Don't forget the low pin count'
+					Main yoyo string damage enemy + Summons a damaging slasher carry data between yoyo and player
+					Upon yoyo max lifetime reached yoyo release sparks and return back and strike faster
+					'''
+				DisplayName: Databus
+			}
+
+			Runebinder: {
+				Tooltip:
+					'''
+					''
+					Yoyo sting freeze nonboss enemies + binds curses in cycle
+					Enemy kills with the sting releases stars that home to close enemies + may drop soul heart which heals slightly
+					Provide AFKPets and vanilla yoyos either new ability or ability tweaks
+					'''
+				DisplayName: Runebinder
+			}
+
+			DuelistPants: {
+				Tooltip:
+					'''
+					'Sometimes The End Of One Adventure Is Just The Beginning Of Another'
+					Increased movement speed + grants extra jump while any tarot is active
+					'''
+				DisplayName: Duelist Pants
+			}
+
+			DuelistHair: {
+				Tooltip:
+					'''
+					'Heart Of The Cards, Guide Me!'
+					Increase number of sentries by 1
+					'''
+				DisplayName: Duelist Hair
+			}
+
+			DuelistCloth: {
+				Tooltip:
+					'''
+					'Stand Up. A Champion Shouldn't Be On His Knees'
+					Tarot cooldown fades away 33% faster
+					'''
+				DisplayName: Duelist Cloth
+			}
+
+			FallenMonkSkull: {
+				Tooltip: ""
+				DisplayName: Fallen Monk Skull
+			}
+
+			FallenMonksNecklace: {
+				Tooltip:
+					'''
+					'Fight with all your strength to surpass my imagination!'
+					Grants raven wings which release feathers while flying
+					Feather hits inflict fear + dark inferno + may summon red skull
+					Each red skull taken grant a fading max minion/sentry/life regen increasing buff
+					'''
+				DisplayName: Skull Bead Necklace
 			}
 		}
 
@@ -23585,6 +23722,11 @@ Mods: {
 			MiserableMessengerSlash2.DisplayName: Miserable Messenger Slash2
 			MiserableFlower.DisplayName: Miserable Flower
 			MiserableLaser.DisplayName: Miserable Laser
+			DesignerDagger.DisplayName: Designer Dagger
+			TechSBeam.DisplayName: Tech S Beam
+			TechSSpark.DisplayName: Tech S Spark
+			WantedPosterShadow.DisplayName: Wanted Poster Shadow
+			DatabusSlasher.DisplayName: Databus Slasher
 		}
 
 		Configs: {

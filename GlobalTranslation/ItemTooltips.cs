@@ -42,7 +42,9 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				//上海套装效果
 				sb.Replace("Taking heart while having full hp spawn dolls that attack close enemies\nIf player have ability to flight they also gain that ability",
 							"满血状态获得心时，生成攻击敌人的玩偶\n玩偶会复制玩家的攻击手段");
-				
+				//决斗者套装效果
+				sb.Replace("Increase max amount of active tarot cards by 1",
+							"增加一张可激活塔罗牌的数量");
 				//点金石
 				sb.Replace("It could be placed on philospher's table by RC on its tile while holding this item", "手持点金石右键放在转化工作台上");
 				//卫星数据收集器

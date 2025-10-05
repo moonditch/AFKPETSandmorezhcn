@@ -549,21 +549,6 @@ Mods: {
 				}
 			}
 
-			Elitist: {
-				DisplayName: 艺术家
-
-				TownNPCMood: {
-					Content: 我很满足.
-					NoHome: 我讨厌没有家.
-					FarFromHome: 我离家太远了.
-					LoveSpace: 我喜欢有这么大的空间.
-					DislikeCrowded: 我不喜欢这么拥挤.
-					HateCrowded: 我讨厌这里这么拥挤.
-					LikeNPC_Princess: 我喜欢{NPCName}.
-					Princess_LovesNPC: 我喜欢{NPCName}.
-				}
-			}
-
 			WanderingSamurai: {
 				DisplayName: 流浪武士
 
@@ -1917,13 +1902,13 @@ Mods: {
 			}
 
 			EmpoweredRanged: {
-				DisplayName: Empowered
-				Description: 50% increased ranged speed for next shoot
+				DisplayName: 强化
+				Description: 增加 50% 下一次远程攻击的速度
 			}
 
 			EmpowerMelee: {
-				DisplayName: Empowered
-				Description: 15% increased true melee speed for next hit
+				DisplayName: 强化
+				Description: 增加 15% 下一次真近战攻击的速度
 			}
 
 			EvilDryadTransform: {
@@ -1932,8 +1917,8 @@ Mods: {
 			}
 
 			FallenSoul: {
-				DisplayName: 英灵容器
-				Description: 你觉得你被很多人保护着
+				DisplayName: 腐败冥火
+				Description: 灼烧敌人的灵魂
 			}
 
 			FireBreath: {
@@ -4869,12 +4854,22 @@ Mods: {
 
 			SewingTarget: {
 				DisplayName: 缝纫标记
-				Description: ""
+				Description: 血的艺术
 			}
 
 			FreezeOut2: {
 				DisplayName: 灵焰灼烧
 				Description: ""
+			}
+
+			TerraInferno: {
+				Description: ""
+				DisplayName: Terra Inferno
+			}
+
+			FallenMonkBuff: {
+				Description: 死亡在等待...
+				DisplayName: 逝去的残念
 			}
 		}
 
@@ -5079,14 +5074,9 @@ Mods: {
 				Tooltip:
 					'''
 					'帝国想要他们死'
-					只要有任何活跃的Boss，增加4%伤害、暴击率、移动速度和4点防御
+					只要有任何活跃的Boss或稀有敌人，增加4%伤害、暴击率、移动速度和4点防御
 					困难模式下，属性加成会翻倍
 					'''
-			}
-
-			DeceitfulFaith: {
-				DisplayName: 欺诈信仰
-				Tooltip: 每12次攻击将引发一次无伤害类别的黑色狱火，造成攻击一半的伤害
 			}
 
 			AthenasFortress: {
@@ -5101,12 +5091,12 @@ Mods: {
 					'''
 			}
 
-			BeeSmoker: {
-				DisplayName: 蜜蜂烟熏器
+			Smoker: {
+				DisplayName: 熏烟器
 				Tooltip:
 					'''
-					'一种用于安抚小伙伴的装置'
-					直到它们的蜂后被唤醒，小蜜蜂都是友好的，并且减少10%黄蜂造成的伤害
+					'可怜的小家伙们'
+					右键开启花粉选择菜单，左键让角色吸食所选花粉
 					'''
 			}
 
@@ -5122,12 +5112,12 @@ Mods: {
 					'''
 			}
 
-			ChippedGlacier: {
+			ChippedGlacier2: {
 				DisplayName: 破碎冰川精华
 				Tooltip:
 					'''
 					'可怜的冰川，它无法抵挡全球变暖'
-					免疫霜冻，受到接触伤害时对视野范围内的敌人施加5秒霜冻
+					无限雪球弹药，将雪球转化为施加霜火的冰柱
 					'''
 			}
 
@@ -5365,15 +5355,6 @@ Mods: {
 				Tooltip: 检测鱼钩上的物体
 			}
 
-			ForgottenBoulder: {
-				DisplayName: 疯狂巨石
-				Tooltip:
-					'''
-					'巨石不在乎路上有什么'
-					触发无敌效果时召唤巨石从天而降
-					'''
-			}
-
 			HeartofEvil: {
 				DisplayName: 奥库瑞姆之心
 				Tooltip:
@@ -5405,7 +5386,7 @@ Mods: {
 					'''
 					'与树做朋友并无不妥'
 					装备后有60%的几率不消耗颜料
-					油漆工和艺术家会变得更强
+					油漆工和设计师会变得更强
 					'''
 			}
 
@@ -5728,7 +5709,7 @@ Mods: {
 				Tooltip:
 					'''
 					'非常适合模仿酷炫的家伙！'
-					'由亘古领主铸造，指引需要她帮助的追随者'
+					'亘古领主赐予追随者的无声指引'
 					装备后召唤智慧之眼，攻击附近的敌人并指引你前进
 					击败拜月邪教徒后，吸收堕落敌人精髓的力量，召唤额外的智慧符文
 					当玩家的生命值下降时，智慧之眼和符文会短暂狂暴
@@ -6462,30 +6443,6 @@ Mods: {
 					'''
 			}
 
-			PinkHeart: {
-				DisplayName: 恐惧之魂（出自：UTAU：glitchtale）
-				Tooltip:
-					'''
-					'它曾由一个无辜的容器、种族灭绝的灵魂和禁忌的魔法铸造而成'
-					敌人有几率掉落增加伤害和生存属性的灵魂
-					收集足够多的灵魂后，将触发狂惧症
-					免疫扭曲和惊吓，免疫橙色和蓝色攻击
-					'''
-			}
-
-			RuneofIngwaz: {
-				DisplayName: 英格瓦斯的符文
-				Tooltip:
-					'''
-					'他们在这个宇宙的开端充满了堕落家园的灰烬
-					在失去了他们的所爱之后，敌人们为了一个简单的目标而联合起来
-					他们相信有一天[c/FF0000:她]会把所有的碎片像以前一样拼凑在一起'
-					当你受到致命一击时，它会救下你并恢复 10% 的生命值，此能力有 5 分钟的冷却时间
-					如果你的伤害高于敌人剩余的生命值，多余的伤害会被你的下一次攻击继承
-					下一次攻击的伤害上限为原始攻击的两倍
-					'''
-			}
-
 			SnowflakeNecklace: {
 				DisplayName: 羽毛项链
 				Tooltip:
@@ -6501,6 +6458,12 @@ Mods: {
 				Tooltip:
 					'''
 					'你心中的恨意对战斗不会有帮助'
+					同时强化已激活的星座与玩家正在构筑的星座
+					揭示塔罗牌的第三个秘密能力
+					装备后，可以激活2个塔罗牌能力
+					在塔罗牌的星座消失之前触发主动能力，自动锁定最近敌人并延长存续时间
+					使用塔罗牌主动能力时，触发前一张塔罗牌的主动能力，使用药水时赋予之前使用的药水的效果
+					受到致命伤害时，若存在活跃的塔罗牌，连锁激发其力量抵消此次伤害
 					受伤后增加无敌持续时间
 					激活塔罗牌的主动能力后：
 					- 玩家周围会出现一个符阵
@@ -6538,8 +6501,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我看到了未来的未来未来……'
-					使用塔罗牌主动能力时，它将重新激活之前使用的塔罗牌的主动能力
-					使用药水时，它也会赋予之前使用的药水的效果
+					使用塔罗牌主动能力时，触发前一张塔罗牌的主动能力，使用药水时赋予之前使用的药水的效果
 					'''
 			}
 
@@ -6553,15 +6515,16 @@ Mods: {
 			}
 
 			MilleniumCloak: {
-				DisplayName: 千年斗篷（出自：游戏王）
+				DisplayName: 千禧斗篷（出自：游戏王）
 				Tooltip:
 					'''
 					'如果有决心，就有希望'
 					赋予玩家塔罗牌的星座力量
 					揭示塔罗牌的第三个秘密能力
 					装备后，可以激活2个塔罗牌能力
-					在塔罗牌的星座消失之前触发主动能力，将使星座攻击最近的敌人
-					装备此物品时，使用塔罗牌后出现的星座将持续更长时间
+					在塔罗牌的星座消失之前触发主动能力，自动锁定最近敌人并延长存续时间
+					使用塔罗牌主动能力时，触发前一张塔罗牌的主动能力，使用药水时赋予之前使用的药水的效果
+					受到致命伤害时，若存在活跃的塔罗牌，连锁激发其力量抵消此次伤害				
 					'''
 			}
 
@@ -7731,11 +7694,11 @@ Mods: {
 			}
 
 			FallenSoulContainer: {
-				DisplayName: 英灵容器
+				DisplayName: 焚梦之匣
 				Tooltip:
 					'''
-					靠近时赐予增益，召唤拥有30点基础伤害的英灵
-					与最大仆从上限有关（占位符，不知道是bug还是多模组的原因以后测试），但不会占用仆从栏，受到伤害时会攻击玩家
+					'魂飞魄散'
+					右键光标灼烧敌人的灵魂
 					'''
 			}
 
@@ -7744,7 +7707,7 @@ Mods: {
 				Tooltip:
 					'''
 					'金属，金属，金属……让我们以德克萨斯州的方式来完成！'
-					<right>可拥有更多哨兵
+					右键可拥有更多哨兵
 					'''
 			}
 
@@ -7753,7 +7716,7 @@ Mods: {
 				Tooltip:
 					'''
 					'活着的人将站在倒下的人的肩膀上'
-					右键获得10生命值和每有未使用的仆从栏都会加强20%伤害
+					右键获得10生命值，每有未使用的仆从栏都会加强20%伤害
 					'''
 			}
 
@@ -10768,10 +10731,10 @@ Mods: {
 			}
 
 			SigilofCirno: {
-				DisplayName: 琪露诺之符（出自:车万）
+				DisplayName: 四季藏雪（出自:车万）
 				Tooltip:
 					'''
-					'这是属于笨蛋的符文'
+					'这是属于笨蛋的霜晶秘纹'
 					召唤徽章来照亮你的道路
 					'''
 			}
@@ -12896,12 +12859,8 @@ Mods: {
 			}
 
 			FallingSlimeReplica: {
-				DisplayName: 堕落的粘液复制品
-				Tooltip:
-					'''
-					'某人的一部分……'
-					召唤英勇史莱姆
-					'''
+				DisplayName: 黏液传呼机
+				Tooltip: 史莱姆王国独行侠们使用的老旧设备
 			}
 
 			FrozenSkull: {
@@ -14790,7 +14749,7 @@ Mods: {
 				Tooltip:
 					'''
 					[c/FF1CAE:来自汉化的测试结果：汉化可能无法使用这个命令，一是很多维基国内打不开，二是很多维基没有中文]
-					'由亘古领主 Mendeleev 铸造，向追随她的学者分享知识'
+					'由亘古领主授予资质契合之人的图书馆通行证'
 					使用此条目将在调整后的wiki中搜索调整后的词语
 					调整词语使用'/searchwiki[要搜索的东西]
 					调整维基使用”/adjustwiki[关键词]
@@ -20704,6 +20663,16 @@ Mods: {
 				DisplayName: Kapital的祝福
 			}
 
+			OldMansHataru: {
+				Tooltip:
+					'''
+					手持农具时提升采集效率与防御力
+					散发微光并允许收集藤蔓
+					置于时装栏时仍生效但防御加成减弱
+					'''
+				DisplayName: 萤火发夹
+			}
+
 			ProfessorsCoat: {
 				DisplayName: 教授的外套
 				Tooltip: 如果你想揭开宇宙的秘密，就要从能量、频率和振动的角度去思考
@@ -20779,7 +20748,7 @@ Mods: {
 					[c/ADD8E6:右键蓄力]: 火炬将会灼烧你的敌人，每次命中都将增加8点真实持续伤害，同时诅咒敌人降低其2%的伤害减免
 					满蓄力攻击会使敌人着火并向四周释放火花
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下你可以直接投掷满蓄力的火炬，无需等待蓄力完成
-					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动蓄力并投出
 					'''
 			}
 
@@ -20793,7 +20762,7 @@ Mods: {
 					[c/ADD8E6:右键蓄力]: 蓄力投出的标枪会施加严重出血，并增加6点真实持续伤害
 					满蓄力攻击会留下毒芹粉尘，命中会增强敌人恐惧感并稍微恢复玩家生命值
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的标枪
-					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动蓄力并投出
 					'''
 			}
 
@@ -20807,7 +20776,7 @@ Mods: {
 					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键投掷]: 命中时产生闪电，并浸泡在水中时变得更加强大
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下无需等待充能完成即可直接投掷满蓄力的三叉戟
-					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动蓄力并投出
 					'''
 			}
 
@@ -20820,7 +20789,7 @@ Mods: {
 					手持该武器时，玩家将获得防御者增益，增加 5% 伤害减免并免疫击退
 					[c/ADD8E6:右键蓄力]: 蓄力后扔出长矛对敌人施加沸腾之血，释放猩红光环
 					如果在设置中启用了盗贼转化选项，且已启用灾厄模组，在潜行状态下玩家无需等待蓄力完毕，可以直接投掷满蓄力的长矛
-					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动使用武器
+					若物品被收藏，蓄力完成后仿生嵌入手臂及其上位饰品将自动蓄力并投出
 					'''
 			}
 
@@ -21013,8 +20982,9 @@ Mods: {
 				Tooltip:
 					'''
 					'直到死亡将我们分离...对吧，亚当？'
-					以玩家攻击敌人
+					以玩家攻击敌人并有可能释放血肉
 					攻击施加大出血，触发所有本模组及原版的玩家被命中效果
+					物品大小加成血肉的伤害
 					'''
 				DisplayName: 血肉之肋
 			}
@@ -21042,6 +21012,170 @@ Mods: {
 					近战暴击会使下一次攻击转化为3倍伤害的回旋斩，并释放灵魂之花
 					'''
 				DisplayName: 悲恸信使
+			}
+
+			Snowspitter: {
+				Tooltip:
+					'''
+					'将冰封的真相直掷他们脸上'
+					按住左键或右键时朝光标方向发射雪球
+					雪球基础伤害12点，继承手持武器的伤害类型与加成
+					仅当光标方向与玩家朝向一致时生效
+					'''
+				DisplayName: 寒霜喷射器
+			}
+
+			TechS: {
+				Tooltip:
+					'''
+					'相位似曾相识，却记不起增益几何'
+					按住左键或右键时朝光标方向发射激光
+					激光根据颜色施加不同减益，继承手持武器的伤害类型与加成
+					仅当光标方向与玩家朝向一致时生效
+					'''
+				DisplayName: 科技光束S
+			}
+
+			WidowsThread: {
+				Tooltip:
+					'''
+					'你的悲剧就此开幕'
+					悠悠球主线对敌人造成伤害，并施加酸性毒液
+					仅可装备一种特殊悠悠球线
+					'''
+				DisplayName: 寡妇的丝线
+			}
+
+			BarbedFilament: {
+				Tooltip:
+					'''
+					'是时候编织我的网了'
+					悠悠球主线对敌人造成伤害，并施加流血
+					仅可装备一种特殊悠悠球线
+					'''
+				DisplayName: 倒刺丝线
+			}
+
+			Stormreel: {
+				Tooltip:
+					'''
+					'让演出开始吧'
+					悠悠球主线对敌人造成伤害，并根据敌人的速度造成额外伤害
+					根据敌人的速度叠加静电或放电
+					仅可装备一种特殊悠悠球线
+					'''
+				DisplayName: 风暴线轴
+			}
+
+			TrapCard: {
+				DisplayName: 陷阱卡
+				Tooltip:
+					'''
+					'你发动了我的陷阱卡...'
+					受到致命伤害时，若存在活跃的塔罗牌，连锁激发其力量抵消此次伤害
+					'''
+			}
+
+			EastosMight: {
+				DisplayName: 伊斯特斯的加护
+				Tooltip:
+					'''
+					'守护者的秘宝'
+					受到致命伤害时，若存在活跃的塔罗牌，连锁激发其力量抵消此次伤害
+					使用塔罗牌主动能力时，触发前一张塔罗牌的主动能力，使用药水时赋予之前使用的药水的效果
+					装备后，可以激活2个塔罗牌能力
+					'''
+			}
+
+			YoyoStick: {
+				Tooltip:
+					'''
+					'亦称天穹竹'
+					为本模组与原版悠悠球提供新的能力或效果
+					'''
+				DisplayName: 悠悠球棍
+			}
+
+			PocketBattery: {
+				Tooltip:
+					'''
+					'废电池？至少免费'
+					悠悠球达到最大存续时间时迸发火花
+					火花造成150%悠悠球基础伤害
+					'''
+				DisplayName: 袖珍电池
+			}
+
+			BabyOuroboros: {
+				Tooltip:
+					'''
+					'它自成轮回'
+					悠悠球获得无限存续时间
+					'''
+				DisplayName: 幼年衔尾蛇
+			}
+
+			Databus: {
+				Tooltip:
+					'''
+					'别忘了低引脚数'
+					悠悠球主线对敌人造成伤害，并在球与玩家间召唤数据斩击敌人
+					达到最大存续时间时迸发火花
+					'''
+				DisplayName: 数据总线
+			}
+
+			Runebinder: {
+				Tooltip:
+					'''
+					悠悠球主线冻结非Boss敌人，循环施加诅咒
+					主线击杀敌人时释放追踪附近敌人的星星，并有几率掉落恢复生命值的灵魂之心
+					为本模组与原版悠悠球提供新的能力或效果
+					'''
+				DisplayName: 符文缚者
+			}
+
+			DuelistPants: {
+				Tooltip:
+					'''
+					'有时冒险的结束正是新传说的开端'
+					提升移动速度，塔罗牌激活时获得额外跳跃能力
+					'''
+				DisplayName: 决斗者护腿
+			}
+
+			DuelistHair: {
+				Tooltip:
+					'''
+					'卡片之心，为我指引道路！'
+					哨兵容量+1
+					'''
+				DisplayName: 决斗者发饰
+			}
+
+			DuelistCloth: {
+				Tooltip:
+					'''
+					'站起来，冠军不该屈膝'
+					塔罗牌冷却速度提升33%
+					'''
+				DisplayName: 决斗者战袍
+			}
+
+			FallenMonkSkull: {
+				Tooltip: ""
+				DisplayName: 陨落僧侣颅骨
+			}
+
+			FallenMonksNecklace: {
+				Tooltip:
+					'''
+					'竭尽全力超越我的想象吧！'
+					获得鸦羽翅膀，飞行时散落羽毛
+					羽毛攻击施加恐惧与地狱黯炎，有几率召唤红骷髅
+					每吸收一个红骷髅获得逐渐减少的召唤、哨兵、生命回复增益
+					'''
+				DisplayName: 骷髅念珠
 			}
 		}
 
@@ -23650,6 +23784,11 @@ Mods: {
 			MiserableMessengerSlash2.DisplayName: Miserable Messenger Slash2
 			MiserableFlower.DisplayName: Miserable Flower
 			MiserableLaser.DisplayName: Miserable Laser
+			DesignerDagger.DisplayName: Designer Dagger
+			TechSBeam.DisplayName: Tech S Beam
+			TechSSpark.DisplayName: Tech S Spark
+			WantedPosterShadow.DisplayName: Wanted Poster Shadow
+			DatabusSlasher.DisplayName: Databus Slasher
 		}
 
 		Configs: {
