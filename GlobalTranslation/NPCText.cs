@@ -862,7 +862,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			if (npc.type == ModContent.NPCType<Designer>())
+			/*if (npc.type == ModContent.NPCType<Designer>())
 			{
 				if (Pirate >= 0 && chat == "Please do not believe what " + Main.npc[Pirate].GivenName + " says. He used to tell me he will show me far lands but now you can see the result. I was being tortured and used as a slave.")
 					chat = "请不要相信海盗说的话。他以前告诉我他会带我去远方的陆地，但现在你可以看到结果。我被折磨并被当作奴隶。";
@@ -895,7 +895,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			/*if (npc.type == ModContent.NPCType<Elitist>())
+			if (npc.type == ModContent.NPCType<Elitist>())
 			{
 				if (Pirate >= 0 && chat == "Don't tell me you are keeping " + Main.npc[Pirate].GivenName + " inside of your town. " + Main.npc[Pirate].GivenName + "will attack you in the first opportunity as they did to my kingdom. I never expect our royal guards will be beaten by such low tier raiders.")
 					chat = "别告诉我你把海盗留在了你们镇子里。海盗一旦有机会，就会像攻击我的王国一样攻击你们。我从没想到我们的皇家守卫会被这种低级的劫掠者打败。";
@@ -993,11 +993,11 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			{
 				ReplaceChatText(BountyHunter, ref Main.npcChatText);
 			}
-			else if (npc.type == ModContent.NPCType<Designer>())
+			/*else if (npc.type == ModContent.NPCType<Designer>())
 			{
 				ReplaceChatText(Designer, ref Main.npcChatText);
 			}
-			/*else if (npc.type == ModContent.NPCType<Elitist>())
+			else if (npc.type == ModContent.NPCType<Elitist>())
 			{
 				ReplaceChatText(Elitist, ref Main.npcChatText);
 			}*/
@@ -1338,7 +1338,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"你好，伙伴。我通常不会提出这样的要求，但王国里有些孩子眼睛有问题。由于他们的父母负担不起治疗费用，我觉得如果我能给他们带些眼镜回来会更好。但由于我不会飞，而且我现在也不能用我的光环来治疗眼睛了，所以你能打败那些怪物，并给我带 2 个晶状体回来吗？谢谢。"
 			}
 		};
-		public static readonly Dictionary<string, string> Designer = new ()
+		/*public static readonly Dictionary<string, string> Designer = new ()
 		{
 			{
 				"Do you ask why I look sad. Seeing that pirate make me remember some memories. Once I have a beautiful snowflake necklace that have been passed from generations and my mother give it as a gift but after they kidnap me he beat me down and take it. If he still have it could you bring it back to me?",
@@ -1373,7 +1373,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"非常感谢你的好意，但现在我不需要更多的药了。"
 			}
 		};
-		/*public static readonly Dictionary<string, string> Elitist = new ()
+		public static readonly Dictionary<string, string> Elitist = new ()
 		{
 			{
 				"Thank you hero. You don't know the shame it cause my kingdom to not even be able to keep antiques that have such importance. So please keep this. Its designed by a well known artist which have her master in psychoanalysis. She also mention he couldn't find any unfortunate innocent soul for last touch but I'm uncertain what she meant by that.",

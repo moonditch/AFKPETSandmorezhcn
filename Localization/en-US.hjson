@@ -568,12 +568,7 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: Undead Chef
-
-				BossChecklistIntegration: {
-					EntryName: Tier1 Dungeon Miniboss
-					SpawnInfo: It have a low chance to spawn in dungeon with respect to world evil. They could also summon with their respective summon item. After their defeat summon item of both of them can be bought from dark huntress.
-					DespawnMessage: Dungeon take down the threat
-				}
+				BossChecklistIntegration.EntryName: Tier1 Dungeon Miniboss
 			}
 
 			OnDemandScanner.DisplayName: On Demand Scanner
@@ -807,6 +802,7 @@ Mods: {
 			AntlionStatue.MapEntry: Antlion Statue
 			AntonyMantle.MapEntry: Antony Mantle
 			DivineResonator2.MapEntry: Divine Resonator2
+			Printer.MapEntry: Printer
 		}
 
 		Keybinds: {
@@ -1039,11 +1035,6 @@ Mods: {
 			BlessedBrokenWashingMachine: {
 				DisplayName: Broken Washing Machine the Holy Avenger
 				Description: It will protect Terraria enthusiasts for it's master
-			}
-
-			BlessedBrokenWashingMachineCooldown: {
-				DisplayName: Broken Broken Washing Machine
-				Description: It need to rest to gather its power
 			}
 
 			BlessedSoul: {
@@ -1341,8 +1332,8 @@ Mods: {
 			}
 
 			Crimera: {
-				DisplayName: Crimera
-				Description: Crimera will follow you
+				DisplayName: Baby Crimera
+				Description: Baby crimera will follow you
 			}
 
 			CrimsonSong: {
@@ -1403,11 +1394,6 @@ Mods: {
 			Darkai: {
 				DisplayName: Darkrai
 				Description: Darkrai will follow you
-			}
-
-			DarkLamia: {
-				DisplayName: Lamia
-				Description: "'You feel safe until she gets hungry'"
 			}
 
 			DarkMagician: {
@@ -2663,7 +2649,7 @@ Mods: {
 
 			Kaga: {
 				DisplayName: Kaga
-				Description: There are many things I wish to say, but when I see your face, I can't recall them well�
+				Description: There are many things I wish to say, but when I see your face, I can't recall them well 
 			}
 
 			Kagerou: {
@@ -2812,8 +2798,8 @@ Mods: {
 			}
 
 			LightLamia: {
-				DisplayName: Lamia
-				Description: "'You feel safe until she gets hungry'"
+				DisplayName: Baby Lamia
+				Description: Looking for mommy
 			}
 
 			Lightning: {
@@ -2852,8 +2838,8 @@ Mods: {
 			}
 
 			LittleSnake: {
-				DisplayName: Little Snake
-				Description: It seems happy.
+				DisplayName: Lil Snek
+				Description: Happily no one can step on it
 			}
 
 			Lloid: {
@@ -2867,8 +2853,8 @@ Mods: {
 			}
 
 			LostGirl: {
-				DisplayName: Lost Girl
-				Description: "'She wants her flower back"
+				DisplayName: Baby Lost Girl
+				Description: Found girl
 			}
 
 			Lucina: {
@@ -2882,8 +2868,8 @@ Mods: {
 			}
 
 			LunaticCultist: {
-				DisplayName: Lunatic Cultist
-				Description: It will follow you
+				DisplayName: Tiny Red Lunatic
+				Description: Ready for the Moth Race(TM)
 			}
 
 			LyricaPrismriver: {
@@ -3892,8 +3878,8 @@ Mods: {
 			}
 
 			Scarecrow: {
-				DisplayName: Scarecrow
-				Description: "'It seems happy"
+				DisplayName: Garden Pals
+				Description: His name is misleading
 			}
 
 			SCP173: {
@@ -4032,7 +4018,7 @@ Mods: {
 			}
 
 			Skeletron2: {
-				DisplayName: Evil Skeleton
+				DisplayName: Baby Skeleton
 				Description: Threat Level: Skeletal Destroyer
 			}
 
@@ -4064,11 +4050,6 @@ Mods: {
 			Slimer: {
 				DisplayName: Slimer
 				Description: Slimer will follow you
-			}
-
-			SlimeWatcher: {
-				DisplayName: Slimy Watcher
-				Description: It's still watching and orbitting you
 			}
 
 			SlipperySign: {
@@ -4874,6 +4855,21 @@ Mods: {
 			FallenMonkBuff: {
 				Description: Death Awaits...
 				DisplayName: Remembrance of the Forgotten
+			}
+
+			LeafyWoodsprite: {
+				Description: Smells like forest
+				DisplayName: Leafy Woodsprite
+			}
+
+			IceBatRed: {
+				Description: Mods.AFKPETS.Buffs.IceBatRed.Description
+				DisplayName: Ice Bat Red
+			}
+
+			IceBatBlue: {
+				Description: Mods.AFKPETS.Buffs.IceBatBlue.Description
+				DisplayName: Ice Bat Blue
 			}
 		}
 
@@ -9101,7 +9097,11 @@ Mods: {
 
 			AncientBoneKey: {
 				DisplayName: Ancient Bone Key
-				Tooltip: "'Summons an Ancient Baby Skeletron Head'"
+				Tooltip:
+					'''
+					Summons foreign baby skeletron head
+					Could be shimmered
+					'''
 			}
 
 			AncientCheese: {
@@ -9477,11 +9477,7 @@ Mods: {
 
 			Brain: {
 				DisplayName: Brain
-				Tooltip:
-					'''
-					'Summons a pet zombie'
-					It summons a zombie to follow you
-					'''
+				Tooltip: Summons a pet zombie
 			}
 
 			BrokenHammer: {
@@ -9496,25 +9492,26 @@ Mods: {
 
 			BrokenHeart: {
 				DisplayName: Broken Heart
-				Tooltip: "'Summons a pet cupid'"
+				Tooltip: Summons a pet cupid
 			}
 
 			BrokenWashingMachine: {
-				DisplayName: Broken Washing Machine
+				DisplayName: Frigid Stave
 				Tooltip:
 					'''
-					'It vibrates with the power of the ancient warlord'
-					It summons the washing machine to follow you
+					'The Journey Begins'
+					Summons a washing machine to follow you
+					Could be shimmered
 					'''
 			}
 
 			BrokenWashingMachinewithHat: {
-				DisplayName: Blessed Broken Washing Machine
+				DisplayName: Ancient Aegis
 				Tooltip:
 					'''
-					'It seems like the other items are in it's inventory.'
-					'It become craftable after the one proven itself'
-					It summons washing machine, the holy avenger to follow you
+					'Fabled shield of the great terrarian king'
+					Summons a washing machine, the holy avenger to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -9618,11 +9615,11 @@ Mods: {
 			}
 
 			ChefsSpiritualEnergy: {
-				DisplayName: Chef's Spiritual Energy
+				DisplayName: Barbeque Safety Match
 				Tooltip:
 					'''
 					'You feel it's missing its kitchen'
-					It summons chefs spiritual energy
+					Burns your soul with the chef's passion
 					'''
 			}
 
@@ -10072,11 +10069,12 @@ Mods: {
 			}
 
 			EvilSkull: {
-				DisplayName: Evil Skull
+				DisplayName: Haunted Axe
 				Tooltip:
 					'''
-					'I hope it don't try to attack you'
-					It summons the evil skeleton to follow you
+					'Seeks head'
+					Summons a baby skeleton to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -10093,8 +10091,8 @@ Mods: {
 				DisplayName: Explosive Jam
 				Tooltip:
 					'''
-					'Someone's favourite.'
-					It summons creeper to follow you
+					'Someone's favourite'
+					Summons creeper to follow you
 					'''
 			}
 
@@ -10103,16 +10101,18 @@ Mods: {
 				Tooltip:
 					'''
 					'It looks like the eye is waiting someone'
-					It summons an eye roll to follow you
+					Summons an eyeroll to follow you
+					Could be shimmered
 					'''
 			}
 
 			FabuRune: {
-				DisplayName: Rune of Uruz
+				DisplayName: Elder Mark
 				Tooltip:
 					'''
-					'It was once form by the strength of the ancient warlord'
-					It summons tiny Fabu to follow you
+					'Protected?'
+					Summons tiny Fabu to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -10144,11 +10144,12 @@ Mods: {
 			}
 
 			FleshMeal: {
-				DisplayName: Flesh Meat
+				DisplayName: Brain's Flesh
 				Tooltip:
 					'''
-					'It looks rotten.'
-					It summons Crimera to follow you
+					'Wanna see my O face? It's universal'
+					It summons baby crimera to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -10219,11 +10220,11 @@ Mods: {
 			}
 
 			FrozenMouse: {
-				DisplayName: Frozen Mouse
+				DisplayName: Serpentfang Stave
 				Tooltip:
 					'''
-					'How it's not melting?'
-					It summons an little snake to follow you
+					'Remember, do not step on snek'
+					Summons a lil snek to follow you
 					'''
 			}
 
@@ -10409,12 +10410,8 @@ Mods: {
 			}
 
 			Gyroid: {
-				DisplayName: Suspicious Looking Gyroid
-				Tooltip:
-					'''
-					'It both looks like alive and tile'
-					It summons Lloid to follow you
-					'''
+				DisplayName: Brewster's Walking Cane
+				Tooltip: Summons Lloid to follow you
 			}
 
 			HallowedMoney: {
@@ -10622,16 +10619,18 @@ Mods: {
 				Tooltip:
 					'''
 					'A small but sleek remote'
-					'Summons a Mini-SATLA-001 to observe your actions'
+					Summons a Mini-SATLA-001 to observe your actions
+					Could be shimmered
 					'''
 			}
 
 			JarofVoid: {
-				DisplayName: Jar of Void
+				DisplayName: The Ancient Eye
 				Tooltip:
 					'''
-					'You feel it's formed by a strong soul'
-					It summons tiny Rozu to follow you
+					'Protected?'
+					Summons tiny Rozu to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -10891,11 +10890,12 @@ Mods: {
 			}
 
 			MechaKey: {
-				DisplayName: Mechanical Key
+				DisplayName: Recovery Key
 				Tooltip:
 					'''
-					'It reminds me of something frightening.'
-					It summons a baby skeletron prime to follow you
+					'Mecha spo0k'
+					Summons baby skeletron prime to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -11055,8 +11055,12 @@ Mods: {
 			}
 
 			Okiku: {
-				DisplayName: Okiku Doll
-				Tooltip: "'It looks cursed'"
+				DisplayName: Ancient Butcher's Knife
+				Tooltip:
+					'''
+					'Still contain her blood'
+					Summons tiny okiku to haunt you
+					'''
 			}
 
 			OldGlasses: {
@@ -11112,11 +11116,11 @@ Mods: {
 			}
 
 			OrganicEye: {
-				DisplayName: Biological enhanced cybernetic eye
+				DisplayName: Intelli-lens
 				Tooltip:
 					'''
 					'It may be useful against someone since this never blinks'
-					It summons SCP 173 to follow you
+					Summons baby SCP 173 to follow you
 					'''
 			}
 
@@ -11205,24 +11209,12 @@ Mods: {
 			}
 
 			OxytocinVenomVial: {
-				DisplayName: Neurotoxin Vial
+				DisplayName: Neurotoxin Bloom
 				Tooltip:
 					'''
-					'A venom once developed by lamias to nullify their preys'
-					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
-					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					It summons a light lamia to follow you
-					'''
-			}
-
-			OxytocinVenomVial2: {
-				DisplayName: Neurotoxin Vial
-				Tooltip:
-					'''
-					'A venom once developed by lamias to nullify their preys'
-					It seems it causes it's prey to produce Oxytocin hormone which will form a fake bond
-					It seems it also blocks certain brain parts which slowly cause organ loss and a painful death'
-					It summons a dark lamia to follow you
+					'You call it love, but they call it venom'
+					Summons a baby lamia to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -11523,20 +11515,21 @@ Mods: {
 			}
 
 			PortableMysteriousTablet: {
-				DisplayName: Portable Mysterious Tablet
+				DisplayName: Ritual Dagger
 				Tooltip:
 					'''
-					'It looks fragile'
-					It summons a lunatic cultist to follow you
+					'Seeks the moon...'
+					Summons tiny red lunatic to follow you
+					Could be shimmered
 					'''
 			}
 
 			Powercell: {
-				DisplayName: Ancient energy stabilizer core
+				DisplayName: Scarab Friendship Bracelet
 				Tooltip:
 					'''
-					'Once this core made for enlight the cult'
-					It summons a blue scarab to follow you
+					'Friends till the end'
+					Summons a blue scarab to follow you
 					'''
 			}
 
@@ -11544,8 +11537,9 @@ Mods: {
 				DisplayName: Prototype Universal Locator
 				Tooltip:
 					'''
-					'Calls forth one of the oldest SATLA models ever created by scientist'
-					'altough battleworn through testing'
+					'Altough battleworn through testing'
+					Calls forth the oldest SATLA model to observe you
+					Could be shimmered
 					'''
 			}
 
@@ -11661,11 +11655,11 @@ Mods: {
 			}
 
 			ScarecrowHead: {
-				DisplayName: Scarecrow Head
+				DisplayName: Gardener's Knife
 				Tooltip:
 					'''
-					'Maybe putting it back to its body will make it happy'
-					It summons a scarecrow to follow you
+					'Best for pruning plants as well as carving pumpkins'
+					Summons the garden pals to follow you
 					'''
 			}
 
@@ -11728,8 +11722,9 @@ Mods: {
 				DisplayName: Shadow Prism
 				Tooltip:
 					'''
-					'It was forged by an ancient warlord'
-					It summons a tiny mudkip warrior to follow you
+					'Protected?'
+					Summons a tiny mudkip warrior to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -11796,21 +11791,11 @@ Mods: {
 			}
 
 			SkullwithWire: {
-				DisplayName: Ancient skull
+				DisplayName: Mechanical Skull?
 				Tooltip:
 					'''
-					'It looks dangerous and ancient'
-					It summons baby Oblivion to follow you
-					'''
-			}
-
-			SlimeWatcher: {
-				DisplayName: Slimy Watcher
-				Tooltip:
-					'''
-					'It's still watching'
-					It summons a slimy watcher to follow you
-					[c/ffff00:Fun mode exclusive item]
+					'Also try Necro Mod'
+					Summons baby Oblivion to follow you
 					'''
 			}
 
@@ -11845,8 +11830,9 @@ Mods: {
 				DisplayName: Strange Flower
 				Tooltip:
 					'''
-					'It smells like good old memories'
-					It summons a lost girl to follow you
+					'Smells like good old memories'
+					Summons a babby girl to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -12317,17 +12303,9 @@ Mods: {
 				DisplayName: Tiny Blue Plane
 				Tooltip:
 					'''
-					'They will fight for Sakura Empire'
-					It summons Kaga to follow you
-					'''
-			}
-
-			TinyCrown: {
-				DisplayName: Tiny Crown
-				Tooltip:
-					'''
-					'You feel you should give it to its owner'
-					It summons crow prince to follow you
+					'For Sakura Empire'
+					Summons Kaga to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -12341,11 +12319,12 @@ Mods: {
 			}
 
 			TinyPowerCore: {
-				DisplayName: Tiny Power Core
+				DisplayName: Golem Power Cell
 				Tooltip:
 					'''
-					'It looks tiny but still it may be enough for something'
-					It summons a tiny golem to follow you
+					'You wonder which side is positive'
+					Summons a tiny golem to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -12353,8 +12332,9 @@ Mods: {
 				DisplayName: Tiny Red Plane
 				Tooltip:
 					'''
-					'They will fight for Sakura Empire'
-					It summons Akagi to follow you
+					'For Sakura Empire'
+					Summons Akagi to follow you
+					Could be shimmered
 					'''
 			}
 
@@ -12446,11 +12426,11 @@ Mods: {
 			}
 
 			UNOwenWasher: {
-				DisplayName: U. N. Owen Washer
+				DisplayName: Royal Dagger?
 				Tooltip:
 					'''
-					'It haven't been used by 495 years'
-					It summons the U. N. Owen Washer to follow you
+					'After the kings fall, darkened with the greed of the first emperor'
+					Summons the U. N. Owen Washer to follow you
 					'''
 			}
 
@@ -13142,17 +13122,17 @@ Mods: {
 			}
 
 			AquaPainting: {
-				DisplayName: Aqua Painting
+				DisplayName: Aqua Poster
 				Tooltip: "'Loverofgames'"
 			}
 
 			Cat2Painting: {
-				DisplayName: Cat Painting
+				DisplayName: Cat Poster
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			CatPainting: {
-				DisplayName: Sad Despair Cat Painting
+				DisplayName: Sad Despair Cat Poster
 				Tooltip:
 					'''
 					It looks otherworldly.
@@ -13161,22 +13141,22 @@ Mods: {
 			}
 
 			CoughingCatPainting: {
-				DisplayName: Coughing Cat Painting
+				DisplayName: Coughing Cat Poster
 				Tooltip: "'[c/e9adf5:Satori]'"
 			}
 
 			DerpCatPainting: {
-				DisplayName: Derp Cat Painting
+				DisplayName: Derp Cat Poster
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			DisgustCatPainting: {
-				DisplayName: Disgust Cat Painting
+				DisplayName: Disgust Cat Poster
 				Tooltip: "'[c/e9adf5:Satori]'"
 			}
 
 			DogPainting: {
-				DisplayName: Cute Dog Painting
+				DisplayName: Cute Dog Poster
 				Tooltip: It may look cute but it's powerful enough destroy the universe
 			}
 
@@ -13186,7 +13166,7 @@ Mods: {
 			}
 
 			FlowerEatingPainting: {
-				DisplayName: Flower Eating Painting
+				DisplayName: Flower Eating Poster
 				Tooltip:
 					'''
 					It looks like she borrow it from a art gallery.
@@ -13195,7 +13175,7 @@ Mods: {
 			}
 
 			FluffyBlessing: {
-				DisplayName: Fluffy Blessing
+				DisplayName: Poster of Fluffy Blessing
 				Tooltip: "'[c/adf5ae:Trigger]'"
 			}
 
@@ -13205,7 +13185,7 @@ Mods: {
 			}
 
 			GuusPainting: {
-				DisplayName: Angelic Cat Painting
+				DisplayName: Angelic Cat Poster
 				Tooltip:
 					'''
 					Looking at it bring your soul good old memories
@@ -13214,17 +13194,17 @@ Mods: {
 			}
 
 			HappyCatPainting: {
-				DisplayName: Happy Cat Painting
+				DisplayName: Happy Cat Poster
 				Tooltip: "'CrazyConnor6'"
 			}
 
 			HappyCirnoPainting: {
-				DisplayName: Portrait of Happy Ice Fairy
-				Tooltip: "'The painting which was made for the stongest'"
+				DisplayName: Poster of Happy Ice Fairy
+				Tooltip: "'Made for the stongest'"
 			}
 
 			IbPainting: {
-				DisplayName: Pure Kindness
+				DisplayName: Poster of Pure Kindness
 				Tooltip:
 					'''
 					It looks like she borrow this from a art gallery.
@@ -13233,12 +13213,12 @@ Mods: {
 			}
 
 			JunkoPainting: {
-				DisplayName: Portrait of a Pure Lady
+				DisplayName: Poster of a Pure Lady
 				Tooltip: "'Blossom'"
 			}
 
 			LancerPainting: {
-				DisplayName: Portrait of a Darkner
+				DisplayName: Poster of a Darkner
 				Tooltip:
 					'''
 					(HANG THIS TO A NICE PLACE)
@@ -13247,36 +13227,23 @@ Mods: {
 			}
 
 			MonikaPainting: {
-				DisplayName: Monika Painting
+				DisplayName: Monika Poster
 				Tooltip: You feel [c/FF0000:she] is watching you
 			}
 
 			MonikaPainting2: {
-				DisplayName: Monika Painting
+				DisplayName: Monika Poster
 				Tooltip: "'Just Monika'"
 			}
 
 			NatsukiPainting: {
-				DisplayName: Natsuki Painting
+				DisplayName: Natsuki Poster
 				Tooltip: It looks too cute.
 			}
 
 			OtaeGaze: {
-				DisplayName: Portrait of a Lady in Gaze
+				DisplayName: Poster of a Lady in Gaze
 				Tooltip: "'The expression in her face affected your soul'"
-			}
-
-			OtherworldlyCrystalBall: {
-				DisplayName: Otherworldly Crystal Ball
-				Tooltip:
-					'''
-					'It shows shattered piece of realities belong to other dimentions'
-					'Maybe we are far from being saved but there is still hope'
-					'There can be one built from all other perfect pieces'
-					'There can be one that have only happy moments'
-					'I will always on your side [c/FF0000:Mother] for bringing the E.N.D.'
-					'When you RC it's tile it will show you a secret at a cost of 5 ectoplasm'
-					'''
 			}
 
 			PlantSeed: {
@@ -13285,12 +13252,12 @@ Mods: {
 			}
 
 			PortraitofHappyDemon: {
-				DisplayName: Portrait of a Happy Demon
+				DisplayName: Poster of a Happy Demon
 				Tooltip: It looks too cute.
 			}
 
 			PortraitofMary: {
-				DisplayName: Pure Happiness
+				DisplayName: Poster of Pure Happiness
 				Tooltip:
 					'''
 					It looks like she borrow this from a art gallery.
@@ -13299,47 +13266,47 @@ Mods: {
 			}
 
 			PortraitofSadness: {
-				DisplayName: Portrait of Sadness
+				DisplayName: Poster of Sadness
 				Tooltip: "'Otsu'"
 			}
 
 			RouxlsKaardPainting: {
-				DisplayName: Portrait of a shopkeeper
-				Tooltip: A rare painting of duke of puzzles
+				DisplayName: Poster of a shopkeeper
+				Tooltip: A rare image of duke of puzzles
 			}
 
 			RunningDemon: {
-				DisplayName: VERY Fast Demon Running at Incredible High Speed
+				DisplayName: Poster of VERY Fast Demon Running at Incredible High Speed
 				Tooltip: You are not sure how they capture this photo
 			}
 
 			SadCatPainting: {
-				DisplayName: Sad Cat Painting
+				DisplayName: Sad Cat Poster
 				Tooltip: "'[c/e9adf5:Satori]'"
 			}
 
 			SadCatPainting3: {
-				DisplayName: Sad Explanation Cat Painting
+				DisplayName: Sad Explanation Cat Poster
 				Tooltip: "'Autumn'"
 			}
 
 			SadFoxPainting: {
-				DisplayName: Sad Fox Painting
+				DisplayName: Sad Fox Poster
 				Tooltip: "'[c/000000:Mendeleev]'"
 			}
 
 			SayoriPainting: {
-				DisplayName: Sayori Painting
+				DisplayName: Sayori Poster
 				Tooltip: It looks too cute.
 			}
 
 			ScreamingSkeletonPainting: {
-				DisplayName: Screaming Skeleton Painting
+				DisplayName: Screaming Skeleton Poster
 				Tooltip: Even looking at it makes you feel you are hearing echo from dungeon.
 			}
 
 			SenkoPainting1: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko-san Poster
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
@@ -13349,7 +13316,7 @@ Mods: {
 			}
 
 			SenkoPainting2: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko-san Poster
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
@@ -13359,7 +13326,7 @@ Mods: {
 			}
 
 			SenkoPainting3: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko-san Poster
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
@@ -13369,7 +13336,7 @@ Mods: {
 			}
 
 			SenkoPainting4: {
-				DisplayName: Senko-san Painting
+				DisplayName: Senko-san Poster
 				Tooltip:
 					'''
 					Her cuteness can both purify your soul and destroy darkness
@@ -13379,52 +13346,52 @@ Mods: {
 			}
 
 			StrawberryPimpPainting: {
-				DisplayName: Portrait of a Demon
+				DisplayName: Poster of a Demon
 				Tooltip: "'Rose'"
 			}
 
 			StrongestFright: {
-				DisplayName: Portrait of the Strongest Fright
+				DisplayName: Poster of the Strongest Fright
 				Tooltip: It was painted from observing the strongest one in her own habitat
 			}
 
 			StrongestHappiness: {
-				DisplayName: Portrait of the Strongest Happiness
+				DisplayName: Poster of the Strongest Happiness
 				Tooltip: It was painted from observing the strongest one in her own habitat
 			}
 
 			StrongestWink: {
-				DisplayName: Portrait of the Strongest Wink
+				DisplayName: Poster of the Strongest Wink
 				Tooltip: It was painted from observing the strongest one in her own habitat
 			}
 
 			TiredCirnoPainting: {
-				DisplayName: Portrait of Tired Ice Fairy
+				DisplayName: Poster of Tired Ice Fairy
 				Tooltip: "'It was painted while the strongest one is resting after danmaku battle'"
 			}
 
 			VocaloidBlush: {
-				DisplayName: Portrait of Blushing Vocaloid
+				DisplayName: Poster of Blushing Vocaloid
 				Tooltip: "'Are you not sure if that expression is natural or programmed'"
 			}
 
 			VocaloidCaptain: {
-				DisplayName: Portrait of the Vocaloid Captain
+				DisplayName: Poster of the Vocaloid Captain
 				Tooltip: "'She looks beautiful in that dress'"
 			}
 
 			VocaloidWink: {
-				DisplayName: Portrait of Winking Vocaloid
+				DisplayName: Poster of Winking Vocaloid
 				Tooltip: "'Are you not sure if that expression is natural or programmed'"
 			}
 
 			YandereSpiderPainting: {
-				DisplayName: Yandere Spider Painting
+				DisplayName: Yandere Spider Poster
 				Tooltip: "'Rose'"
 			}
 
 			YuriPainting: {
-				DisplayName: Yuri Painting
+				DisplayName: Yuri Poster
 				Tooltip: She looks she is quite [c/FF1493:joyful]
 			}
 
@@ -15606,7 +15573,7 @@ Mods: {
 				DisplayName: Bright Pearl
 				Tooltip:
 					'''
-					'All art is autobiographical, the pearl is the oyster�s autobiography'
+					'All art is autobiographical, the pearl is the oyster s autobiography'
 					RC to the item to equip it and LC to its slot to get back
 					While being equipped hooks emit strong light that inflict bioluminescence to close enemies
 					'''
@@ -18867,18 +18834,6 @@ Mods: {
 					'''
 			}
 
-			ForgottenRevolver: {
-				DisplayName: Bringer of Ancient Wisdom
-				Tooltip:
-					'''
-					It was once forged from the void and by ancient warlord Blossom.
-					It still cares about its warlord.
-					It sacrifices your life to form a light from concentrated knowledge of his lord.
-					The knowledge it shoots overload enemies brain and causes functionality loss.
-					If enemy already have functionality loss then it won't affect it.
-					'''
-			}
-
 			FrostGlock: {
 				DisplayName: Frost Glock
 				Tooltip:
@@ -20605,8 +20560,7 @@ Mods: {
 			OldMansHataru: {
 				Tooltip:
 					'''
-					''
-					''
+					'The smallest insect is as important as the largest bear'
 					holding a harverster increase harvesting + defensive stats
 					Provides a faint light + allow collection of vine
 					Also work on vanity slot with weaker defensive stats increase
@@ -21114,6 +21068,45 @@ Mods: {
 					Each red skull taken grant a fading max minion/sentry/life regen increasing buff
 					'''
 				DisplayName: Skull Bead Necklace
+			}
+
+			BlissfulBarkStaff: {
+				Tooltip:
+					'''
+					'The best time to plant a tree was 20 years ago. The second best time is now'
+					Summons leafy woodsprite to follow you
+					'''
+				DisplayName: Blissful Bark Staff
+			}
+
+			EliteMask: {
+				Tooltip: "'Great for impersonating kind spriters!'"
+				DisplayName: Elite Mask
+			}
+
+			EliteCostume: {
+				Tooltip: "'Great for impersonating kind spriters!'"
+				DisplayName: Elite Costume
+			}
+
+			EliteBoots: {
+				Tooltip: "'Great for impersonating kind spriters!'"
+				DisplayName: Elite Boots
+			}
+
+			IceBox: {
+				Tooltip:
+					'''
+					'Be careful who you call ugly'
+					'Great for impersonating kind spriters!'
+					Summons a ugly? ice bat to follow you
+					'''
+				DisplayName: Ice Box
+			}
+
+			Printer: {
+				Tooltip: ""
+				DisplayName: Printer
 			}
 		}
 
@@ -23727,6 +23720,12 @@ Mods: {
 			TechSSpark.DisplayName: Tech S Spark
 			WantedPosterShadow.DisplayName: Wanted Poster Shadow
 			DatabusSlasher.DisplayName: Databus Slasher
+			Rozu2.DisplayName: Rozu2
+			LeafyWoodspriteBird.DisplayName: Leafy Woodsprite Bird
+			LeafyWoodsprite.DisplayName: Leafy Woodsprite
+			BatsPets.DisplayName: Bats Pets
+			IceBatRed.DisplayName: Ice Bat Red
+			IceBatBlue.DisplayName: Ice Bat Blue
 		}
 
 		Configs: {

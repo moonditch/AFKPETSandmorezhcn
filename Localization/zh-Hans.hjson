@@ -568,12 +568,7 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: 不死厨师
-
-				BossChecklistIntegration: {
-					EntryName: 不死厨师
-					SpawnInfo: 根据世界的邪恶地形种类, 小概率在地牢自然生成. 制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate].
-					DespawnMessage: 地牢威胁解除
-				}
+				BossChecklistIntegration.EntryName: 不死厨师
 			}
 
 			OnDemandScanner.DisplayName: 病毒扫描仪
@@ -807,6 +802,7 @@ Mods: {
 			AntlionStatue.MapEntry: Antlion雕像
 			AntonyMantle.MapEntry: 死灵傀儡法师悬挂纪念章
 			DivineResonator2.MapEntry: Divine Resonator2
+			// Printer.MapEntry: Printer
 		}
 
 		Keybinds: {
@@ -1035,11 +1031,6 @@ Mods: {
 			BlessedBrokenWashingMachine: {
 				DisplayName: 被祝福近古守卫
 				Description: 它会保护泰拉瑞亚爱好者
-			}
-
-			BlessedBrokenWashingMachineCooldown: {
-				DisplayName: Broken Broken Washing Machine
-				Description: It need to rest to gather its power
 			}
 
 			BlessedSoul: {
@@ -1337,8 +1328,8 @@ Mods: {
 			}
 
 			Crimera: {
-				DisplayName: 小猩红喀迈拉
-				Description: 小猩红喀迈拉将跟随你
+				DisplayName: 猩红喀迈拉
+				Description: 猩红喀迈拉将跟随你
 			}
 
 			CrimsonSong: {
@@ -1399,11 +1390,6 @@ Mods: {
 			Darkai: {
 				DisplayName: 达克莱伊
 				Description: 达克莱伊将跟随你
-			}
-
-			DarkLamia: {
-				DisplayName: 暗黑拉弥亚
-				Description: 她不饿的时候你会觉得安全
 			}
 
 			DarkMagician: {
@@ -2863,8 +2849,8 @@ Mods: {
 			}
 
 			LostGirl: {
-				DisplayName: 迷失女孩
-				Description: 她想要回她的花
+				DisplayName: 小迷失女孩
+				Description: 找到女孩
 			}
 
 			Lucina: {
@@ -2878,8 +2864,8 @@ Mods: {
 			}
 
 			LunaticCultist: {
-				DisplayName: 拜月教邪教徒
-				Description: 它将跟随你
+				DisplayName: 红色的拜月教邪教徒
+				Description: 来一场飞蛾竞速吧
 			}
 
 			LyricaPrismriver: {
@@ -3888,8 +3874,8 @@ Mods: {
 			}
 
 			Scarecrow: {
-				DisplayName: 稻草人
-				Description: 他看起来很开心
+				DisplayName: 花园伙伴
+				Description: 他的名字让人产生误解
 			}
 
 			SCP173: {
@@ -4028,7 +4014,7 @@ Mods: {
 			}
 
 			Skeletron2: {
-				DisplayName: 邪恶的骷髅
+				DisplayName: 小骷髅
 				Description: 威胁等级:骨骼毁灭者
 			}
 
@@ -4060,11 +4046,6 @@ Mods: {
 			Slimer: {
 				DisplayName: 恶翅史莱姆
 				Description: 恶翅史莱姆将跟随你
-			}
-
-			SlimeWatcher: {
-				DisplayName: 史莱姆的观测者
-				Description: 它还在盯着你，绕着你转
 			}
 
 			SlipperySign: {
@@ -4870,6 +4851,21 @@ Mods: {
 			FallenMonkBuff: {
 				Description: 死亡在等待...
 				DisplayName: 逝去的残念
+			}
+
+			LeafyWoodsprite: {
+				Description: 闻起来像森林的味道
+				DisplayName: 森林精灵
+			}
+
+			IceBatRed: {
+				Description: Mods.AFKPETS.Buffs.IceBatRed.Description
+				DisplayName: 红色并蝙蝠
+			}
+
+			IceBatBlue: {
+				Description: Mods.AFKPETS.Buffs.IceBatBlue.Description
+				DisplayName: 蓝色冰蝙蝠
 			}
 		}
 
@@ -9626,11 +9622,11 @@ Mods: {
 			}
 
 			ChefsSpiritualEnergy: {
-				DisplayName: 厨师的怒火
+				DisplayName: 烧烤安全指南
 				Tooltip:
 					'''
 					'你觉得它想念它的厨房'
-					召唤厨师怒火
+					让您的心灵因厨师的激情而燃烧
 					'''
 			}
 
@@ -10080,11 +10076,12 @@ Mods: {
 			}
 
 			EvilSkull: {
-				DisplayName: 邪恶的头骨
+				DisplayName: 幽灵斧头
 				Tooltip:
 					'''
-					'我希望它不会攻击你'
-					召唤邪恶的骷髅跟随你
+					'寻找头部'
+					召唤小骷髅跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -10112,15 +10109,17 @@ Mods: {
 					'''
 					'看来眼睛在等人'
 					召唤眼怪跟随你
+					闪烁着微光
 					'''
 			}
 
 			FabuRune: {
-				DisplayName: 乌鲁兹符文（出自:仙境传说）
+				DisplayName: 长者标识
 				Tooltip:
 					'''
 					'它是用亘古领主的力量完成的'
 					召唤Fabu跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -10152,11 +10151,12 @@ Mods: {
 			}
 
 			FleshMeal: {
-				DisplayName: 肉（出自:原版）
+				DisplayName: Brain的肉（出自:原版）
 				Tooltip:
 					'''
-					'看起来烂了'
-					召唤小猩红喀迈拉跟随你
+					'想看看我的“O”脸型吗？那是很典型的脸型呢。'
+					召唤猩红喀迈拉跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -10227,10 +10227,10 @@ Mods: {
 			}
 
 			FrozenMouse: {
-				DisplayName: 冰冻老鼠（出自:原版）
+				DisplayName: 蛇牙木柱（出自:原版）
 				Tooltip:
 					'''
-					'怎么会不融化呢?'
+					'记住，切勿踩踏蛇类动物'
 					召唤小蛇跟随你
 					'''
 			}
@@ -10418,7 +10418,7 @@ Mods: {
 			}
 
 			Gyroid: {
-				DisplayName: 可疑陀螺仪（出自:动森）
+				DisplayName: 布鲁斯特的拐杖（出自:动森）
 				Tooltip:
 					'''
 					'它看起来既像活的又像消防栓'
@@ -10631,16 +10631,18 @@ Mods: {
 				Tooltip:
 					'''
 					'一个小巧而光滑的遥控器'
-					'召唤迷你SATLA-001观察你'
+					召唤迷你SATLA-001观察你
+					闪烁着微光
 					'''
 			}
 
 			JarofVoid: {
-				DisplayName: 虚空之瓶
+				DisplayName: 远古之眼
 				Tooltip:
 					'''
-					'你觉得它是由强大的灵魂缔造的'
+					'保护？'
 					召唤Rozu跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -10905,11 +10907,12 @@ Mods: {
 			}
 
 			MechaKey: {
-				DisplayName: 机械钥匙（出自:原版）
+				DisplayName: 回收钥匙（出自:原版）
 				Tooltip:
 					'''
 					'让我想起了一些可怕的事情'
 					召唤机械骷髅王宝宝跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -11069,8 +11072,8 @@ Mods: {
 			}
 
 			Okiku: {
-				DisplayName: 盘子女鬼玩偶
-				Tooltip: 它看起来被诅咒了
+				DisplayName: 古代屠刀
+				Tooltip: 召唤小盘子女鬼跟随你
 			}
 
 			OldGlasses: {
@@ -11126,7 +11129,7 @@ Mods: {
 			}
 
 			OrganicEye: {
-				DisplayName: 生物生化眼（出自:SCP基金会）
+				DisplayName: 智能镜头（出自:SCP基金会）
 				Tooltip:
 					'''
 					'它可能对某人有用，因为它从不眨眼'
@@ -11222,21 +11225,9 @@ Mods: {
 				DisplayName: 神经毒素瓶（出自:原版）
 				Tooltip:
 					'''
-					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
-					它似乎会使猎物产生毒素，这种毒素会形成一种虚假的关系
-					也似乎不会进入大脑的部分，让猎物感受到器官损害和痛苦的死亡'
-					召唤光明拉弥亚跟随你
-					'''
-			}
-
-			OxytocinVenomVial2: {
-				DisplayName: 神经毒素瓶（出自:原版）
-				Tooltip:
-					'''
-					'一种曾经由美洲豹分泌的毒液，用来消灭猎物'
-					它似乎会使猎物产生毒素，这种毒素会形成一种虚假的关系
-					也似乎不会进入大脑的部分，让猎物感受到器官损害和痛苦的死亡'
-					召唤暗黑拉弥亚跟随你
+					'你称之为爱，而他们却称之为毒液'
+					召唤小拉弥亚跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -11542,16 +11533,17 @@ Mods: {
 			}
 
 			PortableMysteriousTablet: {
-				DisplayName: 神秘碑牌（出自:原版）
+				DisplayName: 仪式匕首（出自:原版）
 				Tooltip:
 					'''
-					'它看起来很脆弱'
+					'等待月亮'
 					召唤拜月教邪教徒跟随你
+					闪烁着微光
 					'''
 			}
 
 			Powercell: {
-				DisplayName: 能量稳定器核心
+				DisplayName: 象牙友谊手链
 				Tooltip:
 					'''
 					'核心曾照亮拜月邪教的仪式'
@@ -11823,16 +11815,6 @@ Mods: {
 					'''
 			}
 
-			SlimeWatcher: {
-				DisplayName: 史莱姆的观测者
-				Tooltip:
-					'''
-					'它还在观测'
-					召唤史莱姆的观测者跟随你
-					[c/ffff00:趣味模式专属物品]
-					'''
-			}
-
 			SpadeRune: {
 				DisplayName: 白桃符文（出自:三角符文）
 				Tooltip:
@@ -11866,6 +11848,7 @@ Mods: {
 					'''
 					'闻起来像是美好的旧回忆'
 					召唤迷失女孩跟随你
+					闪烁着微光
 					'''
 			}
 
@@ -12341,15 +12324,6 @@ Mods: {
 					'''
 			}
 
-			TinyCrown: {
-				DisplayName: 小皇冠
-				Tooltip:
-					'''
-					'你应该把它还给它的主人'
-					召唤乌鸦王子跟随你
-					'''
-			}
-
 			TinyPlanets: {
 				DisplayName: 三界（出自:车万）
 				Tooltip:
@@ -12360,7 +12334,7 @@ Mods: {
 			}
 
 			TinyPowerCore: {
-				DisplayName: 小功率核心（出自:原版）
+				DisplayName: 石头能量电池（出自:原版）
 				Tooltip:
 					'''
 					'它看起来很小，但可能足够做些什么了'
@@ -12466,10 +12440,10 @@ Mods: {
 			}
 
 			UNOwenWasher: {
-				DisplayName: 芙兰式洗衣机（出自:afk宠物）
+				DisplayName: 皇家匕首（出自:afk宠物）
 				Tooltip:
 					'''
-					'已经有495年没人用了'
+					'在诸王陨落之后，黑暗笼罩着第一位皇帝的残暴行径'
 					召唤芙兰牌洗衣机跟随你
 					'''
 			}
@@ -13310,19 +13284,6 @@ Mods: {
 			OtaeGaze: {
 				DisplayName: 凝视的女士的肖像
 				Tooltip: 她脸上的表情影响了你的灵魂
-			}
-
-			OtherworldlyCrystalBall: {
-				DisplayName: 紫色水晶球
-				Tooltip:
-					'''
-					'它显示了属于其他维度的现实碎片'
-					'也许我们离获救还很远但仍有希望'
-					'从所有其他完美的片段中可以拼凑出一个完美的片段'
-					'可能会有一个人只有快乐的时刻'
-					'[c/FF0000:妈妈]会永远站在你这边，因为你带来了E.N.D'
-					当你右键的时候，它会告诉你一个秘密，花费5个灵气
-					'''
 			}
 
 			PlantSeed: {
@@ -18922,17 +18883,6 @@ Mods: {
 					'''
 			}
 
-			ForgottenRevolver: {
-				DisplayName: 远古智慧之源
-				Tooltip:
-					'''
-					'它曾由亘古领主博洛丝姆从虚无中铸就而成，至今仍忠诚于其战主'
-					使用此枪时，它会牺牲使用者的生命力，凝聚其主的知识光辉形成攻击光束
-					发射出的知识能量会过载敌人的大脑，导致功能丧失
-					若敌人已存在功能丧失状态，则不会再次受到影响
-					'''
-			}
-
 			FrostGlock: {
 				DisplayName: 冰霜格洛克
 				Tooltip:
@@ -20666,6 +20616,7 @@ Mods: {
 			OldMansHataru: {
 				Tooltip:
 					'''
+					'小昆虫和大熊一样重要'
 					手持农具时提升采集效率与防御力
 					散发微光并允许收集藤蔓
 					置于时装栏时仍生效但防御加成减弱
@@ -21176,6 +21127,45 @@ Mods: {
 					每吸收一个红骷髅获得逐渐减少的召唤、哨兵、生命回复增益
 					'''
 				DisplayName: 骷髅念珠
+			}
+
+			BlissfulBarkStaff: {
+				Tooltip:
+					'''
+					'种树的最佳时机是在 20 年前。其次的时机就是现在。'
+					召唤枝繁叶茂的森林精灵跟随你
+					'''
+				DisplayName: 欢愉热闹之杖
+			}
+
+			EliteMask: {
+				Tooltip: "'非常适合用来模仿善良的喷气侠'"
+				DisplayName: 精英面具
+			}
+
+			EliteCostume: {
+				Tooltip: "'非常适合用来模仿善良的喷气侠'"
+				DisplayName: 精英服装
+			}
+
+			EliteBoots: {
+				Tooltip: "'非常适合用来模仿善良的喷气侠'"
+				DisplayName: 精英靴子
+			}
+
+			IceBox: {
+				Tooltip:
+					'''
+					'可要小心你所称呼的丑陋之人'
+					'非常适合用来模仿那些伪善的施咒者！'
+					召唤出一只丑陋的冰蝙蝠来跟踪你
+					'''
+				DisplayName: 冰盒
+			}
+
+			Printer: {
+				Tooltip: ""
+				DisplayName: 打印机
 			}
 		}
 
@@ -22333,7 +22323,7 @@ Mods: {
 			ConcentratedNighmare.DisplayName: 聚集的恐惧
 			Courage.DisplayName: 胆小狗
 			Creeper.DisplayName: 古力怕
-			Crimera.DisplayName: 小猩红喀迈拉
+			Crimera.DisplayName: 猩红喀迈拉
 			CrowMinion.DisplayName: Crow Minion
 			CrowPrince.DisplayName: 乌鸦王子
 			CryingChild.DisplayName: 哭泣小孩
@@ -23789,6 +23779,12 @@ Mods: {
 			TechSSpark.DisplayName: Tech S Spark
 			WantedPosterShadow.DisplayName: Wanted Poster Shadow
 			DatabusSlasher.DisplayName: Databus Slasher
+			// Rozu2.DisplayName: Rozu2
+			// LeafyWoodspriteBird.DisplayName: Leafy Woodsprite Bird
+			// LeafyWoodsprite.DisplayName: Leafy Woodsprite
+			// BatsPets.DisplayName: Bats Pets
+			// IceBatRed.DisplayName: Ice Bat Red
+			// IceBatBlue.DisplayName: Ice Bat Blue
 		}
 
 		Configs: {
