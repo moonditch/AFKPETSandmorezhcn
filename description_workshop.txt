@@ -1,21 +1,28 @@
 [h1]This mod is a Chinese Translation Patch of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK's PETS and more(Early Alpha)[/url][/h1]
 
-[h1]介绍[/h1]
+[h1]=介绍=[/h1]
 这是重启版本的AFK拓展和宠物汉化，适配 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2868793314]AFK拓展和宠物v9.9.9.92[/url]
 
-[h1]使用方法[/h1]
-1.同时订阅AFK's PETS and more(Early Alpha)和本Mod
-2.进入tml，在模组管理中同时启用AFK's PETS and more(Early Alpha)和本Mod
-3.安装完成，进行游戏
-4.如果模组更新导致汉化出问题，请耐心等待汉化更新
+[h1]=使用方法=[/h1]
+[list]
+ [*] 1.同时订阅AFK's PETS and more(Early Alpha)和本Mod
+ [*] 2.进入tml，在模组管理中同时启用AFK's PETS and more(Early Alpha)和本Mod
+ [*] 3.安装完成，进行游戏
+ [*] 4.如果模组更新导致汉化出问题，请耐心等待汉化更新
+[/list]
 
-[h1]有问题[/h1]
-选择1.评论区告诉我
-选择2.想闲聊加入qq群596284387（不会同意任何steam好友消息）
-选择3.有确认性bug加qq群895423665或者留言告诉我
-选择4.[url=https://steamcommunity.com/groups/liketerraria]steam组[/url]和对应的[url=https://steamcommunity.com/chat/invite/RKieSpPJ]聊天室[/url]
+[h1]=问题解决=[/h1]
+[list]
+[*] 本汉化为客户端模组，不在服务端加载，联机方需要自行加载汉化
+[*] 如果需要帮助/反馈BUG，请加入QQ群895423665，回答AFK拓展和宠物，然后把详细信息发在群里
+[*] 也可以在评论区告诉我，如果无法进行评论区留言，请加入[url=https://steamcommunity.com/chat/invite/RKieSpPJ]Steam聊天室[/url]
+[*] 我们暂不接受以咨询或反馈汉化为目的的Steam/QQ好友申请，请见谅
+[*] 如果对某个汉化不满意，欢迎来[url=https://github.com/moonditch/AFKPETSandmorezhcn]GitHub[/url]提交pr
+[/list]
+
 
 [h1]Q&A[/h1]
-Q：是否同步给作者，是否做完后同步给作者
-A：否，暂时否，暂时没有考虑发给作者
-注：因为这个汉化是开源，要写代码可能会闭源，所以此汉化归我和制作作者所有，除非我们想给作者汉化，如果有其他人在我们不知道的情况下发给作者，那么以后AFK拓展和宠物汉化，由发给作者的人更新
+Q：是否同步给作者
+A：否，作者已知道当前汉化存在并了解当前汉化独立存在的理由
+
+侵权须知：当前汉化为开源，创意工坊闭源，当前汉化归我和制作作者所拥有，如果有人偷偷摸摸的在其他平台发布此汉化，那么我们停更，由发布其他平台汉化的人，维护更新
