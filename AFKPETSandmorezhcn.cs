@@ -77,7 +77,7 @@ namespace AFKPETSandmorezhcn
 						ModContent.NPCType<AncientGuardian>(),
 						new Dictionary<string, object>()
 						{
-							["collectibles"] = ModContent.ItemType<AncientGuardianMask>(),
+							//["collectibles"] = ModContent.ItemType<AncientGuardianMask>(),
 							["spawnItems"] = ModContent.ItemType<SeveredClothierHead>(),
 							["spawnInfo"] = Language.GetTextValue("Mods.AFKPETS.NPCs.AncientGuardian.BossChecklistIntegration.SpawnInfo"),
 							["despawnMessage"] = Language.GetTextValue("Mods.AFKPETS.NPCs.AncientGuardian.BossChecklistIntegration.DespawnMessage")

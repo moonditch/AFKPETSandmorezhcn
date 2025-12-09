@@ -568,8 +568,14 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: Undead Chef
-				BossChecklistIntegration.EntryName: Tier1 Dungeon Miniboss
+
+				BossChecklistIntegration: {
+					EntryName: Tier1 Dungeon Miniboss
+					SpawnInfo: It have a low chance to spawn in dungeon with respect to world evil. They could also summon with their respective summon item. After their defeat summon item of both of them can be bought from dark huntress.
+					DespawnMessage: Dungeon take down the threat
+				}
 			}
+
 
 			OnDemandScanner.DisplayName: On Demand Scanner
 			SpiritSkull.DisplayName: Spirit Skull
@@ -2502,19 +2508,9 @@ Mods: {
 				Description: A relic being scattered all over universe to observe his next step
 			}
 
-			HolyStrike1: {
+			HolyStrike: {
 				DisplayName: Holy Strike
-				Description: Your soul is burning with justice
-			}
-
-			HolyStrike2: {
-				DisplayName: Holy Strike
-				Description: Your soul is burning with justice
-			}
-
-			HolyStrike3: {
-				DisplayName: Holy Strike
-				Description: Your soul is burning with justice
+				Description: Burn with justice
 			}
 
 			Hooh: {
@@ -4863,13 +4859,23 @@ Mods: {
 			}
 
 			IceBatRed: {
-				Description: Mods.AFKPETS.Buffs.IceBatRed.Description
-				DisplayName: Ice Bat Red
+				Description: Looks Chill
+				DisplayName: Ice Bat
 			}
 
 			IceBatBlue: {
-				Description: Mods.AFKPETS.Buffs.IceBatBlue.Description
-				DisplayName: Ice Bat Blue
+				Description: Looks Chill
+				DisplayName: Ice Bat
+			}
+
+			Drunk: {
+				Description: Friendship + Harvesting Up
+				DisplayName: Kegs-xcellent
+			}
+
+			ScarletBlessing: {
+				Description: Yup! I wanted to come play!
+				DisplayName: Scarlet Blessing
 			}
 		}
 
@@ -7395,8 +7401,7 @@ Mods: {
 				Tooltip:
 					'''
 					'I'm lovin' it'
-					RC to open the packet to get your meal along with a toy from FF collectibles
-					Do not direct item use to eat all, toy may contain small pieces
+					RC Open the package before eat
 					'''
 			}
 
@@ -8950,49 +8955,17 @@ Mods: {
 					'''
 					[c/FF00FF:Artifact]
 					'It looks forgotten and ancient but still holds impressive spiritual power'
-					'It can be placed to altar of darkness with RC to its tile while select this item in hotbar'
-					'After its placed it will cause the altar to give the enchanted prefix to any chosen true melee weapon'
-					'By enchanting player must RC to altar of darkness tile while select item to enchant in hotbar'
-					'If the melee weapon is not a true melee weapon it will curse the weapon'
-					'Press binded info key while this item being selected in hotbar to get more information about the true melee prefixes'
+					It can be placed to altar of darkness with RC to its tile while select this item in hotbar
+					After its placed it will cause the altar to give the enchanted prefix to any chosen true melee weapon
+					By enchanting player must RC to altar of darkness tile while select item to enchant in hotbar
+					If the melee weapon is not a true melee weapon it will curse the weapon
+					Press binded info key while this item being selected in hotbar to get more information about the true melee prefixes
 					'''
 			}
 
 			GameMasteryToken: {
 				DisplayName: Game Mastery Token
-				Tooltip:
-					'''
-					[c/FF00FF:Artifact]
-					'It looks forgotten and ancient but still holds impressive spiritual power'
-					'May be exchanged with elite rewards'
-					'''
-			}
-
-			KeyPiece1: {
-				DisplayName: Broken Key Alpha
-				Tooltip:
-					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
-					'''
-			}
-
-			KeyPiece2: {
-				DisplayName: Broken Key Beta
-				Tooltip:
-					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
-					'''
-			}
-
-			KeyPiece3: {
-				DisplayName: Broken Key Gamma
-				Tooltip:
-					'''
-					'It looks broken but unique.'
-					'Still with remaining pieces it can be repaired.'
-					'''
+				Tooltip: May be exchanged with elite rewards
 			}
 
 			LoveLetter: {
@@ -14048,16 +14021,6 @@ Mods: {
 					'''
 			}
 
-			PotraitofMarkov: {
-				DisplayName: Portrait of Markov
-				Tooltip:
-					'''
-					'It look safe from outside but inside ...'
-					'[c/FF1493:Joyful one] need to be sacrificed when the moon become red with the ???.'
-
-					'''
-			}
-
 			PurifiedRodofRemorse: {
 				DisplayName: Purified Rod of Remorse
 				Tooltip:
@@ -14073,11 +14036,11 @@ Mods: {
 				DisplayName: Reincarnated Hate
 				Tooltip:
 					'''
-					'It was formed from kindness and innocence of the fallen'
-					Upon consumed it will cause your eyes return red with hatred
-					Your hatred cause your life regen decrease by 1 and max life by 10
-					Your true melee speed, damage and crit chance will increase by 5%
-					Upon dealing crit to any enemy if they feel fear you will be heal by 1
+					'When kindness falls hatred arises'
+					Upon consumed which has following effects;
+					- Life regen decrease by 1 and max life by 10
+					- True melee speed, damage and crit chance increase by 5%
+					- Dealing crit to any feared enemy heals by 1
 					'''
 			}
 
@@ -14430,8 +14393,20 @@ Mods: {
 				DisplayName: Fishron Crusader
 				Tooltip:
 					'''
-					Sadly you couldn't use the Destroyer as a bait with this one. Maybe you need a bigger one?
-					'It casts three lines at once which can also attack nearby enemies'
+					'Sadly you couldn't use the Destroyer as a bait with this one. Maybe you need a bigger one?'
+					Casts three lines at once which can also attack nearby enemies
+					'''
+			}
+
+			KoishiFishingRod: {
+				DisplayName: Laeva-Tuna-Inn
+				Tooltip:
+					'''
+					'Perfect for heart-throbbing adventures'
+					Casts five lines at once which never break + 33% chance to not consume bait
+					Allow fishing in any liquid + acts as all types of liquids at once for vanilla & afkpets fishing
+					Increases chances to fish up enemies during blood moon
+					Grants scarlet blessing
 					'''
 			}
 
@@ -14439,7 +14414,7 @@ Mods: {
 				DisplayName: Rod of Consequences
 				Tooltip:
 					'''
-					Sometimes its best to rest for a while and leave demon for his demons
+					'Sometimes its best to rest for a while and leave demon for his demons'
 					It can fish in lava and its bobblers will catch fish in a short time after touching liquid
 					'''
 			}
@@ -14448,7 +14423,7 @@ Mods: {
 				DisplayName: The Royal Fortune
 				Tooltip:
 					'''
-					A smooth sea never made a skilled pirate so why you seek it that much
+					'A smooth sea never made a skilled pirate so why you seek it that much'
 					It have 2% chance to catch quest fish from any biome
 					'''
 			}
@@ -15420,10 +15395,9 @@ Mods: {
 				DisplayName: Martian Satellite Reach Module
 				Tooltip:
 					'''
-					'It was once designed to gather data from martian satellites'
-					It also contains a sound record
-					'It's impressive to see you improve yourself every second CLA-0, I'm proud of you'
-					'Favoriting it will activate holographic time telling unit'
+					'Contains a sound record: 'Your improvements are impressive CLA-0, I'm proud of you'. Maybe it still misses old days'
+					Favoriting it will activate holographic time telling unit
+					Could be shimmered
 					'''
 			}
 
@@ -17416,11 +17390,6 @@ Mods: {
 					While being charged its range and damage will increase while in discharging arc area will increase
 					When its fully concentrated it will inflict overly charged and otherwise inflict charged
 					'''
-			}
-
-			RomanCandle: {
-				DisplayName: Roman Candle
-				Tooltip: "'Fire works!'"
 			}
 
 			ThirdArm: {
@@ -20570,7 +20539,11 @@ Mods: {
 
 			ProfessorsCoat: {
 				DisplayName: Professor's Coat
-				Tooltip: If you want to find the secrets of the universe, think in terms of energy, frequency and vibration
+				Tooltip:
+					'''
+					'If you want to find the secrets of the universe, think in terms of energy, frequency and vibration'
+					Could be shimmered
+					'''
 			}
 
 			ArachneFlightPack: {
@@ -20602,14 +20575,13 @@ Mods: {
 				DisplayName: Quantum Physics for Dummies
 			}
 
-			ProfessorsPallet: {
-				Tooltip: Everyone ask motion of emf but no one ask emotion of emf
-				DisplayName: Professors Palet
-			}
-
-			ProfessorsProcessor: {
-				Tooltip: Secure. Contain. Protect.
-				DisplayName: Professors Processor
+			ChainTrack: {
+				Tooltip:
+					'''
+					Provide protection against strong wind, knockback and fire blocks
+					Slightly decrases max movement + increase max fall speed
+					'''
+				DisplayName: Chain Track
 			}
 
 			SuenoImposible: {
@@ -21107,6 +21079,26 @@ Mods: {
 			Printer: {
 				Tooltip: ""
 				DisplayName: Printer
+			}
+
+			Wiesnbrau: {
+				Tooltip:
+					'''
+					[c/FF0000:-ALCOHOL-]
+					'Nobody comes beer-tween me and a good game'
+					Increase efficiency by II + allow summoning exra supporter soul
+					Decrease life regen by 1 and max life by 10
+					'''
+				DisplayName: Wiesnbrau
+			}
+
+			WhimiscalBobber: {
+				DisplayName: Whimiscal Bobber
+				Tooltip:
+					'''
+					'Shines like a diamond'
+					Act as all types of vanilla liquids at once for vanilla & afkpets fishing
+					'''
 			}
 		}
 
@@ -22145,7 +22137,6 @@ Mods: {
 			MagicSmoke.DisplayName: Magic Smoke
 			MotherboardNode.DisplayName: Motherboard Node
 			RobloxGhost.DisplayName: Roblox Ghost
-			RomanCandle.DisplayName: Roman Candle
 			SapGlob.DisplayName: Sap Glob
 			SapGlobTile.DisplayName: Sap Glob Tile
 			SoulFlame.DisplayName: Soul Flame
@@ -23726,6 +23717,12 @@ Mods: {
 			BatsPets.DisplayName: Bats Pets
 			IceBatRed.DisplayName: Ice Bat Red
 			IceBatBlue.DisplayName: Ice Bat Blue
+			KoishiHook.DisplayName: Koishi Hook
+			flanSlash.DisplayName: flan Slash
+			lilFlan.DisplayName: lil Flan
+			HiredMerchant.DisplayName: Hired Merchant
+			HolyKnightSword.DisplayName: Holy Knight Sword
+			HolyKnightSwordSlash.DisplayName: Holy Knight Sword Slash
 		}
 
 		Configs: {

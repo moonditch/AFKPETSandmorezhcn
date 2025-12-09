@@ -1,6 +1,6 @@
 using Terraria;
 using Terraria.ModLoader;
-using AFKPETS.NPCs.BiomeNPCs;
+//using AFKPETS.NPCs.BiomeNPCs;
 using AFKPETS.NPCs.Antony;
 using AFKPETS.NPCs.MiniGameNPCs;
 using AFKPETS.NPCs.Misc;
@@ -65,7 +65,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}*/
 
-			if (npc.type == ModContent.NPCType<Assistant>())
+			/*if (npc.type == ModContent.NPCType<Assistant>())
 			{
 				switch (chat)
 				{
@@ -97,7 +97,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "一段时间后，这片土地上的生命接纳了我，看到我时不再露出恐惧，就像我是土生土长的本地人一样。你试过摸恶魔宝宝的头吗？这可以平静你的灵魂。我建议你也试试，如果恶魔们待你友善的话。";
 					break;
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<HolyKnight>())
 			{
@@ -307,7 +307,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				}
 			}
 
-			if (npc.type == ModContent.NPCType<RoyalGuard>())
+			/*if (npc.type == ModContent.NPCType<RoyalGuard>())
 			{
 				switch (chat)
 				{
@@ -327,7 +327,7 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 					chat = "你好，冒险家。你需要什么吗？";
 					break;
 				}
-			}
+			}*/
 
 			if (npc.type == ModContent.NPCType<TiedYandere>())
 			{
@@ -968,12 +968,12 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 			/*if (npc.type == ModContent.NPCType<Assassin>())
 			{
 				ReplaceChatText(Assassin, ref Main.npcChatText);
-			}*/
+			}
 			if (npc.type == ModContent.NPCType<Assistant>())
 			{
 				ReplaceChatText(Assistant, ref Main.npcChatText);
-			}
-			else if (npc.type == ModContent.NPCType<HolyKnight>())
+			}*/
+			if (npc.type == ModContent.NPCType<HolyKnight>())
 			{
 				ReplaceChatText(HolyKnight, ref Main.npcChatText);
 			}
@@ -1162,10 +1162,10 @@ namespace AFKPETSandmorezhcn.GlobalTranslation
 				"*Blushes* Did you read all of it...Sempai? That words are only fragment of my love. If you accept I want to share my heart with you but I want it to be how I was dreamed. In my dreams I wear bride costume as white as swans so could you find me?",
 				"*脸红*你…前辈，你都看完了吗？那些话只是我爱意的一小部分。如果你愿意接受，我想与你分享我的心，但我希望它能像我梦中那样实现。在我的梦里，我穿着像天鹅一样洁白的婚纱，你能找到我吗？"
 			},
-			{
+			/*{
 				"*Blushes*Senpai that's as white as your heart. Looking at it only makes me love you even more. Now could you bring me [i:" + ModContent.ItemType<WeddingRing>() + "] and finally let us become a perfect couple?",
 				"*脸红*前辈，你的心就像那婚纱一样洁白无瑕。看着它，让我更加爱你。现在，你能给我带来 [i:" + ModContent.ItemType<WeddingRing>() + "]，让我们终于成为一对完美的情侣吗？"
-			},
+			},*/
 			{
 				"Senpai if I remember right there is a zombie that wearing bride costume but maybe It was a dream but still could you check?",
 				"前辈，如果我记得没错的话，那有一个穿着婚纱的僵尸，但也许那只是我的梦。不过，你能帮我确认一下吗？"

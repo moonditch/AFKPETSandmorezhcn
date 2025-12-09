@@ -568,8 +568,14 @@ Mods: {
 
 			UndeadChef: {
 				DisplayName: 不死厨师
-				BossChecklistIntegration.EntryName: 不死厨师
+
+				BossChecklistIntegration: {
+					EntryName: 不死厨师
+					SpawnInfo: 根据世界的邪恶地形种类, 小概率在地牢自然生成. 制作 [i:AFKPETS/CorruptedServer] 或 [i:AFKPETS/RoastChickenPlate] 在地牢使用后召唤. 在玩家成功击败一次之后, 黑暗女猎手开始同时出售 [i:AFKPETS/CorruptedServer] 和 [i:AFKPETS/RoastChickenPlate].
+					DespawnMessage: 地牢威胁解除
+				}
 			}
+				
 
 			OnDemandScanner.DisplayName: 病毒扫描仪
 			SpiritSkull.DisplayName: 幽魂骷髅头
@@ -2498,19 +2504,9 @@ Mods: {
 				Description: 一个遗物被散布在宇宙各地，以观察他的下一步行动
 			}
 
-			HolyStrike1: {
+			HolyStrike: {
 				DisplayName: Holy Strike
-				Description: 你的灵魂燃烧着正义
-			}
-
-			HolyStrike2: {
-				DisplayName: Holy Strike
-				Description: 你的灵魂燃烧着正义
-			}
-
-			HolyStrike3: {
-				DisplayName: Holy Strike
-				Description: 你的灵魂燃烧着正义
+				Description: 燃烧着正义
 			}
 
 			Hooh: {
@@ -4859,13 +4855,23 @@ Mods: {
 			}
 
 			IceBatRed: {
-				Description: Mods.AFKPETS.Buffs.IceBatRed.Description
-				DisplayName: 红色并蝙蝠
+				Description: 看起来很酷
+				DisplayName: 红色冰蝙蝠
 			}
 
 			IceBatBlue: {
-				Description: Mods.AFKPETS.Buffs.IceBatBlue.Description
+				Description: 看起来很酷
 				DisplayName: 蓝色冰蝙蝠
+			}
+
+			Drunk: {
+				Description: 友谊 + 收获
+				DisplayName: 桶中佳酿
+			}
+
+			ScarletBlessing: {
+				Description: 耶！我本来就想玩的！
+				DisplayName: 斯卡雷特支持
 			}
 		}
 
@@ -7400,8 +7406,7 @@ Mods: {
 				Tooltip:
 					'''
 					'我很喜欢'
-					右键打开包装，得到餐食和一个来自最终幻想的玩具
-					不要直接食用，玩具可能含有小部件导致窒息
+					右键食用时先打开打开包装
 					'''
 			}
 
@@ -8967,39 +8972,7 @@ Mods: {
 
 			GameMasteryToken: {
 				DisplayName: 精英游戏币
-				Tooltip:
-					'''
-					[c/FF00FF:祭品]
-					'它看起来被遗忘了，但仍然拥有令人印象深刻的精神力量'
-					'可与精英奖励交换'
-					'''
-			}
-
-			KeyPiece1: {
-				DisplayName: 破损钥匙-阿尔法
-				Tooltip:
-					'''
-					'它看起来很破旧，但很独特'
-					'需要其它零件以修复'
-					'''
-			}
-
-			KeyPiece2: {
-				DisplayName: 破损钥匙-贝塔
-				Tooltip:
-					'''
-					'它看起来很破旧，但很独特'
-					'需要其它零件以修复'
-					'''
-			}
-
-			KeyPiece3: {
-				DisplayName: 破损钥匙-伽马
-				Tooltip:
-					'''
-					'它看起来很破旧，但很独特'
-					'需要其它零件以修复'
-					'''
+				Tooltip: 可与精英奖励交换
 			}
 
 			LoveLetter: {
@@ -14082,15 +14055,6 @@ Mods: {
 					'''
 			}
 
-			PotraitofMarkov: {
-				DisplayName: 马尔科夫的肖像
-				Tooltip:
-					'''
-					'从外面看很安全，但里面…'
-					当月亮被???染红，[c/FF1493:派对女孩]需要被献祭
-					'''
-			}
-
 			PurifiedRodofRemorse: {
 				DisplayName: 悔恨之符
 				Tooltip:
@@ -14106,11 +14070,11 @@ Mods: {
 				DisplayName: 仇恨之火
 				Tooltip:
 					'''
-					'它是由堕落者的善良和纯真形成的'
-					使用后眼睛就会因仇恨而变红
-					仇恨会使生命回复减少1，最大生命减少10
-					增加5%真近战速度，伤害和暴击率
-					攻击敌人产生暴击时，如果敌人感觉到恐惧，恢复1点生命值
+					'当善良消失时，仇恨便会滋生'
+					带来的影响如下：
+					-生命回复减少1，最大生命减少10
+					-增加5%真近战速度，伤害和暴击率
+					-攻击敌人产生暴击时，如果敌人感觉到恐惧，恢复1点生命值
 					'''
 			}
 
@@ -14466,8 +14430,20 @@ Mods: {
 				DisplayName: 神圣捕手
 				Tooltip:
 					'''
-					可惜你不能用毁灭者做诱饵，也许你需要一个更大的?
-					'一次抛出3条线，也可以攻击附近的敌人'
+					“可惜你不能用毁灭者做诱饵，也许你需要一个更大的?”
+					抛出3条线，也可以攻击附近的敌人
+					'''
+			}
+
+			KoishiFishingRod: {
+				DisplayName: 莱瓦钓鱼汀
+				Tooltip:
+					'''
+					'非常适合扣人心弦的冒险之旅'
+					一次抛出 5 条线且鱼线不会断裂，有33%的概率不会消耗鱼饵
+					可以在任何液体掉任何品种的鱼且对原版和AFK的鱼兼容
+					血月增加捕获敌人的概率
+					赐予斯卡雷特的祝福
 					'''
 			}
 
@@ -14475,7 +14451,7 @@ Mods: {
 				DisplayName: 飞蛾捕手
 				Tooltip:
 					'''
-					有时候最好是休息一会儿，让恶魔去找他的恶魔们
+					“有时候最好是休息一会儿，让恶魔去找他的恶魔们”
 					可以在熔岩中捕鱼，它的鱼饵在接触液体后不久就能捕鱼
 					'''
 			}
@@ -14484,7 +14460,7 @@ Mods: {
 				DisplayName: 皇室钓竿
 				Tooltip:
 					'''
-					风平浪静的大海造就不了海盗，所以你为什么那么追求它
+					“风平浪静的大海造就不了海盗，所以你为什么那么追求它”
 					它有2%的概率从任何生物群系捕获的任务鱼
 					'''
 			}
@@ -14493,7 +14469,7 @@ Mods: {
 				DisplayName: 幻想妖杆
 				Tooltip:
 					'''
-					'用来捕捉传说中的钓鱼的鱼竿'
+					“用来捕捉传说中的钓鱼的鱼竿”
 					一次抛出4条线，可以在短时间内捕获鱼和攻击近距离的敌人
 					可以在熔岩中捕鱼，线永远不会断，而且自带声纳增益
 					'''
@@ -15465,10 +15441,9 @@ Mods: {
 				DisplayName: 卫星数据收集器
 				Tooltip:
 					'''
-					'曾被设计用来收集卫星的数据'
-					还包含一条语音留言
-					'CLA-0，看到你每秒钟都在进步真是令人印象深刻，我为你感到骄傲'
-					放在物品栏时显示位置和深度
+					“包含一条语音留言'CLA-0，看到你每秒钟都在进步真是令人印象深刻，我为你感到骄傲'。”也许这仍然无法重现过去的的场景
+					放在物品栏并收藏时显示位置和深度
+					可能闪烁着微光
 					'''
 			}
 
@@ -17458,11 +17433,6 @@ Mods: {
 					在充能过程中，其范围和伤害将增加；而在放电时，电弧区域的影响范围将增大
 					当完全充能后，会造成过载伤害；否则将造成常规充能伤害
 					'''
-			}
-
-			RomanCandle: {
-				DisplayName: 罗马蜡烛
-				Tooltip: "'烟花秀！'"
 			}
 
 			ThirdArm: {
@@ -20658,14 +20628,13 @@ Mods: {
 				DisplayName: 量子物理入门
 			}
 
-			ProfessorsPallet: {
-				Tooltip: 每个人都问电磁力的运动，但没人问电磁力的情感
-				DisplayName: 教授的移动履带
-			}
-
-			ProfessorsProcessor: {
-				Tooltip: 安全.收容.保护.
-				DisplayName: 教授的头脑处理器
+			ChainTrack: {
+				Tooltip:
+					'''
+					抵御强风，击退和火块
+					略微降低最大移动速度同时提升下落速度
+					'''
+				DisplayName: 履带
 			}
 
 			SuenoImposible: {
@@ -21166,6 +21135,26 @@ Mods: {
 			Printer: {
 				Tooltip: ""
 				DisplayName: 打印机
+			}
+
+			Wiesnbrau: {
+				Tooltip:
+					'''
+					[c/FF0000:-酒-]
+					'没有谁能在我和一场精彩比赛之间喝一杯啤酒'
+					提高效率 II + 允许召唤额外的助战灵魂
+					生命恢复速度降低1，最大生命值增加 10
+					'''
+				DisplayName: 维斯恩布劳
+			}
+
+			WhimiscalBobber: {
+				DisplayName: Whimiscal Bobber
+				Tooltip:
+					'''
+					'闪耀得如同一颗钻石'
+					充当所有类型的原版液体，用于原版和AFK宠物钓鱼
+					'''
 			}
 		}
 
